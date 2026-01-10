@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BasicEffectStandalone>
 	<BackLink DBID="/Items/Talents/Class/Bomber/status_A3u_Self.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Chicken/Ability_A2.TALENT" Count="2" />
 	<component href="/Effects/Debuffs/Burn/_TrailBomberTRS.PRXY" />
 	<deathType>Manual</deathType>
 	<enableCondition href="" />

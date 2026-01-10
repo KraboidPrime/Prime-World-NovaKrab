@@ -24,19 +24,15 @@
 	</aoeSize>
 	<aoeType>None</aoeType>
 	<applicators>
-		<Item href="/Items/Talents/Level4/G348_TempDefence_PVE.TALENT" id="B66675A9-95DC-40B9-B0C4-70F128A9EB60">
+		<Item href="/Items/Talents/Level4/G348_TempDefence_PVE.TALENT" id="FB84EE3E-DC8D-4A06-AE8C-E0151D0B71FF">
 			<StatusApplicator>
 				<applicators>
-					<Item href="/Items/Talents/Level4/G348_TempDefence_PVE.TALENT" id="54C9BE12-A2FE-4663-88D9-83144B99243B">
-						<TriggerApplicator>
-							<actionsCount>
-								<compiledString></compiledString>
-								<returnType>int</returnType>
-								<sString>0</sString>
-							</actionsCount>
-							<applyTarget>ApplicatorTarget</applyTarget>
-							<behaviorFlags>0</behaviorFlags>
-							<caption>Понижаем урон от монстров</caption>
+					<Item href="/Items/Talents/Level4/G348_TempDefence_PVE.TALENT" id="CD4F7148-A833-476A-9F01-7052142A4BB7">
+						<FlagsApplicator>
+							<applyTarget>AbilityOwner</applyTarget>
+							<behaviorFlags>144</behaviorFlags>
+							<caption>не атакуем</caption>
+							<consumables />
 							<effect>
 								<Item href="" />
 								<Item href="" />
@@ -46,60 +42,25 @@
 								<returnType>bool</returnType>
 								<sString>true</sString>
 							</enabled>
+							<flag>2097156</flag>
 							<formulaName></formulaName>
 							<lifeTime>
-								<compiledString></compiledString>
+								<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
 								<returnType>float</returnType>
-								<sString>-1.0</sString>
+								<sString>3</sString>
 							</lifeTime>
 							<LoggingEvent>-1</LoggingEvent>
-							<playAck>false</playAck>
-							<processor href="/Items/Talents/Level4/G348_TempDefence_PVE.TALENT" id="53E05215-8514-4696-9F1E-29EC54459A93">
-								<EventProcessorDamageTransformer>
-									<abilityFilter>
-										<abilitiesList />
-										<abilityCondition>
-											<compiledString></compiledString>
-											<returnType>bool</returnType>
-											<sString>true</sString>
-										</abilityCondition>
-										<abilityCostMode>Energy</abilityCostMode>
-										<exceptThis>false</exceptThis>
-										<flags>1610614015</flags>
-										<onlySingleTarget>false</onlySingleTarget>
-									</abilityFilter>
-									<add>
-										<compiledString></compiledString>
-										<returnType>float</returnType>
-										<sString>0.0f</sString>
-									</add>
-									<applyTarget>AbilityOwner</applyTarget>
-									<checkSender>2</checkSender>
-									<damageTypeFilter>31</damageTypeFilter>
-									<flags>0</flags>
-									<matchTargetInverted>false</matchTargetInverted>
-									<mul>
-										<compiledString>FRUAAAACAAAAIgAAADUAAABEZWZlbmNlQW1vdW50TW9uc3RlcgBVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcNU8AAADZ6N7h2V382UX8i+VdwwAAAAAAAPA/AAAAAAAAWUA=</compiledString>
-										<returnType>float</returnType>
-										<sString>1-(cDefenceAmountMonster/100)</sString>
-									</mul>
-									<objectFilter>537657376</objectFilter>
-									<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
-									<spell href="" />
-									<treatDelegatedByDelegator>false</treatDelegatedByDelegator>
-								</EventProcessorDamageTransformer>
-							</processor>
 							<providerName></providerName>
 							<startCondition>
 								<compiledString></compiledString>
 								<returnType>bool</returnType>
 								<sString>true</sString>
 							</startCondition>
-							<useAbilityCooldown>false</useAbilityCooldown>
-							<useAbilityOwnerMana>false</useAbilityOwnerMana>
-						</TriggerApplicator>
+							<talents />
+							<useListAs>ListAsException</useListAs>
+						</FlagsApplicator>
 					</Item>
-					<Item href="/Items/Talents/Level4/G348_TempDefence_PVE.TALENT" id="933E48D4-BAE0-463C-94A7-55E823B7C6A1">
+					<Item href="/Items/Talents/Level4/G348_TempDefence_PVE.TALENT" id="84B6A535-644C-412B-AC1D-755A341CB39C">
 						<TriggerApplicator>
 							<actionsCount>
 								<compiledString></compiledString>
@@ -108,7 +69,7 @@
 							</actionsCount>
 							<applyTarget>AbilityOwner</applyTarget>
 							<behaviorFlags>0</behaviorFlags>
-							<caption>Понижаем урон от других источников</caption>
+							<caption>нас не дамажат</caption>
 							<effect>
 								<Item href="" />
 								<Item href="" />
@@ -120,13 +81,13 @@
 							</enabled>
 							<formulaName></formulaName>
 							<lifeTime>
-								<compiledString></compiledString>
+								<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
 								<returnType>float</returnType>
-								<sString>-1.0</sString>
+								<sString>3</sString>
 							</lifeTime>
 							<LoggingEvent>-1</LoggingEvent>
 							<playAck>false</playAck>
-							<processor href="/Items/Talents/Level4/G348_TempDefence_PVE.TALENT" id="6DC7A8F7-80A4-4A87-B5AC-78C8AAA8F8D4">
+							<processor href="/Items/Talents/Level4/G348_TempDefence_PVE.TALENT" id="47714D33-5A57-40A3-AE76-A0246A487ECB">
 								<EventProcessorDamageTransformer>
 									<abilityFilter>
 										<abilitiesList />
@@ -135,9 +96,9 @@
 											<returnType>bool</returnType>
 											<sString>true</sString>
 										</abilityCondition>
-										<abilityCostMode>Energy</abilityCostMode>
+										<abilityCostMode>Any</abilityCostMode>
 										<exceptThis>false</exceptThis>
-										<flags>1610614015</flags>
+										<flags>1073741825</flags>
 										<onlySingleTarget>false</onlySingleTarget>
 									</abilityFilter>
 									<add>
@@ -145,17 +106,17 @@
 										<returnType>float</returnType>
 										<sString>0.0f</sString>
 									</add>
-									<applyTarget>ApplicatorTarget</applyTarget>
-									<checkSender>2</checkSender>
+									<applyTarget>AbilityOwner</applyTarget>
+									<checkSender>0</checkSender>
 									<damageTypeFilter>31</damageTypeFilter>
 									<flags>0</flags>
 									<matchTargetInverted>false</matchTargetInverted>
 									<mul>
-										<compiledString>FRMAAAACAAAAIAAAADMAAABEZWZlbmNlQW1vdW50T3RoZXIAVYvsUYtFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S3DVNAAAA2eje4dld/NlF/IvlXcMAAAAAAADwPwAAAAAAAFlA</compiledString>
+										<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 										<returnType>float</returnType>
-										<sString>1-(cDefenceAmountOther/100)</sString>
+										<sString>0</sString>
 									</mul>
-									<objectFilter>538124767</objectFilter>
+									<objectFilter>2040319</objectFilter>
 									<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
 									<spell href="" />
 									<treatDelegatedByDelegator>false</treatDelegatedByDelegator>
@@ -173,8 +134,8 @@
 					</Item>
 				</applicators>
 				<applyTarget>AbilityOwner</applyTarget>
-				<behaviorFlags>0</behaviorFlags>
-				<caption>Статус Изворотливость</caption>
+				<behaviorFlags>2</behaviorFlags>
+				<caption>Гост</caption>
 				<customCounter>
 					<compiledString></compiledString>
 					<returnType>int</returnType>
@@ -185,8 +146,8 @@
 					<returnType>float</returnType>
 					<sString>-1.0</sString>
 				</customProgress>
-				<description textref="/Items/Talents/Level4/G348_TempDefence_PVE.TALENT_b66675a995dc40b9b0c470f128a9eb60_description.txt" />
-				<dispellPriority>NonDispellable</dispellPriority>
+				<description textref="/Items/Talents/Level4/G348_TempDefence_PVE.TALENT_fb84ee3edc8d4a06ae8ce0151d0b71ff_description.txt" />
+				<dispellPriority>Medium</dispellPriority>
 				<effect>
 					<Item href="/Effects/Buffs/Bubble/_UnstableGreen.EFFT" />
 					<Item href="" />
@@ -200,12 +161,12 @@
 				<formulaName></formulaName>
 				<image href="/UI/Styles/Icons/Talents/_348.ITEX" />
 				<lifeTime>
-					<compiledString>FQkAAAABAAAAFQAAAER1cmF0aW9uAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
 					<returnType>float</returnType>
-					<sString>cDuration</sString>
+					<sString>3</sString>
 				</lifeTime>
 				<LoggingEvent>-1</LoggingEvent>
-				<name textref="/Items/Talents/Level4/G348_TempDefence_PVE.TALENT_b66675a995dc40b9b0c470f128a9eb60_name.txt" />
+				<name textref="/Items/Talents/Level4/G348_TempDefence_PVE.TALENT_fb84ee3edc8d4a06ae8ce0151d0b71ff_name.txt" />
 				<power>0</power>
 				<providerName></providerName>
 				<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
@@ -234,7 +195,28 @@
 	<commonDescription textref="/Items/Talents/Level4/G348_TempDefence_PVE.TALENT_commonDescription.txt" />
 	<compiledDescriptionA textref="" />
 	<compiledDescriptionB textref="" />
-	<conditionFormulas />
+	<conditionFormulas>
+		<Item href="/Items/Talents/Level4/G348_TempDefence_PVE.TALENT" id="EC0B744E-3C08-4748-A5CE-04FC0EB8D275">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRYAAAACAAAAGwAAADEAAABUaDIwMjVfVG9vbHRpcENvdW50ZXIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdUwAAAN/g9sQBdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAhA</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vTh2025_TooltipCounter &gt;= 3</sString>
+				</condition>
+				<name>Bonus3ActiveTh</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Items/Talents/Level4/G348_TempDefence_PVE.TALENT" id="A8E9794E-0B00-4612-A69B-39CD330A08E9">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRYAAAACAAAAGwAAADEAAABUaDIwMjVfVG9vbHRpcENvdW50ZXIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdUwAAAN/g9sQBdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAABxA</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vTh2025_TooltipCounter &gt;= 7</sString>
+				</condition>
+				<name>Bonus7ActiveTh</name>
+			</ConditionFormula>
+		</Item>
+	</conditionFormulas>
 	<conflictingTalents />
 	<constants href="/Items/Talents/Level4/G348_TempDefence_PVE.TALENT" id="8149EFF8-55A4-45FD-B64E-F3E68B9DC588">
 		<UnitConstantsContainer>
@@ -401,6 +383,7 @@
 				<providerName></providerName>
 			</PermanentStatModApplicator>
 		</Item>
+		<Item href="/Items/Talents/Level3/ThirdPinkSet_Prog2025.APLR" />
 	</passiveApplicators>
 	<persistentId>G348</persistentId>
 	<prerequisiteTalents />

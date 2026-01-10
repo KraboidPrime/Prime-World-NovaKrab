@@ -283,7 +283,7 @@
 														<returnType>float</returnType>
 														<sString>cA3_DamagePerHitAxe</sString>
 													</damage>
-													<damageMode>5</damageMode>
+													<damageMode>4</damageMode>
 													<damageType>Material</damageType>
 													<enabled>
 														<compiledString>FS8AAAADAAAASwAAAGoAAACDAAAAQTNfTm90QXhlUmFuZ2UAAElyb25LbmlnaHRfQTN1AABJcm9uS25pZ2h0X0EzdQBVi+yD7BSLRRCLEItNEItCDP/Qi00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ3V34/9DcXfjf4PbEQXpYaBAAAACLTQiLEYtNCIuCqAEAAP/QhcB0KmggAAAAi00IixGLTQiLgqgBAAD/0IlF9ItN9IsRi030i0IE/9CIRfPrBMZF8wAPtk3zhcl0CcdF7AEAAADrB8dF7AAAAACKReyL5V3D</compiledString>
@@ -359,9 +359,9 @@
 					<sString>true</sString>
 				</startCondition>
 				<startOffset>
-					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzcxMPg==</compiledString>
+					<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 					<returnType>float</returnType>
-					<sString>0.2f</sString>
+					<sString>0.0f</sString>
 				</startOffset>
 				<targetSelector href="/Items/Talents/Class/IronKnight/status_A3_AoEDmg.APLR" id="42C1D35B-8895-4211-BFB4-226006616696">
 					<AreaTargetSelector>
@@ -455,9 +455,9 @@
 					<sString>true</sString>
 				</startCondition>
 				<startOffset>
-					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzcxMPg==</compiledString>
+					<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 					<returnType>float</returnType>
-					<sString>0.2f</sString>
+					<sString>0.0f</sString>
 				</startOffset>
 				<targetSelector href="/Items/Talents/Class/IronKnight/status_A3_AoEDmg.APLR" id="7BB79714-6146-4B27-B87D-009C22A803D5">
 					<AreaTargetSelector>

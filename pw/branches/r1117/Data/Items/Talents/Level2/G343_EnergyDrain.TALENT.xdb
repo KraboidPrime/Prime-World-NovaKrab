@@ -60,9 +60,9 @@
 					<UnitConstant>
 						<name>Add_EnergyDrain</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9Bdw5qZwUGamdk/</compiledString>
+							<compiledString>FS0AAAAGAAAANAAAAE0AAAB7AAAAlAAAAMIAAADbAAAARzMyOAAAAABHMzI4AAAAAEczMjkAAAAARzMyOQAAAABHMzMyAAAAAEczMzIAVYvsg+wcaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgIAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wBoEAAAAItNCIsRi00Ii4KoAQAA/9CFwHQqaBgAAACLTQiLEYtNCIuCqAEAAP/QiUX0i030ixGLTfSLQgT/0IhF8+sExkXzAGggAAAAi00IixGLTQiLgqgBAAD/0IXAdCpoKAAAAItNCIsRi00Ii4KoAQAA/9CJReyLTeyLEYtN7ItCBP/QiEXr6wTGResAD7ZN+4PBAWvJEQ+2VfODwgEPr8oPtkXrg8ABD6/IiU3k20Xki+Vdww==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(24.2, 1.7)</sString>
+							<sString>17*(1+tal("G328"))*(1+tal("G329"))*(1+tal("G332"))</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -109,36 +109,6 @@
 	<name textref="/Items/Talents/Level2/G343_EnergyDrain.TALENT_name.txt" />
 	<node></node>
 	<passiveApplicators>
-		<Item href="/Items/Talents/Level2/G343_EnergyDrain.TALENT" id="58F10407-D7D4-4ED3-AE2A-4BB316F0594F">
-			<PermanentStatModApplicator>
-				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>Add_EnergyDrain</caption>
-				<customApplyType>None</customApplyType>
-				<enabled>
-					<compiledString></compiledString>
-					<returnType>bool</returnType>
-					<sString>true</sString>
-				</enabled>
-				<formulaName></formulaName>
-				<LoggingEvent>-1</LoggingEvent>
-				<modifier>
-					<addValue>
-						<compiledString>FRAAAAABAAAAHAAAAEFkZF9FbmVyZ3lEcmFpbgBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
-						<returnType>float</returnType>
-						<sString>cAdd_EnergyDrain</sString>
-					</addValue>
-					<multValue>
-						<compiledString></compiledString>
-						<returnType>float</returnType>
-						<sString>1.0f</sString>
-					</multValue>
-					<stat>EnergyDrain</stat>
-					<topModifier>false</topModifier>
-					<variable></variable>
-				</modifier>
-				<providerName></providerName>
-			</PermanentStatModApplicator>
-		</Item>
 		<Item href="/Items/Talents/TalentSet2/G328_FormCounter.APLR" />
 		<Item href="/Items/Talents/Level2/G343_EnergyDrain.TALENT" id="595E765E-3313-46D8-8B1F-E5E51B008612">
 			<PermanentStatModApplicator>
@@ -169,6 +139,118 @@
 				</modifier>
 				<providerName></providerName>
 			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level2/G343_EnergyDrain.TALENT" id="E9837AE7-5D76-4C4D-9E52-1B914D50EA39">
+			<AbilityUpgradeApplicator>
+				<applicators>
+					<Item href="/Items/Talents/Level2/G343_EnergyDrain.TALENT" id="8888F02C-54D4-44F3-9EDD-EEC5BF2CBA11">
+						<DamageApplicator>
+							<applyTarget>ApplicatorTarget</applyTarget>
+							<cancelInvisibility>false</cancelInvisibility>
+							<caption></caption>
+							<damage>
+								<compiledString>FRAAAAABAAAAHAAAAEFkZF9FbmVyZ3lEcmFpbgBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+								<returnType>float</returnType>
+								<sString>cAdd_EnergyDrain</sString>
+							</damage>
+							<damageMode>0</damageMode>
+							<damageType>Mana</damageType>
+							<enabled>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</enabled>
+							<formulaName></formulaName>
+							<LoggingEvent>-1</LoggingEvent>
+							<providerName></providerName>
+							<timeLimiter>-1</timeLimiter>
+							<uiEvent href="" />
+						</DamageApplicator>
+					</Item>
+				</applicators>
+				<applyCount>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</applyCount>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>152</behaviorFlags>
+				<caption>Эмулятор кражи маны</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FYAAAAAKAAAAhwAAAKAAAADaAAAA8wAAAC0BAABGAQAAgAEAAJkBAADPAQAA6AEAAEd1bm5lcl9BMAAAAEd1bm5lcl9BMAAAAEd1bnNsaW5nZXJfQTAAAABHdW5zbGluZ2VyX0EwAAAAU2hhZG93X0EwAAAAU2hhZG93X0EwAAAARmx1ZmZ5X0EwAAAARmx1ZmZ5X0EwAAAASW52ZW50b3JfQTAASW52ZW50b3JfQTAAVYvsg+wsaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgMAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hckPhU0BAABoGAAAAItVCIsCi00Ii5CoAQAA/9KFwHQqaCgAAACLRQiLEItNCIuCqAEAAP/QiUX0i030ixGLTfSLQgT/0IhF8+sExkXzAA+2TfOFyQ+F+gAAAGg4AAAAi1UIiwKLTQiLkKgBAAD/0oXAdCpoRAAAAItFCIsQi00Ii4KoAQAA/9CJReyLTeyLEYtN7ItCBP/QiEXr6wTGResAD7ZN64XJD4WnAAAAaFAAAACLVQiLAotNCIuQqAEAAP/ShcB0KmhcAAAAi0UIixCLTQiLgqgBAAD/0IlF5ItN5IsRi03ki0IE/9CIRePrBMZF4wAPtk3jhcl1WGhoAAAAi1UIiwKLTQiLkKgBAAD/0oXAdCpodAAAAItFCIsQi00Ii4KoAQAA/9CJRdyLTdyLEYtN3ItCBP/QiEXb6wTGRdsAD7ZN24XJdQnHRdQAAAAA6wfHRdQBAAAAikXUi+Vdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("Gunner_A0") || tal("Gunslinger_A0") || tal("Shadow_A0") || tal("Fluffy_A0") || tal("Inventor_A0")</sString>
+				</enabled>
+				<flags>0</flags>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<persistentApplicators />
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<talents />
+				<targetAbility>BaseAttack</targetAbility>
+				<useListAs>ListAsRule</useListAs>
+			</AbilityUpgradeApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level2/G343_EnergyDrain.TALENT" id="07B51CD1-F4F2-4618-85A3-C8FDDBAEA3B2">
+			<StatModApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>152</behaviorFlags>
+				<caption>Add_EnergyDrain</caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FRAAAAABAAAAHAAAAEFkZF9FbmVyZ3lEcmFpbgBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+						<returnType>float</returnType>
+						<sString>cAdd_EnergyDrain</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>EnergyDrain</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
 		</Item>
 	</passiveApplicators>
 	<persistentId>G343</persistentId>

@@ -139,9 +139,9 @@
 					<UnitConstant>
 						<name>G349_TalentCD</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAA0Qw==</compiledString>
+							<compiledString>FSQAAAAGAAAAKwAAAEEAAABdAAAAcwAAAI8AAAClAAAARzM1Nl9BY3RpdmUARzM1N19BY3RpdmUARzM1NF9BY3RpdmUAVYvsg+wQaAAAAACLRQiLEItNCIuCiAEAAP/Q3B3nAAAA3+D2xEF1CcdF/AEAAADrB8dF/AAAAABoDAAAAItNCIsRi00Ii4KIAQAA/9DcHecAAADf4PbEQXUJx0X4AQAAAOsHx0X4AAAAAGgYAAAAi00IixGLTQiLgogBAAD/0Nwd5wAAAN/g9sRBdQnHRfQBAAAA6wfHRfQAAAAAi038a8k8urQAAAAr0YtF+GvAPCvQi030a8k8A9GJVfDbRfCL5V3DAAAAAAAAAAA=</compiledString>
 							<returnType>float</returnType>
-							<sString>180</sString>
+							<sString>180 - 60*(sender.vG356_Active &gt; 0 ? 1 : 0) - 60*(sender.vG357_Active &gt; 0 ? 1 : 0) + 60*(sender.vG354_Active &gt; 0 ? 1 : 0)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -160,9 +160,9 @@
 					<UnitConstant>
 						<name>DispelCondition</name>
 						<var>
-							<compiledString>FRgAAAAEAAAAHQAAADMAAAA/AAAAVQAAAEczNTZfQWN0aXZlAEczNTdfQWN0aXZlAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHXcAAADf4PbEQXQraAwAAACLTQiLEYtNCIuCiAEAAP/Q3B13AAAA3+D2xEF0CcdF/AAAAADrB8dF/AEAAADbRfyL5V3DAAAAAAAAAAA=</compiledString>
+							<compiledString>FQwAAAACAAAAEQAAACcAAABHMzU0X0FjdGl2ZQBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1JAAAA3+D2xEF1CcdF/AEAAADrB8dF/AAAAADbRfyL5V3DAAAAAAAAAAA=</compiledString>
 							<returnType>float</returnType>
-							<sString>sender.vG356_Active &gt; 0 || sender.vG357_Active &gt; 0</sString>
+							<sString>sender.vG354_Active &gt; 0</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -218,24 +218,14 @@
 				</Item>
 				<Item href="/Items/Talents/TalentSet3/const_G349_MaxForm" />
 				<Item href="/Items/Talents/TalentSet3/const_G349_AddHeal" />
-				<Item href="/Items/Talents/Level2/G349_SelfHeal.TALENT" id="C7155E6C-5195-434E-92A2-AEF0603DE007">
-					<UnitConstant>
-						<name>Dispell_Number</name>
-						<var>
-							<compiledString>FTUAAAAGAAAAPAAAAFIAAABmAAAAggAAAJgAAACsAAAARzM1Nl9BY3RpdmUARGlzcGVsU2luZ2xlAAAAAEczNTdfQWN0aXZlAERpc3BlbFNpbmdsZQBVi+yD7AxoAAAAAItFCIsQi00Ii4KIAQAA/9DcHdsAAADf4PbEQXUfi00MUYtVCFJoDAAAAItFEIsQi00Qi0JQ/9DZXfzrBdnu2V38aBwAAACLTQiLEYtNCIuCiAEAAP/Q3B3bAAAA3+D2xEF1H4tNDFGLVQhSaCgAAACLRRCLEItNEItCUP/Q2V346wXZ7tld+NlF/NhF+Nld9NlF9IvlXcMAAAAAAAAAAAAAAAA=</compiledString>
-							<returnType>float</returnType>
-							<sString>(sender.vG356_Active &gt; 0 ? cDispelSingle : 0) + (sender.vG357_Active &gt; 0 ? cDispelSingle : 0)</sString>
-						</var>
-					</UnitConstant>
-				</Item>
 				<Item href="/Items/Talents/TalentSet3/const_G349_DispelSingle" />
 				<Item href="/Items/Talents/Level2/G349_SelfHeal.TALENT" id="40865FCD-19FF-4D94-86D2-009E4C112B6E">
 					<UnitConstant>
 						<name>BaseHeal</name>
 						<var>
-							<compiledString>FQAAAAACAAEABgAAABAAAABcAAAAVYvsUdkFNgAAANkcJFHZBTIAAADZHCSLRRCLEItNEItCbP/QUdkcJOgNAAAAg8QEXcMAAHpDAACMQVWL7FHZRQjZHCToBQAAAIPEBF3DVYvsUdlFCIPsCN0cJOiU////g8QI2V382UX8i+Vdww==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQw==</compiledString>
 							<returnType>float</returnType>
-							<sString>floor(refineScale(250, 17.5))</sString>
+							<sString>400</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -266,6 +256,16 @@
 							<compiledString>FSwAAAAEAAAAOQAAAFEAAAB6AAAAkAAAAFBhbnRoZXJJc0FsaXZlAABUYXJnZXQAAERhbWFnZUluY29tZVBlcmNlbnQAVYvsg+wUagGLRRBQaAAAAACLTQiLEYtNCIuCnAEAAP/QiUX8aBAAAACLTfyLEYtN/ItCTP/QiUX4i034ixGLTfiLAv/Qi00MUYtVCFJoGAAAAItFEIsQi00Qi0JQ3V3w/9DcDaEAAADcTfDZXezZReyL5V3DexSuR+F6hD8=</compiledString>
 							<returnType>float</returnType>
 							<sString>sender.applPantherIsAlive(UNIT).oTarget.Life * (cDamageIncomePercent * 0.01)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Level2/G349_SelfHeal.TALENT" id="BD22349D-73ED-4E37-B2B3-B549050167A7">
+					<UnitConstant>
+						<name>HealRemains</name>
+						<var>
+							<compiledString>FSYAAAADAAAAMwAAAFEAAABrAAAASGVhbEFtb3VudAAARzM0OV9UcmlnZ2VyAAAAAHJhd0RhbWFnZQBVi+yD7BBqAItFEFBoDAAAAItNDIsRi00Mi4KcAQAA/9CJRfxR2e7ZHCRoHAAAAItN/IsRi038i0JU/9CLTQxRi1UIUmgAAAAAi0UQixCLTRCLQlDdXfT/0Nxl9Nld8NlF8FHZHCToCwAAAIPECIvlXcMAAAAAVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
+							<returnType>float</returnType>
+							<sString>max(cHealAmount - pSecond-&gt;FindApplicator("G349_Trigger", pMisc, GLOBAL)-&gt;GetVariable("rawDamage"), 0)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

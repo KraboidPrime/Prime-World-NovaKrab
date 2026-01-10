@@ -46,9 +46,9 @@
 			<levelUpgrades />
 			<statId>Intellect</statId>
 			<value>
-				<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQQ==</compiledString>
+				<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 				<returnType>float</returnType>
-				<sString>12</sString>
+				<sString>0</sString>
 			</value>
 		</Item>
 		<Item>
@@ -78,9 +78,9 @@
 			<levelUpgrades />
 			<statId>AttackSpeed</statId>
 			<value>
-				<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+				<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
 				<returnType>float</returnType>
-				<sString>0</sString>
+				<sString>1</sString>
 			</value>
 		</Item>
 		<Item>

@@ -13,9 +13,9 @@
 						<lifeTime>0</lifeTime>
 						<mode>Append</mode>
 						<sceneObjects>
-							<Item href="/Terrain/Trees/_01N.SOBJ" />
-							<Item href="/Terrain/Trees/_01A.SOBJ" />
-							<Item href="/Terrain/Trees/Sakura3.SOBJ" />
+							<Item href="/Terrain/Trees/_02NSnow.SOBJ" />
+							<Item href="/Terrain/Trees/_02ASnow.SOBJ" />
+							<Item href="/Terrain/Trees/_02BSnow.SOBJ" />
 						</sceneObjects>
 						<visibilityMode>AsBuilding</visibilityMode>
 					</UnitSceneObjectModify>
@@ -27,9 +27,9 @@
 						<lifeTime>0</lifeTime>
 						<mode>Append</mode>
 						<sceneObjects>
-							<Item href="/Terrain/Trees/_02N.SOBJ" />
-							<Item href="/Terrain/Trees/_02A.SOBJ" />
-							<Item href="/Terrain/Trees/_02B.SOBJ" />
+							<Item href="/Terrain/Trees/_02NSnow.SOBJ" />
+							<Item href="/Terrain/Trees/_02ASnow.SOBJ" />
+							<Item href="/Terrain/Trees/_02BSnow.SOBJ" />
 						</sceneObjects>
 						<visibilityMode>AsBuilding</visibilityMode>
 					</UnitSceneObjectModify>
@@ -41,9 +41,9 @@
 						<lifeTime>0</lifeTime>
 						<mode>Append</mode>
 						<sceneObjects>
-							<Item href="/Terrain/Trees/_03N.SOBJ" />
-							<Item href="/Terrain/Trees/_01A.SOBJ" />
-							<Item href="/Terrain/Trees/_03B.SOBJ" />
+							<Item href="/Terrain/Trees/_02NSnow.SOBJ" />
+							<Item href="/Terrain/Trees/_02ASnow.SOBJ" />
+							<Item href="/Terrain/Trees/_02BSnow.SOBJ" />
 						</sceneObjects>
 						<visibilityMode>AsBuilding</visibilityMode>
 					</UnitSceneObjectModify>
@@ -55,9 +55,9 @@
 						<lifeTime>0</lifeTime>
 						<mode>Append</mode>
 						<sceneObjects>
-							<Item href="/Terrain/Trees/_04N.SOBJ" />
-							<Item href="/Terrain/Trees/_04A.SOBJ" />
-							<Item href="/Terrain/Trees/_04B.SOBJ" />
+							<Item href="/Terrain/Trees/_02NSnow.SOBJ" />
+							<Item href="/Terrain/Trees/_02ASnow.SOBJ" />
+							<Item href="/Terrain/Trees/_02BSnow.SOBJ" />
 						</sceneObjects>
 						<visibilityMode>AsBuilding</visibilityMode>
 					</UnitSceneObjectModify>
@@ -69,9 +69,9 @@
 						<lifeTime>0</lifeTime>
 						<mode>Append</mode>
 						<sceneObjects>
-							<Item href="/Terrain/Trees/_05N.SOBJ" />
-							<Item href="/Terrain/Trees/_05A.SOBJ" />
-							<Item href="/Terrain/Trees/_05B.SOBJ" />
+							<Item href="/Terrain/Trees/_02NSnow.SOBJ" />
+							<Item href="/Terrain/Trees/_02ASnow.SOBJ" />
+							<Item href="/Terrain/Trees/_02BSnow.SOBJ" />
 						</sceneObjects>
 						<visibilityMode>AsBuilding</visibilityMode>
 					</UnitSceneObjectModify>

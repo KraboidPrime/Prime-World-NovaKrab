@@ -10,7 +10,7 @@
 					<sString>0.0f</sString>
 				</addValue>
 				<applyTarget>ApplicatorTarget</applyTarget>
-				<behaviorFlags>0</behaviorFlags>
+				<behaviorFlags>216</behaviorFlags>
 				<caption>уменьшить кд абилок</caption>
 				<effect>
 					<Item href="" />
@@ -72,9 +72,9 @@
 		<Item href="" />
 	</effect>
 	<enabled>
-		<compiledString>FREAAAACAAAAHgAAADEAAABBMF9BcnNlbmFsU3R1Y2tzAFWL7FGLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0twdUwAAAN/g9sQBdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAPA/</compiledString>
+		<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
 		<returnType>bool</returnType>
-		<sString>cA0_ArsenalStucks &gt;= 1</sString>
+		<sString>true</sString>
 	</enabled>
 	<flags>64</flags>
 	<formulaName></formulaName>

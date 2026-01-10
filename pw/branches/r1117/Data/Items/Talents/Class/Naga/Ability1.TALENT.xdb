@@ -16,7 +16,6 @@
 	<BackLink DBID="/Test/Talents/Naga/Elite_Will.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Naga/Epic_Str.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Naga/Epic_Will.TALENTSET" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Naga/Ability_A1_SUP.TALENT" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -396,9 +395,9 @@
 															<applicator href="/Items/Talents/Class/Naga/Ability1.TALENT" id="0FF3E0A4-DA79-4D82-908E-71B71F1A67BD">
 																<HealApplicator parent="/GameLogic/GeneralApplicators/LifeDrainEmulator.APLR">
 																	<amount>
-																		<compiledString>FSYAAAACAAAANQAAAEsAAABMaWZlRHJhaW5UYXJnZXRzQ2FwAEExX1RhcmdldHNDb3VudGVyAFWL7IPsDItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SUdkcJGgUAAAAi0UIixCLTQiLgogBAAD/0FHZHCToIAAAAIPECItNCIsRi00Ii0I43V34/9DcTfjZXfTZRfSL5V3DVYvsUdlFCNlFDN7Z3+D2xEF1CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
+																		<compiledString>FSYAAAACAAAANQAAAEsAAABMaWZlRHJhaW5UYXJnZXRzQ2FwAEExX1RhcmdldHNDb3VudGVyAFWL7IPsDItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SUdkcJGgUAAAAi0UIixCLTQiLgogBAAD/0FHZHCToXwAAAIPECItNCIsRi00Ii4K8AAAA3V34/9BR2Rwki00IixGLTQiLgrgAAAD/0FHZHCToVAAAAIPEBNkcJItNCIsRi00Ii0I4/9BR2Rwk6BAAAACDxAjcTfjZXfTZRfSL5V3DVYvsUdlFCNlFDN7Z3+D2xEF1CNlFCNld/OsG2UUM2V382UX8i+Vdw1WL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
 																		<returnType>float</returnType>
-																		<sString>min( sender.vA1_TargetsCounter, cLifeDrainTargetsCap) * sLifeDrain</sString>
+																		<sString>min( sender.vA1_TargetsCounter, cLifeDrainTargetsCap) * min(sLifeDrain, max(sBaseStrength, sBaseIntellect))</sString>
 																	</amount>
 																	<caption> - Эмулятор вампиризма (parented)</caption>
 																</HealApplicator>

@@ -5,7 +5,7 @@
 	<BackLink DBID="/Items/Talents/Highlander.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Highlander/Ability4.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Highlander/Ability4_2.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Highlander/LastHitTrigger.APLR" Count="6" />
+	<BackLink DBID="/Items/Talents/Class/Highlander/LastHitTrigger.APLR" Count="8" />
 	<BackLink DBID="/Items/Talents/Level2/G567_CasterBase.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset5_7_Ultimate/Status_Redset5_7_Cooldown.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/Highlander_Mighty.TALENTSET" Count="1" />
@@ -129,9 +129,9 @@
 					<UnitConstant>
 						<name>A4PassiveManaCost</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABcQw==</compiledString>
+							<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 							<returnType>float</returnType>
-							<sString>220</sString>
+							<sString>0</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -139,9 +139,9 @@
 					<UnitConstant>
 						<name>A4EnergyDegen</name>
 						<var>
-							<compiledString>FRUAAAACAAAANAAAAFgAAABBNEVuZXJneURlZ2VuUGVyY2VudABVi+yD7AyLRQiLEItNCIuCtAEAAP/Qi00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ3V34/9DcTfjZXfTZRfRR2RwkUdkFawAAANkcJOgLAAAAg8QIi+VdwwAAyEJVi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
+							<compiledString>FQAAAAACAAAAEwAAABkAAABVi+xRi0UIixCLTQiLQhD/0NwNLwAAANwFJwAAANld/NlF/IvlXcMAAAAAAABZQHsUrkfhepQ/</compiledString>
 							<returnType>float</returnType>
-							<sString>max(100, sCoreEnergy * cA4EnergyDegenPercent)</sString>
+							<sString>100 + 0.02*sMaxEnergy</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -149,9 +149,9 @@
 					<UnitConstant>
 						<name>A4AddMoveSpd</name>
 						<var>
-							<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>0</sString>
+							<sString>30</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -179,9 +179,9 @@
 					<UnitConstant>
 						<name>A4Damage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUEAAADZHCRR2QU9AAAA2RwkagGLRQiLEItNCItCDP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACEQgAA60M=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUEAAADZHCRR2QU9AAAA2RwkagGLRQiLEItNCItCDP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAABGQwBAsEQ=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScaleCustomLife(sMaxLife, 66, 470)</sString>
+							<sString>damageScaleCustomLife(sMaxLife, 198, 1410)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -189,9 +189,9 @@
 					<UnitConstant>
 						<name>A4HealReviveNonNative</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQQ==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAMQg==</compiledString>
 							<returnType>float</returnType>
-							<sString>20</sString>
+							<sString>35</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -199,9 +199,9 @@
 					<UnitConstant>
 						<name>A4HealReviveNative</name>
 						<var>
-							<compiledString>FRYAAAACAAAAIwAAADYAAABBNEhlYWxSZXZpdmVOb25OYXRpdmUAVYvsUYtFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S3AVEAAAA2V382UX8i+VdwwAAAAAAACBA</compiledString>
+							<compiledString>FRYAAAACAAAAIwAAADYAAABBNEhlYWxSZXZpdmVOb25OYXRpdmUAVYvsUYtFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S3AVEAAAA2V382UX8i+VdwwAAAAAAAC5A</compiledString>
 							<returnType>float</returnType>
-							<sString>cA4HealReviveNonNative + 8</sString>
+							<sString>cA4HealReviveNonNative + 15</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -225,16 +225,6 @@
 						</var>
 					</UnitConstant>
 				</Item>
-				<Item href="/Items/Talents/Class/Highlander/Ability4.TALENT" id="F3E4302B-601D-48E9-8B25-A54E0B99EF07">
-					<UnitConstant>
-						<name>Stun_Duration</name>
-						<var>
-							<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
-							<returnType>float</returnType>
-							<sString>1</sString>
-						</var>
-					</UnitConstant>
-				</Item>
 				<Item href="/Items/Talents/Class/Highlander/Ability4.TALENT" id="535ACE0E-5F85-4DA3-B0DE-E310609857F6">
 					<UnitConstant>
 						<name>UltimateConstant</name>
@@ -242,6 +232,36 @@
 							<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
 							<returnType>float</returnType>
 							<sString>1</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Highlander/Ability4.TALENT" id="449F8931-7C15-412E-90C7-3CB4A659B87A">
+					<UnitConstant>
+						<name>DAMAGE_EM</name>
+						<var>
+							<compiledString>FQkAAAACAAAAIAAAADkAAABNZWNoX2h1eQBVi+yD7AyLRQiLEItNCIuCuAAAAP/QaAAAAACLTQiLEYtNCIuCiAEAAN1d+P/Q3DVWAAAA2eje4dxN+Nld9NlF9IvlXcMAAAAAAADwPwAAAAAAAFlA</compiledString>
+							<returnType>float</returnType>
+							<sString>sBaseStrength*(1- sender.vMech_huy/100)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Highlander/Ability4.TALENT" id="D46ECE87-21D9-4BAF-9D11-82388375BB7B">
+					<UnitConstant>
+						<name>DecMoveSpeed_WithReduction</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQQ==</compiledString>
+							<returnType>float</returnType>
+							<sString>30</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Highlander/Ability4.TALENT" id="C516471E-3253-432C-909E-DF0B68C8809D">
+					<UnitConstant>
+						<name>Slow_Duration</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
+							<returnType>float</returnType>
+							<sString>3</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -253,9 +273,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAWQw==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAA0Qw==</compiledString>
 		<returnType>float</returnType>
-		<sString>150</sString>
+		<sString>180</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>

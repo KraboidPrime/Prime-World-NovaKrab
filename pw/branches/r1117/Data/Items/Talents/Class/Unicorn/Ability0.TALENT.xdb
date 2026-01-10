@@ -72,9 +72,9 @@
 					<UnitConstant>
 						<name>A0_ReturnDamage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCRAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAADgQAAAKEI=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCRAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAAoQQAAfEI=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(sWill, 7, 42)</sString>
+							<sString>damageScale(sWill, 10.5, 63)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

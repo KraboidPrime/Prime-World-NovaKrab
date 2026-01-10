@@ -92,9 +92,9 @@
 					<UnitConstant>
 						<name>A0_EnemyHeroes</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQQ==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>20</sString>
+							<sString>10</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -102,9 +102,9 @@
 					<UnitConstant>
 						<name>A0_AddMaxEnergy</name>
 						<var>
-							<compiledString>FRsAAAADAAAAJgAAADAAAABlAAAAQTNfU1VQX01heEVuZXJneU11bHRpcGxpZXIAVYvsg+wMagFR2QWKAAAA2RwkUdkFhgAAANkcJGoAi0UIixCLTQiLgjQBAAD/0FHZHCRqAYtNEIsRi00Qi0Jg/9CLTQxRi1UIUmgAAAAAi0UQixCLTRCLQlDdXfj/0NxN+Nld9NlF9IvlXcMAAJhBAAAPQw==</compiledString>
+							<compiledString>FRsAAAADAAAAJgAAADAAAABlAAAAQTNfU1VQX01heEVuZXJneU11bHRpcGxpZXIAVYvsg+wMagFR2QWKAAAA2RwkUdkFhgAAANkcJGoAi0UIixCLTQiLgrwAAAD/0FHZHCRqAYtNEIsRi00Qi0Jg/9CLTQxRi1UIUmgAAAAAi0UQixCLTRCLQlDdXfj/0NxN+Nld9NlF9IvlXcMAAJhBAAAPQw==</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(sIntellect,19,143) * cA3_SUP_MaxEnergyMultiplier</sString>
+							<sString>damageScale(sBaseIntellect,19,143) * cA3_SUP_MaxEnergyMultiplier</sString>
 						</var>
 					</UnitConstant>
 				</Item>

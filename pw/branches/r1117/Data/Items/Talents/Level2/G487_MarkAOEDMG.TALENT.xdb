@@ -34,6 +34,270 @@
 	<aoeType>Disk</aoeType>
 	<applicators>
 		<Item href="/Items/Talents/TalentKits/RedSet2_4_Blow/status_G487_MarkDmg.APLR" />
+		<Item href="/Items/Talents/Level2/G487_MarkAOEDMG.TALENT" id="6A4148DD-8432-457B-B02F-E428DB41577C">
+			<SpellApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>одна</caption>
+				<enabled>
+					<compiledString>FRgAAAAEAAAAHQAAADMAAAA/AAAAVQAAAEc0ODhfQWN0aXZlAEc0OTBfQWN0aXZlAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHXcAAADf4PbEQXUraAwAAACLTQiLEYtNCIuCiAEAAP/Q3B13AAAA3+D2xEF0CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
+					<returnType>bool</returnType>
+					<sString>(sender.vG488_Active &gt; 0) &amp;&amp; !(sender.vG490_Active &gt; 0)</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<spell href="/Items/Talents/Level2/G487_MarkAOEDMG.TALENT" id="94A694EB-79A2-45A9-BB51-8DC216350EB7">
+					<Spell>
+						<applicators>
+							<Item href="/Items/Talents/TalentKits/RedSet2_4_Blow/status_G487_MarkDmg.APLR" />
+						</applicators>
+						<dispatch href="/Items/Talents/Level2/G487_MarkAOEDMG.TALENT" id="49283B8C-CBE1-457C-8712-D89596FAD01A">
+							<DispatchImmediate>
+								<alwaysApply>false</alwaysApply>
+								<applyEffect>
+									<Item href="" />
+									<Item href="" />
+								</applyEffect>
+								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+								<applyEffectOrientation>Default</applyEffectOrientation>
+								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+								<dieAfterApply>true</dieAfterApply>
+								<dispatchEffect>
+									<Item href="" />
+									<Item href="" />
+								</dispatchEffect>
+								<flags>0</flags>
+								<instantApply>true</instantApply>
+							</DispatchImmediate>
+						</dispatch>
+					</Spell>
+				</spell>
+				<spellTarget>ApplicatorTarget</spellTarget>
+				<targetSelector href="/Items/Talents/Level2/G487_MarkAOEDMG.TALENT" id="D02212EE-8469-4F4B-B25F-9F8905DE7AEF">
+					<CountingTargetSelector>
+						<enableSorting>false</enableSorting>
+						<flags>1</flags>
+						<heroesFirst>true</heroesFirst>
+						<mode>Normal</mode>
+						<order>Decreasing</order>
+						<sortingValue>
+							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>1</sString>
+						</sortingValue>
+						<targetSelector href="/Items/Talents/Level2/G487_MarkAOEDMG.TALENT" id="9DDF462B-8BB8-48B8-8A99-D5753085CFB0">
+							<ConditionTargetSelector>
+								<condition>
+									<compiledString>FSAAAAACAAAAKwAAAEsAAABOZXV0cmFsU3RhdHVzAAAARzQ4N19NYXJrQW9FRE1HAFWL7FFqAItFEFBoAAAAAItNDIsRi00Mi4KcAQAA/9A7RRB1KWoAi00QUWgQAAAAi1UMiwKLTQyLkJwBAAD/0jtFEHUJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcM=</compiledString>
+									<returnType>bool</returnType>
+									<sString>receiver.FindApplicator("NeutralStatus", pMisc, GLOBAL) == pMisc &amp;&amp; receiver.FindApplicator("G487_MarkAoEDMG", pMisc, GLOBAL) == pMisc</sString>
+								</condition>
+								<flags>0</flags>
+								<mode>Normal</mode>
+								<targetSelector href="/Items/Talents/Level2/G487_MarkAOEDMG.TALENT" id="791703C0-584E-4192-BD78-6E17B3CE150B">
+									<AreaTargetSelector>
+										<absolutePosition>
+											<x>0</x>
+											<y>0</y>
+										</absolutePosition>
+										<flags>0</flags>
+										<mode>Normal</mode>
+										<range>
+											<compiledString>FQoAAAABAAAAFgAAAEJsb3dSYW5nZQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+											<returnType>float</returnType>
+											<sString>cBlowRange</sString>
+										</range>
+										<targetFilter>538705983</targetFilter>
+										<targetSelector href="" />
+									</AreaTargetSelector>
+								</targetSelector>
+							</ConditionTargetSelector>
+						</targetSelector>
+						<targetsNumber>
+							<compiledString>FQAAAAAAAAAAVYvsuAEAAABdww==</compiledString>
+							<returnType>int</returnType>
+							<sString>1</sString>
+						</targetsNumber>
+					</CountingTargetSelector>
+				</targetSelector>
+			</SpellApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level2/G487_MarkAOEDMG.TALENT" id="1B8F25AF-AA05-49D5-A95B-BEA7148C5574">
+			<SpellApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>две</caption>
+				<enabled>
+					<compiledString>FRgAAAAEAAAAHQAAADMAAAA/AAAAVQAAAEc0ODhfQWN0aXZlAEc0OTBfQWN0aXZlAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHXcAAADf4PbEQXQraAwAAACLTQiLEYtNCIuCiAEAAP/Q3B13AAAA3+D2xEF1CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
+					<returnType>bool</returnType>
+					<sString>!(sender.vG488_Active &gt; 0) &amp;&amp; (sender.vG490_Active &gt; 0)</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<spell href="/Items/Talents/Level2/G487_MarkAOEDMG.TALENT" id="92D3A313-D22E-44FC-ACD8-9BC51114E71C">
+					<Spell>
+						<applicators>
+							<Item href="/Items/Talents/TalentKits/RedSet2_4_Blow/status_G487_MarkDmg.APLR" />
+						</applicators>
+						<dispatch href="/Items/Talents/Level2/G487_MarkAOEDMG.TALENT" id="CCFA8335-8041-4F5C-86DA-3B2B4E2D2C3B">
+							<DispatchImmediate>
+								<alwaysApply>false</alwaysApply>
+								<applyEffect>
+									<Item href="" />
+									<Item href="" />
+								</applyEffect>
+								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+								<applyEffectOrientation>Default</applyEffectOrientation>
+								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+								<dieAfterApply>true</dieAfterApply>
+								<dispatchEffect>
+									<Item href="" />
+									<Item href="" />
+								</dispatchEffect>
+								<flags>0</flags>
+								<instantApply>true</instantApply>
+							</DispatchImmediate>
+						</dispatch>
+					</Spell>
+				</spell>
+				<spellTarget>ApplicatorTarget</spellTarget>
+				<targetSelector href="/Items/Talents/Level2/G487_MarkAOEDMG.TALENT" id="B01E078C-58F9-4636-8E82-6D7B4878FBAC">
+					<CountingTargetSelector>
+						<enableSorting>false</enableSorting>
+						<flags>1</flags>
+						<heroesFirst>true</heroesFirst>
+						<mode>Normal</mode>
+						<order>Decreasing</order>
+						<sortingValue>
+							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>1</sString>
+						</sortingValue>
+						<targetSelector href="/Items/Talents/Level2/G487_MarkAOEDMG.TALENT" id="AAFF0C3A-6837-4E36-96BE-6F84C463B5EC">
+							<ConditionTargetSelector>
+								<condition>
+									<compiledString>FSAAAAACAAAAKwAAAEsAAABOZXV0cmFsU3RhdHVzAAAARzQ4N19NYXJrQW9FRE1HAFWL7FFqAItFEFBoAAAAAItNDIsRi00Mi4KcAQAA/9A7RRB1KWoAi00QUWgQAAAAi1UMiwKLTQyLkJwBAAD/0jtFEHUJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcM=</compiledString>
+									<returnType>bool</returnType>
+									<sString>receiver.FindApplicator("NeutralStatus", pMisc, GLOBAL) == pMisc &amp;&amp; receiver.FindApplicator("G487_MarkAoEDMG", pMisc, GLOBAL) == pMisc</sString>
+								</condition>
+								<flags>0</flags>
+								<mode>Normal</mode>
+								<targetSelector href="/Items/Talents/Level2/G487_MarkAOEDMG.TALENT" id="3F979EE7-3FA9-4A31-9D98-8C515E884732">
+									<AreaTargetSelector>
+										<absolutePosition>
+											<x>0</x>
+											<y>0</y>
+										</absolutePosition>
+										<flags>0</flags>
+										<mode>Normal</mode>
+										<range>
+											<compiledString>FQoAAAABAAAAFgAAAEJsb3dSYW5nZQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+											<returnType>float</returnType>
+											<sString>cBlowRange</sString>
+										</range>
+										<targetFilter>538705983</targetFilter>
+										<targetSelector href="" />
+									</AreaTargetSelector>
+								</targetSelector>
+							</ConditionTargetSelector>
+						</targetSelector>
+						<targetsNumber>
+							<compiledString>FQAAAAAAAAAAVYvsuAIAAABdww==</compiledString>
+							<returnType>int</returnType>
+							<sString>2</sString>
+						</targetsNumber>
+					</CountingTargetSelector>
+				</targetSelector>
+			</SpellApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level2/G487_MarkAOEDMG.TALENT" id="FE561C3E-CE69-4F94-B236-99F85F2E69E5">
+			<SpellApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>три</caption>
+				<enabled>
+					<compiledString>FRgAAAAEAAAAHQAAADMAAAA/AAAAVQAAAEc0ODhfQWN0aXZlAEc0OTBfQWN0aXZlAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHXcAAADf4PbEQXUraAwAAACLTQiLEYtNCIuCiAEAAP/Q3B13AAAA3+D2xEF1CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
+					<returnType>bool</returnType>
+					<sString>(sender.vG488_Active &gt; 0) &amp;&amp; (sender.vG490_Active &gt; 0)</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<spell href="/Items/Talents/Level2/G487_MarkAOEDMG.TALENT" id="5CD78362-C4C7-485E-B4D4-7A69FE87B3F5">
+					<Spell>
+						<applicators>
+							<Item href="/Items/Talents/TalentKits/RedSet2_4_Blow/status_G487_MarkDmg.APLR" />
+						</applicators>
+						<dispatch href="/Items/Talents/Level2/G487_MarkAOEDMG.TALENT" id="680CC35E-DF55-4875-B20E-F65263BCF6AC">
+							<DispatchImmediate>
+								<alwaysApply>false</alwaysApply>
+								<applyEffect>
+									<Item href="" />
+									<Item href="" />
+								</applyEffect>
+								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+								<applyEffectOrientation>Default</applyEffectOrientation>
+								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+								<dieAfterApply>true</dieAfterApply>
+								<dispatchEffect>
+									<Item href="" />
+									<Item href="" />
+								</dispatchEffect>
+								<flags>0</flags>
+								<instantApply>true</instantApply>
+							</DispatchImmediate>
+						</dispatch>
+					</Spell>
+				</spell>
+				<spellTarget>ApplicatorTarget</spellTarget>
+				<targetSelector href="/Items/Talents/Level2/G487_MarkAOEDMG.TALENT" id="D32FD64D-B820-41D0-8870-DA3683EE011E">
+					<CountingTargetSelector>
+						<enableSorting>false</enableSorting>
+						<flags>1</flags>
+						<heroesFirst>true</heroesFirst>
+						<mode>Normal</mode>
+						<order>Decreasing</order>
+						<sortingValue>
+							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>1</sString>
+						</sortingValue>
+						<targetSelector href="/Items/Talents/Level2/G487_MarkAOEDMG.TALENT" id="3FD9D6E0-5BB5-4354-A288-1E60DB98E821">
+							<ConditionTargetSelector>
+								<condition>
+									<compiledString>FSAAAAACAAAAKwAAAEsAAABOZXV0cmFsU3RhdHVzAAAARzQ4N19NYXJrQW9FRE1HAFWL7FFqAItFEFBoAAAAAItNDIsRi00Mi4KcAQAA/9A7RRB1KWoAi00QUWgQAAAAi1UMiwKLTQyLkJwBAAD/0jtFEHUJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcM=</compiledString>
+									<returnType>bool</returnType>
+									<sString>receiver.FindApplicator("NeutralStatus", pMisc, GLOBAL) == pMisc &amp;&amp; receiver.FindApplicator("G487_MarkAoEDMG", pMisc, GLOBAL) == pMisc</sString>
+								</condition>
+								<flags>0</flags>
+								<mode>Normal</mode>
+								<targetSelector href="/Items/Talents/Level2/G487_MarkAOEDMG.TALENT" id="8A56A0C8-ECE8-4613-BE9E-42AEB0C3175D">
+									<AreaTargetSelector>
+										<absolutePosition>
+											<x>0</x>
+											<y>0</y>
+										</absolutePosition>
+										<flags>0</flags>
+										<mode>Normal</mode>
+										<range>
+											<compiledString>FQoAAAABAAAAFgAAAEJsb3dSYW5nZQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+											<returnType>float</returnType>
+											<sString>cBlowRange</sString>
+										</range>
+										<targetFilter>538705983</targetFilter>
+										<targetSelector href="" />
+									</AreaTargetSelector>
+								</targetSelector>
+							</ConditionTargetSelector>
+						</targetSelector>
+						<targetsNumber>
+							<compiledString>FQAAAAAAAAAAVYvsuAMAAABdww==</compiledString>
+							<returnType>int</returnType>
+							<sString>3</sString>
+						</targetsNumber>
+					</CountingTargetSelector>
+				</targetSelector>
+			</SpellApplicator>
+		</Item>
 	</applicators>
 	<askId>0</askId>
 	<autoTargetSelector href="" />
@@ -159,9 +423,9 @@
 					<UnitConstant>
 						<name>Delay</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
 							<returnType>float</returnType>
-							<sString>3.0f</sString>
+							<sString>2.0f</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -180,9 +444,9 @@
 					<UnitConstant>
 						<name>G487_Damage</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAA8EIAAABB</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQw==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(120, 8)</sString>
+							<sString>200</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -244,7 +508,7 @@
 						<var>
 							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
 							<returnType>float</returnType>
-							<sString>2.0f</sString>
+							<sString>2</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -265,6 +529,16 @@
 							<compiledString>FQYAAAABAAAAEgAAAERlbGF5AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
 							<returnType>float</returnType>
 							<sString>cDelay</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Level2/G487_MarkAOEDMG.TALENT" id="CE796190-5B71-475B-A2FE-97339B2F8EBC">
+					<UnitConstant>
+						<name>G487_2025Time</name>
+						<var>
+							<compiledString>FQ4AAAAEAAAAGwAAAC4AAAA7AAAARgAAAEc0ODdfTWF4Q291bnQAVYvsUYtFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S3B1cAAAA3+D2xEF1C9kFWAAAANld/OsJ2QVUAAAA2V382UX8i+VdwwAAAD/NzEw/AAAAAAAACEA=</compiledString>
+							<returnType>float</returnType>
+							<sString>cG487_MaxCount &gt; 3 ? 0.8f : 0.5f</sString>
 						</var>
 					</UnitConstant>
 				</Item>

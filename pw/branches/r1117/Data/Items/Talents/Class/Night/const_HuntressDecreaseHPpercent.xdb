@@ -5,8 +5,8 @@
 	<BackLink DBID="/Items/Talents/Class/Night/Ability4_2.TALENT" Count="1" />
 	<name>Huntress_DecreaseHP_Percent</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQg==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQg==</compiledString>
 		<returnType>float</returnType>
-		<sString>60</sString>
+		<sString>50</sString>
 	</var>
 </UnitConstant>

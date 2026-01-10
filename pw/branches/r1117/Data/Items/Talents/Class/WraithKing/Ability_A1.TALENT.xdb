@@ -47,6 +47,55 @@
 								<ProgramApplicator>
 									<applicators>
 										<Item>
+											<applicator href="/Items/Talents/Class/WraithKing/Ability_A1.TALENT" id="DF8512F2-D257-4646-832F-8D778E0A9F5C">
+												<PermanentStatModApplicator>
+													<applyTarget>ApplicatorTarget</applyTarget>
+													<caption>vA5_Hero</caption>
+													<customApplyType>None</customApplyType>
+													<enabled>
+														<compiledString>FSYAAAACAAAALQAAAEYAAABXcmFpdGhLaW5nX0ExX1NVUAAAAFdyYWl0aEtpbmdfQTFfU1VQAFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoFAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAikX7i+Vdww==</compiledString>
+														<returnType>bool</returnType>
+														<sString>tal("WraithKing_A1_SUP")</sString>
+													</enabled>
+													<formulaName></formulaName>
+													<LoggingEvent>-1</LoggingEvent>
+													<modifier>
+														<addValue>
+															<compiledString>FQAAAAACAAEAKgAAAEIAAACGAAAAVYvsg+wIUdnu2Rwki0UIixCLTQiLgjQBAAD/0FHZHCTocgAAAIPECNw1WAAAANld/NlF/FHZHCToJwAAAIPEBNwlUAAAANld+NlF+IvlXcMAAAAAAADwPwAAAAAAAFRAAAAAAFWL7FHZRQjZHCToBQAAAIPEBF3DVYvsUdlFCIPsCN0cJOhq////g8QI2V382UX8i+Vdw1WL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
+															<returnType>float</returnType>
+															<sString>floor(max(sIntellect,0)/80)-1</sString>
+														</addValue>
+														<multValue>
+															<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+															<returnType>float</returnType>
+															<sString>0</sString>
+														</multValue>
+														<stat>Life</stat>
+														<topModifier>false</topModifier>
+														<variable>A5_WHK</variable>
+													</modifier>
+													<providerName></providerName>
+												</PermanentStatModApplicator>
+											</applicator>
+											<continueCondition>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>0</sString>
+											</continueCondition>
+											<continueEvents>1</continueEvents>
+											<delay>
+												<compiledString></compiledString>
+												<returnType>float</returnType>
+												<sString>-1.0</sString>
+											</delay>
+											<stopCondition>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>0</sString>
+											</stopCondition>
+											<stopEvents>0</stopEvents>
+										</Item>
+										<Item>
 											<applicator href="/Items/Talents/Class/WraithKing/Ability_A1.TALENT" id="E530CB21-4669-4DE4-A2C4-5BAC9DF06202">
 												<ProgramApplicator parent="/Items/Talents/Class/WraithKing/prog_AbsorbShield.APLR">
 													<startCondition>
@@ -81,9 +130,9 @@
 													<caption>vA3u_Stop  +1</caption>
 													<customApplyType>None</customApplyType>
 													<enabled>
-														<compiledString></compiledString>
+														<compiledString>FSYAAAACAAAALQAAAEYAAABXcmFpdGhLaW5nX0ExX1NVUAAAAFdyYWl0aEtpbmdfQTFfU1VQAFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoFAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAikX7i+Vdww==</compiledString>
 														<returnType>bool</returnType>
-														<sString>true</sString>
+														<sString>tal("WraithKing_A1_SUP")</sString>
 													</enabled>
 													<formulaName></formulaName>
 													<LoggingEvent>-1</LoggingEvent>
@@ -517,84 +566,6 @@
 																							<sString>0</sString>
 																						</continueCondition>
 																						<continueEvents>2</continueEvents>
-																						<delay>
-																							<compiledString></compiledString>
-																							<returnType>float</returnType>
-																							<sString>-1.0</sString>
-																						</delay>
-																						<stopCondition>
-																							<compiledString></compiledString>
-																							<returnType>bool</returnType>
-																							<sString>0</sString>
-																						</stopCondition>
-																						<stopEvents>0</stopEvents>
-																					</Item>
-																					<Item>
-																						<applicator href="/Items/Talents/Class/WraithKing/Ability_A1.TALENT" id="FF1B820F-482C-461A-B7EC-CEF4EC2D95DA">
-																							<ProgramApplicator parent="/Items/Talents/Class/WraithKing/prog_AbsorbShield.APLR">
-																								<caption>(sup) Программа щита</caption>
-																								<startCondition>
-																									<compiledString>FUIAAAAFAAAASQAAAGIAAACYAAAArgAAAMAAAABXcmFpdGhLaW5nX0ExX1NVUAAAAFdyYWl0aEtpbmdfQTFfU1VQAAAAS2luZ1RlbGVwb3J0ZWQAAFN3b3JkV2F2ZQBVi+yD7AxoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBQAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXRLaCgAAACLVQiLAotNCIuQiAEAAP/S3B3wAAAA3+D2xER6KWoBi0UQUGg4AAAAi00IixGLTQiLgpwBAAD/0DtFEHUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcMAAAAAAADwPw==</compiledString>
-																									<returnType>bool</returnType>
-																									<sString>tal("WraithKing_A1_SUP") &amp;&amp; (sender.vKingTeleported == 1) &amp;&amp; sender.applSwordWave(UNIT) == pMisc</sString>
-																								</startCondition>
-																							</ProgramApplicator>
-																						</applicator>
-																						<continueCondition>
-																							<compiledString></compiledString>
-																							<returnType>bool</returnType>
-																							<sString>0</sString>
-																						</continueCondition>
-																						<continueEvents>1</continueEvents>
-																						<delay>
-																							<compiledString></compiledString>
-																							<returnType>float</returnType>
-																							<sString>-1.0</sString>
-																						</delay>
-																						<stopCondition>
-																							<compiledString></compiledString>
-																							<returnType>bool</returnType>
-																							<sString>0</sString>
-																						</stopCondition>
-																						<stopEvents>0</stopEvents>
-																					</Item>
-																					<Item>
-																						<applicator href="/Items/Talents/Class/WraithKing/Ability_A1.TALENT" id="5AFC5F74-768A-4D0B-8415-9A35EE526BB2">
-																							<PermanentStatModApplicator>
-																								<applyTarget>AbilityOwner</applyTarget>
-																								<caption>vA3u_Stop  +1</caption>
-																								<customApplyType>None</customApplyType>
-																								<enabled>
-																									<compiledString></compiledString>
-																									<returnType>bool</returnType>
-																									<sString>true</sString>
-																								</enabled>
-																								<formulaName></formulaName>
-																								<LoggingEvent>-1</LoggingEvent>
-																								<modifier>
-																									<addValue>
-																										<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
-																										<returnType>float</returnType>
-																										<sString>1</sString>
-																									</addValue>
-																									<multValue>
-																										<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
-																										<returnType>float</returnType>
-																										<sString>1</sString>
-																									</multValue>
-																									<stat>Life</stat>
-																									<topModifier>false</topModifier>
-																									<variable>A3u_Stop</variable>
-																								</modifier>
-																								<providerName></providerName>
-																							</PermanentStatModApplicator>
-																						</applicator>
-																						<continueCondition>
-																							<compiledString></compiledString>
-																							<returnType>bool</returnType>
-																							<sString>0</sString>
-																						</continueCondition>
-																						<continueEvents>1</continueEvents>
 																						<delay>
 																							<compiledString></compiledString>
 																							<returnType>float</returnType>
@@ -1333,6 +1304,28 @@
 					</PointTargetSelector>
 				</targetSelector>
 			</SpellApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/WraithKing/Ability_A1.TALENT" id="2013A6BA-3290-4AC8-AB56-CDBDCFAAD66F">
+			<HealApplicator>
+				<amount>
+					<compiledString>FQAAAAACAAEAKgAAAEIAAACGAAAAVYvsg+wIUdnu2Rwki0UIixCLTQiLgjABAAD/0FHZHCTocgAAAIPECNw1WAAAANld/NlF/FHZHCToJwAAAIPEBNwNUAAAANld+NlF+IvlXcMAAAAAAIBhQAAAAAAAAFRAAAAAAFWL7FHZRQjZHCToBQAAAIPEBF3DVYvsUdlFCIPsCN0cJOhq////g8QI2V382UX8i+Vdw1WL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
+					<returnType>float</returnType>
+					<sString>140*floor(max(sStrength,0)/80)</sString>
+				</amount>
+				<applyTarget>AbilityOwner</applyTarget>
+				<caption>отхил</caption>
+				<enabled>
+					<compiledString>FSYAAAACAAAALQAAAEYAAABXcmFpdGhLaW5nX0ExX1NVUAAAAFdyYWl0aEtpbmdfQTFfU1VQAFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoFAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAikX7i+Vdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("WraithKing_A1_SUP")</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<healTarget>Health</healTarget>
+				<ignoreHealingMods>false</ignoreHealingMods>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<uiEvent href="/UI/Events/CommonEvents/EventHeal.UIEV" />
+			</HealApplicator>
 		</Item>
 	</applicators>
 	<askId>1</askId>

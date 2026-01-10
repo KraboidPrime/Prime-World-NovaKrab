@@ -952,9 +952,9 @@
 					<UnitConstant>
 						<name>A4_2_DamageDecrease</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQQ==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQg==</compiledString>
 							<returnType>float</returnType>
-							<sString>30.0f</sString>
+							<sString>40.0f</sString>
 						</var>
 					</UnitConstant>
 				</Item>

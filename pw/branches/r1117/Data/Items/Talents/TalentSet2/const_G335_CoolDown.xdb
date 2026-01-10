@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Level5/G335_DexWill.TALENT" Count="1" />
 	<name>G335_CoolDown</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQg==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQg==</compiledString>
 		<returnType>float</returnType>
-		<sString>40</sString>
+		<sString>60</sString>
 	</var>
 </UnitConstant>

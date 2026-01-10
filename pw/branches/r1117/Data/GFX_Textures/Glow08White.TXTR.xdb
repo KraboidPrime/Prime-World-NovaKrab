@@ -17,7 +17,6 @@
 	<BackLink DBID="/Effects/General/Teleport/_Cast.PRXY" Count="1" />
 	<BackLink DBID="/Effects/General/Teleport/_CastRed.PRXY" Count="1" />
 	<BackLink DBID="/Effects/Shots/Bird/_Hit.PRXY" Count="1" />
-	<BackLink DBID="/Effects/Shots/Spear/_LightHit.PRXY" Count="1" />
 	<BackLink DBID="/Effects/Test/Defence/_Blue.PRXY" Count="1" />
 	<BackLink DBID="/Effects/UI/Target/_Enemy.PRXY" Count="1" />
 	<BackLink DBID="/Summons/Spear/DecalAlly.PRXY" Count="1" />

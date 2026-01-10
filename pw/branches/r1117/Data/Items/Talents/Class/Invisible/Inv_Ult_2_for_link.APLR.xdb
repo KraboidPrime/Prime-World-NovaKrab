@@ -1,0 +1,1567 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SpellApplicator>
+	<BackLink DBID="/Items/Talents/Class/Invisible/Ability_A4_2.TALENT" Count="1" />
+	<applyTarget>CastMasterPosition</applyTarget>
+	<caption>Спелл Цепи</caption>
+	<enabled>
+		<compiledString></compiledString>
+		<returnType>bool</returnType>
+		<sString>true</sString>
+	</enabled>
+	<formulaName></formulaName>
+	<LoggingEvent>-1</LoggingEvent>
+	<providerName></providerName>
+	<spell href="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" id="A86B97C9-933C-4C30-8A62-45625689C7E9">
+		<Spell>
+			<applicators>
+				<Item href="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" id="85420CD6-FA03-4E5B-BA4E-159185D0BA91">
+					<WaitForSpellApplicator>
+						<applyTarget>AbilityOwner</applyTarget>
+						<behaviorFlags>152</behaviorFlags>
+						<behaviour>0</behaviour>
+						<caption>Диспатч цепи со всеми эффектами</caption>
+						<dispatchSource href="" />
+						<effect>
+							<Item href="" />
+							<Item href="" />
+						</effect>
+						<enabled>
+							<compiledString>FSAAAAACAAAAJwAAAEAAAABJbnZpc2libGVfQTRfMnUASW52aXNpYmxlX0E0XzJ1AFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZF+/fYG8CDwAGL5V3D</compiledString>
+							<returnType>bool</returnType>
+							<sString>!tal("Invisible_A4_2u")</sString>
+						</enabled>
+						<firstTargetToHit href="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" id="6ED3F97E-F06A-4624-9D6C-9DFD2D219CCF">
+							<ComparingTargetSelector>
+								<referenceValue>
+									<compiledString></compiledString>
+									<returnType>float</returnType>
+									<sString>0.0f</sString>
+								</referenceValue>
+								<targetSelector href="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" id="F3A18056-5F1A-4814-A347-5A699250B280">
+									<ConditionTargetSelector>
+										<condition>
+											<compiledString>FSAAAAACAAAAJwAAAEAAAABJbnZpc2libGVfQTRfMnUASW52aXNpYmxlX0E0XzJ1AFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZF+/fYG8CDwAGL5V3D</compiledString>
+											<returnType>bool</returnType>
+											<sString>!tal("Invisible_A4_2u")</sString>
+										</condition>
+										<flags>0</flags>
+										<mode>Normal</mode>
+										<targetSelector href="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" id="0B7CA95B-3011-45CB-8CDC-9E12513B45D7">
+											<CapsuleTargetSelector>
+												<cutoffFirstSegment>true</cutoffFirstSegment>
+												<flags>0</flags>
+												<mode>Normal</mode>
+												<range>
+													<compiledString>FQkAAAACAAAAFgAAACkAAABBNF9XaWR0aABVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcDTcAAADZXfzZRfyL5V3DAAAAAAAA4D8=</compiledString>
+													<returnType>float</returnType>
+													<sString>cA4_Width * 0.5f</sString>
+												</range>
+												<rangeFromOwner>
+													<compiledString>FQwAAAABAAAAGAAAAEE0X1VzZVJhbmdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+													<returnType>float</returnType>
+													<sString>cA4_UseRange</sString>
+												</rangeFromOwner>
+												<segmentBegin>PreviousPosition</segmentBegin>
+												<segmentDirectionOffset>0</segmentDirectionOffset>
+												<segmentEnd>CurrentPosition</segmentEnd>
+												<segmentEndTargetSelector href="" />
+												<targetFilter>537133119</targetFilter>
+											</CapsuleTargetSelector>
+										</targetSelector>
+									</ConditionTargetSelector>
+								</targetSelector>
+								<valueToCompare>
+									<compiledString>FQAAAAAAAAEAugAAAFWL7IPsEI1F+FCLTQyLEYtNDIuCjAEAAP/QUI1N8FGLVQiLAotNCIuQjAEAAP/SUOgHAAAAg8QIi+Vdw1WL7IPsFItFCNlABItNDNhhBNld9NlF9FHZHCSLVQjZAotFDNgg2V3w2UXwUdkcJI1N+OhXAAAA2UX42E342UX82E383sHZXezZRexR2Rwk6AcAAACDxASL5V3DVYvsUdlFCNkcJOgFAAAAg8QEXcNVi+xR2UUIg+wI3Rwk6B7///+DxAjZXfzZRfyL5V3DVYvsUYlN/ItF/NlFCNkYi0382UUM2VkEi0X8i+VdwggA</compiledString>
+									<returnType>float</returnType>
+									<sString>d( sPos, rPos )</sString>
+								</valueToCompare>
+							</ComparingTargetSelector>
+						</firstTargetToHit>
+						<formulaName></formulaName>
+						<lifeTime>
+							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>-1.0</sString>
+						</lifeTime>
+						<LoggingEvent>-1</LoggingEvent>
+						<providerName></providerName>
+						<spell href="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" id="245AD28E-20E2-438A-8B9D-6D5D3581B087">
+							<Spell>
+								<applicators>
+									<Item href="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" id="C8834C4C-19CF-42DB-A528-FCFF8A6408D5">
+										<SpellApplicator>
+											<applyTarget>ApplicatorTarget</applyTarget>
+											<caption>Если попали в цель</caption>
+											<enabled>
+												<compiledString>FQAAAAAAAAAAVYvsM8CDfQwAD5XAXcM=</compiledString>
+												<returnType>bool</returnType>
+												<sString>pSecond != 0</sString>
+											</enabled>
+											<formulaName></formulaName>
+											<LoggingEvent>-1</LoggingEvent>
+											<providerName></providerName>
+											<spell href="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" id="40BFDD6A-DF88-4854-A404-43F8DBA101F6">
+												<Spell>
+													<applicators>
+														<Item href="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" id="58FB706F-14FE-4E7C-B0FE-97E27C3F4BDC">
+															<ProgramApplicator>
+																<applicators>
+																	<Item>
+																		<applicator href="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" id="7C24420F-5668-4535-B057-E9E102348648">
+																			<FlagsApplicator>
+																				<applyTarget>ApplicatorTarget</applyTarget>
+																				<behaviorFlags>32</behaviorFlags>
+																				<caption>KunaiHitEffect</caption>
+																				<consumables />
+																				<effect>
+																					<Item href="/Effects/Shots/Dagger/_2FXHit.EFFT" />
+																					<Item href="" />
+																				</effect>
+																				<enabled>
+																					<compiledString></compiledString>
+																					<returnType>bool</returnType>
+																					<sString>true</sString>
+																				</enabled>
+																				<flag>0</flag>
+																				<formulaName></formulaName>
+																				<lifeTime>
+																					<compiledString></compiledString>
+																					<returnType>float</returnType>
+																					<sString>-1.0</sString>
+																				</lifeTime>
+																				<LoggingEvent>-1</LoggingEvent>
+																				<providerName></providerName>
+																				<startCondition>
+																					<compiledString></compiledString>
+																					<returnType>bool</returnType>
+																					<sString>true</sString>
+																				</startCondition>
+																				<talents />
+																				<useListAs>ListAsRule</useListAs>
+																			</FlagsApplicator>
+																		</applicator>
+																		<continueCondition>
+																			<compiledString></compiledString>
+																			<returnType>bool</returnType>
+																			<sString>0</sString>
+																		</continueCondition>
+																		<continueEvents>1</continueEvents>
+																		<delay>
+																			<compiledString></compiledString>
+																			<returnType>float</returnType>
+																			<sString>-1.0</sString>
+																		</delay>
+																		<stopCondition>
+																			<compiledString></compiledString>
+																			<returnType>bool</returnType>
+																			<sString>0</sString>
+																		</stopCondition>
+																		<stopEvents>0</stopEvents>
+																	</Item>
+																	<Item>
+																		<applicator href="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" id="F0AF21AE-16FA-4677-B33A-E4594816A270">
+																			<DamageApplicator>
+																				<applyTarget>ApplicatorTarget</applyTarget>
+																				<cancelInvisibility>true</cancelInvisibility>
+																				<caption>Разовый урон в жертву</caption>
+																				<damage>
+																					<compiledString>FQwAAAABAAAAGAAAAEE0XzJfRGFtYWdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+																					<returnType>float</returnType>
+																					<sString>cA4_2_Damage</sString>
+																				</damage>
+																				<damageMode>4</damageMode>
+																				<damageType>Material</damageType>
+																				<enabled>
+																					<compiledString>FSAAAAACAAAAJwAAAEAAAABJbnZpc2libGVfQTRfMnUASW52aXNpYmxlX0E0XzJ1AFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAikX7i+Vdww==</compiledString>
+																					<returnType>bool</returnType>
+																					<sString>tal("Invisible_A4_2u")</sString>
+																				</enabled>
+																				<formulaName></formulaName>
+																				<LoggingEvent>-1</LoggingEvent>
+																				<providerName></providerName>
+																				<timeLimiter>-1</timeLimiter>
+																				<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Material.UIEV" />
+																			</DamageApplicator>
+																		</applicator>
+																		<continueCondition>
+																			<compiledString></compiledString>
+																			<returnType>bool</returnType>
+																			<sString>0</sString>
+																		</continueCondition>
+																		<continueEvents>1</continueEvents>
+																		<delay>
+																			<compiledString></compiledString>
+																			<returnType>float</returnType>
+																			<sString>-1.0</sString>
+																		</delay>
+																		<stopCondition>
+																			<compiledString></compiledString>
+																			<returnType>bool</returnType>
+																			<sString>0</sString>
+																		</stopCondition>
+																		<stopEvents>0</stopEvents>
+																	</Item>
+																	<Item>
+																		<applicator href="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" id="52B6A14D-39BC-4BD3-BA67-F7CF9AAC47FF">
+																			<ProgramApplicator>
+																				<applicators>
+																					<Item>
+																						<applicator href="/Items/Talents/Class/Invisible/status_A4_2_OnChain.APLR" />
+																						<continueCondition>
+																							<compiledString></compiledString>
+																							<returnType>bool</returnType>
+																							<sString>0</sString>
+																						</continueCondition>
+																						<continueEvents>1</continueEvents>
+																						<delay>
+																							<compiledString></compiledString>
+																							<returnType>float</returnType>
+																							<sString>-1.0</sString>
+																						</delay>
+																						<stopCondition>
+																							<compiledString></compiledString>
+																							<returnType>bool</returnType>
+																							<sString>0</sString>
+																						</stopCondition>
+																						<stopEvents>0</stopEvents>
+																					</Item>
+																					<Item>
+																						<applicator href="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" id="122EAE10-C1C7-47F6-9816-FE06F77F5031">
+																							<FlagsApplicator>
+																								<applyTarget>ApplicatorTarget</applyTarget>
+																								<behaviorFlags>1</behaviorFlags>
+																								<caption>Флаг ожидающий притягивание</caption>
+																								<consumables />
+																								<effect>
+																									<Item href="" />
+																									<Item href="" />
+																								</effect>
+																								<enabled>
+																									<compiledString>FQsAAAABAAAAFQAAAFRocm93X0p1bXAAVYvsagKLRRBQaAAAAACLTQyLEYtNDIuCnAEAAP/QM8k7RRAPlcGKwV3D</compiledString>
+																									<returnType>bool</returnType>
+																									<sString>receiver.applThrow_Jump(ABILITY) != pMisc</sString>
+																								</enabled>
+																								<flag>0</flag>
+																								<formulaName></formulaName>
+																								<lifeTime>
+																									<compiledString></compiledString>
+																									<returnType>float</returnType>
+																									<sString>-1.0</sString>
+																								</lifeTime>
+																								<LoggingEvent>-1</LoggingEvent>
+																								<providerName></providerName>
+																								<startCondition>
+																									<compiledString></compiledString>
+																									<returnType>bool</returnType>
+																									<sString>true</sString>
+																								</startCondition>
+																								<talents />
+																								<useListAs>ListAsRule</useListAs>
+																							</FlagsApplicator>
+																						</applicator>
+																						<continueCondition>
+																							<compiledString></compiledString>
+																							<returnType>bool</returnType>
+																							<sString>0</sString>
+																						</continueCondition>
+																						<continueEvents>2</continueEvents>
+																						<delay>
+																							<compiledString></compiledString>
+																							<returnType>float</returnType>
+																							<sString>-1.0</sString>
+																						</delay>
+																						<stopCondition>
+																							<compiledString></compiledString>
+																							<returnType>bool</returnType>
+																							<sString>0</sString>
+																						</stopCondition>
+																						<stopEvents>0</stopEvents>
+																					</Item>
+																					<Item>
+																						<applicator href="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" id="8D695E04-EC5E-442C-83DF-5DE2F9D2698B">
+																							<StatusApplicator>
+																								<applicators>
+																									<Item href="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" id="D5E32B0A-6F25-4E6B-BC95-04849702A5B1">
+																										<MovementControlApplicator>
+																											<applyTarget>ApplicatorTarget</applyTarget>
+																											<behaviorFlags>0</behaviorFlags>
+																											<caption>Movement control appl</caption>
+																											<effect>
+																												<Item href="" />
+																												<Item href="" />
+																											</effect>
+																											<enabled>
+																												<compiledString>FXQAAAAKAAAAgQAAALIAAADIAAAA3gAAAAIBAAAmAQAARgEAAGABAAB2AQAAlwEAAGNhcHR1cmVkQnlFdmlsVHJlZQAAU3RvcE1vdmVtZW50Q29udHJvbABUaHJvd19KdW1wAABUaHJvdwAAAFRocm93X0p1bXAAAFRocm93AAAAVG9zc2VkAABBNF9NYXhEaXN0YW5jZVRvTW92ZUNvbnRyb2wAVYvsg+wQagCLRRBQaAAAAACLTQyLEYtNDIuCnAEAAP/QO0UQD4UgAQAAi00MixGLTQyLgnwBAAD/0IlF/GgUAAAAi038ixGLTfyLgogBAAD/0NwdzAEAAN/g9sRED4rnAAAAagCLTRBRaCgAAACLVQyLAotNDIuQnAEAAP/SO0UQD4XDAAAAagCLRRBQaDQAAACLTQyLEYtNDIuCnAEAAP/QO0UQD4WfAAAAagCLTRBRaDwAAACLVQiLAotNCIuQnAEAAP/SO0UQdX9qAItFEFBoSAAAAItNCIsRi00Ii4KcAQAA/9A7RRB1X2hQAAAAi00IixGLTQiLgogBAAD/0NwdzAEAAN/g9sRBej2LTRCLEYtNEItCDP/Qi00MUYtVCFJoWAAAAItFEIsQi00Qi0JQ3V30/9DcXfTf4PbEQXoJx0XwAQAAAOsHx0XwAAAAAIpF8IvlXcMAAAAAAAAAAA==</compiledString>
+																												<returnType>bool</returnType>
+																												<sString>receiver.FindApplicator("capturedByEvilTree", pMisc, GLOBAL) == pMisc &amp;&amp; rObjectMaster-&gt;vStopMovementControl == 0 &amp;&amp; receiver.applThrow_Jump(GLOBAL) == pMisc &amp;&amp; receiver.applThrow(GLOBAL) == pMisc 
+&amp;&amp; sender.applThrow_Jump(GLOBAL) == pMisc &amp;&amp; sender.applThrow(GLOBAL) == pMisc &amp;&amp; sender.vTossed &lt;= 0 &amp;&amp; mDist2Target &gt;= cA4_MaxDistanceToMoveControl
+</sString>
+																											</enabled>
+																											<formulaName>MovementControl</formulaName>
+																											<lifeTime>
+																												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAvw==</compiledString>
+																												<returnType>float</returnType>
+																												<sString>-1</sString>
+																											</lifeTime>
+																											<LoggingEvent>-1</LoggingEvent>
+																											<providerName></providerName>
+																											<startCondition>
+																												<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+																												<returnType>bool</returnType>
+																												<sString>true</sString>
+																											</startCondition>
+																										</MovementControlApplicator>
+																									</Item>
+																								</applicators>
+																								<applyTarget>ApplicatorTarget</applyTarget>
+																								<behaviorFlags>3</behaviorFlags>
+																								<caption>TECH_status</caption>
+																								<customCounter>
+																									<compiledString></compiledString>
+																									<returnType>int</returnType>
+																									<sString>0</sString>
+																								</customCounter>
+																								<customProgress>
+																									<compiledString></compiledString>
+																									<returnType>float</returnType>
+																									<sString>-1.0</sString>
+																								</customProgress>
+																								<description textref="" />
+																								<dispellPriority>NonDispellable</dispellPriority>
+																								<effect>
+																									<Item href="" />
+																									<Item href="" />
+																								</effect>
+																								<enabled>
+																									<compiledString>FRgAAAABAAAAIgAAAEludmlzaWJsZUE0X01vdmVDb250cm9sAFWL7GoCi0UQUGgAAAAAi00MixGLTQyLgpwBAAD/0DPJO0UQD5XBisFdww==</compiledString>
+																									<returnType>bool</returnType>
+																									<sString>receiver.applInvisibleA4_MoveControl(ABILITY) != pMisc</sString>
+																								</enabled>
+																								<flags>0</flags>
+																								<formulaName></formulaName>
+																								<image href="" />
+																								<lifeTime>
+																									<compiledString></compiledString>
+																									<returnType>float</returnType>
+																									<sString>-1.0</sString>
+																								</lifeTime>
+																								<LoggingEvent>-1</LoggingEvent>
+																								<name textref="" />
+																								<power>0</power>
+																								<providerName></providerName>
+																								<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+																								<stackCount>0</stackCount>
+																								<startCondition>
+																									<compiledString></compiledString>
+																									<returnType>bool</returnType>
+																									<sString>true</sString>
+																								</startCondition>
+																								<statusPosition>0</statusPosition>
+																								<stopBehaviour>StopByTime</stopBehaviour>
+																								<unstackableWith href="" />
+																							</StatusApplicator>
+																						</applicator>
+																						<continueCondition>
+																							<compiledString></compiledString>
+																							<returnType>bool</returnType>
+																							<sString>0</sString>
+																						</continueCondition>
+																						<continueEvents>2</continueEvents>
+																						<delay>
+																							<compiledString></compiledString>
+																							<returnType>float</returnType>
+																							<sString>-1.0</sString>
+																						</delay>
+																						<stopCondition>
+																							<compiledString></compiledString>
+																							<returnType>bool</returnType>
+																							<sString>0</sString>
+																						</stopCondition>
+																						<stopEvents>0</stopEvents>
+																					</Item>
+																				</applicators>
+																				<applyTarget>ApplicatorTarget</applyTarget>
+																				<behaviorFlags>1</behaviorFlags>
+																				<caption>Программа с удержанием</caption>
+																				<effect>
+																					<Item href="" />
+																					<Item href="" />
+																				</effect>
+																				<enabled>
+																					<compiledString>FR8AAAADAAAAJAAAADoAAABMAAAASW1tdW5lMkNvbnRyb2wAAEludmlzaWJsZUNoYWluAFWL7FFoAAAAAItFDIsQi00Mi4KIAQAA/9DcHXwAAADf4PbERHopagGLTRBRaBAAAACLVQyLAotNDIuQnAEAAP/SO0UQdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAAA</compiledString>
+																					<returnType>bool</returnType>
+																					<sString>receiver.vImmune2Control == 0  &amp;&amp; receiver.applInvisibleChain(UNIT) == pMisc; //&amp;&amp; receiver.applThrow_Jump(GLOBAL) == pMis</sString>
+																				</enabled>
+																				<formulaName></formulaName>
+																				<lifeTime>
+																					<compiledString></compiledString>
+																					<returnType>float</returnType>
+																					<sString>-1.0</sString>
+																				</lifeTime>
+																				<LoggingEvent>-1</LoggingEvent>
+																				<providerName></providerName>
+																				<startCondition>
+																					<compiledString>FRgAAAABAAAAIgAAAEludmlzaWJsZUE0X01vdmVDb250cm9sAFWL7GoBi0UQUGgAAAAAi00MixGLTQyLgpwBAAD/0DPJO0UQD5TBisFdww==</compiledString>
+																					<returnType>bool</returnType>
+																					<sString>receiver.applInvisibleA4_MoveControl(UNIT) == pMisc</sString>
+																				</startCondition>
+																			</ProgramApplicator>
+																		</applicator>
+																		<continueCondition>
+																			<compiledString></compiledString>
+																			<returnType>bool</returnType>
+																			<sString>0</sString>
+																		</continueCondition>
+																		<continueEvents>1</continueEvents>
+																		<delay>
+																			<compiledString></compiledString>
+																			<returnType>float</returnType>
+																			<sString>-1.0</sString>
+																		</delay>
+																		<stopCondition>
+																			<compiledString></compiledString>
+																			<returnType>bool</returnType>
+																			<sString>0</sString>
+																		</stopCondition>
+																		<stopEvents>0</stopEvents>
+																	</Item>
+																	<Item>
+																		<applicator href="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" id="9EFD2F01-5737-4659-8455-02C895C0E0C1">
+																			<ThrowApplicator>
+																				<angle>0</angle>
+																				<applyTarget>ApplicatorTarget</applyTarget>
+																				<behaviorFlags>145</behaviorFlags>
+																				<caption>throw</caption>
+																				<collisionFlags>7</collisionFlags>
+																				<enabled>
+																					<compiledString>FU8AAAAHAAAAawAAALMAAADGAAAA0gAAAOgAAAD6AAAAGgEAAEE0X0VuZW15TW92ZU1heFJhbmdlAAAAAEE0X1Rocm93Q29uZGl0aW9uAAAASW1tdW5lMkNvbnRyb2wAAFRocm93AAAAVGhyb3dfSnVtcABVi+yD7AyLRRCLEItNEItCDP/Qi00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ3V34/9DcXfjf4PbEBQ+KrwAAAGgAAAAQi00MixGLTQyLQmj/0A+2yIXJD4WSAAAAi1UMUotFCFBoGAAAAItNEIsRi00Qi0JQ/9DcHUoBAADf4PbERHtraCwAAACLTQyLEYtNDIuCiAEAAP/Q3B1KAQAA3+D2xER6SWoAi00QUWg8AAAAi1UMiwKLTQyLkJwBAAD/0jtFEHUpagCLRRBQaEQAAACLTQyLEYtNDIuCnAEAAP/QO0UQdQnHRfQBAAAA6wfHRfQAAAAAikX0i+VdwwAAAAAAAAAA</compiledString>
+																					<returnType>bool</returnType>
+																					<sString>(mDist2Target &gt; cA4_EnemyMoveMaxRange)&amp;&amp;!rFlag(268435456) &amp;&amp; cA4_ThrowCondition &amp;&amp; receiver.vImmune2Control == 0 &amp;&amp; receiver.applThrow(GLOBAL) == pMisc &amp;&amp; receiver.applThrow_Jump(GLOBAL) == pMisc</sString>
+																				</enabled>
+																				<firstTargetToHit href="" />
+																				<flightType>Throw</flightType>
+																				<flipTime>
+																					<compiledString></compiledString>
+																					<returnType>float</returnType>
+																					<sString>1.0</sString>
+																				</flipTime>
+																				<flyEffect>
+																					<Item href="" />
+																					<Item href="" />
+																				</flyEffect>
+																				<formulaName>Throw_Jump</formulaName>
+																				<landTime>0</landTime>
+																				<lockRotation>false</lockRotation>
+																				<LoggingEvent>-1</LoggingEvent>
+																				<maxDistance>0</maxDistance>
+																				<maxHeight>0</maxHeight>
+																				<moveSpeed>
+																					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQQ==</compiledString>
+																					<returnType>float</returnType>
+																					<sString>30</sString>
+																				</moveSpeed>
+																				<providerName></providerName>
+																				<startSpell href="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" id="FE42B5A7-13C6-4D83-AB17-0A1C57A5C23F">
+																					<Spell>
+																						<applicators>
+																							<Item href="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" id="F3436A6B-214A-47DF-88A3-E77A042C8346">
+																								<StatModApplicator>
+																									<applyTarget>ApplicatorTarget</applyTarget>
+																									<behaviorFlags>152</behaviorFlags>
+																									<caption>Unit is thrown (Tossed)</caption>
+																									<constraint>None</constraint>
+																									<dontUpdate>true</dontUpdate>
+																									<effect>
+																										<Item href="" />
+																										<Item href="" />
+																									</effect>
+																									<enabled>
+																										<compiledString></compiledString>
+																										<returnType>bool</returnType>
+																										<sString>true</sString>
+																									</enabled>
+																									<formulaName></formulaName>
+																									<lifeTime>
+																										<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAvw==</compiledString>
+																										<returnType>float</returnType>
+																										<sString>-1</sString>
+																									</lifeTime>
+																									<LoggingEvent>-1</LoggingEvent>
+																									<modifier>
+																										<addValue>
+																											<compiledString></compiledString>
+																											<returnType>float</returnType>
+																											<sString>1.0f</sString>
+																										</addValue>
+																										<multValue>
+																											<compiledString></compiledString>
+																											<returnType>float</returnType>
+																											<sString>0.0f</sString>
+																										</multValue>
+																										<stat>Life</stat>
+																										<topModifier>false</topModifier>
+																										<variable>Tossed</variable>
+																									</modifier>
+																									<providerName></providerName>
+																									<startCondition>
+																										<compiledString>FQsAAAABAAAAFQAAAFRocm93X0p1bXAAVYvsagGLRRBQaAAAAACLTQyLEYtNDIuCnAEAAP/QM8k7RRAPlcGKwV3D</compiledString>
+																										<returnType>bool</returnType>
+																										<sString>receiver.applThrow_Jump(UNIT) != pMisc</sString>
+																									</startCondition>
+																									<statModName></statModName>
+																								</StatModApplicator>
+																							</Item>
+																						</applicators>
+																						<dispatch href="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" id="2DA410DD-8360-4479-97E9-BD5EF4B17490">
+																							<DispatchImmediate>
+																								<alwaysApply>false</alwaysApply>
+																								<applyEffect>
+																									<Item href="" />
+																									<Item href="" />
+																								</applyEffect>
+																								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																								<applyEffectOrientation>Default</applyEffectOrientation>
+																								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																								<dieAfterApply>true</dieAfterApply>
+																								<dispatchEffect>
+																									<Item href="" />
+																									<Item href="" />
+																								</dispatchEffect>
+																								<flags>0</flags>
+																								<instantApply>false</instantApply>
+																							</DispatchImmediate>
+																						</dispatch>
+																					</Spell>
+																				</startSpell>
+																				<stopSpell href="" />
+																				<surfaceSpeedFromAG>false</surfaceSpeedFromAG>
+																				<takeOffTime>0</takeOffTime>
+																				<targetSelector href="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" id="636AD094-E552-4290-B0CB-1AF1759A92B1">
+																					<PointTargetSelector>
+																						<checkMinRange>true</checkMinRange>
+																						<mode>RangeFromOwner</mode>
+																						<offset>
+																							<x>0</x>
+																							<y>1</y>
+																						</offset>
+																						<paralleledTarget>false</paralleledTarget>
+																						<range>
+																							<compiledString>FRUAAAABAAAAIQAAAEE0X0VuZW15TW92ZU1heFJhbmdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+																							<returnType>float</returnType>
+																							<sString>cA4_EnemyMoveMaxRange</sString>
+																						</range>
+																						<targetSelector href="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" id="5C736AB2-87B8-4B19-9D77-9B160BBCC176">
+																							<ConvertTargetToLand>
+																								<aggregateMode>First</aggregateMode>
+																								<targetSelector href="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" id="8F608B46-0958-486D-9CFD-535972B2B2A9">
+																									<SelectApplicatorTarget>
+																										<applicatorIndex>0</applicatorIndex>
+																										<applicatorName></applicatorName>
+																										<namedApplicatorTarget>ApplicatorTarget</namedApplicatorTarget>
+																										<selectTarget>ApplicatorTarget</selectTarget>
+																									</SelectApplicatorTarget>
+																								</targetSelector>
+																							</ConvertTargetToLand>
+																						</targetSelector>
+																						<traceMode>0</traceMode>
+																					</PointTargetSelector>
+																				</targetSelector>
+																				<trackTargetUnit>false</trackTargetUnit>
+																				<trajectory Animated="True">
+																					<Tracks>
+																						<Item>
+																							<Item>
+																								<Key>0</Key>
+																								<Value>0</Value>
+																							</Item>
+																							<Item>
+																								<Key>1</Key>
+																								<Value>0</Value>
+																							</Item>
+																						</Item>
+																					</Tracks>
+																					<Type>Clamp</Type>
+																					<Values>
+																						<Item>
+																							<Key>0</Key>
+																							<Value>0</Value>
+																						</Item>
+																						<Item>
+																							<Key>1</Key>
+																							<Value>0</Value>
+																						</Item>
+																					</Values>
+																				</trajectory>
+																			</ThrowApplicator>
+																		</applicator>
+																		<continueCondition>
+																			<compiledString></compiledString>
+																			<returnType>bool</returnType>
+																			<sString>0</sString>
+																		</continueCondition>
+																		<continueEvents>6</continueEvents>
+																		<delay>
+																			<compiledString></compiledString>
+																			<returnType>float</returnType>
+																			<sString>-1.0</sString>
+																		</delay>
+																		<stopCondition>
+																			<compiledString></compiledString>
+																			<returnType>bool</returnType>
+																			<sString>0</sString>
+																		</stopCondition>
+																		<stopEvents>0</stopEvents>
+																	</Item>
+																</applicators>
+																<applyTarget>ApplicatorTarget</applyTarget>
+																<behaviorFlags>145</behaviorFlags>
+																<caption>Программа</caption>
+																<effect>
+																	<Item href="" />
+																	<Item href="" />
+																</effect>
+																<enabled>
+																	<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+																	<returnType>bool</returnType>
+																	<sString>true</sString>
+																</enabled>
+																<formulaName></formulaName>
+																<lifeTime>
+																	<compiledString></compiledString>
+																	<returnType>float</returnType>
+																	<sString>-1.0</sString>
+																</lifeTime>
+																<LoggingEvent>-1</LoggingEvent>
+																<providerName></providerName>
+																<startCondition>
+																	<compiledString></compiledString>
+																	<returnType>bool</returnType>
+																	<sString>true</sString>
+																</startCondition>
+															</ProgramApplicator>
+														</Item>
+													</applicators>
+													<dispatch href="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" id="C0F4EE15-80F1-49C2-9632-4A873E8869F0">
+														<DispatchImmediate>
+															<alwaysApply>false</alwaysApply>
+															<applyEffect>
+																<Item href="" />
+																<Item href="" />
+															</applyEffect>
+															<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+															<applyEffectOrientation>Default</applyEffectOrientation>
+															<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+															<dieAfterApply>true</dieAfterApply>
+															<dispatchEffect>
+																<Item href="" />
+																<Item href="" />
+															</dispatchEffect>
+															<flags>0</flags>
+															<instantApply>true</instantApply>
+														</DispatchImmediate>
+													</dispatch>
+												</Spell>
+											</spell>
+											<spellTarget>ApplicatorTarget</spellTarget>
+											<targetSelector href="" />
+										</SpellApplicator>
+									</Item>
+									<Item href="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" id="8D4ECD00-180F-406A-BBCA-33043E038B93">
+										<SpellApplicator>
+											<applyTarget>ApplicatorTarget</applyTarget>
+											<caption>Диспатч с галочкой Upgradable для "Символа леса"</caption>
+											<enabled>
+												<compiledString>FSAAAAACAAAAJwAAAEAAAABJbnZpc2libGVfQTRfMnUASW52aXNpYmxlX0E0XzJ1AFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdA+DfQwAdAnHRfQBAAAA6wfHRfQAAAAAikX0i+Vdww==</compiledString>
+												<returnType>bool</returnType>
+												<sString>tal("Invisible_A4_2u") &amp;&amp; pSecond != 0</sString>
+											</enabled>
+											<formulaName></formulaName>
+											<LoggingEvent>-1</LoggingEvent>
+											<providerName></providerName>
+											<spell href="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" id="48B391A8-6EE1-4FC7-B649-7B02369DDD90">
+												<Spell>
+													<applicators />
+													<dispatch href="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" id="F599D164-57A4-44E9-AFAC-ED1AD4453D6A">
+														<DispatchImmediate>
+															<alwaysApply>false</alwaysApply>
+															<applyEffect>
+																<Item href="" />
+																<Item href="" />
+															</applyEffect>
+															<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+															<applyEffectOrientation>Default</applyEffectOrientation>
+															<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+															<dieAfterApply>true</dieAfterApply>
+															<dispatchEffect>
+																<Item href="" />
+																<Item href="" />
+															</dispatchEffect>
+															<flags>1</flags>
+															<instantApply>false</instantApply>
+														</DispatchImmediate>
+													</dispatch>
+												</Spell>
+											</spell>
+											<spellTarget>ApplicatorTarget</spellTarget>
+											<targetSelector href="" />
+										</SpellApplicator>
+									</Item>
+								</applicators>
+								<dispatch href="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" id="CD0C3384-B6AC-4874-A841-DB4762F0A0C3">
+									<DispatchLinearWithLink>
+										<aiming>Straight</aiming>
+										<alwaysApply>false</alwaysApply>
+										<applyEffect>
+											<Item href="" />
+											<Item href="" />
+										</applyEffect>
+										<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+										<applyEffectOrientation>Default</applyEffectOrientation>
+										<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+										<dieAfterApply>true</dieAfterApply>
+										<dispatchEffect>
+											<Item href="/Effects/Shots/Dagger/_2FX.EFFT" />
+											<Item href="" />
+										</dispatchEffect>
+										<flags>0</flags>
+										<flyMode>Linear</flyMode>
+										<fromLocator>Body</fromLocator>
+										<height>0</height>
+										<killEffect>true</killEffect>
+										<links>
+											<Item>
+												<effect>
+													<Item href="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" id="7C06A225-E864-484D-9D58-AF692770BD8C">
+														<LightningEffect>
+															<component href="/Heroes/Invisible/Ability4Link.LGSC" />
+															<controlledVisibility>false</controlledVisibility>
+															<deathType>Manual</deathType>
+															<enableCondition href="" />
+															<lifeTime>0</lifeTime>
+														</LightningEffect>
+													</Item>
+													<Item href="" />
+												</effect>
+											</Item>
+										</links>
+										<locatorOrient>true</locatorOrient>
+										<maxDeviation>180</maxDeviation>
+										<maxDistance>-1</maxDistance>
+										<maxRise>0</maxRise>
+										<minRise>0</minRise>
+										<persistentApplicators />
+										<speed>26</speed>
+										<suspendTime>0</suspendTime>
+										<toLocator>Body</toLocator>
+									</DispatchLinearWithLink>
+								</dispatch>
+							</Spell>
+						</spell>
+						<spellTarget>ApplicatorTarget</spellTarget>
+						<startCondition>
+							<compiledString>FSAAAAACAAAAJwAAAEAAAABJbnZpc2libGVfQTRfMnUASW52aXNpYmxlX0E0XzJ1AFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZF+/fYG8CDwAGL5V3D</compiledString>
+							<returnType>bool</returnType>
+							<sString>!tal("Invisible_A4_2u")</sString>
+						</startCondition>
+					</WaitForSpellApplicator>
+				</Item>
+				<Item href="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" id="73291401-D8CB-4763-A40D-6B1CE2A3734B">
+					<WaitForSpellApplicator>
+						<applyTarget>AbilityOwner</applyTarget>
+						<behaviorFlags>152</behaviorFlags>
+						<behaviour>0</behaviour>
+						<caption>Диспатч цепи со всеми эффектами с апом</caption>
+						<dispatchSource href="" />
+						<effect>
+							<Item href="" />
+							<Item href="" />
+						</effect>
+						<enabled>
+							<compiledString>FSAAAAACAAAAJwAAAEAAAABJbnZpc2libGVfQTRfMnUASW52aXNpYmxlX0E0XzJ1AFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAikX7i+Vdww==</compiledString>
+							<returnType>bool</returnType>
+							<sString>tal("Invisible_A4_2u")</sString>
+						</enabled>
+						<firstTargetToHit href="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" id="EAA9AC45-483D-4ABB-879F-91172343D280">
+							<ComparingTargetSelector>
+								<referenceValue>
+									<compiledString></compiledString>
+									<returnType>float</returnType>
+									<sString>0.0f</sString>
+								</referenceValue>
+								<targetSelector href="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" id="EA95D51A-12CD-4954-8872-7191769245DB">
+									<ConditionTargetSelector>
+										<condition>
+											<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</condition>
+										<flags>0</flags>
+										<mode>Normal</mode>
+										<targetSelector href="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" id="0491DE35-3398-4718-8A9B-C607B069EE36">
+											<CapsuleTargetSelector>
+												<cutoffFirstSegment>true</cutoffFirstSegment>
+												<flags>0</flags>
+												<mode>Normal</mode>
+												<range>
+													<compiledString>FQkAAAACAAAAFgAAACkAAABBNF9XaWR0aABVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcDTcAAADZXfzZRfyL5V3DAAAAAAAA4D8=</compiledString>
+													<returnType>float</returnType>
+													<sString>cA4_Width * 0.5f</sString>
+												</range>
+												<rangeFromOwner>
+													<compiledString>FQwAAAABAAAAGAAAAEE0X1VzZVJhbmdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+													<returnType>float</returnType>
+													<sString>cA4_UseRange</sString>
+												</rangeFromOwner>
+												<segmentBegin>PreviousPosition</segmentBegin>
+												<segmentDirectionOffset>0</segmentDirectionOffset>
+												<segmentEnd>CurrentPosition</segmentEnd>
+												<segmentEndTargetSelector href="" />
+												<targetFilter>538705923</targetFilter>
+											</CapsuleTargetSelector>
+										</targetSelector>
+									</ConditionTargetSelector>
+								</targetSelector>
+								<valueToCompare>
+									<compiledString>FQAAAAAAAAEAugAAAFWL7IPsEI1F+FCLTQyLEYtNDIuCjAEAAP/QUI1N8FGLVQiLAotNCIuQjAEAAP/SUOgHAAAAg8QIi+Vdw1WL7IPsFItFCNlABItNDNhhBNld9NlF9FHZHCSLVQjZAotFDNgg2V3w2UXwUdkcJI1N+OhXAAAA2UX42E342UX82E383sHZXezZRexR2Rwk6AcAAACDxASL5V3DVYvsUdlFCNkcJOgFAAAAg8QEXcNVi+xR2UUIg+wI3Rwk6B7///+DxAjZXfzZRfyL5V3DVYvsUYlN/ItF/NlFCNkYi0382UUM2VkEi0X8i+VdwggA</compiledString>
+									<returnType>float</returnType>
+									<sString>d( sPos, rPos )</sString>
+								</valueToCompare>
+							</ComparingTargetSelector>
+						</firstTargetToHit>
+						<formulaName></formulaName>
+						<lifeTime>
+							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>-1.0</sString>
+						</lifeTime>
+						<LoggingEvent>-1</LoggingEvent>
+						<providerName></providerName>
+						<spell href="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" id="1948615F-A234-4D2A-9DCE-7C650D1ABCDD">
+							<Spell>
+								<applicators>
+									<Item href="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" id="3F61C171-5C6E-4B7A-AD66-E70A489D4E2E">
+										<SpellApplicator>
+											<applyTarget>ApplicatorTarget</applyTarget>
+											<caption>Если попали в цель</caption>
+											<enabled>
+												<compiledString>FQAAAAAAAAAAVYvsM8CDfQwAD5XAXcM=</compiledString>
+												<returnType>bool</returnType>
+												<sString>pSecond != 0</sString>
+											</enabled>
+											<formulaName></formulaName>
+											<LoggingEvent>-1</LoggingEvent>
+											<providerName></providerName>
+											<spell href="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" id="9FD573DF-D481-4FC6-B53C-7D79265DF32D">
+												<Spell>
+													<applicators>
+														<Item href="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" id="3736D07A-C778-41E1-A40B-378CB9E62A50">
+															<ProgramApplicator>
+																<applicators>
+																	<Item>
+																		<applicator href="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" id="192DEA54-A6E1-4ACD-86BC-E244362CA688">
+																			<FlagsApplicator>
+																				<applyTarget>ApplicatorTarget</applyTarget>
+																				<behaviorFlags>32</behaviorFlags>
+																				<caption>KunaiHitEffect</caption>
+																				<consumables />
+																				<effect>
+																					<Item href="/Effects/Shots/Dagger/_2FXHit.EFFT" />
+																					<Item href="" />
+																				</effect>
+																				<enabled>
+																					<compiledString></compiledString>
+																					<returnType>bool</returnType>
+																					<sString>true</sString>
+																				</enabled>
+																				<flag>0</flag>
+																				<formulaName></formulaName>
+																				<lifeTime>
+																					<compiledString></compiledString>
+																					<returnType>float</returnType>
+																					<sString>-1.0</sString>
+																				</lifeTime>
+																				<LoggingEvent>-1</LoggingEvent>
+																				<providerName></providerName>
+																				<startCondition>
+																					<compiledString></compiledString>
+																					<returnType>bool</returnType>
+																					<sString>true</sString>
+																				</startCondition>
+																				<talents />
+																				<useListAs>ListAsRule</useListAs>
+																			</FlagsApplicator>
+																		</applicator>
+																		<continueCondition>
+																			<compiledString></compiledString>
+																			<returnType>bool</returnType>
+																			<sString>0</sString>
+																		</continueCondition>
+																		<continueEvents>1</continueEvents>
+																		<delay>
+																			<compiledString></compiledString>
+																			<returnType>float</returnType>
+																			<sString>-1.0</sString>
+																		</delay>
+																		<stopCondition>
+																			<compiledString></compiledString>
+																			<returnType>bool</returnType>
+																			<sString>0</sString>
+																		</stopCondition>
+																		<stopEvents>0</stopEvents>
+																	</Item>
+																	<Item>
+																		<applicator href="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" id="55987314-89DD-4BDB-9B4E-51ED19B5DBE1">
+																			<DamageApplicator>
+																				<applyTarget>ApplicatorTarget</applyTarget>
+																				<cancelInvisibility>true</cancelInvisibility>
+																				<caption>Разовый урон в жертву</caption>
+																				<damage>
+																					<compiledString>FQwAAAABAAAAGAAAAEE0XzJfRGFtYWdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+																					<returnType>float</returnType>
+																					<sString>cA4_2_Damage</sString>
+																				</damage>
+																				<damageMode>4</damageMode>
+																				<damageType>Material</damageType>
+																				<enabled>
+																					<compiledString>FSAAAAACAAAAJwAAAEAAAABJbnZpc2libGVfQTRfMnUASW52aXNpYmxlX0E0XzJ1AFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAikX7i+Vdww==</compiledString>
+																					<returnType>bool</returnType>
+																					<sString>tal("Invisible_A4_2u")</sString>
+																				</enabled>
+																				<formulaName></formulaName>
+																				<LoggingEvent>-1</LoggingEvent>
+																				<providerName></providerName>
+																				<timeLimiter>-1</timeLimiter>
+																				<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Material.UIEV" />
+																			</DamageApplicator>
+																		</applicator>
+																		<continueCondition>
+																			<compiledString></compiledString>
+																			<returnType>bool</returnType>
+																			<sString>0</sString>
+																		</continueCondition>
+																		<continueEvents>1</continueEvents>
+																		<delay>
+																			<compiledString></compiledString>
+																			<returnType>float</returnType>
+																			<sString>-1.0</sString>
+																		</delay>
+																		<stopCondition>
+																			<compiledString></compiledString>
+																			<returnType>bool</returnType>
+																			<sString>0</sString>
+																		</stopCondition>
+																		<stopEvents>0</stopEvents>
+																	</Item>
+																	<Item>
+																		<applicator href="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" id="0CF78D0D-810F-419E-97FF-1247D44F4EA7">
+																			<ProgramApplicator>
+																				<applicators>
+																					<Item>
+																						<applicator href="/Items/Talents/Class/Invisible/status_A4_2_OnChain.APLR" />
+																						<continueCondition>
+																							<compiledString></compiledString>
+																							<returnType>bool</returnType>
+																							<sString>0</sString>
+																						</continueCondition>
+																						<continueEvents>1</continueEvents>
+																						<delay>
+																							<compiledString></compiledString>
+																							<returnType>float</returnType>
+																							<sString>-1.0</sString>
+																						</delay>
+																						<stopCondition>
+																							<compiledString></compiledString>
+																							<returnType>bool</returnType>
+																							<sString>0</sString>
+																						</stopCondition>
+																						<stopEvents>0</stopEvents>
+																					</Item>
+																					<Item>
+																						<applicator href="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" id="A1BEF1AB-846C-476E-A3DC-47047ADC3658">
+																							<FlagsApplicator>
+																								<applyTarget>ApplicatorTarget</applyTarget>
+																								<behaviorFlags>1</behaviorFlags>
+																								<caption>Флаг ожидающий притягивание</caption>
+																								<consumables />
+																								<effect>
+																									<Item href="" />
+																									<Item href="" />
+																								</effect>
+																								<enabled>
+																									<compiledString>FQsAAAABAAAAFQAAAFRocm93X0p1bXAAVYvsagKLRRBQaAAAAACLTQyLEYtNDIuCnAEAAP/QM8k7RRAPlcGKwV3D</compiledString>
+																									<returnType>bool</returnType>
+																									<sString>receiver.applThrow_Jump(ABILITY) != pMisc</sString>
+																								</enabled>
+																								<flag>0</flag>
+																								<formulaName></formulaName>
+																								<lifeTime>
+																									<compiledString></compiledString>
+																									<returnType>float</returnType>
+																									<sString>-1.0</sString>
+																								</lifeTime>
+																								<LoggingEvent>-1</LoggingEvent>
+																								<providerName></providerName>
+																								<startCondition>
+																									<compiledString></compiledString>
+																									<returnType>bool</returnType>
+																									<sString>true</sString>
+																								</startCondition>
+																								<talents />
+																								<useListAs>ListAsRule</useListAs>
+																							</FlagsApplicator>
+																						</applicator>
+																						<continueCondition>
+																							<compiledString></compiledString>
+																							<returnType>bool</returnType>
+																							<sString>0</sString>
+																						</continueCondition>
+																						<continueEvents>2</continueEvents>
+																						<delay>
+																							<compiledString></compiledString>
+																							<returnType>float</returnType>
+																							<sString>-1.0</sString>
+																						</delay>
+																						<stopCondition>
+																							<compiledString></compiledString>
+																							<returnType>bool</returnType>
+																							<sString>0</sString>
+																						</stopCondition>
+																						<stopEvents>0</stopEvents>
+																					</Item>
+																					<Item>
+																						<applicator href="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" id="84220E57-EA27-4CCE-B8B0-372AAC4C0EE7">
+																							<StatusApplicator>
+																								<applicators>
+																									<Item href="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" id="850E9D18-9051-4A27-AF42-78E4684D3BAA">
+																										<MovementControlApplicator>
+																											<applyTarget>ApplicatorTarget</applyTarget>
+																											<behaviorFlags>0</behaviorFlags>
+																											<caption>Movement control appl</caption>
+																											<effect>
+																												<Item href="" />
+																												<Item href="" />
+																											</effect>
+																											<enabled>
+																												<compiledString>FXQAAAAKAAAAgQAAALIAAADIAAAA3gAAAAIBAAAmAQAARgEAAGABAAB2AQAAlwEAAGNhcHR1cmVkQnlFdmlsVHJlZQAAU3RvcE1vdmVtZW50Q29udHJvbABUaHJvd19KdW1wAABUaHJvdwAAAFRocm93X0p1bXAAAFRocm93AAAAVG9zc2VkAABBNF9NYXhEaXN0YW5jZVRvTW92ZUNvbnRyb2wAVYvsg+wQagCLRRBQaAAAAACLTQyLEYtNDIuCnAEAAP/QO0UQD4UgAQAAi00MixGLTQyLgnwBAAD/0IlF/GgUAAAAi038ixGLTfyLgogBAAD/0NwdzAEAAN/g9sRED4rnAAAAagCLTRBRaCgAAACLVQyLAotNDIuQnAEAAP/SO0UQD4XDAAAAagCLRRBQaDQAAACLTQyLEYtNDIuCnAEAAP/QO0UQD4WfAAAAagCLTRBRaDwAAACLVQiLAotNCIuQnAEAAP/SO0UQdX9qAItFEFBoSAAAAItNCIsRi00Ii4KcAQAA/9A7RRB1X2hQAAAAi00IixGLTQiLgogBAAD/0NwdzAEAAN/g9sRBej2LTRCLEYtNEItCDP/Qi00MUYtVCFJoWAAAAItFEIsQi00Qi0JQ3V30/9DcXfTf4PbEQXoJx0XwAQAAAOsHx0XwAAAAAIpF8IvlXcMAAAAAAAAAAA==</compiledString>
+																												<returnType>bool</returnType>
+																												<sString>receiver.FindApplicator("capturedByEvilTree", pMisc, GLOBAL) == pMisc &amp;&amp; rObjectMaster-&gt;vStopMovementControl == 0 &amp;&amp; receiver.applThrow_Jump(GLOBAL) == pMisc &amp;&amp; receiver.applThrow(GLOBAL) == pMisc 
+&amp;&amp; sender.applThrow_Jump(GLOBAL) == pMisc &amp;&amp; sender.applThrow(GLOBAL) == pMisc &amp;&amp; sender.vTossed &lt;= 0 &amp;&amp; mDist2Target &gt;= cA4_MaxDistanceToMoveControl
+</sString>
+																											</enabled>
+																											<formulaName>MovementControl</formulaName>
+																											<lifeTime>
+																												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAvw==</compiledString>
+																												<returnType>float</returnType>
+																												<sString>-1</sString>
+																											</lifeTime>
+																											<LoggingEvent>-1</LoggingEvent>
+																											<providerName></providerName>
+																											<startCondition>
+																												<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+																												<returnType>bool</returnType>
+																												<sString>true</sString>
+																											</startCondition>
+																										</MovementControlApplicator>
+																									</Item>
+																								</applicators>
+																								<applyTarget>ApplicatorTarget</applyTarget>
+																								<behaviorFlags>3</behaviorFlags>
+																								<caption>TECH_status</caption>
+																								<customCounter>
+																									<compiledString></compiledString>
+																									<returnType>int</returnType>
+																									<sString>0</sString>
+																								</customCounter>
+																								<customProgress>
+																									<compiledString></compiledString>
+																									<returnType>float</returnType>
+																									<sString>-1.0</sString>
+																								</customProgress>
+																								<description textref="" />
+																								<dispellPriority>NonDispellable</dispellPriority>
+																								<effect>
+																									<Item href="" />
+																									<Item href="" />
+																								</effect>
+																								<enabled>
+																									<compiledString>FRgAAAABAAAAIgAAAEludmlzaWJsZUE0X01vdmVDb250cm9sAFWL7GoCi0UQUGgAAAAAi00MixGLTQyLgpwBAAD/0DPJO0UQD5XBisFdww==</compiledString>
+																									<returnType>bool</returnType>
+																									<sString>receiver.applInvisibleA4_MoveControl(ABILITY) != pMisc</sString>
+																								</enabled>
+																								<flags>0</flags>
+																								<formulaName></formulaName>
+																								<image href="" />
+																								<lifeTime>
+																									<compiledString></compiledString>
+																									<returnType>float</returnType>
+																									<sString>-1.0</sString>
+																								</lifeTime>
+																								<LoggingEvent>-1</LoggingEvent>
+																								<name textref="" />
+																								<power>0</power>
+																								<providerName></providerName>
+																								<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+																								<stackCount>0</stackCount>
+																								<startCondition>
+																									<compiledString></compiledString>
+																									<returnType>bool</returnType>
+																									<sString>true</sString>
+																								</startCondition>
+																								<statusPosition>0</statusPosition>
+																								<stopBehaviour>StopByTime</stopBehaviour>
+																								<unstackableWith href="" />
+																							</StatusApplicator>
+																						</applicator>
+																						<continueCondition>
+																							<compiledString></compiledString>
+																							<returnType>bool</returnType>
+																							<sString>0</sString>
+																						</continueCondition>
+																						<continueEvents>2</continueEvents>
+																						<delay>
+																							<compiledString></compiledString>
+																							<returnType>float</returnType>
+																							<sString>-1.0</sString>
+																						</delay>
+																						<stopCondition>
+																							<compiledString></compiledString>
+																							<returnType>bool</returnType>
+																							<sString>0</sString>
+																						</stopCondition>
+																						<stopEvents>0</stopEvents>
+																					</Item>
+																				</applicators>
+																				<applyTarget>ApplicatorTarget</applyTarget>
+																				<behaviorFlags>1</behaviorFlags>
+																				<caption>Программа с удержанием</caption>
+																				<effect>
+																					<Item href="" />
+																					<Item href="" />
+																				</effect>
+																				<enabled>
+																					<compiledString>FR8AAAADAAAAJAAAADoAAABMAAAASW1tdW5lMkNvbnRyb2wAAEludmlzaWJsZUNoYWluAFWL7FFoAAAAAItFDIsQi00Mi4KIAQAA/9DcHXwAAADf4PbERHopagGLTRBRaBAAAACLVQyLAotNDIuQnAEAAP/SO0UQdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAAA</compiledString>
+																					<returnType>bool</returnType>
+																					<sString>receiver.vImmune2Control == 0  &amp;&amp; receiver.applInvisibleChain(UNIT) == pMisc; //&amp;&amp; receiver.applThrow_Jump(GLOBAL) == pMis</sString>
+																				</enabled>
+																				<formulaName></formulaName>
+																				<lifeTime>
+																					<compiledString></compiledString>
+																					<returnType>float</returnType>
+																					<sString>-1.0</sString>
+																				</lifeTime>
+																				<LoggingEvent>-1</LoggingEvent>
+																				<providerName></providerName>
+																				<startCondition>
+																					<compiledString>FRgAAAABAAAAIgAAAEludmlzaWJsZUE0X01vdmVDb250cm9sAFWL7GoBi0UQUGgAAAAAi00MixGLTQyLgpwBAAD/0DPJO0UQD5TBisFdww==</compiledString>
+																					<returnType>bool</returnType>
+																					<sString>receiver.applInvisibleA4_MoveControl(UNIT) == pMisc</sString>
+																				</startCondition>
+																			</ProgramApplicator>
+																		</applicator>
+																		<continueCondition>
+																			<compiledString></compiledString>
+																			<returnType>bool</returnType>
+																			<sString>0</sString>
+																		</continueCondition>
+																		<continueEvents>1</continueEvents>
+																		<delay>
+																			<compiledString></compiledString>
+																			<returnType>float</returnType>
+																			<sString>-1.0</sString>
+																		</delay>
+																		<stopCondition>
+																			<compiledString></compiledString>
+																			<returnType>bool</returnType>
+																			<sString>0</sString>
+																		</stopCondition>
+																		<stopEvents>0</stopEvents>
+																	</Item>
+																	<Item>
+																		<applicator href="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" id="33B0EC85-7005-4087-BC4B-0931AAF4F0E0">
+																			<ThrowApplicator>
+																				<angle>0</angle>
+																				<applyTarget>ApplicatorTarget</applyTarget>
+																				<behaviorFlags>145</behaviorFlags>
+																				<caption>throw</caption>
+																				<collisionFlags>7</collisionFlags>
+																				<enabled>
+																					<compiledString>FU8AAAAHAAAAawAAALMAAADGAAAA0gAAAOgAAAD6AAAAGgEAAEE0X0VuZW15TW92ZU1heFJhbmdlAAAAAEE0X1Rocm93Q29uZGl0aW9uAAAASW1tdW5lMkNvbnRyb2wAAFRocm93AAAAVGhyb3dfSnVtcABVi+yD7AyLRRCLEItNEItCDP/Qi00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ3V34/9DcXfjf4PbEBQ+KrwAAAGgAAAAQi00MixGLTQyLQmj/0A+2yIXJD4WSAAAAi1UMUotFCFBoGAAAAItNEIsRi00Qi0JQ/9DcHUoBAADf4PbERHtraCwAAACLTQyLEYtNDIuCiAEAAP/Q3B1KAQAA3+D2xER6SWoAi00QUWg8AAAAi1UMiwKLTQyLkJwBAAD/0jtFEHUpagCLRRBQaEQAAACLTQyLEYtNDIuCnAEAAP/QO0UQdQnHRfQBAAAA6wfHRfQAAAAAikX0i+VdwwAAAAAAAAAA</compiledString>
+																					<returnType>bool</returnType>
+																					<sString>(mDist2Target &gt; cA4_EnemyMoveMaxRange)&amp;&amp;!rFlag(268435456) &amp;&amp; cA4_ThrowCondition &amp;&amp; receiver.vImmune2Control == 0 &amp;&amp; receiver.applThrow(GLOBAL) == pMisc &amp;&amp; receiver.applThrow_Jump(GLOBAL) == pMisc</sString>
+																				</enabled>
+																				<firstTargetToHit href="" />
+																				<flightType>Throw</flightType>
+																				<flipTime>
+																					<compiledString></compiledString>
+																					<returnType>float</returnType>
+																					<sString>1.0</sString>
+																				</flipTime>
+																				<flyEffect>
+																					<Item href="" />
+																					<Item href="" />
+																				</flyEffect>
+																				<formulaName>Throw_Jump</formulaName>
+																				<landTime>0</landTime>
+																				<lockRotation>false</lockRotation>
+																				<LoggingEvent>-1</LoggingEvent>
+																				<maxDistance>0</maxDistance>
+																				<maxHeight>0</maxHeight>
+																				<moveSpeed>
+																					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQQ==</compiledString>
+																					<returnType>float</returnType>
+																					<sString>30</sString>
+																				</moveSpeed>
+																				<providerName></providerName>
+																				<startSpell href="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" id="1B784553-28BB-4493-9325-19C799046D75">
+																					<Spell>
+																						<applicators>
+																							<Item href="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" id="F29B5840-264F-4C92-BED5-445B8CF6BDF5">
+																								<StatModApplicator>
+																									<applyTarget>ApplicatorTarget</applyTarget>
+																									<behaviorFlags>152</behaviorFlags>
+																									<caption>Unit is thrown (Tossed)</caption>
+																									<constraint>None</constraint>
+																									<dontUpdate>true</dontUpdate>
+																									<effect>
+																										<Item href="" />
+																										<Item href="" />
+																									</effect>
+																									<enabled>
+																										<compiledString></compiledString>
+																										<returnType>bool</returnType>
+																										<sString>true</sString>
+																									</enabled>
+																									<formulaName></formulaName>
+																									<lifeTime>
+																										<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAvw==</compiledString>
+																										<returnType>float</returnType>
+																										<sString>-1</sString>
+																									</lifeTime>
+																									<LoggingEvent>-1</LoggingEvent>
+																									<modifier>
+																										<addValue>
+																											<compiledString></compiledString>
+																											<returnType>float</returnType>
+																											<sString>1.0f</sString>
+																										</addValue>
+																										<multValue>
+																											<compiledString></compiledString>
+																											<returnType>float</returnType>
+																											<sString>0.0f</sString>
+																										</multValue>
+																										<stat>Life</stat>
+																										<topModifier>false</topModifier>
+																										<variable>Tossed</variable>
+																									</modifier>
+																									<providerName></providerName>
+																									<startCondition>
+																										<compiledString>FQsAAAABAAAAFQAAAFRocm93X0p1bXAAVYvsagGLRRBQaAAAAACLTQyLEYtNDIuCnAEAAP/QM8k7RRAPlcGKwV3D</compiledString>
+																										<returnType>bool</returnType>
+																										<sString>receiver.applThrow_Jump(UNIT) != pMisc</sString>
+																									</startCondition>
+																									<statModName></statModName>
+																								</StatModApplicator>
+																							</Item>
+																						</applicators>
+																						<dispatch href="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" id="ABB3C323-70BE-46F3-A6B4-659E60782B1A">
+																							<DispatchImmediate>
+																								<alwaysApply>false</alwaysApply>
+																								<applyEffect>
+																									<Item href="" />
+																									<Item href="" />
+																								</applyEffect>
+																								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																								<applyEffectOrientation>Default</applyEffectOrientation>
+																								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																								<dieAfterApply>true</dieAfterApply>
+																								<dispatchEffect>
+																									<Item href="" />
+																									<Item href="" />
+																								</dispatchEffect>
+																								<flags>0</flags>
+																								<instantApply>false</instantApply>
+																							</DispatchImmediate>
+																						</dispatch>
+																					</Spell>
+																				</startSpell>
+																				<stopSpell href="" />
+																				<surfaceSpeedFromAG>false</surfaceSpeedFromAG>
+																				<takeOffTime>0</takeOffTime>
+																				<targetSelector href="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" id="9602EB89-C7B8-49CB-B51E-EAF105ABF014">
+																					<PointTargetSelector>
+																						<checkMinRange>true</checkMinRange>
+																						<mode>RangeFromOwner</mode>
+																						<offset>
+																							<x>0</x>
+																							<y>1</y>
+																						</offset>
+																						<paralleledTarget>false</paralleledTarget>
+																						<range>
+																							<compiledString>FRUAAAABAAAAIQAAAEE0X0VuZW15TW92ZU1heFJhbmdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+																							<returnType>float</returnType>
+																							<sString>cA4_EnemyMoveMaxRange</sString>
+																						</range>
+																						<targetSelector href="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" id="986E669B-5658-47C7-A241-315F9FE9633F">
+																							<ConvertTargetToLand>
+																								<aggregateMode>First</aggregateMode>
+																								<targetSelector href="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" id="89FB7896-824A-46A5-9453-808CA1AED455">
+																									<SelectApplicatorTarget>
+																										<applicatorIndex>0</applicatorIndex>
+																										<applicatorName></applicatorName>
+																										<namedApplicatorTarget>ApplicatorTarget</namedApplicatorTarget>
+																										<selectTarget>ApplicatorTarget</selectTarget>
+																									</SelectApplicatorTarget>
+																								</targetSelector>
+																							</ConvertTargetToLand>
+																						</targetSelector>
+																						<traceMode>0</traceMode>
+																					</PointTargetSelector>
+																				</targetSelector>
+																				<trackTargetUnit>false</trackTargetUnit>
+																				<trajectory Animated="True">
+																					<Tracks>
+																						<Item>
+																							<Item>
+																								<Key>0</Key>
+																								<Value>0</Value>
+																							</Item>
+																							<Item>
+																								<Key>1</Key>
+																								<Value>0</Value>
+																							</Item>
+																						</Item>
+																					</Tracks>
+																					<Type>Clamp</Type>
+																					<Values>
+																						<Item>
+																							<Key>0</Key>
+																							<Value>0</Value>
+																						</Item>
+																						<Item>
+																							<Key>1</Key>
+																							<Value>0</Value>
+																						</Item>
+																					</Values>
+																				</trajectory>
+																			</ThrowApplicator>
+																		</applicator>
+																		<continueCondition>
+																			<compiledString></compiledString>
+																			<returnType>bool</returnType>
+																			<sString>0</sString>
+																		</continueCondition>
+																		<continueEvents>6</continueEvents>
+																		<delay>
+																			<compiledString></compiledString>
+																			<returnType>float</returnType>
+																			<sString>-1.0</sString>
+																		</delay>
+																		<stopCondition>
+																			<compiledString></compiledString>
+																			<returnType>bool</returnType>
+																			<sString>0</sString>
+																		</stopCondition>
+																		<stopEvents>0</stopEvents>
+																	</Item>
+																</applicators>
+																<applyTarget>ApplicatorTarget</applyTarget>
+																<behaviorFlags>145</behaviorFlags>
+																<caption>Программа</caption>
+																<effect>
+																	<Item href="" />
+																	<Item href="" />
+																</effect>
+																<enabled>
+																	<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+																	<returnType>bool</returnType>
+																	<sString>true</sString>
+																</enabled>
+																<formulaName></formulaName>
+																<lifeTime>
+																	<compiledString></compiledString>
+																	<returnType>float</returnType>
+																	<sString>-1.0</sString>
+																</lifeTime>
+																<LoggingEvent>-1</LoggingEvent>
+																<providerName></providerName>
+																<startCondition>
+																	<compiledString></compiledString>
+																	<returnType>bool</returnType>
+																	<sString>true</sString>
+																</startCondition>
+															</ProgramApplicator>
+														</Item>
+													</applicators>
+													<dispatch href="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" id="DC70A5E8-4A66-4C34-955C-2BC13DB3065D">
+														<DispatchImmediate>
+															<alwaysApply>false</alwaysApply>
+															<applyEffect>
+																<Item href="" />
+																<Item href="" />
+															</applyEffect>
+															<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+															<applyEffectOrientation>Default</applyEffectOrientation>
+															<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+															<dieAfterApply>true</dieAfterApply>
+															<dispatchEffect>
+																<Item href="" />
+																<Item href="" />
+															</dispatchEffect>
+															<flags>0</flags>
+															<instantApply>true</instantApply>
+														</DispatchImmediate>
+													</dispatch>
+												</Spell>
+											</spell>
+											<spellTarget>ApplicatorTarget</spellTarget>
+											<targetSelector href="" />
+										</SpellApplicator>
+									</Item>
+									<Item href="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" id="EF5CF212-2E86-466C-9E7A-8DF88C2674F2">
+										<SpellApplicator>
+											<applyTarget>ApplicatorTarget</applyTarget>
+											<caption>Диспатч с галочкой Upgradable для "Символа леса"</caption>
+											<enabled>
+												<compiledString>FSAAAAACAAAAJwAAAEAAAABJbnZpc2libGVfQTRfMnUASW52aXNpYmxlX0E0XzJ1AFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdA+DfQwAdAnHRfQBAAAA6wfHRfQAAAAAikX0i+Vdww==</compiledString>
+												<returnType>bool</returnType>
+												<sString>tal("Invisible_A4_2u") &amp;&amp; pSecond != 0</sString>
+											</enabled>
+											<formulaName></formulaName>
+											<LoggingEvent>-1</LoggingEvent>
+											<providerName></providerName>
+											<spell href="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" id="6BB5B9A6-6310-4A13-A793-880A7DBAA134">
+												<Spell>
+													<applicators />
+													<dispatch href="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" id="9874F4F0-5EA9-4F1D-A0E1-987B1277AC52">
+														<DispatchImmediate>
+															<alwaysApply>false</alwaysApply>
+															<applyEffect>
+																<Item href="" />
+																<Item href="" />
+															</applyEffect>
+															<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+															<applyEffectOrientation>Default</applyEffectOrientation>
+															<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+															<dieAfterApply>true</dieAfterApply>
+															<dispatchEffect>
+																<Item href="" />
+																<Item href="" />
+															</dispatchEffect>
+															<flags>1</flags>
+															<instantApply>false</instantApply>
+														</DispatchImmediate>
+													</dispatch>
+												</Spell>
+											</spell>
+											<spellTarget>ApplicatorTarget</spellTarget>
+											<targetSelector href="" />
+										</SpellApplicator>
+									</Item>
+								</applicators>
+								<dispatch href="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" id="75BEBBC5-10A3-4054-984A-F86EE62D14AA">
+									<DispatchLinearWithLink>
+										<aiming>Straight</aiming>
+										<alwaysApply>false</alwaysApply>
+										<applyEffect>
+											<Item href="" />
+											<Item href="" />
+										</applyEffect>
+										<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+										<applyEffectOrientation>Default</applyEffectOrientation>
+										<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+										<dieAfterApply>true</dieAfterApply>
+										<dispatchEffect>
+											<Item href="/Effects/Shots/Dagger/_2FX.EFFT" />
+											<Item href="" />
+										</dispatchEffect>
+										<flags>0</flags>
+										<flyMode>Linear</flyMode>
+										<fromLocator>Body</fromLocator>
+										<height>0</height>
+										<killEffect>true</killEffect>
+										<links>
+											<Item>
+												<effect>
+													<Item href="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" id="E7033C50-329D-4C5A-BE7A-B1B0077B06C6">
+														<LightningEffect>
+															<component href="/Heroes/Invisible/Ability4Link.LGSC" />
+															<controlledVisibility>false</controlledVisibility>
+															<deathType>Manual</deathType>
+															<enableCondition href="" />
+															<lifeTime>0</lifeTime>
+														</LightningEffect>
+													</Item>
+													<Item href="" />
+												</effect>
+											</Item>
+										</links>
+										<locatorOrient>true</locatorOrient>
+										<maxDeviation>180</maxDeviation>
+										<maxDistance>-1</maxDistance>
+										<maxRise>0</maxRise>
+										<minRise>0</minRise>
+										<persistentApplicators />
+										<speed>26</speed>
+										<suspendTime>0</suspendTime>
+										<toLocator>Body</toLocator>
+									</DispatchLinearWithLink>
+								</dispatch>
+							</Spell>
+						</spell>
+						<spellTarget>ApplicatorTarget</spellTarget>
+						<startCondition>
+							<compiledString>FSAAAAACAAAAJwAAAEAAAABJbnZpc2libGVfQTRfMnUASW52aXNpYmxlX0E0XzJ1AFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAikX7i+Vdww==</compiledString>
+							<returnType>bool</returnType>
+							<sString>tal("Invisible_A4_2u")</sString>
+						</startCondition>
+					</WaitForSpellApplicator>
+				</Item>
+			</applicators>
+			<dispatch href="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" id="46900C4A-CEE7-4C20-A916-1E6C2C9D7FD6">
+				<DispatchImmediate>
+					<alwaysApply>false</alwaysApply>
+					<applyEffect>
+						<Item href="" />
+						<Item href="" />
+					</applyEffect>
+					<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+					<applyEffectOrientation>Default</applyEffectOrientation>
+					<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+					<dieAfterApply>true</dieAfterApply>
+					<dispatchEffect>
+						<Item href="" />
+						<Item href="" />
+					</dispatchEffect>
+					<flags>0</flags>
+					<instantApply>false</instantApply>
+				</DispatchImmediate>
+			</dispatch>
+		</Spell>
+	</spell>
+	<spellTarget>ApplicatorTarget</spellTarget>
+	<targetSelector href="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" id="029B7C13-476D-4F39-9007-81ED306C465C">
+		<PointTargetSelector>
+			<checkMinRange>true</checkMinRange>
+			<mode>OffsetFromOwner</mode>
+			<offset>
+				<x>0</x>
+				<y>1</y>
+			</offset>
+			<paralleledTarget>false</paralleledTarget>
+			<range>
+				<compiledString>FQwAAAABAAAAGAAAAEE0X1VzZVJhbmdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+				<returnType>float</returnType>
+				<sString>cA4_UseRange</sString>
+			</range>
+			<targetSelector href="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" id="9C298128-82FC-4783-9057-425BAC77192E">
+				<SelectApplicatorTarget>
+					<applicatorIndex>0</applicatorIndex>
+					<applicatorName></applicatorName>
+					<namedApplicatorTarget>ApplicatorTarget</namedApplicatorTarget>
+					<selectTarget>CastMasterPosition</selectTarget>
+				</SelectApplicatorTarget>
+			</targetSelector>
+			<traceMode>0</traceMode>
+		</PointTargetSelector>
+	</targetSelector>
+</SpellApplicator>

@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BasicEffectStandalone>
 	<BackLink DBID="/Items/Talents/Class/Hunter/Ability1.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A0.TALENT" Count="4" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A4_2.TALENT" Count="4" />
 	<component href="/Effects/Debuffs/ShockWave/_Purple_Short.PRXY" />
 	<deathType>Anim</deathType>
 	<enableCondition href="" />

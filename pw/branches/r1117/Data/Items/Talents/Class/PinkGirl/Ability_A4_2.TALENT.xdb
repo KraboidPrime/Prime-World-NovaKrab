@@ -7,6 +7,7 @@
 	<BackLink DBID="/Items/Talents/Class/PinkGirl/Ability_A4u.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset5_7_Ultimate/Status_Redset5_7_Cooldown.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/PinkGirl_Mighty.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Level2/G567_CasterBase.TALENT" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -141,6 +142,193 @@
 					</Item>
 					<Item href="/GameLogic/GeneralApplicators/Immune2Control.APLR" />
 					<Item href="/GameLogic/GeneralApplicators/Uncontrollable.APLR" />
+					<Item href="/Items/Talents/Class/PinkGirl/Ability_A4_2.TALENT" id="1DFEC252-DD2C-47C8-B16E-2FD6527D3CE5">
+						<SpellPeriodicallyApplicator>
+							<applyTarget>ApplicatorTarget</applyTarget>
+							<behaviorFlags>0</behaviorFlags>
+							<caption></caption>
+							<effect>
+								<Item href="" />
+								<Item href="" />
+							</effect>
+							<enabled>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</enabled>
+							<formulaName></formulaName>
+							<lifeTime>
+								<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
+								<returnType>float</returnType>
+								<sString>3</sString>
+							</lifeTime>
+							<LoggingEvent>-1</LoggingEvent>
+							<period>
+								<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQA==</compiledString>
+								<returnType>float</returnType>
+								<sString>2.5f</sString>
+							</period>
+							<providerName></providerName>
+							<scaleMode>ScaleIsCount</scaleMode>
+							<spell href="/Items/Talents/Class/PinkGirl/Ability_A4_2.TALENT" id="B2B63896-D142-4C4B-BB60-072AF263F5E4">
+								<Spell>
+									<applicators>
+										<Item href="/Items/Talents/Class/PinkGirl/Ability_A4_2.TALENT" id="E235166C-2416-4EF6-B391-508484C60713">
+											<SpellApplicator>
+												<applyTarget>ApplicatorTarget</applyTarget>
+												<caption>Спелл с уроном</caption>
+												<enabled>
+													<compiledString>FR8AAAACAAAAJgAAAD8AAABQaW5rR2lybF9BNF8ydQAAUGlua0dpcmxfQTRfMnUAVYvsg+wIaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wCKRfuL5V3D</compiledString>
+													<returnType>bool</returnType>
+													<sString>tal("PinkGirl_A4_2u")</sString>
+												</enabled>
+												<formulaName></formulaName>
+												<LoggingEvent>-1</LoggingEvent>
+												<providerName></providerName>
+												<spell href="/Items/Talents/Class/PinkGirl/Ability_A4_2.TALENT" id="1E0CC4DD-6BE9-49D6-A41F-022779DB3EFB">
+													<Spell>
+														<applicators>
+															<Item href="/Items/Talents/Class/PinkGirl/Ability_A4_2.TALENT" id="5722AA7C-4410-4B13-8E33-53D2E00650B6">
+																<DamageApplicator>
+																	<applyTarget>ApplicatorTarget</applyTarget>
+																	<cancelInvisibility>false</cancelInvisibility>
+																	<caption>Аое урон</caption>
+																	<damage>
+																		<compiledString>FQwAAAABAAAAGAAAAEE0XzJfRGFtYWdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+																		<returnType>float</returnType>
+																		<sString>cA4_2_Damage</sString>
+																	</damage>
+																	<damageMode>4</damageMode>
+																	<damageType>Energy</damageType>
+																	<enabled>
+																		<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+																		<returnType>bool</returnType>
+																		<sString>true</sString>
+																	</enabled>
+																	<formulaName></formulaName>
+																	<LoggingEvent>-1</LoggingEvent>
+																	<providerName></providerName>
+																	<timeLimiter>-1</timeLimiter>
+																	<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Energy.UIEV" />
+																</DamageApplicator>
+															</Item>
+														</applicators>
+														<dispatch href="/Items/Talents/Class/PinkGirl/Ability_A4_2.TALENT" id="D3DDE660-F9D2-4354-80CC-6AF57146CF91">
+															<DispatchImmediate>
+																<alwaysApply>false</alwaysApply>
+																<applyEffect>
+																	<Item href="" />
+																	<Item href="" />
+																</applyEffect>
+																<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																<applyEffectOrientation>Default</applyEffectOrientation>
+																<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																<dieAfterApply>true</dieAfterApply>
+																<dispatchEffect>
+																	<Item href="" />
+																	<Item href="" />
+																</dispatchEffect>
+																<flags>1</flags>
+																<instantApply>false</instantApply>
+															</DispatchImmediate>
+														</dispatch>
+													</Spell>
+												</spell>
+												<spellTarget>ApplicatorTarget</spellTarget>
+												<targetSelector href="/Items/Talents/Class/PinkGirl/Ability_A4_2.TALENT" id="03CFC514-AC20-4833-B905-F1FABB148648">
+													<AreaTargetSelector>
+														<absolutePosition>
+															<x>0</x>
+															<y>0</y>
+														</absolutePosition>
+														<flags>0</flags>
+														<mode>Normal</mode>
+														<range>
+															<compiledString>FQwAAAABAAAAGAAAAFJhbmdlX1Nob3J0AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+															<returnType>float</returnType>
+															<sString>cRange_Short</sString>
+														</range>
+														<targetFilter>538771519</targetFilter>
+														<targetSelector href="/Items/Talents/Class/PinkGirl/Ability_A4_2.TALENT" id="A284110F-FD76-4F1A-BAA3-79F430DB812F">
+															<SelectApplicatorTarget>
+																<applicatorIndex>0</applicatorIndex>
+																<applicatorName></applicatorName>
+																<namedApplicatorTarget>ApplicatorTarget</namedApplicatorTarget>
+																<selectTarget>ApplicatorTarget</selectTarget>
+															</SelectApplicatorTarget>
+														</targetSelector>
+													</AreaTargetSelector>
+												</targetSelector>
+											</SpellApplicator>
+										</Item>
+										<Item href="/Items/Talents/Class/PinkGirl/Ability_A4_2.TALENT" id="B8DFA288-5977-4F3E-AF05-04CDB4BB51C2">
+											<FlagsApplicator>
+												<applyTarget>ApplicatorTarget</applyTarget>
+												<behaviorFlags>248</behaviorFlags>
+												<caption>Не смотрим на взрыв</caption>
+												<consumables />
+												<effect>
+													<Item href="/Effects/Debuffs/Explosion/_PinkGirl.EFFT" />
+													<Item href="" />
+												</effect>
+												<enabled>
+													<compiledString>FR8AAAACAAAAJgAAAD8AAABQaW5rR2lybF9BNF8ydQAAUGlua0dpcmxfQTRfMnUAVYvsg+wIaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wCKRfuL5V3D</compiledString>
+													<returnType>bool</returnType>
+													<sString>tal("PinkGirl_A4_2u")</sString>
+												</enabled>
+												<flag>0</flag>
+												<formulaName></formulaName>
+												<lifeTime>
+													<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
+													<returnType>float</returnType>
+													<sString>2</sString>
+												</lifeTime>
+												<LoggingEvent>-1</LoggingEvent>
+												<providerName></providerName>
+												<startCondition>
+													<compiledString></compiledString>
+													<returnType>bool</returnType>
+													<sString>true</sString>
+												</startCondition>
+												<talents />
+												<useListAs>ListAsRule</useListAs>
+											</FlagsApplicator>
+										</Item>
+									</applicators>
+									<dispatch href="/Items/Talents/Class/PinkGirl/Ability_A4_2.TALENT" id="D86CBA06-F9D0-47BF-8454-EDDB82849C7F">
+										<DispatchImmediate>
+											<alwaysApply>false</alwaysApply>
+											<applyEffect>
+												<Item href="" />
+												<Item href="" />
+											</applyEffect>
+											<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+											<applyEffectOrientation>Default</applyEffectOrientation>
+											<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+											<dieAfterApply>true</dieAfterApply>
+											<dispatchEffect>
+												<Item href="" />
+												<Item href="" />
+											</dispatchEffect>
+											<flags>0</flags>
+											<instantApply>false</instantApply>
+										</DispatchImmediate>
+									</dispatch>
+								</Spell>
+							</spell>
+							<startCondition>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</startCondition>
+							<startOffset>
+								<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DMzPzPw==</compiledString>
+								<returnType>float</returnType>
+								<sString>1.9f</sString>
+							</startOffset>
+							<targetSelector href="" />
+						</SpellPeriodicallyApplicator>
+					</Item>
 				</applicators>
 				<applyTarget>AbilityOwner</applyTarget>
 				<behaviour href="/Items/Talents/Class/PinkGirl/Ability_A4_2.TALENT" id="A784144C-E80A-4E9C-9BB3-D5B73F553655">
@@ -368,9 +556,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACMQg==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQg==</compiledString>
 		<returnType>float</returnType>
-		<sString>70</sString>
+		<sString>100</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>

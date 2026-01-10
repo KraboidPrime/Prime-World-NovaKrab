@@ -76,9 +76,9 @@
 		<Item href="" />
 	</effect>
 	<enabled>
-		<compiledString>FQYAAAACAAAACwAAACEAAABJc1BldABVi+xRaAAAAACLRQyLEItNDIuCiAEAAP/Q3B1DAAAA3+D2xEF6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
+		<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
 		<returnType>bool</returnType>
-		<sString>receiver.vIsPet &lt;= 0</sString>
+		<sString>true</sString>
 	</enabled>
 	<flags>0</flags>
 	<formulaName></formulaName>
@@ -101,12 +101,5 @@
 	</startCondition>
 	<statusPosition>0</statusPosition>
 	<stopBehaviour>StopByTime</stopBehaviour>
-	<unstackableWith href="/Creeps/Normals/Normal1/status_UnpureAura.APLR" id="CA61F416-6F2C-4B24-9766-11192145097C">
-		<ApplicatorsList>
-			<applicatorLists />
-			<applicators>
-				<Item href="/Creeps/Normals/Normal1/status_UnpureAuraSelf.APLR" />
-			</applicators>
-		</ApplicatorsList>
-	</unstackableWith>
+	<unstackableWith href="" />
 </StatusApplicator>

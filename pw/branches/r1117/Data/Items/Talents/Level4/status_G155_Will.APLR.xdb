@@ -114,14 +114,7 @@
 	<description textref="/Items/Talents/Level4/status_G155_Will.APLR_description.txt" />
 	<dispellPriority>NonDispellable</dispellPriority>
 	<effect>
-		<Item href="/Items/Talents/Level4/status_G155_Will.APLR" id="44164B30-EC39-4258-8029-BCB58E704A1E">
-			<AuraEffect>
-				<deathType>Manual</deathType>
-				<enableCondition href="" />
-				<lifeTime>0</lifeTime>
-				<type>Ally</type>
-			</AuraEffect>
-		</Item>
+		<Item href="" />
 		<Item href="" />
 	</effect>
 	<enabled>

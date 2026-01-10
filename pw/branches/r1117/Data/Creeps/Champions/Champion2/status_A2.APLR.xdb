@@ -96,12 +96,5 @@
 	</startCondition>
 	<statusPosition>0</statusPosition>
 	<stopBehaviour>StopByTime</stopBehaviour>
-	<unstackableWith href="/Creeps/Champions/Champion2/status_A2.APLR" id="A35492B7-147B-4F3F-A540-85EF05CA7DB0">
-		<ApplicatorsList>
-			<applicatorLists />
-			<applicators>
-				<Item href="/Creeps/Champions/Champion2/status_A2_self.APLR" />
-			</applicators>
-		</ApplicatorsList>
-	</unstackableWith>
+	<unstackableWith href="" />
 </StatusApplicator>

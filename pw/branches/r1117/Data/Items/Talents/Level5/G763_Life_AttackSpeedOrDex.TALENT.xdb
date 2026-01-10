@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Talent>
 	<BackLink DBID="/Social.ROOT" Count="1" />
-	<BackLink DBID="/GameLogic/AILogic.AILP" Count="1" />
+	<BackLink DBID="/GameLogic/AILogic.AILP" Count="2" />
 	<BackLink DBID="/Items/RerollShop/TalentsList_Executor" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset7_10_Buthcer/Redset7_10_Butcher.TALKIT" Count="1" />
 	<BackLink DBID="/Social/TalentsCollection" Count="5" />

@@ -21,6 +21,9 @@
 	<BackLink DBID="/Items/Talents/Level6/G317_K_Life_AttackSpeed.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level6/G455_Life_StrOrInt.TALENT" Count="1" />
 	<BackLink DBID="/Maps/Tutorial/Talents/Tutorial_ThunderGod.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Chicken/Ability_A0.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A4_1.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level4/G557_EnemyAoeDmg.TALENT" Count="1" />
 	<applyTarget>ApplicatorTarget</applyTarget>
 	<behaviorFlags>144</behaviorFlags>
 	<caption>-- Standart Interrupt</caption>

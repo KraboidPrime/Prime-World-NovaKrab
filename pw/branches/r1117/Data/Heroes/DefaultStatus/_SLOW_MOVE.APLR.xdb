@@ -65,7 +65,7 @@
 	<BackLink DBID="/Items/Talents/Class/WitchDoctor/status_A3_CrowEye.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/WraithKing/Ability_A1.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Zealot/appl_A1A3_KatarProgram.APLR" Count="1" />
-	<BackLink DBID="/Items/Talents/Level2/G503_AA_DMG.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level2/G503_AA_DMG.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Level3/G350_AoE.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level3/G458_StrOrInt.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level3/status_G547_CharmNet.APLR" Count="1" />
@@ -86,6 +86,21 @@
 	<BackLink DBID="/Maps/Tutorial/Talents/Tutorial_ThunderGod.TALENT" Count="1" />
 	<BackLink DBID="/Summons/Turret/_.SUMMONED" Count="1" />
 	<BackLink DBID="/Summons/Wolf/Slowdown.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/GhostLord/Ability_A3.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level2/G1004_Vamp_Dmg.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level5/G186_AInt_Vamp.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level5/G347_AntiCreep_PVE.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level5/auraApplicator_G353.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Level5/G313_K_maxStrInt_LifeDrain.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Chicken/Ability_A2.TALENT" Count="3" />
+	<BackLink DBID="/Items/Talents/Class/Chicken/Ability_A0.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Chicken/Ability_A4_1.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A4_1.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A0.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Naga/status_A4_2_Enemy.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/TalentKits/Redset4_3_Fire/status_G557_Mark.APLR" Count="2" />
+	<BackLink DBID="/Items/Talents/TalentKits/Redset4_3_Fire/G557_FireDmg.SPLL" Count="1" />
+	<BackLink DBID="/Items/Talents/Level2/G021_Life-Str-Int.TALENT" Count="1" />
 	<applicators>
 		<Item href="/Heroes/DefaultStatus/_SLOW_MOVE.APLR" id="BD7263A6-11FD-4EAA-A701-C57196049889">
 			<StatModApplicator>

@@ -511,7 +511,11 @@
 		<Item href="/GameLogic/GeneralApplicators/SetClone.APLR" />
 	</applicators>
 	<applyTarget>AbilityOwner</applyTarget>
-	<behaviour href="/GameLogic/SummonBehaviourRanged" />
+	<behaviour href="/Items/Talents/Class/Alchemist/_summon_Clone.APLR" id="91F3A96C-86E1-46E3-92C1-76E40C544AC8">
+		<SummonBehaviourCommon parent="/GameLogic/SummonBehaviourRanged">
+			<responseRange>11</responseRange>
+		</SummonBehaviourCommon>
+	</behaviour>
 	<caption> - Саммоним Гомункула</caption>
 	<enabled>
 		<compiledString>FVoAAAAIAAAAYQAAAH4AAACdAAAAswAAAL8AAADVAAAA4QAAAPcAAABBMF9SZWFnZW50X0N1cnJlbnRTdGFjawBBMF9SZWFnZW50X01heFN0YWNrAElzSW5zaWRlQ2lyY2xlAABBNF9JblByb2dyZXNzAAAAQTBfQ2xvbmVBbGl2ZQBVi+yD7AxoAAAAAItFCIsQi00Ii4KIAQAA/9CLTQxRi1UIUmgYAAAAi0UQixCLTRCLQlDdXfj/0Nxd+N/g9sRBem9oLAAAAItNCIsRi00Ii4KIAQAA/9DcHRkBAADf4PbEAXVNaDwAAACLTQiLEYtNCIuCiAEAAP/Q3B0ZAQAA3+D2xER7K2hMAAAAi00IixGLTQiLgogBAAD/0NwdGQEAAN/g9sQFegnHRfQBAAAA6wfHRfQAAAAAikX0i+VdwwAAAAAAAPA/</compiledString>

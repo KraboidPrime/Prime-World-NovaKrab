@@ -10,14 +10,7 @@
 				<constraint>None</constraint>
 				<dontUpdate>false</dontUpdate>
 				<effect>
-					<Item href="/Items/Talents/Class/Unicorn/status_A2_positive_friends.APLR" id="00C320F0-EA4D-42FC-BB44-324082CBE968">
-						<AuraEffect>
-							<deathType>Manual</deathType>
-							<enableCondition href="" />
-							<lifeTime>0</lifeTime>
-							<type>Ally</type>
-						</AuraEffect>
-					</Item>
+					<Item href="" />
 					<Item href="" />
 				</effect>
 				<enabled>

@@ -131,6 +131,80 @@
 				<providerName></providerName>
 			</PermanentStatModApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/Rifleman/Ability_A4_2u.TALENT" id="2A0F3979-8615-42CF-88E5-44A6834DC3AA">
+			<EyeApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<cancelObstacles>true</cancelObstacles>
+				<caption>unobstructed vision</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FQ4AAAACAAAAEwAAACkAAABCbGluZFZpc1JhbmdlAFWL7FFoAAAAAItFDIsQi00Mi4KIAQAA/9DcHUsAAADf4PbERHoJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAAAA==</compiledString>
+					<returnType>bool</returnType>
+					<sString>receiver.vBlindVisRange == 0</sString>
+				</enabled>
+				<eyeTarget>ApplicatorTarget</eyeTarget>
+				<flags>8</flags>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<visRange>
+					<compiledString>FQAAAAAAAAAAVYvsi0UIixCLTQiLgrQAAAD/0F3D</compiledString>
+					<returnType>float</returnType>
+					<sString>sBaseVisibilityRange</sString>
+				</visRange>
+			</EyeApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/Rifleman/Ability_A4_2u.TALENT" id="7477C29C-E1D1-4F55-B222-78FCE224706E">
+			<EyeApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<cancelObstacles>true</cancelObstacles>
+				<caption>unobstructed vision (blind)</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FQ4AAAACAAAAEwAAACkAAABCbGluZFZpc1JhbmdlAFWL7FFoAAAAAItFDIsQi00Mi4KIAQAA/9DcHUsAAADf4PbERHoJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAQQA==</compiledString>
+					<returnType>bool</returnType>
+					<sString>receiver.vBlindVisRange == 4</sString>
+				</enabled>
+				<eyeTarget>ApplicatorTarget</eyeTarget>
+				<flags>8</flags>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<visRange>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAQA==</compiledString>
+					<returnType>float</returnType>
+					<sString>4.0f</sString>
+				</visRange>
+			</EyeApplicator>
+		</Item>
 	</passiveApplicators>
 	<persistentId>Rifleman_A4_2u</persistentId>
 	<prerequisiteTalents>

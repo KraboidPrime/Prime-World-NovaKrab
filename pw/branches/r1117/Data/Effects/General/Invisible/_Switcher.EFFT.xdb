@@ -11,7 +11,7 @@
 	<BackLink DBID="/Items/Talents/Class/Vampire/Ability_A3.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level5/G685_InvisibilityStrOrInt.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset7_7_Glyph/status_Invis.APLR" Count="1" />
-	<BackLink DBID="/Pets/PetInvis.APLR" Count="1" />
+	<BackLink DBID="/Pets/PetInvis.APLR" Count="2" />
 	<deathType>Manual</deathType>
 	<effectOnInvisible href="/Effects/General/Invisible/_Enemy.EFFT" />
 	<effectOnVisible href="/Effects/General/Invisible/_ListAlly.EFFT" />

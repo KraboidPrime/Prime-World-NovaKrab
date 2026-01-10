@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BasicEffectAttached>
-	<BackLink DBID="/GameLogic/GeneralApplicators/DispellWEffects.APLR" Count="1" />
 	<BackLink DBID="/Impulses/_.IBCN" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Shadow/Ability_A3.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Witcher/Ability_A2.TALENT" Count="1" />

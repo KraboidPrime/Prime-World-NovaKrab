@@ -869,9 +869,9 @@
 	<isUltimateTalent>false</isUltimateTalent>
 	<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
 	<manaCost>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAA0Qw==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQw==</compiledString>
 		<returnType>float</returnType>
-		<sString>180</sString>
+		<sString>200</sString>
 	</manaCost>
 	<marker>doCast1</marker>
 	<microAI href="/Items/Talents/Class/SnowQueen/Ability_A1.TALENT" id="475109F0-0828-4097-8276-EBEEE1FFFB71">

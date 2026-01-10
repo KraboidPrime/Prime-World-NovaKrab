@@ -3,8 +3,8 @@
 	<BackLink DBID="/Items/Talents/Class/Inventor/Ability_A2.TALENT" Count="1" />
 	<name>A2_LifeHeal</name>
 	<var>
-		<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoAi00QixGLTRCLQmD/0F3DAACYQQAAC0M=</compiledString>
+		<compiledString>FSAAAAAHAAAAWAAAAHEAAACqAAAAtwAAAMEAAAD9AAAABwEAAEludmVudG9yX0EwX1NVUABJbnZlbnRvcl9BMF9TVVAAVYvsg+woi0UIixCLTQiLgrgAAAD/0ItNCIsRi00Ii4K8AAAA3V34/9DcXfjf4PbEBQ+KoQAAAGgAAAAAi00IixGLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfSLTfSLEYtN9ItCBP/QiEXz6wTGRfMAD7ZN84lN7NtF7NwNUwEAANno3sFqAVHZBUcBAADZHCRR2QVDAQAA2RwkagCLVQiLAotNCIuQNAEAAN1d5P/SUdkcJGoAi0UQixCLTRCLQmD/0NxN5N1d3Os+agFR2QVHAQAA2RwkUdkFQwEAANkcJGoAi00IixGLTQiLgjQBAAD/0FHZHCRqAItNEIsRi00Qi0Jg/9DdXdzdRdzZXdjZRdiL5V3DAACYQQAAC0MAAAAAAADwP5qZmZmZmek/</compiledString>
 		<returnType>float</returnType>
-		<sString>abilityScale(sIntellect, 19, 139)</sString>
+		<sString>(sBaseStrength &gt; sBaseIntellect) ? (1+0.8*tal("Inventor_A0_SUP"))*abilityScale(sIntellect, 19, 139) : abilityScale(sIntellect, 19, 139)</sString>
 	</var>
 </UnitConstant>

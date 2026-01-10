@@ -7,6 +7,7 @@
 	<BackLink DBID="/Items/Talents/Level1/G723_StrOrInt.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level1/G722_RegEnergy.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level6/G728_StrOrInt.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level2/G133_PrimefromCreeps.TALENT" Count="1" />
 	<name>Discount</name>
 	<var>
 		<compiledString>FS4AAAAEAAAAMwAAAEkAAABdAAAAfAAAAFJlZHNldDdfNVRhbGVudENvdW50ZXIAAERpc2NvdW50MgAAAERpc2NvdW50MwBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B2XAAAA3+D2xER6H4tNDFGLVQhSaBgAAACLRRCLEItNEItCUP/Q2V386x2LTQxRi1UIUmgkAAAAi0UQixCLTRCLQlD/0Nld/NlF/IvlXcMAAAAAAAAAQA==</compiledString>

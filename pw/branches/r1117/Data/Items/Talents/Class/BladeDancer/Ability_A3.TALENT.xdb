@@ -157,6 +157,26 @@
 				<Item href="/Items/Talents/Class/BladeDancer/const_A0_SUP_2_StackEvasion" />
 				<Item href="/Items/Talents/Class/BladeDancer/const_A0_SUP_BonusDamage" />
 				<Item href="/Items/Talents/Class/BladeDancer/const_A0_SUP_StackDamage" />
+				<Item href="/Items/Talents/Class/BladeDancer/Ability_A3.TALENT" id="41441D70-75C0-487F-A38A-5F8E21C5EB87">
+					<UnitConstant>
+						<name>TimeControl_Duration</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAvw==</compiledString>
+							<returnType>float</returnType>
+							<sString>-1.0</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/BladeDancer/Ability_A3.TALENT" id="FA8EC2D4-D67D-45BE-A5AD-9D2DBD0BB8E2">
+					<UnitConstant>
+						<name>Decrease_TimeControl</name>
+						<var>
+							<compiledString>FRAAAAABAAAAHAAAAEEzX0V2YWRlX0NoYW5jZQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+							<returnType>float</returnType>
+							<sString>cA3_Evade_Chance</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

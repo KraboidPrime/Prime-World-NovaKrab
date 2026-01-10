@@ -27,6 +27,12 @@
 	<BackLink DBID="/Items/Talents/Level5/G681_StrOrInt.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level6/G455_Life_StrOrInt.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset7_1_Blind/status_G649_Blind.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A4_2.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A4_1.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A0.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/Chicken/Ability_A0.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level4/G498_Blink.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level2/trigger_G349.APLR" Count="1" />
 	<applicators>
 		<Item href="/Heroes/DefaultStatus/_BLIND_status.APLR" id="7072DA33-48AE-4A37-BBEB-067328968E30">
 			<StatModApplicator>
@@ -211,9 +217,9 @@
 		<Item href="" />
 	</effect>
 	<enabled>
-		<compiledString>FS0AAAAGAAAAOgAAAE0AAABZAAAAbwAAAHsAAACRAAAAQmxpbmRfQ29uZGl0aW9uAEltbXVuZTJDb250cm9sAABBbGxvd0NvbnRyb2wAVYvsUYtFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S3B27AAAA3+D2xER7ImgQAAAAi0UMixCLTQyLgogBAAD/0NwduwAAAN/g9sREeytoIAAAAItNDIsRi00Mi4KIAQAA/9DcHbMAAADf4PbERHsJx0X8AAAAAOsHx0X8AQAAAIpF/IvlXcMAAAAAAADwPwAAAAAAAAAA</compiledString>
+		<compiledString>FT0AAAAIAAAASgAAAF0AAABpAAAAfwAAAIsAAAChAAAArQAAAMMAAABCbGluZF9Db25kaXRpb24ASW1tdW5lMkNvbnRyb2wAAEltbXVuZTJCbGluZAAAAABBbGxvd0NvbnRyb2wAVYvsUYtFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S3B3tAAAA3+D2xER7RGgQAAAAi0UMixCLTQyLgogBAAD/0Nwd7QAAAN/g9sREeiJoIAAAAItNDIsRi00Mi4KIAQAA/9DcHe0AAADf4PbERHsraDAAAACLTQyLEYtNDIuCiAEAAP/Q3B3lAAAA3+D2xER7CcdF/AAAAADrB8dF/AEAAACKRfyL5V3DAAAAAAAA8D8AAAAAAAAAAA==</compiledString>
 		<returnType>bool</returnType>
-		<sString>(cBlind_Condition &amp;&amp; receiver.vImmune2Control == 0) || receiver.vAllowControl == 1</sString>
+		<sString>(cBlind_Condition &amp;&amp; receiver.vImmune2Control == 0 &amp;&amp; receiver.vImmune2Blind == 0) || receiver.vAllowControl == 1</sString>
 	</enabled>
 	<flags>0</flags>
 	<formulaName>StatusBlind</formulaName>

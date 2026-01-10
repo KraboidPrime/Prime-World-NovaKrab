@@ -2,14 +2,6 @@
 <SummonApplicator parent="/Pets/ParentSummon.APLR">
 	<BackLink DBID="/Items/Consumables/Pet_Duck.ARCT" Count="1" />
 	<BackLink DBID="/Pets/Duck/Ressurector.APLR" Count="1" />
-	<applicators>
-		<Item skip="1" />
-		<Item skip="1" />
-		<Item skip="1" />
-		<Item skip="1" />
-		<Item skip="1" />
-		<Item href="/Pets/Duck/Ressurector.APLR" />
-	</applicators>
 	<formulaName></formulaName>
 	<summonedUnits>
 		<Item href="/Pets/Duck/_.SUMMONED" />

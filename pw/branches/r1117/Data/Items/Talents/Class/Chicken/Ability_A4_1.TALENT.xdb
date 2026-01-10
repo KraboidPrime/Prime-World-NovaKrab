@@ -1,0 +1,481 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Talent>
+	<BackLink DBID="/Items/Talents/Class/Chicken/Ability_A4_2.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level2/G567_CasterBase.TALENT" Count="1" />
+	<activationConditions />
+	<activeCustomTrigger>true</activeCustomTrigger>
+	<allowChase>
+		<compiledString></compiledString>
+		<returnType>bool</returnType>
+		<sString>true</sString>
+	</allowChase>
+	<alternativeTargets />
+	<aoeDisplayOnMinimap>false</aoeDisplayOnMinimap>
+	<aoeHeight>0</aoeHeight>
+	<aoeMaterial href="/Effects/UI/AOESelection/Circle.MTRL" />
+	<aoePassabilityCheckMode>0</aoePassabilityCheckMode>
+	<aoeSize>
+		<compiledString>FQwAAAABAAAAGAAAAEE0MUFvZVJhbmdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+		<returnType>float</returnType>
+		<sString>cA41AoeRange</sString>
+	</aoeSize>
+	<aoeType>Disk</aoeType>
+	<applicators>
+		<Item href="/Items/Talents/Class/Chicken/Ability_A4_1.TALENT" id="50B0E128-1CD5-4333-BC5B-2227ADCD5219">
+			<SpellApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption></caption>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<spell href="/Items/Talents/Class/Chicken/Ability_A4_1.TALENT" id="E44D59B1-3E09-40A0-B51B-2E4FB193E937">
+					<Spell>
+						<applicators>
+							<Item href="/Items/Talents/Class/Chicken/Ability_A4_1.TALENT" id="C790920A-591E-4F8F-A3AE-25D02259C213">
+								<DamageApplicator>
+									<applyTarget>ApplicatorTarget</applyTarget>
+									<cancelInvisibility>true</cancelInvisibility>
+									<caption>урон</caption>
+									<damage>
+										<compiledString>FQ8AAAABAAAAGwAAAEE0MUNoaWNrRGFtYWdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+										<returnType>float</returnType>
+										<sString>cA41ChickDamage</sString>
+									</damage>
+									<damageMode>0</damageMode>
+									<damageType>Material</damageType>
+									<enabled>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<LoggingEvent>-1</LoggingEvent>
+									<providerName></providerName>
+									<timeLimiter>-1</timeLimiter>
+									<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Material.UIEV" />
+								</DamageApplicator>
+							</Item>
+							<Item href="/Items/Talents/Class/Chicken/Ability_A4_1.TALENT" id="9C449536-D668-4BC1-BB57-668A09F87639">
+								<StatusApplicator>
+									<applicators>
+										<Item href="/Items/Talents/Class/Chicken/Ability_A4_1.TALENT" id="D97FD02A-93C2-4C56-9E10-778770610A7D">
+											<StatModApplicator>
+												<applyTarget>ApplicatorTarget</applyTarget>
+												<behaviorFlags>144</behaviorFlags>
+												<caption></caption>
+												<constraint>None</constraint>
+												<dontUpdate>false</dontUpdate>
+												<effect>
+													<Item href="" />
+													<Item href="" />
+												</effect>
+												<enabled>
+													<compiledString></compiledString>
+													<returnType>bool</returnType>
+													<sString>true</sString>
+												</enabled>
+												<formulaName></formulaName>
+												<lifeTime>
+													<compiledString></compiledString>
+													<returnType>float</returnType>
+													<sString>-1.0</sString>
+												</lifeTime>
+												<LoggingEvent>-1</LoggingEvent>
+												<modifier>
+													<addValue>
+														<compiledString>FRMAAAABAAAAMwAAAEE0MUNoaWNrUmVhbERlYnVmZgBVi+yLRQyLEItNDIuCjAAAAP/QUdkcJItNDFGLVQhSaAAAAACLRRCLEItNEItCUP/QUdkcJOgHAAAAg8QI2eBdw1WL7FHZRQjZRQze2d/g9sRBdQjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
+														<returnType>float</returnType>
+														<sString>-min(cA41ChickRealDebuff, rBaseAttackSpeed)</sString>
+													</addValue>
+													<multValue>
+														<compiledString></compiledString>
+														<returnType>float</returnType>
+														<sString>1.0f</sString>
+													</multValue>
+													<stat>AttackSpeed</stat>
+													<topModifier>false</topModifier>
+													<variable></variable>
+												</modifier>
+												<providerName></providerName>
+												<startCondition>
+													<compiledString></compiledString>
+													<returnType>bool</returnType>
+													<sString>true</sString>
+												</startCondition>
+												<statModName></statModName>
+											</StatModApplicator>
+										</Item>
+									</applicators>
+									<applyTarget>ApplicatorTarget</applyTarget>
+									<behaviorFlags>144</behaviorFlags>
+									<caption>дебаф</caption>
+									<customCounter>
+										<compiledString></compiledString>
+										<returnType>int</returnType>
+										<sString>0</sString>
+									</customCounter>
+									<customProgress>
+										<compiledString></compiledString>
+										<returnType>float</returnType>
+										<sString>-1.0</sString>
+									</customProgress>
+									<description textref="/Items/Talents/Class/Chicken/Ability_A4_1.TALENT_9c449536d6684bc1bb57668a09f87639_description.txt" />
+									<dispellPriority>Medium</dispellPriority>
+									<effect>
+										<Item href="" />
+										<Item href="" />
+									</effect>
+									<enabled>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<flags>2</flags>
+									<formulaName></formulaName>
+									<image href="/UI/Styles/Icons/Heroes/Chicken/A4_1.ITEX" />
+									<lifeTime>
+										<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQQ==</compiledString>
+										<returnType>float</returnType>
+										<sString>8</sString>
+									</lifeTime>
+									<LoggingEvent>-1</LoggingEvent>
+									<name textref="/Items/Talents/Class/Chicken/Ability_A4_1.TALENT_9c449536d6684bc1bb57668a09f87639_name.txt" />
+									<power>0</power>
+									<providerName></providerName>
+									<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+									<stackCount>0</stackCount>
+									<startCondition>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</startCondition>
+									<statusPosition>0</statusPosition>
+									<stopBehaviour>StopByTime</stopBehaviour>
+									<unstackableWith href="" />
+								</StatusApplicator>
+							</Item>
+							<Item href="/Heroes/DefaultStatus/_STUN_Status.APLR" />
+						</applicators>
+						<dispatch href="/Items/Talents/Class/Chicken/Ability_A4_1.TALENT" id="73C74F29-1199-4420-8A5D-57F160633AE8">
+							<DispatchImmediate>
+								<alwaysApply>false</alwaysApply>
+								<applyEffect>
+									<Item href="" />
+									<Item href="" />
+								</applyEffect>
+								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+								<applyEffectOrientation>Default</applyEffectOrientation>
+								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+								<dieAfterApply>true</dieAfterApply>
+								<dispatchEffect>
+									<Item href="" />
+									<Item href="" />
+								</dispatchEffect>
+								<flags>1</flags>
+								<instantApply>false</instantApply>
+							</DispatchImmediate>
+						</dispatch>
+					</Spell>
+				</spell>
+				<spellTarget>ApplicatorTarget</spellTarget>
+				<targetSelector href="/Items/Talents/Class/Chicken/Ability_A4_1.TALENT" id="F39DC5B5-DDD9-4CC4-93B4-15D4DB50ABD4">
+					<AreaTargetSelector>
+						<absolutePosition>
+							<x>0</x>
+							<y>0</y>
+						</absolutePosition>
+						<flags>0</flags>
+						<mode>Normal</mode>
+						<range>
+							<compiledString>FQwAAAABAAAAGAAAAEE0MUFvZVJhbmdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+							<returnType>float</returnType>
+							<sString>cA41AoeRange</sString>
+						</range>
+						<targetFilter>538771519</targetFilter>
+						<targetSelector href="" />
+					</AreaTargetSelector>
+				</targetSelector>
+			</SpellApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/Chicken/Ability_A4_1.TALENT" id="B33A1D7E-C8FF-4834-9ADF-D779EA9DA188">
+			<SpellApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption></caption>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<spell href="/Items/Talents/Class/Chicken/Ability_A4_1.TALENT" id="3A1A8600-0E14-46E6-8E07-E80920858808">
+					<Spell>
+						<applicators>
+							<Item href="/Items/Talents/Class/Chicken/Ability_A4_1.TALENT" id="6DF9E4D9-250B-4F62-8D91-6CB391B56939">
+								<DropTreeApplicator>
+									<applyTarget>ApplicatorTarget</applyTarget>
+									<caption></caption>
+									<enabled>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<LoggingEvent>-1</LoggingEvent>
+									<providerName></providerName>
+								</DropTreeApplicator>
+							</Item>
+						</applicators>
+						<dispatch href="/Items/Talents/Class/Chicken/Ability_A4_1.TALENT" id="D320AC78-D883-494B-91AF-A7CE5913BB9E">
+							<DispatchImmediate>
+								<alwaysApply>false</alwaysApply>
+								<applyEffect>
+									<Item href="" />
+									<Item href="" />
+								</applyEffect>
+								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+								<applyEffectOrientation>Default</applyEffectOrientation>
+								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+								<dieAfterApply>true</dieAfterApply>
+								<dispatchEffect>
+									<Item href="" />
+									<Item href="" />
+								</dispatchEffect>
+								<flags>0</flags>
+								<instantApply>false</instantApply>
+							</DispatchImmediate>
+						</dispatch>
+					</Spell>
+				</spell>
+				<spellTarget>ApplicatorTarget</spellTarget>
+				<targetSelector href="/Items/Talents/Class/Chicken/Ability_A4_1.TALENT" id="E6C3FB39-D962-45BF-95BC-37617B180AF6">
+					<AreaTargetSelector>
+						<absolutePosition>
+							<x>0</x>
+							<y>0</y>
+						</absolutePosition>
+						<flags>0</flags>
+						<mode>Normal</mode>
+						<range>
+							<compiledString>FQwAAAABAAAAGAAAAEE0MUFvZVJhbmdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+							<returnType>float</returnType>
+							<sString>cA41AoeRange</sString>
+						</range>
+						<targetFilter>536871936</targetFilter>
+						<targetSelector href="" />
+					</AreaTargetSelector>
+				</targetSelector>
+			</SpellApplicator>
+		</Item>
+	</applicators>
+	<askId>4</askId>
+	<autoTargetSelector href="" />
+	<budget>-1</budget>
+	<caption>A4_1. Выплеск магмы</caption>
+	<castAllowRange>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</castAllowRange>
+	<castLimitations />
+	<commonDescription textref="/Items/Talents/Class/Chicken/Ability_A4_1.TALENT_commonDescription.txt" />
+	<compiledDescriptionA textref="" />
+	<compiledDescriptionB textref="" />
+	<conditionFormulas />
+	<conflictingTalents>
+		<Item href="/Items/Talents/Class/Chicken/Ability_A4_2.TALENT" />
+	</conflictingTalents>
+	<constants href="/Items/Talents/Class/Chicken/Ability_A4_1.TALENT" id="57A34D9F-6CC7-4FB2-9C74-73F310E48F19">
+		<UnitConstantsContainer>
+			<vars>
+				<Item href="/Items/Talents/Class/Chicken/Ability_A4_1.TALENT" id="7DA565A7-8566-4D79-BFEE-D769CBE57552">
+					<UnitConstant>
+						<name>A41AoeRange</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADgQA==</compiledString>
+							<returnType>float</returnType>
+							<sString>7</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Chicken/Ability_A4_1.TALENT" id="CCE76545-7469-427D-8C1B-9AEB5510494E">
+					<UnitConstant>
+						<name>A41UseRange</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAQQ==</compiledString>
+							<returnType>float</returnType>
+							<sString>16</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Chicken/Ability_A4_1.TALENT" id="AE515D3B-B08C-481F-A84D-394F7C1F4210">
+					<UnitConstant>
+						<name>A41ChickDebuff</name>
+						<var>
+							<compiledString>FQAAAAACAAAAEwAAABkAAABVi+xRi0UIixCLTQiLQgz/0NwNLwAAANwFJwAAANld/NlF/IvlXcMpXI/C9Sj8P5T2Bl+YTIU/</compiledString>
+							<returnType>float</returnType>
+							<sString>0.0104*sMaxLife + 1.76</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Chicken/Ability_A4_1.TALENT" id="315F6F65-67FD-4967-A8EC-AEC3816FD0F9">
+					<UnitConstant>
+						<name>A41ChickDamage</name>
+						<var>
+							<compiledString>FQAAAAADAAAACQAAACIAAAA6AAAAVYvsg+wIUdkFWAAAANkcJItFCIsQi00Ii4IwAQAA/9DcDVAAAADZXfzZRfxR2Rwk6CcAAACDxAjcJUgAAADZXfjZRfiL5V3DAAAAAACAVUAK16NwPQoLQAAAKUNVi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
+							<returnType>float</returnType>
+							<sString>max(3.38*sStrength, 169) - 86</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Chicken/Ability_A4_1.TALENT" id="19623DA8-CC1D-4C2A-BAC6-9C5AA212477F">
+					<UnitConstant>
+						<name>Stun_Duration</name>
+						<var>
+							<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+							<returnType>float</returnType>
+							<sString>1.0f</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Chicken/Ability_A4_1.TALENT" id="A0391836-22EA-494C-A1C2-1E8B64846672">
+					<UnitConstant>
+						<name>A41ChickRealDebuff</name>
+						<var>
+							<compiledString>FRQAAAABAAAAGAAAAEE0X0NoaWNrX0NvcnJlY3Rpb24AVYvsaAAAAACLRQiLEItNCIuCiAEAAP/QXcM=</compiledString>
+							<returnType>float</returnType>
+							<sString>sender.vA4_Chick_Correction</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+			</vars>
+		</UnitConstantsContainer>
+	</constants>
+	<consumptionBonus>
+		<constant>0</constant>
+		<percent>0</percent>
+	</consumptionBonus>
+	<cooldownTime>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQg==</compiledString>
+		<returnType>float</returnType>
+		<sString>60.0f</sString>
+	</cooldownTime>
+	<cooldownTimeSecondState>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</cooldownTimeSecondState>
+	<description textref="/Items/Talents/Class/Chicken/Ability_A4_1.TALENT_description.txt" />
+	<devPoints>1</devPoints>
+	<dispatch href="/Items/Talents/Class/Chicken/Ability_A4_1.TALENT" id="89371860-48C3-480C-8BC8-030D44A3A14E">
+		<DispatchLinear>
+			<aiming>Straight</aiming>
+			<alwaysApply>false</alwaysApply>
+			<applyEffect>
+				<Item href="/Effects/Debuffs/Explosion/_MediumChick.EFFT" />
+				<Item href="" />
+			</applyEffect>
+			<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+			<applyEffectOrientation>Default</applyEffectOrientation>
+			<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+			<dieAfterApply>true</dieAfterApply>
+			<dispatchEffect>
+				<Item href="/Effects/Shots/Ball/_new.EFFT" />
+				<Item href="" />
+			</dispatchEffect>
+			<flags>0</flags>
+			<flyMode>Parabolic</flyMode>
+			<fromLocator>Body</fromLocator>
+			<height>0</height>
+			<killEffect>true</killEffect>
+			<locatorOrient>false</locatorOrient>
+			<maxDeviation>180</maxDeviation>
+			<maxDistance>-1</maxDistance>
+			<maxRise>4</maxRise>
+			<minRise>2</minRise>
+			<persistentApplicators>
+				<Item href="/Items/Talents/Class/Chicken/Ability_A4_1.TALENT" id="E67B8A53-B5F5-4C4E-9D22-4B4F4A9464CF">
+					<PermanentStatModApplicator>
+						<applyTarget>AbilityOwner</applyTarget>
+						<caption>корректировка дебафа</caption>
+						<customApplyType>None</customApplyType>
+						<enabled>
+							<compiledString></compiledString>
+							<returnType>bool</returnType>
+							<sString>true</sString>
+						</enabled>
+						<formulaName></formulaName>
+						<LoggingEvent>-1</LoggingEvent>
+						<modifier>
+							<addValue>
+								<compiledString>FQ8AAAABAAAAGwAAAEE0MUNoaWNrRGVidWZmAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+								<returnType>float</returnType>
+								<sString>cA41ChickDebuff</sString>
+							</addValue>
+							<multValue>
+								<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+								<returnType>float</returnType>
+								<sString>0.0f</sString>
+							</multValue>
+							<stat>Life</stat>
+							<topModifier>true</topModifier>
+							<variable>A4_Chick_Correction</variable>
+						</modifier>
+						<providerName></providerName>
+					</PermanentStatModApplicator>
+				</Item>
+			</persistentApplicators>
+			<speed>20</speed>
+			<suspendTime>0</suspendTime>
+			<toLocator></toLocator>
+		</DispatchLinear>
+	</dispatch>
+	<flags>3</flags>
+	<forceBonus>0</forceBonus>
+	<image href="/UI/Styles/Icons/Heroes/Chicken/A4_1.ITEX" />
+	<imageSecondState href="" />
+	<isGenderTalent>false</isGenderTalent>
+	<isTakenOnStart>false</isTakenOnStart>
+	<isUltimateTalent>true</isUltimateTalent>
+	<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
+	<manaCost>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABcQw==</compiledString>
+		<returnType>float</returnType>
+		<sString>220.0f</sString>
+	</manaCost>
+	<marker>doCast4</marker>
+	<microAI href="" />
+	<minLevel>2</minLevel>
+	<minUseRangeCorrection>0</minUseRangeCorrection>
+	<naftaCost>540</naftaCost>
+	<name textref="/Items/Talents/Class/Chicken/Ability_A4_1.TALENT_name.txt" />
+	<node>ability4</node>
+	<passiveApplicators />
+	<persistentId>Chicken_A4_1</persistentId>
+	<prerequisiteTalents />
+	<rarity>Class</rarity>
+	<requireLineOfSight>false</requireLineOfSight>
+	<shortDescription textref="" />
+	<talentRollGroups>63</talentRollGroups>
+	<talentStats />
+	<targetType>16777216</targetType>
+	<type>Active</type>
+	<upgradeLevel>0</upgradeLevel>
+	<useRange>
+		<compiledString>FQwAAAABAAAAGAAAAEE0MVVzZVJhbmdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+		<returnType>float</returnType>
+		<sString>cA41UseRange</sString>
+	</useRange>
+	<useRangeMaterial href="/Effects/UI/AOESelection/Radius.MTRL" />
+	<variativeMaxTalentStats />
+	<variativeMinTalentStats />
+	<vendorCost>0</vendorCost>
+	<warFogRemoveRadius>0</warFogRemoveRadius>
+	<warFogRemoveTime>0</warFogRemoveTime>
+</Talent>

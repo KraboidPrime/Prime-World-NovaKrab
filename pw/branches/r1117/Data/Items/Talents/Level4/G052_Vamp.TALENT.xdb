@@ -44,18 +44,49 @@
 	<commonDescription textref="" />
 	<compiledDescriptionA textref="" />
 	<compiledDescriptionB textref="" />
-	<conditionFormulas />
+	<conditionFormulas>
+		<Item href="/Items/Talents/Level4/G052_Vamp.TALENT" id="BEEA7AFE-91BE-4E26-AACE-B1D148C96756">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRcAAAACAAAAHAAAADIAAABTZWMyMDI1X1Rvb2x0aXBDb3VudGVyAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHVQAAADf4PbEAXUJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAIQA==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vSec2025_TooltipCounter &gt;= 3</sString>
+				</condition>
+				<name>Bonus3ActiveSe</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Items/Talents/Level4/G052_Vamp.TALENT" id="8E147F4D-26A7-4F8D-98FD-A81027AC389A">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRcAAAACAAAAHAAAADIAAABTZWMyMDI1X1Rvb2x0aXBDb3VudGVyAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHVQAAADf4PbEAXUJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAcQA==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vSec2025_TooltipCounter &gt;= 7</sString>
+				</condition>
+				<name>Bonus7ActiveSe</name>
+			</ConditionFormula>
+		</Item>
+	</conditionFormulas>
 	<conflictingTalents />
 	<constants href="/Items/Talents/Level4/G052_Vamp.TALENT" id="B6D56CA7-18F8-4084-B61F-15729FDADA20">
 		<UnitConstantsContainer>
 			<vars>
-				<Item href="/Items/Talents/Level4/G052_Vamp.TALENT" id="C020894C-C491-4C15-85CB-1A29FB69CC64">
+				<Item href="/Items/Talents/Level4/G052_Vamp.TALENT" id="E5132603-FD39-43FF-B6A7-8F24BA5BB2EF">
 					<UnitConstant>
-						<name>Add_LifeDrain</name>
+						<name>Vamp_G052_sad</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9Bdw5qZeUHNzIw/</compiledString>
+							<compiledString>FT0AAAAIAAAARAAAAF0AAACLAAAApAAAANIAAADrAAAAGQEAADIBAABHMzA2AAAAAEczMDYAAAAARzM5MQAAAABHMzkxAAAAAEcxMDMAAAAARzEwMwAAAABHMDIyAAAAAEcwMjIAVYvsg+wkaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgIAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wBoEAAAAItNCIsRi00Ii4KoAQAA/9CFwHQqaBgAAACLTQiLEYtNCIuCqAEAAP/QiUX0i030ixGLTfSLQgT/0IhF8+sExkXzAGggAAAAi00IixGLTQiLgqgBAAD/0IXAdCpoKAAAAItNCIsRi00Ii4KoAQAA/9CJReyLTeyLEYtN7ItCBP/QiEXr6wTGResAaDAAAACLTQiLEYtNCIuCqAEAAP/QhcB0Kmg4AAAAi00IixGLTQiLgqgBAAD/0IlF5ItN5IsRi03ki0IE/9CIRePrBMZF4wAPtk37D7ZV8wPKD7ZF6wPID7ZV4wPKiU3c20Xci+Vdww==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(15.6, 1.1)</sString>
+							<sString>tal("G306")+tal("G391")+tal("G103")+tal("G022")</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Level4/G052_Vamp.TALENT" id="91AF379D-822D-4A45-A336-7850B79DE105">
+					<UnitConstant>
+						<name>TT_Vamp_G052_sad</name>
+						<var>
+							<compiledString>FR4AAAADAAAAJQAAAEIAAABYAAAATmFrYXBhbG9fRzA1MgAAAFZhbXBfRzA1Ml9zYWQAVYvsg+wMaAAAAACLRQiLEItNCIuCiAEAAP/Qi00MUYtVCFJoEAAAAItFEIsQi00Qi0JQ3V34/9DcDWkAAADcRfjZXfTZRfSL5V3DAAAAAAAALEA=</compiledString>
+							<returnType>float</returnType>
+							<sString>sender.vNakapalo_G052+cVamp_G052_sad*14</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -79,7 +110,7 @@
 	<description textref="/Items/Talents/Level4/G052_Vamp.TALENT_description.txt" />
 	<devPoints>1</devPoints>
 	<dispatch href="" />
-	<flags>1</flags>
+	<flags>5</flags>
 	<forceBonus>16</forceBonus>
 	<image href="/UI/Styles/Icons/Talents/_052.ITEX" />
 	<imageSecondState href="" />
@@ -100,23 +131,160 @@
 	<name textref="/Items/Talents/Level4/G052_Vamp.TALENT_name.txt" />
 	<node></node>
 	<passiveApplicators>
-		<Item href="/Items/Talents/Level4/G052_Vamp.TALENT" id="693695FC-33BF-4381-AC5E-7EA50D624705">
-			<PermanentStatModApplicator>
+		<Item href="/Items/Talents/Level4/G052_Vamp.TALENT" id="6A1CFC49-4AC9-413E-9E48-7C323FDAE924">
+			<SpellPeriodicallyApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>Add_LifeDrain</caption>
-				<customApplyType>None</customApplyType>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>Периодический баф вампирика</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<period>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQg==</compiledString>
+					<returnType>float</returnType>
+					<sString>60</sString>
+				</period>
+				<providerName></providerName>
+				<scaleMode>ScaleIsCount</scaleMode>
+				<spell href="/Items/Talents/Level4/G052_Vamp.TALENT" id="1DCC27DF-C374-4A6A-9794-2864C76059FE">
+					<Spell>
+						<applicators>
+							<Item href="/Items/Talents/Level4/G052_Vamp.TALENT" id="0FCEB516-82AA-4A59-8479-787492FF2D2E">
+								<PermanentStatModApplicator>
+									<applyTarget>ApplicatorTarget</applyTarget>
+									<caption>Сам баф</caption>
+									<customApplyType>None</customApplyType>
+									<enabled>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<LoggingEvent>-1</LoggingEvent>
+									<modifier>
+										<addValue>
+											<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+											<returnType>float</returnType>
+											<sString>1</sString>
+										</addValue>
+										<multValue>
+											<compiledString></compiledString>
+											<returnType>float</returnType>
+											<sString>1.0f</sString>
+										</multValue>
+										<stat>LifeDrain</stat>
+										<topModifier>false</topModifier>
+										<variable></variable>
+									</modifier>
+									<providerName></providerName>
+								</PermanentStatModApplicator>
+							</Item>
+							<Item href="/Items/Talents/Level4/G052_Vamp.TALENT" id="51C55A2B-AFAA-457E-958F-C434734CB73E">
+								<PermanentStatModApplicator>
+									<applyTarget>ApplicatorTarget</applyTarget>
+									<caption>Счётчик</caption>
+									<customApplyType>None</customApplyType>
+									<enabled>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<LoggingEvent>-1</LoggingEvent>
+									<modifier>
+										<addValue>
+											<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+											<returnType>float</returnType>
+											<sString>1</sString>
+										</addValue>
+										<multValue>
+											<compiledString></compiledString>
+											<returnType>float</returnType>
+											<sString>1.0f</sString>
+										</multValue>
+										<stat>Life</stat>
+										<topModifier>false</topModifier>
+										<variable>Nakapalo_G052</variable>
+									</modifier>
+									<providerName></providerName>
+								</PermanentStatModApplicator>
+							</Item>
+						</applicators>
+						<dispatch href="/Items/Talents/Level4/G052_Vamp.TALENT" id="A0380FF9-5555-4DF4-891D-BD077B7EE8CE">
+							<DispatchImmediate>
+								<alwaysApply>false</alwaysApply>
+								<applyEffect>
+									<Item href="" />
+									<Item href="" />
+								</applyEffect>
+								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+								<applyEffectOrientation>Default</applyEffectOrientation>
+								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+								<dieAfterApply>true</dieAfterApply>
+								<dispatchEffect>
+									<Item href="" />
+									<Item href="" />
+								</dispatchEffect>
+								<flags>0</flags>
+								<instantApply>false</instantApply>
+							</DispatchImmediate>
+						</dispatch>
+					</Spell>
+				</spell>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<startOffset>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQg==</compiledString>
+					<returnType>float</returnType>
+					<sString>60</sString>
+				</startOffset>
+				<targetSelector href="" />
+			</SpellPeriodicallyApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level4/G052_Vamp.TALENT" id="B9A65A73-80DC-4F60-83A3-D31AC5FDFB98">
+			<StatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>Баф вампирика от других талов</caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
 				<enabled>
 					<compiledString></compiledString>
 					<returnType>bool</returnType>
 					<sString>true</sString>
 				</enabled>
 				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
 				<LoggingEvent>-1</LoggingEvent>
 				<modifier>
 					<addValue>
-						<compiledString>FQ4AAAABAAAAGgAAAEFkZF9MaWZlRHJhaW4AVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+						<compiledString>FQ4AAAACAAAAGwAAAC4AAABWYW1wX0cwNTJfc2FkAFWL7FGLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0twNPAAAANld/NlF/IvlXcMAAAAAAAAmQA==</compiledString>
 						<returnType>float</returnType>
-						<sString>cAdd_LifeDrain</sString>
+						<sString>11*cVamp_G052_sad </sString>
 					</addValue>
 					<multValue>
 						<compiledString></compiledString>
@@ -128,12 +296,19 @@
 					<variable></variable>
 				</modifier>
 				<providerName></providerName>
-			</PermanentStatModApplicator>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
 		</Item>
+		<Item href="/Items/Talents/Level3/SecondPinkSet_Prog2025.APLR" />
 	</passiveApplicators>
 	<persistentId>G052</persistentId>
 	<prerequisiteTalents />
-	<rarity>excellent</rarity>
+	<rarity>magnificent</rarity>
 	<requireLineOfSight>true</requireLineOfSight>
 	<shortDescription textref="/Items/Talents/Level4/G052_Vamp.TALENT_shortDescription.txt" />
 	<talentRollGroups>63</talentRollGroups>

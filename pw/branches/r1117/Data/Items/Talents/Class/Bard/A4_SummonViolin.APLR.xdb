@@ -169,9 +169,9 @@
 									<cancelInvisibility>false</cancelInvisibility>
 									<caption>PhisDamage</caption>
 									<damage>
-										<compiledString>FS8AAAADAAAARgAAAFsAAAB4AAAAQTRfUGhpc0RhbWFnZUJhc2UAAABUYXJnZXQAAEJhcmRTdGFja3NfQTRTdGFydABVi+yD7BSLRRCLEItNEItCSP/QiUX8aBQAAACLTfyLEYtN/ItCTP/QiUX4aBwAAACLTfiLEYtN+IuCiAEAAP/Qi00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ3V3w/9DcTfDZXezZReyL5V3D</compiledString>
+										<compiledString>FVUAAAAIAAAAXAAAAHUAAACzAAAAxgAAAMwAAADrAAAAAAEAAB0BAABBNF9QaGlzRGFtYWdlQmFzZQAAAFRhcmdldAAAQmFyZFN0YWNrc19BNFN0YXJ0AABCYXJkX0EwX1NVUABCYXJkX0EwX1NVUABBMF9TVVBfQm9udXMAVYvsg+wkaDAAAACLRQiLEItNCIuCqAEAAP/QhcB0Kmg8AAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0K4tVDFKLRQhQaEgAAACLTRCLEYtNEItCUP/Q3DVJAQAA3AVBAQAA3V3w6wXZ6N1d8ItNEIsRi00Qi0JI/9CJRexoFAAAAItN7IsRi03si0JM/9CJRehoHAAAAItN6IsRi03oi4KIAQAA/9CLTQxRi1UIUmgAAAAAi0UQixCLTRCLQlDdXeD/0NxN4NxN8Nld3NlF3IvlXcMAAAAAAADwPwAAAAAAAFlA</compiledString>
 										<returnType>float</returnType>
-										<sString>cA4_PhisDamageBase *  appl.parent.oTarget.vBardStacks_A4Start</sString>
+										<sString>cA4_PhisDamageBase *  appl.parent.oTarget.vBardStacks_A4Start * (tal("Bard_A0_SUP") ? (cA0_SUP_Bonus/100 + 1) : 1)</sString>
 									</damage>
 									<damageMode>4</damageMode>
 									<damageType>Material</damageType>

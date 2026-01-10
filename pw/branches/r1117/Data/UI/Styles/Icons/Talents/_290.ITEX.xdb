@@ -3,6 +3,7 @@
 	<BackLink DBID="/Items/ClanItems/CS084_G290" Count="1" />
 	<BackLink DBID="/Items/Talents/Level2/G290_GuildGlyphSave.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level2/status_G290_GuildGlyphSave.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Level2/G290_Reg_status.APLR" Count="1" />
 	<generatedFileName></generatedFileName>
 	<importOnlyShape>false</importOnlyShape>
 	<mipLevels>0</mipLevels>

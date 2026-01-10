@@ -3,8 +3,8 @@
 	<BackLink DBID="/Heroes/Brewer/_.HROB" Count="1" />
 	<name>A3_Honey_Proc</name>
 	<var>
-		<compiledString>FRAAAAACAAAAKwAAAD4AAABBM19Ib25leV9DaGFuY2UAVYvsg+wIi0UMUItNCFFqAWoEi1UMUotFCFBoAAAAAItNEIsRi00Qi0JQ/9DcDWYAAADZXfzZRfxR2Rwki00QixGLTRCLQmT/0A+2yIlN+NtF+IvlXcN7FK5H4XqEPw==</compiledString>
+		<compiledString>FRAAAAACAAAAKwAAAD4AAABBM19Ib25leV9DaGFuY2UAVYvsg+wIi0UMUItNCFFqCmoKi1UMUotFCFBoAAAAAItNEIsRi00Qi0JQ/9DcDWYAAADZXfzZRfxR2Rwki00QixGLTRCLQmT/0A+2yIlN+NtF+IvlXcN7FK5H4XqEPw==</compiledString>
 		<returnType>float</returnType>
-		<sString>smartRoll(cA3_Honey_Chance*0.01 , 4 , 1)</sString>
+		<sString>smartRoll(cA3_Honey_Chance*0.01 , 10 , 10)</sString>
 	</var>
 </UnitConstant>

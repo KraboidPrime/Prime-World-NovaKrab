@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Talent>
 	<BackLink DBID="/Social.ROOT" Count="1" />
-	<BackLink DBID="/GameLogic/AILogic.AILP" Count="1" />
+	<BackLink DBID="/GameLogic/AILogic.AILP" Count="2" />
 	<BackLink DBID="/Items/RerollShop/TalentsList_CursedSeal" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset7_9_AntiMnM/Redset7_9_AnitMnM.TALKIT" Count="1" />
 	<BackLink DBID="/Social/TalentsCollection" Count="2" />
@@ -209,6 +209,7 @@
 		<Item href="/Items/Talents/TalentKits/Redset7_9_AntiMnM/Redset7_9_Counter.APLR" />
 		<Item href="/Items/Talents/TalentKits/Redset7_9_AntiMnM/status_DisarmIsReady.APLR" />
 		<Item href="/Items/Talents/TalentKits/Redset7_9_AntiMnM/status_SilenceIsReady.APLR" />
+		<Item href="/Items/Talents/TalentKits/Redset7_9_AntiMnM/appl_BonusStat.APLR" />
 	</passiveApplicators>
 	<persistentId>G751</persistentId>
 	<prerequisiteTalents />

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <AddNaftaApplicator>
-	<BackLink DBID="/Items/Talents/Class/Healer/Ability1.TALENT" Count="3" />
+	<BackLink DBID="/Items/Talents/Class/Healer/Ability1.TALENT" Count="6" />
 	<BackLink DBID="/Items/Talents/Class/Healer/HealAndGiveNafta.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Healer/status_A5_Buff.APLR" Count="1" />
 	<applyTarget>AbilityOwner</applyTarget>

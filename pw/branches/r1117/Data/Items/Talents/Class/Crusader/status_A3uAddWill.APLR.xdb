@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StatusApplicator>
 	<BackLink DBID="/Items/Talents/Class/Crusader/Ability_A3.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Crusader/status_A3_HealSelf.APLR" Count="1" />
 	<applicators>
 		<Item href="/Items/Talents/Class/Crusader/status_A3uAddWill.APLR" id="25301096-F227-44D2-A26E-94BB82F79E17">
 			<StatModApplicator>
@@ -143,12 +142,5 @@
 	</startCondition>
 	<statusPosition>0</statusPosition>
 	<stopBehaviour>StopByTime</stopBehaviour>
-	<unstackableWith href="/Items/Talents/Class/Crusader/status_A3uAddWill.APLR" id="92CA6A7A-15FE-4AFE-AAA9-9DB129DD9498">
-		<ApplicatorsList>
-			<applicatorLists />
-			<applicators>
-				<Item href="/Items/Talents/Class/Crusader/status_A3_HealSelf.APLR" />
-			</applicators>
-		</ApplicatorsList>
-	</unstackableWith>
+	<unstackableWith href="" />
 </StatusApplicator>

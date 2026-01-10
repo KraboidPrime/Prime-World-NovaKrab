@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Class/Monster/Ability_A1_SUP.TALENT" Count="1" />
 	<name>Stun_Duration</name>
 	<var>
-		<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+		<compiledString>FR8AAAADAAAAJgAAAD8AAAB9AAAATW9uc3Rlcl9BMV9TVVAAAE1vbnN0ZXJfQTFfU1VQAFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdAfZ6Nld9OsJ2QWLAAAA2V302UX0i+VdwwAAAD8AAIA/</compiledString>
 		<returnType>float</returnType>
-		<sString>1.0f</sString>
+		<sString>tal("Monster_A1_SUP") ? 1.0f : 0.5f</sString>
 	</var>
 </UnitConstant>

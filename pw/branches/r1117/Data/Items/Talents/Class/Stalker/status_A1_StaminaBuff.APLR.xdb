@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StatusApplicator>
-	<BackLink DBID="/Items/Talents/Class/Stalker/Ability_A1.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Stalker/Ability_A1.TALENT" Count="4" />
 	<applicators>
 		<Item href="/Items/Talents/Class/Stalker/status_A1_StaminaBuff.APLR" id="EC061553-452F-4508-9A3E-9007499D3F4B">
 			<StatModApplicator>
@@ -36,7 +36,7 @@
 						<returnType>float</returnType>
 						<sString>1.0f</sString>
 					</multValue>
-					<stat>Stamina</stat>
+					<stat>Will</stat>
 					<topModifier>false</topModifier>
 					<variable></variable>
 				</modifier>
@@ -52,7 +52,7 @@
 	</applicators>
 	<applyTarget>AbilityOwner</applyTarget>
 	<behaviorFlags>0</behaviorFlags>
-	<caption>Статус Бдительность охотника</caption>
+	<caption>Статус Бдительность охотника воля</caption>
 	<customCounter>
 		<compiledString></compiledString>
 		<returnType>int</returnType>
@@ -70,9 +70,9 @@
 		<Item href="" />
 	</effect>
 	<enabled>
-		<compiledString>FRgAAAACAAAAHwAAADgAAABTdGFsa2VyX0ExdQBTdGFsa2VyX0ExdQBVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaAwAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AIpF+4vlXcM=</compiledString>
+		<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 		<returnType>bool</returnType>
-		<sString>tal("Stalker_A1u")</sString>
+		<sString>false</sString>
 	</enabled>
 	<flags>0</flags>
 	<formulaName></formulaName>

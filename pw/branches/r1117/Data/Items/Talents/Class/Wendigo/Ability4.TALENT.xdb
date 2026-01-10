@@ -481,9 +481,9 @@
 					<UnitConstant>
 						<name>A4_DamageBase</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAAHQwBAdkQ=</compiledString>
+							<compiledString>FRgAAAAJAAAAHwAAADgAAACNAAAAlwAAAMUAAADTAAAA3QAAABkBAAAjAQAAV2VuZGlnb19BNHUAV2VuZGlnb19BNHUAVYvsg+wcaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgMAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hckPhKMAAACLVRCLAotNEIuQkAAAAP/SD7bAhcB0RmoBUdkFawEAANkcJFHZBWcBAADZHCRqAItNCIsRi00Ii4I0AQAA/9BR2RwkagGLTRCLEYtNEItCYP/Q3A1fAQAA3V3w6z5qAVHZBWsBAADZHCRR2QVnAQAA2RwkagCLTQiLEYtNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0N1d8N1F8N1d6Os+agFR2QVrAQAA2RwkUdkFZwEAANkcJGoAi00IixGLTQiLgjQBAAD/0FHZHCRqAYtNEIsRi00Qi0Jg/9DdXejdRejZXeTZReSL5V3DMzMzMzMz8z8AAAdDAEB2RA==</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale( sIntellect, 135, 985 )</sString>
+							<sString>tal("Wendigo_A4u") ? (mIsNight ? 1.2*damageScale( sIntellect, 135, 985 ) : damageScale( sIntellect, 135, 985 ) ) : damageScale( sIntellect, 135, 985 )</sString>
 						</var>
 					</UnitConstant>
 				</Item>

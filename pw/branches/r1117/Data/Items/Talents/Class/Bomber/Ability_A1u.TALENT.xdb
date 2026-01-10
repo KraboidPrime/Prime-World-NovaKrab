@@ -183,9 +183,9 @@
 					<UnitConstant>
 						<name>A1u_BaseDmg</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACMQgBAA0Q=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACoQgCAHUQ=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale( sIntellect, 70, 525)</sString>
+							<sString>damageScale( sIntellect, 84, 630)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -277,9 +277,9 @@
 						<applyTarget>AbilityOwner</applyTarget>
 						<caption>(upg) Лечимся</caption>
 						<enabled>
-							<compiledString>FS8AAAAEAAAANgAAAE8AAACFAAAAngAAAEJvbWJlcl9BNAAAAEJvbWJlcl9BNAAAAEJvbWJlcl9BNHUAAEJvbWJlcl9BNHUAVYvsg+wUaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgMAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0WGgYAAAAi1UIiwKLTQiLkKgBAAD/0oXAdCpoJAAAAItFCIsQi00Ii4KoAQAA/9CJRfSLTfSLEYtN9ItCBP/QiEXz6wTGRfMAD7ZN84XJdAnHRewBAAAA6wfHRewAAAAAikXsi+Vdww==</compiledString>
+							<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
 							<returnType>bool</returnType>
-							<sString>tal("Bomber_A4") &amp;&amp; tal("Bomber_A4u")</sString>
+							<sString>true</sString>
 						</enabled>
 						<formulaName></formulaName>
 						<healTarget>Health</healTarget>
@@ -290,7 +290,7 @@
 					</HealApplicator>
 				</Item>
 			</persistentApplicators>
-			<speed>20</speed>
+			<speed>25</speed>
 			<suspendTime>0</suspendTime>
 			<toLocator></toLocator>
 		</DispatchLinear>

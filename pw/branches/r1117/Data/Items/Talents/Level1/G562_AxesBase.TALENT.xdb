@@ -253,9 +253,9 @@
 					<UnitConstant>
 						<name>AddDamage</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAcEEAAJA/</compiledString>
+							<compiledString>FS0AAAAJAAAANAAAAE0AAAB7AAAAlAAAAMIAAADbAAAAIAEAACsBAAA1AQAARzU2NAAAAABHNTY0AAAAAEc1NjUAAAAARzU2NQAAAABHNTY2AAAAAEc1NjYAVYvsg+woaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgIAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wBoEAAAAItNCIsRi00Ii4KoAQAA/9CFwHQqaBgAAACLTQiLEYtNCIuCqAEAAP/QiUX0i030ixGLTfSLQgT/0IhF8+sExkXzAGggAAAAi00IixGLTQiLgqgBAAD/0IXAdCpoKAAAAItNCIsRi00Ii4KoAQAA/9CJReyLTeyLEYtN7ItCBP/QiEXr6wTGResAD7ZN+w+2VfMDyg+2ResDyIlN5NtF5NwNaQEAANno3sFR2QVdAQAA2RwkUdkFWQEAANkcJItNEIsRi00Qi0Js3V3c/9DcTdzZXdjZRdiL5V3DAABwQQAAkD8AAAAAAADwPwAAAAAAAOA/</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(15, 1.125f)</sString>
+							<sString>(1+0.5*(tal("G564")+tal("G565")+tal("G566")))*refineScale(15, 1.125f)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -263,9 +263,9 @@
 					<UnitConstant>
 						<name>NaftaBonus</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
+							<compiledString>FS0AAAAIAAAANAAAAE0AAAB7AAAAlAAAAMIAAADbAAAAJwEAADgBAABHNTYyAAAAAEc1NjIAAAAARzU4MAAAAABHNTgwAAAAAEc1NjMAAAAARzU2MwBVi+yD7CBoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaAgAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AGgQAAAAi00IixGLTQiLgqgBAAD/0IXAdCpoGAAAAItNCIsRi00Ii4KoAQAA/9CJRfSLTfSLEYtN9ItCBP/QiEXz6wTGRfMAaCAAAACLTQiLEYtNCIuCqAEAAP/QhcB0KmgoAAAAi00IixGLTQiLgqgBAAD/0IlF7ItN7IsRi03si0IE/9CIRevrBMZF6wAPtk37D7ZV8wPKD7ZF6wPI0eGJTeTbReRR2RwkUdkFTgEAANkcJOgfAAAAg8QI3C1GAQAA2V3g2UXgi+VdwwAAAAAAABRAAACAQFWL7FHZRQjZRQze2d/g9sRBdQjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
 							<returnType>float</returnType>
-							<sString>5</sString>
+							<sString>5 - min(4, 2*(tal("G562") + tal("G580") +  tal("G563")))</sString>
 						</var>
 					</UnitConstant>
 				</Item>

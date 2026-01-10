@@ -6,8 +6,8 @@
 	<BackLink DBID="/Items/Talents/Level1/G318_Energy.TALENT" Count="1" />
 	<name>G305_Cooldown</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQg==</compiledString>
+		<compiledString>FS0AAAAGAAAANAAAAE0AAAB7AAAAlAAAAMIAAADbAAAARzI5OAAAAABHMjk4AAAAAEcyOTkAAAAARzI5OQAAAABHMzE4AAAAAEczMTgAVYvsg+wcaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgIAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wBoEAAAAItNCIsRi00Ii4KoAQAA/9CFwHQqaBgAAACLTQiLEYtNCIuCqAEAAP/QiUX0i030ixGLTfSLQgT/0IhF8+sExkXzAGggAAAAi00IixGLTQiLgqgBAAD/0IXAdCpoKAAAAItNCIsRi00Ii4KoAQAA/9CJReyLTeyLEYtN7ItCBP/QiEXr6wTGResAD7ZN+w+2VfMDyg+2ResDyGvJCoPBeIlN5NtF5IvlXcM=</compiledString>
 		<returnType>float</returnType>
-		<sString>120</sString>
+		<sString>120+10*(tal("G298")+tal("G299")+tal("G318"))</sString>
 	</var>
 </UnitConstant>

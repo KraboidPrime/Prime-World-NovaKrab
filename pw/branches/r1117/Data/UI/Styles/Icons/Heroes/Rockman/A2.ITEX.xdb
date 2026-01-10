@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UITexture>
-	<BackLink DBID="/Items/Talents/Class/Rockman/Ability2.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Rockman/Ability2.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Rockman/Ability2Upg.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Rockman/status_A2_Giants_footfall.APLR" Count="1" />
 	<generatedFileName></generatedFileName>

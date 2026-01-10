@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StatusApplicator>
-	<BackLink DBID="/Items/Talents/Class/Reaper/Ability_A4_2.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Reaper/Ability_A4_2.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A4_2.TALENT" Count="1" />
 	<applicators />
 	<applyTarget>AbilityOwner</applyTarget>
 	<behaviorFlags>216</behaviorFlags>
@@ -15,7 +16,7 @@
 		<returnType>float</returnType>
 		<sString>-1.0</sString>
 	</customProgress>
-	<description textref="/Items/Talents/Class/Reaper/status_A4_2_WaitForRessurect.APLR_description.txt" />
+	<description textref="" />
 	<dispellPriority>Medium</dispellPriority>
 	<effect>
 		<Item href="" />
@@ -28,14 +29,14 @@
 	</enabled>
 	<flags>0</flags>
 	<formulaName></formulaName>
-	<image href="/UI/Styles/Icons/Heroes/Reaper/A4_2.ITEX" />
+	<image href="" />
 	<lifeTime>
-		<compiledString>FRQAAAABAAAAIAAAAEE0XzJ1X1Jlc3N1cmVjdFRpbWUAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+		<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
 		<returnType>float</returnType>
-		<sString>cA4_2u_RessurectTime</sString>
+		<sString>1</sString>
 	</lifeTime>
 	<LoggingEvent>-1</LoggingEvent>
-	<name textref="/Items/Talents/Class/Reaper/status_A4_2_WaitForRessurect.APLR_name.txt" />
+	<name textref="" />
 	<power>0</power>
 	<providerName></providerName>
 	<stackableAcrossUnits>Unstackable</stackableAcrossUnits>

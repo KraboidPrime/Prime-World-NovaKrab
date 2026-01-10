@@ -83,13 +83,13 @@
 				</actionsCount>
 				<applyTarget>ApplicatorTarget</applyTarget>
 				<behaviorFlags>0</behaviorFlags>
-				<caption>Триггер на атаку</caption>
+				<caption>(Отключено) Триггер на атаку</caption>
 				<effect>
 					<Item href="" />
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString></compiledString>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
 					<returnType>bool</returnType>
 					<sString>true</sString>
 				</enabled>
@@ -186,9 +186,9 @@
 				</processor>
 				<providerName></providerName>
 				<startCondition>
-					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 					<returnType>bool</returnType>
-					<sString>true</sString>
+					<sString>false</sString>
 				</startCondition>
 				<useAbilityCooldown>false</useAbilityCooldown>
 				<useAbilityOwnerMana>false</useAbilityOwnerMana>
@@ -215,8 +215,7 @@
 			<EffectList>
 				<deathType>Manual</deathType>
 				<effects>
-					<Item href="/Effects/Buffs/Defence/_Red.EFFT" />
-					<Item href="/Effects/Buffs/Thorns/_Ally_1.EFFT" />
+					<Item href="/Effects/Buffs/Bubble/_PowerfulGold.EFFT" />
 				</effects>
 				<enableCondition href="" />
 				<lifeTime>-1</lifeTime>

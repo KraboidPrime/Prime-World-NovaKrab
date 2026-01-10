@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Talent>
-	<BackLink DBID="/GameLogic/AILogic.AILP" Count="1" />
+	<BackLink DBID="/GameLogic/AILogic.AILP" Count="2" />
 	<BackLink DBID="/Items/RerollShop/TalentsList_MiniRefresher" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset7_11_MiniRefresher/Redset7_11_MiniRefresher.TALKIT" Count="1" />
 	<BackLink DBID="/Social/TalentsCollection" Count="4" />
@@ -101,7 +101,7 @@
 	<description textref="/Items/Talents/Level5/G772_Int_CDR.TALENT_description.txt" />
 	<devPoints>1</devPoints>
 	<dispatch href="" />
-	<flags>0</flags>
+	<flags>4</flags>
 	<forceBonus>0</forceBonus>
 	<image href="/UI/Styles/Icons/Talents/_772.ITEX" />
 	<imageSecondState href="" />

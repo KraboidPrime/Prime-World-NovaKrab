@@ -2,6 +2,7 @@
 <UITexture>
 	<BackLink DBID="/Items/Talents/Class/Zealot/Ability_A1.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Zealot/Ability_A1u.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Zealot/appl_A1A3_KatarProgram.APLR" Count="2" />
 	<generatedFileName></generatedFileName>
 	<importOnlyShape>false</importOnlyShape>
 	<mipLevels>0</mipLevels>

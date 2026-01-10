@@ -67,6 +67,7 @@
 				</Item>
 				<Item href="/Items/Talents/Class/IronKnight/const_A3_Damage" />
 				<Item href="/Items/Talents/Class/IronKnight/const_A3u_Damage" />
+				<Item href="/Items/Talents/Class/IronKnight/const_A3u_TT_Damage" />
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CountingTargetSelector>
 	<BackLink DBID="/Items/Talents/Class/Monster/Ability_A4_2.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A4_1.TALENT" Count="1" />
 	<enableSorting>true</enableSorting>
 	<flags>0</flags>
 	<heroesFirst>true</heroesFirst>

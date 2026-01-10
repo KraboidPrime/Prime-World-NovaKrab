@@ -41,7 +41,28 @@
 	<commonDescription textref="" />
 	<compiledDescriptionA textref="" />
 	<compiledDescriptionB textref="" />
-	<conditionFormulas />
+	<conditionFormulas>
+		<Item href="/Items/Talents/Level4/G155_Aura-Will.TALENT" id="09460D8C-F67F-4011-986F-58CCCF3EDD86">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRYAAAACAAAAGwAAADEAAABBdTIwMjVfVG9vbHRpcENvdW50ZXIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdUwAAAN/g9sQBdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAhA</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vAu2025_TooltipCounter &gt;= 3</sString>
+				</condition>
+				<name>Bonus3ActiveAu</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Items/Talents/Level4/G155_Aura-Will.TALENT" id="4588FDAE-912D-4A4D-9050-521CAEABF45B">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRYAAAACAAAAGwAAADEAAABBdTIwMjVfVG9vbHRpcENvdW50ZXIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdUwAAAN/g9sQBdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAABxA</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vAu2025_TooltipCounter &gt;= 7</sString>
+				</condition>
+				<name>Bonus7ActiveAu</name>
+			</ConditionFormula>
+		</Item>
+	</conditionFormulas>
 	<conflictingTalents />
 	<constants href="/Items/Talents/Level4/G155_Aura-Will.TALENT" id="9E580075-8A4A-421E-B54E-EA8EEF304D52">
 		<UnitConstantsContainer>
@@ -133,9 +154,9 @@
 				<LoggingEvent>-1</LoggingEvent>
 				<providerName></providerName>
 				<range>
-					<compiledString>FQsAAAABAAAAFwAAAFJhbmdlX0xvbmcAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+					<compiledString>FQ0AAAABAAAAGQAAAFJhbmdlX0V4TG9uZwBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
 					<returnType>float</returnType>
-					<sString>cRange_Long</sString>
+					<sString>cRange_ExLong</sString>
 				</range>
 				<startCondition>
 					<compiledString></compiledString>
@@ -208,6 +229,7 @@
 				<providerName></providerName>
 			</PermanentStatModApplicator>
 		</Item>
+		<Item href="/Items/Talents/Level3/AURASET_Prog2025.APLR" />
 	</passiveApplicators>
 	<persistentId>G155</persistentId>
 	<prerequisiteTalents />
@@ -232,9 +254,9 @@
 	<type>Passive</type>
 	<upgradeLevel>0</upgradeLevel>
 	<useRange>
-		<compiledString>FQsAAAABAAAAFwAAAFJhbmdlX0xvbmcAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+		<compiledString>FQ0AAAABAAAAGQAAAFJhbmdlX0V4TG9uZwBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
 		<returnType>float</returnType>
-		<sString>cRange_Long</sString>
+		<sString>cRange_ExLong</sString>
 	</useRange>
 	<useRangeMaterial href="/Effects/UI/AOESelection/Radius.MTRL" />
 	<variativeMaxTalentStats />

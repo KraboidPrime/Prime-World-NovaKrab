@@ -2,6 +2,7 @@
 <BasicEffectAttached>
 	<BackLink DBID="/Items/Talents/Class/Artist/A2_DispatchEnemy.DSCH.DSCH" Count="1" />
 	<BackLink DBID="/Items/Talents/Level4/G044_Life-Silence.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level5/G186_AInt_Vamp.TALENT" Count="1" />
 	<attachFlags>0</attachFlags>
 	<attachType>Body</attachType>
 	<component href="/Effects/Shots/Paint/_PurpleHitTRS.PRXY" />

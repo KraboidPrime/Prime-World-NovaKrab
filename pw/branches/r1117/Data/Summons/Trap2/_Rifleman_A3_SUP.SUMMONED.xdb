@@ -205,7 +205,7 @@
 		</Item>
 		<Item href="" />
 	</selectionAoe>
-	<size>0.5</size>
+	<size>1</size>
 	<sizeDynamic>0</sizeDynamic>
 	<stats href="/Summons/Trap2/_Rifleman_A3_SUP.SUMMONED" id="BCC18B85-B1D1-4CAF-8260-37B69A0BD9C8">
 		<StatsContainer>
@@ -221,9 +221,9 @@
 					<levelUpgrades />
 					<statId>Life</statId>
 					<value>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
 						<returnType>float</returnType>
-						<sString>5</sString>
+						<sString>3</sString>
 					</value>
 				</Item>
 				<Item>

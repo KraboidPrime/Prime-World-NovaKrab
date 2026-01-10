@@ -1071,7 +1071,7 @@
 				</Item>
 				<Item>
 					<name>workTime1</name>
-					<virtPar>0.3333333</virtPar>
+					<virtPar>0.2</virtPar>
 				</Item>
 			</markers>
 			<nextNode>idle</nextNode>
@@ -1546,7 +1546,7 @@
 			<markers>
 				<Item>
 					<name>doFire</name>
-					<virtPar>0.2</virtPar>
+					<virtPar>0.1333333</virtPar>
 				</Item>
 			</markers>
 			<nextNode>idle</nextNode>
@@ -1906,7 +1906,7 @@
 			<markers>
 				<Item>
 					<name>doFire</name>
-					<virtPar>0.2</virtPar>
+					<virtPar>0.1333333</virtPar>
 				</Item>
 			</markers>
 			<nextNode>idle</nextNode>
@@ -3971,7 +3971,7 @@
 			<markers>
 				<Item>
 					<name>doFire</name>
-					<virtPar>0.2</virtPar>
+					<virtPar>0.1333333</virtPar>
 				</Item>
 			</markers>
 			<nextNode>idle</nextNode>
@@ -4331,7 +4331,7 @@
 			<markers>
 				<Item>
 					<name>doFire</name>
-					<virtPar>0.2</virtPar>
+					<virtPar>0.1333333</virtPar>
 				</Item>
 			</markers>
 			<nextNode>idle</nextNode>
@@ -5300,11 +5300,11 @@
 			<markers>
 				<Item>
 					<name>doCast3</name>
-					<virtPar>0.1578947</virtPar>
+					<virtPar>0.1333333</virtPar>
 				</Item>
 				<Item>
 					<name>workTime3</name>
-					<virtPar>0.4736842</virtPar>
+					<virtPar>0.2</virtPar>
 				</Item>
 			</markers>
 			<nextNode>idle</nextNode>
@@ -5638,7 +5638,7 @@
 				</Item>
 				<Item>
 					<name>workTime4</name>
-					<virtPar>0.3333333</virtPar>
+					<virtPar>0.2</virtPar>
 				</Item>
 			</markers>
 			<nextNode>idle</nextNode>

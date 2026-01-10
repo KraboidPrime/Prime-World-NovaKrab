@@ -990,6 +990,36 @@
 					</UnitConstant>
 				</Item>
 				<Item href="/Items/Talents/Class/Reaper/const_A1_SUP_Cost" />
+				<Item href="/Items/Talents/Class/Reaper/Ability_A1.TALENT" id="AE445728-B183-409E-B485-F1F5AA9AB4C7">
+					<UnitConstant>
+						<name>A1_DefenceChance</name>
+						<var>
+							<compiledString>FQAAAAACAAAAFgAAABwAAABVi+xRi0UIixCLTQiLgrwAAAD/0NwNMgAAANwFKgAAANld/NlF/IvlXcMAAAAAAAAxQLgehetRuK4/</compiledString>
+							<returnType>float</returnType>
+							<sString>0.06*sBaseIntellect + 17</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Reaper/Ability_A1.TALENT" id="6CF20C32-5645-49C4-9298-104B786C70E9">
+					<UnitConstant>
+						<name>A1_RollChance</name>
+						<var>
+							<compiledString>FREAAAACAAAALAAAAD8AAABBMV9EZWZlbmNlQ2hhbmNlAFWL7IPsCItFDFCLTQhRagpqCotVDFKLRQhQaAAAAACLTRCLEYtNEItCUP/Q3A1nAAAA2V382UX8UdkcJItNEIsRi00Qi0Jk/9APtsiJTfjbRfiL5V3DexSuR+F6hD8=</compiledString>
+							<returnType>float</returnType>
+							<sString>smartRoll(cA1_DefenceChance*0.01 , 10 , 10) </sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Reaper/Ability_A1.TALENT" id="B903A045-E79E-4F95-82A6-75264223647B">
+					<UnitConstant>
+						<name>A1_PureDefenceAmount</name>
+						<var>
+							<compiledString>FQ4AAAACAAAAGwAAAC4AAABBMV9Sb2xsQ2hhbmNlAFWL7FGLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0twdUAAAAN/g9sREewnHRfwAAAAA6wfHRfwBAAAA20X8i+VdwwAAAAAAAAAA</compiledString>
+							<returnType>float</returnType>
+							<sString>cA1_RollChance ? 0 : 1</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
@@ -1121,6 +1151,112 @@
 			</FlagsApplicator>
 		</Item>
 		<Item href="/Items/Talents/TalentKits/Redset7_11_MiniRefresher/trigger_G766_RefreshAndNotify.APLR" />
+		<Item href="/Items/Talents/Class/Reaper/Ability_A1.TALENT" id="F2A6ADE4-7352-40E4-A825-35839BA10F31">
+			<TriggerApplicator>
+				<actionsCount>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</actionsCount>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>Читерство</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FTUAAAAFAAAASgAAAFYAAABvAAAArQAAAMAAAABSZWFwZXJfQTFfU1VQAAAAUmVhcGVyX0ExX1NVUAAAAEExX1B1cmVEZWZlbmNlQW1vdW50AFWL7IPsDItFEIsQi00Qi0Ic/9DcHeoAAADf4PbERHt/aAAAAACLTQiLEYtNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0MItVDFKLRQhQaCAAAACLTRCLEYtNEItCUP/Q3B3iAAAA3+D2xEF6CcdF9AEAAADrB8dF9AAAAACKRfSL5V3DAAAAAAAA4D8AAAAAAADwPw==</compiledString>
+					<returnType>bool</returnType>
+					<sString>mPreparedness != 1.0 &amp;&amp; tal("Reaper_A1_SUP") &amp;&amp; cA1_PureDefenceAmount &lt;= 0.5</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<playAck>false</playAck>
+				<processor href="/Items/Talents/Class/Reaper/Ability_A1.TALENT" id="2D2464EC-A763-4DDA-BF11-126C19C8CCB0">
+					<EventProcessorDamageTransformer>
+						<abilityFilter>
+							<abilitiesList />
+							<abilityCondition>
+								<compiledString>FQsAAAACAAAAEAAAACMAAABpc0NyaXRpY2FsAFWL7FFoAAAAAItFEIsQi00Qi0JU/9DcHUUAAADf4PbERHoJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAADwPw==</compiledString>
+								<returnType>bool</returnType>
+								<sString>pMisc-&gt;GetVariable("isCritical") == 1.0</sString>
+							</abilityCondition>
+							<abilityCostMode>Any</abilityCostMode>
+							<exceptThis>false</exceptThis>
+							<flags>1073742079</flags>
+							<onlySingleTarget>false</onlySingleTarget>
+						</abilityFilter>
+						<add>
+							<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+							<returnType>float</returnType>
+							<sString>0</sString>
+						</add>
+						<applyTarget>ApplicatorTarget</applyTarget>
+						<checkSender>0</checkSender>
+						<damageTypeFilter>31</damageTypeFilter>
+						<flags>0</flags>
+						<matchTargetInverted>false</matchTargetInverted>
+						<mul>
+							<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+							<returnType>float</returnType>
+							<sString>0</sString>
+						</mul>
+						<objectFilter>2040319</objectFilter>
+						<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
+						<spell href="/Items/Talents/Class/Reaper/Ability_A1.TALENT" id="57100F22-1B14-49DE-9CA5-DDD2452A56B3">
+							<Spell>
+								<applicators>
+									<Item href="/Items/Talents/Class/Reaper/Ability_A1.TALENT" id="7B8D340B-17BB-4A3B-85E9-820A8851DF12">
+										<UIMessageApplicator parent="/Items/Talents/TalentKits/Redset1_3_Armor/UIMessage_Redset1_3_Armor_DamageDecreased.APLR">
+											<enabled>
+												<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</enabled>
+											<message textref="/Items/Talents/Class/Reaper/Ability_A1.TALENT_7b8d340b17bb4a3b85e9820a8851df12_message.txt" />
+										</UIMessageApplicator>
+									</Item>
+								</applicators>
+								<dispatch href="/Items/Talents/Class/Reaper/Ability_A1.TALENT" id="CF292D04-FF99-4F97-97B0-7B86E39BF1C4">
+									<DispatchImmediate>
+										<alwaysApply>false</alwaysApply>
+										<applyEffect>
+											<Item href="" />
+											<Item href="" />
+										</applyEffect>
+										<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+										<applyEffectOrientation>Default</applyEffectOrientation>
+										<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+										<dieAfterApply>true</dieAfterApply>
+										<dispatchEffect>
+											<Item href="" />
+											<Item href="" />
+										</dispatchEffect>
+										<flags>0</flags>
+										<instantApply>true</instantApply>
+									</DispatchImmediate>
+								</dispatch>
+							</Spell>
+						</spell>
+						<treatDelegatedByDelegator>false</treatDelegatedByDelegator>
+					</EventProcessorDamageTransformer>
+				</processor>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<useAbilityCooldown>false</useAbilityCooldown>
+				<useAbilityOwnerMana>false</useAbilityOwnerMana>
+			</TriggerApplicator>
+		</Item>
 	</passiveApplicators>
 	<persistentId>Reaper_A1</persistentId>
 	<prerequisiteTalents />

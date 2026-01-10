@@ -47,9 +47,9 @@
 					<UnitConstant>
 						<name>Honey_TTChance</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACoQQ==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>21.0f</sString>
+							<sString>30.0f</sString>
 						</var>
 					</UnitConstant>
 				</Item>

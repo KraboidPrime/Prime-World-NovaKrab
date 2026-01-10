@@ -23,9 +23,9 @@
 		<Item href="/Heroes/Naga/AttackAbility.ATCK" id="7280F644-5198-48BE-82F7-3768BD88ECBD">
 			<SpellSwitchApplicator>
 				<activeSpellIndex>
-					<compiledString>FR4AAAADAAAAJQAAAD4AAAB6AAAATmFnYV9BMABOYWdhX0EwAEEwQmxhZGVNYXN0ZXIAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgIAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0KWoBi1UQUmgQAAAAi0UIixCLTQiLgpwBAAD/0DtFEHQJx0X0AQAAAOsHx0X0AAAAAItF9IvlXcM=</compiledString>
+					<compiledString>FS4AAAAFAAAANQAAAE4AAACKAAAApAAAALoAAABOYWdhX0EwAE5hZ2FfQTAAQTBCbGFkZU1hc3RlcgAAAE5hZ2FVbHRLb3N0aWwAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgIAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0S2oBi1UQUmgQAAAAi0UIixCLTQiLgpwBAAD/0DtFEHQraCAAAACLTQiLEYtNCIuCiAEAAP/Q3B3cAAAA3+D2xER6CcdF9AEAAADrB8dF9AAAAACLRfSL5V3DAAAAAAAAAAA=</compiledString>
 					<returnType>int</returnType>
-					<sString>( tal("Naga_A0") &amp;&amp; sender.FindApplicator("A0BladeMaster",pMisc,UNIT) != pMisc ) ? 1 : 0</sString>
+					<sString>( tal("Naga_A0") &amp;&amp; sender.FindApplicator("A0BladeMaster",pMisc,UNIT) != pMisc &amp;&amp; sender.vNagaUltKostil == 0.0f ) ? 1 : 0</sString>
 				</activeSpellIndex>
 				<applyTarget>AbilityOwner</applyTarget>
 				<caption>choose default attack or aoe</caption>
@@ -507,7 +507,7 @@
 			<instantApply>true</instantApply>
 		</DispatchImmediate>
 	</dispatch>
-	<flags>1</flags>
+	<flags>5</flags>
 	<image href="" />
 	<imageSecondState href="" />
 	<isMelee>true</isMelee>

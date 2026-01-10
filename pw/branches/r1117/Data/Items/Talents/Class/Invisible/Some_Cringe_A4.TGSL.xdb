@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AreaTargetSelector>
+	<BackLink DBID="/Items/Talents/Class/Invisible/A4_Enemies.TGSL" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Invisible/Ability_A4.TALENT" Count="4" />
+	<absolutePosition>
+		<x>0</x>
+		<y>0</y>
+	</absolutePosition>
+	<flags>0</flags>
+	<mode>Normal</mode>
+	<range>
+		<compiledString>FQkAAAACAAAAFgAAACkAAABBNF9SYW5nZQBVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcBTcAAADZXfzZRfyL5V3DAAAAAAAAAEA=</compiledString>
+		<returnType>float</returnType>
+		<sString>(cA4_Range+2)</sString>
+	</range>
+	<targetFilter>672923651</targetFilter>
+	<targetSelector href="" />
+</AreaTargetSelector>

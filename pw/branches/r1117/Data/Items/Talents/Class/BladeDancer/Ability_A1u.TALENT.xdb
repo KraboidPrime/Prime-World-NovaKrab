@@ -58,9 +58,9 @@
 					<UnitConstant>
 						<name>A1u_Slow_Duration</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAQA==</compiledString>
+							<compiledString>FREAAAADAAAAHAAAADcAAABCAAAAQmxhZGVEYW5jZXJfTWFyawBVi+xRagGLRRBQaAAAAACLTQiLEYtNCIuCnAEAAP/QO0UQdAvZBVQAAADZXfzrCdkFUAAAANld/NlF/IvlXcMAAIBAAADAQA==</compiledString>
 							<returnType>float</returnType>
-							<sString>4.0f</sString>
+							<sString>(sender.applBladeDancer_Mark(UNIT) != pMisc) ? 6.0f : 4.0f</sString>
 						</var>
 					</UnitConstant>
 				</Item>

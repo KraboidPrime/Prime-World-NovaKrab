@@ -26,9 +26,9 @@
 	<LoggingEvent>-1</LoggingEvent>
 	<modifier>
 		<addValue>
-			<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+			<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 			<returnType>float</returnType>
-			<sString>1.0f</sString>
+			<sString>0.0f</sString>
 		</addValue>
 		<multValue>
 			<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>

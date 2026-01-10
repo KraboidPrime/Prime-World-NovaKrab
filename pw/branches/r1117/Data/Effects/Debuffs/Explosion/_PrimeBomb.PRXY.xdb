@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DBSceneComponent>
 	<BackLink DBID="/Effects/Debuffs/Explosion/_PrimeBombTRS.PRXY" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A4_2.TALENT" Count="1" />
 	<attached>
 		<Item>
 			<attachFlags>15</attachFlags>

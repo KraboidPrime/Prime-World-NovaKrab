@@ -314,9 +314,9 @@
 		</UnitConstantsContainer>
 	</constants>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQg==</compiledString>
+		<compiledString>FQ4AAAACAAAAFQAAAC4AAABHMTAwMgAAAEcxMDAyAFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoCAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+/fZG8mD4e6DwTyJTfTbRfSL5V3D</compiledString>
 		<returnType>float</returnType>
-		<sString>60</sString>
+		<sString>tal("G1002") ? 42 : 60</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>
@@ -355,7 +355,7 @@
 		<sString>0</sString>
 	</manaCost>
 	<marker></marker>
-	<maxQuantity>5</maxQuantity>
+	<maxQuantity>100</maxQuantity>
 	<microAI href="" />
 	<minUseRangeCorrection>0</minUseRangeCorrection>
 	<naftaCost>0</naftaCost>

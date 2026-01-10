@@ -856,9 +856,9 @@
 	<isUltimateTalent>true</isUltimateTalent>
 	<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
 	<manaCost>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACWQw==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAB6Qw==</compiledString>
 		<returnType>float</returnType>
-		<sString>300</sString>
+		<sString>250</sString>
 	</manaCost>
 	<marker></marker>
 	<microAI href="/Items/Talents/Class/Witcher/Ability_A4.TALENT" id="382807F3-3B55-4A59-9E99-28D9ED071026">

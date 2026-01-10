@@ -68,9 +68,9 @@
 					<UnitConstant>
 						<name>Add_Nafta</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQQ==</compiledString>
+							<compiledString>FQYAAAADAAAACwAAACEAAAAnAAAAVGltZXIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwFPQAAANw9NQAAANld/NlF/IvlXcMAAAAAABilQAAAAAAAAD5A</compiledString>
 							<returnType>float</returnType>
-							<sString>30.0f</sString>
+							<sString>2700/(30+sender.vTimer)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -115,6 +115,102 @@
 	<name textref="/Items/Talents/Level1/G126_Int_Str.TALENT_name.txt" />
 	<node></node>
 	<passiveApplicators>
+		<Item href="/Items/Talents/Level1/G126_Int_Str.TALENT" id="36BCCF8A-2FFF-4BE1-B78B-E66B283FF5B1">
+			<SpellPeriodicallyApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>152</behaviorFlags>
+				<caption>раз в 10 сек</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAvw==</compiledString>
+					<returnType>float</returnType>
+					<sString>-1</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<period>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
+					<returnType>float</returnType>
+					<sString>10</sString>
+				</period>
+				<providerName></providerName>
+				<scaleMode>ScaleIsCount</scaleMode>
+				<spell href="/Items/Talents/Level1/G126_Int_Str.TALENT" id="35A40A87-729C-400A-895D-F34898CA8EC7">
+					<Spell>
+						<applicators>
+							<Item href="/Items/Talents/Level1/G126_Int_Str.TALENT" id="55C0C390-F5E0-4393-A762-29EEAAB4FAF7">
+								<PermanentStatModApplicator>
+									<applyTarget>ApplicatorTarget</applyTarget>
+									<caption>uy</caption>
+									<customApplyType>None</customApplyType>
+									<enabled>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<LoggingEvent>-1</LoggingEvent>
+									<modifier>
+										<addValue>
+											<compiledString>FQYAAAACAAAACwAAACEAAABUaW1lcgBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3AUvAAAA2V382UX8i+VdwwAAAAAAAPA/</compiledString>
+											<returnType>float</returnType>
+											<sString>sender.vTimer+1</sString>
+										</addValue>
+										<multValue>
+											<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+											<returnType>float</returnType>
+											<sString>0.0f</sString>
+										</multValue>
+										<stat>Life</stat>
+										<topModifier>false</topModifier>
+										<variable>Timer</variable>
+									</modifier>
+									<providerName></providerName>
+								</PermanentStatModApplicator>
+							</Item>
+						</applicators>
+						<dispatch href="/Items/Talents/Level1/G126_Int_Str.TALENT" id="D6B9AFE1-CD2E-43D9-A0EA-DE2E56BFCFB6">
+							<DispatchImmediate>
+								<alwaysApply>false</alwaysApply>
+								<applyEffect>
+									<Item href="" />
+									<Item href="" />
+								</applyEffect>
+								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+								<applyEffectOrientation>Default</applyEffectOrientation>
+								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+								<dieAfterApply>true</dieAfterApply>
+								<dispatchEffect>
+									<Item href="" />
+									<Item href="" />
+								</dispatchEffect>
+								<flags>0</flags>
+								<instantApply>false</instantApply>
+							</DispatchImmediate>
+						</dispatch>
+					</Spell>
+				</spell>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<startOffset>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
+					<returnType>float</returnType>
+					<sString>10</sString>
+				</startOffset>
+				<targetSelector href="" />
+			</SpellPeriodicallyApplicator>
+		</Item>
 		<Item href="/Items/Talents/Level1/G126_Int_Str.TALENT" id="B4FF2DB6-BEE4-40E6-AE66-9F42C732B324">
 			<PermanentStatModApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
@@ -256,9 +352,9 @@
 														<isFromImpulseBuff>false</isFromImpulseBuff>
 														<LoggingEvent>-1</LoggingEvent>
 														<nafta>
-															<compiledString>FQoAAAABAAAAFgAAAEFkZF9OYWZ0YQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+															<compiledString>FQYAAAADAAAACwAAACEAAAAnAAAAVGltZXIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwFPQAAANw9NQAAANld/NlF/IvlXcMAAAAAABilQAAAAAAAAD5A</compiledString>
 															<returnType>float</returnType>
-															<sString>cAdd_Nafta</sString>
+															<sString>2700/(30+sender.vTimer)</sString>
 														</nafta>
 														<providerName></providerName>
 													</AddNaftaApplicator>

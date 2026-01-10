@@ -163,18 +163,18 @@
 					<calcIncrement>0</calcIncrement>
 					<calcValue>0</calcValue>
 					<increment>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAWRA==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAA0RA==</compiledString>
 						<returnType>float</returnType>
-						<sString>600</sString>
+						<sString>720</sString>
 					</increment>
 					<levelUpgrades>
 						<Item>
-							<increment>600</increment>
+							<increment>720</increment>
 							<level>0</level>
 						</Item>
 						<Item>
 							<increment>0</increment>
-							<level>14</level>
+							<level>20</level>
 						</Item>
 					</levelUpgrades>
 					<statId>Life</statId>
@@ -215,7 +215,7 @@
 						</Item>
 						<Item>
 							<increment>0</increment>
-							<level>14</level>
+							<level>20</level>
 						</Item>
 					</levelUpgrades>
 					<statId>Strength</statId>
@@ -236,9 +236,9 @@
 					<levelUpgrades />
 					<statId>NaftaForKill</statId>
 					<value>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQw==</compiledString>
+						<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 						<returnType>float</returnType>
-						<sString>200</sString>
+						<sString>0</sString>
 					</value>
 				</Item>
 				<Item>
@@ -252,9 +252,9 @@
 					<levelUpgrades />
 					<statId>TeamNaftaForKill</statId>
 					<value>
-						<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAB6Qw==</compiledString>
 						<returnType>float</returnType>
-						<sString>0</sString>
+						<sString>250</sString>
 					</value>
 				</Item>
 				<Item>
@@ -304,7 +304,7 @@
 						</Item>
 						<Item>
 							<increment>0</increment>
-							<level>11</level>
+							<level>17</level>
 						</Item>
 					</levelUpgrades>
 					<statId>Level</statId>
@@ -329,7 +329,7 @@
 						</Item>
 						<Item>
 							<increment>0</increment>
-							<level>14</level>
+							<level>20</level>
 						</Item>
 					</levelUpgrades>
 					<statId>Intellect</statId>
@@ -354,7 +354,7 @@
 						</Item>
 						<Item>
 							<increment>0</increment>
-							<level>14</level>
+							<level>20</level>
 						</Item>
 					</levelUpgrades>
 					<statId>Stamina</statId>
@@ -379,7 +379,7 @@
 						</Item>
 						<Item>
 							<increment>0</increment>
-							<level>14</level>
+							<level>20</level>
 						</Item>
 					</levelUpgrades>
 					<statId>Will</statId>
@@ -416,9 +416,9 @@
 					<levelUpgrades />
 					<statId>NaftaForAssist</statId>
 					<value>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAWQw==</compiledString>
+						<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 						<returnType>float</returnType>
-						<sString>150</sString>
+						<sString>0</sString>
 					</value>
 				</Item>
 			</stats>

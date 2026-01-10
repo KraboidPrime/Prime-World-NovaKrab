@@ -2,7 +2,7 @@
 <Consumable>
 	<BackLink DBID="/Buildings/DefaultStats/CTE_Secret.CNSH" Count="1" />
 	<BackLink DBID="/Buildings/DefaultStats/Secret.CNSH" Count="1" />
-	<BackLink DBID="/Buildings/DefaultStats/Secret_NY.CNSH" Count="1" />
+	<BackLink DBID="/Buildings/DefaultStats/Secret_NY.CNSH" Count="3" />
 	<BackLink DBID="/Items/Talents/Class/Artist/trigger_scrollRoll.APLR" Count="2" />
 	<BackLink DBID="/Maps/Multiplayer/MOBA/Shops/Mod9_N.SHOP" Count="1" />
 	<BackLink DBID="/Maps/PvE/Series/Episode1/buildings/Shop.SHOP" Count="1" />
@@ -10,6 +10,10 @@
 	<BackLink DBID="/Maps/Test/DesignArtTest/Buildings/_N.SHOP" Count="1" />
 	<BackLink DBID="/MiniGames/Minigame02/GameLogic/EaselMinigameData" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Artist/Ability_A0.TALENT" Count="1" />
+	<BackLink DBID="/Buildings/DefaultStats/Basic.CNSH" Count="1" />
+	<BackLink DBID="/Buildings/DefaultStats/Basic_Bots.CNSH" Count="1" />
+	<BackLink DBID="/Buildings/DefaultStats/Basic_NY.CNSH" Count="1" />
+	<BackLink DBID="/Items/Talents/Level5/G735_Dex_inc_Str_Int.TALENT" Count="1" />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
 		<compiledString></compiledString>
@@ -98,9 +102,9 @@
 		</UnitConstantsContainer>
 	</constants>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQg==</compiledString>
+		<compiledString>FQ4AAAACAAAAFQAAAC4AAABHMTAwMgAAAEcxMDAyAFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoCAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+/fZG8mD4e6DwTyJTfTbRfSL5V3D</compiledString>
 		<returnType>float</returnType>
-		<sString>60</sString>
+		<sString>tal("G1002") ? 42 : 60</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>
@@ -279,7 +283,7 @@
 		<sString>0.0f</sString>
 	</manaCost>
 	<marker></marker>
-	<maxQuantity>5</maxQuantity>
+	<maxQuantity>100</maxQuantity>
 	<microAI href="" />
 	<minUseRangeCorrection>0</minUseRangeCorrection>
 	<naftaCost>1000</naftaCost>

@@ -7,6 +7,7 @@
 	<BackLink DBID="/Social/Lootboxes/ROLLCONTS/roll_OrangeSet1.ROLLCONT" Count="1" />
 	<BackLink DBID="/Test/Talents/TestSetKits.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Unicorn/Elite_Will.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/TalentKits/Vampiric2_ArmourPush/V2_ArmourPush.TALKIT" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>

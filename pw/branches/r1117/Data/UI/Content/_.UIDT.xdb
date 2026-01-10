@@ -1600,6 +1600,266 @@
 		<Item href="/UI/Content/CustomFlags/fox1" />
 		<Item href="/UI/Content/CustomFlags/season15" />
 		<Item href="/UI/Content/CustomFlags/season16" />
+		<Item href="/UI/Content/_.UIDT" id="23194256-EE8E-4B02-89B6-B4370E786609">
+			<CustomFlag>
+				<bigIcon href="" />
+				<icon href="/UI/Styles/Icons/Flags/cat2025.ITEX" />
+				<id>cat2025</id>
+				<name textref="/UI/Content/_.UIDT_23194256ee8e4b0289b6b4370e786609_name.txt" />
+				<Price>0</Price>
+				<tooltip textref="/UI/Content/_.UIDT_23194256ee8e4b0289b6b4370e786609_tooltip.txt" />
+			</CustomFlag>
+		</Item>
+		<Item href="/UI/Content/_.UIDT" id="A74D63F3-5139-440D-95D4-6A8121AE2FCF">
+			<CustomFlag>
+				<bigIcon href="" />
+				<icon href="/UI/Styles/Icons/Flags/cloud2025.ITEX" />
+				<id>cloud2025</id>
+				<name textref="/UI/Content/_.UIDT_a74d63f35139440d95d46a8121ae2fcf_name.txt" />
+				<Price>0</Price>
+				<tooltip textref="/UI/Content/_.UIDT_a74d63f35139440d95d46a8121ae2fcf_tooltip.txt" />
+			</CustomFlag>
+		</Item>
+		<Item href="/UI/Content/_.UIDT" id="F74675DD-228C-4F4F-B3B1-CA7B72C026D0">
+			<CustomFlag>
+				<bigIcon href="" />
+				<icon href="/UI/Styles/Icons/Flags/clover2025.ITEX" />
+				<id>clover2025</id>
+				<name textref="/UI/Content/_.UIDT_f74675dd228c4f4fb3b1ca7b72c026d0_name.txt" />
+				<Price>0</Price>
+				<tooltip textref="/UI/Content/_.UIDT_f74675dd228c4f4fb3b1ca7b72c026d0_tooltip.txt" />
+			</CustomFlag>
+		</Item>
+		<Item href="/UI/Content/_.UIDT" id="0726A8B3-C5CE-4D70-A40A-8E3910B5D37A">
+			<CustomFlag>
+				<bigIcon href="" />
+				<icon href="/UI/Styles/Icons/Flags/crown2025.ITEX" />
+				<id>crown2025</id>
+				<name textref="/UI/Content/_.UIDT_0726a8b3c5ce4d70a40a8e3910b5d37a_name.txt" />
+				<Price>0</Price>
+				<tooltip textref="/UI/Content/_.UIDT_0726a8b3c5ce4d70a40a8e3910b5d37a_tooltip.txt" />
+			</CustomFlag>
+		</Item>
+		<Item href="/UI/Content/_.UIDT" id="0250D906-7737-4938-9BE1-48CFD8C6D9C1">
+			<CustomFlag>
+				<bigIcon href="" />
+				<icon href="/UI/Styles/Icons/Flags/evilc2025.ITEX" />
+				<id>evilc2025</id>
+				<name textref="/UI/Content/_.UIDT_0250d906773749389be148cfd8c6d9c1_name.txt" />
+				<Price>0</Price>
+				<tooltip textref="/UI/Content/_.UIDT_0250d906773749389be148cfd8c6d9c1_tooltip.txt" />
+			</CustomFlag>
+		</Item>
+		<Item href="/UI/Content/_.UIDT" id="11716BB9-B5D5-444D-A4F0-16FFB4ADD084">
+			<CustomFlag>
+				<bigIcon href="" />
+				<icon href="/UI/Styles/Icons/Flags/frog2025.ITEX" />
+				<id>frog2025</id>
+				<name textref="/UI/Content/_.UIDT_11716bb9b5d5444da4f016ffb4add084_name.txt" />
+				<Price>0</Price>
+				<tooltip textref="/UI/Content/_.UIDT_11716bb9b5d5444da4f016ffb4add084_tooltip.txt" />
+			</CustomFlag>
+		</Item>
+		<Item href="/UI/Content/_.UIDT" id="865CFF1A-030F-402B-A3A2-DF174FA6A682">
+			<CustomFlag>
+				<bigIcon href="" />
+				<icon href="/UI/Styles/Icons/Flags/gem2025.ITEX" />
+				<id>gem2025</id>
+				<name textref="/UI/Content/_.UIDT_865cff1a030f402ba3a2df174fa6a682_name.txt" />
+				<Price>0</Price>
+				<tooltip textref="/UI/Content/_.UIDT_865cff1a030f402ba3a2df174fa6a682_tooltip.txt" />
+			</CustomFlag>
+		</Item>
+		<Item href="/UI/Content/_.UIDT" id="12B64903-2166-4707-815E-634402BE3DC7">
+			<CustomFlag>
+				<bigIcon href="" />
+				<icon href="/UI/Styles/Icons/Flags/glass2025.ITEX" />
+				<id>glass2025</id>
+				<name textref="/UI/Content/_.UIDT_12b6490321664707815e634402be3dc7_name.txt" />
+				<Price>0</Price>
+				<tooltip textref="/UI/Content/_.UIDT_12b6490321664707815e634402be3dc7_tooltip.txt" />
+			</CustomFlag>
+		</Item>
+		<Item href="/UI/Content/_.UIDT" id="78C69CFD-793B-4204-A51B-5C9BE4C30726">
+			<CustomFlag>
+				<bigIcon href="" />
+				<icon href="/UI/Styles/Icons/Flags/goose2025.ITEX" />
+				<id>goose2025</id>
+				<name textref="/UI/Content/_.UIDT_78c69cfd793b4204a51b5c9be4c30726_name.txt" />
+				<Price>0</Price>
+				<tooltip textref="/UI/Content/_.UIDT_78c69cfd793b4204a51b5c9be4c30726_tooltip.txt" />
+			</CustomFlag>
+		</Item>
+		<Item href="/UI/Content/_.UIDT" id="29372C63-04E8-4130-9E7F-5884582A1177">
+			<CustomFlag>
+				<bigIcon href="" />
+				<icon href="/UI/Styles/Icons/Flags/help2025.ITEX" />
+				<id>help2025</id>
+				<name textref="/UI/Content/_.UIDT_29372c6304e841309e7f5884582a1177_name.txt" />
+				<Price>0</Price>
+				<tooltip textref="/UI/Content/_.UIDT_29372c6304e841309e7f5884582a1177_tooltip.txt" />
+			</CustomFlag>
+		</Item>
+		<Item href="/UI/Content/_.UIDT" id="8A659D48-E83F-4A71-96A5-653955ADD93B">
+			<CustomFlag>
+				<bigIcon href="" />
+				<icon href="/UI/Styles/Icons/Flags/imba2025.ITEX" />
+				<id>imba2025</id>
+				<name textref="/UI/Content/_.UIDT_8a659d48e83f4a7196a5653955add93b_name.txt" />
+				<Price>0</Price>
+				<tooltip textref="/UI/Content/_.UIDT_8a659d48e83f4a7196a5653955add93b_tooltip.txt" />
+			</CustomFlag>
+		</Item>
+		<Item href="/UI/Content/_.UIDT" id="668D66E4-AF2D-4005-938A-7C83C275C922">
+			<CustomFlag>
+				<bigIcon href="" />
+				<icon href="/UI/Styles/Icons/Flags/investor2025.ITEX" />
+				<id>investor2025</id>
+				<name textref="/UI/Content/_.UIDT_668d66e4af2d4005938a7c83c275c922_name.txt" />
+				<Price>0</Price>
+				<tooltip textref="/UI/Content/_.UIDT_668d66e4af2d4005938a7c83c275c922_tooltip.txt" />
+			</CustomFlag>
+		</Item>
+		<Item href="/UI/Content/_.UIDT" id="15534AF6-5917-45DC-AAE9-FA2A595C78FD">
+			<CustomFlag>
+				<bigIcon href="" />
+				<icon href="/UI/Styles/Icons/Flags/jungle2025.ITEX" />
+				<id>jungle2025</id>
+				<name textref="/UI/Content/_.UIDT_15534af6591745dcaae9fa2a595c78fd_name.txt" />
+				<Price>0</Price>
+				<tooltip textref="/UI/Content/_.UIDT_15534af6591745dcaae9fa2a595c78fd_tooltip.txt" />
+			</CustomFlag>
+		</Item>
+		<Item href="/UI/Content/_.UIDT" id="50FA8CC7-41C5-4C63-9C1A-C2EFF2ABF1DF">
+			<CustomFlag>
+				<bigIcon href="" />
+				<icon href="/UI/Styles/Icons/Flags/neon2025.ITEX" />
+				<id>neon2025</id>
+				<name textref="/UI/Content/_.UIDT_50fa8cc741c54c639c1ac2eff2abf1df_name.txt" />
+				<Price>0</Price>
+				<tooltip textref="/UI/Content/_.UIDT_50fa8cc741c54c639c1ac2eff2abf1df_tooltip.txt" />
+			</CustomFlag>
+		</Item>
+		<Item href="/UI/Content/_.UIDT" id="70AECB7C-60CA-498A-A277-2EB10778E05D">
+			<CustomFlag>
+				<bigIcon href="" />
+				<icon href="/UI/Styles/Icons/Flags/ogo2025.ITEX" />
+				<id>ogo2025</id>
+				<name textref="/UI/Content/_.UIDT_70aecb7c60ca498aa2772eb10778e05d_name.txt" />
+				<Price>0</Price>
+				<tooltip textref="/UI/Content/_.UIDT_70aecb7c60ca498aa2772eb10778e05d_tooltip.txt" />
+			</CustomFlag>
+		</Item>
+		<Item href="/UI/Content/_.UIDT" id="205E5B7E-D1F3-4523-9E1B-1BBDFF09DD9B">
+			<CustomFlag>
+				<bigIcon href="" />
+				<icon href="/UI/Styles/Icons/Flags/ok2025.ITEX" />
+				<id>ok2025</id>
+				<name textref="/UI/Content/_.UIDT_205e5b7ed1f345239e1b1bbdff09dd9b_name.txt" />
+				<Price>0</Price>
+				<tooltip textref="/UI/Content/_.UIDT_205e5b7ed1f345239e1b1bbdff09dd9b_tooltip.txt" />
+			</CustomFlag>
+		</Item>
+		<Item href="/UI/Content/_.UIDT" id="B8F3EFAE-0093-4334-9905-8D165A3E80C4">
+			<CustomFlag>
+				<bigIcon href="" />
+				<icon href="/UI/Styles/Icons/Flags/owl2025.ITEX" />
+				<id>owl2025</id>
+				<name textref="/UI/Content/_.UIDT_b8f3efae0093433499058d165a3e80c4_name.txt" />
+				<Price>0</Price>
+				<tooltip textref="/UI/Content/_.UIDT_b8f3efae0093433499058d165a3e80c4_tooltip.txt" />
+			</CustomFlag>
+		</Item>
+		<Item href="/UI/Content/_.UIDT" id="58976FF8-A9B0-4D4F-8045-F77F72D417BD">
+			<CustomFlag>
+				<bigIcon href="" />
+				<icon href="/UI/Styles/Icons/Flags/party2025.ITEX" />
+				<id>party2025</id>
+				<name textref="/UI/Content/_.UIDT_58976ff8a9b04d4f8045f77f72d417bd_name.txt" />
+				<Price>0</Price>
+				<tooltip textref="/UI/Content/_.UIDT_58976ff8a9b04d4f8045f77f72d417bd_tooltip.txt" />
+			</CustomFlag>
+		</Item>
+		<Item href="/UI/Content/_.UIDT" id="383CA3D2-95CA-47C7-B4D6-74AF1937BB74">
+			<CustomFlag>
+				<bigIcon href="" />
+				<icon href="/UI/Styles/Icons/Flags/plasma2025.ITEX" />
+				<id>plasma2025</id>
+				<name textref="/UI/Content/_.UIDT_383ca3d295ca47c7b4d674af1937bb74_name.txt" />
+				<Price>0</Price>
+				<tooltip textref="/UI/Content/_.UIDT_383ca3d295ca47c7b4d674af1937bb74_tooltip.txt" />
+			</CustomFlag>
+		</Item>
+		<Item href="/UI/Content/_.UIDT" id="A78BDFAF-BFDB-4689-9EC5-9942DBBED33F">
+			<CustomFlag>
+				<bigIcon href="" />
+				<icon href="/UI/Styles/Icons/Flags/prog2025.ITEX" />
+				<id>prog2025</id>
+				<name textref="/UI/Content/_.UIDT_a78bdfafbfdb46899ec59942dbbed33f_name.txt" />
+				<Price>0</Price>
+				<tooltip textref="/UI/Content/_.UIDT_a78bdfafbfdb46899ec59942dbbed33f_tooltip.txt" />
+			</CustomFlag>
+		</Item>
+		<Item href="/UI/Content/_.UIDT" id="254F1E4E-B204-47F7-9B56-97643939ADD1">
+			<CustomFlag>
+				<bigIcon href="" />
+				<icon href="/UI/Styles/Icons/Flags/robot2025.ITEX" />
+				<id>robot2025</id>
+				<name textref="/UI/Content/_.UIDT_254f1e4eb20447f79b5697643939add1_name.txt" />
+				<Price>0</Price>
+				<tooltip textref="/UI/Content/_.UIDT_254f1e4eb20447f79b5697643939add1_tooltip.txt" />
+			</CustomFlag>
+		</Item>
+		<Item href="/UI/Content/_.UIDT" id="8D076E60-50FB-4F74-A8AC-E05A6CC92A05">
+			<CustomFlag>
+				<bigIcon href="" />
+				<icon href="/UI/Styles/Icons/Flags/sad2025.ITEX" />
+				<id>sad2025</id>
+				<name textref="/UI/Content/_.UIDT_8d076e6050fb4f74a8ace05a6cc92a05_name.txt" />
+				<Price>0</Price>
+				<tooltip textref="/UI/Content/_.UIDT_8d076e6050fb4f74a8ace05a6cc92a05_tooltip.txt" />
+			</CustomFlag>
+		</Item>
+		<Item href="/UI/Content/_.UIDT" id="29336881-571B-47F1-B9D4-C1877C9188E0">
+			<CustomFlag>
+				<bigIcon href="" />
+				<icon href="/UI/Styles/Icons/Flags/skull2025.ITEX" />
+				<id>skull2025</id>
+				<name textref="/UI/Content/_.UIDT_29336881571b47f1b9d4c1877c9188e0_name.txt" />
+				<Price>0</Price>
+				<tooltip textref="/UI/Content/_.UIDT_29336881571b47f1b9d4c1877c9188e0_tooltip.txt" />
+			</CustomFlag>
+		</Item>
+		<Item href="/UI/Content/_.UIDT" id="15E67565-3295-42DE-BD94-320312757FF3">
+			<CustomFlag>
+				<bigIcon href="" />
+				<icon href="/UI/Styles/Icons/Flags/snow2025.ITEX" />
+				<id>snow2025</id>
+				<name textref="/UI/Content/_.UIDT_15e67565329542debd94320312757ff3_name.txt" />
+				<Price>0</Price>
+				<tooltip textref="/UI/Content/_.UIDT_15e67565329542debd94320312757ff3_tooltip.txt" />
+			</CustomFlag>
+		</Item>
+		<Item href="/UI/Content/_.UIDT" id="1D4C0CC4-EACF-4782-8893-AD83E2C43FC0">
+			<CustomFlag>
+				<bigIcon href="" />
+				<icon href="/UI/Styles/Icons/Flags/univ2025.ITEX" />
+				<id>univ2025</id>
+				<name textref="/UI/Content/_.UIDT_1d4c0cc4eacf47828893ad83e2c43fc0_name.txt" />
+				<Price>0</Price>
+				<tooltip textref="/UI/Content/_.UIDT_1d4c0cc4eacf47828893ad83e2c43fc0_tooltip.txt" />
+			</CustomFlag>
+		</Item>
+		<Item href="/UI/Content/_.UIDT" id="B4338739-D9E3-4FA2-8078-1BA3CBC6C7C4">
+			<CustomFlag>
+				<bigIcon href="" />
+				<icon href="/UI/Styles/Icons/Flags/waves2025.ITEX" />
+				<id>waves2025</id>
+				<name textref="/UI/Content/_.UIDT_b4338739d9e34fa280781ba3cbc6c7c4_name.txt" />
+				<Price>0</Price>
+				<tooltip textref="/UI/Content/_.UIDT_b4338739d9e34fa280781ba3cbc6c7c4_tooltip.txt" />
+			</CustomFlag>
+		</Item>
 	</customFlags>
 	<dialogsSettings>
 		<defaultPhraseDuration>10</defaultPhraseDuration>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Talent>
-	<BackLink DBID="/GameLogic/AILogic.AILP" Count="1" />
+	<BackLink DBID="/GameLogic/AILogic.AILP" Count="2" />
 	<BackLink DBID="/Items/RerollShop/TalentsList_MiniRefresher" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset7_11_MiniRefresher/Redset7_11_MiniRefresher.TALKIT" Count="1" />
 	<BackLink DBID="/Social/TalentsCollection" Count="5" />

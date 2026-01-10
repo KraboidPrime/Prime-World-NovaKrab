@@ -12,6 +12,7 @@
 	<BackLink DBID="/Test/Talents/Rockman/Elite_Life.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Rockman/Elite_Str.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Rockman/Epic_StrLife.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Rockman/Ability_A2_SUP.TALENT" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -66,6 +67,26 @@
 							<compiledString></compiledString>
 							<returnType>float</returnType>
 							<sString>-1.0</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Rockman/Ability2.TALENT" id="FE6075E2-72B5-4DB4-81A1-CB71584C4690">
+					<UnitConstant>
+						<name>A2_Targets_R</name>
+						<var>
+							<compiledString>FSEAAAACAAAALAAAAEQAAABBMl9UYXJnZXRzQ291bnRlcl9SAHRhcmdldHNDb3VudABVi+xRagGLRRBQaAAAAACLTQiLEYtNCIuCnAEAAP/QiUX8aBQAAACLTfyLEYtN/ItCVP/Qi+Vdww==</compiledString>
+							<returnType>float</returnType>
+							<sString>sender.FindApplicator("A2_TargetsCounter_R", pMisc, UNIT)-&gt;GetVariable("targetsCount")</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Rockman/Ability2.TALENT" id="063523C1-3D53-4286-9FF6-53CE7EDD9DAD">
+					<UnitConstant>
+						<name>A2_Str_R</name>
+						<var>
+							<compiledString>FS8AAAAFAAAANgAAAE8AAACFAAAAqwAAALEAAABBMl9UYXJnZXRzX1IAAAAAUm9ja21hbl9BMl9TVVAAAFJvY2ttYW5fQTJfU1VQAFWL7IPsGGgQAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoIAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAi00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ/9CLTQiLEYtNCIuCuAAAAN1d8P/Q3A3ZAAAA3AXRAAAA3E3wD7ZN+4PBAYlN7NtF7N7J2V3o2UXoi+VdwwAAAAAAAPA/exSuR+F6pD8=</compiledString>
+							<returnType>float</returnType>
+							<sString>cA2_Targets_R*(0.04*sBaseStrength+1)*(1+tal("Rockman_A2_SUP"))</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -182,6 +203,151 @@
 			</AuraApplicator>
 		</Item>
 		<Item href="/Items/Talents/Class/Rockman/status_A2_Giants_footfall.APLR" />
+		<Item href="/Items/Talents/Class/Rockman/Ability2.TALENT" id="74568D0D-15AE-4B38-95AF-C83DCBC3C493">
+			<TargetsCounterApplicator>
+				<applyTarget>AbilityTarget</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>Считаем врагов</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName>A2_TargetsCounter_R</formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<targetSelector href="/Items/Talents/Class/Rockman/Ability2.TALENT" id="853F6395-B6CE-4422-8C09-3C4A07A5E318">
+					<AreaTargetSelector>
+						<absolutePosition>
+							<x>0</x>
+							<y>0</y>
+						</absolutePosition>
+						<flags>0</flags>
+						<mode>Normal</mode>
+						<range>
+							<compiledString>FQ0AAAABAAAAGQAAAFJhbmdlX01lZGl1bQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+							<returnType>float</returnType>
+							<sString>cRange_Medium</sString>
+						</range>
+						<targetFilter>536870915</targetFilter>
+						<targetSelector href="" />
+					</AreaTargetSelector>
+				</targetSelector>
+			</TargetsCounterApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/Rockman/Ability2.TALENT" id="D3E23A6C-1EE9-4DCD-8E6A-FDCF9B204D7E">
+			<StatusApplicator>
+				<applicators>
+					<Item href="/Items/Talents/Class/Rockman/Ability2.TALENT" id="94D1E50D-1A8D-4C95-BEB2-EB5CE4DF9744">
+						<StatModApplicator>
+							<applyTarget>AbilityOwner</applyTarget>
+							<behaviorFlags>216</behaviorFlags>
+							<caption>Силушка</caption>
+							<constraint>None</constraint>
+							<dontUpdate>false</dontUpdate>
+							<effect>
+								<Item href="" />
+								<Item href="" />
+							</effect>
+							<enabled>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</enabled>
+							<formulaName></formulaName>
+							<lifeTime>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>-1.0</sString>
+							</lifeTime>
+							<LoggingEvent>-1</LoggingEvent>
+							<modifier>
+								<addValue>
+									<compiledString>FQkAAAABAAAAFQAAAEEyX1N0cl9SAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+									<returnType>float</returnType>
+									<sString>cA2_Str_R</sString>
+								</addValue>
+								<multValue>
+									<compiledString></compiledString>
+									<returnType>float</returnType>
+									<sString>1.0f</sString>
+								</multValue>
+								<stat>Strength</stat>
+								<topModifier>false</topModifier>
+								<variable></variable>
+							</modifier>
+							<providerName></providerName>
+							<startCondition>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</startCondition>
+							<statModName></statModName>
+						</StatModApplicator>
+					</Item>
+				</applicators>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>Силушка с иконкой</caption>
+				<customCounter>
+					<compiledString>FQkAAAABAAEAFQAAAF4AAABBMl9TdHJfUgBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0lHZHCToDQAAANkcJOg4AAAAg8QEXcNVi+xR2UUI2Rwk6AUAAACDxARdw1WL7FHZRQiD7AjdHCTokv///4PECNld/NlF/IvlXcO4AQAAAA+i98IAAAAEdAfzDyxEJATD6QAAAABVi+yD7AzZRQjZffwPt0X8DQAMAACJRfjZbfjbXfTZbfyLRfSL5V3D</compiledString>
+					<returnType>int</returnType>
+					<sString>f2l(floor(cA2_Str_R))</sString>
+				</customCounter>
+				<customProgress>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</customProgress>
+				<description textref="/Items/Talents/Class/Rockman/Ability2.TALENT_d3e23a6c1ee94dcd8e6afdcf9b204d7e_description.txt" />
+				<dispellPriority>NonDispellable</dispellPriority>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FR8AAAACAAAAJgAAAD8AAABSb2NrbWFuX0EyX1VwZwAAUm9ja21hbl9BMl9VcGcAVYvsg+wIaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wCKRfuL5V3D</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("Rockman_A2_Upg")</sString>
+				</enabled>
+				<flags>64</flags>
+				<formulaName></formulaName>
+				<image href="/UI/Styles/Icons/Heroes/Rockman/A2.ITEX" />
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<name textref="/Items/Talents/Class/Rockman/Ability2.TALENT_d3e23a6c1ee94dcd8e6afdcf9b204d7e_name.txt" />
+				<power>0</power>
+				<providerName></providerName>
+				<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+				<stackCount>0</stackCount>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statusPosition>-100</statusPosition>
+				<stopBehaviour>StopByTime</stopBehaviour>
+				<unstackableWith href="" />
+			</StatusApplicator>
+		</Item>
 	</passiveApplicators>
 	<persistentId>Rockman_A2</persistentId>
 	<prerequisiteTalents />

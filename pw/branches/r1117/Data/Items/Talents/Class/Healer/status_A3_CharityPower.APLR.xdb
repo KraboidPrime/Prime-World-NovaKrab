@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StatusApplicator>
-	<BackLink DBID="/Items/Talents/Class/Healer/Ability1.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Healer/Ability1.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Healer/CharityPowerSpell.APLR" Count="1" />
 	<applicators>
 		<Item href="/Items/Talents/Class/Healer/status_A3_CharityPower.APLR" id="95C42817-7D4C-4435-884B-B333E1B79FB5">

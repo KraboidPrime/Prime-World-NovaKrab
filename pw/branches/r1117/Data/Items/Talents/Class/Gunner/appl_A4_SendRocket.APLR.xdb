@@ -521,7 +521,7 @@
 		<CountingTargetSelector>
 			<enableSorting>true</enableSorting>
 			<flags>0</flags>
-			<heroesFirst>false</heroesFirst>
+			<heroesFirst>true</heroesFirst>
 			<mode>Normal</mode>
 			<order>Increasing</order>
 			<sortingValue>
@@ -547,9 +547,9 @@
 							<flags>0</flags>
 							<mode>Normal</mode>
 							<range>
-								<compiledString>FQ8AAAABAAAAGwAAAEE0X1JvY2tldFJhbmdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+								<compiledString>FQ8AAAACAAAAHAAAAC8AAABBNF9Sb2NrZXRSYW5nZQBVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcBT0AAADZXfzZRfyL5V3DAAAAAAAAFEA=</compiledString>
 								<returnType>float</returnType>
-								<sString>cA4_RocketRange</sString>
+								<sString>cA4_RocketRange+5</sString>
 							</range>
 							<targetFilter>672923711</targetFilter>
 							<targetSelector href="/Items/Talents/Class/Gunner/appl_A4_SendRocket.APLR" id="FCA13D7E-72AF-4C8A-A579-90CA7E62F478">

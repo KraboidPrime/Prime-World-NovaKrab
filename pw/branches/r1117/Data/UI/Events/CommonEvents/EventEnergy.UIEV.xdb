@@ -5,17 +5,21 @@
 	<BackLink DBID="/Items/Consumables/EnergyCake.ARCT" Count="1" />
 	<BackLink DBID="/Items/Consumables/EnergyPotion.ARCT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Bard/Ability_A3.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/GhostLord/A0_MakeGhost.SPLL" Count="2" />
-	<BackLink DBID="/Items/Talents/Class/GhostLord/status_A2_SpectralShield.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/GhostLord/A0_MakeGhost.SPLL" Count="5" />
+	<BackLink DBID="/Items/Talents/Class/GhostLord/status_A2_SpectralShield.APLR" Count="3" />
 	<BackLink DBID="/Items/Talents/Class/ManaWyrm/Ability2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/ManaWyrm/GainEnergyFromObjects.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Night/A1Spell.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Level1/status_G398_AddEnergy.APLR" Count="1" />
-	<BackLink DBID="/Items/Talents/Level2/G136_EnergyfromHeroes.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Level2/G136_EnergyfromHeroes.TALENT" Count="3" />
 	<BackLink DBID="/Items/Talents/Level2/G237_A_MagicStick_Energy.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level3/G328_AoERegEnergy.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level4/G096_Flower.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset7_11_MiniRefresher/spell_G766_RefreshAndNotify.SPLL" Count="1" />
+	<BackLink DBID="/Items/Talents/Level2/G236_A_MagicStick_Life.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/GhostLord/A0_WaitAndUnsummon.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/GhostLord/Ability_A0.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/FireFox/Ability3.TALENT" Count="2" />
 	<signRecipients>ALL_PLAYERS</signRecipients>
 	<UISigns>
 		<Item href="/UI/Events/CommonEvents/EventEnergy.UIEV" id="57DBE8C0-79EF-41CB-9C83-9BC26CFA7FB6">

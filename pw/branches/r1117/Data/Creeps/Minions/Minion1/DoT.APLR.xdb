@@ -14,9 +14,9 @@
 	<applyTarget>ApplicatorTarget</applyTarget>
 	<caption>вероятность отравить</caption>
 	<enabled>
-		<compiledString>FQYAAAADAAAATgAAAFoAAABwAAAASXNQZXQAVYvsg+wIi0UMixCLTQyLQlD/0DPJg/gRD5XBiU3820X8UdkcJFHZ7tkcJGoBi1UMiwKLTQyLUFj/0g+2wFDoVQAAAIPEDNwdkgAAAN/g9sREeytoAAAAAItNCIsRi00Ii4KIAQAA/9DcHZIAAADf4PbERHoJx0X4AQAAAOsHx0X4AAAAAIpF+IvlXcMAAAAAAAAAAAAAAABVi+xRD7ZFCIXAdAjZRQzZXfzrBtlFENld/NlF/IvlXcM=</compiledString>
+		<compiledString>FR0AAAAGAAAASgAAAG4AAACIAAAAngAAAKoAAADAAAAAV2FyZAAAAABJc1BldAAAAFJhYktyaXNhQnVmZgBVi+xRUdno2RwkUdnu2RwkagGLRQyLEItNDItCWP/QD7bIUei1AAAAg8QM3B3qAAAA3+D2xER7f4tVDIsCi00Mi1BQ/9KD+BF0bWoAi0UQUGgAAAAAi00MixGLTQyLgpwBAAD/0DtFEHVNaAgAAACLTQiLEYtNCIuCiAEAAP/Q3B3qAAAA3+D2xER7ImgQAAAAi00IixGLTQiLgogBAAD/0Nwd4gAAAN/g9sRBdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAOA/AAAAAAAAAAAAAAAAAACAP1WL7FEPtkUIhcB0CNlFDNld/OsG2UUQ2V382UX8i+Vdww==</compiledString>
 		<returnType>bool</returnType>
-		<sString>ut_bldg( false, rUnitKind != 17 ) &amp;&amp; sender.vIsPet == 0</sString>
+		<sString>ut_bldg(false, true) &amp;&amp; rUnitKind != 17 &amp;&amp; receiver.applWard(GLOBAL) == pMisc &amp;&amp; (sender.vIsPet == 0 || sender.vRabKrisaBuff &gt; 0.5)</sString>
 	</enabled>
 	<formulaName></formulaName>
 	<LoggingEvent>-1</LoggingEvent>

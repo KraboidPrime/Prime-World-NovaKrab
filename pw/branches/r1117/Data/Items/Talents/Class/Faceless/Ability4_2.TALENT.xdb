@@ -168,9 +168,42 @@
 					<Item href="/Heroes/Faceless/FXSword_B.EFFT" />
 				</effect>
 				<enabled>
-					<compiledString>FRoAAAACAAAAHwAAADgAAABGYWNlbGVzc19BNABGYWNlbGVzc19BNHUxAFWL7FFoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHUiaAwAAACLTQiLEYtNCIuCqAEAAP/QhcB1CcdF/AEAAADrB8dF/AAAAACKRfyL5V3D</compiledString>
+					<compiledString>FSgAAAADAAAALQAAAEYAAABfAAAARmFjZWxlc3NfQTQARmFjZWxlc3NfQTR1MQAAAGZhY2VsZXNzX1MzAFWL7FFoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHU+aAwAAACLTQiLEYtNCIuCqAEAAP/QhcB1JWgcAAAAi00IixGLTQiLgugBAAD/0A+2yIXJdQnHRfwBAAAA6wfHRfwAAAAAikX8i+Vdww==</compiledString>
 					<returnType>bool</returnType>
-					<sString>!sender.GetTalent( "Faceless_A4" ) &amp;&amp; !sender.GetTalent( "Faceless_A4u1" )</sString>
+					<sString>!sender.GetTalent( "Faceless_A4" ) &amp;&amp; !sender.GetTalent( "Faceless_A4u1" ) &amp;&amp; !sender.IsSkinUsed( "faceless_S3" )</sString>
+				</enabled>
+				<flag>0</flag>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<talents />
+				<useListAs>ListAsRule</useListAs>
+			</FlagsApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/Faceless/Ability4_2.TALENT" id="77FEBD3A-5DA1-4642-9B6D-0C6C8D483BDB">
+			<FlagsApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption></caption>
+				<consumables />
+				<effect>
+					<Item href="/Heroes/Faceless/FXSword_A3.EFFT" />
+					<Item href="/Heroes/Faceless/FXSword_B3.EFFT" />
+				</effect>
+				<enabled>
+					<compiledString>FSgAAAADAAAALQAAAEYAAABfAAAARmFjZWxlc3NfQTQARmFjZWxlc3NfQTR1MQAAAGZhY2VsZXNzX1MzAFWL7FFoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHU+aAwAAACLTQiLEYtNCIuCqAEAAP/QhcB1JWgcAAAAi00IixGLTQiLgugBAAD/0A+2yIXJdAnHRfwBAAAA6wfHRfwAAAAAikX8i+Vdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>!sender.GetTalent( "Faceless_A4" ) &amp;&amp; !sender.GetTalent( "Faceless_A4u1" ) &amp;&amp; sender.IsSkinUsed( "faceless_S3" )</sString>
 				</enabled>
 				<flag>0</flag>
 				<formulaName></formulaName>

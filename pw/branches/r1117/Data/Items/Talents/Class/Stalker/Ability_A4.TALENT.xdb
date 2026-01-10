@@ -124,6 +124,7 @@
 			</SpellApplicator>
 		</Item>
 		<Item href="/Items/Talents/Class/Stalker/status_Aspd_Buff.APLR" />
+		<Item href="/Items/Talents/Class/Stalker/status_NEW_def_Stalk.APLR" />
 	</applicators>
 	<askId>4</askId>
 	<autoTargetSelector href="" />
@@ -235,6 +236,7 @@
 						</var>
 					</UnitConstant>
 				</Item>
+				<Item href="/Items/Talents/Class/Stalker/const_A1_Stamina" />
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

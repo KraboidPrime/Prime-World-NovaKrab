@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TeleportApplicator>
+	<BackLink DBID="/Items/Talents/Level5/G311_K_Life_Energy.TALENT" Count="1" />
+	<BackLink DBID="/Heroes/DefaultStatus/List_AllControlAppl.APLS" Count="1" />
+	<BackLink DBID="/Items/Talents/Level5/G311_NEW_for_link_block.APLR" Count="1" />
+	<appearEffect href="/Effects/General/Blink/_SmokeEnd.EFFT" />
+	<applyTarget>ApplicatorTarget</applyTarget>
+	<caption>Блинкуем врага</caption>
+	<disappearEffect href="" />
+	<enabled>
+		<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+		<returnType>bool</returnType>
+		<sString>true</sString>
+	</enabled>
+	<formulaName></formulaName>
+	<LoggingEvent>-1</LoggingEvent>
+	<maxDistance>
+		<compiledString>FQsAAAABAAAAFwAAAFRFQ0hfUmFuZ2UAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+		<returnType>float</returnType>
+		<sString>cTECH_Range</sString>
+	</maxDistance>
+	<notifyInboundDispatches>true</notifyInboundDispatches>
+	<providerName></providerName>
+	<pushUnits>false</pushUnits>
+	<teleportTarget>CastMasterPosition</teleportTarget>
+</TeleportApplicator>

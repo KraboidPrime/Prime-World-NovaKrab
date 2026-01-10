@@ -61,6 +61,16 @@
 			<vars>
 				<Item href="/Items/Talents/Class/Marine/const_Stun_Duration" />
 				<Item href="/Items/Talents/Class/Marine/const_A1_BonusDamage" />
+				<Item href="/Items/Talents/Class/Marine/Ability_A1u.TALENT" id="98F9B645-2B83-410C-89DA-DA8743773BB4">
+					<UnitConstant>
+						<name>TT_DMGBUFF</name>
+						<var>
+							<compiledString>FQAAAAACAAAAFgAAABwAAABVi+xRi0UIixCLTQiLgrgAAAD/0NwNMgAAANwlKgAAANld/NlF/IvlXcMAAAAAAAAAQHsUrkfheqQ/</compiledString>
+							<returnType>float</returnType>
+							<sString>0.04*sBaseStrength-2</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

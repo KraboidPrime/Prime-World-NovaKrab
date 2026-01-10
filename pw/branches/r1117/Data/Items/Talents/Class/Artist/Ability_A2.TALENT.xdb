@@ -456,9 +456,9 @@
 					<UnitConstant>
 						<name>A2_TotalDamage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACWQgAADEQ=</compiledString>
+							<compiledString>FR4AAAAGAAAAJQAAAD4AAAB4AAAAggAAANcAAADhAAAAQXJ0aXN0X0EyX1NVUAAAAEFydGlzdF9BMl9TVVAAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0X2oBUdkFGwEAANkcJFHZBRcBAADZHCRqAItVCIsCi00Ii5AwAQAA/9JR2Rwki0UIixCLTQiLgjQBAAD/0FHZHCToZwAAAIPEBNkcJGoBi00QixGLTRCLQmD/0Nld9Os+agFR2QUbAQAA2RwkUdkFFwEAANkcJGoAi00IixGLTQiLgjQBAAD/0FHZHCRqAYtNEIsRi00Qi0Jg/9DZXfTZRfSL5V3DAACWQgAADERVi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale( sIntellect, 75, 560 )</sString>
+							<sString>tal("Artist_A2_SUP") ? damageScale( max(sIntellect, sStrength), 75, 560 ) : damageScale( sIntellect, 75, 560 )</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -496,9 +496,9 @@
 					<UnitConstant>
 						<name>A2_TotalHeal</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAB8QgCA7UM=</compiledString>
+							<compiledString>FR4AAAAGAAAAJQAAAD4AAAB4AAAAggAAANcAAADhAAAAQXJ0aXN0X0EyX1NVUAAAAEFydGlzdF9BMl9TVVAAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0X2oBUdkFGwEAANkcJFHZBRcBAADZHCRqAItVCIsCi00Ii5AwAQAA/9JR2Rwki0UIixCLTQiLgjQBAAD/0FHZHCToZwAAAIPEBNkcJGoBi00QixGLTRCLQmD/0Nld9Os+agFR2QUbAQAA2RwkUdkFFwEAANkcJGoAi00IixGLTQiLgjQBAAD/0FHZHCRqAYtNEIsRi00Qi0Jg/9DZXfTZRfSL5V3DAAB8QgCA7UNVi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale( sIntellect, 63, 475 )</sString>
+							<sString>tal("Artist_A2_SUP") ? damageScale( max(sIntellect, sStrength), 63, 475 ) : damageScale( sIntellect, 63, 475 )</sString>
 						</var>
 					</UnitConstant>
 				</Item>

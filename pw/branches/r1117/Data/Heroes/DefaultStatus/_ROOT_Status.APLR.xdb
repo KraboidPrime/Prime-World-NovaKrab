@@ -16,6 +16,7 @@
 	<BackLink DBID="/Items/Talents/Level2/G492_DMG.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Level4/G051_Root_Target.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level5/status_G334_Root.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A0.TALENT" Count="1" />
 	<applicators>
 		<Item href="/Heroes/DefaultStatus/_ROOT.APLR" />
 		<Item href="/Heroes/DefaultStatus/_ROOT_Status.APLR" id="BD223112-C939-4D2E-8296-D2D33684279F">

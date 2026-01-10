@@ -152,9 +152,9 @@
 					<UnitConstant>
 						<name>Add_Str</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAQEGamZk/</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DMzNzQQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(12, 1.2)</sString>
+							<sString>15.2</sString>
 						</var>
 					</UnitConstant>
 				</Item>

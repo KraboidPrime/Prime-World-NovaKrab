@@ -37,7 +37,28 @@
 	<commonDescription textref="" />
 	<compiledDescriptionA textref="" />
 	<compiledDescriptionB textref="" />
-	<conditionFormulas />
+	<conditionFormulas>
+		<Item href="/Items/Talents/Level3/G032_Str-Sta-Vamp.TALENT" id="2BF28A62-7318-42B1-A637-5474C84807D5">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRcAAAACAAAAHAAAADIAAABTZWMyMDI1X1Rvb2x0aXBDb3VudGVyAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHVQAAADf4PbEAXUJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAIQA==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vSec2025_TooltipCounter &gt;= 3</sString>
+				</condition>
+				<name>Bonus3ActiveSe</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Items/Talents/Level3/G032_Str-Sta-Vamp.TALENT" id="CB614F01-BEA4-4DD4-AB3A-F227FEE983C4">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRcAAAACAAAAHAAAADIAAABTZWMyMDI1X1Rvb2x0aXBDb3VudGVyAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHVQAAADf4PbEAXUJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAcQA==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vSec2025_TooltipCounter &gt;= 7</sString>
+				</condition>
+				<name>Bonus7ActiveSe</name>
+			</ConditionFormula>
+		</Item>
+	</conditionFormulas>
 	<conflictingTalents />
 	<constants href="/Items/Talents/Level3/G032_Str-Sta-Vamp.TALENT" id="C4E3B11B-B6E1-4075-828E-6FFED51827BC">
 		<UnitConstantsContainer>
@@ -46,9 +67,9 @@
 					<UnitConstant>
 						<name>Add_LifeDrain</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAoEDNzMw+</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DMzMjQQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(5, 0.4)</sString>
+							<sString>10.2</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -56,9 +77,9 @@
 					<UnitConstant>
 						<name>Add_Strength</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9Bdw5qZiUCamZk+</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DMzMDQQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(4.3, 0.3)</sString>
+							<sString>8.2</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -109,9 +130,9 @@
 				<caption>Add_Strength</caption>
 				<customApplyType>None</customApplyType>
 				<enabled>
-					<compiledString></compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgrgAAAD/0ItNCIsRi00Ii4K8AAAA3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
 					<returnType>bool</returnType>
-					<sString>true</sString>
+					<sString>sBaseStrength &gt;= sBaseIntellect</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<LoggingEvent>-1</LoggingEvent>
@@ -163,10 +184,41 @@
 				<providerName></providerName>
 			</PermanentStatModApplicator>
 		</Item>
+		<Item href="/Items/Talents/Level3/G032_Str-Sta-Vamp.TALENT" id="2DEDABC9-2B87-49D2-8D81-F69BB425A56B">
+			<PermanentStatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>Add_Int</caption>
+				<customApplyType>None</customApplyType>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgrgAAAD/0ItNCIsRi00Ii4K8AAAA3V34/9DcXfjf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sBaseStrength &lt; sBaseIntellect</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQ0AAAABAAAAGQAAAEFkZF9TdHJlbmd0aABVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+						<returnType>float</returnType>
+						<sString>cAdd_Strength</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Intellect</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level3/SecondPinkSet_Prog2025.APLR" />
 	</passiveApplicators>
 	<persistentId>G032</persistentId>
 	<prerequisiteTalents />
-	<rarity>excellent</rarity>
+	<rarity>magnificent</rarity>
 	<requireLineOfSight>true</requireLineOfSight>
 	<shortDescription textref="/Items/Talents/Level3/G032_Str-Sta-Vamp.TALENT_shortDescription.txt" />
 	<talentRollGroups>0</talentRollGroups>

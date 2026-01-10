@@ -5,6 +5,7 @@
 	<BackLink DBID="/Items/Talents/Class/Inventor/Ability_A4.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Inventor/Ability_A3.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Inventor/Ability_A4_2.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A0.TALENT" Count="1" />
 	<applyTarget>AbilityOwner</applyTarget>
 	<caption>потратить деталь</caption>
 	<customApplyType>None</customApplyType>

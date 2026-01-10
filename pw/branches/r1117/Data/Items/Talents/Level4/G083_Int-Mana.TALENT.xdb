@@ -52,9 +52,9 @@
 					<UnitConstant>
 						<name>Add_Intellect</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAoEDNzMw+</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DMzMjQQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(5, 0.4)</sString>
+							<sString>10.2</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -62,9 +62,9 @@
 					<UnitConstant>
 						<name>Add_Energy</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAA+kIAACBB</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAB/Qw==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(125, 10)</sString>
+							<sString>255</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -172,7 +172,7 @@
 	</passiveApplicators>
 	<persistentId>G083</persistentId>
 	<prerequisiteTalents />
-	<rarity>excellent</rarity>
+	<rarity>magnificent</rarity>
 	<requireLineOfSight>true</requireLineOfSight>
 	<shortDescription textref="/Items/Talents/Level4/G083_Int-Mana.TALENT_shortDescription.txt" />
 	<talentRollGroups>63</talentRollGroups>

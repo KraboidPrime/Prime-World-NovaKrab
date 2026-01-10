@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StatusApplicator>
 	<BackLink DBID="/Creeps/Champions/Champion2/A2_Aura.ABLT" Count="1" />
-	<BackLink DBID="/Creeps/Champions/Champion2/status_A2.APLR" Count="1" />
 	<applicators>
 		<Item href="/Creeps/Champions/Champion2/status_A2_self.APLR" id="B174AE18-C1BD-4DCB-8396-D34797C51B47">
 			<StatModApplicator>
@@ -71,9 +70,9 @@
 		<Item href="" />
 	</effect>
 	<enabled>
-		<compiledString></compiledString>
+		<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 		<returnType>bool</returnType>
-		<sString>true</sString>
+		<sString>false</sString>
 	</enabled>
 	<flags>0</flags>
 	<formulaName></formulaName>
@@ -90,9 +89,9 @@
 	<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
 	<stackCount>0</stackCount>
 	<startCondition>
-		<compiledString></compiledString>
+		<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 		<returnType>bool</returnType>
-		<sString>true</sString>
+		<sString>false</sString>
 	</startCondition>
 	<statusPosition>0</statusPosition>
 	<stopBehaviour>StopByTime</stopBehaviour>

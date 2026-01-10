@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Consumable>
 	<BackLink DBID="/Buildings/DefaultStats/Basic.CNSH" Count="1" />
-	<BackLink DBID="/Buildings/DefaultStats/Basic_NY.CNSH" Count="1" />
+	<BackLink DBID="/Buildings/DefaultStats/Basic_NY.CNSH" Count="2" />
 	<BackLink DBID="/Buildings/DefaultStats/CTE_Basic.CNSH" Count="1" />
 	<BackLink DBID="/Buildings/DefaultStats/CTE_Secret.CNSH" Count="1" />
 	<BackLink DBID="/Buildings/DefaultStats/MidOnly_ShopList.CNSH" Count="1" />
 	<BackLink DBID="/Buildings/DefaultStats/Secret.CNSH" Count="1" />
-	<BackLink DBID="/Buildings/DefaultStats/Secret_NY.CNSH" Count="1" />
+	<BackLink DBID="/Buildings/DefaultStats/Secret_NY.CNSH" Count="3" />
 	<BackLink DBID="/Buildings/DefaultStats/Tutorial_ShopList.CNSH" Count="1" />
 	<BackLink DBID="/Maps/Multiplayer/MOBA/Shops/Mod9_A.SHOP" Count="1" />
 	<BackLink DBID="/Maps/Multiplayer/MOBA/Shops/Mod9_B.SHOP" Count="1" />
@@ -399,9 +399,9 @@
 		</UnitConstantsContainer>
 	</constants>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQg==</compiledString>
+		<compiledString>FQ4AAAACAAAAFQAAAC4AAABHMTAwMgAAAEcxMDAyAFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoCAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+/fZG8mD4e6DwTyJTfTbRfSL5V3D</compiledString>
 		<returnType>float</returnType>
-		<sString>60</sString>
+		<sString>tal("G1002") ? 42 : 60</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>
@@ -440,7 +440,7 @@
 		<sString>0</sString>
 	</manaCost>
 	<marker></marker>
-	<maxQuantity>5</maxQuantity>
+	<maxQuantity>100</maxQuantity>
 	<microAI href="" />
 	<minUseRangeCorrection>0</minUseRangeCorrection>
 	<naftaCost>70</naftaCost>

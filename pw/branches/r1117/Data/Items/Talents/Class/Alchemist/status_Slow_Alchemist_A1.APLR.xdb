@@ -2,6 +2,8 @@
 <StatusApplicator>
 	<BackLink DBID="/Heroes/DefaultStatus/List_SlowUnstacked.APLS" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Alchemist/Ability_A1.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A0.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A4_2.TALENT" Count="2" />
 	<applicators>
 		<Item href="/Items/Talents/Class/Alchemist/status_Slow_Alchemist_A1.APLR" id="E4638713-CC94-40DF-A61B-3A9A5E12173A">
 			<StatModApplicator>

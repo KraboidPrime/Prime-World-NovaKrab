@@ -1179,9 +1179,9 @@
 					<UnitConstant>
 						<name>A4_Damage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUEAAADZHCRR2QU9AAAA2RwkagGLRQiLEItNCItCDP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACMQgBAA0Q=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUEAAADZHCRR2QU9AAAA2RwkagGLRQiLEItNCItCDP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACoQgCAHUQ=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScaleCustomLife(sMaxLife,70, 525)</sString>
+							<sString>damageScaleCustomLife(sMaxLife,84, 630)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

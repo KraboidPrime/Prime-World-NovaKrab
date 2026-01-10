@@ -10,6 +10,7 @@
 	<BackLink DBID="/Creeps/Bosses/Boss2/PvE.CREEP" Count="1" />
 	<BackLink DBID="/Maps/Multiplayer/MOBA/NewYear/PVP_NY.CREEP" Count="1" />
 	<BackLink DBID="/Maps/PvE/Series/Coop1/Abilities/GorynychSpawnedEvent.APLR" Count="2" />
+	<BackLink DBID="/Creeps/Bosses/Boss1/PVP_Walked_New.CREEP" Count="1" />
 	<generatedFileName></generatedFileName>
 	<importOnlyShape>false</importOnlyShape>
 	<mipLevels>0</mipLevels>

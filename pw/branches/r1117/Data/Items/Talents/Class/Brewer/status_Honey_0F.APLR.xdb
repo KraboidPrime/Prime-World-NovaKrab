@@ -4,12 +4,16 @@
 	<BackLink DBID="/Items/Talents/Class/Brewer/spell_SpreadHoney.SPLL" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Brewer/status_Honey_1F.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Brewer/status_Honey_2F.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" Count="1" />
 	<applicators>
 		<Item href="/Items/Talents/Class/Brewer/status_Honey_Glow_FX.APLR" />
 		<Item href="/Items/Talents/Class/Brewer/appl_Honey_AddLife.APLR" />
 		<Item href="/Items/Talents/Class/Brewer/appl_Honey_AddSta.APLR" />
 		<Item href="/Items/Talents/Class/Brewer/appl_Honey_AddWill.APLR" />
 		<Item href="/Items/Talents/Class/Brewer/appl_Honey_MaxStacksFlag.APLR" />
+		<Item href="/Items/Talents/Class/Brewer/status_Honey_I2C_FX.APLR" />
+		<Item href="/Items/Talents/Class/Brewer/appl_Honey_I2C.APLR" />
+		<Item href="/Items/Talents/Class/Brewer/appl_Honey_IsUncontrollable.APLR" />
 		<Item href="/Items/Talents/Class/Brewer/appl_Honey_Heal.APLR" />
 	</applicators>
 	<applyTarget>ApplicatorTarget</applyTarget>
@@ -49,7 +53,7 @@
 	<power>0</power>
 	<providerName></providerName>
 	<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
-	<stackCount>2</stackCount>
+	<stackCount>3</stackCount>
 	<startCondition>
 		<compiledString></compiledString>
 		<returnType>bool</returnType>

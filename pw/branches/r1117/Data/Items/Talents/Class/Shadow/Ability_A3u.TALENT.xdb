@@ -11,6 +11,7 @@
 	<BackLink DBID="/Items/Talents/Class/Wendigo/Ability4.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/Shadow_Mighty.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Shadow/Shadow.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A0.TALENT" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>

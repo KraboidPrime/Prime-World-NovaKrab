@@ -4,6 +4,7 @@
 	<BackLink DBID="/Items/Talents/WraithKing.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/WraithKing_Alternative.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/WraithKing_Mighty.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/WraithKing/Ability_A0_SUP.TALENT" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -36,7 +37,18 @@
 	<commonDescription textref="/Items/Talents/Class/WraithKing/Ability_A0.TALENT_commonDescription.txt" />
 	<compiledDescriptionA textref="" />
 	<compiledDescriptionB textref="" />
-	<conditionFormulas />
+	<conditionFormulas>
+		<Item href="/Items/Talents/Class/WraithKing/Ability_A0.TALENT" id="737925C8-002A-4EE3-A18C-D8C4AD97C020">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FSYAAAACAAAALQAAAEYAAABXcmFpdGhLaW5nX0EwX1NVUAAAAFdyYWl0aEtpbmdfQTBfU1VQAFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoFAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZF+4PoAffYG8CDwAGL5V3D</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("WraithKing_A0_SUP") == true</sString>
+				</condition>
+				<name>WraithKing_A0_SUP</name>
+			</ConditionFormula>
+		</Item>
+	</conditionFormulas>
 	<conflictingTalents />
 	<constants href="/Items/Talents/Class/WraithKing/Ability_A0.TALENT" id="B1CBDF62-E11F-4AF3-AADA-5AE9B4685133">
 		<UnitConstantsContainer>
@@ -46,9 +58,9 @@
 					<UnitConstant>
 						<name>A0_ArsenalPeriod</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAQQQ==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAwQQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>9</sString>
+							<sString>11</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -72,6 +84,46 @@
 				<Item href="/Items/Talents/Class/WraithKing/const_A4_2_GiveArsenal" />
 				<Item href="/Items/Talents/Class/WraithKing/const_A4_2_TargetCounter" />
 				<Item href="/Items/Talents/Class/WraithKing/const_A4_2_ArsenalPerAlly" />
+				<Item href="/Items/Talents/Class/WraithKing/Ability_A0.TALENT" id="3E09EC84-347F-4CC8-A0A6-0ED472B6D468">
+					<UnitConstant>
+						<name>A0_Buff_Res</name>
+						<var>
+							<compiledString>FSYAAAAGAAAALQAAAEYAAACtAAAAswAAAM4AAADUAAAAV3JhaXRoS2luZ19BMF9TVVAAAABXcmFpdGhLaW5nX0EwX1NVUABVi+yD7BRoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBQAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXRBi1UIiwKLTQiLkDABAAD/0lHZHCSLRQiLEItNCIuCNAEAAP/QUdkcJOhgAAAAg8QI3A0AAQAA3AX4AAAA3V3w6x+LTQiLEYtNCIuCNAEAAP/Q3A3wAAAA3AXoAAAA3V3w3UXw2V3s2UXsi+VdwwAAAAAAAPA/exSuR+F6lD8AAAAAAADoP7gehetRuI4/VYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
+							<returnType>float</returnType>
+							<sString>tal("WraithKing_A0_SUP") ? (0.015*max(sIntellect,sStrength) + 0.75) : (0.02*sIntellect + 1)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/WraithKing/Ability_A0.TALENT" id="B6B05D1F-6E4B-4D55-AA92-3CF9F6610CFE">
+					<UnitConstant>
+						<name>A0_sum_Buff</name>
+						<var>
+							<compiledString>FWgAAAAIAAAAbwAAAIgAAADGAAAA4AAAAAQBAAAhAQAAOwEAAF8BAABXcmFpdGhLaW5nX0EwX1NVUAAAAFdyYWl0aEtpbmdfQTBfU1VQAAAAQTBfQXJzZW5hbFN0dWNrcwAAAABBMF9CdWZmX1JlcwBBMF9BcnNlbmFsU3R1Y2tzAAAAAEEwX0J1ZmZfUmVzAFWL7IPsJGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoFAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdFuLVQxSi0UIUGgoAAAAi00QixGLTRCLQlD/0ItNDFGLVQhSaDwAAACLRRCLEItNEItCUN1d8P/Q3E3w2V3s2UXsUdkcJFHZBXwBAADZHCTocAAAAIPECNld6OtZi00MUYtVCFJoSAAAAItFEIsQi00Qi0JQ/9CLTQxRi1UIUmhcAAAAi0UQixCLTRCLQlDdXeD/0NxN4Nld3NlF3FHZHCRR2QV4AQAA2Rwk6BUAAACDxAjZXejZReiL5V3DAAC0QgAAhkJVi+xR2UUI2UUM3tnf4PbEQXUI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
+							<returnType>float</returnType>
+							<sString>tal("WraithKing_A0_SUP") ? min(67, cA0_ArsenalStucks*cA0_Buff_Res) : min(90, cA0_ArsenalStucks*cA0_Buff_Res)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/WraithKing/Ability_A0.TALENT" id="AE8EE80A-B39F-420C-B3E6-5FE61C7ECD70">
+					<UnitConstant>
+						<name>TT_DMG_Res</name>
+						<var>
+							<compiledString>FQAAAAABAAAALgAAAFWL7IPsDItFCIsQi00Ii4JwAQAA/9CLTQiLEYtNCIuCdAEAAN1d+P/Q3EX43A08AAAA2V302UX0i+VdwwAAAAAAAOA/</compiledString>
+							<returnType>float</returnType>
+							<sString>0.5*(sEnergyDamageDecrease+sMaterialDamageDecrease)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/WraithKing/Ability_A0.TALENT" id="88AFEA75-4B47-479C-8191-F3F6EF7CE441">
+					<UnitConstant>
+						<name>A02_Stat</name>
+						<var>
+							<compiledString>FTEAAAAFAAAAOAAAAFEAAACPAAAAtQAAALsAAABXcmFpdGhLaW5nX0EyAAAAV3JhaXRoS2luZ19BMgAAAEEwX0Fyc2VuYWxTdHVja3MAVYvsg+wcaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0QYtVDFKLRQhQaCAAAACLTRCLEYtNEItCUP/Qi00IixGLTQiLgrwAAADdXfD/0NwN6QAAANwF4QAAANxN8N1d6OsF2e7dXejdRejZXeTZReSL5V3DAAAAAAAAAAAAAADAzMz8PwAAAMB0k5g/</compiledString>
+							<returnType>float</returnType>
+							<sString>tal("WraithKing_A2") ? cA0_ArsenalStucks*(0.024f*sBaseIntellect + 1.8f) : 0</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
@@ -319,6 +371,382 @@
 				<talents />
 				<useListAs>ListAsRule</useListAs>
 			</FlagsApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/WraithKing/Ability_A0.TALENT" id="29D5BCAE-43CD-4FCB-B913-256BED07FA10">
+			<StatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>Маг резист если его много</caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FRgAAAAEAAAAJQAAADgAAABMAAAAXwAAAEEwX3N1bV9CdWZmAEEwX3N1bV9CdWZmAFWL7FGLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0twdiQAAAN/g9sQBdTCLRQxQi00IUWgMAAAAi1UQiwKLTRCLUFD/0twdgQAAAN/g9sRBegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAElAAAAAAAAANEA=</compiledString>
+					<returnType>bool</returnType>
+					<sString>cA0_sum_Buff &gt;= 20 &amp;&amp; cA0_sum_Buff &lt;= 50</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQwAAAABAAAAGAAAAEEwX3N1bV9CdWZmAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+						<returnType>float</returnType>
+						<sString>cA0_sum_Buff</sString>
+					</addValue>
+					<multValue>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAPw==</compiledString>
+						<returnType>float</returnType>
+						<sString>0.5</sString>
+					</multValue>
+					<stat>EnergyDamageDecrease</stat>
+					<topModifier>true</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/WraithKing/Ability_A0.TALENT" id="6BFB7DB7-B085-4D53-9149-15AE42CB494D">
+			<StatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>Физ резист если его много</caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FRgAAAAEAAAAJQAAADgAAABMAAAAXwAAAEEwX3N1bV9CdWZmAEEwX3N1bV9CdWZmAFWL7FGLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0twdiQAAAN/g9sQBdTCLRQxQi00IUWgMAAAAi1UQiwKLTRCLUFD/0twdgQAAAN/g9sRBegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAElAAAAAAAAANEA=</compiledString>
+					<returnType>bool</returnType>
+					<sString>cA0_sum_Buff &gt;= 20 &amp;&amp; cA0_sum_Buff &lt;= 50</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQwAAAABAAAAGAAAAEEwX3N1bV9CdWZmAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+						<returnType>float</returnType>
+						<sString>cA0_sum_Buff</sString>
+					</addValue>
+					<multValue>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAPw==</compiledString>
+						<returnType>float</returnType>
+						<sString>0.5</sString>
+					</multValue>
+					<stat>MaterialDamageDecrease</stat>
+					<topModifier>true</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/WraithKing/Ability_A0.TALENT" id="7C605317-7F54-4636-9CE7-34F52D09E86F">
+			<StatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>Маг резист если его мало</caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FQwAAAACAAAAGQAAACwAAABBMF9zdW1fQnVmZgBVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcHU4AAADf4PbEBXoJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAA0QA==</compiledString>
+					<returnType>bool</returnType>
+					<sString>cA0_sum_Buff &lt; 20</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQwAAAABAAAAGAAAAEEwX3N1bV9CdWZmAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+						<returnType>float</returnType>
+						<sString>cA0_sum_Buff</sString>
+					</addValue>
+					<multValue>
+						<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+						<returnType>float</returnType>
+						<sString>1</sString>
+					</multValue>
+					<stat>EnergyDamageDecrease</stat>
+					<topModifier>true</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/WraithKing/Ability_A0.TALENT" id="F330B57D-DE2A-4AA7-892D-2E4A2D67DB43">
+			<StatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>Физ резист если его мало</caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FQwAAAACAAAAGQAAACwAAABBMF9zdW1fQnVmZgBVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcHU4AAADf4PbEBXoJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAA0QA==</compiledString>
+					<returnType>bool</returnType>
+					<sString>cA0_sum_Buff &lt; 20</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQwAAAABAAAAGAAAAEEwX3N1bV9CdWZmAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+						<returnType>float</returnType>
+						<sString>cA0_sum_Buff</sString>
+					</addValue>
+					<multValue>
+						<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+						<returnType>float</returnType>
+						<sString>1</sString>
+					</multValue>
+					<stat>MaterialDamageDecrease</stat>
+					<topModifier>true</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/WraithKing/Ability_A0.TALENT" id="DA2FC2BE-AF60-48ED-BFC9-F3E1ADDE82E7">
+			<StatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>Маг резист если его очень много</caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FQwAAAACAAAAGQAAACwAAABBMF9zdW1fQnVmZgBVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcHU4AAADf4PbEQXUJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAABJQA==</compiledString>
+					<returnType>bool</returnType>
+					<sString>cA0_sum_Buff &gt; 50</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQwAAAABAAAAGAAAAEEwX3N1bV9CdWZmAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+						<returnType>float</returnType>
+						<sString>cA0_sum_Buff</sString>
+					</addValue>
+					<multValue>
+						<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+						<returnType>float</returnType>
+						<sString>0</sString>
+					</multValue>
+					<stat>EnergyDamageDecrease</stat>
+					<topModifier>true</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/WraithKing/Ability_A0.TALENT" id="5F6EA9D1-3F1B-4CB4-8136-7485B38680F2">
+			<StatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>Физ резист если его очень много</caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FQwAAAACAAAAGQAAACwAAABBMF9zdW1fQnVmZgBVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcHU4AAADf4PbEQXUJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAABJQA==</compiledString>
+					<returnType>bool</returnType>
+					<sString>cA0_sum_Buff &gt; 50</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQwAAAABAAAAGAAAAEEwX3N1bV9CdWZmAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+						<returnType>float</returnType>
+						<sString>cA0_sum_Buff</sString>
+					</addValue>
+					<multValue>
+						<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+						<returnType>float</returnType>
+						<sString>0</sString>
+					</multValue>
+					<stat>MaterialDamageDecrease</stat>
+					<topModifier>true</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/WraithKing/Ability_A0.TALENT" id="EC01CE0C-D5D5-43EB-8B17-71E360FD4295">
+			<StatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>Баф инты</caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FR4AAAACAAAAJQAAAD4AAABXcmFpdGhLaW5nX0EyAAAAV3JhaXRoS2luZ19BMgBVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AIpF+4vlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("WraithKing_A2")</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQkAAAABAAAAFQAAAEEwMl9TdGF0AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+						<returnType>float</returnType>
+						<sString>cA02_Stat</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Intellect</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/WraithKing/Ability_A0.TALENT" id="B951FEC0-A744-45AD-B818-02CDA922D723">
+			<StatModApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption></caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAPg==</compiledString>
+						<returnType>float</returnType>
+						<sString>0.25f</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Life</stat>
+					<topModifier>false</topModifier>
+					<variable>Korrector25</variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
 		</Item>
 	</passiveApplicators>
 	<persistentId>WraithKing_A0</persistentId>

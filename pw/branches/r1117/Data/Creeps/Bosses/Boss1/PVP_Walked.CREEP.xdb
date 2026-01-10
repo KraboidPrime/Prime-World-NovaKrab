@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <AdvMapCreep parent="/Creeps/Bosses/Boss1/_Parent.CREEP">
 	<BackLink DBID="/Creeps/Bosses/Boss1/PVP_Walked_NY.CREEP" Count="1" />
-	<BackLink DBID="/Maps/Multiplayer/MOBA/_.ADMPSTTN" Count="1" />
 	<BackLink DBID="/Maps/Multiplayer/MOBA/Training.ADMPSTTN" Count="1" />
 	<BackLink DBID="/Maps/Multiplayer/MOBA/Mod10/_.ADMPDSCR" Count="1" />
 	<BackLink DBID="/Maps/Multiplayer/MOBA/Mod10/Test_PvP_1x1.ADMPDSCR" Count="1" />

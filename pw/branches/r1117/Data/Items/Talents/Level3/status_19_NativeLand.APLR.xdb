@@ -161,14 +161,7 @@
 	<description textref="/Items/Talents/Level3/status_19_NativeLand.APLR_description.txt" />
 	<dispellPriority>NonDispellable</dispellPriority>
 	<effect>
-		<Item href="/Items/Talents/Level3/status_19_NativeLand.APLR" id="D3D4BD27-1440-4D33-846C-2553829E2D29">
-			<AuraEffect>
-				<deathType>Manual</deathType>
-				<enableCondition href="" />
-				<lifeTime>0</lifeTime>
-				<type>Ally</type>
-			</AuraEffect>
-		</Item>
+		<Item href="" />
 		<Item href="" />
 	</effect>
 	<enabled>

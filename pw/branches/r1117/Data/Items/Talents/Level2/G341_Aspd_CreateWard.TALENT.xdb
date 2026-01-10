@@ -512,9 +512,9 @@
 					<UnitConstant>
 						<name>Duration</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAA0Qw==</compiledString>
+							<compiledString>FQwAAAACAAAAEwAAACkAAABHMzQ2X0FjdGl2ZQBVi+yD7AhoAAAAAItFCIsQi00Ii4KIAQAA/9DcHVQAAADf4PbEQXUJx0X8PAAAAOsHx0X8AAAAAItN/IPBeIlN+NtF+IvlXcMAAAAAAAAAAA==</compiledString>
 							<returnType>float</returnType>
-							<sString>180</sString>
+							<sString>120 + (sender.vG346_Active&gt; 0 ? 60 : 0)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -553,9 +553,9 @@
 					<UnitConstant>
 						<name>CD</name>
 						<var>
-							<compiledString>FRwAAAAEAAAAIwAAADkAAABNAAAAbQAAAEczNDBfQWN0aXZlAEczNDBfUmVkdWNlZF9DZABVi+yD7AhoAAAAAItFCIsQi00Ii4KIAQAA/9DcHYcAAADf4PbEQXUfi00MUYtVCFJoDAAAAItFEIsQi00Qi0JQ/9DZXfzrBdnu2V382UX83C17AAAA2V342UX4i+VdwwAAAAAAgGFAAAAAAAAAAAAAAAAA</compiledString>
+							<compiledString>FRwAAAAEAAAAIwAAADkAAABNAAAAbQAAAEczNDBfQWN0aXZlAEczNDBfUmVkdWNlZF9DZABVi+yD7AhoAAAAAItFCIsQi00Ii4KIAQAA/9DcHYcAAADf4PbEQXUfi00MUYtVCFJoDAAAAItFEIsQi00Qi0JQ/9DZXfzrBdnu2V382UX83C17AAAA2V342UX4i+VdwwAAAAAAQGVAAAAAAAAAAAAAAAAA</compiledString>
 							<returnType>float</returnType>
-							<sString>140 - (sender.vG340_Active&gt; 0 ? cG340_Reduced_Cd : 0)</sString>
+							<sString>170 - (sender.vG340_Active&gt; 0 ? cG340_Reduced_Cd : 0)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -666,9 +666,9 @@
 				<caption>Add_AttackSpeed</caption>
 				<customApplyType>None</customApplyType>
 				<enabled>
-					<compiledString></compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgowAAAD/0ItNCIsRi00Ii4LAAAAA3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
 					<returnType>bool</returnType>
-					<sString>true</sString>
+					<sString>sBaseAttackSpeed &gt;= sBaseDexterity</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<LoggingEvent>-1</LoggingEvent>
@@ -684,6 +684,36 @@
 						<sString>1.0f</sString>
 					</multValue>
 					<stat>AttackSpeed</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level2/G341_Aspd_CreateWard.TALENT" id="2A02BA49-B314-44C9-8324-B4F2855369DD">
+			<PermanentStatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>Add_Dex</caption>
+				<customApplyType>None</customApplyType>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgowAAAD/0ItNCIsRi00Ii4LAAAAA3V34/9DcXfjf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sBaseAttackSpeed &lt; sBaseDexterity</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FRAAAAABAAAAHAAAAEFkZF9BdHRhY2tTcGVlZABVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+						<returnType>float</returnType>
+						<sString>cAdd_AttackSpeed</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Dexterity</stat>
 					<topModifier>false</topModifier>
 					<variable></variable>
 				</modifier>

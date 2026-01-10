@@ -3,7 +3,7 @@
 	<BackLink DBID="/Items/Talents/Level4/G573_CDRforKill.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level4/status_G414_CDRforKill.APLR" Count="1" />
 	<applicators>
-		<Item href="/Items/Talents/Level4/status_G573_CDRforKill.APLR" id="EB09E7EA-FFF5-4D6B-A221-7B75219C3ED0">
+		<Item href="/Items/Talents/Level4/status_G573_CDRforKill.APLR" id="4D0FE8ED-9195-4F4A-9478-BD83FA86F0DF">
 			<TriggerApplicator>
 				<actionsCount>
 					<compiledString></compiledString>
@@ -12,15 +12,15 @@
 				</actionsCount>
 				<applyTarget>ApplicatorTarget</applyTarget>
 				<behaviorFlags>152</behaviorFlags>
-				<caption>Триггер на убийство или ассист</caption>
+				<caption></caption>
 				<effect>
 					<Item href="" />
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FQAAAAABAAAAEwAAAFWL7FGLRRCLEItNEItCHP/Q3B01AAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAA8D8=</compiledString>
+					<compiledString></compiledString>
 					<returnType>bool</returnType>
-					<sString>mPreparedness == 1.0f</sString>
+					<sString>true</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<lifeTime>
@@ -30,20 +30,21 @@
 				</lifeTime>
 				<LoggingEvent>-1</LoggingEvent>
 				<playAck>false</playAck>
-				<processor href="/Items/Talents/Level4/status_G573_CDRforKill.APLR" id="434D654C-1788-4E00-8740-1CE5298A2253">
-					<EventProcessorCondition>
+				<processor href="/Items/Talents/Level4/status_G573_CDRforKill.APLR" id="CAF998E4-CF16-4732-A1BF-CE5F003F8FCD">
+					<EventProcessorUnitDieNearMe>
 						<applyTarget>AbilityOwner</applyTarget>
-						<condition>
+						<checkSender>0</checkSender>
+						<killerFlags>9</killerFlags>
+						<range>
 							<compiledString></compiledString>
-							<returnType>bool</returnType>
-							<sString>true</sString>
-						</condition>
-						<events>1073741824</events>
-						<onlyParent>false</onlyParent>
-						<spell href="/Items/Talents/Level4/status_G573_CDRforKill.APLR" id="39B3C2D7-1AE2-4FDE-B467-479481656B5A">
+							<returnType>float</returnType>
+							<sString>0.0f</sString>
+						</range>
+						<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
+						<spell href="/Items/Talents/Level4/status_G573_CDRforKill.APLR" id="82F611A1-E69B-4DAF-9C1E-496F71A26965">
 							<Spell>
 								<applicators>
-									<Item href="/Items/Talents/Level4/status_G573_CDRforKill.APLR" id="173D9D0F-A912-4D8F-9012-40A92E095353">
+									<Item href="/Items/Talents/Level4/status_G573_CDRforKill.APLR" id="368EF0FE-02AD-4FB8-9C0C-587BB3BDB770">
 										<RefreshCooldownApplicator>
 											<allowCdIncrease>false</allowCdIncrease>
 											<applyTarget>AbilityOwner</applyTarget>
@@ -68,7 +69,7 @@
 											<useListAs>ListAsRule</useListAs>
 										</RefreshCooldownApplicator>
 									</Item>
-									<Item href="/Items/Talents/Level4/status_G573_CDRforKill.APLR" id="884502B2-F802-4DA6-9660-E45176095867">
+									<Item href="/Items/Talents/Level4/status_G573_CDRforKill.APLR" id="6A0B2418-3EA7-490D-A59E-38F62691ACA7">
 										<StatusApplicator>
 											<applicators />
 											<applyTarget>AbilityOwner</applyTarget>
@@ -84,7 +85,7 @@
 												<returnType>float</returnType>
 												<sString>-1.0</sString>
 											</customProgress>
-											<description textref="/Items/Talents/Level4/status_G573_CDRforKill.APLR_884502b2f8024da69660e45176095867_description.txt" />
+											<description textref="/Items/Talents/Level4/status_G573_CDRforKill.APLR_6a0b24183ea7490da59e38f62691aca7_description.txt" />
 											<dispellPriority>NonDispellable</dispellPriority>
 											<effect>
 												<Item href="" />
@@ -104,15 +105,15 @@
 												<sString>mCooldown</sString>
 											</lifeTime>
 											<LoggingEvent>-1</LoggingEvent>
-											<name textref="/Items/Talents/Level4/status_G573_CDRforKill.APLR_884502b2f8024da69660e45176095867_name.txt" />
+											<name textref="/Items/Talents/Level4/status_G573_CDRforKill.APLR_6a0b24183ea7490da59e38f62691aca7_name.txt" />
 											<power>1</power>
 											<providerName></providerName>
 											<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
 											<stackCount>0</stackCount>
 											<startCondition>
-												<compiledString></compiledString>
+												<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 												<returnType>bool</returnType>
-												<sString>true</sString>
+												<sString>false</sString>
 											</startCondition>
 											<statusPosition>0</statusPosition>
 											<stopBehaviour>StopByTime</stopBehaviour>
@@ -120,7 +121,7 @@
 										</StatusApplicator>
 									</Item>
 								</applicators>
-								<dispatch href="/Items/Talents/Level4/status_G573_CDRforKill.APLR" id="926D3CD4-C905-4B28-A4B3-CCB7ED3E9901">
+								<dispatch href="/Items/Talents/Level4/status_G573_CDRforKill.APLR" id="C2FF2E2D-04B2-43DE-AD89-17D7A1609305">
 									<DispatchImmediate>
 										<alwaysApply>true</alwaysApply>
 										<applyEffect>
@@ -141,73 +142,8 @@
 								</dispatch>
 							</Spell>
 						</spell>
-					</EventProcessorCondition>
-				</processor>
-				<providerName></providerName>
-				<startCondition>
-					<compiledString></compiledString>
-					<returnType>bool</returnType>
-					<sString>true</sString>
-				</startCondition>
-				<useAbilityCooldown>true</useAbilityCooldown>
-				<useAbilityOwnerMana>false</useAbilityOwnerMana>
-			</TriggerApplicator>
-		</Item>
-		<Item href="/Items/Talents/Level4/status_G573_CDRforKill.APLR" id="7DC1711A-75AF-4352-BF52-DF664FDD16F1">
-			<TriggerApplicator>
-				<actionsCount>
-					<compiledString></compiledString>
-					<returnType>int</returnType>
-					<sString>0</sString>
-				</actionsCount>
-				<applyTarget>ApplicatorTarget</applyTarget>
-				<behaviorFlags>0</behaviorFlags>
-				<caption></caption>
-				<effect>
-					<Item href="" />
-					<Item href="" />
-				</effect>
-				<enabled>
-					<compiledString></compiledString>
-					<returnType>bool</returnType>
-					<sString>true</sString>
-				</enabled>
-				<formulaName></formulaName>
-				<lifeTime>
-					<compiledString></compiledString>
-					<returnType>float</returnType>
-					<sString>-1.0</sString>
-				</lifeTime>
-				<LoggingEvent>-1</LoggingEvent>
-				<playAck>false</playAck>
-				<processor href="/Items/Talents/Level4/status_G573_CDRforKill.APLR" id="AEC0C93F-4F0F-4D4C-A65D-A9754144451F">
-					<EventProcessorLastHit>
-						<applyTarget>ApplicatorTarget</applyTarget>
-						<spell href="/Items/Talents/Level4/status_G573_CDRforKill.APLR" id="49CB8B3E-C2CC-4E19-8992-87DFF143AC7E">
-							<Spell>
-								<applicators />
-								<dispatch href="/Items/Talents/Level4/status_G573_CDRforKill.APLR" id="AA311896-9BF3-468B-8D76-4380C3B54B47">
-									<DispatchImmediate>
-										<alwaysApply>false</alwaysApply>
-										<applyEffect>
-											<Item href="" />
-											<Item href="" />
-										</applyEffect>
-										<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
-										<applyEffectOrientation>Default</applyEffectOrientation>
-										<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
-										<dieAfterApply>true</dieAfterApply>
-										<dispatchEffect>
-											<Item href="" />
-											<Item href="" />
-										</dispatchEffect>
-										<flags>0</flags>
-										<instantApply>false</instantApply>
-									</DispatchImmediate>
-								</dispatch>
-							</Spell>
-						</spell>
-					</EventProcessorLastHit>
+						<targets>536870915</targets>
+					</EventProcessorUnitDieNearMe>
 				</processor>
 				<providerName></providerName>
 				<startCondition>
@@ -222,7 +158,7 @@
 	</applicators>
 	<applyTarget>AbilityOwner</applyTarget>
 	<behaviorFlags>152</behaviorFlags>
-	<caption>Стандартный статус уменьшения КД за убийство героя или ассист</caption>
+	<caption>Стандартный статус уменьшения КД за убийство героя</caption>
 	<customCounter>
 		<compiledString></compiledString>
 		<returnType>int</returnType>

@@ -55,6 +55,7 @@
 		<UnitConstantsContainer>
 			<vars>
 				<Item href="/Items/Talents/Class/Stalker/const_A0_SUP_HealAmount" />
+				<Item href="/Items/Talents/Class/Stalker/const_A1_Stamina" />
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

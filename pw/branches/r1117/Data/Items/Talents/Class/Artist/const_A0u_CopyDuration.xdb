@@ -2,6 +2,7 @@
 <UnitConstant>
 	<BackLink DBID="/Items/Scrolls/SignOfCopy.ARCT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Artist/Ability_A3u.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level3/G244_DeadlyIllusion.TALENT" Count="1" />
 	<name>Artist_A0u_CopyDuration</name>
 	<var>
 		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQQ==</compiledString>

@@ -260,9 +260,9 @@
 	<isUltimateTalent>false</isUltimateTalent>
 	<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
 	<manaCost>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQg==</compiledString>
+		<compiledString>FSAAAAACAAAAJwAAAEAAAABNYW5hV3lybV9BM19TVVAATWFuYVd5cm1fQTNfU1VQAFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+/fZG8mB4ZYAAACDwTKJTfTbRfSL5V3D</compiledString>
 		<returnType>float</returnType>
-		<sString>50</sString>
+		<sString>tal("ManaWyrm_A3_SUP") ? 200 : 50</sString>
 	</manaCost>
 	<marker></marker>
 	<microAI href="/Items/Talents/Class/ManaWyrm/Ability3.TALENT" id="6994FAF6-6ADF-4CA5-A041-8C7580713940">

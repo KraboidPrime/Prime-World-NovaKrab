@@ -103,7 +103,6 @@
 	<BackLink DBID="/Items/Talents/Level3/G350_AoE.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level3/G477_AOE_DMG.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level3/G629_StrOrInt_Life.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Level4/G054_PermanentAoE-Life.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level4/G498_Blink.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level4/G557_EnemyAoeDmg.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level4/G649_BlindStrOrInt.TALENT" Count="1" />
@@ -122,6 +121,10 @@
 	<BackLink DBID="/Test/Talents/TST_Enemy_Terrain.TALENT" Count="1" />
 	<BackLink DBID="/Test/Talents/TST_My_Terrain.TALENT" Count="1" />
 	<BackLink DBID="/Test/Talents/TST_Neutral_Terrain.TALENT" Count="1" />
+	<BackLink DBID="/Creeps/Bosses/Boss1/PVP_Walked_New.CREEP" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Shadow/Ability_A4.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Chicken/Ability_A4_1.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level1/G129_Str.TALENT" Count="1" />
 	<aspectRatio>2</aspectRatio>
 	<caption></caption>
 	<DiffuseMap>

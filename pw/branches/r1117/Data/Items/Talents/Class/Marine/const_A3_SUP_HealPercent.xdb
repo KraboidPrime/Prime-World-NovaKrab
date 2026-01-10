@@ -3,8 +3,8 @@
 	<BackLink DBID="/Items/Talents/Class/Marine/Ability_A3_SUP.TALENT" Count="1" />
 	<name>A3_SUP_HealPercent</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
 		<returnType>float</returnType>
-		<sString>2.0f</sString>
+		<sString>3.0f</sString>
 	</var>
 </UnitConstant>

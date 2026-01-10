@@ -49,9 +49,9 @@
 					<UnitConstant>
 						<name>Attack_Speed</name>
 						<var>
-							<compiledString>FQAAAAACAAAAFgAAABwAAABVi+xRi0UIixCLTQiLgjQBAAD/0NwNMgAAANwFKgAAANld/NlF/IvlXcMAAAAAAAAUQDMzMzMzM9M/</compiledString>
+							<compiledString>FR0AAAAGAAAAJAAAADoAAABGAAAAXAAAAHcAAAB9AAAAUmFiS3Jpc2FCdWZmAAAAAFJhYktyaXNhQnVmZgBVi+yD7AxoAAAAAItFCIsQi00Ii4KIAQAA/9DcHaEAAADf4PbEQXUgaBAAAACLTQiLEYtNCIuCiAEAAP/Q3A2hAAAA3V346x+LTQiLEYtNCIuCNAEAAP/Q3A2ZAAAA3AWRAAAA3V343UX42V302UX0i+VdwwAAAAAAABRAMzMzMzMz0z8AAAAAAADgPw==</compiledString>
 							<returnType>float</returnType>
-							<sString>5+sIntellect*0.3</sString>
+							<sString>sender.vRabKrisaBuff &gt; 0.5 ? 0.5*sender.vRabKrisaBuff : 5+sIntellect*0.3</sString>
 						</var>
 					</UnitConstant>
 				</Item>

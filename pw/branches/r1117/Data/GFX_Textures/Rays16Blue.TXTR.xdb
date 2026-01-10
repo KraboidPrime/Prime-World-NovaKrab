@@ -46,7 +46,6 @@
 	<BackLink DBID="/Effects/Shots/Energy/_Blue.PRXY" Count="1" />
 	<BackLink DBID="/Effects/Shots/Energy/_Red.PRXY" Count="1" />
 	<BackLink DBID="/Effects/Shots/FireBall/_Small.PRXY" Count="1" />
-	<BackLink DBID="/Effects/Shots/Spear/_LightHit.PRXY" Count="1" />
 	<BackLink DBID="/Heroes/Faceless/FXdeath.PRXY" Count="1" />
 	<BackLink DBID="/Summons/Torch/FXA.PRXY" Count="1" />
 	<generatedFileName></generatedFileName>

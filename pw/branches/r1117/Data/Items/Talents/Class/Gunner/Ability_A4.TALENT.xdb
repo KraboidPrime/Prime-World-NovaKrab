@@ -9,6 +9,7 @@
 	<BackLink DBID="/Items/Talents/TalentKits/Redset5_7_Ultimate/Status_Redset5_7_Cooldown.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/Gunner_Mighty.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/Gunner1_Mighty.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Gunner/Ability_A2_SUP.TALENT" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -28,9 +29,82 @@
 	</aoeSize>
 	<aoeType>None</aoeType>
 	<applicators>
+		<Item href="/Items/Talents/Class/Gunner/Ability_A4.TALENT" id="D875AB67-44EB-4683-A62C-1DFEDDFB4545">
+			<EyeApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<cancelObstacles>true</cancelObstacles>
+				<caption></caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FR4AAAACAAAAJQAAAD4AAABHdW5uZXJfQTJfU1VQAAAAR3VubmVyX0EyX1NVUABVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AIpF+4vlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("Gunner_A2_SUP")</sString>
+				</enabled>
+				<eyeTarget>AbilityOwner</eyeTarget>
+				<flags>8</flags>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQA==</compiledString>
+					<returnType>float</returnType>
+					<sString>2.5f</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<visRange>
+					<compiledString>FQkAAAACAAAAFgAAACkAAABBNF9SYW5nZQBVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcBTcAAADZXfzZRfyL5V3DAAAAAAAAFEA=</compiledString>
+					<returnType>float</returnType>
+					<sString>cA4_Range+5</sString>
+				</visRange>
+			</EyeApplicator>
+		</Item>
 		<Item href="/Items/Talents/Class/Gunner/Ability_A4.TALENT" id="82F98296-D0B1-40AA-B439-F54F4818A483">
 			<ProgramApplicator>
 				<applicators>
+					<Item>
+						<applicator href="/Items/Talents/Class/Gunner/Ability_A4.TALENT" id="160C1EBB-2492-472C-8557-5B0F795ECE9D">
+							<StatusApplicator parent="/Items/Talents/Level4/status_G660_GuildAllyDispell_Red.APLR">
+								<applyTarget>AbilityOwner</applyTarget>
+								<enabled>
+									<compiledString>FR4AAAACAAAAJQAAAD4AAABHdW5uZXJfQTJfU1VQAAAAR3VubmVyX0EyX1NVUABVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AIpF+4vlXcM=</compiledString>
+									<returnType>bool</returnType>
+									<sString>tal("Gunner_A2_SUP")</sString>
+								</enabled>
+								<image href="/UI/Styles/Icons/Heroes/Gunner/A4.ITEX" />
+								<lifeTime>
+									<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
+									<returnType>float</returnType>
+									<sString>2</sString>
+								</lifeTime>
+								<name textref="/Items/Talents/Class/Gunner/Ability_A4.TALENT_160c1ebb2492472c85575b0f795ece9d_name.txt" />
+							</StatusApplicator>
+						</applicator>
+						<continueCondition>
+							<compiledString></compiledString>
+							<returnType>bool</returnType>
+							<sString>0</sString>
+						</continueCondition>
+						<continueEvents>1</continueEvents>
+						<delay>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAvw==</compiledString>
+							<returnType>float</returnType>
+							<sString>-1.0</sString>
+						</delay>
+						<stopCondition>
+							<compiledString></compiledString>
+							<returnType>bool</returnType>
+							<sString>0</sString>
+						</stopCondition>
+						<stopEvents>0</stopEvents>
+					</Item>
 					<Item>
 						<applicator href="/Items/Talents/Class/Gunner/Ability_A4.TALENT" id="5D7B839D-E3C3-4189-AD01-6D258DCA1A61">
 							<FlagsApplicator>
@@ -71,6 +145,58 @@
 							<sString>0</sString>
 						</continueCondition>
 						<continueEvents>1</continueEvents>
+						<delay>
+							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>-1.0</sString>
+						</delay>
+						<stopCondition>
+							<compiledString></compiledString>
+							<returnType>bool</returnType>
+							<sString>0</sString>
+						</stopCondition>
+						<stopEvents>0</stopEvents>
+					</Item>
+					<Item>
+						<applicator href="/Items/Talents/Class/Gunner/Ability_A4.TALENT" id="1D4F7F2A-2CCA-44E3-941E-D2054A4500CE">
+							<FlagsApplicator>
+								<applyTarget>AbilityOwner</applyTarget>
+								<behaviorFlags>0</behaviorFlags>
+								<caption></caption>
+								<consumables />
+								<effect>
+									<Item href="" />
+									<Item href="" />
+								</effect>
+								<enabled>
+									<compiledString></compiledString>
+									<returnType>bool</returnType>
+									<sString>true</sString>
+								</enabled>
+								<flag>0</flag>
+								<formulaName></formulaName>
+								<lifeTime>
+									<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzcxMPg==</compiledString>
+									<returnType>float</returnType>
+									<sString>0.2f</sString>
+								</lifeTime>
+								<LoggingEvent>-1</LoggingEvent>
+								<providerName></providerName>
+								<startCondition>
+									<compiledString></compiledString>
+									<returnType>bool</returnType>
+									<sString>true</sString>
+								</startCondition>
+								<talents />
+								<useListAs>ListAsRule</useListAs>
+							</FlagsApplicator>
+						</applicator>
+						<continueCondition>
+							<compiledString></compiledString>
+							<returnType>bool</returnType>
+							<sString>0</sString>
+						</continueCondition>
+						<continueEvents>2</continueEvents>
 						<delay>
 							<compiledString></compiledString>
 							<returnType>float</returnType>
@@ -295,6 +421,48 @@
 				</startCondition>
 			</ProgramApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/Gunner/Ability_A4.TALENT" id="F0AD72B3-DF39-4C8E-A840-2104062425EF">
+			<SpellApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<caption></caption>
+				<enabled>
+					<compiledString>FR4AAAACAAAAJQAAAD4AAABHdW5uZXJfQTJfU1VQAAAAR3VubmVyX0EyX1NVUABVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AIpF+4vlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("Gunner_A2_SUP")</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<spell href="/Items/Talents/Class/Gunner/Ability_A4.TALENT" id="0498F7DA-FDA2-420C-B0CF-BE7B06182285">
+					<Spell>
+						<applicators>
+							<Item href="/GameLogic/GeneralApplicators/DispellWEffects.APLR" />
+						</applicators>
+						<dispatch href="/Items/Talents/Class/Gunner/Ability_A4.TALENT" id="607CF100-27E8-46E1-83EF-35AAE2800043">
+							<DispatchImmediate>
+								<alwaysApply>false</alwaysApply>
+								<applyEffect>
+									<Item href="" />
+									<Item href="" />
+								</applyEffect>
+								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+								<applyEffectOrientation>Default</applyEffectOrientation>
+								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+								<dieAfterApply>true</dieAfterApply>
+								<dispatchEffect>
+									<Item href="" />
+									<Item href="" />
+								</dispatchEffect>
+								<flags>0</flags>
+								<instantApply>false</instantApply>
+							</DispatchImmediate>
+						</dispatch>
+					</Spell>
+				</spell>
+				<spellTarget>AbilityOwner</spellTarget>
+				<targetSelector href="" />
+			</SpellApplicator>
+		</Item>
 	</applicators>
 	<askId>4</askId>
 	<autoTargetSelector href="" />
@@ -366,9 +534,9 @@
 					<UnitConstant>
 						<name>A4_Damage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAABIQgCAu0M=</compiledString>
+							<compiledString>FR4AAAAGAAAAJQAAAD4AAAB4AAAAggAAALgAAADCAAAAR3VubmVyX0EyX1NVUAAAAEd1bm5lcl9BMl9TVVAAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0QGoBUdkFBAEAANkcJFHZBQABAADZHCRqAItVCIsCi00Ii5A0AQAA/9JR2RwkagGLRRCLEItNEItCYP/Q2V306z5qAVHZBfwAAADZHCRR2QX4AAAA2RwkagCLTQiLEYtNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0Nld9NlF9IvlXcMAAEhCAIC7QwAAaEIAANhD</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale (sIntellect, 50, 375)</sString>
+							<sString>tal("Gunner_A2_SUP") ? damageScale (sIntellect, 58, 432) : damageScale (sIntellect, 50, 375)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

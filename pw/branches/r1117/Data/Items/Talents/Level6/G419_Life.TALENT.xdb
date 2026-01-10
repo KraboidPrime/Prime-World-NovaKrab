@@ -36,18 +36,39 @@
 	<commonDescription textref="" />
 	<compiledDescriptionA textref="" />
 	<compiledDescriptionB textref="" />
-	<conditionFormulas />
+	<conditionFormulas>
+		<Item href="/Items/Talents/Level6/G419_Life.TALENT" id="DC9F78E1-080F-41E0-8EB5-8C249E6900C1">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FQ0AAAACAAAAFAAAAC0AAABHNDE5AAAAAEc0MTkAVYvsg+wIaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgIAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtkX799gbwIPAAYvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>!tal("G419")</sString>
+				</condition>
+				<name>G519_joke</name>
+			</ConditionFormula>
+		</Item>
+	</conditionFormulas>
 	<conflictingTalents />
 	<constants href="/Items/Talents/Level6/G419_Life.TALENT" id="FF0D3EF0-6C99-4598-B449-F55FF6981BD7">
 		<UnitConstantsContainer>
 			<vars>
 				<Item href="/Items/Talents/Level6/G419_Life.TALENT" id="020DCFF4-22E5-4ED1-8761-4625CF3D5E5A">
 					<UnitConstant>
-						<name>Add_Life</name>
+						<name>Add_Life_p</name>
 						<var>
-							<compiledString>FQsAAAADAAAAFAAAAB4AAAA7AAAATGlmZUJ1ZGdldABVi+yD7AxR2QVgAAAA2RwkUdkFXAAAANkcJItFEIsQi00Qi0Js/9CLTQxRi1UIUmgAAAAAi0UQixCLTRCLQlDdXfj/0NxN+Nld9NlF9IvlXcNmZrZBzczMPw==</compiledString>
+							<compiledString>FQAAAAACAAAAPAAAAEIAAABVi+xRUdno2Rwki0UIixCLTQiLgrwAAAD/0FHZHCSLTQiLEYtNCIuCuAAAAP/QUdkcJOg5AAAAg8QI3A1kAAAA3C1cAAAA2V382UX8UdkcJOgbAAAAg8QIi+VdwwAAAAAAAD5AKVyPwvUovD8AAIA/VYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(22.8,1.6)*cLifeBudget</sString>
+							<sString>max(30-0.11*max(sBaseStrength, sBaseIntellect), 1)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Level6/G419_Life.TALENT" id="710E6997-9B6A-463D-B11F-8AE23200EC93">
+					<UnitConstant>
+						<name>Add_Life_abs</name>
+						<var>
+							<compiledString>FSsAAAAHAAAAMgAAAEsAAACBAAAAnAAAALkAAADfAAAA8AAAAEc0MTkAAAAARzQxOQAAAABHNDE5X2NvdW50ZXIAAAAAQWRkX0xpZmVfcABVi+yD7BhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaAgAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXQwaBAAAACLVQiLAotNCIuQiAEAAP/SUdkcJFHZBREBAADZHCTobQAAAIPECNld9OtSi0UMUItNCFFoIAAAAItVEIsCi00Qi1BQ/9KLRQiLEItNCItCfN1d7P/Q3E3s3DUJAQAA2V3o2UXoUdkcJFHZBREBAADZHCToGQAAAIPECNld9NlF9IvlXcMAAAAAAABZQACAi0RVi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
+							<returnType>float</returnType>
+							<sString>tal("G419") ? max(1116, sender.vG419_counter) : max(1116, cAdd_Life_p*sBaseLife/100)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -92,6 +113,36 @@
 	<name textref="/Items/Talents/Level6/G419_Life.TALENT_name.txt" />
 	<node></node>
 	<passiveApplicators>
+		<Item href="/Items/Talents/Level6/G419_Life.TALENT" id="1AE333DE-8202-4958-8FE4-B428F8489024">
+			<PermanentStatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>counter</caption>
+				<customApplyType>None</customApplyType>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQsAAAACAAAAGgAAAEAAAABBZGRfTGlmZV9wAFWL7IPsDItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/Si0UIixCLTQiLQnzdXfj/0NxN+Nw1TgAAANld9NlF9IvlXcMAAAAAAABZQA==</compiledString>
+						<returnType>float</returnType>
+						<sString>cAdd_Life_p*sBaseLife/100</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Life</stat>
+					<topModifier>false</topModifier>
+					<variable>G419_counter</variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
 		<Item href="/Items/Talents/Level6/G419_Life.TALENT" id="FE8A9511-025A-4C8D-B15E-61156F27477F">
 			<PermanentStatModApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
@@ -106,9 +157,9 @@
 				<LoggingEvent>-1</LoggingEvent>
 				<modifier>
 					<addValue>
-						<compiledString>FQkAAAABAAAAFQAAAEFkZF9MaWZlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+						<compiledString>FQsAAAADAAAAGgAAAEAAAABRAAAAQWRkX0xpZmVfcABVi+yD7AyLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0otFCIsQi00Ii0J83V34/9DcTfjcNWgAAADZXfTZRfRR2RwkUdkFZAAAANkcJOgTAAAAg8QIi+VdwwCAi0QAAAAAAABZQFWL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
 						<returnType>float</returnType>
-						<sString>cAdd_Life</sString>
+						<sString>max(1116, cAdd_Life_p*sBaseLife/100)</sString>
 					</addValue>
 					<multValue>
 						<compiledString></compiledString>

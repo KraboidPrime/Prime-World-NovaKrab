@@ -743,7 +743,7 @@
 											</maxThisCount>
 											<responseRange>0</responseRange>
 											<responseTime>0</responseTime>
-											<summonType>Secondary</summonType>
+											<summonType>Primary</summonType>
 											<targetingParams href="" />
 										</SummonBehaviourCommon>
 									</behaviour>

@@ -440,9 +440,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString></compiledString>
+					<compiledString>FREAAAACAAAAFgAAACwAAABEcmFnb25SZXNTdGFydGVkAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHU4AAADf4PbERHsJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAADwPw==</compiledString>
 					<returnType>bool</returnType>
-					<sString>true</sString>
+					<sString>!(sender.vDragonResStarted == 1.0f)</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<lifeTime>
@@ -507,9 +507,9 @@
 					<UnitConstant>
 						<name>A4_Damage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAB0QgAA3kM=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACSQgBABUQ=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(sStrength, 61, 444)</sString>
+							<sString>damageScale(sStrength, 73, 533)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

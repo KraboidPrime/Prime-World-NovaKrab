@@ -1,13 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Talent>
 	<BackLink DBID="/Items/RerollShop/TalentsList_Pyramid" Count="1" />
-	<BackLink DBID="/Items/Talents/Level5/G331_Aspd_WillOrStmn.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level5/G331_Aspd_WillOrStmn.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset_RessurectTime/Redset_RessurectTime.TALKIT" Count="1" />
 	<BackLink DBID="/Social/TalentsCollection" Count="4" />
 	<BackLink DBID="/Social/Lootboxes/LB_G782" Count="1" />
 	<BackLink DBID="/Social/Lootboxes/ROLLCONTS/roll_Redset7_13.ROLLCONT" Count="1" />
 	<BackLink DBID="/Social/Quests/TalentQuests/_Settings" Count="1" />
 	<BackLink DBID="/Test/Talents/RedSet7_9.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Level4/G782_StrInt.TALENT" Count="2" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -101,6 +102,16 @@
 				<name>FormOverChargedCastle</name>
 			</ConditionFormula>
 		</Item>
+		<Item href="/Items/Talents/Level4/G782_StrInt.TALENT" id="F411DCF1-3416-4A77-956F-4A61FF4679B7">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FQ4AAAACAAAAEwAAACkAAABHNzgyX1N0ck9ySW50AFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHUsAAADf4PbERHoJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAADwPw==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vG782_StrOrInt==1</sString>
+				</condition>
+				<name>StrOrInt</name>
+			</ConditionFormula>
+		</Item>
 	</conditionFormulas>
 	<conflictingTalents>
 		<Item href="/Items/Talents/Level5/G331_Aspd_WillOrStmn.TALENT" />
@@ -112,9 +123,9 @@
 					<UnitConstant>
 						<name>Add_Stat</name>
 						<var>
-							<compiledString>FQAAAAABAAAADAAAAFWL7FHZ6NkcJFHZBSIAAADZHCSLRRCLEItNEItCbP/QXcMAAFBBAACAPw==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(13, 1)</sString>
+							<sString>8</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -152,9 +163,9 @@
 					<UnitConstant>
 						<name>CD</name>
 						<var>
-							<compiledString>FR4AAAAEAAAAJQAAADsAAABPAAAAbwAAAEc3ODNfQWN0aXZlAEc3ODNfQ0RfUmVkdWN0aW9uAFWL7IPsCGgAAAAAi0UIixCLTQiLgogBAAD/0NwdiQAAAN/g9sRBdR+LTQxRi1UIUmgMAAAAi0UQixCLTRCLQlD/0Nld/OsF2e7ZXfzZRfzcLX0AAADZXfjZRfiL5V3DAAAAAADAYkAAAAAAAAAAAAAAAAA=</compiledString>
+							<compiledString>FR4AAAAEAAAAJQAAADsAAABPAAAAbwAAAEc3ODNfQWN0aXZlAEc3ODNfQ0RfUmVkdWN0aW9uAFWL7IPsCGgAAAAAi0UIixCLTQiLgogBAAD/0NwdiQAAAN/g9sRBdR+LTQxRi1UIUmgMAAAAi0UQixCLTRCLQlD/0Nld/OsF2e7ZXfzZRfzcLX0AAADZXfjZRfiL5V3DAAAAAADAckAAAAAAAAAAAAAAAAA=</compiledString>
 							<returnType>float</returnType>
-							<sString>150 - (sender.vG783_Active&gt;0 ? cG783_CD_Reduction : 0)</sString>
+							<sString>300 - (sender.vG783_Active&gt;0 ? cG783_CD_Reduction : 0)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -529,6 +540,167 @@
 					<stat>Life</stat>
 					<topModifier>false</topModifier>
 					<variable>G782_Active</variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level4/G782_StrInt.TALENT" id="46011DCE-E84C-4C9C-92F0-5E9DA5936838">
+			<TriggerApplicator>
+				<actionsCount>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</actionsCount>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>152</behaviorFlags>
+				<caption>Тригер для мемной ульты турка</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FR0AAAADAAAAJAAAAD0AAACBAAAAUmVhcGVyX0E0XzJ1AAAAAFJlYXBlcl9BNF8ydQBVi+yD7AxoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXQji1UQiwKLTRCLUBz/0twdowAAAN/g9sRBegnHRfQBAAAA6wfHRfQAAAAAikX0i+VdwwAAAEDheoQ/</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("Reaper_A4_2u") &amp;&amp; mPreparedness &lt;= 0.01f</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<playAck>false</playAck>
+				<processor href="/Items/Talents/Level4/G782_StrInt.TALENT" id="D1090A96-1192-4CFD-BC76-6C6B8D5A77DB">
+					<EventProcessorCondition>
+						<applyTarget>ApplicatorTarget</applyTarget>
+						<condition>
+							<compiledString></compiledString>
+							<returnType>bool</returnType>
+							<sString>true</sString>
+						</condition>
+						<events>1048576</events>
+						<onlyParent>false</onlyParent>
+						<spell href="/Items/Talents/Level4/G782_StrInt.TALENT" id="F96CFD77-3F63-4BEA-9BD8-0E7E8E801CCE">
+							<Spell>
+								<applicators>
+									<Item href="/Items/Talents/Level4/G782_StrInt.TALENT" id="CE63D9B0-66A0-4FA0-8F47-4C1E74E9A799">
+										<RefreshCooldownApplicator>
+											<allowCdIncrease>false</allowCdIncrease>
+											<applyTarget>AbilityOwner</applyTarget>
+											<caption></caption>
+											<enabled>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</enabled>
+											<flags>128</flags>
+											<formulaName></formulaName>
+											<LoggingEvent>-1</LoggingEvent>
+											<providerName></providerName>
+											<reduceByPercent>false</reduceByPercent>
+											<reductionAmount>
+												<compiledString></compiledString>
+												<returnType>float</returnType>
+												<sString>-1.0f</sString>
+											</reductionAmount>
+											<refreshThis>true</refreshThis>
+											<talents>
+												<Item href="/Items/Talents/Level4/G782_StrInt.TALENT" />
+											</talents>
+											<useListAs>ListAsRule</useListAs>
+										</RefreshCooldownApplicator>
+									</Item>
+								</applicators>
+								<dispatch href="/Items/Talents/Level4/G782_StrInt.TALENT" id="05DFE8EE-A72B-4942-BEC1-293F5CC64AE3">
+									<DispatchImmediate>
+										<alwaysApply>false</alwaysApply>
+										<applyEffect>
+											<Item href="" />
+											<Item href="" />
+										</applyEffect>
+										<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+										<applyEffectOrientation>Default</applyEffectOrientation>
+										<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+										<dieAfterApply>true</dieAfterApply>
+										<dispatchEffect>
+											<Item href="" />
+											<Item href="" />
+										</dispatchEffect>
+										<flags>0</flags>
+										<instantApply>false</instantApply>
+									</DispatchImmediate>
+								</dispatch>
+							</Spell>
+						</spell>
+					</EventProcessorCondition>
+				</processor>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<useAbilityCooldown>false</useAbilityCooldown>
+				<useAbilityOwnerMana>false</useAbilityOwnerMana>
+			</TriggerApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level4/G782_StrInt.TALENT" id="023F0CC3-660E-4129-A7B1-0DB185FE963F">
+			<PermanentStatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>Стойоксть</caption>
+				<customApplyType>Maximize</customApplyType>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgsgAAAD/0ItNCIsRi00Ii4LMAAAA3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sBaseStamina &gt;= sBaseWill</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAQQQ==</compiledString>
+						<returnType>float</returnType>
+						<sString>9</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Stamina</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level4/G782_StrInt.TALENT" id="CF9231DC-06BE-477B-9942-B6D6167A950C">
+			<PermanentStatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>Воля</caption>
+				<customApplyType>Maximize</customApplyType>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgsgAAAD/0ItNCIsRi00Ii4LMAAAA3V34/9DcXfjf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sBaseStamina &lt; sBaseWill</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAQQQ==</compiledString>
+						<returnType>float</returnType>
+						<sString>9</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Will</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
 				</modifier>
 				<providerName></providerName>
 			</PermanentStatModApplicator>

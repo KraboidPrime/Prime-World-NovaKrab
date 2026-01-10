@@ -103,6 +103,7 @@
 	<BackLink DBID="/Test/Talents/WitchDoctor/Elite_Str.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Witcher/Elite_Int.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Witcher/Elite_Str.TALENTSET" Count="1" />
+	<BackLink DBID="/GameLogic/AILogic.AILP" Count="2" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -125,7 +126,7 @@
 	<askId>0</askId>
 	<autoTargetSelector href="" />
 	<budget>-1</budget>
-	<caption>G285: Секрет здоровья</caption>
+	<caption>G285: Руна влияния</caption>
 	<castAllowRange>
 		<compiledString></compiledString>
 		<returnType>float</returnType>
@@ -137,22 +138,7 @@
 	<compiledDescriptionB textref="" />
 	<conditionFormulas />
 	<conflictingTalents />
-	<constants href="/Items/Talents/Level4/G285_Life.TALENT" id="BB6A28C8-A14B-430D-B766-BF58F1EE68CD">
-		<UnitConstantsContainer>
-			<vars>
-				<Item href="/Items/Talents/Level4/G285_Life.TALENT" id="49A1F2F5-446D-468C-A5E9-48314817BDC8">
-					<UnitConstant>
-						<name>Add_Life</name>
-						<var>
-							<compiledString>FQsAAAADAAAAFAAAAB4AAAA7AAAATGlmZUJ1ZGdldABVi+yD7AxR2QVgAAAA2RwkUdkFXAAAANkcJItFEIsQi00Qi0Js/9CLTQxRi1UIUmgAAAAAi0UQixCLTRCLQlDdXfj/0NxN+Nld9NlF9IvlXcMzMzNBPQpXPw==</compiledString>
-							<returnType>float</returnType>
-							<sString>refineScale(11.2,0.84)*cLifeBudget</sString>
-						</var>
-					</UnitConstant>
-				</Item>
-			</vars>
-		</UnitConstantsContainer>
-	</constants>
+	<constants href="" />
 	<consumptionBonus>
 		<constant>0</constant>
 		<percent>0</percent>
@@ -172,7 +158,7 @@
 	<dispatch href="" />
 	<flags>3</flags>
 	<forceBonus>16</forceBonus>
-	<image href="/UI/Styles/Icons/Talents/_285.ITEX" />
+	<image href="/UI/Styles/Icons/Talents/2025_285.ITEX" />
 	<imageSecondState href="" />
 	<isGenderTalent>false</isGenderTalent>
 	<isTakenOnStart>false</isTakenOnStart>
@@ -191,30 +177,60 @@
 	<name textref="/Items/Talents/Level4/G285_Life.TALENT_name.txt" />
 	<node></node>
 	<passiveApplicators>
-		<Item href="/Items/Talents/Level4/G285_Life.TALENT" id="1AD43E81-4BFE-44E8-8948-4FB0517A6BCA">
+		<Item href="/Items/Talents/Level4/G285_Life.TALENT" id="64FC4D88-F3A8-4F0C-829F-4B59B5195EA0">
 			<PermanentStatModApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>Add_Life</caption>
+				<caption>int</caption>
 				<customApplyType>None</customApplyType>
 				<enabled>
-					<compiledString></compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgrwAAAD/0ItNCIsRi00Ii4K4AAAA3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
 					<returnType>bool</returnType>
-					<sString>true</sString>
+					<sString>sBaseIntellect &gt;= sBaseStrength</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<LoggingEvent>-1</LoggingEvent>
 				<modifier>
 					<addValue>
-						<compiledString>FQkAAAABAAAAFQAAAEFkZF9MaWZlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACIQQ==</compiledString>
 						<returnType>float</returnType>
-						<sString>cAdd_Life</sString>
+						<sString>17</sString>
 					</addValue>
 					<multValue>
 						<compiledString></compiledString>
 						<returnType>float</returnType>
 						<sString>1.0f</sString>
 					</multValue>
-					<stat>Life</stat>
+					<stat>Intellect</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level4/G285_Life.TALENT" id="75AF523C-4060-493D-AF6D-B4824090B4EF">
+			<PermanentStatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>str</caption>
+				<customApplyType>None</customApplyType>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgrwAAAD/0ItNCIsRi00Ii4K4AAAA3V34/9DcXfjf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sBaseIntellect &lt; sBaseStrength</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACIQQ==</compiledString>
+						<returnType>float</returnType>
+						<sString>17</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Strength</stat>
 					<topModifier>false</topModifier>
 					<variable></variable>
 				</modifier>
@@ -224,9 +240,9 @@
 	</passiveApplicators>
 	<persistentId>G285</persistentId>
 	<prerequisiteTalents />
-	<rarity>magnificent</rarity>
+	<rarity>outstanding</rarity>
 	<requireLineOfSight>false</requireLineOfSight>
-	<shortDescription textref="/Items/Talents/Level4/G285_Life.TALENT_shortDescription.txt" />
+	<shortDescription textref="" />
 	<talentRollGroups>63</talentRollGroups>
 	<talentStats>
 		<Item>

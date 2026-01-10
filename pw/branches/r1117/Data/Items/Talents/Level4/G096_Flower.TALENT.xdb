@@ -209,7 +209,28 @@
 	<commonDescription textref="/Items/Talents/Level4/G096_Flower.TALENT_commonDescription.txt" />
 	<compiledDescriptionA textref="" />
 	<compiledDescriptionB textref="" />
-	<conditionFormulas />
+	<conditionFormulas>
+		<Item href="/Items/Talents/Level4/G096_Flower.TALENT" id="62994BCC-C099-4D34-9069-B6AE04AA1241">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRYAAAACAAAAGwAAADEAAABUaDIwMjVfVG9vbHRpcENvdW50ZXIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdUwAAAN/g9sQBdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAhA</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vTh2025_TooltipCounter &gt;= 3</sString>
+				</condition>
+				<name>Bonus3ActiveTh</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Items/Talents/Level4/G096_Flower.TALENT" id="267FB050-25D6-4D35-9488-876A35232A4A">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRYAAAACAAAAGwAAADEAAABUaDIwMjVfVG9vbHRpcENvdW50ZXIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdUwAAAN/g9sQBdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAABxA</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vTh2025_TooltipCounter &gt;= 7</sString>
+				</condition>
+				<name>Bonus7ActiveTh</name>
+			</ConditionFormula>
+		</Item>
+	</conditionFormulas>
 	<conflictingTalents />
 	<constants href="/Items/Talents/Level4/G096_Flower.TALENT" id="AB3986B3-D762-494E-A7FE-D0946E647F98">
 		<UnitConstantsContainer>
@@ -238,9 +259,9 @@
 					<UnitConstant>
 						<name>HealAmount</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAKEIAAEBA</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAC0Qg==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(42, 3)</sString>
+							<sString>90</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -345,7 +366,39 @@
 	<naftaCost>-1</naftaCost>
 	<name textref="/Items/Talents/Level4/G096_Flower.TALENT_name.txt" />
 	<node></node>
-	<passiveApplicators />
+	<passiveApplicators>
+		<Item href="/Items/Talents/Level4/G096_Flower.TALENT" id="10163CAE-1F82-4097-AAA3-D9E9AB80EB88">
+			<PermanentStatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>Здоровице</caption>
+				<customApplyType>None</customApplyType>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAB6Qw==</compiledString>
+						<returnType>float</returnType>
+						<sString>250</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Life</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level3/ThirdPinkSet_Prog2025.APLR" />
+	</passiveApplicators>
 	<persistentId>G096</persistentId>
 	<prerequisiteTalents />
 	<rarity>magnificent</rarity>

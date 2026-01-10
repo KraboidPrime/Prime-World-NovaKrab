@@ -39,7 +39,28 @@
 	<commonDescription textref="" />
 	<compiledDescriptionA textref="" />
 	<compiledDescriptionB textref="" />
-	<conditionFormulas />
+	<conditionFormulas>
+		<Item href="/Items/Talents/Level6/G248_StaminaWill_MvSpeed.TALENT" id="F197BECF-5777-45B5-A4E3-7F93F9019277">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRYAAAACAAAAGwAAADEAAABBdTIwMjVfVG9vbHRpcENvdW50ZXIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdUwAAAN/g9sQBdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAhA</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vAu2025_TooltipCounter &gt;= 3</sString>
+				</condition>
+				<name>Bonus3ActiveAu</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Items/Talents/Level6/G248_StaminaWill_MvSpeed.TALENT" id="E2533338-6473-452B-BFB6-584CF3C5BFA3">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRYAAAACAAAAGwAAADEAAABBdTIwMjVfVG9vbHRpcENvdW50ZXIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdUwAAAN/g9sQBdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAABxA</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vAu2025_TooltipCounter &gt;= 7</sString>
+				</condition>
+				<name>Bonus7ActiveAu</name>
+			</ConditionFormula>
+		</Item>
+	</conditionFormulas>
 	<conflictingTalents />
 	<constants href="/Items/Talents/Level6/G248_StaminaWill_MvSpeed.TALENT" id="1747ACBF-43D4-4C71-A307-5DFD015CF212">
 		<UnitConstantsContainer>
@@ -68,9 +89,9 @@
 					<UnitConstant>
 						<name>Add_MoveSpeed</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAwQQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>10</sString>
+							<sString>11</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -206,6 +227,145 @@
 			</PermanentStatModApplicator>
 		</Item>
 		<Item href="/Items/Talents/_commonData/AddedMoveSpeed.APLR" />
+		<Item href="/Items/Talents/Level6/G248_StaminaWill_MvSpeed.TALENT" id="21034050-3ADA-41BE-A9BE-51849AC866F4">
+			<AuraApplicator>
+				<applicators>
+					<Item href="/Items/Talents/Level6/G248_StaminaWill_MvSpeed.TALENT" id="14CD5499-F0A2-40A8-81A0-78819299EA17">
+						<StatusApplicator>
+							<applicators>
+								<Item href="/Items/Talents/Level6/G248_StaminaWill_MvSpeed.TALENT" id="13C00941-BF11-4EB9-BA8D-B89720DB9035">
+									<StatModApplicator>
+										<applyTarget>ApplicatorTarget</applyTarget>
+										<behaviorFlags>0</behaviorFlags>
+										<caption></caption>
+										<constraint>None</constraint>
+										<dontUpdate>false</dontUpdate>
+										<effect>
+											<Item href="" />
+											<Item href="" />
+										</effect>
+										<enabled>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</enabled>
+										<formulaName></formulaName>
+										<lifeTime>
+											<compiledString></compiledString>
+											<returnType>float</returnType>
+											<sString>-1.0</sString>
+										</lifeTime>
+										<LoggingEvent>-1</LoggingEvent>
+										<modifier>
+											<addValue>
+												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
+												<returnType>float</returnType>
+												<sString>3</sString>
+											</addValue>
+											<multValue>
+												<compiledString></compiledString>
+												<returnType>float</returnType>
+												<sString>1.0f</sString>
+											</multValue>
+											<stat>MoveSpeed</stat>
+											<topModifier>false</topModifier>
+											<variable></variable>
+										</modifier>
+										<providerName></providerName>
+										<startCondition>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</startCondition>
+										<statModName></statModName>
+									</StatModApplicator>
+								</Item>
+							</applicators>
+							<applyTarget>ApplicatorTarget</applyTarget>
+							<behaviorFlags>136</behaviorFlags>
+							<caption>Статус скорости</caption>
+							<customCounter>
+								<compiledString></compiledString>
+								<returnType>int</returnType>
+								<sString>0</sString>
+							</customCounter>
+							<customProgress>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>-1.0</sString>
+							</customProgress>
+							<description textref="/Items/Talents/Level6/G248_StaminaWill_MvSpeed.TALENT_14cd5499f0a240a881a078819299ea17_description.txt" />
+							<dispellPriority>NonDispellable</dispellPriority>
+							<effect>
+								<Item href="" />
+								<Item href="" />
+							</effect>
+							<enabled>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</enabled>
+							<flags>0</flags>
+							<formulaName></formulaName>
+							<image href="/UI/Styles/Icons/Talents/_248.ITEX" />
+							<lifeTime>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>-1.0</sString>
+							</lifeTime>
+							<LoggingEvent>-1</LoggingEvent>
+							<name textref="/Items/Talents/Level6/G248_StaminaWill_MvSpeed.TALENT_14cd5499f0a240a881a078819299ea17_name.txt" />
+							<power>0</power>
+							<providerName></providerName>
+							<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+							<stackCount>0</stackCount>
+							<startCondition>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</startCondition>
+							<statusPosition>0</statusPosition>
+							<stopBehaviour>StopByTime</stopBehaviour>
+							<unstackableWith href="" />
+						</StatusApplicator>
+					</Item>
+				</applicators>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>аура скорости</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<range>
+					<compiledString>FQ0AAAABAAAAGQAAAFJhbmdlX0V4TG9uZwBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+					<returnType>float</returnType>
+					<sString>cRange_ExLong</sString>
+				</range>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<targets>1409286159</targets>
+				<targetSelector href="" />
+				<type>Ally</type>
+			</AuraApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level3/AURASET_Prog2025.APLR" />
 	</passiveApplicators>
 	<persistentId>G248</persistentId>
 	<prerequisiteTalents />
@@ -237,15 +397,15 @@
 			</values>
 		</Item>
 	</talentStats>
-	<targetType>860671</targetType>
-	<type>Simple</type>
+	<targetType>1909247</targetType>
+	<type>Passive</type>
 	<upgradeLevel>0</upgradeLevel>
 	<useRange>
-		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+		<compiledString>FQ0AAAABAAAAGQAAAFJhbmdlX0V4TG9uZwBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
 		<returnType>float</returnType>
-		<sString>0</sString>
+		<sString>cRange_ExLong</sString>
 	</useRange>
-	<useRangeMaterial href="" />
+	<useRangeMaterial href="/Effects/UI/AOESelection/Radius.MTRL" />
 	<variativeMaxTalentStats />
 	<variativeMinTalentStats />
 	<vendorCost>-1</vendorCost>

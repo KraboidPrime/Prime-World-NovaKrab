@@ -39,7 +39,7 @@
 	<askId>0</askId>
 	<autoTargetSelector href="" />
 	<budget>-1</budget>
-	<caption>G140: Сила воина</caption>
+	<caption>G140: Запасной план</caption>
 	<castAllowRange>
 		<compiledString></compiledString>
 		<returnType>float</returnType>
@@ -58,19 +58,29 @@
 					<UnitConstant>
 						<name>Add_Strength</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9Bdw2ZmhkDNzMw+</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DMzNTQQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(4.2, 0.4)</sString>
+							<sString>13.2f</sString>
 						</var>
 					</UnitConstant>
 				</Item>
-				<Item href="/Items/Talents/Level3/G140_Str_Stamina.TALENT" id="9859C633-06B1-4934-8B53-DD51E98E2205">
+				<Item href="/Items/Talents/Level3/G140_Str_Stamina.TALENT" id="A3A53603-A18D-453B-9A5D-8DA9C16A49BB">
 					<UnitConstant>
-						<name>Add_Stamina</name>
+						<name>Haste_Duration</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAQEDNzEw+</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(3, 0.2)</sString>
+							<sString>3.0f</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Level3/G140_Str_Stamina.TALENT" id="C51B7D9C-729C-42AA-96AB-E6DEF394AA46">
+					<UnitConstant>
+						<name>Haste_Percent</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQQ==</compiledString>
+							<returnType>float</returnType>
+							<sString>30.0f</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -82,9 +92,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQg==</compiledString>
 		<returnType>float</returnType>
-		<sString>0</sString>
+		<sString>60</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>
@@ -96,7 +106,7 @@
 	<dispatch href="" />
 	<flags>2</flags>
 	<forceBonus>13</forceBonus>
-	<image href="/UI/Styles/Icons/Talents/_140.ITEX" />
+	<image href="/UI/Styles/Icons/Talents/2025_140.ITEX" />
 	<imageSecondState href="" />
 	<isGenderTalent>false</isGenderTalent>
 	<isTakenOnStart>false</isTakenOnStart>
@@ -121,9 +131,9 @@
 				<caption>Силы</caption>
 				<customApplyType>None</customApplyType>
 				<enabled>
-					<compiledString></compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgrgAAAD/0ItNCIsRi00Ii4K8AAAA3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
 					<returnType>bool</returnType>
-					<sString>true</sString>
+					<sString>sBaseStrength &gt;= sBaseIntellect</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<LoggingEvent>-1</LoggingEvent>
@@ -145,40 +155,188 @@
 				<providerName></providerName>
 			</PermanentStatModApplicator>
 		</Item>
-		<Item href="/Items/Talents/Level3/G140_Str_Stamina.TALENT" id="B0906AA6-4E2E-43EB-A138-CDA197E0759C">
+		<Item href="/Items/Talents/Level3/G140_Str_Stamina.TALENT" id="42B8C04C-70C3-43BB-B0E8-28D228AC40C9">
 			<PermanentStatModApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>Стойкости</caption>
+				<caption>Инт</caption>
 				<customApplyType>None</customApplyType>
 				<enabled>
-					<compiledString></compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgrgAAAD/0ItNCIsRi00Ii4K8AAAA3V34/9DcXfjf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
 					<returnType>bool</returnType>
-					<sString>true</sString>
+					<sString>sBaseStrength &lt; sBaseIntellect</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<LoggingEvent>-1</LoggingEvent>
 				<modifier>
 					<addValue>
-						<compiledString>FQwAAAABAAAAGAAAAEFkZF9TdGFtaW5hAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+						<compiledString>FQ0AAAABAAAAGQAAAEFkZF9TdHJlbmd0aABVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
 						<returnType>float</returnType>
-						<sString>cAdd_Stamina</sString>
+						<sString>cAdd_Strength</sString>
 					</addValue>
 					<multValue>
 						<compiledString></compiledString>
 						<returnType>float</returnType>
 						<sString>1.0f</sString>
 					</multValue>
-					<stat>Stamina</stat>
+					<stat>Intellect</stat>
 					<topModifier>false</topModifier>
 					<variable></variable>
 				</modifier>
 				<providerName></providerName>
 			</PermanentStatModApplicator>
 		</Item>
+		<Item href="/Items/Talents/Level3/G140_Str_Stamina.TALENT" id="255BB806-5CC8-4781-A468-F2695637EAE5">
+			<TriggerApplicator>
+				<actionsCount>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</actionsCount>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption></caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FQAAAAABAAAAJAAAAFWL7IPsDItFCIsQi00IiwL/0ItNCIsRi00Ii0IM3V34/9DcDUkAAADcXfjf4PbEAXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcMAAABAMzPTPw==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sLife &lt;= 0.3f*sMaxLife</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<playAck>false</playAck>
+				<processor href="/Items/Talents/Level3/G140_Str_Stamina.TALENT" id="C90F7EE5-5F1C-430E-8CA2-8E1F73405330">
+					<EventProcessorDamageTransformer>
+						<abilityFilter>
+							<abilitiesList />
+							<abilityCondition>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</abilityCondition>
+							<abilityCostMode>Any</abilityCostMode>
+							<exceptThis>false</exceptThis>
+							<flags>1073743103</flags>
+							<onlySingleTarget>false</onlySingleTarget>
+						</abilityFilter>
+						<add>
+							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>0.0f</sString>
+						</add>
+						<applyTarget>AbilityOwner</applyTarget>
+						<checkSender>2</checkSender>
+						<damageTypeFilter>31</damageTypeFilter>
+						<flags>0</flags>
+						<matchTargetInverted>false</matchTargetInverted>
+						<mul>
+							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>1.0f</sString>
+						</mul>
+						<objectFilter>536936455</objectFilter>
+						<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
+						<spell href="/Items/Talents/Level3/G140_Str_Stamina.TALENT" id="C4D5890C-71A5-4FF4-84A7-B0AED3123824">
+							<Spell>
+								<applicators>
+									<Item href="/Heroes/DefaultStatus/_HASTE_status.APLR" />
+									<Item href="/Items/Talents/Level3/G140_Str_Stamina.TALENT" id="8E560F9C-1E92-4C51-B704-480B3CFDD46D">
+										<StatusApplicator>
+											<applicators />
+											<applyTarget>AbilityOwner</applyTarget>
+											<behaviorFlags>216</behaviorFlags>
+											<caption></caption>
+											<customCounter>
+												<compiledString></compiledString>
+												<returnType>int</returnType>
+												<sString>0</sString>
+											</customCounter>
+											<customProgress>
+												<compiledString></compiledString>
+												<returnType>float</returnType>
+												<sString>-1.0</sString>
+											</customProgress>
+											<description textref="/Items/Talents/Level3/G140_Str_Stamina.TALENT_8e560f9c1e924c51b704480b3cfdd46d_description.txt" />
+											<dispellPriority>NonDispellable</dispellPriority>
+											<effect>
+												<Item href="" />
+												<Item href="" />
+											</effect>
+											<enabled>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</enabled>
+											<flags>2</flags>
+											<formulaName></formulaName>
+											<image href="/UI/Styles/Icons/Talents/2025_140.ITEX" />
+											<lifeTime>
+												<compiledString>FQAAAAAAAAAAVYvsi0UQixCLTRCLQjz/0F3D</compiledString>
+												<returnType>float</returnType>
+												<sString>mCooldown</sString>
+											</lifeTime>
+											<LoggingEvent>-1</LoggingEvent>
+											<name textref="/Items/Talents/Level3/G140_Str_Stamina.TALENT_8e560f9c1e924c51b704480b3cfdd46d_name.txt" />
+											<power>0</power>
+											<providerName></providerName>
+											<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+											<stackCount>0</stackCount>
+											<startCondition>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</startCondition>
+											<statusPosition>0</statusPosition>
+											<stopBehaviour>StopByTime</stopBehaviour>
+											<unstackableWith href="" />
+										</StatusApplicator>
+									</Item>
+								</applicators>
+								<dispatch href="/Items/Talents/Level3/G140_Str_Stamina.TALENT" id="DDAFD936-272D-44C5-A413-5CD2F2D655C1">
+									<DispatchImmediate>
+										<alwaysApply>false</alwaysApply>
+										<applyEffect>
+											<Item href="" />
+											<Item href="" />
+										</applyEffect>
+										<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+										<applyEffectOrientation>Default</applyEffectOrientation>
+										<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+										<dieAfterApply>true</dieAfterApply>
+										<dispatchEffect>
+											<Item href="" />
+											<Item href="" />
+										</dispatchEffect>
+										<flags>0</flags>
+										<instantApply>false</instantApply>
+									</DispatchImmediate>
+								</dispatch>
+							</Spell>
+						</spell>
+						<treatDelegatedByDelegator>false</treatDelegatedByDelegator>
+					</EventProcessorDamageTransformer>
+				</processor>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<useAbilityCooldown>true</useAbilityCooldown>
+				<useAbilityOwnerMana>false</useAbilityOwnerMana>
+			</TriggerApplicator>
+		</Item>
 	</passiveApplicators>
 	<persistentId>G140</persistentId>
 	<prerequisiteTalents />
-	<rarity>excellent</rarity>
+	<rarity>outstanding</rarity>
 	<requireLineOfSight>true</requireLineOfSight>
 	<shortDescription textref="" />
 	<talentRollGroups>0</talentRollGroups>

@@ -1,6 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UIMessageApplicator parent="/UI/Events/CommonEvents/UI_Message_Damage_Energy.APLR">
-	<BackLink DBID="/Heroes/Alchemist/_.ATCK" Count="1" />
+	<BackLink DBID="/Heroes/Alchemist/_.ATCK" Count="2" />
+	<BackLink DBID="/Summons/Clone/Strength.SUMMONED" Count="2" />
+	<caption>вывести суммарный урон (Energy)</caption>
+	<enabled>
+		<compiledString>FQsAAAACAAAAIgAAADUAAABpc0NyaXRpY2FsAFWL7IPsCItFEIsQi00Qi0JI/9CJRfxoAAAAAItN/IsRi038i0JU/9DcHVcAAADf4PbERHoJx0X4AQAAAOsHx0X4AAAAAIpF+IvlXcMAAAAAAAAAAA==</compiledString>
+		<returnType>bool</returnType>
+		<sString>$ParentApplVariable("isCritical") == 0</sString>
+	</enabled>
+	<message textref="/Heroes/Alchemist/msg_AA_Damage.APLR_message.txt" />
+	<uiEvent href="/UI/Events/CommonEvents/EventCustomFlyoff_EP_Energy.UIEV" />
 	<value>
 		<compiledString>FTAAAAACAAAAVwAAAGkAAABkYW1hZ2VEZWFsZWQAAAAAQWxjaGVtaXN0X0E0RGFtYWdlOmRhbWFnZURlYWxlZABVi+yD7BSLRRCLEItNEItCSP/QiUX8i00QixGLTRCLQkj/0IlF+GgQAAAAi034ixGLTfiLQlT/0GgAAAAAi038ixGLTfyLQlTdXfD/0NxF8Nld7NlF7IvlXcM=</compiledString>
 		<returnType>float</returnType>

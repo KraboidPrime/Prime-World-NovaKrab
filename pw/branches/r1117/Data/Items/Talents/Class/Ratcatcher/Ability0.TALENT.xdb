@@ -52,19 +52,19 @@
 					<UnitConstant>
 						<name>Bonus_Life</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAAAQQAAcEI=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACAQQAA8EI=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale( sStrength, 8, 60 )</sString>
+							<sString>damageScale(sStrength, 16, 120)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
 				<Item href="/Items/Talents/Class/Ratcatcher/Ability0.TALENT" id="E87F88CE-2168-4DEE-B8F1-74F742E318E7">
 					<UnitConstant>
-						<name>Bonus_Stamina</name>
+						<name>Bonus_Defence</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAFHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoAi00QixGLTRCLQmD/0F3DCtejPpqZGUA=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAFHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoAi00QixGLTRCLQmD/0F3DCtejPpqZGUA=</compiledString>
 							<returnType>float</returnType>
-							<sString>abilityScale( sIntellect, 0.32, 2.4, false )</sString>
+							<sString>abilityScale(sStrength, 0.32, 2.4, false)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BasicEffectStandalone>
+	<BackLink DBID="/Items/Talents/Class/Bomber/status_A3u_Self.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Chicken/Ability_A2.TALENT" Count="3" />
+	<BackLink DBID="/Items/Talents/Class/Chicken/Ability_A2_1.TALENT" Count="1" />
+	<component href="/Effects/Debuffs/Burn/_TrailChickTRS.PRXY" />
+	<deathType>Time</deathType>
+	<enableCondition href="" />
+	<fadeIn>0.2</fadeIn>
+	<fadeOut>0.5</fadeOut>
+	<isVisibleUnderWarfog>false</isVisibleUnderWarfog>
+	<lifeTime>1</lifeTime>
+	<parentFlags>2</parentFlags>
+	<parentType>General</parentType>
+	<visibilityLimited>false</visibilityLimited>
+	<visibleTime>0</visibleTime>
+</BasicEffectStandalone>

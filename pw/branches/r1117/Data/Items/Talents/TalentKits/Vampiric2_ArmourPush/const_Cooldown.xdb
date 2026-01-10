@@ -7,8 +7,8 @@
 	<BackLink DBID="/Items/Talents/Level3/G300_LifeRegen_Will.TALENT" Count="1" />
 	<name>G313_Cooldown</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQg==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAC0Qg==</compiledString>
 		<returnType>float</returnType>
-		<sString>80</sString>
+		<sString>90</sString>
 	</var>
 </UnitConstant>

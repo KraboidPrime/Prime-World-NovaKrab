@@ -37,7 +37,28 @@
 	<commonDescription textref="" />
 	<compiledDescriptionA textref="" />
 	<compiledDescriptionB textref="" />
-	<conditionFormulas />
+	<conditionFormulas>
+		<Item href="/Items/Talents/Level5/G167_ProcWill.TALENT" id="70542C04-6B4C-435C-A1CF-62F2BE3E3FB8">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRcAAAACAAAAHAAAADIAAABTZWMyMDI1X1Rvb2x0aXBDb3VudGVyAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHVQAAADf4PbEAXUJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAIQA==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vSec2025_TooltipCounter &gt;= 3</sString>
+				</condition>
+				<name>Bonus3ActiveSe</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Items/Talents/Level5/G167_ProcWill.TALENT" id="A5AA81E4-392F-40DF-86C4-7856F91CD268">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRcAAAACAAAAHAAAADIAAABTZWMyMDI1X1Rvb2x0aXBDb3VudGVyAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHVQAAADf4PbEAXUJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAcQA==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vSec2025_TooltipCounter &gt;= 7</sString>
+				</condition>
+				<name>Bonus7ActiveSe</name>
+			</ConditionFormula>
+		</Item>
+	</conditionFormulas>
 	<conflictingTalents />
 	<constants href="/Items/Talents/Level5/G167_ProcWill.TALENT" id="43BDA928-BB83-484C-B0AC-241F0D887A77">
 		<UnitConstantsContainer>
@@ -46,9 +67,9 @@
 					<UnitConstant>
 						<name>ArmorCut_Amount</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAA0EHNzAxA</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DZmZaQg==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(26, 2.2)</sString>
+							<sString>54.6</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -56,9 +77,9 @@
 					<UnitConstant>
 						<name>AbilityChance</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAA0Qg==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQg==</compiledString>
 							<returnType>float</returnType>
-							<sString>45</sString>
+							<sString>40</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -66,9 +87,9 @@
 					<UnitConstant>
 						<name>ArmorCut_Duration</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAQA==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADAQA==</compiledString>
 							<returnType>float</returnType>
-							<sString>4</sString>
+							<sString>6</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -220,10 +241,11 @@
 				<useListAs>ListAsRule</useListAs>
 			</AbilityUpgradeApplicator>
 		</Item>
+		<Item href="/Items/Talents/Level3/SecondPinkSet_Prog2025.APLR" />
 	</passiveApplicators>
 	<persistentId>G167</persistentId>
 	<prerequisiteTalents />
-	<rarity>excellent</rarity>
+	<rarity>magnificent</rarity>
 	<requireLineOfSight>true</requireLineOfSight>
 	<shortDescription textref="" />
 	<talentRollGroups>0</talentRollGroups>

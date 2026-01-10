@@ -189,6 +189,17 @@
 								<statModName></statModName>
 							</StatModApplicator>
 						</Item>
+						<Item href="/Items/Talents/Class/BladeDancer/ProgramA3.APLR" id="649BEE2A-28E1-4737-A8F8-9CD0D23010EF">
+							<StatusApplicator parent="/Heroes/DefaultStatus/status_ControlTimeDecrease.APLR">
+								<description textref="" />
+								<effect>
+									<Item href="" />
+									<Item skip="1" />
+								</effect>
+								<image href="" />
+								<name textref="" />
+							</StatusApplicator>
+						</Item>
 						<Item href="/Items/Talents/Class/BladeDancer/ProgramA3.APLR" id="3BCDB0E7-28C3-44ED-8824-6325544262F1">
 							<StatusApplicator parent="/Heroes/DefaultStatus/_HASTE_status.APLR">
 								<behaviorFlags>144</behaviorFlags>

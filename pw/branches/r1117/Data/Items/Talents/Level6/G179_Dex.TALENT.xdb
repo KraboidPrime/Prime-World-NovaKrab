@@ -31,6 +31,7 @@
 	<BackLink DBID="/Test/Talents/TestSet4.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/RerollShop/TalentsList_Rar3_Pop" Count="1" />
 	<BackLink DBID="/Social/TalentsCollection" Count="2" />
+	<BackLink DBID="/Test/Talents/Assassin/New_SUP.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -72,9 +73,9 @@
 					<UnitConstant>
 						<name>Add_Dexterity</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAmEEzM7M/</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAQQg==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(19, 1.4)</sString>
+							<sString>36</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -152,7 +153,7 @@
 	</passiveApplicators>
 	<persistentId>G179</persistentId>
 	<prerequisiteTalents />
-	<rarity>excellent</rarity>
+	<rarity>magnificent</rarity>
 	<requireLineOfSight>true</requireLineOfSight>
 	<shortDescription textref="/Items/Talents/Level6/G179_Dex.TALENT_shortDescription.txt" />
 	<talentRollGroups>63</talentRollGroups>

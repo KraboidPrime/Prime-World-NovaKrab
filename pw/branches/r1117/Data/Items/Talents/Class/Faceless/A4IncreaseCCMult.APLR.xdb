@@ -76,9 +76,9 @@
 		<Item href="" />
 	</effect>
 	<enabled>
-		<compiledString>FQ8AAAABAAAAGQAAAEZhY2VsZXNzX1V6aG9zAFWL7GoBi0UQUGgAAAAAi00MixGLTQyLgpwBAAD/0DPJO0UQD5XBisFdww==</compiledString>
+		<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 		<returnType>bool</returnType>
-		<sString>receiver.FindApplicator("Faceless_Uzhos", pMisc, UNIT) != pMisc</sString>
+		<sString>false</sString>
 	</enabled>
 	<formulaName></formulaName>
 	<lifeTime>

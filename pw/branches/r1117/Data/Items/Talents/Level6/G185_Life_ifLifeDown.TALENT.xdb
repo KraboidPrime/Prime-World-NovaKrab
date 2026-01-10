@@ -46,33 +46,13 @@
 	<constants href="/Items/Talents/Level6/G185_Life_ifLifeDown.TALENT" id="6346E6BB-F522-45A9-AB6C-0C19AFA45E36">
 		<UnitConstantsContainer>
 			<vars>
-				<Item href="/Items/Talents/Level6/G185_Life_ifLifeDown.TALENT" id="FB070C12-1CA0-45F8-B97C-7F6B10E4125A">
+				<Item href="/Items/Talents/Level6/G185_Life_ifLifeDown.TALENT" id="688FAA61-6438-423A-8C3F-7F9143D9C1A0">
 					<UnitConstant>
-						<name>CoolDown</name>
+						<name>G185_Buff</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQg==</compiledString>
+							<compiledString>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</compiledString>
 							<returnType>float</returnType>
-							<sString>120</sString>
-						</var>
-					</UnitConstant>
-				</Item>
-				<Item href="/Items/Talents/Level6/G185_Life_ifLifeDown.TALENT" id="687C0B73-F04A-4A58-A1C6-9DE96E60AF6F">
-					<UnitConstant>
-						<name>LifeDown</name>
-						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
-							<returnType>float</returnType>
-							<sString>10</sString>
-						</var>
-					</UnitConstant>
-				</Item>
-				<Item href="/Items/Talents/Level6/G185_Life_ifLifeDown.TALENT" id="191548C6-F82D-4FDD-9B8F-B8B4A77A8848">
-					<UnitConstant>
-						<name>HealAmount</name>
-						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwCAIkQAAPBB</compiledString>
-							<returnType>float</returnType>
-							<sString>refineScale(650, 30)</sString>
+							<sString>floor(min(60, max(0, 0.2*(sLifeRegen*sMaxLife*0.01+sLifeRegenAbs)+8*(tal("G483")+tal("G185")+tal("G199")+tal("G054")+tal("G123")+tal("G072")+tal("G089")+tal("G407")+tal("G465")+tal("G429")+tal("G296")+tal("G344")+tal("G400")+tal("G570")+tal("G290")))))</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -84,9 +64,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQkAAAABAAAAFQAAAENvb2xEb3duAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 		<returnType>float</returnType>
-		<sString>cCoolDown</sString>
+		<sString>0</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>
@@ -96,7 +76,7 @@
 	<description textref="/Items/Talents/Level6/G185_Life_ifLifeDown.TALENT_description.txt" />
 	<devPoints>1</devPoints>
 	<dispatch href="" />
-	<flags>4</flags>
+	<flags>5</flags>
 	<forceBonus>33</forceBonus>
 	<image href="/UI/Styles/Icons/Talents/_185.ITEX" />
 	<imageSecondState href="" />
@@ -117,20 +97,21 @@
 	<name textref="/Items/Talents/Level6/G185_Life_ifLifeDown.TALENT_name.txt" />
 	<node></node>
 	<passiveApplicators>
-		<Item href="/Items/Talents/Level6/trigger_G185.APLR" />
-		<Item href="/Items/Talents/Level6/G185_Life_ifLifeDown.TALENT" id="4065AEE0-7C19-4A3A-B1C1-7F30B1FA2DD7">
-			<SpellPeriodicallyApplicator>
-				<applyTarget>AbilityOwner</applyTarget>
-				<behaviorFlags>0</behaviorFlags>
-				<caption>триггер на кота, если мы Царица</caption>
+		<Item href="/Items/Talents/Level6/G185_Life_ifLifeDown.TALENT" id="2C2CC5A0-1C34-494B-B3CA-DDEDFB7B353F">
+			<StatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>Силушка</caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
 				<effect>
 					<Item href="" />
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FTwAAAAFAAAAQwAAAFkAAABrAAAAgwAAAJ4AAABQYW50aGVySXNBbGl2ZQAAUGFudGhlcklzQWxpdmUAAFRhcmdldAAARzE4NV9QYW50aGVyVHJpZ2dlcgBVi+yD7AxoAAAAAItFCIsQi00Ii4KIAQAA/9DcHc4AAADf4PbERHpcagGLTRBRaBAAAACLVQiLAotNCIuQnAEAAP/SiUX8aCAAAACLRfyLEItN/ItCTP/QiUX4agKLTRBRaCgAAACLVfiLAotN+IuQnAEAAP/SO0UQdQnHRfQBAAAA6wfHRfQAAAAAikX0i+VdwwAAAAAAAPA/</compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgrgAAAD/0ItNCIsRi00Ii4K8AAAA3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
 					<returnType>bool</returnType>
-					<sString>sender.vPantherIsAlive == 1 &amp;&amp; sender.applPantherIsAlive(UNIT).oTarget.applG185_PantherTrigger(ABILITY) == pMisc</sString>
+					<sString>sBaseStrength &gt;= sBaseIntellect</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<lifeTime>
@@ -139,55 +120,76 @@
 					<sString>-1.0</sString>
 				</lifeTime>
 				<LoggingEvent>-1</LoggingEvent>
-				<period>
-					<compiledString></compiledString>
-					<returnType>float</returnType>
-					<sString>0.0f</sString>
-				</period>
+				<modifier>
+					<addValue>
+						<compiledString>FQoAAAABAAAAFgAAAEcxODVfQnVmZgBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+						<returnType>float</returnType>
+						<sString>cG185_Buff</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Strength</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
 				<providerName></providerName>
-				<scaleMode>ScaleIsCount</scaleMode>
-				<spell href="/Items/Talents/Level6/G185_Life_ifLifeDown.TALENT" id="41DA8039-D639-4841-9907-0F679DC872A7">
-					<Spell>
-						<applicators>
-							<Item href="/Items/Talents/Level6/trigger_G185_Night.APLR" />
-						</applicators>
-						<dispatch href="/Items/Talents/Level6/G185_Life_ifLifeDown.TALENT" id="4F35EF42-BD01-412A-9791-AC3A05B3C636">
-							<DispatchImmediate>
-								<alwaysApply>false</alwaysApply>
-								<applyEffect>
-									<Item href="" />
-									<Item href="" />
-								</applyEffect>
-								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
-								<applyEffectOrientation>Default</applyEffectOrientation>
-								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
-								<dieAfterApply>true</dieAfterApply>
-								<dispatchEffect>
-									<Item href="" />
-									<Item href="" />
-								</dispatchEffect>
-								<flags>0</flags>
-								<instantApply>false</instantApply>
-							</DispatchImmediate>
-						</dispatch>
-					</Spell>
-				</spell>
 				<startCondition>
-					<compiledString>FRUAAAACAAAAHAAAADUAAABOaWdodF9BMAAAAABOaWdodF9BMABVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaAwAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AIpF+4vlXcM=</compiledString>
+					<compiledString></compiledString>
 					<returnType>bool</returnType>
-					<sString>tal("Night_A0")</sString>
+					<sString>true</sString>
 				</startCondition>
-				<startOffset>
+				<statModName></statModName>
+			</StatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level6/G185_Life_ifLifeDown.TALENT" id="6CDD8C27-5CDE-4045-9AF5-F5C270AD6077">
+			<StatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>Умец</caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgrgAAAD/0ItNCIsRi00Ii4K8AAAA3V34/9DcXfjf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sBaseStrength &lt; sBaseIntellect</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
 					<compiledString></compiledString>
 					<returnType>float</returnType>
-					<sString>0.0f</sString>
-				</startOffset>
-				<targetSelector href="/Items/Talents/Level6/G185_Life_ifLifeDown.TALENT" id="2730C13F-A923-4841-82A6-AA06F2711D01">
-					<RelativeUnitTargetSelector>
-						<relation>AlphaSummon</relation>
-					</RelativeUnitTargetSelector>
-				</targetSelector>
-			</SpellPeriodicallyApplicator>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQoAAAABAAAAFgAAAEcxODVfQnVmZgBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+						<returnType>float</returnType>
+						<sString>cG185_Buff</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Intellect</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
 		</Item>
 	</passiveApplicators>
 	<persistentId>G185</persistentId>
@@ -197,8 +199,8 @@
 	<shortDescription textref="/Items/Talents/Level6/G185_Life_ifLifeDown.TALENT_shortDescription.txt" />
 	<talentRollGroups>63</talentRollGroups>
 	<talentStats />
-	<targetType>0</targetType>
-	<type>Passive</type>
+	<targetType>1909247</targetType>
+	<type>Simple</type>
 	<upgradeLevel>0</upgradeLevel>
 	<useRange>
 		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>

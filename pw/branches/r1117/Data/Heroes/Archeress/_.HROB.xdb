@@ -754,9 +754,9 @@
 								<applicator href="/Heroes/Archeress/_.HROB" id="AF0D2500-C62B-480B-A404-01D9238E9B88">
 									<HealApplicator>
 										<amount>
-											<compiledString>FUUAAAACAAAAfQAAAI8AAABBcmNoZXJlc3NfUGh5c0RhbWFnZTpkYW1hZ2VEZWFsZWQAAABBcmNoZXJlc3NfTWFnRGFtYWdlOmRhbWFnZURlYWxlZABVi+yD7BSLRRCLEItNEItCSP/QiUX8i00QixGLTRCLQkj/0IlF+ItNCIsRi00Ii0I4/9BR2RwkaCQAAACLTfiLEYtN+ItCVP/QaAAAAACLTfyLEYtN/ItCVN1d8P/Q3EXw2V3s2UXsUdkcJOgHAAAAg8QIi+Vdw1WL7FHZRQjZRQze2d/g9sRBdQjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
+											<compiledString>FUUAAAACAAAAhQAAAJcAAABBcmNoZXJlc3NfUGh5c0RhbWFnZTpkYW1hZ2VEZWFsZWQAAABBcmNoZXJlc3NfTWFnRGFtYWdlOmRhbWFnZURlYWxlZABVi+yD7BiLRRCLEItNEItCSP/QiUX8i00QixGLTRCLQkj/0IlF+ItNCIsRi00Ii0I4/9DcwNld9NlF9FHZHCRoJAAAAItN+IsRi034i0JU/9BoAAAAAItN/IsRi038i0JU3V3s/9DcRezZXejZRehR2Rwk6AcAAACDxAiL5V3DVYvsUdlFCNlFDN7Z3+D2xEF1CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
 											<returnType>float</returnType>
-											<sString>min(mObjectParent-&gt;GetVariable("Archeress_PhysDamage:damageDealed") + mObjectParent-&gt;GetVariable("Archeress_MagDamage:damageDealed"), sLifeDrain)</sString>
+											<sString>min(mObjectParent-&gt;GetVariable("Archeress_PhysDamage:damageDealed") + mObjectParent-&gt;GetVariable("Archeress_MagDamage:damageDealed"), sLifeDrain * 2)</sString>
 										</amount>
 										<applyTarget>AbilityOwner</applyTarget>
 										<caption> - Эмулятор вампиризма для лучницы</caption>

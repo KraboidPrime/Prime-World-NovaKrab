@@ -11,6 +11,10 @@
 	<BackLink DBID="/Pets/Tiger/Summon.APLR" Count="1" />
 	<behaviorFlags>152</behaviorFlags>
 	<caption>Невидимые</caption>
+	<effect>
+		<Item href="/Effects/General/Invisible/_Switcher.EFFT" />
+		<Item skip="1" />
+	</effect>
 	<enabled>
 		<compiledString>FQ0AAAABAAAAFwAAAEludmlzaWJpbGl0eQBVi+xqAItFEFBoAAAAAItNCIsRi00Ii4KcAQAA/9AzyTtFEA+VwYrBXcM=</compiledString>
 		<returnType>bool</returnType>

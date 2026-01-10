@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StatusApplicator>
 	<BackLink DBID="/Items/Talents/Level4/G782_StrInt.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Level5/G331_Aspd_WillOrStmn.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level5/G331_Aspd_WillOrStmn.TALENT" Count="3" />
 	<applicators>
 		<Item href="/Items/Talents/Level4/status_G782_resurect.APLR" id="7E51D187-8D7C-4A4C-A57A-9C39A8C2B40F">
 			<StatModApplicator>
@@ -71,9 +71,9 @@
 		<Item href="" />
 	</effect>
 	<enabled>
-		<compiledString>FQAAAAABAAAAEwAAAFWL7FGLRRCLEItNEItCHP/Q3B01AAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAA8D8=</compiledString>
+		<compiledString>FRUAAAAEAAAAKgAAADYAAABPAAAAkwAAAEFuZ2VsX0E1AAAAAEFuZ2VsX0E1AFWL7IPsDItFEIsQi00Qi0Ic/9DcHb0AAADf4PbERHtyaAAAAACLTQiLEYtNCIuCqAEAAP/QhcB0KmgMAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0GotVEIsCi00Qi1Ac/9LcHbUAAADf4PbEBXsJx0X0AAAAAOsHx0X0AQAAAIpF9IvlXcMAAACgmZm5PwAAAAAAAPA/</compiledString>
 		<returnType>bool</returnType>
-		<sString>mPreparedness == 1.0f</sString>
+		<sString>mPreparedness == 1.0f || (tal("Angel_A5") &amp;&amp; mPreparedness &lt; 0.1f )</sString>
 	</enabled>
 	<flags>0</flags>
 	<formulaName></formulaName>

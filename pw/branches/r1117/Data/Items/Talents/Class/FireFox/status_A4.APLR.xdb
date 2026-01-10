@@ -44,9 +44,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+					<compiledString>FSAAAAACAAAAJwAAAEAAAABGaXJlZm94X0E0X1VwZzEARmlyZWZveF9BNF9VcGcxAFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAikX7i+Vdww==</compiledString>
 					<returnType>bool</returnType>
-					<sString>true</sString>
+					<sString>tal("Firefox_A4_Upg1")</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<lifeTime>

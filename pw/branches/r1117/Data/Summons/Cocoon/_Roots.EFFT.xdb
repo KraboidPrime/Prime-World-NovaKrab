@@ -2,6 +2,7 @@
 <BasicEffectStandalone>
 	<BackLink DBID="/Items/Talents/Class/Monster/Ability_A4_2.TALENT" Count="1" />
 	<BackLink DBID="/Summons/Cocoon/_Roots.EFFT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A4_1.TALENT" Count="1" />
 	<component href="/Summons/Cocoon/_Roots.PRXY" />
 	<deathType>Manual</deathType>
 	<enableCondition href="" />

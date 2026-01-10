@@ -14,6 +14,7 @@
 	<BackLink DBID="/Items/Talents/Class/Assassin/Ability_A3_2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Assassin/Ability_A3_2u.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset5_7_Ultimate/Status_Redset5_7_Cooldown.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Assassin/Ability_A3_SUP.TALENT" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -140,7 +141,6 @@
 												<abilityFilter>
 													<abilitiesList>
 														<Item href="/Items/Talents/Class/Assassin/Ability_A1.TALENT" />
-														<Item href="/Heroes/Assassin/AttackAbility.ATCK" />
 													</abilitiesList>
 													<abilityCondition>
 														<compiledString></compiledString>
@@ -163,15 +163,39 @@
 												<flags>0</flags>
 												<matchTargetInverted>false</matchTargetInverted>
 												<mul>
-													<compiledString>FQ0AAAABAAAAGQAAAEEzX0RhbWFnZU11bABVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+													<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
 													<returnType>float</returnType>
-													<sString>cA3_DamageMul</sString>
+													<sString>1.0f</sString>
 												</mul>
 												<objectFilter>536870914</objectFilter>
 												<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
 												<spell href="/Items/Talents/Class/Assassin/Ability_A3.TALENT" id="F6972AAB-9C05-473C-A99D-F06A7B115655">
 													<Spell>
 														<applicators>
+															<Item href="/Items/Talents/Class/Assassin/Ability_A3.TALENT" id="D257BA51-30EE-4F42-B83B-B84AFB194751">
+																<DamageApplicator>
+																	<applyTarget>ApplicatorTarget</applyTarget>
+																	<cancelInvisibility>true</cancelInvisibility>
+																	<caption></caption>
+																	<damage>
+																		<compiledString>FQsAAAABAAAAFwAAAEExX05FV19ETUcAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+																		<returnType>float</returnType>
+																		<sString>cA1_NEW_DMG</sString>
+																	</damage>
+																	<damageMode>0</damageMode>
+																	<damageType>Material</damageType>
+																	<enabled>
+																		<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+																		<returnType>bool</returnType>
+																		<sString>true</sString>
+																	</enabled>
+																	<formulaName></formulaName>
+																	<LoggingEvent>-1</LoggingEvent>
+																	<providerName></providerName>
+																	<timeLimiter>-1</timeLimiter>
+																	<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Material.UIEV" />
+																</DamageApplicator>
+															</Item>
 															<Item href="/Items/Talents/Class/Assassin/StopMark.APLR" />
 														</applicators>
 														<dispatch href="/Items/Talents/Class/Assassin/Ability_A3.TALENT" id="D07C41CF-89AC-46AA-92BD-835AC5F8176E">
@@ -190,7 +214,7 @@
 																	<Item href="" />
 																</dispatchEffect>
 																<flags>0</flags>
-																<instantApply>true</instantApply>
+																<instantApply>false</instantApply>
 															</DispatchImmediate>
 														</dispatch>
 													</Spell>
@@ -406,7 +430,6 @@
 					</UnitConstant>
 				</Item>
 				<Item href="/Items/Talents/Class/Assassin/const_A3u_Haste_Duration" />
-				<Item href="/Items/Talents/Class/Assassin/const_A3u_Haste_Percent" />
 				<Item href="/Items/Talents/Class/Assassin/Ability_A3.TALENT" id="97D8A277-C40A-4ABA-B9BC-259ECA48330D">
 					<UnitConstant>
 						<name>UltimateConstant</name>
@@ -419,6 +442,27 @@
 				</Item>
 				<Item href="/Items/Talents/Class/Assassin/const_A0_SUP_2_Inc_Resp_Time" />
 				<Item href="/Items/Talents/Class/Assassin/const_A0_SUP_2_Appl_Duration" />
+				<Item href="/Items/Talents/Class/Assassin/const_A3_SUP_Damage_Increase_Rate" />
+				<Item href="/Items/Talents/Class/Assassin/Ability_A3.TALENT" id="6315C410-136A-4B9D-859F-82ACDCB74EA0">
+					<UnitConstant>
+						<name>A1_NEW_DMG</name>
+						<var>
+							<compiledString>FS0AAAAIAAAANAAAAE0AAAB/AAAAiQAAAMQAAADOAAAAEQEAACcBAABBc3Nhc3Npbl9BMXUAAAAAQXNzYXNzaW5fQTF1AAAAAEEzX0RhbWFnZU11bABVi+yD7ChoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AGoBUdkFTAEAANkcJFHZBUgBAADZHCRqAItNCIsRi00Ii4IwAQAA/9BR2RwkagGLTRCLEYtNEItCYP/QD7ZN+4lN9NtF9GoBUdkFRAEAANkcJFHZBUABAADZHCRqAItVCIsCi00Ii5AwAQAA2cndXezdXeT/0lHZHCRqAYtFEIsQi00Qi0Jg/9DcTeTcReyLTQxRi1UIUmggAAAAi0UQixCLTRCLQlDdXdz/0NwlOAEAANxN3Nld2NlF2IvlXcMAAAAAAADwPwAASEIAgLtDAACGQgAA+kM=</compiledString>
+							<returnType>float</returnType>
+							<sString>(damageScale( sStrength, 67, 500 ) + tal("Assassin_A1u")*damageScale( sStrength, 50, 375 ))*(cA3_DamageMul-1)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Assassin/Ability_A3.TALENT" id="D7212630-8305-40EE-BFD7-3574DB51A4BF">
+					<UnitConstant>
+						<name>Haste_Percent</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQg==</compiledString>
+							<returnType>float</returnType>
+							<sString>60.0f</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
@@ -427,9 +471,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADgQA==</compiledString>
 		<returnType>float</returnType>
-		<sString>10</sString>
+		<sString>7</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>

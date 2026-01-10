@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BaseAttack>
+	<BackLink DBID="/Summons/Demon/_.SUMMONED" Count="1" />
+	<BackLink DBID="/Summons/Demon/_1.SUMMONED" Count="1" />
+	<BackLink DBID="/Summons/Demon/_2.SUMMONED" Count="1" />
+	<BackLink DBID="/Summons/Demon/_3.SUMMONED" Count="1" />
+	<activeCustomTrigger>true</activeCustomTrigger>
+	<allowChase>
+		<compiledString></compiledString>
+		<returnType>bool</returnType>
+		<sString>true</sString>
+	</allowChase>
+	<alternativeTargets />
+	<aoeDisplayOnMinimap>false</aoeDisplayOnMinimap>
+	<aoeHeight>0</aoeHeight>
+	<aoeMaterial href="" />
+	<aoePassabilityCheckMode>0</aoePassabilityCheckMode>
+	<aoeSize>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</aoeSize>
+	<aoeType>None</aoeType>
+	<applicators>
+		<Item href="/Effects/Shots/HitsApplicators/Melee.APLR" />
+		<Item href="/GameLogic/GeneralApplicators/BaseAttackDmg_Hero_material.APLR" />
+	</applicators>
+	<autoTargetSelector href="" />
+	<caption></caption>
+	<castAllowRange>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</castAllowRange>
+	<castLimitations />
+	<commonDescription textref="" />
+	<compiledDescriptionA textref="" />
+	<compiledDescriptionB textref="" />
+	<conditionFormulas />
+	<constants href="" />
+	<cooldownTime>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</cooldownTime>
+	<cooldownTimeSecondState>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</cooldownTimeSecondState>
+	<description textref="" />
+	<dispatch href="/Summons/Demon/Attack1.ATCK" id="57C6A8D8-070D-4EB7-8AD5-094C36D259B5">
+		<DispatchImmediate>
+			<alwaysApply>false</alwaysApply>
+			<applyEffect>
+				<Item href="" />
+				<Item href="" />
+			</applyEffect>
+			<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+			<applyEffectOrientation>Default</applyEffectOrientation>
+			<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+			<dieAfterApply>true</dieAfterApply>
+			<dispatchEffect>
+				<Item href="" />
+				<Item href="" />
+			</dispatchEffect>
+			<flags>3</flags>
+			<instantApply>false</instantApply>
+		</DispatchImmediate>
+	</dispatch>
+	<flags>5</flags>
+	<image href="" />
+	<imageSecondState href="" />
+	<isMelee>true</isMelee>
+	<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
+	<manaCost>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</manaCost>
+	<marker></marker>
+	<microAI href="" />
+	<minUseRangeCorrection>0</minUseRangeCorrection>
+	<name textref="" />
+	<node></node>
+	<passiveApplicators>
+		<Item href="/GameLogic/GeneralApplicators/Uncontrollable.APLR" />
+		<Item href="/GameLogic/GeneralApplicators/Pet.APLR" />
+		<Item href="/Summons/Demon/Attack1.ATCK" id="B186F68F-BB98-4338-80E5-D9FDAD471A7E">
+			<FlagsApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>Не переагриваться, если у нас есть цель</caption>
+				<consumables />
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsi0UIixCLTQiLgoQBAAD/0DPJO0UID5XBisFdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sObjectTarget != pFirst</sString>
+				</enabled>
+				<flag>2</flag>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<talents />
+				<useListAs>ListAsRule</useListAs>
+			</FlagsApplicator>
+		</Item>
+		<Item href="/Summons/Demon/Attack1.ATCK" id="7A771646-4ED9-47DC-98A6-B087539EF276">
+			<AbilityUpgradeApplicator>
+				<applicators>
+					<Item href="/Summons/Demon/Attack1.ATCK" id="AC36F5EF-9566-4A78-B343-C6E743535B5A">
+						<SpellApplicator>
+							<applyTarget>ApplicatorTarget</applyTarget>
+							<caption>спелл с аое вокруг цели</caption>
+							<enabled>
+								<compiledString>FQUAAAACAAAAMgAAAFYAAABXYXJkAFWL7FFR2ejZHCRR2e7ZHCRqAYtFDIsQi00Mi0JY/9APtshR6GkAAACDxAzcHYYAAADf4PbERHs7i1UMiwKLTQyLUFD/0oP4EXQpagCLRRBQaAAAAACLTQyLEYtNDIuCnAEAAP/QO0UQdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAAAAAAAAAAAgD9Vi+xRD7ZFCIXAdAjZRQzZXfzrBtlFENld/NlF/IvlXcM=</compiledString>
+								<returnType>bool</returnType>
+								<sString>ut_bldg(false, true) &amp;&amp; rUnitKind != 17 &amp;&amp; receiver.applWard(GLOBAL) == pMisc</sString>
+							</enabled>
+							<formulaName></formulaName>
+							<LoggingEvent>-1</LoggingEvent>
+							<providerName></providerName>
+							<spell href="/Summons/Demon/Attack1.ATCK" id="A461B9B5-DA7A-42CD-BA26-5EC15BEBFF4C">
+								<Spell>
+									<applicators>
+										<Item href="/Summons/Demon/Attack1.ATCK" id="44F19170-AEAE-448E-BEBE-5F3234E43720">
+											<DamageApplicator>
+												<applyTarget>ApplicatorTarget</applyTarget>
+												<cancelInvisibility>false</cancelInvisibility>
+												<caption>урончик</caption>
+												<damage>
+													<compiledString>FQAAAAAAAAAAVYvsi0UIixCLTQiLgjABAAD/0F3D</compiledString>
+													<returnType>float</returnType>
+													<sString>sStrength</sString>
+												</damage>
+												<damageMode>0</damageMode>
+												<damageType>Material</damageType>
+												<enabled>
+													<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+													<returnType>bool</returnType>
+													<sString>true</sString>
+												</enabled>
+												<formulaName></formulaName>
+												<LoggingEvent>-1</LoggingEvent>
+												<providerName></providerName>
+												<timeLimiter>-1</timeLimiter>
+												<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Material.UIEV" />
+											</DamageApplicator>
+										</Item>
+									</applicators>
+									<dispatch href="/Summons/Demon/Attack1.ATCK" id="44F51709-5127-4B78-BF17-488207E551FD">
+										<DispatchImmediate>
+											<alwaysApply>false</alwaysApply>
+											<applyEffect>
+												<Item href="" />
+												<Item href="" />
+											</applyEffect>
+											<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+											<applyEffectOrientation>Default</applyEffectOrientation>
+											<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+											<dieAfterApply>true</dieAfterApply>
+											<dispatchEffect>
+												<Item href="" />
+												<Item href="" />
+											</dispatchEffect>
+											<flags>2</flags>
+											<instantApply>false</instantApply>
+										</DispatchImmediate>
+									</dispatch>
+								</Spell>
+							</spell>
+							<spellTarget>ApplicatorTarget</spellTarget>
+							<targetSelector href="/Summons/Demon/Attack1.ATCK" id="AD1CBFE1-F38C-4286-9FE8-93F0E984BAF9">
+								<AreaTargetSelector>
+									<absolutePosition>
+										<x>0</x>
+										<y>0</y>
+									</absolutePosition>
+									<flags>3</flags>
+									<mode>Normal</mode>
+									<range>
+										<compiledString>FQwAAAACAAAAGQAAACwAAABSYW5nZV9NZWxlZQBVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcBToAAADZXfzZRfyL5V3DAAAAAAAAAEA=</compiledString>
+										<returnType>float</returnType>
+										<sString>(cRange_Melee+2)</sString>
+									</range>
+									<targetFilter>572342335</targetFilter>
+									<targetSelector href="" />
+								</AreaTargetSelector>
+							</targetSelector>
+						</SpellApplicator>
+					</Item>
+				</applicators>
+				<applyCount>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</applyCount>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>аое</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FQgAAAACAAAADQAAACMAAABHMjYwYW9lAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHUUAAADf4PbERHoJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAADwPw==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vG260aoe == 1.0f</sString>
+				</enabled>
+				<flags>0</flags>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<persistentApplicators />
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<talents />
+				<targetAbility>BaseAttack</targetAbility>
+				<useListAs>ListAsRule</useListAs>
+			</AbilityUpgradeApplicator>
+		</Item>
+	</passiveApplicators>
+	<requireLineOfSight>false</requireLineOfSight>
+	<shortDescription textref="" />
+	<targetType>538911231</targetType>
+	<type>Passive</type>
+	<useRange>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</useRange>
+	<useRangeMaterial href="" />
+	<warFogRemoveRadius>0</warFogRemoveRadius>
+	<warFogRemoveTime>0</warFogRemoveTime>
+</BaseAttack>

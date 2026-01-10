@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Consumable>
 	<BackLink DBID="/Buildings/DefaultStats/Basic.CNSH" Count="1" />
-	<BackLink DBID="/Buildings/DefaultStats/Basic_NY.CNSH" Count="1" />
+	<BackLink DBID="/Buildings/DefaultStats/Basic_NY.CNSH" Count="2" />
 	<BackLink DBID="/Buildings/DefaultStats/Secret.CNSH" Count="1" />
-	<BackLink DBID="/Buildings/DefaultStats/Secret_NY.CNSH" Count="1" />
+	<BackLink DBID="/Buildings/DefaultStats/Secret_NY.CNSH" Count="3" />
 	<BackLink DBID="/GameLogic/Scoring.SCTB" Count="1" />
 	<BackLink DBID="/Items/Consumables/TeleportScroll.ARCT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level4/status_G336_TelBlock.APLR" Count="1" />
@@ -115,9 +115,9 @@
 					<UnitConstant>
 						<name>Channeling_Time</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADAQA==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
 							<returnType>float</returnType>
-							<sString>6</sString>
+							<sString>5</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -125,9 +125,9 @@
 		</UnitConstantsContainer>
 	</constants>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABSQw==</compiledString>
+		<compiledString>FQ4AAAACAAAAFQAAAC4AAABHMTAwMgAAAEcxMDAyAFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoCAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+/fZG8mD4cGBwdIAAACJTfTbRfSL5V3D</compiledString>
 		<returnType>float</returnType>
-		<sString>210</sString>
+		<sString>tal("G1002") ? 147 : 210</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>
@@ -166,7 +166,7 @@
 		<sString>0</sString>
 	</manaCost>
 	<marker></marker>
-	<maxQuantity>5</maxQuantity>
+	<maxQuantity>100</maxQuantity>
 	<microAI href="" />
 	<minUseRangeCorrection>0</minUseRangeCorrection>
 	<naftaCost>150</naftaCost>

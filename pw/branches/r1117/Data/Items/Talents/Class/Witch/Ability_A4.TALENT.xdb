@@ -143,9 +143,9 @@
 					<UnitConstant>
 						<name>Panic_Duration</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
 							<returnType>float</returnType>
-							<sString>2</sString>
+							<sString>3</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -208,9 +208,9 @@
 	<isUltimateTalent>true</isUltimateTalent>
 	<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
 	<manaCost>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACWQw==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAWQw==</compiledString>
 		<returnType>float</returnType>
-		<sString>300</sString>
+		<sString>150</sString>
 	</manaCost>
 	<marker>doCast4</marker>
 	<microAI href="/Items/Talents/Class/Witch/Ability_A4.TALENT" id="28516B42-29BD-491A-B635-8E04F77592EA">

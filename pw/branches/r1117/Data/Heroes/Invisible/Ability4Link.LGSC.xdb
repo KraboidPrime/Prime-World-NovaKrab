@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DBLightningSceneComponent>
 	<BackLink DBID="/Heroes/Invisible/Ability4Link.EFFT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Invisible/Ability_A4_2.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" Count="2" />
 	<attached />
 	<caption></caption>
-	<fromLocator>Fan</fromLocator>
+	<fromLocator>Body</fromLocator>
 	<fxParams>
 		<animAtlasSize>1</animAtlasSize>
 		<animFirstFrame>0</animFirstFrame>

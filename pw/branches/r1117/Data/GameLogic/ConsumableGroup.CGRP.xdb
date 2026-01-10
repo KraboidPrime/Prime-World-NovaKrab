@@ -11,6 +11,7 @@
 				<Item href="/Items/Consumables/Pet_Horse.ARCT" />
 				<Item href="/Items/Consumables/Pet_Pig.ARCT" />
 				<Item href="/Items/Consumables/Pet_Tiger.ARCT" />
+				<Item href="/Items/Consumables/Pet_mage.ARCT" />
 			</consumables>
 			<cooldown>2</cooldown>
 			<description textref="" />

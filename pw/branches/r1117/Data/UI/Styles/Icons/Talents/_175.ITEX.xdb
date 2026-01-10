@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UITexture>
-	<BackLink DBID="/Items/Talents/Level6/G175_Defens_ifLifeDown.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level6/G175_Defens_ifLifeDown.TALENT" Count="6" />
 	<BackLink DBID="/Items/Talents/Level6/status_G175_DmgReduce.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Level6/status_G175_ifWeCant.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Level6/Trigger_G175.APLR" Count="2" />
 	<generatedFileName></generatedFileName>
 	<importOnlyShape>false</importOnlyShape>
 	<mipLevels>0</mipLevels>

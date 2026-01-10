@@ -14,9 +14,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString></compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UMixCLTQyLgrwAAAD/0ItNDIsRi00Mi4K4AAAA3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
 					<returnType>bool</returnType>
-					<sString>true</sString>
+					<sString>rBaseIntellect &gt;= rBaseStrength</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<lifeTime>
@@ -37,6 +37,53 @@
 						<sString>1.0f</sString>
 					</multValue>
 					<stat>Intellect</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName>IntCutAmount</statModName>
+			</StatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/TalentKits/Redset5_4_StrDamage/status_DecInt_AAUpg.APLR" id="4517150A-B717-4E86-B752-FDCB5E0D6B39">
+			<StatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>144</behaviorFlags>
+				<caption>уменьшить Разум</caption>
+				<constraint>None</constraint>
+				<dontUpdate>true</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UMixCLTQyLgrwAAAD/0ItNDIsRi00Mi4K4AAAA3V34/9DcXfjf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>rBaseIntellect &lt; rBaseStrength</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQ0AAAABAAAAGQAAAEludEN1dEFtb3VudABVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0tngXcM=</compiledString>
+						<returnType>float</returnType>
+						<sString>-cIntCutAmount</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Strength</stat>
 					<topModifier>false</topModifier>
 					<variable></variable>
 				</modifier>

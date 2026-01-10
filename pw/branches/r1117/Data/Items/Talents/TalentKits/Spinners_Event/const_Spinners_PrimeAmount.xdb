@@ -9,8 +9,8 @@
 	<BackLink DBID="/Items/Talents/Level3/G607_Int.TALENT" Count="1" />
 	<name>PrimeAmount</name>
 	<var>
-		<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+		<compiledString>FS8AAAAEAAAANgAAAEwAAABYAAAAbgAAAFNwaW5uZXJfVG9vbHRpcENvdW50ZXIAAFNwaW5uZXJfVG9vbHRpcENvdW50ZXIAVYvsg+wIaAAAAACLRQiLEItNCIuCiAEAAP/Q3B2nAAAA3+D2xAF1OmgYAAAAi00IixGLTQiLgogBAAD/0NwdnwAAAN/g9sQBdQnHRfwEAAAA6wfHRfwCAAAAi038iU346wfHRfgBAAAA20X4i+VdwwAAAAAAABhAAAAAAAAAEEA=</compiledString>
 		<returnType>float</returnType>
-		<sString>1</sString>
+		<sString>sender.vSpinner_TooltipCounter &gt;= 4 ? (sender.vSpinner_TooltipCounter &gt;= 6 ? 4 : 2) : 1</sString>
 	</var>
 </UnitConstant>

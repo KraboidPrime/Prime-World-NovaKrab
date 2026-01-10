@@ -914,7 +914,7 @@
 																												<sString>cA4_AoEDamage</sString>
 																											</damage>
 																											<damageMode>0</damageMode>
-																											<damageType>Material</damageType>
+																											<damageType>Energy</damageType>
 																											<enabled>
 																												<compiledString></compiledString>
 																												<returnType>bool</returnType>
@@ -924,7 +924,7 @@
 																											<LoggingEvent>-1</LoggingEvent>
 																											<providerName></providerName>
 																											<timeLimiter>-1</timeLimiter>
-																											<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Material.UIEV" />
+																											<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Energy.UIEV" />
 																										</DamageApplicator>
 																									</Item>
 																								</applicators>
@@ -1838,6 +1838,43 @@
 			</SpellApplicator>
 		</Item>
 		<Item href="/Items/Talents/Class/PinkGirl/PinkGirl_A0_Flag.APLR" />
+		<Item href="/Items/Talents/Class/PinkGirl/Ability_A4.TALENT" id="DDACC6AD-1E1B-419C-AC7F-5BB34C191E6D">
+			<EyeApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<cancelObstacles>false</cancelObstacles>
+				<caption>открыть туман</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<eyeTarget>ApplicatorTarget</eyeTarget>
+				<flags>8</flags>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
+					<returnType>float</returnType>
+					<sString>3</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<visRange>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAQA==</compiledString>
+					<returnType>float</returnType>
+					<sString>4</sString>
+				</visRange>
+			</EyeApplicator>
+		</Item>
 	</applicators>
 	<askId>4</askId>
 	<autoTargetSelector href="" />
@@ -1895,9 +1932,9 @@
 					<UnitConstant>
 						<name>A4_Damage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACaQgDAD0Q=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBWMAAADZHCRR2QVfAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJItNCIsRi00Ii4I0AQAA/9BR2Rwk6B8AAACDxATZHCRqAYtNEIsRi00Qi0Jg/9BdwwAAmkIAwA9EVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(sStrength, 77, 575)</sString>
+							<sString>damageScale(max(sIntellect, sStrength), 77, 575)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -1946,9 +1983,9 @@
 					<UnitConstant>
 						<name>A4u_MaxBlinkRange</name>
 						<var>
-							<compiledString>FR0AAAADAAAALAAAAEYAAABfAAAAQTRfQ2FzdFJhbmdlAAAAAFB1c2hEaXN0YW5jZQBVi+yD7AyLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0otFDFCLTQhRaBAAAACLVRCLAotNEItQUN1d+P/S3EX43AVtAAAA2V302UX0i+VdwwAAAAAAABxA</compiledString>
+							<compiledString>FR0AAAADAAAALAAAAEYAAABfAAAAQTRfQ2FzdFJhbmdlAAAAAFB1c2hEaXN0YW5jZQBVi+yD7AyLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0otFDFCLTQhRaBAAAACLVRCLAotNEItQUN1d+P/S3EX43AVtAAAA2V302UX0i+VdwwAAAAAAACRA</compiledString>
 							<returnType>float</returnType>
-							<sString>cA4_CastRange + cPushDistance + 7 </sString>
+							<sString>cA4_CastRange + cPushDistance + 10</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -1967,9 +2004,9 @@
 					<UnitConstant>
 						<name>A4_AoEDamage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAD4QQAAaUM=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACaQgDAD0Q=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(sStrength, 31, 233)</sString>
+							<sString>damageScale(sIntellect, 77, 575)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -2001,9 +2038,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQg==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQg==</compiledString>
 		<returnType>float</returnType>
-		<sString>120</sString>
+		<sString>80</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>
@@ -2040,9 +2077,9 @@
 	<isUltimateTalent>true</isUltimateTalent>
 	<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
 	<manaCost>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACWQw==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQw==</compiledString>
 		<returnType>float</returnType>
-		<sString>300</sString>
+		<sString>200</sString>
 	</manaCost>
 	<marker></marker>
 	<microAI href="/Items/Talents/Class/PinkGirl/Ability_A4.TALENT" id="C2056568-D8D2-458D-83EF-E50C4DB57467">

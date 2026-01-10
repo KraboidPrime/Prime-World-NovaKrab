@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SummonApplicator parent="/Pets/ParentSummon.APLR">
+	<BackLink DBID="/Items/Consumables/Pet_Cat.ARCT" Count="1" />
+	<BackLink DBID="/Pets/Cat/Ressurector.APLR" Count="1" />
+	<BackLink DBID="/Items/Consumables/Pet_mage.ARCT" Count="1" />
+	<BackLink DBID="/Pets/mage/Ressurector.APLR" Count="1" />
+	<BackLink DBID="/Items/Consumables/Pet_Lady.ARCT" Count="1" />
+	<BackLink DBID="/Pets/Lady/Ressurector.APLR" Count="1" />
+	<formulaName></formulaName>
+	<summonedUnits>
+		<Item href="/Pets/Lady/_.SUMMONED" />
+	</summonedUnits>
+</SummonApplicator>

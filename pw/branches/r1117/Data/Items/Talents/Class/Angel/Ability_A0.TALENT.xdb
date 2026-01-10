@@ -57,6 +57,26 @@
 						</var>
 					</UnitConstant>
 				</Item>
+				<Item href="/Items/Talents/Class/Angel/Ability_A0.TALENT" id="27A77700-56F1-4AAB-A2B7-246B881EABE8">
+					<UnitConstant>
+						<name>A0_En_Res</name>
+						<var>
+							<compiledString>FQAAAAACAAAAFgAAABwAAABVi+xRi0UIixCLTQiLgrwAAAD/0NwNMgAAANwlKgAAANld/NlF/IvlXcMAAAAAAAAQQHsUrkfherQ/</compiledString>
+							<returnType>float</returnType>
+							<sString>0.08*sBaseIntellect - 4</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Angel/Ability_A0.TALENT" id="121670AC-1DCD-483E-A732-133DBFF47E29">
+					<UnitConstant>
+						<name>A0_Mat_Res</name>
+						<var>
+							<compiledString>FQAAAAACAAAAFgAAABwAAABVi+xRi0UIixCLTQiLgrgAAAD/0NwNMgAAANwlKgAAANld/NlF/IvlXcMAAAAAAAAQQHsUrkfherQ/</compiledString>
+							<returnType>float</returnType>
+							<sString>0.08*sBaseStrength - 4</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
@@ -143,6 +163,152 @@
 				</targetSelector>
 				<type>Ally</type>
 			</AuraApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/Angel/Ability_A0.TALENT" id="4A068790-2197-4777-927E-4D01A417BB5D">
+			<StatusApplicator>
+				<applicators>
+					<Item href="/Items/Talents/Class/Angel/Ability_A0.TALENT" id="EC56C4D6-E3D0-40FA-B0B4-962963AB845D">
+						<StatModApplicator>
+							<applyTarget>ApplicatorTarget</applyTarget>
+							<behaviorFlags>216</behaviorFlags>
+							<caption>Маг резист</caption>
+							<constraint>None</constraint>
+							<dontUpdate>false</dontUpdate>
+							<effect>
+								<Item href="" />
+								<Item href="" />
+							</effect>
+							<enabled>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</enabled>
+							<formulaName></formulaName>
+							<lifeTime>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>-1.0</sString>
+							</lifeTime>
+							<LoggingEvent>-1</LoggingEvent>
+							<modifier>
+								<addValue>
+									<compiledString>FQoAAAABAAAAFgAAAEEwX0VuX1JlcwBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+									<returnType>float</returnType>
+									<sString>cA0_En_Res</sString>
+								</addValue>
+								<multValue>
+									<compiledString></compiledString>
+									<returnType>float</returnType>
+									<sString>1.0f</sString>
+								</multValue>
+								<stat>EnergyDamageDecrease</stat>
+								<topModifier>false</topModifier>
+								<variable></variable>
+							</modifier>
+							<providerName></providerName>
+							<startCondition>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</startCondition>
+							<statModName></statModName>
+						</StatModApplicator>
+					</Item>
+					<Item href="/Items/Talents/Class/Angel/Ability_A0.TALENT" id="F722F957-002D-4941-92DC-D9C44B873EF2">
+						<StatModApplicator>
+							<applyTarget>ApplicatorTarget</applyTarget>
+							<behaviorFlags>216</behaviorFlags>
+							<caption>Физ резист</caption>
+							<constraint>None</constraint>
+							<dontUpdate>false</dontUpdate>
+							<effect>
+								<Item href="" />
+								<Item href="" />
+							</effect>
+							<enabled>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</enabled>
+							<formulaName></formulaName>
+							<lifeTime>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>-1.0</sString>
+							</lifeTime>
+							<LoggingEvent>-1</LoggingEvent>
+							<modifier>
+								<addValue>
+									<compiledString>FQsAAAABAAAAFwAAAEEwX01hdF9SZXMAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+									<returnType>float</returnType>
+									<sString>cA0_Mat_Res</sString>
+								</addValue>
+								<multValue>
+									<compiledString></compiledString>
+									<returnType>float</returnType>
+									<sString>1.0f</sString>
+								</multValue>
+								<stat>MaterialDamageDecrease</stat>
+								<topModifier>false</topModifier>
+								<variable></variable>
+							</modifier>
+							<providerName></providerName>
+							<startCondition>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</startCondition>
+							<statModName></statModName>
+						</StatModApplicator>
+					</Item>
+				</applicators>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>Резисты</caption>
+				<customCounter>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</customCounter>
+				<customProgress>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</customProgress>
+				<description textref="/Items/Talents/Class/Angel/Ability_A0.TALENT_4a06879021974777927e4d01a417bb5d_description.txt" />
+				<dispellPriority>NonDispellable</dispellPriority>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<flags>64</flags>
+				<formulaName></formulaName>
+				<image href="/UI/Styles/Icons/Heroes/Angel/A0.ITEX" />
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<name textref="/Items/Talents/Class/Angel/Ability_A0.TALENT_4a06879021974777927e4d01a417bb5d_name.txt" />
+				<power>0</power>
+				<providerName></providerName>
+				<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+				<stackCount>0</stackCount>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statusPosition>0</statusPosition>
+				<stopBehaviour>StopByTime</stopBehaviour>
+				<unstackableWith href="" />
+			</StatusApplicator>
 		</Item>
 	</passiveApplicators>
 	<persistentId>Angel_A0</persistentId>

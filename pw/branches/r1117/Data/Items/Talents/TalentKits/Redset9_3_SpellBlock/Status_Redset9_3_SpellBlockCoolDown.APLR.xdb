@@ -30,9 +30,9 @@
 	<formulaName>G706_DebuffOnline</formulaName>
 	<image href="/UI/Styles/Icons/Talents/_707.ITEX" />
 	<lifeTime>
-		<compiledString>FRQAAAABAAAAIAAAAFNwZWxsX0Jsb2NrQ29vbGRvd24AVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+		<compiledString>FQAAAAAAAAAAVYvsi0UQixCLTRCLQjz/0F3D</compiledString>
 		<returnType>float</returnType>
-		<sString>cSpell_BlockCooldown</sString>
+		<sString>mCooldown</sString>
 	</lifeTime>
 	<LoggingEvent>-1</LoggingEvent>
 	<name textref="/Items/Talents/TalentKits/Redset9_3_SpellBlock/Status_Redset9_3_SpellBlockCoolDown.APLR_name.txt" />

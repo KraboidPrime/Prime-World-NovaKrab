@@ -504,11 +504,11 @@
 				</Item>
 				<Item href="/Items/Talents/Class/Ratcatcher/Ability4.TALENT" id="EA9C6920-C64F-454F-A09D-C2D6AC3B713F">
 					<UnitConstant>
-						<name>TotalStamina</name>
+						<name>TotalDefence</name>
 						<var>
-							<compiledString>FUIAAAAEAAAASQAAAGIAAACCAAAAngAAAFBvd2VyT2ZNYW55Q291bnQAAAAAUmF0Y2F0Y2hlcl9BMAAAAFJhdGNhdGNoZXJfQTAAAABCb251c19TdGFtaW5hAFWL7IPsDGgUAAAAi0UIixCLTQiLgqgBAAD/0IXAdDdoJAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTQxRi1UIUmg0AAAAi0X8ixCLTfyLQlD/0Nld+OsF2e7ZXfhoAAAAAItNCIsRi00Ii4KIAQAA/9DYTfjZXfTZRfSL5V3DAAAAAA==</compiledString>
+							<compiledString>FUIAAAAEAAAASQAAAGIAAACCAAAAngAAAFBvd2VyT2ZNYW55Q291bnQAAAAAUmF0Y2F0Y2hlcl9BMAAAAFJhdGNhdGNoZXJfQTAAAABCb251c19EZWZlbmNlAFWL7IPsDGgUAAAAi0UIixCLTQiLgqgBAAD/0IXAdDdoJAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTQxRi1UIUmg0AAAAi0X8ixCLTfyLQlD/0Nld+OsF2e7ZXfhoAAAAAItNCIsRi00Ii4KIAQAA/9DYTfjZXfTZRfSL5V3DAAAAAA==</compiledString>
 							<returnType>float</returnType>
-							<sString>sender.vPowerOfManyCount * talconstNoCheck("Ratcatcher_A0","Bonus_Stamina")</sString>
+							<sString>sender.vPowerOfManyCount * talconstNoCheck("Ratcatcher_A0","Bonus_Defence")</sString>
 						</var>
 					</UnitConstant>
 				</Item>

@@ -103,13 +103,13 @@
 							</add>
 							<applyTarget>AbilityOwner</applyTarget>
 							<checkSender>0</checkSender>
-							<damageTypeFilter>31</damageTypeFilter>
+							<damageTypeFilter>15</damageTypeFilter>
 							<flags>0</flags>
 							<matchTargetInverted>false</matchTargetInverted>
 							<mul>
 								<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
 								<returnType>float</returnType>
-								<sString>1</sString>
+								<sString>1.0f</sString>
 							</mul>
 							<objectFilter>572465663</objectFilter>
 							<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
@@ -144,9 +144,9 @@
 					</processor>
 					<providerName></providerName>
 					<startCondition>
-						<compiledString>FRsAAAACAAAAIAAAADYAAABBZGRfQXJtb3JfUmVkc2V0MV8zQ291bnRlcgBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1YAAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAEA=</compiledString>
+						<compiledString>FRsAAAACAAAAIAAAADYAAABBZGRfQXJtb3JfUmVkc2V0MV8zQ291bnRlcgBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1YAAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAACEA=</compiledString>
 						<returnType>bool</returnType>
-						<sString>sender.vAdd_Armor_Redset1_3Counter == 2</sString>
+						<sString>sender.vAdd_Armor_Redset1_3Counter == 3</sString>
 					</startCondition>
 					<useAbilityCooldown>true</useAbilityCooldown>
 					<useAbilityOwnerMana>false</useAbilityOwnerMana>
@@ -186,9 +186,9 @@
 						<Item href="" />
 					</effect>
 					<enabled>
-						<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+						<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 						<returnType>bool</returnType>
-						<sString>true</sString>
+						<sString>false</sString>
 					</enabled>
 					<formulaName></formulaName>
 					<lifeTime>
@@ -213,9 +213,9 @@
 								<onlySingleTarget>false</onlySingleTarget>
 							</abilityFilter>
 							<add>
-								<compiledString>FRIAAAABAAAAHgAAAFB1cmVEZWZlbmNlQW1vdW50AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S2eBdww==</compiledString>
+								<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 								<returnType>float</returnType>
-								<sString>-cPureDefenceAmount</sString>
+								<sString>0</sString>
 							</add>
 							<applyTarget>ApplicatorSelectedTarget</applyTarget>
 							<checkSender>0</checkSender>
@@ -260,9 +260,9 @@
 					</processor>
 					<providerName></providerName>
 					<startCondition>
-						<compiledString>FRsAAAACAAAAIAAAADYAAABBZGRfQXJtb3JfUmVkc2V0MV8zQ291bnRlcgBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1YAAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAEEA=</compiledString>
+						<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 						<returnType>bool</returnType>
-						<sString>sender.vAdd_Armor_Redset1_3Counter == 4</sString>
+						<sString>false</sString>
 					</startCondition>
 					<useAbilityCooldown>true</useAbilityCooldown>
 					<useAbilityOwnerMana>false</useAbilityOwnerMana>

@@ -14,6 +14,7 @@
 	<BackLink DBID="/Test/Talents/Hunter/Epic_Int.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Hunter/Epic_Str.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Hunter/Ability_A0_SUP.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Hunter/Ability_A2_SUP.TALENT" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -76,9 +77,9 @@
 					<UnitConstant>
 						<name>A0_Damage</name>
 						<var>
-							<compiledString>FR4AAAAGAAAAJQAAAD4AAAB4AAAAggAAALgAAADCAAAASHVudGVyX0EwX1NVUAAAAEh1bnRlcl9BMF9TVVAAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0QGoBUdkFBAEAANkcJFHZBQABAADZHCRqAItVCIsCi00Ii5AwAQAA/9JR2RwkagCLRRCLEItNEItCYP/Q2V306z5qAVHZBfwAAADZHCRR2QX4AAAA2RwkagCLTQiLEYtNCIuCMAEAAP/QUdkcJGoAi00QixGLTRCLQmD/0Nld9NlF9IvlXcMAAKBAAAAYQgAA4EAAAEhC</compiledString>
+							<compiledString>FR4AAAAGAAAAJQAAAD4AAAB4AAAAggAAANcAAADhAAAASHVudGVyX0EwX1NVUAAAAEh1bnRlcl9BMF9TVVAAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0X2oBUdkFQgEAANkcJFHZBT4BAADZHCRqAItVCIsCi00Ii5A0AQAA/9JR2Rwki0UIixCLTQiLgjABAAD/0FHZHCTojgAAAIPEBNkcJGoAi00QixGLTRCLQmD/0Nld9OtdagFR2QU6AQAA2RwkUdkFNgEAANkcJGoAi00IixGLTQiLgjQBAAD/0FHZHCSLTQiLEYtNCIuCMAEAAP/QUdkcJOgvAAAAg8QE2RwkagCLTRCLEYtNEItCYP/Q2V302UX0i+VdwwAAoEAAABhCAADgQAAASEJVi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
 							<returnType>float</returnType>
-							<sString>tal("Hunter_A0_SUP") ? abilityScale( sStrength, 7, 50) : abilityScale( sStrength, 5, 38)</sString>
+							<sString>tal("Hunter_A0_SUP") ? abilityScale(max(sStrength, sIntellect), 7, 50) : abilityScale(max(sStrength, sIntellect), 5, 38)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -127,9 +128,9 @@
 					<UnitConstant>
 						<name>A0_StartOffset</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAPw==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzcxMPg==</compiledString>
 							<returnType>float</returnType>
-							<sString>0.5</sString>
+							<sString>0.2</sString>
 						</var>
 					</UnitConstant>
 				</Item>

@@ -48,7 +48,152 @@
 				<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Energy.UIEV" />
 			</DamageApplicator>
 		</Item>
-		<Item href="/Heroes/DefaultStatus/_MORTALSTRIKE_Status.APLR" />
+		<Item href="/Items/Talents/Level4/G152_Dmg_LifeRegStop.TALENT" id="E8CD5884-F72A-4DF2-8361-EF5517C21659">
+			<StatusApplicator>
+				<applicators>
+					<Item href="/Items/Talents/Level4/G152_Dmg_LifeRegStop.TALENT" id="A0CCCDCB-1000-497E-9B06-6CA8C7B9A0BB">
+						<StatModApplicator>
+							<applyTarget>ApplicatorTarget</applyTarget>
+							<behaviorFlags>144</behaviorFlags>
+							<caption>дебафчик</caption>
+							<constraint>None</constraint>
+							<dontUpdate>false</dontUpdate>
+							<effect>
+								<Item href="" />
+								<Item href="" />
+							</effect>
+							<enabled>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</enabled>
+							<formulaName></formulaName>
+							<lifeTime>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>-1.0</sString>
+							</lifeTime>
+							<LoggingEvent>-1</LoggingEvent>
+							<modifier>
+								<addValue>
+									<compiledString></compiledString>
+									<returnType>float</returnType>
+									<sString>0.0f</sString>
+								</addValue>
+								<multValue>
+									<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAPw==</compiledString>
+									<returnType>float</returnType>
+									<sString>0.5f</sString>
+								</multValue>
+								<stat>Evasion</stat>
+								<topModifier>true</topModifier>
+								<variable></variable>
+							</modifier>
+							<providerName></providerName>
+							<startCondition>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</startCondition>
+							<statModName></statModName>
+						</StatModApplicator>
+					</Item>
+					<Item href="/Items/Talents/Level4/G152_Dmg_LifeRegStop.TALENT" id="B91760A8-6668-43D3-A716-54273F631FFE">
+						<StatModApplicator>
+							<applyTarget>ApplicatorTarget</applyTarget>
+							<behaviorFlags>144</behaviorFlags>
+							<caption>дебафчик ещё</caption>
+							<constraint>None</constraint>
+							<dontUpdate>false</dontUpdate>
+							<effect>
+								<Item href="" />
+								<Item href="" />
+							</effect>
+							<enabled>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</enabled>
+							<formulaName></formulaName>
+							<lifeTime>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>-1.0</sString>
+							</lifeTime>
+							<LoggingEvent>-1</LoggingEvent>
+							<modifier>
+								<addValue>
+									<compiledString></compiledString>
+									<returnType>float</returnType>
+									<sString>0.0f</sString>
+								</addValue>
+								<multValue>
+									<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAPw==</compiledString>
+									<returnType>float</returnType>
+									<sString>0.5f</sString>
+								</multValue>
+								<stat>LifeDrain</stat>
+								<topModifier>true</topModifier>
+								<variable></variable>
+							</modifier>
+							<providerName></providerName>
+							<startCondition>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</startCondition>
+							<statModName></statModName>
+						</StatModApplicator>
+					</Item>
+				</applicators>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>144</behaviorFlags>
+				<caption>Не повезло</caption>
+				<customCounter>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</customCounter>
+				<customProgress>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</customProgress>
+				<description textref="/Items/Talents/Level4/G152_Dmg_LifeRegStop.TALENT_e8cd5884f72a4df28361ef5517c21659_description.txt" />
+				<dispellPriority>Medium</dispellPriority>
+				<effect>
+					<Item href="/Effects/Debuffs/Fear/_.EFFT" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<flags>2</flags>
+				<formulaName></formulaName>
+				<image href="/UI/Styles/Icons/Talents/_152.ITEX" />
+				<lifeTime>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADgQA==</compiledString>
+					<returnType>float</returnType>
+					<sString>7</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<name textref="/Items/Talents/Level4/G152_Dmg_LifeRegStop.TALENT_e8cd5884f72a4df28361ef5517c21659_name.txt" />
+				<power>0</power>
+				<providerName></providerName>
+				<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+				<stackCount>0</stackCount>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statusPosition>0</statusPosition>
+				<stopBehaviour>StopByTime</stopBehaviour>
+				<unstackableWith href="" />
+			</StatusApplicator>
+		</Item>
 	</applicators>
 	<askId>0</askId>
 	<autoTargetSelector href="" />
@@ -68,33 +213,13 @@
 	<constants href="/Items/Talents/Level4/G152_Dmg_LifeRegStop.TALENT" id="EC38882C-6A3E-4BCD-98E3-A4D94DD79E04">
 		<UnitConstantsContainer>
 			<vars>
-				<Item href="/Items/Talents/Level4/G152_Dmg_LifeRegStop.TALENT" id="EA9CDF92-8D5F-413B-AD19-3A1C465D9152">
-					<UnitConstant>
-						<name>MortalStrike_Duration</name>
-						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
-							<returnType>float</returnType>
-							<sString>5</sString>
-						</var>
-					</UnitConstant>
-				</Item>
 				<Item href="/Items/Talents/Level4/G152_Dmg_LifeRegStop.TALENT" id="95967B4B-6C11-43A1-91EA-F420206B0554">
 					<UnitConstant>
 						<name>Damage</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAKkMAAHBB</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACvQw==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(170, 15)</sString>
-						</var>
-					</UnitConstant>
-				</Item>
-				<Item href="/Items/Talents/Level4/G152_Dmg_LifeRegStop.TALENT" id="9DACB149-ECF6-4335-89D3-71C667608168">
-					<UnitConstant>
-						<name>MortalStrike_Amount</name>
-						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQg==</compiledString>
-							<returnType>float</returnType>
-							<sString>50</sString>
+							<sString>350</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -106,9 +231,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQg==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQg==</compiledString>
 		<returnType>float</returnType>
-		<sString>120</sString>
+		<sString>80</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>
@@ -212,10 +337,71 @@
 	<naftaCost>-1</naftaCost>
 	<name textref="/Items/Talents/Level4/G152_Dmg_LifeRegStop.TALENT_name.txt" />
 	<node></node>
-	<passiveApplicators />
+	<passiveApplicators>
+		<Item href="/Items/Talents/Level4/G152_Dmg_LifeRegStop.TALENT" id="E0C81D5D-29EE-44B4-B977-C42B7ECF255E">
+			<PermanentStatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>Добавка силы</caption>
+				<customApplyType>None</customApplyType>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgrgAAAD/0ItNCIsRi00Ii4K8AAAA3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sBaseStrength &gt;= sBaseIntellect</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQQ==</compiledString>
+						<returnType>float</returnType>
+						<sString>8</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Strength</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level4/G152_Dmg_LifeRegStop.TALENT" id="3CF50A2B-CB53-42CF-8BB1-5FF04D29D228">
+			<PermanentStatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>Добавка ума</caption>
+				<customApplyType>None</customApplyType>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgrgAAAD/0ItNCIsRi00Ii4K8AAAA3V34/9DcXfjf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sBaseStrength &lt; sBaseIntellect</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQQ==</compiledString>
+						<returnType>float</returnType>
+						<sString>8</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Intellect</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+	</passiveApplicators>
 	<persistentId>G152</persistentId>
 	<prerequisiteTalents />
-	<rarity>excellent</rarity>
+	<rarity>magnificent</rarity>
 	<requireLineOfSight>true</requireLineOfSight>
 	<shortDescription textref="/Items/Talents/Level4/G152_Dmg_LifeRegStop.TALENT_shortDescription.txt" />
 	<talentRollGroups>0</talentRollGroups>

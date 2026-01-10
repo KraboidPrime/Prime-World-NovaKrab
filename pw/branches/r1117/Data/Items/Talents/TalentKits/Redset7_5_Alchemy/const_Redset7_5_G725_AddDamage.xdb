@@ -2,10 +2,11 @@
 <UnitConstant>
 	<BackLink DBID="/Items/Consumables/KU-Stick.ARCT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level2/G725_StrOrInt.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level2/G133_PrimefromCreeps.TALENT" Count="1" />
 	<name>G725_AddDamage</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQQ==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
 		<returnType>float</returnType>
-		<sString>25</sString>
+		<sString>10</sString>
 	</var>
 </UnitConstant>

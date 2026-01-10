@@ -268,7 +268,7 @@
 													<returnType>float</returnType>
 													<sString>(sender.vAutoAttack_WasCrit != 0 ? sCritMult : 1) * cAttckDamage * appl.parent.parent.Scale / cAttckScale</sString>
 												</damage>
-												<damageMode>0</damageMode>
+												<damageMode>3</damageMode>
 												<damageType>Energy</damageType>
 												<enabled>
 													<compiledString></compiledString>

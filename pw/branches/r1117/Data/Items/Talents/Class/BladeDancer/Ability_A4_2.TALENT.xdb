@@ -265,7 +265,7 @@
 					<sString>true</sString>
 				</startCondition>
 				<statusPosition>0</statusPosition>
-				<stopBehaviour>StopByChild</stopBehaviour>
+				<stopBehaviour>StopByTime</stopBehaviour>
 				<unstackableWith href="" />
 			</StatusApplicator>
 		</Item>
@@ -306,9 +306,9 @@
 					<UnitConstant>
 						<name>A4_2_Duration</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQQ==</compiledString>
+							<compiledString>FSYAAAAFAAEALQAAAEYAAACNAAAApQAAALAAAAD2AAAAQmxhZGVEYW5jZXJfQTRfMnUAAABCbGFkZURhbmNlcl9BNF8ydQBVi+yD7BhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBQAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXQzi1UIiwKLTQiLkLwAAAD/0tw1zAAAANld9NlF9FHZHCToNAAAAIPEBNwFxAAAAN1d7OsJ3QXEAAAA3V3s3UXs2V3o2UXoi+VdwwAAAAAAABRAAAAAAADAYkBVi+xR2UUI2Rwk6AUAAACDxARdw1WL7FHZRQiD7AjdHCTo+v7//4PECNld/NlF/IvlXcM=</compiledString>
 							<returnType>float</returnType>
-							<sString>8</sString>
+							<sString>tal("BladeDancer_A4_2u") ? 5 + floor(sBaseIntellect/150) : 5</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -323,7 +323,8 @@
 						</var>
 					</UnitConstant>
 				</Item>
-				<Item href="/Items/Talents/Class/BladeDancer/const_A4_2_DamageHeal" />
+				<Item href="/Items/Talents/Class/BladeDancer/const_A4_2_Damage" />
+				<Item href="/Items/Talents/Class/BladeDancer/const_A4_2_Heal" />
 				<Item href="/Items/Talents/Class/BladeDancer/Ability_A4_2.TALENT" id="7E256F92-FF60-41CD-B864-25D9A5ED1FC3">
 					<UnitConstant>
 						<name>UltimateConstant</name>

@@ -75,9 +75,9 @@
 					<UnitConstant>
 						<name>Add_Stat</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAIEHNzEw/</compiledString>
+							<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(10, 0.8)</sString>
+							<sString>0.0f</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -145,9 +145,9 @@
 					<UnitConstant>
 						<name>Add_MoveSpeed</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
 							<returnType>float</returnType>
-							<sString>2</sString>
+							<sString>3</sString>
 						</var>
 					</UnitConstant>
 				</Item>

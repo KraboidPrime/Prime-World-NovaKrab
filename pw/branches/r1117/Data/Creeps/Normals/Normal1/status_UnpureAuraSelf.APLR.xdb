@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StatusApplicator>
 	<BackLink DBID="/Creeps/Normals/Normal1/PVP_Range.CREEP" Count="1" />
-	<BackLink DBID="/Creeps/Normals/Normal1/status_UnpureAura.APLR" Count="1" />
 	<BackLink DBID="/Maps/Multiplayer/MOBA/Spawners/Neutral_5.NCSPN" Count="1" />
 	<BackLink DBID="/Maps/Multiplayer/MOBA/Spawners/Neutral_Elite.NCSPN" Count="3" />
 	<BackLink DBID="/Maps/Multiplayer/MOBA/Spawners/Neutral_Normal.NCSPN" Count="2" />
@@ -76,9 +75,9 @@
 		<Item href="" />
 	</effect>
 	<enabled>
-		<compiledString>FQAAAAAAAAAAVYvsi0UIixCLTQiLgmABAAD/0DPJg/gED53BisFdww==</compiledString>
+		<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 		<returnType>bool</returnType>
-		<sString>sNaftaLevel &gt;= 4</sString>
+		<sString>false</sString>
 	</enabled>
 	<flags>0</flags>
 	<formulaName></formulaName>
@@ -95,9 +94,9 @@
 	<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
 	<stackCount>0</stackCount>
 	<startCondition>
-		<compiledString></compiledString>
+		<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 		<returnType>bool</returnType>
-		<sString>true</sString>
+		<sString>false</sString>
 	</startCondition>
 	<statusPosition>0</statusPosition>
 	<stopBehaviour>StopByTime</stopBehaviour>

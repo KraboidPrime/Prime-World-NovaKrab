@@ -284,9 +284,9 @@
 		<Item href="/Items/Talents/Class/Warlord/Ability3.TALENT" id="81E8D970-FBD0-483F-A168-260B3BEF6AF1">
 			<ConditionFormula>
 				<condition>
-					<compiledString>FR8AAAACAAAAQgAAAFsAAABXYXJsb3JkX0EzX1NVUAAAV2FybG9yZF9BM19TVVAAVYvsg+wIi0UMixCLTQyLQlT/0A+2yIXJdFaLVQg7VQx0TmgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdDVoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QD7bIhcl0CcdF+AEAAADrB8dF+AAAAACKRfiL5V3D</compiledString>
+					<compiledString>FR8AAAACAAAALgAAAEcAAABXYXJsb3JkX0EzX1NVUAAAV2FybG9yZF9BM19TVVAAVYvsg+wIi0UIO0UMdE5oAAAAAItNCIsRi00Ii4KoAQAA/9CFwHQ1aBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0A+2yIXJdAnHRfgBAAAA6wfHRfgAAAAAikX4i+Vdww==</compiledString>
 					<returnType>bool</returnType>
-					<sString>rIsHero &amp;&amp; pFirst != pSecond &amp;&amp; pFirst-&gt;GetTalent("Warlord_A3_SUP") &amp;&amp; pFirst-&gt;GetTalent("Warlord_A3_SUP")-&gt;IsTalentBought()</sString>
+					<sString>pFirst != pSecond &amp;&amp; pFirst-&gt;GetTalent("Warlord_A3_SUP") &amp;&amp; pFirst-&gt;GetTalent("Warlord_A3_SUP")-&gt;IsTalentBought()</sString>
 				</condition>
 				<name>Warlord_StatusA3_SUP</name>
 			</ConditionFormula>
@@ -294,9 +294,9 @@
 		<Item href="/Items/Talents/Class/Warlord/Ability3.TALENT" id="84B6F00A-BD38-465E-919F-6EEA42D25608">
 			<ConditionFormula>
 				<condition>
-					<compiledString>FRgAAAACAAAAHwAAADgAAABXYXJsb3JkX0EzdQBXYXJsb3JkX0EzdQBVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaAwAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2Rfv32BvAg8ABi+Vdww==</compiledString>
+					<compiledString>FR8AAAACAAAAJgAAAD8AAABXYXJsb3JkX0EzX1NVUAAAV2FybG9yZF9BM19TVVAAVYvsg+wIaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtkX799gbwIPAAYvlXcM=</compiledString>
 					<returnType>bool</returnType>
-					<sString>tal("Warlord_A3u") == false</sString>
+					<sString>tal("Warlord_A3_SUP") == false</sString>
 				</condition>
 				<name>Warlord_A3_SUP</name>
 			</ConditionFormula>

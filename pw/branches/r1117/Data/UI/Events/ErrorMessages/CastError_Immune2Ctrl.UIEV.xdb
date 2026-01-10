@@ -18,6 +18,7 @@
 	<BackLink DBID="/Items/Talents/Level5/G294_GuildHeroOff.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level5/G661_GuildHeroOff_Red.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level5/G696_StrOrInt.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level5/G311_K_Life_Energy.TALENT" Count="1" />
 	<signRecipients>PLAYER_ONLY</signRecipients>
 	<UISigns>
 		<Item href="/UI/Events/ErrorMessages/CastError_Immune2Ctrl.UIEV" id="A1191015-A076-4178-A33B-B785FC40381E">

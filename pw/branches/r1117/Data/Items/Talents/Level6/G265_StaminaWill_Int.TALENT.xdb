@@ -25,6 +25,7 @@
 	<BackLink DBID="/Test/Talents/Ratcatcher/Elite_IntLife.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Unicorn/Elite_Will.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/WitchDoctor/Elite_Int.TALENTSET" Count="1" />
+	<BackLink DBID="/GameLogic/AILogic.AILP" Count="2" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -47,7 +48,7 @@
 	<askId>0</askId>
 	<autoTargetSelector href="" />
 	<budget>-1</budget>
-	<caption>G265: Оборона мага</caption>
+	<caption>G265: Руна господства</caption>
 	<castAllowRange>
 		<compiledString></compiledString>
 		<returnType>float</returnType>
@@ -59,42 +60,7 @@
 	<compiledDescriptionB textref="" />
 	<conditionFormulas />
 	<conflictingTalents />
-	<constants href="/Items/Talents/Level6/G265_StaminaWill_Int.TALENT" id="8D3FE4A2-47A2-414B-A0C8-1DC7274EF74B">
-		<UnitConstantsContainer>
-			<vars>
-				<Item href="/Items/Talents/Level6/G265_StaminaWill_Int.TALENT" id="A7089931-3542-446B-9026-E7674EDA1B06">
-					<UnitConstant>
-						<name>Add_Stamina</name>
-						<var>
-							<compiledString>FQAAAAAEAAEACQAAABMAAAApAAAAQQAAAIEAAABVi+yD7AhR2QVbAAAA2RwkUdkFVwAAANkcJItFEIsQi00Qi0Js/9DcDU8AAADZXfzZRfxR2Rwk6CMAAACDxATcNU8AAADZXfjZRfiL5V3DAAAAAAAAJEAAAKBAmpmZPlWL7FHZRQjZHCToBQAAAIPEBF3DVYvsUdlFCIPsCN0cJOhv////g8QI2V382UX8i+Vdww==</compiledString>
-							<returnType>float</returnType>
-							<sString>floor(refineScale(5, 0.3)*10)/10</sString>
-						</var>
-					</UnitConstant>
-				</Item>
-				<Item href="/Items/Talents/Level6/G265_StaminaWill_Int.TALENT" id="0ACF23EF-7C97-41A7-889F-5A77ABEDC77C">
-					<UnitConstant>
-						<name>Add_Will</name>
-						<var>
-							<compiledString>FQAAAAAEAAEACQAAABMAAAApAAAAQQAAAIEAAABVi+yD7AhR2QVbAAAA2RwkUdkFVwAAANkcJItFEIsQi00Qi0Js/9DcDU8AAADZXfzZRfxR2Rwk6CMAAACDxATcNU8AAADZXfjZRfiL5V3DAAAAAAAAJEAAAKBAmpmZPlWL7FHZRQjZHCToBQAAAIPEBF3DVYvsUdlFCIPsCN0cJOhv////g8QI2V382UX8i+Vdww==</compiledString>
-							<returnType>float</returnType>
-							<sString>floor(refineScale(5, 0.3)*10)/10</sString>
-						</var>
-					</UnitConstant>
-				</Item>
-				<Item href="/Items/Talents/Level6/G265_StaminaWill_Int.TALENT" id="4FE25DB4-75BA-4EF5-9CB2-9EC240D7D6A5">
-					<UnitConstant>
-						<name>Add_Intellect</name>
-						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAUEEAAEA/</compiledString>
-							<returnType>float</returnType>
-							<sString>refineScale(13, 0.75)</sString>
-						</var>
-					</UnitConstant>
-				</Item>
-			</vars>
-		</UnitConstantsContainer>
-	</constants>
+	<constants href="" />
 	<consumptionBonus>
 		<constant>0</constant>
 		<percent>0</percent>
@@ -114,7 +80,7 @@
 	<dispatch href="" />
 	<flags>1</flags>
 	<forceBonus>33</forceBonus>
-	<image href="/UI/Styles/Icons/Talents/_265.ITEX" />
+	<image href="/UI/Styles/Icons/Talents/2025_265.ITEX" />
 	<imageSecondState href="" />
 	<isGenderTalent>false</isGenderTalent>
 	<isTakenOnStart>false</isTakenOnStart>
@@ -133,23 +99,23 @@
 	<name textref="/Items/Talents/Level6/G265_StaminaWill_Int.TALENT_name.txt" />
 	<node></node>
 	<passiveApplicators>
-		<Item href="/Items/Talents/Level6/G265_StaminaWill_Int.TALENT" id="E46B9397-5CE6-497C-8967-56AF8E14B59F">
+		<Item href="/Items/Talents/Level6/G265_StaminaWill_Int.TALENT" id="7DD91285-64DE-4735-9589-46699655DD12">
 			<PermanentStatModApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>Add_Stamina</caption>
+				<caption>stam</caption>
 				<customApplyType>None</customApplyType>
 				<enabled>
-					<compiledString></compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgsgAAAD/0ItNCIsRi00Ii4LMAAAA3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
 					<returnType>bool</returnType>
-					<sString>true</sString>
+					<sString>sBaseStamina &gt;= sBaseWill</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<LoggingEvent>-1</LoggingEvent>
 				<modifier>
 					<addValue>
-						<compiledString>FQwAAAABAAAAGAAAAEFkZF9TdGFtaW5hAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADoQQ==</compiledString>
 						<returnType>float</returnType>
-						<sString>cAdd_Stamina</sString>
+						<sString>29</sString>
 					</addValue>
 					<multValue>
 						<compiledString></compiledString>
@@ -163,23 +129,23 @@
 				<providerName></providerName>
 			</PermanentStatModApplicator>
 		</Item>
-		<Item href="/Items/Talents/Level6/G265_StaminaWill_Int.TALENT" id="098A90C6-FA47-4992-BE94-4D93B898FFAA">
+		<Item href="/Items/Talents/Level6/G265_StaminaWill_Int.TALENT" id="0F7C8C9F-97ED-40C7-B04F-9430C0E0E926">
 			<PermanentStatModApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>Add_Will</caption>
+				<caption>will</caption>
 				<customApplyType>None</customApplyType>
 				<enabled>
-					<compiledString></compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgsgAAAD/0ItNCIsRi00Ii4LMAAAA3V34/9DcXfjf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
 					<returnType>bool</returnType>
-					<sString>true</sString>
+					<sString>sBaseStamina &lt; sBaseWill</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<LoggingEvent>-1</LoggingEvent>
 				<modifier>
 					<addValue>
-						<compiledString>FQkAAAABAAAAFQAAAEFkZF9XaWxsAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADoQQ==</compiledString>
 						<returnType>float</returnType>
-						<sString>cAdd_Will</sString>
+						<sString>29</sString>
 					</addValue>
 					<multValue>
 						<compiledString></compiledString>
@@ -193,10 +159,10 @@
 				<providerName></providerName>
 			</PermanentStatModApplicator>
 		</Item>
-		<Item href="/Items/Talents/Level6/G265_StaminaWill_Int.TALENT" id="2DB781B1-3113-4360-9367-6D5EBF13531A">
+		<Item href="/Items/Talents/Level6/G265_StaminaWill_Int.TALENT" id="116ACA93-8538-4192-A721-5F7181B2D15A">
 			<PermanentStatModApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>Add_Intellect</caption>
+				<caption>life</caption>
 				<customApplyType>None</customApplyType>
 				<enabled>
 					<compiledString></compiledString>
@@ -207,16 +173,16 @@
 				<LoggingEvent>-1</LoggingEvent>
 				<modifier>
 					<addValue>
-						<compiledString>FQ4AAAABAAAAGgAAAEFkZF9JbnRlbGxlY3QAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAA0Qw==</compiledString>
 						<returnType>float</returnType>
-						<sString>cAdd_Intellect</sString>
+						<sString>180</sString>
 					</addValue>
 					<multValue>
 						<compiledString></compiledString>
 						<returnType>float</returnType>
 						<sString>1.0f</sString>
 					</multValue>
-					<stat>Intellect</stat>
+					<stat>Life</stat>
 					<topModifier>false</topModifier>
 					<variable></variable>
 				</modifier>
@@ -226,9 +192,9 @@
 	</passiveApplicators>
 	<persistentId>G265</persistentId>
 	<prerequisiteTalents />
-	<rarity>magnificent</rarity>
+	<rarity>outstanding</rarity>
 	<requireLineOfSight>true</requireLineOfSight>
-	<shortDescription textref="/Items/Talents/Level6/G265_StaminaWill_Int.TALENT_shortDescription.txt" />
+	<shortDescription textref="" />
 	<talentRollGroups>63</talentRollGroups>
 	<talentStats>
 		<Item>

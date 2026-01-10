@@ -140,9 +140,9 @@
 					<UnitConstant>
 						<name>A2_NTBonusIntellect</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoAi00QixGLTRCLQmD/0F3DAAAAQQAAZEI=</compiledString>
+							<compiledString>FSAAAAAHAAAAWAAAAHEAAACqAAAAtwAAAMEAAAD9AAAABwEAAEludmVudG9yX0EwX1NVUABJbnZlbnRvcl9BMF9TVVAAVYvsg+woi0UIixCLTQiLgrgAAAD/0ItNCIsRi00Ii4K8AAAA3V34/9DcXfjf4PbEBQ+KoQAAAGgAAAAAi00IixGLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfSLTfSLEYtN9ItCBP/QiEXz6wTGRfMAD7ZN84lN7NtF7NwNUwEAANno3sFqAVHZBUcBAADZHCRR2QVDAQAA2RwkagCLVQiLAotNCIuQNAEAAN1d5P/SUdkcJGoAi0UQixCLTRCLQmD/0NxN5N1d3Os+agFR2QVHAQAA2RwkUdkFQwEAANkcJGoAi00IixGLTQiLgjQBAAD/0FHZHCRqAItNEIsRi00Qi0Jg/9DdXdzdRdzZXdjZRdiL5V3DAAAAQQAAZEIAAAAAAADwP5qZmZmZmek/</compiledString>
 							<returnType>float</returnType>
-							<sString>abilityScale(sIntellect, 8, 57)</sString>
+							<sString>(sBaseStrength &gt; sBaseIntellect) ? (1+0.8*tal("Inventor_A0_SUP"))*abilityScale(sIntellect, 8, 57) : abilityScale(sIntellect, 8, 57)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -244,9 +244,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
 		<returnType>float</returnType>
-		<sString>2</sString>
+		<sString>3</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>

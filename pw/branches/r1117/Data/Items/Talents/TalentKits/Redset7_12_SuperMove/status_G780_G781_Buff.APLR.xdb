@@ -209,7 +209,7 @@
 	<description textref="/Items/Talents/TalentKits/Redset7_12_SuperMove/status_G780_G781_Buff.APLR_description.txt" />
 	<dispellPriority>Medium</dispellPriority>
 	<effect>
-		<Item href="/Effects/Buffs/Berserk/_TrailGold.EFFT" />
+		<Item href="" />
 		<Item href="" />
 	</effect>
 	<enabled>

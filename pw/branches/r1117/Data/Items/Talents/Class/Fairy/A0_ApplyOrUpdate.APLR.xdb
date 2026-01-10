@@ -4,6 +4,7 @@
 	<BackLink DBID="/Items/Talents/Class/Fairy/Ability_A0.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Fairy/Ability_A3.TALENT" Count="1" />
 	<BackLink DBID="/Maps/PvE/Series/Coop1/Heroes/Fairy/Ability_A3.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A4_2.TALENT" Count="1" />
 	<activeSpellIndex>
 		<compiledString>FRYAAAABAAAAIAAAAEZhaXJ5QTBIYXN0ZUNvbnRhaW5lcgBVi+xqAYtFEFBoAAAAAItNDIsRi00Mi4KcAQAA/9AzyTtFEA+VwYvBXcM=</compiledString>
 		<returnType>int</returnType>

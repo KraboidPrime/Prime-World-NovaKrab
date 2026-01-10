@@ -734,7 +734,7 @@
 					<instantApply>true</instantApply>
 				</DispatchImmediate>
 			</dispatch>
-			<flags>1</flags>
+			<flags>5</flags>
 			<image href="" />
 			<imageSecondState href="" />
 			<isMelee>false</isMelee>
@@ -984,9 +984,9 @@
 					<levelUpgrades />
 					<statId>Strength</statId>
 					<value>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABcQg==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABkQg==</compiledString>
 						<returnType>float</returnType>
-						<sString>55</sString>
+						<sString>57</sString>
 					</value>
 				</Item>
 				<Item>
@@ -1032,9 +1032,9 @@
 					<levelUpgrades />
 					<statId>AttackSpeed</statId>
 					<value>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABEQg==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABoQg==</compiledString>
 						<returnType>float</returnType>
-						<sString>49</sString>
+						<sString>58</sString>
 					</value>
 				</Item>
 				<Item>

@@ -5,8 +5,8 @@
 	<BackLink DBID="/Items/Talents/Class/Invisible/Ability_A0.TALENT" Count="1" />
 	<name>A2u_AddStats</name>
 	<var>
-		<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCuAAAAP/QUdkcJGoAi00QixGLTRCLQmD/0F3DAACAQAAA8EE=</compiledString>
+		<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBWMAAADZHCRR2QVfAAAA2RwkagCLRQiLEItNCIuCuAAAAP/QUdkcJItNCIsRi00Ii4K8AAAA/9BR2Rwk6B8AAACDxATZHCRqAItNEIsRi00Qi0Jg/9BdwwAAgEAAAPBBVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
 		<returnType>float</returnType>
-		<sString>abilityScale( sBaseStrength, 4, 30 )</sString>
+		<sString>abilityScale( max(sBaseIntellect, sBaseStrength), 4, 30 )</sString>
 	</var>
 </UnitConstant>

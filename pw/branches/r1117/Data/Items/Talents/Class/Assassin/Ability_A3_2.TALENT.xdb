@@ -6,6 +6,8 @@
 	<BackLink DBID="/Items/Talents/Class/Assassin/Ability_A3_2u.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Assassin/Ability_A3u.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset5_7_Ultimate/Status_Redset5_7_Cooldown.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Assassin/Ability_A3_SUP.TALENT" Count="1" />
+	<BackLink DBID="/Test/Talents/Assassin/New_SUP.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -154,15 +156,39 @@
 												<flags>0</flags>
 												<matchTargetInverted>false</matchTargetInverted>
 												<mul>
-													<compiledString>FQ0AAAABAAAAGQAAAEEzX0RhbWFnZU11bABVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+													<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
 													<returnType>float</returnType>
-													<sString>cA3_DamageMul</sString>
+													<sString>1.0f</sString>
 												</mul>
 												<objectFilter>536870914</objectFilter>
 												<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
 												<spell href="/Items/Talents/Class/Assassin/Ability_A3_2.TALENT" id="49C82F07-F59C-4E8A-8050-8465D79F0C33">
 													<Spell>
 														<applicators>
+															<Item href="/Items/Talents/Class/Assassin/Ability_A3_2.TALENT" id="6D90CA3A-65A1-4C2F-B189-94DBDAD859A2">
+																<DamageApplicator>
+																	<applyTarget>ApplicatorTarget</applyTarget>
+																	<cancelInvisibility>true</cancelInvisibility>
+																	<caption></caption>
+																	<damage>
+																		<compiledString>FQsAAAABAAAAFwAAAEE0X05FV19ETUcAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+																		<returnType>float</returnType>
+																		<sString>cA4_NEW_DMG</sString>
+																	</damage>
+																	<damageMode>0</damageMode>
+																	<damageType>Energy</damageType>
+																	<enabled>
+																		<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+																		<returnType>bool</returnType>
+																		<sString>true</sString>
+																	</enabled>
+																	<formulaName></formulaName>
+																	<LoggingEvent>-1</LoggingEvent>
+																	<providerName></providerName>
+																	<timeLimiter>-1</timeLimiter>
+																	<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Energy.UIEV" />
+																</DamageApplicator>
+															</Item>
 															<Item href="/Items/Talents/Class/Assassin/StopMark.APLR" />
 														</applicators>
 														<dispatch href="/Items/Talents/Class/Assassin/Ability_A3_2.TALENT" id="0AF6CA1B-425C-4D8D-BA98-29EE7E728876">
@@ -181,7 +207,7 @@
 																	<Item href="" />
 																</dispatchEffect>
 																<flags>0</flags>
-																<instantApply>true</instantApply>
+																<instantApply>false</instantApply>
 															</DispatchImmediate>
 														</dispatch>
 													</Spell>
@@ -429,14 +455,25 @@
 					<UnitConstant>
 						<name>A3_AddDamagePercent</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQQ==</compiledString>
+							<compiledString>FYQAAAAIAAAAiwAAAKQAAADeAAAA9wAAAC0BAABGAQAAiwEAAKQBAABBc3Nhc3Npbl9BM19TVVAAQXNzYXNzaW5fQTNfU1VQAEFzc2Fzc2luX0EwX1NVUABBc3Nhc3Npbl9BMF9TVVAAQXNzYXNzaW5fQTBfU1VQXzIAAABBc3Nhc3Npbl9BMF9TVVBfMgAAAEEzX1NVUF9EYW1hZ2VfSW5jcmVhc2VfUmF0ZQBVi+yD7CBoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyQ+FpQAAAGggAAAAi1UIiwKLTQiLkKgBAAD/0oXAdCpoMAAAAItFCIsQi00Ii4KoAQAA/9CJRfSLTfSLEYtN9ItCBP/QiEXz6wTGRfMAD7ZN84XJdVZoQAAAAItVCIsCi00Ii5CoAQAA/9KFwHQqaFQAAACLRQiLEItNCIuCqAEAAP/QiUXsi03sixGLTeyLQgT/0IhF6+sExkXrAA+2TeuFyXUH2ejZXeTrHYtVDFKLRQhQaGgAAACLTRCLEYtNEItCUP/Q2V3k2UXk3A2yAQAA2V3g2UXgi+VdwwAAAAAAAD5AAACAPw==</compiledString>
 							<returnType>float</returnType>
-							<sString>30</sString>
+							<sString>30 * ((tal("Assassin_A3_SUP") || tal("Assassin_A0_SUP") || tal("Assassin_A0_SUP_2")) ? cA3_SUP_Damage_Increase_Rate : 1)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
 				<Item href="/Items/Talents/Class/Assassin/const_A0_SUP_2_Appl_Duration" />
 				<Item href="/Items/Talents/Class/Assassin/const_A0_SUP_2_Inc_Resp_Time" />
+				<Item href="/Items/Talents/Class/Assassin/const_A3_SUP_Damage_Increase_Rate" />
+				<Item href="/Items/Talents/Class/Assassin/Ability_A3_2.TALENT" id="E517E588-E6BA-4558-9CA8-9D0DD6D20F2F">
+					<UnitConstant>
+						<name>A4_NEW_DMG</name>
+						<var>
+							<compiledString>FQ0AAAAEAAAAGAAAACIAAABXAAAAbQAAAEEzX0RhbWFnZU11bABVi+yD7AxqAVHZBYoAAADZHCRR2QWGAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0ItNDFGLVQhSaAAAAACLRRCLEItNEItCUN1d+P/Q3CV+AAAA3E342V302UX0i+VdwwAAAAAAAPA/AADkQgDAVUQ=</compiledString>
+							<returnType>float</returnType>
+							<sString>(damageScale( sIntellect, 114, 855 ))*(cA3_DamageMul-1)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

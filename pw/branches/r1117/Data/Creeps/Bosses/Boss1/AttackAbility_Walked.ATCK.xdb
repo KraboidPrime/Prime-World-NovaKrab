@@ -2,6 +2,7 @@
 <BaseAttack>
 	<BackLink DBID="/Creeps/Bosses/Boss1/PVP_Walked.CREEP" Count="1" />
 	<BackLink DBID="/Creeps/Bosses/Boss1/PVP_Walked_NY.CREEP" Count="1" />
+	<BackLink DBID="/Creeps/Bosses/Boss1/PVP_Walked_New.CREEP" Count="1" />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
 		<compiledString></compiledString>
@@ -95,9 +96,9 @@
 					<UnitConstant>
 						<name>StunProc</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQQ==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>20</sString>
+							<sString>30</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -165,7 +166,7 @@
 	<passiveApplicators />
 	<requireLineOfSight>true</requireLineOfSight>
 	<shortDescription textref="" />
-	<targetType>6029823</targetType>
+	<targetType>451</targetType>
 	<type>Simple</type>
 	<useRange>
 		<compiledString></compiledString>

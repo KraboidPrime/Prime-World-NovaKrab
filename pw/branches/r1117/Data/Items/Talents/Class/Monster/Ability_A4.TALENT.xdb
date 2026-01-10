@@ -957,6 +957,26 @@
 					</UnitConstant>
 				</Item>
 				<Item href="/Items/Talents/Class/Monster/const_NTMult" />
+				<Item href="/Items/Talents/Class/Monster/Ability_A4.TALENT" id="DAA3CDFB-0909-4358-872A-A68B2C634D88">
+					<UnitConstant>
+						<name>Pen_Buff_single</name>
+						<var>
+							<compiledString>FQAAAAACAAAAFgAAABwAAABVi+xRi0UIixCLTQiLgjQBAAD/0NwNMgAAANwFKgAAANld/NlF/IvlXcMAAAAAAADwP3sUrkfhepQ/</compiledString>
+							<returnType>float</returnType>
+							<sString>0.02*sIntellect+1</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Monster/Ability_A4.TALENT" id="9CB28E99-A329-4447-A969-72569D2F5810">
+					<UnitConstant>
+						<name>Pen_Buff_cur</name>
+						<var>
+							<compiledString>FUAAAAAFAAAARwAAAGAAAACeAAAAsQAAAL4AAABNb25zdGVyX0E0dQBNb25zdGVyX0E0dQBUVF9BNF9DdXJyZW50VG94aW5TdGFjawBQZW5fQnVmZl9zaW5nbGUAVYvsg+wcaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgMAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0RYtVDFKLRQhQaBgAAACLTRCLEYtNEItCUP/Q3C30AAAAi00MUYtVCFJoMAAAAItFEIsQi00Qi0JQ3V3w/9DcTfDdXejrBdnu3V3o3UXo2V3k2UXki+VdwwAAAAAAAAAAAAAAAAAAEEA=</compiledString>
+							<returnType>float</returnType>
+							<sString>tal("Monster_A4u") ? (4-cTT_A4_CurrentToxinStack)*cPen_Buff_single : 0</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
@@ -1242,7 +1262,6 @@
 				<targetSelector href="" />
 			</SpellPeriodicallyApplicator>
 		</Item>
-		<Item href="/Items/Talents/Class/Monster/status_A4_StackCooldown.APLR" />
 		<Item href="/Items/Talents/Class/Monster/status_A4_StackCount.APLR" />
 		<Item href="/Items/Talents/Class/Monster/Ability_A4.TALENT" id="96024129-09E6-42E1-9993-3D3D6BE3C166">
 			<FlagsApplicator parent="/GameLogic/GeneralApplicators/ForbidTalentByCondition.APLR">

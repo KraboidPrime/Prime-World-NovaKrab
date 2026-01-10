@@ -14,7 +14,7 @@
 	<BackLink DBID="/Heroes/Demonolog/_.HROB" Count="1" />
 	<BackLink DBID="/Heroes/Dryad/_.HROB" Count="1" />
 	<BackLink DBID="/Heroes/Faceless/_.HROB" Count="1" />
-	<BackLink DBID="/Heroes/FallenAngel/FallenAngel_DamageApplicator.APLR" Count="1" />
+	<BackLink DBID="/Heroes/FallenAngel/FallenAngel_DamageApplicator.APLR" Count="5" />
 	<BackLink DBID="/Heroes/Firefox/_.HROB" Count="2" />
 	<BackLink DBID="/Heroes/Fluffy/_.HROB" Count="1" />
 	<BackLink DBID="/Heroes/Freeze/_.HROB" Count="1" />
@@ -27,7 +27,7 @@
 	<BackLink DBID="/Heroes/PlagueDoctor/_.HROB" Count="1" />
 	<BackLink DBID="/Heroes/Reaper/_.HROB" Count="1" />
 	<BackLink DBID="/Heroes/SnowQueen/_.HROB" Count="1" />
-	<BackLink DBID="/Heroes/Unicorn/_.HROB" Count="1" />
+	<BackLink DBID="/Heroes/Unicorn/_.HROB" Count="2" />
 	<BackLink DBID="/Heroes/Witch/_.HROB" Count="2" />
 	<BackLink DBID="/Heroes/WraithKing/_.HROB" Count="4" />
 	<BackLink DBID="/Items/Talents/Class/Monster/appl_A0_DebuffOnDamage.APLR" Count="1" />
@@ -50,6 +50,8 @@
 	<BackLink DBID="/Summons/Tiger/_Parent.SUMMONED" Count="1" />
 	<BackLink DBID="/Summons/Turret/_.SUMMONED" Count="1" />
 	<BackLink DBID="/Summons/Wolf/PvE_Coop1.CREEP" Count="2" />
+	<BackLink DBID="/Heroes/Chicken/_.HROB" Count="2" />
+	<BackLink DBID="/Heroes/Primevoker/_.HROB" Count="1" />
 	<applyTarget>ApplicatorTarget</applyTarget>
 	<cancelInvisibility>false</cancelInvisibility>
 	<caption> -- Base Attack Damage (Hero)</caption>

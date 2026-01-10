@@ -33,9 +33,9 @@
 				<formulaName></formulaName>
 				<image href="/UI/Styles/Icons/Heroes/Mage/A4.ITEX" />
 				<lifeTime>
-					<compiledString>FQwAAAABAAAAGAAAAEE0X0R1cmF0aW9uAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQQ==</compiledString>
 					<returnType>float</returnType>
-					<sString>cA4_Duration</sString>
+					<sString>12</sString>
 				</lifeTime>
 				<LoggingEvent>-1</LoggingEvent>
 				<name textref="/Items/Talents/Class/Mage/status_A4_summoned.APLR_0400457bf2cc4c7685a635739d521455_name.txt" />
@@ -82,9 +82,9 @@
 	<formulaName></formulaName>
 	<image href="/UI/Styles/Icons/Heroes/Mage/A4.ITEX" />
 	<lifeTime>
-		<compiledString>FQwAAAABAAAAGAAAAEE0X0R1cmF0aW9uAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQQ==</compiledString>
 		<returnType>float</returnType>
-		<sString>cA4_Duration</sString>
+		<sString>12</sString>
 	</lifeTime>
 	<LoggingEvent>-1</LoggingEvent>
 	<name textref="/Items/Talents/Class/Mage/status_A4_summoned.APLR_name.txt" />

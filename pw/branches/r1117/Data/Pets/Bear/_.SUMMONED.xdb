@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Summoned parent="/Pets/_Parent.SUMMONED">
+	<BackLink DBID="/Pets/Cat/Summon.APLR" Count="1" />
+	<BackLink DBID="/Pets/mage/Summon.APLR" Count="1" />
+	<BackLink DBID="/Pets/Bear/Summon.APLR" Count="1" />
+	<image href="/UI/Styles/Icons/Summons/Bear/Face.ITEX" />
+	<sceneObject href="/Summons/Bear/_P.SOBJ" />
+</Summoned>

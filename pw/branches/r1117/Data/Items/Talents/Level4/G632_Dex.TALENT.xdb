@@ -101,7 +101,7 @@
 	<description textref="/Items/Talents/Level4/G632_Dex.TALENT_description.txt" />
 	<devPoints>1</devPoints>
 	<dispatch href="" />
-	<flags>1</flags>
+	<flags>5</flags>
 	<forceBonus>33</forceBonus>
 	<image href="/UI/Styles/Icons/Talents/_632.ITEX" />
 	<imageSecondState href="" />

@@ -2,6 +2,9 @@
 <UITexture>
 	<BackLink DBID="/Creeps/Normals/Normal10/PvE_Coop1.CREEP" Count="1" />
 	<BackLink DBID="/Creeps/Normals/Normal10/PvP_B.CREEP" Count="1" />
+	<BackLink DBID="/Summons/Demon/_1.SUMMONED" Count="1" />
+	<BackLink DBID="/Summons/Demon/_3.SUMMONED" Count="1" />
+	<BackLink DBID="/Summons/Demon/_2.SUMMONED" Count="1" />
 	<generatedFileName></generatedFileName>
 	<importOnlyShape>false</importOnlyShape>
 	<mipLevels>0</mipLevels>

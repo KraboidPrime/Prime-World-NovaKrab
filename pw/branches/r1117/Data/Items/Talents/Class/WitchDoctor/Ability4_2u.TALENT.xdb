@@ -66,6 +66,16 @@
 						</var>
 					</UnitConstant>
 				</Item>
+				<Item href="/Items/Talents/Class/WitchDoctor/Ability4_2u.TALENT" id="C2565370-D991-4771-9F8A-6A191AC2F2A2">
+					<UnitConstant>
+						<name>A4_DMG_Buff_TT</name>
+						<var>
+							<compiledString>FQAAAAACAAAANgAAADwAAABVi+xRi0UIixCLTQiLgjABAAD/0FHZHCSLTQiLEYtNCIuCNAEAAP/QUdkcJOgpAAAAg8QI3A1SAAAA3AVKAAAA2V382UX8i+VdwwAAAAAAAPA/exSuR+F6hD9Vi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
+							<returnType>float</returnType>
+							<sString>0.01*max(sIntellect,sStrength)+1</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

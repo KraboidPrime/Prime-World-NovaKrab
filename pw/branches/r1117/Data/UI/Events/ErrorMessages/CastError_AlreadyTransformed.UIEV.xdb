@@ -4,6 +4,7 @@
 	<BackLink DBID="/Items/Talents/Class/Mage/Ability2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Vampire/Ability_A4_2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Werewolf/Ability4.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Shaman/Ability_A4_2.TALENT" Count="1" />
 	<signRecipients>PLAYER_ONLY</signRecipients>
 	<UISigns>
 		<Item href="/UI/Events/ErrorMessages/CastError_AlreadyTransformed.UIEV" id="F77738F4-1AB6-4E7D-875F-C3685650576E">

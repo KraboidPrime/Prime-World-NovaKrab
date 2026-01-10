@@ -58,6 +58,7 @@
 	<BackLink DBID="/Heroes/Zealot/FXCatarh.PRXY" Count="1" />
 	<BackLink DBID="/Heroes/Zealot/FXCatarhDark.PRXY" Count="1" />
 	<BackLink DBID="/Terrain/Locations/RiverStep/_FX.PRXY" Count="1" />
+	<BackLink DBID="/Effects/Debuffs/Dome/_UpAlly1.PRXY" Count="1" />
 	<generatedFileName></generatedFileName>
 	<mipLevels>0</mipLevels>
 	<mipLevelUsage>AutoGenerate</mipLevelUsage>

@@ -39,7 +39,28 @@
 	<commonDescription textref="" />
 	<compiledDescriptionA textref="" />
 	<compiledDescriptionB textref="" />
-	<conditionFormulas />
+	<conditionFormulas>
+		<Item href="/Items/Talents/Level3/G019_Aura-StaWill.TALENT" id="B129453A-126A-4D1F-972A-B30AD3F4D2D1">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRYAAAACAAAAGwAAADEAAABBdTIwMjVfVG9vbHRpcENvdW50ZXIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdUwAAAN/g9sQBdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAhA</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vAu2025_TooltipCounter &gt;= 3</sString>
+				</condition>
+				<name>Bonus3ActiveAu</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Items/Talents/Level3/G019_Aura-StaWill.TALENT" id="C0B6C030-DA07-435F-97CD-4943409135EE">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRYAAAACAAAAGwAAADEAAABBdTIwMjVfVG9vbHRpcENvdW50ZXIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdUwAAAN/g9sQBdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAABxA</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vAu2025_TooltipCounter &gt;= 7</sString>
+				</condition>
+				<name>Bonus7ActiveAu</name>
+			</ConditionFormula>
+		</Item>
+	</conditionFormulas>
 	<conflictingTalents />
 	<constants href="/Items/Talents/Level3/G019_Aura-StaWill.TALENT" id="83F654E2-E34C-41E2-936E-BD5086506602">
 		<UnitConstantsContainer>
@@ -48,9 +69,9 @@
 					<UnitConstant>
 						<name>Add_Stamina</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9Bdw5qZGUDNzEw+</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(2.4, 0.2)</sString>
+							<sString>5</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -58,9 +79,9 @@
 					<UnitConstant>
 						<name>Add_Will</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9Bdw5qZGUDNzEw+</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(2.4, 0.2)</sString>
+							<sString>5</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -151,9 +172,9 @@
 				<LoggingEvent>-1</LoggingEvent>
 				<providerName></providerName>
 				<range>
-					<compiledString>FQsAAAABAAAAFwAAAFJhbmdlX0xvbmcAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+					<compiledString>FQ0AAAABAAAAGQAAAFJhbmdlX0V4TG9uZwBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
 					<returnType>float</returnType>
-					<sString>cRange_Long</sString>
+					<sString>cRange_ExLong</sString>
 				</range>
 				<startCondition>
 					<compiledString></compiledString>
@@ -256,10 +277,11 @@
 				<providerName></providerName>
 			</PermanentStatModApplicator>
 		</Item>
+		<Item href="/Items/Talents/Level3/AURASET_Prog2025.APLR" />
 	</passiveApplicators>
 	<persistentId>G019</persistentId>
 	<prerequisiteTalents />
-	<rarity>excellent</rarity>
+	<rarity>magnificent</rarity>
 	<requireLineOfSight>true</requireLineOfSight>
 	<shortDescription textref="" />
 	<talentRollGroups>0</talentRollGroups>
@@ -291,9 +313,9 @@
 	<type>Passive</type>
 	<upgradeLevel>0</upgradeLevel>
 	<useRange>
-		<compiledString>FQsAAAABAAAAFwAAAFJhbmdlX0xvbmcAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+		<compiledString>FQ0AAAABAAAAGQAAAFJhbmdlX0V4TG9uZwBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
 		<returnType>float</returnType>
-		<sString>cRange_Long</sString>
+		<sString>cRange_ExLong</sString>
 	</useRange>
 	<useRangeMaterial href="/Effects/UI/AOESelection/Radius.MTRL" />
 	<variativeMaxTalentStats />

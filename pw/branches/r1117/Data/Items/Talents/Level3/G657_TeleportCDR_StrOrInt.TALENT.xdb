@@ -61,9 +61,9 @@
 					<UnitConstant>
 						<name>CooldownReduction</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQQ==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQg==</compiledString>
 							<returnType>float</returnType>
-							<sString>8</sString>
+							<sString>40</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -71,9 +71,9 @@
 					<UnitConstant>
 						<name>Add_Stat</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9Bdw5qZ6UAAAAA/</compiledString>
+							<compiledString>FQAAAAABAAAADAAAAFWL7FHZ7tkcJFHZBSIAAADZHCSLRRCLEItNEItCbP/QXcMzM1NBAAAAAA==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(7.3, 0.5)</sString>
+							<sString>refineScale(13.2, 0.0)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -120,7 +120,7 @@
 	<passiveApplicators>
 		<Item href="/Items/Talents/Level3/G657_TeleportCDR_StrOrInt.TALENT" id="1D17C99D-00D8-4D55-AA92-E48EAE34BDE5">
 			<SpellApplicator>
-				<applyTarget>ApplicatorTarget</applyTarget>
+				<applyTarget>AbilityOwner</applyTarget>
 				<caption>Спелл аппликатор с рефрешем</caption>
 				<enabled>
 					<compiledString></compiledString>
@@ -139,9 +139,9 @@
 										<Item href="/Items/Talents/Level3/G657_TeleportCDR_StrOrInt.TALENT" id="260A526D-5BE7-427F-8283-93C4C5788971">
 											<AbilityModApplicator>
 												<addValue>
-													<compiledString>FRIAAAABAAAAHgAAAENvb2xkb3duUmVkdWN0aW9uAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S2eBdww==</compiledString>
+													<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 													<returnType>float</returnType>
-													<sString>-cCooldownReduction</sString>
+													<sString>0</sString>
 												</addValue>
 												<applyTarget>ApplicatorTarget</applyTarget>
 												<behaviorFlags>216</behaviorFlags>
@@ -164,9 +164,9 @@
 												<LoggingEvent>-1</LoggingEvent>
 												<mode>cooldown</mode>
 												<multValue>
-													<compiledString></compiledString>
+													<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpkZPw==</compiledString>
 													<returnType>float</returnType>
-													<sString>1.0f</sString>
+													<sString>0.6</sString>
 												</multValue>
 												<providerName></providerName>
 												<specificAbility href="" />
@@ -181,8 +181,8 @@
 											</AbilityModApplicator>
 										</Item>
 									</applicators>
-									<applyTarget>ApplicatorTarget</applyTarget>
-									<behaviorFlags>209</behaviorFlags>
+									<applyTarget>AbilityOwner</applyTarget>
+									<behaviorFlags>216</behaviorFlags>
 									<caption>Тех. статус для КДР</caption>
 									<customCounter>
 										<compiledString></compiledString>
@@ -217,7 +217,7 @@
 									<name textref="" />
 									<power>0</power>
 									<providerName></providerName>
-									<stackableAcrossUnits>FullyStackable</stackableAcrossUnits>
+									<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
 									<stackCount>0</stackCount>
 									<startCondition>
 										<compiledString></compiledString>
@@ -251,7 +251,7 @@
 						</dispatch>
 					</Spell>
 				</spell>
-				<spellTarget>ApplicatorTarget</spellTarget>
+				<spellTarget>AbilityOwner</spellTarget>
 				<targetSelector href="/Items/Talents/Level3/G657_TeleportCDR_StrOrInt.TALENT" id="733B2965-1678-4FBE-8203-071A742D69DB">
 					<HeroEnumerator>
 						<flags>0</flags>

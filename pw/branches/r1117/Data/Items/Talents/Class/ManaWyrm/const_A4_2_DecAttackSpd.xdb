@@ -5,8 +5,8 @@
 	<BackLink DBID="/Items/Talents/Class/ManaWyrm/Ability4_2U.TALENT" Count="1" />
 	<name>Dec_AttackSpeed</name>
 	<var>
-		<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoAi00QixGLTRCLQmD/0F3DAADgQAAASEI=</compiledString>
+		<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoAi00QixGLTRCLQmD/0F3DAADAQAAAIEI=</compiledString>
 		<returnType>float</returnType>
-		<sString>abilityScale(sIntellect,7,50)</sString>
+		<sString>abilityScale(sIntellect,6,40)</sString>
 	</var>
 </UnitConstant>

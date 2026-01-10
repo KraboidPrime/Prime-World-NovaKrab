@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StatusApplicator>
-	<BackLink DBID="/Items/Talents/Class/Angel/Summon_Well.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Angel/Summon_Well.APLR" Count="2" />
 	<applicators>
 		<Item href="/Items/Talents/Class/Angel/status_A2_ExpBuff.APLR" id="0277729A-CBAE-494C-A7DE-1F73292E9E7A">
 			<StatModApplicator>

@@ -129,7 +129,7 @@
 		<Item href="/Items/Talents/Level4/G739_CDR_Health.TALENT" id="0DD2EE0B-87C2-40EA-B917-1BEBE797CDB9">
 			<StatModApplicator>
 				<applyTarget>AbilityOwner</applyTarget>
-				<behaviorFlags>0</behaviorFlags>
+				<behaviorFlags>216</behaviorFlags>
 				<caption>Увеличиваем Total_CooldownReduction</caption>
 				<constraint>None</constraint>
 				<dontUpdate>false</dontUpdate>
@@ -219,9 +219,9 @@
 	<type>Simple</type>
 	<upgradeLevel>0</upgradeLevel>
 	<useRange>
-		<compiledString>FSEAAAADAAAAJgAAADwAAABQAAAAUmVkc2V0N183Q291bnRlcgAAAABSYW5nZV9FeExvbmcAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwddgAAAN/g9sQBdR+LTQxRi1UIUmgUAAAAi0UQixCLTRCLQlD/0Nld/OsF2e7ZXfzZRfyL5V3DAAAAAAAAAAAAAABA</compiledString>
+		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 		<returnType>float</returnType>
-		<sString>sender.vRedset7_7Counter &gt;=2 ? cRange_ExLong : 0</sString>
+		<sString>0</sString>
 	</useRange>
 	<useRangeMaterial href="/Effects/UI/AOESelection/Radius.MTRL" />
 	<variativeMaxTalentStats />

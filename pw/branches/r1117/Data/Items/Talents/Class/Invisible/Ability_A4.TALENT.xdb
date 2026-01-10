@@ -454,7 +454,19 @@
 	<castLimitations>
 		<Item href="/Items/Talents/Class/Invisible/Ability_A4.TALENT" id="7F0C4582-B1A1-4148-B446-500C5D8E90AA">
 			<TargetCastLimitation>
-				<targetSelector href="/Items/Talents/Class/Invisible/A4_Enemies.TGSL" />
+				<targetSelector href="/Items/Talents/Class/Invisible/Ability_A4.TALENT" id="52ED4EF1-1D84-4266-82C7-102305B3701F">
+					<ConditionTargetSelector parent="/Items/Talents/Class/Invisible/A4_Enemies.TGSL">
+						<targetSelector href="/Items/Talents/Class/Invisible/Ability_A4.TALENT" id="3D060E49-F95E-467D-9582-253EF4F38DA1">
+							<AreaTargetSelector parent="/Items/Talents/Class/Invisible/Some_Cringe_A4.TGSL">
+								<range>
+									<compiledString>FQkAAAABAAAAFQAAAEE0X1JhbmdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+									<returnType>float</returnType>
+									<sString>cA4_Range</sString>
+								</range>
+							</AreaTargetSelector>
+						</targetSelector>
+					</ConditionTargetSelector>
+				</targetSelector>
 				<uiEvent href="/UI/Events/ErrorMessages/CastError_NoValidTargets.UIEV" />
 			</TargetCastLimitation>
 		</Item>

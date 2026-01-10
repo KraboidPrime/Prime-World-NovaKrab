@@ -1549,9 +1549,9 @@
 					<UnitConstant>
 						<name>A4_2Damage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAADIQQAAPEM=</compiledString>
+							<compiledString>FSUAAAAGAAAALAAAAEUAAAB/AAAAiQAAAL8AAADJAAAAR3Vuc2xpbmdlcl9BNF8ydQAAAABHdW5zbGluZ2VyX0E0XzJ1AFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoFAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdEBqAVHZBQsBAADZHCRR2QUHAQAA2RwkagCLVQiLAotNCIuQMAEAAP/SUdkcJGoBi0UQixCLTRCLQmD/0Nld9Os+agFR2QUDAQAA2RwkUdkF/wAAANkcJGoAi00IixGLTQiLgjABAAD/0FHZHCRqAYtNEIsRi00Qi0Jg/9DZXfTZRfSL5V3DAADIQQAAPEMAAPBBAABhQw==</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(sStrength, 25, 188)</sString>
+							<sString>tal("Gunslinger_A4_2u") ? damageScale(sStrength, 30, 225) : damageScale(sStrength, 25, 188)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -1559,9 +1559,9 @@
 					<UnitConstant>
 						<name>A4_2Duration</name>
 						<var>
-							<compiledString>FQwAAAACAAAAGQAAACwAAABSYWdlX1JlZHVjZQBVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcBToAAADZXfzZRfyL5V3DAAAAoJmZ6T8=</compiledString>
+							<compiledString>FTQAAAAFAAAAOwAAAFQAAACEAAAAoQAAAMwAAABHdW5zbGluZ2VyX0EwX1NVUAAAAEd1bnNsaW5nZXJfQTBfU1VQAAAAUmFnZV9SZWR1Y2UAVYvsg+wcaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgUAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wBR2QXiAAAA2RwkD7ZN+4PBAYlN9NtF9ItVDFKLRQhQaCgAAACLTRCLEYtNEItCUN1d7P/Q3E3s2V3o2UXoUdkcJOgfAAAAg8QI3AXaAAAA2V3k2UXki+VdwwAAAKCZmek/AADAP1WL7FHZRQjZRQze2d/g9sRBdQjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
 							<returnType>float</returnType>
-							<sString>0.8f + cRage_Reduce</sString>
+							<sString>0.8f + min((1+tal("Gunslinger_A0_SUP"))*cRage_Reduce,1.5f)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -1658,6 +1658,16 @@
 							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAC0Qg==</compiledString>
 							<returnType>float</returnType>
 							<sString>90.0f</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Gunslinger/Ability_A4_2.TALENT" id="9FAC89E4-DCF6-4468-9448-001CFCA3756A">
+					<UnitConstant>
+						<name>Bue</name>
+						<var>
+							<compiledString>FSYAAAACAAAALQAAAEYAAABHdW5zbGluZ2VyX0EwX1NVUAAAAEd1bnNsaW5nZXJfQTBfU1VQAFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoFAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+/fZG8mD4QKDwQKJTfTbRfSL5V3D</compiledString>
+							<returnType>float</returnType>
+							<sString>tal("Gunslinger_A0_SUP") ? 4 : 2</sString>
 						</var>
 					</UnitConstant>
 				</Item>

@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <EffectSwitcher>
 	<BackLink DBID="/Items/Talents/Class/Freeze/Ability_A4.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A4_1.TALENT" Count="1" />
 	<deathType>Anim</deathType>
 	<effectOnInvisible href="/Summons/Fist/FXDeathEnemy.EFFT" />
 	<effectOnVisible href="/Summons/Fist/FXDeathAlly.EFFT" />

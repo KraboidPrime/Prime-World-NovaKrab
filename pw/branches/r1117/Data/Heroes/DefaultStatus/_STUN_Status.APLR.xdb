@@ -49,7 +49,7 @@
 	<BackLink DBID="/Items/Talents/Class/Highlander/Ability4_2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Highlander/foralltargets.APLR" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Highlander/LastHitTrigger.APLR" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Hunter/Ability4_2.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Hunter/Ability4_2.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Invisible/A1Upg_Push.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/IronKnight/Ability_A4_2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Katana/Ability_A2.TALENT" Count="1" />
@@ -74,7 +74,7 @@
 	<BackLink DBID="/Items/Talents/Class/Rockman/Ability4.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Rockman/Ability4_2.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Shaman/A4Jump_spellapplicator.APLR" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Stalker/Ability_A2.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/Stalker/Ability_A2.TALENT" Count="4" />
 	<BackLink DBID="/Items/Talents/Class/ThunderGod/Ability4_2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Trickster/Ability4_2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Vampire/status_A4_StunAndDPS.APLR" Count="1" />
@@ -84,7 +84,7 @@
 	<BackLink DBID="/Items/Talents/Class/WitchDoctor/Ability2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/WitchDoctor/Ability4_2.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Witcher/Ability_A4.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Level4/G305_K_Dex_CDR.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level4/G305_K_Dex_CDR.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Level4/G306_K_LifeDrain_AttackSpeed.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level4/G352_Dmg.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Level4/G779_AtSpdOrDex_Stun.TALENT" Count="1" />
@@ -94,6 +94,15 @@
 	<BackLink DBID="/Maps/PvE/Series/Episode1/Talents/rockman/Ability4.TALENT" Count="1" />
 	<BackLink DBID="/Maps/PvE/Series/Episode1/Talents/witcher/Ability4.TALENT" Count="1" />
 	<BackLink DBID="/Summons/Bear/_.SUMMONED" Count="1" />
+	<BackLink DBID="/Items/Talents/Level5/G311_K_Life_Energy.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level5/G311_NEW_for_link_block.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Chicken/Ability_A4_1.TALENT" Count="3" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A4_2.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A4_1.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A0.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level3/G552_PhantomBase.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level2/G470_Str_Int.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level5/G260_Str_Life.TALENT" Count="1" />
 	<applicators>
 		<Item href="/Heroes/DefaultStatus/_STUN.APLR" />
 		<Item href="/Heroes/DefaultStatus/_STUN_Status.APLR" id="24D40B45-6F9C-41C0-AC2C-F5CC8C76A195">

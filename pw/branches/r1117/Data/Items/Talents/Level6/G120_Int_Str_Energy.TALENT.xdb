@@ -49,42 +49,32 @@
 	<commonDescription textref="" />
 	<compiledDescriptionA textref="" />
 	<compiledDescriptionB textref="" />
-	<conditionFormulas />
+	<conditionFormulas>
+		<Item href="/Items/Talents/Level6/G120_Int_Str_Energy.TALENT" id="E774A93D-FA13-43F6-8A79-74F2D831B4AC">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRcAAAACAAAAHAAAADIAAABTZWMyMDI1X1Rvb2x0aXBDb3VudGVyAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHVQAAADf4PbEAXUJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAIQA==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vSec2025_TooltipCounter &gt;= 3</sString>
+				</condition>
+				<name>Bonus3ActiveSe</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Items/Talents/Level6/G120_Int_Str_Energy.TALENT" id="A80A5722-884C-4AAF-94F1-85FFF9ED5BF8">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRcAAAACAAAAHAAAADIAAABTZWMyMDI1X1Rvb2x0aXBDb3VudGVyAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHVQAAADf4PbEAXUJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAcQA==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vSec2025_TooltipCounter &gt;= 7</sString>
+				</condition>
+				<name>Bonus7ActiveSe</name>
+			</ConditionFormula>
+		</Item>
+	</conditionFormulas>
 	<conflictingTalents />
 	<constants href="/Items/Talents/Level6/G120_Int_Str_Energy.TALENT" id="34479863-D88A-4DCC-8B53-1515D52E1D9D">
 		<UnitConstantsContainer>
-			<vars>
-				<Item href="/Items/Talents/Level6/G120_Int_Str_Energy.TALENT" id="EF976099-EB39-4FA6-AFF1-C4330BE7F10F">
-					<UnitConstant>
-						<name>Add_Strength</name>
-						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAA0EDNzMw+</compiledString>
-							<returnType>float</returnType>
-							<sString>refineScale(6.5, 0.4)</sString>
-						</var>
-					</UnitConstant>
-				</Item>
-				<Item href="/Items/Talents/Level6/G120_Int_Str_Energy.TALENT" id="ED9096A4-2F4B-44EC-A8E8-95F332589ACB">
-					<UnitConstant>
-						<name>Add_Energy</name>
-						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAASEIAAFBB</compiledString>
-							<returnType>float</returnType>
-							<sString>refineScale(50, 13)</sString>
-						</var>
-					</UnitConstant>
-				</Item>
-				<Item href="/Items/Talents/Level6/G120_Int_Str_Energy.TALENT" id="64330E14-058E-45A6-A43F-FCBEA27BE0DF">
-					<UnitConstant>
-						<name>Add_Intellect</name>
-						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAA0EDNzMw+</compiledString>
-							<returnType>float</returnType>
-							<sString>refineScale(6.5, 0.4)</sString>
-						</var>
-					</UnitConstant>
-				</Item>
-			</vars>
+			<vars />
 		</UnitConstantsContainer>
 	</constants>
 	<consumptionBonus>
@@ -102,7 +92,7 @@
 		<sString>0.0f</sString>
 	</cooldownTimeSecondState>
 	<description textref="/Items/Talents/Level6/G120_Int_Str_Energy.TALENT_description.txt" />
-	<devPoints>2</devPoints>
+	<devPoints>3</devPoints>
 	<dispatch href="" />
 	<flags>1</flags>
 	<forceBonus>33</forceBonus>
@@ -125,10 +115,10 @@
 	<name textref="/Items/Talents/Level6/G120_Int_Str_Energy.TALENT_name.txt" />
 	<node></node>
 	<passiveApplicators>
-		<Item href="/Items/Talents/Level6/G120_Int_Str_Energy.TALENT" id="8BC12D4F-6C4F-4160-89E2-5724FCDB1FD0">
+		<Item href="/Items/Talents/Level6/G120_Int_Str_Energy.TALENT" id="620A87AF-6BDC-448D-84C9-112519AACDDB">
 			<PermanentStatModApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>Add_Strength</caption>
+				<caption>Сила</caption>
 				<customApplyType>None</customApplyType>
 				<enabled>
 					<compiledString></compiledString>
@@ -139,9 +129,9 @@
 				<LoggingEvent>-1</LoggingEvent>
 				<modifier>
 					<addValue>
-						<compiledString>FQ0AAAABAAAAGQAAAEFkZF9TdHJlbmd0aABVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+						<compiledString>FQAAAAABAAAAFgAAAFWL7FGLRQiLEItNCIuCuAAAAP/Q3A0kAAAA2V382UX8i+Vdw7gehetRuK4/</compiledString>
 						<returnType>float</returnType>
-						<sString>cAdd_Strength</sString>
+						<sString>0.06*sBaseStrength</sString>
 					</addValue>
 					<multValue>
 						<compiledString></compiledString>
@@ -155,10 +145,10 @@
 				<providerName></providerName>
 			</PermanentStatModApplicator>
 		</Item>
-		<Item href="/Items/Talents/Level6/G120_Int_Str_Energy.TALENT" id="E6B9FF92-7451-42E5-B942-A14AE463B6CB">
+		<Item href="/Items/Talents/Level6/G120_Int_Str_Energy.TALENT" id="63741F1C-459B-4295-8444-BFD8C4019EC5">
 			<PermanentStatModApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>Add_Energy</caption>
+				<caption>Разум</caption>
 				<customApplyType>None</customApplyType>
 				<enabled>
 					<compiledString></compiledString>
@@ -169,39 +159,9 @@
 				<LoggingEvent>-1</LoggingEvent>
 				<modifier>
 					<addValue>
-						<compiledString>FQsAAAABAAAAFwAAAEFkZF9FbmVyZ3kAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+						<compiledString>FQAAAAABAAAAFgAAAFWL7FGLRQiLEItNCIuCvAAAAP/Q3A0kAAAA2V382UX8i+Vdw7gehetRuK4/</compiledString>
 						<returnType>float</returnType>
-						<sString>cAdd_Energy</sString>
-					</addValue>
-					<multValue>
-						<compiledString></compiledString>
-						<returnType>float</returnType>
-						<sString>1.0f</sString>
-					</multValue>
-					<stat>Energy</stat>
-					<topModifier>false</topModifier>
-					<variable></variable>
-				</modifier>
-				<providerName></providerName>
-			</PermanentStatModApplicator>
-		</Item>
-		<Item href="/Items/Talents/Level6/G120_Int_Str_Energy.TALENT" id="2D65DC4F-A610-4B9C-8C1B-1AB4E4E6CBEE">
-			<PermanentStatModApplicator>
-				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>Add_Intellect</caption>
-				<customApplyType>None</customApplyType>
-				<enabled>
-					<compiledString></compiledString>
-					<returnType>bool</returnType>
-					<sString>true</sString>
-				</enabled>
-				<formulaName></formulaName>
-				<LoggingEvent>-1</LoggingEvent>
-				<modifier>
-					<addValue>
-						<compiledString>FQ4AAAABAAAAGgAAAEFkZF9JbnRlbGxlY3QAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
-						<returnType>float</returnType>
-						<sString>cAdd_Intellect</sString>
+						<sString>0.06*sBaseIntellect</sString>
 					</addValue>
 					<multValue>
 						<compiledString></compiledString>
@@ -215,10 +175,131 @@
 				<providerName></providerName>
 			</PermanentStatModApplicator>
 		</Item>
+		<Item href="/Items/Talents/Level6/G120_Int_Str_Energy.TALENT" id="5B6790B1-1C29-4999-B54F-9EEA94709B26">
+			<PermanentStatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>Dex</caption>
+				<customApplyType>None</customApplyType>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQAAAAABAAAAFgAAAFWL7FGLRQiLEItNCIuCwAAAAP/Q3A0kAAAA2V382UX8i+Vdw7gehetRuK4/</compiledString>
+						<returnType>float</returnType>
+						<sString>0.06*sBaseDexterity</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Dexterity</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level6/G120_Int_Str_Energy.TALENT" id="A50C4B4F-4A31-4047-AF61-29697DB304CB">
+			<PermanentStatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>Agil</caption>
+				<customApplyType>None</customApplyType>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQAAAAABAAAAFgAAAFWL7FGLRQiLEItNCIuCjAAAAP/Q3A0kAAAA2V382UX8i+Vdw7gehetRuK4/</compiledString>
+						<returnType>float</returnType>
+						<sString>0.06*sBaseAttackSpeed</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>AttackSpeed</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level6/G120_Int_Str_Energy.TALENT" id="8F77F20C-D5E4-48BC-9780-35DB830605A1">
+			<PermanentStatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>Stam</caption>
+				<customApplyType>None</customApplyType>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQAAAAABAAAAFgAAAFWL7FGLRQiLEItNCIuCyAAAAP/Q3A0kAAAA2V382UX8i+Vdw7gehetRuK4/</compiledString>
+						<returnType>float</returnType>
+						<sString>0.06*sBaseStamina</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Stamina</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level6/G120_Int_Str_Energy.TALENT" id="082CE3AF-DCC9-4E8E-A41E-A443FC172D59">
+			<PermanentStatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>Will</caption>
+				<customApplyType>None</customApplyType>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQAAAAABAAAAFgAAAFWL7FGLRQiLEItNCIuCzAAAAP/Q3A0kAAAA2V382UX8i+Vdw7gehetRuK4/</compiledString>
+						<returnType>float</returnType>
+						<sString>0.06*sBaseWill</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Will</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level3/SecondPinkSet_Prog2025.APLR" />
 	</passiveApplicators>
 	<persistentId>G120</persistentId>
 	<prerequisiteTalents />
-	<rarity>excellent</rarity>
+	<rarity>magnificent</rarity>
 	<requireLineOfSight>true</requireLineOfSight>
 	<shortDescription textref="/Items/Talents/Level6/G120_Int_Str_Energy.TALENT_shortDescription.txt" />
 	<talentRollGroups>0</talentRollGroups>

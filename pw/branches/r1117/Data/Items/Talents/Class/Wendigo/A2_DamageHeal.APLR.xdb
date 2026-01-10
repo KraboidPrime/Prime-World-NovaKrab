@@ -94,9 +94,9 @@
 												<Item href="" />
 											</effect>
 											<enabled>
-												<compiledString></compiledString>
+												<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 												<returnType>bool</returnType>
-												<sString>true</sString>
+												<sString>false</sString>
 											</enabled>
 											<formulaName></formulaName>
 											<lifeTime>
@@ -135,9 +135,9 @@
 											<cancelInvisibility>false</cancelInvisibility>
 											<caption>урон врагу с кровотечением</caption>
 											<damage>
-												<compiledString>FSQAAAACAAAAMwAAAEUAAABBMl9BdXRvRGFtYWdlAAAAQ3VycmVudFRhcmdldFN0YWNrcwBVi+yD7AyLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0mgQAAAAi0UIixCLTQiLgogBAADdXfj/0NxN+Nld9NlF9IvlXcM=</compiledString>
+												<compiledString>FQ4AAAABAAAAGgAAAEEyX0F1dG9EYW1hZ2UAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
 												<returnType>float</returnType>
-												<sString>cA2_AutoDamage * sender.vCurrentTargetStacks</sString>
+												<sString>cA2_AutoDamage</sString>
 											</damage>
 											<damageMode>0</damageMode>
 											<damageType>Material</damageType>
@@ -156,9 +156,9 @@
 									<Item href="/Items/Talents/Class/Wendigo/A2_DamageHeal.APLR" id="BF7B4FBA-6922-40B0-8BED-1B04059627A7">
 										<HealApplicator>
 											<amount>
-												<compiledString>FSAAAAACAAAALwAAAEEAAABBMl9BdXRvSGVhbABDdXJyZW50VGFyZ2V0U3RhY2tzAFWL7IPsDItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SaAwAAACLRQiLEItNCIuCiAEAAN1d+P/Q3E342V302UX0i+Vdww==</compiledString>
+												<compiledString>FQwAAAABAAAAGAAAAEEyX0F1dG9IZWFsAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
 												<returnType>float</returnType>
-												<sString>cA2_AutoHeal * sender.vCurrentTargetStacks</sString>
+												<sString>cA2_AutoHeal</sString>
 											</amount>
 											<applyTarget>AbilityOwner</applyTarget>
 											<caption>лечим себя</caption>

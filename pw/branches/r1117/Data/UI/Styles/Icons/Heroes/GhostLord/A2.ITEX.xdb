@@ -2,7 +2,9 @@
 <UITexture>
 	<BackLink DBID="/Items/Talents/Class/GhostLord/Ability_A2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/GhostLord/Ability_A2u.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/GhostLord/status_A2_SpectralShield.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/GhostLord/status_A2_SpectralShield.APLR" Count="3" />
+	<BackLink DBID="/Items/Talents/Class/GhostLord/Ability_A4_2.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/GhostLord/program_A2_SprectralShield.APLR" Count="1" />
 	<generatedFileName></generatedFileName>
 	<importOnlyShape>false</importOnlyShape>
 	<mipLevels>0</mipLevels>

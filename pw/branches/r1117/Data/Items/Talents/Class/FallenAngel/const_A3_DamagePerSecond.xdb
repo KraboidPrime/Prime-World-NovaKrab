@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Class/FallenAngel/Ability_A3u.TALENT" Count="1" />
 	<name>A3_DamagePerSecond</name>
 	<var>
-		<compiledString>FSQAAAADAAAAMwAAAE0AAABtAAAAQTNfRGFtYWdlAAAAQTNfRHVyYXRpb24AQTNfSW50ZXJ2YWwAVYvsg+wUi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9KLRQxQi00IUWgMAAAAi1UQiwKLTRCLUFDdXfj/0tx9+ItFDFCLTQhRaBgAAACLVRCLAotNEItQUN1d8P/S3H3w2V3s2UXsi+Vdww==</compiledString>
+		<compiledString>FRgAAAACAAAAJwAAAEEAAABBM19EYW1hZ2UAAABBM19EdXJhdGlvbgBVi+yD7AyLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0otFDFCLTQhRaAwAAACLVRCLAotNEItQUN1d+P/S3H342V302UX0i+Vdww==</compiledString>
 		<returnType>float</returnType>
-		<sString>cA3_Damage/cA3_Duration/cA3_Interval</sString>
+		<sString>cA3_Damage/cA3_Duration</sString>
 	</var>
 </UnitConstant>

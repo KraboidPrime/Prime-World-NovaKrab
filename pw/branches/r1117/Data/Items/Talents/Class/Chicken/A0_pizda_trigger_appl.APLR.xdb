@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TriggerApplicator>
+	<BackLink DBID="/Items/Talents/Class/Chicken/Ability_A0.TALENT" Count="1" />
+	<actionsCount>
+		<compiledString></compiledString>
+		<returnType>int</returnType>
+		<sString>0</sString>
+	</actionsCount>
+	<applyTarget>AbilityOwner</applyTarget>
+	<behaviorFlags>136</behaviorFlags>
+	<caption>страховОЧКА</caption>
+	<effect>
+		<Item href="" />
+		<Item href="" />
+	</effect>
+	<enabled>
+		<compiledString>FTMAAAAHAAAAOgAAAFAAAABcAAAAcgAAAH4AAACUAAAAvQAAAENoaWNrUmVzU3RhcnRlZABEcmFnb25SZXNTdGFydGVkAAAAAFZhbXBSZXNTdGFydGVkAFWL7IPsDGgAAAAAi0UIixCLTQiLgogBAAD/0Nwd6gAAAN/g9sREenloEAAAAItNCIsRi00Ii4KIAQAA/9DcHeoAAADf4PbERHpXaCQAAACLTQiLEYtNCIuCiAEAAP/Q3B3qAAAA3+D2xER6NYtNCIsRi00IiwL/0ItNCIsRi00Ii0IM3V34/9DcDeIAAADcXfjf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcMK16NwPQq3PwAAAAAAAAAA</compiledString>
+		<returnType>bool</returnType>
+		<sString>sender.vChickResStarted == 0 &amp;&amp; sender.vDragonResStarted == 0 &amp;&amp; sender.vVampResStarted == 0 &amp;&amp; sLife &lt; 0.09*sMaxLife</sString>
+	</enabled>
+	<formulaName></formulaName>
+	<lifeTime>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>-1.0</sString>
+	</lifeTime>
+	<LoggingEvent>-1</LoggingEvent>
+	<playAck>false</playAck>
+	<processor href="/Items/Talents/Class/Chicken/A0_pizda_trigger_appl.APLR" id="40B02950-14D2-4DE7-9FDD-7FD77E43F878">
+		<EventProcessorDamageTransformer>
+			<abilityFilter>
+				<abilitiesList />
+				<abilityCondition>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</abilityCondition>
+				<abilityCostMode>Any</abilityCostMode>
+				<exceptThis>false</exceptThis>
+				<flags>1610614015</flags>
+				<onlySingleTarget>false</onlySingleTarget>
+			</abilityFilter>
+			<add>
+				<compiledString></compiledString>
+				<returnType>float</returnType>
+				<sString>0.0f</sString>
+			</add>
+			<applyTarget>AbilityOwner</applyTarget>
+			<checkSender>0</checkSender>
+			<damageTypeFilter>31</damageTypeFilter>
+			<flags>0</flags>
+			<matchTargetInverted>false</matchTargetInverted>
+			<mul>
+				<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+				<returnType>float</returnType>
+				<sString>0.0f</sString>
+			</mul>
+			<objectFilter>2040319</objectFilter>
+			<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
+			<spell href="" />
+			<treatDelegatedByDelegator>false</treatDelegatedByDelegator>
+		</EventProcessorDamageTransformer>
+	</processor>
+	<providerName></providerName>
+	<startCondition>
+		<compiledString></compiledString>
+		<returnType>bool</returnType>
+		<sString>true</sString>
+	</startCondition>
+	<useAbilityCooldown>false</useAbilityCooldown>
+	<useAbilityOwnerMana>false</useAbilityOwnerMana>
+</TriggerApplicator>

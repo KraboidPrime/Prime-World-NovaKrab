@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Level2/G492_DMG.TALENT" Count="1" />
 	<name>G493_CD_Reduction</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQQ==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQg==</compiledString>
 		<returnType>float</returnType>
-		<sString>30</sString>
+		<sString>50</sString>
 	</var>
 </UnitConstant>

@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Class/FireFox/Ability4.TALENT" Count="1" />
 	<name>DamRedPercentBase</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQg==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAMQg==</compiledString>
 		<returnType>float</returnType>
-		<sString>40</sString>
+		<sString>35</sString>
 	</var>
 </UnitConstant>

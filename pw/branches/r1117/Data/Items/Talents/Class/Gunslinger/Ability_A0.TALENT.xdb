@@ -10,6 +10,7 @@
 	<BackLink DBID="/Test/Talents/Gunslinger/Elite_StrAsp.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Gunslinger/Epic_Int.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Gunslinger/Epic_Str.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Gunslinger/Ability_A0_SUP.TALENT" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>

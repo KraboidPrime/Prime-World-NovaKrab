@@ -157,7 +157,7 @@
 				<name textref="" />
 				<power>0</power>
 				<providerName></providerName>
-				<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+				<stackableAcrossUnits>FullyStackable</stackableAcrossUnits>
 				<stackCount>0</stackCount>
 				<startCondition>
 					<compiledString></compiledString>
@@ -253,8 +253,8 @@
 	<name textref="/Heroes/DefaultStatus/_POISON.APLR_name.txt" />
 	<power>0</power>
 	<providerName></providerName>
-	<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
-	<stackCount>2</stackCount>
+	<stackableAcrossUnits>FullyStackable</stackableAcrossUnits>
+	<stackCount>9</stackCount>
 	<startCondition>
 		<compiledString></compiledString>
 		<returnType>bool</returnType>

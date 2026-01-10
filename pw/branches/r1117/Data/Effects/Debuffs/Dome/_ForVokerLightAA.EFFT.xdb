@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BasicEffectStandalone>
+	<BackLink DBID="/Heroes/Primevoker/_.HROB" Count="2" />
+	<component href="/Effects/Debuffs/Dome/_Voker78TRS.PRXY" />
+	<deathType>Manual</deathType>
+	<enableCondition href="/Effects/Debuffs/Dome/_ForVokerLightAA.EFFT" id="F742D96B-8597-446B-8FF8-BA24BFEEA6A3">
+		<ConditionFormula>
+			<condition>
+				<compiledString>FQoAAAACAAAADwAAACUAAABWb2tlckF0Y2sAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdRwAAAN/g9sREegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAhA</compiledString>
+				<returnType>bool</returnType>
+				<sString>sender.vVokerAtck == 3.0f</sString>
+			</condition>
+			<name></name>
+		</ConditionFormula>
+	</enableCondition>
+	<fadeIn>0.1</fadeIn>
+	<fadeOut>0</fadeOut>
+	<isVisibleUnderWarfog>false</isVisibleUnderWarfog>
+	<lifeTime>0</lifeTime>
+	<parentFlags>0</parentFlags>
+	<parentType>General</parentType>
+	<visibilityLimited>false</visibilityLimited>
+	<visibleTime>0</visibleTime>
+</BasicEffectStandalone>

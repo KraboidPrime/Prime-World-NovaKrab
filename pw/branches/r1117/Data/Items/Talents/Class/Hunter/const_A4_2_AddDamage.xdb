@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Class/Hunter/Ability4_2.TALENT" Count="1" />
 	<name>A4_2_AddDamage</name>
 	<var>
-		<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAADwQQAAYUM=</compiledString>
+		<compiledString>FR4AAAAGAAAAJQAAAD4AAAB4AAAAggAAALgAAADCAAAASHVudGVyX0EyX1NVUAAAAEh1bnRlcl9BMl9TVVAAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0QGoBUdkFBAEAANkcJFHZBQABAADZHCRqAItVCIsCi00Ii5AwAQAA/9JR2RwkagGLRRCLEItNEItCYP/Q2V306z5qAVHZBfwAAADZHCRR2QX4AAAA2RwkagCLTQiLEYtNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0Nld9NlF9IvlXcMAAPBBAABhQwAABEIAAHhD</compiledString>
 		<returnType>float</returnType>
-		<sString>damageScale( sStrength, 30, 225 )</sString>
+		<sString>tal("Hunter_A2_SUP") ? damageScale( sStrength, 33, 248 ) : damageScale( sStrength, 30, 225 )</sString>
 	</var>
 </UnitConstant>

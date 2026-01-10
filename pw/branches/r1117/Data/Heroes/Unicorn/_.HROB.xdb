@@ -683,7 +683,29 @@
 			</aoeSize>
 			<aoeType>None</aoeType>
 			<applicators>
-				<Item href="/GameLogic/GeneralApplicators/BaseAttackDmg_Hero.APLR" />
+				<Item href="/Heroes/Unicorn/_.HROB" id="92E94482-88C5-4D43-927E-65FCCBCEF19F">
+					<DamageApplicator parent="/GameLogic/GeneralApplicators/BaseAttackDmg_Hero.APLR">
+						<enabled>
+							<compiledString>FR8AAAACAAAAJgAAAD8AAABVbmljb3JuX0EzX1NVUAAAVW5pY29ybl9BM19TVVAAVYvsg+wIaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtkX799gbwIPAAYvlXcM=</compiledString>
+							<returnType>bool</returnType>
+							<sString>!tal("Unicorn_A3_SUP")</sString>
+						</enabled>
+					</DamageApplicator>
+				</Item>
+				<Item href="/Heroes/Unicorn/_.HROB" id="7EC4E8C6-D247-4923-B522-59B4CA94B3B8">
+					<DamageApplicator parent="/GameLogic/GeneralApplicators/BaseAttackDmg_Hero_material.APLR">
+						<damage>
+							<compiledString>FQAAAAAEAAAAKwAAADEAAABwAAAAdgAAAFWL7IPsHItFCIsQi00Ii4IwAQAA/9CLTQiLEYtNCIuCuAAAAN1d+P/Q3A2/AAAA3AW3AAAA3E342V302UX0UdkcJOiAAAAAg8QEUItNCIsRi00Ii4IwAQAA/9CLTQiLEYtNCIuCuAAAAN1d7P/Q3A2vAAAA3AWnAAAA3E3s2V3o2UXoUdkcJOg7AAAAg8QEUItNEIsRi00Qi0Jc/9CJReTbReSL5V3DBFYOLbKd5z/Q0D/BxYpqP3e+nxov3ew/KuPfZ1w4cD+4AQAAAA+i98IAAAAEdAfzDyxEJATD6QAAAABVi+yD7AzZRQjZffwPt0X8DQAMAACJRfjZbfjbXfTZbfyLRfSL5V3D</compiledString>
+							<returnType>float</returnType>
+							<sString>random ( f2l(sStrength*(0.00324*sBaseStrength+0.738)), f2l(sStrength*(0.00396*sBaseStrength+0.902)))</sString>
+						</damage>
+						<enabled>
+							<compiledString>FR8AAAACAAAAJgAAAD8AAABVbmljb3JuX0EzX1NVUAAAVW5pY29ybl9BM19TVVAAVYvsg+wIaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wCKRfuL5V3D</compiledString>
+							<returnType>bool</returnType>
+							<sString>tal("Unicorn_A3_SUP")</sString>
+						</enabled>
+					</DamageApplicator>
+				</Item>
 				<Item href="/Effects/Shots/HitsApplicators/Melee.APLR" />
 			</applicators>
 			<autoTargetSelector href="" />
@@ -729,7 +751,7 @@
 					<instantApply>false</instantApply>
 				</DispatchImmediate>
 			</dispatch>
-			<flags>1</flags>
+			<flags>5</flags>
 			<image href="" />
 			<imageSecondState href="" />
 			<isMelee>true</isMelee>
@@ -975,9 +997,9 @@
 					<calcIncrement>0.8</calcIncrement>
 					<calcValue>52.2</calcValue>
 					<increment>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpmZPg==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DZmbmPg==</compiledString>
 						<returnType>float</returnType>
-						<sString>0.3</sString>
+						<sString>0.45</sString>
 					</increment>
 					<levelUpgrades />
 					<statId>Strength</statId>

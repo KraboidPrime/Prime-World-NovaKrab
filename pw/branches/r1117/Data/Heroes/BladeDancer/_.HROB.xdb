@@ -739,6 +739,56 @@
 																<ProgramApplicator>
 																	<applicators>
 																		<Item>
+																			<applicator href="/Heroes/BladeDancer/_.HROB" id="D81C04DF-FEF2-4791-B645-78360542613B">
+																				<GhostMoveApplicator>
+																					<applyTarget>ApplicatorTarget</applyTarget>
+																					<behaviorFlags>0</behaviorFlags>
+																					<caption>Чудеса</caption>
+																					<collisionFlags>7</collisionFlags>
+																					<effect>
+																						<Item href="" />
+																						<Item href="" />
+																					</effect>
+																					<enabled>
+																						<compiledString></compiledString>
+																						<returnType>bool</returnType>
+																						<sString>true</sString>
+																					</enabled>
+																					<formulaName></formulaName>
+																					<lifeTime>
+																						<compiledString></compiledString>
+																						<returnType>float</returnType>
+																						<sString>-1.0</sString>
+																					</lifeTime>
+																					<LoggingEvent>-1</LoggingEvent>
+																					<providerName></providerName>
+																					<pushUnits>true</pushUnits>
+																					<startCondition>
+																						<compiledString></compiledString>
+																						<returnType>bool</returnType>
+																						<sString>true</sString>
+																					</startCondition>
+																				</GhostMoveApplicator>
+																			</applicator>
+																			<continueCondition>
+																				<compiledString></compiledString>
+																				<returnType>bool</returnType>
+																				<sString>0</sString>
+																			</continueCondition>
+																			<continueEvents>1</continueEvents>
+																			<delay>
+																				<compiledString></compiledString>
+																				<returnType>float</returnType>
+																				<sString>-1.0</sString>
+																			</delay>
+																			<stopCondition>
+																				<compiledString></compiledString>
+																				<returnType>bool</returnType>
+																				<sString>0</sString>
+																			</stopCondition>
+																			<stopEvents>0</stopEvents>
+																		</Item>
+																		<Item>
 																			<applicator href="/GameLogic/GeneralApplicators/SetTossed.APLR" />
 																			<continueCondition>
 																				<compiledString></compiledString>
@@ -1324,7 +1374,8 @@
 							</UnitConstant>
 						</Item>
 						<Item href="/Items/Talents/Class/BladeDancer/const_A4_StunDuration" />
-						<Item href="/Items/Talents/Class/BladeDancer/const_A4_2_DamageHeal" />
+						<Item href="/Items/Talents/Class/BladeDancer/const_A4_2_Damage" />
+						<Item href="/Items/Talents/Class/BladeDancer/const_A4_2_Heal" />
 						<Item href="/Items/Talents/Class/BladeDancer/const_A0_SUP_BonusDamage" />
 						<Item href="/Items/Talents/Class/BladeDancer/const_A0_SUP_StackDamage" />
 					</vars>

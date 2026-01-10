@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Level5/G312_LifeDrain_maxStrInt.TALENT" Count="1" />
 	<name>G312_Reduce_CD</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQg==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQg==</compiledString>
 		<returnType>float</returnType>
-		<sString>40</sString>
+		<sString>100</sString>
 	</var>
 </UnitConstant>

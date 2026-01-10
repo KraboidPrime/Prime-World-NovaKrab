@@ -2,6 +2,7 @@
 <StatModApplicator>
 	<BackLink DBID="/Items/Talents/Class/Brewer/status_Honey_1F.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Brewer/status_Honey_2F.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Brewer/status_Honey_0F.APLR" Count="1" />
 	<applyTarget>ApplicatorTarget</applyTarget>
 	<behaviorFlags>0</behaviorFlags>
 	<caption>записывалка Immune2Control</caption>
@@ -12,9 +13,9 @@
 		<Item href="" />
 	</effect>
 	<enabled>
-		<compiledString>FTkAAAADAAAARwAAAI8AAACoAAAAQnJld2VyX0hvbmV5U3RhdHVzX0ZyaWVuZGx5AEJyZXdlcl9BNF8ydQAAAABCcmV3ZXJfQTRfMnUAVYvsg+wMVmoBi0UQUGgAAAAAi00MixGLTQyLgqABAAD/0IP4BA+MggAAAItNDIsRi00Mi0JM/9CL8ItNDIsRi00Mi4KQAQAA/9AzyTvwD5TBhcl0WGgcAAAAi1UIiwKLTQiLkKgBAAD/0oXAdCpoLAAAAItFCIsQi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdAnHRfQBAAAA6wfHRfQAAAAAikX0XovlXcM=</compiledString>
+		<compiledString>FVQAAAAFAAAAYgAAAK4AAADHAAAA/QAAABYBAABCcmV3ZXJfSG9uZXlTdGF0dXNfRnJpZW5kbHkAQnJld2VyX0E0XzJ1AAAAAEJyZXdlcl9BNF8ydQAAAABCcmV3ZXJfQTRfMgBCcmV3ZXJfQTRfMgBVi+yD7BRWagGLRRBQaAAAAACLTQyLEYtNDIuCoAEAAP/Qg/gED4zVAAAAi00MixGLTQyLQkz/0Ivwi00MixGLTQyLgpABAAD/0DPJO/APlMGFyQ+EpwAAAGgcAAAAi1UIiwKLTQiLkKgBAAD/0oXAdCpoLAAAAItFCIsQi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdFhoPAAAAItVCIsCi00Ii5CoAQAA/9KFwHQqaEgAAACLRQiLEItNCIuCqAEAAP/QiUX0i030ixGLTfSLQgT/0IhF8+sExkXzAA+2TfOFyXQJx0XsAQAAAOsHx0XsAAAAAIpF7F6L5V3D</compiledString>
 		<returnType>bool</returnType>
-		<sString>(receiver.CountApplicators( "Brewer_HoneyStatus_Friendly", pMisc, UNIT ) &gt;= 4) &amp;&amp; (rTerrainType == rFctn ? 1 : 0 ) &amp;&amp; tal("Brewer_A4_2u")</sString>
+		<sString>(receiver.CountApplicators( "Brewer_HoneyStatus_Friendly", pMisc, UNIT ) &gt;= 4) &amp;&amp; (rTerrainType == rFctn ? 1 : 0 ) &amp;&amp; tal("Brewer_A4_2u") &amp;&amp; tal("Brewer_A4_2")</sString>
 	</enabled>
 	<formulaName></formulaName>
 	<lifeTime>

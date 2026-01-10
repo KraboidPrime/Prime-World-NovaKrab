@@ -7,6 +7,7 @@
 	<BackLink DBID="/Test/Talents/IronKnight/Elite_Str.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/IronKnight/Epic_Str.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/IronKnight/Epic_StrLife.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/IronKnight/Ability_A0_SUP.TALENT" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>false</activeCustomTrigger>
 	<allowChase>

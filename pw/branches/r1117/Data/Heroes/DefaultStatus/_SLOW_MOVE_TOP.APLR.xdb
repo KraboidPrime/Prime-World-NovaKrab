@@ -4,6 +4,7 @@
 	<BackLink DBID="/Items/Talents/Class/Shadow/Ability_A4.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Shadow/spell_A1_arrow.SPLL" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/WraithKing/Ability_A1.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A0.TALENT" Count="1" />
 	<applicators>
 		<Item href="/Heroes/DefaultStatus/_SLOW_MOVE_TOP.APLR" id="A2ABBBA9-8793-46B6-9389-F324F29FD73A">
 			<StatModApplicator>

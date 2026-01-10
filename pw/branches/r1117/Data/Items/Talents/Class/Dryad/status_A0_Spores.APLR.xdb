@@ -3,6 +3,7 @@
 	<BackLink DBID="/Items/Talents/Class/Dryad/Ability_A1.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Dryad/Ability_A4_2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Dryad/spell_A2_SpreadingA0.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A0.TALENT" Count="2" />
 	<applicators>
 		<Item href="/Items/Talents/Class/Dryad/status_A0_Spores.APLR" id="B27C2D70-38CB-4A30-962E-EE66116B9CFF">
 			<StatusApplicator>

@@ -61,9 +61,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FQwAAAACAAAAEQAAACcAAABHNTQwX0FjdGl2ZQBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1JAAAA3+D2xEF1CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
+					<compiledString>FQwAAAACAAAAEwAAACkAAABHNTQwX0FjdGl2ZQBVi+yD7AxoAAAAAItFCIsQi00Ii4KIAQAA/9DcHXgAAADf4PbEQXU2i00MixGLTQyLgrgAAAD/0ItNDIsRi00Mi4K8AAAA3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcMAAAAAAAAAAA==</compiledString>
 					<returnType>bool</returnType>
-					<sString>sender.vG540_Active &gt; 0</sString>
+					<sString>sender.vG540_Active &gt; 0 &amp;&amp; rBaseStrength &gt;= rBaseIntellect</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<lifeTime>
@@ -100,7 +100,7 @@
 			<StatModApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
 				<behaviorFlags>0</behaviorFlags>
-				<caption>Увеличиваем инту</caption>
+				<caption>Увеличиваем ас</caption>
 				<constraint>None</constraint>
 				<dontUpdate>false</dontUpdate>
 				<effect>
@@ -108,9 +108,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FQwAAAACAAAAEQAAACcAAABHNTQxX0FjdGl2ZQBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1JAAAA3+D2xEF1CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
+					<compiledString>FQwAAAACAAAAEwAAACkAAABHNTQxX0FjdGl2ZQBVi+yD7AxoAAAAAItFCIsQi00Ii4KIAQAA/9DcHXgAAADf4PbEQXU2i00IixGLTQiLgowAAAD/0ItNCIsRi00Ii4LAAAAA3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcMAAAAAAAAAAA==</compiledString>
 					<returnType>bool</returnType>
-					<sString>sender.vG541_Active &gt; 0</sString>
+					<sString>sender.vG541_Active &gt; 0 &amp;&amp; sBaseAttackSpeed &gt;= sBaseDexterity</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<lifeTime>
@@ -130,7 +130,7 @@
 						<returnType>float</returnType>
 						<sString>1.0f</sString>
 					</multValue>
-					<stat>Intellect</stat>
+					<stat>AttackSpeed</stat>
 					<topModifier>false</topModifier>
 					<variable></variable>
 				</modifier>
@@ -356,6 +356,100 @@
 				<useAbilityCooldown>false</useAbilityCooldown>
 				<useAbilityOwnerMana>false</useAbilityOwnerMana>
 			</TriggerApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level4/status_G536_AddHealth.APLR" id="050BBB74-A0F7-4C0A-A81A-28A00238DB06">
+			<StatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>Увеличиваем инт</caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FQwAAAACAAAAEwAAACkAAABHNTQwX0FjdGl2ZQBVi+yD7AxoAAAAAItFCIsQi00Ii4KIAQAA/9DcHXgAAADf4PbEQXU2i00MixGLTQyLgrgAAAD/0ItNDIsRi00Mi4K8AAAA3V34/9DcXfjf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcMAAAAAAAAAAA==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vG540_Active &gt; 0 &amp;&amp; rBaseStrength &lt; rBaseIntellect</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQ0AAAABAAAAGQAAAEc1NDBfQWRkX1N0cgBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+						<returnType>float</returnType>
+						<sString>cG540_Add_Str</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Intellect</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level4/status_G536_AddHealth.APLR" id="72A9658B-D756-4154-864A-6641A0B14F9F">
+			<StatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>Увеличиваем декс</caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FQwAAAACAAAAEwAAACkAAABHNTQxX0FjdGl2ZQBVi+yD7AxoAAAAAItFCIsQi00Ii4KIAQAA/9DcHXgAAADf4PbEQXU2i00IixGLTQiLgowAAAD/0ItNCIsRi00Ii4LAAAAA3V34/9DcXfjf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcMAAAAAAAAAAA==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vG541_Active &gt; 0 &amp;&amp; sBaseAttackSpeed &lt; sBaseDexterity</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQ0AAAABAAAAGQAAAEc1NDFfQWRkX0ludABVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+						<returnType>float</returnType>
+						<sString>cG541_Add_Int</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Dexterity</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
 		</Item>
 	</applicators>
 	<applyTarget>ApplicatorTarget</applyTarget>

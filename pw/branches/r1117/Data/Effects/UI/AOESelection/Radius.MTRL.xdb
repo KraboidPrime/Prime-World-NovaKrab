@@ -97,7 +97,6 @@
 	<BackLink DBID="/Items/Talents/Class/Healer/Ability4_2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Healer/Ability4_2u.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Healer/Ability4_Upg.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Healer/Ability5.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Highlander/Ability0.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Highlander/Ability1.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Highlander/Ability3.TALENT" Count="1" />
@@ -249,7 +248,6 @@
 	<BackLink DBID="/Items/Talents/Level3/G019_Aura-StaWill.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level3/G025_My_Terrain.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level3/G143_Aura-regEnergy.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Level3/G244_DeadlyIllusion.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level3/G328_AoERegEnergy.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level3/G387_MyTerrain_Life.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level3/G458_StrOrInt.TALENT" Count="1" />
@@ -286,7 +284,6 @@
 	<BackLink DBID="/Items/Talents/Level4/G779_AtSpdOrDex_Stun.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level5/G057_DDbyInt-Int.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level5/G059_Aura-StaWillDecr-StrInt.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Level5/G063_Life-Int-DispellAoE.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level5/G066_PermanentAoEHeal.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level5/G294_GuildHeroOff.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level5/G311_K_Life_Energy.TALENT" Count="1" />
@@ -346,6 +343,17 @@
 	<BackLink DBID="/Test/Talents/TST_Enemy_Terrain.TALENT" Count="1" />
 	<BackLink DBID="/Test/Talents/TST_My_Terrain.TALENT" Count="1" />
 	<BackLink DBID="/Test/Talents/TST_Neutral_Terrain.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level5/G165_AStr_Will.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level5/G243_SlowProc-Dex.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level6/G248_StaminaWill_MvSpeed.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level6/G020_Temp_Great_Def.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Chicken/Ability_A0.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Chicken/Ability_A2.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Chicken/Ability_A4_1.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A0.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Level4/G658_InvisibilityStrOrInt.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level5/G260_Str_Life.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level1/G129_Str.TALENT" Count="1" />
 	<aspectRatio>2</aspectRatio>
 	<caption></caption>
 	<DiffuseMap>

@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BasicEffectAttached>
 	<BackLink DBID="/Items/Talents/Class/Wendigo/status_A2_Bleed.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Dot_WendVoker_status.APLR" Count="1" />
 	<attachFlags>1</attachFlags>
 	<attachType>Body</attachType>
 	<component href="/Effects/Debuffs/Scratch/_BleedTRS.PRXY" />

@@ -87,6 +87,46 @@
 						</var>
 					</UnitConstant>
 				</Item>
+				<Item href="/Items/Talents/Class/Bomber/Ability_A1.TALENT" id="CF9FC09E-D047-4CED-B037-43B38CECA615">
+					<UnitConstant>
+						<name>A1_Ag_Buff_TT</name>
+						<var>
+							<compiledString>FQAAAAACAAAAFgAAABwAAABVi+xRi0UIixCLTQiLgjABAAD/0NwNMgAAANwFKgAAANld/NlF/IvlXcMAAAAAAADwP3sUrkfhepQ/</compiledString>
+							<returnType>float</returnType>
+							<sString>0.02*sStrength+1</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Bomber/Ability_A1.TALENT" id="B7DC275A-5D62-47C8-BC48-E0B8546076B6">
+					<UnitConstant>
+						<name>A1_Dex_Buff_TT</name>
+						<var>
+							<compiledString>FQAAAAABAAAAFgAAAFWL7FGLRQiLEItNCIuCNAEAAP/Q3A0kAAAA2V382UX8i+Vdw3sUrkfheqQ/</compiledString>
+							<returnType>float</returnType>
+							<sString>0.04*sIntellect</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Bomber/Ability_A1.TALENT" id="B7278AE4-4BB3-470F-BDD4-69F317166843">
+					<UnitConstant>
+						<name>A1_Ag_Buff</name>
+						<var>
+							<compiledString>FSIAAAACAAAAKQAAAEYAAABCb21iZXJBMV9Cb21iQ291bnQAAEExX0FnX0J1ZmZfVFQAVYvsg+wMaAAAAACLRQiLEItNCIuCiAEAAP/Qi00MUYtVCFJoFAAAAItFEIsQi00Qi0JQ3V34/9DcTfjZXfTZRfSL5V3D</compiledString>
+							<returnType>float</returnType>
+							<sString>sender.vBomberA1_BombCount*cA1_Ag_Buff_TT</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Bomber/Ability_A1.TALENT" id="12DB6B51-B8E5-4864-BDEA-A431BD476169">
+					<UnitConstant>
+						<name>A1_Dex_Buff</name>
+						<var>
+							<compiledString>FSMAAAADAAAAKgAAAEAAAABNAAAAQm9tYmVyQTFfQm9tYkNvdW50AABBMV9EZXhfQnVmZl9UVABVi+yD7AxoAAAAAItFCIsQi00Ii4KIAQAA/9DcLW4AAACLTQxRi1UIUmgUAAAAi0UQixCLTRCLQlDdXfj/0NxN+Nld9NlF9IvlXcMAAAAAAAAIQA==</compiledString>
+							<returnType>float</returnType>
+							<sString>(3 - sender.vBomberA1_BombCount)*cA1_Dex_Buff_TT</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

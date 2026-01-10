@@ -46,33 +46,23 @@
 	<constants href="/Items/Talents/Level5/G056_TempVampStr.TALENT" id="1C38530A-5F00-40DB-AFD1-3DFF28CD42C8">
 		<UnitConstantsContainer>
 			<vars>
-				<Item href="/Items/Talents/Level5/G056_TempVampStr.TALENT" id="AE542B5E-070F-4535-A063-F061BCE8F163">
-					<UnitConstant>
-						<name>Add_LifeDrain</name>
-						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAA0ECamdk/</compiledString>
-							<returnType>float</returnType>
-							<sString>refineScale(6.5, 1.7)</sString>
-						</var>
-					</UnitConstant>
-				</Item>
 				<Item href="/Items/Talents/Level5/G056_TempVampStr.TALENT" id="57C083FA-D5B7-4BE6-8683-0A30A37F0444">
 					<UnitConstant>
 						<name>Temp_Power</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQQ==</compiledString>
+							<compiledString>FR0AAAAKAAAAJAAAAD0AAACeAAAA2gAAADcBAABVAQAAaQEAALIBAADQAQAA5AEAAEFyY2hlcmVzc19BMAAAAABBcmNoZXJlc3NfQTAAVYvsg+xMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hckPhIgAAACLVQiLAotNCIuQQAEAAP/Si0UIixCLTQiLgkQBAADdXfD/0NxF8NwNIAIAAItNCIsRi00Ii4IwAQAA3V3o/9BR2Rwki00IixGLTQiLgjQBAAD/0FHZHCToVgEAAIPECNx96NwlGAIAANld5NlF5FHZHCRR2e7ZHCToNQEAAIPECNld4OkLAQAAi00IixGLTQiLQmD/0IXAdHuLTQiLEYtNCIuCQAEAAP/Qi00IixGLTQiLgkQBAADdXdj/0NxF2NwNIAIAAItNCIsRi00Ii4I0AQAA3V3Q/9BR2RwkUdkFEAIAANkcJOjHAAAAg8QI3H3Q3CUYAgAA2V3M2UXMUdkcJFHZ7tkcJOimAAAAg8QI2V3I63mLTQiLEYtNCIuCQAEAAP/Qi00IixGLTQiLgkQBAADdXcD/0NxFwNwNIAIAAItNCIsRi00Ii4IwAQAA3V24/9BR2RwkUdkFEAIAANkcJOhMAAAAg8QI3H243CUYAgAA2V202UW0UdkcJFHZ7tkcJOgrAAAAg8QI2V3I2UXI2V3g2UXgi+VdwwAAIEEAAAAAAAAAAAAA8D+amZmZmZnpP1WL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
 							<returnType>float</returnType>
-							<sString>15</sString>
+							<sString>tal("Archeress_A0") ? max(0,(0.8*(sStamina+sWill)/max(sIntellect, sStrength)-1)) : sNativeAttackIndex ? max(0,(0.8*(sStamina+sWill)/max(10, sIntellect)-1)) : max(0,(0.8*(sStamina+sWill)/max(10, sStrength)-1))</sString>
 						</var>
 					</UnitConstant>
 				</Item>
-				<Item href="/Items/Talents/Level5/G056_TempVampStr.TALENT" id="0C573AFF-1858-446D-8856-38F81B9BA760">
+				<Item href="/Items/Talents/Level5/G056_TempVampStr.TALENT" id="81E68A8D-E7E0-4CC5-8A07-4210252D1A85">
 					<UnitConstant>
-						<name>Buff_Duration</name>
+						<name>TT_G056_DMG</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQQ==</compiledString>
+							<compiledString>FQsAAAACAAAAGAAAACsAAABUZW1wX1Bvd2VyAFWL7FGLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0twNOQAAANld/NlF/IvlXcMAAAAAAABZQA==</compiledString>
 							<returnType>float</returnType>
-							<sString>8</sString>
+							<sString>cTemp_Power*100</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -84,9 +74,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQg==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAC0Qg==</compiledString>
 		<returnType>float</returnType>
-		<sString>60</sString>
+		<sString>90</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>
@@ -168,30 +158,60 @@
 	<name textref="/Items/Talents/Level5/G056_TempVampStr.TALENT_name.txt" />
 	<node></node>
 	<passiveApplicators>
-		<Item href="/Items/Talents/Level5/G056_TempVampStr.TALENT" id="C39AC605-736C-48D6-9FA5-053A4675B9E6">
+		<Item href="/Items/Talents/Level5/G056_TempVampStr.TALENT" id="67C36D5C-C125-4C51-AACA-8C521AA81303">
 			<PermanentStatModApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption></caption>
+				<caption>Stam</caption>
 				<customApplyType>None</customApplyType>
 				<enabled>
-					<compiledString></compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgsgAAAD/0ItNCIsRi00Ii4LMAAAA3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
 					<returnType>bool</returnType>
-					<sString>true</sString>
+					<sString>sBaseStamina &gt;= sBaseWill</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<LoggingEvent>-1</LoggingEvent>
 				<modifier>
 					<addValue>
-						<compiledString>FQ4AAAABAAAAGgAAAEFkZF9MaWZlRHJhaW4AVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACIQQ==</compiledString>
 						<returnType>float</returnType>
-						<sString>cAdd_LifeDrain</sString>
+						<sString>17.0f</sString>
 					</addValue>
 					<multValue>
 						<compiledString></compiledString>
 						<returnType>float</returnType>
 						<sString>1.0f</sString>
 					</multValue>
-					<stat>LifeDrain</stat>
+					<stat>Stamina</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level5/G056_TempVampStr.TALENT" id="B72A60A7-0C8D-4DC2-9C74-F4DF9FA10144">
+			<PermanentStatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>Will</caption>
+				<customApplyType>None</customApplyType>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgsgAAAD/0ItNCIsRi00Ii4LMAAAA3V34/9DcXfjf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sBaseStamina &lt; sBaseWill</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACIQQ==</compiledString>
+						<returnType>float</returnType>
+						<sString>17.0f</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Will</stat>
 					<topModifier>false</topModifier>
 					<variable></variable>
 				</modifier>
@@ -201,7 +221,7 @@
 	</passiveApplicators>
 	<persistentId>G056</persistentId>
 	<prerequisiteTalents />
-	<rarity>excellent</rarity>
+	<rarity>magnificent</rarity>
 	<requireLineOfSight>true</requireLineOfSight>
 	<shortDescription textref="/Items/Talents/Level5/G056_TempVampStr.TALENT_shortDescription.txt" />
 	<talentRollGroups>0</talentRollGroups>

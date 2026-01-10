@@ -5,8 +5,8 @@
 	<BackLink DBID="/Items/Talents/Class/Trickster/Ability3Upg.TALENT" Count="1" />
 	<name>AttckScale</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACMQg==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQg==</compiledString>
 		<returnType>float</returnType>
-		<sString>70</sString>
+		<sString>50</sString>
 	</var>
 </UnitConstant>

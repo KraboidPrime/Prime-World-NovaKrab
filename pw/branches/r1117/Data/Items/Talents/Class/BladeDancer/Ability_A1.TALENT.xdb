@@ -134,6 +134,16 @@
 				<Item href="/Items/Talents/Class/BladeDancer/const_A0_SUP_2_StackEvasion" />
 				<Item href="/Items/Talents/Class/BladeDancer/const_A0_SUP_BonusDamage" />
 				<Item href="/Items/Talents/Class/BladeDancer/const_A0_SUP_StackDamage" />
+				<Item href="/Items/Talents/Class/BladeDancer/Ability_A1.TALENT" id="7C665658-6F83-4359-818A-ED4C22FF860C">
+					<UnitConstant>
+						<name>TT_DMG</name>
+						<var>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAABkQgCA1EM=</compiledString>
+							<returnType>float</returnType>
+							<sString>damageScale(sIntellect, 57, 425)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

@@ -833,7 +833,6 @@
 	<BackLink DBID="/Effects/Shots/Axe/_Explosion.PRXY" Count="3" />
 	<BackLink DBID="/Effects/Shots/Axe/_Up.PRXY" Count="2" />
 	<BackLink DBID="/Effects/Shots/Axe/_Up_S1.PRXY" Count="2" />
-	<BackLink DBID="/Effects/Shots/Ball/_.PRXY" Count="1" />
 	<BackLink DBID="/Effects/Shots/Bat/_.PRXY" Count="3" />
 	<BackLink DBID="/Effects/Shots/Bat/_Hit.PRXY" Count="5" />
 	<BackLink DBID="/Effects/Shots/Bird/_.PRXY" Count="6" />
@@ -1090,7 +1089,6 @@
 	<BackLink DBID="/Effects/Shots/Spear/_Gold.PRXY" Count="3" />
 	<BackLink DBID="/Effects/Shots/Spear/_Light.PRXY" Count="3" />
 	<BackLink DBID="/Effects/Shots/Spear/_Light2.PRXY" Count="1" />
-	<BackLink DBID="/Effects/Shots/Spear/_LightHit.PRXY" Count="5" />
 	<BackLink DBID="/Effects/Shots/Spear/_LightStart.PRXY" Count="2" />
 	<BackLink DBID="/Effects/Shots/Spear/_Magic.PRXY" Count="1" />
 	<BackLink DBID="/Effects/Shots/Spear/_MagicHit.PRXY" Count="4" />
@@ -1813,6 +1811,7 @@
 	<BackLink DBID="/Effects/Shots/Rocket/_Bomber.PRXY" Count="3" />
 	<BackLink DBID="/Effects/Debuffs/Bomb/_Mined.PRXY" Count="6" />
 	<BackLink DBID="/Effects/Debuffs/Burn/_TrailBomber.PRXY" Count="2" />
+	<BackLink DBID="/Effects/Debuffs/Dome/_UpAlly1.PRXY" Count="2" />
 	<generatedFileName>atlas_0</generatedFileName>
 	<mipLevels>0</mipLevels>
 	<mipLevelUsage>NoMips</mipLevelUsage>

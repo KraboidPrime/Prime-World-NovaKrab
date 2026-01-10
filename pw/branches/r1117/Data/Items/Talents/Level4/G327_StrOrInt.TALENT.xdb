@@ -100,9 +100,9 @@
 					<UnitConstant>
 						<name>Add_Stat</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAMEHNzEw/</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACIQQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(11, 0.8)</sString>
+							<sString>17</sString>
 						</var>
 					</UnitConstant>
 				</Item>

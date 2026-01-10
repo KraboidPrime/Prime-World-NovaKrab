@@ -852,7 +852,7 @@
 					<toLocator>Body</toLocator>
 				</DispatchLinear>
 			</dispatch>
-			<flags>1</flags>
+			<flags>5</flags>
 			<image href="" />
 			<imageSecondState href="" />
 			<isMelee>false</isMelee>
@@ -1090,16 +1090,16 @@
 					<calcIncrement>0.3</calcIncrement>
 					<calcValue>55</calcValue>
 					<increment>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpmZPg==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzczMPg==</compiledString>
 						<returnType>float</returnType>
-						<sString>0.3</sString>
+						<sString>0.4</sString>
 					</increment>
 					<levelUpgrades />
 					<statId>Strength</statId>
 					<value>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABcQg==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABoQg==</compiledString>
 						<returnType>float</returnType>
-						<sString>55</sString>
+						<sString>58</sString>
 					</value>
 				</Item>
 				<Item>
@@ -1129,9 +1129,9 @@
 					<levelUpgrades />
 					<statId>Dexterity</statId>
 					<value>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABEQg==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABYQg==</compiledString>
 						<returnType>float</returnType>
-						<sString>49</sString>
+						<sString>54</sString>
 					</value>
 				</Item>
 				<Item>

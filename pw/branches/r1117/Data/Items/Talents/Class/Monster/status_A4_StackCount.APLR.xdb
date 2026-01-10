@@ -2,7 +2,55 @@
 <StatusApplicator>
 	<BackLink DBID="/Items/Talents/Class/Monster/Ability_A4.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Monster/status_A4_StackCooldown.APLR" Count="1" />
-	<applicators />
+	<applicators>
+		<Item href="/Items/Talents/Class/Monster/status_A4_StackCount.APLR" id="3E06F19E-9C05-4D24-B283-B36CADDC8BC0">
+			<StatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>баф хитры</caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQ0AAAABAAAAGQAAAFBlbl9CdWZmX2N1cgBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+						<returnType>float</returnType>
+						<sString>cPen_Buff_cur</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Dexterity</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
+		</Item>
+	</applicators>
 	<applyTarget>ApplicatorTarget</applyTarget>
 	<behaviorFlags>216</behaviorFlags>
 	<caption>Статус А4 Твари про количество стеков</caption>
@@ -23,9 +71,9 @@
 		<Item href="" />
 	</effect>
 	<enabled>
-		<compiledString>FRwAAAACAAAAIQAAADcAAABNb25zdGVyX0E0Q3VycmVudFRveGluU3RhY2sAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdWQAAAN/g9sQBdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAPA/</compiledString>
+		<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
 		<returnType>bool</returnType>
-		<sString>sender.vMonster_A4CurrentToxinStack &gt;= 1</sString>
+		<sString>true</sString>
 	</enabled>
 	<flags>0</flags>
 	<formulaName></formulaName>

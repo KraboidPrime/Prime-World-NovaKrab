@@ -1,11 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StatusApplicator>
-	<BackLink DBID="/Items/Talents/Class/Shaman/Ability_A4_2.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Shaman/Ability_A4_2.TALENT" Count="2" />
+	<BackLink DBID="/Heroes/DefaultStatus/List_AllControlAppl.APLS" Count="1" />
 	<applicators>
 		<Item href="/Items/Talents/Class/Shaman/A4_2_status.APLR" id="E77EAC68-1304-47AA-B7FD-03B788F62718">
 			<FlagsApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
-				<behaviorFlags>0</behaviorFlags>
+				<behaviorFlags>144</behaviorFlags>
 				<caption>Запреты</caption>
 				<consumables />
 				<effect>
@@ -39,11 +40,11 @@
 		</Item>
 		<Item href="/Heroes/DefaultStatus/_Vulnerability_status.APLR" />
 		<Item href="/Heroes/DefaultStatus/_ARMORCUT_status.APLR" />
-		<Item href="/Items/Talents/Class/Shaman/A4_2_status.APLR" id="8D2D95EA-FF17-428C-A7F0-AC2957A3AE2D">
-			<MoveToApplicator>
+		<Item href="/Items/Talents/Class/Shaman/A4_2_status.APLR" id="8C3BCA30-9AF2-4DB3-B5F5-053AFC30C77A">
+			<SpellPeriodicallyApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
-				<behaviorFlags>0</behaviorFlags>
-				<caption>Движение к шаману</caption>
+				<behaviorFlags>144</behaviorFlags>
+				<caption>пизда</caption>
 				<effect>
 					<Item href="" />
 					<Item href="" />
@@ -54,46 +55,112 @@
 					<sString>true</sString>
 				</enabled>
 				<formulaName></formulaName>
-				<isMoveDirect>
-					<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
-					<returnType>bool</returnType>
-					<sString>false</sString>
-				</isMoveDirect>
-				<isNotStackable>false</isNotStackable>
-				<justRotate>false</justRotate>
 				<lifeTime>
-					<compiledString></compiledString>
+					<compiledString>FQ4AAAABAAAAGgAAAEE0XzJfRHVyYXRpb24AVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
 					<returnType>float</returnType>
-					<sString>-1.0</sString>
+					<sString>cA4_2_Duration</sString>
 				</lifeTime>
 				<LoggingEvent>-1</LoggingEvent>
-				<moveRange>
-					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
+				<period>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzczMPQ==</compiledString>
 					<returnType>float</returnType>
-					<sString>2.0f</sString>
-				</moveRange>
-				<moveSpeed>
-					<compiledString></compiledString>
-					<returnType>float</returnType>
-					<sString>0.0f</sString>
-				</moveSpeed>
-				<moveTarget>AbilityOwner</moveTarget>
-				<offset>
-					<x>0</x>
-					<y>0</y>
-				</offset>
+					<sString>0.1f</sString>
+				</period>
 				<providerName></providerName>
-				<pushUnits>false</pushUnits>
+				<scaleMode>ScaleIsCount</scaleMode>
+				<spell href="/Items/Talents/Class/Shaman/A4_2_status.APLR" id="06372575-6A3C-4559-A094-97244002F06B">
+					<Spell>
+						<applicators>
+							<Item href="/Items/Talents/Class/Shaman/A4_2_status.APLR" id="0154AB28-921E-4A64-9988-1B1642CCF6C7">
+								<MoveToApplicator>
+									<applyTarget>ApplicatorTarget</applyTarget>
+									<behaviorFlags>144</behaviorFlags>
+									<caption>Движение к шаману</caption>
+									<effect>
+										<Item href="" />
+										<Item href="" />
+									</effect>
+									<enabled>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<isMoveDirect>
+										<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+										<returnType>bool</returnType>
+										<sString>false</sString>
+									</isMoveDirect>
+									<isNotStackable>false</isNotStackable>
+									<justRotate>false</justRotate>
+									<lifeTime>
+										<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzcxMPg==</compiledString>
+										<returnType>float</returnType>
+										<sString>0.2f</sString>
+									</lifeTime>
+									<LoggingEvent>-1</LoggingEvent>
+									<moveRange>
+										<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
+										<returnType>float</returnType>
+										<sString>2.0f</sString>
+									</moveRange>
+									<moveSpeed>
+										<compiledString></compiledString>
+										<returnType>float</returnType>
+										<sString>0.0f</sString>
+									</moveSpeed>
+									<moveTarget>CastPosition</moveTarget>
+									<offset>
+										<x>0</x>
+										<y>0</y>
+									</offset>
+									<providerName></providerName>
+									<pushUnits>false</pushUnits>
+									<startCondition>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</startCondition>
+								</MoveToApplicator>
+							</Item>
+						</applicators>
+						<dispatch href="/Items/Talents/Class/Shaman/A4_2_status.APLR" id="442FC5A0-1A21-4EE8-8207-5716EC57A616">
+							<DispatchImmediate>
+								<alwaysApply>false</alwaysApply>
+								<applyEffect>
+									<Item href="" />
+									<Item href="" />
+								</applyEffect>
+								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+								<applyEffectOrientation>Default</applyEffectOrientation>
+								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+								<dieAfterApply>true</dieAfterApply>
+								<dispatchEffect>
+									<Item href="" />
+									<Item href="" />
+								</dispatchEffect>
+								<flags>0</flags>
+								<instantApply>false</instantApply>
+							</DispatchImmediate>
+						</dispatch>
+					</Spell>
+				</spell>
 				<startCondition>
 					<compiledString></compiledString>
 					<returnType>bool</returnType>
 					<sString>true</sString>
 				</startCondition>
-			</MoveToApplicator>
+				<startOffset>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>0.0f</sString>
+				</startOffset>
+				<targetSelector href="" />
+			</SpellPeriodicallyApplicator>
 		</Item>
 	</applicators>
 	<applyTarget>ApplicatorTarget</applyTarget>
-	<behaviorFlags>2</behaviorFlags>
+	<behaviorFlags>146</behaviorFlags>
 	<caption>Статус контроля</caption>
 	<customCounter>
 		<compiledString></compiledString>

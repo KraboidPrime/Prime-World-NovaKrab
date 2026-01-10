@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Talent>
 	<BackLink DBID="/Social.ROOT" Count="1" />
-	<BackLink DBID="/GameLogic/AILogic.AILP" Count="1" />
+	<BackLink DBID="/GameLogic/AILogic.AILP" Count="2" />
 	<BackLink DBID="/Items/RerollShop/TalentsList_Executor" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset7_10_Buthcer/Redset7_10_Butcher.TALKIT" Count="1" />
 	<BackLink DBID="/Social/TalentsCollection" Count="2" />
@@ -120,11 +120,35 @@
 							<damageMode>0</damageMode>
 							<damageType>Energy</damageType>
 							<enabled>
-								<compiledString>FQUAAAABAAAAIgAAAFdhcmQAVYvsUYtFDIsQi00Mi0JQ/9CD+BF0KWoAi00QUWgAAAAAi1UMiwKLTQyLkJwBAAD/0jtFEHUJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcM=</compiledString>
+								<compiledString>FRUAAAAEAAAARAAAAGwAAACGAAAAnwAAAFdhcmQAAAAARzI1MAAAAABHMjUwAFWL7IPsDFHZ6NkcJFHZ7tkcJGoBi0UMixCLTQyLQlj/0A+2yFHovAAAAIPEDNwd6wAAAN/g9sRED4uKAAAAi1UMiwKLTQyLUFD/0oP4EXR4agCLRRBQaAAAAACLTQyLEYtNDIuCnAEAAP/QO0UQdVhoCAAAAItNCIsRi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcMAAAAAAAAAAAAAAAAAAIA/VYvsUQ+2RQiFwHQI2UUM2V386wbZRRDZXfzZRfyL5V3D</compiledString>
 								<returnType>bool</returnType>
-								<sString>rUnitKind != 17 &amp;&amp; receiver.applWard(GLOBAL) == pMisc</sString>
+								<sString>ut_bldg( false, true ) &amp;&amp; rUnitKind != 17 &amp;&amp; receiver.applWard(GLOBAL) == pMisc &amp;&amp; !tal("G250")</sString>
 							</enabled>
 							<formulaName>Energy_Dmg</formulaName>
+							<LoggingEvent>-1</LoggingEvent>
+							<providerName></providerName>
+							<timeLimiter>-1</timeLimiter>
+							<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Energy.UIEV" />
+						</DamageApplicator>
+					</Item>
+					<Item href="/Items/Talents/Level4/G762_AA_Int.TALENT" id="E2B3A14E-794B-49D2-A957-2B5DEB3334DC">
+						<DamageApplicator>
+							<applyTarget>ApplicatorTarget</applyTarget>
+							<cancelInvisibility>false</cancelInvisibility>
+							<caption>маг. доп. урон с АА</caption>
+							<damage>
+								<compiledString>FRIAAAABAAAAHgAAAEFkZERhbWFnZV9NYWdpY2FsAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+								<returnType>float</returnType>
+								<sString>cAddDamage_Magical</sString>
+							</damage>
+							<damageMode>8</damageMode>
+							<damageType>Energy</damageType>
+							<enabled>
+								<compiledString>FRUAAAADAAAANAAAAE4AAABnAAAAV2FyZAAAAABHMjUwAAAAAEcyNTAAVYvsg+wMi0UMixCLTQyLQlD/0IP4EXR4agCLTRBRaAAAAACLVQyLAotNDIuQnAEAAP/SO0UQdVhoCAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXQJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+								<returnType>bool</returnType>
+								<sString>rUnitKind != 17 &amp;&amp; receiver.applWard(GLOBAL) == pMisc &amp;&amp; tal("G250")</sString>
+							</enabled>
+							<formulaName></formulaName>
 							<LoggingEvent>-1</LoggingEvent>
 							<providerName></providerName>
 							<timeLimiter>-1</timeLimiter>

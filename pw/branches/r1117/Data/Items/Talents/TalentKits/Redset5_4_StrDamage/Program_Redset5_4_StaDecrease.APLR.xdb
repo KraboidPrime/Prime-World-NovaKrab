@@ -129,9 +129,9 @@
 					<persistentApplicators />
 					<providerName></providerName>
 					<startCondition>
-						<compiledString>FR0AAAACAAAAIgAAADgAAABTdGFEZWNyZWFzZV9SZWRzZXQ1XzRDb3VudGVyAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHVoAAADf4PbEAXUJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAIQA==</compiledString>
+						<compiledString>FR0AAAACAAAAIgAAADgAAABTdGFEZWNyZWFzZV9SZWRzZXQ1XzRDb3VudGVyAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHVoAAADf4PbERHoJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAIQA==</compiledString>
 						<returnType>bool</returnType>
-						<sString>sender.vStaDecrease_Redset5_4Counter &gt;= 3</sString>
+						<sString>sender.vStaDecrease_Redset5_4Counter == 3</sString>
 					</startCondition>
 					<talents />
 					<targetAbility>BaseAttack</targetAbility>

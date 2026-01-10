@@ -1050,7 +1050,7 @@
 			<instantApply>true</instantApply>
 		</DispatchImmediate>
 	</dispatch>
-	<flags>1</flags>
+	<flags>5</flags>
 	<image href="" />
 	<imageSecondState href="" />
 	<isMelee>true</isMelee>

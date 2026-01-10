@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DBTraceSceneComponent>
 	<BackLink DBID="/Effects/Shots/FireBall/_FireEnemy.PRXY" Count="1" />
+	<BackLink DBID="/Effects/Shots/Ball/_newAt2.PRXY" Count="1" />
 	<attached />
 	<caption>Trail</caption>
 	<colorFirst>

@@ -830,7 +830,7 @@
 					<toLocator>Body</toLocator>
 				</DispatchLinear>
 			</dispatch>
-			<flags>1</flags>
+			<flags>5</flags>
 			<image href="" />
 			<imageSecondState href="" />
 			<isMelee>false</isMelee>

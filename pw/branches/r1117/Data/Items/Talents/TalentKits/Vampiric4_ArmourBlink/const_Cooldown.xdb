@@ -7,8 +7,8 @@
 	<BackLink DBID="/Items/Talents/Level6/G316_Will_maxStrInt.TALENT" Count="1" />
 	<name>G311_Cooldown</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQg==</compiledString>
+		<compiledString>FQ0AAAACAAAAFAAAAC0AAABHMzAzAAAAAEczMDMAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgIAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37a8keuowAAAAr0YlV9NtF9IvlXcM=</compiledString>
 		<returnType>float</returnType>
-		<sString>80</sString>
+		<sString>140-30*tal("G303")</sString>
 	</var>
 </UnitConstant>

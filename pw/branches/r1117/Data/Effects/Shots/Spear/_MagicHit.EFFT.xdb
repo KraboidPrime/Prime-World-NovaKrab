@@ -7,6 +7,8 @@
 	<BackLink DBID="/Items/Talents/Class/Hunter/Ability1.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Mowgli/Ability3.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Shadow/spell_A1_arrow.SPLL" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A0.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A4_2.TALENT" Count="2" />
 	<attachFlags>0</attachFlags>
 	<attachType>Body</attachType>
 	<component href="/Effects/Shots/Spear/_MagicHitTRS.PRXY" />

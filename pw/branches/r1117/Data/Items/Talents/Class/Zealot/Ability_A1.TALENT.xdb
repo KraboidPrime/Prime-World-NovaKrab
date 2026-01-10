@@ -79,6 +79,7 @@
 				<Item href="/Items/Talents/Class/Zealot/const_A1_SUP_Slow_Duration" />
 				<Item href="/Items/Talents/Class/Zealot/const_A1_SUP_Dec_MoveSpeed" />
 				<Item href="/Items/Talents/Class/Zealot/const_A1_SUP_Slow_StartCondition" />
+				<Item href="/Items/Talents/Class/Zealot/A1_Sup_DEF" />
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

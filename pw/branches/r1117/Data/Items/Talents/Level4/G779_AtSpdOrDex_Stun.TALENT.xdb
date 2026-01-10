@@ -72,7 +72,7 @@
 								<maxRise>0</maxRise>
 								<minRise>0</minRise>
 								<persistentApplicators />
-								<speed>27</speed>
+								<speed>20</speed>
 								<suspendTime>0.2</suspendTime>
 								<toLocator>Head</toLocator>
 							</DispatchLinear>
@@ -185,9 +185,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQg==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAWQw==</compiledString>
 		<returnType>float</returnType>
-		<sString>120</sString>
+		<sString>150</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>

@@ -126,7 +126,28 @@
 	<commonDescription textref="/Items/Talents/Level5/G071_SlowProc-AtSpd.TALENT_commonDescription.txt" />
 	<compiledDescriptionA textref="" />
 	<compiledDescriptionB textref="" />
-	<conditionFormulas />
+	<conditionFormulas>
+		<Item href="/Items/Talents/Level5/G071_SlowProc-AtSpd.TALENT" id="C77956B1-67AA-4BB8-8300-0BACBDFAE090">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRcAAAACAAAAHAAAADIAAABTZWMyMDI1X1Rvb2x0aXBDb3VudGVyAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHVQAAADf4PbEAXUJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAIQA==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vSec2025_TooltipCounter &gt;= 3</sString>
+				</condition>
+				<name>Bonus3ActiveSe</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Items/Talents/Level5/G071_SlowProc-AtSpd.TALENT" id="79E7E266-3E1E-4C51-81B7-D7FF35DF22A3">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRcAAAACAAAAHAAAADIAAABTZWMyMDI1X1Rvb2x0aXBDb3VudGVyAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHVQAAADf4PbEAXUJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAcQA==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vSec2025_TooltipCounter &gt;= 7</sString>
+				</condition>
+				<name>Bonus7ActiveSe</name>
+			</ConditionFormula>
+		</Item>
+	</conditionFormulas>
 	<conflictingTalents />
 	<constants href="/Items/Talents/Level5/G071_SlowProc-AtSpd.TALENT" id="5366D1A6-006F-4521-A0B0-8C356ECF510A">
 		<UnitConstantsContainer>
@@ -135,9 +156,9 @@
 					<UnitConstant>
 						<name>Slow_Duration</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADAPw==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAQA==</compiledString>
 							<returnType>float</returnType>
-							<sString>1.5</sString>
+							<sString>4</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -145,9 +166,9 @@
 					<UnitConstant>
 						<name>AddDamage</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAQEEAAABA</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAMQg==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(12, 2)</sString>
+							<sString>35</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -218,9 +239,9 @@
 							<damageMode>0</damageMode>
 							<damageType>Energy</damageType>
 							<enabled>
-								<compiledString>FQUAAAACAAAAMgAAAFYAAABXYXJkAFWL7FFR2ejZHCRR2e7ZHCRqAYtFDIsQi00Mi0JY/9APtshR6GkAAACDxAzcHYYAAADf4PbERHs7i1UMiwKLTQyLUFD/0oP4EXQpagCLRRBQaAAAAACLTQyLEYtNDIuCnAEAAP/QO0UQdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAAAAAAAAAAAgD9Vi+xRD7ZFCIXAdAjZRQzZXfzrBtlFENld/NlF/IvlXcM=</compiledString>
+								<compiledString>FRUAAAAEAAAARAAAAGwAAACGAAAAnwAAAFdhcmQAAAAARzI1MAAAAABHMjUwAFWL7IPsDFHZ6NkcJFHZ7tkcJGoBi0UMixCLTQyLQlj/0A+2yFHovAAAAIPEDNwd6wAAAN/g9sRED4uKAAAAi1UMiwKLTQyLUFD/0oP4EXR4agCLRRBQaAAAAACLTQyLEYtNDIuCnAEAAP/QO0UQdVhoCAAAAItNCIsRi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcMAAAAAAAAAAAAAAAAAAIA/VYvsUQ+2RQiFwHQI2UUM2V386wbZRRDZXfzZRfyL5V3D</compiledString>
 								<returnType>bool</returnType>
-								<sString>ut_bldg( false, true ) &amp;&amp; rUnitKind != 17 &amp;&amp; receiver.applWard(GLOBAL) == pMisc</sString>
+								<sString>ut_bldg( false, true ) &amp;&amp; rUnitKind != 17 &amp;&amp; receiver.applWard(GLOBAL) == pMisc &amp;&amp; !tal("G250")</sString>
 							</enabled>
 							<formulaName></formulaName>
 							<LoggingEvent>-1</LoggingEvent>
@@ -230,38 +251,222 @@
 						</DamageApplicator>
 					</Item>
 					<Item href="/Heroes/DefaultStatus/_SLOW_MOVE.APLR" />
-					<Item href="/Items/Talents/Level5/G071_SlowProc-AtSpd.TALENT" id="EC40C281-9613-4882-A791-D83E4F36E70B">
-						<FlagsApplicator>
+					<Item href="/Items/Talents/Level5/G071_SlowProc-AtSpd.TALENT" id="67828B21-B03C-4C1B-947C-119991B1D765">
+						<StatusApplicator>
+							<applicators>
+								<Item href="/Items/Talents/Level5/G071_SlowProc-AtSpd.TALENT" id="F1071759-B34E-4BBB-9CBA-D0B4345FEB5A">
+									<StatModApplicator>
+										<applyTarget>ApplicatorTarget</applyTarget>
+										<behaviorFlags>144</behaviorFlags>
+										<caption>уменьшить HealingScale</caption>
+										<constraint>None</constraint>
+										<dontUpdate>true</dontUpdate>
+										<effect>
+											<Item href="" />
+											<Item href="" />
+										</effect>
+										<enabled>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</enabled>
+										<formulaName></formulaName>
+										<lifeTime>
+											<compiledString></compiledString>
+											<returnType>float</returnType>
+											<sString>-1.0</sString>
+										</lifeTime>
+										<LoggingEvent>-1</LoggingEvent>
+										<modifier>
+											<addValue>
+												<compiledString>FQ0AAAACAAAAEgAAACwAAABOZXdIZXJvRHJhZ28AVYvsUWgAAAAAi0UMixCLTQyLgogBAAD/0Nno3uHcDToAAADZXfzZRfyL5V3DAAAAoJmZyb8AAAAAAADwPw==</compiledString>
+												<returnType>float</returnType>
+												<sString>-0.2f*(1.0f - receiver.vNewHeroDrago)</sString>
+											</addValue>
+											<multValue>
+												<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+												<returnType>float</returnType>
+												<sString>1.0f</sString>
+											</multValue>
+											<stat>Life</stat>
+											<topModifier>false</topModifier>
+											<variable>HealingScale</variable>
+										</modifier>
+										<providerName></providerName>
+										<startCondition>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</startCondition>
+										<statModName></statModName>
+									</StatModApplicator>
+								</Item>
+								<Item href="/Items/Talents/Level5/G071_SlowProc-AtSpd.TALENT" id="87C1AA00-037D-4BBB-BF72-DB32E0C06981">
+									<StatModApplicator>
+										<applyTarget>ApplicatorTarget</applyTarget>
+										<behaviorFlags>144</behaviorFlags>
+										<caption>порезать реген здоровья</caption>
+										<constraint>None</constraint>
+										<dontUpdate>true</dontUpdate>
+										<effect>
+											<Item href="" />
+											<Item href="" />
+										</effect>
+										<enabled>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</enabled>
+										<formulaName></formulaName>
+										<lifeTime>
+											<compiledString></compiledString>
+											<returnType>float</returnType>
+											<sString>-1.0</sString>
+										</lifeTime>
+										<LoggingEvent>-1</LoggingEvent>
+										<modifier>
+											<addValue>
+												<compiledString></compiledString>
+												<returnType>float</returnType>
+												<sString>0.0f</sString>
+											</addValue>
+											<multValue>
+												<compiledString>FQ0AAAADAAAAIgAAAC4AAABIAAAATmV3SGVyb0RyYWdvAFWL7IPsDItFDIsQi00Mi0Ik/9DcHXMAAADf4PbEQXUkaAAAAACLTQyLEYtNDIuCiAEAAP/Q2eje4dwNYwAAAN1d+OsF2ejdXfjdRfjZXfTZRfSL5V3DmpmZmZmZ6T8AAAAAAADwPwAAAAAAAAAA</compiledString>
+												<returnType>float</returnType>
+												<sString>rLifeRegen &gt; 0 ? 0.8*(1.0f - receiver.vNewHeroDrago) : 1</sString>
+											</multValue>
+											<stat>LifeRegeneration</stat>
+											<topModifier>true</topModifier>
+											<variable></variable>
+										</modifier>
+										<providerName></providerName>
+										<startCondition>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</startCondition>
+										<statModName></statModName>
+									</StatModApplicator>
+								</Item>
+								<Item href="/Items/Talents/Level5/G071_SlowProc-AtSpd.TALENT" id="7A1DDF04-28CB-4CFF-9EE8-4C0FCC6CB932">
+									<StatModApplicator>
+										<applyTarget>ApplicatorTarget</applyTarget>
+										<behaviorFlags>144</behaviorFlags>
+										<caption>порезать абс реген здоровья</caption>
+										<constraint>None</constraint>
+										<dontUpdate>true</dontUpdate>
+										<effect>
+											<Item href="" />
+											<Item href="" />
+										</effect>
+										<enabled>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</enabled>
+										<formulaName></formulaName>
+										<lifeTime>
+											<compiledString></compiledString>
+											<returnType>float</returnType>
+											<sString>-1.0</sString>
+										</lifeTime>
+										<LoggingEvent>-1</LoggingEvent>
+										<modifier>
+											<addValue>
+												<compiledString></compiledString>
+												<returnType>float</returnType>
+												<sString>0.0f</sString>
+											</addValue>
+											<multValue>
+												<compiledString>FQ0AAAADAAAAIgAAAC4AAABIAAAATmV3SGVyb0RyYWdvAFWL7IPsDItFDIsQi00Mi0Is/9DcHXMAAADf4PbEQXUkaAAAAACLTQyLEYtNDIuCiAEAAP/Q2eje4dwNYwAAAN1d+OsF2ejdXfjdRfjZXfTZRfSL5V3DmpmZmZmZ6T8AAAAAAADwPwAAAAAAAAAA</compiledString>
+												<returnType>float</returnType>
+												<sString>rLifeRegenAbs &gt; 0 ? 0.8*(1.0f - receiver.vNewHeroDrago) : 1</sString>
+											</multValue>
+											<stat>LifeRegenerationAbsolute</stat>
+											<topModifier>true</topModifier>
+											<variable></variable>
+										</modifier>
+										<providerName></providerName>
+										<startCondition>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</startCondition>
+										<statModName></statModName>
+									</StatModApplicator>
+								</Item>
+							</applicators>
 							<applyTarget>ApplicatorTarget</applyTarget>
-							<behaviorFlags>0</behaviorFlags>
-							<caption>вешалка FX'а</caption>
-							<consumables />
+							<behaviorFlags>144</behaviorFlags>
+							<caption>снижение отхила</caption>
+							<customCounter>
+								<compiledString></compiledString>
+								<returnType>int</returnType>
+								<sString>0</sString>
+							</customCounter>
+							<customProgress>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>-1.0</sString>
+							</customProgress>
+							<description textref="/Items/Talents/Level5/G071_SlowProc-AtSpd.TALENT_67828b21b03c4c1b947c119991b1d765_description.txt" />
+							<dispellPriority>Low</dispellPriority>
 							<effect>
-								<Item href="/Effects/Debuffs/BoostAttack/_Purple.EFFT" />
+								<Item href="" />
 								<Item href="" />
 							</effect>
 							<enabled>
-								<compiledString>FQUAAAACAAAAMgAAAFYAAABXYXJkAFWL7FFR2ejZHCRR2e7ZHCRqAYtFDIsQi00Mi0JY/9APtshR6GkAAACDxAzcHYYAAADf4PbERHs7i1UMiwKLTQyLUFD/0oP4EXQpagCLRRBQaAAAAACLTQyLEYtNDIuCnAEAAP/QO0UQdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAAAAAAAAAAAgD9Vi+xRD7ZFCIXAdAjZRQzZXfzrBtlFENld/NlF/IvlXcM=</compiledString>
+								<compiledString></compiledString>
 								<returnType>bool</returnType>
-								<sString>ut_bldg( false, true ) &amp;&amp; rUnitKind != 17 &amp;&amp; receiver.applWard(GLOBAL) == pMisc</sString>
+								<sString>true</sString>
 							</enabled>
-							<flag>0</flag>
+							<flags>2</flags>
 							<formulaName></formulaName>
+							<image href="/UI/Styles/Icons/Talents/_071.ITEX" />
 							<lifeTime>
-								<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAPw==</compiledString>
+								<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAQA==</compiledString>
 								<returnType>float</returnType>
-								<sString>0.5f</sString>
+								<sString>4</sString>
 							</lifeTime>
 							<LoggingEvent>-1</LoggingEvent>
+							<name textref="/Items/Talents/Level5/G071_SlowProc-AtSpd.TALENT_67828b21b03c4c1b947c119991b1d765_name.txt" />
+							<power>0</power>
 							<providerName></providerName>
+							<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+							<stackCount>0</stackCount>
 							<startCondition>
 								<compiledString></compiledString>
 								<returnType>bool</returnType>
 								<sString>true</sString>
 							</startCondition>
-							<talents />
-							<useListAs>ListAsRule</useListAs>
-						</FlagsApplicator>
+							<statusPosition>0</statusPosition>
+							<stopBehaviour>StopByTime</stopBehaviour>
+							<unstackableWith href="" />
+						</StatusApplicator>
+					</Item>
+					<Item href="/Items/Talents/Level5/G071_SlowProc-AtSpd.TALENT" id="B4BC07AE-8BCA-4FB8-8809-030C2F8A378F">
+						<DamageApplicator>
+							<applyTarget>ApplicatorTarget</applyTarget>
+							<cancelInvisibility>false</cancelInvisibility>
+							<caption>(э) дамаг</caption>
+							<damage>
+								<compiledString>FQoAAAABAAAAFgAAAEFkZERhbWFnZQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+								<returnType>float</returnType>
+								<sString>cAddDamage</sString>
+							</damage>
+							<damageMode>8</damageMode>
+							<damageType>Energy</damageType>
+							<enabled>
+								<compiledString>FRUAAAADAAAANAAAAE4AAABnAAAAV2FyZAAAAABHMjUwAAAAAEcyNTAAVYvsg+wMi0UMixCLTQyLQlD/0IP4EXR4agCLTRBRaAAAAACLVQyLAotNDIuQnAEAAP/SO0UQdVhoCAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXQJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+								<returnType>bool</returnType>
+								<sString>rUnitKind != 17 &amp;&amp; receiver.applWard(GLOBAL) == pMisc &amp;&amp; tal("G250")</sString>
+							</enabled>
+							<formulaName></formulaName>
+							<LoggingEvent>-1</LoggingEvent>
+							<providerName></providerName>
+							<timeLimiter>-1</timeLimiter>
+							<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Energy.UIEV" />
+						</DamageApplicator>
 					</Item>
 				</applicators>
 				<applyCount>
@@ -301,6 +506,7 @@
 				<useListAs>ListAsRule</useListAs>
 			</AbilityUpgradeApplicator>
 		</Item>
+		<Item href="/Items/Talents/Level3/SecondPinkSet_Prog2025.APLR" />
 	</passiveApplicators>
 	<persistentId>G071</persistentId>
 	<prerequisiteTalents />

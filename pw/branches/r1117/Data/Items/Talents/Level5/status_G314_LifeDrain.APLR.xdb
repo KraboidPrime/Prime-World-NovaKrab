@@ -161,14 +161,7 @@
 	<description textref="/Items/Talents/Level5/status_G314_LifeDrain.APLR_description.txt" />
 	<dispellPriority>NonDispellable</dispellPriority>
 	<effect>
-		<Item href="/Items/Talents/Level5/status_G314_LifeDrain.APLR" id="0F9035AD-9664-40EA-A405-806A31A98425">
-			<AuraEffect>
-				<deathType>Manual</deathType>
-				<enableCondition href="" />
-				<lifeTime>0</lifeTime>
-				<type>Ally</type>
-			</AuraEffect>
-		</Item>
+		<Item href="" />
 		<Item href="" />
 	</effect>
 	<enabled>

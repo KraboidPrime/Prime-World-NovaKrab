@@ -10,6 +10,7 @@
 	<BackLink DBID="/Pets/Horse/Ressurector.APLR" Count="1" />
 	<BackLink DBID="/Pets/Pig/Ressurector.APLR" Count="1" />
 	<BackLink DBID="/Pets/Tiger/Ressuretor.APLR" Count="1" />
+	<BackLink DBID="/Pets/Bear/Ressurector.APLR" Count="1" />
 	<applicators>
 		<Item href="/Pets/Dragon/Ressurector.APLR" id="B99BB4B0-3A80-4C5D-8481-30DDA081660A">
 			<TriggerApplicator>

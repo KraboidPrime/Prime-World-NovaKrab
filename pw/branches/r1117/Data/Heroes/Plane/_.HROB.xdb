@@ -1240,9 +1240,9 @@
 								</offset>
 								<paralleledTarget>false</paralleledTarget>
 								<range>
-									<compiledString>FQAAAAABAAAAEwAAAFWL7FGLRQiLEItNCItCFP/Q3AUhAAAA2V382UX8i+VdwwAAAAAAAAhA</compiledString>
+									<compiledString>FQAAAAABAAAAEwAAAFWL7FGLRQiLEItNCItCFP/Q3AUhAAAA2V382UX8i+VdwwAAAAAAABRA</compiledString>
 									<returnType>float</returnType>
-									<sString>sRange + 3</sString>
+									<sString>sRange + 5</sString>
 								</range>
 								<targetSelector href="/Heroes/Plane/_.HROB" id="C7AEFA0C-7F9C-491E-A924-DADFD95B7FE2">
 									<SelectApplicatorTarget>
@@ -1328,7 +1328,7 @@
 					<instantApply>true</instantApply>
 				</DispatchImmediate>
 			</dispatch>
-			<flags>1</flags>
+			<flags>5</flags>
 			<image href="" />
 			<imageSecondState href="" />
 			<isMelee>false</isMelee>
@@ -1349,9 +1349,9 @@
 			<targetType>0</targetType>
 			<type>Simple</type>
 			<useRange>
-				<compiledString>FRcAAAACAAAAHgAAADcAAABQbGFuZV9BNF8yAABQbGFuZV9BNF8yAFWL7IPsEGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoDAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAi00IixGLTQiLQhT/0A+2Tfv32RvJg+ECiU302kX02V3w2UXwi+Vdww==</compiledString>
+				<compiledString>FRcAAAACAAAAHgAAADcAAABQbGFuZV9BNF8yAABQbGFuZV9BNF8yAFWL7IPsEGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoDAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAi00IixGLTQiLQhT/0A+2Tfv32RvJg+EEiU302kX02V3w2UXwi+Vdww==</compiledString>
 				<returnType>float</returnType>
-				<sString>sRange + (tal("Plane_A4_2") ? 2 : 0)</sString>
+				<sString>sRange + (tal("Plane_A4_2") ? 4 : 0)</sString>
 			</useRange>
 			<useRangeMaterial href="" />
 			<warFogRemoveRadius>0</warFogRemoveRadius>

@@ -3,10 +3,12 @@
 	<BackLink DBID="/Items/Talents/Class/Fluffy/Ability_A0.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Fluffy/Ability_A4.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Fluffy/Ability_A4u.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Fluffy/Ability_A4_2.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Fluffy/Ability_A4_2u.TALENT" Count="1" />
 	<name>Panic_Duration</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
+		<compiledString>FR4AAAAEAAAAJQAAAD4AAAB1AAAAgAAAAEZsdWZmeV9BMV9TVVAAAABGbHVmZnlfQTFfU1VQAFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdAvZBZIAAADZXfTrCdkFjgAAANld9NlF9IvlXcMAAABAmpkZQA==</compiledString>
 		<returnType>float</returnType>
-		<sString>2</sString>
+		<sString>tal("Fluffy_A1_SUP") ? 2.4f : 2.0f</sString>
 	</var>
 </UnitConstant>

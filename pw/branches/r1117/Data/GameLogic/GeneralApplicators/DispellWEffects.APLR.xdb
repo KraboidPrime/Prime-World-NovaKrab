@@ -17,13 +17,19 @@
 	<BackLink DBID="/Items/Talents/Level1/G482_SelfHeal.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level2/trigger_G349.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Level2/trigger_G349_Night.APLR" Count="1" />
-	<BackLink DBID="/Items/Talents/Level3/G515_Life_MoveSpeed.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level3/G515_Life_MoveSpeed.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Level4/G293_GuildAllyDispell.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level4/G660_GuildAllyDispell_Red.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level5/auraApplicator_G353.APLR" Count="1" />
-	<BackLink DBID="/Items/Talents/Level5/G063_Life-Int-DispellAoE.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset7_11_MiniRefresher/spell_G766_RefreshAndNotify.SPLL" Count="1" />
 	<BackLink DBID="/Items/Temp/DispellStick.ARCT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level5/G330_Dex_WillOrStmn.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Vampire/Ability_A4_2.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/FallenAngel/Ability_A4.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/Gunner/Ability_A4.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Healer/Ability4_2.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/Healer/A4_2AutoSpell.SPLL" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/FireFox/Ability3.TALENT" Count="2" />
 	<applicators>
 		<Item>
 			<applicator href="/GameLogic/GeneralApplicators/Dispell.APLR" />

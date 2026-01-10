@@ -26,6 +26,28 @@
 	<aoeType>None</aoeType>
 	<applicators>
 		<Item href="/Items/Talents/Class/ManaWyrm/status_A4_2_AABuff.APLR" />
+		<Item href="/Items/Talents/Class/ManaWyrm/Ability4_2.TALENT" id="1C0DB53B-FFE3-474D-87F9-946D6871C9DF">
+			<HealApplicator>
+				<amount>
+					<compiledString>FRIAAAABAAAALwAAAEE0XzJfTWFuYUNvc3RUZWNoAFWL7ItFCIsQi00Ii0IE/9BR2Rwki00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ/9BR2Rwk6AcAAACDxAjZ4F3DVYvsUdlFCNlFDN7Z3+D2xEF1CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
+					<returnType>float</returnType>
+					<sString>-min(cA4_2_ManaCostTech, sEnergy)</sString>
+				</amount>
+				<applyTarget>AbilityOwner</applyTarget>
+				<caption></caption>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<healTarget>Energy</healTarget>
+				<ignoreHealingMods>true</ignoreHealingMods>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<uiEvent href="" />
+			</HealApplicator>
+		</Item>
 	</applicators>
 	<askId>4</askId>
 	<autoTargetSelector href="" />

@@ -3,6 +3,7 @@
 	<BackLink DBID="/Items/Talents/Class/Fairy/Ability_A0.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Fairy/Ability_A3.TALENT" Count="1" />
 	<BackLink DBID="/Maps/PvE/Series/Coop1/Heroes/Fairy/Ability_A3.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A4_2.TALENT" Count="1" />
 	<applyTarget>ApplicatorTarget</applyTarget>
 	<caption>на симбиота</caption>
 	<enabled>

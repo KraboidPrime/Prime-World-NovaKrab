@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Talent>
-	<BackLink DBID="/GameLogic/AILogic.AILP" Count="1" />
+	<BackLink DBID="/GameLogic/AILogic.AILP" Count="2" />
 	<BackLink DBID="/Items/RerollShop/TalentsList_MiniRefresher" Count="1" />
 	<BackLink DBID="/Items/Talents/Level5/G771_Str_CDR.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level5/G772_Int_CDR.TALENT" Count="1" />
@@ -164,9 +164,9 @@
 					<UnitConstant>
 						<name>Add_Dexterity</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAIEHNzEw/</compiledString>
+							<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(10, 0.8)</sString>
+							<sString>0.0f</sString>
 						</var>
 					</UnitConstant>
 				</Item>

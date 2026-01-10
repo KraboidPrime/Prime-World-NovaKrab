@@ -19,9 +19,9 @@
 	<aoeMaterial href="/Effects/UI/AOESelection/Cone.MTRL" />
 	<aoePassabilityCheckMode>0</aoePassabilityCheckMode>
 	<aoeSize>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQg==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAA0Qg==</compiledString>
 		<returnType>float</returnType>
-		<sString>40</sString>
+		<sString>45</sString>
 	</aoeSize>
 	<aoeType>Cone</aoeType>
 	<applicators>
@@ -109,7 +109,7 @@
 				<spellTarget>ApplicatorTarget</spellTarget>
 				<targetSelector href="/Items/Talents/Class/PlagueDoctor/Ability_A3.TALENT" id="EEDB399F-B174-44DC-8B12-65BFEDB04A10">
 					<SectorTargetSelector>
-						<angle>40</angle>
+						<angle>45</angle>
 						<centerIsSegmentEnd>false</centerIsSegmentEnd>
 						<flags>0</flags>
 						<mode>Normal</mode>
@@ -149,9 +149,9 @@
 					<UnitConstant>
 						<name>A3_Range</name>
 						<var>
-							<compiledString>FQ0AAAACAAAAGgAAAC0AAABSYW5nZV9NZWRpdW0AVYvsUYtFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S3AU7AAAA2V382UX8i+VdwwAAAAAAAPA/</compiledString>
+							<compiledString>FQ0AAAACAAAAGgAAAC0AAABSYW5nZV9NZWRpdW0AVYvsUYtFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S3AU7AAAA2V382UX8i+VdwwAAAAAAAAhA</compiledString>
 							<returnType>float</returnType>
-							<sString>cRange_Medium + 1</sString>
+							<sString>cRange_Medium + 3</sString>
 						</var>
 					</UnitConstant>
 				</Item>

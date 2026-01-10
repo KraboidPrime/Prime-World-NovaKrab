@@ -66,9 +66,9 @@
 					<UnitConstant>
 						<name>A4u_AddDamage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAAYQgCAu0M=</compiledString>
+							<compiledString>FR4AAAAFAAAAJQAAAD4AAABwAAAAegAAALIAAABIdW50ZXJfQTJfU1VQAAAASHVudGVyX0EyX1NVUABVi+yD7BBoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AGoBUdkF2gAAANkcJFHZBdYAAADZHCRqAItNCIsRi00Ii4I0AQAA/9BR2RwkagGLTRCLEYtNEItCYP/QD7ZN+4lN9NtF9NwNzgAAANno3sHeydld8NlF8IvlXcMAAAAAAADwP5qZmZmZmbk/AAAYQgCAu0M=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale( sIntellect, 38, 375 )</sString>
+							<sString>damageScale( sIntellect, 38, 375 )*(1+0.1*tal("Hunter_A2_SUP"))</sString>
 						</var>
 					</UnitConstant>
 				</Item>

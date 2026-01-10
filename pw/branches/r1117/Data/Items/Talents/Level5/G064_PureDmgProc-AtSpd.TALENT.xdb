@@ -48,38 +48,39 @@
 	<commonDescription textref="" />
 	<compiledDescriptionA textref="" />
 	<compiledDescriptionB textref="" />
-	<conditionFormulas />
+	<conditionFormulas>
+		<Item href="/Items/Talents/Level5/G064_PureDmgProc-AtSpd.TALENT" id="1F28C041-8831-4C1B-B943-913B710FF792">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRcAAAACAAAAHAAAADIAAABTZWMyMDI1X1Rvb2x0aXBDb3VudGVyAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHVQAAADf4PbEAXUJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAIQA==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vSec2025_TooltipCounter &gt;= 3</sString>
+				</condition>
+				<name>Bonus3ActiveSe</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Items/Talents/Level5/G064_PureDmgProc-AtSpd.TALENT" id="9E79912E-C412-43F4-952B-7A8170E8A6C5">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRcAAAACAAAAHAAAADIAAABTZWMyMDI1X1Rvb2x0aXBDb3VudGVyAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHVQAAADf4PbEAXUJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAcQA==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vSec2025_TooltipCounter &gt;= 7</sString>
+				</condition>
+				<name>Bonus7ActiveSe</name>
+			</ConditionFormula>
+		</Item>
+	</conditionFormulas>
 	<conflictingTalents />
 	<constants href="/Items/Talents/Level5/G064_PureDmgProc-AtSpd.TALENT" id="BBC37EA9-1D4F-4F2D-9708-166A5FA3826B">
 		<UnitConstantsContainer>
 			<vars>
-				<Item href="/Items/Talents/Level5/G064_PureDmgProc-AtSpd.TALENT" id="6DC0AA74-33C1-4B63-9F82-54A93525DDAB">
+				<Item href="/Items/Talents/Level5/G064_PureDmgProc-AtSpd.TALENT" id="995C0306-6592-462F-9245-3D485B91CA66">
 					<UnitConstant>
-						<name>Add_AttackSpeed</name>
+						<name>G064_sum</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAoECamZk+</compiledString>
+							<compiledString>FQ0AAAABAAAAEQAAAEcwNjRfY291bnRlcgBVi+xoAAAAAItFCIsQi00Ii4KIAQAA/9Bdww==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(5, 0.3)</sString>
-						</var>
-					</UnitConstant>
-				</Item>
-				<Item href="/Items/Talents/Level5/G064_PureDmgProc-AtSpd.TALENT" id="BF57F00E-0FDE-430A-B8C5-9796CD4BE5BC">
-					<UnitConstant>
-						<name>PureDamageAmount</name>
-						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAASEIAAIBA</compiledString>
-							<returnType>float</returnType>
-							<sString>refineScale(50, 4)</sString>
-						</var>
-					</UnitConstant>
-				</Item>
-				<Item href="/Items/Talents/Level5/G064_PureDmgProc-AtSpd.TALENT" id="7AC541A4-225C-4DAB-A507-3DDCC73807BA">
-					<UnitConstant>
-						<name>AbilityChance</name>
-						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQQ==</compiledString>
-							<returnType>float</returnType>
-							<sString>25</sString>
+							<sString>sender.vG064_counter</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -124,89 +125,222 @@
 	<name textref="/Items/Talents/Level5/G064_PureDmgProc-AtSpd.TALENT_name.txt" />
 	<node></node>
 	<passiveApplicators>
-		<Item href="/Items/Talents/Level5/G064_PureDmgProc-AtSpd.TALENT" id="85765405-3D97-4CEB-8FBE-EA149FE56609">
-			<PermanentStatModApplicator>
-				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>+Проворство</caption>
-				<customApplyType>None</customApplyType>
-				<enabled>
-					<compiledString></compiledString>
-					<returnType>bool</returnType>
-					<sString>true</sString>
-				</enabled>
-				<formulaName></formulaName>
-				<LoggingEvent>-1</LoggingEvent>
-				<modifier>
-					<addValue>
-						<compiledString>FRAAAAABAAAAHAAAAEFkZF9BdHRhY2tTcGVlZABVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
-						<returnType>float</returnType>
-						<sString>cAdd_AttackSpeed</sString>
-					</addValue>
-					<multValue>
-						<compiledString></compiledString>
-						<returnType>float</returnType>
-						<sString>1.0f</sString>
-					</multValue>
-					<stat>AttackSpeed</stat>
-					<topModifier>false</topModifier>
-					<variable></variable>
-				</modifier>
-				<providerName></providerName>
-			</PermanentStatModApplicator>
-		</Item>
 		<Item href="/Items/Talents/Level5/G064_PureDmgProc-AtSpd.TALENT" id="A2F47791-999E-41AC-A4A2-F83BB6C1B7D9">
 			<AbilityUpgradeApplicator>
 				<applicators>
-					<Item href="/Items/Talents/Level5/G064_PureDmgProc-AtSpd.TALENT" id="E59337D0-6C8F-4BF0-A2E7-C14B7C086EA0">
-						<SpellProbabilityApplicator>
+					<Item href="/Items/Talents/Level5/G064_PureDmgProc-AtSpd.TALENT" id="97E9A610-6F81-42D1-ABB8-2D9F9299391A">
+						<SpellApplicator>
 							<applyTarget>ApplicatorTarget</applyTarget>
-							<caption>вероятностный спелл</caption>
+							<caption>Статусы и дебаф</caption>
 							<enabled>
-								<compiledString>FQUAAAABAAAAIgAAAFdhcmQAVYvsUYtFDIsQi00Mi0JQ/9CD+BF0KWoAi00QUWgAAAAAi1UMiwKLTQyLkJwBAAD/0jtFEHUJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcM=</compiledString>
+								<compiledString>FQAAAAAAAAAAVYvsUYtFDIsQi00Mi0JQ/9CFwHQbi00MixGLTQyLQlD/0IP4AXQJx0X8AAAAAOsHx0X8AQAAAIpF/IvlXcM=</compiledString>
 								<returnType>bool</returnType>
-								<sString>rUnitKind != 17 &amp;&amp;  receiver.applWard(GLOBAL) == pMisc</sString>
+								<sString>(rUnitKind == 0 || rUnitKind == 1)</sString>
 							</enabled>
 							<formulaName></formulaName>
 							<LoggingEvent>-1</LoggingEvent>
-							<probability>
-								<compiledString>FQ4AAAABAAAAGgAAAEFiaWxpdHlDaGFuY2UAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
-								<returnType>float</returnType>
-								<sString>cAbilityChance</sString>
-							</probability>
 							<providerName></providerName>
-							<spell href="/Items/Talents/Level5/G064_PureDmgProc-AtSpd.TALENT" id="F7D2194F-E31D-4757-BD84-EAE21EE6A668">
+							<spell href="/Items/Talents/Level5/G064_PureDmgProc-AtSpd.TALENT" id="B2163E66-C01D-4BC8-A2A8-B9D0C69E7474">
 								<Spell>
 									<applicators>
-										<Item href="/Items/Talents/Level5/G064_PureDmgProc-AtSpd.TALENT" id="CB96E238-E2A8-46A0-B5A7-BEAA7154EC91">
-											<DamageApplicator>
+										<Item href="/Items/Talents/Level5/G064_PureDmgProc-AtSpd.TALENT" id="820239F4-C2D2-4D2B-86A0-7F9EC899B94D">
+											<StatusApplicator>
+												<applicators />
 												<applyTarget>ApplicatorTarget</applyTarget>
-												<cancelInvisibility>false</cancelInvisibility>
-												<caption>дамаг pure</caption>
-												<damage>
-													<compiledString>FREAAAABAAAAHQAAAFB1cmVEYW1hZ2VBbW91bnQAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+												<behaviorFlags>216</behaviorFlags>
+												<caption>лишь визуал</caption>
+												<customCounter>
+													<compiledString></compiledString>
+													<returnType>int</returnType>
+													<sString>0</sString>
+												</customCounter>
+												<customProgress>
+													<compiledString></compiledString>
 													<returnType>float</returnType>
-													<sString>cPureDamageAmount</sString>
-												</damage>
-												<damageMode>0</damageMode>
-												<damageType>Pure</damageType>
+													<sString>-1.0</sString>
+												</customProgress>
+												<description textref="/Items/Talents/Level5/G064_PureDmgProc-AtSpd.TALENT_820239f4c2d24d2b86a07f9ec899b94d_description.txt" />
+												<dispellPriority>NonDispellable</dispellPriority>
+												<effect>
+													<Item href="" />
+													<Item href="" />
+												</effect>
 												<enabled>
-													<compiledString>FQUAAAABAAAADwAAAFdhcmQAVYvsagCLRRBQaAAAAACLTQyLEYtNDIuCnAEAAP/QM8k7RRAPlMGKwV3D</compiledString>
+													<compiledString></compiledString>
 													<returnType>bool</returnType>
-													<sString> receiver.applWard(GLOBAL) == pMisc</sString>
+													<sString>true</sString>
+												</enabled>
+												<flags>2</flags>
+												<formulaName></formulaName>
+												<image href="/UI/Styles/Icons/Talents/_064.ITEX" />
+												<lifeTime>
+													<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAA0Qg==</compiledString>
+													<returnType>float</returnType>
+													<sString>45</sString>
+												</lifeTime>
+												<LoggingEvent>-1</LoggingEvent>
+												<name textref="/Items/Talents/Level5/G064_PureDmgProc-AtSpd.TALENT_820239f4c2d24d2b86a07f9ec899b94d_name.txt" />
+												<power>0</power>
+												<providerName></providerName>
+												<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+												<stackCount>0</stackCount>
+												<startCondition>
+													<compiledString></compiledString>
+													<returnType>bool</returnType>
+													<sString>true</sString>
+												</startCondition>
+												<statusPosition>0</statusPosition>
+												<stopBehaviour>StopByTime</stopBehaviour>
+												<unstackableWith href="" />
+											</StatusApplicator>
+										</Item>
+										<Item href="/Items/Talents/Level5/G064_PureDmgProc-AtSpd.TALENT" id="F2B0B1DB-AA62-47CA-B2EC-6A658D036BF5">
+											<StatModApplicator>
+												<applyTarget>ApplicatorTarget</applyTarget>
+												<behaviorFlags>216</behaviorFlags>
+												<caption>Отнимаем Силу</caption>
+												<constraint>None</constraint>
+												<dontUpdate>true</dontUpdate>
+												<effect>
+													<Item href="" />
+													<Item href="" />
+												</effect>
+												<enabled>
+													<compiledString>FQAAAAAAAAAAVYvsg+wMi0UMixCLTQyLgrgAAAD/0ItNDIsRi00Mi4K8AAAA3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+													<returnType>bool</returnType>
+													<sString>rBaseStrength &gt;= rBaseIntellect</sString>
 												</enabled>
 												<formulaName></formulaName>
+												<lifeTime>
+													<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAA0Qg==</compiledString>
+													<returnType>float</returnType>
+													<sString>45</sString>
+												</lifeTime>
 												<LoggingEvent>-1</LoggingEvent>
+												<modifier>
+													<addValue>
+														<compiledString>FQAAAAACAAAAWAAAAKMAAABVi+yD7CSLRQiLEItNCIuCjAAAAP/Qi00IixGLTQiLgsAAAADdXfj/0Nxd+N/g9sRBekuLTQyLEYtNDIuCMAEAAP/Qi00MixGLTQyLgrgAAADdXfD/0NwNzgAAANxd8N/g9sQFegnHRez+////6wfHRewAAAAAi03siU3o60mLVQyLAotNDIuQMAEAAP/Si0UMixCLTQyLgrgAAADdXeD/0NwNzgAAANxd4N/g9sQFegnHRdz8////6wfHRdwAAAAAi03ciU3o20Xoi+VdwwAAAAAAAOA/</compiledString>
+														<returnType>float</returnType>
+														<sString>sBaseAttackSpeed &gt;= sBaseDexterity ? (rStrength &gt; 0.5*rBaseStrength ? -2 : 0) : (rStrength &gt; 0.5*rBaseStrength ? -4 : 0)</sString>
+													</addValue>
+													<multValue>
+														<compiledString></compiledString>
+														<returnType>float</returnType>
+														<sString>1.0f</sString>
+													</multValue>
+													<stat>Strength</stat>
+													<topModifier>false</topModifier>
+													<variable></variable>
+												</modifier>
 												<providerName></providerName>
-												<timeLimiter>-1</timeLimiter>
-												<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed.UIEV" />
-											</DamageApplicator>
+												<startCondition>
+													<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+													<returnType>bool</returnType>
+													<sString>true</sString>
+												</startCondition>
+												<statModName></statModName>
+											</StatModApplicator>
+										</Item>
+										<Item href="/Items/Talents/Level5/G064_PureDmgProc-AtSpd.TALENT" id="123E321A-2855-4146-8772-1AB8E76FA5ED">
+											<StatModApplicator>
+												<applyTarget>ApplicatorTarget</applyTarget>
+												<behaviorFlags>216</behaviorFlags>
+												<caption>Отнимаем Умец</caption>
+												<constraint>None</constraint>
+												<dontUpdate>true</dontUpdate>
+												<effect>
+													<Item href="" />
+													<Item href="" />
+												</effect>
+												<enabled>
+													<compiledString>FQAAAAAAAAAAVYvsg+wMi0UMixCLTQyLgrgAAAD/0ItNDIsRi00Mi4K8AAAA3V34/9DcXfjf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+													<returnType>bool</returnType>
+													<sString>rBaseStrength &lt; rBaseIntellect</sString>
+												</enabled>
+												<formulaName></formulaName>
+												<lifeTime>
+													<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAA0Qg==</compiledString>
+													<returnType>float</returnType>
+													<sString>45</sString>
+												</lifeTime>
+												<LoggingEvent>-1</LoggingEvent>
+												<modifier>
+													<addValue>
+														<compiledString>FQAAAAACAAAAWAAAAKMAAABVi+yD7CSLRQiLEItNCIuCjAAAAP/Qi00IixGLTQiLgsAAAADdXfj/0Nxd+N/g9sRBekuLTQyLEYtNDIuCNAEAAP/Qi00MixGLTQyLgrwAAADdXfD/0NwNzgAAANxd8N/g9sQFegnHRez+////6wfHRewAAAAAi03siU3o60mLVQyLAotNDIuQNAEAAP/Si0UMixCLTQyLgrwAAADdXeD/0NwNzgAAANxd4N/g9sQFegnHRdz8////6wfHRdwAAAAAi03ciU3o20Xoi+VdwwAAAAAAAOA/</compiledString>
+														<returnType>float</returnType>
+														<sString>sBaseAttackSpeed &gt;= sBaseDexterity ? (rIntellect &gt; 0.5*rBaseIntellect ? -2 : 0) : (rIntellect &gt; 0.5*rBaseIntellect ? -4 : 0)</sString>
+													</addValue>
+													<multValue>
+														<compiledString></compiledString>
+														<returnType>float</returnType>
+														<sString>1.0f</sString>
+													</multValue>
+													<stat>Intellect</stat>
+													<topModifier>false</topModifier>
+													<variable></variable>
+												</modifier>
+												<providerName></providerName>
+												<startCondition>
+													<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+													<returnType>bool</returnType>
+													<sString>true</sString>
+												</startCondition>
+												<statModName></statModName>
+											</StatModApplicator>
+										</Item>
+										<Item href="/Items/Talents/Level5/G064_PureDmgProc-AtSpd.TALENT" id="E1B096E4-F9BC-4FC1-9240-9CAA0A283A11">
+											<StatModApplicator>
+												<applyTarget>AbilityOwner</applyTarget>
+												<behaviorFlags>216</behaviorFlags>
+												<caption>counter</caption>
+												<constraint>None</constraint>
+												<dontUpdate>true</dontUpdate>
+												<effect>
+													<Item href="" />
+													<Item href="" />
+												</effect>
+												<enabled>
+													<compiledString></compiledString>
+													<returnType>bool</returnType>
+													<sString>true</sString>
+												</enabled>
+												<formulaName></formulaName>
+												<lifeTime>
+													<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAA0Qg==</compiledString>
+													<returnType>float</returnType>
+													<sString>45</sString>
+												</lifeTime>
+												<LoggingEvent>-1</LoggingEvent>
+												<modifier>
+													<addValue>
+														<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgowAAAD/0ItNCIsRi00Ii4LAAAAA3V34/9DcXfjf4PbEQXoJx0X0AgAAAOsHx0X0BAAAANtF9IvlXcM=</compiledString>
+														<returnType>float</returnType>
+														<sString>sBaseAttackSpeed &gt;= sBaseDexterity ? 2 : 4</sString>
+													</addValue>
+													<multValue>
+														<compiledString></compiledString>
+														<returnType>float</returnType>
+														<sString>1.0f</sString>
+													</multValue>
+													<stat>Life</stat>
+													<topModifier>false</topModifier>
+													<variable>G064_counter</variable>
+												</modifier>
+												<providerName></providerName>
+												<startCondition>
+													<compiledString></compiledString>
+													<returnType>bool</returnType>
+													<sString>true</sString>
+												</startCondition>
+												<statModName></statModName>
+											</StatModApplicator>
 										</Item>
 									</applicators>
-									<dispatch href="/Items/Talents/Level5/G064_PureDmgProc-AtSpd.TALENT" id="D7B26484-F262-42F5-B542-5FAB9B2F41EA">
+									<dispatch href="/Items/Talents/Level5/G064_PureDmgProc-AtSpd.TALENT" id="4A8BA423-8FA8-4B7E-B3FD-5C0EBAC3E76B">
 										<DispatchImmediate>
 											<alwaysApply>false</alwaysApply>
 											<applyEffect>
-												<Item href="/Effects/Debuffs/BoostAttack/_Gold.EFFT" />
+												<Item href="" />
 												<Item href="" />
 											</applyEffect>
 											<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
@@ -223,8 +357,9 @@
 									</dispatch>
 								</Spell>
 							</spell>
-							<spellIfFailed href="" />
-						</SpellProbabilityApplicator>
+							<spellTarget>ApplicatorTarget</spellTarget>
+							<targetSelector href="" />
+						</SpellApplicator>
 					</Item>
 				</applicators>
 				<applyCount>
@@ -233,7 +368,7 @@
 					<sString>0</sString>
 				</applyCount>
 				<applyTarget>ApplicatorTarget</applyTarget>
-				<behaviorFlags>16</behaviorFlags>
+				<behaviorFlags>216</behaviorFlags>
 				<caption>улучшение автоатаки</caption>
 				<effect>
 					<Item href="" />
@@ -264,6 +399,153 @@
 				<useListAs>ListAsRule</useListAs>
 			</AbilityUpgradeApplicator>
 		</Item>
+		<Item href="/Items/Talents/Level5/G064_PureDmgProc-AtSpd.TALENT" id="ED952DF3-5EA6-491B-9D71-8411813707BD">
+			<StatusApplicator>
+				<applicators>
+					<Item href="/Items/Talents/Level5/G064_PureDmgProc-AtSpd.TALENT" id="8369D288-A985-41CD-B085-D49257FE15D1">
+						<StatModApplicator>
+							<applyTarget>AbilityOwner</applyTarget>
+							<behaviorFlags>216</behaviorFlags>
+							<caption>Силушка</caption>
+							<constraint>None</constraint>
+							<dontUpdate>false</dontUpdate>
+							<effect>
+								<Item href="" />
+								<Item href="" />
+							</effect>
+							<enabled>
+								<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgrgAAAD/0ItNCIsRi00Ii4K8AAAA3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+								<returnType>bool</returnType>
+								<sString>sBaseStrength &gt;= sBaseIntellect</sString>
+							</enabled>
+							<formulaName></formulaName>
+							<lifeTime>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>-1.0</sString>
+							</lifeTime>
+							<LoggingEvent>-1</LoggingEvent>
+							<modifier>
+								<addValue>
+									<compiledString>FQkAAAABAAAAFQAAAEcwNjRfc3VtAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+									<returnType>float</returnType>
+									<sString>cG064_sum</sString>
+								</addValue>
+								<multValue>
+									<compiledString></compiledString>
+									<returnType>float</returnType>
+									<sString>1.0f</sString>
+								</multValue>
+								<stat>Strength</stat>
+								<topModifier>false</topModifier>
+								<variable></variable>
+							</modifier>
+							<providerName></providerName>
+							<startCondition>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</startCondition>
+							<statModName></statModName>
+						</StatModApplicator>
+					</Item>
+					<Item href="/Items/Talents/Level5/G064_PureDmgProc-AtSpd.TALENT" id="F7F29533-3A8A-479E-85B7-DBF77001C38F">
+						<StatModApplicator>
+							<applyTarget>AbilityOwner</applyTarget>
+							<behaviorFlags>216</behaviorFlags>
+							<caption>Умец</caption>
+							<constraint>None</constraint>
+							<dontUpdate>false</dontUpdate>
+							<effect>
+								<Item href="" />
+								<Item href="" />
+							</effect>
+							<enabled>
+								<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgrgAAAD/0ItNCIsRi00Ii4K8AAAA3V34/9DcXfjf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+								<returnType>bool</returnType>
+								<sString>sBaseStrength &lt; sBaseIntellect</sString>
+							</enabled>
+							<formulaName></formulaName>
+							<lifeTime>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>-1.0</sString>
+							</lifeTime>
+							<LoggingEvent>-1</LoggingEvent>
+							<modifier>
+								<addValue>
+									<compiledString>FQkAAAABAAAAFQAAAEcwNjRfc3VtAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+									<returnType>float</returnType>
+									<sString>cG064_sum</sString>
+								</addValue>
+								<multValue>
+									<compiledString></compiledString>
+									<returnType>float</returnType>
+									<sString>1.0f</sString>
+								</multValue>
+								<stat>Intellect</stat>
+								<topModifier>false</topModifier>
+								<variable></variable>
+							</modifier>
+							<providerName></providerName>
+							<startCondition>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</startCondition>
+							<statModName></statModName>
+						</StatModApplicator>
+					</Item>
+				</applicators>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>Статус и баф на себя</caption>
+				<customCounter>
+					<compiledString>FQkAAAABAAAAFQAAAEcwNjRfc3VtAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SUdkcJOgFAAAAg8QEXcO4AQAAAA+i98IAAAAEdAfzDyxEJATD6QAAAABVi+yD7AzZRQjZffwPt0X8DQAMAACJRfjZbfjbXfTZbfyLRfSL5V3D</compiledString>
+					<returnType>int</returnType>
+					<sString>f2l(cG064_sum)</sString>
+				</customCounter>
+				<customProgress>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</customProgress>
+				<description textref="/Items/Talents/Level5/G064_PureDmgProc-AtSpd.TALENT_ed952df35ea6491b9d718411813707bd_description.txt" />
+				<dispellPriority>NonDispellable</dispellPriority>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<flags>64</flags>
+				<formulaName></formulaName>
+				<image href="/UI/Styles/Icons/Talents/_064_st.ITEX" />
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<name textref="/Items/Talents/Level5/G064_PureDmgProc-AtSpd.TALENT_ed952df35ea6491b9d718411813707bd_name.txt" />
+				<power>0</power>
+				<providerName></providerName>
+				<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+				<stackCount>0</stackCount>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statusPosition>0</statusPosition>
+				<stopBehaviour>StopByTime</stopBehaviour>
+				<unstackableWith href="" />
+			</StatusApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level3/SecondPinkSet_Prog2025.APLR" />
 	</passiveApplicators>
 	<persistentId>G064</persistentId>
 	<prerequisiteTalents />
@@ -284,7 +566,7 @@
 			</values>
 		</Item>
 	</talentStats>
-	<targetType>1909247</targetType>
+	<targetType>536870915</targetType>
 	<type>Passive</type>
 	<upgradeLevel>0</upgradeLevel>
 	<useRange>

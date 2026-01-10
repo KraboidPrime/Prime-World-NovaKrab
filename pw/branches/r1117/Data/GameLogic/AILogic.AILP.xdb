@@ -1677,18 +1677,18 @@
 		<happyCreaturesPercent>0.5</happyCreaturesPercent>
 		<minRestTime>0.5</minRestTime>
 	</creatureHappyStateParams>
-	<creepLevelCap>30</creepLevelCap>
+	<creepLevelCap>40</creepLevelCap>
 	<creepsLevelUpInfo>
 		<increment>1</increment>
-		<interval>45</interval>
+		<interval>59</interval>
 	</creepsLevelUpInfo>
 	<creepsWavesDelay>30</creepsWavesDelay>
 	<defaultTalentsSet href="" />
 	<derivativeStats href="/GameLogic/DerivateStats.DSTCN" />
 	<energyDamageReduction>
-		<compiledString>FTMAAAADAAAAQAAAAHIAAACGAAAAZGFtYWdlRGVhbGVkAAAAAERhbWFnZVBlbmV0cmF0aW9uTXVsdGlwbGllcl9TcGlyaXQAVYvsg+wUUdnu2RwkaAAAAACLRRCLEItNEItCVP/QUdkcJOhhAAAAg8QIi00MixGLTQyLgnABAADdXfj/0NwNrwAAANno3uHcTfiLTQxRi1UIUmgQAAAAi0UQixCLTRCLQlDdXfD/0NxN8Nld7NlF7IvlXcMAAAAAAADwPwAAAEDheoQ/AAAAAFWL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
+		<compiledString>FT8AAAAFAAAATAAAAH4AAACNAAAAowAAAMkAAABkYW1hZ2VEZWFsZWQAAAAAS29ycmVjdG9yMjUARGFtYWdlUGVuZXRyYXRpb25NdWx0aXBsaWVyX1NwaXJpdABVi+yD7BxR2e7ZHCRoAAAAAItFEIsQi00Qi0JU/9BR2Rwk6MgAAACDxAiLTQyLEYtNDIuCcAEAAN1d+P/Q3A36AAAA2V302UX0UdkcJGgQAAAAi00MixGLTQyLgogBAAD/0NwF8gAAANld8NlF8FHZHCToUAAAAIPECNno3uHcTfiLTQxRi1UIUmgcAAAAi0UQixCLTRCLQlDdXej/0NxN6Nld5NlF5IvlXcMAAAAAAADwPwAAAAAAAOg/AAAAQOF6hD8AAAAAVYvsUdlFCNlFDN7Z3+D2xEF1CNlFCNld/OsG2UUM2V382UX8i+Vdw1WL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
 		<returnType>float</returnType>
-		<sString>max( pMisc-&gt;GetVariable("damageDealed"), 0 ) * (1.0f - rEnergyDamageDecrease * 0.01f) * cDamagePenetrationMultiplier_Spirit</sString>
+		<sString>max( pMisc-&gt;GetVariable("damageDealed"), 0 ) * (1.0f - min((0.75f + receiver.vKorrector25), rEnergyDamageDecrease * 0.01f)) * cDamagePenetrationMultiplier_Spirit</sString>
 	</energyDamageReduction>
 	<expandNatureGlyphGameObject href="/GameLogic/AILogic.AILP" id="73B7E684-D3E4-4E76-B510-513F3885F3A2">
 		<SingleStateObject>
@@ -2311,9 +2311,9 @@
 					<UnitConstant>
 						<name>Blind_MissChance</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACWQg==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQg==</compiledString>
 							<returnType>float</returnType>
-							<sString>75.0f</sString>
+							<sString>50.0f</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -2951,9 +2951,9 @@
 					<UnitConstant>
 						<name>MaxNaftaGain</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAB6RA==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAEAcRg==</compiledString>
 							<returnType>float</returnType>
-							<sString>1000.0f</sString>
+							<sString>10000.0f</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -2980,7 +2980,7 @@
 			</vars>
 		</UnitConstantsContainer>
 	</globalConstants>
-	<globalCooldownTime>0.2</globalCooldownTime>
+	<globalCooldownTime>0</globalCooldownTime>
 	<glyphSettings>
 		<maxAfterPickupSpawnDelay>240</maxAfterPickupSpawnDelay>
 		<maxInstances>2</maxInstances>
@@ -3235,14 +3235,13 @@
 	<movingTimerBlock>3</movingTimerBlock>
 	<pauseSeconds>150</pauseSeconds>
 	<physicalDamageReduction>
-		<compiledString>FTEAAAADAAAAPgAAAHAAAACEAAAAZGFtYWdlRGVhbGVkAAAAAERhbWFnZVBlbmV0cmF0aW9uTXVsdGlwbGllcl9Cb2R5AFWL7IPsFFHZ7tkcJGgAAAAAi0UQixCLTRCLQlT/0FHZHCToYQAAAIPECItNDIsRi00Mi4J0AQAA3V34/9DcDa0AAADZ6N7h3E34i00MUYtVCFJoEAAAAItFEIsQi00Qi0JQ3V3w/9DcTfDZXezZReyL5V3DAAAAAAAA8D8AAABA4XqEPwAAAABVi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
+		<compiledString>FT0AAAAFAAAASgAAAHwAAACLAAAAoQAAAMcAAABkYW1hZ2VEZWFsZWQAAAAAS29ycmVjdG9yMjUARGFtYWdlUGVuZXRyYXRpb25NdWx0aXBsaWVyX0JvZHkAVYvsg+wcUdnu2RwkaAAAAACLRRCLEItNEItCVP/QUdkcJOjIAAAAg8QIi00MixGLTQyLgnQBAADdXfj/0NwN+AAAANld9NlF9FHZHCRoEAAAAItNDIsRi00Mi4KIAQAA/9DcBfAAAADZXfDZRfBR2Rwk6FAAAACDxAjZ6N7h3E34i00MUYtVCFJoHAAAAItFEIsQi00Qi0JQ3V3o/9DcTejZXeTZReSL5V3DAAAAAAAA8D8AAAAAAADoPwAAAEDheoQ/AAAAAFWL7FHZRQjZRQze2d/g9sRBdQjZRQjZXfzrBtlFDNld/NlF/IvlXcNVi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
 		<returnType>float</returnType>
-		<sString>max( pMisc-&gt;GetVariable("damageDealed"), 0 ) * (1.0f - rMaterialDamageDecrease * 0.01f) * cDamagePenetrationMultiplier_Body</sString>
+		<sString>max( pMisc-&gt;GetVariable("damageDealed"), 0 ) * (1.0f - min((0.75f + receiver.vKorrector25), rMaterialDamageDecrease * 0.01f)) * cDamagePenetrationMultiplier_Body</sString>
 	</physicalDamageReduction>
 	<pickupItemRange>2</pickupItemRange>
 	<portal href="/Items/Talents/_commonData/Portal.TALENT" />
 	<quarterDestroyStatsMultipliers>
-		<Item>1.5</Item>
 		<Item>1</Item>
 		<Item>1</Item>
 		<Item>1</Item>
@@ -3257,8 +3256,9 @@
 		<Item>1</Item>
 		<Item>1</Item>
 		<Item>1</Item>
-		<Item>1.15</Item>
-		<Item>1.15</Item>
+		<Item>1</Item>
+		<Item>1</Item>
+		<Item>1</Item>
 		<Item>1</Item>
 		<Item>1</Item>
 		<Item>1</Item>
@@ -3276,6 +3276,7 @@
 		<Item>1</Item>
 	</quarterDestroyStatsMultipliers>
 	<raiseFlagAbility href="/GameLogic/RaiseFlagAbility.ABLT" />
+        <minigameAbility href="/GameLogic/MinigameAbility.ABLT" />
 	<redeemCostPerLevel>50</redeemCostPerLevel>
 	<redeemCostrecalculateTime>3</redeemCostrecalculateTime>
 	<rotationSpeed>1000</rotationSpeed>
@@ -3296,7 +3297,7 @@
 				<Item href="/GameLogic/AILogic.AILP" id="CAAB2104-63BD-46F6-AEDD-80B0CC6DEAE4">
 					<TalentKit>
 						<caption>G349</caption>
-						<kitCapacity>2</kitCapacity>
+						<kitCapacity>3</kitCapacity>
 						<name textref="/GameLogic/AILogic.AILP_caab210463bd46f6aedd80b0cc6deae4_name.txt" />
 						<special href="/Items/Talents/Level2/G349_SelfHeal.TALENT" />
 						<talents>
@@ -3326,7 +3327,7 @@
 				<Item href="/GameLogic/AILogic.AILP" id="78E34C20-5B5E-4BA2-B3A7-1CB6AEBCD2D1">
 					<TalentKit>
 						<caption>G351</caption>
-						<kitCapacity>2</kitCapacity>
+						<kitCapacity>3</kitCapacity>
 						<name textref="/GameLogic/AILogic.AILP_78e34c205b5e4ba2b3a71cb6aebcd2d1_name.txt" />
 						<special href="/Items/Talents/Level4/G351_MoveSpeed_Shield.TALENT" />
 						<talents>
@@ -3574,7 +3575,7 @@
 				<Item href="/GameLogic/AILogic.AILP" id="51D25570-533B-4509-9DDB-99A352FAA9D0">
 					<TalentKit>
 						<caption>G606</caption>
-						<kitCapacity>2</kitCapacity>
+						<kitCapacity>6</kitCapacity>
 						<name textref="/GameLogic/AILogic.AILP_51d25570533b45099ddb99a352faa9d0_name.txt" />
 						<special href="" />
 						<talents>
@@ -3663,6 +3664,50 @@
 				<Item href="/Items/Talents/TalentKits/Redset7_11_MiniRefresher/Redset7_11_MiniRefresher.TALKIT" />
 				<Item href="/Items/Talents/TalentKits/Redset7_12_SuperMove/Redset7_12_SuperMove.TALKIT" />
 				<Item href="/Items/Talents/TalentKits/Redset_RessurectTime/Redset_RessurectTime.TALKIT" />
+				<Item href="/Items/Talents/TalentKits/Redset10_1_NEW_YEAR/Redset10_1_NEW_YEAR.TALKIT" />
+				<Item href="/GameLogic/AILogic.AILP" id="C0F0D258-DDF7-4E19-A703-334D36DB9860">
+					<TalentKit>
+						<caption>G2025_1</caption>
+						<kitCapacity>3</kitCapacity>
+						<name textref="/GameLogic/AILogic.AILP_c0f0d258ddf74e19a703334d36db9860_name.txt" />
+						<special href="" />
+						<talents>
+							<Item href="/Items/Talents/Level2/G021_Life-Str-Int.TALENT" />
+							<Item href="/Items/Talents/Level3/G145_Str.TALENT" />
+							<Item href="/Items/Talents/Level4/G283_Dexterity.TALENT" />
+							<Item href="/Items/Talents/Level5/G277_Life_LifeReg.TALENT" />
+						</talents>
+					</TalentKit>
+				</Item>
+				<Item href="/GameLogic/AILogic.AILP" id="D261999F-1177-4483-9400-E936341CA833">
+					<TalentKit>
+						<caption>G2025_2</caption>
+						<kitCapacity>4</kitCapacity>
+						<name textref="/GameLogic/AILogic.AILP_d261999f117744839400e936341ca833_name.txt" />
+						<special href="" />
+						<talents>
+							<Item href="/Items/Talents/Level1/G129_Str.TALENT" />
+							<Item href="/Items/Talents/Level6/G070_ManaRegen_Mana.TALENT" />
+							<Item href="/Items/Talents/Level6/G268_Sta.TALENT" />
+							<Item href="/Items/Talents/Level6/G269_Will.TALENT" />
+						</talents>
+					</TalentKit>
+				</Item>
+				<Item href="/GameLogic/AILogic.AILP" id="662AE4D6-5920-44A6-BF62-3A770BEBB1C4">
+					<TalentKit>
+						<caption>G2025_3</caption>
+						<kitCapacity>5</kitCapacity>
+						<name textref="/GameLogic/AILogic.AILP_662ae4d6592044a6bf623a770bebb1c4_name.txt" />
+						<special href="" />
+						<talents>
+							<Item href="/Items/Talents/Level5/G260_Str_Life.TALENT" />
+							<Item href="/Items/Talents/Level4/G285_Life.TALENT" />
+							<Item href="/Items/Talents/Level5/G261_Int_Life.TALENT" />
+							<Item href="/Items/Talents/Level6/G264_StaminaWill_Str.TALENT" />
+							<Item href="/Items/Talents/Level6/G265_StaminaWill_Int.TALENT" />
+						</talents>
+					</TalentKit>
+				</Item>
 			</kits>
 		</TalentKitList>
 	</talentKits>
@@ -4278,6 +4323,7 @@
 							<Item href="/Items/Talents/Level5/G732_Life.TALENT" />
 							<Item href="/Items/Talents/Level6/G733_Stamina.TALENT" />
 							<Item href="/Items/Talents/Level6/G734_Will.TALENT" />
+							<Item href="/Items/Talents/Level2/G133_PrimefromCreeps.TALENT" />
 						</talents>
 					</TalentPack>
 				</Item>
@@ -4327,6 +4373,35 @@
 						</talents>
 					</TalentPack>
 				</Item>
+				<Item href="/GameLogic/AILogic.AILP" id="25D49898-8C23-407E-8328-18833F0AB691">
+					<TalentPack>
+						<icon href="/UI/Styles/Icons/TalentSets/red_NEW_YEAR.ITEX" />
+						<iconStyle>TTRedSet12_big</iconStyle>
+						<id>LegendarySet12</id>
+						<isRedPack>true</isRedPack>
+						<name textref="/GameLogic/AILogic.AILP_25d498988c23407e832818833f0ab691_name.txt" />
+						<talents>
+							<Item href="/Items/Talents/Level2/G1004_Vamp_Dmg.TALENT" />
+							<Item href="/Items/Talents/Level3/G1001_Str_Int_Life.TALENT" />
+							<Item href="/Items/Talents/Level4/G1002_Str_Int_CDR.TALENT" />
+							<Item href="/Items/Talents/Level5/G1003_Satanic.TALENT" />
+							<Item href="/Items/Talents/Level6/G1000_Max_Stat.TALENT" />
+							<Item href="/Items/Talents/Level2/G021_Life-Str-Int.TALENT" />
+							<Item href="/Items/Talents/Level3/G145_Str.TALENT" />
+							<Item href="/Items/Talents/Level4/G283_Dexterity.TALENT" />
+							<Item href="/Items/Talents/Level5/G277_Life_LifeReg.TALENT" />
+							<Item href="/Items/Talents/Level1/G129_Str.TALENT" />
+							<Item href="/Items/Talents/Level6/G070_ManaRegen_Mana.TALENT" />
+							<Item href="/Items/Talents/Level6/G268_Sta.TALENT" />
+							<Item href="/Items/Talents/Level6/G269_Will.TALENT" />
+							<Item href="/Items/Talents/Level5/G260_Str_Life.TALENT" />
+							<Item href="/Items/Talents/Level4/G285_Life.TALENT" />
+							<Item href="/Items/Talents/Level5/G261_Int_Life.TALENT" />
+							<Item href="/Items/Talents/Level6/G264_StaminaWill_Str.TALENT" />
+							<Item href="/Items/Talents/Level6/G265_StaminaWill_Int.TALENT" />
+						</talents>
+					</TalentPack>
+				</Item>
 			</packs>
 		</TalentPackList>
 	</talentPacks>
@@ -4347,9 +4422,9 @@
 	</teamsNames>
 	<towerTurretParams>
 		<turretAngleAcceleration>600</turretAngleAcceleration>
-		<turretAngleSpeed>1100</turretAngleSpeed>
+		<turretAngleSpeed>1200</turretAngleSpeed>
 		<turretLastAngleResetDelay>2</turretLastAngleResetDelay>
-		<turretRotaionTolerance>20</turretRotaionTolerance>
+		<turretRotaionTolerance>30</turretRotaionTolerance>
 	</towerTurretParams>
 	<warFogRemoveRadius>4</warFogRemoveRadius>
 	<warFogRemoveTime>0.8</warFogRemoveTime>

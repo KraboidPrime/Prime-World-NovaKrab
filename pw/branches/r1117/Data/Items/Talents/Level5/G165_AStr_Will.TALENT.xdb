@@ -2,7 +2,7 @@
 <Talent>
 	<BackLink DBID="/Social.ROOT" Count="1" />
 	<BackLink DBID="/SocialTest.ROOT" Count="1" />
-	<BackLink DBID="/GameLogic/TalentGroup.TGRP" Count="1" />
+	<BackLink DBID="/GameLogic/TalentGroup.TGRP" Count="2" />
 	<BackLink DBID="/Test/Talents/TestSet4.TALENTSET" Count="1" />
 	<BackLink DBID="/Social/TalentsCollection" Count="1" />
 	<activationConditions />
@@ -24,7 +24,7 @@
 	</aoeSize>
 	<aoeType>None</aoeType>
 	<applicators>
-		<Item href="/Items/Talents/Level5/status_165_Int_Will.APLR" />
+		<Item href="/Heroes/DefaultStatus/_DISARM.APLR" />
 	</applicators>
 	<askId>0</askId>
 	<autoTargetSelector href="" />
@@ -39,38 +39,39 @@
 	<commonDescription textref="/Items/Talents/Level5/G165_AStr_Will.TALENT_commonDescription.txt" />
 	<compiledDescriptionA textref="" />
 	<compiledDescriptionB textref="" />
-	<conditionFormulas />
+	<conditionFormulas>
+		<Item href="/Items/Talents/Level5/G165_AStr_Will.TALENT" id="4372F2AA-C1A9-4463-BD31-E5BF19BBF81C">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRYAAAACAAAAGwAAADEAAABUaDIwMjVfVG9vbHRpcENvdW50ZXIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdUwAAAN/g9sQBdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAhA</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vTh2025_TooltipCounter &gt;= 3</sString>
+				</condition>
+				<name>Bonus3ActiveTh</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Items/Talents/Level5/G165_AStr_Will.TALENT" id="160B5904-C9E5-46EB-9EB2-DD86EFAE5F24">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRYAAAACAAAAGwAAADEAAABUaDIwMjVfVG9vbHRpcENvdW50ZXIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdUwAAAN/g9sQBdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAABxA</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vTh2025_TooltipCounter &gt;= 7</sString>
+				</condition>
+				<name>Bonus7ActiveTh</name>
+			</ConditionFormula>
+		</Item>
+	</conditionFormulas>
 	<conflictingTalents />
 	<constants href="/Items/Talents/Level5/G165_AStr_Will.TALENT" id="DF6628D1-9E66-4519-83E3-329A7CD2016B">
 		<UnitConstantsContainer>
 			<vars>
-				<Item href="/Items/Talents/Level5/G165_AStr_Will.TALENT" id="21989BC1-0EC3-45EF-932F-86F74025E79E">
+				<Item href="/Items/Talents/Level5/G165_AStr_Will.TALENT" id="605F96F4-1BBA-4349-A4CE-18CBB7C93514">
 					<UnitConstant>
-						<name>AddTemp_Intellect</name>
+						<name>Disarm_Duration</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAQEEzMzM/</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(12, 0.7)</sString>
-						</var>
-					</UnitConstant>
-				</Item>
-				<Item href="/Items/Talents/Level5/G165_AStr_Will.TALENT" id="B4FAA0F5-72A5-48AB-A323-CF57235B35B7">
-					<UnitConstant>
-						<name>AddTemp_Will</name>
-						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAQEEzMzM/</compiledString>
-							<returnType>float</returnType>
-							<sString>refineScale(12, 0.7)</sString>
-						</var>
-					</UnitConstant>
-				</Item>
-				<Item href="/Items/Talents/Level5/G165_AStr_Will.TALENT" id="85BEFBEB-8A77-4021-8221-C5CD8F870124">
-					<UnitConstant>
-						<name>Buff_Duration</name>
-						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
-							<returnType>float</returnType>
-							<sString>10</sString>
+							<sString>3</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -82,9 +83,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQg==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAC0Qg==</compiledString>
 		<returnType>float</returnType>
-		<sString>120</sString>
+		<sString>90</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>
@@ -97,7 +98,7 @@
 		<DispatchImmediate>
 			<alwaysApply>false</alwaysApply>
 			<applyEffect>
-				<Item href="" />
+				<Item href="/Effects/Debuffs/Curse/_Skull_sound.EFFT" />
 				<Item href="" />
 			</applyEffect>
 			<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
@@ -112,7 +113,7 @@
 			<instantApply>false</instantApply>
 		</DispatchImmediate>
 	</dispatch>
-	<flags>19</flags>
+	<flags>3</flags>
 	<forceBonus>23</forceBonus>
 	<image href="/UI/Styles/Icons/Talents/_165.ITEX" />
 	<imageSecondState href="" />
@@ -165,23 +166,55 @@
 	<naftaCost>-1</naftaCost>
 	<name textref="/Items/Talents/Level5/G165_AStr_Will.TALENT_name.txt" />
 	<node></node>
-	<passiveApplicators />
+	<passiveApplicators>
+		<Item href="/Items/Talents/Level5/G165_AStr_Will.TALENT" id="3292D179-9001-4CCD-85BB-AB1A8BEFE734">
+			<PermanentStatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption></caption>
+				<customApplyType>None</customApplyType>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACvQw==</compiledString>
+						<returnType>float</returnType>
+						<sString>350</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Life</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level3/ThirdPinkSet_Prog2025.APLR" />
+	</passiveApplicators>
 	<persistentId>G165</persistentId>
 	<prerequisiteTalents />
-	<rarity>excellent</rarity>
+	<rarity>magnificent</rarity>
 	<requireLineOfSight>true</requireLineOfSight>
 	<shortDescription textref="/Items/Talents/Level5/G165_AStr_Will.TALENT_shortDescription.txt" />
 	<talentRollGroups>0</talentRollGroups>
 	<talentStats />
-	<targetType>0</targetType>
+	<targetType>672989247</targetType>
 	<type>Active</type>
 	<upgradeLevel>0</upgradeLevel>
 	<useRange>
-		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+		<compiledString>FQsAAAABAAAAFwAAAFJhbmdlX0xvbmcAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
 		<returnType>float</returnType>
-		<sString>0</sString>
+		<sString>cRange_Long</sString>
 	</useRange>
-	<useRangeMaterial href="" />
+	<useRangeMaterial href="/Effects/UI/AOESelection/Radius.MTRL" />
 	<variativeMaxTalentStats />
 	<variativeMinTalentStats />
 	<vendorCost>-1</vendorCost>

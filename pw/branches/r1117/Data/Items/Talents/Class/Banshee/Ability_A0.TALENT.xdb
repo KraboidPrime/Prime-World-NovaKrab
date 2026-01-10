@@ -4,6 +4,7 @@
 	<BackLink DBID="/Items/Talents/Banshee.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Banshee_Alternative.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/Banshee_Mighty.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Banshee/Ability_A3_SUP.TALENT" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -47,6 +48,16 @@
 				<name>Banshee_A0sup</name>
 			</ConditionFormula>
 		</Item>
+		<Item href="/Items/Talents/Class/Banshee/Ability_A0.TALENT" id="FCF425CA-9CF4-4997-8052-C0A1DAF799C8">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FR8AAAACAAAAJgAAAD8AAABCYW5zaGVlX0EzX1NVUAAAQmFuc2hlZV9BM19TVVAAVYvsg+wIaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtkX799gbwIPAAYvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("Banshee_A3_SUP") == false</sString>
+				</condition>
+				<name>Banshee_A3sup</name>
+			</ConditionFormula>
+		</Item>
 	</conditionFormulas>
 	<conflictingTalents />
 	<constants href="/Items/Talents/Class/Banshee/Ability_A0.TALENT" id="0826953B-9A6B-465D-B490-7DB46B690754">
@@ -66,6 +77,17 @@
 					</UnitConstant>
 				</Item>
 				<Item href="/Items/Talents/Class/Banshee/const_A0sup_WillCutPerA0" />
+				<Item href="/Items/Talents/Class/Banshee/const_A3sup_Defence" />
+				<Item href="/Items/Talents/Class/Banshee/Ability_A0.TALENT" id="9773358F-9DCA-4669-997E-75BBB660DF70">
+					<UnitConstant>
+						<name>A3sup_DefenceTotal</name>
+						<var>
+							<compiledString>FSMAAAADAAAAMgAAAEoAAAB3AAAAQTNzdXBfRGVmZW5jZVBlckEwAABCYW5zaGVlQTBfU2VsZgBVi+yD7BCLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0moAi0UQUGgUAAAAi00IixGLTQiLgqABAADdXfj/0IlF9NtF9NxN+Nld8NlF8FHZHCRR2QWKAAAA2Rwk6AsAAACDxAiL5V3DAADIQlWL7FHZRQjZRQze2d/g9sRBdQjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
+							<returnType>float</returnType>
+							<sString>min(100, cA3sup_DefencePerA0 * pFirst-&gt;CountApplicators("BansheeA0_Self", pMisc, GLOBAL))</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
@@ -154,6 +176,7 @@
 				<statModName></statModName>
 			</StatModApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/Banshee/status_A3sup.APLR" />
 	</passiveApplicators>
 	<persistentId>Banshee_A0</persistentId>
 	<prerequisiteTalents />

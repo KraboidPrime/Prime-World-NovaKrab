@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Class/ManaWyrm/Ability1Upg.TALENT" Count="1" />
 	<name>A1_StatusDamage</name>
 	<var>
-		<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAABIQgCAu0M=</compiledString>
+		<compiledString>FQAAAAACAAAAEwAAABkAAABVi+xRi0UIixCLTQiLQhD/0NwNLwAAANwFJwAAANld/NlF/IvlXcMAAAAAAAAoQFg5tMh2vq8/</compiledString>
 		<returnType>float</returnType>
-		<sString>damageScale(sIntellect, 50,375)</sString>
+		<sString>0.062*sMaxEnergy+12</sString>
 	</var>
 </UnitConstant>

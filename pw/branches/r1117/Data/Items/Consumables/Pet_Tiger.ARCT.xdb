@@ -1,7 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Consumable>
 	<BackLink DBID="/GameLogic/ConsumableGroup.CGRP" Count="1" />
-	<activeCustomTrigger>true</activeCustomTrigger>
+	<BackLink DBID="/Buildings/DefaultStats/Basic_NY.CNSH" Count="2" />
+	<BackLink DBID="/Items/Consumables/Pet_Bear.ARCT" Count="2" />
+	<BackLink DBID="/Items/Consumables/Pet_Cat.ARCT" Count="1" />
+	<BackLink DBID="/Items/Consumables/Pet_Dog.ARCT" Count="1" />
+	<BackLink DBID="/Items/Consumables/Pet_Duck.ARCT" Count="1" />
+	<BackLink DBID="/Items/Consumables/Pet_Horse.ARCT" Count="1" />
+	<BackLink DBID="/Items/Consumables/Pet_Lady.ARCT" Count="1" />
+	<BackLink DBID="/Items/Consumables/Pet_mage.ARCT" Count="1" />
+	<BackLink DBID="/Items/Consumables/Pet_Pig.ARCT" Count="1" />
+	<BackLink DBID="/Items/Consumables/Pet_Tiger.ARCT" Count="1" />
+	<BackLink DBID="/Items/Consumables/AADISABLE.ARCT" Count="1" />
+	<activeCustomTrigger>false</activeCustomTrigger>
 	<allowChase>
 		<compiledString></compiledString>
 		<returnType>bool</returnType>
@@ -19,8 +30,139 @@
 	</aoeSize>
 	<aoeType>None</aoeType>
 	<applicators>
-		<Item href="/Items/Consumables/PetVariableChecker.APLR" />
 		<Item href="/Pets/Tiger/Summon.APLR" />
+		<Item href="/Items/Consumables/Pet_Tiger.ARCT" id="363BC4CE-A29E-4B60-8672-AF7FD2FACC54">
+			<SpellSwitchApplicator>
+				<activeSpellIndex>
+					<compiledString>FRAAAAACAAAAFQAAACsAAABTaG91bGRSZWNhbGxQZXQAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdTQAAAN/g9sREegnHRfwBAAAA6wfHRfwAAAAAi0X8i+VdwwAAAAAAAAAA</compiledString>
+					<returnType>int</returnType>
+					<sString>sender.vShouldRecallPet == 0.0f ? 1 : 0</sString>
+				</activeSpellIndex>
+				<applyTarget>AbilityOwner</applyTarget>
+				<caption></caption>
+				<dontUseDispatches>false</dontUseDispatches>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<spells>
+					<Item href="/Items/Consumables/Pet_Tiger.ARCT" id="9D787FB1-0489-4E2B-8E72-72A94D8F4E14">
+						<Spell>
+							<applicators>
+								<Item href="/Items/Consumables/Pet_Tiger.ARCT" id="1C1E1179-C8AA-4ED2-BA4F-D393405709B3">
+									<PermanentStatModApplicator>
+										<applyTarget>AbilityOwner</applyTarget>
+										<caption></caption>
+										<customApplyType>None</customApplyType>
+										<enabled>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</enabled>
+										<formulaName></formulaName>
+										<LoggingEvent>-1</LoggingEvent>
+										<modifier>
+											<addValue>
+												<compiledString></compiledString>
+												<returnType>float</returnType>
+												<sString>0.0f</sString>
+											</addValue>
+											<multValue>
+												<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+												<returnType>float</returnType>
+												<sString>0.0f</sString>
+											</multValue>
+											<stat>Life</stat>
+											<topModifier>false</topModifier>
+											<variable>ShouldRecallPet</variable>
+										</modifier>
+										<providerName></providerName>
+									</PermanentStatModApplicator>
+								</Item>
+							</applicators>
+							<dispatch href="/Items/Consumables/Pet_Tiger.ARCT" id="DCDA5372-3E14-43F8-BF87-81E445B75D17">
+								<DispatchImmediate>
+									<alwaysApply>false</alwaysApply>
+									<applyEffect>
+										<Item href="" />
+										<Item href="" />
+									</applyEffect>
+									<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+									<applyEffectOrientation>Default</applyEffectOrientation>
+									<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+									<dieAfterApply>true</dieAfterApply>
+									<dispatchEffect>
+										<Item href="" />
+										<Item href="" />
+									</dispatchEffect>
+									<flags>0</flags>
+									<instantApply>false</instantApply>
+								</DispatchImmediate>
+							</dispatch>
+						</Spell>
+					</Item>
+					<Item href="/Items/Consumables/Pet_Tiger.ARCT" id="008D2467-4DF7-4B37-A551-143106E4ED03">
+						<Spell>
+							<applicators>
+								<Item href="/Items/Consumables/Pet_Tiger.ARCT" id="13CEE422-BD27-41EB-BB08-9FACD7B2179D">
+									<PermanentStatModApplicator>
+										<applyTarget>AbilityOwner</applyTarget>
+										<caption></caption>
+										<customApplyType>None</customApplyType>
+										<enabled>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</enabled>
+										<formulaName></formulaName>
+										<LoggingEvent>-1</LoggingEvent>
+										<modifier>
+											<addValue>
+												<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+												<returnType>float</returnType>
+												<sString>1.0f</sString>
+											</addValue>
+											<multValue>
+												<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+												<returnType>float</returnType>
+												<sString>1.0f</sString>
+											</multValue>
+											<stat>Life</stat>
+											<topModifier>false</topModifier>
+											<variable>ShouldRecallPet</variable>
+										</modifier>
+										<providerName></providerName>
+									</PermanentStatModApplicator>
+								</Item>
+							</applicators>
+							<dispatch href="/Items/Consumables/Pet_Tiger.ARCT" id="3097BB2A-7F94-4C6A-B777-E1991498A5D9">
+								<DispatchImmediate>
+									<alwaysApply>false</alwaysApply>
+									<applyEffect>
+										<Item href="" />
+										<Item href="" />
+									</applyEffect>
+									<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+									<applyEffectOrientation>Default</applyEffectOrientation>
+									<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+									<dieAfterApply>true</dieAfterApply>
+									<dispatchEffect>
+										<Item href="" />
+										<Item href="" />
+									</dispatchEffect>
+									<flags>0</flags>
+									<instantApply>false</instantApply>
+								</DispatchImmediate>
+							</dispatch>
+						</Spell>
+					</Item>
+				</spells>
+			</SpellSwitchApplicator>
+		</Item>
 	</applicators>
 	<autoTargetSelector href="" />
 	<caption>Тигренок</caption>
@@ -90,7 +232,7 @@
 			<instantApply>false</instantApply>
 		</DispatchImmediate>
 	</dispatch>
-	<flags>19</flags>
+	<flags>23</flags>
 	<gameObject href="" />
 	<image href="/UI/Styles/Icons/Artifacts/PetTiger.ITEX" />
 	<imageSecondState href="" />
@@ -111,6 +253,444 @@
 	<passiveApplicators>
 		<Item href="/Items/Consumables/FirstPetSpawn.APLR" />
 		<Item href="/Items/Consumables/PetVariableChecker.APLR" />
+		<Item href="/Items/Consumables/Pet_Tiger.ARCT" id="415898B7-A3CB-4BE2-8AB6-DBF15252808A">
+			<SpellApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<caption>цена</caption>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<spell href="/Items/Consumables/Pet_Tiger.ARCT" id="000C45B4-2028-472B-9F01-7AA1B67D3D75">
+					<Spell>
+						<applicators>
+							<Item href="/Items/Consumables/Pet_Tiger.ARCT" id="A3C439B4-F20F-4A1D-AFDC-44C4A297A8D7">
+								<AbilityModApplicator>
+									<addValue>
+										<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DACR0SQ==</compiledString>
+										<returnType>float</returnType>
+										<sString>1000000.0f</sString>
+									</addValue>
+									<applyTarget>AbilityOwner</applyTarget>
+									<behaviorFlags>216</behaviorFlags>
+									<caption>цена</caption>
+									<effect>
+										<Item href="" />
+										<Item href="" />
+									</effect>
+									<enabled>
+										<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<lifeTime>
+										<compiledString></compiledString>
+										<returnType>float</returnType>
+										<sString>-1.0</sString>
+									</lifeTime>
+									<LoggingEvent>-1</LoggingEvent>
+									<mode>naftacost</mode>
+									<multValue>
+										<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+										<returnType>float</returnType>
+										<sString>1.0f</sString>
+									</multValue>
+									<providerName></providerName>
+									<specificAbility href="/Items/Consumables/Pet_Bear.ARCT" />
+									<startCondition>
+										<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</startCondition>
+									<talents />
+									<targetAbilities>0</targetAbilities>
+									<useListAs>ListAsRule</useListAs>
+								</AbilityModApplicator>
+							</Item>
+							<Item href="/Items/Consumables/Pet_Tiger.ARCT" id="8C9FBE67-D498-464C-8DDD-37F35D5BB1CB">
+								<AbilityModApplicator>
+									<addValue>
+										<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DACR0SQ==</compiledString>
+										<returnType>float</returnType>
+										<sString>1000000.0f</sString>
+									</addValue>
+									<applyTarget>AbilityOwner</applyTarget>
+									<behaviorFlags>216</behaviorFlags>
+									<caption>цена</caption>
+									<effect>
+										<Item href="" />
+										<Item href="" />
+									</effect>
+									<enabled>
+										<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<lifeTime>
+										<compiledString></compiledString>
+										<returnType>float</returnType>
+										<sString>-1.0</sString>
+									</lifeTime>
+									<LoggingEvent>-1</LoggingEvent>
+									<mode>naftacost</mode>
+									<multValue>
+										<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+										<returnType>float</returnType>
+										<sString>1.0f</sString>
+									</multValue>
+									<providerName></providerName>
+									<specificAbility href="/Items/Consumables/Pet_Cat.ARCT" />
+									<startCondition>
+										<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</startCondition>
+									<talents />
+									<targetAbilities>0</targetAbilities>
+									<useListAs>ListAsRule</useListAs>
+								</AbilityModApplicator>
+							</Item>
+							<Item href="/Items/Consumables/Pet_Tiger.ARCT" id="7EB76E93-95B0-47F2-AC2B-9E5B7285D50A">
+								<AbilityModApplicator>
+									<addValue>
+										<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DACR0SQ==</compiledString>
+										<returnType>float</returnType>
+										<sString>1000000.0f</sString>
+									</addValue>
+									<applyTarget>AbilityOwner</applyTarget>
+									<behaviorFlags>216</behaviorFlags>
+									<caption>цена</caption>
+									<effect>
+										<Item href="" />
+										<Item href="" />
+									</effect>
+									<enabled>
+										<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<lifeTime>
+										<compiledString></compiledString>
+										<returnType>float</returnType>
+										<sString>-1.0</sString>
+									</lifeTime>
+									<LoggingEvent>-1</LoggingEvent>
+									<mode>naftacost</mode>
+									<multValue>
+										<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+										<returnType>float</returnType>
+										<sString>1.0f</sString>
+									</multValue>
+									<providerName></providerName>
+									<specificAbility href="/Items/Consumables/Pet_Dog.ARCT" />
+									<startCondition>
+										<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</startCondition>
+									<talents />
+									<targetAbilities>0</targetAbilities>
+									<useListAs>ListAsRule</useListAs>
+								</AbilityModApplicator>
+							</Item>
+							<Item href="/Items/Consumables/Pet_Tiger.ARCT" id="AEFF3D36-7466-4B90-99FB-1D9F1B2B4045">
+								<AbilityModApplicator>
+									<addValue>
+										<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DACR0SQ==</compiledString>
+										<returnType>float</returnType>
+										<sString>1000000.0f</sString>
+									</addValue>
+									<applyTarget>AbilityOwner</applyTarget>
+									<behaviorFlags>216</behaviorFlags>
+									<caption>цена</caption>
+									<effect>
+										<Item href="" />
+										<Item href="" />
+									</effect>
+									<enabled>
+										<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<lifeTime>
+										<compiledString></compiledString>
+										<returnType>float</returnType>
+										<sString>-1.0</sString>
+									</lifeTime>
+									<LoggingEvent>-1</LoggingEvent>
+									<mode>naftacost</mode>
+									<multValue>
+										<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+										<returnType>float</returnType>
+										<sString>1.0f</sString>
+									</multValue>
+									<providerName></providerName>
+									<specificAbility href="/Items/Consumables/Pet_Duck.ARCT" />
+									<startCondition>
+										<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</startCondition>
+									<talents />
+									<targetAbilities>0</targetAbilities>
+									<useListAs>ListAsRule</useListAs>
+								</AbilityModApplicator>
+							</Item>
+							<Item href="/Items/Consumables/Pet_Tiger.ARCT" id="9071D73B-E06F-4676-9F9B-70F93F40940A">
+								<AbilityModApplicator>
+									<addValue>
+										<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DACR0SQ==</compiledString>
+										<returnType>float</returnType>
+										<sString>1000000.0f</sString>
+									</addValue>
+									<applyTarget>AbilityOwner</applyTarget>
+									<behaviorFlags>216</behaviorFlags>
+									<caption>цена</caption>
+									<effect>
+										<Item href="" />
+										<Item href="" />
+									</effect>
+									<enabled>
+										<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<lifeTime>
+										<compiledString></compiledString>
+										<returnType>float</returnType>
+										<sString>-1.0</sString>
+									</lifeTime>
+									<LoggingEvent>-1</LoggingEvent>
+									<mode>naftacost</mode>
+									<multValue>
+										<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+										<returnType>float</returnType>
+										<sString>1.0f</sString>
+									</multValue>
+									<providerName></providerName>
+									<specificAbility href="/Items/Consumables/Pet_Horse.ARCT" />
+									<startCondition>
+										<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</startCondition>
+									<talents />
+									<targetAbilities>0</targetAbilities>
+									<useListAs>ListAsRule</useListAs>
+								</AbilityModApplicator>
+							</Item>
+							<Item href="/Items/Consumables/Pet_Tiger.ARCT" id="DF06BE86-62A9-4301-80E5-F91A623C6B16">
+								<AbilityModApplicator>
+									<addValue>
+										<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DACR0SQ==</compiledString>
+										<returnType>float</returnType>
+										<sString>1000000.0f</sString>
+									</addValue>
+									<applyTarget>AbilityOwner</applyTarget>
+									<behaviorFlags>216</behaviorFlags>
+									<caption>цена</caption>
+									<effect>
+										<Item href="" />
+										<Item href="" />
+									</effect>
+									<enabled>
+										<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<lifeTime>
+										<compiledString></compiledString>
+										<returnType>float</returnType>
+										<sString>-1.0</sString>
+									</lifeTime>
+									<LoggingEvent>-1</LoggingEvent>
+									<mode>naftacost</mode>
+									<multValue>
+										<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+										<returnType>float</returnType>
+										<sString>1.0f</sString>
+									</multValue>
+									<providerName></providerName>
+									<specificAbility href="/Items/Consumables/Pet_Lady.ARCT" />
+									<startCondition>
+										<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</startCondition>
+									<talents />
+									<targetAbilities>0</targetAbilities>
+									<useListAs>ListAsRule</useListAs>
+								</AbilityModApplicator>
+							</Item>
+							<Item href="/Items/Consumables/Pet_Tiger.ARCT" id="332B2829-8E5A-40BE-86B0-07DCD55814FA">
+								<AbilityModApplicator>
+									<addValue>
+										<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DACR0SQ==</compiledString>
+										<returnType>float</returnType>
+										<sString>1000000.0f</sString>
+									</addValue>
+									<applyTarget>AbilityOwner</applyTarget>
+									<behaviorFlags>216</behaviorFlags>
+									<caption>цена</caption>
+									<effect>
+										<Item href="" />
+										<Item href="" />
+									</effect>
+									<enabled>
+										<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<lifeTime>
+										<compiledString></compiledString>
+										<returnType>float</returnType>
+										<sString>-1.0</sString>
+									</lifeTime>
+									<LoggingEvent>-1</LoggingEvent>
+									<mode>naftacost</mode>
+									<multValue>
+										<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+										<returnType>float</returnType>
+										<sString>1.0f</sString>
+									</multValue>
+									<providerName></providerName>
+									<specificAbility href="/Items/Consumables/Pet_mage.ARCT" />
+									<startCondition>
+										<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</startCondition>
+									<talents />
+									<targetAbilities>0</targetAbilities>
+									<useListAs>ListAsRule</useListAs>
+								</AbilityModApplicator>
+							</Item>
+							<Item href="/Items/Consumables/Pet_Tiger.ARCT" id="FC0271F4-B27F-4E1F-B9FC-5FBC721DDFCC">
+								<AbilityModApplicator>
+									<addValue>
+										<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DACR0SQ==</compiledString>
+										<returnType>float</returnType>
+										<sString>1000000.0f</sString>
+									</addValue>
+									<applyTarget>AbilityOwner</applyTarget>
+									<behaviorFlags>216</behaviorFlags>
+									<caption>цена</caption>
+									<effect>
+										<Item href="" />
+										<Item href="" />
+									</effect>
+									<enabled>
+										<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<lifeTime>
+										<compiledString></compiledString>
+										<returnType>float</returnType>
+										<sString>-1.0</sString>
+									</lifeTime>
+									<LoggingEvent>-1</LoggingEvent>
+									<mode>naftacost</mode>
+									<multValue>
+										<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+										<returnType>float</returnType>
+										<sString>1.0f</sString>
+									</multValue>
+									<providerName></providerName>
+									<specificAbility href="/Items/Consumables/Pet_Pig.ARCT" />
+									<startCondition>
+										<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</startCondition>
+									<talents />
+									<targetAbilities>0</targetAbilities>
+									<useListAs>ListAsRule</useListAs>
+								</AbilityModApplicator>
+							</Item>
+							<Item href="/Items/Consumables/Pet_Tiger.ARCT" id="1EFD53F6-3BC9-43C3-BBA0-0285F2D89592">
+								<AbilityModApplicator>
+									<addValue>
+										<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DACR0SQ==</compiledString>
+										<returnType>float</returnType>
+										<sString>1000000.0f</sString>
+									</addValue>
+									<applyTarget>AbilityOwner</applyTarget>
+									<behaviorFlags>216</behaviorFlags>
+									<caption>цена</caption>
+									<effect>
+										<Item href="" />
+										<Item href="" />
+									</effect>
+									<enabled>
+										<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<lifeTime>
+										<compiledString></compiledString>
+										<returnType>float</returnType>
+										<sString>-1.0</sString>
+									</lifeTime>
+									<LoggingEvent>-1</LoggingEvent>
+									<mode>naftacost</mode>
+									<multValue>
+										<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+										<returnType>float</returnType>
+										<sString>1.0f</sString>
+									</multValue>
+									<providerName></providerName>
+									<specificAbility href="/Items/Consumables/Pet_Tiger.ARCT" />
+									<startCondition>
+										<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</startCondition>
+									<talents />
+									<targetAbilities>0</targetAbilities>
+									<useListAs>ListAsRule</useListAs>
+								</AbilityModApplicator>
+							</Item>
+						</applicators>
+						<dispatch href="/Items/Consumables/Pet_Tiger.ARCT" id="B7C8D96E-C4A8-438C-AC95-A7E959125678">
+							<DispatchImmediate>
+								<alwaysApply>false</alwaysApply>
+								<applyEffect>
+									<Item href="" />
+									<Item href="" />
+								</applyEffect>
+								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+								<applyEffectOrientation>Default</applyEffectOrientation>
+								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+								<dieAfterApply>true</dieAfterApply>
+								<dispatchEffect>
+									<Item href="" />
+									<Item href="" />
+								</dispatchEffect>
+								<flags>0</flags>
+								<instantApply>false</instantApply>
+							</DispatchImmediate>
+						</dispatch>
+					</Spell>
+				</spell>
+				<spellTarget>AbilityOwner</spellTarget>
+				<targetSelector href="" />
+			</SpellApplicator>
+		</Item>
+		<Item href="/Pets/Tiger/Ressuretor.APLR" />
 	</passiveApplicators>
 	<persistentId>Pet_Tiger</persistentId>
 	<requireLineOfSight>true</requireLineOfSight>

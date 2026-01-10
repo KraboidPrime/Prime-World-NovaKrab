@@ -11,6 +11,7 @@
 	<BackLink DBID="/Effects/Debuffs/Dome/_StarBall.PRXY" Count="1" />
 	<BackLink DBID="/Effects/Debuffs/Dome/_StarBallEnemy.PRXY" Count="1" />
 	<BackLink DBID="/Effects/Debuffs/Dome/_BlackHoleEnemy.PRXY" Count="1" />
+	<BackLink DBID="/Effects/Debuffs/Dome/_UpAlly1.PRXY" Count="1" />
 	<generatedFileName></generatedFileName>
 	<mipLevels>0</mipLevels>
 	<mipLevelUsage>AutoGenerate</mipLevelUsage>

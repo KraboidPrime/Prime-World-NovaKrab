@@ -11,13 +11,22 @@
 		<Item skip="1" />
 		<Item skip="1" />
 	</abilities>
+	<attackAbility href="/Summons/Clone/Intellect.SUMMONED" id="50439F4D-D027-44A7-A9EB-FB883E3D4210">
+		<BaseAttack parent="/Heroes/Alchemist/_.ATCK" />
+	</attackAbility>
 	<description textref="/Summons/Clone/Intellect.SUMMONED_description.txt" />
 	<image href="/UI/Styles/Icons/Summons/Clone/IntellectFace.ITEX" />
 	<stats href="/Summons/Clone/Intellect.SUMMONED" id="DB3C3590-DEAF-408B-B943-EE23434D4876">
 		<StatsContainer parent="/Summons/Clone/stats_Clone.STCN">
 			<stats>
 				<Item skip="1" />
-				<Item skip="1" />
+				<Item>
+					<value>
+						<compiledString>FQsAAAACAAAAGAAAACsAAABSYW5nZV9Mb25nAFWL7FGLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0twFOQAAANld/NlF/IvlXcMAAAAAAAAAQA==</compiledString>
+						<returnType>float</returnType>
+						<sString>cRange_Long+2</sString>
+					</value>
+				</Item>
 				<Item skip="1" />
 				<Item>
 					<value>
@@ -35,4 +44,5 @@
 			</stats>
 		</StatsContainer>
 	</stats>
+	<targetingParams href="/GameLogic/TargetingParams_AggrSummon.UNTP" />
 </Summoned>

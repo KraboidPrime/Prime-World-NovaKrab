@@ -56,7 +56,22 @@
 		</Item>
 	</conditionFormulas>
 	<conflictingTalents />
-	<constants href="" />
+	<constants href="/Items/Talents/Class/Rockman/Ability1Upg.TALENT" id="691E4440-221C-4016-BC45-617A9688ABC5">
+		<UnitConstantsContainer>
+			<vars>
+				<Item href="/Items/Talents/Class/Rockman/Ability1Upg.TALENT" id="F9651186-7A56-453A-9B39-92AFEFEA908E">
+					<UnitConstant>
+						<name>A1_Reg_RR</name>
+						<var>
+							<compiledString>FQAAAAACAAAAFgAAABwAAABVi+xRi0UIixCLTQiLgjABAAD/0NwNMgAAANwFKgAAANld/NlF/IvlXcMAAAAAAADwP3sUrkfheqQ/</compiledString>
+							<returnType>float</returnType>
+							<sString>0.04*sStrength+1</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+			</vars>
+		</UnitConstantsContainer>
+	</constants>
 	<consumptionBonus>
 		<constant>0</constant>
 		<percent>0</percent>

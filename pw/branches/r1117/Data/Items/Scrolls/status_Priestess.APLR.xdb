@@ -159,6 +159,53 @@
 				</targetSelector>
 			</SpellPeriodicallyVisualApplicator>
 		</Item>
+		<Item href="/Items/Scrolls/status_Priestess.APLR" id="60722BC2-CA83-4FCA-98CF-71E0A4FF5232">
+			<StatModApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>реген маны</caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FQAAAAABAAAAJAAAAFWL7IPsDItFCIsQi00IiwL/0ItNCIsRi00Ii0IM3V34/9DcDUkAAADcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcOuR+F6FK7vPw==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sLife &gt;= 0.99*sMaxLife</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQ4AAAABAAAAGgAAAE1hbmFSZWdTdml0b2sAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+						<returnType>float</returnType>
+						<sString>cManaRegSvitok</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>EnergyRegenerationAbsolute</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
+		</Item>
 	</applicators>
 	<applyTarget>ApplicatorTarget</applyTarget>
 	<behaviorFlags>3</behaviorFlags>

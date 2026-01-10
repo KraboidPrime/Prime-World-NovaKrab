@@ -87,7 +87,7 @@
 	<power>0</power>
 	<providerName></providerName>
 	<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
-	<stackCount>6</stackCount>
+	<stackCount>3</stackCount>
 	<startCondition>
 		<compiledString>FSQAAAADAAAAKwAAAEQAAACAAAAAV2l0Y2hfQTN1AAAAV2l0Y2hfQTN1AAAAQTNBYmlsaXR5T24AVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgMAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0KWoAi1UQUmgYAAAAi0UIixCLTQiLgpwBAAD/0DtFEHQJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
 		<returnType>bool</returnType>

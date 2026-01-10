@@ -701,9 +701,9 @@
 					<UnitConstant>
 						<name>A4_2_BaseDamage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBWMAAADZHCRR2QVfAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJItNCIsRi00Ii4I0AQAA/9BR2Rwk6B8AAACDxATZHCRqAYtNEIsRi00Qi0Jg/9BdwwAAsEIAACVEVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
+							<compiledString>FR4AAAAGAAAAJQAAAD4AAAB4AAAAggAAANcAAADhAAAAQXJ0aXN0X0ExX1NVUAAAAEFydGlzdF9BMV9TVVAAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0X2oBUdkFQgEAANkcJFHZBT4BAADZHCRqAItVCIsCi00Ii5AwAQAA/9JR2Rwki0UIixCLTQiLgjQBAAD/0FHZHCTojgAAAIPEBNkcJGoBi00QixGLTRCLQmD/0Nld9OtdagFR2QU6AQAA2RwkUdkFNgEAANkcJGoAi00IixGLTQiLgjABAAD/0FHZHCSLTQiLEYtNCIuCNAEAAP/QUdkcJOgvAAAAg8QE2RwkagGLTRCLEYtNEItCYP/Q2V302UX0i+VdwwAAsEIAACVEAADUQgAARkRVi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale( max(sIntellect, sStrength), 88, 660)</sString>
+							<sString>tal("Artist_A1_SUP") ? damageScale( max(sIntellect, sStrength), 106, 792) : damageScale( max(sIntellect, sStrength), 88, 660)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

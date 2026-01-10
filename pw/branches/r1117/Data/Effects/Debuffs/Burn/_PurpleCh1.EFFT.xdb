@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BasicEffectAttached>
+	<BackLink DBID="/Items/Talents/Class/Shadow/status_A4_2_Enrage.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Chicken/A4_2_status_Chick_appl.APLR" Count="1" />
+	<attachFlags>3</attachFlags>
+	<attachType>Head</attachType>
+	<component href="/Effects/Debuffs/Burn/_PurpleTRSCh1.PRXY" />
+	<deathType>Manual</deathType>
+	<enableCondition href="" />
+	<fadeIn>0.5</fadeIn>
+	<fadeOut>0.5</fadeOut>
+	<groupFlags>0</groupFlags>
+	<lifeTime>0</lifeTime>
+</BasicEffectAttached>

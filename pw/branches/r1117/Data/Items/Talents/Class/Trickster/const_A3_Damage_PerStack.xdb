@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Class/Trickster/Ability3.TALENT" Count="1" />
 	<name>A3_Damage_PerStack</name>
 	<var>
-		<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACgQAAAFkI=</compiledString>
+		<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACAQAAA8EE=</compiledString>
 		<returnType>float</returnType>
-		<sString>damageScale(sStrength,5,37.5)</sString>
+		<sString>damageScale(sStrength,4,30)</sString>
 	</var>
 </UnitConstant>

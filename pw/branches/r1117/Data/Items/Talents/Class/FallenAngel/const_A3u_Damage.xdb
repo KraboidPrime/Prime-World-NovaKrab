@@ -3,8 +3,8 @@
 	<BackLink DBID="/Items/Talents/Class/FallenAngel/Ability_A3.TALENT" Count="1" />
 	<name>A3u_Damage</name>
 	<var>
-		<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAABIQgCAg0M=</compiledString>
+		<compiledString>FScAAAAHAAAALgAAAEcAAACBAAAAiwAAALkAAADHAAAA0QAAAEZhbGxlbkFuZ2VsX0EzX1NVUAAARmFsbGVuQW5nZWxfQTNfU1VQAFWL7IPsFGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoFAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdEZqAVHZBRkBAADZHCRR2QUVAQAA2RwkagCLVQiLAotNCIuQNAEAAP/SUdkcJGoBi0UQixCLTRCLQmD/0NwNDQEAAN1d8Os+agFR2QUZAQAA2RwkUdkFFQEAANkcJGoAi00IixGLTQiLgjQBAAD/0FHZHCRqAYtNEIsRi00Qi0Jg/9DdXfDdRfDZXezZReyL5V3DAAAAAAAA+D8AAEhCAICDQw==</compiledString>
 		<returnType>float</returnType>
-		<sString>damageScale(sIntellect,50, 263)</sString>
+		<sString> tal("FallenAngel_A3_SUP") ? 1.5*damageScale(sIntellect,50, 263) : damageScale(sIntellect,50, 263)</sString>
 	</var>
 </UnitConstant>

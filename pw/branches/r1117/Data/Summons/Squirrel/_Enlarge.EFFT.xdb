@@ -2,6 +2,7 @@
 <BasicEffectStandalone>
 	<BackLink DBID="/Items/Talents/Class/Artist/Ability_A4_2.TALENT" Count="1" />
 	<BackLink DBID="/Summons/Squirrel/_Enlarge.EFFT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A4_1.TALENT" Count="1" />
 	<component href="/Summons/Squirrel/_EnlargeTRS.PRXY" />
 	<deathType>Manual</deathType>
 	<enableCondition href="" />

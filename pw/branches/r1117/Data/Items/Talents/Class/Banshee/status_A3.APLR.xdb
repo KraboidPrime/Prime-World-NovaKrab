@@ -61,9 +61,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FR8AAAACAAAAJgAAAD8AAABCYW5zaGVlX0EzX1NVUAAAQmFuc2hlZV9BM19TVVAAVYvsg+wIaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wCKRfuL5V3D</compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 					<returnType>bool</returnType>
-					<sString>tal("Banshee_A3_SUP")</sString>
+					<sString>false</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<lifeTime>

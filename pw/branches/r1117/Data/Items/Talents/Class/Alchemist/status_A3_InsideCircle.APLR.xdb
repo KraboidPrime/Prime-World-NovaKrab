@@ -155,9 +155,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FSUAAAACAAAALAAAAEUAAABBbGNoZW1pc3RfQTNfU1VQAAAAAEFsY2hlbWlzdF9BM19TVVAAVYvsg+wIaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgUAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wCKRfuL5V3D</compiledString>
+					<compiledString>FSUAAAACAAAALAAAAEUAAABBbGNoZW1pc3RfQTNfU1VQAAAAAEFsY2hlbWlzdF9BM19TVVAAVYvsg+wUaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgUAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0NotVCIsCi00Ii5DIAAAA/9KLRQiLEItNCIuCzAAAAN1d8P/Q3F3w3+D2xEF1CcdF7AEAAADrB8dF7AAAAACKReyL5V3D</compiledString>
 					<returnType>bool</returnType>
-					<sString> tal("Alchemist_A3_SUP")</sString>
+					<sString> tal("Alchemist_A3_SUP") &amp;&amp; sBaseStamina &lt; sBaseWill</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<lifeTime>
@@ -225,6 +225,53 @@
 						<sString>1.0f</sString>
 					</multValue>
 					<stat>LifeRegenerationAbsolute</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/Alchemist/status_A3_InsideCircle.APLR" id="641C5EFA-64ED-4046-A238-0430391AB7B1">
+			<StatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>Stam</caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FSUAAAACAAAALAAAAEUAAABBbGNoZW1pc3RfQTNfU1VQAAAAAEFsY2hlbWlzdF9BM19TVVAAVYvsg+wUaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgUAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0NotVCIsCi00Ii5DIAAAA/9KLRQiLEItNCIuCzAAAAN1d8P/Q3F3w3+D2xEF6CcdF7AEAAADrB8dF7AAAAACKReyL5V3D</compiledString>
+					<returnType>bool</returnType>
+					<sString> tal("Alchemist_A3_SUP") &amp;&amp; sBaseStamina &gt;= sBaseWill</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FRMAAAABAAAAHwAAAEEzX1NVUF9EZWZJbkNpcmNsZQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+						<returnType>float</returnType>
+						<sString>cA3_SUP_DefInCircle</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Stamina</stat>
 					<topModifier>false</topModifier>
 					<variable></variable>
 				</modifier>

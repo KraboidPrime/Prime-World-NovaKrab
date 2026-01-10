@@ -13,9 +13,9 @@
 		<Item href="" />
 	</effect>
 	<enabled>
-		<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+		<compiledString>FRUAAAAEAAAAGgAAADAAAAA8AAAAUgAAAElzUGV0AAAAUmFiS3Jpc2FCdWZmAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHXwAAADf4PbERHsraAgAAACLTQiLEYtNCIuCiAEAAP/Q3B10AAAA3+D2xEF0CcdF/AAAAADrB8dF/AEAAACKRfyL5V3DAAAAAAAA4D8AAAAAAAAAAA==</compiledString>
 		<returnType>bool</returnType>
-		<sString>true</sString>
+		<sString>!sender.vIsPet || sender.vRabKrisaBuff &gt; 0.5</sString>
 	</enabled>
 	<formulaName></formulaName>
 	<lifeTime>
@@ -26,16 +26,16 @@
 	<LoggingEvent>-1</LoggingEvent>
 	<providerName></providerName>
 	<range>
-		<compiledString>FQ0AAAABAAAAGQAAAFJhbmdlX01lZGl1bQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+		<compiledString>FQsAAAABAAAAFwAAAFJhbmdlX0xvbmcAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
 		<returnType>float</returnType>
-		<sString>cRange_Medium</sString>
+		<sString>cRange_Long</sString>
 	</range>
 	<startCondition>
 		<compiledString></compiledString>
 		<returnType>bool</returnType>
 		<sString>true</sString>
 	</startCondition>
-	<targets>269221924</targets>
+	<targets>1342963751</targets>
 	<targetSelector href="" />
 	<type>None</type>
 </AuraApplicator>

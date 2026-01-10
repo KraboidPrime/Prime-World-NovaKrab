@@ -58,9 +58,39 @@
 					<UnitConstant>
 						<name>A0_SUP_LifeDrainPercentTT</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAC0Qg==</compiledString>
+							<compiledString>FQAAAAACAAAAEwAAABkAAABVi+xRi0UIixCLTQiLQgz/0NwNLwAAANwFJwAAANld/NlF/IvlXcOamZmZmZlWQPyp8dJNYpA/</compiledString>
 							<returnType>float</returnType>
-							<sString>90.0f</sString>
+							<sString>0.016*sMaxLife+90.4</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Vampire/Ability_A0_SUP.TALENT" id="65606F5F-BD08-47A2-AA20-3BA1148777B5">
+					<UnitConstant>
+						<name>Ctit_evade_TT</name>
+						<var>
+							<compiledString>FQAAAAADAAAAEwAAABkAAAAqAAAAVYvsUYtFCIsQi00Ii0IM/9DcDUkAAADcBUEAAADZXfzZRfxR2RwkUdkFPQAAANkcJOgbAAAAg8QIi+VdwwAAvkKPwvUoXI8yQGEyVTAqqWM/VYvsUdlFCNlFDN7Z3+D2xEF1CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
+							<returnType>float</returnType>
+							<sString>min(95, 0.0024*sMaxLife+18.56)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Vampire/Ability_A0_SUP.TALENT" id="A1BA586F-3922-47AA-AD42-8EA94E1BC9EA">
+					<UnitConstant>
+						<name>A0_RollChance_V</name>
+						<var>
+							<compiledString>FQ4AAAACAAAAKQAAADwAAABDdGl0X2V2YWRlX1RUAFWL7IPsCItFDFCLTQhRahRqFItVDFKLRQhQaAAAAACLTRCLEYtNEItCUP/Q3A1kAAAA2V382UX8UdkcJItNEIsRi00Qi0Jk/9APtsiJTfjbRfiL5V3DexSuR+F6hD8=</compiledString>
+							<returnType>float</returnType>
+							<sString>smartRoll(cCtit_evade_TT*0.01 , 20 , 20) </sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Vampire/Ability_A0_SUP.TALENT" id="AEDAE7F4-7C71-4EBB-BAEB-AED4BE052838">
+					<UnitConstant>
+						<name>A0_PureDefenceAmount_V</name>
+						<var>
+							<compiledString>FRAAAAACAAAAHQAAADAAAABBMF9Sb2xsQ2hhbmNlX1YAVYvsUYtFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S3B1SAAAA3+D2xER7CcdF/AAAAADrB8dF/AEAAADbRfyL5V3DAAAAAAAAAAA=</compiledString>
+							<returnType>float</returnType>
+							<sString>cA0_RollChance_V ? 0 : 1</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -104,7 +134,155 @@
 	<naftaCost>800</naftaCost>
 	<name textref="/Items/Talents/Class/Vampire/Ability_A0_SUP.TALENT_name.txt" />
 	<node></node>
-	<passiveApplicators />
+	<passiveApplicators>
+		<Item href="/Items/Talents/Class/Vampire/Ability_A0_SUP.TALENT" id="C97E3A55-283F-4EDE-BE44-06396E820B1C">
+			<TriggerApplicator>
+				<actionsCount>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</actionsCount>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>Читерство_вампа</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FRcAAAACAAAAJAAAADcAAABBMF9QdXJlRGVmZW5jZUFtb3VudF9WAFWL7FGLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0twdWQAAAN/g9sRBegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAOA/</compiledString>
+					<returnType>bool</returnType>
+					<sString>cA0_PureDefenceAmount_V &lt;= 0.5</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<playAck>false</playAck>
+				<processor href="/Items/Talents/Class/Vampire/Ability_A0_SUP.TALENT" id="29F80460-A12E-4DB1-9476-E27D5591CC8F">
+					<EventProcessorDamageTransformer>
+						<abilityFilter>
+							<abilitiesList />
+							<abilityCondition>
+								<compiledString>FQsAAAACAAAAEAAAACMAAABpc0NyaXRpY2FsAFWL7FFoAAAAAItFEIsQi00Qi0JU/9DcHUUAAADf4PbERHoJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAADwPw==</compiledString>
+								<returnType>bool</returnType>
+								<sString>pMisc-&gt;GetVariable("isCritical") == 1.0</sString>
+							</abilityCondition>
+							<abilityCostMode>Any</abilityCostMode>
+							<exceptThis>false</exceptThis>
+							<flags>1073742079</flags>
+							<onlySingleTarget>false</onlySingleTarget>
+						</abilityFilter>
+						<add>
+							<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+							<returnType>float</returnType>
+							<sString>0</sString>
+						</add>
+						<applyTarget>ApplicatorTarget</applyTarget>
+						<checkSender>0</checkSender>
+						<damageTypeFilter>31</damageTypeFilter>
+						<flags>0</flags>
+						<matchTargetInverted>false</matchTargetInverted>
+						<mul>
+							<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+							<returnType>float</returnType>
+							<sString>0</sString>
+						</mul>
+						<objectFilter>2040319</objectFilter>
+						<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
+						<spell href="/Items/Talents/Class/Vampire/Ability_A0_SUP.TALENT" id="7F336C7F-34C6-4BAE-A60E-33D7119882CB">
+							<Spell>
+								<applicators>
+									<Item href="/Items/Talents/Class/Vampire/Ability_A0_SUP.TALENT" id="17C4DB87-A5D3-4B6D-B421-4075AB9E73F7">
+										<UIMessageApplicator>
+											<applyTarget>AbilityOwner</applyTarget>
+											<caption>Сообщение</caption>
+											<enabled>
+												<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</enabled>
+											<formulaName></formulaName>
+											<LoggingEvent>-1</LoggingEvent>
+											<message textref="/Items/Talents/Class/Vampire/Ability_A0_SUP.TALENT_17c4db87a5d34b6db4214075ab9e73f7_message.txt" />
+											<providerName></providerName>
+											<uiEvent href="/Items/Talents/Class/Vampire/Ability_A0_SUP.TALENT" id="497C70A0-40C0-4492-A3D8-89EF709B235F">
+												<UIEvent>
+													<signRecipients>ALL_PLAYERS</signRecipients>
+													<UISigns>
+														<Item href="/Items/Talents/Class/Vampire/Ability_A0_SUP.TALENT" id="525DA87D-BDC2-43DE-965B-024FD47CED2F">
+															<UISignFlyOffText>
+																<signRecipients>USE_FROM_PARENT</signRecipients>
+																<text>
+																	<acceleration>
+																		<x>0</x>
+																		<y>0</y>
+																	</acceleration>
+																	<align>Center</align>
+																	<endOpacity>0</endOpacity>
+																	<layout>fly_custom_text</layout>
+																	<lifeTime>1</lifeTime>
+																	<offset>
+																		<x>0</x>
+																		<y>0</y>
+																	</offset>
+																	<startOpacity>0.8</startOpacity>
+																	<velocity>
+																		<x>0</x>
+																		<y>-45</y>
+																	</velocity>
+																</text>
+															</UISignFlyOffText>
+														</Item>
+													</UISigns>
+												</UIEvent>
+											</uiEvent>
+											<value>
+												<compiledString></compiledString>
+												<returnType>float</returnType>
+												<sString>-1.0</sString>
+											</value>
+										</UIMessageApplicator>
+									</Item>
+								</applicators>
+								<dispatch href="/Items/Talents/Class/Vampire/Ability_A0_SUP.TALENT" id="11D598E2-8900-41B5-A4D8-DD1DE0A996EC">
+									<DispatchImmediate>
+										<alwaysApply>false</alwaysApply>
+										<applyEffect>
+											<Item href="" />
+											<Item href="" />
+										</applyEffect>
+										<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+										<applyEffectOrientation>Default</applyEffectOrientation>
+										<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+										<dieAfterApply>true</dieAfterApply>
+										<dispatchEffect>
+											<Item href="" />
+											<Item href="" />
+										</dispatchEffect>
+										<flags>0</flags>
+										<instantApply>true</instantApply>
+									</DispatchImmediate>
+								</dispatch>
+							</Spell>
+						</spell>
+						<treatDelegatedByDelegator>false</treatDelegatedByDelegator>
+					</EventProcessorDamageTransformer>
+				</processor>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<useAbilityCooldown>false</useAbilityCooldown>
+				<useAbilityOwnerMana>false</useAbilityOwnerMana>
+			</TriggerApplicator>
+		</Item>
+	</passiveApplicators>
 	<persistentId>Vampire_A0_SUP</persistentId>
 	<prerequisiteTalents />
 	<rarity>Class</rarity>

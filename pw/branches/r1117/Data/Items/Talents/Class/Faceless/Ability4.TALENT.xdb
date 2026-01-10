@@ -352,9 +352,9 @@
 					<UnitConstant>
 						<name>A4_CritMultBonusPercent</name>
 						<var>
-							<compiledString>FQAAAAAFAAAACQAAACgAAABBAAAASgAAAHoAAABVi+yD7BxR2QXFAAAA2RwkUdnu2Rwki0UIixCLTQiLgjgBAAD/0NwNuQAAAItNCIsRi00Ii4I4AQAA3V34/9DcBbEAAADcffjcJakAAADZXfTZRfRR2Rwk6JQAAACDxATZ7tkcJItNCIsRi00Ii4JsAQAA3V3s/9DcJbEAAADZXejZRehR2Rwk6GQAAACDxAjcRezZXeTZReRR2Rwk6CcAAACDxAiL5V3DAAAAAAAAPEAAAAAAAABZQAAAAKCZuVZAAAAAAAAAyEJVi+xR2UUI2UUM3tnf4PbEQXUI2UUI2V386wbZRQzZXfzZRfyL5V3DVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
+							<compiledString>FQAAAAAFAAAACQAAACgAAABBAAAASgAAAHoAAABVi+yD7BxR2QXNAAAA2RwkUdnu2Rwki0UIixCLTQiLgjgBAAD/0NwNwQAAAItNCIsRi00Ii4I4AQAA3V34/9DcBbkAAADcffjcJbEAAADZXfTZRfRR2Rwk6JwAAACDxATZ7tkcJItNCIsRi00Ii4JsAQAA3V3s/9DcJakAAADZXejZRehR2Rwk6GwAAACDxAjcRezZXeTZReRR2Rwk6C8AAACDxAiL5V3DAAAAAAAAWUAAAAAAAAA8QAAAAAAAAGBAAAAAoJm5VkAAAAAAAADIQlWL7FHZRQjZRQze2d/g9sRBdQjZRQjZXfzrBtlFDNld/NlF/IvlXcNVi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
 							<returnType>float</returnType>
-							<sString>min( max( 90.9f * sDexterity / (sDexterity + 100.0f) - 28, 0 ) + max(sCritChanceBonus-100,0), 100 ) </sString>
+							<sString>min( max( 90.9f * sDexterity / (sDexterity + 128.0f) - 28, 0 ) + max(sCritChanceBonus-100,0), 100 )</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -447,7 +447,7 @@
 			<instantApply>false</instantApply>
 		</DispatchImmediate>
 	</dispatch>
-	<flags>3</flags>
+	<flags>7</flags>
 	<forceBonus>13</forceBonus>
 	<image href="/UI/Styles/Icons/Heroes/Faceless/A4.ITEX" />
 	<imageSecondState href="" />

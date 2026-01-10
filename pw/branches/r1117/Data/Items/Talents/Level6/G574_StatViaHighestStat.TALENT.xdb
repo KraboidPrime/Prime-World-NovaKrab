@@ -277,9 +277,9 @@
 				<caption>Will</caption>
 				<customApplyType>Maximize</customApplyType>
 				<enabled>
-					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgswAAAD/0ItNCIsRi00Ii4LIAAAA3V34/9BR2Rwki00IixGLTQiLgrwAAAD/0FHZHCSLTQiLEYtNCIuCuAAAAP/QUdkcJOgvAAAAg8QE2Rwk6CQAAACDxAjcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcNVi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgswAAAD/0ItNCIsRi00Ii4LIAAAA3V34/9BR2Rwki00IixGLTQiLgrwAAAD/0FHZHCSLTQiLEYtNCIuCuAAAAP/QUdkcJOgvAAAAg8QE2Rwk6CQAAACDxAjcXfjf4PbEBXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcNVi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
 					<returnType>bool</returnType>
-					<sString>sBaseWill &gt;= max(max(sBaseStrength, sBaseIntellect), sBaseStamina)</sString>
+					<sString>sBaseWill &gt; max(max(sBaseStrength, sBaseIntellect), sBaseStamina)</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<LoggingEvent>-1</LoggingEvent>

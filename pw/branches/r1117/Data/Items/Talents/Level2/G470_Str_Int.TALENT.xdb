@@ -116,138 +116,6 @@
 	</aoeSize>
 	<aoeType>None</aoeType>
 	<applicators>
-		<Item href="/Items/Talents/Level2/G470_Str_Int.TALENT" id="531027A9-4FFB-4A66-9854-7AB325BADB02">
-			<TriggerApplicator>
-				<actionsCount>
-					<compiledString></compiledString>
-					<returnType>int</returnType>
-					<sString>1</sString>
-				</actionsCount>
-				<applyTarget>ApplicatorTarget</applyTarget>
-				<behaviorFlags>152</behaviorFlags>
-				<caption>Триггер на смерть цели</caption>
-				<effect>
-					<Item href="" />
-					<Item href="" />
-				</effect>
-				<enabled>
-					<compiledString></compiledString>
-					<returnType>bool</returnType>
-					<sString>true</sString>
-				</enabled>
-				<formulaName></formulaName>
-				<lifeTime>
-					<compiledString>FQ8AAAABAAAAGwAAAERlYXRoQ2hlY2tUaW1lAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
-					<returnType>float</returnType>
-					<sString>cDeathCheckTime</sString>
-				</lifeTime>
-				<LoggingEvent>-1</LoggingEvent>
-				<playAck>false</playAck>
-				<processor href="/Items/Talents/Level2/G470_Str_Int.TALENT" id="4E1FC66B-FED2-4993-BBE5-714814229252">
-					<EventProcessorOnDeath>
-						<applyTarget>AbilityOwner</applyTarget>
-						<castSpellDelay>
-							<compiledString></compiledString>
-							<returnType>float</returnType>
-							<sString>0.0f</sString>
-						</castSpellDelay>
-						<checkSender>0</checkSender>
-						<objectFilter>2040319</objectFilter>
-						<senderMatchTarget>AbilityOwner</senderMatchTarget>
-						<spell href="/Items/Talents/Level2/G470_Str_Int.TALENT" id="13A4FB31-A1F5-42CB-AA15-1FE77DB497F3">
-							<Spell>
-								<applicators>
-									<Item href="/Items/Talents/Level2/G470_Str_Int.TALENT" id="28F89D10-DE88-4DD8-8FFC-E8862613EF68">
-										<PermanentStatModApplicator>
-											<applyTarget>ApplicatorTarget</applyTarget>
-											<caption>G470_KillCount</caption>
-											<customApplyType>None</customApplyType>
-											<enabled>
-												<compiledString></compiledString>
-												<returnType>bool</returnType>
-												<sString>true</sString>
-											</enabled>
-											<formulaName></formulaName>
-											<LoggingEvent>-1</LoggingEvent>
-											<modifier>
-												<addValue>
-													<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
-													<returnType>float</returnType>
-													<sString>1.0f</sString>
-												</addValue>
-												<multValue>
-													<compiledString></compiledString>
-													<returnType>float</returnType>
-													<sString>1.0f</sString>
-												</multValue>
-												<stat>Life</stat>
-												<topModifier>false</topModifier>
-												<variable>G470_KillCount</variable>
-											</modifier>
-											<providerName></providerName>
-										</PermanentStatModApplicator>
-									</Item>
-									<Item href="/Items/Talents/Level2/G470_Str_Int.TALENT" id="F01E2669-33DA-4199-89F2-F8F44011D3C8">
-										<RefreshCooldownApplicator>
-											<allowCdIncrease>false</allowCdIncrease>
-											<applyTarget>AbilityOwner</applyTarget>
-											<caption>G473_CooldownReduction</caption>
-											<enabled>
-												<compiledString>FQwAAAACAAAAEQAAACcAAABHNDczX0FjdGl2ZQBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1DAAAA3+D2xER7BsZF/wHrBMZF/wCKRf+L5V3DAAAAAAAAAAA=</compiledString>
-												<returnType>bool</returnType>
-												<sString>sender.vG473_Active</sString>
-											</enabled>
-											<flags>128</flags>
-											<formulaName></formulaName>
-											<LoggingEvent>-1</LoggingEvent>
-											<providerName></providerName>
-											<reduceByPercent>true</reduceByPercent>
-											<reductionAmount>
-												<compiledString>FQkAAAACAAAAFgAAACkAAABHNDczX0NEUgBVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcNTcAAADZXfzZRfyL5V3DAAAAAAAAWUA=</compiledString>
-												<returnType>float</returnType>
-												<sString>cG473_CDR / 100</sString>
-											</reductionAmount>
-											<refreshThis>false</refreshThis>
-											<talents>
-												<Item href="/Items/Talents/Level2/G470_Str_Int.TALENT" />
-											</talents>
-											<useListAs>ListAsRule</useListAs>
-										</RefreshCooldownApplicator>
-									</Item>
-								</applicators>
-								<dispatch href="/Items/Talents/Level2/G470_Str_Int.TALENT" id="F372EED8-C591-481A-9B7B-2C3C41C00EAC">
-									<DispatchImmediate>
-										<alwaysApply>false</alwaysApply>
-										<applyEffect>
-											<Item href="" />
-											<Item href="" />
-										</applyEffect>
-										<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
-										<applyEffectOrientation>Default</applyEffectOrientation>
-										<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
-										<dieAfterApply>true</dieAfterApply>
-										<dispatchEffect>
-											<Item href="" />
-											<Item href="" />
-										</dispatchEffect>
-										<flags>0</flags>
-										<instantApply>false</instantApply>
-									</DispatchImmediate>
-								</dispatch>
-							</Spell>
-						</spell>
-					</EventProcessorOnDeath>
-				</processor>
-				<providerName></providerName>
-				<startCondition>
-					<compiledString></compiledString>
-					<returnType>bool</returnType>
-					<sString>true</sString>
-				</startCondition>
-				<useAbilityCooldown>false</useAbilityCooldown>
-				<useAbilityOwnerMana>false</useAbilityOwnerMana>
-			</TriggerApplicator>
-		</Item>
 		<Item href="/Items/Talents/Level2/G470_Str_Int.TALENT" id="336AC494-4904-44E2-8BB7-5A2ED8634FFC">
 			<DamageApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
@@ -272,6 +140,7 @@
 				<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Material.UIEV" />
 			</DamageApplicator>
 		</Item>
+		<Item href="/Heroes/DefaultStatus/_STUN_Status.APLR" />
 	</applicators>
 	<askId>0</askId>
 	<autoTargetSelector href="" />
@@ -366,9 +235,9 @@
 					<UnitConstant>
 						<name>Range</name>
 						<var>
-							<compiledString>FQsAAAABAAAAFwAAAFJhbmdlX0xvbmcAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADgQA==</compiledString>
 							<returnType>float</returnType>
-							<sString>cRange_Long</sString>
+							<sString>7</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -389,9 +258,9 @@
 					<UnitConstant>
 						<name>BaseDmgPerKill</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQQ==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>20</sString>
+							<sString>10</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -468,6 +337,26 @@
 							<compiledString>FQ0AAAABAAAAGQAAAEc0NzBfTWF4Rm9ybQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
 							<returnType>float</returnType>
 							<sString>cG470_MaxForm</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Level2/G470_Str_Int.TALENT" id="753856BC-6603-4585-BF16-E2F39E674AC5">
+					<UnitConstant>
+						<name>Stun_Duration</name>
+						<var>
+							<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+							<returnType>float</returnType>
+							<sString>1.0f</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Level2/G470_Str_Int.TALENT" id="A67217B3-BF8C-4D24-B625-BF07D0651B4A">
+					<UnitConstant>
+						<name>Stun_StartCondition</name>
+						<var>
+							<compiledString>FQwAAAACAAAAEQAAACcAAABHNDczX0FjdGl2ZQBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1JAAAA3+D2xEF1CcdF/AEAAADrB8dF/AAAAADbRfyL5V3DAAAAAAAA4D8=</compiledString>
+							<returnType>float</returnType>
+							<sString>sender.vG473_Active &gt; 0.5</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -602,6 +491,161 @@
 				</modifier>
 				<providerName></providerName>
 			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level2/G470_Str_Int.TALENT" id="23D62B88-7C1F-4889-9A63-ACE67B8AA795">
+			<TriggerApplicator>
+				<actionsCount>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</actionsCount>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>Копим статы</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<playAck>false</playAck>
+				<processor href="/Items/Talents/Level2/G470_Str_Int.TALENT" id="68DE3552-2978-47ED-9D96-9548301F02C4">
+					<EventProcessorCondition>
+						<applyTarget>AbilityOwner</applyTarget>
+						<condition>
+							<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+							<returnType>bool</returnType>
+							<sString>true</sString>
+						</condition>
+						<events>1073741824</events>
+						<onlyParent>false</onlyParent>
+						<spell href="/Items/Talents/Level2/G470_Str_Int.TALENT" id="BA8067A9-7EEE-478B-92FD-2F9532659137">
+							<Spell>
+								<applicators>
+									<Item href="/Items/Talents/Level2/G470_Str_Int.TALENT" id="220E5FFE-B4C0-41EB-972F-C75EC79881A1">
+										<PermanentStatModApplicator>
+											<applyTarget>AbilityOwner</applyTarget>
+											<caption></caption>
+											<customApplyType>None</customApplyType>
+											<enabled>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</enabled>
+											<formulaName></formulaName>
+											<LoggingEvent>-1</LoggingEvent>
+											<modifier>
+												<addValue>
+													<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+													<returnType>float</returnType>
+													<sString>1.0f</sString>
+												</addValue>
+												<multValue>
+													<compiledString></compiledString>
+													<returnType>float</returnType>
+													<sString>1.0f</sString>
+												</multValue>
+												<stat>Life</stat>
+												<topModifier>false</topModifier>
+												<variable>G470_KillCount</variable>
+											</modifier>
+											<providerName></providerName>
+										</PermanentStatModApplicator>
+									</Item>
+								</applicators>
+								<dispatch href="/Items/Talents/Level2/G470_Str_Int.TALENT" id="95C5A650-91D2-4537-B52F-BF1CB90C051F">
+									<DispatchImmediate>
+										<alwaysApply>false</alwaysApply>
+										<applyEffect>
+											<Item href="" />
+											<Item href="" />
+										</applyEffect>
+										<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+										<applyEffectOrientation>Default</applyEffectOrientation>
+										<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+										<dieAfterApply>true</dieAfterApply>
+										<dispatchEffect>
+											<Item href="" />
+											<Item href="" />
+										</dispatchEffect>
+										<flags>0</flags>
+										<instantApply>true</instantApply>
+									</DispatchImmediate>
+								</dispatch>
+							</Spell>
+						</spell>
+					</EventProcessorCondition>
+				</processor>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<useAbilityCooldown>false</useAbilityCooldown>
+				<useAbilityOwnerMana>false</useAbilityOwnerMana>
+			</TriggerApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level2/G470_Str_Int.TALENT" id="00A8BFE9-3209-46A9-A72B-675509DBB609">
+			<StatusApplicator>
+				<applicators />
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>визуал</caption>
+				<customCounter>
+					<compiledString>FQcAAAABAAAAEwAAAERhbWFnZQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0lHZHCToBQAAAIPEBF3DuAEAAAAPovfCAAAABHQH8w8sRCQEw+kAAAAAVYvsg+wM2UUI2X38D7dF/A0ADAAAiUX42W3421302W38i0X0i+Vdww==</compiledString>
+					<returnType>int</returnType>
+					<sString>f2l(cDamage)</sString>
+				</customCounter>
+				<customProgress>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</customProgress>
+				<description textref="/Items/Talents/Level2/G470_Str_Int.TALENT_00a8bfe9320946a9a72b675509dbb609_description.txt" />
+				<dispellPriority>NonDispellable</dispellPriority>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<flags>0</flags>
+				<formulaName></formulaName>
+				<image href="/UI/Styles/Icons/Talents/_470.ITEX" />
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<name textref="/Items/Talents/Level2/G470_Str_Int.TALENT_00a8bfe9320946a9a72b675509dbb609_name.txt" />
+				<power>0</power>
+				<providerName></providerName>
+				<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+				<stackCount>0</stackCount>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statusPosition>0</statusPosition>
+				<stopBehaviour>StopByTime</stopBehaviour>
+				<unstackableWith href="" />
+			</StatusApplicator>
 		</Item>
 	</passiveApplicators>
 	<persistentId>G470</persistentId>

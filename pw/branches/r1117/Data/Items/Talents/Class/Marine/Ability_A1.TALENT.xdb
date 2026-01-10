@@ -238,9 +238,9 @@
 					<UnitConstant>
 						<name>A1_Stun_Duration</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAPw==</compiledString>
+							<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
 							<returnType>float</returnType>
-							<sString>0.5</sString>
+							<sString>1.0f</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -253,9 +253,9 @@
 					<UnitConstant>
 						<name>A1_baseDamage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACSQgAA+kM=</compiledString>
+							<compiledString>FRcAAAAGAAAAHgAAADcAAAB2AAAAfAAAAJUAAACfAAAATWFyaW5lX0ExdQAATWFyaW5lX0ExdQBVi+yD7BhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaAwAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AItNCIsRi00Ii4K4AAAA/9DcDfMAAADcJesAAAAPtk37iU3020X03snZ6N7BagFR2QXfAAAA2RwkUdkF2wAAANkcJGoAi1UIiwKLTQiLkDABAADdXez/0lHZHCRqAYtFEIsQi00Qi0Jg/9DcTezZXejZReiL5V3DAACSQgAA+kMAAAAAAADwP3sUrkfhepQ/LUMc6+I2Oj8=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(sStrength,73,500)</sString>
+							<sString>(1+(0.0004*sBaseStrength-0.02)*tal("Marine_A1u"))*damageScale(sStrength,73,500)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

@@ -912,9 +912,9 @@
 					<calcIncrement>0</calcIncrement>
 					<calcValue>50</calcValue>
 					<increment>
-						<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzcxMPg==</compiledString>
 						<returnType>float</returnType>
-						<sString>0</sString>
+						<sString>0.2</sString>
 					</increment>
 					<levelUpgrades />
 					<statId>Dexterity</statId>

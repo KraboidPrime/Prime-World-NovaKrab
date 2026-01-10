@@ -6,13 +6,14 @@
 	<BackLink DBID="/Items/Consumables/Pet_Horse.ARCT" Count="2" />
 	<BackLink DBID="/Items/Consumables/Pet_Pig.ARCT" Count="2" />
 	<BackLink DBID="/Items/Consumables/Pet_Tiger.ARCT" Count="2" />
+	<BackLink DBID="/Items/Consumables/Pet_Bear.ARCT" Count="2" />
 	<applyTarget>AbilityOwner</applyTarget>
 	<caption>reset ShouldRecallPet</caption>
 	<customApplyType>None</customApplyType>
 	<enabled>
-		<compiledString></compiledString>
+		<compiledString>FRAAAAACAAAAFQAAACsAAABTaG91bGRSZWNhbGxQZXQAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdTQAAAN/g9sREewnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAAA</compiledString>
 		<returnType>bool</returnType>
-		<sString>true</sString>
+		<sString>sender.vShouldRecallPet != 0</sString>
 	</enabled>
 	<formulaName></formulaName>
 	<LoggingEvent>-1</LoggingEvent>

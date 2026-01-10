@@ -52,9 +52,9 @@
 					<UnitConstant>
 						<name>A0_SummonsTimer</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQg==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQg==</compiledString>
 							<returnType>float</returnType>
-							<sString>60</sString>
+							<sString>40</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -69,9 +69,9 @@
 					<UnitConstant>
 						<name>TT_DemonLife</name>
 						<var>
-							<compiledString>FRkAAAACAAAAJgAAADkAAABNYXN0ZXJTdGF0Q29ubmVjdGVkX0xpZmUAVYvsUYtFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S3AVHAAAA2V382UX8i+VdwwAAAAAAAHlA</compiledString>
+							<compiledString>FRkAAAACAAAAJgAAADkAAABNYXN0ZXJTdGF0Q29ubmVjdGVkX0xpZmUAVYvsUYtFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S3AVHAAAA2V382UX8i+VdwwAAAAAAAH5A</compiledString>
 							<returnType>float</returnType>
-							<sString>400 + cMasterStatConnected_Life</sString>
+							<sString>480 + cMasterStatConnected_Life</sString>
 						</var>
 					</UnitConstant>
 				</Item>

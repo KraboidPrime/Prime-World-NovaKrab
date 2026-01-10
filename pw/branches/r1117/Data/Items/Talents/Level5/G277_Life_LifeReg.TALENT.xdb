@@ -85,6 +85,7 @@
 	<BackLink DBID="/Test/Talents/WitchDoctor/Elite_Str.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Witcher/Elite_Int.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Witcher/Elite_Str.TALENTSET" Count="1" />
+	<BackLink DBID="/GameLogic/AILogic.AILP" Count="2" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -107,7 +108,7 @@
 	<askId>0</askId>
 	<autoTargetSelector href="" />
 	<budget>-1</budget>
-	<caption>G277: Отвага древних</caption>
+	<caption>G277: Алмазный абразив</caption>
 	<castAllowRange>
 		<compiledString></compiledString>
 		<returnType>float</returnType>
@@ -119,26 +120,16 @@
 	<compiledDescriptionB textref="" />
 	<conditionFormulas />
 	<conflictingTalents />
-	<constants href="/Items/Talents/Level5/G277_Life_LifeReg.TALENT" id="AD367C3C-F3DA-4620-98F2-3785A8406A05">
+	<constants href="/Items/Talents/Level5/G277_Life_LifeReg.TALENT" id="8C4C144C-3E56-4B0B-B037-1CE6FDA57FEF">
 		<UnitConstantsContainer>
 			<vars>
-				<Item href="/Items/Talents/Level5/G277_Life_LifeReg.TALENT" id="17D2A428-4286-4222-8FD5-4CC334611983">
+				<Item href="/Items/Talents/Level5/G277_Life_LifeReg.TALENT" id="D280E242-3B59-4F33-A879-1C5F3E9C2DE7">
 					<UnitConstant>
-						<name>Add_Life</name>
+						<name>Add_Stat</name>
 						<var>
-							<compiledString>FQsAAAACAAAAGgAAADcAAABMaWZlQnVkZ2V0AFWL7IPsDFHZ6NkcJFHZBVgAAADZHCSLRRCLEItNEItCbP/Qi00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ3V34/9DcTfjZXfTZRfSL5V3DmplZQQAAgD8=</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADQQQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(13.6,1)*cLifeBudget</sString>
-						</var>
-					</UnitConstant>
-				</Item>
-				<Item href="/Items/Talents/Level5/G277_Life_LifeReg.TALENT" id="753EE4EA-388B-4DF3-91B2-0E72EE1462A9">
-					<UnitConstant>
-						<name>Add_LifeRegAbs</name>
-						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAwD/NzMw9</compiledString>
-							<returnType>float</returnType>
-							<sString>refineScale(1.5, 0.1)</sString>
+							<sString>26</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -164,7 +155,7 @@
 	<dispatch href="" />
 	<flags>1</flags>
 	<forceBonus>23</forceBonus>
-	<image href="/UI/Styles/Icons/Talents/_277.ITEX" />
+	<image href="/UI/Styles/Icons/Talents/TUE_Abrasive10.ITEX" />
 	<imageSecondState href="" />
 	<isGenderTalent>false</isGenderTalent>
 	<isTakenOnStart>false</isTakenOnStart>
@@ -183,60 +174,120 @@
 	<name textref="/Items/Talents/Level5/G277_Life_LifeReg.TALENT_name.txt" />
 	<node></node>
 	<passiveApplicators>
-		<Item href="/Items/Talents/Level5/G277_Life_LifeReg.TALENT" id="C405B420-DF32-4DCB-AB5F-7AB7CA462657">
+		<Item href="/Items/Talents/Level5/G277_Life_LifeReg.TALENT" id="812BCF07-9E28-465D-92A0-24A2028C8DAF">
 			<PermanentStatModApplicator>
-				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>Add_Life</caption>
-				<customApplyType>None</customApplyType>
+				<applyTarget>AbilityOwner</applyTarget>
+				<caption>Strength</caption>
+				<customApplyType>Maximize</customApplyType>
 				<enabled>
-					<compiledString></compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgrgAAAD/0ItNCIsRi00Ii4LAAAAA3V34/9BR2Rwki00IixGLTQiLgowAAAD/0FHZHCToQwAAAIPEBNkcJItNCIsRi00Ii4K8AAAA/9BR2Rwk6CQAAACDxAjcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcNVi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
 					<returnType>bool</returnType>
-					<sString>true</sString>
+					<sString>sBaseStrength &gt;= max(sBaseIntellect, max(sBaseAttackSpeed, sBaseDexterity))</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<LoggingEvent>-1</LoggingEvent>
 				<modifier>
 					<addValue>
-						<compiledString>FQkAAAABAAAAFQAAAEFkZF9MaWZlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+						<compiledString>FQkAAAABAAAAFQAAAEFkZF9TdGF0AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
 						<returnType>float</returnType>
-						<sString>cAdd_Life</sString>
+						<sString>cAdd_Stat</sString>
 					</addValue>
 					<multValue>
 						<compiledString></compiledString>
 						<returnType>float</returnType>
 						<sString>1.0f</sString>
 					</multValue>
-					<stat>Life</stat>
+					<stat>Strength</stat>
 					<topModifier>false</topModifier>
 					<variable></variable>
 				</modifier>
 				<providerName></providerName>
 			</PermanentStatModApplicator>
 		</Item>
-		<Item href="/Items/Talents/Level5/G277_Life_LifeReg.TALENT" id="217BC930-E11C-480E-87F5-53AC6595E305">
+		<Item href="/Items/Talents/Level5/G277_Life_LifeReg.TALENT" id="29081D87-F551-4159-A08D-B963665B1CB5">
 			<PermanentStatModApplicator>
-				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>Add_LifeRegAbs</caption>
-				<customApplyType>None</customApplyType>
+				<applyTarget>AbilityOwner</applyTarget>
+				<caption>Intellect</caption>
+				<customApplyType>Maximize</customApplyType>
 				<enabled>
-					<compiledString></compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsg+wUi0UIixCLTQiLgrwAAAD/0ItNCIsRi00Ii4K4AAAA3V34/9DcXfjf4PbEBXpWi00IixGLTQiLgrwAAAD/0ItNCIsRi00Ii4LAAAAA3V3w/9BR2Rwki00IixGLTQiLgowAAAD/0FHZHCToJAAAAIPECNxd8N/g9sRBegnHRewBAAAA6wfHRewAAAAAikXsi+Vdw1WL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
 					<returnType>bool</returnType>
-					<sString>true</sString>
+					<sString>sBaseIntellect &gt; sBaseStrength &amp;&amp; sBaseIntellect &gt;=  max(sBaseAttackSpeed, sBaseDexterity)</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<LoggingEvent>-1</LoggingEvent>
 				<modifier>
 					<addValue>
-						<compiledString>FQ8AAAABAAAAGwAAAEFkZF9MaWZlUmVnQWJzAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+						<compiledString>FQkAAAABAAAAFQAAAEFkZF9TdGF0AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
 						<returnType>float</returnType>
-						<sString>cAdd_LifeRegAbs</sString>
+						<sString>cAdd_Stat</sString>
 					</addValue>
 					<multValue>
 						<compiledString></compiledString>
 						<returnType>float</returnType>
 						<sString>1.0f</sString>
 					</multValue>
-					<stat>LifeRegenerationAbsolute</stat>
+					<stat>Intellect</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level5/G277_Life_LifeReg.TALENT" id="1145B645-F5B9-477B-931B-0012A284701F">
+			<PermanentStatModApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<caption>Stamina</caption>
+				<customApplyType>Maximize</customApplyType>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsg+wUi0UIixCLTQiLgowAAAD/0ItNCIsRi00Ii4K8AAAA3V34/9BR2Rwki00IixGLTQiLgrgAAAD/0FHZHCToUQAAAIPECNxd+N/g9sQFejaLTQiLEYtNCIuCjAAAAP/Qi00IixGLTQiLgsAAAADdXfD/0Nxd8N/g9sRBegnHRewBAAAA6wfHRewAAAAAikXsi+Vdw1WL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sBaseAttackSpeed &gt; max(sBaseStrength, sBaseIntellect) &amp;&amp; sBaseAttackSpeed &gt;= sBaseDexterity</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQkAAAABAAAAFQAAAEFkZF9TdGF0AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+						<returnType>float</returnType>
+						<sString>cAdd_Stat</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>AttackSpeed</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level5/G277_Life_LifeReg.TALENT" id="24D2B812-CCFB-4EDC-B140-2A5B3DB6584C">
+			<PermanentStatModApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<caption>Will</caption>
+				<customApplyType>Maximize</customApplyType>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgsAAAAD/0ItNCIsRi00Ii4KMAAAA3V34/9BR2Rwki00IixGLTQiLgrwAAAD/0FHZHCSLTQiLEYtNCIuCuAAAAP/QUdkcJOgvAAAAg8QE2Rwk6CQAAACDxAjcXfjf4PbEBXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcNVi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
+					<returnType>bool</returnType>
+					<sString>sBaseDexterity &gt; max(max(sBaseStrength, sBaseIntellect), sBaseAttackSpeed)</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQkAAAABAAAAFQAAAEFkZF9TdGF0AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+						<returnType>float</returnType>
+						<sString>cAdd_Stat</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Dexterity</stat>
 					<topModifier>false</topModifier>
 					<variable></variable>
 				</modifier>
@@ -246,9 +297,9 @@
 	</passiveApplicators>
 	<persistentId>G277</persistentId>
 	<prerequisiteTalents />
-	<rarity>magnificent</rarity>
+	<rarity>outstanding</rarity>
 	<requireLineOfSight>true</requireLineOfSight>
-	<shortDescription textref="/Items/Talents/Level5/G277_Life_LifeReg.TALENT_shortDescription.txt" />
+	<shortDescription textref="" />
 	<talentRollGroups>63</talentRollGroups>
 	<talentStats>
 		<Item>

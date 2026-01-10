@@ -85,7 +85,7 @@
 	<isStationarySummon>false</isStationarySummon>
 	<longSuspendTimeout>0.3</longSuspendTimeout>
 	<masterTargetWeight>0</masterTargetWeight>
-	<maxTimeFromAttack>20</maxTimeFromAttack>
+	<maxTimeFromAttack>5</maxTimeFromAttack>
 	<nearbyRange>0</nearbyRange>
 	<onlyAutoTargeting>false</onlyAutoTargeting>
 	<OutOfAggroWeight>0</OutOfAggroWeight>

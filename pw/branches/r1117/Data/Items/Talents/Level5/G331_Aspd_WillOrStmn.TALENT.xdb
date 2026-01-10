@@ -22,6 +22,8 @@
 	<BackLink DBID="/Test/Talents/Naga/Elite_PvE.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Werewolf/Elite_Str.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Witch/Elite_PvE.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Level5/G331_Aspd_WillOrStmn.TALENT" Count="1" />
+	<BackLink DBID="/GameLogic/TalentGroup.TGRP" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -40,7 +42,153 @@
 		<sString>0.0f</sString>
 	</aoeSize>
 	<aoeType>None</aoeType>
-	<applicators />
+	<applicators>
+		<Item href="/Items/Talents/Level5/G331_Aspd_WillOrStmn.TALENT" id="E835F1FF-3C2A-4DC2-9253-BFD49E4BE014">
+			<StatModApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>Критуля</caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="/Effects/Buffs/Increase/_Resurrect_crit.EFFT" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADAQA==</compiledString>
+					<returnType>float</returnType>
+					<sString>6</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQwAAAABAAAAGAAAAEczMzFfcGl6ZGVjAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+						<returnType>float</returnType>
+						<sString>cG331_pizdec</sString>
+					</addValue>
+					<multValue>
+						<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>CritChanceBonus</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level5/G331_Aspd_WillOrStmn.TALENT" id="1D9670B2-1ED6-4AFA-B7F5-A1E4DF8F43CC">
+			<StatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>Антиослепло</caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FQ0AAAACAAAAFAAAAC0AAABHMzI1AAAAAEczMjUAVYvsg+wIaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgIAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wCKRfuL5V3D</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("G325")</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADAQA==</compiledString>
+					<returnType>float</returnType>
+					<sString>6</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</addValue>
+					<multValue>
+						<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Life</stat>
+					<topModifier>false</topModifier>
+					<variable>Immune2Blind</variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level5/G331_Aspd_WillOrStmn.TALENT" id="AC32DF15-C7F6-46E8-9BBE-FA78F24CEE62">
+			<StatusApplicator>
+				<applicators />
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption></caption>
+				<customCounter>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</customCounter>
+				<customProgress>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</customProgress>
+				<description textref="/Items/Talents/Level5/G331_Aspd_WillOrStmn.TALENT_ac32df15c7f646e89bbefa78f24cee62_description.txt" />
+				<dispellPriority>NonDispellable</dispellPriority>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<flags>64</flags>
+				<formulaName></formulaName>
+				<image href="/UI/Styles/Icons/Talents/_331.ITEX" />
+				<lifeTime>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADAQA==</compiledString>
+					<returnType>float</returnType>
+					<sString>6</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<name textref="/Items/Talents/Level5/G331_Aspd_WillOrStmn.TALENT_ac32df15c7f646e89bbefa78f24cee62_name.txt" />
+				<power>0</power>
+				<providerName></providerName>
+				<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+				<stackCount>0</stackCount>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statusPosition>0</statusPosition>
+				<stopBehaviour>StopByTime</stopBehaviour>
+				<unstackableWith href="" />
+			</StatusApplicator>
+		</Item>
+	</applicators>
 	<askId>0</askId>
 	<autoTargetSelector href="" />
 	<budget>-1</budget>
@@ -116,9 +264,7 @@
 			</ConditionFormula>
 		</Item>
 	</conditionFormulas>
-	<conflictingTalents>
-		<Item href="/Items/Talents/Level4/G782_StrInt.TALENT" />
-	</conflictingTalents>
+	<conflictingTalents />
 	<constants href="/Items/Talents/Level5/G331_Aspd_WillOrStmn.TALENT" id="BE42CA63-8BFA-4328-8F2D-2D03BDFB6E29">
 		<UnitConstantsContainer>
 			<vars>
@@ -218,13 +364,23 @@
 					<UnitConstant>
 						<name>CD</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAA0Qw==</compiledString>
+							<compiledString>FQ0AAAACAAAAFAAAAC0AAABHMzM3AAAAAEczMzcAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgIAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37a8koupYAAAAr0YlV9NtF9IvlXcM=</compiledString>
 							<returnType>float</returnType>
-							<sString>180</sString>
+							<sString>150-40*tal("G337")</sString>
 						</var>
 					</UnitConstant>
 				</Item>
 				<Item href="/Items/Talents/TalentSet2/const_G325_CoolDown" />
+				<Item href="/Items/Talents/Level5/G331_Aspd_WillOrStmn.TALENT" id="BFB0C470-086F-48B3-86E6-A345F690F5D2">
+					<UnitConstant>
+						<name>G331_pizdec</name>
+						<var>
+							<compiledString>FQAAAAAJAAAACQAAADsAAABZAAAAYgAAAI4AAACsAAAAtQAAAL4AAADhAAAAVYvsg+woUdkFIwEAANkcJFHZ7tkcJItFCIsQi00Ii4I4AQAA/9CLTQiLEYtNCIuCOAEAAN1d+P/Q3CUXAQAA2V302UX0UdkcJFHZ7tkcJOj7AAAAg8QI3A0PAQAA3G343A0HAQAAi00IixGLTQiLgjgBAADdXez/0ItNCIsRi00Ii4I4AQAA3V3k/9DcJRcBAADZXeDZReBR2RwkUdnu2Rwk6KgAAACDxAjcDQ8BAADcbeTcBf8AAADcfezcJfcAAADZXdzZRdxR2Rwk6H4AAACDxATZHCToSwAAAIPECNwt7wAAANld2NlF2IvlXcMAAAAAAABEQAAAAAAAADxAAAAAAAAAYEAAAACgmblWQAAAAAAAANA/AAAAAABAf0AAAAAAAADIQlWL7FHZRQjZRQze2d/g9sRBdQjZRQjZXfzrBtlFDNld/NlF/IvlXcNVi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
+							<returnType>float</returnType>
+							<sString>40-min( max( 90.9f * (sDexterity - max(0, sDexterity - 500) * 0.25f) / ((sDexterity - max(0, sDexterity - 500) * 0.25f) + 128.0f) - 28, 0 ), 100)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
@@ -244,8 +400,26 @@
 	</cooldownTimeSecondState>
 	<description textref="/Items/Talents/Level5/G331_Aspd_WillOrStmn.TALENT_description.txt" />
 	<devPoints>1</devPoints>
-	<dispatch href="" />
-	<flags>4</flags>
+	<dispatch href="/Items/Talents/Level5/G331_Aspd_WillOrStmn.TALENT" id="D92B163D-45DD-4EF8-B98B-38BD9AFF38D3">
+		<DispatchImmediate>
+			<alwaysApply>false</alwaysApply>
+			<applyEffect>
+				<Item href="" />
+				<Item href="" />
+			</applyEffect>
+			<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+			<applyEffectOrientation>Default</applyEffectOrientation>
+			<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+			<dieAfterApply>true</dieAfterApply>
+			<dispatchEffect>
+				<Item href="" />
+				<Item href="" />
+			</dispatchEffect>
+			<flags>0</flags>
+			<instantApply>false</instantApply>
+		</DispatchImmediate>
+	</dispatch>
+	<flags>3</flags>
 	<forceBonus>0</forceBonus>
 	<image href="/UI/Styles/Icons/Talents/_331.ITEX" />
 	<imageSecondState href="" />
@@ -386,227 +560,16 @@
 				<providerName></providerName>
 			</PermanentStatModApplicator>
 		</Item>
-		<Item href="/Items/Talents/Level4/status_G782_resurect.APLR" />
-		<Item href="/Items/Talents/Level5/G331_Aspd_WillOrStmn.TALENT" id="92A337AF-9436-4DDA-A7FB-93CB9F6A7496">
-			<TriggerApplicator>
-				<actionsCount>
-					<compiledString></compiledString>
-					<returnType>int</returnType>
-					<sString>0</sString>
-				</actionsCount>
-				<applyTarget>ApplicatorTarget</applyTarget>
-				<behaviorFlags>0</behaviorFlags>
-				<caption>Триггер на смерть</caption>
-				<effect>
-					<Item href="" />
-					<Item href="" />
-				</effect>
-				<enabled>
-					<compiledString>FQAAAAABAAAAEwAAAFWL7FGLRRCLEItNEItCHP/Q3B01AAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAA8D8=</compiledString>
-					<returnType>bool</returnType>
-					<sString>mPreparedness == 1.0f</sString>
-				</enabled>
-				<formulaName></formulaName>
-				<lifeTime>
-					<compiledString></compiledString>
-					<returnType>float</returnType>
-					<sString>-1.0</sString>
-				</lifeTime>
-				<LoggingEvent>-1</LoggingEvent>
-				<playAck>false</playAck>
-				<processor href="/Items/Talents/Level5/G331_Aspd_WillOrStmn.TALENT" id="2A4F043E-78AB-4E4F-9D04-5106C6DAC7B8">
-					<EventProcessorOnDeath>
-						<applyTarget>AbilityOwner</applyTarget>
-						<castSpellDelay>
-							<compiledString></compiledString>
-							<returnType>float</returnType>
-							<sString>0.0f</sString>
-						</castSpellDelay>
-						<checkSender>0</checkSender>
-						<objectFilter>1342177281</objectFilter>
-						<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
-						<spell href="/Items/Talents/Level5/G331_Aspd_WillOrStmn.TALENT" id="1F8923B0-89EA-4959-A22B-60B0E52A5FD1">
-							<Spell>
-								<applicators>
-									<Item href="/Items/Talents/Level5/G331_Aspd_WillOrStmn.TALENT" id="5AEC3F01-35FB-465A-9395-230BB6BEA038">
-										<ProgramApplicator>
-											<applicators>
-												<Item>
-													<applicator href="/Items/Talents/Level5/G331_Aspd_WillOrStmn.TALENT" id="30C071D2-0971-4393-ABBE-38EC9EAFA0A4">
-														<FlagsApplicator>
-															<applyTarget>ApplicatorTarget</applyTarget>
-															<behaviorFlags>216</behaviorFlags>
-															<caption>Ждем еще немного</caption>
-															<consumables />
-															<effect>
-																<Item href="" />
-																<Item href="" />
-															</effect>
-															<enabled>
-																<compiledString></compiledString>
-																<returnType>bool</returnType>
-																<sString>true</sString>
-															</enabled>
-															<flag>0</flag>
-															<formulaName></formulaName>
-															<lifeTime>
-																<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAPw==</compiledString>
-																<returnType>float</returnType>
-																<sString>0.5</sString>
-															</lifeTime>
-															<LoggingEvent>-1</LoggingEvent>
-															<providerName></providerName>
-															<startCondition>
-																<compiledString></compiledString>
-																<returnType>bool</returnType>
-																<sString>true</sString>
-															</startCondition>
-															<talents />
-															<useListAs>ListAsRule</useListAs>
-														</FlagsApplicator>
-													</applicator>
-													<continueCondition>
-														<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
-														<returnType>bool</returnType>
-														<sString>0</sString>
-													</continueCondition>
-													<continueEvents>2</continueEvents>
-													<delay>
-														<compiledString></compiledString>
-														<returnType>float</returnType>
-														<sString>-1.0</sString>
-													</delay>
-													<stopCondition>
-														<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
-														<returnType>bool</returnType>
-														<sString>0</sString>
-													</stopCondition>
-													<stopEvents>0</stopEvents>
-												</Item>
-												<Item>
-													<applicator href="/Items/Talents/Level5/G331_Aspd_WillOrStmn.TALENT" id="187DCC97-3454-40DE-ABB2-EBADA7E9B2B7">
-														<FlagsApplicator>
-															<applyTarget>ApplicatorTarget</applyTarget>
-															<behaviorFlags>216</behaviorFlags>
-															<caption>Эффект сферы, что мы воскреснем</caption>
-															<consumables />
-															<effect>
-																<Item href="/Summons/Soul/_.EFFT" />
-																<Item href="" />
-															</effect>
-															<enabled>
-																<compiledString></compiledString>
-																<returnType>bool</returnType>
-																<sString>true</sString>
-															</enabled>
-															<flag>0</flag>
-															<formulaName></formulaName>
-															<lifeTime>
-																<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAvw==</compiledString>
-																<returnType>float</returnType>
-																<sString>-1</sString>
-															</lifeTime>
-															<LoggingEvent>-1</LoggingEvent>
-															<providerName></providerName>
-															<startCondition>
-																<compiledString></compiledString>
-																<returnType>bool</returnType>
-																<sString>true</sString>
-															</startCondition>
-															<talents />
-															<useListAs>ListAsRule</useListAs>
-														</FlagsApplicator>
-													</applicator>
-													<continueCondition>
-														<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
-														<returnType>bool</returnType>
-														<sString>0</sString>
-													</continueCondition>
-													<continueEvents>2</continueEvents>
-													<delay>
-														<compiledString></compiledString>
-														<returnType>float</returnType>
-														<sString>-1.0</sString>
-													</delay>
-													<stopCondition>
-														<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
-														<returnType>bool</returnType>
-														<sString>0</sString>
-													</stopCondition>
-													<stopEvents>0</stopEvents>
-												</Item>
-											</applicators>
-											<applyTarget>ApplicatorTarget</applyTarget>
-											<behaviorFlags>155</behaviorFlags>
-											<caption>Программа для эффекта</caption>
-											<effect>
-												<Item href="" />
-												<Item href="" />
-											</effect>
-											<enabled>
-												<compiledString></compiledString>
-												<returnType>bool</returnType>
-												<sString>true</sString>
-											</enabled>
-											<formulaName></formulaName>
-											<lifeTime>
-												<compiledString></compiledString>
-												<returnType>float</returnType>
-												<sString>-1.0</sString>
-											</lifeTime>
-											<LoggingEvent>-1</LoggingEvent>
-											<providerName></providerName>
-											<startCondition>
-												<compiledString>FQgAAAACAAAADQAAACMAAABJc0Nsb25lAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHUUAAADf4PbERHoJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAAAA==</compiledString>
-												<returnType>bool</returnType>
-												<sString>sender.vIsClone == 0</sString>
-											</startCondition>
-										</ProgramApplicator>
-									</Item>
-								</applicators>
-								<dispatch href="/Items/Talents/Level5/G331_Aspd_WillOrStmn.TALENT" id="2649C1D4-D343-4F9D-9246-B49BD87FFA9C">
-									<DispatchImmediate>
-										<alwaysApply>false</alwaysApply>
-										<applyEffect>
-											<Item href="" />
-											<Item href="" />
-										</applyEffect>
-										<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
-										<applyEffectOrientation>Default</applyEffectOrientation>
-										<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
-										<dieAfterApply>true</dieAfterApply>
-										<dispatchEffect>
-											<Item href="" />
-											<Item href="" />
-										</dispatchEffect>
-										<flags>0</flags>
-										<instantApply>true</instantApply>
-									</DispatchImmediate>
-								</dispatch>
-							</Spell>
-						</spell>
-					</EventProcessorOnDeath>
-				</processor>
-				<providerName></providerName>
-				<startCondition>
-					<compiledString>FQgAAAACAAAADQAAACMAAABJc0Nsb25lAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHUUAAADf4PbERHoJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAAAA==</compiledString>
-					<returnType>bool</returnType>
-					<sString>sender.vIsClone == 0</sString>
-				</startCondition>
-				<useAbilityCooldown>true</useAbilityCooldown>
-				<useAbilityOwnerMana>false</useAbilityOwnerMana>
-			</TriggerApplicator>
-		</Item>
 	</passiveApplicators>
 	<persistentId>G331</persistentId>
 	<prerequisiteTalents />
 	<rarity>exclusive</rarity>
-	<requireLineOfSight>false</requireLineOfSight>
+	<requireLineOfSight>true</requireLineOfSight>
 	<shortDescription textref="/Items/Talents/Level5/G331_Aspd_WillOrStmn.TALENT_shortDescription.txt" />
 	<talentRollGroups>63</talentRollGroups>
 	<talentStats />
 	<targetType>0</targetType>
-	<type>Passive</type>
+	<type>Active</type>
 	<upgradeLevel>0</upgradeLevel>
 	<useRange>
 		<compiledString></compiledString>

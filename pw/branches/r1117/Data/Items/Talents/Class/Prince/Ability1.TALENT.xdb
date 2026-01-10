@@ -322,9 +322,9 @@
 					<UnitConstant>
 						<name>A1_Damage</name>
 						<var>
-							<compiledString>FQoAAAADAAAAFQAAAB8AAABzAAAAVEVSUkJPTlVTAFWL7IPsDGoBUdkFmAAAANkcJFHZBZQAAADZHCRqAItFCIsQi00Ii4IwAQAA/9BR2Rwki00IixGLTQiLgjQBAAD/0FHZHCToRwAAAIPEBNkcJGoBi00QixGLTRCLQmD/0ItNDFGLVQhSaAAAAACLRRCLEItNEItCUN1d+P/Q3E342V302UX0i+VdwwAABEIAAHpDVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
+							<compiledString>FR4AAAAHAAAAJQAAAD4AAAB4AAAAggAAALAAAAC+AAAAyAAAAFByaW5jZV9BMV9TVVAAAABQcmluY2VfQTFfU1VQAFWL7IPsFGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdEZqAVHZBRABAADZHCRR2QUMAQAA2RwkagCLVQiLAotNCIuQNAEAAP/SUdkcJGoBi0UQixCLTRCLQmD/0NwNBAEAAN1d8Os+agFR2QUQAQAA2RwkUdkFDAEAANkcJGoAi00IixGLTQiLgjQBAAD/0FHZHCRqAYtNEIsRi00Qi0Jg/9DdXfDdRfDZXezZReyL5V3DAAAAAAAA+D8AAARCAAB6Qw==</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(max(sIntellect, sStrength), 33, 250) * cTERRBONUS</sString>
+							<sString>tal("Prince_A1_SUP") ? 1.5*damageScale(sIntellect, 33, 250) : damageScale(sIntellect, 33, 250)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -421,9 +421,9 @@
 	<isUltimateTalent>false</isUltimateTalent>
 	<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
 	<manaCost>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAACQw==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACCQg==</compiledString>
 		<returnType>float</returnType>
-		<sString>130</sString>
+		<sString>65</sString>
 	</manaCost>
 	<marker>doCast1</marker>
 	<microAI href="/Items/Talents/Class/Prince/Ability1.TALENT" id="A3962C34-23E5-45B3-A56C-F85223843BDF">

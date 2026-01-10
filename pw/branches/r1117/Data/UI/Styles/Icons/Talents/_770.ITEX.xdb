@@ -2,6 +2,7 @@
 <UITexture>
 	<BackLink DBID="/Items/Talents/Level4/G770_Life.TALENT" Count="1" />
 	<BackLink DBID="/Social/Lootboxes/LB_G770" Count="1" />
+	<BackLink DBID="/Items/Talents/TalentKits/Redset7_11_MiniRefresher/spell_G766_RefreshAndNotify.SPLL" Count="1" />
 	<generatedFileName></generatedFileName>
 	<importOnlyShape>false</importOnlyShape>
 	<mipLevels>0</mipLevels>

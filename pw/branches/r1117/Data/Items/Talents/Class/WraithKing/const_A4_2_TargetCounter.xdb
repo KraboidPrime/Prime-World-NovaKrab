@@ -9,8 +9,8 @@
 	<BackLink DBID="/Items/Talents/Class/WraithKing/Ability_A4_2.TALENT" Count="1" />
 	<name>A4_2_TargetCounter</name>
 	<var>
-		<compiledString>FR0AAAACAAAAKAAAAEAAAABBNF8yX1RhcmdldHMAAAAAdGFyZ2V0c0NvdW50AFWL7FFqAotFEFBoAAAAAItNCIsRi00Ii4KcAQAA/9CJRfxoEAAAAItN/IsRi038i0JU/9CL5V3D</compiledString>
+		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 		<returnType>float</returnType>
-		<sString>pFirst-&gt;FindApplicator("A4_2_Targets", pMisc, ABILITY)-&gt;GetVariable("targetsCount")</sString>
+		<sString>0</sString>
 	</var>
 </UnitConstant>

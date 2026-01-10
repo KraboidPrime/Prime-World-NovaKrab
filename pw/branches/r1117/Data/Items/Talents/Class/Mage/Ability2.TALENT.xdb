@@ -16,6 +16,7 @@
 	<BackLink DBID="/Test/Talents/Mage/Elite_Str.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Mage/Epic_Int.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Mage/Epic_Str.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Mage/status_A4_2_DemonForm.APLR" Count="2" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -29,9 +30,9 @@
 	<aoeMaterial href="/Effects/UI/AOESelection/Radius.MTRL" />
 	<aoePassabilityCheckMode>0</aoePassabilityCheckMode>
 	<aoeSize>
-		<compiledString>FSQAAAADAAAAKwAAAEQAAACCAAAATWFnZV9BMl9TVVAATWFnZV9BMl9TVVAAUmFuZ2VfTWVsZWUAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgMAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0H4tVDFKLRQhQaBgAAACLTRCLEYtNEItCUP/Q2V306wXZ7tld9NlF9IvlXcMAAAAA</compiledString>
+		<compiledString>FSQAAAAEAAAAKwAAAEQAAACCAAAAlQAAAE1hZ2VfQTJfU1VQAE1hZ2VfQTJfU1VQAFJhbmdlX01lbGVlAFWL7IPsFGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoDAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdCWLVQxSi0UIUGgYAAAAi00QixGLTRCLQlD/0NwFuAAAAN1d8OsF2e7dXfDdRfDZXezZReyL5V3DAAAAAAAAAAAAAAAAAAAAQA==</compiledString>
 		<returnType>float</returnType>
-		<sString>tal("Mage_A2_SUP") ? cRange_Melee : 0</sString>
+		<sString>tal("Mage_A2_SUP") ? (cRange_Melee+2) : 0</sString>
 	</aoeSize>
 	<aoeType>Disk</aoeType>
 	<applicators>
@@ -674,9 +675,9 @@
 																									<formulaName>StatusHexed</formulaName>
 																									<image href="/UI/Styles/Icons/Heroes/Mage/A2.ITEX" />
 																									<lifeTime>
-																										<compiledString>FRMAAAACAAAAIgAAADwAAABBMl9EdXJhdGlvbgBSZWR1Y2UAVYvsg+wMi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9KLRQxQi00IUWgMAAAAi1UQiwKLTRCLUFDdXfj/0txN+Nld9NlF9IvlXcM=</compiledString>
+																										<compiledString>FQwAAAABAAAAGAAAAEEyX0R1cmF0aW9uAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
 																										<returnType>float</returnType>
-																										<sString>cA2_Duration*cReduce</sString>
+																										<sString>cA2_Duration</sString>
 																									</lifeTime>
 																									<LoggingEvent>-1</LoggingEvent>
 																									<name textref="" />
@@ -895,9 +896,9 @@
 															<flags>1</flags>
 															<mode>Normal</mode>
 															<range>
-																<compiledString>FQwAAAABAAAAGAAAAFJhbmdlX01lbGVlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+																<compiledString>FQwAAAACAAAAGQAAACwAAABSYW5nZV9NZWxlZQBVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcBToAAADZXfzZRfyL5V3DAAAAAAAAAEA=</compiledString>
 																<returnType>float</returnType>
-																<sString>cRange_Melee</sString>
+																<sString>(cRange_Melee+2)</sString>
 															</range>
 															<targetFilter>672137279</targetFilter>
 															<targetSelector href="/Items/Talents/Class/Mage/Ability2.TALENT" id="0EA5EEFF-5A39-4C01-9F07-A8F00384A94B">

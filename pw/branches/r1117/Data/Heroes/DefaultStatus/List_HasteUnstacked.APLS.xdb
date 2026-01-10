@@ -37,5 +37,6 @@
 		<Item href="/Items/Talents/Class/Plane/status_A0.APLR" />
 		<Item href="/Items/Talents/Class/Reaper/status_A2Tech_Haste.APLR" />
 		<Item href="/Items/Talents/Class/Shadow/status_Custom_MS.APLR" />
+		<Item href="/Items/Talents/Class/GhostLord/status_A4_Haste.APLR" />
 	</applicators>
 </ApplicatorsList>

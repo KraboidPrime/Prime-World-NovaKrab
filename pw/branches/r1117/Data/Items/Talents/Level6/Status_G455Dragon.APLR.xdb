@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StatusApplicator>
 	<BackLink DBID="/Items/Talents/Level6/G455_Life_StrOrInt.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Chicken/Ability_A0.TALENT" Count="1" />
 	<applicators>
 		<Item href="/Items/Talents/Level6/Status_G455Dragon.APLR" id="F752C856-826D-4FBA-B400-3595EC949A1B">
 			<StatModApplicator>
@@ -37,7 +38,7 @@
 						<sString>0</sString>
 					</multValue>
 					<stat>Life</stat>
-					<topModifier>false</topModifier>
+					<topModifier>true</topModifier>
 					<variable></variable>
 				</modifier>
 				<providerName></providerName>
@@ -65,7 +66,7 @@
 				</enabled>
 				<formulaName></formulaName>
 				<healTarget>Health</healTarget>
-				<ignoreHealingMods>false</ignoreHealingMods>
+				<ignoreHealingMods>true</ignoreHealingMods>
 				<LoggingEvent>-1</LoggingEvent>
 				<providerName></providerName>
 				<uiEvent href="" />

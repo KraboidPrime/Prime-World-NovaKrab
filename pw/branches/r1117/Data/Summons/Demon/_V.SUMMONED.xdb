@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Summoned>
+	<BackLink DBID="/Heroes/Mage/_.HROB" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Mage/A4_SummonDemon.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Mage/A4_SummonDemonV.APLR" Count="1" />
+	<abilities>
+		<Item href="" />
+		<Item href="/Summons/Demon/_V.SUMMONED" id="2E703AA5-BA36-4E76-AD05-272D3BBFF03A">
+			<Ability>
+				<activeCustomTrigger>true</activeCustomTrigger>
+				<allowChase>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</allowChase>
+				<alternativeTargets />
+				<aoeDisplayOnMinimap>false</aoeDisplayOnMinimap>
+				<aoeHeight>0</aoeHeight>
+				<aoeMaterial href="" />
+				<aoePassabilityCheckMode>0</aoePassabilityCheckMode>
+				<aoeSize>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>0.0f</sString>
+				</aoeSize>
+				<aoeType>None</aoeType>
+				<applicators />
+				<autoTargetSelector href="" />
+				<caption></caption>
+				<castAllowRange>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>0.0f</sString>
+				</castAllowRange>
+				<castLimitations />
+				<commonDescription textref="" />
+				<compiledDescriptionA textref="" />
+				<compiledDescriptionB textref="" />
+				<conditionFormulas />
+				<constants href="/Summons/Demon/_V.SUMMONED" id="F73F241D-E40B-42F8-994D-E8A855BD5436">
+					<UnitConstantsContainer>
+						<vars>
+							<Item href="/Summons/Demon/_V.SUMMONED" id="127D882A-165C-4497-A527-B8890DF26CE2">
+								<UnitConstant>
+									<name>Period</name>
+									<var>
+										<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+										<returnType>float</returnType>
+										<sString>1</sString>
+									</var>
+								</UnitConstant>
+							</Item>
+							<Item href="/Summons/Demon/_V.SUMMONED" id="E246AA5A-139A-4353-A91A-94B14D858756">
+								<UnitConstant>
+									<name>AoE_Damage_Range</name>
+									<var>
+										<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAwQQ==</compiledString>
+										<returnType>float</returnType>
+										<sString>11</sString>
+									</var>
+								</UnitConstant>
+							</Item>
+							<Item href="/Summons/Demon/_V.SUMMONED" id="4B651608-B93F-458D-BC98-904F9C8D2BDE">
+								<UnitConstant>
+									<name>Burn_Damage</name>
+									<var>
+										<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBWMAAADZHCRR2QVfAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJItNCIsRi00Ii4I0AQAA/9BR2Rwk6B8AAACDxATZHCRqAYtNEIsRi00Qi0Jg/9BdwwAAIEEAAJBCVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
+										<returnType>float</returnType>
+										<sString>damageScale( max(sIntellect, sStrength), 10, 72 )</sString>
+									</var>
+								</UnitConstant>
+							</Item>
+							<Item href="/Summons/Demon/_V.SUMMONED" id="77FFA34F-A0C2-41BA-9A20-FACFFDE3931C">
+								<UnitConstant>
+									<name>Burn_Damage_Demon</name>
+									<var>
+										<compiledString>FQAAAAACAAAAMQAAADsAAABVi+yD7AiLRQiLEItNCIuCfAEAAP/QiUX8i00IixGLTQiLgnwBAAD/0IlF+GoBUdkFjgAAANkcJFHZBYoAAADZHCRqAItN/IsRi038i4IwAQAA/9BR2Rwki034ixGLTfiLgjQBAAD/0FHZHCToIQAAAIPEBNkcJGoBi00QixGLTRCLQmD/0IvlXcMAACBBAACQQlWL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
+										<returnType>float</returnType>
+										<sString>damageScale( max(sender.master.Intellect, sender.master.Strength), 10, 72 )</sString>
+									</var>
+								</UnitConstant>
+							</Item>
+						</vars>
+					</UnitConstantsContainer>
+				</constants>
+				<cooldownTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>0.0f</sString>
+				</cooldownTime>
+				<cooldownTimeSecondState>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>0.0f</sString>
+				</cooldownTimeSecondState>
+				<description textref="" />
+				<dispatch href="" />
+				<flags>1</flags>
+				<image href="" />
+				<imageSecondState href="" />
+				<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
+				<manaCost>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>0.0f</sString>
+				</manaCost>
+				<marker></marker>
+				<microAI href="" />
+				<minUseRangeCorrection>0</minUseRangeCorrection>
+				<name textref="" />
+				<node></node>
+				<passiveApplicators>
+					<Item href="/Summons/Demon/_V.SUMMONED" id="D1949B71-EF56-40DD-8EE4-F54EB833417F">
+						<StatusApplicator parent="/Items/Talents/Class/Mage/status_A4u_aura.APLR">
+							<enabled>
+								<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</enabled>
+						</StatusApplicator>
+					</Item>
+				</passiveApplicators>
+				<requireLineOfSight>true</requireLineOfSight>
+				<shortDescription textref="" />
+				<targetType>136258047</targetType>
+				<type>Passive</type>
+				<useRange>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>0.0f</sString>
+				</useRange>
+				<useRangeMaterial href="" />
+				<warFogRemoveRadius>0</warFogRemoveRadius>
+				<warFogRemoveTime>0</warFogRemoveTime>
+			</Ability>
+		</Item>
+		<Item href="" />
+		<Item href="" />
+		<Item href="" />
+	</abilities>
+	<attackAbility href="/Summons/Demon/Attack.ATCK" />
+	<collision>
+		<x1>0</x1>
+		<x2>0</x2>
+		<y1>0</y1>
+		<y2>0</y2>
+	</collision>
+	<creepSkins />
+	<deathParameters href="/GameLogic/Summon.UNDP" />
+	<description textref="/Summons/Demon/_V.SUMMONED_description.txt" />
+	<heightObject>false</heightObject>
+	<image href="/UI/Styles/Icons/Summons/Demon/Face.ITEX" />
+	<interaction href="" />
+	<lockMask>
+		<mask />
+		<tileSize>0.5</tileSize>
+	</lockMask>
+	<minimapIcon>Default</minimapIcon>
+	<minLockScale>0</minLockScale>
+	<nativeAttack>Material</nativeAttack>
+	<nativeDefence>Material</nativeDefence>
+	<normalLevelling>0</normalLevelling>
+	<overtipBarsWidth>0</overtipBarsWidth>
+	<overtipVerticalOffset>0.8</overtipVerticalOffset>
+	<pathFindingSteps>10</pathFindingSteps>
+	<recolor>
+		<A>0</A>
+		<B>0</B>
+		<G>0</G>
+		<R>0</R>
+	</recolor>
+	<rounded>false</rounded>
+	<sceneObject href="/Summons/Demon/_.SOBJ" />
+	<selectionAoe>
+		<Item href="/Summons/Demon/_V.SUMMONED" id="E9C9836B-7854-4A0C-A789-8000D158F6DE">
+			<AoeVisual>
+				<enabled>
+					<compiledString>FRUAAAACAAAARAAAAHAAAABNYWdlX0E0dQAAAABNYWdlX0E0dQBVi+yD7BCLRQiLEItNCIuCfAEAAP/QO0UIdGmLTQiLEYtNCIuCfAEAAP/QiUX8aAAAAACLTfyLEYtN/IuCqAEAAP/QhcB0PYtNCIsRi00Ii4J8AQAA/9CJRfhoDAAAAItN+IsRi034i4KoAQAA/9CJRfSLTfSLEYtN9ItCBP/QiEXz6wTGRfMAikXzi+Vdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>mastertal("Mage_A4u")</sString>
+				</enabled>
+				<material href="/Effects/UI/AOESelection/RadiusSummon.MTRL" />
+				<size>
+					<compiledString>FQwAAAABAAAAEAAAAEE0dUFvRVJhbmdlAFWL7GgAAAAAi0UIixCLTQiLgogBAAD/0F3D</compiledString>
+					<returnType>float</returnType>
+					<sString>sender.vA4uAoERange</sString>
+				</size>
+			</AoeVisual>
+		</Item>
+		<Item href="" />
+	</selectionAoe>
+	<size>2</size>
+	<sizeDynamic>1</sizeDynamic>
+	<stats href="/Summons/Demon/_V.SUMMONED" id="A70F2523-8763-4B99-8825-7352851F976B">
+		<StatsContainer>
+			<stats>
+				<Item>
+					<calcIncrement>0</calcIncrement>
+					<calcValue>0</calcValue>
+					<increment>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>0.0f</sString>
+					</increment>
+					<levelUpgrades />
+					<statId>Life</statId>
+					<value>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQw==</compiledString>
+						<returnType>float</returnType>
+						<sString>200</sString>
+					</value>
+				</Item>
+				<Item>
+					<calcIncrement>0</calcIncrement>
+					<calcValue>0</calcValue>
+					<increment>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>0.0f</sString>
+					</increment>
+					<levelUpgrades />
+					<statId>Range</statId>
+					<value>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
+						<returnType>float</returnType>
+						<sString>3</sString>
+					</value>
+				</Item>
+				<Item>
+					<calcIncrement>0</calcIncrement>
+					<calcValue>0</calcValue>
+					<increment>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>0.0f</sString>
+					</increment>
+					<levelUpgrades />
+					<statId>Strength</statId>
+					<value>
+						<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+						<returnType>float</returnType>
+						<sString>0</sString>
+					</value>
+				</Item>
+				<Item>
+					<calcIncrement>0</calcIncrement>
+					<calcValue>0</calcValue>
+					<increment>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>0.0f</sString>
+					</increment>
+					<levelUpgrades />
+					<statId>Intellect</statId>
+					<value>
+						<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+						<returnType>float</returnType>
+						<sString>0</sString>
+					</value>
+				</Item>
+				<Item>
+					<calcIncrement>0</calcIncrement>
+					<calcValue>0</calcValue>
+					<increment>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>0.0f</sString>
+					</increment>
+					<levelUpgrades />
+					<statId>Dexterity</statId>
+					<value>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQQ==</compiledString>
+						<returnType>float</returnType>
+						<sString>15</sString>
+					</value>
+				</Item>
+				<Item>
+					<calcIncrement>0</calcIncrement>
+					<calcValue>0</calcValue>
+					<increment>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>0.0f</sString>
+					</increment>
+					<levelUpgrades />
+					<statId>AttackSpeed</statId>
+					<value>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAD0Qg==</compiledString>
+						<returnType>float</returnType>
+						<sString>122</sString>
+					</value>
+				</Item>
+				<Item>
+					<calcIncrement>0</calcIncrement>
+					<calcValue>0</calcValue>
+					<increment>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>0.0f</sString>
+					</increment>
+					<levelUpgrades />
+					<statId>Stamina</statId>
+					<value>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQg==</compiledString>
+						<returnType>float</returnType>
+						<sString>60</sString>
+					</value>
+				</Item>
+				<Item>
+					<calcIncrement>0</calcIncrement>
+					<calcValue>0</calcValue>
+					<increment>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>0.0f</sString>
+					</increment>
+					<levelUpgrades />
+					<statId>Will</statId>
+					<value>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQg==</compiledString>
+						<returnType>float</returnType>
+						<sString>60</sString>
+					</value>
+				</Item>
+				<Item>
+					<calcIncrement>0</calcIncrement>
+					<calcValue>0</calcValue>
+					<increment>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>0.0f</sString>
+					</increment>
+					<levelUpgrades />
+					<statId>NaftaSpecForKill</statId>
+					<value>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQg==</compiledString>
+						<returnType>float</returnType>
+						<sString>50</sString>
+					</value>
+				</Item>
+				<Item>
+					<calcIncrement>0</calcIncrement>
+					<calcValue>0</calcValue>
+					<increment>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>0.0f</sString>
+					</increment>
+					<levelUpgrades />
+					<statId>NaftaForKill</statId>
+					<value>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQg==</compiledString>
+						<returnType>float</returnType>
+						<sString>50</sString>
+					</value>
+				</Item>
+				<Item>
+					<calcIncrement>0</calcIncrement>
+					<calcValue>0</calcValue>
+					<increment>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>0.0f</sString>
+					</increment>
+					<levelUpgrades />
+					<statId>MoveSpeed</statId>
+					<value>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQg==</compiledString>
+						<returnType>float</returnType>
+						<sString>80</sString>
+					</value>
+				</Item>
+			</stats>
+		</StatsContainer>
+	</stats>
+	<targetingParams href="/Summons/Demon/TargetParametersDemon.UNTP" />
+</Summoned>

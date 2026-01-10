@@ -5,8 +5,8 @@
 	<BackLink DBID="/Items/Talents/Level6/G561_EnemyAoeDmgStrIntDex.TALENT" Count="1" />
 	<name>G561_AddDamage</name>
 	<var>
-		<compiledString>FQ0AAAACAAAAFAAAAC0AAABHNTYxAAAAAEc1NjEAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgIAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0Is/9CJRfjrB8dF+AEAAACLTfiNVAkfiVX020X0i+Vdww==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAC0Qg==</compiledString>
 		<returnType>float</returnType>
-		<sString>33 + 2 * (getTalentRefineRate("G561", 1) - 1)</sString>
+		<sString>90</sString>
 	</var>
 </UnitConstant>

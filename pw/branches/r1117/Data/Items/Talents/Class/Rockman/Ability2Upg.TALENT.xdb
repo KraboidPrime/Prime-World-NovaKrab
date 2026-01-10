@@ -69,6 +69,16 @@
 						</var>
 					</UnitConstant>
 				</Item>
+				<Item href="/Items/Talents/Class/Rockman/Ability2Upg.TALENT" id="8720F309-E54A-4567-AD79-5E0538992B09">
+					<UnitConstant>
+						<name>TT_Str_R</name>
+						<var>
+							<compiledString>FR8AAAAEAAAAJgAAAD8AAAB+AAAAhAAAAFJvY2ttYW5fQTJfU1VQAABSb2NrbWFuX0EyX1NVUABVi+yD7BBoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AItNCIsRi00Ii4K4AAAA/9DcDakAAADcBaEAAAAPtk37g8EBiU3020X03snZXfDZRfCL5V3DAAAAAAAA8D97FK5H4XqkPw==</compiledString>
+							<returnType>float</returnType>
+							<sString>(0.04*sBaseStrength+1)*(1+tal("Rockman_A2_SUP"))</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

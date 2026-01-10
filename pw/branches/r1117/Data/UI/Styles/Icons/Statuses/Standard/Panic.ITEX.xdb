@@ -3,6 +3,7 @@
 	<BackLink DBID="/Heroes/DefaultStatus/_PANIC_status.APLR" Count="1" />
 	<BackLink DBID="/Heroes/DefaultStatus/_TERROR_status.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Wendigo/Ability4.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A0.TALENT" Count="1" />
 	<generatedFileName></generatedFileName>
 	<importOnlyShape>false</importOnlyShape>
 	<mipLevels>0</mipLevels>

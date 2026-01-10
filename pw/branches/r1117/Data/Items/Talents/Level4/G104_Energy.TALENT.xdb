@@ -51,9 +51,9 @@
 					<UnitConstant>
 						<name>Add_Energy</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAjEMAAJhB</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAMADRA==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(280, 19)</sString>
+							<sString>527</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -131,7 +131,7 @@
 	</passiveApplicators>
 	<persistentId>G104</persistentId>
 	<prerequisiteTalents />
-	<rarity>excellent</rarity>
+	<rarity>magnificent</rarity>
 	<requireLineOfSight>true</requireLineOfSight>
 	<shortDescription textref="/Items/Talents/Level4/G104_Energy.TALENT_shortDescription.txt" />
 	<talentRollGroups>0</talentRollGroups>

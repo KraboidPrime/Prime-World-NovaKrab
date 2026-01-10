@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Level5/G550_CasterStrIntAtSpd.TALENT" Count="1" />
 	<name>G550_AddDamage</name>
 	<var>
-		<compiledString>FQ0AAAACAAAAFAAAAC0AAABHNTUwAAAAAEc1NTAAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgIAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0Is/9CJRfjrB8dF+AEAAACLTfiD6QFryQ+BwdIAAACJTfTbRfSL5V3D</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACWQw==</compiledString>
 		<returnType>float</returnType>
-		<sString>210 + 15 * (getTalentRefineRate("G550", 1) - 1)</sString>
+		<sString>300</sString>
 	</var>
 </UnitConstant>

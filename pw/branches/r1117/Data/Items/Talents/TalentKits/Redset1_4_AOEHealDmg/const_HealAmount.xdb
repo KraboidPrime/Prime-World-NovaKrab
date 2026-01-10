@@ -2,10 +2,11 @@
 <UnitConstant>
 	<BackLink DBID="/Items/Talents/Level5/G467_Life_StaOrWill.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level6/G468_Dex_StaOrWill.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level5/G1003_Satanic.TALENT" Count="1" />
 	<name>HealAmount</name>
 	<var>
-		<compiledString>FQ0AAAACAAAAFAAAAC0AAABHNDY4AAAAAEc0NjgAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgIAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0Is/9CJRfjrB8dF+AEAAACLTfiD6QFryRmBwfoAAACJTfTbRfSL5V3D</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAD6Qw==</compiledString>
 		<returnType>float</returnType>
-		<sString>250 + (getTalentRefineRate("G468", 1) - 1) * 25</sString>
+		<sString>500</sString>
 	</var>
 </UnitConstant>

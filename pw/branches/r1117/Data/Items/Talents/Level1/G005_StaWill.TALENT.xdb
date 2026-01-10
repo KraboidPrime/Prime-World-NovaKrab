@@ -62,9 +62,9 @@
 					<UnitConstant>
 						<name>Add_Stamina</name>
 						<var>
-							<compiledString>FQAAAAAEAAEACQAAABMAAAApAAAAQQAAAIEAAABVi+yD7AhR2QVbAAAA2RwkUdkFVwAAANkcJItFEIsQi00Qi0Js/9DcDU8AAADZXfzZRfxR2Rwk6CMAAACDxATcNU8AAADZXfjZRfiL5V3DAAAAAAAAJECamdk/zczMPVWL7FHZRQjZHCToBQAAAIPEBF3DVYvsUdlFCIPsCN0cJOhv////g8QI2V382UX8i+Vdww==</compiledString>
+							<compiledString>FQAAAAADAAEADwAAACUAAAA9AAAAfQAAAFWL7IPsCFHZ7tkcJFHZBVMAAADZHCSLRRCLEItNEItCbP/Q3A1LAAAA2V382UX8UdkcJOgjAAAAg8QE3DVLAAAA2V342UX4i+VdwwAAAAAAACRAZmamQAAAAABVi+xR2UUI2Rwk6AUAAACDxARdw1WL7FHZRQiD7AjdHCToc////4PECNld/NlF/IvlXcM=</compiledString>
 							<returnType>float</returnType>
-							<sString>floor(refineScale(1.7, 0.1)*10)/10</sString>
+							<sString>floor(refineScale(5.2, 0.0)*10)/10</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -72,9 +72,9 @@
 					<UnitConstant>
 						<name>Add_Will</name>
 						<var>
-							<compiledString>FQAAAAAEAAEACQAAABMAAAApAAAAQQAAAIEAAABVi+yD7AhR2QVbAAAA2RwkUdkFVwAAANkcJItFEIsQi00Qi0Js/9DcDU8AAADZXfzZRfxR2Rwk6CMAAACDxATcNU8AAADZXfjZRfiL5V3DAAAAAAAAJECamdk/zczMPVWL7FHZRQjZHCToBQAAAIPEBF3DVYvsUdlFCIPsCN0cJOhv////g8QI2V382UX8i+Vdww==</compiledString>
+							<compiledString>FQAAAAADAAEADwAAACUAAAA9AAAAfQAAAFWL7IPsCFHZ7tkcJFHZBVMAAADZHCSLRRCLEItNEItCbP/Q3A1LAAAA2V382UX8UdkcJOgjAAAAg8QE3DVLAAAA2V342UX4i+VdwwAAAAAAACRAZmamQAAAAABVi+xR2UUI2Rwk6AUAAACDxARdw1WL7FHZRQiD7AjdHCToc////4PECNld/NlF/IvlXcM=</compiledString>
 							<returnType>float</returnType>
-							<sString>floor(refineScale(1.7, 0.1)*10)/10</sString>
+							<sString>floor(refineScale(5.2, 0.0)*10)/10</sString>
 						</var>
 					</UnitConstant>
 				</Item>

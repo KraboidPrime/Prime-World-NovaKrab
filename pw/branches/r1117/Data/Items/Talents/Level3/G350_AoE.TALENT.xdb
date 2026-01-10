@@ -166,6 +166,152 @@
 											<Item href="/Heroes/DefaultStatus/_TAUNT_status.APLR" />
 											<Item href="/Heroes/DefaultStatus/_MORTALSTRIKE_Status.APLR" />
 											<Item href="/Heroes/DefaultStatus/_SLOW_MOVE.APLR" />
+											<Item href="/Items/Talents/Level3/G350_AoE.TALENT" id="70573BC8-7D2C-4313-AB89-AC51BE2AC5CE">
+												<StatusApplicator>
+													<applicators>
+														<Item href="/Items/Talents/Level3/G350_AoE.TALENT" id="EF2AD092-30DC-4980-BD0A-56D09C9AD59F">
+															<StatModApplicator>
+																<applyTarget>AbilityOwner</applyTarget>
+																<behaviorFlags>0</behaviorFlags>
+																<caption>Стойоксть</caption>
+																<constraint>None</constraint>
+																<dontUpdate>false</dontUpdate>
+																<effect>
+																	<Item href="" />
+																	<Item href="" />
+																</effect>
+																<enabled>
+																	<compiledString></compiledString>
+																	<returnType>bool</returnType>
+																	<sString>true</sString>
+																</enabled>
+																<formulaName></formulaName>
+																<lifeTime>
+																	<compiledString></compiledString>
+																	<returnType>float</returnType>
+																	<sString>-1.0</sString>
+																</lifeTime>
+																<LoggingEvent>-1</LoggingEvent>
+																<modifier>
+																	<addValue>
+																		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQQ==</compiledString>
+																		<returnType>float</returnType>
+																		<sString>25</sString>
+																	</addValue>
+																	<multValue>
+																		<compiledString></compiledString>
+																		<returnType>float</returnType>
+																		<sString>1.0f</sString>
+																	</multValue>
+																	<stat>Stamina</stat>
+																	<topModifier>false</topModifier>
+																	<variable></variable>
+																</modifier>
+																<providerName></providerName>
+																<startCondition>
+																	<compiledString></compiledString>
+																	<returnType>bool</returnType>
+																	<sString>true</sString>
+																</startCondition>
+																<statModName></statModName>
+															</StatModApplicator>
+														</Item>
+														<Item href="/Items/Talents/Level3/G350_AoE.TALENT" id="6D1CFB60-1613-406B-9C94-44B02D4FBF62">
+															<StatModApplicator>
+																<applyTarget>AbilityOwner</applyTarget>
+																<behaviorFlags>0</behaviorFlags>
+																<caption>Воля</caption>
+																<constraint>None</constraint>
+																<dontUpdate>false</dontUpdate>
+																<effect>
+																	<Item href="" />
+																	<Item href="" />
+																</effect>
+																<enabled>
+																	<compiledString></compiledString>
+																	<returnType>bool</returnType>
+																	<sString>true</sString>
+																</enabled>
+																<formulaName></formulaName>
+																<lifeTime>
+																	<compiledString></compiledString>
+																	<returnType>float</returnType>
+																	<sString>-1.0</sString>
+																</lifeTime>
+																<LoggingEvent>-1</LoggingEvent>
+																<modifier>
+																	<addValue>
+																		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQQ==</compiledString>
+																		<returnType>float</returnType>
+																		<sString>25</sString>
+																	</addValue>
+																	<multValue>
+																		<compiledString></compiledString>
+																		<returnType>float</returnType>
+																		<sString>1.0f</sString>
+																	</multValue>
+																	<stat>Will</stat>
+																	<topModifier>false</topModifier>
+																	<variable></variable>
+																</modifier>
+																<providerName></providerName>
+																<startCondition>
+																	<compiledString></compiledString>
+																	<returnType>bool</returnType>
+																	<sString>true</sString>
+																</startCondition>
+																<statModName></statModName>
+															</StatModApplicator>
+														</Item>
+													</applicators>
+													<applyTarget>AbilityOwner</applyTarget>
+													<behaviorFlags>0</behaviorFlags>
+													<caption>дефчики</caption>
+													<customCounter>
+														<compiledString></compiledString>
+														<returnType>int</returnType>
+														<sString>0</sString>
+													</customCounter>
+													<customProgress>
+														<compiledString></compiledString>
+														<returnType>float</returnType>
+														<sString>-1.0</sString>
+													</customProgress>
+													<description textref="/Items/Talents/Level3/G350_AoE.TALENT_70573bc87d2c4313ab89ac51be2ac5ce_description.txt" />
+													<dispellPriority>Medium</dispellPriority>
+													<effect>
+														<Item href="" />
+														<Item href="" />
+													</effect>
+													<enabled>
+														<compiledString>FQwAAAACAAAAEQAAACcAAABHMzU5X0FjdGl2ZQBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1JAAAA3+D2xEF1CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
+														<returnType>bool</returnType>
+														<sString>sender.vG359_Active &gt; 0</sString>
+													</enabled>
+													<flags>64</flags>
+													<formulaName></formulaName>
+													<image href="/UI/Styles/Icons/Talents/_359.ITEX" />
+													<lifeTime>
+														<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAQA==</compiledString>
+														<returnType>float</returnType>
+														<sString>4</sString>
+													</lifeTime>
+													<LoggingEvent>-1</LoggingEvent>
+													<name textref="/Items/Talents/Level3/G350_AoE.TALENT_70573bc87d2c4313ab89ac51be2ac5ce_name.txt" />
+													<power>0</power>
+													<providerName></providerName>
+													<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+													<stackCount>0</stackCount>
+													<startCondition>
+														<compiledString></compiledString>
+														<returnType>bool</returnType>
+														<sString>true</sString>
+													</startCondition>
+													<statusPosition>0</statusPosition>
+													<stopBehaviour>StopByTime</stopBehaviour>
+													<unstackableWith href="" />
+												</StatusApplicator>
+											</Item>
 											<Item href="/Items/Talents/Level3/G350_AoE.TALENT" id="EE335F5E-E9F8-4666-A402-BCC9558C0585">
 												<DamageApplicator>
 													<applyTarget>ApplicatorTarget</applyTarget>
@@ -445,9 +591,9 @@
 					<UnitConstant>
 						<name>Slow_StartCondition</name>
 						<var>
-							<compiledString>FQwAAAACAAAAEQAAACcAAABHMzU5X0FjdGl2ZQBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1JAAAA3+D2xEF1CcdF/AEAAADrB8dF/AAAAADbRfyL5V3DAAAAAAAAAAA=</compiledString>
+							<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 							<returnType>float</returnType>
-							<sString>sender.vG359_Active &gt; 0</sString>
+							<sString>false</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -512,9 +658,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADmQg==</compiledString>
+		<compiledString>FQwAAAACAAAAEQAAACcAAABHMzYxX0FjdGl2ZQBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1JAAAA3+D2xEF1CcdF/IwAAADrB8dF/HMAAADbRfyL5V3DAAAAAAAAAAA=</compiledString>
 		<returnType>float</returnType>
-		<sString>115</sString>
+		<sString>sender.vG361_Active &gt; 0 ? 140 : 115</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>

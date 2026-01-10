@@ -970,9 +970,9 @@
 					<calcIncrement>25</calcIncrement>
 					<calcValue>650</calcValue>
 					<increment>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADYQQ==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAD4QQ==</compiledString>
 						<returnType>float</returnType>
-						<sString>27</sString>
+						<sString>31</sString>
 					</increment>
 					<levelUpgrades />
 					<statId>Life</statId>
@@ -1137,9 +1137,9 @@
 					<levelUpgrades />
 					<statId>MoveSpeed</statId>
 					<value>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQg==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABMQg==</compiledString>
 						<returnType>float</returnType>
-						<sString>50</sString>
+						<sString>51</sString>
 					</value>
 				</Item>
 				<Item>

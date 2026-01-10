@@ -888,9 +888,9 @@
 					<levelUpgrades />
 					<statId>Strength</statId>
 					<value>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQg==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAB4Qg==</compiledString>
 						<returnType>float</returnType>
-						<sString>60</sString>
+						<sString>62</sString>
 					</value>
 				</Item>
 				<Item>
@@ -929,9 +929,9 @@
 					<calcIncrement>0</calcIncrement>
 					<calcValue>50</calcValue>
 					<increment>
-						<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzcxMPg==</compiledString>
 						<returnType>float</returnType>
-						<sString>0</sString>
+						<sString>0.2</sString>
 					</increment>
 					<levelUpgrades />
 					<statId>AttackSpeed</statId>

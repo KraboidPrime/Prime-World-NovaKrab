@@ -6,8 +6,8 @@
 	<BackLink DBID="/Items/Talents/Level3/G605_AttackSpeed.TALENT" Count="1" />
 	<name>TECH_AbilityProc</name>
 	<var>
-		<compiledString>FQ4AAAACAAAAKQAAADwAAABBYmlsaXR5Q2hhbmNlAFWL7IPsCItFDFCLTQhRagFqB4tVDFKLRQhQaAAAAACLTRCLEYtNEItCUP/Q3A1kAAAA2V382UX8UdkcJItNEIsRi00Qi0Jk/9APtsiJTfjbRfiL5V3DexSuR+F6hD8=</compiledString>
+		<compiledString>FQ4AAAACAAAAKQAAADwAAABBYmlsaXR5Q2hhbmNlAFWL7IPsCItFDFCLTQhRagpqCotVDFKLRQhQaAAAAACLTRCLEYtNEItCUP/Q3A1kAAAA2V382UX8UdkcJItNEIsRi00Qi0Jk/9APtsiJTfjbRfiL5V3DexSuR+F6hD8=</compiledString>
 		<returnType>float</returnType>
-		<sString>smartRoll(cAbilityChance*0.01 , 7 , 1)</sString>
+		<sString>smartRoll(cAbilityChance*0.01 , 10 , 10)</sString>
 	</var>
 </UnitConstant>

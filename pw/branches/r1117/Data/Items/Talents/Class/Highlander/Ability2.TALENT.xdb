@@ -85,9 +85,9 @@
 					<UnitConstant>
 						<name>A2Duration</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAQA==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
 							<returnType>float</returnType>
-							<sString>4         ;// stalconst("Highlander_A2u", "A2Duration", 3) - ostavil na vsyakiy sluchay</sString>
+							<sString>5         ;// stalconst("Highlander_A2u", "A2Duration", 3) - ostavil na vsyakiy sluchay</sString>
 						</var>
 					</UnitConstant>
 				</Item>

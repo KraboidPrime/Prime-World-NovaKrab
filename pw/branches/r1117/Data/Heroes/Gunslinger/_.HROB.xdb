@@ -715,9 +715,9 @@
 				<Item href="/Heroes/Gunslinger/_.HROB" id="1107E668-C058-401F-A269-5E52211F9A5B">
 					<SpellSwitchApplicator>
 						<activeSpellIndex>
-							<compiledString>FSYAAAAEAAAAMQAAAEsAAABhAAAAcwAAAEEyQWJpbGl0eU9uAEhlcm9fUmFnZQAAAEd1bnNsaW5nZXJfQTQAVYvsUWoBi0UQUGgAAAAAi00IixGLTQiLgpwBAAD/0DtFEHRLaAwAAACLTQiLEYtNCIuCiAEAAP/Q3B2jAAAA3+D2xEF1KWoBi00QUWgYAAAAi1UIiwKLTQiLkJwBAAD/0jtFEHUJx0X8AQAAAOsHx0X8AAAAAItF/IvlXcMAAAAAAAAAAA==</compiledString>
+							<compiledString>FRYAAAADAAAAIQAAADsAAABRAAAAQTJBYmlsaXR5T24ASGVyb19SYWdlAFWL7FFqAYtFEFBoAAAAAItNCIsRi00Ii4KcAQAA/9A7RRB0K2gMAAAAi00IixGLTQiLgogBAAD/0NwdcwAAAN/g9sRBdQnHRfwBAAAA6wfHRfwAAAAAi0X8i+VdwwAAAAAAAAAA</compiledString>
 							<returnType>int</returnType>
-							<sString>(sender.applA2AbilityOn(UNIT) != pMisc &amp;&amp; sender.vHero_Rage &gt; 0 &amp;&amp; sender.applGunslinger_A4(UNIT) == pMisc) ? 1 : 0</sString>
+							<sString>(sender.applA2AbilityOn(UNIT) != pMisc &amp;&amp; sender.vHero_Rage &gt; 0) ? 1 : 0</sString>
 						</activeSpellIndex>
 						<applyTarget>ApplicatorTarget</applyTarget>
 						<caption>выбор выстрела: обычный или большой</caption>
@@ -876,7 +876,7 @@
 											<ProgramApplicator>
 												<applicators>
 													<Item>
-														<applicator href="/Heroes/Gunslinger/_.HROB" id="73FD0AA2-A09B-490E-B21C-089C16DCE7C9">
+														<applicator href="/Heroes/Gunslinger/_.HROB" id="DA92817F-7956-4377-B03F-122C913F213E">
 															<DamageApplicator>
 																<applyTarget>ApplicatorTarget</applyTarget>
 																<cancelInvisibility>false</cancelInvisibility>
@@ -889,9 +889,52 @@
 																<damageMode>0</damageMode>
 																<damageType>Energy</damageType>
 																<enabled>
-																	<compiledString></compiledString>
+																	<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgrgAAAD/0ItNCIsRi00Ii4K8AAAA3V34/9DcXfjf4PbEBXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
 																	<returnType>bool</returnType>
-																	<sString>true</sString>
+																	<sString>sBaseStrength &gt; sBaseIntellect</sString>
+																</enabled>
+																<formulaName></formulaName>
+																<LoggingEvent>-1</LoggingEvent>
+																<providerName></providerName>
+																<timeLimiter>-1</timeLimiter>
+																<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Energy.UIEV" />
+															</DamageApplicator>
+														</applicator>
+														<continueCondition>
+															<compiledString></compiledString>
+															<returnType>bool</returnType>
+															<sString>0</sString>
+														</continueCondition>
+														<continueEvents>2</continueEvents>
+														<delay>
+															<compiledString></compiledString>
+															<returnType>float</returnType>
+															<sString>-1.0</sString>
+														</delay>
+														<stopCondition>
+															<compiledString></compiledString>
+															<returnType>bool</returnType>
+															<sString>0</sString>
+														</stopCondition>
+														<stopEvents>0</stopEvents>
+													</Item>
+													<Item>
+														<applicator href="/Heroes/Gunslinger/_.HROB" id="AB7330C9-7F2E-4E37-AA47-C61FCA267E26">
+															<DamageApplicator>
+																<applyTarget>ApplicatorTarget</applyTarget>
+																<cancelInvisibility>false</cancelInvisibility>
+																<caption>Урон</caption>
+																<damage>
+																	<compiledString>FQ4AAAABAAAAGgAAAEEyX1NVUF9EYW1hZ2UAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+																	<returnType>float</returnType>
+																	<sString>cA2_SUP_Damage</sString>
+																</damage>
+																<damageMode>8</damageMode>
+																<damageType>Energy</damageType>
+																<enabled>
+																	<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgrgAAAD/0ItNCIsRi00Ii4K8AAAA3V34/9DcXfjf4PbEAXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+																	<returnType>bool</returnType>
+																	<sString>sBaseStrength &lt;= sBaseIntellect</sString>
 																</enabled>
 																<formulaName></formulaName>
 																<LoggingEvent>-1</LoggingEvent>
@@ -1207,9 +1250,52 @@
 																<damageMode>0</damageMode>
 																<damageType>Energy</damageType>
 																<enabled>
-																	<compiledString></compiledString>
+																	<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgrgAAAD/0ItNCIsRi00Ii4K8AAAA3V34/9DcXfjf4PbEBXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
 																	<returnType>bool</returnType>
-																	<sString>true</sString>
+																	<sString>sBaseStrength &gt; sBaseIntellect</sString>
+																</enabled>
+																<formulaName></formulaName>
+																<LoggingEvent>-1</LoggingEvent>
+																<providerName></providerName>
+																<timeLimiter>-1</timeLimiter>
+																<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Energy.UIEV" />
+															</DamageApplicator>
+														</applicator>
+														<continueCondition>
+															<compiledString></compiledString>
+															<returnType>bool</returnType>
+															<sString>0</sString>
+														</continueCondition>
+														<continueEvents>2</continueEvents>
+														<delay>
+															<compiledString></compiledString>
+															<returnType>float</returnType>
+															<sString>-1.0</sString>
+														</delay>
+														<stopCondition>
+															<compiledString></compiledString>
+															<returnType>bool</returnType>
+															<sString>0</sString>
+														</stopCondition>
+														<stopEvents>0</stopEvents>
+													</Item>
+													<Item>
+														<applicator href="/Heroes/Gunslinger/_.HROB" id="62036D04-1B76-4CF3-8BDF-6AC6385430B3">
+															<DamageApplicator>
+																<applyTarget>ApplicatorTarget</applyTarget>
+																<cancelInvisibility>false</cancelInvisibility>
+																<caption>Урон</caption>
+																<damage>
+																	<compiledString>FQ4AAAABAAAAGgAAAEEyX1NVUF9EYW1hZ2UAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+																	<returnType>float</returnType>
+																	<sString>cA2_SUP_Damage</sString>
+																</damage>
+																<damageMode>8</damageMode>
+																<damageType>Energy</damageType>
+																<enabled>
+																	<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgrgAAAD/0ItNCIsRi00Ii4K8AAAA3V34/9DcXfjf4PbEAXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+																	<returnType>bool</returnType>
+																	<sString>sBaseStrength &lt;= sBaseIntellect</sString>
 																</enabled>
 																<formulaName></formulaName>
 																<LoggingEvent>-1</LoggingEvent>
@@ -1440,9 +1526,9 @@
 							<UnitConstant>
 								<name>ReduceCondition</name>
 								<var>
-									<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+									<compiledString>FRAAAAACAAAAFQAAACsAAABHdW5zbGluZ2VyQTR5dXAAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdTQAAAN/g9sREegnHRfwBAAAA6wfHRfwAAAAA20X8i+VdwwAAAAAAAAAA</compiledString>
 									<returnType>float</returnType>
-									<sString>true</sString>
+									<sString>sender.vGunslingerA4yup == 0</sString>
 								</var>
 							</UnitConstant>
 						</Item>
@@ -1687,9 +1773,9 @@
 					<calcIncrement>25</calcIncrement>
 					<calcValue>650</calcValue>
 					<increment>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAEQg==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAQQg==</compiledString>
 						<returnType>float</returnType>
-						<sString>33</sString>
+						<sString>36</sString>
 					</increment>
 					<levelUpgrades />
 					<statId>Life</statId>

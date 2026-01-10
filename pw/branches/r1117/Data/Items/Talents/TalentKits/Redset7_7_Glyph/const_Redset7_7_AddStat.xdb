@@ -8,8 +8,8 @@
 	<BackLink DBID="/Items/Talents/Level2/G738_StrOrInt.TALENT" Count="1" />
 	<name>Add_Stat_RedSet</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADgQA==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABgQQ==</compiledString>
 		<returnType>float</returnType>
-		<sString>7</sString>
+		<sString>14</sString>
 	</var>
 </UnitConstant>

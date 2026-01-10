@@ -58,9 +58,9 @@
 					<UnitConstant>
 						<name>Add_Str_Base</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCvAAAAP/QUdkcJGoAi00QixGLTRCLQmD/0F3DMzPzP2ZmdkE=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCvAAAAP/QUdkcJGoAi00QixGLTRCLQmD/0F3DMzMTQAAAlEE=</compiledString>
 							<returnType>float</returnType>
-							<sString>abilityScale( sBaseIntellect, 1.9f, 15.4f )</sString>
+							<sString>abilityScale( sBaseIntellect, 2.3f, 18.5f )</sString>
 						</var>
 					</UnitConstant>
 				</Item>

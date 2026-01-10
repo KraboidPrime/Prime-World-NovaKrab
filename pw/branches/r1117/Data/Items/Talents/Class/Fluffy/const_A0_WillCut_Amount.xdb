@@ -3,10 +3,11 @@
 	<BackLink DBID="/Items/Talents/Class/Fluffy/Ability_A4_2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Fluffy/Ability_A0.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Fluffy/Ability_A4_2u.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Fluffy/Ability_A4.TALENT" Count="1" />
 	<name>WillCut_Amount</name>
 	<var>
-		<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBWMAAADZHCRR2QVfAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJItNCIsRi00Ii4I0AQAA/9BR2Rwk6B8AAACDxATZHCRqAItNEIsRi00Qi0Jg/9BdwwAAgEAAAMhBVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
+		<compiledString>FR4AAAAGAAAAJQAAAD4AAAB4AAAAggAAANcAAADhAAAARmx1ZmZ5X0ExX1NVUAAAAEZsdWZmeV9BMV9TVVAAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0X2oBUdkFQgEAANkcJFHZBT4BAADZHCRqAItVCIsCi00Ii5AwAQAA/9JR2Rwki0UIixCLTQiLgjQBAAD/0FHZHCTojgAAAIPEBNkcJGoAi00QixGLTRCLQmD/0Nld9OtdagFR2QU6AQAA2RwkUdkFNgEAANkcJGoAi00IixGLTQiLgjABAAD/0FHZHCSLTQiLEYtNCIuCNAEAAP/QUdkcJOgvAAAAg8QE2RwkagCLTRCLEYtNEItCYP/Q2V302UX0i+VdwwAAgEAAAMhBAACgQAAA8EFVi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
 		<returnType>float</returnType>
-		<sString>abilityScale( max(sIntellect, sStrength), 4, 25)</sString>
+		<sString>tal("Fluffy_A1_SUP") ? abilityScale( max(sIntellect, sStrength), 5, 30) : abilityScale( max(sIntellect, sStrength), 4, 25)</sString>
 	</var>
 </UnitConstant>

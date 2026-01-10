@@ -1,0 +1,612 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Talent>
+	<BackLink DBID="/Items/Talents/Primevoker.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A1u.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A2u.TALENT" Count="1" />
+	<activationConditions />
+	<activeCustomTrigger>true</activeCustomTrigger>
+	<allowChase>
+		<compiledString></compiledString>
+		<returnType>bool</returnType>
+		<sString>true</sString>
+	</allowChase>
+	<alternativeTargets />
+	<aoeDisplayOnMinimap>false</aoeDisplayOnMinimap>
+	<aoeHeight>0</aoeHeight>
+	<aoeMaterial href="" />
+	<aoePassabilityCheckMode>0</aoePassabilityCheckMode>
+	<aoeSize>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</aoeSize>
+	<aoeType>None</aoeType>
+	<applicators>
+		<Item href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="278616B7-B521-46A7-A0B9-B682FE7EC6AA">
+			<SpellSwitchApplicator>
+				<activeSpellIndex>
+					<compiledString>FQ0AAAACAAAAEgAAACgAAABQcmltZXZva2VyQTIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdSgAAAN/g9sREegnHRfwAAAAA6wfHRfwBAAAAi0X8i+VdwwAAAAAAAFlA</compiledString>
+					<returnType>int</returnType>
+					<sString>sender.vPrimevokerA2 == 100.0f ? 0 : 1</sString>
+				</activeSpellIndex>
+				<applyTarget>AbilityOwner</applyTarget>
+				<caption></caption>
+				<dontUseDispatches>true</dontUseDispatches>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<spells>
+					<Item href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="72695E33-75DD-46D4-90FF-B302736A6D21">
+						<Spell>
+							<applicators>
+								<Item href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="C26AA486-8C44-49E6-B577-681F0F105F4A">
+									<PermanentStatModApplicator>
+										<applyTarget>AbilityOwner</applyTarget>
+										<caption>свет</caption>
+										<customApplyType>None</customApplyType>
+										<enabled>
+											<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</enabled>
+										<formulaName></formulaName>
+										<LoggingEvent>-1</LoggingEvent>
+										<modifier>
+											<addValue>
+												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQw==</compiledString>
+												<returnType>float</returnType>
+												<sString>200.0f</sString>
+											</addValue>
+											<multValue>
+												<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+												<returnType>float</returnType>
+												<sString>0.0f</sString>
+											</multValue>
+											<stat>Life</stat>
+											<topModifier>true</topModifier>
+											<variable>PrimevokerA2</variable>
+										</modifier>
+										<providerName></providerName>
+									</PermanentStatModApplicator>
+								</Item>
+							</applicators>
+							<dispatch href="" />
+						</Spell>
+					</Item>
+					<Item href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="608DC0A5-C0CC-49F7-8C1A-0BF9F6389317">
+						<Spell>
+							<applicators>
+								<Item href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="E3528BD5-4FCF-4B30-B272-863619552267">
+									<PermanentStatModApplicator>
+										<applyTarget>AbilityOwner</applyTarget>
+										<caption>тьма</caption>
+										<customApplyType>None</customApplyType>
+										<enabled>
+											<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</enabled>
+										<formulaName></formulaName>
+										<LoggingEvent>-1</LoggingEvent>
+										<modifier>
+											<addValue>
+												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQg==</compiledString>
+												<returnType>float</returnType>
+												<sString>100.0f</sString>
+											</addValue>
+											<multValue>
+												<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+												<returnType>float</returnType>
+												<sString>0.0f</sString>
+											</multValue>
+											<stat>Life</stat>
+											<topModifier>true</topModifier>
+											<variable>PrimevokerA2</variable>
+										</modifier>
+										<providerName></providerName>
+									</PermanentStatModApplicator>
+								</Item>
+							</applicators>
+							<dispatch href="" />
+						</Spell>
+					</Item>
+				</spells>
+			</SpellSwitchApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="1828D459-75EB-4E08-A1D7-7DF0D390A51F">
+			<RefreshCooldownApplicator>
+				<allowCdIncrease>false</allowCdIncrease>
+				<applyTarget>AbilityOwner</applyTarget>
+				<caption></caption>
+				<enabled>
+					<compiledString>FR8AAAACAAAAJgAAAD8AAABQcmltZXZva2VyX0EwdQAAUHJpbWV2b2tlcl9BMHUAVYvsg+wIaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wCKRfuL5V3D</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("Primevoker_A0u")</sString>
+				</enabled>
+				<flags>128</flags>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<reduceByPercent>false</reduceByPercent>
+				<reductionAmount>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0f</sString>
+				</reductionAmount>
+				<refreshThis>false</refreshThis>
+				<talents>
+					<Item href="/Items/Talents/Class/Primevoker/Ability_A0.TALENT" />
+				</talents>
+				<useListAs>ListAsRule</useListAs>
+			</RefreshCooldownApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="834EE348-6253-466B-8231-77456B290EF8">
+			<PermanentStatModApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<caption></caption>
+				<customApplyType>None</customApplyType>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>0.0f</sString>
+					</addValue>
+					<multValue>
+						<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+						<returnType>float</returnType>
+						<sString>0.0f</sString>
+					</multValue>
+					<stat>Life</stat>
+					<topModifier>false</topModifier>
+					<variable>A2VokerRef</variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+	</applicators>
+	<askId>0</askId>
+	<autoTargetSelector href="" />
+	<budget>-1</budget>
+	<caption>A2. Свет и тьма</caption>
+	<castAllowRange>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</castAllowRange>
+	<castLimitations />
+	<commonDescription textref="/Items/Talents/Class/Primevoker/Ability_A2.TALENT_commonDescription.txt" />
+	<compiledDescriptionA textref="" />
+	<compiledDescriptionB textref="" />
+	<conditionFormulas>
+		<Item href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="BE41FDC3-DA89-4487-960D-B73FBF83687C">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FR8AAAACAAAAJgAAAD8AAABQcmltZXZva2VyX0EydQAAUHJpbWV2b2tlcl9BMnUAVYvsg+wIaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtkX799gbwIPAAYvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("Primevoker_A2u") == false</sString>
+				</condition>
+				<name>Primevoker_A2u</name>
+			</ConditionFormula>
+		</Item>
+	</conditionFormulas>
+	<conflictingTalents />
+	<constants href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="36E5AF6D-197B-4940-9830-2CDA73D458DE">
+		<UnitConstantsContainer>
+			<vars>
+				<Item href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="B2FB7021-49F7-418D-B40F-4EC0550D8362">
+					<UnitConstant>
+						<name>VokerStat</name>
+						<var>
+							<compiledString>FUEAAAAFAAAASAAAAGEAAACXAAAAqQAAAMIAAABWb2tlclN0YXRfVFQAAAAAQTJWb2tlclJlZgAAUHJpbWV2b2tlcl9BMVNVUAAAAABQcmltZXZva2VyX0ExU1VQAFWL7IPsGGgcAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoMAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAi00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ/9BoEAAAAItNCIsRi00Ii4KIAQAA3V3w/9DcDesAAAAPtk37iU3s20Xs3snZ6N7B3E3w2V3o2UXoi+VdwwAAAAAAAPA/MzMzMzMz0z8=</compiledString>
+							<returnType>float</returnType>
+							<sString>cVokerStat_TT*(1+0.3*sender.vA2VokerRef*tal("Primevoker_A1SUP"))</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="889467DA-4485-4A8D-8632-DB2927C5961B">
+					<UnitConstant>
+						<name>VokerStat_TT</name>
+						<var>
+							<compiledString>FQAAAAACAAAAsgAAALgAAABVi+xRi0UIixCLTQiLgswAAAD/0FHZHCSLTQiLEYtNCIuCyAAAAP/QUdkcJOilAAAAg8QE2Rwki00IixGLTQiLgowAAAD/0FHZHCSLTQiLEYtNCIuCwAAAAP/QUdkcJOhyAAAAg8QE2Rwki00IixGLTQiLgrgAAAD/0FHZHCSLTQiLEYtNCIuCvAAAAP/QUdkcJOg/AAAAg8QE2Rwk6DQAAACDxATZHCToKQAAAIPECNwNzgAAANwFxgAAANld/NlF/IvlXcMAAAAAAAAYQLgehetRuK4/VYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
+							<returnType>float</returnType>
+							<sString>0.06*max(max(max(sBaseIntellect,sBaseStrength),max(sBaseDexterity,sBaseAttackSpeed)),max(sBaseStamina,sBaseWill))+6</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="4EDAB8B5-C8DF-4AE3-92E0-F7E2B5091C5F">
+					<UnitConstant>
+						<name>VockerCD</name>
+						<var>
+							<compiledString>FQsAAAABAAAAEAAAAFZva2VyVWx0Q0QAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0Nno3uHZXfzZRfyL5V3DAAAAAAAA8D8=</compiledString>
+							<returnType>float</returnType>
+							<sString>1.0f-sender.vVokerUltCD</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+			</vars>
+		</UnitConstantsContainer>
+	</constants>
+	<consumptionBonus>
+		<constant>0</constant>
+		<percent>0</percent>
+	</consumptionBonus>
+	<cooldownTime>
+		<compiledString>FTEAAAAFAAAAOAAAAFEAAACHAAAAmgAAAKoAAABWb2NrZXJDRAAAAABQcmltZXZva2VyX0EyU1VQAAAAAFByaW1ldm9rZXJfQTJTVVAAVYvsg+wQaAwAAACLRQiLEItNCIuCqAEAAP/QhcB0KmggAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wCLTQxRi1UIUmgAAAAAi0UQixCLTRCLQlD/0NwNzgAAAA+2TfuJTfTbRfTcDcYAAADZ6N7h3snZXfDZRfCL5V3DAAAAAAAA8D8AAAAAAADgPwAAAAAAADJA</compiledString>
+		<returnType>float</returnType>
+		<sString>cVockerCD*18.0f*(1-0.5*tal("Primevoker_A2SUP"))</sString>
+	</cooldownTime>
+	<cooldownTimeSecondState>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</cooldownTimeSecondState>
+	<description textref="/Items/Talents/Class/Primevoker/Ability_A2.TALENT_description.txt" />
+	<devPoints>1</devPoints>
+	<dispatch href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="5D644493-0775-4974-B417-1823F2DFA7AF">
+		<DispatchImmediate>
+			<alwaysApply>false</alwaysApply>
+			<applyEffect>
+				<Item href="" />
+				<Item href="" />
+			</applyEffect>
+			<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+			<applyEffectOrientation>Default</applyEffectOrientation>
+			<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+			<dieAfterApply>true</dieAfterApply>
+			<dispatchEffect>
+				<Item href="" />
+				<Item href="" />
+			</dispatchEffect>
+			<flags>0</flags>
+			<instantApply>true</instantApply>
+		</DispatchImmediate>
+	</dispatch>
+	<flags>18</flags>
+	<forceBonus>0</forceBonus>
+	<image href="/UI/Styles/Icons/Heroes/Primevoker/tal1.ITEX" />
+	<imageSecondState href="" />
+	<isGenderTalent>false</isGenderTalent>
+	<isTakenOnStart>false</isTakenOnStart>
+	<isUltimateTalent>false</isUltimateTalent>
+	<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
+	<manaCost>
+		<compiledString>FSUAAAAEAAAALAAAAEUAAAB+AAAAiAAAAFByaW1ldm9rZXJfQTJTVVAAAAAAUHJpbWV2b2tlcl9BMlNVUABVi+yD7BBoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBQAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuJTfTbRfTcDaYAAADZ6N7h3A2WAAAA2V3w2UXwi+VdwwAAAAAAAFlAAAAAAAAA8D8fhetRuB7lPw==</compiledString>
+		<returnType>float</returnType>
+		<sString>100.0f*(1-0.66*tal("Primevoker_A2SUP"))</sString>
+	</manaCost>
+	<marker></marker>
+	<microAI href="" />
+	<minLevel>0</minLevel>
+	<minUseRangeCorrection>0</minUseRangeCorrection>
+	<naftaCost>300</naftaCost>
+	<name textref="/Items/Talents/Class/Primevoker/Ability_A2.TALENT_name.txt" />
+	<node></node>
+	<passiveApplicators>
+		<Item href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="3F0E93AD-FA9C-425C-8B43-F175FF03FEBA">
+			<StatusApplicator>
+				<applicators />
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>Тьма</caption>
+				<customCounter>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</customCounter>
+				<customProgress>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</customProgress>
+				<description textref="/Items/Talents/Class/Primevoker/Ability_A2.TALENT_3f0e93adfa9c425c8b43f175ff03feba_description.txt" />
+				<dispellPriority>NonDispellable</dispellPriority>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FQ0AAAACAAAAEgAAACgAAABQcmltZXZva2VyQTIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdSgAAAN/g9sREegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAFlA</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vPrimevokerA2 == 100.0f</sString>
+				</enabled>
+				<flags>64</flags>
+				<formulaName></formulaName>
+				<image href="/UI/Styles/Icons/Heroes/Primevoker/dark.ITEX" />
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<name textref="/Items/Talents/Class/Primevoker/Ability_A2.TALENT_3f0e93adfa9c425c8b43f175ff03feba_name.txt" />
+				<power>0</power>
+				<providerName></providerName>
+				<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+				<stackCount>0</stackCount>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statusPosition>-99</statusPosition>
+				<stopBehaviour>StopByTime</stopBehaviour>
+				<unstackableWith href="" />
+			</StatusApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="C6B3FBBA-CABA-4182-B41B-22998F85A3BB">
+			<StatusApplicator>
+				<applicators />
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>Свет</caption>
+				<customCounter>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</customCounter>
+				<customProgress>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</customProgress>
+				<description textref="/Items/Talents/Class/Primevoker/Ability_A2.TALENT_c6b3fbbacaba4182b41b22998f85a3bb_description.txt" />
+				<dispellPriority>NonDispellable</dispellPriority>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FQ0AAAACAAAAEgAAACgAAABQcmltZXZva2VyQTIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdSgAAAN/g9sREegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAGlA</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vPrimevokerA2 == 200.0f</sString>
+				</enabled>
+				<flags>64</flags>
+				<formulaName></formulaName>
+				<image href="/UI/Styles/Icons/Heroes/Primevoker/light.ITEX" />
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<name textref="/Items/Talents/Class/Primevoker/Ability_A2.TALENT_c6b3fbbacaba4182b41b22998f85a3bb_name.txt" />
+				<power>0</power>
+				<providerName></providerName>
+				<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+				<stackCount>0</stackCount>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statusPosition>-99</statusPosition>
+				<stopBehaviour>StopByTime</stopBehaviour>
+				<unstackableWith href="" />
+			</StatusApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="0B7E4D09-C6EE-49A6-ACD2-23153557C15D">
+			<SpellPeriodicallyApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>152</behaviorFlags>
+				<caption>стаки кд и статов</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FQsAAAACAAAAEAAAACYAAABBMlZva2VyUmVmAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHUgAAADf4PbEBXoJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAMQA==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vA2VokerRef &lt; 3.5</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<period>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
+					<returnType>float</returnType>
+					<sString>10.0f</sString>
+				</period>
+				<providerName></providerName>
+				<scaleMode>ScaleIsCount</scaleMode>
+				<spell href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="ABF3D765-A022-41E4-9403-298C7BEAF717">
+					<Spell>
+						<applicators>
+							<Item href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="4DA95DAE-BF08-4099-9D80-2F3230975917">
+								<PermanentStatModApplicator>
+									<applyTarget>AbilityOwner</applyTarget>
+									<caption></caption>
+									<customApplyType>None</customApplyType>
+									<enabled>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<LoggingEvent>-1</LoggingEvent>
+									<modifier>
+										<addValue>
+											<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+											<returnType>float</returnType>
+											<sString>1.0f</sString>
+										</addValue>
+										<multValue>
+											<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+											<returnType>float</returnType>
+											<sString>1.0f</sString>
+										</multValue>
+										<stat>Life</stat>
+										<topModifier>false</topModifier>
+										<variable>A2VokerRef</variable>
+									</modifier>
+									<providerName></providerName>
+								</PermanentStatModApplicator>
+							</Item>
+						</applicators>
+						<dispatch href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="87155963-76E0-424E-BF4E-093A48927C14">
+							<DispatchImmediate>
+								<alwaysApply>false</alwaysApply>
+								<applyEffect>
+									<Item href="" />
+									<Item href="" />
+								</applyEffect>
+								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+								<applyEffectOrientation>Default</applyEffectOrientation>
+								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+								<dieAfterApply>true</dieAfterApply>
+								<dispatchEffect>
+									<Item href="" />
+									<Item href="" />
+								</dispatchEffect>
+								<flags>0</flags>
+								<instantApply>false</instantApply>
+							</DispatchImmediate>
+						</dispatch>
+					</Spell>
+				</spell>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<startOffset>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
+					<returnType>float</returnType>
+					<sString>10.0f</sString>
+				</startOffset>
+				<targetSelector href="" />
+			</SpellPeriodicallyApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="032F98CE-1F10-4035-89D6-B96DA8D36FF9">
+			<StatModApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>стойкость</caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FS8AAAAEAAAANgAAAEwAAABYAAAAcQAAAFByaW1ldm9rZXJBMgAAAABQcmltZXZva2VyX0EydQAAUHJpbWV2b2tlcl9BMnUAVYvsg+wMaAAAAACLRQiLEItNCIuCiAEAAP/Q3B29AAAA3+D2xER6WGgQAAAAi00IixGLTQiLgqgBAAD/0IXAdCpoIAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdAnHRfQBAAAA6wfHRfQAAAAAikX0i+VdwwAAAAAAAFlA</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vPrimevokerA2 == 100.0f &amp;&amp; tal("Primevoker_A2u")</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQoAAAABAAAAFgAAAFZva2VyU3RhdABVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+						<returnType>float</returnType>
+						<sString>cVokerStat</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Stamina</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="3807AD2A-87E6-442D-A8A2-F33C0D8BCBEE">
+			<StatModApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>воля</caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FS8AAAAEAAAANgAAAEwAAABYAAAAcQAAAFByaW1ldm9rZXJBMgAAAABQcmltZXZva2VyX0EydQAAUHJpbWV2b2tlcl9BMnUAVYvsg+wMaAAAAACLRQiLEItNCIuCiAEAAP/Q3B29AAAA3+D2xER6WGgQAAAAi00IixGLTQiLgqgBAAD/0IXAdCpoIAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdAnHRfQBAAAA6wfHRfQAAAAAikX0i+VdwwAAAAAAAGlA</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vPrimevokerA2 == 200.0f &amp;&amp; tal("Primevoker_A2u")</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQoAAAABAAAAFgAAAFZva2VyU3RhdABVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+						<returnType>float</returnType>
+						<sString>cVokerStat</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Will</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/TalentKits/Redset7_11_MiniRefresher/trigger_G766_RefreshAndNotify.APLR" />
+	</passiveApplicators>
+	<persistentId>Primevoker_A2</persistentId>
+	<prerequisiteTalents />
+	<rarity>Class</rarity>
+	<requireLineOfSight>true</requireLineOfSight>
+	<shortDescription textref="/Items/Talents/Class/Primevoker/Ability_A2.TALENT_shortDescription.txt" />
+	<talentRollGroups>63</talentRollGroups>
+	<talentStats />
+	<targetType>0</targetType>
+	<type>Active</type>
+	<upgradeLevel>0</upgradeLevel>
+	<useRange>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</useRange>
+	<useRangeMaterial href="" />
+	<variativeMaxTalentStats />
+	<variativeMinTalentStats />
+	<vendorCost>0</vendorCost>
+	<warFogRemoveRadius>0</warFogRemoveRadius>
+	<warFogRemoveTime>0</warFogRemoveTime>
+</Talent>

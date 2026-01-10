@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Talent>
 	<BackLink DBID="/Social.ROOT" Count="1" />
-	<BackLink DBID="/GameLogic/AILogic.AILP" Count="1" />
+	<BackLink DBID="/GameLogic/AILogic.AILP" Count="2" />
 	<BackLink DBID="/Items/RerollShop/TalentsList_Executor" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset7_10_Buthcer/Redset7_10_Butcher.TALKIT" Count="2" />
 	<BackLink DBID="/Social/TalentsCollection" Count="2" />
@@ -330,6 +330,36 @@
 				</startCondition>
 				<statModName></statModName>
 			</StatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level3/G758_SrtOrInt.TALENT" id="B17DD2E1-3192-4CF8-9FD3-7F455D046A2A">
+			<PermanentStatModApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<caption></caption>
+				<customApplyType>None</customApplyType>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADgQA==</compiledString>
+						<returnType>float</returnType>
+						<sString>7.0f</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>AttackSpeed</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
 		</Item>
 	</passiveApplicators>
 	<persistentId>G758</persistentId>

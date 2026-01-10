@@ -97,9 +97,9 @@
 			<flags>0</flags>
 			<mode>Normal</mode>
 			<range>
-				<compiledString>FQkAAAABAAAAFQAAAEE0X1JhbmdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+				<compiledString>FQkAAAACAAAAFgAAACkAAABBNF9SYW5nZQBVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcBTcAAADZXfzZRfyL5V3DAAAAAAAAFEA=</compiledString>
 				<returnType>float</returnType>
-				<sString>cA4_Range</sString>
+				<sString>cA4_Range+5</sString>
 			</range>
 			<targetFilter>672923711</targetFilter>
 			<targetSelector href="" />

@@ -404,9 +404,9 @@
 					<UnitConstant>
 						<name>A3_ShieldAmount</name>
 						<var>
-							<compiledString>FRcAAAAHAAAAHgAAADQAAABIAAAAWwAAAGEAAAB0AAAAfgAAAEE0XzJfQWN0aXZlAEE0XzJfUG93ZXIAVYvsg+wMaAAAAACLRQiLEItNCIuCiAEAAP/Q3B3HAAAA3+D2xER6K4tNDFGLVQhSaAwAAACLRRCLEItNEItCUP/Q3DW/AAAA3AXHAAAA3V346wXZ6N1d+GoBUdkFuwAAANkcJFHZBbcAAADZHCRqAItNCIsRi00Ii4I4AQAA/9BR2RwkagGLTRCLEYtNEItCYP/Q3E342V302UX0i+VdwwAAyEIAgDtEAAAAAAAAWUAAAAAAAADwPw==</compiledString>
+							<compiledString>FRcAAAAHAAAAHgAAADQAAABIAAAAWwAAAGEAAAB0AAAAfgAAAEE0XzJfQWN0aXZlAEE0XzJfUG93ZXIAVYvsg+wMaAAAAACLRQiLEItNCIuCiAEAAP/Q3B3HAAAA3+D2xER6K4tNDFGLVQhSaAwAAACLRRCLEItNEItCUP/Q3DW/AAAA3AXHAAAA3V346wXZ6N1d+GoBUdkFuwAAANkcJFHZBbcAAADZHCRqAItNCIsRi00Ii4I4AQAA/9BR2RwkagGLTRCLEYtNEItCYP/Q3E342V302UX0i+VdwwAAtEIAwChEAAAAAAAAWUAAAAAAAADwPw==</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale( sDexterity, 100, 750 ) * (sender.vA4_2_Active == 1 ? cA4_2_Power/100 + 1 : 1)</sString>
+							<sString>damageScale( sDexterity, 90, 675 ) * (sender.vA4_2_Active == 1 ? cA4_2_Power/100 + 1 : 1)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -414,9 +414,9 @@
 					<UnitConstant>
 						<name>A3_ShieldAmount_TT</name>
 						<var>
-							<compiledString>FRcAAAAHAAAAHgAAADQAAABIAAAAWwAAAGEAAAB0AAAAfgAAAEE0XzJfQWN0aXZlAEE0XzJfUG93ZXIAVYvsg+wMaAAAAACLRQiLEItNCIuCiAEAAP/Q3B3HAAAA3+D2xER6K4tNDFGLVQhSaAwAAACLRRCLEItNEItCUP/Q3DW/AAAA3AXHAAAA3V346wXZ6N1d+GoBUdkFuwAAANkcJFHZBbcAAADZHCRqAItNCIsRi00Ii4I4AQAA/9BR2RwkagGLTRCLEYtNEItCYP/Q3E342V302UX0i+VdwwAAyEIAgDtEAAAAAAAAWUAAAAAAAADwPw==</compiledString>
+							<compiledString>FRcAAAAHAAAAHgAAADQAAABIAAAAWwAAAGEAAAB0AAAAfgAAAEE0XzJfQWN0aXZlAEE0XzJfUG93ZXIAVYvsg+wMaAAAAACLRQiLEItNCIuCiAEAAP/Q3B3HAAAA3+D2xER6K4tNDFGLVQhSaAwAAACLRRCLEItNEItCUP/Q3DW/AAAA3AXHAAAA3V346wXZ6N1d+GoBUdkFuwAAANkcJFHZBbcAAADZHCRqAItNCIsRi00Ii4I4AQAA/9BR2RwkagGLTRCLEYtNEItCYP/Q3E342V302UX0i+VdwwAAtEIAwChEAAAAAAAAWUAAAAAAAADwPw==</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale( sDexterity, 100, 750 ) * (sender.vA4_2_Active == 1 ? cA4_2_Power/100 + 1 : 1)</sString>
+							<sString>damageScale( sDexterity, 90, 675 ) * (sender.vA4_2_Active == 1 ? cA4_2_Power/100 + 1 : 1)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -424,9 +424,9 @@
 					<UnitConstant>
 						<name>A3_ShieldAmount_TT_Castle</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCOAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAADIQgCAO0Q=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCOAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAC0QgDAKEQ=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale( sDexterity, 100, 750 )</sString>
+							<sString>damageScale( sDexterity, 90, 675 )</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -434,9 +434,9 @@
 					<UnitConstant>
 						<name>A3_HealAmount</name>
 						<var>
-							<compiledString>FRMAAAAHAAAAGgAAADAAAABEAAAAVwAAAF0AAABwAAAAegAAAEEzX0E0XzIAQTRfMl9Qb3dlcgBVi+yD7AxoAAAAAItFCIsQi00Ii4KIAQAA/9DcHcMAAADf4PbERHori00MUYtVCFJoCAAAAItFEIsQi00Qi0JQ/9DcNbsAAADcBcMAAADdXfjrBdno3V34agFR2QW3AAAA2RwkUdkFswAAANkcJGoAi00IixGLTQiLgjQBAAD/0FHZHCRqAYtNEIsRi00Qi0Jg/9DcTfjZXfTZRfSL5V3DAABAQgAAtEMAAAAAAABZQAAAAAAAAPA/</compiledString>
+							<compiledString>FRMAAAAHAAAAGgAAADAAAABEAAAAVwAAAF0AAABwAAAAegAAAEEzX0E0XzIAQTRfMl9Qb3dlcgBVi+yD7AxoAAAAAItFCIsQi00Ii4KIAQAA/9DcHcMAAADf4PbERHori00MUYtVCFJoCAAAAItFEIsQi00Qi0JQ/9DcNbsAAADcBcMAAADdXfjrBdno3V34agFR2QW3AAAA2RwkUdkFswAAANkcJGoAi00IixGLTQiLgjQBAAD/0FHZHCRqAYtNEIsRi00Qi0Jg/9DcTfjZXfTZRfSL5V3DAAAsQgAAokMAAAAAAABZQAAAAAAAAPA/</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale( sIntellect, 48, 360 ) * (sender.vA3_A4_2 == 1 ? cA4_2_Power/100 + 1 : 1)</sString>
+							<sString>damageScale( sIntellect, 43, 324 ) * (sender.vA3_A4_2 == 1 ? cA4_2_Power/100 + 1 : 1)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -444,9 +444,9 @@
 					<UnitConstant>
 						<name>A3_HealAmount_TT</name>
 						<var>
-							<compiledString>FRcAAAAHAAAAHgAAADQAAABIAAAAWwAAAGEAAAB0AAAAfgAAAEE0XzJfQWN0aXZlAEE0XzJfUG93ZXIAVYvsg+wMaAAAAACLRQiLEItNCIuCiAEAAP/Q3B3HAAAA3+D2xER6K4tNDFGLVQhSaAwAAACLRRCLEItNEItCUP/Q3DW/AAAA3AXHAAAA3V346wXZ6N1d+GoBUdkFuwAAANkcJFHZBbcAAADZHCRqAItNCIsRi00Ii4I0AQAA/9BR2RwkagGLTRCLEYtNEItCYP/Q3E342V302UX0i+VdwwAAQEIAALRDAAAAAAAAWUAAAAAAAADwPw==</compiledString>
+							<compiledString>FRcAAAAHAAAAHgAAADQAAABIAAAAWwAAAGEAAAB0AAAAfgAAAEE0XzJfQWN0aXZlAEE0XzJfUG93ZXIAVYvsg+wMaAAAAACLRQiLEItNCIuCiAEAAP/Q3B3HAAAA3+D2xER6K4tNDFGLVQhSaAwAAACLRRCLEItNEItCUP/Q3DW/AAAA3AXHAAAA3V346wXZ6N1d+GoBUdkFuwAAANkcJFHZBbcAAADZHCRqAItNCIsRi00Ii4I0AQAA/9BR2RwkagGLTRCLEYtNEItCYP/Q3E342V302UX0i+VdwwAALEIAAKJDAAAAAAAAWUAAAAAAAADwPw==</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale( sIntellect, 48, 360 ) * (sender.vA4_2_Active == 1 ? cA4_2_Power/100 + 1 : 1)</sString>
+							<sString>damageScale( sIntellect, 43, 324 ) * (sender.vA4_2_Active == 1 ? cA4_2_Power/100 + 1 : 1)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -454,9 +454,9 @@
 					<UnitConstant>
 						<name>A3_HealAmount_TT_Castle</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAABAQgAAtEM=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAAsQgAAokM=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale( sIntellect, 48, 360 )</sString>
+							<sString>damageScale( sIntellect, 43, 324 )</sString>
 						</var>
 					</UnitConstant>
 				</Item>

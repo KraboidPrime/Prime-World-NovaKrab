@@ -353,5 +353,20 @@
 				</Item>
 			</subLayouts>
 		</state>
+		<state name="ClientDataCorrupted">
+			<subLayouts>
+				<Item href="/UI/Screens/NetworkStatus/Window.IMGLBL" id="22F84C43-D79D-44C0-8BD4-38189A022CDA">
+					<UIImageLabelLayout parent="/UI/Screens/NetworkStatus/Window.IMGLBL:C8BD6C3A-2283-4C88-AA34-9A95469ED435">
+						<captionText textref="/UI/Screens/NetworkStatus/Window.IMGLBL_22f84c43d79d44c08bd438189a022cda_captionText.txt" />
+						<fontStyle>red</fontStyle>
+					</UIImageLabelLayout>
+				</Item>
+				<Item href="/UI/Screens/NetworkStatus/Window.IMGLBL" id="17B6FBF8-B829-4E3F-867B-10652A3D8D37">
+					<UIButtonLayout parent="/UI/Screens/NetworkStatus/Window.IMGLBL:CC0231E3-6CB0-4379-A9AD-07714FC42504">
+						<name>QuitButton</name>
+					</UIButtonLayout>
+				</Item>
+			</subLayouts>
+		</state>
 	</__states>
 </UIImageLabelLayout>

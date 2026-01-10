@@ -102,6 +102,16 @@
 						</var>
 					</UnitConstant>
 				</Item>
+				<Item href="/Items/Talents/Level5/G524_Sta_StrOrInt.TALENT" id="7E831EAC-BC08-4856-A2D6-140E2AE4D283">
+					<UnitConstant>
+						<name>G525cd</name>
+						<var>
+							<compiledString>FQAAAAAAAAAAVYvsi0UQixCLTRCLQjz/0F3D</compiledString>
+							<returnType>float</returnType>
+							<sString>mCooldown</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
@@ -110,9 +120,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQg==</compiledString>
 		<returnType>float</returnType>
-		<sString>0</sString>
+		<sString>120</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>
@@ -122,7 +132,7 @@
 	<description textref="/Items/Talents/Level5/G524_Sta_StrOrInt.TALENT_description.txt" />
 	<devPoints>1</devPoints>
 	<dispatch href="" />
-	<flags>1</flags>
+	<flags>17</flags>
 	<forceBonus>0</forceBonus>
 	<image href="/UI/Styles/Icons/Talents/_524.ITEX" />
 	<imageSecondState href="" />
@@ -149,9 +159,9 @@
 				<caption>Add_Stamina</caption>
 				<customApplyType>None</customApplyType>
 				<enabled>
-					<compiledString></compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgsgAAAD/0ItNCIsRi00Ii4LMAAAA3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
 					<returnType>bool</returnType>
-					<sString>true</sString>
+					<sString>sBaseStamina &gt;= sBaseWill</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<LoggingEvent>-1</LoggingEvent>
@@ -294,11 +304,312 @@
 				<providerName></providerName>
 			</PermanentStatModApplicator>
 		</Item>
+		<Item href="/Items/Talents/Level5/G524_Sta_StrOrInt.TALENT" id="6F56E9C8-4363-405E-8BB7-956EAE0019B3">
+			<PermanentStatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>Add_Will</caption>
+				<customApplyType>None</customApplyType>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgsgAAAD/0ItNCIsRi00Ii4LMAAAA3V34/9DcXfjf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sBaseStamina &lt; sBaseWill</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQwAAAABAAAAGAAAAEFkZF9TdGFtaW5hAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+						<returnType>float</returnType>
+						<sString>cAdd_Stamina</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Will</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level5/G524_Sta_StrOrInt.TALENT" id="9B4F6159-F732-4D9B-AA50-95CF4CC6C208">
+			<TriggerApplicator>
+				<actionsCount>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</actionsCount>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>триггер</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FRsAAAAEAAAAIAAAADYAAABCAAAAWAAAAEc1MjRfQWN0aXZlAEc1MjRfY29ycmVjdG9yAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHXoAAADf4PbEQXUraAwAAACLTQiLEYtNCIuCiAEAAP/Q3B16AAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vG524_Active &gt; 0 &amp;&amp; sender.vG524_corrector == 0.0f</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<playAck>false</playAck>
+				<processor href="/Items/Talents/Level5/G524_Sta_StrOrInt.TALENT" id="57675E97-A2AB-44A6-8969-C203C5DF4DAC">
+					<EventProcessorCondition>
+						<applyTarget>AbilityOwner</applyTarget>
+						<condition>
+							<compiledString>FQsAAAACAAAAEAAAACYAAABHNTI0X1BJUk9HAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHUgAAADf4PbERHsJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAAAA==</compiledString>
+							<returnType>bool</returnType>
+							<sString>sender.vG524_PIROG != 0.0f</sString>
+						</condition>
+						<events>8192</events>
+						<onlyParent>false</onlyParent>
+						<spell href="/Items/Talents/Level5/G524_Sta_StrOrInt.TALENT" id="E5A092D4-2300-4511-83E0-013ED259B7B3">
+							<Spell>
+								<applicators>
+									<Item href="/Items/Talents/Level5/G524_Sta_StrOrInt.TALENT" id="3670330F-D2B6-4B64-B137-350E794F4232">
+										<StatusApplicator>
+											<applicators>
+												<Item href="/Items/Talents/Level5/G524_Sta_StrOrInt.TALENT" id="92FB3A37-8571-4339-B0F3-6F68F95192C9">
+													<StatModApplicator>
+														<applyTarget>AbilityOwner</applyTarget>
+														<behaviorFlags>219</behaviorFlags>
+														<caption></caption>
+														<constraint>None</constraint>
+														<dontUpdate>false</dontUpdate>
+														<effect>
+															<Item href="" />
+															<Item href="" />
+														</effect>
+														<enabled>
+															<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+															<returnType>bool</returnType>
+															<sString>true</sString>
+														</enabled>
+														<formulaName></formulaName>
+														<lifeTime>
+															<compiledString></compiledString>
+															<returnType>float</returnType>
+															<sString>-1.0</sString>
+														</lifeTime>
+														<LoggingEvent>-1</LoggingEvent>
+														<modifier>
+															<addValue>
+																<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+																<returnType>float</returnType>
+																<sString>1.0f</sString>
+															</addValue>
+															<multValue>
+																<compiledString></compiledString>
+																<returnType>float</returnType>
+																<sString>1.0f</sString>
+															</multValue>
+															<stat>Life</stat>
+															<topModifier>false</topModifier>
+															<variable>G524_PIROG</variable>
+														</modifier>
+														<providerName></providerName>
+														<startCondition>
+															<compiledString></compiledString>
+															<returnType>bool</returnType>
+															<sString>true</sString>
+														</startCondition>
+														<statModName></statModName>
+													</StatModApplicator>
+												</Item>
+											</applicators>
+											<applyTarget>AbilityOwner</applyTarget>
+											<behaviorFlags>219</behaviorFlags>
+											<caption></caption>
+											<customCounter>
+												<compiledString></compiledString>
+												<returnType>int</returnType>
+												<sString>0</sString>
+											</customCounter>
+											<customProgress>
+												<compiledString></compiledString>
+												<returnType>float</returnType>
+												<sString>-1.0</sString>
+											</customProgress>
+											<description textref="/Items/Talents/Level5/G524_Sta_StrOrInt.TALENT_3670330fd2b64b64b137350e794f4232_description.txt" />
+											<dispellPriority>NonDispellable</dispellPriority>
+											<effect>
+												<Item href="" />
+												<Item href="" />
+											</effect>
+											<enabled>
+												<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</enabled>
+											<flags>2</flags>
+											<formulaName></formulaName>
+											<image href="/UI/Styles/Icons/Talents/_524.ITEX" />
+											<lifeTime>
+												<compiledString>FQAAAAAAAAAAVYvsi0UQixCLTRCLQjz/0F3D</compiledString>
+												<returnType>float</returnType>
+												<sString>mCooldown</sString>
+											</lifeTime>
+											<LoggingEvent>-1</LoggingEvent>
+											<name textref="/Items/Talents/Level5/G524_Sta_StrOrInt.TALENT_3670330fd2b64b64b137350e794f4232_name.txt" />
+											<power>0</power>
+											<providerName></providerName>
+											<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+											<stackCount>0</stackCount>
+											<startCondition>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</startCondition>
+											<statusPosition>0</statusPosition>
+											<stopBehaviour>StopByTime</stopBehaviour>
+											<unstackableWith href="" />
+										</StatusApplicator>
+									</Item>
+									<Item href="/Items/Talents/Level5/G524_Sta_StrOrInt.TALENT" id="4E3C3D5C-C4AE-4F6B-9A44-E867B42B9C4F">
+										<StatModApplicator>
+											<applyTarget>AbilityOwner</applyTarget>
+											<behaviorFlags>216</behaviorFlags>
+											<caption></caption>
+											<constraint>None</constraint>
+											<dontUpdate>false</dontUpdate>
+											<effect>
+												<Item href="" />
+												<Item href="" />
+											</effect>
+											<enabled>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</enabled>
+											<formulaName></formulaName>
+											<lifeTime>
+												<compiledString>FQAAAAABAAAAEwAAAFWL7FGLRRCLEItNEItCPP/Q3AUhAAAA2V382UX8i+VdwwAAAKCZmbk/</compiledString>
+												<returnType>float</returnType>
+												<sString>mCooldown + 0.1f</sString>
+											</lifeTime>
+											<LoggingEvent>-1</LoggingEvent>
+											<modifier>
+												<addValue>
+													<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+													<returnType>float</returnType>
+													<sString>1.0f</sString>
+												</addValue>
+												<multValue>
+													<compiledString></compiledString>
+													<returnType>float</returnType>
+													<sString>1.0f</sString>
+												</multValue>
+												<stat>Life</stat>
+												<topModifier>false</topModifier>
+												<variable>G524_corrector</variable>
+											</modifier>
+											<providerName></providerName>
+											<startCondition>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</startCondition>
+											<statModName></statModName>
+										</StatModApplicator>
+									</Item>
+								</applicators>
+								<dispatch href="/Items/Talents/Level5/G524_Sta_StrOrInt.TALENT" id="2679AD4A-27CF-4E42-8899-51F29D270AA7">
+									<DispatchImmediate>
+										<alwaysApply>false</alwaysApply>
+										<applyEffect>
+											<Item href="" />
+											<Item href="" />
+										</applyEffect>
+										<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+										<applyEffectOrientation>Default</applyEffectOrientation>
+										<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+										<dieAfterApply>true</dieAfterApply>
+										<dispatchEffect>
+											<Item href="" />
+											<Item href="" />
+										</dispatchEffect>
+										<flags>0</flags>
+										<instantApply>false</instantApply>
+									</DispatchImmediate>
+								</dispatch>
+							</Spell>
+						</spell>
+					</EventProcessorCondition>
+				</processor>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<useAbilityCooldown>true</useAbilityCooldown>
+				<useAbilityOwnerMana>false</useAbilityOwnerMana>
+			</TriggerApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level5/G524_Sta_StrOrInt.TALENT" id="099FCBB0-9EF7-43B7-A664-A761147DA82E">
+			<StatusApplicator>
+				<applicators />
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>пустой статус бафа</caption>
+				<customCounter>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</customCounter>
+				<customProgress>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</customProgress>
+				<description textref="/Items/Talents/Level5/G524_Sta_StrOrInt.TALENT_099fcbb09ef743b7a664a761147da82e_description.txt" />
+				<dispellPriority>NonDispellable</dispellPriority>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FRgAAAAEAAAAHQAAADMAAAA/AAAAVQAAAEc1MjRfUElST0cAAEc1MjRfQWN0aXZlAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHXcAAADf4PbERHoraAwAAACLTQiLEYtNCIuCiAEAAP/Q3B13AAAA3+D2xEF1CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vG524_PIROG == 0.0f &amp;&amp; sender.vG524_Active &gt; 0</sString>
+				</enabled>
+				<flags>0</flags>
+				<formulaName></formulaName>
+				<image href="/UI/Styles/Icons/Talents/_524.ITEX" />
+				<lifeTime>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAvw==</compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<name textref="/Items/Talents/Level5/G524_Sta_StrOrInt.TALENT_099fcbb09ef743b7a664a761147da82e_name.txt" />
+				<power>0</power>
+				<providerName></providerName>
+				<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+				<stackCount>0</stackCount>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statusPosition>0</statusPosition>
+				<stopBehaviour>StopByTime</stopBehaviour>
+				<unstackableWith href="" />
+			</StatusApplicator>
+		</Item>
 	</passiveApplicators>
 	<persistentId>G524</persistentId>
 	<prerequisiteTalents />
 	<rarity>outstanding</rarity>
-	<requireLineOfSight>true</requireLineOfSight>
+	<requireLineOfSight>false</requireLineOfSight>
 	<shortDescription textref="" />
 	<talentRollGroups>16</talentRollGroups>
 	<talentStats />

@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Level1/G520_StrOrInt.TALENT" Count="1" />
 	<name>Haste_Percent</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQQ==</compiledString>
+		<compiledString>FQwAAAACAAAAEQAAACcAAABHNTI1X0FjdGl2ZQBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1JAAAA3+D2xEF1CcdF/DIAAADrB8dF/B4AAADbRfyL5V3DAAAAAAAAAAA=</compiledString>
 		<returnType>float</returnType>
-		<sString>30</sString>
+		<sString>sender.vG525_Active &gt; 0 ? 50 : 30</sString>
 	</var>
 </UnitConstant>

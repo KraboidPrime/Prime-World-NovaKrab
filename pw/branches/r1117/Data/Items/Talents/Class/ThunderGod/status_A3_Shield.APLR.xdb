@@ -50,7 +50,7 @@
 		<returnType>float</returnType>
 		<sString>-1.0</sString>
 	</customProgress>
-	<description textref="/Items/Talents/Class/ThunderGod/status_A3_Shield.APLR_description.txt" />
+	<description textref="" />
 	<dispellPriority>Medium</dispellPriority>
 	<effect>
 		<Item href="/Effects/Buffs/Defence/_LightningBlue.EFFT" />
@@ -63,14 +63,14 @@
 	</enabled>
 	<flags>1</flags>
 	<formulaName></formulaName>
-	<image href="/UI/Styles/Icons/Heroes/ThunderGod/A3.ITEX" />
+	<image href="" />
 	<lifeTime>
 		<compiledString>FQwAAAABAAAAGAAAAEEzX2R1cmF0aW9uAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
 		<returnType>float</returnType>
 		<sString>cA3_duration</sString>
 	</lifeTime>
 	<LoggingEvent>-1</LoggingEvent>
-	<name textref="/Items/Talents/Class/ThunderGod/status_A3_Shield.APLR_name.txt" />
+	<name textref="" />
 	<power>0</power>
 	<providerName></providerName>
 	<stackableAcrossUnits>Unstackable</stackableAcrossUnits>

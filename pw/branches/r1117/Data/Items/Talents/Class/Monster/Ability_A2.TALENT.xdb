@@ -246,6 +246,16 @@
 						</var>
 					</UnitConstant>
 				</Item>
+				<Item href="/Items/Talents/Class/Monster/Ability_A2.TALENT" id="26345309-D366-419B-B650-04CDF09B5B0E">
+					<UnitConstant>
+						<name>Ya_Ustal</name>
+						<var>
+							<compiledString>FQ4AAAACAAAAGwAAAC4AAABBMl9BZGRfQXRrU3BkAFWL7FGLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0twNPAAAANld/NlF/IvlXcMAAAAAAAAAQA==</compiledString>
+							<returnType>float</returnType>
+							<sString>2*cA2_Add_AtkSpd</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
@@ -723,6 +733,53 @@
 			</FlagsApplicator>
 		</Item>
 		<Item href="/Items/Talents/Class/Monster/status_A2u_AuraSlow.APLR" />
+		<Item href="/Items/Talents/Class/Monster/Ability_A2.TALENT" id="87734D3A-E26E-4F85-AA14-A8CBCA1E42AF">
+			<StatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>Базовый баф проворки</caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FRgAAAACAAAAHwAAADgAAABNb25zdGVyX0EydQBNb25zdGVyX0EydQBVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaAwAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AIpF+4vlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("Monster_A2u")</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQ4AAAABAAAAGgAAAEEyX0FkZF9BdGtTcGQAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+						<returnType>float</returnType>
+						<sString>cA2_Add_AtkSpd</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>AttackSpeed</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
+		</Item>
 	</passiveApplicators>
 	<persistentId>Monster_A2</persistentId>
 	<prerequisiteTalents />

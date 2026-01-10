@@ -8,7 +8,7 @@
 		<sString>0</sString>
 	</actionsCount>
 	<applyTarget>ApplicatorTarget</applyTarget>
-	<behaviorFlags>0</behaviorFlags>
+	<behaviorFlags>144</behaviorFlags>
 	<caption>Триггер на 1 хп</caption>
 	<effect>
 		<Item href="" />
@@ -46,9 +46,9 @@
 								<cancelInvisibility>false</cancelInvisibility>
 								<caption>Добивающий урон</caption>
 								<damage>
-									<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+									<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAEAcRg==</compiledString>
 									<returnType>float</returnType>
-									<sString>1.0f</sString>
+									<sString>10000.0f</sString>
 								</damage>
 								<damageMode>0</damageMode>
 								<damageType>Pure</damageType>

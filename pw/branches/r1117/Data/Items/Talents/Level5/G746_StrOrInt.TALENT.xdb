@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Talent>
 	<BackLink DBID="/Social.ROOT" Count="1" />
-	<BackLink DBID="/GameLogic/AILogic.AILP" Count="1" />
+	<BackLink DBID="/GameLogic/AILogic.AILP" Count="2" />
 	<BackLink DBID="/GameLogic/TalentGroup.TGRP" Count="1" />
 	<BackLink DBID="/Items/RerollShop/TalentsList_Dejavu" Count="1" />
 	<BackLink DBID="/Items/Talents/Level5/G746_StrOrInt.TALENT" Count="1" />
@@ -374,9 +374,9 @@
 					<UnitConstant>
 						<name>StoredShieldAmount</name>
 						<var>
-							<compiledString>FSAAAAADAAAAJwAAAFYAAABvAAAARzc0Nl9EYW1hZ2VUYWtlbgAAAABHNzQ2X1NoaWVsZABVi+yD7BBoAAAAAItFCIsQi00Ii4KIAQAA/9BR2Rwk6EEAAACDxASJRfzbRfyLTQxRi1UIUmgUAAAAi0UQixCLTRCLQlDdXfT/0NxN9Nw1fQAAANld8NlF8IvlXcMAAAAAAABZQLgBAAAAD6L3wgAAAAR0B/MPLEQkBMPpAAAAAFWL7IPsDNlFCNl9/A+3RfwNAAwAAIlF+Nlt+Ntd9Nlt/ItF9IvlXcM=</compiledString>
+							<compiledString>FSAAAAAEAAAANQAAAEQAAABzAAAAjAAAAEc3NDZfRGFtYWdlVGFrZW4AAAAARzc0Nl9TaGllbGQAVYvsg+wUi0UIixCLTQiLQgz/0NwNrgAAANld/NlF/FHZHCRoAAAAAItNCIsRi00Ii4KIAQAA/9BR2Rwk6H0AAACDxASJRfjbRfiLTQxRi1UIUmgUAAAAi0UQixCLTRCLQlDdXfD/0NxN8Nw1pgAAANld7NlF7FHZHCToFwAAAIPECIvlXcMAAAAAAABZQAAAAAAAAOA/VYvsUdlFCNlFDN7Z3+D2xEF1CNlFCNld/OsG2UUM2V382UX8i+Vdw7gBAAAAD6L3wgAAAAR0B/MPLEQkBMPpAAAAAFWL7IPsDNlFCNl9/A+3RfwNAAwAAIlF+Nlt+Ntd9Nlt/ItF9IvlXcM=</compiledString>
 							<returnType>float</returnType>
-							<sString>f2l(sender.vG746_DamageTaken) * cG746_Shield/100</sString>
+							<sString>min(f2l(sender.vG746_DamageTaken) * cG746_Shield/100, 0.5*sMaxLife)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

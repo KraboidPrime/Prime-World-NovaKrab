@@ -4,8 +4,8 @@
 	<BackLink DBID="/Heroes/BladeDancer/_.HROB" Count="1" />
 	<name>A1_BaseDamage</name>
 	<var>
-		<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAABkQgCA1EM=</compiledString>
+		<compiledString>FREAAAAGAAAAHgAAADwAAABGAAAAdAAAAIIAAACMAAAAQmxhZGVEYW5jZXJfTWFyawBVi+yD7AxqAYtFEFBoAAAAAItNCIsRi00Ii4KcAQAA/9A7RRB0RmoBUdkF1AAAANkcJFHZBdAAAADZHCRqAItNCIsRi00Ii4I0AQAA/9BR2RwkagGLTRCLEYtNEItCYP/Q3A3IAAAA3V346z5qAVHZBdQAAADZHCRR2QXQAAAA2RwkagCLTQiLEYtNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0N1d+N1F+Nld9NlF9IvlXcMAAAAAAAD4PwAAZEIAgNRD</compiledString>
 		<returnType>float</returnType>
-		<sString>damageScale(sIntellect, 57, 425)</sString>
+		<sString>(sender.applBladeDancer_Mark(UNIT) != pMisc) ? 1.5*damageScale(sIntellect, 57, 425) : damageScale(sIntellect, 57, 425)</sString>
 	</var>
 </UnitConstant>

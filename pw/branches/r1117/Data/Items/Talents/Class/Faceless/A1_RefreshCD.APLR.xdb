@@ -13,11 +13,11 @@
 	<formulaName></formulaName>
 	<LoggingEvent>-1</LoggingEvent>
 	<providerName></providerName>
-	<reduceByPercent>false</reduceByPercent>
+	<reduceByPercent>true</reduceByPercent>
 	<reductionAmount>
-		<compiledString></compiledString>
+		<compiledString>FQAAAAACAAAABwAAACAAAABVi+xRUdkFQgAAANkcJItFCIsQi00Ii4IQAQAA/9DcNToAAADZXfzZRfxR2Rwk6BMAAACDxAiL5V3DAAAAAAAAWUDNzEw/VYvsUdlFCNlFDN7Z3+D2xEF1CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
 		<returnType>float</returnType>
-		<sString>-1.0f</sString>
+		<sString>min(sCritChance/100, 0.8)</sString>
 	</reductionAmount>
 	<refreshThis>false</refreshThis>
 	<talents>

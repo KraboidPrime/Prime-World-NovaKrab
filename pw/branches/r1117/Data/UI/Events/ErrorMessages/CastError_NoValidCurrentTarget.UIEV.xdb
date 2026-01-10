@@ -10,13 +10,14 @@
 	<BackLink DBID="/Items/Talents/Class/Witch/Ability_A1.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Witch/Ability_A4.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/WraithKing/Ability_A2.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Level3/G328_AoERegEnergy.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level3/G476_StrOrInt.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level4/G217-StoneStun.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level4/G659_StoneStun_Red.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level5/G313_K_maxStrInt_LifeDrain.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level6/G291_TeleportBackToCaster.ABLT" Count="1" />
 	<BackLink DBID="/Maps/PvE/Series/Coop1/Heroes/ManaWyrm/Ability4.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Healer/Ability1.TALENT" Count="1" />
+	<BackLink DBID="/Items/Consumables/KU-StickNew.ARCT" Count="1" />
 	<signRecipients>PLAYER_ONLY</signRecipients>
 	<UISigns>
 		<Item href="/UI/Events/ErrorMessages/CastError_NoValidCurrentTarget.UIEV" id="96C49B2E-A72D-44D9-8350-F44C37763F49">

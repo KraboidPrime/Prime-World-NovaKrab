@@ -103,7 +103,7 @@
 							<Item href="" />
 						</effect>
 						<enabled>
-							<compiledString></compiledString>
+							<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
 							<returnType>bool</returnType>
 							<sString>true</sString>
 						</enabled>
@@ -125,7 +125,7 @@
 							<returnType>bool</returnType>
 							<sString>true</sString>
 						</startCondition>
-						<targets>1344012324</targets>
+						<targets>1344012327</targets>
 						<targetSelector href="" />
 						<type>None</type>
 					</AuraApplicator>
@@ -266,7 +266,7 @@
 					</increment>
 					<levelUpgrades>
 						<Item>
-							<increment>70</increment>
+							<increment>77</increment>
 							<level>0</level>
 						</Item>
 						<Item>
@@ -319,7 +319,13 @@
 						<sString>19 * cNeutralCreep_Mod_Atk</sString>
 					</value>
 				</Item>
-				<Item skip="1" />
+				<Item>
+					<value>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpmJQA==</compiledString>
+						<returnType>float</returnType>
+						<sString>4.3</sString>
+					</value>
+				</Item>
 				<Item>
 					<increment>
 						<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>

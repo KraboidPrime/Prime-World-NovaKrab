@@ -2,8 +2,8 @@
 <BaseAttack>
 	<BackLink DBID="/Heroes/Alchemist/_.HROB" Count="1" />
 	<BackLink DBID="/Summons/Clone/_Parent.SUMMONED" Count="1" />
-	<BackLink DBID="/Summons/Clone/Intellect.SUMMONED" Count="1" />
-	<BackLink DBID="/Summons/Clone/Strength.SUMMONED" Count="1" />
+	<BackLink DBID="/Summons/Clone/Intellect.SUMMONED" Count="4" />
+	<BackLink DBID="/Summons/Clone/Strength.SUMMONED" Count="4" />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
 		<compiledString></compiledString>
@@ -29,6 +29,7 @@
 					<Item>
 						<applicator href="/Heroes/Alchemist/_.ATCK" id="8A4B4BAC-2234-4DB1-889F-06B5AD276508">
 							<DamageApplicator parent="/GameLogic/GeneralApplicators/BaseAttackDmg_Hero.APLR">
+								<damageType>Native</damageType>
 								<uiEvent href="" />
 							</DamageApplicator>
 						</applicator>
@@ -150,7 +151,7 @@
 			<toLocator>Body</toLocator>
 		</DispatchLinear>
 	</dispatch>
-	<flags>1</flags>
+	<flags>5</flags>
 	<image href="" />
 	<imageSecondState href="" />
 	<isMelee>false</isMelee>

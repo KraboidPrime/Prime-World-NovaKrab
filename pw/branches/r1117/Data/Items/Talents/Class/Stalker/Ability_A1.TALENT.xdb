@@ -7,6 +7,7 @@
 	<BackLink DBID="/Items/Talents/Level2/G567_CasterBase.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset6_2_CDR/appl_Redset6_2_RefreshCooldown.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/Stalker_Mighty.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Stalker/Ability_A2.TALENT" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -89,6 +90,228 @@
 															<stopEvents>0</stopEvents>
 														</Item>
 														<Item>
+															<applicator href="/Items/Talents/Class/Stalker/Ability_A1.TALENT" id="D5375078-56C2-49A7-8E86-359D2A5EF0DC">
+																<SpellPeriodicallyApplicator>
+																	<applyTarget>ApplicatorTarget</applyTarget>
+																	<behaviorFlags>0</behaviorFlags>
+																	<caption>отхил за каждого героя, пока едем</caption>
+																	<effect>
+																		<Item href="" />
+																		<Item href="" />
+																	</effect>
+																	<enabled>
+																		<compiledString>FRgAAAACAAAAHwAAADgAAABTdGFsa2VyX0ExdQBTdGFsa2VyX0ExdQBVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaAwAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AIpF+4vlXcM=</compiledString>
+																		<returnType>bool</returnType>
+																		<sString>tal("Stalker_A1u") </sString>
+																	</enabled>
+																	<formulaName></formulaName>
+																	<lifeTime>
+																		<compiledString></compiledString>
+																		<returnType>float</returnType>
+																		<sString>-1.0</sString>
+																	</lifeTime>
+																	<LoggingEvent>-1</LoggingEvent>
+																	<period>
+																		<compiledString></compiledString>
+																		<returnType>float</returnType>
+																		<sString>0.0f</sString>
+																	</period>
+																	<providerName></providerName>
+																	<scaleMode>ScaleIsCount</scaleMode>
+																	<spell href="/Items/Talents/Class/Stalker/Ability_A1.TALENT" id="09D945AA-F1B2-455B-988F-A27DB88493FE">
+																		<Spell>
+																			<applicators>
+																				<Item href="/Items/Talents/Class/Stalker/appl_A0_SUP_HealAmount.APLR" />
+																			</applicators>
+																			<dispatch href="/Items/Talents/Class/Stalker/Ability_A1.TALENT" id="66774CF2-221E-49C3-B76E-E2BDA8C24AD8">
+																				<DispatchImmediate>
+																					<alwaysApply>false</alwaysApply>
+																					<applyEffect>
+																						<Item href="" />
+																						<Item href="" />
+																					</applyEffect>
+																					<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																					<applyEffectOrientation>Default</applyEffectOrientation>
+																					<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																					<dieAfterApply>true</dieAfterApply>
+																					<dispatchEffect>
+																						<Item href="" />
+																						<Item href="" />
+																					</dispatchEffect>
+																					<flags>0</flags>
+																					<instantApply>false</instantApply>
+																				</DispatchImmediate>
+																			</dispatch>
+																		</Spell>
+																	</spell>
+																	<startCondition>
+																		<compiledString></compiledString>
+																		<returnType>bool</returnType>
+																		<sString>true</sString>
+																	</startCondition>
+																	<startOffset>
+																		<compiledString></compiledString>
+																		<returnType>float</returnType>
+																		<sString>0.0f</sString>
+																	</startOffset>
+																	<targetSelector href="/Items/Talents/Class/Stalker/Ability_A1.TALENT" id="43D0B137-38DF-499D-BFAD-A0245EE6A0B6">
+																		<CapsuleTargetSelector>
+																			<cutoffFirstSegment>false</cutoffFirstSegment>
+																			<flags>0</flags>
+																			<mode>SendOnce</mode>
+																			<range>
+																				<compiledString>FQYAAAACAAAAEwAAACYAAABXaWR0aABVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcDTQAAADZXfzZRfyL5V3DAAAAAAAA4D8=</compiledString>
+																				<returnType>float</returnType>
+																				<sString>cWidth * 0.5</sString>
+																			</range>
+																			<rangeFromOwner>
+																				<compiledString></compiledString>
+																				<returnType>float</returnType>
+																				<sString>0.0f</sString>
+																			</rangeFromOwner>
+																			<segmentBegin>PreviousPosition</segmentBegin>
+																			<segmentDirectionOffset>0</segmentDirectionOffset>
+																			<segmentEnd>CurrentPosition</segmentEnd>
+																			<segmentEndTargetSelector href="" />
+																			<targetFilter>537657347</targetFilter>
+																		</CapsuleTargetSelector>
+																	</targetSelector>
+																</SpellPeriodicallyApplicator>
+															</applicator>
+															<continueCondition>
+																<compiledString></compiledString>
+																<returnType>bool</returnType>
+																<sString>0</sString>
+															</continueCondition>
+															<continueEvents>1</continueEvents>
+															<delay>
+																<compiledString></compiledString>
+																<returnType>float</returnType>
+																<sString>-1.0</sString>
+															</delay>
+															<stopCondition>
+																<compiledString></compiledString>
+																<returnType>bool</returnType>
+																<sString>0</sString>
+															</stopCondition>
+															<stopEvents>0</stopEvents>
+														</Item>
+														<Item>
+															<applicator href="/Items/Talents/Class/Stalker/Ability_A1.TALENT" id="D8EC5374-1D63-4911-8FBF-98913622152D">
+																<SpellPeriodicallyApplicator>
+																	<applyTarget>ApplicatorTarget</applyTarget>
+																	<behaviorFlags>0</behaviorFlags>
+																	<caption>отхил за каждого крипа, пока едем</caption>
+																	<effect>
+																		<Item href="" />
+																		<Item href="" />
+																	</effect>
+																	<enabled>
+																		<compiledString>FRgAAAACAAAAHwAAADgAAABTdGFsa2VyX0ExdQBTdGFsa2VyX0ExdQBVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaAwAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AIpF+4vlXcM=</compiledString>
+																		<returnType>bool</returnType>
+																		<sString>tal("Stalker_A1u") </sString>
+																	</enabled>
+																	<formulaName></formulaName>
+																	<lifeTime>
+																		<compiledString></compiledString>
+																		<returnType>float</returnType>
+																		<sString>-1.0</sString>
+																	</lifeTime>
+																	<LoggingEvent>-1</LoggingEvent>
+																	<period>
+																		<compiledString></compiledString>
+																		<returnType>float</returnType>
+																		<sString>0.0f</sString>
+																	</period>
+																	<providerName></providerName>
+																	<scaleMode>ScaleIsCount</scaleMode>
+																	<spell href="/Items/Talents/Class/Stalker/Ability_A1.TALENT" id="CFCA43A9-9995-4EC8-BE58-187944FB7E52">
+																		<Spell>
+																			<applicators>
+																				<Item href="/Items/Talents/Class/Stalker/Ability_A1.TALENT" id="AFB7EB4A-A661-46EF-A328-B1C50435400C">
+																					<HealApplicator parent="/Items/Talents/Class/Stalker/appl_A0_SUP_HealAmount.APLR">
+																						<amount>
+																							<compiledString>FRIAAAACAAAAHwAAADIAAABBMF9TVVBfSGVhbEFtb3VudABVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcNUAAAADZXfzZRfyL5V3DAAAAAAAACEA=</compiledString>
+																							<returnType>float</returnType>
+																							<sString>cA0_SUP_HealAmount/3</sString>
+																						</amount>
+																					</HealApplicator>
+																				</Item>
+																			</applicators>
+																			<dispatch href="/Items/Talents/Class/Stalker/Ability_A1.TALENT" id="C16255E3-3A20-4B6F-BA7D-FC36E04998EB">
+																				<DispatchImmediate>
+																					<alwaysApply>false</alwaysApply>
+																					<applyEffect>
+																						<Item href="" />
+																						<Item href="" />
+																					</applyEffect>
+																					<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																					<applyEffectOrientation>Default</applyEffectOrientation>
+																					<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																					<dieAfterApply>true</dieAfterApply>
+																					<dispatchEffect>
+																						<Item href="" />
+																						<Item href="" />
+																					</dispatchEffect>
+																					<flags>0</flags>
+																					<instantApply>false</instantApply>
+																				</DispatchImmediate>
+																			</dispatch>
+																		</Spell>
+																	</spell>
+																	<startCondition>
+																		<compiledString></compiledString>
+																		<returnType>bool</returnType>
+																		<sString>true</sString>
+																	</startCondition>
+																	<startOffset>
+																		<compiledString></compiledString>
+																		<returnType>float</returnType>
+																		<sString>0.0f</sString>
+																	</startOffset>
+																	<targetSelector href="/Items/Talents/Class/Stalker/Ability_A1.TALENT" id="25053FBB-CB65-4DD5-8BDF-D103B94331F3">
+																		<CapsuleTargetSelector>
+																			<cutoffFirstSegment>false</cutoffFirstSegment>
+																			<flags>0</flags>
+																			<mode>SendOnce</mode>
+																			<range>
+																				<compiledString>FQYAAAACAAAAEwAAACYAAABXaWR0aABVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcDTQAAADZXfzZRfyL5V3DAAAAAAAA4D8=</compiledString>
+																				<returnType>float</returnType>
+																				<sString>cWidth * 0.5</sString>
+																			</range>
+																			<rangeFromOwner>
+																				<compiledString></compiledString>
+																				<returnType>float</returnType>
+																				<sString>0.0f</sString>
+																			</rangeFromOwner>
+																			<segmentBegin>PreviousPosition</segmentBegin>
+																			<segmentDirectionOffset>0</segmentDirectionOffset>
+																			<segmentEnd>CurrentPosition</segmentEnd>
+																			<segmentEndTargetSelector href="" />
+																			<targetFilter>537919548</targetFilter>
+																		</CapsuleTargetSelector>
+																	</targetSelector>
+																</SpellPeriodicallyApplicator>
+															</applicator>
+															<continueCondition>
+																<compiledString></compiledString>
+																<returnType>bool</returnType>
+																<sString>0</sString>
+															</continueCondition>
+															<continueEvents>1</continueEvents>
+															<delay>
+																<compiledString></compiledString>
+																<returnType>float</returnType>
+																<sString>-1.0</sString>
+															</delay>
+															<stopCondition>
+																<compiledString></compiledString>
+																<returnType>bool</returnType>
+																<sString>0</sString>
+															</stopCondition>
+															<stopEvents>0</stopEvents>
+														</Item>
+														<Item>
 															<applicator href="/Items/Talents/Class/Stalker/Ability_A1.TALENT" id="19CA6514-8BED-42B4-A322-64EEA74A2D35">
 																<SpellPeriodicallyApplicator>
 																	<applyTarget>ApplicatorTarget</applyTarget>
@@ -159,9 +382,9 @@
 																				<Item href="/Items/Talents/Class/Stalker/Ability_A1.TALENT" id="01B77D18-429C-4B96-852B-34E5A7AC75D1">
 																					<SpellSwitchApplicator>
 																						<activeSpellIndex>
-																							<compiledString>FQAAAAAAAAAAVYvsg+wMi0UMixCLTQyLgkABAAD/0ItNDIsRi00Mi4JEAQAA3V34/9DcXfjf4PbEQXoJx0X0AAAAAOsHx0X0AQAAAItF9IvlXcM=</compiledString>
+																							<compiledString>FQAAAAAAAAAAVYvsg+wMi0UMixCLTQyLgsgAAAD/0ItNDIsRi00Mi4LMAAAA3V34/9DcXfjf4PbEQXoJx0X0AAAAAOsHx0X0AQAAAItF9IvlXcM=</compiledString>
 																							<returnType>int</returnType>
-																							<sString>rStamina &gt;= rWill ? 0 : 1</sString>
+																							<sString>rBaseStamina &gt;= rBaseWill ? 0 : 1</sString>
 																						</activeSpellIndex>
 																						<applyTarget>ApplicatorTarget</applyTarget>
 																						<caption>Свич дебаффа</caption>
@@ -263,113 +486,6 @@
 															</delay>
 															<stopCondition>
 																<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
-																<returnType>bool</returnType>
-																<sString>0</sString>
-															</stopCondition>
-															<stopEvents>0</stopEvents>
-														</Item>
-														<Item>
-															<applicator href="/Items/Talents/Class/Stalker/Ability_A1.TALENT" id="D5375078-56C2-49A7-8E86-359D2A5EF0DC">
-																<SpellPeriodicallyApplicator>
-																	<applyTarget>ApplicatorTarget</applyTarget>
-																	<behaviorFlags>0</behaviorFlags>
-																	<caption>отхил за каждого героя, пока едем</caption>
-																	<effect>
-																		<Item href="" />
-																		<Item href="" />
-																	</effect>
-																	<enabled>
-																		<compiledString>FR8AAAACAAAAJgAAAD8AAABTdGFsa2VyX0EwX1NVUAAAU3RhbGtlcl9BMF9TVVAAVYvsg+wIaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wCKRfuL5V3D</compiledString>
-																		<returnType>bool</returnType>
-																		<sString>tal("Stalker_A0_SUP")</sString>
-																	</enabled>
-																	<formulaName></formulaName>
-																	<lifeTime>
-																		<compiledString></compiledString>
-																		<returnType>float</returnType>
-																		<sString>-1.0</sString>
-																	</lifeTime>
-																	<LoggingEvent>-1</LoggingEvent>
-																	<period>
-																		<compiledString></compiledString>
-																		<returnType>float</returnType>
-																		<sString>0.0f</sString>
-																	</period>
-																	<providerName></providerName>
-																	<scaleMode>ScaleIsCount</scaleMode>
-																	<spell href="/Items/Talents/Class/Stalker/Ability_A1.TALENT" id="09D945AA-F1B2-455B-988F-A27DB88493FE">
-																		<Spell>
-																			<applicators>
-																				<Item href="/Items/Talents/Class/Stalker/appl_A0_SUP_HealAmount.APLR" />
-																			</applicators>
-																			<dispatch href="/Items/Talents/Class/Stalker/Ability_A1.TALENT" id="66774CF2-221E-49C3-B76E-E2BDA8C24AD8">
-																				<DispatchImmediate>
-																					<alwaysApply>false</alwaysApply>
-																					<applyEffect>
-																						<Item href="" />
-																						<Item href="" />
-																					</applyEffect>
-																					<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
-																					<applyEffectOrientation>Default</applyEffectOrientation>
-																					<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
-																					<dieAfterApply>true</dieAfterApply>
-																					<dispatchEffect>
-																						<Item href="" />
-																						<Item href="" />
-																					</dispatchEffect>
-																					<flags>0</flags>
-																					<instantApply>false</instantApply>
-																				</DispatchImmediate>
-																			</dispatch>
-																		</Spell>
-																	</spell>
-																	<startCondition>
-																		<compiledString></compiledString>
-																		<returnType>bool</returnType>
-																		<sString>true</sString>
-																	</startCondition>
-																	<startOffset>
-																		<compiledString></compiledString>
-																		<returnType>float</returnType>
-																		<sString>0.0f</sString>
-																	</startOffset>
-																	<targetSelector href="/Items/Talents/Class/Stalker/Ability_A1.TALENT" id="43D0B137-38DF-499D-BFAD-A0245EE6A0B6">
-																		<CapsuleTargetSelector>
-																			<cutoffFirstSegment>false</cutoffFirstSegment>
-																			<flags>0</flags>
-																			<mode>SendOnce</mode>
-																			<range>
-																				<compiledString>FQYAAAACAAAAEwAAACYAAABXaWR0aABVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcDTQAAADZXfzZRfyL5V3DAAAAAAAA4D8=</compiledString>
-																				<returnType>float</returnType>
-																				<sString>cWidth * 0.5</sString>
-																			</range>
-																			<rangeFromOwner>
-																				<compiledString></compiledString>
-																				<returnType>float</returnType>
-																				<sString>0.0f</sString>
-																			</rangeFromOwner>
-																			<segmentBegin>PreviousPosition</segmentBegin>
-																			<segmentDirectionOffset>0</segmentDirectionOffset>
-																			<segmentEnd>CurrentPosition</segmentEnd>
-																			<segmentEndTargetSelector href="" />
-																			<targetFilter>536870915</targetFilter>
-																		</CapsuleTargetSelector>
-																	</targetSelector>
-																</SpellPeriodicallyApplicator>
-															</applicator>
-															<continueCondition>
-																<compiledString></compiledString>
-																<returnType>bool</returnType>
-																<sString>0</sString>
-															</continueCondition>
-															<continueEvents>1</continueEvents>
-															<delay>
-																<compiledString></compiledString>
-																<returnType>float</returnType>
-																<sString>-1.0</sString>
-															</delay>
-															<stopCondition>
-																<compiledString></compiledString>
 																<returnType>bool</returnType>
 																<sString>0</sString>
 															</stopCondition>
@@ -560,6 +676,85 @@
 											<stopEvents>0</stopEvents>
 										</Item>
 										<Item>
+											<applicator href="/Items/Talents/Class/Stalker/Ability_A1.TALENT" id="5604AE43-9480-41FB-88AF-1FC2E3CCC962">
+												<StatusApplicator parent="/Items/Talents/Class/Stalker/status_A1_StaminaBuff.APLR">
+													<applicators>
+														<Item href="/Items/Talents/Class/Stalker/Ability_A1.TALENT" id="E3FCD20D-CF1D-4C14-891B-0CA202E3C120">
+															<StatModApplicator>
+																<applyTarget>ApplicatorTarget</applyTarget>
+																<behaviorFlags>0</behaviorFlags>
+																<caption>Бафф стамины</caption>
+																<constraint>None</constraint>
+																<dontUpdate>false</dontUpdate>
+																<effect>
+																	<Item href="" />
+																	<Item href="" />
+																</effect>
+																<enabled>
+																	<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+																	<returnType>bool</returnType>
+																	<sString>true</sString>
+																</enabled>
+																<formulaName></formulaName>
+																<lifeTime>
+																	<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAvw==</compiledString>
+																	<returnType>float</returnType>
+																	<sString>-1</sString>
+																</lifeTime>
+																<LoggingEvent>-1</LoggingEvent>
+																<modifier>
+																	<addValue>
+																		<compiledString>FQ0AAAABAAAAGQAAAEExX1N0YW1pbmFUVABVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+																		<returnType>float</returnType>
+																		<sString>cA1_StaminaTT</sString>
+																	</addValue>
+																	<multValue>
+																		<compiledString></compiledString>
+																		<returnType>float</returnType>
+																		<sString>1.0f</sString>
+																	</multValue>
+																	<stat>Stamina</stat>
+																	<topModifier>false</topModifier>
+																	<variable></variable>
+																</modifier>
+																<providerName></providerName>
+																<startCondition>
+																	<compiledString></compiledString>
+																	<returnType>bool</returnType>
+																	<sString>true</sString>
+																</startCondition>
+																<statModName></statModName>
+															</StatModApplicator>
+														</Item>
+													</applicators>
+													<caption>Статус Бдительность охотника стойкость</caption>
+													<description textref="/Items/Talents/Class/Stalker/Ability_A1.TALENT_5604ae43948041fb88af1fc2e3ccc962_description.txt" />
+													<enabled>
+														<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+														<returnType>bool</returnType>
+														<sString>false</sString>
+													</enabled>
+												</StatusApplicator>
+											</applicator>
+											<continueCondition>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>0</sString>
+											</continueCondition>
+											<continueEvents>1</continueEvents>
+											<delay>
+												<compiledString></compiledString>
+												<returnType>float</returnType>
+												<sString>-1.0</sString>
+											</delay>
+											<stopCondition>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>0</sString>
+											</stopCondition>
+											<stopEvents>0</stopEvents>
+										</Item>
+										<Item>
 											<applicator href="/Items/Talents/Class/Stalker/status_A1_StaminaBuff.APLR" />
 											<continueCondition>
 												<compiledString></compiledString>
@@ -657,6 +852,7 @@
 				</targetSelector>
 			</SpellApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/Stalker/status_NEW_def_Stalk.APLR" />
 	</applicators>
 	<askId>1</askId>
 	<autoTargetSelector href="" />
@@ -734,9 +930,9 @@
 					<UnitConstant>
 						<name>A1_Damage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACgQgAAFkQ=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACOQgDABEQ=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale( sStrength, 80, 600 )</sString>
+							<sString>damageScale( sStrength, 71, 531 )</sString>
 						</var>
 					</UnitConstant>
 				</Item>

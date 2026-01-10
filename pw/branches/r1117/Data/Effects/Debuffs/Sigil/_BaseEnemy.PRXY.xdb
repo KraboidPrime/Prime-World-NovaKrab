@@ -89,9 +89,9 @@
 					<z>0</z>
 				</rot>
 				<scale>
-					<x>14.59973</x>
-					<y>14.59973</y>
-					<z>1</z>
+					<x>22.94</x>
+					<y>22.94</y>
+					<z>1.57</z>
 				</scale>
 			</placement>
 			<timeController href="/Effects/Debuffs/Sigil/_BaseEnemy.PRXY" id="8FA2CDB8-FE66-40FE-AA30-623E23AE3044">

@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Level2/G623_SelfHeal.TALENT" Count="1" />
 	<name>G624_Cooldown</name>
 	<var>
-		<compiledString>FQ0AAAACAAAAFAAAAC0AAABHNjI0AAAAAEc2MjQAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgIAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0Is/9CJRfjrB8dF+AEAAACLTfiDwQqJTfTbRfSL5V3D</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQQ==</compiledString>
 		<returnType>float</returnType>
-		<sString>11 + (getTalentRefineRate("G624", 1) - 1)</sString>
+		<sString>20</sString>
 	</var>
 </UnitConstant>

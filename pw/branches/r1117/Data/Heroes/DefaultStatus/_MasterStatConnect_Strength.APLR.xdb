@@ -12,6 +12,9 @@
 	<BackLink DBID="/Items/Talents/Class/Rifleman/Summon_Bear.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Warlord/Ability4_2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Demonolog/Ability3.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A0.TALENT" Count="3" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A4_2.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/Inventor/A1_TurretSummonV.APLR" Count="1" />
 	<applyTarget>ApplicatorTarget</applyTarget>
 	<behaviorFlags>152</behaviorFlags>
 	<caption> -- connection to master: Strength</caption>

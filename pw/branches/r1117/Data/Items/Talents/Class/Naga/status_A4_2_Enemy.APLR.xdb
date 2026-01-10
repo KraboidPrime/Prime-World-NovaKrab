@@ -7,7 +7,7 @@
 				<applyTarget>ApplicatorTarget</applyTarget>
 				<attackCount>-1</attackCount>
 				<attackTarget>Hier1UpApplicatorTarget</attackTarget>
-				<behaviorFlags>1</behaviorFlags>
+				<behaviorFlags>145</behaviorFlags>
 				<caption>Таунт</caption>
 				<effect>
 					<Item href="" />
@@ -38,7 +38,7 @@
 		<Item href="/Items/Talents/Class/Naga/status_A4_2_Enemy.APLR" id="3C58EEC6-A3E9-424F-8596-34C9DBD2A25A">
 			<FlagsApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
-				<behaviorFlags>0</behaviorFlags>
+				<behaviorFlags>144</behaviorFlags>
 				<caption> -- запрещаем все кроме автоатаки</caption>
 				<consumables />
 				<effect>
@@ -71,7 +71,7 @@
 		<Item href="/Items/Talents/Class/Naga/status_A4_2_Enemy.APLR" id="D8B2B956-0307-439C-83E3-BD0636558A8B">
 			<StatModApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
-				<behaviorFlags>0</behaviorFlags>
+				<behaviorFlags>144</behaviorFlags>
 				<caption>set Taunted</caption>
 				<constraint>None</constraint>
 				<dontUpdate>true</dontUpdate>
@@ -115,16 +115,729 @@
 				<statModName></statModName>
 			</StatModApplicator>
 		</Item>
-		<Item href="/Items/Talents/Class/Naga/status_A4_2_Enemy.APLR" id="7F8A444A-3C5A-4C58-9EA8-A0C6BEA29783">
-			<TriggerApplicator>
-				<actionsCount>
-					<compiledString></compiledString>
-					<returnType>int</returnType>
-					<sString>0</sString>
-				</actionsCount>
+		<Item href="/Items/Talents/Class/Naga/status_A4_2_Enemy.APLR" id="3266A862-DF1B-45CC-80F5-D5EFBDF142F9">
+			<SpellApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
-				<behaviorFlags>0</behaviorFlags>
-				<caption>Меняем исходящий урон</caption>
+				<caption>хитрый урон сила</caption>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsi0UMixCLTQyLQmD/0PfYG8CDwAFdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>!rNativeAttackIndex</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<spell href="/Items/Talents/Class/Naga/status_A4_2_Enemy.APLR" id="FB2F8711-3E58-49AD-BFAD-7BE8DD728EDD">
+					<Spell>
+						<applicators>
+							<Item href="/Items/Talents/Class/Naga/status_A4_2_Enemy.APLR" id="7ABD03CB-3683-4DED-A820-373A38182D72">
+								<TriggerApplicator>
+									<actionsCount>
+										<compiledString></compiledString>
+										<returnType>int</returnType>
+										<sString>0</sString>
+									</actionsCount>
+									<applyTarget>Hier2UpApplicatorTarget</applyTarget>
+									<behaviorFlags>144</behaviorFlags>
+									<caption>обнуление урона от союзника</caption>
+									<effect>
+										<Item href="" />
+										<Item href="" />
+									</effect>
+									<enabled>
+										<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<lifeTime>
+										<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAQQQ==</compiledString>
+										<returnType>float</returnType>
+										<sString>9</sString>
+									</lifeTime>
+									<LoggingEvent>-1</LoggingEvent>
+									<playAck>false</playAck>
+									<processor href="/Items/Talents/Class/Naga/status_A4_2_Enemy.APLR" id="F018CF91-BFA9-4A8E-A1B2-B67FEE5FCF0A">
+										<EventProcessorDamageTransformer>
+											<abilityFilter>
+												<abilitiesList />
+												<abilityCondition>
+													<compiledString></compiledString>
+													<returnType>bool</returnType>
+													<sString>true</sString>
+												</abilityCondition>
+												<abilityCostMode>Any</abilityCostMode>
+												<exceptThis>false</exceptThis>
+												<flags>536870913</flags>
+												<onlySingleTarget>false</onlySingleTarget>
+											</abilityFilter>
+											<add>
+												<compiledString></compiledString>
+												<returnType>float</returnType>
+												<sString>0.0f</sString>
+											</add>
+											<applyTarget>ApplicatorTarget</applyTarget>
+											<checkSender>0</checkSender>
+											<damageTypeFilter>31</damageTypeFilter>
+											<flags>0</flags>
+											<matchTargetInverted>false</matchTargetInverted>
+											<mul>
+												<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+												<returnType>float</returnType>
+												<sString>0.0f</sString>
+											</mul>
+											<objectFilter>2040319</objectFilter>
+											<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
+											<spell href="/Items/Talents/Class/Naga/status_A4_2_Enemy.APLR" id="431F92E3-4A49-4152-AA06-5480FEEB6F3D">
+												<Spell>
+													<applicators>
+														<Item href="/Items/Talents/Class/Naga/status_A4_2_Enemy.APLR" id="22E1610E-D426-42FD-9F44-CD1450CF239B">
+															<StatusApplicator>
+																<applicators>
+																	<Item href="/Items/Talents/Class/Naga/status_A4_2_Enemy.APLR" id="D5BD3B2F-4A23-490C-8BB0-C81A6F32DEEC">
+																		<SpellPeriodicallyApplicator>
+																			<applyTarget>ApplicatorTarget</applyTarget>
+																			<behaviorFlags>144</behaviorFlags>
+																			<caption></caption>
+																			<effect>
+																				<Item href="" />
+																				<Item href="" />
+																			</effect>
+																			<enabled>
+																				<compiledString></compiledString>
+																				<returnType>bool</returnType>
+																				<sString>true</sString>
+																			</enabled>
+																			<formulaName></formulaName>
+																			<lifeTime>
+																				<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpmZPg==</compiledString>
+																				<returnType>float</returnType>
+																				<sString>0.3f</sString>
+																			</lifeTime>
+																			<LoggingEvent>-1</LoggingEvent>
+																			<period>
+																				<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzczMPg==</compiledString>
+																				<returnType>float</returnType>
+																				<sString>0.4f</sString>
+																			</period>
+																			<providerName></providerName>
+																			<scaleMode>ScaleIsCount</scaleMode>
+																			<spell href="/Items/Talents/Class/Naga/status_A4_2_Enemy.APLR" id="ADCBDAFE-2989-4064-8E00-504260966DFC">
+																				<Spell>
+																					<applicators>
+																						<Item href="/Items/Talents/Class/Naga/status_A4_2_Enemy.APLR" id="AFE141CC-F650-456A-8B0C-DA69EC0537CE">
+																							<DamageApplicator>
+																								<applyTarget>ApplicatorTarget</applyTarget>
+																								<cancelInvisibility>false</cancelInvisibility>
+																								<caption></caption>
+																								<damage>
+																									<compiledString>FRcAAAADAAAAHgAAADcAAAB+AAAATmFnYV9BNF8ydQAATmFnYV9BNF8ydQBVi+yD7BRoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaAwAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXQbi1UIiwKLTQiLkDABAAD/0twNpwAAAN1d8OsTi0UIixCLTQiLgjABAAD/0N1d8N1F8Nld7NlF7IvlXcMAAAAAAAAAQA==</compiledString>
+																									<returnType>float</returnType>
+																									<sString>tal("Naga_A4_2u") ? 2*sStrength : sStrength</sString>
+																								</damage>
+																								<damageMode>8</damageMode>
+																								<damageType>Material</damageType>
+																								<enabled>
+																									<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+																									<returnType>bool</returnType>
+																									<sString>true</sString>
+																								</enabled>
+																								<formulaName></formulaName>
+																								<LoggingEvent>-1</LoggingEvent>
+																								<providerName></providerName>
+																								<timeLimiter>-1</timeLimiter>
+																								<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Material.UIEV" />
+																							</DamageApplicator>
+																						</Item>
+																					</applicators>
+																					<dispatch href="/Items/Talents/Class/Naga/status_A4_2_Enemy.APLR" id="4EF76B76-46FF-46F5-AE5D-8CFB5D241815">
+																						<DispatchImmediate>
+																							<alwaysApply>false</alwaysApply>
+																							<applyEffect>
+																								<Item href="" />
+																								<Item href="" />
+																							</applyEffect>
+																							<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																							<applyEffectOrientation>Default</applyEffectOrientation>
+																							<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																							<dieAfterApply>true</dieAfterApply>
+																							<dispatchEffect>
+																								<Item href="" />
+																								<Item href="" />
+																							</dispatchEffect>
+																							<flags>0</flags>
+																							<instantApply>false</instantApply>
+																						</DispatchImmediate>
+																					</dispatch>
+																				</Spell>
+																			</spell>
+																			<startCondition>
+																				<compiledString></compiledString>
+																				<returnType>bool</returnType>
+																				<sString>true</sString>
+																			</startCondition>
+																			<startOffset>
+																				<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzczMPQ==</compiledString>
+																				<returnType>float</returnType>
+																				<sString>0.1f</sString>
+																			</startOffset>
+																			<targetSelector href="" />
+																		</SpellPeriodicallyApplicator>
+																	</Item>
+																</applicators>
+																<applyTarget>Hier3UpApplicatorTarget</applyTarget>
+																<behaviorFlags>144</behaviorFlags>
+																<caption></caption>
+																<customCounter>
+																	<compiledString></compiledString>
+																	<returnType>int</returnType>
+																	<sString>0</sString>
+																</customCounter>
+																<customProgress>
+																	<compiledString></compiledString>
+																	<returnType>float</returnType>
+																	<sString>-1.0</sString>
+																</customProgress>
+																<description textref="" />
+																<dispellPriority>NonDispellable</dispellPriority>
+																<effect>
+																	<Item href="" />
+																	<Item href="" />
+																</effect>
+																<enabled>
+																	<compiledString></compiledString>
+																	<returnType>bool</returnType>
+																	<sString>true</sString>
+																</enabled>
+																<flags>0</flags>
+																<formulaName></formulaName>
+																<image href="" />
+																<lifeTime>
+																	<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpmZPg==</compiledString>
+																	<returnType>float</returnType>
+																	<sString>0.3f</sString>
+																</lifeTime>
+																<LoggingEvent>-1</LoggingEvent>
+																<name textref="" />
+																<power>0</power>
+																<providerName></providerName>
+																<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+																<stackCount>0</stackCount>
+																<startCondition>
+																	<compiledString></compiledString>
+																	<returnType>bool</returnType>
+																	<sString>true</sString>
+																</startCondition>
+																<statusPosition>0</statusPosition>
+																<stopBehaviour>StopByTime</stopBehaviour>
+																<unstackableWith href="" />
+															</StatusApplicator>
+														</Item>
+													</applicators>
+													<dispatch href="/Items/Talents/Class/Naga/status_A4_2_Enemy.APLR" id="44F5CAAD-7AE1-438F-9F1B-D165155CF8CE">
+														<DispatchImmediate>
+															<alwaysApply>false</alwaysApply>
+															<applyEffect>
+																<Item href="" />
+																<Item href="" />
+															</applyEffect>
+															<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+															<applyEffectOrientation>Default</applyEffectOrientation>
+															<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+															<dieAfterApply>true</dieAfterApply>
+															<dispatchEffect>
+																<Item href="" />
+																<Item href="" />
+															</dispatchEffect>
+															<flags>0</flags>
+															<instantApply>false</instantApply>
+														</DispatchImmediate>
+													</dispatch>
+												</Spell>
+											</spell>
+											<treatDelegatedByDelegator>false</treatDelegatedByDelegator>
+										</EventProcessorDamageTransformer>
+									</processor>
+									<providerName></providerName>
+									<startCondition>
+										<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</startCondition>
+									<useAbilityCooldown>false</useAbilityCooldown>
+									<useAbilityOwnerMana>false</useAbilityOwnerMana>
+								</TriggerApplicator>
+							</Item>
+						</applicators>
+						<dispatch href="/Items/Talents/Class/Naga/status_A4_2_Enemy.APLR" id="D60B34EE-528C-4EC2-A4A7-403CA1FA3873">
+							<DispatchImmediate>
+								<alwaysApply>false</alwaysApply>
+								<applyEffect>
+									<Item href="" />
+									<Item href="" />
+								</applyEffect>
+								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+								<applyEffectOrientation>Default</applyEffectOrientation>
+								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+								<dieAfterApply>true</dieAfterApply>
+								<dispatchEffect>
+									<Item href="" />
+									<Item href="" />
+								</dispatchEffect>
+								<flags>0</flags>
+								<instantApply>false</instantApply>
+							</DispatchImmediate>
+						</dispatch>
+					</Spell>
+				</spell>
+				<spellTarget>ApplicatorTarget</spellTarget>
+				<targetSelector href="" />
+			</SpellApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/Naga/status_A4_2_Enemy.APLR" id="8BA34736-5989-4E30-8A7A-719A4AB478BD">
+			<SpellApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>хитрый урон разум</caption>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsi0UMixCLTQyLQmD/0IXAD5XAXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>rNativeAttackIndex</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<spell href="/Items/Talents/Class/Naga/status_A4_2_Enemy.APLR" id="85A5933F-FC76-40A4-8528-6F9CF914C335">
+					<Spell>
+						<applicators>
+							<Item href="/Items/Talents/Class/Naga/status_A4_2_Enemy.APLR" id="2545A8E8-A0E9-490C-AB50-4D49461B2A38">
+								<TriggerApplicator>
+									<actionsCount>
+										<compiledString></compiledString>
+										<returnType>int</returnType>
+										<sString>0</sString>
+									</actionsCount>
+									<applyTarget>Hier2UpApplicatorTarget</applyTarget>
+									<behaviorFlags>144</behaviorFlags>
+									<caption>обнуление урона от союзника</caption>
+									<effect>
+										<Item href="" />
+										<Item href="" />
+									</effect>
+									<enabled>
+										<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<lifeTime>
+										<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAQQQ==</compiledString>
+										<returnType>float</returnType>
+										<sString>9</sString>
+									</lifeTime>
+									<LoggingEvent>-1</LoggingEvent>
+									<playAck>false</playAck>
+									<processor href="/Items/Talents/Class/Naga/status_A4_2_Enemy.APLR" id="43971582-74A5-4165-AC7E-EF88DC2C912A">
+										<EventProcessorDamageTransformer>
+											<abilityFilter>
+												<abilitiesList />
+												<abilityCondition>
+													<compiledString></compiledString>
+													<returnType>bool</returnType>
+													<sString>true</sString>
+												</abilityCondition>
+												<abilityCostMode>Any</abilityCostMode>
+												<exceptThis>false</exceptThis>
+												<flags>536870913</flags>
+												<onlySingleTarget>false</onlySingleTarget>
+											</abilityFilter>
+											<add>
+												<compiledString></compiledString>
+												<returnType>float</returnType>
+												<sString>0.0f</sString>
+											</add>
+											<applyTarget>ApplicatorTarget</applyTarget>
+											<checkSender>0</checkSender>
+											<damageTypeFilter>31</damageTypeFilter>
+											<flags>0</flags>
+											<matchTargetInverted>false</matchTargetInverted>
+											<mul>
+												<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+												<returnType>float</returnType>
+												<sString>0.0f</sString>
+											</mul>
+											<objectFilter>2040319</objectFilter>
+											<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
+											<spell href="/Items/Talents/Class/Naga/status_A4_2_Enemy.APLR" id="C7E74112-5D01-4E3C-A134-56B3C9A9C796">
+												<Spell>
+													<applicators>
+														<Item href="/Items/Talents/Class/Naga/status_A4_2_Enemy.APLR" id="9A83D7EC-8746-4041-B266-D11BCA17F49D">
+															<StatusApplicator>
+																<applicators>
+																	<Item href="/Items/Talents/Class/Naga/status_A4_2_Enemy.APLR" id="0D808102-85E0-4C9E-9405-2A3730CA2B28">
+																		<SpellPeriodicallyApplicator>
+																			<applyTarget>ApplicatorTarget</applyTarget>
+																			<behaviorFlags>144</behaviorFlags>
+																			<caption></caption>
+																			<effect>
+																				<Item href="" />
+																				<Item href="" />
+																			</effect>
+																			<enabled>
+																				<compiledString></compiledString>
+																				<returnType>bool</returnType>
+																				<sString>true</sString>
+																			</enabled>
+																			<formulaName></formulaName>
+																			<lifeTime>
+																				<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpmZPg==</compiledString>
+																				<returnType>float</returnType>
+																				<sString>0.3f</sString>
+																			</lifeTime>
+																			<LoggingEvent>-1</LoggingEvent>
+																			<period>
+																				<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzczMPg==</compiledString>
+																				<returnType>float</returnType>
+																				<sString>0.4f</sString>
+																			</period>
+																			<providerName></providerName>
+																			<scaleMode>ScaleIsCount</scaleMode>
+																			<spell href="/Items/Talents/Class/Naga/status_A4_2_Enemy.APLR" id="6CB36F3E-DB96-41F5-AB92-A76B06641708">
+																				<Spell>
+																					<applicators>
+																						<Item href="/Items/Talents/Class/Naga/status_A4_2_Enemy.APLR" id="BE1555ED-0997-47FF-AA2D-C08B6F69D13F">
+																							<DamageApplicator>
+																								<applyTarget>ApplicatorTarget</applyTarget>
+																								<cancelInvisibility>false</cancelInvisibility>
+																								<caption></caption>
+																								<damage>
+																									<compiledString>FRcAAAADAAAAHgAAADcAAAB+AAAATmFnYV9BNF8ydQAATmFnYV9BNF8ydQBVi+yD7BRoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaAwAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXQbi1UIiwKLTQiLkDABAAD/0twNpwAAAN1d8OsTi0UIixCLTQiLgjABAAD/0N1d8N1F8Nld7NlF7IvlXcMAAAAAAAAAQA==</compiledString>
+																									<returnType>float</returnType>
+																									<sString>tal("Naga_A4_2u") ? 2*sStrength : sStrength</sString>
+																								</damage>
+																								<damageMode>8</damageMode>
+																								<damageType>Energy</damageType>
+																								<enabled>
+																									<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+																									<returnType>bool</returnType>
+																									<sString>true</sString>
+																								</enabled>
+																								<formulaName></formulaName>
+																								<LoggingEvent>-1</LoggingEvent>
+																								<providerName></providerName>
+																								<timeLimiter>-1</timeLimiter>
+																								<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Energy.UIEV" />
+																							</DamageApplicator>
+																						</Item>
+																					</applicators>
+																					<dispatch href="/Items/Talents/Class/Naga/status_A4_2_Enemy.APLR" id="1568F1E6-98AE-40D0-849D-CE36AACD3FD2">
+																						<DispatchImmediate>
+																							<alwaysApply>false</alwaysApply>
+																							<applyEffect>
+																								<Item href="" />
+																								<Item href="" />
+																							</applyEffect>
+																							<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																							<applyEffectOrientation>Default</applyEffectOrientation>
+																							<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																							<dieAfterApply>true</dieAfterApply>
+																							<dispatchEffect>
+																								<Item href="" />
+																								<Item href="" />
+																							</dispatchEffect>
+																							<flags>0</flags>
+																							<instantApply>false</instantApply>
+																						</DispatchImmediate>
+																					</dispatch>
+																				</Spell>
+																			</spell>
+																			<startCondition>
+																				<compiledString></compiledString>
+																				<returnType>bool</returnType>
+																				<sString>true</sString>
+																			</startCondition>
+																			<startOffset>
+																				<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzczMPQ==</compiledString>
+																				<returnType>float</returnType>
+																				<sString>0.1f</sString>
+																			</startOffset>
+																			<targetSelector href="" />
+																		</SpellPeriodicallyApplicator>
+																	</Item>
+																</applicators>
+																<applyTarget>Hier3UpApplicatorTarget</applyTarget>
+																<behaviorFlags>144</behaviorFlags>
+																<caption></caption>
+																<customCounter>
+																	<compiledString></compiledString>
+																	<returnType>int</returnType>
+																	<sString>0</sString>
+																</customCounter>
+																<customProgress>
+																	<compiledString></compiledString>
+																	<returnType>float</returnType>
+																	<sString>-1.0</sString>
+																</customProgress>
+																<description textref="" />
+																<dispellPriority>NonDispellable</dispellPriority>
+																<effect>
+																	<Item href="" />
+																	<Item href="" />
+																</effect>
+																<enabled>
+																	<compiledString></compiledString>
+																	<returnType>bool</returnType>
+																	<sString>true</sString>
+																</enabled>
+																<flags>0</flags>
+																<formulaName></formulaName>
+																<image href="" />
+																<lifeTime>
+																	<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpmZPg==</compiledString>
+																	<returnType>float</returnType>
+																	<sString>0.3f</sString>
+																</lifeTime>
+																<LoggingEvent>-1</LoggingEvent>
+																<name textref="" />
+																<power>0</power>
+																<providerName></providerName>
+																<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+																<stackCount>0</stackCount>
+																<startCondition>
+																	<compiledString></compiledString>
+																	<returnType>bool</returnType>
+																	<sString>true</sString>
+																</startCondition>
+																<statusPosition>0</statusPosition>
+																<stopBehaviour>StopByTime</stopBehaviour>
+																<unstackableWith href="" />
+															</StatusApplicator>
+														</Item>
+													</applicators>
+													<dispatch href="/Items/Talents/Class/Naga/status_A4_2_Enemy.APLR" id="A49E8030-FE25-4C7A-85A6-B57D6B759E33">
+														<DispatchImmediate>
+															<alwaysApply>false</alwaysApply>
+															<applyEffect>
+																<Item href="" />
+																<Item href="" />
+															</applyEffect>
+															<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+															<applyEffectOrientation>Default</applyEffectOrientation>
+															<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+															<dieAfterApply>true</dieAfterApply>
+															<dispatchEffect>
+																<Item href="" />
+																<Item href="" />
+															</dispatchEffect>
+															<flags>0</flags>
+															<instantApply>false</instantApply>
+														</DispatchImmediate>
+													</dispatch>
+												</Spell>
+											</spell>
+											<treatDelegatedByDelegator>false</treatDelegatedByDelegator>
+										</EventProcessorDamageTransformer>
+									</processor>
+									<providerName></providerName>
+									<startCondition>
+										<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</startCondition>
+									<useAbilityCooldown>false</useAbilityCooldown>
+									<useAbilityOwnerMana>false</useAbilityOwnerMana>
+								</TriggerApplicator>
+							</Item>
+						</applicators>
+						<dispatch href="/Items/Talents/Class/Naga/status_A4_2_Enemy.APLR" id="147FE84D-6AF3-42A3-B8C1-88A4317B6642">
+							<DispatchImmediate>
+								<alwaysApply>false</alwaysApply>
+								<applyEffect>
+									<Item href="" />
+									<Item href="" />
+								</applyEffect>
+								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+								<applyEffectOrientation>Default</applyEffectOrientation>
+								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+								<dieAfterApply>true</dieAfterApply>
+								<dispatchEffect>
+									<Item href="" />
+									<Item href="" />
+								</dispatchEffect>
+								<flags>0</flags>
+								<instantApply>false</instantApply>
+							</DispatchImmediate>
+						</dispatch>
+					</Spell>
+				</spell>
+				<spellTarget>ApplicatorTarget</spellTarget>
+				<targetSelector href="" />
+			</SpellApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/Naga/status_A4_2_Enemy.APLR" id="EE12F77B-F2C2-400E-9677-5D57FA2A7F1E">
+			<SpellApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>ускор и вижен</caption>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<spell href="/Items/Talents/Class/Naga/status_A4_2_Enemy.APLR" id="C7C6D542-947E-40A8-ADB5-A8396AB08923">
+					<Spell>
+						<applicators>
+							<Item href="/Heroes/DefaultStatus/_HASTE_status.APLR" />
+							<Item href="/Items/Talents/Class/Naga/status_A4_2_Enemy.APLR" id="2C5536F5-7D4B-46F8-BAAB-FD6CCECB01FC">
+								<EyeApplicator>
+									<applyTarget>ApplicatorTarget</applyTarget>
+									<behaviorFlags>216</behaviorFlags>
+									<cancelObstacles>false</cancelObstacles>
+									<caption>вижен</caption>
+									<effect>
+										<Item href="" />
+										<Item href="" />
+									</effect>
+									<enabled>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<eyeTarget>ApplicatorTarget</eyeTarget>
+									<flags>8</flags>
+									<formulaName></formulaName>
+									<lifeTime>
+										<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAQA==</compiledString>
+										<returnType>float</returnType>
+										<sString>4</sString>
+									</lifeTime>
+									<LoggingEvent>-1</LoggingEvent>
+									<providerName></providerName>
+									<startCondition>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</startCondition>
+									<visRange>
+										<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACIQQ==</compiledString>
+										<returnType>float</returnType>
+										<sString>17</sString>
+									</visRange>
+								</EyeApplicator>
+							</Item>
+						</applicators>
+						<dispatch href="/Items/Talents/Class/Naga/status_A4_2_Enemy.APLR" id="D619CA24-2AAF-41A9-8388-FE5421F91998">
+							<DispatchImmediate>
+								<alwaysApply>false</alwaysApply>
+								<applyEffect>
+									<Item href="" />
+									<Item href="" />
+								</applyEffect>
+								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+								<applyEffectOrientation>Default</applyEffectOrientation>
+								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+								<dieAfterApply>true</dieAfterApply>
+								<dispatchEffect>
+									<Item href="" />
+									<Item href="" />
+								</dispatchEffect>
+								<flags>0</flags>
+								<instantApply>false</instantApply>
+							</DispatchImmediate>
+						</dispatch>
+					</Spell>
+				</spell>
+				<spellTarget>ApplicatorTarget</spellTarget>
+				<targetSelector href="" />
+			</SpellApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/Naga/status_A4_2_Enemy.APLR" id="8FD5C522-502E-46F4-BFCB-4897C52FEBA4">
+			<SpellApplicator>
+				<applyTarget>Hier1UpApplicatorTarget</applyTarget>
+				<caption>замедло и вижен</caption>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<spell href="/Items/Talents/Class/Naga/status_A4_2_Enemy.APLR" id="AD60AB64-23DB-4D70-B7CE-37248841EDB5">
+					<Spell>
+						<applicators>
+							<Item href="/Heroes/DefaultStatus/_SLOW_MOVE.APLR" />
+							<Item href="/Items/Talents/Class/Naga/status_A4_2_Enemy.APLR" id="0BFCFC4A-83F2-42DD-80E4-C962D05ED2E2">
+								<EyeApplicator>
+									<applyTarget>ApplicatorTarget</applyTarget>
+									<behaviorFlags>216</behaviorFlags>
+									<cancelObstacles>false</cancelObstacles>
+									<caption>вижен</caption>
+									<effect>
+										<Item href="" />
+										<Item href="" />
+									</effect>
+									<enabled>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<eyeTarget>ApplicatorTarget</eyeTarget>
+									<flags>8</flags>
+									<formulaName></formulaName>
+									<lifeTime>
+										<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAQA==</compiledString>
+										<returnType>float</returnType>
+										<sString>4</sString>
+									</lifeTime>
+									<LoggingEvent>-1</LoggingEvent>
+									<providerName></providerName>
+									<startCondition>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</startCondition>
+									<visRange>
+										<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAQA==</compiledString>
+										<returnType>float</returnType>
+										<sString>4</sString>
+									</visRange>
+								</EyeApplicator>
+							</Item>
+						</applicators>
+						<dispatch href="/Items/Talents/Class/Naga/status_A4_2_Enemy.APLR" id="D0E06BDE-BC02-41AD-A077-0E4DBDFCB69F">
+							<DispatchImmediate>
+								<alwaysApply>false</alwaysApply>
+								<applyEffect>
+									<Item href="" />
+									<Item href="" />
+								</applyEffect>
+								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+								<applyEffectOrientation>Default</applyEffectOrientation>
+								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+								<dieAfterApply>true</dieAfterApply>
+								<dispatchEffect>
+									<Item href="" />
+									<Item href="" />
+								</dispatchEffect>
+								<flags>0</flags>
+								<instantApply>false</instantApply>
+							</DispatchImmediate>
+						</dispatch>
+					</Spell>
+				</spell>
+				<spellTarget>Hier1UpApplicatorTarget</spellTarget>
+				<targetSelector href="" />
+			</SpellApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/Naga/status_A4_2_Enemy.APLR" id="CB72A1C0-1A36-4295-B85B-E792BEF31AC5">
+			<StatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>144</behaviorFlags>
+				<caption>костыль для наги врага</caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
 				<effect>
 					<Item href="" />
 					<Item href="" />
@@ -136,49 +849,151 @@
 				</enabled>
 				<formulaName></formulaName>
 				<lifeTime>
-					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAvw==</compiledString>
+					<compiledString></compiledString>
 					<returnType>float</returnType>
-					<sString>-1</sString>
+					<sString>-1.0</sString>
 				</lifeTime>
 				<LoggingEvent>-1</LoggingEvent>
-				<playAck>false</playAck>
-				<processor href="/Items/Talents/Class/Naga/status_A4_2_Enemy.APLR" id="AB515571-8645-44C8-A4C4-DB28AD5F86FA">
-					<EventProcessorOutgoingDamage>
-						<abilityFilter>
-							<abilitiesList />
-							<abilityCondition>
-								<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
-								<returnType>bool</returnType>
-								<sString>true</sString>
-							</abilityCondition>
-							<abilityCostMode>Any</abilityCostMode>
-							<exceptThis>false</exceptThis>
-							<flags>671088641</flags>
-							<onlySingleTarget>false</onlySingleTarget>
-						</abilityFilter>
-						<applyTarget>ApplicatorTarget</applyTarget>
-						<damageTypeFilter>31</damageTypeFilter>
-						<modifiedDamage>
-							<compiledString>FRwAAAACAAAAIwAAAD0AAABEYW1hZ2UAAFRUX0E0XzJ1X0RhbWFnZU11bHQAVYvsg+wMaAAAAACLRRCLEItNEItCVP/Qi00MUYtVCFJoCAAAAItFEIsQi00Qi0JQ3V34/9DZ6N7B3E342V302UX0i+VdwwAAAAAAAPA/</compiledString>
-							<returnType>float</returnType>
-							<sString>appl.vDamage *(1+cTT_A4_2u_DamageMult)</sString>
-						</modifiedDamage>
-						<spell href="" />
-					</EventProcessorOutgoingDamage>
-				</processor>
+				<modifier>
+					<addValue>
+						<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Life</stat>
+					<topModifier>false</topModifier>
+					<variable>NagaUltKostil</variable>
+				</modifier>
 				<providerName></providerName>
 				<startCondition>
-					<compiledString>FRcAAAACAAAAHgAAADcAAABOYWdhX0E0XzJ1AABOYWdhX0E0XzJ1AFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoDAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAikX7i+Vdww==</compiledString>
+					<compiledString></compiledString>
 					<returnType>bool</returnType>
-					<sString>tal("Naga_A4_2u")</sString>
+					<sString>true</sString>
 				</startCondition>
-				<useAbilityCooldown>false</useAbilityCooldown>
-				<useAbilityOwnerMana>false</useAbilityOwnerMana>
-			</TriggerApplicator>
+				<statModName></statModName>
+			</StatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/Naga/status_A4_2_Enemy.APLR" id="F63B5385-9C5D-4337-94AA-77C187C0DCE0">
+			<SpellApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>обнуление всяких дотов</caption>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<spell href="/Items/Talents/Class/Naga/status_A4_2_Enemy.APLR" id="F0D8EFFA-7C51-4D58-B8B0-7AC7A8511E37">
+					<Spell>
+						<applicators>
+							<Item href="/Items/Talents/Class/Naga/status_A4_2_Enemy.APLR" id="4A879FB7-9720-480B-A3D4-29A3F1D0F015">
+								<TriggerApplicator>
+									<actionsCount>
+										<compiledString></compiledString>
+										<returnType>int</returnType>
+										<sString>0</sString>
+									</actionsCount>
+									<applyTarget>Hier2UpApplicatorTarget</applyTarget>
+									<behaviorFlags>144</behaviorFlags>
+									<caption>обнуление урона от союзника</caption>
+									<effect>
+										<Item href="" />
+										<Item href="" />
+									</effect>
+									<enabled>
+										<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<lifeTime>
+										<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAQQQ==</compiledString>
+										<returnType>float</returnType>
+										<sString>9</sString>
+									</lifeTime>
+									<LoggingEvent>-1</LoggingEvent>
+									<playAck>false</playAck>
+									<processor href="/Items/Talents/Class/Naga/status_A4_2_Enemy.APLR" id="DFAA0046-83F3-447C-BC0F-AD688D56E6CD">
+										<EventProcessorDamageTransformer>
+											<abilityFilter>
+												<abilitiesList />
+												<abilityCondition>
+													<compiledString></compiledString>
+													<returnType>bool</returnType>
+													<sString>true</sString>
+												</abilityCondition>
+												<abilityCostMode>Any</abilityCostMode>
+												<exceptThis>false</exceptThis>
+												<flags>536872190</flags>
+												<onlySingleTarget>false</onlySingleTarget>
+											</abilityFilter>
+											<add>
+												<compiledString></compiledString>
+												<returnType>float</returnType>
+												<sString>0.0f</sString>
+											</add>
+											<applyTarget>ApplicatorTarget</applyTarget>
+											<checkSender>0</checkSender>
+											<damageTypeFilter>31</damageTypeFilter>
+											<flags>0</flags>
+											<matchTargetInverted>false</matchTargetInverted>
+											<mul>
+												<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+												<returnType>float</returnType>
+												<sString>0.0f</sString>
+											</mul>
+											<objectFilter>2040319</objectFilter>
+											<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
+											<spell href="" />
+											<treatDelegatedByDelegator>false</treatDelegatedByDelegator>
+										</EventProcessorDamageTransformer>
+									</processor>
+									<providerName></providerName>
+									<startCondition>
+										<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</startCondition>
+									<useAbilityCooldown>false</useAbilityCooldown>
+									<useAbilityOwnerMana>false</useAbilityOwnerMana>
+								</TriggerApplicator>
+							</Item>
+						</applicators>
+						<dispatch href="/Items/Talents/Class/Naga/status_A4_2_Enemy.APLR" id="8B3FCD2B-3FDD-4C61-BB4B-8841D825C1A3">
+							<DispatchImmediate>
+								<alwaysApply>false</alwaysApply>
+								<applyEffect>
+									<Item href="" />
+									<Item href="" />
+								</applyEffect>
+								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+								<applyEffectOrientation>Default</applyEffectOrientation>
+								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+								<dieAfterApply>true</dieAfterApply>
+								<dispatchEffect>
+									<Item href="" />
+									<Item href="" />
+								</dispatchEffect>
+								<flags>0</flags>
+								<instantApply>false</instantApply>
+							</DispatchImmediate>
+						</dispatch>
+					</Spell>
+				</spell>
+				<spellTarget>ApplicatorTarget</spellTarget>
+				<targetSelector href="" />
+			</SpellApplicator>
 		</Item>
 	</applicators>
 	<applyTarget>AbilityTarget</applyTarget>
-	<behaviorFlags>0</behaviorFlags>
+	<behaviorFlags>144</behaviorFlags>
 	<caption>--A4_2 status Enemy</caption>
 	<customCounter>
 		<compiledString></compiledString>
@@ -191,7 +1006,7 @@
 		<sString>-1.0</sString>
 	</customProgress>
 	<description textref="/Items/Talents/Class/Naga/status_A4_2_Enemy.APLR_description.txt" />
-	<dispellPriority>Medium</dispellPriority>
+	<dispellPriority>High</dispellPriority>
 	<effect>
 		<Item href="" />
 		<Item href="" />

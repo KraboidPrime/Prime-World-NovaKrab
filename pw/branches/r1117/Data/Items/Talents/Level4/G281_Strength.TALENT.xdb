@@ -178,16 +178,16 @@
 	<compiledDescriptionB textref="" />
 	<conditionFormulas />
 	<conflictingTalents />
-	<constants href="/Items/Talents/Level4/G281_Strength.TALENT" id="7F4A0250-2EF4-4FFD-9E2F-70D50541B5E3">
+	<constants href="/Items/Talents/Level4/G281_Strength.TALENT" id="4B6E116B-452F-45D6-9690-1491CADD8D0A">
 		<UnitConstantsContainer>
 			<vars>
-				<Item href="/Items/Talents/Level4/G281_Strength.TALENT" id="1BDF9131-C88D-4B0B-AFD9-902433653E17">
+				<Item href="/Items/Talents/Level4/G281_Strength.TALENT" id="82B5A490-A055-4F9D-B09C-CDBDA5106744">
 					<UnitConstant>
-						<name>Add_Strength</name>
+						<name>Add_Intellect</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAMEHNzEw/</compiledString>
+							<compiledString>FQcAAAACAAAADAAAACIAAABHMjgxX2QAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwtMAAAANld/NlF/IvlXcMAAAAAAAA6QA==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(11, 0.8)</sString>
+							<sString>26-sender.vG281_d</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -211,7 +211,7 @@
 	<description textref="/Items/Talents/Level4/G281_Strength.TALENT_description.txt" />
 	<devPoints>1</devPoints>
 	<dispatch href="" />
-	<flags>3</flags>
+	<flags>6</flags>
 	<forceBonus>16</forceBonus>
 	<image href="/UI/Styles/Icons/Talents/_281.ITEX" />
 	<imageSecondState href="" />
@@ -232,10 +232,10 @@
 	<name textref="/Items/Talents/Level4/G281_Strength.TALENT_name.txt" />
 	<node></node>
 	<passiveApplicators>
-		<Item href="/Items/Talents/Level4/G281_Strength.TALENT" id="EF7CBA26-ACA4-4607-A9E2-E78CF9A42CD7">
+		<Item href="/Items/Talents/Level4/G281_Strength.TALENT" id="0ABC8563-68B6-424F-8B35-327BFC57DA65">
 			<PermanentStatModApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>Add_Strength</caption>
+				<caption>Add_Str</caption>
 				<customApplyType>None</customApplyType>
 				<enabled>
 					<compiledString></compiledString>
@@ -246,9 +246,9 @@
 				<LoggingEvent>-1</LoggingEvent>
 				<modifier>
 					<addValue>
-						<compiledString>FQ0AAAABAAAAGQAAAEFkZF9TdHJlbmd0aABVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADQQQ==</compiledString>
 						<returnType>float</returnType>
-						<sString>cAdd_Strength</sString>
+						<sString>26</sString>
 					</addValue>
 					<multValue>
 						<compiledString></compiledString>
@@ -261,6 +261,132 @@
 				</modifier>
 				<providerName></providerName>
 			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level4/G281_Strength.TALENT" id="5CE8847B-9171-4BC7-B6ED-83BE48ACFF17">
+			<SpellPeriodicallyApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>Убывание</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAIA2RA==</compiledString>
+					<returnType>float</returnType>
+					<sString>730</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<period>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQQ==</compiledString>
+					<returnType>float</returnType>
+					<sString>30.0f</sString>
+				</period>
+				<providerName></providerName>
+				<scaleMode>ScaleIsCount</scaleMode>
+				<spell href="/Items/Talents/Level4/G281_Strength.TALENT" id="1BD6FBE4-F5B4-42DA-AAE0-A5ED53F08A3B">
+					<Spell>
+						<applicators>
+							<Item href="/Items/Talents/Level4/G281_Strength.TALENT" id="884B209E-E03A-4CE3-A58F-F41474AFE7BA">
+								<PermanentStatModApplicator>
+									<applyTarget>ApplicatorTarget</applyTarget>
+									<caption></caption>
+									<customApplyType>None</customApplyType>
+									<enabled>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<LoggingEvent>-1</LoggingEvent>
+									<modifier>
+										<addValue>
+											<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3D2qwKvw==</compiledString>
+											<returnType>float</returnType>
+											<sString>-0.5417f</sString>
+										</addValue>
+										<multValue>
+											<compiledString></compiledString>
+											<returnType>float</returnType>
+											<sString>1.0f</sString>
+										</multValue>
+										<stat>Strength</stat>
+										<topModifier>false</topModifier>
+										<variable></variable>
+									</modifier>
+									<providerName></providerName>
+								</PermanentStatModApplicator>
+							</Item>
+							<Item href="/Items/Talents/Level4/G281_Strength.TALENT" id="55B87CC3-131C-485A-B2EC-07771BA606FB">
+								<PermanentStatModApplicator>
+									<applyTarget>ApplicatorTarget</applyTarget>
+									<caption></caption>
+									<customApplyType>None</customApplyType>
+									<enabled>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<LoggingEvent>-1</LoggingEvent>
+									<modifier>
+										<addValue>
+											<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3D2qwKPw==</compiledString>
+											<returnType>float</returnType>
+											<sString>0.5417f</sString>
+										</addValue>
+										<multValue>
+											<compiledString></compiledString>
+											<returnType>float</returnType>
+											<sString>1.0f</sString>
+										</multValue>
+										<stat>Strength</stat>
+										<topModifier>false</topModifier>
+										<variable>G281_d</variable>
+									</modifier>
+									<providerName></providerName>
+								</PermanentStatModApplicator>
+							</Item>
+						</applicators>
+						<dispatch href="/Items/Talents/Level4/G281_Strength.TALENT" id="9D4E39C0-CFFB-4E82-B20F-15FDE17266AF">
+							<DispatchImmediate>
+								<alwaysApply>false</alwaysApply>
+								<applyEffect>
+									<Item href="" />
+									<Item href="" />
+								</applyEffect>
+								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+								<applyEffectOrientation>Default</applyEffectOrientation>
+								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+								<dieAfterApply>true</dieAfterApply>
+								<dispatchEffect>
+									<Item href="" />
+									<Item href="" />
+								</dispatchEffect>
+								<flags>0</flags>
+								<instantApply>false</instantApply>
+							</DispatchImmediate>
+						</dispatch>
+					</Spell>
+				</spell>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<startOffset>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQQ==</compiledString>
+					<returnType>float</returnType>
+					<sString>30.0f</sString>
+				</startOffset>
+				<targetSelector href="" />
+			</SpellPeriodicallyApplicator>
 		</Item>
 	</passiveApplicators>
 	<persistentId>G281</persistentId>
@@ -282,7 +408,7 @@
 			</values>
 		</Item>
 	</talentStats>
-	<targetType>681312319</targetType>
+	<targetType>0</targetType>
 	<type>Simple</type>
 	<upgradeLevel>0</upgradeLevel>
 	<useRange>

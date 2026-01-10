@@ -2,12 +2,11 @@
 <AuraApplicator>
 	<BackLink DBID="/Items/Talents/Level5/G353_AoE.TALENT" Count="1" />
 	<applicators>
-		<Item href="/GameLogic/GeneralApplicators/DispellWEffects.APLR" />
 		<Item href="/Items/Talents/Level5/status_G353_DecStats.APLR" />
 		<Item href="/Heroes/DefaultStatus/_BLIND_status.APLR" />
-		<Item href="/Heroes/DefaultStatus/_SILENCE_Status.APLR" />
 		<Item href="/Heroes/DefaultStatus/_ARMORCUT_status.APLR" />
 		<Item href="/Heroes/DefaultStatus/_Vulnerability_status.APLR" />
+		<Item href="/Heroes/DefaultStatus/_SLOW_MOVE.APLR" />
 	</applicators>
 	<applyTarget>ApplicatorTarget</applyTarget>
 	<behaviorFlags>155</behaviorFlags>

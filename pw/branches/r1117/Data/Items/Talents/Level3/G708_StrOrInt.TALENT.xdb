@@ -85,9 +85,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString></compiledString>
+		<compiledString>FRQAAAABAAAAIAAAAFNwZWxsX0Jsb2NrQ29vbGRvd24AVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
 		<returnType>float</returnType>
-		<sString>0.0f</sString>
+		<sString>cSpell_BlockCooldown</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>

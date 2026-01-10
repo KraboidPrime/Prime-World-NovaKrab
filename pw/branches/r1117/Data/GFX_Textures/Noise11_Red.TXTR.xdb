@@ -35,6 +35,8 @@
 	<BackLink DBID="/Heroes/Mage/S3/FXDeath.PRXY" Count="2" />
 	<BackLink DBID="/Summons/Bear/FXAbility1.PRXY" Count="1" />
 	<BackLink DBID="/Summons/Ghost/FXDeathB.PRXY" Count="1" />
+	<BackLink DBID="/Glyphs/Egg2.SOBJ" Count="1" />
+	<BackLink DBID="/Summons/Pumpkin/_EggEmul.SOBJ" Count="1" />
 	<generatedFileName></generatedFileName>
 	<mipLevels>0</mipLevels>
 	<mipLevelUsage>AutoGenerate</mipLevelUsage>

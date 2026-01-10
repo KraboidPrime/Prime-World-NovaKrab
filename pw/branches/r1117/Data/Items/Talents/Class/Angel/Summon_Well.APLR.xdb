@@ -108,6 +108,28 @@
 									<Spell>
 										<applicators>
 											<Item href="/Items/Talents/Class/Angel/status_A2_ExpBuff.APLR" />
+											<Item href="/Items/Talents/Class/Angel/Summon_Well.APLR" id="F531F502-827D-4E8E-B262-029050FF2716">
+												<HealApplicator>
+													<amount>
+														<compiledString>FQwAAAABAAAAGAAAAFRUX0hFQUxfRFZBAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+														<returnType>float</returnType>
+														<sString>cTT_HEAL_DVA</sString>
+													</amount>
+													<applyTarget>ApplicatorTarget</applyTarget>
+													<caption>хил</caption>
+													<enabled>
+														<compiledString>FR0AAAACAAAAJAAAAD0AAABBbmdlbF9BMl9TVVAAAAAAQW5nZWxfQTJfU1VQAFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAikX7i+Vdww==</compiledString>
+														<returnType>bool</returnType>
+														<sString>tal("Angel_A2_SUP")</sString>
+													</enabled>
+													<formulaName></formulaName>
+													<healTarget>Health</healTarget>
+													<ignoreHealingMods>false</ignoreHealingMods>
+													<LoggingEvent>-1</LoggingEvent>
+													<providerName></providerName>
+													<uiEvent href="/UI/Events/CommonEvents/EventHeal.UIEV" />
+												</HealApplicator>
+											</Item>
 										</applicators>
 										<dispatch href="/Items/Talents/Class/Angel/Summon_Well.APLR" id="D2B6EBB7-1951-4134-BDF2-9AC0450E25F4">
 											<DispatchImmediate>
@@ -145,6 +167,106 @@
 											<sString>cA2u_ExplosionRange</sString>
 										</range>
 										<targetFilter>1342963775</targetFilter>
+										<targetSelector href="" />
+									</AreaTargetSelector>
+								</targetSelector>
+							</SpellApplicator>
+						</applicator>
+						<continueCondition>
+							<compiledString></compiledString>
+							<returnType>bool</returnType>
+							<sString>0</sString>
+						</continueCondition>
+						<continueEvents>1</continueEvents>
+						<delay>
+							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>-1.0</sString>
+						</delay>
+						<stopCondition>
+							<compiledString></compiledString>
+							<returnType>bool</returnType>
+							<sString>0</sString>
+						</stopCondition>
+						<stopEvents>0</stopEvents>
+					</Item>
+					<Item>
+						<applicator href="/Items/Talents/Class/Angel/Summon_Well.APLR" id="41924801-2655-422B-87F9-FE7F1123335D">
+							<SpellApplicator>
+								<applyTarget>ApplicatorTarget</applyTarget>
+								<caption>Раздаем врагам урон</caption>
+								<enabled>
+									<compiledString>FTUAAAAEAAAAPAAAAFUAAACLAAAApAAAAEFuZ2VsX0EydQAAAEFuZ2VsX0EydQAAAEFuZ2VsX0EyX1NVUAAAAABBbmdlbF9BMl9TVVAAVYvsg+wUaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgMAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0WGgYAAAAi1UIiwKLTQiLkKgBAAD/0oXAdCpoKAAAAItFCIsQi00Ii4KoAQAA/9CJRfSLTfSLEYtN9ItCBP/QiEXz6wTGRfMAD7ZN84XJdAnHRewBAAAA6wfHRewAAAAAikXsi+Vdww==</compiledString>
+									<returnType>bool</returnType>
+									<sString>tal("Angel_A2u") &amp;&amp; tal("Angel_A2_SUP")</sString>
+								</enabled>
+								<formulaName></formulaName>
+								<LoggingEvent>-1</LoggingEvent>
+								<providerName></providerName>
+								<spell href="/Items/Talents/Class/Angel/Summon_Well.APLR" id="60E57387-9835-4CEB-9349-269CDD701C0A">
+									<Spell>
+										<applicators>
+											<Item href="/Items/Talents/Class/Angel/Summon_Well.APLR" id="BFDF2638-17BE-4E62-9E8E-D0C8AF091868">
+												<DamageApplicator>
+													<applyTarget>ApplicatorTarget</applyTarget>
+													<cancelInvisibility>true</cancelInvisibility>
+													<caption></caption>
+													<damage>
+														<compiledString>FQsAAAABAAAAFwAAAFRUX0RNR19EVkEAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+														<returnType>float</returnType>
+														<sString>cTT_DMG_DVA</sString>
+													</damage>
+													<damageMode>0</damageMode>
+													<damageType>Material</damageType>
+													<enabled>
+														<compiledString></compiledString>
+														<returnType>bool</returnType>
+														<sString>true</sString>
+													</enabled>
+													<formulaName></formulaName>
+													<LoggingEvent>-1</LoggingEvent>
+													<providerName></providerName>
+													<timeLimiter>-1</timeLimiter>
+													<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Material.UIEV" />
+												</DamageApplicator>
+											</Item>
+										</applicators>
+										<dispatch href="/Items/Talents/Class/Angel/Summon_Well.APLR" id="593748EA-9581-4B8F-9794-E38AE784E2B1">
+											<DispatchImmediate>
+												<alwaysApply>false</alwaysApply>
+												<applyEffect>
+													<Item href="" />
+													<Item href="" />
+												</applyEffect>
+												<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+												<applyEffectOrientation>Default</applyEffectOrientation>
+												<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+												<dieAfterApply>true</dieAfterApply>
+												<dispatchEffect>
+													<Item href="" />
+													<Item href="" />
+												</dispatchEffect>
+												<flags>1</flags>
+												<instantApply>false</instantApply>
+											</DispatchImmediate>
+										</dispatch>
+									</Spell>
+								</spell>
+								<spellTarget>ApplicatorTarget</spellTarget>
+								<targetSelector href="/Items/Talents/Class/Angel/Summon_Well.APLR" id="1490EAFB-E87D-42E8-A310-F269BD32BA12">
+									<AreaTargetSelector>
+										<absolutePosition>
+											<x>0</x>
+											<y>0</y>
+										</absolutePosition>
+										<flags>0</flags>
+										<mode>Normal</mode>
+										<range>
+											<compiledString>FRMAAAABAAAAHwAAAEEydV9FeHBsb3Npb25SYW5nZQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+											<returnType>float</returnType>
+											<sString>cA2u_ExplosionRange</sString>
+										</range>
+										<targetFilter>538705983</targetFilter>
 										<targetSelector href="" />
 									</AreaTargetSelector>
 								</targetSelector>

@@ -62,9 +62,9 @@
 					<UnitConstant>
 						<name>Add_Energy</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAh0MAAJhB</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAEABRA==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(270, 19)</sString>
+							<sString>517</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -72,9 +72,9 @@
 					<UnitConstant>
 						<name>Add_Intellect</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAIEHNzEw/</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DMzOjQQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(10, 0.8)</sString>
+							<sString>20.4</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -182,7 +182,7 @@
 	</passiveApplicators>
 	<persistentId>G125</persistentId>
 	<prerequisiteTalents />
-	<rarity>excellent</rarity>
+	<rarity>magnificent</rarity>
 	<requireLineOfSight>true</requireLineOfSight>
 	<shortDescription textref="/Items/Talents/Level6/G125_Int_Energy.TALENT_shortDescription.txt" />
 	<talentRollGroups>0</talentRollGroups>

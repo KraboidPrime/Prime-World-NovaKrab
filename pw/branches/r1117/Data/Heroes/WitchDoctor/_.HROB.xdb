@@ -772,7 +772,7 @@
 					<instantApply>false</instantApply>
 				</DispatchImmediate>
 			</dispatch>
-			<flags>1</flags>
+			<flags>5</flags>
 			<image href="" />
 			<imageSecondState href="" />
 			<isMelee>false</isMelee>
@@ -1027,9 +1027,9 @@
 					<calcIncrement>0.8</calcIncrement>
 					<calcValue>60</calcValue>
 					<increment>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzcxMPw==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DMzMzPw==</compiledString>
 						<returnType>float</returnType>
-						<sString>0.8</sString>
+						<sString>0.7</sString>
 					</increment>
 					<levelUpgrades />
 					<statId>Intellect</statId>
@@ -1066,9 +1066,9 @@
 					<levelUpgrades />
 					<statId>AttackSpeed</statId>
 					<value>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABUQg==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQg==</compiledString>
 						<returnType>float</returnType>
-						<sString>53</sString>
+						<sString>60</sString>
 					</value>
 				</Item>
 				<Item>
@@ -1098,9 +1098,9 @@
 					<levelUpgrades />
 					<statId>Will</statId>
 					<value>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAkQg==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQg==</compiledString>
 						<returnType>float</returnType>
-						<sString>41</sString>
+						<sString>48</sString>
 					</value>
 				</Item>
 				<Item>

@@ -92,9 +92,9 @@
 								<UnitConstant>
 									<name>A2_LifeHealPerTick</name>
 									<var>
-										<compiledString>FSAAAAACAAAALwAAAEkAAABBMl9Ub3RhbEhlYWwAAAAAQTJfSGVhbER1cmF0aW9uAFWL7IPsDItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/Si0UMUItNCFFoEAAAAItVEIsCi00Qi1BQ3V34/9LcffjZXfTZRfSL5V3D</compiledString>
+										<compiledString>FSwAAAAEAAAAMwAAAEkAAABaAAAAegAAAEludk5ld1RhbAAAAEEyX1RvdGFsSGVhbAAAAABBMl9IZWFsRHVyYXRpb24AVYvsg+wUaAAAAACLRQiLEItNCIuCiAEAAP/Q3A2jAAAA2ejewYtNDFGLVQhSaAwAAACLRRCLEItNEItCUN1d+P/Q3E34i00MUYtVCFJoHAAAAItFEIsQi00Qi0JQ3V3w/9DcffDZXezZReyL5V3DAAAAAAAA8D+amZmZmZnpPw==</compiledString>
 										<returnType>float</returnType>
-										<sString>cA2_TotalHeal/cA2_HealDuration</sString>
+										<sString>(1+0.8*sender.vInvNewTal)*cA2_TotalHeal/cA2_HealDuration</sString>
 									</var>
 								</UnitConstant>
 							</Item>
@@ -643,6 +643,22 @@
 						<compiledString></compiledString>
 						<returnType>float</returnType>
 						<sString>0.0f</sString>
+					</value>
+				</Item>
+				<Item>
+					<calcIncrement>0</calcIncrement>
+					<calcValue>0</calcValue>
+					<increment>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>0.0f</sString>
+					</increment>
+					<levelUpgrades />
+					<statId>Intellect</statId>
+					<value>
+						<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+						<returnType>float</returnType>
+						<sString>1</sString>
 					</value>
 				</Item>
 			</stats>

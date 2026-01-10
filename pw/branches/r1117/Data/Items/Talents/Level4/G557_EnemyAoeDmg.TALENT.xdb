@@ -93,6 +93,900 @@
 				</spells>
 			</SpellSwitchApplicator>
 		</Item>
+		<Item href="/Items/Talents/Level4/G557_EnemyAoeDmg.TALENT" id="5FF3363D-2E2D-4164-A096-C2211CFEDF82">
+			<ProgramApplicator>
+				<applicators>
+					<Item>
+						<applicator href="/Items/Talents/Level4/G557_EnemyAoeDmg.TALENT" id="17F0ABAB-5AFB-40D7-B296-61419C5D3AFE">
+							<FlagsApplicator>
+								<applyTarget>AbilityOwner</applyTarget>
+								<behaviorFlags>152</behaviorFlags>
+								<caption></caption>
+								<consumables />
+								<effect>
+									<Item href="" />
+									<Item href="" />
+								</effect>
+								<enabled>
+									<compiledString></compiledString>
+									<returnType>bool</returnType>
+									<sString>true</sString>
+								</enabled>
+								<flag>0</flag>
+								<formulaName></formulaName>
+								<lifeTime>
+									<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+									<returnType>float</returnType>
+									<sString>0,1</sString>
+								</lifeTime>
+								<LoggingEvent>-1</LoggingEvent>
+								<providerName></providerName>
+								<startCondition>
+									<compiledString></compiledString>
+									<returnType>bool</returnType>
+									<sString>true</sString>
+								</startCondition>
+								<talents />
+								<useListAs>ListAsRule</useListAs>
+							</FlagsApplicator>
+						</applicator>
+						<continueCondition>
+							<compiledString></compiledString>
+							<returnType>bool</returnType>
+							<sString>0</sString>
+						</continueCondition>
+						<continueEvents>2</continueEvents>
+						<delay>
+							<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+							<returnType>float</returnType>
+							<sString>-1,0</sString>
+						</delay>
+						<stopCondition>
+							<compiledString></compiledString>
+							<returnType>bool</returnType>
+							<sString>0</sString>
+						</stopCondition>
+						<stopEvents>0</stopEvents>
+					</Item>
+					<Item>
+						<applicator href="/Items/Talents/Level4/G557_EnemyAoeDmg.TALENT" id="FC8E3F42-B589-4F82-ADFB-B5ACABDF1ED1">
+							<SpellApplicator>
+								<applyTarget>AbilityTarget</applyTarget>
+								<caption>Стянуть всех врагов в лужу</caption>
+								<enabled>
+									<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+									<returnType>bool</returnType>
+									<sString>true</sString>
+								</enabled>
+								<formulaName></formulaName>
+								<LoggingEvent>-1</LoggingEvent>
+								<providerName></providerName>
+								<spell href="/Items/Talents/Level4/G557_EnemyAoeDmg.TALENT" id="0A508DEA-7F75-4E4B-9794-2D034DB9206F">
+									<Spell>
+										<applicators>
+											<Item href="/Items/Talents/Level4/G557_EnemyAoeDmg.TALENT" id="63EC4DFC-F359-4E5E-BE1A-CD828E2D23E8">
+												<ProgramApplicator>
+													<applicators>
+														<Item>
+															<applicator href="/Items/Talents/Level4/G557_EnemyAoeDmg.TALENT" id="F67E5122-8D71-4D02-BCEF-77F506C787B4">
+																<FlagsApplicator>
+																	<applyTarget>ApplicatorTarget</applyTarget>
+																	<behaviorFlags>152</behaviorFlags>
+																	<caption>Forbid Actions</caption>
+																	<consumables />
+																	<effect>
+																		<Item href="" />
+																		<Item href="" />
+																	</effect>
+																	<enabled>
+																		<compiledString></compiledString>
+																		<returnType>bool</returnType>
+																		<sString>true</sString>
+																	</enabled>
+																	<flag>1919</flag>
+																	<formulaName></formulaName>
+																	<lifeTime>
+																		<compiledString></compiledString>
+																		<returnType>float</returnType>
+																		<sString>-1.0</sString>
+																	</lifeTime>
+																	<LoggingEvent>-1</LoggingEvent>
+																	<providerName></providerName>
+																	<startCondition>
+																		<compiledString></compiledString>
+																		<returnType>bool</returnType>
+																		<sString>true</sString>
+																	</startCondition>
+																	<talents />
+																	<useListAs>ListAsException</useListAs>
+																</FlagsApplicator>
+															</applicator>
+															<continueCondition>
+																<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+																<returnType>bool</returnType>
+																<sString>0</sString>
+															</continueCondition>
+															<continueEvents>1</continueEvents>
+															<delay>
+																<compiledString></compiledString>
+																<returnType>float</returnType>
+																<sString>-1.0</sString>
+															</delay>
+															<stopCondition>
+																<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+																<returnType>bool</returnType>
+																<sString>0</sString>
+															</stopCondition>
+															<stopEvents>0</stopEvents>
+														</Item>
+														<Item>
+															<applicator href="/Items/Talents/Level4/G557_EnemyAoeDmg.TALENT" id="29A574AC-75DD-46C4-8374-C8CDA5EFA9C2">
+																<ThrowApplicator>
+																	<angle Animated="True">
+																		<Tracks>
+																			<Item>
+																				<Item>
+																					<Key>0</Key>
+																					<Value>0</Value>
+																				</Item>
+																				<Item>
+																					<Key>0.2</Key>
+																					<Value>0</Value>
+																				</Item>
+																				<Item>
+																					<Key>0.4</Key>
+																					<Value>0</Value>
+																				</Item>
+																			</Item>
+																		</Tracks>
+																		<Type>Clamp</Type>
+																		<Values>
+																			<Item>
+																				<Key>0</Key>
+																				<Value>0</Value>
+																			</Item>
+																			<Item>
+																				<Key>0.2</Key>
+																				<Value>0</Value>
+																			</Item>
+																			<Item>
+																				<Key>0.4</Key>
+																				<Value>0</Value>
+																			</Item>
+																		</Values>
+																	</angle>
+																	<applyTarget>ApplicatorTarget</applyTarget>
+																	<behaviorFlags>152</behaviorFlags>
+																	<caption>Затащить в лужу, застанить(upg) и нанести урон(upg)</caption>
+																	<collisionFlags>7</collisionFlags>
+																	<enabled>
+																		<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+																		<returnType>bool</returnType>
+																		<sString>true</sString>
+																	</enabled>
+																	<firstTargetToHit href="" />
+																	<flightType>Jump</flightType>
+																	<flipTime>
+																		<compiledString></compiledString>
+																		<returnType>float</returnType>
+																		<sString>1.0</sString>
+																	</flipTime>
+																	<flyEffect>
+																		<Item href="" />
+																		<Item href="" />
+																	</flyEffect>
+																	<formulaName>Throw_Jump</formulaName>
+																	<landTime>0</landTime>
+																	<lockRotation>false</lockRotation>
+																	<LoggingEvent>-1</LoggingEvent>
+																	<maxDistance>0</maxDistance>
+																	<maxHeight>2</maxHeight>
+																	<moveSpeed>
+																		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQQ==</compiledString>
+																		<returnType>float</returnType>
+																		<sString>20</sString>
+																	</moveSpeed>
+																	<providerName></providerName>
+																	<startSpell href="/Items/Talents/Level4/G557_EnemyAoeDmg.TALENT" id="D9C12A74-979E-4979-9D04-E32E18F251E9">
+																		<Spell>
+																			<applicators>
+																				<Item href="/Heroes/DefaultStatus/_INTERRUPT.APLR" />
+																			</applicators>
+																			<dispatch href="/Items/Talents/Level4/G557_EnemyAoeDmg.TALENT" id="B551780B-420D-4775-BF00-E9319E865224">
+																				<DispatchImmediate>
+																					<alwaysApply>false</alwaysApply>
+																					<applyEffect>
+																						<Item href="" />
+																						<Item href="" />
+																					</applyEffect>
+																					<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																					<applyEffectOrientation>Default</applyEffectOrientation>
+																					<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																					<dieAfterApply>true</dieAfterApply>
+																					<dispatchEffect>
+																						<Item href="" />
+																						<Item href="" />
+																					</dispatchEffect>
+																					<flags>0</flags>
+																					<instantApply>false</instantApply>
+																				</DispatchImmediate>
+																			</dispatch>
+																		</Spell>
+																	</startSpell>
+																	<stopSpell href="" />
+																	<surfaceSpeedFromAG>false</surfaceSpeedFromAG>
+																	<takeOffTime>0</takeOffTime>
+																	<targetSelector href="/Items/Talents/Level4/G557_EnemyAoeDmg.TALENT" id="F42D96D4-EA45-478F-9FA9-52FB63A8083B">
+																		<SelectApplicatorTarget>
+																			<applicatorIndex>0</applicatorIndex>
+																			<applicatorName></applicatorName>
+																			<namedApplicatorTarget>ApplicatorTarget</namedApplicatorTarget>
+																			<selectTarget>AbilityTarget</selectTarget>
+																		</SelectApplicatorTarget>
+																	</targetSelector>
+																	<trackTargetUnit>false</trackTargetUnit>
+																	<trajectory Animated="True">
+																		<Tracks>
+																			<Item>
+																				<Item>
+																					<Key>0</Key>
+																					<Value>0</Value>
+																				</Item>
+																				<Item>
+																					<Key>0.1389016</Key>
+																					<Value>0.03134328</Value>
+																				</Item>
+																				<Item>
+																					<Key>0.3183066</Key>
+																					<Value>0.04029852</Value>
+																				</Item>
+																				<Item>
+																					<Key>0.4</Key>
+																					<Value>0</Value>
+																				</Item>
+																			</Item>
+																		</Tracks>
+																		<Type>Clamp</Type>
+																		<Values>
+																			<Item>
+																				<Key>0</Key>
+																				<Value>0</Value>
+																			</Item>
+																			<Item>
+																				<Key>0.1389016</Key>
+																				<Value>0.03134328</Value>
+																			</Item>
+																			<Item>
+																				<Key>0.3183066</Key>
+																				<Value>0.04029852</Value>
+																			</Item>
+																			<Item>
+																				<Key>0.4</Key>
+																				<Value>0</Value>
+																			</Item>
+																		</Values>
+																	</trajectory>
+																</ThrowApplicator>
+															</applicator>
+															<continueCondition>
+																<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+																<returnType>bool</returnType>
+																<sString>0</sString>
+															</continueCondition>
+															<continueEvents>2</continueEvents>
+															<delay>
+																<compiledString></compiledString>
+																<returnType>float</returnType>
+																<sString>-1.0</sString>
+															</delay>
+															<stopCondition>
+																<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+																<returnType>bool</returnType>
+																<sString>0</sString>
+															</stopCondition>
+															<stopEvents>0</stopEvents>
+														</Item>
+														<Item>
+															<applicator href="/GameLogic/GeneralApplicators/EndOfAbility.APLR" />
+															<continueCondition>
+																<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+																<returnType>bool</returnType>
+																<sString>0</sString>
+															</continueCondition>
+															<continueEvents>2</continueEvents>
+															<delay>
+																<compiledString></compiledString>
+																<returnType>float</returnType>
+																<sString>-1.0</sString>
+															</delay>
+															<stopCondition>
+																<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+																<returnType>bool</returnType>
+																<sString>0</sString>
+															</stopCondition>
+															<stopEvents>0</stopEvents>
+														</Item>
+													</applicators>
+													<applyTarget>ApplicatorTarget</applyTarget>
+													<behaviorFlags>154</behaviorFlags>
+													<caption>Программа</caption>
+													<effect>
+														<Item href="" />
+														<Item href="" />
+													</effect>
+													<enabled>
+														<compiledString></compiledString>
+														<returnType>bool</returnType>
+														<sString>true</sString>
+													</enabled>
+													<formulaName></formulaName>
+													<lifeTime>
+														<compiledString></compiledString>
+														<returnType>float</returnType>
+														<sString>-1.0</sString>
+													</lifeTime>
+													<LoggingEvent>-1</LoggingEvent>
+													<providerName></providerName>
+													<startCondition>
+														<compiledString></compiledString>
+														<returnType>bool</returnType>
+														<sString>true</sString>
+													</startCondition>
+												</ProgramApplicator>
+											</Item>
+										</applicators>
+										<dispatch href="/Items/Talents/Level4/G557_EnemyAoeDmg.TALENT" id="07A5CCDF-6A04-413F-AEEE-44C765B41098">
+											<DispatchImmediate>
+												<alwaysApply>false</alwaysApply>
+												<applyEffect>
+													<Item href="/Effects/Debuffs/Boot/_.EFFT" />
+													<Item href="" />
+												</applyEffect>
+												<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+												<applyEffectOrientation>LogicalDirection</applyEffectOrientation>
+												<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+												<dieAfterApply>true</dieAfterApply>
+												<dispatchEffect>
+													<Item href="" />
+													<Item href="" />
+												</dispatchEffect>
+												<flags>0</flags>
+												<instantApply>false</instantApply>
+											</DispatchImmediate>
+										</dispatch>
+									</Spell>
+								</spell>
+								<spellTarget>ApplicatorTarget</spellTarget>
+								<targetSelector href="/Items/Talents/Level4/G557_EnemyAoeDmg.TALENT" id="0D2CB205-AC2C-4A07-8D62-22CC632905DE">
+									<ConditionTargetSelector>
+										<condition>
+											<compiledString>FQ8AAAACAAAAFAAAACoAAABJbW11bmUyQ29udHJvbABVi+xRaAAAAACLRQyLEItNDIuCiAEAAP/Q3B1MAAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
+											<returnType>bool</returnType>
+											<sString>receiver.vImmune2Control == 0</sString>
+										</condition>
+										<flags>1</flags>
+										<mode>Normal</mode>
+										<targetSelector href="/Items/Talents/Level4/G557_EnemyAoeDmg.TALENT" id="A2971129-206E-450B-BCCA-39ED1F977B15">
+											<AreaTargetSelector>
+												<absolutePosition>
+													<x>0</x>
+													<y>0</y>
+												</absolutePosition>
+												<flags>0</flags>
+												<mode>Normal</mode>
+												<range>
+													<compiledString>FQsAAAABAAAAFwAAAEc1NTdfUmFuZ2UAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+													<returnType>float</returnType>
+													<sString>cG557_Range</sString>
+												</range>
+												<targetFilter>536870915</targetFilter>
+												<targetSelector href="/Items/Talents/Level4/G557_EnemyAoeDmg.TALENT" id="64CE4C21-FAA3-4751-ABD7-C2BBD76D90FE">
+													<SelectApplicatorTarget>
+														<applicatorIndex>0</applicatorIndex>
+														<applicatorName></applicatorName>
+														<namedApplicatorTarget>ApplicatorTarget</namedApplicatorTarget>
+														<selectTarget>AbilityTarget</selectTarget>
+													</SelectApplicatorTarget>
+												</targetSelector>
+											</AreaTargetSelector>
+										</targetSelector>
+									</ConditionTargetSelector>
+								</targetSelector>
+							</SpellApplicator>
+						</applicator>
+						<continueCondition>
+							<compiledString></compiledString>
+							<returnType>bool</returnType>
+							<sString>0</sString>
+						</continueCondition>
+						<continueEvents>2</continueEvents>
+						<delay>
+							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>-1.0</sString>
+						</delay>
+						<stopCondition>
+							<compiledString></compiledString>
+							<returnType>bool</returnType>
+							<sString>0</sString>
+						</stopCondition>
+						<stopEvents>0</stopEvents>
+					</Item>
+				</applicators>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>152</behaviorFlags>
+				<caption>Стягивалка с небольшой задержкой герои</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString>FQwAAAACAAAAEQAAACcAAABHNTc5X0FjdGl2ZQBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1JAAAA3+D2xEF1CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vG579_Active &gt; 0</sString>
+				</startCondition>
+			</ProgramApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level4/G557_EnemyAoeDmg.TALENT" id="CFF14455-81B3-48F5-93CA-DD251F2E413C">
+			<ProgramApplicator>
+				<applicators>
+					<Item>
+						<applicator href="/Items/Talents/Level4/G557_EnemyAoeDmg.TALENT" id="D4A97956-38CE-4E01-AAFA-CEE4651709E0">
+							<FlagsApplicator>
+								<applyTarget>AbilityOwner</applyTarget>
+								<behaviorFlags>152</behaviorFlags>
+								<caption></caption>
+								<consumables />
+								<effect>
+									<Item href="" />
+									<Item href="" />
+								</effect>
+								<enabled>
+									<compiledString></compiledString>
+									<returnType>bool</returnType>
+									<sString>true</sString>
+								</enabled>
+								<flag>0</flag>
+								<formulaName></formulaName>
+								<lifeTime>
+									<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+									<returnType>float</returnType>
+									<sString>0,1</sString>
+								</lifeTime>
+								<LoggingEvent>-1</LoggingEvent>
+								<providerName></providerName>
+								<startCondition>
+									<compiledString></compiledString>
+									<returnType>bool</returnType>
+									<sString>true</sString>
+								</startCondition>
+								<talents />
+								<useListAs>ListAsRule</useListAs>
+							</FlagsApplicator>
+						</applicator>
+						<continueCondition>
+							<compiledString></compiledString>
+							<returnType>bool</returnType>
+							<sString>0</sString>
+						</continueCondition>
+						<continueEvents>2</continueEvents>
+						<delay>
+							<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+							<returnType>float</returnType>
+							<sString>-1,0</sString>
+						</delay>
+						<stopCondition>
+							<compiledString></compiledString>
+							<returnType>bool</returnType>
+							<sString>0</sString>
+						</stopCondition>
+						<stopEvents>0</stopEvents>
+					</Item>
+					<Item>
+						<applicator href="/Items/Talents/Level4/G557_EnemyAoeDmg.TALENT" id="55446967-84DF-4DCA-AC86-B87EAD1DD95F">
+							<SpellApplicator>
+								<applyTarget>AbilityTarget</applyTarget>
+								<caption>Стянуть всех врагов в лужу</caption>
+								<enabled>
+									<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+									<returnType>bool</returnType>
+									<sString>true</sString>
+								</enabled>
+								<formulaName></formulaName>
+								<LoggingEvent>-1</LoggingEvent>
+								<providerName></providerName>
+								<spell href="/Items/Talents/Level4/G557_EnemyAoeDmg.TALENT" id="5E1431E2-F64F-424B-9BF3-28AAE9927616">
+									<Spell>
+										<applicators>
+											<Item href="/Items/Talents/Level4/G557_EnemyAoeDmg.TALENT" id="6AFC980E-2151-4B9E-A96E-55B1605C791D">
+												<ProgramApplicator>
+													<applicators>
+														<Item>
+															<applicator href="/Items/Talents/Level4/G557_EnemyAoeDmg.TALENT" id="84F8E680-B893-44F9-92E9-8E733847C045">
+																<FlagsApplicator>
+																	<applyTarget>ApplicatorTarget</applyTarget>
+																	<behaviorFlags>152</behaviorFlags>
+																	<caption>Forbid Actions</caption>
+																	<consumables />
+																	<effect>
+																		<Item href="" />
+																		<Item href="" />
+																	</effect>
+																	<enabled>
+																		<compiledString></compiledString>
+																		<returnType>bool</returnType>
+																		<sString>true</sString>
+																	</enabled>
+																	<flag>1919</flag>
+																	<formulaName></formulaName>
+																	<lifeTime>
+																		<compiledString></compiledString>
+																		<returnType>float</returnType>
+																		<sString>-1.0</sString>
+																	</lifeTime>
+																	<LoggingEvent>-1</LoggingEvent>
+																	<providerName></providerName>
+																	<startCondition>
+																		<compiledString></compiledString>
+																		<returnType>bool</returnType>
+																		<sString>true</sString>
+																	</startCondition>
+																	<talents />
+																	<useListAs>ListAsException</useListAs>
+																</FlagsApplicator>
+															</applicator>
+															<continueCondition>
+																<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+																<returnType>bool</returnType>
+																<sString>0</sString>
+															</continueCondition>
+															<continueEvents>1</continueEvents>
+															<delay>
+																<compiledString></compiledString>
+																<returnType>float</returnType>
+																<sString>-1.0</sString>
+															</delay>
+															<stopCondition>
+																<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+																<returnType>bool</returnType>
+																<sString>0</sString>
+															</stopCondition>
+															<stopEvents>0</stopEvents>
+														</Item>
+														<Item>
+															<applicator href="/Items/Talents/Level4/G557_EnemyAoeDmg.TALENT" id="A19FBDB6-7D59-45F4-BCE8-E27BE6F74FEF">
+																<ThrowApplicator>
+																	<angle Animated="True">
+																		<Tracks>
+																			<Item>
+																				<Item>
+																					<Key>0</Key>
+																					<Value>0</Value>
+																				</Item>
+																				<Item>
+																					<Key>0.2</Key>
+																					<Value>0</Value>
+																				</Item>
+																				<Item>
+																					<Key>0.4</Key>
+																					<Value>0</Value>
+																				</Item>
+																			</Item>
+																		</Tracks>
+																		<Type>Clamp</Type>
+																		<Values>
+																			<Item>
+																				<Key>0</Key>
+																				<Value>0</Value>
+																			</Item>
+																			<Item>
+																				<Key>0.2</Key>
+																				<Value>0</Value>
+																			</Item>
+																			<Item>
+																				<Key>0.4</Key>
+																				<Value>0</Value>
+																			</Item>
+																		</Values>
+																	</angle>
+																	<applyTarget>ApplicatorTarget</applyTarget>
+																	<behaviorFlags>152</behaviorFlags>
+																	<caption>Затащить в лужу, застанить(upg) и нанести урон(upg)</caption>
+																	<collisionFlags>7</collisionFlags>
+																	<enabled>
+																		<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+																		<returnType>bool</returnType>
+																		<sString>true</sString>
+																	</enabled>
+																	<firstTargetToHit href="" />
+																	<flightType>Jump</flightType>
+																	<flipTime>
+																		<compiledString></compiledString>
+																		<returnType>float</returnType>
+																		<sString>1.0</sString>
+																	</flipTime>
+																	<flyEffect>
+																		<Item href="" />
+																		<Item href="" />
+																	</flyEffect>
+																	<formulaName>Throw_Jump</formulaName>
+																	<landTime>0</landTime>
+																	<lockRotation>false</lockRotation>
+																	<LoggingEvent>-1</LoggingEvent>
+																	<maxDistance>0</maxDistance>
+																	<maxHeight>2</maxHeight>
+																	<moveSpeed>
+																		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQQ==</compiledString>
+																		<returnType>float</returnType>
+																		<sString>20</sString>
+																	</moveSpeed>
+																	<providerName></providerName>
+																	<startSpell href="/Items/Talents/Level4/G557_EnemyAoeDmg.TALENT" id="4DA51271-4803-4E9F-8FCF-DBB64D5FACB8">
+																		<Spell>
+																			<applicators>
+																				<Item href="/Heroes/DefaultStatus/_INTERRUPT.APLR" />
+																			</applicators>
+																			<dispatch href="/Items/Talents/Level4/G557_EnemyAoeDmg.TALENT" id="39E318A0-7C9C-4803-ADE7-164272C78E20">
+																				<DispatchImmediate>
+																					<alwaysApply>false</alwaysApply>
+																					<applyEffect>
+																						<Item href="" />
+																						<Item href="" />
+																					</applyEffect>
+																					<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																					<applyEffectOrientation>Default</applyEffectOrientation>
+																					<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																					<dieAfterApply>true</dieAfterApply>
+																					<dispatchEffect>
+																						<Item href="" />
+																						<Item href="" />
+																					</dispatchEffect>
+																					<flags>0</flags>
+																					<instantApply>false</instantApply>
+																				</DispatchImmediate>
+																			</dispatch>
+																		</Spell>
+																	</startSpell>
+																	<stopSpell href="" />
+																	<surfaceSpeedFromAG>false</surfaceSpeedFromAG>
+																	<takeOffTime>0</takeOffTime>
+																	<targetSelector href="/Items/Talents/Level4/G557_EnemyAoeDmg.TALENT" id="D807B51B-1046-496C-8CDE-450F35B3AD70">
+																		<SelectApplicatorTarget>
+																			<applicatorIndex>0</applicatorIndex>
+																			<applicatorName></applicatorName>
+																			<namedApplicatorTarget>ApplicatorTarget</namedApplicatorTarget>
+																			<selectTarget>AbilityTarget</selectTarget>
+																		</SelectApplicatorTarget>
+																	</targetSelector>
+																	<trackTargetUnit>false</trackTargetUnit>
+																	<trajectory Animated="True">
+																		<Tracks>
+																			<Item>
+																				<Item>
+																					<Key>0</Key>
+																					<Value>0</Value>
+																				</Item>
+																				<Item>
+																					<Key>0.1389016</Key>
+																					<Value>0.03134328</Value>
+																				</Item>
+																				<Item>
+																					<Key>0.3183066</Key>
+																					<Value>0.04029852</Value>
+																				</Item>
+																				<Item>
+																					<Key>0.4</Key>
+																					<Value>0</Value>
+																				</Item>
+																			</Item>
+																		</Tracks>
+																		<Type>Clamp</Type>
+																		<Values>
+																			<Item>
+																				<Key>0</Key>
+																				<Value>0</Value>
+																			</Item>
+																			<Item>
+																				<Key>0.1389016</Key>
+																				<Value>0.03134328</Value>
+																			</Item>
+																			<Item>
+																				<Key>0.3183066</Key>
+																				<Value>0.04029852</Value>
+																			</Item>
+																			<Item>
+																				<Key>0.4</Key>
+																				<Value>0</Value>
+																			</Item>
+																		</Values>
+																	</trajectory>
+																</ThrowApplicator>
+															</applicator>
+															<continueCondition>
+																<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+																<returnType>bool</returnType>
+																<sString>0</sString>
+															</continueCondition>
+															<continueEvents>2</continueEvents>
+															<delay>
+																<compiledString></compiledString>
+																<returnType>float</returnType>
+																<sString>-1.0</sString>
+															</delay>
+															<stopCondition>
+																<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+																<returnType>bool</returnType>
+																<sString>0</sString>
+															</stopCondition>
+															<stopEvents>0</stopEvents>
+														</Item>
+														<Item>
+															<applicator href="/GameLogic/GeneralApplicators/EndOfAbility.APLR" />
+															<continueCondition>
+																<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+																<returnType>bool</returnType>
+																<sString>0</sString>
+															</continueCondition>
+															<continueEvents>2</continueEvents>
+															<delay>
+																<compiledString></compiledString>
+																<returnType>float</returnType>
+																<sString>-1.0</sString>
+															</delay>
+															<stopCondition>
+																<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+																<returnType>bool</returnType>
+																<sString>0</sString>
+															</stopCondition>
+															<stopEvents>0</stopEvents>
+														</Item>
+													</applicators>
+													<applyTarget>ApplicatorTarget</applyTarget>
+													<behaviorFlags>154</behaviorFlags>
+													<caption>Программа</caption>
+													<effect>
+														<Item href="" />
+														<Item href="" />
+													</effect>
+													<enabled>
+														<compiledString></compiledString>
+														<returnType>bool</returnType>
+														<sString>true</sString>
+													</enabled>
+													<formulaName></formulaName>
+													<lifeTime>
+														<compiledString></compiledString>
+														<returnType>float</returnType>
+														<sString>-1.0</sString>
+													</lifeTime>
+													<LoggingEvent>-1</LoggingEvent>
+													<providerName></providerName>
+													<startCondition>
+														<compiledString></compiledString>
+														<returnType>bool</returnType>
+														<sString>true</sString>
+													</startCondition>
+												</ProgramApplicator>
+											</Item>
+										</applicators>
+										<dispatch href="/Items/Talents/Level4/G557_EnemyAoeDmg.TALENT" id="61668404-9C13-40D2-B322-82756E4A2360">
+											<DispatchImmediate>
+												<alwaysApply>false</alwaysApply>
+												<applyEffect>
+													<Item href="" />
+													<Item href="" />
+												</applyEffect>
+												<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+												<applyEffectOrientation>Default</applyEffectOrientation>
+												<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+												<dieAfterApply>true</dieAfterApply>
+												<dispatchEffect>
+													<Item href="" />
+													<Item href="" />
+												</dispatchEffect>
+												<flags>0</flags>
+												<instantApply>false</instantApply>
+											</DispatchImmediate>
+										</dispatch>
+									</Spell>
+								</spell>
+								<spellTarget>ApplicatorTarget</spellTarget>
+								<targetSelector href="/Items/Talents/Level4/G557_EnemyAoeDmg.TALENT" id="5F6A5391-0015-4948-810B-A6A5D68A0A93">
+									<ConditionTargetSelector>
+										<condition>
+											<compiledString>FQ8AAAACAAAAFAAAACoAAABJbW11bmUyQ29udHJvbABVi+xRaAAAAACLRQyLEItNDIuCiAEAAP/Q3B1MAAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
+											<returnType>bool</returnType>
+											<sString>receiver.vImmune2Control == 0</sString>
+										</condition>
+										<flags>1</flags>
+										<mode>Normal</mode>
+										<targetSelector href="/Items/Talents/Level4/G557_EnemyAoeDmg.TALENT" id="C0766E79-0107-450A-9273-784FED6FA143">
+											<AreaTargetSelector>
+												<absolutePosition>
+													<x>0</x>
+													<y>0</y>
+												</absolutePosition>
+												<flags>0</flags>
+												<mode>Normal</mode>
+												<range>
+													<compiledString>FQsAAAABAAAAFwAAAEc1NTdfUmFuZ2UAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+													<returnType>float</returnType>
+													<sString>cG557_Range</sString>
+												</range>
+												<targetFilter>537133116</targetFilter>
+												<targetSelector href="/Items/Talents/Level4/G557_EnemyAoeDmg.TALENT" id="CE40F78B-E235-47AB-8598-1E23FFE83FD4">
+													<SelectApplicatorTarget>
+														<applicatorIndex>0</applicatorIndex>
+														<applicatorName></applicatorName>
+														<namedApplicatorTarget>ApplicatorTarget</namedApplicatorTarget>
+														<selectTarget>AbilityTarget</selectTarget>
+													</SelectApplicatorTarget>
+												</targetSelector>
+											</AreaTargetSelector>
+										</targetSelector>
+									</ConditionTargetSelector>
+								</targetSelector>
+							</SpellApplicator>
+						</applicator>
+						<continueCondition>
+							<compiledString></compiledString>
+							<returnType>bool</returnType>
+							<sString>0</sString>
+						</continueCondition>
+						<continueEvents>2</continueEvents>
+						<delay>
+							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>-1.0</sString>
+						</delay>
+						<stopCondition>
+							<compiledString></compiledString>
+							<returnType>bool</returnType>
+							<sString>0</sString>
+						</stopCondition>
+						<stopEvents>0</stopEvents>
+					</Item>
+				</applicators>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>152</behaviorFlags>
+				<caption>Стягивалка с небольшой задержкой крипы</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString>FQwAAAACAAAAEQAAACcAAABHNTc5X0FjdGl2ZQBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1JAAAA3+D2xEF1CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vG579_Active &gt; 0</sString>
+				</startCondition>
+			</ProgramApplicator>
+		</Item>
 	</applicators>
 	<askId>0</askId>
 	<autoTargetSelector href="" />
@@ -217,9 +1111,9 @@
 					<UnitConstant>
 						<name>G557_Damage</name>
 						<var>
-							<compiledString>FTcAAAAIAAAAPgAAAFQAAABoAAAAhAAAAJoAAACuAAAAzAAAANYAAABHNTYxX0FjdGl2ZQBHNTYxX0FkZERhbWFnZQAARzU1OF9BY3RpdmUARzU1OF9BZGREYW1hZ2UAVYvsg+wMaAAAAACLRQiLEItNCIuCiAEAAP/Q3B0GAQAA3+D2xEF1H4tNDFGLVQhSaAwAAACLRRCLEItNEItCUP/Q2V386wXZ7tld/GgcAAAAi00IixGLTQiLgogBAAD/0NwdBgEAAN/g9sRBdR+LTQxRi1UIUmgoAAAAi0UQixCLTRCLQlD/0Nld+OsF2e7ZXfhR2QX+AAAA2RwkUdkF+gAAANkcJItNEIsRi00Qi0Js/9DYRfzYRfjZXfTZRfSL5V3DAAAoQgAAQEAAAAAAAAAAAAAAAAA=</compiledString>
+							<compiledString>FTcAAAAHAAAAPgAAAFQAAABoAAAAhAAAAJoAAACuAAAAzgAAAEc1NjFfQWN0aXZlAEc1NjFfQWRkRGFtYWdlAABHNTU4X0FjdGl2ZQBHNTU4X0FkZERhbWFnZQBVi+yD7AxoAAAAAItFCIsQi00Ii4KIAQAA/9DcHesAAADf4PbEQXUfi00MUYtVCFJoDAAAAItFEIsQi00Qi0JQ/9DZXfzrBdnu2V38aBwAAACLTQiLEYtNCIuCiAEAAP/Q3B3rAAAA3+D2xEF1H4tNDFGLVQhSaCgAAACLRRCLEItNEItCUP/Q2V346wXZ7tld+NlF/NwF3wAAANhF+Nld9NlF9IvlXcMAAAAAAABUQAAAAAAAAAAAAAAAAA==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(42, 3) + (sender.vG561_Active &gt; 0 ? cG561_AddDamage : 0)+ (sender.vG558_Active &gt; 0 ? cG558_AddDamage : 0)</sString>
+							<sString>80 + (sender.vG561_Active &gt; 0 ? cG561_AddDamage : 0)+ (sender.vG558_Active &gt; 0 ? cG558_AddDamage : 0)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -227,9 +1121,9 @@
 					<UnitConstant>
 						<name>G557_PeriodBurst</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DMzMzPw==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAPw==</compiledString>
 							<returnType>float</returnType>
-							<sString>0.7</sString>
+							<sString>0.5f</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -258,9 +1152,9 @@
 					<UnitConstant>
 						<name>G557_Range</name>
 						<var>
-							<compiledString>FRoAAAAEAAAAIQAAADcAAABLAAAAawAAAEc1NThfQWN0aXZlAEc1NThfQWRkUmFuZ2UAVYvsg+wIaAAAAACLRQiLEItNCIuCiAEAAP/Q3B2FAAAA3+D2xEF1H4tNDFGLVQhSaAwAAACLRRCLEItNEItCUP/Q2V386wXZ7tld/NlF/NwFeQAAANld+NlF+IvlXcMAAAAAAAAiQAAAAAAAAAAAAAAAAA==</compiledString>
+							<compiledString>FSgAAAAGAAAALwAAAEUAAABZAAAAdQAAAIsAAACrAAAARzU1OF9BY3RpdmUARzU1OF9BZGRSYW5nZQAAAEc1NzlfQWN0aXZlAFWL7IPsDGgAAAAAi0UIixCLTQiLgogBAAD/0NwdyAAAAN/g9sRBdR+LTQxRi1UIUmgMAAAAi0UQixCLTRCLQlD/0Nld/OsF2e7ZXfxoHAAAAItNCIsRi00Ii4KIAQAA/9DcHcgAAADf4PbEQXUJx0X4AgAAAOsHx0X4AAAAANlF/NwFvAAAANpl+Nld9NlF9IvlXcMAAAAAAAAiQAAAAAAAAAAAAAAAAA==</compiledString>
 							<returnType>float</returnType>
-							<sString>9 + (sender.vG558_Active &gt; 0 ? cG558_AddRange : 0)</sString>
+							<sString>9 + (sender.vG558_Active &gt; 0 ? cG558_AddRange : 0) - (sender.vG579_Active &gt; 0 ? 2: 0)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -332,9 +1226,29 @@
 					<UnitConstant>
 						<name>Add_Stat</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAgECamRk/</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(4.0, 0.6)</sString>
+							<sString>12</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Level4/G557_EnemyAoeDmg.TALENT" id="FBFBF9BB-CD66-4A34-92CF-CB0048304422">
+					<UnitConstant>
+						<name>DecMoveSpeed_WithReduction</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQg==</compiledString>
+							<returnType>float</returnType>
+							<sString>40.0f</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Level4/G557_EnemyAoeDmg.TALENT" id="7C99DE80-837B-4F1C-B2E3-1463A3996FDD">
+					<UnitConstant>
+						<name>Slow_Duration</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAvw==</compiledString>
+							<returnType>float</returnType>
+							<sString>-1.0f</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -416,9 +1330,9 @@
 				<caption>Add_Intellect</caption>
 				<customApplyType>Maximize</customApplyType>
 				<enabled>
-					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgrwAAAD/0ItNCIsRi00Ii4K4AAAA3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
 					<returnType>bool</returnType>
-					<sString>true</sString>
+					<sString>sBaseIntellect &gt;= sBaseStrength</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<LoggingEvent>-1</LoggingEvent>
@@ -434,6 +1348,36 @@
 						<sString>1.0f</sString>
 					</multValue>
 					<stat>Intellect</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level4/G557_EnemyAoeDmg.TALENT" id="51399C14-FBE7-45E7-A914-BF8E23CF00D4">
+			<PermanentStatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>Add_str</caption>
+				<customApplyType>Maximize</customApplyType>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgrwAAAD/0ItNCIsRi00Ii4K4AAAA3V34/9DcXfjf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sBaseIntellect &lt; sBaseStrength</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQkAAAABAAAAFQAAAEFkZF9TdGF0AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+						<returnType>float</returnType>
+						<sString>cAdd_Stat</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Strength</stat>
 					<topModifier>false</topModifier>
 					<variable></variable>
 				</modifier>

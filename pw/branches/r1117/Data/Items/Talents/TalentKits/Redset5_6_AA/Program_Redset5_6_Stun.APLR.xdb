@@ -63,9 +63,9 @@
 								<applyTarget>ApplicatorTarget</applyTarget>
 								<caption>Прок апликатор со стуном</caption>
 								<enabled>
-									<compiledString>FScAAAAEAAAANAAAAEcAAABTAAAAaQAAAFRFQ0hfQWJpbGl0eVByb2MAAAAAVmFtcGlyZTNTdHVuUHJvY0NEAFWL7FGLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0twdiwAAAN/g9sREeytoFAAAAItFCIsQi00Ii4KIAQAA/9DcHYsAAADf4PbERHoJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAAAA==</compiledString>
+									<compiledString>FSkAAAAEAAAANgAAAEkAAABVAAAAawAAAFRFQ0hfQWJpbGl0eVByb2MAAAAAVmFtcGlyZTNTdHVuUHJvY0NEX1IAVYvsUYtFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S3B2NAAAA3+D2xER7K2gUAAAAi0UIixCLTQiLgogBAAD/0NwdjQAAAN/g9sREegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAAA</compiledString>
 									<returnType>bool</returnType>
-									<sString>cTECH_AbilityProc &amp;&amp; sender.vVampire3StunProcCD == 0</sString>
+									<sString>cTECH_AbilityProc &amp;&amp; sender.vVampire3StunProcCD_R == 0</sString>
 								</enabled>
 								<formulaName></formulaName>
 								<LoggingEvent>-1</LoggingEvent>
@@ -109,7 +109,7 @@
 														</multValue>
 														<stat>Life</stat>
 														<topModifier>false</topModifier>
-														<variable>Vampire3StunProcCD</variable>
+														<variable>Vampire3StunProcCD_R</variable>
 													</modifier>
 													<providerName></providerName>
 													<startCondition>

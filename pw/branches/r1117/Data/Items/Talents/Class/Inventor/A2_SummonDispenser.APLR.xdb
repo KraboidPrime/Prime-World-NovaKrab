@@ -40,6 +40,53 @@
 		<Item href="/Heroes/DefaultStatus/_MasterStatConnect_Stamina.APLR" />
 		<Item href="/Heroes/DefaultStatus/_MasterStatConnect_Will.APLR" />
 		<Item href="/Heroes/DefaultStatus/_MasterStatConnect_Intellect.APLR" />
+		<Item href="/Items/Talents/Class/Inventor/A2_SummonDispenser.APLR" id="69646968-759B-46E2-B05E-A3459AD9ACE6">
+			<StatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>хитрый баф отхила</caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FSAAAAACAAAAJwAAAEAAAABJbnZlbnRvcl9BMF9TVVAASW52ZW50b3JfQTBfU1VQAFWL7IPsFGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdDaLVQiLAotNCIuQuAAAAP/Si0UIixCLTQiLgrwAAADdXfD/0Nxd8N/g9sQFegnHRewBAAAA6wfHRewAAAAAikXsi+Vdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("Inventor_A0_SUP") &amp;&amp; sBaseStrength &gt; sBaseIntellect</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Life</stat>
+					<topModifier>false</topModifier>
+					<variable>InvNewTal</variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
+		</Item>
 	</applicators>
 	<applyTarget>AbilityOwner</applyTarget>
 	<behaviour href="/Items/Talents/Class/Inventor/A2_SummonDispenser.APLR" id="8D1F90DF-1BB0-4264-9FE7-5843FD32920B">

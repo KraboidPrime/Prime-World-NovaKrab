@@ -36,9 +36,9 @@
 							<Item href="/Items/Talents/Class/Artist/status_A3_damage.APLR" id="BE78891C-BBF0-4B23-85B4-5C0294F56795">
 								<DamageApplicator parent="/GameLogic/GeneralApplicators/CommonDamage.APLR">
 									<damage>
-										<compiledString>FQ4AAAABAAAAEgAAAEFydGlzdF9BM19Eb1QAVYvsaAAAAACLRQyLEItNDIuCiAEAAP/QXcM=</compiledString>
+										<compiledString>FRsAAAABAAAAJwAAAEEzX0RhbWFnZU11bHRpcGxpZXJQZXJjZW50AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
 										<returnType>float</returnType>
-										<sString>receiver.vArtist_A3_DoT</sString>
+										<sString>cA3_DamageMultiplierPercent</sString>
 									</damage>
 									<damageMode>4</damageMode>
 									<damageType>Pure</damageType>
@@ -76,9 +76,9 @@
 					<sString>true</sString>
 				</startCondition>
 				<startOffset>
-					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAPw==</compiledString>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzcxMPg==</compiledString>
 					<returnType>float</returnType>
-					<sString>0.5f</sString>
+					<sString>0.2f</sString>
 				</startOffset>
 				<targetSelector href="" />
 			</SpellPeriodicallyApplicator>

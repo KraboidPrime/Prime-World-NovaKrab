@@ -462,10 +462,10 @@
 											<applicators>
 												<Item href="/Items/Talents/Class/Faceless/Ability3.TALENT" id="050D90DE-450E-4028-BDED-FF1B94A330AF">
 													<TeleportApplicator>
-														<appearEffect href="/Effects/General/Teleport/_EndSwitch.EFFT" />
+														<appearEffect href="" />
 														<applyTarget>ApplicatorTarget</applyTarget>
 														<caption>teleport</caption>
-														<disappearEffect href="/Effects/General/Teleport/_StartSwitch.EFFT" />
+														<disappearEffect href="" />
 														<enabled>
 															<compiledString>FQYAAAACAAAACwAAACEAAABJc1BldABVi+xRaAAAAACLRQyLEItNDIuCiAEAAP/Q3B1DAAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAA8D8=</compiledString>
 															<returnType>bool</returnType>

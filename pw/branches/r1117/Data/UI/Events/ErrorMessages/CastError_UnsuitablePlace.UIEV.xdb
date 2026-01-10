@@ -15,8 +15,6 @@
 	<BackLink DBID="/Items/Talents/Class/Monster/Ability_A4_2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/WitchDoctor/Ability4_2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level1/G010_A_HoT.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Level1/G397_Life_HoT.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Level1/G398_Energy_HoT.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level2/G024_GetEnergy-FromLand.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level2/G076_Portal.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level2/G201_Life_Portal.TALENT" Count="1" />

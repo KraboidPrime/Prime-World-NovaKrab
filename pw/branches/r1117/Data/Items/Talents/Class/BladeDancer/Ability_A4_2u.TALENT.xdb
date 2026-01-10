@@ -55,7 +55,8 @@
 	<constants href="/Items/Talents/Class/BladeDancer/Ability_A4_2u.TALENT" id="47D70135-01EA-4796-B031-2F847B4FD330">
 		<UnitConstantsContainer>
 			<vars>
-				<Item href="/Items/Talents/Class/BladeDancer/const_A4_2_DamageHeal" />
+				<Item href="/Items/Talents/Class/BladeDancer/const_A4_2_Damage" />
+				<Item href="/Items/Talents/Class/BladeDancer/const_A4_2_Heal" />
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

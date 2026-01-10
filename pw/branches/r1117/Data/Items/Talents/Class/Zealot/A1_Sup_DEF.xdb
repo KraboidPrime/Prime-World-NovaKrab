@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UnitConstant>
+	<BackLink DBID="/Items/Talents/Class/Zealot/Ability_A1.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Zealot/Ability_A3.TALENT" Count="1" />
+	<name>A1_Def_Buff</name>
+	<var>
+		<compiledString>FRAAAAADAAAAFwAAAGAAAABmAAAAWmVhbG90X2RlZl9idWZmAFWL7IPsDGgAAAAAi0UIixCLTQiLgogBAAD/0ItNCIsRi00Ii4K4AAAA3V34/9BR2Rwki00IixGLTQiLgrwAAAD/0FHZHCToLAAAAIPECNwNfwAAANwldwAAANxN+Nld9NlF9IvlXcOamZmZmZnZP/p+arx0k6g/VYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
+		<returnType>float</returnType>
+		<sString>sender.vZealot_def_buff*(0.048*max(sBaseIntellect, sBaseStrength)-0.4)</sString>
+	</var>
+</UnitConstant>

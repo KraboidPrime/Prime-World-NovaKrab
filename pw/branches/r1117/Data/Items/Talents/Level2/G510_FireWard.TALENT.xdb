@@ -1213,9 +1213,9 @@
 					<UnitConstant>
 						<name>CoolDown</name>
 						<var>
-							<compiledString>FRoAAAAEAAAAIQAAADcAAABLAAAAawAAAEc1MTJfQWN0aXZlAEc1MTJfQ29vbERvd24AVYvsg+wIaAAAAACLRQiLEItNCIuCiAEAAP/Q3B2FAAAA3+D2xEF1H4tNDFGLVQhSaAwAAACLRRCLEItNEItCUP/Q2V386wXZ7tld/NlF/NwteQAAANld+NlF+IvlXcMAAAAAAABeQAAAAAAAAAAAAAAAAA==</compiledString>
+							<compiledString>FRoAAAAEAAAAIQAAADcAAABLAAAAawAAAEc1MTJfQWN0aXZlAEc1MTJfQ29vbERvd24AVYvsg+wIaAAAAACLRQiLEItNCIuCiAEAAP/Q3B2FAAAA3+D2xEF1H4tNDFGLVQhSaAwAAACLRRCLEItNEItCUP/Q2V386wXZ7tld/NlF/NwteQAAANld+NlF+IvlXcMAAAAAAABkQAAAAAAAAAAAAAAAAA==</compiledString>
 							<returnType>float</returnType>
-							<sString>120 - (sender.vG512_Active&gt; 0 ? cG512_CoolDown : 0)</sString>
+							<sString>160 - (sender.vG512_Active&gt; 0 ? cG512_CoolDown : 0)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -1362,7 +1362,7 @@
 			<instantApply>false</instantApply>
 		</DispatchImmediate>
 	</dispatch>
-	<flags>7</flags>
+	<flags>23</flags>
 	<forceBonus>0</forceBonus>
 	<image href="/UI/Styles/Icons/Talents/_510.ITEX" />
 	<imageSecondState href="" />

@@ -52,6 +52,7 @@
 	<BackLink DBID="/Test/Talents/WitchDoctor/Duel_Int.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/WitchDoctor/Duel_Str.TALENTSET" Count="1" />
 	<BackLink DBID="/Social/TalentsCollection" Count="2" />
+	<BackLink DBID="/Test/Talents/Assassin/New_SUP.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>

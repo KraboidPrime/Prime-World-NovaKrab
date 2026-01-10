@@ -64,6 +64,7 @@
 					</UnitConstant>
 				</Item>
 				<Item href="/Items/Talents/Class/Rifleman/const_A3_SUP_BonusCutDefence" />
+				<Item href="/Items/Talents/Class/Rifleman/const_A3_SUP_CD_Reduction" />
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

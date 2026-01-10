@@ -9,5 +9,6 @@
 		<Item href="/Items/Talents/Level4/G305_K_Dex_CDR.TALENT" />
 		<Item href="/Items/Talents/Level3/G299_LifeRegen_Stamina.TALENT" />
 		<Item href="/Items/Talents/Level2/G298_EnergyRegen.TALENT" />
+		<Item href="/Items/Talents/Level1/G318_Energy.TALENT" />
 	</talents>
 </TalentKit>

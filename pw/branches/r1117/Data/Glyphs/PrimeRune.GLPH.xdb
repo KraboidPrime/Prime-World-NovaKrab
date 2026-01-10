@@ -254,9 +254,9 @@
 					<UnitConstant>
 						<name>PrimeAmount_Base</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACMQg==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQg==</compiledString>
 							<returnType>float</returnType>
-							<sString>70</sString>
+							<sString>50</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -264,9 +264,9 @@
 					<UnitConstant>
 						<name>Prime_Additional</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACMQg==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>70</sString>
+							<sString>20</sString>
 						</var>
 					</UnitConstant>
 				</Item>

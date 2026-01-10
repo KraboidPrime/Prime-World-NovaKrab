@@ -269,11 +269,11 @@
 				</Item>
 				<Item href="/Items/Talents/Class/Ratcatcher/Ability3.TALENT" id="65EB0281-C9AD-48FC-AA1B-5D90B0DFCDC7">
 					<UnitConstant>
-						<name>TotalStamina</name>
+						<name>TotalDefence</name>
 						<var>
-							<compiledString>FUIAAAAEAAAASQAAAGIAAACCAAAAngAAAFBvd2VyT2ZNYW55Q291bnQAAAAAUmF0Y2F0Y2hlcl9BMAAAAFJhdGNhdGNoZXJfQTAAAABCb251c19TdGFtaW5hAFWL7IPsDGgUAAAAi0UIixCLTQiLgqgBAAD/0IXAdDdoJAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTQxRi1UIUmg0AAAAi0X8ixCLTfyLQlD/0Nld+OsF2e7ZXfhoAAAAAItNCIsRi00Ii4KIAQAA/9DYTfjZXfTZRfSL5V3DAAAAAA==</compiledString>
+							<compiledString>FUIAAAAEAAAASQAAAGIAAACCAAAAngAAAFBvd2VyT2ZNYW55Q291bnQAAAAAUmF0Y2F0Y2hlcl9BMAAAAFJhdGNhdGNoZXJfQTAAAABCb251c19EZWZlbmNlAFWL7IPsDGgUAAAAi0UIixCLTQiLgqgBAAD/0IXAdDdoJAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTQxRi1UIUmg0AAAAi0X8ixCLTfyLQlD/0Nld+OsF2e7ZXfhoAAAAAItNCIsRi00Ii4KIAQAA/9DYTfjZXfTZRfSL5V3DAAAAAA==</compiledString>
 							<returnType>float</returnType>
-							<sString>sender.vPowerOfManyCount * talconstNoCheck("Ratcatcher_A0","Bonus_Stamina")</sString>
+							<sString>sender.vPowerOfManyCount * talconstNoCheck("Ratcatcher_A0","Bonus_Defence")</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -317,9 +317,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQg==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAACQw==</compiledString>
 		<returnType>float</returnType>
-		<sString>120</sString>
+		<sString>130</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>

@@ -9,36 +9,6 @@
 	<BackLink DBID="/Pets/Pig/Summon.APLR" Count="1" />
 	<BackLink DBID="/Pets/Tiger/Summon.APLR" Count="1" />
 	<applicators>
-		<Item href="/Pets/ParentSummon.APLR" id="24B1736E-60F4-478D-AF10-2F2AF6926353">
-			<PermanentStatModApplicator>
-				<applyTarget>AbilityOwner</applyTarget>
-				<caption>ShouldRecallPet = 1</caption>
-				<customApplyType>None</customApplyType>
-				<enabled>
-					<compiledString></compiledString>
-					<returnType>bool</returnType>
-					<sString>true</sString>
-				</enabled>
-				<formulaName></formulaName>
-				<LoggingEvent>-1</LoggingEvent>
-				<modifier>
-					<addValue>
-						<compiledString></compiledString>
-						<returnType>float</returnType>
-						<sString>1.0f</sString>
-					</addValue>
-					<multValue>
-						<compiledString></compiledString>
-						<returnType>float</returnType>
-						<sString>0.0f</sString>
-					</multValue>
-					<stat>Life</stat>
-					<topModifier>false</topModifier>
-					<variable>ShouldRecallPet</variable>
-				</modifier>
-				<providerName></providerName>
-			</PermanentStatModApplicator>
-		</Item>
 		<Item href="/Pets/ParentSummon.APLR" id="C1FF2F24-DB08-4F15-A93C-45B9C49E4397">
 			<ProgramApplicator>
 				<applicators>
@@ -48,7 +18,7 @@
 								<applyTarget>AbilityOwner</applyTarget>
 								<caption>ансуммон других петов</caption>
 								<enabled>
-									<compiledString></compiledString>
+									<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
 									<returnType>bool</returnType>
 									<sString>true</sString>
 								</enabled>
@@ -265,7 +235,7 @@
 								<caption>unsummon</caption>
 								<dontGiveRewards>false</dontGiveRewards>
 								<enabled>
-									<compiledString></compiledString>
+									<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
 									<returnType>bool</returnType>
 									<sString>true</sString>
 								</enabled>
@@ -302,7 +272,7 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString></compiledString>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
 					<returnType>bool</returnType>
 					<sString>true</sString>
 				</enabled>
@@ -315,7 +285,7 @@
 				<LoggingEvent>-1</LoggingEvent>
 				<providerName></providerName>
 				<startCondition>
-					<compiledString></compiledString>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
 					<returnType>bool</returnType>
 					<sString>true</sString>
 				</startCondition>

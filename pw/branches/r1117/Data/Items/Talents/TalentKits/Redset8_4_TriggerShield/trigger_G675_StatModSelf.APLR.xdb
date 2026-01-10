@@ -1,16 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <TriggerApplicator>
-	<BackLink DBID="/Items/Talents/Level6/G675_TriggerShield_StrOrInt.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level6/G676_TriggerShield_DexOrAtSpd.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Level6/G677_TriggerShield_StaOrWill.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level6/Shield675Prog.APLR" Count="1" />
 	<actionsCount>
 		<compiledString></compiledString>
 		<returnType>int</returnType>
 		<sString>0</sString>
 	</actionsCount>
 	<applyTarget>ApplicatorTarget</applyTarget>
-	<behaviorFlags>144</behaviorFlags>
-	<caption>Триггер, если стат мод с себя</caption>
+	<behaviorFlags>152</behaviorFlags>
+	<caption>Триггер на всё (обновлён)</caption>
 	<effect>
 		<Item href="" />
 		<Item href="" />
@@ -32,9 +31,9 @@
 		<EventProcessorCondition>
 			<applyTarget>ApplicatorTarget</applyTarget>
 			<condition>
-				<compiledString>FQoAAAACAAAADwAAACUAAABHNjU3X1NlbGYAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdRwAAAN/g9sRBdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAAA</compiledString>
+				<compiledString>FSUAAAAGAAAAKgAAAEAAAABeAAAAdAAAAJIAAACoAAAARzY1N19TZWxmAAAARzY1N19BbGxpZXMARzY1N19FbmVtaWVzAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHcoAAADf4PbEQXRxi00QixGLTRCLQnj/0IP4AnwiaAwAAACLTQiLEYtNCIuCiAEAAP/Q3B3KAAAA3+D2xEF0PYtNEIsRi00Qi0J4/9CD+AN8ImgYAAAAi00IixGLTQiLgogBAAD/0NwdygAAAN/g9sRBdAnHRfwAAAAA6wfHRfwBAAAAikX8i+VdwwAAAAAAAAAA</compiledString>
 				<returnType>bool</returnType>
-				<sString>sender.vG657_Self &gt; 0</sString>
+				<sString>sender.vG657_Self &gt; 0 || (mActivatedWithinKit &gt;= 2 &amp;&amp; sender.vG657_Allies &gt; 0) || (mActivatedWithinKit &gt;= 3 &amp;&amp; sender.vG657_Enemies &gt; 0)</sString>
 			</condition>
 			<events>8192</events>
 			<onlyParent>false</onlyParent>
@@ -68,10 +67,10 @@
 	</processor>
 	<providerName></providerName>
 	<startCondition>
-		<compiledString></compiledString>
+		<compiledString>FQsAAAACAAAAEAAAACYAAABZYVllYmFsNjc1AFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHUgAAADf4PbERHoJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAADwPw==</compiledString>
 		<returnType>bool</returnType>
-		<sString>true</sString>
+		<sString>sender.vYaYebal675 == 1.0f</sString>
 	</startCondition>
-	<useAbilityCooldown>false</useAbilityCooldown>
+	<useAbilityCooldown>true</useAbilityCooldown>
 	<useAbilityOwnerMana>false</useAbilityOwnerMana>
 </TriggerApplicator>

@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Class/Werewolf/Ability1_1.TALENT" Count="1" />
 	<name>A1u_RegMod</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQg==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQg==</compiledString>
 		<returnType>float</returnType>
-		<sString>60</sString>
+		<sString>100</sString>
 	</var>
 </UnitConstant>

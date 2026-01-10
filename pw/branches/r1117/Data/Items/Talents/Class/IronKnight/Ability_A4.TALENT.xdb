@@ -209,9 +209,9 @@
 					<UnitConstant>
 						<name>A4_DamagePerSec</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACwQQAAJEM=</compiledString>
+							<compiledString>FQAAAAACAAAAEwAAABkAAABVi+xRi0UIixCLTQiLQgz/0NwNLwAAANwFJwAAANld/NlF/IvlXcMAAADAzMwgQAAAACAPC6U/</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(sStrength, 22, 164)</sString>
+							<sString>0.0411f*sMaxLife+8.4f</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -219,9 +219,9 @@
 					<UnitConstant>
 						<name>A4_DamagePeriod</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpkZPw==</compiledString>
+							<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
 							<returnType>float</returnType>
-							<sString>0.6f</sString>
+							<sString>1.0f</sString>
 						</var>
 					</UnitConstant>
 				</Item>

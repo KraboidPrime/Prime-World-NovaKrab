@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SummonApplicator>
+	<BackLink DBID="/Items/Talents/Class/Inventor/Ability_A1.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A0.TALENT" Count="2" />
+	<applicators>
+		<Item href="/Heroes/DefaultStatus/_MasterStatConnect_Strength.APLR" />
+		<Item href="/Items/Talents/Class/Inventor/A1_TurretSummonV.APLR" id="85BC409D-F6B5-4EF1-977E-6D036A8E7E6F">
+			<PermanentStatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>установить AttacksPerSecond</caption>
+				<customApplyType>None</customApplyType>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+						<returnType>float</returnType>
+						<sString>1</sString>
+					</addValue>
+					<multValue>
+						<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+						<returnType>float</returnType>
+						<sString>0</sString>
+					</multValue>
+					<stat>Life</stat>
+					<topModifier>false</topModifier>
+					<variable>ExplicitAttacksPerSecond</variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Heroes/DefaultStatus/_MasterStatConnect_Life.APLR" />
+		<Item href="/Heroes/DefaultStatus/_MasterStatConnect_Will.APLR" />
+		<Item href="/Heroes/DefaultStatus/_MasterStatConnect_Stamina.APLR" />
+		<Item href="/Heroes/DefaultStatus/_MasterStatConnect_Dexterity.APLR" />
+		<Item href="/Heroes/DefaultStatus/_MasterStatConnect_AttackSpeed.APLR" />
+		<Item href="/Items/Talents/Class/Inventor/A1/A2_SummonPriceForKill.APLR" />
+		<Item href="/Heroes/DefaultStatus/_MasterStatConnect_Level.APLR" />
+		<Item href="/Items/Talents/Class/Inventor/A1_TurretSummonV.APLR" id="5306B072-1FD9-4E3C-9A12-8081CD0E9446">
+			<PermanentStatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>Флаг я-турель</caption>
+				<customApplyType>None</customApplyType>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Life</stat>
+					<topModifier>false</topModifier>
+					<variable>Iamturret</variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+	</applicators>
+	<applyTarget>AbilityOwner</applyTarget>
+	<behaviour href="/Items/Talents/Class/Inventor/A1_TurretSummonV.APLR" id="FC7352B6-8C69-415A-858B-65B9E4B9DB29">
+		<SummonBehaviourCommon parent="/GameLogic/SummonBehaviourRanged">
+			<lashRange>
+				<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+				<returnType>float</returnType>
+				<sString>0</sString>
+			</lashRange>
+			<maxCount>
+				<compiledString>FQAAAAAAAAAAVYvsUdno2Rwk6AkAAACDxARdwwAAgD+4AQAAAA+i98IAAAAEdAfzDyxEJATD6QAAAABVi+yD7AzZRQjZffwPt0X8DQAMAACJRfjZbfjbXfTZbfyLRfSL5V3D</compiledString>
+				<returnType>int</returnType>
+				<sString>f2l( 1 )</sString>
+			</maxCount>
+			<maxThisCount>
+				<compiledString>FQAAAAAAAAAAVYvsUdno2Rwk6AkAAACDxARdwwAAgD+4AQAAAA+i98IAAAAEdAfzDyxEJATD6QAAAABVi+yD7AzZRQjZffwPt0X8DQAMAACJRfjZbfjbXfTZbfyLRfSL5V3D</compiledString>
+				<returnType>int</returnType>
+				<sString>f2l( 1 )</sString>
+			</maxThisCount>
+			<responseRange>0</responseRange>
+			<responseTime>0</responseTime>
+		</SummonBehaviourCommon>
+	</behaviour>
+	<caption>создать турель</caption>
+	<enabled>
+		<compiledString>FSUAAAACAAAALAAAAEUAAABQcmltZXZva2VyX0EwU1VQAAAAAFByaW1ldm9rZXJfQTBTVVAAVYvsg+wIaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgUAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtkX799gbwIPAAYvlXcM=</compiledString>
+		<returnType>bool</returnType>
+		<sString>!tal("Primevoker_A0SUP")</sString>
+	</enabled>
+	<flags>21</flags>
+	<formulaName></formulaName>
+	<lifeTime>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</lifeTime>
+	<LoggingEvent>-1</LoggingEvent>
+	<openWarFog>true</openWarFog>
+	<placeMode>ByTargetSelector</placeMode>
+	<placeSelector href="/Items/Talents/Class/Inventor/A1_TurretSummonV.APLR" id="84FA4C99-CA81-4EEB-BA78-DCFB2B0C9AFE">
+		<UnitPlaceCorrector parent="/Items/Talents/Class/Inventor/SummonPlaceSelector.TGSL">
+			<radius>11</radius>
+		</UnitPlaceCorrector>
+	</placeSelector>
+	<providerName></providerName>
+	<spawnStats>
+		<energy>
+			<compiledString></compiledString>
+			<returnType>float</returnType>
+			<sString>-1.0</sString>
+		</energy>
+		<life>
+			<compiledString></compiledString>
+			<returnType>float</returnType>
+			<sString>-1.0</sString>
+		</life>
+	</spawnStats>
+	<summonedUnitIndex>
+		<compiledString></compiledString>
+		<returnType>int</returnType>
+		<sString>0</sString>
+	</summonedUnitIndex>
+	<summonedUnits>
+		<Item href="/Summons/Turret/_V.SUMMONED" />
+	</summonedUnits>
+	<summonedUnitsCount>
+		<compiledString></compiledString>
+		<returnType>int</returnType>
+		<sString>1</sString>
+	</summonedUnitsCount>
+	<summonGroupName></summonGroupName>
+	<summonSource>ByApplicator</summonSource>
+	<takeModDmg>
+		<compiledString>FRUAAAABAAAAIQAAAE1vZERhbWFnZUZyb21OZXV0cmFsAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+		<returnType>float</returnType>
+		<sString>cModDamageFromNeutral</sString>
+	</takeModDmg>
+	<takeTypeUnit>839647712</takeTypeUnit>
+	<unsummonSortCriterion>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</unsummonSortCriterion>
+</SummonApplicator>

@@ -1036,9 +1036,9 @@
 					<UnitConstant>
 						<name>A2_DamageCapacity</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACMQgBAA0Q=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACMQgDAREQ=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(sIntellect, 70, 525)</sString>
+							<sString>damageScale(sIntellect, 70, 787)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -1056,9 +1056,9 @@
 					<UnitConstant>
 						<name>A2_Damage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAADYQQAASEM=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAADYQQAAlkM=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(sIntellect, 27, 200)</sString>
+							<sString>damageScale(sIntellect, 27, 300)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

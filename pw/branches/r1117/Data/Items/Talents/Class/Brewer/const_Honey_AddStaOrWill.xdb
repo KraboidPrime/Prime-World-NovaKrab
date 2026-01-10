@@ -6,10 +6,11 @@
 	<BackLink DBID="/Items/Talents/Class/Brewer/Ability_A4_2.TALENT" Count="1" />
 	<BackLink DBID="/Heroes/Brewer/_.HROB" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Brewer/Ability_A4.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" Count="1" />
 	<name>AddStaOrWill</name>
 	<var>
-		<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCvAAAAP/QUdkcJGoAi00QixGLTRCLQmD/0F3DAAAAQAAAUEE=</compiledString>
+		<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCvAAAAP/QUdkcJGoAi00QixGLTRCLQmD/0F3DAAAAQAAAIEE=</compiledString>
 		<returnType>float</returnType>
-		<sString>abilityScale(sBaseIntellect, 2, 13)</sString>
+		<sString>abilityScale(sBaseIntellect, 2, 10)</sString>
 	</var>
 </UnitConstant>

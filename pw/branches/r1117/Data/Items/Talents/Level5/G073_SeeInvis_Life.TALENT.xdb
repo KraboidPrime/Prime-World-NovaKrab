@@ -6,7 +6,6 @@
 	<BackLink DBID="/Social/TalentsCollection" Count="2" />
 	<BackLink DBID="/GameLogic/TalentGroup.TGRP" Count="1" />
 	<BackLink DBID="/Test/Talents/RedSet7_11.TALENTSET" Count="1" />
-	<BackLink DBID="/Items/Talents/Level4/G774_SeeInvis.TALENT" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -20,9 +19,9 @@
 	<aoeMaterial href="/Effects/UI/AOESelection/Circle.MTRL" />
 	<aoePassabilityCheckMode>0</aoePassabilityCheckMode>
 	<aoeSize>
-		<compiledString>FRAAAAABAAAAHAAAAFRydWVTaWdodF9SYW5nZQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+		<compiledString>FQcAAAABAAAAEwAAAFJhZGl1cwBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
 		<returnType>float</returnType>
-		<sString>cTrueSight_Range</sString>
+		<sString>cRadius</sString>
 	</aoeSize>
 	<aoeType>Disk</aoeType>
 	<applicators />
@@ -39,9 +38,30 @@
 	<commonDescription textref="/Items/Talents/Level5/G073_SeeInvis_Life.TALENT_commonDescription.txt" />
 	<compiledDescriptionA textref="" />
 	<compiledDescriptionB textref="" />
-	<conditionFormulas />
+	<conditionFormulas>
+		<Item href="/Items/Talents/Level5/G073_SeeInvis_Life.TALENT" id="51C72D01-5A21-496E-9197-666E723EA053">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRYAAAACAAAAGwAAADEAAABUaDIwMjVfVG9vbHRpcENvdW50ZXIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdUwAAAN/g9sQBdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAhA</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vTh2025_TooltipCounter &gt;= 3</sString>
+				</condition>
+				<name>Bonus3ActiveTh</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Items/Talents/Level5/G073_SeeInvis_Life.TALENT" id="169F2043-9A8C-4A3A-84E3-F0EF09BD93F8">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRYAAAACAAAAGwAAADEAAABUaDIwMjVfVG9vbHRpcENvdW50ZXIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdUwAAAN/g9sQBdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAABxA</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vTh2025_TooltipCounter &gt;= 7</sString>
+				</condition>
+				<name>Bonus7ActiveTh</name>
+			</ConditionFormula>
+		</Item>
+	</conditionFormulas>
 	<conflictingTalents>
-		<Item href="/Items/Talents/Level4/G774_SeeInvis.TALENT" />
+		<Item href="" />
 	</conflictingTalents>
 	<constants href="/Items/Talents/Level5/G073_SeeInvis_Life.TALENT" id="CD4297A3-C510-4326-9801-D1728868FB89">
 		<UnitConstantsContainer>
@@ -50,15 +70,25 @@
 					<UnitConstant>
 						<name>Add_Life</name>
 						<var>
-							<compiledString>FQsAAAACAAAAGgAAADcAAABMaWZlQnVkZ2V0AFWL7IPsDFHZ6NkcJFHZBVgAAADZHCSLRRCLEItNEItCbP/Qi00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ3V34/9DcTfjZXfTZRfSL5V3DAACAQAAAgD8=</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAD/Qw==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(4,1)*cLifeBudget</sString>
+							<sString>510</sString>
 						</var>
 					</UnitConstant>
 				</Item>
-				<Item href="/Items/Talents/Level5/G073_SeeInvis_Life.TALENT" id="758EDD78-A52A-4CE5-A447-E86320FE783B">
+				<Item href="/Items/Talents/Level5/G073_SeeInvis_Life.TALENT" id="609D8039-360F-4FB0-9AB1-C05D96598F37">
 					<UnitConstant>
-						<name>TrueSight_Duration</name>
+						<name>Radius</name>
+						<var>
+							<compiledString>FQ0AAAABAAAAGQAAAFJhbmdlX01lZGl1bQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+							<returnType>float</returnType>
+							<sString>cRange_Medium</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Level5/G073_SeeInvis_Life.TALENT" id="EC7449D7-9749-49BD-93E0-F8A9DC713CB0">
+					<UnitConstant>
+						<name>Duration</name>
 						<var>
 							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
 							<returnType>float</returnType>
@@ -66,13 +96,23 @@
 						</var>
 					</UnitConstant>
 				</Item>
-				<Item href="/Items/Talents/Level5/G073_SeeInvis_Life.TALENT" id="65071C58-C3EF-436A-8B6F-116E931D28FF">
+				<Item href="/Items/Talents/Level5/G073_SeeInvis_Life.TALENT" id="E8EC83C2-3C55-43C4-80CE-A7E49DC45E14">
 					<UnitConstant>
-						<name>TrueSight_Range</name>
+						<name>MortalStrike_Amount</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQQ==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQg==</compiledString>
 							<returnType>float</returnType>
-							<sString>15</sString>
+							<sString>50</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Level5/G073_SeeInvis_Life.TALENT" id="7AF2C194-D608-4000-97A9-E21228D24F70">
+					<UnitConstant>
+						<name>MortalStrike_Duration</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAvw==</compiledString>
+							<returnType>float</returnType>
+							<sString>-1</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -84,9 +124,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQg==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAC0Qg==</compiledString>
 		<returnType>float</returnType>
-		<sString>60</sString>
+		<sString>90</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>
@@ -111,8 +151,8 @@
 				<Item href="/Items/Talents/Level5/G073_SeeInvis_Life.TALENT" id="8AC57253-42D5-49D0-B9C4-410107C0128E">
 					<EffectSwitcher>
 						<deathType>Manual</deathType>
-						<effectOnInvisible href="/Effects/Buffs/Alertness/_SecretEnemy.EFFT" />
-						<effectOnVisible href="/Effects/Buffs/Alertness/_SecretAlly.EFFT" />
+						<effectOnInvisible href="/Effects/Debuffs/Birds/_Black2.EFFT" />
+						<effectOnVisible href="/Effects/Debuffs/Birds/_White2.EFFT" />
 						<enableCondition href="" />
 						<isVisibleUnderWarfog>false</isVisibleUnderWarfog>
 						<lifeTime>0</lifeTime>
@@ -123,9 +163,9 @@
 			</dispatchEffect>
 			<flags>0</flags>
 			<lifeTime>
-				<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+				<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAvw==</compiledString>
 				<returnType>float</returnType>
-				<sString>0</sString>
+				<sString>-1</sString>
 			</lifeTime>
 			<persistentApplicators>
 				<Item href="/Items/Talents/Level5/G073_SeeInvis_Life.TALENT" id="1C688C35-AB0C-4AC2-AD15-F9CFAC5FC103">
@@ -179,16 +219,16 @@
 						</enabled>
 						<formulaName></formulaName>
 						<lifeTime>
-							<compiledString>FRMAAAABAAAAHwAAAFRydWVTaWdodF9EdXJhdGlvbgBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+							<compiledString>FQkAAAABAAAAFQAAAER1cmF0aW9uAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
 							<returnType>float</returnType>
-							<sString>cTrueSight_Duration</sString>
+							<sString>cDuration</sString>
 						</lifeTime>
 						<LoggingEvent>-1</LoggingEvent>
 						<providerName></providerName>
 						<range>
-							<compiledString>FRAAAAABAAAAHAAAAFRydWVTaWdodF9SYW5nZQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+							<compiledString>FQcAAAABAAAAEwAAAFJhZGl1cwBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
 							<returnType>float</returnType>
-							<sString>cTrueSight_Range</sString>
+							<sString>cRadius</sString>
 						</range>
 						<startCondition>
 							<compiledString></compiledString>
@@ -219,9 +259,9 @@
 						<flags>8</flags>
 						<formulaName></formulaName>
 						<lifeTime>
-							<compiledString>FRMAAAABAAAAHwAAAFRydWVTaWdodF9EdXJhdGlvbgBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+							<compiledString>FQkAAAABAAAAFQAAAER1cmF0aW9uAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
 							<returnType>float</returnType>
-							<sString>cTrueSight_Duration</sString>
+							<sString>cDuration</sString>
 						</lifeTime>
 						<LoggingEvent>-1</LoggingEvent>
 						<providerName></providerName>
@@ -231,11 +271,51 @@
 							<sString>true</sString>
 						</startCondition>
 						<visRange>
-							<compiledString>FRAAAAABAAAAHAAAAFRydWVTaWdodF9SYW5nZQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+							<compiledString>FQcAAAABAAAAEwAAAFJhZGl1cwBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
 							<returnType>float</returnType>
-							<sString>cTrueSight_Range</sString>
+							<sString>cRadius</sString>
 						</visRange>
 					</EyeApplicator>
+				</Item>
+				<Item href="/Items/Talents/Level5/G073_SeeInvis_Life.TALENT" id="E4DE2123-911F-4B31-9C56-E2A3E39B72E5">
+					<AuraApplicator>
+						<applicators>
+							<Item href="/Heroes/DefaultStatus/_MORTALSTRIKE_Status.APLR" />
+						</applicators>
+						<applyTarget>ApplicatorTarget</applyTarget>
+						<behaviorFlags>152</behaviorFlags>
+						<caption>отхила не будет</caption>
+						<effect>
+							<Item href="" />
+							<Item href="" />
+						</effect>
+						<enabled>
+							<compiledString></compiledString>
+							<returnType>bool</returnType>
+							<sString>true</sString>
+						</enabled>
+						<formulaName></formulaName>
+						<lifeTime>
+							<compiledString>FQkAAAABAAAAFQAAAER1cmF0aW9uAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+							<returnType>float</returnType>
+							<sString>cDuration</sString>
+						</lifeTime>
+						<LoggingEvent>-1</LoggingEvent>
+						<providerName></providerName>
+						<range>
+							<compiledString>FQcAAAABAAAAEwAAAFJhZGl1cwBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+							<returnType>float</returnType>
+							<sString>cRadius</sString>
+						</range>
+						<startCondition>
+							<compiledString></compiledString>
+							<returnType>bool</returnType>
+							<sString>true</sString>
+						</startCondition>
+						<targets>536870919</targets>
+						<targetSelector href="" />
+						<type>None</type>
+					</AuraApplicator>
 				</Item>
 			</persistentApplicators>
 		</DispatchByTime>
@@ -350,10 +430,11 @@
 				<providerName></providerName>
 			</PermanentStatModApplicator>
 		</Item>
+		<Item href="/Items/Talents/Level3/ThirdPinkSet_Prog2025.APLR" />
 	</passiveApplicators>
 	<persistentId>G073</persistentId>
 	<prerequisiteTalents />
-	<rarity>excellent</rarity>
+	<rarity>magnificent</rarity>
 	<requireLineOfSight>false</requireLineOfSight>
 	<shortDescription textref="/Items/Talents/Level5/G073_SeeInvis_Life.TALENT_shortDescription.txt" />
 	<talentRollGroups>63</talentRollGroups>

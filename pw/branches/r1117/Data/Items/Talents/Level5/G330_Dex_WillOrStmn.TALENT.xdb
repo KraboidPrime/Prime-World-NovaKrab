@@ -29,7 +29,91 @@
 	</aoeSize>
 	<aoeType>None</aoeType>
 	<applicators>
-		<Item href="/Heroes/DefaultStatus/status_ControlTimeDecrease.APLR" />
+		<Item href="/GameLogic/GeneralApplicators/DispellWEffects.APLR" />
+		<Item href="/Items/Talents/Level5/G330_Dex_WillOrStmn.TALENT" id="279B725A-24F6-4EE2-BFC5-49AD7DB63D0A">
+			<StatusApplicator parent="/Items/Talents/Level4/status_G660_GuildAllyDispell_Red.APLR">
+				<description textref="/Items/Talents/Level5/G330_Dex_WillOrStmn.TALENT_279b725a24f64ee2bfc549ad7db63d0a_description.txt" />
+				<image href="/UI/Styles/Icons/Talents/_330.ITEX" />
+				<lifeTime>
+					<compiledString>FRUAAAABAAAAIQAAAFRpbWVDb250cm9sX0R1cmF0aW9uAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+					<returnType>float</returnType>
+					<sString>cTimeControl_Duration</sString>
+				</lifeTime>
+				<name textref="/Items/Talents/Level5/G330_Dex_WillOrStmn.TALENT_279b725a24f64ee2bfc549ad7db63d0a_name.txt" />
+			</StatusApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level5/G330_Dex_WillOrStmn.TALENT" id="8AF9F6CB-8B58-428F-9728-9E9D4D3DB302">
+			<TriggerApplicator>
+				<actionsCount>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</actionsCount>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>Снижение урона от талантов</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString>FRUAAAABAAAAIQAAAFRpbWVDb250cm9sX0R1cmF0aW9uAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+					<returnType>float</returnType>
+					<sString>cTimeControl_Duration</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<playAck>false</playAck>
+				<processor href="/Items/Talents/Level5/G330_Dex_WillOrStmn.TALENT" id="915CA69B-FBE8-499D-9C73-23983C48898C">
+					<EventProcessorDamageTransformer>
+						<abilityFilter>
+							<abilitiesList />
+							<abilityCondition>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</abilityCondition>
+							<abilityCostMode>Any</abilityCostMode>
+							<exceptThis>false</exceptThis>
+							<flags>1073742078</flags>
+							<onlySingleTarget>false</onlySingleTarget>
+						</abilityFilter>
+						<add>
+							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>0.0f</sString>
+						</add>
+						<applyTarget>AbilityOwner</applyTarget>
+						<checkSender>0</checkSender>
+						<damageTypeFilter>31</damageTypeFilter>
+						<flags>0</flags>
+						<matchTargetInverted>false</matchTargetInverted>
+						<mul>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAPw==</compiledString>
+							<returnType>float</returnType>
+							<sString>0.5f</sString>
+						</mul>
+						<objectFilter>2040319</objectFilter>
+						<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
+						<spell href="" />
+						<treatDelegatedByDelegator>false</treatDelegatedByDelegator>
+					</EventProcessorDamageTransformer>
+				</processor>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<useAbilityCooldown>false</useAbilityCooldown>
+				<useAbilityOwnerMana>false</useAbilityOwnerMana>
+			</TriggerApplicator>
+		</Item>
 	</applicators>
 	<askId>0</askId>
 	<autoTargetSelector href="" />
@@ -134,9 +218,9 @@
 					<UnitConstant>
 						<name>TimeControl_Duration</name>
 						<var>
-							<compiledString>FTwAAAAEAAAAQwAAAFkAAAB3AAAAlwAAAFRlY2hfVGltZUNvbnRyb2xfRHVyYXRpb24AAABHMzQ0X0FkZF9EdXJhdGlvbgAAAEczNDRfQWN0aXZlAFWL7IPsEGgwAAAAi0UIixCLTQiLgogBAAD/0NwdzQAAAN/g9sRBdQbGRf8B6wTGRf8Ai00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ/9BR2e7ZHCSLTQxRi1UIUmgcAAAAi0UQixCLTRCLQlDdXfT/0FHZHCQPtk3/UegcAAAAg8QM3EX02V3w2UXwi+VdwwAAAAAAAAAAAAAAAFWL7FEPtkUIhcB0CNlFDNld/OsG2UUQ2V382UX8i+Vdww==</compiledString>
+							<compiledString>FTwAAAAEAAAAQwAAAFkAAAB3AAAAlwAAAFRlY2hfVGltZUNvbnRyb2xfRHVyYXRpb24AAABHMzQ0X0FkZF9EdXJhdGlvbgAAAEczMjZfQWN0aXZlAFWL7IPsEGgwAAAAi0UIixCLTQiLgogBAAD/0NwdzQAAAN/g9sRBdQbGRf8B6wTGRf8Ai00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ/9BR2e7ZHCSLTQxRi1UIUmgcAAAAi0UQixCLTRCLQlDdXfT/0FHZHCQPtk3/UegcAAAAg8QM3EX02V3w2UXwi+VdwwAAAAAAAAAAAAAAAFWL7FEPtkUIhcB0CNlFDNld/OsG2UUQ2V382UX8i+Vdww==</compiledString>
 							<returnType>float</returnType>
-							<sString>cTech_TimeControl_Duration + s(sender.vG344_Active&gt;0,cG344_Add_Duration,0)</sString>
+							<sString>cTech_TimeControl_Duration + s(sender.vG326_Active&gt;0,cG344_Add_Duration,0)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -144,9 +228,9 @@
 					<UnitConstant>
 						<name>Tech_TimeControl_Duration</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
 							<returnType>float</returnType>
-							<sString>10</sString>
+							<sString>2</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -196,9 +280,9 @@
 					<UnitConstant>
 						<name>CD</name>
 						<var>
-							<compiledString>FRoAAAAEAAAAIQAAADcAAABLAAAAawAAAEczMjZfQWN0aXZlAEczMjZfQ29vbERvd24AVYvsg+wIaAAAAACLRQiLEItNCIuCiAEAAP/Q3B2FAAAA3+D2xEF1H4tNDFGLVQhSaAwAAACLRRCLEItNEItCUP/Q2V386wXZ7tld/NlF/NwteQAAANld+NlF+IvlXcMAAAAAAABeQAAAAAAAAAAAAAAAAA==</compiledString>
+							<compiledString>FRoAAAAEAAAAIQAAADcAAABLAAAAawAAAEczNDRfQWN0aXZlAEczMjZfQ29vbERvd24AVYvsg+wIaAAAAACLRQiLEItNCIuCiAEAAP/Q3B2FAAAA3+D2xEF1H4tNDFGLVQhSaAwAAACLRRCLEItNEItCUP/Q2V386wXZ7tld/NlF/NwteQAAANld+NlF+IvlXcMAAAAAAIBmQAAAAAAAAAAAAAAAAA==</compiledString>
 							<returnType>float</returnType>
-							<sString>120 - (sender.vG326_Active&gt; 0 ? cG326_CoolDown : 0)</sString>
+							<sString>180 - (sender.vG344_Active&gt; 0 ? cG326_CoolDown : 0)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -265,7 +349,7 @@
 		<Item href="/Items/Talents/Level5/G330_Dex_WillOrStmn.TALENT" id="6E39ED75-6857-4BC9-A008-390748F362A2">
 			<PermanentStatModApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>StaOrWill</caption>
+				<caption>StaOrWill мусор для кондишн формулы</caption>
 				<customApplyType>Maximize</customApplyType>
 				<enabled>
 					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgsgAAAD/0ItNCIsRi00Ii4LMAAAA3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
@@ -292,10 +376,10 @@
 				<providerName></providerName>
 			</PermanentStatModApplicator>
 		</Item>
-		<Item href="/Items/Talents/Level5/G330_Dex_WillOrStmn.TALENT" id="84F676FD-70F9-4D02-8CF0-C06002D2F9BC">
+		<Item href="/Items/Talents/Level5/G330_Dex_WillOrStmn.TALENT" id="A8B8927E-60A8-4E03-A448-1D70AA1A3DAD">
 			<PermanentStatModApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>Add_Dexterity</caption>
+				<caption>хп</caption>
 				<customApplyType>None</customApplyType>
 				<enabled>
 					<compiledString></compiledString>
@@ -306,9 +390,69 @@
 				<LoggingEvent>-1</LoggingEvent>
 				<modifier>
 					<addValue>
-						<compiledString>FQ4AAAABAAAAGgAAAEFkZF9EZXh0ZXJpdHkAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQw==</compiledString>
 						<returnType>float</returnType>
-						<sString>cAdd_Dexterity</sString>
+						<sString>240.0f</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Life</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level5/G330_Dex_WillOrStmn.TALENT" id="AB1FA521-7989-4390-983C-9D4EDC84C859">
+			<PermanentStatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>проворство</caption>
+				<customApplyType>None</customApplyType>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgowAAAD/0ItNCIsRi00Ii4LAAAAA3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sBaseAttackSpeed &gt;= sBaseDexterity</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADAQA==</compiledString>
+						<returnType>float</returnType>
+						<sString>6.0f</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>AttackSpeed</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level5/G330_Dex_WillOrStmn.TALENT" id="B0ADD7ED-7FFB-4E52-91C6-7AE3FBAB59D0">
+			<PermanentStatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>хитрость</caption>
+				<customApplyType>None</customApplyType>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgowAAAD/0ItNCIsRi00Ii4LAAAAA3V34/9DcXfjf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sBaseAttackSpeed &lt; sBaseDexterity</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADAQA==</compiledString>
+						<returnType>float</returnType>
+						<sString>6.0f</sString>
 					</addValue>
 					<multValue>
 						<compiledString></compiledString>
@@ -316,66 +460,6 @@
 						<sString>1.0f</sString>
 					</multValue>
 					<stat>Dexterity</stat>
-					<topModifier>false</topModifier>
-					<variable></variable>
-				</modifier>
-				<providerName></providerName>
-			</PermanentStatModApplicator>
-		</Item>
-		<Item href="/Items/Talents/Level5/G330_Dex_WillOrStmn.TALENT" id="28D23A78-371B-4AAF-B692-C3B2CF985D2D">
-			<PermanentStatModApplicator>
-				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>Add_Stamina</caption>
-				<customApplyType>Maximize</customApplyType>
-				<enabled>
-					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgsgAAAD/0ItNCIsRi00Ii4LMAAAA3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
-					<returnType>bool</returnType>
-					<sString>sBaseStamina&gt;=sBaseWill</sString>
-				</enabled>
-				<formulaName></formulaName>
-				<LoggingEvent>-1</LoggingEvent>
-				<modifier>
-					<addValue>
-						<compiledString>FQkAAAABAAAAFQAAAEFkZF9TdGF0AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
-						<returnType>float</returnType>
-						<sString>cAdd_Stat</sString>
-					</addValue>
-					<multValue>
-						<compiledString></compiledString>
-						<returnType>float</returnType>
-						<sString>1.0f</sString>
-					</multValue>
-					<stat>Stamina</stat>
-					<topModifier>false</topModifier>
-					<variable></variable>
-				</modifier>
-				<providerName></providerName>
-			</PermanentStatModApplicator>
-		</Item>
-		<Item href="/Items/Talents/Level5/G330_Dex_WillOrStmn.TALENT" id="162C9468-6219-4B7B-87D5-D3EADD8F1FC7">
-			<PermanentStatModApplicator>
-				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>Add_Will</caption>
-				<customApplyType>Maximize</customApplyType>
-				<enabled>
-					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgsgAAAD/0ItNCIsRi00Ii4LMAAAA3V34/9DcXfjf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
-					<returnType>bool</returnType>
-					<sString>sBaseStamina&lt;sBaseWill</sString>
-				</enabled>
-				<formulaName></formulaName>
-				<LoggingEvent>-1</LoggingEvent>
-				<modifier>
-					<addValue>
-						<compiledString>FQkAAAABAAAAFQAAAEFkZF9TdGF0AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
-						<returnType>float</returnType>
-						<sString>cAdd_Stat</sString>
-					</addValue>
-					<multValue>
-						<compiledString></compiledString>
-						<returnType>float</returnType>
-						<sString>1.0f</sString>
-					</multValue>
-					<stat>Will</stat>
 					<topModifier>false</topModifier>
 					<variable></variable>
 				</modifier>

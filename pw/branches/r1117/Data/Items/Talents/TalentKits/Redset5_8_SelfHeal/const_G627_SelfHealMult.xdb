@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Level2/G623_SelfHeal.TALENT" Count="1" />
 	<name>G627_AddSelfHeal</name>
 	<var>
-		<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAL0MAACBB</compiledString>
+		<compiledString>FQ4AAAACAAAALAAAADkAAABHNjIzX0Jhc2VIZWFsAFWL7IPsEItFCIsQi00Ii4JgAQAA/9CJRfzbRfzcDVoAAACLTQxRi1UIUmgAAAAAi0UQixCLTRCLQlDdXfT/0NxN9Nld8NlF8IvlXcN7FK5H4Xq0Pw==</compiledString>
 		<returnType>float</returnType>
-		<sString>refineScale(175, 10)</sString>
+		<sString>sNaftaLevel*0.08*cG623_BaseHeal</sString>
 	</var>
 </UnitConstant>

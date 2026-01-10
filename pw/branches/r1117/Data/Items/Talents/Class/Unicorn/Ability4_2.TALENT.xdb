@@ -501,9 +501,9 @@
 																<LoggingEvent>-1</LoggingEvent>
 																<modifier>
 																	<addValue>
-																		<compiledString>FQ8AAAABAAAAGwAAAEE0XzJ1X0FkZF9XaWxsAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+																		<compiledString>FRIAAAABAAAAHgAAAEE0XzJ1X0FkZF9EZWZlbmNlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
 																		<returnType>float</returnType>
-																		<sString>cA4_2u_Add_Will</sString>
+																		<sString>cA4_2u_Add_Defence</sString>
 																	</addValue>
 																	<multValue>
 																		<compiledString></compiledString>
@@ -523,11 +523,11 @@
 																<statModName></statModName>
 															</StatModApplicator>
 														</Item>
-														<Item href="/Items/Talents/Class/Unicorn/Ability4_2.TALENT" id="3FA53B9C-F3D5-4639-AC4F-64913E937A0E">
+														<Item href="/Items/Talents/Class/Unicorn/Ability4_2.TALENT" id="FB4DA2AF-C1B2-4BF3-BDE9-E7FE5790275B">
 															<StatModApplicator>
 																<applyTarget>ApplicatorTarget</applyTarget>
 																<behaviorFlags>0</behaviorFlags>
-																<caption>Добавляем Стойкости</caption>
+																<caption>Добавляем Стойкость</caption>
 																<constraint>None</constraint>
 																<dontUpdate>false</dontUpdate>
 																<effect>
@@ -548,9 +548,9 @@
 																<LoggingEvent>-1</LoggingEvent>
 																<modifier>
 																	<addValue>
-																		<compiledString>FRIAAAABAAAAHgAAAEE0XzJ1X0FkZF9TdGFtaW5hAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+																		<compiledString>FRIAAAABAAAAHgAAAEE0XzJ1X0FkZF9EZWZlbmNlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
 																		<returnType>float</returnType>
-																		<sString>cA4_2u_Add_Stamina</sString>
+																		<sString>cA4_2u_Add_Defence</sString>
 																	</addValue>
 																	<multValue>
 																		<compiledString></compiledString>
@@ -937,9 +937,9 @@
 					<UnitConstant>
 						<name>A4_2_DamageRange</name>
 						<var>
-							<compiledString>FQsAAAABAAAAFwAAAFJhbmdlX0xvbmcAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+							<compiledString>FQwAAAABAAAAGAAAAFJhbmdlX1Nob3J0AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
 							<returnType>float</returnType>
-							<sString>cRange_Long</sString>
+							<sString>cRange_Short</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -954,7 +954,6 @@
 					</UnitConstant>
 				</Item>
 				<Item href="/Items/Talents/Class/Unicorn/const_A4_2u_Duration" />
-				<Item href="/Items/Talents/Class/Unicorn/const_A4_2u_AddStamina" />
 				<Item href="/Items/Talents/Class/Unicorn/const_A4_2u_AddWill" />
 				<Item href="/Items/Talents/Class/Unicorn/Ability4_2.TALENT" id="53B547B6-84A7-4C99-B7D5-82E6D4807EF6">
 					<UnitConstant>

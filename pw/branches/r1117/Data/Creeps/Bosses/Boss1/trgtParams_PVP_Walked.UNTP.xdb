@@ -2,66 +2,67 @@
 <UnitTargetingParameters>
 	<BackLink DBID="/Creeps/Bosses/Boss1/PVP_Walked.CREEP" Count="1" />
 	<BackLink DBID="/Creeps/Bosses/Boss1/PVP_Walked_NY.CREEP" Count="1" />
-	<aggressiveNeutralAttackingHeroWeight>0</aggressiveNeutralAttackingHeroWeight>
-	<aggressiveNeutralWeight>0</aggressiveNeutralWeight>
-	<aggroRange>-1</aggroRange>
-	<allyTargetWeight>0</allyTargetWeight>
-	<attackerAllyWeight>0</attackerAllyWeight>
-	<attackerHeroSummonWeight>0</attackerHeroSummonWeight>
-	<attackerHeroTableWeight>1</attackerHeroTableWeight>
+	<BackLink DBID="/Creeps/Bosses/Boss1/PVP_Walked_New.CREEP" Count="1" />
+	<aggressiveNeutralAttackingHeroWeight>-1</aggressiveNeutralAttackingHeroWeight>
+	<aggressiveNeutralWeight>-1</aggressiveNeutralWeight>
+	<aggroRange>-1000</aggroRange>
+	<allyTargetWeight>-1</allyTargetWeight>
+	<attackerAllyWeight>1</attackerAllyWeight>
+	<attackerHeroSummonWeight>-1000</attackerHeroSummonWeight>
+	<attackerHeroTableWeight>0.5</attackerHeroTableWeight>
 	<attackerHeroWeight>
-		<Item>35</Item>
-		<Item>0</Item>
-		<Item>32</Item>
-		<Item>31</Item>
-		<Item>31</Item>
-		<Item>0</Item>
-		<Item>31</Item>
-		<Item>31</Item>
-		<Item>31</Item>
-		<Item>0</Item>
-		<Item>0</Item>
-		<Item>0</Item>
-		<Item>0</Item>
-		<Item>0</Item>
-		<Item>0</Item>
-		<Item>0</Item>
-		<Item>0</Item>
-		<Item>-1</Item>
-		<Item>0</Item>
-		<Item>0</Item>
-		<Item>31</Item>
+		<Item>1000</Item>
+		<Item>1000</Item>
+		<Item>-1000</Item>
+		<Item>-1000</Item>
+		<Item>-1000</Item>
+		<Item>-1000</Item>
+		<Item>3500</Item>
+		<Item>3500</Item>
+		<Item>3500</Item>
+		<Item>-1000</Item>
+		<Item>-1000</Item>
+		<Item>-1000</Item>
+		<Item>-1000</Item>
+		<Item>-1000</Item>
+		<Item>-1000</Item>
+		<Item>-1000</Item>
+		<Item>-1000</Item>
+		<Item>-1000</Item>
+		<Item>-1000</Item>
+		<Item>-1000</Item>
+		<Item>-1000</Item>
 		<Item>0</Item>
 	</attackerHeroWeight>
-	<attackerMasterWeight>0</attackerMasterWeight>
-	<attackerMeWeight>10</attackerMeWeight>
-	<attackerNearbyHeroWeight>0</attackerNearbyHeroWeight>
-	<attackerTowerWeight>0</attackerTowerWeight>
-	<autoAttackWeight>0</autoAttackWeight>
-	<chaseRange>18</chaseRange>
+	<attackerMasterWeight>-1000</attackerMasterWeight>
+	<attackerMeWeight>900</attackerMeWeight>
+	<attackerNearbyHeroWeight>-1000</attackerNearbyHeroWeight>
+	<attackerTowerWeight>1</attackerTowerWeight>
+	<autoAttackWeight>-1</autoAttackWeight>
+	<chaseRange>12</chaseRange>
 	<currentTargetTableWeight>1</currentTargetTableWeight>
 	<currentTargetWeight>
-		<Item>10</Item>
-		<Item>10</Item>
-		<Item>10</Item>
-		<Item>10</Item>
-		<Item>10</Item>
-		<Item>10</Item>
-		<Item>10</Item>
-		<Item>10</Item>
-		<Item>10</Item>
-		<Item>10</Item>
-		<Item>10</Item>
-		<Item>10</Item>
-		<Item>10</Item>
-		<Item>10</Item>
-		<Item>10</Item>
-		<Item>10</Item>
-		<Item>10</Item>
+		<Item>1000</Item>
+		<Item>1000</Item>
 		<Item>-1</Item>
-		<Item>10</Item>
-		<Item>10</Item>
-		<Item>10</Item>
+		<Item>-1</Item>
+		<Item>-1</Item>
+		<Item>-1</Item>
+		<Item>3500</Item>
+		<Item>3500</Item>
+		<Item>3500</Item>
+		<Item>-1</Item>
+		<Item>-1</Item>
+		<Item>-1</Item>
+		<Item>-1</Item>
+		<Item>-1</Item>
+		<Item>-1</Item>
+		<Item>-1</Item>
+		<Item>-1</Item>
+		<Item>-1</Item>
+		<Item>-1</Item>
+		<Item>-1</Item>
+		<Item>-1</Item>
 		<Item>0</Item>
 	</currentTargetWeight>
 	<customWeight>
@@ -69,44 +70,44 @@
 		<returnType>float</returnType>
 		<sString>0.0f</sString>
 	</customWeight>
-	<healthWeight>0.5</healthWeight>
+	<healthWeight>-1</healthWeight>
 	<ignoreSiblingTarget>false</ignoreSiblingTarget>
 	<isStationarySummon>false</isStationarySummon>
 	<longSuspendTimeout>0.3</longSuspendTimeout>
-	<masterTargetWeight>5</masterTargetWeight>
+	<masterTargetWeight>-1</masterTargetWeight>
 	<maxTimeFromAttack>-1</maxTimeFromAttack>
 	<nearbyRange>0</nearbyRange>
-	<onlyAutoTargeting>false</onlyAutoTargeting>
-	<OutOfAggroWeight>-100</OutOfAggroWeight>
-	<rangeWeight>9</rangeWeight>
+	<onlyAutoTargeting>true</onlyAutoTargeting>
+	<OutOfAggroWeight>-1</OutOfAggroWeight>
+	<rangeWeight>1</rangeWeight>
 	<sortSuspendTimeout>0</sortSuspendTimeout>
-	<talentAttackWeight>0</talentAttackWeight>
-	<targetingRange>18</targetingRange>
-	<targetRevisionTime>1</targetRevisionTime>
+	<talentAttackWeight>-1</talentAttackWeight>
+	<targetingRange>12</targetingRange>
+	<targetRevisionTime>0.5</targetRevisionTime>
 	<unitTargetWeight>
-		<Item>-100</Item>
-		<Item>0</Item>
-		<Item>-100</Item>
-		<Item>50</Item>
-		<Item>50</Item>
-		<Item>0</Item>
-		<Item>100</Item>
-		<Item>100</Item>
-		<Item>100</Item>
-		<Item>0</Item>
-		<Item>0</Item>
-		<Item>0</Item>
-		<Item>0</Item>
-		<Item>0</Item>
-		<Item>0</Item>
-		<Item>0</Item>
-		<Item>0</Item>
+		<Item>1000</Item>
+		<Item>1000</Item>
+		<Item>-1000</Item>
+		<Item>-1000</Item>
+		<Item>-1000</Item>
+		<Item>-1000</Item>
+		<Item>3500</Item>
+		<Item>3500</Item>
+		<Item>3500</Item>
+		<Item>-1000</Item>
+		<Item>-1000</Item>
+		<Item>-1000</Item>
+		<Item>-1000</Item>
+		<Item>-1000</Item>
+		<Item>-1000</Item>
+		<Item>-1000</Item>
+		<Item>-1000</Item>
+		<Item>-1000</Item>
+		<Item>-1000</Item>
+		<Item>-1000</Item>
 		<Item>-1000</Item>
 		<Item>0</Item>
-		<Item>0</Item>
-		<Item>0</Item>
-		<Item>0</Item>
 	</unitTargetWeight>
-	<unitTypeTableWeight>100</unitTypeTableWeight>
-	<weightMaximumRangePersent>0.1</weightMaximumRangePersent>
+	<unitTypeTableWeight>2</unitTypeTableWeight>
+	<weightMaximumRangePersent>0.5</weightMaximumRangePersent>
 </UnitTargetingParameters>

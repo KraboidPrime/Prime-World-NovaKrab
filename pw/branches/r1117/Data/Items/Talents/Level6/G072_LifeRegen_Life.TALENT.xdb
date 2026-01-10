@@ -72,9 +72,9 @@
 					<UnitConstant>
 						<name>Add_Life</name>
 						<var>
-							<compiledString>FQsAAAADAAAAFAAAAB4AAAA7AAAATGlmZUJ1ZGdldABVi+yD7AxR2QVgAAAA2RwkUdkFXAAAANkcJItFEIsQi00Qi0Js/9CLTQxRi1UIUmgAAAAAi0UQixCLTRCLQlDdXfj/0NxN+Nld9NlF9IvlXcNmZiZBmpkZPw==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAIAIRA==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(10.4,0.6)*cLifeBudget</sString>
+							<sString>546</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -82,9 +82,9 @@
 					<UnitConstant>
 						<name>Add_LifeRegAbs</name>
 						<var>
-							<compiledString>FQAAAAAEAAEACQAAABMAAAApAAAAQQAAAIEAAABVi+yD7AhR2QVbAAAA2RwkUdkFVwAAANkcJItFEIsQi00Qi0Js/9DcDU8AAADZXfzZRfxR2Rwk6CMAAACDxATcNU8AAADZXfjZRfiL5V3DAAAAAAAAJECamZlAZmbmPlWL7FHZRQjZHCToBQAAAIPEBF3DVYvsUdlFCIPsCN0cJOhv////g8QI2V382UX8i+Vdww==</compiledString>
+							<compiledString>FQAAAAABAAAAEwAAAFWL7FGLRQiLEItNCItCDP/Q3A0hAAAA2V382UX8i+Vdw3sUrkfhepQ/</compiledString>
 							<returnType>float</returnType>
-							<sString>floor(refineScale(4.8, 0.45)*10)/10</sString>
+							<sString>0.02*sMaxLife</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -98,7 +98,7 @@
 	<cooldownTime>
 		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 		<returnType>float</returnType>
-		<sString>0</sString>
+		<sString>0.0f</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>
@@ -132,7 +132,7 @@
 		<Item href="/Items/Talents/Level6/G072_LifeRegen_Life.TALENT" id="9512C6B2-C79B-4A0B-A8A6-C1FA7EE0D332">
 			<PermanentStatModApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption></caption>
+				<caption>Здоровице</caption>
 				<customApplyType>None</customApplyType>
 				<enabled>
 					<compiledString></compiledString>
@@ -159,40 +159,365 @@
 				<providerName></providerName>
 			</PermanentStatModApplicator>
 		</Item>
-		<Item href="/Items/Talents/Level6/G072_LifeRegen_Life.TALENT" id="754A3266-58B0-4B9A-842D-CC4B92B50BFC">
-			<PermanentStatModApplicator>
+		<Item href="/Items/Talents/Level6/G072_LifeRegen_Life.TALENT" id="086B7840-39F1-485A-890E-6D77CD12810B">
+			<StatusApplicator>
+				<applicators>
+					<Item href="/Items/Talents/Level6/G072_LifeRegen_Life.TALENT" id="F9A924C2-C81B-47B7-A40A-24912CEB744D">
+						<StatModApplicator>
+							<applyTarget>AbilityOwner</applyTarget>
+							<behaviorFlags>216</behaviorFlags>
+							<caption></caption>
+							<constraint>None</constraint>
+							<dontUpdate>false</dontUpdate>
+							<effect>
+								<Item href="/Effects/Buffs/Regen/_TimeShort.EFFT" />
+								<Item href="" />
+							</effect>
+							<enabled>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</enabled>
+							<formulaName></formulaName>
+							<lifeTime>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>-1.0</sString>
+							</lifeTime>
+							<LoggingEvent>-1</LoggingEvent>
+							<modifier>
+								<addValue>
+									<compiledString>FQ8AAAABAAAAGwAAAEFkZF9MaWZlUmVnQWJzAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+									<returnType>float</returnType>
+									<sString>cAdd_LifeRegAbs</sString>
+								</addValue>
+								<multValue>
+									<compiledString></compiledString>
+									<returnType>float</returnType>
+									<sString>1.0f</sString>
+								</multValue>
+								<stat>LifeRegenerationAbsolute</stat>
+								<topModifier>false</topModifier>
+								<variable></variable>
+							</modifier>
+							<providerName></providerName>
+							<startCondition>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</startCondition>
+							<statModName></statModName>
+						</StatModApplicator>
+					</Item>
+				</applicators>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>Статус регена</caption>
+				<customCounter>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</customCounter>
+				<customProgress>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</customProgress>
+				<description textref="/Items/Talents/Level6/G072_LifeRegen_Life.TALENT_086b784039f1485a890e6d77cd12810b_description.txt" />
+				<dispellPriority>NonDispellable</dispellPriority>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FRMAAAACAAAAGAAAAC4AAABHMDcyX0p1c3RUcmlnZ2VyZWQAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdUAAAAN/g9sQFegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAOA/</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vG072_JustTriggered &lt; 0.5</sString>
+				</enabled>
+				<flags>0</flags>
+				<formulaName></formulaName>
+				<image href="/UI/Styles/Icons/Talents/_072.ITEX" />
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<name textref="/Items/Talents/Level6/G072_LifeRegen_Life.TALENT_086b784039f1485a890e6d77cd12810b_name.txt" />
+				<power>0</power>
+				<providerName></providerName>
+				<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+				<stackCount>0</stackCount>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statusPosition>0</statusPosition>
+				<stopBehaviour>StopByTime</stopBehaviour>
+				<unstackableWith href="" />
+			</StatusApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level6/G072_LifeRegen_Life.TALENT" id="6605CB7D-FF0A-4D86-857D-90F4F78B15B2">
+			<TriggerApplicator>
+				<actionsCount>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</actionsCount>
 				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption></caption>
-				<customApplyType>None</customApplyType>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>Счётчик</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
 				<enabled>
 					<compiledString></compiledString>
 					<returnType>bool</returnType>
 					<sString>true</sString>
 				</enabled>
 				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
 				<LoggingEvent>-1</LoggingEvent>
-				<modifier>
-					<addValue>
-						<compiledString>FQ8AAAABAAAAGwAAAEFkZF9MaWZlUmVnQWJzAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
-						<returnType>float</returnType>
-						<sString>cAdd_LifeRegAbs</sString>
-					</addValue>
-					<multValue>
-						<compiledString></compiledString>
-						<returnType>float</returnType>
-						<sString>1.0f</sString>
-					</multValue>
-					<stat>LifeRegenerationAbsolute</stat>
-					<topModifier>false</topModifier>
-					<variable></variable>
-				</modifier>
+				<playAck>false</playAck>
+				<processor href="/Items/Talents/Level6/G072_LifeRegen_Life.TALENT" id="782FA9B4-414C-46E0-B1FA-CFF681471254">
+					<EventProcessorDamageTransformer>
+						<abilityFilter>
+							<abilitiesList />
+							<abilityCondition>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</abilityCondition>
+							<abilityCostMode>Any</abilityCostMode>
+							<exceptThis>false</exceptThis>
+							<flags>1073742079</flags>
+							<onlySingleTarget>false</onlySingleTarget>
+						</abilityFilter>
+						<add>
+							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>0.0f</sString>
+						</add>
+						<applyTarget>AbilityOwner</applyTarget>
+						<checkSender>2</checkSender>
+						<damageTypeFilter>31</damageTypeFilter>
+						<flags>0</flags>
+						<matchTargetInverted>false</matchTargetInverted>
+						<mul>
+							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>1.0f</sString>
+						</mul>
+						<objectFilter>538444231</objectFilter>
+						<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
+						<spell href="/Items/Talents/Level6/G072_LifeRegen_Life.TALENT" id="66491421-ED54-4534-B0E2-73E1FF8C2D92">
+							<Spell>
+								<applicators>
+									<Item href="/Items/Talents/Level6/G072_LifeRegen_Life.TALENT" id="A3C81486-2F7F-49B4-8DA9-8A0C3BCE0BBF">
+										<SpellPeriodicallyApplicator>
+											<applyTarget>ApplicatorTarget</applyTarget>
+											<behaviorFlags>216</behaviorFlags>
+											<caption></caption>
+											<effect>
+												<Item href="" />
+												<Item href="" />
+											</effect>
+											<enabled>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</enabled>
+											<formulaName></formulaName>
+											<lifeTime>
+												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAwQQ==</compiledString>
+												<returnType>float</returnType>
+												<sString>11</sString>
+											</lifeTime>
+											<LoggingEvent>-1</LoggingEvent>
+											<period>
+												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQg==</compiledString>
+												<returnType>float</returnType>
+												<sString>100.0f</sString>
+											</period>
+											<providerName></providerName>
+											<scaleMode>ScaleIsCount</scaleMode>
+											<spell href="/Items/Talents/Level6/G072_LifeRegen_Life.TALENT" id="FED3A25C-0F81-4D36-ADD3-D6D11E950959">
+												<Spell>
+													<applicators>
+														<Item href="/Items/Talents/Level6/G072_LifeRegen_Life.TALENT" id="B70F80E9-444D-4AF1-85E5-2BAE5E695C6B">
+															<StatModApplicator>
+																<applyTarget>ApplicatorTarget</applyTarget>
+																<behaviorFlags>152</behaviorFlags>
+																<caption></caption>
+																<constraint>None</constraint>
+																<dontUpdate>false</dontUpdate>
+																<effect>
+																	<Item href="" />
+																	<Item href="" />
+																</effect>
+																<enabled>
+																	<compiledString></compiledString>
+																	<returnType>bool</returnType>
+																	<sString>true</sString>
+																</enabled>
+																<formulaName></formulaName>
+																<lifeTime>
+																	<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
+																	<returnType>float</returnType>
+																	<sString>10</sString>
+																</lifeTime>
+																<LoggingEvent>-1</LoggingEvent>
+																<modifier>
+																	<addValue>
+																		<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+																		<returnType>float</returnType>
+																		<sString>1</sString>
+																	</addValue>
+																	<multValue>
+																		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+																		<returnType>float</returnType>
+																		<sString>0</sString>
+																	</multValue>
+																	<stat>Life</stat>
+																	<topModifier>false</topModifier>
+																	<variable>G072_JustTriggered</variable>
+																</modifier>
+																<providerName></providerName>
+																<startCondition>
+																	<compiledString></compiledString>
+																	<returnType>bool</returnType>
+																	<sString>true</sString>
+																</startCondition>
+																<statModName></statModName>
+															</StatModApplicator>
+														</Item>
+													</applicators>
+													<dispatch href="/Items/Talents/Level6/G072_LifeRegen_Life.TALENT" id="F5BFC04C-E9DA-4CF2-BE78-2B1D8D21CD0C">
+														<DispatchImmediate>
+															<alwaysApply>false</alwaysApply>
+															<applyEffect>
+																<Item href="" />
+																<Item href="" />
+															</applyEffect>
+															<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+															<applyEffectOrientation>Default</applyEffectOrientation>
+															<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+															<dieAfterApply>true</dieAfterApply>
+															<dispatchEffect>
+																<Item href="" />
+																<Item href="" />
+															</dispatchEffect>
+															<flags>0</flags>
+															<instantApply>false</instantApply>
+														</DispatchImmediate>
+													</dispatch>
+												</Spell>
+											</spell>
+											<startCondition>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</startCondition>
+											<startOffset>
+												<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+												<returnType>float</returnType>
+												<sString>1.0f</sString>
+											</startOffset>
+											<targetSelector href="" />
+										</SpellPeriodicallyApplicator>
+									</Item>
+									<Item href="/Items/Talents/Level6/G072_LifeRegen_Life.TALENT" id="7B3AAC23-3CA8-40DE-A731-C80B8EAAEE81">
+										<StatModApplicator>
+											<applyTarget>ApplicatorTarget</applyTarget>
+											<behaviorFlags>152</behaviorFlags>
+											<caption></caption>
+											<constraint>None</constraint>
+											<dontUpdate>false</dontUpdate>
+											<effect>
+												<Item href="" />
+												<Item href="" />
+											</effect>
+											<enabled>
+												<compiledString>FRMAAAACAAAAGAAAAC4AAABHMDcyX0p1c3RUcmlnZ2VyZWQAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdUAAAAN/g9sRBdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAOA/</compiledString>
+												<returnType>bool</returnType>
+												<sString>sender.vG072_JustTriggered &gt; 0.5</sString>
+											</enabled>
+											<formulaName></formulaName>
+											<lifeTime>
+												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
+												<returnType>float</returnType>
+												<sString>2</sString>
+											</lifeTime>
+											<LoggingEvent>-1</LoggingEvent>
+											<modifier>
+												<addValue>
+													<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+													<returnType>float</returnType>
+													<sString>1</sString>
+												</addValue>
+												<multValue>
+													<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+													<returnType>float</returnType>
+													<sString>0</sString>
+												</multValue>
+												<stat>Life</stat>
+												<topModifier>false</topModifier>
+												<variable>G072_JustTriggered</variable>
+											</modifier>
+											<providerName></providerName>
+											<startCondition>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</startCondition>
+											<statModName></statModName>
+										</StatModApplicator>
+									</Item>
+								</applicators>
+								<dispatch href="/Items/Talents/Level6/G072_LifeRegen_Life.TALENT" id="25E5E9B3-F857-4ADB-8FD3-3DF0FCE112E4">
+									<DispatchImmediate>
+										<alwaysApply>false</alwaysApply>
+										<applyEffect>
+											<Item href="" />
+											<Item href="" />
+										</applyEffect>
+										<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+										<applyEffectOrientation>Default</applyEffectOrientation>
+										<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+										<dieAfterApply>true</dieAfterApply>
+										<dispatchEffect>
+											<Item href="" />
+											<Item href="" />
+										</dispatchEffect>
+										<flags>0</flags>
+										<instantApply>false</instantApply>
+									</DispatchImmediate>
+								</dispatch>
+							</Spell>
+						</spell>
+						<treatDelegatedByDelegator>false</treatDelegatedByDelegator>
+					</EventProcessorDamageTransformer>
+				</processor>
 				<providerName></providerName>
-			</PermanentStatModApplicator>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<useAbilityCooldown>false</useAbilityCooldown>
+				<useAbilityOwnerMana>false</useAbilityOwnerMana>
+			</TriggerApplicator>
 		</Item>
 	</passiveApplicators>
 	<persistentId>G072</persistentId>
 	<prerequisiteTalents />
-	<rarity>excellent</rarity>
+	<rarity>magnificent</rarity>
 	<requireLineOfSight>true</requireLineOfSight>
 	<shortDescription textref="/Items/Talents/Level6/G072_LifeRegen_Life.TALENT_shortDescription.txt" />
 	<talentRollGroups>63</talentRollGroups>

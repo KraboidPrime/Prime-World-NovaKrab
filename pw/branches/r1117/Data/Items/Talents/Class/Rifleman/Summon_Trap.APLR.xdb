@@ -294,6 +294,158 @@
 																	</SpellApplicator>
 																</Item>
 																<Item href="/Items/Talents/Class/Rifleman/spell_A4u_TrapInteraction.APLR" />
+																<Item href="/Items/Talents/Class/Rifleman/Summon_Trap.APLR" id="89782C91-627E-461D-A2ED-E4840ACD5F4C">
+																	<UIMessageApplicator>
+																		<applyTarget>AbilityOwner</applyTarget>
+																		<caption>текст капкан сработал</caption>
+																		<enabled>
+																			<compiledString>FQsAAAACAAAAEAAAACYAAABLYXBrYW5UZXh0AFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHUgAAADf4PbERHoJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAAAA==</compiledString>
+																			<returnType>bool</returnType>
+																			<sString>sender.vKapkanText == 0.0f</sString>
+																		</enabled>
+																		<formulaName></formulaName>
+																		<LoggingEvent>-1</LoggingEvent>
+																		<message textref="/Items/Talents/Class/Rifleman/Summon_Trap.APLR_89782c91627e461da2ede4840acd5f4c_message.txt" />
+																		<providerName></providerName>
+																		<uiEvent href="/Items/Talents/Class/Rifleman/Summon_Trap.APLR" id="BA853D62-0411-426F-9F52-083DFB09134E">
+																			<UIEvent>
+																				<signRecipients>PLAYER_ONLY</signRecipients>
+																				<UISigns>
+																					<Item href="/Items/Talents/Class/Rifleman/Summon_Trap.APLR" id="DF1E2205-EB72-4FDC-B4B3-77C762334655">
+																						<UISignFlyOffText>
+																							<signRecipients>USE_FROM_PARENT</signRecipients>
+																							<text>
+																								<acceleration>
+																									<x>0</x>
+																									<y>0</y>
+																								</acceleration>
+																								<align>Center</align>
+																								<endOpacity>0</endOpacity>
+																								<layout>fly_kapkan</layout>
+																								<lifeTime>3</lifeTime>
+																								<offset>
+																									<x>0</x>
+																									<y>-50</y>
+																								</offset>
+																								<startOpacity>1</startOpacity>
+																								<velocity>
+																									<x>0</x>
+																									<y>-30</y>
+																								</velocity>
+																							</text>
+																						</UISignFlyOffText>
+																					</Item>
+																				</UISigns>
+																			</UIEvent>
+																		</uiEvent>
+																		<value>
+																			<compiledString></compiledString>
+																			<returnType>float</returnType>
+																			<sString>-1.0</sString>
+																		</value>
+																	</UIMessageApplicator>
+																</Item>
+																<Item href="/Items/Talents/Class/Rifleman/Summon_Trap.APLR" id="973CCC8F-BC33-48D4-980B-CE8ABB6F2152">
+																	<StatModApplicator>
+																		<applyTarget>ApplicatorTarget</applyTarget>
+																		<behaviorFlags>0</behaviorFlags>
+																		<caption>метка на карте</caption>
+																		<constraint>None</constraint>
+																		<dontUpdate>false</dontUpdate>
+																		<effect>
+																			<Item href="/Items/Talents/Class/Rifleman/Summon_Trap.APLR" id="7555E66F-1E1C-45CC-A933-364B3AAC5C2B">
+																				<MinimapEffect>
+																					<deathType>Manual</deathType>
+																					<effect>MarkerHostile</effect>
+																					<enableCondition href="" />
+																					<lifeTime>0</lifeTime>
+																				</MinimapEffect>
+																			</Item>
+																			<Item href="" />
+																		</effect>
+																		<enabled>
+																			<compiledString></compiledString>
+																			<returnType>bool</returnType>
+																			<sString>true</sString>
+																		</enabled>
+																		<formulaName></formulaName>
+																		<lifeTime>
+																			<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
+																			<returnType>float</returnType>
+																			<sString>3.0f</sString>
+																		</lifeTime>
+																		<LoggingEvent>-1</LoggingEvent>
+																		<modifier>
+																			<addValue>
+																				<compiledString></compiledString>
+																				<returnType>float</returnType>
+																				<sString>0.0f</sString>
+																			</addValue>
+																			<multValue>
+																				<compiledString></compiledString>
+																				<returnType>float</returnType>
+																				<sString>1.0f</sString>
+																			</multValue>
+																			<stat>Life</stat>
+																			<topModifier>false</topModifier>
+																			<variable></variable>
+																		</modifier>
+																		<providerName></providerName>
+																		<startCondition>
+																			<compiledString>FQsAAAACAAAAEAAAACYAAABLYXBrYW5UZXh0AFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHUgAAADf4PbERHoJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAAAA==</compiledString>
+																			<returnType>bool</returnType>
+																			<sString>sender.vKapkanText == 0.0f</sString>
+																		</startCondition>
+																		<statModName></statModName>
+																	</StatModApplicator>
+																</Item>
+																<Item href="/Items/Talents/Class/Rifleman/Summon_Trap.APLR" id="63B9E9D3-B8A9-48AC-8FA5-937F1020E021">
+																	<StatModApplicator>
+																		<applyTarget>AbilityOwner</applyTarget>
+																		<behaviorFlags>0</behaviorFlags>
+																		<caption>для текста про капканы</caption>
+																		<constraint>None</constraint>
+																		<dontUpdate>false</dontUpdate>
+																		<effect>
+																			<Item href="" />
+																			<Item href="" />
+																		</effect>
+																		<enabled>
+																			<compiledString></compiledString>
+																			<returnType>bool</returnType>
+																			<sString>true</sString>
+																		</enabled>
+																		<formulaName></formulaName>
+																		<lifeTime>
+																			<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
+																			<returnType>float</returnType>
+																			<sString>5.0f</sString>
+																		</lifeTime>
+																		<LoggingEvent>-1</LoggingEvent>
+																		<modifier>
+																			<addValue>
+																				<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+																				<returnType>float</returnType>
+																				<sString>1.0f</sString>
+																			</addValue>
+																			<multValue>
+																				<compiledString></compiledString>
+																				<returnType>float</returnType>
+																				<sString>1.0f</sString>
+																			</multValue>
+																			<stat>Life</stat>
+																			<topModifier>false</topModifier>
+																			<variable>KapkanText</variable>
+																		</modifier>
+																		<providerName></providerName>
+																		<startCondition>
+																			<compiledString>FQsAAAACAAAAEAAAACYAAABLYXBrYW5UZXh0AFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHUgAAADf4PbERHoJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAAAA==</compiledString>
+																			<returnType>bool</returnType>
+																			<sString>sender.vKapkanText == 0.0f</sString>
+																		</startCondition>
+																		<statModName></statModName>
+																	</StatModApplicator>
+																</Item>
 															</applicators>
 															<dispatch href="/Items/Talents/Class/Rifleman/Summon_Trap.APLR" id="349D4306-7E3E-47BE-9AC3-B4E7EA6B516F">
 																<DispatchImmediate>

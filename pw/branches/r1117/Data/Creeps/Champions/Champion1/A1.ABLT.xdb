@@ -202,6 +202,39 @@
 				</targetSelector>
 			</SpellApplicator>
 		</Item>
+		<Item href="/Creeps/Champions/Champion1/A1.ABLT" id="4171721A-7EA6-40BA-9748-D7EC7060E3BB">
+			<FlagsApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption></caption>
+				<consumables />
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FQYAAAACAAAACwAAACEAAABJc1BldABVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1DAAAA3+D2xER7CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAA8D8=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vIsPet != 1</sString>
+				</enabled>
+				<flag>8</flag>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQQ==</compiledString>
+					<returnType>float</returnType>
+					<sString>30</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<talents />
+				<useListAs>ListAsRule</useListAs>
+			</FlagsApplicator>
+		</Item>
 	</applicators>
 	<autoTargetSelector href="" />
 	<caption>Яростный удар</caption>
@@ -272,9 +305,9 @@
 		</UnitConstantsContainer>
 	</constants>
 	<cooldownTime>
-		<compiledString>FQYAAAACAAAACwAAACEAAABJc1BldABVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1DAAAA3+D2xER6CcdF/AAAAADrB8dF/B4AAADbRfyL5V3DAAAAAAAA8D8=</compiledString>
+		<compiledString>FQYAAAACAAAACwAAACEAAABJc1BldABVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1DAAAA3+D2xER6CcdF/AAAAADrB8dF/AEAAADbRfyL5V3DAAAAAAAA8D8=</compiledString>
 		<returnType>float</returnType>
-		<sString>sender.vIsPet == 1 ? 0 : 30</sString>
+		<sString>sender.vIsPet == 1 ? 0 : 1</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>

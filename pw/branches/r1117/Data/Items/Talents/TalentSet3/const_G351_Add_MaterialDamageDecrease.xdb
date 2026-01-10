@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Level5/G365_Will_Str_Int.TALENT" Count="1" />
 	<name>Add_MaterialDamageDecrease</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQg==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQg==</compiledString>
 		<returnType>float</returnType>
-		<sString>60</sString>
+		<sString>40</sString>
 	</var>
 </UnitConstant>

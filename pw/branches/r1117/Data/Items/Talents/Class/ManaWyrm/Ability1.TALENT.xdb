@@ -426,9 +426,9 @@
 	<isUltimateTalent>false</isUltimateTalent>
 	<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
 	<manaCost>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQw==</compiledString>
+		<compiledString>FSAAAAACAAAAJwAAAEAAAABNYW5hV3lybV9BM19TVVAATWFuYVd5cm1fQTNfU1VQAFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+/fZG8mB4VgCAACBwcgAAACJTfTbRfSL5V3D</compiledString>
 		<returnType>float</returnType>
-		<sString>200</sString>
+		<sString>tal("ManaWyrm_A3_SUP") ? 800 : 200</sString>
 	</manaCost>
 	<marker>doCast1</marker>
 	<microAI href="/Items/Talents/Class/ManaWyrm/Ability1.TALENT" id="2F9FDB4D-A80C-49B8-AC21-2534887A468C">

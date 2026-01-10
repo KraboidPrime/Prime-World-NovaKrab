@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LightningEffect>
-	<BackLink DBID="/Items/Talents/Class/Shaman/Ability_A4_2.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Shaman/Ability_A4_2.TALENT" Count="2" />
 	<component href="/Effects/Debuffs/Lash/_Shaman2.EFFT" id="C4EABECD-B735-4F87-8EB8-7094B7C5AB9E">
 		<DBLightningSceneComponent>
 			<attached>

@@ -59,23 +59,13 @@
 	<constants href="/Items/Talents/Level6/G123_Life-Int.TALENT" id="96A4EFE0-A8D0-4A0C-8CE4-B65CF58ECA1F">
 		<UnitConstantsContainer>
 			<vars>
-				<Item href="/Items/Talents/Level6/G123_Life-Int.TALENT" id="E7893D2B-241F-46BA-9F0D-4660226602E9">
-					<UnitConstant>
-						<name>Add_Intellect</name>
-						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAIEHNzEw/</compiledString>
-							<returnType>float</returnType>
-							<sString>refineScale(10, 0.8)</sString>
-						</var>
-					</UnitConstant>
-				</Item>
 				<Item href="/Items/Talents/Level6/G123_Life-Int.TALENT" id="C26B92F5-EF1F-4BB9-8DBB-04FA40BEB1A6">
 					<UnitConstant>
-						<name>Add_Life</name>
+						<name>G123_Buff</name>
 						<var>
-							<compiledString>FQsAAAADAAAAFAAAAB4AAAA7AAAATGlmZUJ1ZGdldABVi+yD7AxR2QVgAAAA2RwkUdkFXAAAANkcJItFEIsQi00Qi0Js/9CLTQxRi1UIUmgAAAAAi0UQixCLTRCLQlDdXfj/0NxN+Nld9NlF9IvlXcMzMxNBCtcjPw==</compiledString>
+							<compiledString>FQAAAAAEAAEAOAAAAGgAAACUAAAAmgAAABYBAABVi+yD7CCLRQiLEItNCIuCzAAAAP/QUdkcJItNCIsRi00Ii4LIAAAA/9BR2Rwk6PQAAACDxAjcDewAAADZXfzZRfxR2Rwki00IixGLTQiLQiT/0ItNCIsRi00Ii0IM3V30/9DcTfTcDeQAAACLTQiLEYtNCItCLN1d7P/Q3EXsi00IixGLTQiLQjjdXeT/0NxF5Nwl3AAAANw11AAAANld4NlF4FHZHCRR2e7ZHCTonAAAAIPEBNkcJOhpAAAAg8QE2Rwk6CsAAACDxASL5V3DAAAAAAAAAAAAABBAAAAAAAAAREB7FK5H4XqEPx+F61G4HtU/VYvsUdlFCNkcJOgFAAAAg8QEXcNVi+xR2UUIg+wI3Rwk6Nr+//+DxAjZXfzZRfyL5V3DVYvsUdlFCNlFDN7Z3+D2xEF1CNlFCNld/OsG2UUM2V382UX8i+Vdw1WL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(9.2,0.64)*cLifeBudget</sString>
+							<sString>floor(min(max(0, (sLifeRegen*sMaxLife*0.01+sLifeRegenAbs+sLifeDrain-40)/4), 0.33*min(sBaseStamina, sBaseWill)))</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -99,7 +89,7 @@
 	<description textref="/Items/Talents/Level6/G123_Life-Int.TALENT_description.txt" />
 	<devPoints>1</devPoints>
 	<dispatch href="" />
-	<flags>1</flags>
+	<flags>5</flags>
 	<forceBonus>33</forceBonus>
 	<image href="/UI/Styles/Icons/Talents/_123.ITEX" />
 	<imageSecondState href="" />
@@ -120,70 +110,71 @@
 	<name textref="/Items/Talents/Level6/G123_Life-Int.TALENT_name.txt" />
 	<node></node>
 	<passiveApplicators>
-		<Item href="/Items/Talents/Level6/G123_Life-Int.TALENT" id="E7CF39B7-AAFB-4453-A2A6-99155D177269">
-			<PermanentStatModApplicator>
-				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>Add_Intellect</caption>
-				<customApplyType>None</customApplyType>
+		<Item href="/Items/Talents/Level6/G123_Life-Int.TALENT" id="93EF4BA0-E34A-4BDD-A6AD-5C6A7EDD0439">
+			<TriggerApplicator>
+				<actionsCount>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</actionsCount>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>Безумие</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
 				<enabled>
 					<compiledString></compiledString>
 					<returnType>bool</returnType>
 					<sString>true</sString>
 				</enabled>
 				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
 				<LoggingEvent>-1</LoggingEvent>
-				<modifier>
-					<addValue>
-						<compiledString>FQ4AAAABAAAAGgAAAEFkZF9JbnRlbGxlY3QAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
-						<returnType>float</returnType>
-						<sString>cAdd_Intellect</sString>
-					</addValue>
-					<multValue>
-						<compiledString></compiledString>
-						<returnType>float</returnType>
-						<sString>1.0f</sString>
-					</multValue>
-					<stat>Intellect</stat>
-					<topModifier>false</topModifier>
-					<variable></variable>
-				</modifier>
+				<playAck>false</playAck>
+				<processor href="/Items/Talents/Level6/G123_Life-Int.TALENT" id="95400EBC-D281-4BDA-B5CB-6DE6DF176592">
+					<EventProcessorOutgoingDamage>
+						<abilityFilter>
+							<abilitiesList />
+							<abilityCondition>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</abilityCondition>
+							<abilityCostMode>Any</abilityCostMode>
+							<exceptThis>false</exceptThis>
+							<flags>536871166</flags>
+							<onlySingleTarget>false</onlySingleTarget>
+						</abilityFilter>
+						<applyTarget>ApplicatorTarget</applyTarget>
+						<damageTypeFilter>31</damageTypeFilter>
+						<modifiedDamage>
+							<compiledString>FRIAAAADAAAAGQAAADMAAABJAAAARGFtYWdlAABHMTIzX0J1ZmYAVYvsg+wMaAAAAACLRRCLEItNEItCVP/Qi00MUYtVCFJoCAAAAItFEIsQi00Qi0JQ3V34/9DcNWYAAADZ6N7B3E342V302UX0i+VdwwAAAAAAAPA/AAAAAAAAWUA=</compiledString>
+							<returnType>float</returnType>
+							<sString>appl.vDamage * (1.0f + cG123_Buff / 100)</sString>
+						</modifiedDamage>
+						<spell href="" />
+					</EventProcessorOutgoingDamage>
+				</processor>
 				<providerName></providerName>
-			</PermanentStatModApplicator>
-		</Item>
-		<Item href="/Items/Talents/Level6/G123_Life-Int.TALENT" id="DCE74DEE-704C-47CD-8B9E-C1195DB90A27">
-			<PermanentStatModApplicator>
-				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>Add_Life</caption>
-				<customApplyType>None</customApplyType>
-				<enabled>
+				<startCondition>
 					<compiledString></compiledString>
 					<returnType>bool</returnType>
 					<sString>true</sString>
-				</enabled>
-				<formulaName></formulaName>
-				<LoggingEvent>-1</LoggingEvent>
-				<modifier>
-					<addValue>
-						<compiledString>FQkAAAABAAAAFQAAAEFkZF9MaWZlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
-						<returnType>float</returnType>
-						<sString>cAdd_Life</sString>
-					</addValue>
-					<multValue>
-						<compiledString></compiledString>
-						<returnType>float</returnType>
-						<sString>1.0f</sString>
-					</multValue>
-					<stat>Life</stat>
-					<topModifier>false</topModifier>
-					<variable></variable>
-				</modifier>
-				<providerName></providerName>
-			</PermanentStatModApplicator>
+				</startCondition>
+				<useAbilityCooldown>false</useAbilityCooldown>
+				<useAbilityOwnerMana>false</useAbilityOwnerMana>
+			</TriggerApplicator>
 		</Item>
 	</passiveApplicators>
 	<persistentId>G123</persistentId>
 	<prerequisiteTalents />
-	<rarity>excellent</rarity>
+	<rarity>magnificent</rarity>
 	<requireLineOfSight>true</requireLineOfSight>
 	<shortDescription textref="/Items/Talents/Level6/G123_Life-Int.TALENT_shortDescription.txt" />
 	<talentRollGroups>0</talentRollGroups>

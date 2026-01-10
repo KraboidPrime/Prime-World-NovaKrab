@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BasicEffectStandalone>
-	<BackLink DBID="/Items/Talents/Class/Stalker/Ability_A2.TALENT" Count="3" />
+	<BackLink DBID="/Items/Talents/Class/Stalker/Ability_A2.TALENT" Count="6" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A4_1.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Hunter/Ability4_2.TALENT" Count="2" />
 	<component href="/Effects/Shots/Arrow/_PrimeHit.PRXY" />
 	<deathType>Anim</deathType>
 	<enableCondition href="" />

@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Class/Rockman/Ability3Upg.TALENT" Count="1" />
 	<name>A3_Damage_IncreaseBySlow</name>
 	<var>
-		<compiledString>FRIAAAABAAAAWgAAAFNsb3dUb0RhbWFnZUNvZWZmAFWL7IPsHItFDIsQi00Mi4KIAAAA/9CLTQyLEYtNDItCGN1d+P/Q3G34i00MixGLTQyLgogAAADdXfD/0Nx98ItNDFGLVQhSaAAAAACLRRCLEItNEItCUN1d6P/Q3E3o2V3k2UXki+Vdww==</compiledString>
+		<compiledString>FQAAAAAAAAAAVYvsg+wUi0UMixCLTQyLgogAAAD/0ItNDIsRi00Mi0IY3V34/9DcbfiLTQyLEYtNDIuCiAAAAN1d8P/Q3H3w2V3s2UXsi+Vdww==</compiledString>
 		<returnType>float</returnType>
-		<sString>(( rBaseMoveSpeed - rMoveSpeed ) / rBaseMoveSpeed ) * cSlowToDamageCoeff</sString>
+		<sString>(( rBaseMoveSpeed - rMoveSpeed ) / rBaseMoveSpeed )</sString>
 	</var>
 </UnitConstant>

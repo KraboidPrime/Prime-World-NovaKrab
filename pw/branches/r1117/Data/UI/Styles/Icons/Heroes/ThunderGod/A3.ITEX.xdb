@@ -3,7 +3,6 @@
 	<BackLink DBID="/Items/Talents/Class/ThunderGod/Ability3Upg.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/ThunderGod/status_A3_Overload.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/ThunderGod/Ability3.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/ThunderGod/status_A3_Shield.APLR" Count="1" />
 	<generatedFileName></generatedFileName>
 	<importOnlyShape>false</importOnlyShape>
 	<mipLevels>0</mipLevels>

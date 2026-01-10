@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Class/Gunslinger/Ability_A3.TALENT" Count="1" />
 	<name>DamageDecreaseSUP_All</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQQ==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQQ==</compiledString>
 		<returnType>float</returnType>
-		<sString>15.0f</sString>
+		<sString>25.0f</sString>
 	</var>
 </UnitConstant>

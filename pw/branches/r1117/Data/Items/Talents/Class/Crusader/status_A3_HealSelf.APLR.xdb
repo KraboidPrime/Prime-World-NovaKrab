@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StatusApplicator>
 	<BackLink DBID="/Items/Talents/Class/Crusader/Ability_A3.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Crusader/status_A3uAddWill.APLR" Count="1" />
 	<applicators>
 		<Item href="/Items/Talents/Class/Crusader/status_A3_HealSelf.APLR" id="EA77D750-14BD-4D89-8EB4-487C3D099E8B">
 			<AuraApplicator>
@@ -170,9 +169,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FQ8AAAACAAAAFAAAACoAAABWYW1wUmVzU3RhcnRlZABVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1MAAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 					<returnType>bool</returnType>
-					<sString>sender.vVampResStarted == 0</sString>
+					<sString>false</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<lifeTime>
@@ -251,12 +250,5 @@
 	</startCondition>
 	<statusPosition>0</statusPosition>
 	<stopBehaviour>StopByTime</stopBehaviour>
-	<unstackableWith href="/Items/Talents/Class/Crusader/status_A3_HealSelf.APLR" id="C1A94AD6-554B-4868-A072-38D8B2031F82">
-		<ApplicatorsList>
-			<applicatorLists />
-			<applicators>
-				<Item href="/Items/Talents/Class/Crusader/status_A3uAddWill.APLR" />
-			</applicators>
-		</ApplicatorsList>
-	</unstackableWith>
+	<unstackableWith href="" />
 </StatusApplicator>

@@ -281,6 +281,102 @@
 											<Item href="/GameLogic/GeneralApplicators/Uncontrollable.APLR" />
 											<Item href="/Items/Talents/Class/GhostLord/A0_TriggerForA5.APLR" />
 											<Item href="/Items/Talents/Class/GhostLord/_MasterStatConnect_MoveSpeed.APLR" />
+											<Item href="/Items/Talents/Class/GhostLord/A0_MakeGhost.SPLL" id="F9714AEE-7CD2-44C3-9179-8546FE5C2FD3">
+												<TriggerApplicator>
+													<actionsCount>
+														<compiledString></compiledString>
+														<returnType>int</returnType>
+														<sString>0</sString>
+													</actionsCount>
+													<applyTarget>ApplicatorTarget</applyTarget>
+													<behaviorFlags>0</behaviorFlags>
+													<caption>мана за ансаммон два</caption>
+													<effect>
+														<Item href="" />
+														<Item href="" />
+													</effect>
+													<enabled>
+														<compiledString>FR0AAAACAAAAJAAAAD0AAABHaG9zdExvcmRfQTUAAAAAR2hvc3RMb3JkX0E1AFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAikX7i+Vdww==</compiledString>
+														<returnType>bool</returnType>
+														<sString>tal("GhostLord_A5")</sString>
+													</enabled>
+													<formulaName></formulaName>
+													<lifeTime>
+														<compiledString></compiledString>
+														<returnType>float</returnType>
+														<sString>-1.0</sString>
+													</lifeTime>
+													<LoggingEvent>-1</LoggingEvent>
+													<playAck>false</playAck>
+													<processor href="/Items/Talents/Class/GhostLord/A0_MakeGhost.SPLL" id="27445580-E397-4F25-AE37-3956E65F8013">
+														<EventProcessorCondition>
+															<applyTarget>ApplicatorTarget</applyTarget>
+															<condition>
+																<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+																<returnType>bool</returnType>
+																<sString>true</sString>
+															</condition>
+															<events>16777216</events>
+															<onlyParent>false</onlyParent>
+															<spell href="/Items/Talents/Class/GhostLord/A0_MakeGhost.SPLL" id="0EFE0620-9E5B-4B0F-97D9-3ADB82C28A67">
+																<Spell>
+																	<applicators>
+																		<Item href="/Items/Talents/Class/GhostLord/A0_MakeGhost.SPLL" id="EEADDC5E-1D6A-4404-9669-F5268D56A803">
+																			<HealApplicator>
+																				<amount>
+																					<compiledString>FRgAAAABAAAAJAAAAEE1X0dhaW5NYW5hX0ZvclVuc3VtbW9uAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+																					<returnType>float</returnType>
+																					<sString>cA5_GainMana_ForUnsummon</sString>
+																				</amount>
+																				<applyTarget>AbilityOwner</applyTarget>
+																				<caption>Даем энергию</caption>
+																				<enabled>
+																					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+																					<returnType>bool</returnType>
+																					<sString>true</sString>
+																				</enabled>
+																				<formulaName></formulaName>
+																				<healTarget>Energy</healTarget>
+																				<ignoreHealingMods>false</ignoreHealingMods>
+																				<LoggingEvent>-1</LoggingEvent>
+																				<providerName></providerName>
+																				<uiEvent href="/UI/Events/CommonEvents/EventEnergy.UIEV" />
+																			</HealApplicator>
+																		</Item>
+																	</applicators>
+																	<dispatch href="/Items/Talents/Class/GhostLord/A0_MakeGhost.SPLL" id="89EE11C9-24C9-402B-9061-F4169DD849C8">
+																		<DispatchImmediate>
+																			<alwaysApply>false</alwaysApply>
+																			<applyEffect>
+																				<Item href="" />
+																				<Item href="" />
+																			</applyEffect>
+																			<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																			<applyEffectOrientation>Default</applyEffectOrientation>
+																			<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																			<dieAfterApply>true</dieAfterApply>
+																			<dispatchEffect>
+																				<Item href="" />
+																				<Item href="" />
+																			</dispatchEffect>
+																			<flags>0</flags>
+																			<instantApply>false</instantApply>
+																		</DispatchImmediate>
+																	</dispatch>
+																</Spell>
+															</spell>
+														</EventProcessorCondition>
+													</processor>
+													<providerName></providerName>
+													<startCondition>
+														<compiledString></compiledString>
+														<returnType>bool</returnType>
+														<sString>true</sString>
+													</startCondition>
+													<useAbilityCooldown>false</useAbilityCooldown>
+													<useAbilityOwnerMana>false</useAbilityOwnerMana>
+												</TriggerApplicator>
+											</Item>
 										</applicators>
 										<applyTarget>ApplicatorTarget</applyTarget>
 										<behaviour href="/Items/Talents/Class/GhostLord/A0_MakeGhost.SPLL" id="5BE03D5C-F783-4E66-84A9-3BA2AF2F8915">
@@ -589,6 +685,102 @@
 												</PermanentStatModApplicator>
 											</Item>
 											<Item href="/Items/Talents/Class/GhostLord/_MasterStatConnect_MoveSpeed.APLR" />
+											<Item href="/Items/Talents/Class/GhostLord/A0_MakeGhost.SPLL" id="F4B23CBB-2151-42CD-9631-7289551D011F">
+												<TriggerApplicator>
+													<actionsCount>
+														<compiledString></compiledString>
+														<returnType>int</returnType>
+														<sString>0</sString>
+													</actionsCount>
+													<applyTarget>ApplicatorTarget</applyTarget>
+													<behaviorFlags>0</behaviorFlags>
+													<caption>мана за ансаммон два</caption>
+													<effect>
+														<Item href="" />
+														<Item href="" />
+													</effect>
+													<enabled>
+														<compiledString>FR0AAAACAAAAJAAAAD0AAABHaG9zdExvcmRfQTUAAAAAR2hvc3RMb3JkX0E1AFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAikX7i+Vdww==</compiledString>
+														<returnType>bool</returnType>
+														<sString>tal("GhostLord_A5")</sString>
+													</enabled>
+													<formulaName></formulaName>
+													<lifeTime>
+														<compiledString></compiledString>
+														<returnType>float</returnType>
+														<sString>-1.0</sString>
+													</lifeTime>
+													<LoggingEvent>-1</LoggingEvent>
+													<playAck>false</playAck>
+													<processor href="/Items/Talents/Class/GhostLord/A0_MakeGhost.SPLL" id="61EA3690-2587-4C73-9F8F-E7697240B9F5">
+														<EventProcessorCondition>
+															<applyTarget>ApplicatorTarget</applyTarget>
+															<condition>
+																<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+																<returnType>bool</returnType>
+																<sString>true</sString>
+															</condition>
+															<events>16777216</events>
+															<onlyParent>false</onlyParent>
+															<spell href="/Items/Talents/Class/GhostLord/A0_MakeGhost.SPLL" id="E9914466-4928-4241-A778-C8E1BE012AB9">
+																<Spell>
+																	<applicators>
+																		<Item href="/Items/Talents/Class/GhostLord/A0_MakeGhost.SPLL" id="84133D3A-41BE-47C6-A584-D33068290397">
+																			<HealApplicator>
+																				<amount>
+																					<compiledString>FRgAAAABAAAAJAAAAEE1X0dhaW5NYW5hX0ZvclVuc3VtbW9uAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+																					<returnType>float</returnType>
+																					<sString>cA5_GainMana_ForUnsummon</sString>
+																				</amount>
+																				<applyTarget>AbilityOwner</applyTarget>
+																				<caption>Даем энергию</caption>
+																				<enabled>
+																					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+																					<returnType>bool</returnType>
+																					<sString>true</sString>
+																				</enabled>
+																				<formulaName></formulaName>
+																				<healTarget>Energy</healTarget>
+																				<ignoreHealingMods>false</ignoreHealingMods>
+																				<LoggingEvent>-1</LoggingEvent>
+																				<providerName></providerName>
+																				<uiEvent href="/UI/Events/CommonEvents/EventEnergy.UIEV" />
+																			</HealApplicator>
+																		</Item>
+																	</applicators>
+																	<dispatch href="/Items/Talents/Class/GhostLord/A0_MakeGhost.SPLL" id="6E8CE383-CB01-4ACE-8C26-97B774C0746A">
+																		<DispatchImmediate>
+																			<alwaysApply>false</alwaysApply>
+																			<applyEffect>
+																				<Item href="" />
+																				<Item href="" />
+																			</applyEffect>
+																			<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																			<applyEffectOrientation>Default</applyEffectOrientation>
+																			<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																			<dieAfterApply>true</dieAfterApply>
+																			<dispatchEffect>
+																				<Item href="" />
+																				<Item href="" />
+																			</dispatchEffect>
+																			<flags>0</flags>
+																			<instantApply>false</instantApply>
+																		</DispatchImmediate>
+																	</dispatch>
+																</Spell>
+															</spell>
+														</EventProcessorCondition>
+													</processor>
+													<providerName></providerName>
+													<startCondition>
+														<compiledString></compiledString>
+														<returnType>bool</returnType>
+														<sString>true</sString>
+													</startCondition>
+													<useAbilityCooldown>false</useAbilityCooldown>
+													<useAbilityOwnerMana>false</useAbilityOwnerMana>
+												</TriggerApplicator>
+											</Item>
 										</applicators>
 										<applyTarget>ApplicatorTarget</applyTarget>
 										<caption>создать копию героя</caption>

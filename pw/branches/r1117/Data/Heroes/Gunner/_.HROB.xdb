@@ -693,7 +693,7 @@
 							<returnType>float</returnType>
 							<sString>random ( f2l(sDamageMin), f2l(sDamageMax))</sString>
 						</damage>
-						<damageMode>3</damageMode>
+						<damageMode>11</damageMode>
 						<damageType>Native</damageType>
 						<enabled>
 							<compiledString></compiledString>
@@ -732,7 +732,7 @@
 												<returnType>float</returnType>
 												<sString>random ( f2l(sDamageMin), f2l(sDamageMax))</sString>
 											</damage>
-											<damageMode>3</damageMode>
+											<damageMode>11</damageMode>
 											<damageType>Native</damageType>
 											<enabled>
 												<compiledString></compiledString>
@@ -2254,22 +2254,6 @@
 						<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 						<returnType>float</returnType>
 						<sString>0</sString>
-					</value>
-				</Item>
-				<Item>
-					<calcIncrement>0</calcIncrement>
-					<calcValue>0</calcValue>
-					<increment>
-						<compiledString></compiledString>
-						<returnType>float</returnType>
-						<sString>0.0f</sString>
-					</increment>
-					<levelUpgrades />
-					<statId>CritChanceBonus</statId>
-					<value>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIwg==</compiledString>
-						<returnType>float</returnType>
-						<sString>-100.0f</sString>
 					</value>
 				</Item>
 			</stats>

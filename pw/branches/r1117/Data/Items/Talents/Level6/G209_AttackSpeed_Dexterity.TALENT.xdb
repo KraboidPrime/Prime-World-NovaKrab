@@ -68,9 +68,9 @@
 					<UnitConstant>
 						<name>Add_AttackSpeed</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAOEFmZmY/</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACQQQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(11.5, 0.9)</sString>
+							<sString>18</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -78,9 +78,9 @@
 					<UnitConstant>
 						<name>Add_Dexterity</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAOEFmZmY/</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACQQQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(11.5, 0.9)</sString>
+							<sString>18</sString>
 						</var>
 					</UnitConstant>
 				</Item>

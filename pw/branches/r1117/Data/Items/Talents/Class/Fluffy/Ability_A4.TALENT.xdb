@@ -214,6 +214,43 @@
 				</startCondition>
 			</ProgramApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/Fluffy/Ability_A4.TALENT" id="45CD7D10-CE68-4A37-8890-BD9573303447">
+			<FlagsApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption></caption>
+				<consumables />
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<flag>1024</flag>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzczMPQ==</compiledString>
+					<returnType>float</returnType>
+					<sString>0.1f</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<talents>
+					<Item href="/Items/Talents/Class/Fluffy/Ability_A1.TALENT" />
+					<Item href="/Items/Talents/Class/Fluffy/Ability_A2.TALENT" />
+					<Item href="/Items/Talents/Class/Fluffy/Ability_A3.TALENT" />
+				</talents>
+				<useListAs>ListAsRule</useListAs>
+			</FlagsApplicator>
+		</Item>
 	</applicators>
 	<askId>4</askId>
 	<autoTargetSelector href="" />
@@ -304,9 +341,9 @@
 					<UnitConstant>
 						<name>Need_Rage</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAMQg==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>35</sString>
+							<sString>30</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -387,13 +424,18 @@
 					<UnitConstant>
 						<name>BaseCD</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQg==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQg==</compiledString>
 							<returnType>float</returnType>
-							<sString>120.0f</sString>
+							<sString>80.0f</sString>
 						</var>
 					</UnitConstant>
 				</Item>
 				<Item href="/Items/Talents/Class/Fluffy/const_A0_SUP_CDR" />
+				<Item href="/Items/Talents/Class/Fluffy/const_A0_ArmorCut_Duration" />
+				<Item href="/Items/Talents/Class/Fluffy/const_A0_ArmorCut_Amount" />
+				<Item href="/Items/Talents/Class/Fluffy/const_A0_ArmorCut_Range" />
+				<Item href="/Items/Talents/Class/Fluffy/const_A0_WillCut_Duration" />
+				<Item href="/Items/Talents/Class/Fluffy/const_A0_WillCut_Amount" />
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

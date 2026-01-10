@@ -6,8 +6,8 @@
 	<BackLink DBID="/Items/Talents/Level6/G593_IntDexOrAtSpd.TALENT" Count="1" />
 	<name>StrCut_Duration</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAQA==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
 		<returnType>float</returnType>
-		<sString>4</sString>
+		<sString>5</sString>
 	</var>
 </UnitConstant>

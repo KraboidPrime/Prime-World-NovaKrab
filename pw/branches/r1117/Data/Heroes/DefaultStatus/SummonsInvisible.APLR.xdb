@@ -15,6 +15,8 @@
 	<BackLink DBID="/Items/Talents/Class/Rifleman/Summon_Bear.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Warlord/Ability4_2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Demonolog/Ability3.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A0.TALENT" Count="3" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A4_2.TALENT" Count="2" />
 	<applicators>
 		<Item href="/Heroes/DefaultStatus/SummonsInvisible.APLR" id="D167756F-123B-4EE5-BF94-44042ECDF869">
 			<InvisibilityApplicator parent="/GameLogic/GeneralApplicators/Invisibility.APLR">

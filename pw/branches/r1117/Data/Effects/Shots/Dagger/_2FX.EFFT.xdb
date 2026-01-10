@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BasicEffectStandalone>
-	<BackLink DBID="/Items/Talents/Class/Invisible/Ability_A4_2.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" Count="2" />
 	<component href="/Effects/Shots/Dagger/_2FX.PRXY" />
 	<deathType>Manual</deathType>
 	<enableCondition href="" />

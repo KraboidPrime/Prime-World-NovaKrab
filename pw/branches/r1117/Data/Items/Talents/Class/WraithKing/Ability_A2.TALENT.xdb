@@ -150,6 +150,16 @@
 				</Item>
 				<Item href="/Items/Talents/Class/WraithKing/const_A2_SUP_RangeIncrease" />
 				<Item href="/Items/Talents/Class/WraithKing/const_A2_SUP_DurationIncrease" />
+				<Item href="/Items/Talents/Class/WraithKing/Ability_A2.TALENT" id="FE4948C0-FD19-4217-852B-3C33F0966D68">
+					<UnitConstant>
+						<name>A02_Stat_TT</name>
+						<var>
+							<compiledString>FQAAAAACAAAAFgAAABwAAABVi+xRi0UIixCLTQiLgrwAAAD/0NwNMgAAANwFKgAAANld/NlF/IvlXcMAAADAzMz8PwAAAMB0k5g/</compiledString>
+							<returnType>float</returnType>
+							<sString>0.024f*sBaseIntellect + 1.8f</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

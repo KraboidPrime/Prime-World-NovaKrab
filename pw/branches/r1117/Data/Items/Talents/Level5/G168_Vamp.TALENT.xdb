@@ -50,19 +50,29 @@
 					<UnitConstant>
 						<name>Add_LifeDrain</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAIEEzMzM/</compiledString>
+							<compiledString>FQ0AAAACAAAAGgAAAC0AAABHMTY4X2NvdW50ZXIAVYvsUYtFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S3A07AAAA2V382UX8i+VdwwAAAAAAAD5A</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(10, 0.7)</sString>
+							<sString>30*cG168_counter</sString>
 						</var>
 					</UnitConstant>
 				</Item>
-				<Item href="/Items/Talents/Level5/G168_Vamp.TALENT" id="28752E7F-A2A2-45D2-A5B3-20869ADD1221">
+				<Item href="/Items/Talents/Level5/G168_Vamp.TALENT" id="2E1A368F-70C4-4A00-9437-A5C3D6345A2F">
+					<UnitConstant>
+						<name>G168_counter</name>
+						<var>
+							<compiledString>FW0AAAAOAAAAdAAAAI0AAAC7AAAA1AAAAAIBAAAbAQAASQEAAGIBAACQAQAAqQEAANcBAADwAQAAHgIAADcCAABHMTAwMwAAAEcxMDAzAAAARzE4NgAAAABHMTg2AAAAAEcyMDIAAAAARzIwMgAAAABHMzEyAAAAAEczMTIAAAAARzMxNAAAAABHMzE0AAAAAEc0NDUAAAAARzQ0NQAAAABHNDgwAAAAAEc0ODAAVYvsg+w8aAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgIAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wBoEAAAAItNCIsRi00Ii4KoAQAA/9CFwHQqaBgAAACLTQiLEYtNCIuCqAEAAP/QiUX0i030ixGLTfSLQgT/0IhF8+sExkXzAGggAAAAi00IixGLTQiLgqgBAAD/0IXAdCpoKAAAAItNCIsRi00Ii4KoAQAA/9CJReyLTeyLEYtN7ItCBP/QiEXr6wTGResAaDAAAACLTQiLEYtNCIuCqAEAAP/QhcB0Kmg4AAAAi00IixGLTQiLgqgBAAD/0IlF5ItN5IsRi03ki0IE/9CIRePrBMZF4wBoQAAAAItNCIsRi00Ii4KoAQAA/9CFwHQqaEgAAACLTQiLEYtNCIuCqAEAAP/QiUXci03cixGLTdyLQgT/0IhF2+sExkXbAGhQAAAAi00IixGLTQiLgqgBAAD/0IXAdCpoWAAAAItNCIsRi00Ii4KoAQAA/9CJRdSLTdSLEYtN1ItCBP/QiEXT6wTGRdMAaGAAAACLTQiLEYtNCIuCqAEAAP/QhcB0KmhoAAAAi00IixGLTQiLgqgBAAD/0IlFzItNzIsRi03Mi0IE/9CIRcvrBMZFywAPtk37D7ZV8wPKD7ZF6wPID7ZV4wPKD7ZF2wPID7ZV0wPKD7ZFywPIiU3E20XEi+Vdww==</compiledString>
+							<returnType>float</returnType>
+							<sString>tal("G1003")+tal("G186")+tal("G202")+tal("G312")+tal("G314")+tal("G445")+tal("G480")</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Level5/G168_Vamp.TALENT" id="63E148D7-7279-49A0-82E5-0B806621B8FA">
 					<UnitConstant>
 						<name>Add_Life</name>
 						<var>
-							<compiledString>FQsAAAADAAAAFAAAAB4AAAA7AAAATGlmZUJ1ZGdldABVi+yD7AxR2QVgAAAA2RwkUdkFXAAAANkcJItFEIsQi00Qi0Js/9CLTQxRi1UIUmgAAAAAi0UQixCLTRCLQlDdXfj/0NxN+Nld9NlF9IvlXcMzM/NAmpkZPw==</compiledString>
+							<compiledString>FQ0AAAACAAAAGgAAAC0AAABHMTY4X2NvdW50ZXIAVYvsUYtFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S3A07AAAA2V382UX8i+VdwwAAAAAAkHhA</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(7.6,0.6)*cLifeBudget</sString>
+							<sString>393*cG168_counter</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -86,7 +96,7 @@
 	<description textref="/Items/Talents/Level5/G168_Vamp.TALENT_description.txt" />
 	<devPoints>1</devPoints>
 	<dispatch href="" />
-	<flags>1</flags>
+	<flags>5</flags>
 	<forceBonus>23</forceBonus>
 	<image href="/UI/Styles/Icons/Talents/_168.ITEX" />
 	<imageSecondState href="" />
@@ -107,17 +117,75 @@
 	<name textref="/Items/Talents/Level5/G168_Vamp.TALENT_name.txt" />
 	<node></node>
 	<passiveApplicators>
-		<Item href="/Items/Talents/Level5/G168_Vamp.TALENT" id="AE879D89-2444-4B49-A7E0-F523FC9CA439">
-			<PermanentStatModApplicator>
+		<Item href="/Items/Talents/Level5/G168_Vamp.TALENT" id="3E52AD03-5457-42F4-9475-1B01DF359538">
+			<StatModApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>+ LifeDrain</caption>
-				<customApplyType>None</customApplyType>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>Здоровице</caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
 				<enabled>
 					<compiledString></compiledString>
 					<returnType>bool</returnType>
 					<sString>true</sString>
 				</enabled>
 				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQkAAAABAAAAFQAAAEFkZF9MaWZlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S2eBdww==</compiledString>
+						<returnType>float</returnType>
+						<sString>-cAdd_Life</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Life</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level5/G168_Vamp.TALENT" id="795EC604-4C12-4D4B-9266-47DD20E77AAF">
+			<StatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>Кражуля</caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
 				<LoggingEvent>-1</LoggingEvent>
 				<modifier>
 					<addValue>
@@ -135,12 +203,18 @@
 					<variable></variable>
 				</modifier>
 				<providerName></providerName>
-			</PermanentStatModApplicator>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
 		</Item>
-		<Item href="/Items/Talents/Level5/G168_Vamp.TALENT" id="28B23911-5A6A-4FA5-A527-FC60041E1CEA">
+		<Item href="/Items/Talents/Level5/G168_Vamp.TALENT" id="91AC9688-4C0B-4774-A49A-CADBB000095D">
 			<PermanentStatModApplicator>
-				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>Add_Life</caption>
+				<applyTarget>AbilityOwner</applyTarget>
+				<caption>base_life</caption>
 				<customApplyType>None</customApplyType>
 				<enabled>
 					<compiledString></compiledString>
@@ -151,9 +225,9 @@
 				<LoggingEvent>-1</LoggingEvent>
 				<modifier>
 					<addValue>
-						<compiledString>FQkAAAABAAAAFQAAAEFkZF9MaWZlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAIBERA==</compiledString>
 						<returnType>float</returnType>
-						<sString>cAdd_Life</sString>
+						<sString>786</sString>
 					</addValue>
 					<multValue>
 						<compiledString></compiledString>
@@ -170,7 +244,7 @@
 	</passiveApplicators>
 	<persistentId>G168</persistentId>
 	<prerequisiteTalents />
-	<rarity>excellent</rarity>
+	<rarity>magnificent</rarity>
 	<requireLineOfSight>true</requireLineOfSight>
 	<shortDescription textref="/Items/Talents/Level5/G168_Vamp.TALENT_shortDescription.txt" />
 	<talentRollGroups>63</talentRollGroups>

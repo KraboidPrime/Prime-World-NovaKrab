@@ -2,6 +2,10 @@
 <UITexture>
 	<BackLink DBID="/Items/Talents/Level5/G772_Int_CDR.TALENT" Count="1" />
 	<BackLink DBID="/Social/Lootboxes/LB_G772" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A2u.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A3u.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A4.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A4u.TALENT" Count="1" />
 	<generatedFileName></generatedFileName>
 	<importOnlyShape>false</importOnlyShape>
 	<mipLevels>0</mipLevels>

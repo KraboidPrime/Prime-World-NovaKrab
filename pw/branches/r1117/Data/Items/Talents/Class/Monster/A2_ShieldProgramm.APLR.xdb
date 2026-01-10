@@ -140,7 +140,11 @@
 						<Spell>
 							<applicators>
 								<Item href="/Heroes/DefaultStatus/_HASTE_status.APLR" />
-								<Item href="/Heroes/DefaultStatus/_QUICKNESS_status.APLR" />
+								<Item href="/Items/Talents/Class/Monster/A2_ShieldProgramm.APLR" id="A42D3FA2-E978-4B00-8928-2A6FBB00CE81">
+									<StatusApplicator parent="/Heroes/DefaultStatus/_QUICKNESS_status.APLR">
+										<description textref="/Items/Talents/Class/Monster/A2_ShieldProgramm.APLR_a42d3fa2e9784b0089282a6fbb00ce81_description.txt" />
+									</StatusApplicator>
+								</Item>
 								<Item href="/Items/Talents/Class/Monster/A2_ShieldProgramm.APLR" id="D5BE2ED1-A2B5-4025-AE9B-B4280B13A375">
 									<StatusApplicator parent="/Heroes/DefaultStatus/_INVISIBILITY_status.APLR">
 										<enabled>

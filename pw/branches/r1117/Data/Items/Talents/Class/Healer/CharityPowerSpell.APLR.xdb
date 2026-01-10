@@ -5,9 +5,9 @@
 	<applyTarget>ApplicatorTarget</applyTarget>
 	<caption>положить Силу</caption>
 	<enabled>
-		<compiledString>FRYAAAACAAAAHQAAADYAAABIZWFsZXJfQTMAAABIZWFsZXJfQTMAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgMAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0EYtVCDtVDHQJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+		<compiledString>FRYAAAACAAAAHQAAADYAAABIZWFsZXJfQTMAAABIZWFsZXJfQTMAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgMAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0I4tVCDtVDHQbi0UMixCLTQyLQlD/0IP4FHQJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
 		<returnType>bool</returnType>
-		<sString>tal("Healer_A3") &amp;&amp; pFirst != pSecond</sString>
+		<sString>tal("Healer_A3") &amp;&amp; pFirst != pSecond &amp;&amp; rUnitKind != 20</sString>
 	</enabled>
 	<formulaName></formulaName>
 	<LoggingEvent>-1</LoggingEvent>

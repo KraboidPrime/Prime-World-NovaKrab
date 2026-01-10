@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BasicEffectAttached>
 	<BackLink DBID="/Items/Talents/Class/IronKnight/status_A4_MoveControl.APLR" Count="1" />
-	<BackLink DBID="/Summons/Spear/_Mowgli.SUMMONED" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Invisible/status_A4_2_OnChain.APLR" Count="1" />
 	<attachFlags>1</attachFlags>
 	<attachType>Above</attachType>

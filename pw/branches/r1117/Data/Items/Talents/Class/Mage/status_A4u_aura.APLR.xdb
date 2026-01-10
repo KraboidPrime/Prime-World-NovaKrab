@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StatusApplicator>
 	<BackLink DBID="/Summons/Demon/_.SUMMONED" Count="1" />
+	<BackLink DBID="/Summons/Demon/_V.SUMMONED" Count="3" />
 	<applicators>
 		<Item href="/Items/Talents/Class/Mage/status_A4u_aura.APLR" id="D4B86DC1-6D34-472E-897B-2E4D3801C9E0">
 			<SpellPeriodicallyApplicator>

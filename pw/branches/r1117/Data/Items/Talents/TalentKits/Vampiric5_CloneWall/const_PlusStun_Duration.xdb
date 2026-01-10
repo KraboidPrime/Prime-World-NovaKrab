@@ -6,8 +6,8 @@
 	<BackLink DBID="/Items/Talents/Level4/G305_K_Dex_CDR.TALENT" Count="1" />
 	<name>PlusStunDuration</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAPw==</compiledString>
+		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 		<returnType>float</returnType>
-		<sString>0.5</sString>
+		<sString>0.0f</sString>
 	</var>
 </UnitConstant>

@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Class/Fairy/Ability_A3_2u2.TALENT" Count="1" />
 	<name>Dec_MoveSpeed</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQQ==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQg==</compiledString>
 		<returnType>float</returnType>
-		<sString>25</sString>
+		<sString>60</sString>
 	</var>
 </UnitConstant>

@@ -75,9 +75,9 @@
 					<UnitConstant>
 						<name>AddDamage</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAGEIAAEBA</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAMQg==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(38, 3)</sString>
+							<sString>35</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -100,9 +100,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQkAAAABAAAAFQAAAENvb2xEb3duAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 		<returnType>float</returnType>
-		<sString>cCoolDown</sString>
+		<sString>0</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>
@@ -219,39 +219,6 @@
 										</DamageApplicator>
 									</Item>
 									<Item href="/Heroes/DefaultStatus/_SLOW_MOVE.APLR" />
-									<Item href="/Items/Talents/Level5/G572_SlowProc-Dex.TALENT" id="0B86AD46-EDA9-43D0-A6C8-EE0791B07440">
-										<FlagsApplicator>
-											<applyTarget>ApplicatorTarget</applyTarget>
-											<behaviorFlags>0</behaviorFlags>
-											<caption>FX</caption>
-											<consumables />
-											<effect>
-												<Item href="/Effects/Debuffs/BoostAttack/_Purple.EFFT" />
-												<Item href="" />
-											</effect>
-											<enabled>
-												<compiledString>FQAAAAABAAAALQAAAFWL7FFR2ejZHCRR2e7ZHCRqAYtFDIsQi00Mi0JY/9APtshR6EkAAACDxAzcHWEAAADf4PbERHsbi1UMiwKLTQyLUFD/0oP4EXQJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAAAAAAAAAAAIA/VYvsUQ+2RQiFwHQI2UUM2V386wbZRRDZXfzZRfyL5V3D</compiledString>
-												<returnType>bool</returnType>
-												<sString>ut_bldg( false, true ) &amp;&amp; rUnitKind != 17</sString>
-											</enabled>
-											<flag>0</flag>
-											<formulaName></formulaName>
-											<lifeTime>
-												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAPw==</compiledString>
-												<returnType>float</returnType>
-												<sString>0.5f</sString>
-											</lifeTime>
-											<LoggingEvent>-1</LoggingEvent>
-											<providerName></providerName>
-											<startCondition>
-												<compiledString></compiledString>
-												<returnType>bool</returnType>
-												<sString>true</sString>
-											</startCondition>
-											<talents />
-											<useListAs>ListAsRule</useListAs>
-										</FlagsApplicator>
-									</Item>
 								</applicators>
 								<dispatch href="/Items/Talents/Level5/G572_SlowProc-Dex.TALENT" id="DC192145-4578-47DB-8895-6DDBFE0B14CB">
 									<DispatchImmediate>
@@ -279,9 +246,9 @@
 				</processor>
 				<providerName></providerName>
 				<startCondition>
-					<compiledString>FQoAAAACAAAADwAAACUAAABHNTcyX0lzQ0QAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdRwAAAN/g9sREewnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAPA/</compiledString>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
 					<returnType>bool</returnType>
-					<sString>sender.vG572_IsCD != 1</sString>
+					<sString>true</sString>
 				</startCondition>
 				<useAbilityCooldown>false</useAbilityCooldown>
 				<useAbilityOwnerMana>false</useAbilityOwnerMana>
@@ -373,86 +340,6 @@
 										</DamageApplicator>
 									</Item>
 									<Item href="/Heroes/DefaultStatus/_SLOW_MOVE.APLR" />
-									<Item href="/Items/Talents/Level5/G572_SlowProc-Dex.TALENT" id="0019AD37-A01C-4B12-B50D-8A69A8B37C1F">
-										<FlagsApplicator>
-											<applyTarget>ApplicatorTarget</applyTarget>
-											<behaviorFlags>0</behaviorFlags>
-											<caption>FX</caption>
-											<consumables />
-											<effect>
-												<Item href="/Effects/Debuffs/BoostAttack/_Purple.EFFT" />
-												<Item href="" />
-											</effect>
-											<enabled>
-												<compiledString>FQAAAAABAAAALQAAAFWL7FFR2ejZHCRR2e7ZHCRqAYtFDIsQi00Mi0JY/9APtshR6EkAAACDxAzcHWEAAADf4PbERHsbi1UMiwKLTQyLUFD/0oP4EXQJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAAAAAAAAAAAIA/VYvsUQ+2RQiFwHQI2UUM2V386wbZRRDZXfzZRfyL5V3D</compiledString>
-												<returnType>bool</returnType>
-												<sString>ut_bldg( false, true ) &amp;&amp; rUnitKind != 17</sString>
-											</enabled>
-											<flag>0</flag>
-											<formulaName></formulaName>
-											<lifeTime>
-												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAPw==</compiledString>
-												<returnType>float</returnType>
-												<sString>0.5f</sString>
-											</lifeTime>
-											<LoggingEvent>-1</LoggingEvent>
-											<providerName></providerName>
-											<startCondition>
-												<compiledString></compiledString>
-												<returnType>bool</returnType>
-												<sString>true</sString>
-											</startCondition>
-											<talents />
-											<useListAs>ListAsRule</useListAs>
-										</FlagsApplicator>
-									</Item>
-									<Item href="/Items/Talents/Level5/G572_SlowProc-Dex.TALENT" id="82443848-DCE1-48C2-BF76-13BA0103EF92">
-										<StatModApplicator>
-											<applyTarget>AbilityOwner</applyTarget>
-											<behaviorFlags>0</behaviorFlags>
-											<caption>G572_IsCD = 1</caption>
-											<constraint>None</constraint>
-											<dontUpdate>false</dontUpdate>
-											<effect>
-												<Item href="" />
-												<Item href="" />
-											</effect>
-											<enabled>
-												<compiledString></compiledString>
-												<returnType>bool</returnType>
-												<sString>true</sString>
-											</enabled>
-											<formulaName></formulaName>
-											<lifeTime>
-												<compiledString>FQkAAAABAAAAFQAAAENvb2xEb3duAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
-												<returnType>float</returnType>
-												<sString>cCoolDown</sString>
-											</lifeTime>
-											<LoggingEvent>-1</LoggingEvent>
-											<modifier>
-												<addValue>
-													<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
-													<returnType>float</returnType>
-													<sString>1</sString>
-												</addValue>
-												<multValue>
-													<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
-													<returnType>float</returnType>
-													<sString>0</sString>
-												</multValue>
-												<stat>Life</stat>
-												<topModifier>false</topModifier>
-												<variable>G572_IsCD</variable>
-											</modifier>
-											<providerName></providerName>
-											<startCondition>
-												<compiledString></compiledString>
-												<returnType>bool</returnType>
-												<sString>true</sString>
-											</startCondition>
-											<statModName></statModName>
-										</StatModApplicator>
-									</Item>
 								</applicators>
 								<dispatch href="/Items/Talents/Level5/G572_SlowProc-Dex.TALENT" id="3ACDEA07-E5E1-4B6F-99BD-9E914944D08F">
 									<DispatchImmediate>
@@ -480,15 +367,45 @@
 				</processor>
 				<providerName></providerName>
 				<startCondition>
-					<compiledString>FQoAAAACAAAADwAAACUAAABHNTcyX0lzQ0QAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdRwAAAN/g9sREewnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAPA/</compiledString>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
 					<returnType>bool</returnType>
-					<sString>sender.vG572_IsCD != 1</sString>
+					<sString>true</sString>
 				</startCondition>
-				<useAbilityCooldown>true</useAbilityCooldown>
+				<useAbilityCooldown>false</useAbilityCooldown>
 				<useAbilityOwnerMana>false</useAbilityOwnerMana>
 			</TriggerApplicator>
 		</Item>
 		<Item href="/Items/Talents/TalentKits/Redset7_3_Panopticon/program_Program_Redset7_3_AllStats.APLR" />
+		<Item href="/Items/Talents/Level5/G572_SlowProc-Dex.TALENT" id="49C05F8F-1516-4F65-AE40-C33885DF5F1D">
+			<PermanentStatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption></caption>
+				<customApplyType>None</customApplyType>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADDQw==</compiledString>
+						<returnType>float</returnType>
+						<sString>390.0f</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Life</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
 	</passiveApplicators>
 	<persistentId>G572</persistentId>
 	<prerequisiteTalents />

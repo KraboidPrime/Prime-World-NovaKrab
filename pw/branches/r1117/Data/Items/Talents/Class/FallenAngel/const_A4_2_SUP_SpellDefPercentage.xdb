@@ -5,8 +5,8 @@
 	<BackLink DBID="/Items/Talents/Class/FallenAngel/Ability_A4_2.TALENT" Count="1" />
 	<name>A4_2_SUP_SpellDefPercentage</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAMQg==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQg==</compiledString>
 		<returnType>float</returnType>
-		<sString>35</sString>
+		<sString>40</sString>
 	</var>
 </UnitConstant>

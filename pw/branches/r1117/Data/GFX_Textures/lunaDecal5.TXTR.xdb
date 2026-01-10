@@ -2,6 +2,7 @@
 <Texture>
 	<BackLink DBID="/Effects/Debuffs/Dome/_Ally.PRXY" Count="1" />
 	<BackLink DBID="/Effects/Debuffs/Dome/_UpAlly.PRXY" Count="1" />
+	<BackLink DBID="/Effects/Debuffs/Dome/_UpAlly1.PRXY" Count="1" />
 	<generatedFileName></generatedFileName>
 	<mipLevels>0</mipLevels>
 	<mipLevelUsage>AutoGenerate</mipLevelUsage>

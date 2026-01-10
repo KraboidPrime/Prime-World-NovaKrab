@@ -2,7 +2,6 @@
 <Texture>
 	<BackLink DBID="/Effects/Debuffs/DragonEye/_Loop.PRXY" Count="1" />
 	<BackLink DBID="/Effects/Debuffs/Explosion/_AlchemyRed.PRXY" Count="1" />
-	<BackLink DBID="/Effects/Shots/Ball/_.PRXY" Count="1" />
 	<BackLink DBID="/Heroes/Gunslinger/FXAbility1TRS.PRXY" Count="2" />
 	<BackLink DBID="/Summons/Ball/_ball.PRXY" Count="1" />
 	<BackLink DBID="/Summons/Ball/_BallAlly.PRXY" Count="1" />

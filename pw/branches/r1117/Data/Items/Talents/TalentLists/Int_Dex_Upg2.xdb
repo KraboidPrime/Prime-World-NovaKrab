@@ -14,6 +14,8 @@
 	<BackLink DBID="/Heroes/Ratcatcher/_.HROB" Count="1" />
 	<BackLink DBID="/Heroes/SnowQueen/_.HROB" Count="1" />
 	<BackLink DBID="/Heroes/Banshee/_.HROB" Count="1" />
+	<BackLink DBID="/Heroes/Chicken/_.HROB" Count="1" />
+	<BackLink DBID="/Heroes/Primevoker/_.HROB" Count="1" />
 	<Levels>
 		<Item>
 			<Talents />

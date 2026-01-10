@@ -46,9 +46,9 @@
 			<levelUpgrades />
 			<statId>NaftaForKill</statId>
 			<value>
-				<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
+				<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQg==</compiledString>
 				<returnType>float</returnType>
-				<sString>5</sString>
+				<sString>40</sString>
 			</value>
 		</Item>
 		<Item>

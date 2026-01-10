@@ -53,6 +53,16 @@
 						</var>
 					</UnitConstant>
 				</Item>
+				<Item href="/Items/Talents/Level5/G199_LifeReg.TALENT" id="A6B0D177-5AC3-4614-BAA1-9D07944CCAD2">
+					<UnitConstant>
+						<name>G199_Buff</name>
+						<var>
+							<compiledString>FQAAAAABAAAALgAAAFWL7IPsDItFCIsQi00Ii4JEAQAA/9CLTQiLEYtNCIuCQAEAAN1d+P/Q3EX43DU8AAAA2V302UX0i+VdwwAAAAAAAElA</compiledString>
+							<returnType>float</returnType>
+							<sString>(sWill+sStamina)/50</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
@@ -123,6 +133,53 @@
 				</modifier>
 				<providerName></providerName>
 			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level5/G199_LifeReg.TALENT" id="96FAD0B4-96FC-4619-866D-4975CFB77A48">
+			<StatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>бонус</caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQoAAAABAAAAFgAAAEcxOTlfQnVmZgBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+						<returnType>float</returnType>
+						<sString>cG199_Buff</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>LifeRegenerationAbsolute</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
 		</Item>
 	</passiveApplicators>
 	<persistentId>G199</persistentId>

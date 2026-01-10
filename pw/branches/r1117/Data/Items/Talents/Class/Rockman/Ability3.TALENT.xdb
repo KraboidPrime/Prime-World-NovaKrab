@@ -644,9 +644,9 @@
 					<UnitConstant>
 						<name>A3damage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUEAAADZHCRR2QU9AAAA2RwkagGLRQiLEItNCItCDP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAABAQgAArkM=</compiledString>
+							<compiledString>FR8AAAAHAAAAJgAAAD8AAAB5AAAAgwAAAK4AAAC8AAAAxgAAAFJvY2ttYW5fQTNfU1VQAABSb2NrbWFuX0EzX1NVUABVi+yD7BRoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXRDagFR2QULAQAA2RwkUdkFBwEAANkcJGoBi1UIiwKLTQiLUAz/0lHZHCRqAYtFEIsQi00Qi0Jg/9DcDf8AAADdXfDrO2oBUdkFCwEAANkcJFHZBQcBAADZHCRqAYtNCIsRi00Ii0IM/9BR2RwkagGLTRCLEYtNEItCYP/Q3V3w3UXw2V3s2UXsi+Vdw5qZmZmZmfE/AABAQgAArkM=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScaleCustomLife(sMaxLife, 48, 348)</sString>
+							<sString>tal("Rockman_A3_SUP") ? 1.1*damageScaleCustomLife(sMaxLife, 48, 348) : damageScaleCustomLife(sMaxLife, 48, 348)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

@@ -56,6 +56,8 @@
 			<vars>
 				<Item href="/Items/Talents/Class/Rifleman/const_A2_Sta_Will_Cut" />
 				<Item href="/Items/Talents/Class/Rifleman/const_A2y_Debuff_Duration" />
+				<Item href="/Items/Talents/Class/Rifleman/const_A2u_Haste_Percent" />
+				<Item href="/Items/Talents/Class/Rifleman/const_A2u_HasteDuration" />
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

@@ -74,6 +74,7 @@
 						</var>
 					</UnitConstant>
 				</Item>
+				<Item href="/Items/Talents/Class/Archeress/const_A2_SUP_Shield" />
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

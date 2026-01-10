@@ -18,7 +18,7 @@
 	<BackLink DBID="/Items/Talents/Class/Alchemist/_summon_Clone.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Alchemist/Ability_A4.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Angel/Ability_A5_2.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Angel/Ability_A5_2.TALENT" Count="4" />
 	<BackLink DBID="/Items/Talents/Class/Angel/status_A5_DeathGhost.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Angel/Summon_A3_Pick.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Banshee/status_A4_2.APLR" Count="1" />
@@ -47,7 +47,7 @@
 	<BackLink DBID="/Items/Talents/Class/Wendigo/Ability3.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Witch/Ability_A2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Witcher/Ability_A4_2.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Level2/G201_Life_Portal.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level2/G201_Life_Portal.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Level2/G510_FireWard.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level3/G552_PhantomBase.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level3/G629_StrOrInt_Life.TALENT" Count="1" />
@@ -75,6 +75,9 @@
 	<BackLink DBID="/Summons/Trap2/_Rifleman_A3_SUP.SUMMONED" Count="1" />
 	<BackLink DBID="/Summons/Turret/_.SUMMONED" Count="1" />
 	<BackLink DBID="/Summons/Wolf/_PassiveAbility.ABLT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level3/G244_DeadlyIllusion.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A4_1.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/Chicken/Ability_A0.TALENT" Count="1" />
 	<applyTarget>ApplicatorTarget</applyTarget>
 	<behaviorFlags>0</behaviorFlags>
 	<caption>записывалка IsUncontrollable</caption>

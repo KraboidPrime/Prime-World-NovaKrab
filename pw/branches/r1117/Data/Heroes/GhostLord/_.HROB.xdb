@@ -731,7 +731,7 @@
 					<instantApply>false</instantApply>
 				</DispatchImmediate>
 			</dispatch>
-			<flags>1</flags>
+			<flags>5</flags>
 			<image href="" />
 			<imageSecondState href="" />
 			<isMelee>true</isMelee>
@@ -1004,9 +1004,9 @@
 					<calcIncrement>0.1</calcIncrement>
 					<calcValue>46</calcValue>
 					<increment>
-						<compiledString></compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzcxMPg==</compiledString>
 						<returnType>float</returnType>
-						<sString>0.1</sString>
+						<sString>0.2</sString>
 					</increment>
 					<levelUpgrades />
 					<statId>Dexterity</statId>
@@ -1036,9 +1036,9 @@
 					<calcIncrement>0.6</calcIncrement>
 					<calcValue>55.5</calcValue>
 					<increment>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzcwMPw==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DZmYmPw==</compiledString>
 						<returnType>float</returnType>
-						<sString>0.55</sString>
+						<sString>0.65</sString>
 					</increment>
 					<levelUpgrades />
 					<statId>Stamina</statId>
@@ -1052,9 +1052,9 @@
 					<calcIncrement>0.3</calcIncrement>
 					<calcValue>57</calcValue>
 					<increment>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAPg==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DZmbmPg==</compiledString>
 						<returnType>float</returnType>
-						<sString>0.25</sString>
+						<sString>0.45</sString>
 					</increment>
 					<levelUpgrades />
 					<statId>Will</statId>

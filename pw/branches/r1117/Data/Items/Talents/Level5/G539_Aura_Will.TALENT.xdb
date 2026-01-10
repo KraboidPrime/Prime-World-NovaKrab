@@ -133,14 +133,7 @@
 				<behaviorFlags>0</behaviorFlags>
 				<caption>-- Аура (Воли)</caption>
 				<effect>
-					<Item href="/Items/Talents/Level5/G539_Aura_Will.TALENT" id="4E9C3AE9-3043-4B7C-A35F-A5A8D51ECD55">
-						<AuraEffect>
-							<deathType>Manual</deathType>
-							<enableCondition href="" />
-							<lifeTime>0</lifeTime>
-							<type>Ally</type>
-						</AuraEffect>
-					</Item>
+					<Item href="" />
 					<Item href="" />
 				</effect>
 				<enabled>
@@ -157,9 +150,9 @@
 				<LoggingEvent>-1</LoggingEvent>
 				<providerName></providerName>
 				<range>
-					<compiledString>FQsAAAABAAAAFwAAAFJhbmdlX0xvbmcAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+					<compiledString>FQ0AAAABAAAAGQAAAFJhbmdlX0V4TG9uZwBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
 					<returnType>float</returnType>
-					<sString>cRange_Long</sString>
+					<sString>cRange_ExLong</sString>
 				</range>
 				<startCondition>
 					<compiledString></compiledString>
@@ -305,9 +298,9 @@
 	<type>Passive</type>
 	<upgradeLevel>0</upgradeLevel>
 	<useRange>
-		<compiledString>FQsAAAABAAAAFwAAAFJhbmdlX0xvbmcAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+		<compiledString>FQ0AAAABAAAAGQAAAFJhbmdlX0V4TG9uZwBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
 		<returnType>float</returnType>
-		<sString>cRange_Long</sString>
+		<sString>cRange_ExLong</sString>
 	</useRange>
 	<useRangeMaterial href="/Effects/UI/AOESelection/Radius.MTRL" />
 	<variativeMaxTalentStats />

@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PermanentStatModApplicator>
-	<BackLink DBID="/Items/Talents/Level3/G328_AoERegEnergy.TALENT" Count="1" />
 	<applyTarget>AbilityOwner</applyTarget>
 	<caption>Save_Set2ResPointsLeft</caption>
 	<customApplyType>None</customApplyType>

@@ -23,6 +23,7 @@
 	<BackLink DBID="/Items/Talents/Class/Wendigo/Ability1.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Trickster/Ability4_2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Banshee/Ability_A1.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Chicken/Ability_A2.TALENT" Count="1" />
 	<aspectRatio>0.8</aspectRatio>
 	<caption></caption>
 	<DiffuseMap>

@@ -30,7 +30,7 @@
 			<FlagsApplicator>
 				<applyTarget>AbilityOwner</applyTarget>
 				<behaviorFlags>3</behaviorFlags>
-				<caption>Эффект</caption>
+				<caption>Эффект A4_2_ON убрано</caption>
 				<consumables />
 				<effect>
 					<Item href="/Effects/Buffs/Swords/_.EFFT" />
@@ -42,7 +42,7 @@
 					<sString>true</sString>
 				</enabled>
 				<flag>0</flag>
-				<formulaName>A4_2_ON</formulaName>
+				<formulaName></formulaName>
 				<lifeTime>
 					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
 					<returnType>float</returnType>
@@ -59,55 +59,69 @@
 				<useListAs>ListAsRule</useListAs>
 			</FlagsApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/WraithKing/Ability_A4_2.TALENT" id="F09FD78E-F2E9-48DE-890E-B38D1A802A82">
+			<PermanentStatModApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<caption>vA3u_Stop  +1</caption>
+				<customApplyType>None</customApplyType>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+						<returnType>float</returnType>
+						<sString>1</sString>
+					</addValue>
+					<multValue>
+						<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+						<returnType>float</returnType>
+						<sString>1</sString>
+					</multValue>
+					<stat>Life</stat>
+					<topModifier>false</topModifier>
+					<variable>A3u_Stop</variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
 		<Item href="/Items/Talents/Class/WraithKing/Ability_A4_2.TALENT" id="CE1D9369-5A3F-4CBB-99AE-C4F2DB3C6D84">
 			<ProgramApplicator>
 				<applicators>
 					<Item>
-						<applicator href="/Items/Talents/Class/WraithKing/Ability_A4_2.TALENT" id="FC76839C-E354-4CA6-8409-EC8E50A88514">
-							<TargetsCounterApplicator>
-								<applyTarget>AbilityOwner</applyTarget>
-								<behaviorFlags>0</behaviorFlags>
-								<caption>считалка врагов</caption>
-								<effect>
-									<Item href="" />
-									<Item href="" />
-								</effect>
+						<applicator href="/Items/Talents/Class/WraithKing/Ability_A4_2.TALENT" id="69F87409-F830-4FA3-8A38-5D155D011F0A">
+							<PermanentStatModApplicator>
+								<applyTarget>ApplicatorTarget</applyTarget>
+								<caption>vA4_Hero == 3</caption>
+								<customApplyType>None</customApplyType>
 								<enabled>
-									<compiledString></compiledString>
+									<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
 									<returnType>bool</returnType>
 									<sString>true</sString>
 								</enabled>
-								<formulaName>A4_2_Targets</formulaName>
-								<lifeTime>
-									<compiledString></compiledString>
-									<returnType>float</returnType>
-									<sString>-1.0</sString>
-								</lifeTime>
+								<formulaName></formulaName>
 								<LoggingEvent>-1</LoggingEvent>
+								<modifier>
+									<addValue>
+										<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
+										<returnType>float</returnType>
+										<sString>3.0f</sString>
+									</addValue>
+									<multValue>
+										<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+										<returnType>float</returnType>
+										<sString>0</sString>
+									</multValue>
+									<stat>Life</stat>
+									<topModifier>false</topModifier>
+									<variable>A4_WHK</variable>
+								</modifier>
 								<providerName></providerName>
-								<startCondition>
-									<compiledString></compiledString>
-									<returnType>bool</returnType>
-									<sString>true</sString>
-								</startCondition>
-								<targetSelector href="/Items/Talents/Class/WraithKing/Ability_A4_2.TALENT" id="01D2BEEF-F423-4D2E-A4A5-76CEFA6F87F5">
-									<AreaTargetSelector>
-										<absolutePosition>
-											<x>0</x>
-											<y>0</y>
-										</absolutePosition>
-										<flags>0</flags>
-										<mode>Normal</mode>
-										<range>
-											<compiledString>FQ0AAAABAAAAGQAAAFJhbmdlX01lZGl1bQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
-											<returnType>float</returnType>
-											<sString>cRange_Medium</sString>
-										</range>
-										<targetFilter>1342177281</targetFilter>
-										<targetSelector href="" />
-									</AreaTargetSelector>
-								</targetSelector>
-							</TargetsCounterApplicator>
+							</PermanentStatModApplicator>
 						</applicator>
 						<continueCondition>
 							<compiledString></compiledString>

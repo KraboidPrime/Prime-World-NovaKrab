@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UIMessageApplicator parent="/UI/Events/CommonEvents/UI_Message_Damage_Energy.APLR">
-	<BackLink DBID="/Heroes/FallenAngel/FallenAngel_DamageApplicator.APLR" Count="1" />
 	<value>
 		<compiledString>FVsAAAADAAAAkgAAAKQAAAC5AAAAZGFtYWdlRGVhbGVkAAAAAEZhbGxlbkFuZ2VsX0EwRGFtYWdlSGVybzpkYW1hZ2VEZWFsZWQAAABGYWxsZW5BbmdlbF9BMERhbWFnZTE6ZGFtYWdlRGVhbGVkAFWL7IPsIItFEIsQi00Qi0JI/9CJRfyLTRCLEYtNEItCSP/QiUX4i00QixGLTRCLQkj/0IlF9Gg4AAAAi030ixGLTfSLQlT/0GgQAAAAi034ixGLTfiLQlTdXez/0GgAAAAAi038ixGLTfyLQlTdXeT/0NxF5NxF7Nld4NlF4IvlXcM=</compiledString>
 		<returnType>float</returnType>

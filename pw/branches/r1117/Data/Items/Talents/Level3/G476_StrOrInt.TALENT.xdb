@@ -563,7 +563,7 @@
 			<instantApply>false</instantApply>
 		</DispatchImmediate>
 	</dispatch>
-	<flags>3</flags>
+	<flags>19</flags>
 	<forceBonus>0</forceBonus>
 	<image href="/UI/Styles/Icons/Talents/_476.ITEX" />
 	<imageSecondState href="" />

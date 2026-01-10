@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ProgramApplicator>
-	<BackLink DBID="/Items/Talents/Level2/G567_CasterBase.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Level2/G567_CasterBase.TALENT" Count="3" />
 	<applicators>
 		<Item>
 			<applicator href="/Effects/Shots/HitsApplicators/G567_Hit.APLR" />

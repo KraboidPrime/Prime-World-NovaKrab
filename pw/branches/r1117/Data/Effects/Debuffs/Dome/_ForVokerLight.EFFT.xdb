@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BasicEffectAttached>
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A0.TALENT" Count="5" />
+	<attachFlags>1</attachFlags>
+	<attachType>Body</attachType>
+	<component href="/Effects/Debuffs/Dome/_Voker2TRS.PRXY" />
+	<deathType>Manual</deathType>
+	<enableCondition href="/Effects/Debuffs/Dome/_ForVokerLight.EFFT" id="550B2006-E8BF-4225-8AA7-078ECF78A811">
+		<ConditionFormula>
+			<condition>
+				<compiledString>FQ0AAAACAAAAEgAAACgAAABQcmltZXZva2VyQTIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdSgAAAN/g9sREegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAGlA</compiledString>
+				<returnType>bool</returnType>
+				<sString>sender.vPrimevokerA2 == 200.0f</sString>
+			</condition>
+			<name></name>
+		</ConditionFormula>
+	</enableCondition>
+	<fadeIn>0.2</fadeIn>
+	<fadeOut>0.2</fadeOut>
+	<groupFlags>0</groupFlags>
+	<lifeTime>0</lifeTime>
+</BasicEffectAttached>

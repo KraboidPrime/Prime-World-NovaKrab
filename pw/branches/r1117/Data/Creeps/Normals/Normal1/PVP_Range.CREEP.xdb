@@ -49,9 +49,9 @@
 								<UnitConstant>
 									<name>Liferegen</name>
 									<var>
-										<compiledString>FQAAAAAAAAAAVYvsUYtFCIsQi00Ii4JgAQAA/9CZuQMAAAD3+YlF/NtF/IvlXcM=</compiledString>
+										<compiledString>FR0AAAAEAAAAJAAAADoAAABGAAAAXAAAAFJhYktyaXNhQnVmZgAAAABSYWJLcmlzYUJ1ZmYAVYvsg+wQaAAAAACLRQiLEItNCIuCiAEAAP/Q3B2bAAAA3+D2xEF1IGgQAAAAi00IixGLTQiLgogBAAD/0NwNkwAAAN1d+Oshi00IixGLTQiLgmABAAD/0Jm5AwAAAPf5iUX020X03V343UX42V3w2UXwi+Vdwx+F61G4HtU/AAAAAAAA4D8=</compiledString>
 										<returnType>float</returnType>
-										<sString>sNaftaLevel/3</sString>
+										<sString>sender.vRabKrisaBuff &gt; 0.5 ? 0.33*sender.vRabKrisaBuff : sNaftaLevel/3</sString>
 									</var>
 								</UnitConstant>
 							</Item>
@@ -98,9 +98,9 @@
 								<Item href="" />
 							</effect>
 							<enabled>
-								<compiledString>FQYAAAACAAAACwAAACEAAABJc1BldABVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1YAAAA3+D2xER6HotNCIsRi00Ii4JgAQAA/9CD+AR8CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
+								<compiledString>FRUAAAAEAAAAGgAAADAAAABRAAAAZwAAAElzUGV0AAAAUmFiS3Jpc2FCdWZmAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHZEAAADf4PbERHoVi00IixGLTQiLgmABAAD/0IP4BH0raAgAAACLTQiLEYtNCIuCiAEAAP/Q3B2JAAAA3+D2xEF0CcdF/AAAAADrB8dF/AEAAACKRfyL5V3DAAAAAAAA4D8AAAAAAAAAAA==</compiledString>
 								<returnType>bool</returnType>
-								<sString>sender.vIsPet == 0 &amp;&amp; sNaftaLevel &gt;= 4</sString>
+								<sString>(sender.vIsPet == 0 &amp;&amp; sNaftaLevel &gt;= 4) || sender.vRabKrisaBuff &gt; 0.5</sString>
 							</enabled>
 							<formulaName></formulaName>
 							<lifeTime>
@@ -111,16 +111,16 @@
 							<LoggingEvent>-1</LoggingEvent>
 							<providerName></providerName>
 							<range>
-								<compiledString>FQ0AAAABAAAAGQAAAFJhbmdlX01lZGl1bQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+								<compiledString>FQsAAAABAAAAFwAAAFJhbmdlX0xvbmcAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
 								<returnType>float</returnType>
-								<sString>cRange_Medium</sString>
+								<sString>cRange_Long</sString>
 							</range>
 							<startCondition>
 								<compiledString></compiledString>
 								<returnType>bool</returnType>
 								<sString>true</sString>
 							</startCondition>
-							<targets>269221920</targets>
+							<targets>1342963751</targets>
 							<targetSelector href="" />
 							<type>None</type>
 						</AuraApplicator>
@@ -171,7 +171,7 @@
 					</increment>
 					<levelUpgrades>
 						<Item>
-							<increment>42</increment>
+							<increment>46</increment>
 							<level>0</level>
 						</Item>
 						<Item>

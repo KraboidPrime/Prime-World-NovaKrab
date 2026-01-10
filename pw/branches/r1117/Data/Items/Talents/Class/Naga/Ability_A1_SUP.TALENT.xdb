@@ -108,7 +108,7 @@
 	<passiveApplicators />
 	<persistentId>Naga_A1_SUP</persistentId>
 	<prerequisiteTalents>
-		<Item href="/Items/Talents/Class/Naga/Ability1.TALENT" />
+		<Item href="/Items/Talents/Class/Naga/Ability2.TALENT" />
 	</prerequisiteTalents>
 	<rarity>Class</rarity>
 	<requireLineOfSight>true</requireLineOfSight>

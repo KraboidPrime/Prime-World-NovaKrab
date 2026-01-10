@@ -5,6 +5,7 @@
 	<BackLink DBID="/Items/Talents/Class/Invisible/status_A0_InvisibleDisable.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Invisible/status_A0Invisability_Enter.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Invisible/status_A2_CoverSelf.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A4_2.TALENT" Count="1" />
 	<generatedFileName></generatedFileName>
 	<importOnlyShape>false</importOnlyShape>
 	<mipLevels>0</mipLevels>

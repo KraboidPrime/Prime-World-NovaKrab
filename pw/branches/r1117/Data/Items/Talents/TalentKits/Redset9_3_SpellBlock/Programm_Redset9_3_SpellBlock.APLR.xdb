@@ -4,7 +4,6 @@
 	<BackLink DBID="/Items/Talents/Level2/G707_Int.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level3/G708_StrOrInt.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level4/G709_DexOrAtSpd_Life.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Level2/G737_Int.TALENT" Count="1" />
 	<applicators>
 		<Item>
 			<applicator href="/Items/Talents/TalentKits/Redset9_3_SpellBlock/Programm_Redset9_3_SpellBlock.APLR" id="7656F48F-2678-4F66-9960-F33EBEE5AD09">
@@ -71,9 +70,9 @@
 						<Item href="" />
 					</effect>
 					<enabled>
-						<compiledString>FSAAAAACAAAAJQAAADsAAABBZGRfU3BlbGxCbG9ja19SZWRzZXQ5XzNDb3VudGVyAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHV0AAADf4PbERHoJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAIQA==</compiledString>
+						<compiledString>FRAAAAABAAAAGgAAAEc3MDZfQnVmZk9ubGluZQBVi+xqAYtFEFBoAAAAAItNCIsRi00Ii4KcAQAA/9AzyTtFEA+UwYrBXcM=</compiledString>
 						<returnType>bool</returnType>
-						<sString>sender.vAdd_SpellBlock_Redset9_3Counter == 3</sString>
+						<sString>sender.applG706_BuffOnline(UNIT) == pMisc</sString>
 					</enabled>
 					<formulaName></formulaName>
 					<lifeTime>
@@ -108,9 +107,9 @@
 							<flags>0</flags>
 							<matchTargetInverted>false</matchTargetInverted>
 							<mul>
-								<compiledString>FTYAAAADAAAAVQAAAGcAAACOAAAAcmF3RGFtYWdlAAAAU3BlbGxCbG9ja19BbW91bnQAAABTcGVsbEJsb2NrX1BlcmNlbnRhZ2UAVYvsg+wYi0UQixCLTRCLQkj/0IlF/ItNDFGLVQhSaAwAAACLRRCLEItNEItCUP/QaAAAAACLTfyLEYtN/ItCVN1d9P/Q3F303+D2xAF1I4tNDFGLVQhSaCAAAACLRRCLEItNEItCUP/Q2ejeyd1d7OsF2ejdXezdRezZXejZReiL5V3DAAAAAAAA8D8=</compiledString>
+								<compiledString>FTYAAAADAAAAVQAAAGcAAACOAAAAcmF3RGFtYWdlAAAAU3BlbGxCbG9ja19BbW91bnQAAABTcGVsbEJsb2NrX1BlcmNlbnRhZ2UAVYvsg+wQi0UQixCLTRCLQkj/0IlF/ItNDFGLVQhSaAwAAACLRRCLEItNEItCUP/QaAAAAACLTfyLEYtN/ItCVN1d9P/Q3F303+D2xAF1H4tNDFGLVQhSaCAAAACLRRCLEItNEItCUP/Q2V3w6wXZ6Nld8NlF8IvlXcMAAIA/</compiledString>
 								<returnType>float</returnType>
-								<sString>appl.parent.GetVariable("rawDamage") &gt;= cSpellBlock_Amount ? 1 * cSpellBlock_Percentage : 1.0f</sString>
+								<sString>appl.parent.GetVariable("rawDamage") &gt;= cSpellBlock_Amount ? cSpellBlock_Percentage : 1.0f</sString>
 							</mul>
 							<objectFilter>2040319</objectFilter>
 							<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
@@ -248,9 +247,9 @@
 					</processor>
 					<providerName></providerName>
 					<startCondition>
-						<compiledString>FRAAAAABAAAAGgAAAEc3MDZfQnVmZk9ubGluZQBVi+xqAYtFEFBoAAAAAItNCIsRi00Ii4KcAQAA/9AzyTtFEA+UwYrBXcM=</compiledString>
+						<compiledString>FSAAAAACAAAAJQAAADsAAABBZGRfU3BlbGxCbG9ja19SZWRzZXQ5XzNDb3VudGVyAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHV0AAADf4PbERHoJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAIQA==</compiledString>
 						<returnType>bool</returnType>
-						<sString>sender.applG706_BuffOnline(UNIT) == pMisc</sString>
+						<sString>sender.vAdd_SpellBlock_Redset9_3Counter == 3</sString>
 					</startCondition>
 					<useAbilityCooldown>false</useAbilityCooldown>
 					<useAbilityOwnerMana>false</useAbilityOwnerMana>

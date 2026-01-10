@@ -83,6 +83,10 @@
 			<id>fly_custom_text_material</id>
 			<layout href="/UI/Screens/Combat/FlyTexts/FlyCustomText_Material.IMGLBL" />
 		</Item>
+		<Item>
+			<id>fly_kapkan</id>
+			<layout href="/UI/Screens/Combat/FlyTexts/FlyKapkan.IMGLBL" />
+		</Item>
 	</relatedLayouts>
 	<relatedTexts />
 	<scriptFile></scriptFile>

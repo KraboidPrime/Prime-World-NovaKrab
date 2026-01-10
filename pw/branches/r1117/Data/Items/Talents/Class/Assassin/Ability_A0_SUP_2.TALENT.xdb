@@ -3,6 +3,7 @@
 	<BackLink DBID="/Items/Talents/Class/Assassin/Ability_A0_SUP.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Assassin_Alternative.TALENTSET" Count="1" />
 	<BackLink DBID="/Social.ROOT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Assassin/Ability_A3_SUP.TALENT" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -49,11 +50,13 @@
 	</conditionFormulas>
 	<conflictingTalents>
 		<Item href="/Items/Talents/Class/Assassin/Ability_A0_SUP.TALENT" />
+		<Item href="/Items/Talents/Class/Assassin/Ability_A3_SUP.TALENT" />
 	</conflictingTalents>
 	<constants href="/Items/Talents/Class/Assassin/Ability_A0_SUP_2.TALENT" id="9AE7F79A-A6DB-4302-A026-7BDFC5C44288">
 		<UnitConstantsContainer>
 			<vars>
 				<Item href="/Items/Talents/Class/Assassin/const_A0_SUP_2_Inc_Resp_Time" />
+				<Item href="/Items/Talents/Class/Assassin/const_A3_SUP_Damage_Increase_Rate" />
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

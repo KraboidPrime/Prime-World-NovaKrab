@@ -22,9 +22,9 @@
 	<aoeMaterial href="/Effects/UI/AOESelection/Circle.MTRL" />
 	<aoePassabilityCheckMode>0</aoePassabilityCheckMode>
 	<aoeSize>
-		<compiledString>FUIAAAAGAAAASQAAAGIAAACgAAAAswAAAMUAAADYAAAAUGxhZ3VlRG9jdG9yX0ExX1NVUABQbGFndWVEb2N0b3JfQTFfU1VQAEExX1JhZGl1c0RvdAAAAABBMV9SYWRpdXMAVYvsg+wUaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgUAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0JYtVDFKLRQhQaCgAAACLTRCLEYtNEItCUP/Q3AX0AAAA3V3w6yOLTQxRi1UIUmg4AAAAi0UQixCLTRCLQlD/0NwF7AAAAN1d8N1F8Nld7NlF7IvlXcMAAAAAAADgP83MzMzMzNw/</compiledString>
+		<compiledString>FQoAAAACAAAAFwAAACoAAABBMV9SYWRpdXMAVYvsUYtFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S3AU4AAAA2V382UX8i+VdwwAAAAAAAOA/</compiledString>
 		<returnType>float</returnType>
-		<sString>tal("PlagueDoctor_A1_SUP")? cA1_RadiusDot +0.45 : cA1_Radius +0.5</sString>
+		<sString>cA1_Radius +0.5</sString>
 	</aoeSize>
 	<aoeType>Disk</aoeType>
 	<applicators>
@@ -1080,9 +1080,9 @@
 					<UnitConstant>
 						<name>A1_Radius</name>
 						<var>
-							<compiledString>FQwAAAACAAAAGQAAACwAAABSYW5nZV9NZWxlZQBVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcJToAAADZXfzZRfyL5V3DAAAAAAAA4D8=</compiledString>
+							<compiledString>FUAAAAAGAAAARwAAAGAAAACeAAAAsQAAAMMAAADWAAAAUGxhZ3VlRG9jdG9yX0ExX1NVUABQbGFndWVEb2N0b3JfQTFfU1VQAFJhbmdlX01lbGVlAFJhbmdlX01lbGVlAFWL7IPsFGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoFAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdCWLVQxSi0UIUGgoAAAAi00QixGLTRCLQlD/0NwF8gAAAN1d8Osji00MUYtVCFJoNAAAAItFEIsQi00Qi0JQ/9DcJeoAAADdXfDdRfDZXezZReyL5V3DAAAAAAAA4D8AAAAAAAD0Pw==</compiledString>
 							<returnType>float</returnType>
-							<sString>cRange_Melee - 0.5</sString>
+							<sString>tal("PlagueDoctor_A1_SUP") ? cRange_Melee + 1.25 : cRange_Melee - 0.5</sString>
 						</var>
 					</UnitConstant>
 				</Item>

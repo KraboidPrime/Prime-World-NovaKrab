@@ -5,8 +5,8 @@
 	<BackLink DBID="/Items/Talents/Level4/G374_AttackSpeed_Dex_Stamina_Will.TALENT" Count="1" />
 	<name>AuraDuration</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADgQA==</compiledString>
 		<returnType>float</returnType>
-		<sString>5</sString>
+		<sString>7</sString>
 	</var>
 </UnitConstant>

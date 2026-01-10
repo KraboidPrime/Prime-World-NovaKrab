@@ -291,6 +291,263 @@
 															<StatusApplicator>
 																<applicators>
 																	<Item href="/Items/Talents/Level5/auraApplicator_G353.APLR" />
+																	<Item href="/Items/Talents/Level5/G353_AoE.TALENT" id="88A8FA91-8612-458E-8441-65BC23A7CB26">
+																		<AuraApplicator>
+																			<applicators>
+																				<Item href="/Heroes/DefaultStatus/_SILENCE_Status.APLR" />
+																			</applicators>
+																			<applyTarget>ApplicatorTarget</applyTarget>
+																			<behaviorFlags>155</behaviorFlags>
+																			<caption>аура для сала</caption>
+																			<effect>
+																				<Item href="" />
+																				<Item href="" />
+																			</effect>
+																			<enabled>
+																				<compiledString>FQAAAAABAAAAEgAAAFWL7FGLRQyLEItNDIsC/9DcHTQAAADf4PbEQXUJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAAAA==</compiledString>
+																				<returnType>bool</returnType>
+																				<sString>rLife &gt; 0</sString>
+																			</enabled>
+																			<formulaName></formulaName>
+																			<lifeTime>
+																				<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
+																				<returnType>float</returnType>
+																				<sString>2</sString>
+																			</lifeTime>
+																			<LoggingEvent>-1</LoggingEvent>
+																			<providerName></providerName>
+																			<range>
+																				<compiledString>FQoAAAABAAAAFgAAAEFvRV9SYW5nZQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+																				<returnType>float</returnType>
+																				<sString>cAoE_Range</sString>
+																			</range>
+																			<startCondition>
+																				<compiledString></compiledString>
+																				<returnType>bool</returnType>
+																				<sString>true</sString>
+																			</startCondition>
+																			<targets>2040319</targets>
+																			<targetSelector href="/Items/Talents/Level5/G353_AoE.TALENT" id="BD144F20-1F3F-4D2C-918D-A6AC0FA3EDBB">
+																				<AreaTargetSelector>
+																					<absolutePosition>
+																						<x>0</x>
+																						<y>0</y>
+																					</absolutePosition>
+																					<flags>0</flags>
+																					<mode>Normal</mode>
+																					<range>
+																						<compiledString>FQoAAAABAAAAFgAAAEFvRV9SYW5nZQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+																						<returnType>float</returnType>
+																						<sString>cAoE_Range</sString>
+																					</range>
+																					<targetFilter>538771495</targetFilter>
+																					<targetSelector href="" />
+																				</AreaTargetSelector>
+																			</targetSelector>
+																			<type>None</type>
+																		</AuraApplicator>
+																	</Item>
+																	<Item href="/Items/Talents/Level5/G353_AoE.TALENT" id="1CB7EE25-0450-4459-9C1B-988014B1DEEE">
+																		<AuraApplicator>
+																			<applicators>
+																				<Item href="/Items/Talents/Level5/G353_AoE.TALENT" id="750CD5DA-89B0-48F3-BC1E-1B284F1377DD">
+																					<StatusApplicator>
+																						<applicators>
+																							<Item href="/Items/Talents/Level5/G353_AoE.TALENT" id="D638F42B-F6BA-4B37-A083-881C8DBD01D4">
+																								<StatModApplicator>
+																									<applyTarget>ApplicatorTarget</applyTarget>
+																									<behaviorFlags>144</behaviorFlags>
+																									<caption>стойкость</caption>
+																									<constraint>None</constraint>
+																									<dontUpdate>false</dontUpdate>
+																									<effect>
+																										<Item href="" />
+																										<Item href="" />
+																									</effect>
+																									<enabled>
+																										<compiledString></compiledString>
+																										<returnType>bool</returnType>
+																										<sString>true</sString>
+																									</enabled>
+																									<formulaName></formulaName>
+																									<lifeTime>
+																										<compiledString></compiledString>
+																										<returnType>float</returnType>
+																										<sString>-1.0</sString>
+																									</lifeTime>
+																									<LoggingEvent>-1</LoggingEvent>
+																									<modifier>
+																										<addValue>
+																											<compiledString>FQ4AAAABAAAAGgAAAEJ1ZmZfRGVmX0czNTMAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+																											<returnType>float</returnType>
+																											<sString>cBuff_Def_G353</sString>
+																										</addValue>
+																										<multValue>
+																											<compiledString></compiledString>
+																											<returnType>float</returnType>
+																											<sString>1.0f</sString>
+																										</multValue>
+																										<stat>Stamina</stat>
+																										<topModifier>false</topModifier>
+																										<variable></variable>
+																									</modifier>
+																									<providerName></providerName>
+																									<startCondition>
+																										<compiledString></compiledString>
+																										<returnType>bool</returnType>
+																										<sString>true</sString>
+																									</startCondition>
+																									<statModName></statModName>
+																								</StatModApplicator>
+																							</Item>
+																							<Item href="/Items/Talents/Level5/G353_AoE.TALENT" id="5DB7D7FA-57A7-4A79-A062-6C7B9491D2B0">
+																								<StatModApplicator>
+																									<applyTarget>ApplicatorTarget</applyTarget>
+																									<behaviorFlags>144</behaviorFlags>
+																									<caption>воля</caption>
+																									<constraint>None</constraint>
+																									<dontUpdate>false</dontUpdate>
+																									<effect>
+																										<Item href="" />
+																										<Item href="" />
+																									</effect>
+																									<enabled>
+																										<compiledString></compiledString>
+																										<returnType>bool</returnType>
+																										<sString>true</sString>
+																									</enabled>
+																									<formulaName></formulaName>
+																									<lifeTime>
+																										<compiledString></compiledString>
+																										<returnType>float</returnType>
+																										<sString>-1.0</sString>
+																									</lifeTime>
+																									<LoggingEvent>-1</LoggingEvent>
+																									<modifier>
+																										<addValue>
+																											<compiledString>FQ4AAAABAAAAGgAAAEJ1ZmZfRGVmX0czNTMAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+																											<returnType>float</returnType>
+																											<sString>cBuff_Def_G353</sString>
+																										</addValue>
+																										<multValue>
+																											<compiledString></compiledString>
+																											<returnType>float</returnType>
+																											<sString>1.0f</sString>
+																										</multValue>
+																										<stat>Will</stat>
+																										<topModifier>false</topModifier>
+																										<variable></variable>
+																									</modifier>
+																									<providerName></providerName>
+																									<startCondition>
+																										<compiledString></compiledString>
+																										<returnType>bool</returnType>
+																										<sString>true</sString>
+																									</startCondition>
+																									<statModName></statModName>
+																								</StatModApplicator>
+																							</Item>
+																						</applicators>
+																						<applyTarget>ApplicatorTarget</applyTarget>
+																						<behaviorFlags>144</behaviorFlags>
+																						<caption>дефы команде</caption>
+																						<customCounter>
+																							<compiledString></compiledString>
+																							<returnType>int</returnType>
+																							<sString>0</sString>
+																						</customCounter>
+																						<customProgress>
+																							<compiledString></compiledString>
+																							<returnType>float</returnType>
+																							<sString>-1.0</sString>
+																						</customProgress>
+																						<description textref="/Items/Talents/Level5/G353_AoE.TALENT_750cd5da89b048f3bc1e1b284f1377dd_description.txt" />
+																						<dispellPriority>NonDispellable</dispellPriority>
+																						<effect>
+																							<Item href="" />
+																							<Item href="" />
+																						</effect>
+																						<enabled>
+																							<compiledString>FQ4AAAACAAAAGwAAAC4AAABCdWZmX0RlZl9HMzUzAFWL7FGLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0twdUAAAAN/g9sRBdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAPA/</compiledString>
+																							<returnType>bool</returnType>
+																							<sString>cBuff_Def_G353 &gt; 1</sString>
+																						</enabled>
+																						<flags>64</flags>
+																						<formulaName></formulaName>
+																						<image href="/UI/Styles/Icons/Talents/_353.ITEX" />
+																						<lifeTime>
+																							<compiledString></compiledString>
+																							<returnType>float</returnType>
+																							<sString>-1.0</sString>
+																						</lifeTime>
+																						<LoggingEvent>-1</LoggingEvent>
+																						<name textref="/Items/Talents/Level5/G353_AoE.TALENT_750cd5da89b048f3bc1e1b284f1377dd_name.txt" />
+																						<power>0</power>
+																						<providerName></providerName>
+																						<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+																						<stackCount>0</stackCount>
+																						<startCondition>
+																							<compiledString></compiledString>
+																							<returnType>bool</returnType>
+																							<sString>true</sString>
+																						</startCondition>
+																						<statusPosition>0</statusPosition>
+																						<stopBehaviour>StopByTime</stopBehaviour>
+																						<unstackableWith href="" />
+																					</StatusApplicator>
+																				</Item>
+																			</applicators>
+																			<applyTarget>ApplicatorTarget</applyTarget>
+																			<behaviorFlags>155</behaviorFlags>
+																			<caption>баф тиммейтам</caption>
+																			<effect>
+																				<Item href="" />
+																				<Item href="" />
+																			</effect>
+																			<enabled>
+																				<compiledString>FQAAAAABAAAAEgAAAFWL7FGLRQyLEItNDIsC/9DcHTQAAADf4PbEQXUJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAAAA==</compiledString>
+																				<returnType>bool</returnType>
+																				<sString>rLife &gt; 0</sString>
+																			</enabled>
+																			<formulaName></formulaName>
+																			<lifeTime>
+																				<compiledString></compiledString>
+																				<returnType>float</returnType>
+																				<sString>-1.0</sString>
+																			</lifeTime>
+																			<LoggingEvent>-1</LoggingEvent>
+																			<providerName></providerName>
+																			<range>
+																				<compiledString>FQoAAAABAAAAFgAAAEFvRV9SYW5nZQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+																				<returnType>float</returnType>
+																				<sString>cAoE_Range</sString>
+																			</range>
+																			<startCondition>
+																				<compiledString></compiledString>
+																				<returnType>bool</returnType>
+																				<sString>true</sString>
+																			</startCondition>
+																			<targets>2040319</targets>
+																			<targetSelector href="/Items/Talents/Level5/G353_AoE.TALENT" id="4AA6982E-C3A4-46D3-A553-802256E8488D">
+																				<AreaTargetSelector>
+																					<absolutePosition>
+																						<x>0</x>
+																						<y>0</y>
+																					</absolutePosition>
+																					<flags>0</flags>
+																					<mode>Normal</mode>
+																					<range>
+																						<compiledString>FQoAAAABAAAAFgAAAEFvRV9SYW5nZQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+																						<returnType>float</returnType>
+																						<sString>cAoE_Range</sString>
+																					</range>
+																					<targetFilter>1342177311</targetFilter>
+																					<targetSelector href="" />
+																				</AreaTargetSelector>
+																			</targetSelector>
+																			<type>None</type>
+																		</AuraApplicator>
+																	</Item>
 																</applicators>
 																<applyTarget>ApplicatorTarget</applyTarget>
 																<behaviorFlags>152</behaviorFlags>
@@ -1029,9 +1286,9 @@
 					<UnitConstant>
 						<name>AoE_Range</name>
 						<var>
-							<compiledString>FQwAAAABAAAAGAAAAFJhbmdlX1Nob3J0AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+							<compiledString>FQ0AAAACAAAAGgAAAC0AAABSYW5nZV9NZWRpdW0AVYvsUYtFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S3CU7AAAA2V382UX8i+VdwwAAAAAAAOA/</compiledString>
 							<returnType>float</returnType>
-							<sString>cRange_Short</sString>
+							<sString>cRange_Medium - 0.5</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -1049,9 +1306,9 @@
 					<UnitConstant>
 						<name>ChannelTime</name>
 						<var>
-							<compiledString>FYYAAAAKAAAAlQAAAKgAAAC8AAAA4AAAAPMAAAAHAQAAKwEAAD4BAABSAQAAdgEAAENoYW5uZWxUaW1lQmFzZQBCbGluZF9TdGFydENvbmRpdGlvbgAAAABBZGRDaGFubmVsVGltZQAAU2lsZW5jZV9TdGFydENvbmRpdGlvbgAAQWRkQ2hhbm5lbFRpbWUAAERpc3BlbENvbmRpdGlvbgBBZGRDaGFubmVsVGltZURpc3BlbGwAVYvsg+wQi0UMUItNCFFoEAAAAItVEIsCi00Qi1BQ/9LcHZ4BAADf4PbERHsfi0UMUItNCFFoKAAAAItVEIsCi00Qi1BQ/9LZXfzrBdnu2V38i0UMUItNCFFoOAAAAItVEIsCi00Qi1BQ/9LcHZ4BAADf4PbERHsfi0UMUItNCFFoUAAAAItVEIsCi00Qi1BQ/9LZXfjrBdnu2V34i0UMUItNCFFoYAAAAItVEIsCi00Qi1BQ/9LcHZ4BAADf4PbERHsfi0UMUItNCFFocAAAAItVEIsCi00Qi1BQ/9LZXfTrBdnu2V30i0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LYRfzYRfjYRfTZXfDZRfCL5V3DAAAAAAAAAAAAAAAA</compiledString>
+							<compiledString>FRwAAAAEAAAAIwAAADkAAABGAAAAXQAAAENoYW5uZWxUaW1lQmFzZQBHMzcyX0FjdGl2ZQBVi+yD7AxoEAAAAItFCIsQi00Ii4KIAQAA/9DcHYMAAADf4PbEQXUL3QV7AAAA3V346wXZ7t1d+ItNDFGLVQhSaAAAAACLRRCLEItNEItCUP/Q3GX42V302UX0i+VdwwAAAAAAAOA/AAAAAAAAAAA=</compiledString>
 							<returnType>float</returnType>
-							<sString>cChannelTimeBase + (cBlind_StartCondition ? cAddChannelTime : 0) + (cSilence_StartCondition ? cAddChannelTime : 0) +(cDispelCondition ? cAddChannelTimeDispell : 0)</sString>
+							<sString>cChannelTimeBase - (sender.vG372_Active &gt; 0 ? 0.5 : 0)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -1070,9 +1327,9 @@
 					<UnitConstant>
 						<name>ArmorCut_StartCondition</name>
 						<var>
-							<compiledString>FQwAAAACAAAAEQAAACcAAABHMzc1X0FjdGl2ZQBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1JAAAA3+D2xEF1CcdF/AEAAADrB8dF/AAAAADbRfyL5V3DAAAAAAAAAAA=</compiledString>
+							<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 							<returnType>float</returnType>
-							<sString>sender.vG375_Active &gt; 0</sString>
+							<sString>false</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -1121,9 +1378,9 @@
 					<UnitConstant>
 						<name>DecStatAmount</name>
 						<var>
-							<compiledString>FQAAAAAEAAEACQAAABMAAAApAAAAQQAAAIEAAABVi+yD7AhR2QVbAAAA2RwkUdkFVwAAANkcJItFEIsQi00Qi0Js/9DcDU8AAADZXfzZRfxR2Rwk6CMAAACDxATcNU8AAADZXfjZRfiL5V3DAAAAAAAAJEAAADRCAABwQFWL7FHZRQjZHCToBQAAAIPEBF3DVYvsUdlFCIPsCN0cJOhv////g8QI2V382UX8i+Vdww==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQg==</compiledString>
 							<returnType>float</returnType>
-							<sString>floor(refineScale(45, 3.75)*10)/10</sString>
+							<sString>50</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -1131,9 +1388,9 @@
 					<UnitConstant>
 						<name>WillCut_StartCondition</name>
 						<var>
-							<compiledString>FQwAAAACAAAAEQAAACcAAABHMzc2X0FjdGl2ZQBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1JAAAA3+D2xEF1CcdF/AEAAADrB8dF/AAAAADbRfyL5V3DAAAAAAAAAAA=</compiledString>
+							<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 							<returnType>float</returnType>
-							<sString>sender.vG376_Active &gt; 0</sString>
+							<sString>false</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -1162,9 +1419,9 @@
 					<UnitConstant>
 						<name>DispelCondition</name>
 						<var>
-							<compiledString>FQwAAAACAAAAEQAAACcAAABHMzcyX0FjdGl2ZQBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1JAAAA3+D2xEF1CcdF/AEAAADrB8dF/AAAAADbRfyL5V3DAAAAAAAAAAA=</compiledString>
+							<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 							<returnType>float</returnType>
-							<sString>sender.vG372_Active &gt; 0</sString>
+							<sString>false</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -1195,9 +1452,69 @@
 					<UnitConstant>
 						<name>ChannelTimeBase</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAPw==</compiledString>
+							<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
 							<returnType>float</returnType>
-							<sString>0.5</sString>
+							<sString>1</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Level5/G353_AoE.TALENT" id="7D89BDCE-44B7-45B2-A39F-240217D184B4">
+					<UnitConstant>
+						<name>Slow_Duration</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAvw==</compiledString>
+							<returnType>float</returnType>
+							<sString>-1</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Level5/G353_AoE.TALENT" id="3246EEF4-6176-4780-878F-8AF1EBE9822D">
+					<UnitConstant>
+						<name>Slow_StartCondition</name>
+						<var>
+							<compiledString>FQwAAAACAAAAEQAAACcAAABHMzcyX0FjdGl2ZQBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1JAAAA3+D2xEF1CcdF/AEAAADrB8dF/AAAAADbRfyL5V3DAAAAAAAAAAA=</compiledString>
+							<returnType>float</returnType>
+							<sString>sender.vG372_Active &gt; 0</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Level5/G353_AoE.TALENT" id="25FA819B-3BDC-455C-9619-611DEA270D12">
+					<UnitConstant>
+						<name>DecMoveSpeed_WithReduction</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQg==</compiledString>
+							<returnType>float</returnType>
+							<sString>40</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Level5/G353_AoE.TALENT" id="67DE7273-076E-4CEC-8C47-D1A6970DB388">
+					<UnitConstant>
+						<name>Buff_Def_G353</name>
+						<var>
+							<compiledString>FRgAAAAEAAAAHwAAADUAAABRAAAAZwAAAEczNzZfQWN0aXZlAEczNzVfQWN0aXZlAFWL7IPsDGgAAAAAi0UIixCLTQiLgogBAAD/0NwdkgAAAN/g9sRBdQnHRfwZAAAA6wfHRfwAAAAAaAwAAACLTQiLEYtNCIuCiAEAAP/Q3B2SAAAA3+D2xEF1CcdF+BkAAADrB8dF+AAAAACLTfwDTfiJTfTbRfSL5V3DAAAAAAAAAAA=</compiledString>
+							<returnType>float</returnType>
+							<sString>(sender.vG376_Active &gt; 0 ? 25 : 0) + (sender.vG375_Active &gt; 0 ? 25 : 0)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Level5/G353_AoE.TALENT" id="B483240E-D2F0-4121-9B6A-F6A009A7086E">
+					<UnitConstant>
+						<name>Blind_MissChance</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQg==</compiledString>
+							<returnType>float</returnType>
+							<sString>50</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Level5/G353_AoE.TALENT" id="0929591B-08E3-4763-95F1-C5C2444185D7">
+					<UnitConstant>
+						<name>Add_Stat353</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACIQQ==</compiledString>
+							<returnType>float</returnType>
+							<sString>17</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -1209,9 +1526,9 @@
 		<percent>9</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQg==</compiledString>
+		<compiledString>FRgAAAAEAAAAHwAAADUAAABRAAAAZwAAAEczNzVfQWN0aXZlAEczNzZfQWN0aXZlAFWL7IPsDGgAAAAAi0UIixCLTQiLgogBAAD/0NwdlwAAAN/g9sRBdQnHRfweAAAA6wfHRfwAAAAAaAwAAACLTQiLEYtNCIuCiAEAAP/Q3B2XAAAA3+D2xEF1CcdF+B4AAADrB8dF+AAAAAC5lgAAACtN/CtN+IlN9NtF9IvlXcMAAAAAAAAAAA==</compiledString>
 		<returnType>float</returnType>
-		<sString>120</sString>
+		<sString>150 - (sender.vG375_Active &gt; 0 ? 30 : 0) - (sender.vG376_Active &gt; 0 ? 30 : 0)</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>
@@ -1259,7 +1576,128 @@
 	<naftaCost>-1</naftaCost>
 	<name textref="/Items/Talents/Level5/G353_AoE.TALENT_name.txt" />
 	<node></node>
-	<passiveApplicators />
+	<passiveApplicators>
+		<Item href="/Items/Talents/Level5/G353_AoE.TALENT" id="AF00AB42-2A28-466E-A546-C3436EEDE0B7">
+			<PermanentStatModApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<caption>Strength</caption>
+				<customApplyType>Maximize</customApplyType>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgrgAAAD/0ItNCIsRi00Ii4LMAAAA3V34/9BR2Rwki00IixGLTQiLgsgAAAD/0FHZHCToQwAAAIPEBNkcJItNCIsRi00Ii4K8AAAA/9BR2Rwk6CQAAACDxAjcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcNVi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
+					<returnType>bool</returnType>
+					<sString>sBaseStrength &gt;= max(sBaseIntellect, max(sBaseStamina, sBaseWill))</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQwAAAABAAAAGAAAAEFkZF9TdGF0MzUzAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+						<returnType>float</returnType>
+						<sString>cAdd_Stat353</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Strength</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level5/G353_AoE.TALENT" id="AD2919D4-378D-46D4-96F5-6CB12C6FE42E">
+			<PermanentStatModApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<caption>Intellect</caption>
+				<customApplyType>Maximize</customApplyType>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsg+wUi0UIixCLTQiLgrwAAAD/0ItNCIsRi00Ii4K4AAAA3V34/9DcXfjf4PbEBXpWi00IixGLTQiLgrwAAAD/0ItNCIsRi00Ii4LMAAAA3V3w/9BR2Rwki00IixGLTQiLgsgAAAD/0FHZHCToJAAAAIPECNxd8N/g9sRBegnHRewBAAAA6wfHRewAAAAAikXsi+Vdw1WL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sBaseIntellect &gt; sBaseStrength &amp;&amp; sBaseIntellect &gt;=  max(sBaseStamina, sBaseWill)</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQwAAAABAAAAGAAAAEFkZF9TdGF0MzUzAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+						<returnType>float</returnType>
+						<sString>cAdd_Stat353</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Intellect</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level5/G353_AoE.TALENT" id="BE9FEDA9-DD03-449A-B4B3-9CE130DC2026">
+			<PermanentStatModApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<caption>Stamina</caption>
+				<customApplyType>Maximize</customApplyType>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsg+wUi0UIixCLTQiLgsgAAAD/0ItNCIsRi00Ii4K8AAAA3V34/9BR2Rwki00IixGLTQiLgrgAAAD/0FHZHCToUQAAAIPECNxd+N/g9sQFejaLTQiLEYtNCIuCyAAAAP/Qi00IixGLTQiLgswAAADdXfD/0Nxd8N/g9sRBegnHRewBAAAA6wfHRewAAAAAikXsi+Vdw1WL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sBaseStamina &gt; max(sBaseStrength, sBaseIntellect) &amp;&amp; sBaseStamina &gt;= sBaseWill</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQwAAAABAAAAGAAAAEFkZF9TdGF0MzUzAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+						<returnType>float</returnType>
+						<sString>cAdd_Stat353</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Stamina</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level5/G353_AoE.TALENT" id="F24C63A1-E6AF-41C6-B2CF-5F65E966B71B">
+			<PermanentStatModApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<caption>Will</caption>
+				<customApplyType>Maximize</customApplyType>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgswAAAD/0ItNCIsRi00Ii4LIAAAA3V34/9BR2Rwki00IixGLTQiLgrwAAAD/0FHZHCSLTQiLEYtNCIuCuAAAAP/QUdkcJOgvAAAAg8QE2Rwk6CQAAACDxAjcXfjf4PbEBXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcNVi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
+					<returnType>bool</returnType>
+					<sString>sBaseWill &gt; max(max(sBaseStrength, sBaseIntellect), sBaseStamina)</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQwAAAABAAAAGAAAAEFkZF9TdGF0MzUzAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+						<returnType>float</returnType>
+						<sString>cAdd_Stat353</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Will</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+	</passiveApplicators>
 	<persistentId>G353</persistentId>
 	<prerequisiteTalents />
 	<rarity>exclusive</rarity>
@@ -1271,9 +1709,9 @@
 	<type>Channelling</type>
 	<upgradeLevel>0</upgradeLevel>
 	<useRange>
-		<compiledString>FQ0AAAABAAAAGQAAAFJhbmdlX01lZGl1bQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+		<compiledString>FQsAAAABAAAAFwAAAFJhbmdlX0xvbmcAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
 		<returnType>float</returnType>
-		<sString>cRange_Medium</sString>
+		<sString>cRange_Long</sString>
 	</useRange>
 	<useRangeMaterial href="/Effects/UI/AOESelection/Radius.MTRL" />
 	<variativeMaxTalentStats />

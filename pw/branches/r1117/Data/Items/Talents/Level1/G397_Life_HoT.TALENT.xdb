@@ -42,18 +42,7 @@
 		<returnType>float</returnType>
 		<sString>0.0f</sString>
 	</castAllowRange>
-	<castLimitations>
-		<Item href="/Items/Talents/Level1/G397_Life_HoT.TALENT" id="3C6A11E1-928F-4EAE-96EA-BD9551B5C93B">
-			<ConditionCastLimitation>
-				<condition>
-					<compiledString>FQ4AAAACAAAAGwAAAC4AAABOYXRpdmVUZXJyYWluAFWL7FGLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0twdSgAAAN/g9sREewbGRf8B6wTGRf8AikX/i+VdwwAAAAAAAAAA</compiledString>
-					<returnType>bool</returnType>
-					<sString>cNativeTerrain</sString>
-				</condition>
-				<uiEvent href="/UI/Events/ErrorMessages/CastError_UnsuitablePlace.UIEV" />
-			</ConditionCastLimitation>
-		</Item>
-	</castLimitations>
+	<castLimitations />
 	<commonDescription textref="/Items/Talents/Level1/G397_Life_HoT.TALENT_commonDescription.txt" />
 	<compiledDescriptionA textref="" />
 	<compiledDescriptionB textref="" />
@@ -64,7 +53,7 @@
 			<vars>
 				<Item href="/Items/Talents/Level1/G397_Life_HoT.TALENT" id="E248B5E9-BF50-48B9-9564-85EABF4BD660">
 					<UnitConstant>
-						<name>Add_Life</name>
+						<name>Add_Energy</name>
 						<var>
 							<compiledString>FQsAAAADAAAAFAAAAB4AAAA7AAAATGlmZUJ1ZGdldABVi+yD7AxR2QVgAAAA2RwkUdkFXAAAANkcJItFEIsQi00Qi0Js/9CLTQxRi1UIUmgAAAAAi0UQixCLTRCLQlDdXfj/0NxN+Nld9NlF9IvlXcOuRyFAzcxMPg==</compiledString>
 							<returnType>float</returnType>
@@ -120,9 +109,9 @@
 		<percent>9</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACMQg==</compiledString>
+		<compiledString>FQAAAAAAAAAAVYvsUVaLRQiLEItNCItCTP/Qi/CLTQiLEYtNCIuCkAEAAP/QO/APlMEPttH32hvSg+Lig8JQiVX820X8XovlXcM=</compiledString>
 		<returnType>float</returnType>
-		<sString>70</sString>
+		<sString>nt( true, false) ? 50 : 80</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>
@@ -180,23 +169,53 @@
 	<name textref="/Items/Talents/Level1/G397_Life_HoT.TALENT_name.txt" />
 	<node></node>
 	<passiveApplicators>
-		<Item href="/Items/Talents/Level1/G397_Life_HoT.TALENT" id="E3E066C8-FF31-4DA1-85EE-98CFABC9D765">
+		<Item href="/Items/Talents/Level1/G397_Life_HoT.TALENT" id="61B0FD1F-CC45-4D20-AFDC-85E5F4E61285">
 			<PermanentStatModApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>Add_Life</caption>
+				<caption>+ Add_Energy</caption>
 				<customApplyType>None</customApplyType>
 				<enabled>
-					<compiledString></compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLQnz/0ItNCIsRi00Ii0IQ3V34/9DcXfjf4PbEAXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
 					<returnType>bool</returnType>
-					<sString>true</sString>
+					<sString>sBaseLife &lt;= sMaxEnergy</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<LoggingEvent>-1</LoggingEvent>
 				<modifier>
 					<addValue>
-						<compiledString>FQkAAAABAAAAFQAAAEFkZF9MaWZlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+						<compiledString>FQsAAAABAAAAFwAAAEFkZF9FbmVyZ3kAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
 						<returnType>float</returnType>
-						<sString>cAdd_Life</sString>
+						<sString>cAdd_Energy</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Energy</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level1/G397_Life_HoT.TALENT" id="48354300-E3EE-4646-AC14-9BC11967F5D4">
+			<PermanentStatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>+ Add_Life</caption>
+				<customApplyType>None</customApplyType>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLQnz/0ItNCIsRi00Ii0IQ3V34/9DcXfjf4PbEBXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sBaseLife &gt; sMaxEnergy</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQsAAAABAAAAFwAAAEFkZF9FbmVyZ3kAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+						<returnType>float</returnType>
+						<sString>cAdd_Energy</sString>
 					</addValue>
 					<multValue>
 						<compiledString></compiledString>

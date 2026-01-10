@@ -179,7 +179,7 @@
 												<caption>- Даем призраку GhostMove</caption>
 												<collisionFlags>1</collisionFlags>
 												<effect>
-													<Item href="" />
+													<Item href="/Effects/Debuffs/Explosion/_TimeSlow.EFFT" />
 													<Item href="" />
 												</effect>
 												<enabled>
@@ -202,6 +202,83 @@
 													<sString>true</sString>
 												</startCondition>
 											</GhostMoveApplicator>
+										</applicator>
+										<continueCondition>
+											<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+											<returnType>bool</returnType>
+											<sString>0</sString>
+										</continueCondition>
+										<continueEvents>1</continueEvents>
+										<delay>
+											<compiledString></compiledString>
+											<returnType>float</returnType>
+											<sString>-1.0</sString>
+										</delay>
+										<stopCondition>
+											<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+											<returnType>bool</returnType>
+											<sString>0</sString>
+										</stopCondition>
+										<stopEvents>0</stopEvents>
+									</Item>
+									<Item>
+										<applicator href="/Items/Talents/Class/Highlander/LastHitTrigger.APLR" id="676DBDFA-2866-4737-A1A0-AFB72596FDB6">
+											<SpellApplicator>
+												<applyTarget>ApplicatorTarget</applyTarget>
+												<caption>Замедло</caption>
+												<enabled>
+													<compiledString></compiledString>
+													<returnType>bool</returnType>
+													<sString>true</sString>
+												</enabled>
+												<formulaName></formulaName>
+												<LoggingEvent>-1</LoggingEvent>
+												<providerName></providerName>
+												<spell href="/Items/Talents/Class/Highlander/LastHitTrigger.APLR" id="7937EEE3-4B85-45F1-A4BE-5C8D49BB449F">
+													<Spell>
+														<applicators>
+															<Item href="/Heroes/DefaultStatus/_SLOW_MOVE.APLR" />
+														</applicators>
+														<dispatch href="/Items/Talents/Class/Highlander/LastHitTrigger.APLR" id="D68D19FF-174D-4C44-8689-2E367C2EBE8A">
+															<DispatchImmediate>
+																<alwaysApply>false</alwaysApply>
+																<applyEffect>
+																	<Item href="" />
+																	<Item href="" />
+																</applyEffect>
+																<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																<applyEffectOrientation>Default</applyEffectOrientation>
+																<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																<dieAfterApply>true</dieAfterApply>
+																<dispatchEffect>
+																	<Item href="" />
+																	<Item href="" />
+																</dispatchEffect>
+																<flags>1</flags>
+																<instantApply>false</instantApply>
+															</DispatchImmediate>
+														</dispatch>
+													</Spell>
+												</spell>
+												<spellTarget>ApplicatorTarget</spellTarget>
+												<targetSelector href="/Items/Talents/Class/Highlander/LastHitTrigger.APLR" id="3A16AEE2-0E6B-4524-9A50-5A7FC1D0A796">
+													<AreaTargetSelector>
+														<absolutePosition>
+															<x>0</x>
+															<y>0</y>
+														</absolutePosition>
+														<flags>0</flags>
+														<mode>Normal</mode>
+														<range>
+															<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACIQQ==</compiledString>
+															<returnType>float</returnType>
+															<sString>17</sString>
+														</range>
+														<targetFilter>538771519</targetFilter>
+														<targetSelector href="" />
+													</AreaTargetSelector>
+												</targetSelector>
+											</SpellApplicator>
 										</applicator>
 										<continueCondition>
 											<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
@@ -281,12 +358,66 @@
 																	<returnType>bool</returnType>
 																	<sString>true</sString>
 																</enabled>
-																<flag>526214</flag>
+																<flag>525706</flag>
 																<formulaName></formulaName>
 																<lifeTime>
 																	<compiledString></compiledString>
 																	<returnType>float</returnType>
 																	<sString>-1.0</sString>
+																</lifeTime>
+																<LoggingEvent>-1</LoggingEvent>
+																<providerName></providerName>
+																<startCondition>
+																	<compiledString></compiledString>
+																	<returnType>bool</returnType>
+																	<sString>true</sString>
+																</startCondition>
+																<talents>
+																	<Item href="/Items/Talents/Class/Highlander/Ability4.TALENT" />
+																</talents>
+																<useListAs>ListAsException</useListAs>
+															</FlagsApplicator>
+														</applicator>
+														<continueCondition>
+															<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+															<returnType>bool</returnType>
+															<sString>0</sString>
+														</continueCondition>
+														<continueEvents>1</continueEvents>
+														<delay>
+															<compiledString></compiledString>
+															<returnType>float</returnType>
+															<sString>-1.0</sString>
+														</delay>
+														<stopCondition>
+															<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+															<returnType>bool</returnType>
+															<sString>0</sString>
+														</stopCondition>
+														<stopEvents>0</stopEvents>
+													</Item>
+													<Item>
+														<applicator href="/Items/Talents/Class/Highlander/LastHitTrigger.APLR" id="CB44D2B6-542A-404C-BAF4-EFB1D214124B">
+															<FlagsApplicator>
+																<applyTarget>ApplicatorTarget</applyTarget>
+																<behaviorFlags>0</behaviorFlags>
+																<caption>хитрый запрет</caption>
+																<consumables />
+																<effect>
+																	<Item href="" />
+																	<Item href="" />
+																</effect>
+																<enabled>
+																	<compiledString></compiledString>
+																	<returnType>bool</returnType>
+																	<sString>true</sString>
+																</enabled>
+																<flag>4</flag>
+																<formulaName></formulaName>
+																<lifeTime>
+																	<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
+																	<returnType>float</returnType>
+																	<sString>3</sString>
 																</lifeTime>
 																<LoggingEvent>-1</LoggingEvent>
 																<providerName></providerName>
@@ -894,6 +1025,138 @@
 														<stopEvents>0</stopEvents>
 													</Item>
 													<Item>
+														<applicator href="/Items/Talents/Class/Highlander/LastHitTrigger.APLR" id="0E992413-E769-4E5D-A8B0-274EF3542F9D">
+															<StatModApplicator>
+																<applyTarget>ApplicatorTarget</applyTarget>
+																<behaviorFlags>0</behaviorFlags>
+																<caption>чахлость</caption>
+																<constraint>None</constraint>
+																<dontUpdate>false</dontUpdate>
+																<effect>
+																	<Item href="" />
+																	<Item href="" />
+																</effect>
+																<enabled>
+																	<compiledString></compiledString>
+																	<returnType>bool</returnType>
+																	<sString>true</sString>
+																</enabled>
+																<formulaName></formulaName>
+																<lifeTime>
+																	<compiledString></compiledString>
+																	<returnType>float</returnType>
+																	<sString>-1.0</sString>
+																</lifeTime>
+																<LoggingEvent>-1</LoggingEvent>
+																<modifier>
+																	<addValue>
+																		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+																		<returnType>float</returnType>
+																		<sString>0</sString>
+																	</addValue>
+																	<multValue>
+																		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+																		<returnType>float</returnType>
+																		<sString>0</sString>
+																	</multValue>
+																	<stat>BaseAttack</stat>
+																	<topModifier>false</topModifier>
+																	<variable></variable>
+																</modifier>
+																<providerName></providerName>
+																<startCondition>
+																	<compiledString></compiledString>
+																	<returnType>bool</returnType>
+																	<sString>true</sString>
+																</startCondition>
+																<statModName></statModName>
+															</StatModApplicator>
+														</applicator>
+														<continueCondition>
+															<compiledString></compiledString>
+															<returnType>bool</returnType>
+															<sString>0</sString>
+														</continueCondition>
+														<continueEvents>1</continueEvents>
+														<delay>
+															<compiledString></compiledString>
+															<returnType>float</returnType>
+															<sString>-1.0</sString>
+														</delay>
+														<stopCondition>
+															<compiledString></compiledString>
+															<returnType>bool</returnType>
+															<sString>0</sString>
+														</stopCondition>
+														<stopEvents>0</stopEvents>
+													</Item>
+													<Item>
+														<applicator href="/Items/Talents/Class/Highlander/LastHitTrigger.APLR" id="AF497624-4053-4AAF-B49E-103A0F22CA0D">
+															<StatModApplicator>
+																<applyTarget>ApplicatorTarget</applyTarget>
+																<behaviorFlags>0</behaviorFlags>
+																<caption>ману не крадём</caption>
+																<constraint>None</constraint>
+																<dontUpdate>false</dontUpdate>
+																<effect>
+																	<Item href="" />
+																	<Item href="" />
+																</effect>
+																<enabled>
+																	<compiledString></compiledString>
+																	<returnType>bool</returnType>
+																	<sString>true</sString>
+																</enabled>
+																<formulaName></formulaName>
+																<lifeTime>
+																	<compiledString></compiledString>
+																	<returnType>float</returnType>
+																	<sString>-1.0</sString>
+																</lifeTime>
+																<LoggingEvent>-1</LoggingEvent>
+																<modifier>
+																	<addValue>
+																		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+																		<returnType>float</returnType>
+																		<sString>0</sString>
+																	</addValue>
+																	<multValue>
+																		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+																		<returnType>float</returnType>
+																		<sString>0</sString>
+																	</multValue>
+																	<stat>EnergyDrain</stat>
+																	<topModifier>false</topModifier>
+																	<variable></variable>
+																</modifier>
+																<providerName></providerName>
+																<startCondition>
+																	<compiledString></compiledString>
+																	<returnType>bool</returnType>
+																	<sString>true</sString>
+																</startCondition>
+																<statModName></statModName>
+															</StatModApplicator>
+														</applicator>
+														<continueCondition>
+															<compiledString></compiledString>
+															<returnType>bool</returnType>
+															<sString>0</sString>
+														</continueCondition>
+														<continueEvents>1</continueEvents>
+														<delay>
+															<compiledString></compiledString>
+															<returnType>float</returnType>
+															<sString>-1.0</sString>
+														</delay>
+														<stopCondition>
+															<compiledString></compiledString>
+															<returnType>bool</returnType>
+															<sString>0</sString>
+														</stopCondition>
+														<stopEvents>0</stopEvents>
+													</Item>
+													<Item>
 														<applicator href="/Items/Talents/Class/Highlander/LastHitTrigger.APLR" id="D6FA574A-BCD9-4D2E-8967-857C4DDCAE33">
 															<AbilityModApplicator>
 																<addValue>
@@ -1025,6 +1288,151 @@
 														<stopEvents>0</stopEvents>
 													</Item>
 													<Item>
+														<applicator href="/Items/Talents/Class/Highlander/LastHitTrigger.APLR" id="023CBA28-DBF3-48BA-93B9-176D6B4CFD92">
+															<SpellPeriodicallyApplicator>
+																<applyTarget>ApplicatorTarget</applyTarget>
+																<behaviorFlags>0</behaviorFlags>
+																<caption>дебуст скорости</caption>
+																<effect>
+																	<Item href="" />
+																	<Item href="" />
+																</effect>
+																<enabled>
+																	<compiledString></compiledString>
+																	<returnType>bool</returnType>
+																	<sString>true</sString>
+																</enabled>
+																<formulaName></formulaName>
+																<lifeTime>
+																	<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABgQQ==</compiledString>
+																	<returnType>float</returnType>
+																	<sString>14</sString>
+																</lifeTime>
+																<LoggingEvent>-1</LoggingEvent>
+																<period>
+																	<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+																	<returnType>float</returnType>
+																	<sString>1</sString>
+																</period>
+																<providerName></providerName>
+																<scaleMode>ScaleIsCount</scaleMode>
+																<spell href="/Items/Talents/Class/Highlander/LastHitTrigger.APLR" id="ED32987C-8971-4614-A012-6202E82EC7F8">
+																	<Spell>
+																		<applicators>
+																			<Item href="/Items/Talents/Class/Highlander/LastHitTrigger.APLR" id="58854E08-8E81-4259-B8A6-959B15052D91">
+																				<PermanentStatModApplicator>
+																					<applyTarget>ApplicatorTarget</applyTarget>
+																					<caption>запоминаем отобранное</caption>
+																					<customApplyType>None</customApplyType>
+																					<enabled>
+																						<compiledString></compiledString>
+																						<returnType>bool</returnType>
+																						<sString>true</sString>
+																					</enabled>
+																					<formulaName></formulaName>
+																					<LoggingEvent>-1</LoggingEvent>
+																					<modifier>
+																						<addValue>
+																							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAQA==</compiledString>
+																							<returnType>float</returnType>
+																							<sString>4</sString>
+																						</addValue>
+																						<multValue>
+																							<compiledString></compiledString>
+																							<returnType>float</returnType>
+																							<sString>1.0f</sString>
+																						</multValue>
+																						<stat>Life</stat>
+																						<topModifier>false</topModifier>
+																						<variable>Mech_huy</variable>
+																					</modifier>
+																					<providerName></providerName>
+																				</PermanentStatModApplicator>
+																			</Item>
+																			<Item href="/Items/Talents/Class/Highlander/LastHitTrigger.APLR" id="C3916611-5657-4A94-A081-D8373B532AC6">
+																				<PermanentStatModApplicator>
+																					<applyTarget>ApplicatorTarget</applyTarget>
+																					<caption>отбираем скорость</caption>
+																					<customApplyType>None</customApplyType>
+																					<enabled>
+																						<compiledString></compiledString>
+																						<returnType>bool</returnType>
+																						<sString>true</sString>
+																					</enabled>
+																					<formulaName></formulaName>
+																					<LoggingEvent>-1</LoggingEvent>
+																					<modifier>
+																						<addValue>
+																							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAwA==</compiledString>
+																							<returnType>float</returnType>
+																							<sString>-4</sString>
+																						</addValue>
+																						<multValue>
+																							<compiledString></compiledString>
+																							<returnType>float</returnType>
+																							<sString>1.0f</sString>
+																						</multValue>
+																						<stat>MoveSpeed</stat>
+																						<topModifier>false</topModifier>
+																						<variable></variable>
+																					</modifier>
+																					<providerName></providerName>
+																				</PermanentStatModApplicator>
+																			</Item>
+																		</applicators>
+																		<dispatch href="/Items/Talents/Class/Highlander/LastHitTrigger.APLR" id="63BC9333-FDDB-4705-9C9B-70C702B1EF4C">
+																			<DispatchImmediate>
+																				<alwaysApply>false</alwaysApply>
+																				<applyEffect>
+																					<Item href="" />
+																					<Item href="" />
+																				</applyEffect>
+																				<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																				<applyEffectOrientation>Default</applyEffectOrientation>
+																				<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																				<dieAfterApply>true</dieAfterApply>
+																				<dispatchEffect>
+																					<Item href="" />
+																					<Item href="" />
+																				</dispatchEffect>
+																				<flags>0</flags>
+																				<instantApply>false</instantApply>
+																			</DispatchImmediate>
+																		</dispatch>
+																	</Spell>
+																</spell>
+																<startCondition>
+																	<compiledString></compiledString>
+																	<returnType>bool</returnType>
+																	<sString>true</sString>
+																</startCondition>
+																<startOffset>
+																	<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
+																	<returnType>float</returnType>
+																	<sString>2</sString>
+																</startOffset>
+																<targetSelector href="" />
+															</SpellPeriodicallyApplicator>
+														</applicator>
+														<continueCondition>
+															<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+															<returnType>bool</returnType>
+															<sString>0</sString>
+														</continueCondition>
+														<continueEvents>1</continueEvents>
+														<delay>
+															<compiledString></compiledString>
+															<returnType>float</returnType>
+															<sString>-1.0</sString>
+														</delay>
+														<stopCondition>
+															<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+															<returnType>bool</returnType>
+															<sString>0</sString>
+														</stopCondition>
+														<stopEvents>0</stopEvents>
+													</Item>
+													<Item>
 														<applicator href="/Items/Talents/Class/Highlander/LastHitTrigger.APLR" id="79A77024-84EC-4D8B-BD48-2F6A4B915395">
 															<TriggerApplicator>
 																<actionsCount>
@@ -1074,6 +1482,150 @@
 																<useAbilityCooldown>true</useAbilityCooldown>
 																<useAbilityOwnerMana>false</useAbilityOwnerMana>
 															</TriggerApplicator>
+														</applicator>
+														<continueCondition>
+															<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+															<returnType>bool</returnType>
+															<sString>0</sString>
+														</continueCondition>
+														<continueEvents>1</continueEvents>
+														<delay>
+															<compiledString></compiledString>
+															<returnType>float</returnType>
+															<sString>-1.0</sString>
+														</delay>
+														<stopCondition>
+															<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+															<returnType>bool</returnType>
+															<sString>0</sString>
+														</stopCondition>
+														<stopEvents>0</stopEvents>
+													</Item>
+													<Item>
+														<applicator href="/Items/Talents/Class/Highlander/LastHitTrigger.APLR" id="EA41E3AF-CA64-4A82-9BC7-FDA956AA7882">
+															<AbilityUpgradeApplicator>
+																<applicators>
+																	<Item href="/Items/Talents/Class/Highlander/LastHitTrigger.APLR" id="4CAF464F-C4D2-4E5F-BBE4-98B271A5987C">
+																		<SpellApplicator>
+																			<applyTarget>ApplicatorTarget</applyTarget>
+																			<caption>очень коварный баф атаки</caption>
+																			<enabled>
+																				<compiledString>FQAAAAABAAAALQAAAFWL7FFR2ejZHCRR2e7ZHCRqAYtFDIsQi00Mi0JY/9APtshR6DEAAACDxAzcHUkAAADf4PbERHsGxkX/AesExkX/AIpF/4vlXcMAAAAAAAAAAAAAAAAAAIA/VYvsUQ+2RQiFwHQI2UUM2V386wbZRRDZXfzZRfyL5V3D</compiledString>
+																				<returnType>bool</returnType>
+																				<sString>ut_bldg(false, true) </sString>
+																			</enabled>
+																			<formulaName></formulaName>
+																			<LoggingEvent>-1</LoggingEvent>
+																			<providerName></providerName>
+																			<spell href="/Items/Talents/Class/Highlander/LastHitTrigger.APLR" id="F0693491-1819-4F79-A2D2-BAD77DF5E7C9">
+																				<Spell>
+																					<applicators>
+																						<Item href="/Items/Talents/Class/Highlander/LastHitTrigger.APLR" id="7584D730-648E-4BF9-8AD0-D5D0248E8D5B">
+																							<VariableProxyApplicator>
+																								<applicators>
+																									<Item>
+																										<applicator href="/Items/Talents/Class/Highlander/LastHitTrigger.APLR" id="E02CA993-52A5-47E0-8D53-3715D22C252A">
+																											<DamageApplicator>
+																												<applyTarget>ApplicatorTarget</applyTarget>
+																												<cancelInvisibility>false</cancelInvisibility>
+																												<caption>Хитрый урон</caption>
+																												<damage>
+																													<compiledString>FQoAAAABAAAAFgAAAERBTUFHRV9FTQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+																													<returnType>float</returnType>
+																													<sString>cDAMAGE_EM</sString>
+																												</damage>
+																												<damageMode>8</damageMode>
+																												<damageType>Material</damageType>
+																												<enabled>
+																													<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+																													<returnType>bool</returnType>
+																													<sString>true</sString>
+																												</enabled>
+																												<formulaName></formulaName>
+																												<LoggingEvent>-1</LoggingEvent>
+																												<providerName></providerName>
+																												<timeLimiter>-1</timeLimiter>
+																												<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Material.UIEV" />
+																											</DamageApplicator>
+																										</applicator>
+																										<variableNames />
+																									</Item>
+																								</applicators>
+																								<applyTarget>ApplicatorTarget</applyTarget>
+																								<caption>коварный баф атаки</caption>
+																								<enabled>
+																									<compiledString></compiledString>
+																									<returnType>bool</returnType>
+																									<sString>true</sString>
+																								</enabled>
+																								<formulaName></formulaName>
+																								<LoggingEvent>-1</LoggingEvent>
+																								<providerName></providerName>
+																							</VariableProxyApplicator>
+																						</Item>
+																					</applicators>
+																					<dispatch href="/Items/Talents/Class/Highlander/LastHitTrigger.APLR" id="FE080191-9FE3-4BD4-9B51-AC4071244131">
+																						<DispatchImmediate>
+																							<alwaysApply>false</alwaysApply>
+																							<applyEffect>
+																								<Item href="" />
+																								<Item href="" />
+																							</applyEffect>
+																							<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																							<applyEffectOrientation>Default</applyEffectOrientation>
+																							<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																							<dieAfterApply>true</dieAfterApply>
+																							<dispatchEffect>
+																								<Item href="" />
+																								<Item href="" />
+																							</dispatchEffect>
+																							<flags>0</flags>
+																							<instantApply>false</instantApply>
+																						</DispatchImmediate>
+																					</dispatch>
+																				</Spell>
+																			</spell>
+																			<spellTarget>ApplicatorTarget</spellTarget>
+																			<targetSelector href="" />
+																		</SpellApplicator>
+																	</Item>
+																</applicators>
+																<applyCount>
+																	<compiledString></compiledString>
+																	<returnType>int</returnType>
+																	<sString>0</sString>
+																</applyCount>
+																<applyTarget>ApplicatorTarget</applyTarget>
+																<behaviorFlags>16</behaviorFlags>
+																<caption>эмулятор атаки</caption>
+																<effect>
+																	<Item href="" />
+																	<Item href="" />
+																</effect>
+																<enabled>
+																	<compiledString></compiledString>
+																	<returnType>bool</returnType>
+																	<sString>true</sString>
+																</enabled>
+																<flags>0</flags>
+																<formulaName></formulaName>
+																<lifeTime>
+																	<compiledString></compiledString>
+																	<returnType>float</returnType>
+																	<sString>-1.0</sString>
+																</lifeTime>
+																<LoggingEvent>-1</LoggingEvent>
+																<persistentApplicators />
+																<providerName></providerName>
+																<startCondition>
+																	<compiledString></compiledString>
+																	<returnType>bool</returnType>
+																	<sString>true</sString>
+																</startCondition>
+																<talents />
+																<targetAbility>BaseAttack</targetAbility>
+																<useListAs>ListAsRule</useListAs>
+															</AbilityUpgradeApplicator>
 														</applicator>
 														<continueCondition>
 															<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
@@ -1201,6 +1753,104 @@
 										<stopEvents>0</stopEvents>
 									</Item>
 									<Item>
+										<applicator href="/Items/Talents/Class/Highlander/LastHitTrigger.APLR" id="32F6BF2F-4DC4-46D3-A7F0-D8C1C1F2F9B3">
+											<PermanentStatModApplicator>
+												<applyTarget>ApplicatorTarget</applyTarget>
+												<caption>возвращаем скорость</caption>
+												<customApplyType>None</customApplyType>
+												<enabled>
+													<compiledString></compiledString>
+													<returnType>bool</returnType>
+													<sString>true</sString>
+												</enabled>
+												<formulaName></formulaName>
+												<LoggingEvent>-1</LoggingEvent>
+												<modifier>
+													<addValue>
+														<compiledString>FQkAAAABAAAADQAAAE1lY2hfaHV5AFWL7GgAAAAAi0UIixCLTQiLgogBAAD/0F3D</compiledString>
+														<returnType>float</returnType>
+														<sString>sender.vMech_huy</sString>
+													</addValue>
+													<multValue>
+														<compiledString></compiledString>
+														<returnType>float</returnType>
+														<sString>1.0f</sString>
+													</multValue>
+													<stat>MoveSpeed</stat>
+													<topModifier>false</topModifier>
+													<variable></variable>
+												</modifier>
+												<providerName></providerName>
+											</PermanentStatModApplicator>
+										</applicator>
+										<continueCondition>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>0</sString>
+										</continueCondition>
+										<continueEvents>1</continueEvents>
+										<delay>
+											<compiledString></compiledString>
+											<returnType>float</returnType>
+											<sString>-1.0</sString>
+										</delay>
+										<stopCondition>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>0</sString>
+										</stopCondition>
+										<stopEvents>0</stopEvents>
+									</Item>
+									<Item>
+										<applicator href="/Items/Talents/Class/Highlander/LastHitTrigger.APLR" id="78DB1DE8-A0A4-4028-A748-ED37D5749D99">
+											<PermanentStatModApplicator>
+												<applyTarget>ApplicatorTarget</applyTarget>
+												<caption>обнуляем счётчик</caption>
+												<customApplyType>None</customApplyType>
+												<enabled>
+													<compiledString></compiledString>
+													<returnType>bool</returnType>
+													<sString>true</sString>
+												</enabled>
+												<formulaName></formulaName>
+												<LoggingEvent>-1</LoggingEvent>
+												<modifier>
+													<addValue>
+														<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+														<returnType>float</returnType>
+														<sString>0</sString>
+													</addValue>
+													<multValue>
+														<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+														<returnType>float</returnType>
+														<sString>0</sString>
+													</multValue>
+													<stat>Life</stat>
+													<topModifier>false</topModifier>
+													<variable>Mech_huy</variable>
+												</modifier>
+												<providerName></providerName>
+											</PermanentStatModApplicator>
+										</applicator>
+										<continueCondition>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>0</sString>
+										</continueCondition>
+										<continueEvents>1</continueEvents>
+										<delay>
+											<compiledString></compiledString>
+											<returnType>float</returnType>
+											<sString>-1.0</sString>
+										</delay>
+										<stopCondition>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>0</sString>
+										</stopCondition>
+										<stopEvents>0</stopEvents>
+									</Item>
+									<Item>
 										<applicator href="/Items/Talents/Class/Highlander/LastHitTrigger.APLR" id="3EB7E532-0928-4DD2-B46F-DD2EF1FBE05A">
 											<SpellApplicator>
 												<applyTarget>ApplicatorTarget</applyTarget>
@@ -1240,7 +1890,6 @@
 																	<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Energy.UIEV" />
 																</DamageApplicator>
 															</Item>
-															<Item href="/Heroes/DefaultStatus/_STUN_Status.APLR" />
 														</applicators>
 														<dispatch href="/Items/Talents/Class/Highlander/LastHitTrigger.APLR" id="DF1CF4A0-9765-480D-9430-CFE0D0FF1F37">
 															<DispatchImmediate>

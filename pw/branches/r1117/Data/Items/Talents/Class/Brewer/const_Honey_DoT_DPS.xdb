@@ -6,10 +6,11 @@
 	<BackLink DBID="/Items/Talents/Class/Brewer/Ability_A4.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Brewer/Ability_A2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Brewer/Ability_A1.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" Count="1" />
 	<name>Honey_DoT_DPS</name>
 	<var>
-		<compiledString>FQ8AAAADAAAAGgAAACQAAABZAAAASG9uZXlfRHVyYXRpb24AVYvsg+wMagFR2QV+AAAA2RwkUdkFegAAANkcJGoAi0UIixCLTQiLgjABAAD/0FHZHCRqAYtNEIsRi00Qi0Jg/9CLTQxRi1UIUmgAAAAAi0UQixCLTRCLQlDdXfj/0Nx9+Nld9NlF9IvlXcMAABhCAICOQw==</compiledString>
+		<compiledString>FT8AAAAJAAAARgAAAF8AAACdAAAApwAAAPQAAAABAQAAIgEAACwBAACAAQAAQnJld2VyX0EwX1NVUAAAAEJyZXdlcl9BMF9TVVAAAABIb25leV9EdXJhdGlvbgAASG9uZXlfRHVyYXRpb24AVYvsg+wkaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hckPhIUAAABqAVHZBbMBAADZHCRR2QWvAQAA2RwkagCLVQiLAotNCIuQMAEAAP/SUdkcJItFCIsQi00Ii4I0AQAA/9BR2Rwk6NoAAACDxATZHCRqAYtNEIsRi00Qi0Jg/9DcDacBAACLTQxRi1UIUmggAAAAi0UQixCLTRCLQlDdXfD/0Nx98N1d6Ot9agFR2QWzAQAA2RwkUdkFrwEAANkcJGoAi00IixGLTQiLgjABAAD/0FHZHCSLTQiLEYtNCIuCNAEAAP/QUdkcJOhVAAAAg8QE2RwkagGLTRCLEYtNEItCYP/Qi00MUYtVCFJoMAAAAItFEIsQi00Qi0JQ3V3g/9DcfeDdXejdRejZXdzZRdyL5V3DAAAAAAAA+D8AAJhBAAAOQ1WL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
 		<returnType>float</returnType>
-		<sString>damageScale(sStrength, 38, 285)/cHoney_Duration</sString>
+		<sString>tal("Brewer_A0_SUP") ? 1.5*damageScale(max(sIntellect,sStrength), 19, 142)/cHoney_Duration : damageScale(max(sIntellect,sStrength), 19, 142)/cHoney_Duration</sString>
 	</var>
 </UnitConstant>

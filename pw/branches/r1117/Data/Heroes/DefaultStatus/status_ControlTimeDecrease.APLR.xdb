@@ -7,6 +7,7 @@
 	<BackLink DBID="/Items/Talents/Level5/G330_Dex_WillOrStmn.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset3_2_IceCream/status_G520.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset9_5_Anticontrol/Redset9_5_DecreasControl.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/BladeDancer/ProgramA3.APLR" Count="3" />
 	<applicators>
 		<Item href="/Heroes/DefaultStatus/status_ControlTimeDecrease.APLR" id="42BBDB70-D8CE-4EC4-94A8-C2DC5A65DAD3">
 			<StatModApplicator>

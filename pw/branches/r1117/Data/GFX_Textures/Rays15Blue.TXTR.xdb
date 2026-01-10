@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Texture>
-	<BackLink DBID="/Effects/Shots/Spear/_LightHit.PRXY" Count="2" />
+	<BackLink DBID="/Effects/Shots/Spear/_LightHit.PRXY" Count="1" />
 	<generatedFileName></generatedFileName>
 	<mipLevels>0</mipLevels>
 	<mipLevelUsage>AutoGenerate</mipLevelUsage>

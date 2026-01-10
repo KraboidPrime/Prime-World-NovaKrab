@@ -44,7 +44,28 @@
 	<commonDescription textref="/Items/Talents/Level5/G059_Aura-StaWillDecr-StrInt.TALENT_commonDescription.txt" />
 	<compiledDescriptionA textref="" />
 	<compiledDescriptionB textref="" />
-	<conditionFormulas />
+	<conditionFormulas>
+		<Item href="/Items/Talents/Level5/G059_Aura-StaWillDecr-StrInt.TALENT" id="D8C1A3F7-33E5-4CC1-B958-1FAF988CC995">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRYAAAACAAAAGwAAADEAAABBdTIwMjVfVG9vbHRpcENvdW50ZXIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdUwAAAN/g9sQBdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAhA</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vAu2025_TooltipCounter &gt;= 3</sString>
+				</condition>
+				<name>Bonus3ActiveAu</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Items/Talents/Level5/G059_Aura-StaWillDecr-StrInt.TALENT" id="8A94495E-B979-415A-9C7D-F5EB7352C114">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRYAAAACAAAAGwAAADEAAABBdTIwMjVfVG9vbHRpcENvdW50ZXIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdUwAAAN/g9sQBdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAABxA</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vAu2025_TooltipCounter &gt;= 7</sString>
+				</condition>
+				<name>Bonus7ActiveAu</name>
+			</ConditionFormula>
+		</Item>
+	</conditionFormulas>
 	<conflictingTalents />
 	<constants href="/Items/Talents/Level5/G059_Aura-StaWillDecr-StrInt.TALENT" id="3D9A3431-3994-44BF-B046-6434EF343D45">
 		<UnitConstantsContainer>
@@ -53,9 +74,9 @@
 					<UnitConstant>
 						<name>Decrease_Defence</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAoEDNzMw+</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DMzMjQQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(5, 0.4)</sString>
+							<sString>10.2</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -123,9 +144,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString></compiledString>
+					<compiledString>FQ0AAAABAAAAFwAAAEludmlzaWJpbGl0eQBVi+xqAItFEFBoAAAAAItNCIsRi00Ii4KcAQAA/9AzyTtFEA+UwYrBXcM=</compiledString>
 					<returnType>bool</returnType>
-					<sString>true</sString>
+					<sString>sender.applInvisibility(GLOBAL) == pMisc</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<lifeTime>
@@ -164,9 +185,9 @@
 								<flags>0</flags>
 								<mode>Normal</mode>
 								<range>
-									<compiledString>FQsAAAABAAAAFwAAAFJhbmdlX0xvbmcAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+									<compiledString>FQ0AAAABAAAAGQAAAFJhbmdlX0V4TG9uZwBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
 									<returnType>float</returnType>
-									<sString>cRange_Long</sString>
+									<sString>cRange_ExLong</sString>
 								</range>
 								<targetFilter>538705983</targetFilter>
 								<targetSelector href="" />
@@ -178,10 +199,11 @@
 			</AuraApplicator>
 		</Item>
 		<Item href="/Items/Talents/Level5/status_59_Aura.APLR" />
+		<Item href="/Items/Talents/Level3/AURASET_Prog2025.APLR" />
 	</passiveApplicators>
 	<persistentId>G059</persistentId>
 	<prerequisiteTalents />
-	<rarity>excellent</rarity>
+	<rarity>magnificent</rarity>
 	<requireLineOfSight>false</requireLineOfSight>
 	<shortDescription textref="/Items/Talents/Level5/G059_Aura-StaWillDecr-StrInt.TALENT_shortDescription.txt" />
 	<talentRollGroups>0</talentRollGroups>
@@ -190,9 +212,9 @@
 	<type>Passive</type>
 	<upgradeLevel>0</upgradeLevel>
 	<useRange>
-		<compiledString>FQsAAAABAAAAFwAAAFJhbmdlX0xvbmcAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+		<compiledString>FQ0AAAABAAAAGQAAAFJhbmdlX0V4TG9uZwBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
 		<returnType>float</returnType>
-		<sString>cRange_Long</sString>
+		<sString>cRange_ExLong</sString>
 	</useRange>
 	<useRangeMaterial href="/Effects/UI/AOESelection/Radius.MTRL" />
 	<variativeMaxTalentStats />

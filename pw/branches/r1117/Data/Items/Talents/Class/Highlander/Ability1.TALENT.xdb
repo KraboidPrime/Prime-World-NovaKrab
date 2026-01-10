@@ -538,9 +538,9 @@
 					<UnitConstant>
 						<name>A1Damage</name>
 						<var>
-							<compiledString>FQAAAAAEAAAACwAAABUAAABGAAAAUAAAAFWL7IPsDGoBUdkFlQAAANkcJFHZBZEAAADZHCRqAItFCIsQi00Ii4IwAQAA/9BR2RwkagGLTRCLEYtNEItCYP/QagFR2QWNAAAA2RwkUdkFiQAAANkcJGoAi00IixGLTQiLQhzdXfj/0FHZHCRqAYtNEIsRi00Qi0Jg/9DcRfjZXfTZRfSL5V3DAABQQgAAwEMAALhBAAAuQw==</compiledString>
+							<compiledString>FWgAAAATAAAAbwAAAIgAAADCAAAA2wAAABQBAAA3AQAAUAEAAFkBAAB7AQAAhQEAALkBAADDAQAA/gEAABcCAABJAgAAUwIAAIQCAACOAgAAyQIAAEhpZ2hsYW5kZXJfQTFfU1VQAAAASGlnaGxhbmRlcl9BMV9TVVAAAABIaWdobGFuZGVyX0ExdTIASGlnaGxhbmRlcl9BMXUyAEhpZ2hsYW5kZXJfQTF1MgBIaWdobGFuZGVyX0ExdTIAVYvsg+xYaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgUAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hckPhDwBAABoKAAAAItVCIsCi00Ii5CoAQAA/9KFwHQqaDgAAACLRQiLEItNCIuCqAEAAP/QiUX0i030ixGLTfSLQgT/0IhF8+sExkXzAA+2TfOJTezbRezcDRcDAADZ6N7BUdnu2Rwki1UIiwKLTQiLkDgBAADdXeT/0twNAwMAAItFCIsQi00Ii4I4AQAA3V3c/9DcBfsCAADcfdzcJfMCAADZXdjZRdhR2Rwk6LMBAACDxAjZ6N7B3E3kagFR2QXvAgAA2RwkUdkF6wIAANkcJGoAi00IixGLTQiLgjABAADdXdD/0FHZHCRqAYtNEIsRi00Qi0Jg/9BqAVHZBecCAADZHCRR2QXjAgAA2RwkagCLTQiLEYtNCItCHN1dyP/QUdkcJGoBi00QixGLTRCLQmD/0NxFyNxN0N1dwOnZAAAAaEgAAACLTQiLEYtNCIuCqAEAAP/QhcB0KmhYAAAAi00IixGLTQiLgqgBAAD/0IlFvItNvIsRi028i0IE/9CIRbvrBMZFuwBqAVHZBe8CAADZHCRR2QXrAgAA2RwkagCLTQiLEYtNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0GoBUdkF5wIAANkcJFHZBeMCAADZHCRqAItNCIsRi00Ii0Ic3V2w/9BR2RwkagGLTRCLEYtNEItCYP/Q3EWwD7ZNu4lNrNtFrNwNFwMAANno3sHeyd1dwN1FwNldqNlFqIvlXcMAAFBCAADAQwAAuEEAAC5DAAAAIIXr0T8AAAAAAABgQAAAACCHFu0/AAAAAAAAAAAAAPA/mpmZmZmZuT9Vi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale (sStrength, 23, 174) + damageScale (sAttackSpeed, 52, 384)</sString>
+							<sString>tal("Highlander_A1_SUP") ? (1+0.1*tal("Highlander_A1u2"))*(1+max( 0.909f * sDexterity / (sDexterity + 128.0f) - 0.28f, 0 ))*(damageScale (sStrength, 23, 174) + damageScale (sAttackSpeed, 52, 384)) : ((damageScale (sStrength, 23, 174) + damageScale (sAttackSpeed, 52, 384)))*(1+0.1*tal("Highlander_A1u2"))</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -597,9 +597,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQQ==</compiledString>
+		<compiledString>FSYAAAACAAAALQAAAEYAAABIaWdobGFuZGVyX0ExX1NVUAAAAEhpZ2hsYW5kZXJfQTFfU1VQAFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoFAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+/fZG8mD4QyDwQyJTfTbRfSL5V3D</compiledString>
 		<returnType>float</returnType>
-		<sString>12</sString>
+		<sString>tal("Highlander_A1_SUP") ? 24 : 12</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>

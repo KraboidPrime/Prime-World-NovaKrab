@@ -5,6 +5,9 @@
 	<BackLink DBID="/Items/Talents/Class/Inventor/A2_SummonDispenser.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Inventor/Ability_A1.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Inventor/Ability_A2.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A0.TALENT" Count="3" />
+	<BackLink DBID="/Items/Talents/Class/Inventor/A1_TurretSummonV.APLR" Count="3" />
+	<BackLink DBID="/Items/Talents/Class/Inventor/A1_TurretSummonVV.APLR" Count="3" />
 	<checkByRangeToRequester>true</checkByRangeToRequester>
 	<checkLineOfSight>true</checkLineOfSight>
 	<nativeTerrainOnly>false</nativeTerrainOnly>

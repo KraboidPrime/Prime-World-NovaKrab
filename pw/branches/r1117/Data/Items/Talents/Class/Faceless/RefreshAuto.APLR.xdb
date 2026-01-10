@@ -5,9 +5,9 @@
 	<applyTarget>AbilityOwner</applyTarget>
 	<caption>A2_SUP: рефрешим автоатаку</caption>
 	<enabled>
-		<compiledString>FSAAAAACAAAAJwAAAEAAAABGYWNlbGVzc19BMl9TVVAARmFjZWxlc3NfQTJfU1VQAFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAikX7i+Vdww==</compiledString>
+		<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 		<returnType>bool</returnType>
-		<sString>tal("Faceless_A2_SUP")</sString>
+		<sString>false</sString>
 	</enabled>
 	<flags>0</flags>
 	<formulaName></formulaName>

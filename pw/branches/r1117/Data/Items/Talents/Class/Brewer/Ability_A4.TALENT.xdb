@@ -259,6 +259,16 @@
 						</var>
 					</UnitConstant>
 				</Item>
+				<Item href="/Items/Talents/Class/Brewer/Ability_A4.TALENT" id="A4B34BE7-91B2-4C83-910B-A792D2728A07">
+					<UnitConstant>
+						<name>A4_cd_land</name>
+						<var>
+							<compiledString>FRcAAAACAAAAUwAAAGwAAABCcmV3ZXJfQTR1AABCcmV3ZXJfQTR1AFWL7IPsDFaLRQiLEItNCItCTP/Qi/CLTQiLEYtNCIuCkAEAAP/QO/APlMEPttGF0nQJx0X8PAAAAOtYaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgMAAAAi00IixGLTQiLgqgBAAD/0IlF+ItN+IsRi034i0IE/9CIRffrBMZF9wAPtk3399kbyYPh7IPBPIlN/NtF/F6L5V3D</compiledString>
+							<returnType>float</returnType>
+							<sString>nt( true, false) ?  60 : (tal("Brewer_A4u") ? 40 : 60)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
@@ -267,9 +277,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQg==</compiledString>
+		<compiledString>FQsAAAABAAAAFwAAAEE0X2NkX2xhbmQAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
 		<returnType>float</returnType>
-		<sString>60.0f</sString>
+		<sString>cA4_cd_land</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>

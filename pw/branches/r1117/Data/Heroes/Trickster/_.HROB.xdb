@@ -1058,7 +1058,7 @@
 					<toLocator>Body</toLocator>
 				</DispatchLinear>
 			</dispatch>
-			<flags>1</flags>
+			<flags>5</flags>
 			<image href="" />
 			<imageSecondState href="" />
 			<isMelee>false</isMelee>
@@ -1445,9 +1445,9 @@
 					<levelUpgrades />
 					<statId>Range</statId>
 					<value>
-						<compiledString>FQsAAAACAAAAGAAAACsAAABSYW5nZV9Mb25nAFWL7FGLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0twlOQAAANld/NlF/IvlXcMAAAAAAAAAQA==</compiledString>
+						<compiledString>FQsAAAABAAAAFwAAAFJhbmdlX0xvbmcAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
 						<returnType>float</returnType>
-						<sString>cRange_Long-2</sString>
+						<sString>cRange_Long</sString>
 					</value>
 				</Item>
 				<Item>

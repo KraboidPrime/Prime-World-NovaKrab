@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UITexture>
 	<BackLink DBID="/Dialog/CastleTutorial/Actors/npcEventDedMorozA" Count="1" />
-	<BackLink DBID="/Heroes/Mage/S2/_.HEROSKIN" Count="2" />
+	<BackLink DBID="/Pets/mage/_.SUMMONED" Count="1" />
+	<BackLink DBID="/Items/Consumables/Pet_mage.ARCT" Count="1" />
 	<generatedFileName></generatedFileName>
 	<importOnlyShape>false</importOnlyShape>
 	<mipLevels>0</mipLevels>

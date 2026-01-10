@@ -6,37 +6,37 @@
 			<talents>
 				<Item>
 					<aIPriority>3</aIPriority>
-					<refineRate>1</refineRate>
+					<refineRate>6</refineRate>
 					<status>normal</status>
 					<talent href="/Items/Talents/Class/SnowQueen/Ability_A1.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>3</aIPriority>
-					<refineRate>1</refineRate>
+					<refineRate>6</refineRate>
 					<status>normal</status>
 					<talent href="/Items/Talents/Class/SnowQueen/Ability_A2.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
-					<refineRate>1</refineRate>
+					<refineRate>6</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level1/G130_Int.TALENT" />
+					<talent href="/Items/Talents/Level1/G760_Int.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
-					<refineRate>1</refineRate>
+					<refineRate>6</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level1/G188_Dex.TALENT" />
+					<talent href="/Items/Talents/Level1/G775_StrOrInt.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
-					<refineRate>1</refineRate>
+					<refineRate>6</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level1/G131_RegEnergy.TALENT" />
+					<talent href="/Items/Talents/Level1/G128_Life_Energy.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>3</aIPriority>
-					<refineRate>1</refineRate>
+					<refineRate>6</refineRate>
 					<status>normal</status>
 					<talent href="/Items/Talents/Class/SnowQueen/Ability_A0.TALENT" />
 				</Item>
@@ -46,37 +46,37 @@
 			<talents>
 				<Item>
 					<aIPriority>2</aIPriority>
-					<refineRate>1</refineRate>
+					<refineRate>6</refineRate>
 					<status>normal</status>
 					<talent href="/Items/Talents/Class/SnowQueen/Ability_A1u.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>2</aIPriority>
-					<refineRate>1</refineRate>
+					<refineRate>6</refineRate>
 					<status>normal</status>
 					<talent href="/Items/Talents/Class/SnowQueen/Ability_A3.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>3</aIPriority>
-					<refineRate>1</refineRate>
+					<refineRate>6</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Class/SnowQueen/Ability_A5.TALENT" />
+					<talent href="/Items/Talents/Class/SnowQueen/Ability_A4.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
-					<refineRate>1</refineRate>
+					<refineRate>6</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level2/G028_MoneyPerTime.TALENT" />
+					<talent href="/Items/Talents/Level2/G363_Int.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
-					<refineRate>1</refineRate>
+					<refineRate>6</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level2/G137_Int_LifeSteal.TALENT" />
+					<talent href="/Items/Talents/Level2/G451_Str_int_Life.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
-					<refineRate>1</refineRate>
+					<refineRate>6</refineRate>
 					<status>normal</status>
 					<talent href="/Items/Talents/Level2/G297_maxStrInt.TALENT" />
 				</Item>
@@ -86,39 +86,39 @@
 			<talents>
 				<Item>
 					<aIPriority>3</aIPriority>
-					<refineRate>1</refineRate>
+					<refineRate>6</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Class/SnowQueen/Ability_A4_2.TALENT" />
+					<talent href="/Items/Talents/Class/SnowQueen/Ability_A5.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
-					<refineRate>1</refineRate>
+					<refineRate>6</refineRate>
 					<status>normal</status>
 					<talent href="/Items/Talents/Class/SnowQueen/Ability_A3u.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>2</aIPriority>
-					<refineRate>1</refineRate>
+					<refineRate>6</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level3/G287_Int.TALENT" />
+					<talent href="/Items/Talents/Level3/G302_Life_Dexterity.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
-					<refineRate>1</refineRate>
+					<refineRate>6</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level3/G229_Dex_LifeReg.TALENT" />
+					<talent href="/Items/Talents/Level3/G299_LifeRegen_Stamina.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
-					<refineRate>1</refineRate>
+					<refineRate>6</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level3/G340_StrOrInt.TALENT" />
+					<talent href="/Items/Talents/Level3/G244_DeadlyIllusion.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
-					<refineRate>1</refineRate>
+					<refineRate>6</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level3/G439_Life_inc_int_str.TALENT" />
+					<talent href="/Items/Talents/Level3/G301_Life_AttackSpeed.TALENT" />
 				</Item>
 			</talents>
 		</Item>
@@ -126,39 +126,39 @@
 			<talents>
 				<Item>
 					<aIPriority>2</aIPriority>
-					<refineRate>1</refineRate>
+					<refineRate>6</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Class/SnowQueen/Ability_A4_2u.TALENT" />
+					<talent href="/Items/Talents/Level4/G710_StrOrInt_SummonBuff.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
-					<refineRate>1</refineRate>
+					<refineRate>6</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level4/G247_Life_MvSpeed.TALENT" />
+					<talent href="/Items/Talents/Level4/G351_MoveSpeed_Shield.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
-					<refineRate>1</refineRate>
+					<refineRate>6</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level4/G282_Intellect.TALENT" />
+					<talent href="/Items/Talents/Level4/G308_K_Life_Energy.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
-					<refineRate>1</refineRate>
+					<refineRate>6</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level4/G283_Dexterity.TALENT" />
+					<talent href="/Items/Talents/Level4/G305_K_Dex_CDR.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
-					<refineRate>1</refineRate>
+					<refineRate>6</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level4/G390_Int_Int.TALENT" />
+					<talent href="/Items/Talents/Level4/G307_Dex_maxStaWill.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
-					<refineRate>1</refineRate>
+					<refineRate>6</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level4/G435_Dex_inc_Life.TALENT" />
+					<talent href="/Items/Talents/Level4/G452_AttackSpeed_Life.TALENT" />
 				</Item>
 			</talents>
 		</Item>
@@ -166,39 +166,39 @@
 			<talents>
 				<Item>
 					<aIPriority>0</aIPriority>
-					<refineRate>1</refineRate>
+					<refineRate>6</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Class/SnowQueen/Ability_A2_SUP.TALENT" />
+					<talent href="/Items/Talents/Class/SnowQueen/Ability_A1_SUP.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
-					<refineRate>1</refineRate>
-					<status>normal</status>
-					<talent href="/Items/Talents/Level5/G261_Int_Life.TALENT" />
-				</Item>
-				<Item>
-					<aIPriority>0</aIPriority>
-					<refineRate>1</refineRate>
-					<status>normal</status>
-					<talent href="/Items/Talents/Level5/G278_Dex_Energy.TALENT" />
-				</Item>
-				<Item>
-					<aIPriority>0</aIPriority>
-					<refineRate>1</refineRate>
-					<status>normal</status>
-					<talent href="/Items/Talents/Level5/G171_Will.TALENT" />
-				</Item>
-				<Item>
-					<aIPriority>0</aIPriority>
-					<refineRate>1</refineRate>
+					<refineRate>6</refineRate>
 					<status>normal</status>
 					<talent href="/Items/Talents/Level5/G365_Will_Str_Int.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
-					<refineRate>1</refineRate>
+					<refineRate>6</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level5/G310_Dexterity_Life.TALENT" />
+					<talent href="/Items/Talents/Level5/G186_AInt_Vamp.TALENT" />
+				</Item>
+				<Item>
+					<aIPriority>0</aIPriority>
+					<refineRate>6</refineRate>
+					<status>normal</status>
+					<talent href="/Items/Talents/Level5/G332_AspdStmn.TALENT" />
+				</Item>
+				<Item>
+					<aIPriority>0</aIPriority>
+					<refineRate>6</refineRate>
+					<status>normal</status>
+					<talent href="/Items/Talents/Level5/G711_SpdOrDex_SummonBuff.TALENT" />
+				</Item>
+				<Item>
+					<aIPriority>0</aIPriority>
+					<refineRate>6</refineRate>
+					<status>normal</status>
+					<talent href="/Items/Talents/Level5/G453_Dex_StaOrWill.TALENT" />
 				</Item>
 			</talents>
 		</Item>
@@ -206,39 +206,39 @@
 			<talents>
 				<Item>
 					<aIPriority>0</aIPriority>
-					<refineRate>1</refineRate>
+					<refineRate>6</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level6/G182_Int_Str.TALENT" />
+					<talent href="/Items/Talents/Level6/G728_StrOrInt.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
-					<refineRate>1</refineRate>
+					<refineRate>6</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level6/G213_StatViaHighestStat.TALENT" />
+					<talent href="/Items/Talents/Level6/G701_StrOrInt.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
-					<refineRate>1</refineRate>
+					<refineRate>6</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level6/G207_Int_Life.TALENT" />
+					<talent href="/Items/Talents/Level6/G713_Int_DexOrAtSpd.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
-					<refineRate>1</refineRate>
+					<refineRate>6</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level6/G276_Dex_Life.TALENT" />
+					<talent href="/Items/Talents/Level6/G317_K_Life_AttackSpeed.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
-					<refineRate>1</refineRate>
+					<refineRate>6</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level6/G325_IntAspd.TALENT" />
+					<talent href="/Items/Talents/Level6/G454_AttackSpeed_Life.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
-					<refineRate>1</refineRate>
+					<refineRate>6</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level6/G376_Int_Stamina_Will.TALENT" />
+					<talent href="/Items/Talents/Level6/G455_Life_StrOrInt.TALENT" />
 				</Item>
 			</talents>
 		</Item>

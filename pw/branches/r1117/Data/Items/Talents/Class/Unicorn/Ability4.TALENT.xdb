@@ -146,9 +146,9 @@
 					<UnitConstant>
 						<name>Damage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACYQQAAC0M=</compiledString>
+							<compiledString>FRgAAAAGAAAAHwAAADgAAAByAAAAfAAAALIAAAC8AAAAVW5pY29ybl9BNHUAVW5pY29ybl9BNHUAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgMAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0QGoBUdkF/gAAANkcJFHZBfoAAADZHCRqAItVCIsCi00Ii5A0AQAA/9JR2RwkagGLRRCLEItNEItCYP/Q2V306z5qAVHZBfYAAADZHCRR2QXyAAAA2RwkagCLTQiLEYtNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0Nld9NlF9IvlXcMAAJhBAAALQwAA6EEAAFFD</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(sIntellect, 19, 139)</sString>
+							<sString>tal("Unicorn_A4u") ? damageScale(sIntellect, 29, 209) : damageScale(sIntellect, 19, 139)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -190,9 +190,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQg==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAC0Qg==</compiledString>
 		<returnType>float</returnType>
-		<sString>120</sString>
+		<sString>90</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>

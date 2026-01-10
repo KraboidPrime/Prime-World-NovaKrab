@@ -22,7 +22,7 @@
 						<returnType>float</returnType>
 						<sString>cUseRange</sString>
 					</range>
-					<targetFilter>547160127</targetFilter>
+					<targetFilter>536870915</targetFilter>
 					<targetSelector href="" />
 				</AreaTargetSelector>
 			</targetSelector>

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BasicEffectStandalone>
+	<BackLink DBID="/Items/Talents/Level1/G129_Str.TALENT" Count="4" />
+	<component href="/Effects/Debuffs/Dome/_UpAllyTRS2.PRXY" />
+	<deathType>Manual</deathType>
+	<enableCondition href="/Effects/Debuffs/Dome/_UpAlly2.EFFT" id="8723390F-1B88-47C8-9FA5-6191E9AD2CEF">
+		<ConditionFormula>
+			<condition>
+				<compiledString>FQ0AAAACAAAAFAAAAC0AAABHMjY4AAAAAEcyNjgAVYvsg+wIaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgIAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wCKRfuL5V3D</compiledString>
+				<returnType>bool</returnType>
+				<sString>tal("G268")</sString>
+			</condition>
+			<name></name>
+		</ConditionFormula>
+	</enableCondition>
+	<fadeIn>0</fadeIn>
+	<fadeOut>0.3</fadeOut>
+	<isVisibleUnderWarfog>false</isVisibleUnderWarfog>
+	<lifeTime>0</lifeTime>
+	<parentFlags>0</parentFlags>
+	<parentType>General</parentType>
+	<visibilityLimited>false</visibilityLimited>
+	<visibleTime>0</visibleTime>
+</BasicEffectStandalone>

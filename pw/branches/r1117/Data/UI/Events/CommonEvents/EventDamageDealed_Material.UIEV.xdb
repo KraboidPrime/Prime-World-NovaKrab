@@ -178,14 +178,13 @@
 	<BackLink DBID="/Items/Talents/Class/GhostLord/status_A4u_DamageBuff.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Gunslinger/Ability_A4_2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Highlander/Ability4_2.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Highlander/foralltargets.APLR" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Hunter/Ability4_2.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Highlander/foralltargets.APLR" Count="6" />
+	<BackLink DBID="/Items/Talents/Class/Hunter/Ability4_2.TALENT" Count="4" />
 	<BackLink DBID="/Items/Talents/Class/Hunter/status_A0_bleeding.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Inventor/A3_BombExpl.APLR" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Inventor/Ability_A4.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Inventor/Ability_A4.TALENT" Count="3" />
 	<BackLink DBID="/Items/Talents/Class/Invisible/A1Upg_Push.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Invisible/Ability_A4.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Invisible/Ability_A4_2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/IronKnight/A4_ChainSpell.SPLL" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/IronKnight/Ability_A2.TALENT" Count="3" />
 	<BackLink DBID="/Items/Talents/Class/IronKnight/Ability_A4_2.TALENT" Count="1" />
@@ -198,7 +197,6 @@
 	<BackLink DBID="/Items/Talents/Class/Mage/status_A2_Hexed.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/MagicGirl/A4_2_SummonBall.APLR" Count="3" />
 	<BackLink DBID="/Items/Talents/Class/MagicGirl/Ability_A2.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/ManaWyrm/status_A2_EtherealForm.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Marine/A2_Program.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Marine/Ability_A1.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Marine/status_A4_2_stun.APLR" Count="1" />
@@ -209,7 +207,7 @@
 	<BackLink DBID="/Items/Talents/Class/Naga/status_Poison.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Night/Ability1.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Night/Ability2.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/PinkGirl/Ability_A4.TALENT" Count="3" />
+	<BackLink DBID="/Items/Talents/Class/PinkGirl/Ability_A4.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Plane/programm.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Rockman/Ability4.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Rockman/Ability4_2.TALENT" Count="2" />
@@ -222,7 +220,7 @@
 	<BackLink DBID="/Items/Talents/Class/Trickster/Ability1.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Trickster/Ability4_2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Vampire/Ability_A1.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Vampire/Ability_A4_2.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Vampire/Ability_A4_2.TALENT" Count="3" />
 	<BackLink DBID="/Items/Talents/Class/Warlord/Ability1.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Warlord/Ability2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Wendigo/A2_DamageHeal.APLR" Count="2" />
@@ -239,7 +237,7 @@
 	<BackLink DBID="/Items/Talents/Level1/status_G399_AntiCreepProc.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Level1/status_G401_AntiCreepProc.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Level2/G470_Str_Int.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Level2/G503_AA_DMG.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level2/G503_AA_DMG.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Level2/status_G487_MarkDmg.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Level3/G040-AoEbyStr.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level3/G350_AoE.TALENT" Count="1" />
@@ -247,9 +245,9 @@
 	<BackLink DBID="/Items/Talents/Level4/G044_Life-Silence.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level4/G051_Root_Target.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level4/G352_Dmg.TALENT" Count="2" />
-	<BackLink DBID="/Items/Talents/Level4/G761_AA_Str.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level4/G761_AA_Str.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Level5/G334_DexStm_Root.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Level5/G347_AntiCreep_PVE.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level5/G347_AntiCreep_PVE.TALENT" Count="8" />
 	<BackLink DBID="/Items/Talents/Level5/G479_StrOrInt_AttackSpeed.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level6/status_G765.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentKits/RedSet2_1_AoE/status_G477_ImFurios.APLR" Count="2" />
@@ -308,6 +306,25 @@
 	<BackLink DBID="/Summons/Panther/_Parent.SUMMONED" Count="1" />
 	<BackLink DBID="/Summons/Panther/PantherAttack.ATCK" Count="2" />
 	<BackLink DBID="/Test/Talents/Feya_A1.ARCT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level2/G1004_Vamp_Dmg.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/Highlander/LastHitTrigger.APLR" Count="3" />
+	<BackLink DBID="/Items/Talents/Level5/G186_AInt_Vamp.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level5/status_56_Strength_Lifesteal.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Assassin/Ability_A3.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/Chicken/Ability_A0.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/Chicken/Ability_A2.TALENT" Count="5" />
+	<BackLink DBID="/Items/Talents/Class/Chicken/Ability_A4_1.TALENT" Count="3" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A4_2.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Dot_WendVoker_status.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A4_1.TALENT" Count="6" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A0.TALENT" Count="9" />
+	<BackLink DBID="/Items/Talents/Class/Naga/status_A4_2_Enemy.APLR" Count="4" />
+	<BackLink DBID="/Items/Talents/Class/Angel/Summon_Well.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/FireFox/A3SendStuns.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Level5/G260_Str_Life.TALENT" Count="1" />
+	<BackLink DBID="/Summons/Demon/Attack1.ATCK" Count="1" />
+	<BackLink DBID="/Items/Talents/Level2/G492_DMG.TALENT" Count="2" />
 	<signRecipients>EVENT_PARTICIPANTS</signRecipients>
 	<UISigns>
 		<Item href="/UI/Events/CommonEvents/EventDamageDealed_Material.UIEV" id="056252F1-C640-4D83-8686-0E833A2DD99E">

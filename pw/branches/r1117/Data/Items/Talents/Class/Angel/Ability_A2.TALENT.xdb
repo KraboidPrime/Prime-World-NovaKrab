@@ -15,6 +15,8 @@
 	<BackLink DBID="/Test/Talents/Angel/Elite_StrDex.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Angel/Epic_Int.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Angel/Epic_Str.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Angel/Ability_A2_SUP.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level2/G567_CasterBase.TALENT" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -340,6 +342,16 @@
 				<name>A2uTerrBuff</name>
 			</ConditionFormula>
 		</Item>
+		<Item href="/Items/Talents/Class/Angel/Ability_A2.TALENT" id="3D3AB76E-597B-466B-BB2C-3A43175EDEEA">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FR0AAAACAAAAJAAAAD0AAABBbmdlbF9BMl9TVVAAAAAAQW5nZWxfQTJfU1VQAFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZF+/fYG8CDwAGL5V3D</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("Angel_A2_SUP") == false</sString>
+				</condition>
+				<name>Angel_A2SUP</name>
+			</ConditionFormula>
+		</Item>
 	</conditionFormulas>
 	<conflictingTalents />
 	<constants href="/Items/Talents/Class/Angel/Ability_A2.TALENT" id="F09358DE-A7C5-4948-9C20-DF2500198C6E">
@@ -442,6 +454,26 @@
 							<compiledString>FQAAAAAAAAAAVYvsg+wMi0UQixCLTRCLQjz/0ItNEIsRi00Qi0Ic3V34/9DcTfjZXfTZRfSL5V3D</compiledString>
 							<returnType>float</returnType>
 							<sString>mCooldown*mPreparedness</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Angel/Ability_A2.TALENT" id="C2642DC7-C12F-41AB-868F-4E3AE0FDF0C6">
+					<UnitConstant>
+						<name>TT_DMG_DVA</name>
+						<var>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACQQgAAB0Q=</compiledString>
+							<returnType>float</returnType>
+							<sString>damageScale(sStrength, 72, 540)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Angel/Ability_A2.TALENT" id="0DFD83F3-9156-4576-B886-D5C39B1048C3">
+					<UnitConstant>
+						<name>TT_HEAL_DVA</name>
+						<var>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAABAQgAAtEM=</compiledString>
+							<returnType>float</returnType>
+							<sString>damageScale(sIntellect, 48, 360)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

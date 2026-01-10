@@ -2,6 +2,7 @@
 <StatusApplicator>
 	<BackLink DBID="/Items/Talents/Level6/G183_Aura-Str.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level6/status_G183_StrSelf.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Level6/G248_StaminaWill_MvSpeed.TALENT" Count="1" />
 	<applicators>
 		<Item href="/Items/Talents/Level6/status_G183_Str.APLR" id="D9A27368-4215-4E2D-ABC6-33A044C38FF8">
 			<StatModApplicator>
@@ -15,9 +16,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString></compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UMixCLTQyLgrgAAAD/0ItNDIsRi00Mi4K8AAAA3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
 					<returnType>bool</returnType>
-					<sString>true</sString>
+					<sString>rBaseStrength &gt;= rBaseIntellect</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<lifeTime>
@@ -144,6 +145,53 @@
 				<statModName></statModName>
 			</StatModApplicator>
 		</Item>
+		<Item href="/Items/Talents/Level6/status_G183_Str.APLR" id="BB5DD942-8FBE-4E65-9871-51E695FAB9BE">
+			<StatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>Add_Int</caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UMixCLTQyLgrgAAAD/0ItNDIsRi00Mi4K8AAAA3V34/9DcXfjf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>rBaseStrength &lt; rBaseIntellect</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQ0AAAABAAAAGQAAAEFkZF9TdHJlbmd0aABVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+						<returnType>float</returnType>
+						<sString>cAdd_Strength</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Intellect</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
+		</Item>
 	</applicators>
 	<applyTarget>ApplicatorTarget</applyTarget>
 	<behaviorFlags>136</behaviorFlags>
@@ -161,14 +209,7 @@
 	<description textref="/Items/Talents/Level6/status_G183_Str.APLR_description.txt" />
 	<dispellPriority>NonDispellable</dispellPriority>
 	<effect>
-		<Item href="/Items/Talents/Level6/status_G183_Str.APLR" id="6D4B6C22-B539-4CD0-B126-A6AE1FF2706B">
-			<AuraEffect>
-				<deathType>Manual</deathType>
-				<enableCondition href="" />
-				<lifeTime>0</lifeTime>
-				<type>Ally</type>
-			</AuraEffect>
-		</Item>
+		<Item href="" />
 		<Item href="" />
 	</effect>
 	<enabled>

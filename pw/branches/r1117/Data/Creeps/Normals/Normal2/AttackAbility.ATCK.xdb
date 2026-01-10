@@ -295,9 +295,9 @@
 					<UnitConstant>
 						<name>Burn_Prob</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
+							<compiledString>FQ0AAAACAAAAEgAAACgAAABSYWJLcmlzYUJ1ZmYAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdSgAAAN/g9sRBdQnHRfwyAAAA6wfHRfwKAAAA20X8i+VdwwAAAAAAAOA/</compiledString>
 							<returnType>float</returnType>
-							<sString>10</sString>
+							<sString>sender.vRabKrisaBuff &gt; 0.5 ? 50 : 10</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -315,9 +315,9 @@
 					<UnitConstant>
 						<name>Burn_TotalDamage</name>
 						<var>
-							<compiledString>FQAAAAABAAAAFgAAAFWL7FGLRQiLEItNCIuCMAEAAP/Q3A0kAAAA2V382UX8i+VdwwAAAAAAABBA</compiledString>
+							<compiledString>FR0AAAAEAAAANQAAADoAAABSAAAAawAAAFJhYktyaXNhQnVmZgAAAABSYWJLcmlzYUJ1ZmYAVYvsg+wUi0UIixCLTQiLgjABAAD/0NwNhwAAAGgAAAAAi00IixGLTQiLgogBAADdXfj/0GgQAAAAi00IixGLTQiLgogBAADdXfD/0NwFfwAAANxN8NxF+Nld7NlF7IvlXcMAAAAAAAAgQAAAAAAAABBA</compiledString>
 							<returnType>float</returnType>
-							<sString>sStrength*4</sString>
+							<sString>4*sStrength + sender.vRabKrisaBuff*(8+sender.vRabKrisaBuff)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

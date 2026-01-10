@@ -164,6 +164,11 @@
 					<Item href="/Items/Talents/Class/Shaman/Ability_A4_2.TALENT" />
 					<Item href="/Items/Talents/Class/Bomber/Ability_A4.TALENT" />
 					<Item href="/Items/Talents/Class/Bomber/Ability_A4_2.TALENT" />
+					<Item href="/Items/Talents/Class/Chicken/Ability_A4_1.TALENT" />
+					<Item href="/Items/Talents/Class/Primevoker/Ability_A4_1.TALENT" />
+					<Item href="/Items/Talents/Class/Primevoker/Ability_A4_2.TALENT" />
+					<Item href="/Items/Talents/Class/Naga/Ability4_2.TALENT" />
+					<Item href="/Items/Talents/Class/Ratcatcher/Ability4_2_Upg.TALENT" />
 				</talents>
 				<targetAbilities>128</targetAbilities>
 				<useListAs>ListAsRule</useListAs>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BasicEffectAttached>
 	<BackLink DBID="/Heroes/Stalker/MeleeHero.APLR" Count="2" />
-	<BackLink DBID="/Items/Talents/Class/Stalker/Ability_A2.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/Stalker/Ability_A2.TALENT" Count="4" />
 	<attachFlags>0</attachFlags>
 	<attachType>Body</attachType>
 	<component href="/Effects/Shots/MeleeHit/_HeroPrimeTRS.PRXY" />

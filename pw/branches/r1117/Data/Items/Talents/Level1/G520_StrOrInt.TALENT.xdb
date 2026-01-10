@@ -133,9 +133,9 @@
 		<Item href="/Items/Talents/Level1/G520_StrOrInt.TALENT" id="814120EF-22D7-4BC9-8FD0-34CED5426DED">
 			<ConditionFormula>
 				<condition>
-					<compiledString>FQwAAAACAAAAEQAAACcAAABHNTI0X0FjdGl2ZQBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1JAAAA3+D2xEF1CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
+					<compiledString>FRkAAAAEAAAAIAAAADYAAABCAAAAWwAAAEc1MjRfQWN0aXZlAEc1MjUAAAAARzUyNQBVi+yD7AxoAAAAAItFCIsQi00Ii4KIAQAA/9DcHacAAADf4PbEQXVYaAwAAACLTQiLEYtNCIuCqAEAAP/QhcB0KmgUAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0CcdF9AEAAADrB8dF9AAAAACKRfSL5V3DAAAAAAAAAAA=</compiledString>
 					<returnType>bool</returnType>
-					<sString>sender.vG524_Active &gt; 0</sString>
+					<sString>sender.vG524_Active &gt; 0 &amp;&amp; tal("G525")</sString>
 				</condition>
 				<name>G524_Sta_StrOrInt</name>
 			</ConditionFormula>
@@ -143,9 +143,9 @@
 		<Item href="/Items/Talents/Level1/G520_StrOrInt.TALENT" id="31E1609B-9B6B-4264-A07B-C264E3624777">
 			<ConditionFormula>
 				<condition>
-					<compiledString>FQwAAAACAAAAEQAAACcAAABHNTI1X0FjdGl2ZQBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1JAAAA3+D2xEF1CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
+					<compiledString>FRkAAAAEAAAAIAAAADYAAABCAAAAWwAAAEc1MjVfQWN0aXZlAEc1MjQAAAAARzUyNABVi+yD7AxoAAAAAItFCIsQi00Ii4KIAQAA/9DcHacAAADf4PbEQXVYaAwAAACLTQiLEYtNCIuCqAEAAP/QhcB0KmgUAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0CcdF9AEAAADrB8dF9AAAAACKRfSL5V3DAAAAAAAAAAA=</compiledString>
 					<returnType>bool</returnType>
-					<sString>sender.vG525_Active &gt; 0</sString>
+					<sString>sender.vG525_Active &gt; 0 &amp;&amp; tal("G524")</sString>
 				</condition>
 				<name>G525_Will_StrOrInt</name>
 			</ConditionFormula>
@@ -179,9 +179,9 @@
 					<UnitConstant>
 						<name>Add_Stat</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9Bdw83MLEDNzEw+</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DMzPTQA==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(2.7, 0.2)</sString>
+							<sString>6.6f</sString>
 						</var>
 					</UnitConstant>
 				</Item>

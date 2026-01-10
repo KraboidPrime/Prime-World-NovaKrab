@@ -143,7 +143,7 @@
 						</add>
 						<applyTarget>ApplicatorTarget</applyTarget>
 						<checkSender>0</checkSender>
-						<damageTypeFilter>31</damageTypeFilter>
+						<damageTypeFilter>15</damageTypeFilter>
 						<flags>0</flags>
 						<matchTargetInverted>false</matchTargetInverted>
 						<mul>

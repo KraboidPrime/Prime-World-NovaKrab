@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Level6/G361_AttackSpeed_Dex_Stamina_Will.TALENT" Count="1" />
 	<name>Taunt_Duration</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DMzMzPw==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
 		<returnType>float</returnType>
-		<sString>0.7</sString>
+		<sString>2</sString>
 	</var>
 </UnitConstant>

@@ -189,9 +189,9 @@
 					<UnitConstant>
 						<name>Add_Strength</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwzMzs0DNzMw+</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(5.6, 0.4)</sString>
+							<sString>15</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -220,9 +220,9 @@
 					<UnitConstant>
 						<name>CD</name>
 						<var>
-							<compiledString>FRsAAAAEAAAAIgAAADgAAABMAAAAbAAAAEczMTJfQWN0aXZlAEczMTJfUmVkdWNlX0NEAFWL7IPsCGgAAAAAi0UIixCLTQiLgogBAAD/0NwdhgAAAN/g9sRBdR+LTQxRi1UIUmgMAAAAi0UQixCLTRCLQlD/0Nld/OsF2e7ZXfzZRfzcLXoAAADZXfjZRfiL5V3DAAAAAAAAaUAAAAAAAAAAAAAAAAA=</compiledString>
+							<compiledString>FRsAAAAEAAAAIgAAADgAAABMAAAAbAAAAEczMTJfQWN0aXZlAEczMTJfUmVkdWNlX0NEAFWL7IPsCGgAAAAAi0UIixCLTQiLgogBAAD/0NwdhgAAAN/g9sRBdR+LTQxRi1UIUmgMAAAAi0UQixCLTRCLQlD/0Nld/OsF2e7ZXfzZRfzcLXoAAADZXfjZRfiL5V3DAAAAAADAckAAAAAAAAAAAAAAAAA=</compiledString>
 							<returnType>float</returnType>
-							<sString>200 - (sender.vG312_Active&gt; 0 ? cG312_Reduce_CD : 0)</sString>
+							<sString>300 - (sender.vG312_Active&gt; 0 ? cG312_Reduce_CD : 0)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -230,9 +230,9 @@
 					<UnitConstant>
 						<name>Tech_Duration</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
 							<returnType>float</returnType>
-							<sString>5</sString>
+							<sString>3</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -343,9 +343,9 @@
 				<caption>Add_Strength</caption>
 				<customApplyType>None</customApplyType>
 				<enabled>
-					<compiledString></compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgrgAAAD/0ItNCIsRi00Ii4K8AAAA3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
 					<returnType>bool</returnType>
-					<sString>true</sString>
+					<sString>sBaseStrength &gt;= sBaseIntellect</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<LoggingEvent>-1</LoggingEvent>
@@ -373,9 +373,9 @@
 				<caption>Add_AttackSpeed</caption>
 				<customApplyType>None</customApplyType>
 				<enabled>
-					<compiledString></compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 					<returnType>bool</returnType>
-					<sString>true</sString>
+					<sString>false</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<LoggingEvent>-1</LoggingEvent>
@@ -391,6 +391,36 @@
 						<sString>1.0f</sString>
 					</multValue>
 					<stat>AttackSpeed</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level4/G336_StrAspd_TelBlock.TALENT" id="B58C4563-7F00-422E-9F39-78F1662104FC">
+			<PermanentStatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>умец</caption>
+				<customApplyType>None</customApplyType>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgrgAAAD/0ItNCIsRi00Ii4K8AAAA3V34/9DcXfjf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sBaseStrength &lt; sBaseIntellect</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQ0AAAABAAAAGQAAAEFkZF9TdHJlbmd0aABVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+						<returnType>float</returnType>
+						<sString>cAdd_Strength</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Intellect</stat>
 					<topModifier>false</topModifier>
 					<variable></variable>
 				</modifier>

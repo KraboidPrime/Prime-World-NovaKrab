@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UITexture>
-	<BackLink DBID="/Items/Talents/Level1/G321_HealForHeroKill.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level1/G321_HealForHeroKill.TALENT" Count="3" />
 	<BackLink DBID="/Items/Talents/Level1/status_G321_Debuff.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Faceless/Ability4.TALENT" Count="1" />
 	<generatedFileName></generatedFileName>
 	<importOnlyShape>false</importOnlyShape>
 	<mipLevels>0</mipLevels>

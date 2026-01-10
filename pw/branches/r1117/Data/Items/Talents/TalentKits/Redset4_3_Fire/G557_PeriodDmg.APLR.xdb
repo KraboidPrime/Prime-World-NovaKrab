@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <SpellPeriodicallyApplicator>
-	<BackLink DBID="/Items/Talents/TalentKits/Redset4_3_Fire/status_G557_Mark.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/TalentKits/Redset4_3_Fire/status_G557_Mark.APLR" Count="4" />
 	<applyTarget>ApplicatorTarget</applyTarget>
 	<behaviorFlags>145</behaviorFlags>
 	<caption>период урон всем врагам</caption>
@@ -9,9 +9,9 @@
 		<Item href="" />
 	</effect>
 	<enabled>
-		<compiledString>FQsAAAABAAAAFQAAAEc1NTdTdGF0dXMAVYvsagGLRRBQaAAAAACLTQyLEYtNDIuCnAEAAP/QM8k7RRAPlcGKwV3D</compiledString>
+		<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
 		<returnType>bool</returnType>
-		<sString>receiver.applG557Status(UNIT) != pMisc</sString>
+		<sString>true</sString>
 	</enabled>
 	<formulaName>G557_AoEPeriodDmg</formulaName>
 	<lifeTime>
@@ -21,22 +21,22 @@
 	</lifeTime>
 	<LoggingEvent>-1</LoggingEvent>
 	<period>
-		<compiledString>FREAAAABAAAAHQAAAEc1NTdfUGVyaW9kQnVyc3QAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+		<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
 		<returnType>float</returnType>
-		<sString>cG557_PeriodBurst</sString>
+		<sString>1.0f</sString>
 	</period>
 	<providerName></providerName>
 	<scaleMode>ScaleIsCount</scaleMode>
 	<spell href="/Items/Talents/TalentKits/Redset4_3_Fire/G557_FireDmg.SPLL" />
 	<startCondition>
-		<compiledString>FRIAAAABAAAAHAAAAEc1NTdfQW9FUGVyaW9kRG1nAFWL7GoBi0UQUGgAAAAAi00MixGLTQyLgpwBAAD/0DPJO0UQD5TBisFdww==</compiledString>
+		<compiledString>FQwAAAACAAAAEQAAACcAAABHNTU5X0FjdGl2ZQBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1JAAAA3+D2xEF0CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
 		<returnType>bool</returnType>
-		<sString>receiver.applG557_AoEPeriodDmg(UNIT) == pMisc</sString>
+		<sString>!(sender.vG559_Active &gt; 0)</sString>
 	</startCondition>
 	<startOffset>
-		<compiledString></compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAPw==</compiledString>
 		<returnType>float</returnType>
-		<sString>0.0f</sString>
+		<sString>0.5f</sString>
 	</startOffset>
 	<targetSelector href="/Items/Talents/TalentKits/Redset4_3_Fire/TargetSelector_A3.TGSL" />
 </SpellPeriodicallyApplicator>

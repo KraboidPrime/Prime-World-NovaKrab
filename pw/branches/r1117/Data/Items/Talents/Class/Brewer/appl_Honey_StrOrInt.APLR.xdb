@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StatModApplicator>
-	<BackLink DBID="/Items/Talents/Class/Brewer/status_Honey_0E.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Brewer/status_Honey_0E.APLR" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Brewer/status_Honey_1E.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Brewer/status_Honey_2E.APLR" Count="1" />
 	<applyTarget>ApplicatorTarget</applyTarget>

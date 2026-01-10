@@ -6,8 +6,8 @@
 	<BackLink DBID="/Items/Talents/Level6/G593_IntDexOrAtSpd.TALENT" Count="1" />
 	<name>StrCut_Amount</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQQ==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQQ==</compiledString>
 		<returnType>float</returnType>
-		<sString>20</sString>
+		<sString>25</sString>
 	</var>
 </UnitConstant>

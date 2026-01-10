@@ -620,9 +620,9 @@
 					<UnitConstant>
 						<name>A1_Damage</name>
 						<var>
-							<compiledString>FQwAAAADAAAAFwAAACEAAABWAAAAQTFfRHVyYXRpb24AVYvsg+wMagFR2QV7AAAA2RwkUdkFdwAAANkcJGoAi0UIixCLTQiLgjABAAD/0FHZHCRqAYtNEIsRi00Qi0Jg/9CLTQxRi1UIUmgAAAAAi0UQixCLTRCLQlDdXfj/0Nx9+Nld9NlF9IvlXcMAAEBCAAC0Qw==</compiledString>
+							<compiledString>FTgAAAAIAAAAPwAAAFgAAACSAAAAnAAAANEAAADyAAAA/AAAADEBAABBbmdlbF9BMV9TVVAAAAAAQW5nZWxfQTFfU1VQAAAAAEExX0R1cmF0aW9uAEExX0R1cmF0aW9uAFWL7IPsJGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdGBqAVHZBWQBAADZHCRR2QVgAQAA2RwkagCLVQiLAotNCIuQMAEAAP/SUdkcJGoBi0UQixCLTRCLQmD/0ItNDFGLVQhSaCAAAACLRRCLEItNEItCUN1d8P/Q3H3w3V3o615qAVHZBVwBAADZHCRR2QVYAQAA2RwkagCLTQiLEYtNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0ItNDFGLVQhSaCwAAACLRRCLEItNEItCUN1d4P/Q3H3g3V3o3UXo2V3c2UXci+VdwwAAaEIAANhDAACAQgCA7UM=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(sStrength, 48, 360) / cA1_Duration</sString>
+							<sString>tal("Angel_A1_SUP") ? damageScale(sStrength, 64, 475) / cA1_Duration : damageScale(sStrength, 58, 432) / cA1_Duration</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -630,9 +630,9 @@
 					<UnitConstant>
 						<name>A1_Heal</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAABAQgAAtEM=</compiledString>
+							<compiledString>FR0AAAAGAAAAJAAAAD0AAAB3AAAAgQAAALcAAADBAAAAQW5nZWxfQTFfU1VQAAAAAEFuZ2VsX0ExX1NVUABVi+yD7AxoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXRAagFR2QUDAQAA2RwkUdkF/wAAANkcJGoAi1UIiwKLTQiLkDQBAAD/0lHZHCRqAYtFEIsQi00Qi0Jg/9DZXfTrPmoBUdkF+wAAANkcJFHZBfcAAADZHCRqAItNCIsRi00Ii4I0AQAA/9BR2RwkagGLTRCLEYtNEItCYP/Q2V302UX0i+VdwwAAQEIAALRDAABUQgAAxkM=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(sIntellect, 48, 360)</sString>
+							<sString>tal("Angel_A1_SUP") ? damageScale(sIntellect, 53, 396) : damageScale(sIntellect, 48, 360)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

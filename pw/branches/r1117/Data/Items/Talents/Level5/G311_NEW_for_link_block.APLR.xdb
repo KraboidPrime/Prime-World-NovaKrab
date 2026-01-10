@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SpellApplicator>
+	<BackLink DBID="/Items/Talents/Level5/G311_K_Life_Energy.TALENT" Count="1" />
+	<BackLink DBID="/Heroes/DefaultStatus/List_AllControlAppl.APLS" Count="1" />
+	<applyTarget>ApplicatorTarget</applyTarget>
+	<caption>Блинкуем врага и накладываем на него эффекты</caption>
+	<enabled>
+		<compiledString>FR8AAAAEAAAAJAAAADoAAABGAAAAXAAAAEczMTFfZGlzX2NvbmQAAABJbW11bmUyQ29udHJvbABVi+xRaAAAAACLRQyLEItNDIuCiAEAAP/Q3B2GAAAA3+D2xAV6K2gQAAAAi00MixGLTQyLgogBAAD/0NwdfgAAAN/g9sREegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAAAAAAAAAAA4D8=</compiledString>
+		<returnType>bool</returnType>
+		<sString>receiver.vG311_dis_cond &lt; 0.5 &amp;&amp; receiver.vImmune2Control == 0 </sString>
+	</enabled>
+	<formulaName></formulaName>
+	<LoggingEvent>-1</LoggingEvent>
+	<providerName></providerName>
+	<spell href="/Items/Talents/Level5/G311_NEW_for_link_block.APLR" id="F12CCA17-6537-4E4A-8150-C4CC625EC27A">
+		<Spell>
+			<applicators>
+				<Item href="/Items/Talents/Level5/G311_For_Linken_block_apl.APLR" />
+				<Item href="/Items/Talents/Level5/G311_NEW_for_link_block.APLR" id="ACC8705E-2116-4C97-AD0F-86E7E395E076">
+					<StatModApplicator>
+						<applyTarget>ApplicatorTarget</applyTarget>
+						<behaviorFlags>0</behaviorFlags>
+						<caption>Визуал и переменная</caption>
+						<constraint>None</constraint>
+						<dontUpdate>false</dontUpdate>
+						<effect>
+							<Item href="/Effects/Shots/Lightning/_LinkBody_Blink.EFFT" />
+							<Item href="" />
+						</effect>
+						<enabled>
+							<compiledString></compiledString>
+							<returnType>bool</returnType>
+							<sString>true</sString>
+						</enabled>
+						<formulaName></formulaName>
+						<lifeTime>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
+							<returnType>float</returnType>
+							<sString>10</sString>
+						</lifeTime>
+						<LoggingEvent>-1</LoggingEvent>
+						<modifier>
+							<addValue>
+								<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+								<returnType>float</returnType>
+								<sString>1.0f</sString>
+							</addValue>
+							<multValue>
+								<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+								<returnType>float</returnType>
+								<sString>0.0f</sString>
+							</multValue>
+							<stat>Life</stat>
+							<topModifier>false</topModifier>
+							<variable>G311_dis_cond</variable>
+						</modifier>
+						<providerName></providerName>
+						<startCondition>
+							<compiledString></compiledString>
+							<returnType>bool</returnType>
+							<sString>true</sString>
+						</startCondition>
+						<statModName></statModName>
+					</StatModApplicator>
+				</Item>
+				<Item href="/Items/Talents/Level5/G311_NEW_for_link_block.APLR" id="83FC6C7D-4121-4848-A8CA-1012DBC9BB30">
+					<StatusApplicator>
+						<applicators />
+						<applyTarget>ApplicatorTarget</applyTarget>
+						<behaviorFlags>0</behaviorFlags>
+						<caption>Статус антиблинка</caption>
+						<customCounter>
+							<compiledString></compiledString>
+							<returnType>int</returnType>
+							<sString>0</sString>
+						</customCounter>
+						<customProgress>
+							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>-1.0</sString>
+						</customProgress>
+						<description textref="/Items/Talents/Level5/G311_NEW_for_link_block.APLR_83fc6c7d41214848a8ca1012dbc9bb30_description.txt" />
+						<dispellPriority>NonDispellable</dispellPriority>
+						<effect>
+							<Item href="" />
+							<Item href="" />
+						</effect>
+						<enabled>
+							<compiledString></compiledString>
+							<returnType>bool</returnType>
+							<sString>true</sString>
+						</enabled>
+						<flags>64</flags>
+						<formulaName></formulaName>
+						<image href="/UI/Styles/Icons/Talents/_311.ITEX" />
+						<lifeTime>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
+							<returnType>float</returnType>
+							<sString>10</sString>
+						</lifeTime>
+						<LoggingEvent>-1</LoggingEvent>
+						<name textref="/Items/Talents/Level5/G311_NEW_for_link_block.APLR_83fc6c7d41214848a8ca1012dbc9bb30_name.txt" />
+						<power>0</power>
+						<providerName></providerName>
+						<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+						<stackCount>0</stackCount>
+						<startCondition>
+							<compiledString></compiledString>
+							<returnType>bool</returnType>
+							<sString>true</sString>
+						</startCondition>
+						<statusPosition>0</statusPosition>
+						<stopBehaviour>StopByTime</stopBehaviour>
+						<unstackableWith href="" />
+					</StatusApplicator>
+				</Item>
+				<Item href="/Items/Talents/Level5/G311_NEW_for_link_block.APLR" id="25EB6ADF-59F2-48BB-B34C-59DB974E3ADD">
+					<StatusApplicator>
+						<applicators>
+							<Item href="/Items/Talents/Level5/G311_NEW_for_link_block.APLR" id="C0E0BAE2-7FD8-4992-8C79-5E49FA43AA27">
+								<StatModApplicator>
+									<applyTarget>ApplicatorTarget</applyTarget>
+									<behaviorFlags>0</behaviorFlags>
+									<caption></caption>
+									<constraint>None</constraint>
+									<dontUpdate>false</dontUpdate>
+									<effect>
+										<Item href="" />
+										<Item href="" />
+									</effect>
+									<enabled>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<lifeTime>
+										<compiledString></compiledString>
+										<returnType>float</returnType>
+										<sString>-1.0</sString>
+									</lifeTime>
+									<LoggingEvent>-1</LoggingEvent>
+									<modifier>
+										<addValue>
+											<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQQ==</compiledString>
+											<returnType>float</returnType>
+											<sString>20.0f</sString>
+										</addValue>
+										<multValue>
+											<compiledString></compiledString>
+											<returnType>float</returnType>
+											<sString>1.0f</sString>
+										</multValue>
+										<stat>EnergyDamageDecrease</stat>
+										<topModifier>false</topModifier>
+										<variable></variable>
+									</modifier>
+									<providerName></providerName>
+									<startCondition>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</startCondition>
+									<statModName></statModName>
+								</StatModApplicator>
+							</Item>
+							<Item href="/Items/Talents/Level5/G311_NEW_for_link_block.APLR" id="9E31D38C-2058-4F30-AB68-95A5143B89C2">
+								<StatModApplicator>
+									<applyTarget>ApplicatorTarget</applyTarget>
+									<behaviorFlags>0</behaviorFlags>
+									<caption></caption>
+									<constraint>None</constraint>
+									<dontUpdate>false</dontUpdate>
+									<effect>
+										<Item href="" />
+										<Item href="" />
+									</effect>
+									<enabled>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<lifeTime>
+										<compiledString></compiledString>
+										<returnType>float</returnType>
+										<sString>-1.0</sString>
+									</lifeTime>
+									<LoggingEvent>-1</LoggingEvent>
+									<modifier>
+										<addValue>
+											<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQQ==</compiledString>
+											<returnType>float</returnType>
+											<sString>20.0f</sString>
+										</addValue>
+										<multValue>
+											<compiledString></compiledString>
+											<returnType>float</returnType>
+											<sString>1.0f</sString>
+										</multValue>
+										<stat>MaterialDamageDecrease</stat>
+										<topModifier>false</topModifier>
+										<variable></variable>
+									</modifier>
+									<providerName></providerName>
+									<startCondition>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</startCondition>
+									<statModName></statModName>
+								</StatModApplicator>
+							</Item>
+						</applicators>
+						<applyTarget>ApplicatorTarget</applyTarget>
+						<behaviorFlags>0</behaviorFlags>
+						<caption>Резист на враге</caption>
+						<customCounter>
+							<compiledString></compiledString>
+							<returnType>int</returnType>
+							<sString>0</sString>
+						</customCounter>
+						<customProgress>
+							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>-1.0</sString>
+						</customProgress>
+						<description textref="/Items/Talents/Level5/G311_NEW_for_link_block.APLR_25eb6adf59f248bbb34c59db974e3add_description.txt" />
+						<dispellPriority>NonDispellable</dispellPriority>
+						<effect>
+							<Item href="" />
+							<Item href="" />
+						</effect>
+						<enabled>
+							<compiledString>FQ0AAAACAAAAFAAAAC0AAABHMzE2AAAAAEczMTYAVYvsg+wIaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgIAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wCKRfuL5V3D</compiledString>
+							<returnType>bool</returnType>
+							<sString>tal("G316")</sString>
+						</enabled>
+						<flags>64</flags>
+						<formulaName></formulaName>
+						<image href="/UI/Styles/Icons/Talents/_311.ITEX" />
+						<lifeTime>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
+							<returnType>float</returnType>
+							<sString>5</sString>
+						</lifeTime>
+						<LoggingEvent>-1</LoggingEvent>
+						<name textref="/Items/Talents/Level5/G311_NEW_for_link_block.APLR_25eb6adf59f248bbb34c59db974e3add_name.txt" />
+						<power>0</power>
+						<providerName></providerName>
+						<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+						<stackCount>0</stackCount>
+						<startCondition>
+							<compiledString></compiledString>
+							<returnType>bool</returnType>
+							<sString>true</sString>
+						</startCondition>
+						<statusPosition>0</statusPosition>
+						<stopBehaviour>StopByTime</stopBehaviour>
+						<unstackableWith href="" />
+					</StatusApplicator>
+				</Item>
+				<Item href="/Heroes/DefaultStatus/_STUN_Status.APLR" />
+			</applicators>
+			<dispatch href="/Items/Talents/Level5/G311_NEW_for_link_block.APLR" id="2417C659-CF63-4FBD-969B-9558A7256FEF">
+				<DispatchImmediate>
+					<alwaysApply>false</alwaysApply>
+					<applyEffect>
+						<Item href="" />
+						<Item href="" />
+					</applyEffect>
+					<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+					<applyEffectOrientation>Default</applyEffectOrientation>
+					<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+					<dieAfterApply>true</dieAfterApply>
+					<dispatchEffect>
+						<Item href="" />
+						<Item href="" />
+					</dispatchEffect>
+					<flags>0</flags>
+					<instantApply>false</instantApply>
+				</DispatchImmediate>
+			</dispatch>
+		</Spell>
+	</spell>
+	<spellTarget>ApplicatorTarget</spellTarget>
+	<targetSelector href="" />
+</SpellApplicator>

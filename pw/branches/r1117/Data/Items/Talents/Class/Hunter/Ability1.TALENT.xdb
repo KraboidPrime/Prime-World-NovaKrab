@@ -199,6 +199,8 @@
 																		</DamageApplicator>
 																	</Item>
 																	<Item href="/Heroes/DefaultStatus/_MORTALSTRIKE_Status.APLR" />
+																	<Item href="/Items/Talents/Class/Hunter/add_A0Bleeding.APLR" />
+																	<Item href="/Items/Talents/Class/Hunter/status_A0_bleeding.APLR" />
 																</applicators>
 																<dispatch href="/Items/Talents/Class/Hunter/Ability1.TALENT" id="506D9FBB-6A30-4A96-BDB9-E7CE8C501C07">
 																	<DispatchImmediate>
@@ -461,7 +463,46 @@
 						</var>
 					</UnitConstant>
 				</Item>
-				<Item href="/Items/Talents/Class/Hunter/const_A0Damage" />
+				<Item href="/Items/Talents/Class/Hunter/Ability1.TALENT" id="E7BB3F93-E1ED-4FD4-A957-359D7A20C413">
+					<UnitConstant>
+						<name>A0_DamageTT</name>
+						<var>
+							<compiledString>FTAAAAAEAAAANwAAAFAAAACGAAAApgAAAEh1bnRlcl9BMAAAAEh1bnRlcl9BMAAAAEh1bnRlcl9BMAAAAEEwX0RhbWFnZVRUAFWL7IPsEGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoDAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdDdoGAAAAItVCIsCi00Ii5CoAQAA/9KJRfSLRQxQi00IUWgkAAAAi1X0iwKLTfSLUFD/0tld8OsF2e7ZXfDZRfCL5V3DAAAAAA==</compiledString>
+							<returnType>float</returnType>
+							<sString>talconst("Hunter_A0","A0_DamageTT")</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Hunter/Ability1.TALENT" id="2F7DE9A4-483A-412B-9970-BCD84A191917">
+					<UnitConstant>
+						<name>A1u_MaxStacks</name>
+						<var>
+							<compiledString>FTIAAAAEAAAAOQAAAFIAAACIAAAAqAAAAEh1bnRlcl9BMXUAAEh1bnRlcl9BMXUAAEh1bnRlcl9BMXUAAEExdV9NYXhTdGFja3MAVYvsg+wQaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgMAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0N2gYAAAAi1UIiwKLTQiLkKgBAAD/0olF9ItFDFCLTQhRaCQAAACLVfSLAotN9ItQUP/S2V3w6wXZ7tld8NlF8IvlXcMAAAAA</compiledString>
+							<returnType>float</returnType>
+							<sString>talconst("Hunter_A1u","A1u_MaxStacks")</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Hunter/Ability1.TALENT" id="6382B641-05F0-4B6A-8399-61CA3AC41863">
+					<UnitConstant>
+						<name>A0_StartOffset</name>
+						<var>
+							<compiledString>FTMAAAAEAAAAOgAAAFMAAACJAAAAqQAAAEh1bnRlcl9BMAAAAEh1bnRlcl9BMAAAAEh1bnRlcl9BMAAAAEEwX1N0YXJ0T2Zmc2V0AFWL7IPsEGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoDAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdDdoGAAAAItVCIsCi00Ii5CoAQAA/9KJRfSLRQxQi00IUWgkAAAAi1X0iwKLTfSLUFD/0tld8OsF2e7ZXfDZRfCL5V3DAAAAAA==</compiledString>
+							<returnType>float</returnType>
+							<sString>talconst("Hunter_A0","A0_StartOffset")</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Hunter/Ability1.TALENT" id="1A0A8056-7D7C-40CD-ACF6-8AA3B6FF0980">
+					<UnitConstant>
+						<name>A0_Damage</name>
+						<var>
+							<compiledString>FS4AAAAEAAAANQAAAE4AAACEAAAApAAAAEh1bnRlcl9BMAAAAEh1bnRlcl9BMAAAAEh1bnRlcl9BMAAAAEEwX0RhbWFnZQBVi+yD7BBoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaAwAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXQ3aBgAAACLVQiLAotNCIuQqAEAAP/SiUX0i0UMUItNCFFoJAAAAItV9IsCi030i1BQ/9LZXfDrBdnu2V3w2UXwi+VdwwAAAAA=</compiledString>
+							<returnType>float</returnType>
+							<sString>talconst("Hunter_A0","A0_Damage")</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

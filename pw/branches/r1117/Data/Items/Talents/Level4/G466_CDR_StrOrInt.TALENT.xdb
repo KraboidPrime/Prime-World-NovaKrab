@@ -127,7 +127,7 @@
 	<description textref="/Items/Talents/Level4/G466_CDR_StrOrInt.TALENT_description.txt" />
 	<devPoints>1</devPoints>
 	<dispatch href="" />
-	<flags>1</flags>
+	<flags>5</flags>
 	<forceBonus>0</forceBonus>
 	<image href="/UI/Styles/Icons/Talents/_466.ITEX" />
 	<imageSecondState href="" />
@@ -151,7 +151,7 @@
 		<Item href="/Items/Talents/Level4/G466_CDR_StrOrInt.TALENT" id="FE4BCCBC-77F5-4F2B-8F38-397C1E045F47">
 			<StatModApplicator>
 				<applyTarget>AbilityOwner</applyTarget>
-				<behaviorFlags>0</behaviorFlags>
+				<behaviorFlags>216</behaviorFlags>
 				<caption>Увеличиваем Total_CooldownReduction</caption>
 				<constraint>None</constraint>
 				<dontUpdate>false</dontUpdate>

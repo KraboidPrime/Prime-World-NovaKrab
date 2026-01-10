@@ -7,7 +7,6 @@
 	<BackLink DBID="/Effects/General/Unsummon/_Blue.PRXY" Count="1" />
 	<BackLink DBID="/Effects/General/Unsummon/_Gold.PRXY" Count="1" />
 	<BackLink DBID="/Effects/General/Unsummon/_Red.PRXY" Count="1" />
-	<BackLink DBID="/Effects/Shots/Ball/_.PRXY" Count="1" />
 	<BackLink DBID="/Heroes/PlagueDoctor/FXAbility1.PRXY" Count="1" />
 	<BackLink DBID="/Heroes/PlagueDoctor/FXAbility2.PRXY" Count="1" />
 	<BackLink DBID="/Heroes/PlagueDoctor/FXAbility2Cycle.PRXY" Count="1" />

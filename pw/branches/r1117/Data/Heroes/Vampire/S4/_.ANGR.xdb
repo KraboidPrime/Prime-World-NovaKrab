@@ -2997,16 +2997,7 @@
 			<surfSpeedY>0</surfSpeedY>
 		</Item>
 		<Item>
-			<markers>
-				<Item>
-					<name>doCast1</name>
-					<virtPar>0.2</virtPar>
-				</Item>
-				<Item>
-					<name>workTime1</name>
-					<virtPar>0.4</virtPar>
-				</Item>
-			</markers>
+			<markers />
 			<nextNode>idle</nextNode>
 			<nodeName>ability1</nodeName>
 			<nodeType>Normal</nodeType>

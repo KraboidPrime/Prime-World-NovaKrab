@@ -540,6 +540,158 @@
 																								<Item href="/Items/Talents/Class/Wendigo/status_A2_Bleed.APLR" />
 																								<Item href="/Heroes/DefaultStatus/OpenEnemy_status.APLR" />
 																								<Item href="/Items/Talents/Class/Wendigo/status_A3_Root.APLR" />
+																								<Item href="/Items/Talents/Class/Wendigo/Ability3.TALENT" id="968E0AF6-B9CA-47C2-8828-F43A883D8043">
+																									<UIMessageApplicator>
+																										<applyTarget>AbilityOwner</applyTarget>
+																										<caption>текст капкан сработал</caption>
+																										<enabled>
+																											<compiledString>FQsAAAACAAAAEAAAACYAAABLYXBrYW5UZXh0AFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHUgAAADf4PbERHoJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAAAA==</compiledString>
+																											<returnType>bool</returnType>
+																											<sString>sender.vKapkanText == 0.0f</sString>
+																										</enabled>
+																										<formulaName></formulaName>
+																										<LoggingEvent>-1</LoggingEvent>
+																										<message textref="/Items/Talents/Class/Wendigo/Ability3.TALENT_968e0af6b9ca47c28828f43a883d8043_message.txt" />
+																										<providerName></providerName>
+																										<uiEvent href="/Items/Talents/Class/Wendigo/Ability3.TALENT" id="D3987583-D5DE-4A0F-92B8-9BE023C03A87">
+																											<UIEvent>
+																												<signRecipients>PLAYER_ONLY</signRecipients>
+																												<UISigns>
+																													<Item href="/Items/Talents/Class/Wendigo/Ability3.TALENT" id="0598C7F7-72B4-4644-B0D1-E8997E8A9A42">
+																														<UISignFlyOffText>
+																															<signRecipients>USE_FROM_PARENT</signRecipients>
+																															<text>
+																																<acceleration>
+																																	<x>0</x>
+																																	<y>0</y>
+																																</acceleration>
+																																<align>Center</align>
+																																<endOpacity>0</endOpacity>
+																																<layout>fly_kapkan</layout>
+																																<lifeTime>3</lifeTime>
+																																<offset>
+																																	<x>0</x>
+																																	<y>-50</y>
+																																</offset>
+																																<startOpacity>1</startOpacity>
+																																<velocity>
+																																	<x>0</x>
+																																	<y>-30</y>
+																																</velocity>
+																															</text>
+																														</UISignFlyOffText>
+																													</Item>
+																												</UISigns>
+																											</UIEvent>
+																										</uiEvent>
+																										<value>
+																											<compiledString></compiledString>
+																											<returnType>float</returnType>
+																											<sString>-1.0</sString>
+																										</value>
+																									</UIMessageApplicator>
+																								</Item>
+																								<Item href="/Items/Talents/Class/Wendigo/Ability3.TALENT" id="6D1E0BE5-9824-4A03-A522-20CB14602F50">
+																									<StatModApplicator>
+																										<applyTarget>ApplicatorTarget</applyTarget>
+																										<behaviorFlags>0</behaviorFlags>
+																										<caption>метка на карте</caption>
+																										<constraint>None</constraint>
+																										<dontUpdate>false</dontUpdate>
+																										<effect>
+																											<Item href="/Items/Talents/Class/Wendigo/Ability3.TALENT" id="C26F9E61-08EB-48CE-A124-FEAA35C4BB70">
+																												<MinimapEffect>
+																													<deathType>Manual</deathType>
+																													<effect>MarkerHostile</effect>
+																													<enableCondition href="" />
+																													<lifeTime>0</lifeTime>
+																												</MinimapEffect>
+																											</Item>
+																											<Item href="" />
+																										</effect>
+																										<enabled>
+																											<compiledString></compiledString>
+																											<returnType>bool</returnType>
+																											<sString>true</sString>
+																										</enabled>
+																										<formulaName></formulaName>
+																										<lifeTime>
+																											<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
+																											<returnType>float</returnType>
+																											<sString>3.0f</sString>
+																										</lifeTime>
+																										<LoggingEvent>-1</LoggingEvent>
+																										<modifier>
+																											<addValue>
+																												<compiledString></compiledString>
+																												<returnType>float</returnType>
+																												<sString>0.0f</sString>
+																											</addValue>
+																											<multValue>
+																												<compiledString></compiledString>
+																												<returnType>float</returnType>
+																												<sString>1.0f</sString>
+																											</multValue>
+																											<stat>Life</stat>
+																											<topModifier>false</topModifier>
+																											<variable></variable>
+																										</modifier>
+																										<providerName></providerName>
+																										<startCondition>
+																											<compiledString>FQsAAAACAAAAEAAAACYAAABLYXBrYW5UZXh0AFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHUgAAADf4PbERHoJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAAAA==</compiledString>
+																											<returnType>bool</returnType>
+																											<sString>sender.vKapkanText == 0.0f</sString>
+																										</startCondition>
+																										<statModName></statModName>
+																									</StatModApplicator>
+																								</Item>
+																								<Item href="/Items/Talents/Class/Wendigo/Ability3.TALENT" id="F0C95113-98D1-4C6E-B9F9-81511BCC6A79">
+																									<StatModApplicator>
+																										<applyTarget>AbilityOwner</applyTarget>
+																										<behaviorFlags>0</behaviorFlags>
+																										<caption>для текста про капканы</caption>
+																										<constraint>None</constraint>
+																										<dontUpdate>false</dontUpdate>
+																										<effect>
+																											<Item href="" />
+																											<Item href="" />
+																										</effect>
+																										<enabled>
+																											<compiledString></compiledString>
+																											<returnType>bool</returnType>
+																											<sString>true</sString>
+																										</enabled>
+																										<formulaName></formulaName>
+																										<lifeTime>
+																											<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
+																											<returnType>float</returnType>
+																											<sString>5.0f</sString>
+																										</lifeTime>
+																										<LoggingEvent>-1</LoggingEvent>
+																										<modifier>
+																											<addValue>
+																												<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+																												<returnType>float</returnType>
+																												<sString>1.0f</sString>
+																											</addValue>
+																											<multValue>
+																												<compiledString></compiledString>
+																												<returnType>float</returnType>
+																												<sString>1.0f</sString>
+																											</multValue>
+																											<stat>Life</stat>
+																											<topModifier>false</topModifier>
+																											<variable>KapkanText</variable>
+																										</modifier>
+																										<providerName></providerName>
+																										<startCondition>
+																											<compiledString>FQsAAAACAAAAEAAAACYAAABLYXBrYW5UZXh0AFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHUgAAADf4PbERHoJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAAAA==</compiledString>
+																											<returnType>bool</returnType>
+																											<sString>sender.vKapkanText == 0.0f</sString>
+																										</startCondition>
+																										<statModName></statModName>
+																									</StatModApplicator>
+																								</Item>
 																							</applicators>
 																							<dispatch href="/Items/Talents/Class/Wendigo/Ability3.TALENT" id="C05E10CC-2694-4C3B-A7C6-273F29147B3A">
 																								<DispatchImmediate>

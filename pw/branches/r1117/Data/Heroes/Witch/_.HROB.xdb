@@ -758,9 +758,9 @@
 																<cancelInvisibility>false</cancelInvisibility>
 																<caption>(А3) доп урон</caption>
 																<damage>
-																	<compiledString>FRcAAAADAAAALgAAAEEAAABsAAAAQTNfQnVmZkRtZwAAaXNDcml0aWNhbABVi+yD7AyLRRCLEItNEItCSP/QiUX8aAwAAACLTfyLEYtN/ItCVP/Q3B2OAAAA3+D2xER6B9no2V346xCLTQiLEYtNCItCIP/Q2V34i00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ/9DYTfjZXfTZRfSL5V3DAACAPwAAAAAAAAAA</compiledString>
+																	<compiledString>FQsAAAABAAAAFwAAAEEzX0J1ZmZEbWcAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
 																	<returnType>float</returnType>
-																	<sString>cA3_BuffDmg * ($ParentApplVariable("isCritical") == 0 ? 1 : sCritMult)</sString>
+																	<sString>cA3_BuffDmg</sString>
 																</damage>
 																<damageMode>4</damageMode>
 																<damageType>Material</damageType>
@@ -922,7 +922,7 @@
 					<toLocator>Body</toLocator>
 				</DispatchLinear>
 			</dispatch>
-			<flags>1</flags>
+			<flags>5</flags>
 			<image href="" />
 			<imageSecondState href="" />
 			<isMelee>false</isMelee>

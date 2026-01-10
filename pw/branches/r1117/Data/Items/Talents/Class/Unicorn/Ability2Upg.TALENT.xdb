@@ -61,9 +61,9 @@
 					<UnitConstant>
 						<name>A2u_Damage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAABQQQAAxkI=</compiledString>
+							<compiledString>FR8AAAAGAAAAJgAAAD8AAAB5AAAAgwAAALkAAADDAAAAVW5pY29ybl9BMl9TVVAAAFVuaWNvcm5fQTJfU1VQAFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdEBqAVHZBQUBAADZHCRR2QUBAQAA2RwkagCLVQiLAotNCIuQNAEAAP/SUdkcJGoBi0UQixCLTRCLQmD/0Nld9Os+agFR2QX9AAAA2RwkUdkF+QAAANkcJGoAi00IixGLTQiLgjQBAAD/0FHZHCRqAYtNEIsRi00Qi0Jg/9DZXfTZRfSL5V3DAABQQQAAxkIAAKBBAAAVQw==</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(sIntellect, 13, 99)</sString>
+							<sString>tal("Unicorn_A2_SUP") ? damageScale(sIntellect, 20, 149) : damageScale(sIntellect, 13, 99)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

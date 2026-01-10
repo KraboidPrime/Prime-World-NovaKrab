@@ -5,8 +5,8 @@
 	<BackLink DBID="/Items/Talents/Level2/G296_LifeRegen.TALENT" Count="1" />
 	<name>MaxStacks</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
+		<compiledString>FR0AAAAEAAAAJAAAAD0AAABrAAAAhAAAAEcyOTYAAAAARzI5NgAAAABHMzAyAAAAAEczMDIAVYvsg+wUaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgIAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wBoEAAAAItNCIsRi00Ii4KoAQAA/9CFwHQqaBgAAACLTQiLEYtNCIuCqAEAAP/QiUX0i030ixGLTfSLQgT/0IhF8+sExkXzAA+2TfsPtlXzA8pryQaDwQWJTezbReyL5V3D</compiledString>
 		<returnType>float</returnType>
-		<sString>5</sString>
+		<sString>5 + 6*(tal("G296") + tal("G302"))</sString>
 	</var>
 </UnitConstant>

@@ -1845,6 +1845,10 @@
 			<material href="/UI/Styles/Icons/Atributes/TTSet17_red.MTRL" />
 			<name>TTRedSet11_big</name>
 		</Item>
+		<Item>
+			<material href="/UI/Styles/Icons/Atributes/TTSet18_red.MTRL" />
+			<name>TTRedSet12_big</name>
+		</Item>
 	</styleAliases>
 	<substitutes>
 		<Item>
@@ -2290,6 +2294,10 @@
 		<Item>
 			<captionText textref="/UI/UIRoot_substitutes_110_captionText.txt" />
 			<id>TTCastLimitLackBombs</id>
+		</Item>
+		<Item>
+			<captionText textref="/UI/UIRoot_substitutes_111_captionText.txt" />
+			<id>TTKitRedSet_New_Year</id>
 		</Item>
 	</substitutes>
 	<votingForSurrender href="/UI/Content/VotingForSurrender" />

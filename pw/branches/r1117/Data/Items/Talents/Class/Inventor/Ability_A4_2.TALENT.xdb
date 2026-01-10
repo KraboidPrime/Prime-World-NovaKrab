@@ -16,7 +16,7 @@
 		<sString>true</sString>
 	</allowChase>
 	<alternativeTargets />
-	<aoeDisplayOnMinimap>false</aoeDisplayOnMinimap>
+	<aoeDisplayOnMinimap>true</aoeDisplayOnMinimap>
 	<aoeHeight>0</aoeHeight>
 	<aoeMaterial href="" />
 	<aoePassabilityCheckMode>0</aoePassabilityCheckMode>
@@ -320,7 +320,7 @@
 					<UnitPlaceCorrector>
 						<checkByRangeToRequester>false</checkByRangeToRequester>
 						<checkLineOfSight>false</checkLineOfSight>
-						<nativeTerrainOnly>true</nativeTerrainOnly>
+						<nativeTerrainOnly>false</nativeTerrainOnly>
 						<passabilityCheckMode>0</passabilityCheckMode>
 						<radius>10</radius>
 						<targetSelector href="/Items/Talents/Class/Inventor/Ability_A4_2.TALENT" id="029EE7F5-9CC7-4EDC-88ED-495C22B91F50">
@@ -361,9 +361,9 @@
 					<UnitConstant>
 						<name>DetailsCost</name>
 						<var>
-							<compiledString>FSYAAAACAAAALQAAAEYAAABJbnZlbnRvcl9BNF8yX1NVUAAAAEludmVudG9yX0E0XzJfU1VQAFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoFAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+/fZG8mD4eeDwUuJTfTbRfSL5V3D</compiledString>
+							<compiledString>FSYAAAACAAAALQAAAEYAAABJbnZlbnRvcl9BNF8yX1NVUAAAAEludmVudG9yX0E0XzJfU1VQAFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoFAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+/fZG8mD4c6DwUuJTfTbRfSL5V3D</compiledString>
 							<returnType>float</returnType>
-							<sString>tal("Inventor_A4_2_SUP") ? 50 : 75</sString>
+							<sString>tal("Inventor_A4_2_SUP") ? 25 : 75</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -381,9 +381,9 @@
 					<UnitConstant>
 						<name>A4_DamageTower_TT</name>
 						<var>
-							<compiledString>FQAAAAABAAAANgAAAFWL7FGLRQiLEItNCIuCNAEAAP/QUdkcJItNCIsRi00Ii4IwAQAA/9BR2Rwk6BsAAACDxAjcDUQAAADZXfzZRfyL5V3DmpmZmZmZ8T9Vi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
+							<compiledString>FQAAAAACAAAANgAAADwAAABVi+xRi0UIixCLTQiLgjQBAAD/0FHZHCSLTQiLEYtNCIuCMAEAAP/QUdkcJOgpAAAAg8QI3A1SAAAA3AVKAAAA2V382UX8i+VdwwAAAAAAAE5AmpmZmZmZ2T9Vi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
 							<returnType>float</returnType>
-							<sString> max( sStrength, sIntellect) *1.1</sString>
+							<sString>max( sStrength, sIntellect) *0.4 + 60</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -401,9 +401,9 @@
 					<UnitConstant>
 						<name>A4_Health_TT</name>
 						<var>
-							<compiledString>FQAAAAABAAAANgAAAFWL7FGLRQiLEItNCIuCNAEAAP/QUdkcJItNCIsRi00Ii4IwAQAA/9BR2Rwk6BsAAACDxAjcDUQAAADZXfzZRfyL5V3DAAAAAAAAJkBVi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
+							<compiledString>FQAAAAACAAAANgAAADwAAABVi+xRi0UIixCLTQiLgjQBAAD/0FHZHCSLTQiLEYtNCIuCMAEAAP/QUdkcJOgpAAAAg8QI3A1SAAAA3CVKAAAA2V382UX8i+VdwwAAAAAA4JVAAAAAAAAAPkBVi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
 							<returnType>float</returnType>
-							<sString>max(sStrength, sIntellect) * 11</sString>
+							<sString>max(sStrength, sIntellect) * 30 - 1400</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -427,6 +427,16 @@
 						</var>
 					</UnitConstant>
 				</Item>
+				<Item href="/Items/Talents/Class/Inventor/Ability_A4_2.TALENT" id="F162B82A-A48C-4304-9719-FC0338D1CC3E">
+					<UnitConstant>
+						<name>TT_Stat_4</name>
+						<var>
+							<compiledString>FQAAAAACAAAANgAAADwAAABVi+xRi0UIixCLTQiLgjABAAD/0FHZHCSLTQiLEYtNCIuCNAEAAP/QUdkcJOgpAAAAg8QI3A1SAAAA3AVKAAAA2V382UX8i+VdwwAAAAAAAPA/exSuR+F6tD9Vi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
+							<returnType>float</returnType>
+							<sString>0.08*max(sIntellect, sStrength) + 1</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
@@ -435,9 +445,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAC0Qg==</compiledString>
+		<compiledString>FSYAAAACAAAALQAAAEYAAABJbnZlbnRvcl9BNF8yX1NVUAAAAEludmVudG9yX0E0XzJfU1VQAFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoFAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+/fZG8mD4fGBwYwAAACJTfTbRfSL5V3D</compiledString>
 		<returnType>float</returnType>
-		<sString>90</sString>
+		<sString>tal("Inventor_A4_2_SUP") ? 125 : 140</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>
@@ -518,7 +528,7 @@
 	</microAI>
 	<minLevel>2</minLevel>
 	<minUseRangeCorrection>0</minUseRangeCorrection>
-	<naftaCost>660</naftaCost>
+	<naftaCost>540</naftaCost>
 	<name textref="/Items/Talents/Class/Inventor/Ability_A4_2.TALENT_name.txt" />
 	<node></node>
 	<passiveApplicators>
@@ -580,9 +590,9 @@
 	<type>Active</type>
 	<upgradeLevel>0</upgradeLevel>
 	<useRange>
-		<compiledString>FQkAAAABAAAAFQAAAEE0X1JhbmdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+		<compiledString>FQwAAAABAAAAGAAAAFJhbmdlX1Nob3J0AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
 		<returnType>float</returnType>
-		<sString>cA4_Range</sString>
+		<sString>cRange_Short</sString>
 	</useRange>
 	<useRangeMaterial href="" />
 	<variativeMaxTalentStats />

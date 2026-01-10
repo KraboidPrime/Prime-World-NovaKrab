@@ -102,6 +102,7 @@
 			</RefreshCooldownApplicator>
 		</Item>
 		<Item href="/Heroes/DefaultStatus/_HASTE_status.APLR" />
+		<Item href="/Items/Talents/Class/Stalker/status_NEW_def_Stalk.APLR" />
 	</applicators>
 	<askId>3</askId>
 	<autoTargetSelector href="" />
@@ -156,9 +157,9 @@
 					<UnitConstant>
 						<name>A3_CDReduceTT</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQg==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQg==</compiledString>
 							<returnType>float</returnType>
-							<sString>50</sString>
+							<sString>80</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -202,6 +203,7 @@
 						</var>
 					</UnitConstant>
 				</Item>
+				<Item href="/Items/Talents/Class/Stalker/const_A1_Stamina" />
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

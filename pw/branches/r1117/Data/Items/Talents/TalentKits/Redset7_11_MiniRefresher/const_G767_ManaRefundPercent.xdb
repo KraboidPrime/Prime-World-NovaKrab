@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Level3/G766_MiniRefresher.TALENT" Count="1" />
 	<name>G767_ManaRefundPercent</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQg==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQg==</compiledString>
 		<returnType>float</returnType>
-		<sString>50</sString>
+		<sString>120</sString>
 	</var>
 </UnitConstant>

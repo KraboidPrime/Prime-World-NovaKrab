@@ -100,9 +100,9 @@
 					<UnitConstant>
 						<name>A3u_AspdMaxStacks</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADgQA==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAQA==</compiledString>
 							<returnType>float</returnType>
-							<sString>7</sString>
+							<sString>4</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -131,9 +131,9 @@
 					<UnitConstant>
 						<name>A3u_AspdBuffPerStack</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAFHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoAi00QixGLTRCLQmD/0F3DMzMzPwAAoEA=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAFHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoAi00QixGLTRCLQmD/0F3DZmamP83MDEE=</compiledString>
 							<returnType>float</returnType>
-							<sString>abilityScale( sIntellect, 0.7f, 5.0f, false)</sString>
+							<sString>abilityScale( sIntellect, 1.3f, 8.8f, false)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -194,9 +194,9 @@
 	<isUltimateTalent>false</isUltimateTalent>
 	<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
 	<manaCost>
-		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQQ==</compiledString>
 		<returnType>float</returnType>
-		<sString>0</sString>
+		<sString>25</sString>
 	</manaCost>
 	<marker></marker>
 	<microAI href="/Items/Talents/Class/Witch/Ability_A3.TALENT" id="246CAD40-234A-40FE-8D45-F41BA053B882">

@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <HeroSkin>
 	<BackLink DBID="/Heroes/Mage/_.HROB" Count="1" />
+	<BackLink DBID="/Heroes/Chicken/_.HROB" Count="1" />
 	<antagonistSkinId></antagonistSkinId>
 	<askList href="/Heroes/Mage/S1/_A.HEROSKIN" id="01863BC1-4170-4D2E-B722-D77093F77F08">
 		<AskSoundsRef>

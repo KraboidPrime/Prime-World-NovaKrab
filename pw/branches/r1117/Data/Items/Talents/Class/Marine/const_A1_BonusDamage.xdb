@@ -5,8 +5,8 @@
 	<BackLink DBID="/Heroes/Marine/_.HROB" Count="1" />
 	<name>A1_BonusDamage</name>
 	<var>
-		<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAAEQgAAekM=</compiledString>
+		<compiledString>FRcAAAAGAAAAHgAAADcAAAB2AAAAfAAAAJUAAACfAAAATWFyaW5lX0ExdQAATWFyaW5lX0ExdQBVi+yD7BhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaAwAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AItNCIsRi00Ii4K4AAAA/9DcDfMAAADcJesAAAAPtk37iU3020X03snZ6N7BagFR2QXfAAAA2RwkUdkF2wAAANkcJGoAi1UIiwKLTQiLkDABAADdXez/0lHZHCRqAYtFEIsQi00Qi0Jg/9DcTezZXejZReiL5V3DAAAEQgAAekMAAAAAAADwP3sUrkfhepQ/LUMc6+I2Oj8=</compiledString>
 		<returnType>float</returnType>
-		<sString>damageScale(sStrength,33,250)</sString>
+		<sString>(1+(0.0004*sBaseStrength-0.02)*tal("Marine_A1u"))*damageScale(sStrength,33,250)</sString>
 	</var>
 </UnitConstant>

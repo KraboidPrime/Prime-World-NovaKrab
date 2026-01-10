@@ -140,7 +140,7 @@
 			<instantApply>false</instantApply>
 		</DispatchImmediate>
 	</dispatch>
-	<flags>19</flags>
+	<flags>32787</flags>
 	<forceBonus>0</forceBonus>
 	<image href="/UI/Styles/Icons/Talents/_658.ITEX" />
 	<imageSecondState href="" />
@@ -259,15 +259,15 @@
 	<shortDescription textref="/Items/Talents/Level4/G658_InvisibilityStrOrInt.TALENT_shortDescription.txt" />
 	<talentRollGroups>0</talentRollGroups>
 	<talentStats />
-	<targetType>0</targetType>
+	<targetType>1342177283</targetType>
 	<type>Active</type>
 	<upgradeLevel>0</upgradeLevel>
 	<useRange>
-		<compiledString></compiledString>
+		<compiledString>FQ0AAAABAAAAGQAAAFJhbmdlX01lZGl1bQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
 		<returnType>float</returnType>
-		<sString>0.0f</sString>
+		<sString>cRange_Medium</sString>
 	</useRange>
-	<useRangeMaterial href="" />
+	<useRangeMaterial href="/Effects/UI/AOESelection/Radius.MTRL" />
 	<variativeMaxTalentStats />
 	<variativeMinTalentStats />
 	<vendorCost>0</vendorCost>

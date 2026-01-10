@@ -120,32 +120,32 @@
 			<calcIncrement>0</calcIncrement>
 			<calcValue>0</calcValue>
 			<increment>
-				<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQQ==</compiledString>
+				<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQQ==</compiledString>
 				<returnType>float</returnType>
-				<sString>30</sString>
+				<sString>15</sString>
 			</increment>
 			<levelUpgrades />
 			<statId>Stamina</statId>
 			<value>
-				<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAYQg==</compiledString>
+				<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACCQg==</compiledString>
 				<returnType>float</returnType>
-				<sString>38</sString>
+				<sString>65</sString>
 			</value>
 		</Item>
 		<Item>
 			<calcIncrement>0</calcIncrement>
 			<calcValue>0</calcValue>
 			<increment>
-				<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQQ==</compiledString>
+				<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQQ==</compiledString>
 				<returnType>float</returnType>
-				<sString>30</sString>
+				<sString>15</sString>
 			</increment>
 			<levelUpgrades />
 			<statId>Will</statId>
 			<value>
-				<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAYQg==</compiledString>
+				<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACCQg==</compiledString>
 				<returnType>float</returnType>
-				<sString>38</sString>
+				<sString>65</sString>
 			</value>
 		</Item>
 		<Item>

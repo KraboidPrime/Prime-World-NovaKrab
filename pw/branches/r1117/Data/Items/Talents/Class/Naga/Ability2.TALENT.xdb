@@ -14,6 +14,7 @@
 	<BackLink DBID="/Test/Talents/Naga/Elite_Will.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Naga/Epic_Str.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Naga/Epic_Will.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Naga/Ability_A1_SUP.TALENT" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -55,6 +56,16 @@
 					<sString>tal("Naga_A2u1") == false</sString>
 				</condition>
 				<name>Naga_A2u1</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Items/Talents/Class/Naga/Ability2.TALENT" id="A059AF3D-86F0-4127-9941-AC2B5610504E">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRgAAAACAAAAHwAAADgAAABOYWdhX0ExX1NVUABOYWdhX0ExX1NVUABVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaAwAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2Rfv32BvAg8ABi+Vdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("Naga_A1_SUP") == false</sString>
+				</condition>
+				<name>Naga_A1_SUP</name>
 			</ConditionFormula>
 		</Item>
 	</conditionFormulas>

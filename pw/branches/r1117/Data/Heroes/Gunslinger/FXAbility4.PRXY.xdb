@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DBSceneComponent>
 	<BackLink DBID="/Heroes/Gunslinger/FXAbility4R.EFFT" Count="1" />
+	<BackLink DBID="/Heroes/Gunslinger/FXAbility4L.EFFT" Count="1" />
 	<attached>
 		<Item>
 			<attachFlags>15</attachFlags>

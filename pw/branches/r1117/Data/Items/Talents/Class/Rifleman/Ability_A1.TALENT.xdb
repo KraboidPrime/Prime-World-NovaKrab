@@ -3,7 +3,7 @@
 	<BackLink DBID="/Social.ROOT" Count="1" />
 	<BackLink DBID="/Items/Talents/Rifleman.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Rifleman_Alternative.TALENTSET" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Rifleman/Ability_A1.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Rifleman/Ability_A1.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Rifleman/Ability_A1_SUP.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Rifleman/Ability_A1u.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset6_2_CDR/appl_Redset6_2_RefreshCooldown.APLR" Count="1" />
@@ -94,6 +94,114 @@
 				<spellTarget>ApplicatorTarget</spellTarget>
 				<targetSelector href="/Items/Talents/Class/Rifleman/A1_TargetSelector.TGSL" />
 			</SpellApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/Rifleman/Ability_A1.TALENT" id="1E332867-CB5C-4C86-9D55-501A0F461DA8">
+			<FlagsApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>запрет на спам</caption>
+				<consumables />
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<flag>1024</flag>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzcxMPg==</compiledString>
+					<returnType>float</returnType>
+					<sString>0.2f</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<talents>
+					<Item href="/Items/Talents/Class/Rifleman/Ability_A1.TALENT" />
+				</talents>
+				<useListAs>ListAsRule</useListAs>
+			</FlagsApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/Rifleman/Ability_A1.TALENT" id="E0B98313-77A0-46B5-94CF-DB08F8033B95">
+			<StatModApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>звук</caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="/Items/Talents/Class/Rifleman/Ability_A1.TALENT" id="E72B93CC-AAD5-4ABF-BA97-44D584F2E0D3">
+						<BasicEffectAttached>
+							<attachFlags>0</attachFlags>
+							<attachType>General</attachType>
+							<component href="/Items/Talents/Class/Rifleman/Ability_A1.TALENT" id="49BC7EB8-D622-410C-9FE5-C2D35FBD13E6">
+								<DBSoundSceneComponent>
+									<attached />
+									<caption>sound_ability1</caption>
+									<desc>
+										<eventName>Whistle</eventName>
+										<groupName>Heroes/Rifleman/Animations</groupName>
+										<projectName>PF</projectName>
+									</desc>
+									<groupFlags>0</groupFlags>
+									<locatorList href="" />
+									<orientation>Default</orientation>
+									<timeInterval>0</timeInterval>
+								</DBSoundSceneComponent>
+							</component>
+							<deathType>Manual</deathType>
+							<enableCondition href="" />
+							<fadeIn>0</fadeIn>
+							<fadeOut>0</fadeOut>
+							<groupFlags>0</groupFlags>
+							<lifeTime>0</lifeTime>
+						</BasicEffectAttached>
+					</Item>
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
+					<returnType>float</returnType>
+					<sString>3</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>0.0f</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Life</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
 		</Item>
 	</applicators>
 	<askId>1</askId>
@@ -263,9 +371,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 		<returnType>float</returnType>
-		<sString>1</sString>
+		<sString>0.0f</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>
@@ -293,7 +401,7 @@
 			<instantApply>false</instantApply>
 		</DispatchImmediate>
 	</dispatch>
-	<flags>32771</flags>
+	<flags>98323</flags>
 	<forceBonus>6</forceBonus>
 	<image href="/UI/Styles/Icons/Heroes/Rifleman/A1.ITEX" />
 	<imageSecondState href="" />
@@ -306,13 +414,13 @@
 		<returnType>float</returnType>
 		<sString>0</sString>
 	</manaCost>
-	<marker>doCast1</marker>
+	<marker></marker>
 	<microAI href="" />
 	<minLevel>0</minLevel>
 	<minUseRangeCorrection>0</minUseRangeCorrection>
 	<naftaCost>300</naftaCost>
 	<name textref="/Items/Talents/Class/Rifleman/Ability_A1.TALENT_name.txt" />
-	<node>ability1</node>
+	<node></node>
 	<passiveApplicators>
 		<Item href="/Items/Talents/Class/Rifleman/Ability_A1.TALENT" id="15964584-ED06-4628-B919-8B85906CC6E9">
 			<SpellPeriodicallyApplicator>

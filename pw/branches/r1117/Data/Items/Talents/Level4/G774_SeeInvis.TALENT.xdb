@@ -4,7 +4,6 @@
 	<BackLink DBID="/GameLogic/TalentGroup.TGRP" Count="1" />
 	<BackLink DBID="/Social/TalentsCollection" Count="8" />
 	<BackLink DBID="/Social/Quests/TalentQuests/_Settings" Count="1" />
-	<BackLink DBID="/Items/Talents/Level5/G073_SeeInvis_Life.TALENT" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -39,7 +38,7 @@
 	<compiledDescriptionB textref="" />
 	<conditionFormulas />
 	<conflictingTalents>
-		<Item href="/Items/Talents/Level5/G073_SeeInvis_Life.TALENT" />
+		<Item href="" />
 	</conflictingTalents>
 	<constants href="/Items/Talents/Level4/G774_SeeInvis.TALENT" id="E771A589-6C2E-4A6E-8D65-A4FD609E293F">
 		<UnitConstantsContainer>
@@ -112,9 +111,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQg==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAC0Qg==</compiledString>
 		<returnType>float</returnType>
-		<sString>60</sString>
+		<sString>90</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>

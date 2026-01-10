@@ -189,9 +189,9 @@
 	</processor>
 	<providerName></providerName>
 	<startCondition>
-		<compiledString>FSEAAAADAAAAJgAAADwAAABOAAAAUmVkc2V0N183Q291bnRlcgAAAABHbHlwaFRyaWdnZXIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdfgAAAN/g9sQBdSlqAItNEFFoFAAAAItVCIsCi00Ii5CcAQAA/9I7RRB1CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAEA=</compiledString>
+		<compiledString>FSEAAAADAAAAJgAAADwAAABOAAAAUmVkc2V0N183Q291bnRlcgAAAABHbHlwaFRyaWdnZXIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdfgAAAN/g9sQBdSlqAItNEFFoFAAAAItVCIsCi00Ii5CcAQAA/9I7RRB1CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAACEA=</compiledString>
 		<returnType>bool</returnType>
-		<sString>sender.vRedset7_7Counter &gt;=2 &amp;&amp; sender.applGlyphTrigger(GLOBAL) == pMisc</sString>
+		<sString>sender.vRedset7_7Counter &gt;=3 &amp;&amp; sender.applGlyphTrigger(GLOBAL) == pMisc</sString>
 	</startCondition>
 	<useAbilityCooldown>false</useAbilityCooldown>
 	<useAbilityOwnerMana>false</useAbilityOwnerMana>

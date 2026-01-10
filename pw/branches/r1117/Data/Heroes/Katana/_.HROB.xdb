@@ -1166,34 +1166,7 @@
 		</StatsContainer>
 	</stats>
 	<summonedUnits />
-	<targetingParams href="/Heroes/Katana/_.HROB" id="B2B983AF-A2AD-4A75-A028-7603793E4A9D">
-		<UnitTargetingParameters parent="/GameLogic/TargetingParams_HeroMelee.UNTP">
-			<unitTargetWeight>
-				<Item>11</Item>
-				<Item>11</Item>
-				<Item skip="1" />
-				<Item skip="1" />
-				<Item skip="1" />
-				<Item skip="1" />
-				<Item skip="1" />
-				<Item skip="1" />
-				<Item skip="1" />
-				<Item skip="1" />
-				<Item skip="1" />
-				<Item skip="1" />
-				<Item skip="1" />
-				<Item skip="1" />
-				<Item skip="1" />
-				<Item skip="1" />
-				<Item skip="1" />
-				<Item skip="1" />
-				<Item skip="1" />
-				<Item skip="1" />
-				<Item skip="1" />
-				<Item skip="1" />
-			</unitTargetWeight>
-		</UnitTargetingParameters>
-	</targetingParams>
+	<targetingParams href="/GameLogic/TargetingParams_HeroMelee.UNTP" />
 	<totalStatsBudget>4.6</totalStatsBudget>
 	<uniqueResource href="" />
 </Hero>

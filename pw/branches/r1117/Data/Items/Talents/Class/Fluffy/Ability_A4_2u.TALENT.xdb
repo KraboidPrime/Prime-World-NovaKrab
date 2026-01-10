@@ -58,6 +58,16 @@
 				<name>Fluffy_A0</name>
 			</ConditionFormula>
 		</Item>
+		<Item href="/Items/Talents/Class/Fluffy/Ability_A4_2u.TALENT" id="86C5463B-2133-4528-B793-A440264454E4">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FR4AAAACAAAAJQAAAD4AAABGbHVmZnlfQTFfU1VQAAAARmx1ZmZ5X0ExX1NVUABVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2Rfv32BvAg8ABi+Vdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("Fluffy_A1_SUP") == false</sString>
+				</condition>
+				<name>Fluffy_A1SUP</name>
+			</ConditionFormula>
+		</Item>
 	</conditionFormulas>
 	<conflictingTalents>
 		<Item href="/Items/Talents/Class/Fluffy/Ability_A4.TALENT" />
@@ -69,6 +79,7 @@
 				<Item href="/Items/Talents/Class/Fluffy/const_A0_ArmorCut_Duration" />
 				<Item href="/Items/Talents/Class/Fluffy/const_A0_ArmorCut_Amount" />
 				<Item href="/Items/Talents/Class/Fluffy/const_A0_WillCut_Amount" />
+				<Item href="/Items/Talents/Class/Fluffy/const_A4u_PanicDuration" />
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

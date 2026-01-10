@@ -5,8 +5,8 @@
 	<BackLink DBID="/Items/Talents/Class/Banshee/Ability_A1.TALENT" Count="1" />
 	<name>A0_Deregen</name>
 	<var>
-		<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAFHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCOAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DzcxMQAAAwEE=</compiledString>
+		<compiledString>FR8AAAAGAAAAJgAAAD8AAAB9AAAAhwAAAFgBAABiAQAAQmFuc2hlZV9BM19TVVAAAEJhbnNoZWVfQTNfU1VQAFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJD4TbAAAAagBR2QWcAQAA2RwkUdkFmAEAANkcJGoAi1UIiwKLTQiLkMwAAAD/0lHZHCSLRQiLEItNCIuCyAAAAP/QUdkcJOjjAAAAg8QE2Rwki00IixGLTQiLgowAAAD/0FHZHCSLTQiLEYtNCIuCwAAAAP/QUdkcJOiwAAAAg8QE2Rwki00IixGLTQiLgrgAAAD/0FHZHCSLTQiLEYtNCIuCvAAAAP/QUdkcJOh9AAAAg8QE2Rwk6HIAAACDxATZHCToZwAAAIPEBNkcJGoBi00QixGLTRCLQmD/0Nld9Os+agBR2QWcAQAA2RwkUdkFmAEAANkcJGoAi00IixGLTQiLgjgBAAD/0FHZHCRqAYtNEIsRi00Qi0Jg/9DZXfTZRfSL5V3DzcxMQAAAwEFVi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
 		<returnType>float</returnType>
-		<sString>damageScale(sDexterity, 3.2, 24, false)</sString>
+		<sString>tal("Banshee_A3_SUP") ? damageScale(max(max(max(sBaseIntellect,sBaseStrength),max(sBaseDexterity,sBaseAttackSpeed)),max(sBaseStamina,sBaseWill)), 3.2, 24, false) : damageScale(sDexterity, 3.2, 24, false)</sString>
 	</var>
 </UnitConstant>

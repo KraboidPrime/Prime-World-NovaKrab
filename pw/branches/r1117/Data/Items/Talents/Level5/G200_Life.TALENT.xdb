@@ -70,9 +70,9 @@
 					<UnitConstant>
 						<name>Add_Life</name>
 						<var>
-							<compiledString>FQsAAAACAAAAGgAAADcAAABMaWZlQnVkZ2V0AFWL7IPsDFHZ6NkcJFHZBVgAAADZHCSLRRCLEItNEItCbP/Qi00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ3V34/9DcTfjZXfTZRfSL5V3DMzNTQQAAgD8=</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAIBERA==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(13.2,1)*cLifeBudget</sString>
+							<sString>786</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -150,7 +150,7 @@
 	</passiveApplicators>
 	<persistentId>G200</persistentId>
 	<prerequisiteTalents />
-	<rarity>excellent</rarity>
+	<rarity>magnificent</rarity>
 	<requireLineOfSight>true</requireLineOfSight>
 	<shortDescription textref="/Items/Talents/Level5/G200_Life.TALENT_shortDescription.txt" />
 	<talentRollGroups>20</talentRollGroups>

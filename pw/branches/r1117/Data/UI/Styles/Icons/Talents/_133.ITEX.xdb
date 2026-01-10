@@ -2,7 +2,6 @@
 <UITexture>
 	<BackLink DBID="/Creeps/Champions/Champion3/Aura.APLR" Count="1" />
 	<BackLink DBID="/Creeps/Champions/Champion3/Fake_Status.APLR" Count="1" />
-	<BackLink DBID="/Items/Talents/Level2/G133_PrimefromCreeps.TALENT" Count="1" />
 	<generatedFileName></generatedFileName>
 	<importOnlyShape>false</importOnlyShape>
 	<mipLevels>0</mipLevels>

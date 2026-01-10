@@ -68,6 +68,16 @@
 				<Item href="/Items/Talents/Class/Monster/const_A4u_StackCooldown" />
 				<Item href="/Items/Talents/Class/Monster/const_A4_MaxToxinStacks" />
 				<Item href="/Items/Talents/Class/Monster/const_A4u_BaseStackCooldown" />
+				<Item href="/Items/Talents/Class/Monster/Ability_A4u.TALENT" id="52BA6CC6-FDA2-405C-8F08-57C29EA90975">
+					<UnitConstant>
+						<name>Pen_Buff_single_TT</name>
+						<var>
+							<compiledString>FQAAAAACAAAAFgAAABwAAABVi+xRi0UIixCLTQiLgjQBAAD/0NwNMgAAANwFKgAAANld/NlF/IvlXcMAAAAAAADwP3sUrkfhepQ/</compiledString>
+							<returnType>float</returnType>
+							<sString>0.02*sIntellect+1</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

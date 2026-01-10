@@ -47,6 +47,7 @@
 	<BackLink DBID="/Social/TalentsCollection" Count="2" />
 	<BackLink DBID="/Test/Talents/TestSet16.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/RedSet7_11.TALENTSET" Count="1" />
+	<BackLink DBID="/Test/Talents/Assassin/New_SUP.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>

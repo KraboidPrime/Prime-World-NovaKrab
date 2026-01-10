@@ -131,9 +131,9 @@
 								<UnitConstant>
 									<name>A3_Damage</name>
 									<var>
-										<compiledString>FQAAAAACAAAAMQAAADsAAABVi+yD7AiLRQiLEItNCIuCfAEAAP/QiUX8i00IixGLTQiLgnwBAAD/0IlF+GoBUdkFjgAAANkcJFHZBYoAAADZHCRqAItN/IsRi038i4IwAQAA/9BR2Rwki034ixGLTfiLgjQBAAD/0FHZHCToIQAAAIPEBNkcJGoBi00QixGLTRCLQmD/0IvlXcMAADBCAAClQ1WL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
+										<compiledString>FQAAAAACAAAAHAAAACYAAABVi+xRi0UIixCLTQiLgnwBAAD/0IlF/GoBUdkFWgAAANkcJFHZBVYAAADZHCRqAItN/IsRi038i4IwAQAA/9BR2RwkagGLTRCLEYtNEItCYP/Qi+VdwwAAMEIAAKVD</compiledString>
 										<returnType>float</returnType>
-										<sString>damageScale(max(sender.master.Intellect, sender.master.Strength), 44, 330)</sString>
+										<sString>damageScale(sender.master.Strength, 44, 330)</sString>
 									</var>
 								</UnitConstant>
 							</Item>

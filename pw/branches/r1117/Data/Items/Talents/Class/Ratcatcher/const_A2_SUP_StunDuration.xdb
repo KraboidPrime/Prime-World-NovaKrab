@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Class/Ratcatcher/Ability2_SUP.TALENT" Count="1" />
 	<name>Stun_Duration</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAPw==</compiledString>
+		<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
 		<returnType>float</returnType>
-		<sString>0.5f</sString>
+		<sString>1.0f</sString>
 	</var>
 </UnitConstant>

@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Talent>
 	<BackLink DBID="/Social.ROOT" Count="1" />
-	<BackLink DBID="/GameLogic/AILogic.AILP" Count="1" />
+	<BackLink DBID="/GameLogic/AILogic.AILP" Count="2" />
 	<BackLink DBID="/Items/RerollShop/TalentsList_Glyph" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset7_7_Glyph/Redset7_7_Glyph.TALKIT" Count="1" />
 	<BackLink DBID="/Social/TalentsCollection" Count="4" />
@@ -221,9 +221,9 @@
 	<type>Passive</type>
 	<upgradeLevel>0</upgradeLevel>
 	<useRange>
-		<compiledString>FSEAAAADAAAAJgAAADwAAABQAAAAUmVkc2V0N183Q291bnRlcgAAAABSYW5nZV9FeExvbmcAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwddgAAAN/g9sQBdR+LTQxRi1UIUmgUAAAAi0UQixCLTRCLQlD/0Nld/OsF2e7ZXfzZRfyL5V3DAAAAAAAAAAAAAABA</compiledString>
+		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 		<returnType>float</returnType>
-		<sString>sender.vRedset7_7Counter &gt;=2 ? cRange_ExLong : 0</sString>
+		<sString>0</sString>
 	</useRange>
 	<useRangeMaterial href="/Effects/UI/AOESelection/Radius.MTRL" />
 	<variativeMaxTalentStats />

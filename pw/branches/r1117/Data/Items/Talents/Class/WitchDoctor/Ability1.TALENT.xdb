@@ -452,9 +452,9 @@
 											<Item href="/Items/Talents/Class/WitchDoctor/Ability1.TALENT" id="1847220E-F2B3-49BE-86D1-EF2FB8659274">
 												<SpellSwitchApplicator>
 													<activeSpellIndex>
-														<compiledString>FTMAAAAEAAAAOgAAAFMAAACPAAAArwAAAFZlZHVuX0ExdQAAAFZlZHVuX0ExdQAAAENyb3dFeWUAY2FwdHVyZWRCeUV2aWxUcmVlAFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoDAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdEZqAYtVEFJoGAAAAItFDIsQi00Mi4KcAQAA/9A7RRB1IGoEi00QUWggAAAAi1UMiwKLTQyLkJwBAAD/0jtFEHQGxkX6AesExkX6AFHZ7tkcJFHZ6NkcJA+2RfpQ6BoAAACDxAjZHCToMAAAAIPEBIvlXcMAAIA/AAAAAFWL7FEPtkUIhcB0CNlFDNld/OsG2UUQ2V382UX8i+Vdw7gBAAAAD6L3wgAAAAR0B/MPLEQkBMPpAAAAAFWL7IPsDNlFCNl9/A+3RfwNAAwAAIlF+Nlt+Ntd9Nlt/ItF9IvlXcM=</compiledString>
+														<compiledString>FUAAAAAFAAAARwAAAGAAAACcAAAAvAAAANwAAABWZWR1bl9BMXUAAABWZWR1bl9BMXUAAABDcm93RXllAGNhcHR1cmVkQnlFdmlsVHJlZQAAU3RhdHVzQmxpbmQAVYvsg+wIaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgMAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0ZmoBi1UQUmgYAAAAi0UMixCLTQyLgpwBAAD/0DtFEHVAagSLTRBRaCAAAACLVQyLAotNDIuQnAEAAP/SO0UQdSBqAItFEFBoNAAAAItNDIsRi00Mi4KcAQAA/9A7RRB0BsZF+gHrBMZF+gBR2e7ZHCRR2ejZHCQPtk36UegaAAAAg8QI2Rwk6DAAAACDxASL5V3DAACAPwAAAABVi+xRD7ZFCIXAdAjZRQzZXfzrBtlFENld/NlF/IvlXcO4AQAAAA+i98IAAAAEdAfzDyxEJATD6QAAAABVi+yD7AzZRQjZffwPt0X8DQAMAACJRfjZbfjbXfTZbfyLRfSL5V3D</compiledString>
 														<returnType>int</returnType>
-														<sString>f2l(s( tal("Vedun_A1u") &amp;&amp; ((receiver.FindApplicator("CrowEye", pMisc, UNIT) != pMisc ) || ( receiver.FindApplicator("capturedByEvilTree", pMisc, UNIT_AND_SUMMONS) != pMisc )), 1, 0) )</sString>
+														<sString>f2l(s( tal("Vedun_A1u") &amp;&amp; ((receiver.FindApplicator("CrowEye", pMisc, UNIT) != pMisc ) || ( receiver.FindApplicator("capturedByEvilTree", pMisc, UNIT_AND_SUMMONS) != pMisc ) || (receiver.applStatusBlind(GLOBAL) != pMisc) ), 1, 0) )</sString>
 													</activeSpellIndex>
 													<applyTarget>ApplicatorTarget</applyTarget>
 													<caption>выбор, цель герой под эффектом вороны/дерева</caption>

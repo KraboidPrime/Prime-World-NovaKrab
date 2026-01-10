@@ -158,10 +158,10 @@
 										<applicators>
 											<Item href="/Items/Talents/Class/SnowQueen/Ability_A4_2.TALENT" id="124AC2A0-F251-4FEB-9E9A-5BC464B14C5B">
 												<TeleportApplicator>
-													<appearEffect href="/Effects/General/Teleport/_EndSwitch.EFFT" />
+													<appearEffect href="" />
 													<applyTarget>ApplicatorTarget</applyTarget>
 													<caption>Teleport</caption>
-													<disappearEffect href="/Effects/General/Teleport/_StartSwitch.EFFT" />
+													<disappearEffect href="" />
 													<enabled>
 														<compiledString>FQYAAAACAAAACwAAACEAAABJc1BldABVi+xRaAAAAACLRQyLEItNDIuCiAEAAP/Q3B1DAAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAA8D8=</compiledString>
 														<returnType>bool</returnType>
@@ -363,6 +363,30 @@
 															<applicator href="/Items/Talents/Class/SnowQueen/status_A0_Tech.APLR" />
 															<variableNames />
 														</Item>
+														<Item>
+															<applicator href="/Items/Talents/Class/SnowQueen/status_A0_Tech.APLR" />
+															<variableNames />
+														</Item>
+														<Item>
+															<applicator href="/Items/Talents/Class/SnowQueen/status_A0_Tech.APLR" />
+															<variableNames />
+														</Item>
+														<Item>
+															<applicator href="/Items/Talents/Class/SnowQueen/status_A0_Tech.APLR" />
+															<variableNames />
+														</Item>
+														<Item>
+															<applicator href="/Items/Talents/Class/SnowQueen/status_A0_Tech.APLR" />
+															<variableNames />
+														</Item>
+														<Item>
+															<applicator href="/Items/Talents/Class/SnowQueen/status_A0_Tech.APLR" />
+															<variableNames />
+														</Item>
+														<Item>
+															<applicator href="/Items/Talents/Class/SnowQueen/status_A0_Tech.APLR" />
+															<variableNames />
+														</Item>
 													</applicators>
 												</VariableProxyApplicator>
 											</Item>
@@ -411,7 +435,7 @@
 													<returnType>float</returnType>
 													<sString>cA4_2_DamageRange</sString>
 												</range>
-												<targetFilter>677183551</targetFilter>
+												<targetFilter>542965823</targetFilter>
 												<targetSelector href="" />
 											</AreaTargetSelector>
 										</targetSelector>
@@ -807,9 +831,9 @@
 			</targetSelector>
 		</TargetSelectorMicroAI>
 	</microAI>
-	<minLevel>2</minLevel>
+	<minLevel>1</minLevel>
 	<minUseRangeCorrection>0</minUseRangeCorrection>
-	<naftaCost>540</naftaCost>
+	<naftaCost>390</naftaCost>
 	<name textref="/Items/Talents/Class/SnowQueen/Ability_A4_2.TALENT_name.txt" />
 	<node></node>
 	<passiveApplicators>

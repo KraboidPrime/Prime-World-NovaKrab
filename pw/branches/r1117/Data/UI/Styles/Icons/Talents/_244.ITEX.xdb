@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UITexture>
-	<BackLink DBID="/Items/Talents/Level3/G244_DeadlyIllusion.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level3/G244_DeadlyIllusion.TALENT" Count="3" />
 	<generatedFileName></generatedFileName>
 	<importOnlyShape>false</importOnlyShape>
 	<mipLevels>0</mipLevels>

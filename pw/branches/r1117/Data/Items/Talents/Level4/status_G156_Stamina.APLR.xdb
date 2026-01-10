@@ -114,14 +114,7 @@
 	<description textref="/Items/Talents/Level4/status_G156_Stamina.APLR_description.txt" />
 	<dispellPriority>NonDispellable</dispellPriority>
 	<effect>
-		<Item href="/Items/Talents/Level4/status_G156_Stamina.APLR" id="B1786E44-B5C5-4FD4-9C32-89EDC5FCB4EA">
-			<AuraEffect>
-				<deathType>Manual</deathType>
-				<enableCondition href="" />
-				<lifeTime>0</lifeTime>
-				<type>Ally</type>
-			</AuraEffect>
-		</Item>
+		<Item href="" />
 		<Item href="" />
 	</effect>
 	<enabled>

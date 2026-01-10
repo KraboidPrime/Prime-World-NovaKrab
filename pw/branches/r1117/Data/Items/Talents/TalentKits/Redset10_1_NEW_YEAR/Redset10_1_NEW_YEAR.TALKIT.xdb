@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TalentKit>
+	<BackLink DBID="/GameLogic/AILogic.AILP" Count="2" />
+	<caption>G1004</caption>
+	<kitCapacity>3</kitCapacity>
+	<name textref="/Items/Talents/TalentKits/Redset10_1_NEW_YEAR/Redset10_1_NEW_YEAR.TALKIT_name.txt" />
+	<special href="" />
+	<talents>
+		<Item href="/Items/Talents/Level2/G1004_Vamp_Dmg.TALENT" />
+		<Item href="/Items/Talents/Level3/G1001_Str_Int_Life.TALENT" />
+		<Item href="/Items/Talents/Level4/G1002_Str_Int_CDR.TALENT" />
+		<Item href="/Items/Talents/Level5/G1003_Satanic.TALENT" />
+		<Item href="/Items/Talents/Level6/G1000_Max_Stat.TALENT" />
+	</talents>
+</TalentKit>

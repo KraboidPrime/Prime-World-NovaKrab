@@ -48,19 +48,9 @@
 					<UnitConstant>
 						<name>Add_Intellect</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAQECamZk+</compiledString>
+							<compiledString>FQcAAAACAAAADAAAACIAAABHMjI1X2QAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwtMAAAANld/NlF/IvlXcMAAAAAAAAsQA==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(3, 0.3)</sString>
-						</var>
-					</UnitConstant>
-				</Item>
-				<Item href="/Items/Talents/Level2/G225_Int_Stamina.TALENT" id="D5A82B77-8E01-49FD-9A9F-3B4EB035E47F">
-					<UnitConstant>
-						<name>Add_Stamina</name>
-						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAQEDNzEw+</compiledString>
-							<returnType>float</returnType>
-							<sString>refineScale(3, 0.2)</sString>
+							<sString>14-sender.vG225_d</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -84,7 +74,7 @@
 	<description textref="/Items/Talents/Level2/G225_Int_Stamina.TALENT_description.txt" />
 	<devPoints>1</devPoints>
 	<dispatch href="" />
-	<flags>1</flags>
+	<flags>6</flags>
 	<forceBonus>9</forceBonus>
 	<image href="/UI/Styles/Icons/Talents/_225.ITEX" />
 	<imageSecondState href="" />
@@ -119,9 +109,9 @@
 				<LoggingEvent>-1</LoggingEvent>
 				<modifier>
 					<addValue>
-						<compiledString>FQ4AAAABAAAAGgAAAEFkZF9JbnRlbGxlY3QAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABgQQ==</compiledString>
 						<returnType>float</returnType>
-						<sString>cAdd_Intellect</sString>
+						<sString>14</sString>
 					</addValue>
 					<multValue>
 						<compiledString></compiledString>
@@ -135,35 +125,131 @@
 				<providerName></providerName>
 			</PermanentStatModApplicator>
 		</Item>
-		<Item href="/Items/Talents/Level2/G225_Int_Stamina.TALENT" id="3E34A108-2846-46CF-90EB-7AC1F28B590B">
-			<PermanentStatModApplicator>
-				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>Add_Stamina</caption>
-				<customApplyType>None</customApplyType>
+		<Item href="/Items/Talents/Level2/G225_Int_Stamina.TALENT" id="49843241-39A2-47DC-8247-B7A1C0D9560A">
+			<SpellPeriodicallyApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>Убывание</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
 				<enabled>
 					<compiledString></compiledString>
 					<returnType>bool</returnType>
 					<sString>true</sString>
 				</enabled>
 				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAIByRA==</compiledString>
+					<returnType>float</returnType>
+					<sString>970</sString>
+				</lifeTime>
 				<LoggingEvent>-1</LoggingEvent>
-				<modifier>
-					<addValue>
-						<compiledString>FQwAAAABAAAAGAAAAEFkZF9TdGFtaW5hAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
-						<returnType>float</returnType>
-						<sString>cAdd_Stamina</sString>
-					</addValue>
-					<multValue>
-						<compiledString></compiledString>
-						<returnType>float</returnType>
-						<sString>1.0f</sString>
-					</multValue>
-					<stat>Stamina</stat>
-					<topModifier>false</topModifier>
-					<variable></variable>
-				</modifier>
+				<period>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQQ==</compiledString>
+					<returnType>float</returnType>
+					<sString>30.0f</sString>
+				</period>
 				<providerName></providerName>
-			</PermanentStatModApplicator>
+				<scaleMode>ScaleIsCount</scaleMode>
+				<spell href="/Items/Talents/Level2/G225_Int_Stamina.TALENT" id="E936CFA9-ECB1-4A87-9494-27C38D6284A0">
+					<Spell>
+						<applicators>
+							<Item href="/Items/Talents/Level2/G225_Int_Stamina.TALENT" id="BF6BF852-B927-4E40-A4B6-FFD6B2DA7ADC">
+								<PermanentStatModApplicator>
+									<applyTarget>ApplicatorTarget</applyTarget>
+									<caption></caption>
+									<customApplyType>None</customApplyType>
+									<enabled>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<LoggingEvent>-1</LoggingEvent>
+									<modifier>
+										<addValue>
+											<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABgvg==</compiledString>
+											<returnType>float</returnType>
+											<sString>-0.21875f</sString>
+										</addValue>
+										<multValue>
+											<compiledString></compiledString>
+											<returnType>float</returnType>
+											<sString>1.0f</sString>
+										</multValue>
+										<stat>Intellect</stat>
+										<topModifier>false</topModifier>
+										<variable></variable>
+									</modifier>
+									<providerName></providerName>
+								</PermanentStatModApplicator>
+							</Item>
+							<Item href="/Items/Talents/Level2/G225_Int_Stamina.TALENT" id="5D6A3886-7EB5-4143-B8BD-50C7B5ED71E3">
+								<PermanentStatModApplicator>
+									<applyTarget>ApplicatorTarget</applyTarget>
+									<caption></caption>
+									<customApplyType>None</customApplyType>
+									<enabled>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<LoggingEvent>-1</LoggingEvent>
+									<modifier>
+										<addValue>
+											<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABgPg==</compiledString>
+											<returnType>float</returnType>
+											<sString>0.21875f</sString>
+										</addValue>
+										<multValue>
+											<compiledString></compiledString>
+											<returnType>float</returnType>
+											<sString>1.0f</sString>
+										</multValue>
+										<stat>Intellect</stat>
+										<topModifier>false</topModifier>
+										<variable>G225_d</variable>
+									</modifier>
+									<providerName></providerName>
+								</PermanentStatModApplicator>
+							</Item>
+						</applicators>
+						<dispatch href="/Items/Talents/Level2/G225_Int_Stamina.TALENT" id="EC650F75-4621-4C3A-82AF-1A0965F1A2FE">
+							<DispatchImmediate>
+								<alwaysApply>false</alwaysApply>
+								<applyEffect>
+									<Item href="" />
+									<Item href="" />
+								</applyEffect>
+								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+								<applyEffectOrientation>Default</applyEffectOrientation>
+								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+								<dieAfterApply>true</dieAfterApply>
+								<dispatchEffect>
+									<Item href="" />
+									<Item href="" />
+								</dispatchEffect>
+								<flags>0</flags>
+								<instantApply>false</instantApply>
+							</DispatchImmediate>
+						</dispatch>
+					</Spell>
+				</spell>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<startOffset>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQQ==</compiledString>
+					<returnType>float</returnType>
+					<sString>30.0f</sString>
+				</startOffset>
+				<targetSelector href="" />
+			</SpellPeriodicallyApplicator>
 		</Item>
 	</passiveApplicators>
 	<persistentId>G225</persistentId>
@@ -196,7 +282,7 @@
 			</values>
 		</Item>
 	</talentStats>
-	<targetType>2040319</targetType>
+	<targetType>0</targetType>
 	<type>Simple</type>
 	<upgradeLevel>0</upgradeLevel>
 	<useRange>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UITexture>
-	<BackLink DBID="/Items/Talents/Level5/G353_AoE.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level5/G353_AoE.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Level5/status_G353_DecStats.APLR" Count="1" />
 	<generatedFileName></generatedFileName>
 	<importOnlyShape>false</importOnlyShape>

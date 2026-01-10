@@ -753,6 +753,26 @@
 						<Item href="/Items/Talents/Class/Banshee/const_A0sup_WillCutPerA0" />
 						<Item href="/Items/Talents/Class/Banshee/const_A0sup_WillCutTotal" />
 						<Item href="/Items/Talents/Class/Banshee/const_A0sup_WillCutDuration" />
+						<Item href="/Heroes/Banshee/_.HROB" id="7E839B67-45DA-448A-9C3F-96138C1A354C">
+							<UnitConstant>
+								<name>Total_deregen</name>
+								<var>
+									<compiledString>FRwAAAACAAAAKwAAAEMAAABBMF9EZXJlZ2VuAABCYW5zaGVlQTBfRW5lbXkAVYvsg+wQi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9JqAYtFEFBoDAAAAItNDIsRi00Mi4KgAQAA3V34/9CJRfTbRfTcTfjZXfDZRfCL5V3D</compiledString>
+									<returnType>float</returnType>
+									<sString>cA0_Deregen*receiver.CountApplicators( "BansheeA0_Enemy", pMisc, UNIT )</sString>
+								</var>
+							</UnitConstant>
+						</Item>
+						<Item href="/Heroes/Banshee/_.HROB" id="E890F655-C4EF-428F-85AD-A80A649F510E">
+							<UnitConstant>
+								<name>Total_regen</name>
+								<var>
+									<compiledString>FRsAAAACAAAAKgAAAEIAAABBMF9SZWdlbgAAAABCYW5zaGVlQTBfU2VsZgBVi+yD7BCLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0moBi0UQUGgMAAAAi00IixGLTQiLgqABAADdXfj/0IlF9NtF9NxN+Nld8NlF8IvlXcM=</compiledString>
+									<returnType>float</returnType>
+									<sString>cA0_Regen*sender.CountApplicators( "BansheeA0_Self", pMisc, UNIT )</sString>
+								</var>
+							</UnitConstant>
+						</Item>
 					</vars>
 				</UnitConstantsContainer>
 			</constants>

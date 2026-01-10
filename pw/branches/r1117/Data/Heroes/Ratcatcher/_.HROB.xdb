@@ -733,7 +733,7 @@
 					<instantApply>false</instantApply>
 				</DispatchImmediate>
 			</dispatch>
-			<flags>1</flags>
+			<flags>5</flags>
 			<image href="" />
 			<imageSecondState href="" />
 			<isMelee>true</isMelee>
@@ -978,9 +978,9 @@
 					<levelUpgrades />
 					<statId>Strength</statId>
 					<value>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABYQg==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABsQg==</compiledString>
 						<returnType>float</returnType>
-						<sString>54</sString>
+						<sString>59</sString>
 					</value>
 				</Item>
 				<Item>

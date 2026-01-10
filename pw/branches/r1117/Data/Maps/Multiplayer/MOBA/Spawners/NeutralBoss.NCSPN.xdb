@@ -8,6 +8,7 @@
 	<BackLink DBID="/Maps/Multiplayer/MOBA/NightMap/_.ADMP" Count="1" />
 	<BackLink DBID="/Maps/Multiplayer/PFmap/_.ADMP" Count="1" />
 	<BackLink DBID="/Maps/Multiplayer/PFmap/Mod2/_.ADMP" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/MOBA/Training.ADMPDSCR" Count="3" />
 	<baseLevel>0</baseLevel>
 	<collision>
 		<x1>0</x1>
@@ -18,8 +19,8 @@
 	<evadeParams>
 		<evadeTimeout>60</evadeTimeout>
 		<restoreHealthPercent>0.2</restoreHealthPercent>
-		<waitForEvadeTime>3</waitForEvadeTime>
-		<waitForNextTargetTime>3</waitForNextTargetTime>
+		<waitForEvadeTime>2</waitForEvadeTime>
+		<waitForNextTargetTime>2</waitForNextTargetTime>
 	</evadeParams>
 	<firstSpawnTimeOffset>600</firstSpawnTimeOffset>
 	<groups>

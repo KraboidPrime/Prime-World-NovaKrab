@@ -24,9 +24,9 @@
 							<Item href="/Items/Talents/Class/Brewer/spell_SpreadHoney.SPLL" id="757F0CDF-4666-4EEC-8AAD-E3317DD23755">
 								<SpellSwitchApplicator>
 									<activeSpellIndex>
-										<compiledString>FRUAAAACAAAAIgAAADUAAABIb25leV9TdGFja0NvdW50X01heABVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcJU8AAADZXfzZRfxR2Rwk6A8AAACDxASL5V3DAAAAAAAACEC4AQAAAA+i98IAAAAEdAfzDyxEJATD6QAAAABVi+yD7AzZRQjZffwPt0X8DQAMAACJRfjZbfjbXfTZbfyLRfSL5V3D</compiledString>
+										<compiledString>FQAAAAAAAAAAVYvsM8Bdww==</compiledString>
 										<returnType>int</returnType>
-										<sString>f2l(cHoney_StackCount_Max - 3)</sString>
+										<sString>0</sString>
 									</activeSpellIndex>
 									<applyTarget>ApplicatorTarget</applyTarget>
 									<caption>Choosing_Status(MaxStackCount_Switch)</caption>
@@ -331,9 +331,9 @@
 							<Item href="/Items/Talents/Class/Brewer/spell_SpreadHoney.SPLL" id="EA88DE92-A3B9-438E-8470-55EF1A5A20C8">
 								<SpellSwitchApplicator>
 									<activeSpellIndex>
-										<compiledString>FRUAAAACAAAAIgAAADUAAABIb25leV9TdGFja0NvdW50X01heABVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcJU8AAADZXfzZRfxR2Rwk6A8AAACDxASL5V3DAAAAAAAACEC4AQAAAA+i98IAAAAEdAfzDyxEJATD6QAAAABVi+yD7AzZRQjZffwPt0X8DQAMAACJRfjZbfjbXfTZbfyLRfSL5V3D</compiledString>
+										<compiledString>FQAAAAAAAAAAVYvsM8Bdww==</compiledString>
 										<returnType>int</returnType>
-										<sString>f2l(cHoney_StackCount_Max - 3)</sString>
+										<sString>0</sString>
 									</activeSpellIndex>
 									<applyTarget>ApplicatorTarget</applyTarget>
 									<caption>Choosing_Status(MaxStackCount_Switch)</caption>

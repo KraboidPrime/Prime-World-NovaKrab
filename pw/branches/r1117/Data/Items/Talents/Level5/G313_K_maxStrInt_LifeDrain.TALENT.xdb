@@ -99,26 +99,6 @@
 									<ProgramApplicator>
 										<applicators>
 											<Item>
-												<applicator href="" />
-												<continueCondition>
-													<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
-													<returnType>bool</returnType>
-													<sString>0</sString>
-												</continueCondition>
-												<continueEvents>2</continueEvents>
-												<delay>
-													<compiledString>FQ8AAAABAAAAGwAAAFRFQ0hfQ2FzdERlbGF5AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
-													<returnType>float</returnType>
-													<sString>cTECH_CastDelay</sString>
-												</delay>
-												<stopCondition>
-													<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
-													<returnType>bool</returnType>
-													<sString>0</sString>
-												</stopCondition>
-												<stopEvents>0</stopEvents>
-											</Item>
-											<Item>
 												<applicator href="/GameLogic/GeneralApplicators/SetTossed.APLR" />
 												<continueCondition>
 													<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
@@ -531,26 +511,6 @@
 									<ProgramApplicator>
 										<applicators>
 											<Item>
-												<applicator href="" />
-												<continueCondition>
-													<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
-													<returnType>bool</returnType>
-													<sString>0</sString>
-												</continueCondition>
-												<continueEvents>2</continueEvents>
-												<delay>
-													<compiledString>FQ8AAAABAAAAGwAAAFRFQ0hfQ2FzdERlbGF5AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
-													<returnType>float</returnType>
-													<sString>cTECH_CastDelay</sString>
-												</delay>
-												<stopCondition>
-													<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
-													<returnType>bool</returnType>
-													<sString>0</sString>
-												</stopCondition>
-												<stopEvents>0</stopEvents>
-											</Item>
-											<Item>
 												<applicator href="/GameLogic/GeneralApplicators/SetTossed.APLR" />
 												<continueCondition>
 													<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
@@ -786,7 +746,7 @@
 														<stopSpell href="/Items/Talents/Level5/G313_K_maxStrInt_LifeDrain.TALENT" id="691A5B38-BF5E-4DC9-9123-2240B334681A">
 															<Spell>
 																<applicators>
-																	<Item href="/Heroes/DefaultStatus/_STUN_Status.APLR" />
+																	<Item href="/Heroes/DefaultStatus/_SLOW_MOVE.APLR" />
 																</applicators>
 																<dispatch href="/Items/Talents/Level5/G313_K_maxStrInt_LifeDrain.TALENT" id="BC0D4B62-C3F3-4B26-8756-D4F93C9E7DA6">
 																	<DispatchImmediate>
@@ -817,7 +777,7 @@
 																<mode>OffsetFromTarget</mode>
 																<offset>
 																	<x>0</x>
-																	<y>1</y>
+																	<y>-1</y>
 																</offset>
 																<paralleledTarget>false</paralleledTarget>
 																<range>
@@ -924,7 +884,7 @@
 								<DispatchImmediate>
 									<alwaysApply>true</alwaysApply>
 									<applyEffect>
-										<Item href="/Effects/Debuffs/Boot/_.EFFT" />
+										<Item href="/Effects/Debuffs/Boot/_E.EFFT" />
 										<Item href="" />
 									</applyEffect>
 									<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
@@ -1080,32 +1040,31 @@
 					<UnitConstant>
 						<name>TECH_CastDelay</name>
 						<var>
-							<compiledString></compiledString>
+							<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 							<returnType>float</returnType>
-							<sString>0.1</sString>
+							<sString>0.0f</sString>
 						</var>
 					</UnitConstant>
 				</Item>
-				<Item href="/Items/Talents/TalentKits/Vampiric2_ArmourPush/const_StunTIme" />
 				<Item href="/Items/Talents/TalentKits/Vampiric2_ArmourPush/const_BoostTIme" />
 				<Item href="/Items/Talents/TalentKits/Vampiric2_ArmourPush/const_BoostPercent" />
-				<Item href="/Items/Talents/Level5/G313_K_maxStrInt_LifeDrain.TALENT" id="B4659A90-4551-47A9-B084-115A8E09961F">
+				<Item href="/Items/Talents/Level5/G313_K_maxStrInt_LifeDrain.TALENT" id="8B6886F2-E5B6-4204-9601-795C81CC001B">
 					<UnitConstant>
-						<name>Haste_StartCondition</name>
+						<name>Slow_Duration</name>
 						<var>
-							<compiledString>FQ0AAAACAAAAFAAAAC0AAABHMzAwAAAAAEczMDAAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgIAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37iU3020X0i+Vdww==</compiledString>
+							<compiledString>FT0AAAAIAAAARAAAAF0AAACLAAAApAAAANIAAADrAAAAGQEAADIBAABHMzA0AAAAAEczMDQAAAAARzMxMAAAAABHMzEwAAAAAEczMTUAAAAARzMxNQAAAABHMzAwAAAAAEczMDAAVYvsg+wkaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgIAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wBoEAAAAItNCIsRi00Ii4KoAQAA/9CFwHQqaBgAAACLTQiLEYtNCIuCqAEAAP/QiUX0i030ixGLTfSLQgT/0IhF8+sExkXzAGggAAAAi00IixGLTQiLgqgBAAD/0IXAdCpoKAAAAItNCIsRi00Ii4KoAQAA/9CJReyLTeyLEYtN7ItCBP/QiEXr6wTGResAaDAAAACLTQiLEYtNCIuCqAEAAP/QhcB0Kmg4AAAAi00IixGLTQiLgqgBAAD/0IlF5ItN5IsRi03ki0IE/9CIRePrBMZF4wAPtk37D7ZV8wPKD7ZF6wPID7ZV4wPKiU3c20Xci+Vdww==</compiledString>
 							<returnType>float</returnType>
-							<sString>tal("G300")</sString>
+							<sString>(tal("G304") + tal("G310") + tal("G315") + tal("G300"))</sString>
 						</var>
 					</UnitConstant>
 				</Item>
-				<Item href="/Items/Talents/Level5/G313_K_maxStrInt_LifeDrain.TALENT" id="927D20CF-CC7B-404C-8162-1E5879E9E207">
+				<Item href="/Items/Talents/Level5/G313_K_maxStrInt_LifeDrain.TALENT" id="F2D466DF-7955-4F19-9337-C022175E3490">
 					<UnitConstant>
-						<name>Stun_StartCondition</name>
+						<name>DecMoveSpeed_WithReduction</name>
 						<var>
-							<compiledString>FQ0AAAACAAAAFAAAAC0AAABHMzAwAAAAAEczMDAAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgIAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37iU3020X0i+Vdww==</compiledString>
+							<compiledString>FT0AAAAIAAAARAAAAF0AAACLAAAApAAAANIAAADrAAAAGQEAADIBAABHMzA0AAAAAEczMDQAAAAARzMxMAAAAABHMzEwAAAAAEczMTUAAAAARzMxNQAAAABHMzAwAAAAAEczMDAAVYvsg+wkaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgIAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wBoEAAAAItNCIsRi00Ii4KoAQAA/9CFwHQqaBgAAACLTQiLEYtNCIuCqAEAAP/QiUX0i030ixGLTfSLQgT/0IhF8+sExkXzAGggAAAAi00IixGLTQiLgqgBAAD/0IXAdCpoKAAAAItNCIsRi00Ii4KoAQAA/9CJReyLTeyLEYtN7ItCBP/QiEXr6wTGResAaDAAAACLTQiLEYtNCIuCqAEAAP/QhcB0Kmg4AAAAi00IixGLTQiLgqgBAAD/0IlF5ItN5IsRi03ki0IE/9CIRePrBMZF4wAPtk37D7ZV8wPKD7ZF6wPID7ZV4wPKa8kPiU3c20Xci+Vdww==</compiledString>
 							<returnType>float</returnType>
-							<sString>tal("G300")</sString>
+							<sString>15*(tal("G304") + tal("G310") + tal("G315") + tal("G300"))</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -1147,14 +1106,14 @@
 			<instantApply>true</instantApply>
 		</DispatchImmediate>
 	</dispatch>
-	<flags>49154</flags>
+	<flags>32770</flags>
 	<forceBonus>23</forceBonus>
 	<image href="/UI/Styles/Icons/Talents/_313.ITEX" />
 	<imageSecondState href="" />
 	<isGenderTalent>false</isGenderTalent>
 	<isTakenOnStart>false</isTakenOnStart>
 	<isUltimateTalent>false</isUltimateTalent>
-	<isUnitFreeAfterCast>false</isUnitFreeAfterCast>
+	<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
 	<manaCost>
 		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 		<returnType>float</returnType>
@@ -1269,9 +1228,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FS0AAAAGAAAANAAAAE0AAACHAAAAoAAAANYAAADvAAAARzMwNAAAAABHMzA0AAAAAEczMTAAAAAARzMxMAAAAABHMzE1AAAAAEczMTUAVYvsg+wcaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgIAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hckPhKcAAABoEAAAAItVCIsCi00Ii5CoAQAA/9KFwHQqaBgAAACLRQiLEItNCIuCqAEAAP/QiUX0i030ixGLTfSLQgT/0IhF8+sExkXzAA+2TfOFyXRYaCAAAACLVQiLAotNCIuQqAEAAP/ShcB0KmgoAAAAi0UIixCLTQiLgqgBAAD/0IlF7ItN7IsRi03si0IE/9CIRevrBMZF6wAPtk3rhcl0CcdF5AAAAADrB8dF5AEAAACKReSL5V3D</compiledString>
+					<compiledString>FT0AAAAIAAAARAAAAF0AAACXAAAAsAAAAOoAAAADAQAAOQEAAFIBAABHMzA0AAAAAEczMDQAAAAARzMxMAAAAABHMzEwAAAAAEczMTUAAAAARzMxNQAAAABHMzAwAAAAAEczMDAAVYvsg+wkaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgIAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hckPhfoAAABoEAAAAItVCIsCi00Ii5CoAQAA/9KFwHQqaBgAAACLRQiLEItNCIuCqAEAAP/QiUX0i030ixGLTfSLQgT/0IhF8+sExkXzAA+2TfOFyQ+FpwAAAGggAAAAi1UIiwKLTQiLkKgBAAD/0oXAdCpoKAAAAItFCIsQi00Ii4KoAQAA/9CJReyLTeyLEYtN7ItCBP/QiEXr6wTGResAD7ZN64XJdVhoMAAAAItVCIsCi00Ii5CoAQAA/9KFwHQqaDgAAACLRQiLEItNCIuCqAEAAP/QiUXki03kixGLTeSLQgT/0IhF4+sExkXjAA+2TeOFyXUJx0XcAQAAAOsHx0XcAAAAAIpF3IvlXcM=</compiledString>
 					<returnType>bool</returnType>
-					<sString>!tal("G304") || !tal("G310") || !tal("G315")</sString>
+					<sString>!(tal("G304") || tal("G310") || tal("G315") || tal("G300"))</sString>
 				</enabled>
 				<flag>1024</flag>
 				<formulaName></formulaName>
@@ -1382,6 +1341,288 @@
 				</modifier>
 				<providerName></providerName>
 			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level5/G313_K_maxStrInt_LifeDrain.TALENT" id="54E58B64-E7A5-47BE-A999-C5B44A8DB3D3">
+			<StatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption></caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQ4AAAABAAAAGgAAAFNsb3dfRHVyYXRpb24AVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+						<returnType>float</returnType>
+						<sString>cSlow_Duration</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Strength</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level5/G313_K_maxStrInt_LifeDrain.TALENT" id="F107E530-18B1-493F-B061-BDC2BB67F4AE">
+			<StatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption></caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQ4AAAABAAAAGgAAAFNsb3dfRHVyYXRpb24AVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+						<returnType>float</returnType>
+						<sString>cSlow_Duration</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Intellect</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level5/G313_K_maxStrInt_LifeDrain.TALENT" id="47CE0396-28EA-4CF5-85AD-F6485A106A44">
+			<StatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption></caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQ4AAAABAAAAGgAAAFNsb3dfRHVyYXRpb24AVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+						<returnType>float</returnType>
+						<sString>cSlow_Duration</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Dexterity</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level5/G313_K_maxStrInt_LifeDrain.TALENT" id="98356D25-1EE7-496E-87E4-2E1AD9F58B6E">
+			<StatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption></caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQ4AAAABAAAAGgAAAFNsb3dfRHVyYXRpb24AVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+						<returnType>float</returnType>
+						<sString>cSlow_Duration</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>AttackSpeed</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level5/G313_K_maxStrInt_LifeDrain.TALENT" id="D703E4D4-599F-48BC-BF1A-D6AE35F86881">
+			<StatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption></caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQ4AAAABAAAAGgAAAFNsb3dfRHVyYXRpb24AVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+						<returnType>float</returnType>
+						<sString>cSlow_Duration</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Will</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level5/G313_K_maxStrInt_LifeDrain.TALENT" id="8FDC760B-B0DE-4C9C-8B35-66F1BFDC7D03">
+			<StatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption></caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQ4AAAABAAAAGgAAAFNsb3dfRHVyYXRpb24AVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+						<returnType>float</returnType>
+						<sString>cSlow_Duration</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Stamina</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
 		</Item>
 	</passiveApplicators>
 	<persistentId>G313</persistentId>

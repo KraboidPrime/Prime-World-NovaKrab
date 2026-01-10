@@ -769,7 +769,7 @@
 																<returnType>float</returnType>
 																<sString>talconst("Prince_A3","A3_Damage")</sString>
 															</damage>
-															<damageMode>11</damageMode>
+															<damageMode>8</damageMode>
 															<damageType>Energy</damageType>
 															<enabled>
 																<compiledString></compiledString>
@@ -849,6 +849,98 @@
 								</delay>
 								<stopCondition>
 									<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+									<returnType>bool</returnType>
+									<sString>0</sString>
+								</stopCondition>
+								<stopEvents>0</stopEvents>
+							</Item>
+							<Item>
+								<applicator href="/Heroes/Prince/_.HROB" id="A5778F14-D264-4FE6-85A4-D20855D251C1">
+									<TargetsCounterApplicator>
+										<applyTarget>AbilityOwner</applyTarget>
+										<behaviorFlags>0</behaviorFlags>
+										<caption> - считаем кол-во целей, чтобы сделать фейковый вампиризм</caption>
+										<effect>
+											<Item href="" />
+											<Item href="" />
+										</effect>
+										<enabled>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</enabled>
+										<formulaName>LifeDrainCapTargetsCounter</formulaName>
+										<lifeTime>
+											<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzcxMPg==</compiledString>
+											<returnType>float</returnType>
+											<sString>0.2</sString>
+										</lifeTime>
+										<LoggingEvent>-1</LoggingEvent>
+										<providerName></providerName>
+										<startCondition>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</startCondition>
+										<targetSelector href="/Heroes/Prince/_.HROB" id="F1467130-0EFC-40F1-886E-063800957CEC">
+											<AreaTargetSelector>
+												<absolutePosition>
+													<x>0</x>
+													<y>0</y>
+												</absolutePosition>
+												<flags>0</flags>
+												<mode>CaptureTargets</mode>
+												<range>
+													<compiledString>FS4AAAAEAAAANQAAAE4AAACEAAAApAAAAFByaW5jZV9BMwAAAFByaW5jZV9BMwAAAFByaW5jZV9BMwAAAEFvRV9SYW5nZQBVi+yD7BBoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaAwAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXQ3aBgAAACLVQiLAotNCIuQqAEAAP/SiUX0i0UMUItNCFFoJAAAAItV9IsCi030i1BQ/9LZXfDrBdnu2V3w2UXwi+VdwwAAAAA=</compiledString>
+													<returnType>float</returnType>
+													<sString>talconst("Prince_A3","AoE_Range")</sString>
+												</range>
+												<targetFilter>547094591</targetFilter>
+												<targetSelector href="/Heroes/Prince/_.HROB" id="BED2C6C1-EE36-405C-AF58-4FBC3C018511">
+													<SelectApplicatorTarget>
+														<applicatorIndex>0</applicatorIndex>
+														<applicatorName></applicatorName>
+														<namedApplicatorTarget>ApplicatorTarget</namedApplicatorTarget>
+														<selectTarget>AbilityOwner</selectTarget>
+													</SelectApplicatorTarget>
+												</targetSelector>
+											</AreaTargetSelector>
+										</targetSelector>
+									</TargetsCounterApplicator>
+								</applicator>
+								<continueCondition>
+									<compiledString></compiledString>
+									<returnType>bool</returnType>
+									<sString>0</sString>
+								</continueCondition>
+								<continueEvents>1</continueEvents>
+								<delay>
+									<compiledString></compiledString>
+									<returnType>float</returnType>
+									<sString>-1.0</sString>
+								</delay>
+								<stopCondition>
+									<compiledString></compiledString>
+									<returnType>bool</returnType>
+									<sString>0</sString>
+								</stopCondition>
+								<stopEvents>0</stopEvents>
+							</Item>
+							<Item>
+								<applicator href="/GameLogic/GeneralApplicators/LifeDrainEmulator.APLR" />
+								<continueCondition>
+									<compiledString></compiledString>
+									<returnType>bool</returnType>
+									<sString>0</sString>
+								</continueCondition>
+								<continueEvents>1</continueEvents>
+								<delay>
+									<compiledString></compiledString>
+									<returnType>float</returnType>
+									<sString>-1.0</sString>
+								</delay>
+								<stopCondition>
+									<compiledString></compiledString>
 									<returnType>bool</returnType>
 									<sString>0</sString>
 								</stopCondition>
@@ -998,6 +1090,7 @@
 								</var>
 							</UnitConstant>
 						</Item>
+						<Item href="/Items/Talents/Class/Naga/const_LifeDrainCap" />
 					</vars>
 				</UnitConstantsContainer>
 			</constants>
@@ -1338,9 +1431,9 @@
 					<calcIncrement>0.6</calcIncrement>
 					<calcValue>57</calcValue>
 					<increment>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzcwMPw==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAPw==</compiledString>
 						<returnType>float</returnType>
-						<sString>0.55</sString>
+						<sString>0.5</sString>
 					</increment>
 					<levelUpgrades />
 					<statId>Stamina</statId>
@@ -1354,9 +1447,9 @@
 					<calcIncrement>0.8</calcIncrement>
 					<calcValue>59</calcValue>
 					<increment>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAPw==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DZmYmPw==</compiledString>
 						<returnType>float</returnType>
-						<sString>0.75</sString>
+						<sString>0.65</sString>
 					</increment>
 					<levelUpgrades />
 					<statId>Will</statId>

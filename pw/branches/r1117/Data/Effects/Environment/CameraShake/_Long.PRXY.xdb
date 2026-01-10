@@ -11,6 +11,7 @@
 	<BackLink DBID="/Heroes/IronKnight/FXABility4_2TRS.PRXY" Count="1" />
 	<BackLink DBID="/Effects/Debuffs/ShockWave/_GreenEnemyTRS.PRXY" Count="1" />
 	<BackLink DBID="/Effects/Debuffs/ShockWave/_GreenTRS.PRXY" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A4_2.TALENT" Count="1" />
 	<attached>
 		<Item>
 			<attachFlags>15</attachFlags>

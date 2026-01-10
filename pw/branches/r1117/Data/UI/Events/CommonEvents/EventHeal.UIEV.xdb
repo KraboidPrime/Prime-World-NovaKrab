@@ -61,7 +61,7 @@
 	<BackLink DBID="/Items/Talents/Class/Freeze/Ability_A2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/GhostLord/A2_Ally.SPLL" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/GhostLord/A2_Enemy.SPLL" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/GhostLord/status_A2_SpectralShield.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/GhostLord/status_A2_SpectralShield.APLR" Count="3" />
 	<BackLink DBID="/Items/Talents/Class/Gunner/Ability_A2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Gunslinger/A0_HealByRage.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Gunslinger/Ability_A4_2.TALENT" Count="1" />
@@ -69,7 +69,7 @@
 	<BackLink DBID="/Items/Talents/Class/Healer/A1HealSelf.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Healer/A4PeriodSpell.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Healer/A4PeriodSpell2.APLR" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Healer/Ability1.TALENT" Count="4" />
+	<BackLink DBID="/Items/Talents/Class/Healer/Ability1.TALENT" Count="10" />
 	<BackLink DBID="/Items/Talents/Class/Healer/AreaHeal.APLR" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Healer/Heal.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Healer/status_A5_Buff.APLR" Count="1" />
@@ -105,7 +105,7 @@
 	<BackLink DBID="/Items/Talents/Class/Vampire/Ability_A1.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Vampire/Ability_A2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Vampire/Ability_A3.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Vampire/Ability_A4_2.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Vampire/Ability_A4_2.TALENT" Count="4" />
 	<BackLink DBID="/Items/Talents/Class/Vampire/status_A4_StunAndDPS.APLR" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Warlord/Ability4.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Warlord/status_A4_banner.APLR" Count="1" />
@@ -123,11 +123,10 @@
 	<BackLink DBID="/Items/Talents/Level1/status_G010_AddLife.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Level1/status_G397_AddLife.APLR" Count="3" />
 	<BackLink DBID="/Items/Talents/Level2/G029_SelfHeal.TALENT" Count="2" />
-	<BackLink DBID="/Items/Talents/Level2/G134_HealForKill.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level2/G134_HealForKill.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Level2/G236_A_MagicStick_Life.TALENT" Count="3" />
 	<BackLink DBID="/Items/Talents/Level2/G509_SelfHeal.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Level2/G623_SelfHeal.TALENT" Count="2" />
-	<BackLink DBID="/Items/Talents/Level2/trigger_G349.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Level2/trigger_G349_Night.APLR" Count="2" />
 	<BackLink DBID="/Items/Talents/Level3/G042_TrigHealonCast.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Level4/G096_Flower.TALENT" Count="1" />
@@ -147,6 +146,12 @@
 	<BackLink DBID="/Summons/Dispenser/status_A2_DispHeal.APLR" Count="1" />
 	<BackLink DBID="/Summons/HealingWard/_A.SUMMONED" Count="1" />
 	<BackLink DBID="/Summons/Wolf/_mowglyA3uHeal.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Level3/G1001_Str_Int_Life.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Chicken/Ability_A0.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A0.TALENT" Count="3" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A4_2.TALENT" Count="3" />
+	<BackLink DBID="/Items/Talents/Class/WraithKing/Ability_A1.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Angel/Summon_Well.APLR" Count="2" />
 	<signRecipients>ALL_PLAYERS</signRecipients>
 	<UISigns>
 		<Item href="/UI/Events/CommonEvents/EventHeal.UIEV" id="878B438C-C615-4D95-A3F9-437FB33C2559">

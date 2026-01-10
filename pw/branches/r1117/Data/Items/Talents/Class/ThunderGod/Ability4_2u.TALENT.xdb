@@ -56,6 +56,16 @@
 		<UnitConstantsContainer>
 			<vars>
 				<Item href="/Items/Talents/Class/ThunderGod/const_A4_2_DamageMaterial" />
+				<Item href="/Items/Talents/Class/ThunderGod/Ability4_2u.TALENT" id="D13F9D35-FD0B-428E-8678-C0162000B462">
+					<UnitConstant>
+						<name>A4_2_Stat_TT</name>
+						<var>
+							<compiledString>FQAAAAACAAAANgAAADwAAABVi+xRi0UIixCLTQiLgjABAAD/0FHZHCSLTQiLEYtNCIuCNAEAAP/QUdkcJOgpAAAAg8QI3A1SAAAA3AVKAAAA2V382UX8i+VdwwAAAAAAAAhAexSuR+F6tD9Vi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
+							<returnType>float</returnType>
+							<sString>0.08*max(sIntellect, sStrength) + 3</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

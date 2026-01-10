@@ -9,8 +9,8 @@
 	<BackLink DBID="/Items/Talents/Class/Marine/Ability_A4_2.TALENT" Count="1" />
 	<name>A3u_HealPercent</name>
 	<var>
-		<compiledString>FR4AAAACAAAAJQAAAD4AAABNYXJpbmVfQTNfU1VQAAAATWFyaW5lX0EzX1NVUABVi+yD7AxoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2Tfv32RvJg+ECg8EEiU3020X0i+Vdww==</compiledString>
+		<compiledString>FR4AAAACAAAAJQAAAD4AAABNYXJpbmVfQTNfU1VQAAAATWFyaW5lX0EzX1NVUABVi+yD7AxoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2Tfv32RvJg+EDg8EEiU3020X0i+Vdww==</compiledString>
 		<returnType>float</returnType>
-		<sString>tal("Marine_A3_SUP") ? 6 : 4</sString>
+		<sString>tal("Marine_A3_SUP") ? 7 : 4</sString>
 	</var>
 </UnitConstant>

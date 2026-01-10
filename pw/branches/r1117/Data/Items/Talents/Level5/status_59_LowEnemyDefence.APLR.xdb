@@ -113,14 +113,7 @@
 	<description textref="/Items/Talents/Level5/status_59_LowEnemyDefence.APLR_description.txt" />
 	<dispellPriority>NonDispellable</dispellPriority>
 	<effect>
-		<Item href="/Items/Talents/Level5/status_59_LowEnemyDefence.APLR" id="0C9B38A6-CB2A-44B3-B230-FDDA56722C15">
-			<AuraEffect>
-				<deathType>Manual</deathType>
-				<enableCondition href="" />
-				<lifeTime>0</lifeTime>
-				<type>Enemy</type>
-			</AuraEffect>
-		</Item>
+		<Item href="" />
 		<Item href="" />
 	</effect>
 	<enabled>

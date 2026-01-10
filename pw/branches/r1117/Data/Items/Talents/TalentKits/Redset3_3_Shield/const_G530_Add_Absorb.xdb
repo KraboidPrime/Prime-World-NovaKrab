@@ -5,8 +5,8 @@
 	<BackLink DBID="/Items/Talents/Level6/G530_Life_StrOrInt.TALENT" Count="1" />
 	<name>G530_Add_Absorb</name>
 	<var>
-		<compiledString>FQ0AAAACAAAAFAAAAC0AAABHNTMwAAAAAEc1MzAAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgIAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0Is/9CJRfjrB8dF+AEAAACLTfiD6QFryRSBwSwBAACJTfTbRfSL5V3D</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAACRA==</compiledString>
 		<returnType>float</returnType>
-		<sString>300 + 20 * (getTalentRefineRate("G530", 1) - 1)</sString>
+		<sString>520</sString>
 	</var>
 </UnitConstant>

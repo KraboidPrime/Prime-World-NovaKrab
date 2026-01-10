@@ -3,6 +3,7 @@
 	<BackLink DBID="/Items/Talents/Class/Crusader/Ability_A1_B.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Gunner/Ability_A2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Bomber/Ability_A3.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level5/status_56_Strength_Lifesteal.APLR" Count="2" />
 	<component href="/Effects/Debuffs/Explosion/_FireDoom.PRXY" />
 	<deathType>Anim</deathType>
 	<enableCondition href="" />

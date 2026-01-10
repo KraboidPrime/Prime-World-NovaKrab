@@ -6,7 +6,6 @@
 	<BackLink DBID="/GameLogic/HeroMale.UNDP" Count="1" />
 	<BackLink DBID="/GameLogic/SiegeCreep.UNDP" Count="1" />
 	<BackLink DBID="/GameLogic/Summon.UNDP" Count="1" />
-	<BackLink DBID="/Heroes/Mage/S1/_B.HEROSKIN" Count="1" />
 	<BackLink DBID="/Heroes/Warlord/S1/_B.HEROSKIN" Count="1" />
 	<BackLink DBID="/Summons/EvilTree/_.SUMMONED" Count="1" />
 	<BackLink DBID="/Summons/EvilTree/PvE_Coop1.CREEP" Count="1" />

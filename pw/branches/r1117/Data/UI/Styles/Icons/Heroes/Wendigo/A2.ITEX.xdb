@@ -3,6 +3,8 @@
 	<BackLink DBID="/Items/Talents/Class/Wendigo/Ability2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Wendigo/Ability2u.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Wendigo/status_A2_Bleed.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A4_2.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Dot_WendVoker_status.APLR" Count="1" />
 	<generatedFileName></generatedFileName>
 	<importOnlyShape>false</importOnlyShape>
 	<mipLevels>0</mipLevels>

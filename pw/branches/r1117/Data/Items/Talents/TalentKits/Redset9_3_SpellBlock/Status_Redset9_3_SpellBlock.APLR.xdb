@@ -54,9 +54,9 @@
 						<flags>0</flags>
 						<matchTargetInverted>false</matchTargetInverted>
 						<mul>
-							<compiledString>FRYAAAABAAAAIwAAAFNwZWxsQmxvY2tfUGVyY2VudGFnZQBVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LZ6N7J2V382UX8i+VdwwAAAAAAAPA/</compiledString>
+							<compiledString>FRYAAAABAAAAIgAAAFNwZWxsQmxvY2tfUGVyY2VudGFnZQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
 							<returnType>float</returnType>
-							<sString>1 * cSpellBlock_Percentage</sString>
+							<sString>cSpellBlock_Percentage</sString>
 						</mul>
 						<objectFilter>1900607</objectFilter>
 						<senderMatchTarget>ApplicatorTarget</senderMatchTarget>

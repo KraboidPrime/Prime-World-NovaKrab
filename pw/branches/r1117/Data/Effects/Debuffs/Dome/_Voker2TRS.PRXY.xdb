@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DBSceneComponent>
+	<BackLink DBID="/Effects/Debuffs/Dome/_StarBall.EFFT" Count="1" />
+	<BackLink DBID="/Effects/Debuffs/Dome/_ForVoker1.EFFT" Count="1" />
+	<BackLink DBID="/Effects/Debuffs/Dome/_ForVoker2.EFFT" Count="1" />
+	<attached>
+		<Item>
+			<attachFlags>15</attachFlags>
+			<component href="/Effects/Debuffs/Dome/_Voker3TRS.PRXY" />
+			<events href="" />
+			<id></id>
+			<locatorName></locatorName>
+			<placement>
+				<pos Animated="True">
+					<Tracks>
+						<Item>
+							<Item>
+								<Key>0</Key>
+								<Value>0</Value>
+							</Item>
+						</Item>
+						<Item>
+							<Item>
+								<Key>0</Key>
+								<Value>0</Value>
+							</Item>
+						</Item>
+						<Item>
+							<Item>
+								<Key>0</Key>
+								<Value>0</Value>
+							</Item>
+							<Item>
+								<Key>2.5</Key>
+								<Value>3</Value>
+							</Item>
+							<Item>
+								<Key>5</Key>
+								<Value>0</Value>
+							</Item>
+						</Item>
+					</Tracks>
+					<Type>Clamp</Type>
+					<Values>
+						<Item>
+							<Key>0</Key>
+							<Value>
+								<x>0</x>
+								<y>0</y>
+								<z>0</z>
+							</Value>
+						</Item>
+						<Item>
+							<Key>2.5</Key>
+							<Value>
+								<x>0</x>
+								<y>0</y>
+								<z>3</z>
+							</Value>
+						</Item>
+						<Item>
+							<Key>5</Key>
+							<Value>
+								<x>0</x>
+								<y>0</y>
+								<z>0</z>
+							</Value>
+						</Item>
+					</Values>
+				</pos>
+				<rot>
+					<w>1</w>
+					<x>0</x>
+					<y>0</y>
+					<z>0</z>
+				</rot>
+				<scale>
+					<x>1</x>
+					<y>1</y>
+					<z>1</z>
+				</scale>
+			</placement>
+			<timeController href="/Effects/Debuffs/Dome/_Voker2TRS.PRXY" id="6012F7EB-0B5B-414A-AB6D-A0B474DE8453">
+				<TimeController>
+					<cycleCount>0</cycleCount>
+					<cycleLength>5</cycleLength>
+					<fadein>0</fadein>
+					<fadeout>0</fadeout>
+					<firstCycleOffset>0</firstCycleOffset>
+					<firstCycleOffsetDelta>0</firstCycleOffsetDelta>
+					<speed>1</speed>
+					<startDelay>0</startDelay>
+				</TimeController>
+			</timeController>
+		</Item>
+	</attached>
+	<caption></caption>
+	<groupFlags>0</groupFlags>
+	<locatorList href="" />
+	<orientation>Default</orientation>
+</DBSceneComponent>

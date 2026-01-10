@@ -214,7 +214,7 @@
 	<persistentId>G396</persistentId>
 	<prerequisiteTalents />
 	<rarity>exclusive</rarity>
-	<requireLineOfSight>true</requireLineOfSight>
+	<requireLineOfSight>false</requireLineOfSight>
 	<shortDescription textref="/Items/Talents/Level2/G396_BurnLand.TALENT_shortDescription.txt" />
 	<talentRollGroups>63</talentRollGroups>
 	<talentStats />
@@ -222,9 +222,9 @@
 	<type>Active</type>
 	<upgradeLevel>0</upgradeLevel>
 	<useRange>
-		<compiledString>FQ8AAAABAAAAGwAAAFJhZGl1c19UZXJyYWluAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQQ==</compiledString>
 		<returnType>float</returnType>
-		<sString>cRadius_Terrain</sString>
+		<sString>30</sString>
 	</useRange>
 	<useRangeMaterial href="/Effects/UI/AOESelection/Radius.MTRL" />
 	<variativeMaxTalentStats />

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UITexture>
-	<BackLink DBID="/Items/Talents/Level4/G308_K_Life_Energy.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level4/G308_K_Life_Energy.TALENT" Count="3" />
 	<BackLink DBID="/Items/Talents/Level4/status_G308_BloodDmgStack.APLR" Count="1" />
 	<generatedFileName></generatedFileName>
 	<importOnlyShape>false</importOnlyShape>

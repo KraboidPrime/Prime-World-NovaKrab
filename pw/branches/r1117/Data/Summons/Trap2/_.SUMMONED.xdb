@@ -222,9 +222,9 @@
 					<levelUpgrades />
 					<statId>Life</statId>
 					<value>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
 						<returnType>float</returnType>
-						<sString>5</sString>
+						<sString>3</sString>
 					</value>
 				</Item>
 				<Item>

@@ -11,7 +11,7 @@
 	<BackLink DBID="/Social/Quests/TalentQuests/_Settings" Count="1" />
 	<BackLink DBID="/Test/Talents/TestSet14.TALENTSET" Count="1" />
 	<activationConditions />
-	<activeCustomTrigger>true</activeCustomTrigger>
+	<activeCustomTrigger>false</activeCustomTrigger>
 	<allowChase>
 		<compiledString></compiledString>
 		<returnType>bool</returnType>
@@ -29,6 +29,36 @@
 	</aoeSize>
 	<aoeType>None</aoeType>
 	<applicators>
+		<Item href="/Items/Talents/Level2/G290_GuildGlyphSave.TALENT" id="A0E90A08-FEA1-469A-8F02-B92134E61CBE">
+			<PermanentStatModApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<caption>индекс</caption>
+				<customApplyType>None</customApplyType>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+						<returnType>float</returnType>
+						<sString>0.0f</sString>
+					</addValue>
+					<multValue>
+						<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+						<returnType>float</returnType>
+						<sString>0.0f</sString>
+					</multValue>
+					<stat>Life</stat>
+					<topModifier>false</topModifier>
+					<variable>G290_index</variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
 		<Item href="/Items/Talents/Level2/G290_GuildGlyphSave.TALENT" id="086F125F-E479-41EB-BBFF-74AB8F8818C7">
 			<FlagsApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
@@ -62,6 +92,7 @@
 				<useListAs>ListAsRule</useListAs>
 			</FlagsApplicator>
 		</Item>
+		<Item href="/Items/Talents/Level2/G290_Reg_status.APLR" />
 	</applicators>
 	<askId>0</askId>
 	<autoTargetSelector href="" />
@@ -197,9 +228,9 @@
 					<UnitConstant>
 						<name>SaveTime</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQg==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQg==</compiledString>
 							<returnType>float</returnType>
-							<sString>60</sString>
+							<sString>120</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -207,9 +238,9 @@
 					<UnitConstant>
 						<name>Add_Stat</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9Bdw2Zm5kCamRk/</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DMzMTQQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(7.2, 0.6)</sString>
+							<sString>9.2</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -269,9 +300,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString></compiledString>
+					<compiledString>FQsAAAACAAAAEAAAACYAAABHMjkwX2luZGV4AFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHUgAAADf4PbEBXoJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAADgPw==</compiledString>
 					<returnType>bool</returnType>
-					<sString>true</sString>
+					<sString>sender.vG290_index &lt; 0.5</sString>
 				</enabled>
 				<formulaName>G290GlyphUp2</formulaName>
 				<lifeTime>
@@ -340,7 +371,39 @@
 																		<providerName></providerName>
 																		<spell href="/Items/Talents/Level2/G290_GuildGlyphSave.TALENT" id="33D987D7-E791-4C53-8BAA-D002ECA0FB89">
 																			<Spell>
-																				<applicators />
+																				<applicators>
+																					<Item href="/Items/Talents/Level2/G290_GuildGlyphSave.TALENT" id="2307112A-82CB-43F4-AB52-BEAABF919454">
+																						<PermanentStatModApplicator>
+																							<applyTarget>AbilityOwner</applyTarget>
+																							<caption>индекс</caption>
+																							<customApplyType>None</customApplyType>
+																							<enabled>
+																								<compiledString></compiledString>
+																								<returnType>bool</returnType>
+																								<sString>true</sString>
+																							</enabled>
+																							<formulaName></formulaName>
+																							<LoggingEvent>-1</LoggingEvent>
+																							<modifier>
+																								<addValue>
+																									<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+																									<returnType>float</returnType>
+																									<sString>0.0f</sString>
+																								</addValue>
+																								<multValue>
+																									<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+																									<returnType>float</returnType>
+																									<sString>0.0f</sString>
+																								</multValue>
+																								<stat>Life</stat>
+																								<topModifier>false</topModifier>
+																								<variable>G290_index</variable>
+																							</modifier>
+																							<providerName></providerName>
+																						</PermanentStatModApplicator>
+																					</Item>
+																					<Item href="/Items/Talents/Level2/G290_Reg_status.APLR" />
+																				</applicators>
 																				<dispatch href="/Items/Talents/Level3/dispatch_G290UpgradeDispatch.DSCH" />
 																			</Spell>
 																		</spell>
@@ -485,6 +548,36 @@
 											<useListAs>ListAsRule</useListAs>
 										</AbilityUpgradeApplicator>
 									</Item>
+									<Item href="/Items/Talents/Level2/G290_GuildGlyphSave.TALENT" id="3566A729-5E0D-4654-B199-FD96DE2A1786">
+										<PermanentStatModApplicator>
+											<applyTarget>AbilityOwner</applyTarget>
+											<caption>индекс</caption>
+											<customApplyType>None</customApplyType>
+											<enabled>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</enabled>
+											<formulaName></formulaName>
+											<LoggingEvent>-1</LoggingEvent>
+											<modifier>
+												<addValue>
+													<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+													<returnType>float</returnType>
+													<sString>1.0f</sString>
+												</addValue>
+												<multValue>
+													<compiledString></compiledString>
+													<returnType>float</returnType>
+													<sString>1.0f</sString>
+												</multValue>
+												<stat>Life</stat>
+												<topModifier>false</topModifier>
+												<variable>G290_index</variable>
+											</modifier>
+											<providerName></providerName>
+										</PermanentStatModApplicator>
+									</Item>
 								</applicators>
 								<dispatch href="/Items/Talents/Level2/G290_GuildGlyphSave.TALENT" id="17D3B5E7-7B20-442C-91E1-305C6497D95C">
 									<DispatchImmediate>
@@ -511,7 +604,7 @@
 				</processor>
 				<providerName></providerName>
 				<startCondition>
-					<compiledString></compiledString>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
 					<returnType>bool</returnType>
 					<sString>true</sString>
 				</startCondition>
@@ -608,6 +701,110 @@
 				</modifier>
 				<providerName></providerName>
 			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level2/G290_GuildGlyphSave.TALENT" id="0B3EC1A4-13FD-419A-941D-E19C6FA8AC2C">
+			<TriggerApplicator>
+				<actionsCount>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</actionsCount>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>надёжный сброс индекса</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<playAck>false</playAck>
+				<processor href="/Items/Talents/Level2/G290_GuildGlyphSave.TALENT" id="2EE5899A-F809-4595-B8D4-C4ED1C9ED497">
+					<EventProcessorCondition>
+						<applyTarget>AbilityOwner</applyTarget>
+						<condition>
+							<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+							<returnType>bool</returnType>
+							<sString>true</sString>
+						</condition>
+						<events>1048576</events>
+						<onlyParent>false</onlyParent>
+						<spell href="/Items/Talents/Level2/G290_GuildGlyphSave.TALENT" id="50441227-D4B2-4BBC-BD7C-147D5E2B7B2F">
+							<Spell>
+								<applicators>
+									<Item href="/Items/Talents/Level2/G290_GuildGlyphSave.TALENT" id="05F5603E-E346-4012-8BF3-FB59F617D800">
+										<PermanentStatModApplicator>
+											<applyTarget>AbilityOwner</applyTarget>
+											<caption>индекс</caption>
+											<customApplyType>None</customApplyType>
+											<enabled>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</enabled>
+											<formulaName></formulaName>
+											<LoggingEvent>-1</LoggingEvent>
+											<modifier>
+												<addValue>
+													<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+													<returnType>float</returnType>
+													<sString>0.0f</sString>
+												</addValue>
+												<multValue>
+													<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+													<returnType>float</returnType>
+													<sString>0.0f</sString>
+												</multValue>
+												<stat>Life</stat>
+												<topModifier>false</topModifier>
+												<variable>G290_index</variable>
+											</modifier>
+											<providerName></providerName>
+										</PermanentStatModApplicator>
+									</Item>
+								</applicators>
+								<dispatch href="/Items/Talents/Level2/G290_GuildGlyphSave.TALENT" id="F353BC85-3CA9-412D-8A48-B9F916B94373">
+									<DispatchImmediate>
+										<alwaysApply>false</alwaysApply>
+										<applyEffect>
+											<Item href="" />
+											<Item href="" />
+										</applyEffect>
+										<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+										<applyEffectOrientation>Default</applyEffectOrientation>
+										<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+										<dieAfterApply>true</dieAfterApply>
+										<dispatchEffect>
+											<Item href="" />
+											<Item href="" />
+										</dispatchEffect>
+										<flags>0</flags>
+										<instantApply>false</instantApply>
+									</DispatchImmediate>
+								</dispatch>
+							</Spell>
+						</spell>
+					</EventProcessorCondition>
+				</processor>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<useAbilityCooldown>false</useAbilityCooldown>
+				<useAbilityOwnerMana>false</useAbilityOwnerMana>
+			</TriggerApplicator>
 		</Item>
 	</passiveApplicators>
 	<persistentId>G290</persistentId>

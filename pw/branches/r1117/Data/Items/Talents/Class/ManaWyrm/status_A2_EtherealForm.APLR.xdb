@@ -211,7 +211,7 @@
 										<sString>cA2Damage</sString>
 									</damage>
 									<damageMode>4</damageMode>
-									<damageType>Material</damageType>
+									<damageType>Energy</damageType>
 									<enabled>
 										<compiledString>FR4AAAACAAAATAAAAGUAAABNYW5hV3lybV9BMnUxAAAATWFuYVd5cm1fQTJ1MQBVi+yD7AxWi0UIixCLTQiLgpABAAD/0Ivwi00MixGLTQyLgpABAAD/0DvwdFhoAAAAAItNCIsRi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXQJx0X0AQAAAOsHx0X0AAAAAIpF9F6L5V3D</compiledString>
 										<returnType>bool</returnType>
@@ -221,7 +221,7 @@
 									<LoggingEvent>-1</LoggingEvent>
 									<providerName></providerName>
 									<timeLimiter>-1</timeLimiter>
-									<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Material.UIEV" />
+									<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Energy.UIEV" />
 								</DamageApplicator>
 							</Item>
 						</applicators>

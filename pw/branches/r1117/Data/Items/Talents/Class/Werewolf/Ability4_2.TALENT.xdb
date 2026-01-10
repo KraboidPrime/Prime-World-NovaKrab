@@ -339,9 +339,9 @@
 					<UnitConstant>
 						<name>Stun_Duration</name>
 						<var>
-							<compiledString>FS0AAAAJAAAANAAAAEoAAABXAAAAYQAAAHcAAACEAAAAjgAAAKQAAAC4AAAAQ291bnRQZXJIb3dsAAAAAENvdW50UGVySG93bAAAAABDb3VudFBlckhvd2wAVYvsg+wMaAAAAACLRQiLEItNCIuCiAEAAP/Q3B3yAAAA3+D2xER6C9kF7gAAANld/OtraBAAAACLTQiLEYtNCIuCiAEAAP/Q3B3mAAAA3+D2xER6C9kF4gAAANld+Os4aCAAAACLTQiLEYtNCIuCiAEAAP/Q3B3aAAAA3+D2xER6B9no2V306wnZBdIAAADZXfTZRfTZXfjZRfjZXfzZRfyL5V3DAAAAPwAAgD8AAAAAAAAIQAAAwD8AAAAAAAAAQAAAAEAAAAAAAADwPw==</compiledString>
+							<compiledString>FS0AAAAKAAAANAAAAEoAAABXAAAAYQAAAHcAAACEAAAAjgAAAKQAAACxAAAAvAAAAENvdW50UGVySG93bAAAAABDb3VudFBlckhvd2wAAAAAQ291bnRQZXJIb3dsAFWL7IPsDGgAAAAAi0UIixCLTQiLgogBAAD/0Nwd9gAAAN/g9sREegvZBfIAAADZXfzrb2gQAAAAi00IixGLTQiLgogBAAD/0Nwd6gAAAN/g9sREegvZBeYAAADZXfjrPGggAAAAi00IixGLTQiLgogBAAD/0Nwd3gAAAN/g9sREegvZBdoAAADZXfTrCdkF1gAAANld9NlF9Nld+NlF+Nld/NlF/IvlXcMAAMA/AAAAQAAAAAAAAAhAAAAgQAAAAAAAAABAAABAQAAAAAAAAPA/</compiledString>
 							<returnType>float</returnType>
-							<sString>sender.vCountPerHowl == 1 ? 2.0f : sender.vCountPerHowl == 2 ? 1.5f : sender.vCountPerHowl == 3 ? 1.0f : 0.5f</sString>
+							<sString>sender.vCountPerHowl == 1 ? 3.0f : sender.vCountPerHowl == 2 ? 2.5f : sender.vCountPerHowl == 3 ? 2.0f : 1.5f</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -369,9 +369,9 @@
 					<UnitConstant>
 						<name>A4_2_BaseCD</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQg==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQg==</compiledString>
 							<returnType>float</returnType>
-							<sString>80</sString>
+							<sString>100</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -423,9 +423,9 @@
 	<isUltimateTalent>true</isUltimateTalent>
 	<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
 	<manaCost>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAClQw==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABmQw==</compiledString>
 		<returnType>float</returnType>
-		<sString>330</sString>
+		<sString>230</sString>
 	</manaCost>
 	<marker>doCast2</marker>
 	<microAI href="/Items/Talents/Class/Werewolf/Ability4_2.TALENT" id="7A184E94-696F-4064-8C8E-D28A7F729955">

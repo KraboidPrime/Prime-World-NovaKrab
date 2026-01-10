@@ -10,7 +10,7 @@
 				<constraint>None</constraint>
 				<dontUpdate>true</dontUpdate>
 				<effect>
-					<Item href="" />
+					<Item href="/Effects/Buffs/Berserk/_TrailGold.EFFT" />
 					<Item href="" />
 				</effect>
 				<enabled>

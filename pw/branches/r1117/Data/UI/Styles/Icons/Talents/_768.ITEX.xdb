@@ -2,6 +2,7 @@
 <UITexture>
 	<BackLink DBID="/Items/Talents/Level2/G768_StrOrInt.TALENT" Count="1" />
 	<BackLink DBID="/Social/Lootboxes/LB_G768" Count="1" />
+	<BackLink DBID="/Items/Talents/TalentKits/Redset7_11_MiniRefresher/spell_G766_RefreshAndNotify.SPLL" Count="1" />
 	<generatedFileName></generatedFileName>
 	<importOnlyShape>false</importOnlyShape>
 	<mipLevels>0</mipLevels>

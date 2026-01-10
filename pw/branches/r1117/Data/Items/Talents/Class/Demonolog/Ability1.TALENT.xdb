@@ -484,9 +484,9 @@
 					<UnitConstant>
 						<name>A1_DamageBase</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACSQgBACUQ=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBWMAAADZHCRR2QVfAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJItNCIsRi00Ii4I0AQAA/9BR2Rwk6B8AAACDxATZHCRqAYtNEIsRi00Qi0Jg/9BdwwAAkkIAQAlEVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(sIntellect, 73, 549)</sString>
+							<sString>damageScale(max(sIntellect, sStrength), 73, 549)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -544,9 +544,9 @@
 					<UnitConstant>
 						<name>A1u2_AddRange</name>
 						<var>
-							<compiledString>FQ0AAAACAAAAGgAAAC0AAABSYW5nZV9NZWRpdW0AVYvsUYtFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S3CU7AAAA2V382UX8i+VdwwAAAAAAABBA</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
 							<returnType>float</returnType>
-							<sString>cRange_Medium-4</sString>
+							<sString>5</sString>
 						</var>
 					</UnitConstant>
 				</Item>

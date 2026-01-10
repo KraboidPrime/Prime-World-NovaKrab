@@ -6,8 +6,8 @@
 	<BackLink DBID="/Items/Talents/Class/Healer/Ability4_2.TALENT" Count="1" />
 	<name>A2AddDefence</name>
 	<var>
-		<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUEAAADZHCRR2QU9AAAA2RwkagKLRQiLEItNCItCEP/QUdkcJGoAi00QixGLTRCLQmD/0F3DZmYmQAAAoEE=</compiledString>
+		<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUEAAADZHCRR2QU9AAAA2RwkagKLRQiLEItNCItCEP/QUdkcJGoAi00QixGLTRCLQmD/0F3DAAAAQAAAgEE=</compiledString>
 		<returnType>float</returnType>
-		<sString>abilityScaleCustomEnergy(sMaxEnergy, 2.6, 20)</sString>
+		<sString>abilityScaleCustomEnergy(sMaxEnergy, 2, 16)</sString>
 	</var>
 </UnitConstant>

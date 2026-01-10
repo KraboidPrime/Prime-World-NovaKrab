@@ -1426,7 +1426,7 @@
 				</Item>
 				<Item>
 					<name>workTime1</name>
-					<virtPar>0.3333333</virtPar>
+					<virtPar>0.1</virtPar>
 				</Item>
 			</markers>
 			<nextNode>idle</nextNode>
@@ -5054,7 +5054,7 @@
 				</Item>
 				<Item>
 					<name>workTime2</name>
-					<virtPar>0.5</virtPar>
+					<virtPar>0.2</virtPar>
 				</Item>
 			</markers>
 			<nextNode>idle</nextNode>
@@ -6108,7 +6108,7 @@
 				</Item>
 				<Item>
 					<name>workTime3</name>
-					<virtPar>0.5</virtPar>
+					<virtPar>0.3</virtPar>
 				</Item>
 			</markers>
 			<nextNode>idle</nextNode>
@@ -6442,7 +6442,7 @@
 				</Item>
 				<Item>
 					<name>workTime4</name>
-					<virtPar>0.5</virtPar>
+					<virtPar>0.2</virtPar>
 				</Item>
 			</markers>
 			<nextNode>idle</nextNode>

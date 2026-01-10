@@ -338,7 +338,7 @@
 										</applicators>
 										<dispatch href="/Items/Talents/Class/Rockman/Ability4_2.TALENT" id="F033E280-4E2A-44EC-BF59-81471B838F67">
 											<DispatchLinear>
-												<aiming>Homing</aiming>
+												<aiming>Pursue</aiming>
 												<alwaysApply>false</alwaysApply>
 												<applyEffect>
 													<Item href="/Effects/Debuffs/Discharge/_RockmanHit.EFFT" />
@@ -440,6 +440,48 @@
 				</startCondition>
 			</ProgramApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/Rockman/Ability4_2.TALENT" id="B252EA7D-1947-4037-BE60-974160AF5B12">
+			<SpellApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<caption></caption>
+				<enabled>
+					<compiledString>FR4AAAACAAAAJQAAAD4AAABSb2NrbWFuX0E0XzJ1AAAAUm9ja21hbl9BNF8ydQBVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AIpF+4vlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("Rockman_A4_2u")</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<spell href="/Items/Talents/Class/Rockman/Ability4_2.TALENT" id="E8AF3EEC-085C-4A09-8D27-8BC32636DC3D">
+					<Spell>
+						<applicators>
+							<Item href="/Heroes/DefaultStatus/_HASTE_status.APLR" />
+						</applicators>
+						<dispatch href="/Items/Talents/Class/Rockman/Ability4_2.TALENT" id="6B72241D-AB38-434F-AA76-A71A1C5F1ACD">
+							<DispatchImmediate>
+								<alwaysApply>false</alwaysApply>
+								<applyEffect>
+									<Item href="" />
+									<Item href="" />
+								</applyEffect>
+								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+								<applyEffectOrientation>Default</applyEffectOrientation>
+								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+								<dieAfterApply>true</dieAfterApply>
+								<dispatchEffect>
+									<Item href="" />
+									<Item href="" />
+								</dispatchEffect>
+								<flags>0</flags>
+								<instantApply>false</instantApply>
+							</DispatchImmediate>
+						</dispatch>
+					</Spell>
+				</spell>
+				<spellTarget>AbilityOwner</spellTarget>
+				<targetSelector href="" />
+			</SpellApplicator>
+		</Item>
 	</applicators>
 	<askId>4</askId>
 	<autoTargetSelector href="" />
@@ -477,9 +519,9 @@
 					<UnitConstant>
 						<name>A4_2_Damage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAADkQgDAVUQ=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAADwQgCAYEQ=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale (sStrength, 114, 855)</sString>
+							<sString>damageScale (sStrength, 120, 898)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -510,6 +552,26 @@
 							<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
 							<returnType>float</returnType>
 							<sString>1</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Rockman/Ability4_2.TALENT" id="BEFDBC81-A51D-49E3-B77C-1EAFDB9B374E">
+					<UnitConstant>
+						<name>Haste_Duration</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
+							<returnType>float</returnType>
+							<sString>5.0f</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Rockman/Ability4_2.TALENT" id="D902CE9D-8086-40FD-9236-97CFFEE0BE3F">
+					<UnitConstant>
+						<name>Haste_Percent</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQg==</compiledString>
+							<returnType>float</returnType>
+							<sString>50.0f</sString>
 						</var>
 					</UnitConstant>
 				</Item>

@@ -82,9 +82,9 @@
 								</applicators>
 								<formulaName>GlyphHasteStatus</formulaName>
 								<lifeTime>
-									<compiledString>FUMAAAAFAAAASgAAAGAAAAB0AAAAjgAAALMAAABSZWRzZXQ3XzdDb3VudGVyAAAAAEhhc3RlX0R1cmF0aW9uAABFeHRyYUR1cmF0aW9uAAAASGFzdGVfRHVyYXRpb24AVYvsg+wUaAAAAACLRQyLEItNDIuCiAEAAP/Q3B3UAAAA3+D2xAF1P4tNDFGLVQhSaBQAAACLRRCLEItNEItCUP/Qi00MUYtVCFJoJAAAAItFEIsQi00Qi0JQ3V34/9DcRfjdXfDrHYtNDFGLVQhSaDQAAACLRRCLEItNEItCUP/Q3V3w3UXw2V3s2UXsi+VdwwAAAAAAAPA/</compiledString>
+									<compiledString>FUMAAAAFAAAASgAAAGAAAAB0AAAAjgAAALMAAABSZWRzZXQ3XzdDb3VudGVyAAAAAEhhc3RlX0R1cmF0aW9uAABFeHRyYUR1cmF0aW9uAAAASGFzdGVfRHVyYXRpb24AVYvsg+wUaAAAAACLRQyLEItNDIuCiAEAAP/Q3B3UAAAA3+D2xAF1P4tNDFGLVQhSaBQAAACLRRCLEItNEItCUP/Qi00MUYtVCFJoJAAAAItFEIsQi00Qi0JQ3V34/9DcRfjdXfDrHYtNDFGLVQhSaDQAAACLRRCLEItNEItCUP/Q3V3w3UXw2V3s2UXsi+VdwwAAAAAAAABA</compiledString>
 									<returnType>float</returnType>
-									<sString>receiver.vRedset7_7Counter &gt;= 1? cHaste_Duration + cExtraDuration : cHaste_Duration</sString>
+									<sString>receiver.vRedset7_7Counter &gt;= 2? cHaste_Duration + cExtraDuration : cHaste_Duration</sString>
 								</lifeTime>
 							</StatusApplicator>
 						</applicator>
@@ -279,9 +279,9 @@
 					<UnitConstant>
 						<name>Haste_Duration</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQg==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQg==</compiledString>
 							<returnType>float</returnType>
-							<sString>60</sString>
+							<sString>40</sString>
 						</var>
 					</UnitConstant>
 				</Item>

@@ -683,7 +683,6 @@
 			<aoeType>None</aoeType>
 			<applicators>
 				<Item href="/Effects/Shots/HitsApplicators/FireFox.APLR" />
-				<Item href="/GameLogic/GeneralApplicators/BaseAttackDmg_Hero_material.APLR" />
 				<Item href="/Heroes/Bomber/_.HROB" id="4107178D-AE04-4903-BE1C-FCBE838D9C9B">
 					<SpellApplicator>
 						<applyTarget>ApplicatorTarget</applyTarget>
@@ -726,7 +725,7 @@
 											<Item href="" />
 											<Item href="" />
 										</dispatchEffect>
-										<flags>6</flags>
+										<flags>2</flags>
 										<instantApply>false</instantApply>
 									</DispatchImmediate>
 								</dispatch>
@@ -752,6 +751,7 @@
 						</targetSelector>
 					</SpellApplicator>
 				</Item>
+				<Item href="/GameLogic/GeneralApplicators/BaseAttackDmg_Hero_material.APLR" />
 			</applicators>
 			<autoTargetSelector href="" />
 			<caption></caption>
@@ -816,7 +816,7 @@
 					<toLocator>Body</toLocator>
 				</DispatchLinear>
 			</dispatch>
-			<flags>1</flags>
+			<flags>5</flags>
 			<image href="" />
 			<imageSecondState href="" />
 			<isMelee>false</isMelee>

@@ -24,6 +24,7 @@
 	<BackLink DBID="/Test/Talents/Bard/Elite_Int.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Inventor/Elite_Int.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Mowgli/Elite_Int.TALENTSET" Count="1" />
+	<BackLink DBID="/Test/Talents/Assassin/New_SUP.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>

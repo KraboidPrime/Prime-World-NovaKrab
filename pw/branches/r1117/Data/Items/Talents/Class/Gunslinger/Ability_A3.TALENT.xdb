@@ -69,6 +69,100 @@
 			<StatusApplicator>
 				<applicators>
 					<Item href="/Items/Talents/Class/Gunslinger/status_A3_Mark.APLR" />
+					<Item href="/Items/Talents/Class/Gunslinger/Ability_A3.TALENT" id="9DC25EC2-8057-4319-AB36-7AF59B9563E6">
+						<StatModApplicator>
+							<applyTarget>AbilityOwner</applyTarget>
+							<behaviorFlags>0</behaviorFlags>
+							<caption></caption>
+							<constraint>None</constraint>
+							<dontUpdate>false</dontUpdate>
+							<effect>
+								<Item href="" />
+								<Item href="" />
+							</effect>
+							<enabled>
+								<compiledString>FSYAAAACAAAALQAAAEYAAABHdW5zbGluZ2VyX0EzX1NVUAAAAEd1bnNsaW5nZXJfQTNfU1VQAFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoFAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAikX7i+Vdww==</compiledString>
+								<returnType>bool</returnType>
+								<sString>tal("Gunslinger_A3_SUP")</sString>
+							</enabled>
+							<formulaName></formulaName>
+							<lifeTime>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>-1.0</sString>
+							</lifeTime>
+							<LoggingEvent>-1</LoggingEvent>
+							<modifier>
+								<addValue>
+									<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQQ==</compiledString>
+									<returnType>float</returnType>
+									<sString>25.0f</sString>
+								</addValue>
+								<multValue>
+									<compiledString></compiledString>
+									<returnType>float</returnType>
+									<sString>1.0f</sString>
+								</multValue>
+								<stat>MaterialDamageDecrease</stat>
+								<topModifier>false</topModifier>
+								<variable></variable>
+							</modifier>
+							<providerName></providerName>
+							<startCondition>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</startCondition>
+							<statModName></statModName>
+						</StatModApplicator>
+					</Item>
+					<Item href="/Items/Talents/Class/Gunslinger/Ability_A3.TALENT" id="63B9AF1A-D6DD-473A-BB89-DB53E552B5E6">
+						<StatModApplicator>
+							<applyTarget>AbilityOwner</applyTarget>
+							<behaviorFlags>0</behaviorFlags>
+							<caption></caption>
+							<constraint>None</constraint>
+							<dontUpdate>false</dontUpdate>
+							<effect>
+								<Item href="" />
+								<Item href="" />
+							</effect>
+							<enabled>
+								<compiledString>FSYAAAACAAAALQAAAEYAAABHdW5zbGluZ2VyX0EzX1NVUAAAAEd1bnNsaW5nZXJfQTNfU1VQAFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoFAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAikX7i+Vdww==</compiledString>
+								<returnType>bool</returnType>
+								<sString>tal("Gunslinger_A3_SUP")</sString>
+							</enabled>
+							<formulaName></formulaName>
+							<lifeTime>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>-1.0</sString>
+							</lifeTime>
+							<LoggingEvent>-1</LoggingEvent>
+							<modifier>
+								<addValue>
+									<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQQ==</compiledString>
+									<returnType>float</returnType>
+									<sString>25.0f</sString>
+								</addValue>
+								<multValue>
+									<compiledString></compiledString>
+									<returnType>float</returnType>
+									<sString>1.0f</sString>
+								</multValue>
+								<stat>EnergyDamageDecrease</stat>
+								<topModifier>false</topModifier>
+								<variable></variable>
+							</modifier>
+							<providerName></providerName>
+							<startCondition>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</startCondition>
+							<statModName></statModName>
+						</StatModApplicator>
+					</Item>
 				</applicators>
 				<applyTarget>AbilityOwner</applyTarget>
 				<behaviorFlags>2</behaviorFlags>
@@ -154,7 +248,7 @@
 								<returnType>bool</returnType>
 								<sString>true</sString>
 							</abilityCondition>
-							<abilityCostMode>Energy</abilityCostMode>
+							<abilityCostMode>Any</abilityCostMode>
 							<exceptThis>false</exceptThis>
 							<flags>1073743103</flags>
 							<onlySingleTarget>false</onlySingleTarget>
@@ -170,9 +264,9 @@
 						<flags>0</flags>
 						<matchTargetInverted>false</matchTargetInverted>
 						<mul>
-							<compiledString>FcIAAAAOAAAAyQAAAOQAAAAIAQAAIgEAADsBAACAAQAAkwEAAJkBAACsAQAAxQEAAAMCAAAnAgAAOgIAAEMCAABEYW1hZ2VEZWFsZXIAAAAAR3Vuc2xpbmdlcl9NYXJrT2ZQcmV5AAAAR3Vuc2xpbmdlcl9NYXJrAEd1bnNsaW5nZXJfQTNfU1VQAAAAR3Vuc2xpbmdlcl9BM19TVVAAAABEYW1hZ2VEZWNyZWFzZVNVUF9BbGwAAABEYW1hZ2VEZWNyZWFzZQAAR3Vuc2xpbmdlcl9BM19TVVAAAABHdW5zbGluZ2VyX0EzX1NVUAAAAERhbWFnZURlY3JlYXNlU1VQAFWL7IPsLGgAAAAAi0UQixCLTRCLQkz/0IlF/GoAi00QUWgQAAAAi1X8iwKLTfyLkJwBAAD/0jtFEA+FqgAAAGoAi0UQUGgoAAAAi00IixGLTQiLgpwBAAD/0DtFEHVWaDgAAACLTQiLEYtNCIuCqAEAAP/QhcB0KmhMAAAAi00IixGLTQiLgqgBAAD/0IlF+ItN+IsRi034i0IE/9CIRffrBMZF9wAPtk33hcl0B9no3V3s6ymLVQxSi0UIUGhgAAAAi00QixGLTRCLQlD/0NwtYwIAANwNWwIAAN1d7N1F7N1d5OmfAAAAaIgAAACLTQiLEYtNCIuCqAEAAP/QhcB0KmicAAAAi00IixGLTQiLgqgBAAD/0IlF4ItN4IsRi03gi0IE/9CIRd/rBMZF3wAPtk3fhcl0H4tVDFKLRQhQaLAAAACLTRCLEYtNEItCUP/Q2V3Y6wXZ7tld2ItNDFGLVQhSaHgAAACLRRCLEItNEItCUP/Q3C1jAgAA2GXY3A1bAgAA3V3k3UXk2V3U2UXUi+VdwwAAAAB7FK5H4XqEPwAAAAAAAFlAAAAAAAAA8D8=</compiledString>
+							<compiledString>FTcAAAAFAAAAPgAAAFkAAACCAAAAlQAAAJsAAABEYW1hZ2VEZWFsZXIAAAAAR3Vuc2xpbmdlcl9NYXJrT2ZQcmV5AAAARGFtYWdlRGVjcmVhc2UAVYvsg+wQaAAAAACLRRCLEItNEItCTP/QiUX8agCLTRBRaBAAAACLVfyLAotN/IuQnAEAAP/SO0UQdQfZ6N1d9Ospi0UMUItNCFFoKAAAAItVEIsCi00Qi1BQ/9LcLbcAAADcDa8AAADdXfTdRfTZXfDZRfCL5V3DexSuR+F6hD8AAAAAAABZQAAAAAAAAPA/</compiledString>
 							<returnType>float</returnType>
-							<sString>appl.oDamageDealer.applGunslinger_MarkOfPrey(GLOBAL) == pMisc ? ((sender.applGunslinger_Mark(GLOBAL) == pMisc)&amp;&amp;(tal("Gunslinger_A3_SUP"))) ? 1.0 : (100 - cDamageDecreaseSUP_All)*0.01 : (100 - cDamageDecrease - (tal("Gunslinger_A3_SUP") ? cDamageDecreaseSUP : 0))*0.01</sString>
+							<sString>appl.oDamageDealer.applGunslinger_MarkOfPrey(GLOBAL) == pMisc ? 1.0 : (100 - cDamageDecrease)*0.01</sString>
 						</mul>
 						<objectFilter>537133059</objectFilter>
 						<senderMatchTarget>AbilityTarget</senderMatchTarget>
@@ -319,9 +413,9 @@
 					<UnitConstant>
 						<name>TT_A3_Damage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAAgQgAAlkM=</compiledString>
+							<compiledString>FSYAAAAGAAAALQAAAEYAAACAAAAAigAAAMAAAADKAAAAR3Vuc2xpbmdlcl9BM19TVVAAAABHdW5zbGluZ2VyX0EzX1NVUABVi+yD7AxoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBQAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXRAagFR2QUMAQAA2RwkUdkFCAEAANkcJGoAi1UIiwKLTQiLkDQBAAD/0lHZHCRqAYtFEIsQi00Qi0Jg/9DZXfTrPmoBUdkFBAEAANkcJFHZBQABAADZHCRqAItNCIsRi00Ii4I0AQAA/9BR2RwkagGLTRCLEYtNEItCYP/Q2V302UX0i+VdwwAAIEIAAJZDAACgQgAAFkQ=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale (sIntellect, 40, 300)</sString>
+							<sString>tal("Gunslinger_A3_SUP") ? damageScale (sIntellect, 80, 600) : damageScale (sIntellect, 40, 300)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -351,9 +445,9 @@
 					<UnitConstant>
 						<name>A0_DmgUp</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQg==</compiledString>
+							<compiledString>FSYAAAACAAAALQAAAEYAAABHdW5zbGluZ2VyX0EwX1NVUAAAAEd1bnNsaW5nZXJfQTBfU1VQAFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoFAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+/fZG8mD4TKDwTKJTfTbRfSL5V3D</compiledString>
 							<returnType>float</returnType>
-							<sString>50</sString>
+							<sString>tal("Gunslinger_A0_SUP") ? 100 : 50</sString>
 						</var>
 					</UnitConstant>
 				</Item>

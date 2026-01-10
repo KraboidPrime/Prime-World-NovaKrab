@@ -6,8 +6,8 @@
 	<BackLink DBID="/Items/Talents/Class/Healer/Ability4_2.TALENT" Count="1" />
 	<name>A3AddPower</name>
 	<var>
-		<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUEAAADZHCRR2QU9AAAA2RwkagKLRQiLEItNCItCEP/QUdkcJGoAi00QixGLTRCLQmD/0F3DmplZQAAAyEE=</compiledString>
+		<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUEAAADZHCRR2QU9AAAA2RwkagKLRQiLEItNCItCEP/QUdkcJGoAi00QixGLTRCLQmD/0F3DAAAAQAAAoEE=</compiledString>
 		<returnType>float</returnType>
-		<sString>abilityScaleCustomEnergy(sMaxEnergy, 3.4, 25)</sString>
+		<sString>abilityScaleCustomEnergy(sMaxEnergy, 2, 20)</sString>
 	</var>
 </UnitConstant>

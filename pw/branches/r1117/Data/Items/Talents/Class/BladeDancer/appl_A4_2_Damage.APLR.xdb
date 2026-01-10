@@ -20,9 +20,9 @@
 						<cancelInvisibility>false</cancelInvisibility>
 						<caption>урон врагу с меткой от каждой автаатаки</caption>
 						<damage>
-							<compiledString>FRAAAAABAAAAHAAAAEE0XzJfRGFtYWdlSGVhbABVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+							<compiledString>FQwAAAABAAAAGAAAAEE0XzJfRGFtYWdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
 							<returnType>float</returnType>
-							<sString>cA4_2_DamageHeal</sString>
+							<sString>cA4_2_Damage</sString>
 						</damage>
 						<damageMode>0</damageMode>
 						<damageType>Energy</damageType>
@@ -41,9 +41,9 @@
 				<Item href="/Items/Talents/Class/BladeDancer/appl_A4_2_Damage.APLR" id="86F0022B-3824-4378-B369-95AA4D92DBBE">
 					<HealApplicator>
 						<amount>
-							<compiledString>FRAAAAABAAAAHAAAAEE0XzJfRGFtYWdlSGVhbABVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+							<compiledString>FQoAAAABAAAAFgAAAEE0XzJfSGVhbABVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
 							<returnType>float</returnType>
-							<sString>cA4_2_DamageHeal</sString>
+							<sString>cA4_2_Heal</sString>
 						</amount>
 						<applyTarget>AbilityOwner</applyTarget>
 						<caption>лечим себя</caption>

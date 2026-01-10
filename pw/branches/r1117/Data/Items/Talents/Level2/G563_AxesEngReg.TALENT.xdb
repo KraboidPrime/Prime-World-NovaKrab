@@ -69,19 +69,19 @@
 					<UnitConstant>
 						<name>BonusSpellDamage</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACIQQ==</compiledString>
+							<compiledString>FS0AAAAIAAAANAAAAE0AAAB7AAAAlAAAAMIAAADbAAAAIAEAACoBAABHNTY0AAAAAEc1NjQAAAAARzU2NQAAAABHNTY1AAAAAEc1NjYAAAAARzU2NgBVi+yD7CBoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaAgAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AGgQAAAAi00IixGLTQiLgqgBAAD/0IXAdCpoGAAAAItNCIsRi00Ii4KoAQAA/9CJRfSLTfSLEYtN9ItCBP/QiEXz6wTGRfMAaCAAAACLTQiLEYtNCIuCqAEAAP/QhcB0KmgoAAAAi00IixGLTQiLgqgBAAD/0IlF7ItN7IsRi03si0IE/9CIRevrBMZF6wAPtk37D7ZV8wPKD7ZF6wPIiU3k20Xk3A1IAQAA2ejewdwNOAEAANld4NlF4IvlXcMAAAAAAAAcQAAAAAAAAPA/AAAAAAAA4D8=</compiledString>
 							<returnType>float</returnType>
-							<sString>17.0f</sString>
+							<sString>(1+0.5*(tal("G564")+tal("G565")+tal("G566")))*7.0f</sString>
 						</var>
 					</UnitConstant>
 				</Item>
-				<Item href="/Items/Talents/Level2/G563_AxesEngReg.TALENT" id="875497A2-5A77-4771-AC18-E906B5076CB1">
+				<Item href="/Items/Talents/Level2/G563_AxesEngReg.TALENT" id="2A5222C6-7CBA-4B84-87EC-DB092B0D9AD8">
 					<UnitConstant>
 						<name>NaftaBonus</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
+							<compiledString>FS0AAAAIAAAANAAAAE0AAAB7AAAAlAAAAMIAAADbAAAAJwEAADgBAABHNTYyAAAAAEc1NjIAAAAARzU4MAAAAABHNTgwAAAAAEc1NjMAAAAARzU2MwBVi+yD7CBoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaAgAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AGgQAAAAi00IixGLTQiLgqgBAAD/0IXAdCpoGAAAAItNCIsRi00Ii4KoAQAA/9CJRfSLTfSLEYtN9ItCBP/QiEXz6wTGRfMAaCAAAACLTQiLEYtNCIuCqAEAAP/QhcB0KmgoAAAAi00IixGLTQiLgqgBAAD/0IlF7ItN7IsRi03si0IE/9CIRevrBMZF6wAPtk37D7ZV8wPKD7ZF6wPI0eGJTeTbReRR2RwkUdkFTgEAANkcJOgfAAAAg8QI3C1GAQAA2V3g2UXgi+VdwwAAAAAAABRAAACAQFWL7FHZRQjZRQze2d/g9sRBdQjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
 							<returnType>float</returnType>
-							<sString>5.0f</sString>
+							<sString>5 - min(4, 2*(tal("G562") + tal("G580") +  tal("G563")))</sString>
 						</var>
 					</UnitConstant>
 				</Item>

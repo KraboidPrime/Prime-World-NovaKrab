@@ -62,8 +62,17 @@
 		<UnitConstantsContainer>
 			<vars>
 				<Item href="/Items/Talents/Class/Assassin/const_A3u_Haste_Duration" />
-				<Item href="/Items/Talents/Class/Assassin/const_A3u_Haste_Percent" />
 				<Item href="/Items/Talents/Class/Assassin/const_A3u_AddEnergyRegenAbs" />
+				<Item href="/Items/Talents/Class/Assassin/Ability_A3u.TALENT" id="E1609935-39FD-450B-8547-B4102DD3C62C">
+					<UnitConstant>
+						<name>Haste_Percent</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQg==</compiledString>
+							<returnType>float</returnType>
+							<sString>60.0f</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

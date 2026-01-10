@@ -56,7 +56,6 @@
 	<constants href="/Items/Talents/Class/Unicorn/Ability4_2U.TALENT" id="C47836C2-AC15-4551-9AB3-79E1E80C08B0">
 		<UnitConstantsContainer>
 			<vars>
-				<Item href="/Items/Talents/Class/Unicorn/const_A4_2u_AddStamina" />
 				<Item href="/Items/Talents/Class/Unicorn/const_A4_2u_AddWill" />
 				<Item href="/Items/Talents/Class/Unicorn/const_A4_2u_Duration" />
 			</vars>

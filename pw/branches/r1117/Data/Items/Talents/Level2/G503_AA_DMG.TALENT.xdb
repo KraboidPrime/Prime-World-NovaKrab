@@ -202,9 +202,9 @@
 					<UnitConstant>
 						<name>ArmorCut_StartCondition</name>
 						<var>
-							<compiledString>FQwAAAACAAAAEwAAACkAAABHNTA3X0FjdGl2ZQBVi+yD7AxoAAAAAItFCIsQi00Ii4KIAQAA/9DcHXgAAADf4PbEQXU2i00MixGLTQyLgsgAAAD/0ItNDIsRi00Mi4LMAAAA3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAANtF9IvlXcMAAAAAAAAAAA==</compiledString>
+							<compiledString>FQwAAAACAAAAEQAAACcAAABHNTA3X0FjdGl2ZQBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1aAAAA3+D2xEF1GotNCIsRi00Ii0Jg/9CFwHUJx0X8AQAAAOsHx0X8AAAAANtF/IvlXcMAAAAAAAAAAA==</compiledString>
 							<returnType>float</returnType>
-							<sString>sender.vG507_Active &gt; 0 &amp;&amp; rBaseStamina &gt;= rBaseWill</sString>
+							<sString>sender.vG507_Active &gt; 0 &amp;&amp; !sNativeAttackIndex</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -232,9 +232,9 @@
 					<UnitConstant>
 						<name>WillCut_StartCondition</name>
 						<var>
-							<compiledString>FQwAAAACAAAAEwAAACkAAABHNTA3X0FjdGl2ZQBVi+yD7AxoAAAAAItFCIsQi00Ii4KIAQAA/9DcHXgAAADf4PbEQXU2i00MixGLTQyLgsgAAAD/0ItNDIsRi00Mi4LMAAAA3V34/9DcXfjf4PbEQXUJx0X0AQAAAOsHx0X0AAAAANtF9IvlXcMAAAAAAAAAAA==</compiledString>
+							<compiledString>FQwAAAACAAAAEQAAACcAAABHNTA3X0FjdGl2ZQBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1aAAAA3+D2xEF1GotNCIsRi00Ii0Jg/9CFwHQJx0X8AQAAAOsHx0X8AAAAANtF/IvlXcMAAAAAAAAAAA==</compiledString>
 							<returnType>float</returnType>
-							<sString>sender.vG507_Active &gt; 0 &amp;&amp; rBaseStamina &lt; rBaseWill</sString>
+							<sString>sender.vG507_Active &gt; 0 &amp;&amp; sNativeAttackIndex</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -338,15 +338,174 @@
 							<applyTarget>ApplicatorTarget</applyTarget>
 							<caption>улучшение автоатаки</caption>
 							<enabled>
-								<compiledString>FQUAAAACAAAAMgAAAFYAAABXYXJkAFWL7FFR2ejZHCRR2e7ZHCRqAYtFDIsQi00Mi0JY/9APtshR6GkAAACDxAzcHYYAAADf4PbERHs7i1UMiwKLTQyLUFD/0oP4EXQpagCLRRBQaAAAAACLTQyLEYtNDIuCnAEAAP/QO0UQdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAAAAAAAAAAAgD9Vi+xRD7ZFCIXAdAjZRQzZXfzrBtlFENld/NlF/IvlXcM=</compiledString>
+								<compiledString>FRUAAAAEAAAARAAAAGwAAACGAAAAnwAAAFdhcmQAAAAARzI1MAAAAABHMjUwAFWL7IPsDFHZ6NkcJFHZ7tkcJGoBi0UMixCLTQyLQlj/0A+2yFHovAAAAIPEDNwd6wAAAN/g9sRED4uKAAAAi1UMiwKLTQyLUFD/0oP4EXR4agCLRRBQaAAAAACLTQyLEYtNDIuCnAEAAP/QO0UQdVhoCAAAAItNCIsRi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcMAAAAAAAAAAAAAAAAAAIA/VYvsUQ+2RQiFwHQI2UUM2V386wbZRRDZXfzZRfyL5V3D</compiledString>
 								<returnType>bool</returnType>
-								<sString>ut_bldg(false, true) &amp;&amp; rUnitKind != 17 &amp;&amp; receiver.applWard(GLOBAL) == pMisc</sString>
+								<sString>ut_bldg( false, true ) &amp;&amp; rUnitKind != 17 &amp;&amp; receiver.applWard(GLOBAL) == pMisc &amp;&amp; !tal("G250")</sString>
 							</enabled>
 							<formulaName></formulaName>
 							<LoggingEvent>-1</LoggingEvent>
 							<providerName></providerName>
 							<spell href="/Items/Talents/Level2/G503_AA_DMG.TALENT" id="55F8F9A5-B4CB-4B95-A5C6-AC5F50727F17">
 								<Spell parent="/Items/Talents/TalentKits/RedSet2_6_AAMod/spell_G503_AAMod.SPLL" />
+							</spell>
+							<spellTarget>ApplicatorTarget</spellTarget>
+							<targetSelector href="" />
+						</SpellApplicator>
+					</Item>
+					<Item href="/Items/Talents/Level2/G503_AA_DMG.TALENT" id="C9F0FAF7-9C53-4C90-9294-C69F98427BEB">
+						<SpellApplicator>
+							<applyTarget>ApplicatorTarget</applyTarget>
+							<caption>улучшение автоатаки</caption>
+							<enabled>
+								<compiledString>FRUAAAADAAAANAAAAE4AAABnAAAAV2FyZAAAAABHMjUwAAAAAEcyNTAAVYvsg+wMi0UMixCLTQyLQlD/0IP4EXR4agCLTRBRaAAAAACLVQyLAotNDIuQnAEAAP/SO0UQdVhoCAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXQJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+								<returnType>bool</returnType>
+								<sString>rUnitKind != 17 &amp;&amp; receiver.applWard(GLOBAL) == pMisc &amp;&amp; tal("G250")</sString>
+							</enabled>
+							<formulaName></formulaName>
+							<LoggingEvent>-1</LoggingEvent>
+							<providerName></providerName>
+							<spell href="/Items/Talents/Level2/G503_AA_DMG.TALENT" id="1C6EA2B0-FBC3-4528-A855-A69E854637F1">
+								<Spell>
+									<applicators>
+										<Item href="/Items/Talents/Level2/G503_AA_DMG.TALENT" id="41D1ACCC-DFE5-49EC-AA0B-D8268CAB5C57">
+											<VariableProxyApplicator>
+												<applicators>
+													<Item>
+														<applicator href="/Items/Talents/Level2/G503_AA_DMG.TALENT" id="E6228C61-0C1A-465C-99F0-9168D005884E">
+															<DamageApplicator>
+																<applyTarget>ApplicatorTarget</applyTarget>
+																<cancelInvisibility>false</cancelInvisibility>
+																<caption>Маг урон</caption>
+																<damage>
+																	<compiledString>FQcAAAABAAAAEwAAAE1hZ0RtZwBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+																	<returnType>float</returnType>
+																	<sString>cMagDmg</sString>
+																</damage>
+																<damageMode>8</damageMode>
+																<damageType>Energy</damageType>
+																<enabled>
+																	<compiledString>FQcAAAACAAAAFAAAACcAAABNYWdEbWcAVYvsUYtFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S3B1JAAAA3+D2xEF1CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
+																	<returnType>bool</returnType>
+																	<sString>cMagDmg &gt; 0</sString>
+																</enabled>
+																<formulaName>G503_MagDmg</formulaName>
+																<LoggingEvent>-1</LoggingEvent>
+																<providerName></providerName>
+																<timeLimiter>-1</timeLimiter>
+																<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Energy.UIEV" />
+															</DamageApplicator>
+														</applicator>
+														<variableNames>
+															<Item>damageDealed</Item>
+														</variableNames>
+													</Item>
+													<Item>
+														<applicator href="/Items/Talents/Level2/G503_AA_DMG.TALENT" id="65306207-E40B-4390-83FF-9108E91A5941">
+															<DamageApplicator>
+																<applyTarget>ApplicatorTarget</applyTarget>
+																<cancelInvisibility>false</cancelInvisibility>
+																<caption>Физ урон</caption>
+																<damage>
+																	<compiledString>FQgAAAABAAAAFAAAAFBoaXNEbWcAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+																	<returnType>float</returnType>
+																	<sString>cPhisDmg</sString>
+																</damage>
+																<damageMode>8</damageMode>
+																<damageType>Material</damageType>
+																<enabled>
+																	<compiledString>FQgAAAACAAAAFQAAACgAAABQaGlzRG1nAFWL7FGLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0twdSgAAAN/g9sRBdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAAA</compiledString>
+																	<returnType>bool</returnType>
+																	<sString>cPhisDmg &gt; 0</sString>
+																</enabled>
+																<formulaName>G503_PhisDmg</formulaName>
+																<LoggingEvent>-1</LoggingEvent>
+																<providerName></providerName>
+																<timeLimiter>-1</timeLimiter>
+																<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Material.UIEV" />
+															</DamageApplicator>
+														</applicator>
+														<variableNames>
+															<Item>damageDealed</Item>
+														</variableNames>
+													</Item>
+												</applicators>
+												<applyTarget>ApplicatorTarget</applyTarget>
+												<caption>Уроны</caption>
+												<enabled>
+													<compiledString></compiledString>
+													<returnType>bool</returnType>
+													<sString>true</sString>
+												</enabled>
+												<formulaName></formulaName>
+												<LoggingEvent>-1</LoggingEvent>
+												<providerName></providerName>
+											</VariableProxyApplicator>
+										</Item>
+									</applicators>
+									<dispatch href="/Items/Talents/Level2/G503_AA_DMG.TALENT" id="E82B2302-95B0-40BB-B347-7720C2173D29">
+										<DispatchImmediate>
+											<alwaysApply>false</alwaysApply>
+											<applyEffect>
+												<Item href="" />
+												<Item href="" />
+											</applyEffect>
+											<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+											<applyEffectOrientation>Default</applyEffectOrientation>
+											<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+											<dieAfterApply>true</dieAfterApply>
+											<dispatchEffect>
+												<Item href="" />
+												<Item href="" />
+											</dispatchEffect>
+											<flags>0</flags>
+											<instantApply>false</instantApply>
+										</DispatchImmediate>
+									</dispatch>
+								</Spell>
+							</spell>
+							<spellTarget>ApplicatorTarget</spellTarget>
+							<targetSelector href="" />
+						</SpellApplicator>
+					</Item>
+					<Item href="/Items/Talents/Level2/G503_AA_DMG.TALENT" id="09C721A4-58D8-4FA4-8AC6-8F487D9D217A">
+						<SpellApplicator>
+							<applyTarget>ApplicatorTarget</applyTarget>
+							<caption>улучшение автоатаки</caption>
+							<enabled>
+								<compiledString>FRUAAAAEAAAARAAAAGwAAACGAAAAnwAAAFdhcmQAAAAARzI1MAAAAABHMjUwAFWL7IPsDFHZ6NkcJFHZ7tkcJGoBi0UMixCLTQyLQlj/0A+2yFHovAAAAIPEDNwd6wAAAN/g9sRED4uKAAAAi1UMiwKLTQyLUFD/0oP4EXR4agCLRRBQaAAAAACLTQyLEYtNDIuCnAEAAP/QO0UQdVhoCAAAAItNCIsRi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXQJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcMAAAAAAAAAAAAAAAAAAIA/VYvsUQ+2RQiFwHQI2UUM2V386wbZRRDZXfzZRfyL5V3D</compiledString>
+								<returnType>bool</returnType>
+								<sString>ut_bldg( false, true ) &amp;&amp; rUnitKind != 17 &amp;&amp; receiver.applWard(GLOBAL) == pMisc &amp;&amp; tal("G250")</sString>
+							</enabled>
+							<formulaName></formulaName>
+							<LoggingEvent>-1</LoggingEvent>
+							<providerName></providerName>
+							<spell href="/Items/Talents/Level2/G503_AA_DMG.TALENT" id="93D59144-182F-42F7-B0F4-ADBFD16D97CE">
+								<Spell>
+									<applicators>
+										<Item href="/Heroes/DefaultStatus/_ARMORCUT_status.APLR" />
+										<Item href="/Heroes/DefaultStatus/_Vulnerability_status.APLR" />
+										<Item href="/Heroes/DefaultStatus/_SLOW_MOVE.APLR" />
+									</applicators>
+									<dispatch href="/Items/Talents/Level2/G503_AA_DMG.TALENT" id="5671C2B5-0E22-4CCD-85FA-D25BA5F1EE04">
+										<DispatchImmediate>
+											<alwaysApply>false</alwaysApply>
+											<applyEffect>
+												<Item href="" />
+												<Item href="" />
+											</applyEffect>
+											<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+											<applyEffectOrientation>Default</applyEffectOrientation>
+											<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+											<dieAfterApply>true</dieAfterApply>
+											<dispatchEffect>
+												<Item href="" />
+												<Item href="" />
+											</dispatchEffect>
+											<flags>0</flags>
+											<instantApply>false</instantApply>
+										</DispatchImmediate>
+									</dispatch>
+								</Spell>
 							</spell>
 							<spellTarget>ApplicatorTarget</spellTarget>
 							<targetSelector href="" />

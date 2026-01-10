@@ -6,6 +6,7 @@
 	<BackLink DBID="/Items/Talents/Class/Mage/Ability3.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Mage/Ability4.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Mage/Channeling.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A4_1.TALENT" Count="1" />
 	<affectAllSets>false</affectAllSets>
 	<animation>move</animation>
 	<animState>Move</animState>

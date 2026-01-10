@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Class/Reaper/Ability_A4_2.TALENT" Count="1" />
 	<name>A4_2u_RessurectTime</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQQ==</compiledString>
 		<returnType>float</returnType>
-		<sString>10.0f</sString>
+		<sString>20</sString>
 	</var>
 </UnitConstant>

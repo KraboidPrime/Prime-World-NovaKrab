@@ -59,23 +59,13 @@
 	<constants href="/Items/Talents/Level6/G122_Life-Str.TALENT" id="23A6E9F6-25E6-4A84-B3A5-789FB31766DF">
 		<UnitConstantsContainer>
 			<vars>
-				<Item href="/Items/Talents/Level6/G122_Life-Str.TALENT" id="15B50C81-5B1D-4942-AC6A-5751A1876688">
+				<Item href="/Items/Talents/Level6/G122_Life-Str.TALENT" id="6D769C9B-0E4D-4AA7-BC05-B782469CC33A">
 					<UnitConstant>
-						<name>Add_Strength</name>
+						<name>Buff_G122</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAIEHNzEw/</compiledString>
+							<compiledString>FQAAAAACAAEABwAAAB0AAABtAAAAVYvsUVHZBUcAAADZHCSLRQiLEItNCItCOP/Q3DU/AAAA2V382UX8UdkcJOgbAAAA2Rwk6EYAAACDxAiL5V3DAAAAAAAAEEAAAHBCVYvsUdlFCNkcJOgFAAAAg8QEXcNVi+xR2UUIg+wI3Rwk6IP///+DxAjZXfzZRfyL5V3DVYvsUdlFCNlFDN7Z3+D2xEF1CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(10, 0.8)</sString>
-						</var>
-					</UnitConstant>
-				</Item>
-				<Item href="/Items/Talents/Level6/G122_Life-Str.TALENT" id="411738A0-DF23-4E98-BF44-ADAE0FF3EEEE">
-					<UnitConstant>
-						<name>Add_Life</name>
-						<var>
-							<compiledString>FQsAAAADAAAAFAAAAB4AAAA7AAAATGlmZUJ1ZGdldABVi+yD7AxR2QVgAAAA2RwkUdkFXAAAANkcJItFEIsQi00Qi0Js/9CLTQxRi1UIUmgAAAAAi0UQixCLTRCLQlDdXfj/0NxN+Nld9NlF9IvlXcMzMxNBCtcjPw==</compiledString>
-							<returnType>float</returnType>
-							<sString>refineScale(9.2,0.64)*cLifeBudget</sString>
+							<sString>min(floor(sLifeDrain/4), 60)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -120,23 +110,34 @@
 	<name textref="/Items/Talents/Level6/G122_Life-Str.TALENT_name.txt" />
 	<node></node>
 	<passiveApplicators>
-		<Item href="/Items/Talents/Level6/G122_Life-Str.TALENT" id="12BC6393-9ABA-471D-ADFE-B19F9662A119">
-			<PermanentStatModApplicator>
+		<Item href="/Items/Talents/Level6/G122_Life-Str.TALENT" id="DC47F2C4-16F5-41BE-8F70-B3348AF4CE76">
+			<StatModApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>Add_Strength</caption>
-				<customApplyType>None</customApplyType>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>Силушка</caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
 				<enabled>
-					<compiledString></compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgrgAAAD/0ItNCIsRi00Ii4K8AAAA3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
 					<returnType>bool</returnType>
-					<sString>true</sString>
+					<sString>sBaseStrength &gt;= sBaseIntellect</sString>
 				</enabled>
 				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
 				<LoggingEvent>-1</LoggingEvent>
 				<modifier>
 					<addValue>
-						<compiledString>FQ0AAAABAAAAGQAAAEFkZF9TdHJlbmd0aABVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+						<compiledString>FQoAAAABAAAAFgAAAEJ1ZmZfRzEyMgBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
 						<returnType>float</returnType>
-						<sString>cAdd_Strength</sString>
+						<sString>cBuff_G122</sString>
 					</addValue>
 					<multValue>
 						<compiledString></compiledString>
@@ -148,42 +149,65 @@
 					<variable></variable>
 				</modifier>
 				<providerName></providerName>
-			</PermanentStatModApplicator>
-		</Item>
-		<Item href="/Items/Talents/Level6/G122_Life-Str.TALENT" id="57375461-7CF5-44CF-8CCF-07783F16D0FC">
-			<PermanentStatModApplicator>
-				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>Add_Life</caption>
-				<customApplyType>None</customApplyType>
-				<enabled>
+				<startCondition>
 					<compiledString></compiledString>
 					<returnType>bool</returnType>
 					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level6/G122_Life-Str.TALENT" id="22E49B6C-7DD3-4E2D-86C1-EE126CB77F48">
+			<StatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>Умец</caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgrgAAAD/0ItNCIsRi00Ii4K8AAAA3V34/9DcXfjf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sBaseStrength &lt; sBaseIntellect</sString>
 				</enabled>
 				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
 				<LoggingEvent>-1</LoggingEvent>
 				<modifier>
 					<addValue>
-						<compiledString>FQkAAAABAAAAFQAAAEFkZF9MaWZlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+						<compiledString>FQoAAAABAAAAFgAAAEJ1ZmZfRzEyMgBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
 						<returnType>float</returnType>
-						<sString>cAdd_Life</sString>
+						<sString>cBuff_G122</sString>
 					</addValue>
 					<multValue>
 						<compiledString></compiledString>
 						<returnType>float</returnType>
 						<sString>1.0f</sString>
 					</multValue>
-					<stat>Life</stat>
+					<stat>Intellect</stat>
 					<topModifier>false</topModifier>
 					<variable></variable>
 				</modifier>
 				<providerName></providerName>
-			</PermanentStatModApplicator>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
 		</Item>
 	</passiveApplicators>
 	<persistentId>G122</persistentId>
 	<prerequisiteTalents />
-	<rarity>excellent</rarity>
+	<rarity>magnificent</rarity>
 	<requireLineOfSight>true</requireLineOfSight>
 	<shortDescription textref="/Items/Talents/Level6/G122_Life-Str.TALENT_shortDescription.txt" />
 	<talentRollGroups>0</talentRollGroups>

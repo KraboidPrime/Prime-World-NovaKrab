@@ -43,9 +43,9 @@
 				<providerName></providerName>
 				<reduceByPercent>true</reduceByPercent>
 				<reductionAmount>
-					<compiledString>FQwAAAACAAAAGQAAACwAAABBMV9DRFJlZHVjZQBVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcNToAAADZXfzZRfyL5V3DAAAAAAAAWUA=</compiledString>
+					<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 					<returnType>float</returnType>
-					<sString>cA1_CDReduce/100</sString>
+					<sString>0</sString>
 				</reductionAmount>
 				<refreshThis>false</refreshThis>
 				<talents>
@@ -470,9 +470,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
 		<returnType>float</returnType>
-		<sString>10</sString>
+		<sString>5</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>
@@ -509,9 +509,9 @@
 	<isUltimateTalent>false</isUltimateTalent>
 	<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
 	<manaCost>
-		<compiledString>FQAAAAAAAAAAVYvsUYtFEIsQi00Qi4KQAAAA/9APtsj32RvJg+HEg8E8iU3820X8i+Vdww==</compiledString>
+		<compiledString>FQAAAAAAAAAAVYvsUYtFCIsQi00Ii4JgAQAA/9CDwAqJRfzbRfyL5V3D</compiledString>
 		<returnType>float</returnType>
-		<sString>mIsNight ? 0 : 60</sString>
+		<sString>(10+sNaftaLevel)</sString>
 	</manaCost>
 	<marker>doCast1</marker>
 	<microAI href="" />

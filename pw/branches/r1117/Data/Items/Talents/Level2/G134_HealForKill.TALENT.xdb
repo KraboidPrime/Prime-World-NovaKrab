@@ -40,7 +40,28 @@
 	<commonDescription textref="" />
 	<compiledDescriptionA textref="" />
 	<compiledDescriptionB textref="" />
-	<conditionFormulas />
+	<conditionFormulas>
+		<Item href="/Items/Talents/Level2/G134_HealForKill.TALENT" id="B991A37A-A23F-4084-91B3-79790768E061">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRcAAAACAAAAHAAAADIAAABTZWMyMDI1X1Rvb2x0aXBDb3VudGVyAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHVQAAADf4PbEAXUJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAIQA==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vSec2025_TooltipCounter &gt;= 3</sString>
+				</condition>
+				<name>Bonus3ActiveSe</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Items/Talents/Level2/G134_HealForKill.TALENT" id="860BBF47-C6F7-42D3-A5DD-3DF4753CD999">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRcAAAACAAAAHAAAADIAAABTZWMyMDI1X1Rvb2x0aXBDb3VudGVyAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHVQAAADf4PbEAXUJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAcQA==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vSec2025_TooltipCounter &gt;= 7</sString>
+				</condition>
+				<name>Bonus7ActiveSe</name>
+			</ConditionFormula>
+		</Item>
+	</conditionFormulas>
 	<conflictingTalents />
 	<constants href="/Items/Talents/Level2/G134_HealForKill.TALENT" id="BBCDACBD-55E1-4026-982F-41D1F244839C">
 		<UnitConstantsContainer>
@@ -49,9 +70,19 @@
 					<UnitConstant>
 						<name>Heal</name>
 						<var>
-							<compiledString>FQAAAAACAAEABgAAABAAAABcAAAAVYvsUdkFNgAAANkcJFHZBTIAAADZHCSLRRCLEItNEItCbP/QUdkcJOgNAAAAg8QEXcMAAKBBAADAP1WL7FHZRQjZHCToBQAAAIPEBF3DVYvsUdlFCIPsCN0cJOiU////g8QI2V382UX8i+Vdww==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACYQQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>floor(refineScale(20, 1.5))</sString>
+							<sString>19</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Level2/G134_HealForKill.TALENT" id="266FD312-A980-403F-B6C4-D286F88A539F">
+					<UnitConstant>
+						<name>Heal_sum</name>
+						<var>
+							<compiledString>FQUAAAACAAAAFAAAAEkAAABIZWFsAFWL7IPsFItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/Si0UIixCLTQiLQgzdXfj/0ItNCIsRi00IiwLdXfD/0Nxt8NwNWgAAANxF+Nld7NlF7IvlXcN7FK5H4XqEPw==</compiledString>
+							<returnType>float</returnType>
+							<sString>cHeal+0.01*(sMaxLife-sLife)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -63,9 +94,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 		<returnType>float</returnType>
-		<sString>1</sString>
+		<sString>0</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>
@@ -140,9 +171,9 @@
 									<Item href="/Items/Talents/Level2/G134_HealForKill.TALENT" id="D2B39CC3-9C6B-4DEE-97B3-5D2D87718898">
 										<HealApplicator>
 											<amount>
-												<compiledString>FQUAAAABAAAAEQAAAEhlYWwAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+												<compiledString>FQkAAAABAAAAFQAAAEhlYWxfc3VtAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
 												<returnType>float</returnType>
-												<sString>cHeal</sString>
+												<sString>cHeal_sum</sString>
 											</amount>
 											<applyTarget>ApplicatorTarget</applyTarget>
 											<caption>Healing</caption>
@@ -181,7 +212,7 @@
 								</dispatch>
 							</Spell>
 						</spell>
-						<targets>538705976</targets>
+						<targets>536870972</targets>
 					</EventProcessorUnitDieNearMe>
 				</processor>
 				<providerName></providerName>
@@ -190,14 +221,143 @@
 					<returnType>bool</returnType>
 					<sString>true</sString>
 				</startCondition>
-				<useAbilityCooldown>true</useAbilityCooldown>
+				<useAbilityCooldown>false</useAbilityCooldown>
 				<useAbilityOwnerMana>false</useAbilityOwnerMana>
 			</TriggerApplicator>
 		</Item>
+		<Item href="/Items/Talents/Level2/G134_HealForKill.TALENT" id="9A36B17C-3590-4D1D-85E7-E9F156AB4025">
+			<TriggerApplicator>
+				<actionsCount>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</actionsCount>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption></caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<playAck>false</playAck>
+				<processor href="/Items/Talents/Level2/G134_HealForKill.TALENT" id="8800D6B7-495A-416A-A0CC-7059BFBFC431">
+					<EventProcessorUnitDieNearMe>
+						<applyTarget>AbilityOwner</applyTarget>
+						<checkSender>0</checkSender>
+						<killerFlags>9</killerFlags>
+						<range>
+							<compiledString>FRIAAAABAAAAHgAAAEF3YXJkS2lsbGVyc1JhbmdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+							<returnType>float</returnType>
+							<sString>cAwardKillersRange</sString>
+						</range>
+						<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
+						<spell href="/Items/Talents/Level2/G134_HealForKill.TALENT" id="A375A0B8-CCC3-4745-8F78-4CC88A003C7B">
+							<Spell>
+								<applicators>
+									<Item href="/Items/Talents/Level2/G134_HealForKill.TALENT" id="2C1BFB06-F3F2-4BAE-933B-5A381A460909">
+										<HealApplicator>
+											<amount>
+												<compiledString>FQkAAAACAAAAFgAAACkAAABIZWFsX3N1bQBVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcDTcAAADZXfzZRfyL5V3DAAAAAAAACEA=</compiledString>
+												<returnType>float</returnType>
+												<sString>3*cHeal_sum</sString>
+											</amount>
+											<applyTarget>ApplicatorTarget</applyTarget>
+											<caption>Healing</caption>
+											<enabled>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</enabled>
+											<formulaName></formulaName>
+											<healTarget>Health</healTarget>
+											<ignoreHealingMods>false</ignoreHealingMods>
+											<LoggingEvent>-1</LoggingEvent>
+											<providerName></providerName>
+											<uiEvent href="/UI/Events/CommonEvents/EventHeal.UIEV" />
+										</HealApplicator>
+									</Item>
+								</applicators>
+								<dispatch href="/Items/Talents/Level2/G134_HealForKill.TALENT" id="C2CD9A38-DDF3-42D9-A957-64A32AD952CD">
+									<DispatchImmediate>
+										<alwaysApply>false</alwaysApply>
+										<applyEffect>
+											<Item href="" />
+											<Item href="" />
+										</applyEffect>
+										<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+										<applyEffectOrientation>Default</applyEffectOrientation>
+										<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+										<dieAfterApply>true</dieAfterApply>
+										<dispatchEffect>
+											<Item href="" />
+											<Item href="" />
+										</dispatchEffect>
+										<flags>0</flags>
+										<instantApply>false</instantApply>
+									</DispatchImmediate>
+								</dispatch>
+							</Spell>
+						</spell>
+						<targets>538705923</targets>
+					</EventProcessorUnitDieNearMe>
+				</processor>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<useAbilityCooldown>false</useAbilityCooldown>
+				<useAbilityOwnerMana>false</useAbilityOwnerMana>
+			</TriggerApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level2/G134_HealForKill.TALENT" id="AAF09610-26E1-4F7B-AECB-67EC49B635E5">
+			<PermanentStatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption></caption>
+				<customApplyType>None</customApplyType>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACuQg==</compiledString>
+						<returnType>float</returnType>
+						<sString>87.0f</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Life</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level3/SecondPinkSet_Prog2025.APLR" />
 	</passiveApplicators>
 	<persistentId>G134</persistentId>
 	<prerequisiteTalents />
-	<rarity>excellent</rarity>
+	<rarity>magnificent</rarity>
 	<requireLineOfSight>true</requireLineOfSight>
 	<shortDescription textref="" />
 	<talentRollGroups>0</talentRollGroups>

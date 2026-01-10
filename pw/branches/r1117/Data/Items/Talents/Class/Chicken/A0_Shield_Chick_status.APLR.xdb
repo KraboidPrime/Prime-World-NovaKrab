@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StatusApplicator>
+	<BackLink DBID="/Items/Talents/Class/Chicken/Ability_A0.TALENT" Count="2" />
+	<applicators>
+		<Item href="/Items/Talents/Class/Chicken/A0_Shield_Chick_appl.APLR" />
+	</applicators>
+	<applyTarget>AbilityOwner</applyTarget>
+	<behaviorFlags>0</behaviorFlags>
+	<caption>статус щита</caption>
+	<customCounter>
+		<compiledString>FRAAAAABAAAAHAAAAEEwQ2hpY2tDb3VudGVyQwBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0lHZHCToBQAAAIPEBF3DuAEAAAAPovfCAAAABHQH8w8sRCQEw+kAAAAAVYvsg+wM2UUI2X38D7dF/A0ADAAAiUX42W3421302W38i0X0i+Vdww==</compiledString>
+		<returnType>int</returnType>
+		<sString>f2l(cA0ChickCounterC)</sString>
+	</customCounter>
+	<customProgress>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>-1.0</sString>
+	</customProgress>
+	<description textref="/Items/Talents/Class/Chicken/A0_Shield_Chick_status.APLR_description.txt" />
+	<dispellPriority>NonDispellable</dispellPriority>
+	<effect>
+		<Item href="" />
+		<Item href="" />
+	</effect>
+	<enabled>
+		<compiledString>FQ4AAAACAAAAEwAAACkAAABCYWxhbmNlX2NoaWNrAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHUsAAADf4PbEBXoJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAADgPw==</compiledString>
+		<returnType>bool</returnType>
+		<sString>sender.vBalance_chick &lt; 0.5</sString>
+	</enabled>
+	<flags>1</flags>
+	<formulaName></formulaName>
+	<image href="/UI/Styles/Icons/Heroes/Chicken/A0.ITEX" />
+	<lifeTime>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAB6RA==</compiledString>
+		<returnType>float</returnType>
+		<sString>1000</sString>
+	</lifeTime>
+	<LoggingEvent>-1</LoggingEvent>
+	<name textref="/Items/Talents/Class/Chicken/A0_Shield_Chick_status.APLR_name.txt" />
+	<power>0</power>
+	<providerName></providerName>
+	<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+	<stackCount>0</stackCount>
+	<startCondition>
+		<compiledString></compiledString>
+		<returnType>bool</returnType>
+		<sString>true</sString>
+	</startCondition>
+	<statusPosition>-100</statusPosition>
+	<stopBehaviour>StopByChild</stopBehaviour>
+	<unstackableWith href="" />
+</StatusApplicator>

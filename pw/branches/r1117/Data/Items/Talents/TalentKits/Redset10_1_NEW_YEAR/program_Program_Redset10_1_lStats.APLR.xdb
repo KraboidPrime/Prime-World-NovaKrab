@@ -1,0 +1,450 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ProgramApplicator>
+	<BackLink DBID="/Items/Talents/Level5/G572_SlowProc-Dex.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level4/G573_CDRforKill.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level6/G574_StatViaHighestStat.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level3/G575_EnergyReg_MoveSpeed.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level1/G576_HealForHeroKill.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level6/G1000_Max_Stat.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Level5/G1003_Satanic.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level4/G1002_Str_Int_CDR.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level3/G1001_Str_Int_Life.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level2/G1004_Vamp_Dmg.TALENT" Count="1" />
+	<applicators>
+		<Item>
+			<applicator href="/Items/Talents/TalentKits/Redset10_1_NEW_YEAR/program_Program_Redset10_1_lStats.APLR" id="876F5F10-CA64-49DE-80D4-1F2E1C52A138">
+				<PermanentStatModApplicator>
+					<applyTarget>ApplicatorTarget</applyTarget>
+					<caption>Counter</caption>
+					<customApplyType>None</customApplyType>
+					<enabled>
+						<compiledString></compiledString>
+						<returnType>bool</returnType>
+						<sString>true</sString>
+					</enabled>
+					<formulaName></formulaName>
+					<LoggingEvent>-1</LoggingEvent>
+					<modifier>
+						<addValue>
+							<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+							<returnType>float</returnType>
+							<sString>1.0f</sString>
+						</addValue>
+						<multValue>
+							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>1.0f</sString>
+						</multValue>
+						<stat>Life</stat>
+						<topModifier>false</topModifier>
+						<variable>Add_AllStats_Redset10</variable>
+					</modifier>
+					<providerName></providerName>
+				</PermanentStatModApplicator>
+			</applicator>
+			<continueCondition>
+				<compiledString></compiledString>
+				<returnType>bool</returnType>
+				<sString>0</sString>
+			</continueCondition>
+			<continueEvents>2</continueEvents>
+			<delay>
+				<compiledString></compiledString>
+				<returnType>float</returnType>
+				<sString>-1.0</sString>
+			</delay>
+			<stopCondition>
+				<compiledString></compiledString>
+				<returnType>bool</returnType>
+				<sString>0</sString>
+			</stopCondition>
+			<stopEvents>0</stopEvents>
+		</Item>
+		<Item>
+			<applicator href="/Items/Talents/TalentKits/Redset10_1_NEW_YEAR/program_Program_Redset10_1_lStats.APLR" id="DC39DBDE-9992-4B9E-AE9D-E238330B85E6">
+				<SpellProbabilityApplicator>
+					<applyTarget>ApplicatorTarget</applyTarget>
+					<caption>Лотерея</caption>
+					<enabled>
+						<compiledString>FRYAAAACAAAAGwAAADEAAABBZGRfQWxsU3RhdHNfUmVkc2V0MTAAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdUwAAAN/g9sREegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAhA</compiledString>
+						<returnType>bool</returnType>
+						<sString>sender.vAdd_AllStats_Redset10 == 3</sString>
+					</enabled>
+					<formulaName></formulaName>
+					<LoggingEvent>-1</LoggingEvent>
+					<probability>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAEQg==</compiledString>
+						<returnType>float</returnType>
+						<sString>33.0</sString>
+					</probability>
+					<providerName></providerName>
+					<spell href="/Items/Talents/TalentKits/Redset10_1_NEW_YEAR/program_Program_Redset10_1_lStats.APLR" id="EB367177-7673-40BB-910F-3AB2055FA53E">
+						<Spell>
+							<applicators>
+								<Item href="/Items/Talents/TalentKits/Redset10_1_NEW_YEAR/program_Program_Redset10_1_lStats.APLR" id="5E58688D-F9D4-4B94-B936-87501B8F5404">
+									<AddNaftaApplicator>
+										<applyTarget>ApplicatorTarget</applyTarget>
+										<caption>Прайм</caption>
+										<enabled>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</enabled>
+										<formulaName></formulaName>
+										<isFromImpulseBuff>false</isFromImpulseBuff>
+										<LoggingEvent>-1</LoggingEvent>
+										<nafta>
+											<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQw==</compiledString>
+											<returnType>float</returnType>
+											<sString>400</sString>
+										</nafta>
+										<providerName></providerName>
+									</AddNaftaApplicator>
+								</Item>
+							</applicators>
+							<dispatch href="/Items/Talents/TalentKits/Redset10_1_NEW_YEAR/program_Program_Redset10_1_lStats.APLR" id="3DAD02E9-D771-48DA-BFE6-DAEF77706FC0">
+								<DispatchImmediate>
+									<alwaysApply>false</alwaysApply>
+									<applyEffect>
+										<Item href="" />
+										<Item href="" />
+									</applyEffect>
+									<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+									<applyEffectOrientation>Default</applyEffectOrientation>
+									<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+									<dieAfterApply>true</dieAfterApply>
+									<dispatchEffect>
+										<Item href="" />
+										<Item href="" />
+									</dispatchEffect>
+									<flags>0</flags>
+									<instantApply>false</instantApply>
+								</DispatchImmediate>
+							</dispatch>
+						</Spell>
+					</spell>
+					<spellIfFailed href="/Items/Talents/TalentKits/Redset10_1_NEW_YEAR/program_Program_Redset10_1_lStats.APLR" id="00948157-3853-45A6-8E79-599147A543E0">
+						<Spell>
+							<applicators>
+								<Item href="/Items/Talents/TalentKits/Redset10_1_NEW_YEAR/program_Program_Redset10_1_lStats.APLR" id="27FAB4D4-E816-4437-B332-8156DAA4CED5">
+									<SpellProbabilityApplicator>
+										<applyTarget>ApplicatorTarget</applyTarget>
+										<caption>Дефы или Хп</caption>
+										<enabled>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</enabled>
+										<formulaName></formulaName>
+										<LoggingEvent>-1</LoggingEvent>
+										<probability>
+											<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQg==</compiledString>
+											<returnType>float</returnType>
+											<sString>50.0</sString>
+										</probability>
+										<providerName></providerName>
+										<spell href="/Items/Talents/TalentKits/Redset10_1_NEW_YEAR/program_Program_Redset10_1_lStats.APLR" id="4D7CE4DA-F951-4BF7-85E3-8CAD7278396D">
+											<Spell>
+												<applicators>
+													<Item href="/Items/Talents/TalentKits/Redset10_1_NEW_YEAR/program_Program_Redset10_1_lStats.APLR" id="091FBC4C-52D8-4194-AEDB-075ADDFBEBBA">
+														<PermanentStatModApplicator>
+															<applyTarget>ApplicatorTarget</applyTarget>
+															<caption>Стойкость</caption>
+															<customApplyType>None</customApplyType>
+															<enabled>
+																<compiledString></compiledString>
+																<returnType>bool</returnType>
+																<sString>true</sString>
+															</enabled>
+															<formulaName></formulaName>
+															<LoggingEvent>-1</LoggingEvent>
+															<modifier>
+																<addValue>
+																	<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQQ==</compiledString>
+																	<returnType>float</returnType>
+																	<sString>8</sString>
+																</addValue>
+																<multValue>
+																	<compiledString></compiledString>
+																	<returnType>float</returnType>
+																	<sString>1.0f</sString>
+																</multValue>
+																<stat>Stamina</stat>
+																<topModifier>false</topModifier>
+																<variable></variable>
+															</modifier>
+															<providerName></providerName>
+														</PermanentStatModApplicator>
+													</Item>
+													<Item href="/Items/Talents/TalentKits/Redset10_1_NEW_YEAR/program_Program_Redset10_1_lStats.APLR" id="361ED1C5-1383-45BD-AA3C-284B5256F419">
+														<PermanentStatModApplicator>
+															<applyTarget>ApplicatorTarget</applyTarget>
+															<caption>Воля</caption>
+															<customApplyType>None</customApplyType>
+															<enabled>
+																<compiledString></compiledString>
+																<returnType>bool</returnType>
+																<sString>true</sString>
+															</enabled>
+															<formulaName></formulaName>
+															<LoggingEvent>-1</LoggingEvent>
+															<modifier>
+																<addValue>
+																	<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQQ==</compiledString>
+																	<returnType>float</returnType>
+																	<sString>8</sString>
+																</addValue>
+																<multValue>
+																	<compiledString></compiledString>
+																	<returnType>float</returnType>
+																	<sString>1.0f</sString>
+																</multValue>
+																<stat>Will</stat>
+																<topModifier>false</topModifier>
+																<variable></variable>
+															</modifier>
+															<providerName></providerName>
+														</PermanentStatModApplicator>
+													</Item>
+													<Item href="/Items/Talents/TalentKits/Redset10_1_NEW_YEAR/program_Program_Redset10_1_lStats.APLR" id="9D913E33-6956-4C3E-837E-015B01281F04">
+														<StatModApplicator>
+															<applyTarget>ApplicatorTarget</applyTarget>
+															<behaviorFlags>0</behaviorFlags>
+															<caption>Визуал</caption>
+															<constraint>None</constraint>
+															<dontUpdate>false</dontUpdate>
+															<effect>
+																<Item href="/Effects/Buffs/Bubble/_FadeIn.EFFT" />
+																<Item href="" />
+															</effect>
+															<enabled>
+																<compiledString></compiledString>
+																<returnType>bool</returnType>
+																<sString>true</sString>
+															</enabled>
+															<formulaName></formulaName>
+															<lifeTime>
+																<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
+																<returnType>float</returnType>
+																<sString>2</sString>
+															</lifeTime>
+															<LoggingEvent>-1</LoggingEvent>
+															<modifier>
+																<addValue>
+																	<compiledString></compiledString>
+																	<returnType>float</returnType>
+																	<sString>0.0f</sString>
+																</addValue>
+																<multValue>
+																	<compiledString></compiledString>
+																	<returnType>float</returnType>
+																	<sString>1.0f</sString>
+																</multValue>
+																<stat>Life</stat>
+																<topModifier>false</topModifier>
+																<variable></variable>
+															</modifier>
+															<providerName></providerName>
+															<startCondition>
+																<compiledString></compiledString>
+																<returnType>bool</returnType>
+																<sString>true</sString>
+															</startCondition>
+															<statModName></statModName>
+														</StatModApplicator>
+													</Item>
+												</applicators>
+												<dispatch href="/Items/Talents/TalentKits/Redset10_1_NEW_YEAR/program_Program_Redset10_1_lStats.APLR" id="47F1BC4C-BFA3-4809-90C8-E7F47DF6765D">
+													<DispatchImmediate>
+														<alwaysApply>false</alwaysApply>
+														<applyEffect>
+															<Item href="" />
+															<Item href="" />
+														</applyEffect>
+														<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+														<applyEffectOrientation>Default</applyEffectOrientation>
+														<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+														<dieAfterApply>true</dieAfterApply>
+														<dispatchEffect>
+															<Item href="" />
+															<Item href="" />
+														</dispatchEffect>
+														<flags>0</flags>
+														<instantApply>false</instantApply>
+													</DispatchImmediate>
+												</dispatch>
+											</Spell>
+										</spell>
+										<spellIfFailed href="/Items/Talents/TalentKits/Redset10_1_NEW_YEAR/program_Program_Redset10_1_lStats.APLR" id="0615245C-977D-46BD-8D7D-EA02BE090CE2">
+											<Spell>
+												<applicators>
+													<Item href="/Items/Talents/TalentKits/Redset10_1_NEW_YEAR/program_Program_Redset10_1_lStats.APLR" id="D3D22DED-1483-4459-82C0-91CB608260F1">
+														<PermanentStatModApplicator>
+															<applyTarget>ApplicatorTarget</applyTarget>
+															<caption>Хп</caption>
+															<customApplyType>None</customApplyType>
+															<enabled>
+																<compiledString></compiledString>
+																<returnType>bool</returnType>
+																<sString>true</sString>
+															</enabled>
+															<formulaName></formulaName>
+															<LoggingEvent>-1</LoggingEvent>
+															<modifier>
+																<addValue>
+																	<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAD6Qw==</compiledString>
+																	<returnType>float</returnType>
+																	<sString>500</sString>
+																</addValue>
+																<multValue>
+																	<compiledString></compiledString>
+																	<returnType>float</returnType>
+																	<sString>1.0f</sString>
+																</multValue>
+																<stat>Life</stat>
+																<topModifier>false</topModifier>
+																<variable></variable>
+															</modifier>
+															<providerName></providerName>
+														</PermanentStatModApplicator>
+													</Item>
+													<Item href="/Items/Talents/TalentKits/Redset10_1_NEW_YEAR/program_Program_Redset10_1_lStats.APLR" id="D9C30B24-490F-4656-904F-F59995D24537">
+														<StatModApplicator>
+															<applyTarget>ApplicatorTarget</applyTarget>
+															<behaviorFlags>0</behaviorFlags>
+															<caption>Визуал</caption>
+															<constraint>None</constraint>
+															<dontUpdate>false</dontUpdate>
+															<effect>
+																<Item href="/Effects/Buffs/Regen/_Gender.EFFT" />
+																<Item href="" />
+															</effect>
+															<enabled>
+																<compiledString></compiledString>
+																<returnType>bool</returnType>
+																<sString>true</sString>
+															</enabled>
+															<formulaName></formulaName>
+															<lifeTime>
+																<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
+																<returnType>float</returnType>
+																<sString>2</sString>
+															</lifeTime>
+															<LoggingEvent>-1</LoggingEvent>
+															<modifier>
+																<addValue>
+																	<compiledString></compiledString>
+																	<returnType>float</returnType>
+																	<sString>0.0f</sString>
+																</addValue>
+																<multValue>
+																	<compiledString></compiledString>
+																	<returnType>float</returnType>
+																	<sString>1.0f</sString>
+																</multValue>
+																<stat>Life</stat>
+																<topModifier>false</topModifier>
+																<variable></variable>
+															</modifier>
+															<providerName></providerName>
+															<startCondition>
+																<compiledString></compiledString>
+																<returnType>bool</returnType>
+																<sString>true</sString>
+															</startCondition>
+															<statModName></statModName>
+														</StatModApplicator>
+													</Item>
+												</applicators>
+												<dispatch href="/Items/Talents/TalentKits/Redset10_1_NEW_YEAR/program_Program_Redset10_1_lStats.APLR" id="797D14C5-E2C2-4574-8344-C810FB1D1E68">
+													<DispatchImmediate>
+														<alwaysApply>false</alwaysApply>
+														<applyEffect>
+															<Item href="" />
+															<Item href="" />
+														</applyEffect>
+														<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+														<applyEffectOrientation>Default</applyEffectOrientation>
+														<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+														<dieAfterApply>true</dieAfterApply>
+														<dispatchEffect>
+															<Item href="" />
+															<Item href="" />
+														</dispatchEffect>
+														<flags>0</flags>
+														<instantApply>false</instantApply>
+													</DispatchImmediate>
+												</dispatch>
+											</Spell>
+										</spellIfFailed>
+									</SpellProbabilityApplicator>
+								</Item>
+							</applicators>
+							<dispatch href="/Items/Talents/TalentKits/Redset10_1_NEW_YEAR/program_Program_Redset10_1_lStats.APLR" id="2C5D6660-591E-4DA3-B92D-CB5421B48C00">
+								<DispatchImmediate>
+									<alwaysApply>false</alwaysApply>
+									<applyEffect>
+										<Item href="" />
+										<Item href="" />
+									</applyEffect>
+									<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+									<applyEffectOrientation>Default</applyEffectOrientation>
+									<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+									<dieAfterApply>true</dieAfterApply>
+									<dispatchEffect>
+										<Item href="" />
+										<Item href="" />
+									</dispatchEffect>
+									<flags>0</flags>
+									<instantApply>false</instantApply>
+								</DispatchImmediate>
+							</dispatch>
+						</Spell>
+					</spellIfFailed>
+				</SpellProbabilityApplicator>
+			</applicator>
+			<continueCondition>
+				<compiledString></compiledString>
+				<returnType>bool</returnType>
+				<sString>0</sString>
+			</continueCondition>
+			<continueEvents>2</continueEvents>
+			<delay>
+				<compiledString></compiledString>
+				<returnType>float</returnType>
+				<sString>-1.0</sString>
+			</delay>
+			<stopCondition>
+				<compiledString></compiledString>
+				<returnType>bool</returnType>
+				<sString>0</sString>
+			</stopCondition>
+			<stopEvents>0</stopEvents>
+		</Item>
+	</applicators>
+	<applyTarget>ApplicatorTarget</applyTarget>
+	<behaviorFlags>0</behaviorFlags>
+	<caption>Add_AllStats_Redset10</caption>
+	<effect>
+		<Item href="" />
+		<Item href="" />
+	</effect>
+	<enabled>
+		<compiledString>FRYAAAACAAAAGwAAADEAAABBZGRfQWxsU3RhdHNfUmVkc2V0MTAAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdUwAAAN/g9sQFegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAhA</compiledString>
+		<returnType>bool</returnType>
+		<sString>sender.vAdd_AllStats_Redset10 &lt; 3</sString>
+	</enabled>
+	<formulaName></formulaName>
+	<lifeTime>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>-1.0</sString>
+	</lifeTime>
+	<LoggingEvent>-1</LoggingEvent>
+	<providerName></providerName>
+	<startCondition>
+		<compiledString></compiledString>
+		<returnType>bool</returnType>
+		<sString>true</sString>
+	</startCondition>
+</ProgramApplicator>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AbsorbShieldApplicator>
+	<BackLink DBID="/Items/Talents/Class/Chicken/Ability_A0.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Chicken/A0_Shield_Chick_status.APLR" Count="1" />
+	<applyTarget>AbilityOwner</applyTarget>
+	<behaviorFlags>0</behaviorFlags>
+	<caption>даём щит (важно что это в статусе)</caption>
+	<damageToAbsorb>
+		<compiledString>FX8AAAAOAAAAhgAAAJ8AAADZAAAA/wAAABwBAAA2AQAAQAEAAGABAACGAQAAnAEAANkBAAD3AQAAFwIAAD0CAABDaGlja2VuQTBTVVAxAAAAQ2hpY2tlbkEwU1VQMQAAAEEwQ2hpY2tDb3VudGVyAABBMENoaWNrQ291bnRlcgAAQTBDaGlja0NvdW50ZXIAAEEwQ2hpY2tDb3VudGVyAABBMENoaWNrQ291bnRlcgAAQTBDaGlja0NvdW50ZXIAVYvsg+xQaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hckPhMMAAABoIAAAAItVCIsCi00Ii5CIAQAA/9KLRQiLEItNCItCDN1d8P/Q3A1yAgAA3F3w3+D2xEF6UotNCIsRi00Ii0IM/9DcHWoCAADf4PbEQXUYi00IixGLTQiLQgz/0NwNcgIAAN1d6OsYaDAAAACLTQiLEYtNCIuCiAEAAP/Q3V3o3UXo3V3g6zFoQAAAAItNCIsRi00Ii4KIAQAA/9CLTRCLEYtNEItCGN1d2P/Q3A1iAgAA3EXY3V3g3UXg3V3Q6bIAAABoUAAAAItNCIsRi00Ii4KIAQAA/9CLTQiLEYtNCItCDN1dyP/Q3F3I3+D2xEF6TItNCIsRi00Ii0IM/9DcHWoCAADf4PbEQXUSi00IixGLTQiLQgz/0NldxOsYaGAAAACLTQiLEYtNCIuCiAEAAP/Q2V3E2UXE3V286zFocAAAAItNCIsRi00Ii4KIAQAA/9CLTRCLEYtNEItCGN1dtP/Q3A1aAgAA3EW03V283UW83V3Q3UXQ2V2w2UWwi+VdwwAAAAAAAABAPL1SliGOA0AAAAAAAABZQJqZmZmZmfE/</compiledString>
+		<returnType>float</returnType>
+		<sString>tal("ChickenA0SUP1") ? ( sender.vA0ChickCounter &gt;= 1.1*sMaxLife ? (sMaxLife &gt; 100 ? 1.1*sMaxLife : sender.vA0ChickCounter) : sender.vA0ChickCounter + 2.4444*mManaCost ) : ( sender.vA0ChickCounter &gt;= sMaxLife ? (sMaxLife &gt; 100 ? sMaxLife : sender.vA0ChickCounter) : sender.vA0ChickCounter + 2*mManaCost )</sString>
+	</damageToAbsorb>
+	<effect>
+		<Item href="" />
+		<Item href="" />
+	</effect>
+	<enabled>
+		<compiledString>FQ4AAAACAAAAEwAAACkAAABCYWxhbmNlX2NoaWNrAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHUsAAADf4PbEBXoJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAADgPw==</compiledString>
+		<returnType>bool</returnType>
+		<sString>sender.vBalance_chick &lt; 0.5</sString>
+	</enabled>
+	<formulaName>A0ChickSield</formulaName>
+	<lifeTime>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAB6RA==</compiledString>
+		<returnType>float</returnType>
+		<sString>1000</sString>
+	</lifeTime>
+	<LoggingEvent>-1</LoggingEvent>
+	<providerName></providerName>
+	<startCondition>
+		<compiledString></compiledString>
+		<returnType>bool</returnType>
+		<sString>true</sString>
+	</startCondition>
+</AbsorbShieldApplicator>

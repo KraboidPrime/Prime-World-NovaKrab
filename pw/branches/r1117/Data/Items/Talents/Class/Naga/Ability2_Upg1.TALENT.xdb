@@ -56,6 +56,16 @@
 				<name>Naga_A2</name>
 			</ConditionFormula>
 		</Item>
+		<Item href="/Items/Talents/Class/Naga/Ability2_Upg1.TALENT" id="3E764461-E214-4C2B-B797-060893505F66">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRgAAAACAAAAHwAAADgAAABOYWdhX0ExX1NVUABOYWdhX0ExX1NVUABVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaAwAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2Rfv32BvAg8ABi+Vdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("Naga_A1_SUP") == false</sString>
+				</condition>
+				<name>Naga_A1_SUP</name>
+			</ConditionFormula>
+		</Item>
 	</conditionFormulas>
 	<conflictingTalents />
 	<constants href="/Items/Talents/Class/Naga/Ability2_Upg1.TALENT" id="5BCC7333-4F47-430D-B46A-8C4F45BF214D">
@@ -66,9 +76,9 @@
 					<UnitConstant>
 						<name>A2_DexChange</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAFHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCRAEAAP/QUdkcJGoAi00QixGLTRCLQmD/0F3DmpnZPzMzS0E=</compiledString>
+							<compiledString>FRgAAAAGAAAAHwAAADgAAAB2AAAAgAAAAFEBAABbAQAATmFnYV9BMV9TVVAATmFnYV9BMV9TVVAAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgMAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hckPhNsAAABqAFHZBZUBAADZHCRR2QWRAQAA2RwkagCLVQiLAotNCIuQzAAAAP/SUdkcJItFCIsQi00Ii4LIAAAA/9BR2Rwk6OMAAACDxATZHCSLTQiLEYtNCIuCjAAAAP/QUdkcJItNCIsRi00Ii4LAAAAA/9BR2Rwk6LAAAACDxATZHCSLTQiLEYtNCIuCuAAAAP/QUdkcJItNCIsRi00Ii4K8AAAA/9BR2Rwk6H0AAACDxATZHCTocgAAAIPEBNkcJOhnAAAAg8QE2RwkagCLTRCLEYtNEItCYP/Q2V306z5qAFHZBZUBAADZHCRR2QWRAQAA2RwkagCLTQiLEYtNCIuCRAEAAP/QUdkcJGoAi00QixGLTRCLQmD/0Nld9NlF9IvlXcMzM7M/mpkhQVWL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
 							<returnType>float</returnType>
-							<sString>abilityScale( sWill, 1.7, 12.7, false)</sString>
+							<sString>tal("Naga_A1_SUP") ? abilityScale( max(max(max(sBaseIntellect,sBaseStrength),max(sBaseDexterity,sBaseAttackSpeed)),max(sBaseStamina,sBaseWill)), 1.4, 10.1, false) : abilityScale( sWill, 1.4, 10.1, false)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

@@ -110,7 +110,7 @@
 	<description textref="/Items/Talents/Level4/G555_PhantomDex.TALENT_description.txt" />
 	<devPoints>1</devPoints>
 	<dispatch href="" />
-	<flags>1</flags>
+	<flags>5</flags>
 	<forceBonus>0</forceBonus>
 	<image href="/UI/Styles/Icons/Talents/_555.ITEX" />
 	<imageSecondState href="" />
@@ -164,7 +164,7 @@
 		<Item href="/Items/Talents/Level4/G555_PhantomDex.TALENT" id="A830DCAD-6195-4E31-B975-953E9A2D7D38">
 			<StatModApplicator>
 				<applyTarget>AbilityOwner</applyTarget>
-				<behaviorFlags>0</behaviorFlags>
+				<behaviorFlags>216</behaviorFlags>
 				<caption>Увеличиваем Total_CooldownReduction</caption>
 				<constraint>None</constraint>
 				<dontUpdate>false</dontUpdate>

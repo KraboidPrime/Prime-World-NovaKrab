@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Consumable>
+	<BackLink DBID="/Buildings/DefaultStats/Basic.CNSH" Count="2" />
+	<BackLink DBID="/Buildings/DefaultStats/Basic_NY.CNSH" Count="2" />
+	<BackLink DBID="/Buildings/DefaultStats/CTE_Basic.CNSH" Count="1" />
+	<BackLink DBID="/Buildings/DefaultStats/CTE_Secret.CNSH" Count="1" />
+	<BackLink DBID="/Buildings/DefaultStats/MidOnly_ShopList.CNSH" Count="1" />
+	<BackLink DBID="/Buildings/DefaultStats/Secret.CNSH" Count="1" />
+	<BackLink DBID="/Buildings/DefaultStats/Secret_NY.CNSH" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/MOBA/Shops/Mod9_A.SHOP" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/MOBA/Shops/Mod9_B.SHOP" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/MOBA/Shops/Mod9_N.SHOP" Count="1" />
+	<BackLink DBID="/Maps/PvE/Series/Episode1/buildings/Shop.SHOP" Count="1" />
+	<BackLink DBID="/Maps/Test/BalanseTest/Shops/_N.SHOP" Count="1" />
+	<BackLink DBID="/Maps/Test/DesignArtTest/Buildings/_N.SHOP" Count="1" />
+	<BackLink DBID="/Items/Talents/Level5/G727_SpdOrDex.TALENT" Count="1" />
+	<BackLink DBID="/Buildings/DefaultStats/Basic_Bots.CNSH" Count="2" />
+	<BackLink DBID="/Maps/Multiplayer/MOBA/Shops/_A_NY.SHOP" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/MOBA/Shops/_B_NY.SHOP" Count="1" />
+	<activeCustomTrigger>true</activeCustomTrigger>
+	<allowChase>
+		<compiledString></compiledString>
+		<returnType>bool</returnType>
+		<sString>true</sString>
+	</allowChase>
+	<alternativeTargets />
+	<aoeDisplayOnMinimap>false</aoeDisplayOnMinimap>
+	<aoeHeight>0</aoeHeight>
+	<aoeMaterial href="" />
+	<aoePassabilityCheckMode>0</aoePassabilityCheckMode>
+	<aoeSize>
+		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</aoeSize>
+	<aoeType>None</aoeType>
+	<applicators>
+		<Item href="/Items/Consumables/Bottle_Res.ARCT" id="E08FCA4A-C62D-4D21-86BB-5743D56E706C">
+			<SpellApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption></caption>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<spell href="/Items/Consumables/Bottle_Res.ARCT" id="40AC3486-99EF-409E-8F72-AD4545C381E3">
+					<Spell>
+						<applicators>
+							<Item href="/Items/Consumables/Bottle_Res.ARCT" id="CE5D0B54-50F4-4D7D-8E0D-4CD0753C6D16">
+								<StatModApplicator>
+									<applyTarget>ApplicatorTarget</applyTarget>
+									<behaviorFlags>216</behaviorFlags>
+									<caption>Коррекция времени смерти</caption>
+									<constraint>None</constraint>
+									<dontUpdate>false</dontUpdate>
+									<effect>
+										<Item href="" />
+										<Item href="" />
+									</effect>
+									<enabled>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<lifeTime>
+										<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAvw==</compiledString>
+										<returnType>float</returnType>
+										<sString>-1</sString>
+									</lifeTime>
+									<LoggingEvent>-1</LoggingEvent>
+									<modifier>
+										<addValue>
+											<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DpHB9vw==</compiledString>
+											<returnType>float</returnType>
+											<sString>-0.99</sString>
+										</addValue>
+										<multValue>
+											<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+											<returnType>float</returnType>
+											<sString>0.0f</sString>
+										</multValue>
+										<stat>Life</stat>
+										<topModifier>true</topModifier>
+										<variable>ReviveTimeScale</variable>
+									</modifier>
+									<providerName></providerName>
+									<startCondition>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</startCondition>
+									<statModName></statModName>
+								</StatModApplicator>
+							</Item>
+						</applicators>
+						<dispatch href="/Items/Consumables/Bottle_Res.ARCT" id="A337F17D-E5C3-4D49-82F8-E9828BC14EDD">
+							<DispatchImmediate>
+								<alwaysApply>false</alwaysApply>
+								<applyEffect>
+									<Item href="" />
+									<Item href="" />
+								</applyEffect>
+								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+								<applyEffectOrientation>Default</applyEffectOrientation>
+								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+								<dieAfterApply>true</dieAfterApply>
+								<dispatchEffect>
+									<Item href="" />
+									<Item href="" />
+								</dispatchEffect>
+								<flags>0</flags>
+								<instantApply>false</instantApply>
+							</DispatchImmediate>
+						</dispatch>
+					</Spell>
+				</spell>
+				<spellTarget>ApplicatorTarget</spellTarget>
+				<targetSelector href="/Items/Consumables/Bottle_Res.ARCT" id="404FBD14-F76D-4B92-B75D-A5F543BDC201">
+					<AreaTargetSelector>
+						<absolutePosition>
+							<x>0</x>
+							<y>0</y>
+						</absolutePosition>
+						<flags>0</flags>
+						<mode>Normal</mode>
+						<range>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAEAcRg==</compiledString>
+							<returnType>float</returnType>
+							<sString>10000.0f</sString>
+						</range>
+						<targetFilter>1879048195</targetFilter>
+						<targetSelector href="" />
+					</AreaTargetSelector>
+				</targetSelector>
+			</SpellApplicator>
+		</Item>
+		<Item href="/Items/Consumables/Bottle_Res.ARCT" id="DBB5F992-FC64-4860-91C9-78AF468D4FC0">
+			<UIMessageApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption></caption>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<message textref="" />
+				<providerName></providerName>
+				<uiEvent href="/Items/Consumables/Bottle_Res.ARCT" id="004AE8F2-8E5E-4F85-A37B-C9C64DFADE30">
+					<UIEvent>
+						<signRecipients>ALL_PLAYERS</signRecipients>
+						<UISigns>
+							<Item href="/Items/Consumables/Bottle_Res.ARCT" id="DA951126-69DE-45EA-A8CB-98EEF53069DB">
+								<UISignMessageToChat>
+									<channel>Achievments</channel>
+									<messages>
+										<Item textref="/Items/Consumables/Bottle_Res.ARCT_da95112669de45eaa8cb98eef53069db_messages_0.txt" />
+										<Item textref="" />
+										<Item textref="" />
+									</messages>
+									<signRecipients>USE_FROM_PARENT</signRecipients>
+								</UISignMessageToChat>
+							</Item>
+						</UISigns>
+					</UIEvent>
+				</uiEvent>
+				<value>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</value>
+			</UIMessageApplicator>
+		</Item>
+	</applicators>
+	<autoTargetSelector href="" />
+	<caption></caption>
+	<castAllowRange>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</castAllowRange>
+	<castLimitations />
+	<commonDescription textref="/Items/Consumables/Bottle_Res.ARCT_commonDescription.txt" />
+	<compiledDescriptionA textref="" />
+	<compiledDescriptionB textref="" />
+	<conditionFormulas />
+	<constants href="/Items/Consumables/Bottle_Res.ARCT" id="5923C117-F1B6-46E3-9E30-D61F66AA98D4">
+		<UnitConstantsContainer>
+			<vars>
+				<Item href="/Items/Consumables/Bottle_Res.ARCT" id="B08B8467-E10E-45F3-8E4E-5070320657F9">
+					<UnitConstant>
+						<name>Haste_Percent</name>
+						<var>
+							<compiledString>FTcAAAAEAAAAPgAAAFcAAACVAAAAuQAAAEhhc3RlX1BlcmNlbnRfQmFzZQAARzcyNwAAAABHNzI3AAAAAEc3MjdfSGFzdGVfUGVyY2VudABVi+yD7BBoFAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBwAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXQfi1UMUotFCFBoJAAAAItNEIsRi00Qi0JQ/9DZXfTrBdnu2V30i00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ/9DYRfTZXfDZRfCL5V3DAAAAAA==</compiledString>
+							<returnType>float</returnType>
+							<sString>cHaste_Percent_Base +( tal("G727")? cG727_Haste_Percent : 0)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Consumables/Bottle_Res.ARCT" id="E3380CD3-8107-4E57-B724-3F9356BBF399">
+					<UnitConstant>
+						<name>Haste_Duration</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
+							<returnType>float</returnType>
+							<sString>10</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Consumables/Bottle_Res.ARCT" id="B8E4D726-C301-4940-A9C7-11B5273B720F">
+					<UnitConstant>
+						<name>Haste_Percent_Base</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQg==</compiledString>
+							<returnType>float</returnType>
+							<sString>40</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/TalentKits/Redset7_5_Alchemy/const_Redset7_5_G727_HastePercentage" />
+			</vars>
+		</UnitConstantsContainer>
+	</constants>
+	<cooldownTime>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
+		<returnType>float</returnType>
+		<sString>2</sString>
+	</cooldownTime>
+	<cooldownTimeSecondState>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</cooldownTimeSecondState>
+	<description textref="/Items/Consumables/Bottle_Res.ARCT_description.txt" />
+	<dispatch href="/Items/Consumables/Bottle_Res.ARCT" id="38433A11-EA3A-4B2C-A548-EAAE6B003C7F">
+		<DispatchImmediate>
+			<alwaysApply>false</alwaysApply>
+			<applyEffect>
+				<Item href="" />
+				<Item href="" />
+			</applyEffect>
+			<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+			<applyEffectOrientation>Default</applyEffectOrientation>
+			<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+			<dieAfterApply>true</dieAfterApply>
+			<dispatchEffect>
+				<Item href="" />
+				<Item href="" />
+			</dispatchEffect>
+			<flags>0</flags>
+			<instantApply>false</instantApply>
+		</DispatchImmediate>
+	</dispatch>
+	<flags>18</flags>
+	<gameObject href="" />
+	<image href="/UI/Styles/Icons/Talents/_042.ITEX" />
+	<imageSecondState href="" />
+	<isPotion>true</isPotion>
+	<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
+	<manaCost>
+		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+		<returnType>float</returnType>
+		<sString>0</sString>
+	</manaCost>
+	<marker></marker>
+	<maxQuantity>0</maxQuantity>
+	<microAI href="" />
+	<minUseRangeCorrection>0</minUseRangeCorrection>
+	<naftaCost>50</naftaCost>
+	<name textref="/Items/Consumables/Bottle_Res.ARCT_name.txt" />
+	<node></node>
+	<passiveApplicators />
+	<persistentId></persistentId>
+	<requireLineOfSight>false</requireLineOfSight>
+	<shortDescription textref="/Items/Consumables/Bottle_Res.ARCT_shortDescription.txt" />
+	<targetType>0</targetType>
+	<type>Active</type>
+	<useRange>
+		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+		<returnType>float</returnType>
+		<sString>0</sString>
+	</useRange>
+	<useRangeMaterial href="" />
+	<warFogRemoveRadius>0</warFogRemoveRadius>
+	<warFogRemoveTime>0</warFogRemoveTime>
+</Consumable>

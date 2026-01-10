@@ -13,6 +13,8 @@
 	<BackLink DBID="/Test/Talents/Fluffy/Elite_Str.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Fluffy/Epic_Int.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Fluffy/Epic_Str.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Fluffy/Ability_A4.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Fluffy/Ability_A4_2.TALENT" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -1029,9 +1031,9 @@
 					<UnitConstant>
 						<name>A1_Damage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACWQgDADEQ=</compiledString>
+							<compiledString>FR4AAAAHAAAAJQAAAD4AAAB4AAAAggAAALAAAAC+AAAAyAAAAEZsdWZmeV9BMF9TVVAAAABGbHVmZnlfQTBfU1VQAFWL7IPsFGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdEZqAVHZBRABAADZHCRR2QUMAQAA2RwkagCLVQiLAotNCIuQNAEAAP/SUdkcJGoBi0UQixCLTRCLQmD/0NwNBAEAAN1d8Os+agFR2QUQAQAA2RwkUdkFDAEAANkcJGoAi00IixGLTQiLgjQBAAD/0FHZHCRqAYtNEIsRi00Qi0Jg/9DdXfDdRfDZXezZReyL5V3DMzMzMzMz8z8AAJZCAMAMRA==</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale( sIntellect, 75, 563)</sString>
+							<sString>tal("Fluffy_A0_SUP") ? 1.2*damageScale( sIntellect, 75, 563) : damageScale( sIntellect, 75, 563)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -1171,9 +1173,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FQAAAAAAAAAAVYvsaAAAAgCLRQyLEItNDItCaP/QXcM=</compiledString>
+					<compiledString>FQwAAAACAAAAKgAAAEAAAABGbHVmZnlQaXpkYQBVi+xRaAAAAgCLRQyLEItNDItCaP/QD7bIhcl1K2gAAAAAi1UIiwKLTQiLkIgBAAD/0twdYgAAAN/g9sRBdAnHRfwAAAAA6wfHRfwBAAAAikX8i+VdwwAAAAAAAAAA</compiledString>
 					<returnType>bool</returnType>
-					<sString>rFlag(131072)</sString>
+					<sString>rFlag(131072) || sender.vFluffyPizda &gt; 0</sString>
 				</enabled>
 				<flag>1024</flag>
 				<formulaName></formulaName>

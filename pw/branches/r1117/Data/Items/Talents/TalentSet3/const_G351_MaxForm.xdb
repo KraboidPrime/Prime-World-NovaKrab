@@ -8,8 +8,8 @@
 	<BackLink DBID="/Items/Talents/Level5/G366_Stamina_Str_Int.TALENT" Count="1" />
 	<name>G351_MaxForm</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
 		<returnType>float</returnType>
-		<sString>2</sString>
+		<sString>3</sString>
 	</var>
 </UnitConstant>

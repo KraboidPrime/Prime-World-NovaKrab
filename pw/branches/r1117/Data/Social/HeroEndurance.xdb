@@ -74,6 +74,8 @@
 	<BackLink DBID="/Maps/PvE/Series/Episode1/heroes/ally/rockman.HROB" Count="1" />
 	<BackLink DBID="/Maps/PvE/Series/Episode1/heroes/ally/witcher.HROB" Count="1" />
 	<BackLink DBID="/Test/Panther/_.HROB" Count="1" />
+	<BackLink DBID="/Heroes/Chicken/_.HROB" Count="1" />
+	<BackLink DBID="/Heroes/Primevoker/_.HROB" Count="1" />
 	<EnduranceRegen>
 		<Item>
 			<enduranceRegenTime>45243</enduranceRegenTime>

@@ -145,9 +145,9 @@
 					<UnitConstant>
 						<name>Haste_AtkSpdAmount</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBWMAAADZHCRR2QVfAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJItNCIsRi00Ii4IwAQAA/9BR2Rwk6B8AAACDxATZHCRqAItNEIsRi00Qi0Jg/9BdwwAAoEAAABhCVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
+							<compiledString>FQAAAAADAAAACwAAABUAAABGAAAAVYvsg+wMagFR2QVzAAAA2RwkUdkFbwAAANkcJGoAi0UIixCLTQiLgjABAAD/0ItNCIsRi00Ii4I0AQAA3V34/9DcRfjcJWcAAADZXfTZRfRR2RwkagGLTRCLEYtNEItCYP/Qi+VdwwAAAAAAAElAAADAQAAAQEI=</compiledString>
 							<returnType>float</returnType>
-							<sString>abilityScale(max(sStrength,sIntellect), 5, 38)</sString>
+							<sString>damageScale((sStrength+sIntellect-50), 6, 48)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -165,9 +165,9 @@
 					<UnitConstant>
 						<name>A2_Heal</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBWMAAADZHCRR2QVfAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJItNCIsRi00Ii4IwAQAA/9BR2Rwk6B8AAACDxATZHCRqAYtNEIsRi00Qi0Jg/9BdwwAAAEEAAGxCVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
+							<compiledString>FQAAAAADAAAACwAAABUAAABGAAAAVYvsg+wMagFR2QVzAAAA2RwkUdkFbwAAANkcJGoAi0UIixCLTQiLgjABAAD/0ItNCIsRi00Ii4I0AQAA3V34/9DcRfjcJWcAAADZXfTZRfRR2RwkagGLTRCLEYtNEItCYP/Qi+VdwwAAAAAAAElAAADAQAAAQEI=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(max(sStrength,sIntellect), 8, 59)</sString>
+							<sString>damageScale((sStrength+sIntellect-50), 6, 48)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

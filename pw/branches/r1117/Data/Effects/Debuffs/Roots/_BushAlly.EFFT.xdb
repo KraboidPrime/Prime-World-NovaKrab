@@ -2,6 +2,7 @@
 <BasicEffectStandalone>
 	<BackLink DBID="/Effects/Debuffs/Roots/_BushAlly.EFFT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Ent/Ability_A3.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A0.TALENT" Count="1" />
 	<component href="/Effects/Debuffs/Roots/_BushTRS.PRXY" />
 	<deathType>Manual</deathType>
 	<enableCondition href="" />

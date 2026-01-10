@@ -7,6 +7,8 @@
 	<BackLink DBID="/Items/Talents/Class/Demonolog/Ability4.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Demonolog/SummonDemons.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Demonolog/Ability3.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A0.TALENT" Count="3" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A4_2.TALENT" Count="2" />
 	<abilities>
 		<Item href="" />
 		<Item href="" />
@@ -83,9 +85,9 @@
 					<levelUpgrades />
 					<statId>Life</statId>
 					<value>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQw==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQw==</compiledString>
 						<returnType>float</returnType>
-						<sString>400</sString>
+						<sString>480</sString>
 					</value>
 				</Item>
 				<Item>
@@ -179,9 +181,9 @@
 					<levelUpgrades />
 					<statId>Range</statId>
 					<value>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAQA==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAwQQ==</compiledString>
 						<returnType>float</returnType>
-						<sString>4</sString>
+						<sString>11</sString>
 					</value>
 				</Item>
 				<Item>
@@ -219,5 +221,5 @@
 			</stats>
 		</StatsContainer>
 	</stats>
-	<targetingParams href="/Summons/Demon2/TargetParametersDemon2.UNTP" />
+	<targetingParams href="/GameLogic/TargetingParams_AggrSummon.UNTP" />
 </Summoned>

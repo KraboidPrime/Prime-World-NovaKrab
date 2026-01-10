@@ -257,9 +257,9 @@
 					<UnitConstant>
 						<name>Blind_StartCondition</name>
 						<var>
-							<compiledString>FQAAAAAAAAAAVYvsUYtFEIsQi00Qi4KQAAAA/9APtsiJTfzbRfyL5V3D</compiledString>
+							<compiledString>FQAAAAAAAAAAVYvsUYtFEIsQi00Qi4KQAAAA/9APtsj32RvJg8EBiU3820X8i+Vdww==</compiledString>
 							<returnType>float</returnType>
-							<sString>mIsNight</sString>
+							<sString>!(mIsNight)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -282,9 +282,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQg==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAMQw==</compiledString>
 		<returnType>float</returnType>
-		<sString>120</sString>
+		<sString>140</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>

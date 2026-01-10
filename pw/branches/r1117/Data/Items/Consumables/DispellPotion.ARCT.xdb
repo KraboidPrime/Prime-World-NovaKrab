@@ -2,7 +2,7 @@
 <Consumable>
 	<BackLink DBID="/Buildings/DefaultStats/CTE_Secret.CNSH" Count="1" />
 	<BackLink DBID="/Buildings/DefaultStats/Secret.CNSH" Count="1" />
-	<BackLink DBID="/Buildings/DefaultStats/Secret_NY.CNSH" Count="1" />
+	<BackLink DBID="/Buildings/DefaultStats/Secret_NY.CNSH" Count="3" />
 	<BackLink DBID="/Maps/PvE/Series/Episode1/buildings/Shop.SHOP" Count="1" />
 	<BackLink DBID="/Maps/Test/BalanseTest/Shops/_N.SHOP" Count="1" />
 	<activeCustomTrigger>true</activeCustomTrigger>
@@ -191,9 +191,9 @@
 		</UnitConstantsContainer>
 	</constants>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQg==</compiledString>
+		<compiledString>FQ4AAAACAAAAFQAAAC4AAABHMTAwMgAAAEcxMDAyAFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoCAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+/fZG8mD4dyDwXiJTfTbRfSL5V3D</compiledString>
 		<returnType>float</returnType>
-		<sString>120</sString>
+		<sString>tal("G1002") ? 84 : 120</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>
@@ -232,10 +232,10 @@
 		<sString>0</sString>
 	</manaCost>
 	<marker></marker>
-	<maxQuantity>5</maxQuantity>
+	<maxQuantity>100</maxQuantity>
 	<microAI href="" />
 	<minUseRangeCorrection>0</minUseRangeCorrection>
-	<naftaCost>150</naftaCost>
+	<naftaCost>300</naftaCost>
 	<name textref="/Items/Consumables/DispellPotion.ARCT_name.txt" />
 	<node></node>
 	<passiveApplicators />

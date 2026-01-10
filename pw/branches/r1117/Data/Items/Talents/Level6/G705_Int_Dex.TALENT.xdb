@@ -97,7 +97,7 @@
 	<description textref="/Items/Talents/Level6/G705_Int_Dex.TALENT_description.txt" />
 	<devPoints>1</devPoints>
 	<dispatch href="" />
-	<flags>1</flags>
+	<flags>5</flags>
 	<forceBonus>0</forceBonus>
 	<image href="/UI/Styles/Icons/Talents/_705.ITEX" />
 	<imageSecondState href="" />

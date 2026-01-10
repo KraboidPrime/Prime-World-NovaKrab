@@ -782,7 +782,7 @@
 					<instantApply>false</instantApply>
 				</DispatchImmediate>
 			</dispatch>
-			<flags>1</flags>
+			<flags>5</flags>
 			<image href="" />
 			<imageSecondState href="" />
 			<isMelee>true</isMelee>
@@ -1179,9 +1179,9 @@
 					<calcIncrement>0.8</calcIncrement>
 					<calcValue>53</calcValue>
 					<increment>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAPw==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpkZPw==</compiledString>
 						<returnType>float</returnType>
-						<sString>0.75</sString>
+						<sString>0.60</sString>
 					</increment>
 					<levelUpgrades />
 					<statId>Will</statId>

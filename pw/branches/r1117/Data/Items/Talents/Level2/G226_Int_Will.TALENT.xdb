@@ -54,19 +54,9 @@
 					<UnitConstant>
 						<name>Add_Intellect</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAQECamZk+</compiledString>
+							<compiledString>FQcAAAACAAAADAAAACIAAABHMjI2X2QAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwtMAAAANld/NlF/IvlXcMAAAAAAAAsQA==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(3, 0.3)</sString>
-						</var>
-					</UnitConstant>
-				</Item>
-				<Item href="/Items/Talents/Level2/G226_Int_Will.TALENT" id="5053DAF1-660A-4C1D-80EE-3BE9233FDA10">
-					<UnitConstant>
-						<name>Add_Will</name>
-						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAQEDNzEw+</compiledString>
-							<returnType>float</returnType>
-							<sString>refineScale(3, 0.2)</sString>
+							<sString>14-sender.vG226_d</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -90,7 +80,7 @@
 	<description textref="/Items/Talents/Level2/G226_Int_Will.TALENT_description.txt" />
 	<devPoints>1</devPoints>
 	<dispatch href="" />
-	<flags>1</flags>
+	<flags>6</flags>
 	<forceBonus>9</forceBonus>
 	<image href="/UI/Styles/Icons/Talents/_226.ITEX" />
 	<imageSecondState href="" />
@@ -125,51 +115,147 @@
 				<LoggingEvent>-1</LoggingEvent>
 				<modifier>
 					<addValue>
-						<compiledString>FQ4AAAABAAAAGgAAAEFkZF9JbnRlbGxlY3QAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABgQQ==</compiledString>
 						<returnType>float</returnType>
-						<sString>cAdd_Intellect</sString>
+						<sString>14</sString>
 					</addValue>
 					<multValue>
 						<compiledString></compiledString>
 						<returnType>float</returnType>
 						<sString>1.0f</sString>
 					</multValue>
-					<stat>Intellect</stat>
+					<stat>Strength</stat>
 					<topModifier>false</topModifier>
 					<variable></variable>
 				</modifier>
 				<providerName></providerName>
 			</PermanentStatModApplicator>
 		</Item>
-		<Item href="/Items/Talents/Level2/G226_Int_Will.TALENT" id="7AFE732B-EBD5-4B2E-96DC-84FBEFDF9CEB">
-			<PermanentStatModApplicator>
-				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>Add_Will</caption>
-				<customApplyType>None</customApplyType>
+		<Item href="/Items/Talents/Level2/G226_Int_Will.TALENT" id="C9118A97-BD26-44BE-AF35-2CE09A8E1B5F">
+			<SpellPeriodicallyApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>Убывание</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
 				<enabled>
 					<compiledString></compiledString>
 					<returnType>bool</returnType>
 					<sString>true</sString>
 				</enabled>
 				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAIByRA==</compiledString>
+					<returnType>float</returnType>
+					<sString>970</sString>
+				</lifeTime>
 				<LoggingEvent>-1</LoggingEvent>
-				<modifier>
-					<addValue>
-						<compiledString>FQkAAAABAAAAFQAAAEFkZF9XaWxsAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
-						<returnType>float</returnType>
-						<sString>cAdd_Will</sString>
-					</addValue>
-					<multValue>
-						<compiledString></compiledString>
-						<returnType>float</returnType>
-						<sString>1.0f</sString>
-					</multValue>
-					<stat>Will</stat>
-					<topModifier>false</topModifier>
-					<variable></variable>
-				</modifier>
+				<period>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQQ==</compiledString>
+					<returnType>float</returnType>
+					<sString>30.0f</sString>
+				</period>
 				<providerName></providerName>
-			</PermanentStatModApplicator>
+				<scaleMode>ScaleIsCount</scaleMode>
+				<spell href="/Items/Talents/Level2/G226_Int_Will.TALENT" id="FB5AFF9B-86F9-4831-B915-B3C753D71EE2">
+					<Spell>
+						<applicators>
+							<Item href="/Items/Talents/Level2/G226_Int_Will.TALENT" id="7A8D7324-BB41-4FC7-9BDA-5F7ECADFDE13">
+								<PermanentStatModApplicator>
+									<applyTarget>ApplicatorTarget</applyTarget>
+									<caption></caption>
+									<customApplyType>None</customApplyType>
+									<enabled>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<LoggingEvent>-1</LoggingEvent>
+									<modifier>
+										<addValue>
+											<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABgvg==</compiledString>
+											<returnType>float</returnType>
+											<sString>-0.21875f</sString>
+										</addValue>
+										<multValue>
+											<compiledString></compiledString>
+											<returnType>float</returnType>
+											<sString>1.0f</sString>
+										</multValue>
+										<stat>Strength</stat>
+										<topModifier>false</topModifier>
+										<variable></variable>
+									</modifier>
+									<providerName></providerName>
+								</PermanentStatModApplicator>
+							</Item>
+							<Item href="/Items/Talents/Level2/G226_Int_Will.TALENT" id="21C4CB08-2EE0-483E-914C-DD6AFE8A1524">
+								<PermanentStatModApplicator>
+									<applyTarget>ApplicatorTarget</applyTarget>
+									<caption></caption>
+									<customApplyType>None</customApplyType>
+									<enabled>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<LoggingEvent>-1</LoggingEvent>
+									<modifier>
+										<addValue>
+											<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABgPg==</compiledString>
+											<returnType>float</returnType>
+											<sString>0.21875f</sString>
+										</addValue>
+										<multValue>
+											<compiledString></compiledString>
+											<returnType>float</returnType>
+											<sString>1.0f</sString>
+										</multValue>
+										<stat>Intellect</stat>
+										<topModifier>false</topModifier>
+										<variable>G226_d</variable>
+									</modifier>
+									<providerName></providerName>
+								</PermanentStatModApplicator>
+							</Item>
+						</applicators>
+						<dispatch href="/Items/Talents/Level2/G226_Int_Will.TALENT" id="8E5923BF-762A-455B-B80E-C78ED4E2AD87">
+							<DispatchImmediate>
+								<alwaysApply>false</alwaysApply>
+								<applyEffect>
+									<Item href="" />
+									<Item href="" />
+								</applyEffect>
+								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+								<applyEffectOrientation>Default</applyEffectOrientation>
+								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+								<dieAfterApply>true</dieAfterApply>
+								<dispatchEffect>
+									<Item href="" />
+									<Item href="" />
+								</dispatchEffect>
+								<flags>0</flags>
+								<instantApply>false</instantApply>
+							</DispatchImmediate>
+						</dispatch>
+					</Spell>
+				</spell>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<startOffset>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQQ==</compiledString>
+					<returnType>float</returnType>
+					<sString>30.0f</sString>
+				</startOffset>
+				<targetSelector href="" />
+			</SpellPeriodicallyApplicator>
 		</Item>
 	</passiveApplicators>
 	<persistentId>G226</persistentId>
@@ -202,7 +288,7 @@
 			</values>
 		</Item>
 	</talentStats>
-	<targetType>2040319</targetType>
+	<targetType>0</targetType>
 	<type>Simple</type>
 	<upgradeLevel>0</upgradeLevel>
 	<useRange>

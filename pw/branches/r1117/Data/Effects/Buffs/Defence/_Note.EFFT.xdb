@@ -4,6 +4,7 @@
 	<BackLink DBID="/Items/Talents/Class/Bard/status_A3ShieldSelf.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Level2/status_G135_DmgAbsorb.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Level6/status_G175_DmgReduce.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Level6/Trigger_G175.APLR" Count="3" />
 	<attachFlags>1</attachFlags>
 	<attachType>Body</attachType>
 	<component href="/Effects/Buffs/Defence/_NoteTRS.PRXY" />

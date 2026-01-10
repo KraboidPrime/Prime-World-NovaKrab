@@ -2,7 +2,7 @@
 <ConditionTargetSelector>
 	<BackLink DBID="/Items/Talents/TalentKits/Redset4_3_Fire/G557_PeriodDmg.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset4_3_Fire/G559_PeriodDmg.APLR" Count="1" />
-	<BackLink DBID="/Items/Talents/TalentKits/Redset4_3_Fire/status_G557_Mark.APLR" Count="2" />
+	<BackLink DBID="/Items/Talents/TalentKits/Redset4_3_Fire/status_G557_Mark.APLR" Count="5" />
 	<condition>
 		<compiledString>FRUAAAACAAAAIAAAAEAAAABOZXV0cmFsU3RhdHVzAAAAV2FyZABVi+xRagCLRRBQaAAAAACLTQyLEYtNDIuCnAEAAP/QO0UQdSlqAItNEFFoEAAAAItVDIsCi00Mi5CcAQAA/9I7RRB1CcdF/AEAAADrB8dF/AAAAACKRfyL5V3D</compiledString>
 		<returnType>bool</returnType>

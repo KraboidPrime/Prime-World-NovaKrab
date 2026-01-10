@@ -2,6 +2,7 @@
 <UnitConstant>
 	<BackLink DBID="/Items/Talents/Class/Inventor/Ability_A1.TALENT" Count="1" />
 	<BackLink DBID="/Summons/Turret/_.SUMMONED" Count="1" />
+	<BackLink DBID="/Summons/Turret/_V.SUMMONED" Count="1" />
 	<name>Slow_StartCondition</name>
 	<var>
 		<compiledString>FQ4AAAACAAAAEwAAACkAAABUZXJyYWluU3RhdHVzAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHUsAAADf4PbERHoJx0X8AQAAAOsHx0X8AAAAANtF/IvlXcMAAAAAAADwPw==</compiledString>

@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Class/Monster/Ability_A1.TALENT" Count="1" />
 	<name>A1_BonusDamage</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQg==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQg==</compiledString>
 		<returnType>float</returnType>
-		<sString>50.0f</sString>
+		<sString>100.0f</sString>
 	</var>
 </UnitConstant>

@@ -2,7 +2,7 @@
 <Talent>
 	<BackLink DBID="/Social.ROOT" Count="1" />
 	<BackLink DBID="/GameLogic/AILogic.AILP" Count="1" />
-	<BackLink DBID="/GameLogic/TalentGroup.TGRP" Count="1" />
+	<BackLink DBID="/GameLogic/TalentGroup.TGRP" Count="2" />
 	<BackLink DBID="/Items/RerollShop/TalentsList_Rar5_Set4" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentLists/Int_Life_Energy" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentLists/Int_Life_Energy_Upg" Count="1" />
@@ -40,18 +40,7 @@
 		<returnType>float</returnType>
 		<sString>0.0f</sString>
 	</castAllowRange>
-	<castLimitations>
-		<Item href="/Items/Talents/Level1/G398_Energy_HoT.TALENT" id="B24F3F7C-860D-4EF6-8629-A60E1E93C7EF">
-			<ConditionCastLimitation>
-				<condition>
-					<compiledString>FQ4AAAACAAAAGwAAAC4AAABOYXRpdmVUZXJyYWluAFWL7FGLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0twdSgAAAN/g9sREewbGRf8B6wTGRf8AikX/i+VdwwAAAAAAAAAA</compiledString>
-					<returnType>bool</returnType>
-					<sString>cNativeTerrain</sString>
-				</condition>
-				<uiEvent href="/UI/Events/ErrorMessages/CastError_UnsuitablePlace.UIEV" />
-			</ConditionCastLimitation>
-		</Item>
-	</castLimitations>
+	<castLimitations />
 	<commonDescription textref="/Items/Talents/Level1/G398_Energy_HoT.TALENT_commonDescription.txt" />
 	<compiledDescriptionA textref="" />
 	<compiledDescriptionB textref="" />
@@ -108,9 +97,9 @@
 		<percent>9</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACMQg==</compiledString>
+		<compiledString>FQAAAAAAAAAAVYvsUVaLRQiLEItNCItCTP/Qi/CLTQiLEYtNCIuCkAEAAP/QO/APlMEPttH32hvSg+Lig8JQiVX820X8XovlXcM=</compiledString>
 		<returnType>float</returnType>
-		<sString>70</sString>
+		<sString>nt( true, false) ? 50 : 80</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>
@@ -168,15 +157,15 @@
 	<name textref="/Items/Talents/Level1/G398_Energy_HoT.TALENT_name.txt" />
 	<node></node>
 	<passiveApplicators>
-		<Item href="/Items/Talents/Level1/G398_Energy_HoT.TALENT" id="7E0485A7-251C-4191-B7F9-2D23F8DE68E6">
+		<Item href="/Items/Talents/Level1/G398_Energy_HoT.TALENT" id="D28F7C90-3849-40F9-AA4A-9A7CDEE5E935">
 			<PermanentStatModApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>Add_Energy</caption>
+				<caption>+ Add_Energy</caption>
 				<customApplyType>None</customApplyType>
 				<enabled>
-					<compiledString></compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLQnz/0ItNCIsRi00Ii0IQ3V34/9DcXfjf4PbEAXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
 					<returnType>bool</returnType>
-					<sString>true</sString>
+					<sString>sBaseLife &lt;= sMaxEnergy</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<LoggingEvent>-1</LoggingEvent>
@@ -192,6 +181,36 @@
 						<sString>1.0f</sString>
 					</multValue>
 					<stat>Energy</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level1/G398_Energy_HoT.TALENT" id="6D43029E-B74B-421E-9453-D0D642EE44E0">
+			<PermanentStatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>+ Add_Life</caption>
+				<customApplyType>None</customApplyType>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLQnz/0ItNCIsRi00Ii0IQ3V34/9DcXfjf4PbEBXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sBaseLife &gt; sMaxEnergy</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQsAAAABAAAAFwAAAEFkZF9FbmVyZ3kAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+						<returnType>float</returnType>
+						<sString>cAdd_Energy</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Life</stat>
 					<topModifier>false</topModifier>
 					<variable></variable>
 				</modifier>

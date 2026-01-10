@@ -40,8 +40,8 @@
 	</castAllowRange>
 	<castLimitations />
 	<commonDescription textref="" />
-	<compiledDescriptionA textref="/Items/Talents/Class/Night/Ability1_Upg.TALENT_compiledDescriptionA.txt" />
-	<compiledDescriptionB textref="/Items/Talents/Class/Night/Ability1_Upg.TALENT_compiledDescriptionB.txt" />
+	<compiledDescriptionA textref="" />
+	<compiledDescriptionB textref="" />
 	<conditionFormulas>
 		<Item href="/Items/Talents/Class/Night/Ability1_Upg.TALENT" id="2241A062-9033-4778-B50E-0522AE674CF4">
 			<ConditionFormula>
@@ -92,9 +92,9 @@
 					<UnitConstant>
 						<name>A1u_Heal</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAADgQQAAc0M=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBWMAAADZHCRR2QVfAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJItNCIsRi00Ii4I0AQAA/9BR2Rwk6B8AAACDxATZHCRqAYtNEIsRi00Qi0Jg/9BdwwAA4EEAAHNDVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(sIntellect, 28, 243)</sString>
+							<sString>damageScale(max(sIntellect, sStrength), 28, 243)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Level6/G497_Life_Dex.TALENT" Count="1" />
 	<name>G497_AddDamage</name>
 	<var>
-		<compiledString>FQ0AAAACAAAAFAAAAC0AAABHNDk3AAAAAEc0OTcAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgIAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0Is/9CJRfjrB8dF+AEAAACLTfiD6QFryQqBwaoAAACJTfTbRfSL5V3D</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACqQw==</compiledString>
 		<returnType>float</returnType>
-		<sString>170 + 10 * (getTalentRefineRate("G497", 1) - 1)</sString>
+		<sString>340</sString>
 	</var>
 </UnitConstant>

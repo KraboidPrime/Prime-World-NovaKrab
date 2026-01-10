@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Class/Artist/Ability_A3u.TALENT" Count="1" />
 	<name>A0u_PaintAmount</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
+		<compiledString>FR4AAAAEAAAAJQAAAD4AAAB1AAAAgAAAAEFydGlzdF9BMF9TVVAAAABBcnRpc3RfQTBfU1VQAFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdAvZBZIAAADZXfTrCdkFjgAAANld9NlF9IvlXcMAACBBAACAQA==</compiledString>
 		<returnType>float</returnType>
-		<sString>10.0f</sString>
+		<sString>tal("Artist_A0_SUP") ? 4.0f : 10.0f</sString>
 	</var>
 </UnitConstant>

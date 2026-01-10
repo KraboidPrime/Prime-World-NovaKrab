@@ -22,9 +22,9 @@
 	<aoeMaterial href="/Effects/UI/AOESelection/Cone.MTRL" />
 	<aoePassabilityCheckMode>0</aoePassabilityCheckMode>
 	<aoeSize>
-		<compiledString>FRcAAAACAAAAJAAAADcAAABSZWJvdW5kX1N0YXJ0Q29uZGl0aW9uAFWL7FGLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0twdWQAAAN/g9sREewnHRfwZAAAA6wfHRfwAAAAA20X8i+VdwwAAAAAAAAAA</compiledString>
+		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 		<returnType>float</returnType>
-		<sString>cRebound_StartCondition ? 25 : 0</sString>
+		<sString>0</sString>
 	</aoeSize>
 	<aoeType>UnattachedSector</aoeType>
 	<applicators>
@@ -36,9 +36,9 @@
 				<applyTarget>ApplicatorTarget</applyTarget>
 				<caption>рикошет</caption>
 				<enabled>
-					<compiledString>FRcAAAACAAAAJAAAADcAAABSZWJvdW5kX1N0YXJ0Q29uZGl0aW9uAFWL7FGLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0twdUwAAAN/g9sREewbGRf8B6wTGRf8AikX/i+VdwwAAAAAAAAAA</compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 					<returnType>bool</returnType>
-					<sString>cRebound_StartCondition</sString>
+					<sString>false</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<LoggingEvent>-1</LoggingEvent>
@@ -447,9 +447,9 @@
 					<UnitConstant>
 						<name>Damage_TT</name>
 						<var>
-							<compiledString>FSQAAAAEAAAAKwAAAEEAAABfAAAAfwAAAEJhc2VEYW1hZ2UAAEFkZERhbWFnZQAAAEczNzBfQWN0aXZlAFWL7IPsEGgYAAAAi0UIixCLTQiLgogBAAD/0NwdtQAAAN/g9sRBdQbGRf8B6wTGRf8Ai00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ/9BR2e7ZHCSLTQxRi1UIUmgMAAAAi0UQixCLTRCLQlDdXfT/0FHZHCQPtk3/UegcAAAAg8QM3EX02V3w2UXwi+VdwwAAAAAAAAAAAAAAAFWL7FEPtkUIhcB0CNlFDNld/OsG2UUQ2V382UX8i+Vdww==</compiledString>
+							<compiledString>FRgAAAADAAAAHwAAADUAAABZAAAAQmFzZURhbWFnZQAARzM3MV9BY3RpdmUAVYvsg+wIaAwAAACLRQiLEItNCIuCiAEAAP/Q3B13AAAA3+D2xEF1CcdF/AIAAADrB8dF/AEAAACLTQxRi1UIUmgAAAAAi0UQixCLTRCLQlD/0NpN/Nld+NlF+IvlXcMAAAAAAAAAAA==</compiledString>
 							<returnType>float</returnType>
-							<sString>cBaseDamage + s(sender.vG370_Active&gt;0,cAddDamage,0)</sString>
+							<sString>cBaseDamage*(sender.vG371_Active&gt;0 ? 2 : 1)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -475,9 +475,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQg==</compiledString>
+		<compiledString>FQwAAAACAAAAEQAAACcAAABHMzcwX0FjdGl2ZQBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1JAAAA3+D2xEF1CcdF/DwAAADrB8dF/HgAAADbRfyL5V3DAAAAAAAAAAA=</compiledString>
 		<returnType>float</returnType>
-		<sString>120</sString>
+		<sString>sender.vG370_Active&gt;0 ? 60 : 120</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>
@@ -507,7 +507,68 @@
 	<naftaCost>-1</naftaCost>
 	<name textref="/Items/Talents/Level4/G352_Dmg.TALENT_name.txt" />
 	<node></node>
-	<passiveApplicators />
+	<passiveApplicators>
+		<Item href="/Items/Talents/Level4/G352_Dmg.TALENT" id="BCE71355-733B-4BC4-A739-586DD4C1E209">
+			<PermanentStatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>Добавка силы</caption>
+				<customApplyType>None</customApplyType>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgrgAAAD/0ItNCIsRi00Ii4K8AAAA3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sBaseStrength &gt;= sBaseIntellect</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
+						<returnType>float</returnType>
+						<sString>10</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Strength</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level4/G352_Dmg.TALENT" id="E663A1A3-A00E-4EBD-8E7B-150DCEE24DCE">
+			<PermanentStatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>Добавка ума</caption>
+				<customApplyType>None</customApplyType>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgrgAAAD/0ItNCIsRi00Ii4K8AAAA3V34/9DcXfjf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sBaseStrength &lt; sBaseIntellect</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
+						<returnType>float</returnType>
+						<sString>10</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Intellect</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+	</passiveApplicators>
 	<persistentId>G352</persistentId>
 	<prerequisiteTalents />
 	<rarity>exclusive</rarity>

@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ConditionFormula>
+	<BackLink DBID="/Items/Talents/Level5/G572_SlowProc-Dex.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level4/G573_CDRforKill.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level6/G574_StatViaHighestStat.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level3/G575_EnergyReg_MoveSpeed.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level1/G576_HealForHeroKill.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level6/G1000_Max_Stat.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Level2/G1004_Vamp_Dmg.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level3/G1001_Str_Int_Life.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level4/G1002_Str_Int_CDR.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level5/G1003_Satanic.TALENT" Count="1" />
+	<condition>
+		<compiledString>FRYAAAACAAAAGwAAADEAAABBZGRfQWxsU3RhdHNfUmVkc2V0MTAAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdUwAAAN/g9sQBdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAhA</compiledString>
+		<returnType>bool</returnType>
+		<sString>sender.vAdd_AllStats_Redset10 &gt;= 3</sString>
+	</condition>
+	<name>Bonus3Active</name>
+</ConditionFormula>

@@ -6,6 +6,7 @@
 	<BackLink DBID="/Items/Talents/Class/Shaman/Ability_A2u.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset6_2_CDR/appl_Redset6_2_RefreshCooldown.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/Shaman_Mighty.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Shaman/Ability_A2.TALENT" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -152,10 +153,10 @@
 											<applicators>
 												<Item href="/Items/Talents/Class/Shaman/Ability_A2.TALENT" id="4AC2C75F-B7AB-4AE0-BBDB-224B57C23070">
 													<TeleportApplicator>
-														<appearEffect href="/Effects/General/Teleport/_EndSwitch.EFFT" />
+														<appearEffect href="" />
 														<applyTarget>ApplicatorTarget</applyTarget>
 														<caption>Teleport</caption>
-														<disappearEffect href="/Effects/General/Teleport/_StartSwitch.EFFT" />
+														<disappearEffect href="" />
 														<enabled>
 															<compiledString>FQYAAAACAAAACwAAACEAAABJc1BldABVi+xRaAAAAACLRQyLEItNDIuCiAEAAP/Q3B1DAAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAA8D8=</compiledString>
 															<returnType>bool</returnType>
@@ -414,6 +415,41 @@
 	<node></node>
 	<passiveApplicators>
 		<Item href="/Items/Talents/TalentKits/Redset7_11_MiniRefresher/trigger_G766_RefreshAndNotify.APLR" />
+		<Item href="/Items/Talents/Class/Shaman/Ability_A2.TALENT" id="82D79E38-23CA-405C-9A3E-6074F3ED3D56">
+			<FlagsApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>автозапрет таланта при ForbidMoveSpeical</caption>
+				<consumables />
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsaAAAAgCLRQyLEItNDItCaP/QXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>rFlag(131072)</sString>
+				</enabled>
+				<flag>1024</flag>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<talents>
+					<Item href="/Items/Talents/Class/Shaman/Ability_A2.TALENT" />
+				</talents>
+				<useListAs>ListAsRule</useListAs>
+			</FlagsApplicator>
+		</Item>
 	</passiveApplicators>
 	<persistentId>Shaman_A2</persistentId>
 	<prerequisiteTalents />

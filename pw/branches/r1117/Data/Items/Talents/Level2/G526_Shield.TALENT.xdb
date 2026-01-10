@@ -224,9 +224,9 @@
 					<UnitConstant>
 						<name>RangeEnemyCount</name>
 						<var>
-							<compiledString>FQ0AAAABAAAAGQAAAFJhbmdlX01lZGl1bQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+							<compiledString>FQ0AAAABAAAAGQAAAFJhbmdlX0V4TG9uZwBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
 							<returnType>float</returnType>
-							<sString>cRange_Medium</sString>
+							<sString>cRange_ExLong</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -235,9 +235,9 @@
 					<UnitConstant>
 						<name>G528_Allies_Trigger_Range</name>
 						<var>
-							<compiledString>FQ0AAAABAAAAGQAAAFJhbmdlX01lZGl1bQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+							<compiledString>FQ0AAAABAAAAGQAAAFJhbmdlX0V4TG9uZwBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
 							<returnType>float</returnType>
-							<sString>cRange_Medium</sString>
+							<sString>cRange_ExLong</sString>
 						</var>
 					</UnitConstant>
 				</Item>

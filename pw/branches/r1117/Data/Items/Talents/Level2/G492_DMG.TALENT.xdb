@@ -38,9 +38,9 @@
 		<Item href="/Items/Talents/Level2/G492_DMG.TALENT" id="398B257B-4006-4869-9ABB-FB2B3FCE3E46">
 			<SpellSwitchApplicator>
 				<activeSpellIndex>
-					<compiledString>FQwAAAACAAAANQAAAEsAAABHNDkzX0FjdGl2ZQBVi+xRi0UMixCLTQyLQlD/0IP4A3QSi00MixGLTQyLQlD/0IP4BHUraAAAAACLTQiLEYtNCIuCiAEAAP/Q3B1tAAAA3+D2xEF1CcdF/AEAAADrB8dF/AAAAACLRfyL5V3DAAAAAAAAAAA=</compiledString>
+					<compiledString>FQwAAAACAAAAawAAAIEAAABHNDkzX0FjdGl2ZQBVi+xRi0UMixCLTQyLQlD/0IP4A3RIi00MixGLTQyLQlD/0IP4BHQ2i00MixGLTQyLQlD/0IP4BXQki00MixGLTQyLQlD/0IP4EnQSi00MixGLTQyLQlD/0IP4E3UraAAAAACLTQiLEYtNCIuCiAEAAP/Q3B2jAAAA3+D2xEF1CcdF/AEAAADrB8dF/AAAAACLRfyL5V3DAAAAAAAAAAA=</compiledString>
 					<returnType>int</returnType>
-					<sString>(rUnitKind == 3 || rUnitKind == 4) &amp;&amp; sender.vG493_Active &gt; 0  ? 1 : 0</sString>
+					<sString>(rUnitKind == 3 || rUnitKind == 4 || rUnitKind == 5 || rUnitKind == 18 || rUnitKind == 19) &amp;&amp; sender.vG493_Active &gt; 0  ? 1 : 0</sString>
 				</activeSpellIndex>
 				<applyTarget>ApplicatorTarget</applyTarget>
 				<caption>Спеллсвитчер с рефрешем кд зависимости от цели</caption>
@@ -419,65 +419,12 @@
 																		<LoggingEvent>-1</LoggingEvent>
 																		<providerName></providerName>
 																		<timeLimiter>-1</timeLimiter>
-																		<uiEvent href="" />
+																		<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Material.UIEV" />
 																	</DamageApplicator>
 																</applicator>
 																<variableNames>
 																	<Item>damageDealed</Item>
 																</variableNames>
-															</Item>
-															<Item>
-																<applicator href="/Items/Talents/Level2/G492_DMG.TALENT" id="06E9022A-655D-4F4E-8E87-B1E086A22877">
-																	<DamageApplicator>
-																		<applyTarget>ApplicatorTarget</applyTarget>
-																		<cancelInvisibility>false</cancelInvisibility>
-																		<caption>Урон по крипам</caption>
-																		<damage>
-																			<compiledString>FRMAAAABAAAAHwAAAEc0OTRfQ3JlZXBCb251c0RtZwBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
-																			<returnType>float</returnType>
-																			<sString>cG494_CreepBonusDmg</sString>
-																		</damage>
-																		<damageMode>0</damageMode>
-																		<damageType>Material</damageType>
-																		<enabled>
-																			<compiledString>FRcAAAAEAAAAHgAAADQAAACeAAAAtAAAAEc0OTRfQWN0aXZlAEltbXVuZTJBeGUAVYvsg+wIaAAAAACLRQiLEItNCIuCiAEAAP/Q3B3sAAAA3+D2xEEPhZsAAACLTQyLEYtNDItCUP/Qg/gDdEiLTQyLEYtNDItCUP/Qg/gEdDaLTQyLEYtNDItCUP/Qg/gFdCSLTQyLEYtNDItCUP/Qg/gSdBKLTQyLEYtNDItCUP/Qg/gTdUFoDAAAAItNDIsRi00Mi4KIAQAA/9DcHewAAADf4PbERHoJx0X8AQAAAOsHx0X8AAAAAIN9/AF1CcdF+AEAAADrB8dF+AAAAACKRfiL5V3DAAAAAAAAAAA=</compiledString>
-																			<returnType>bool</returnType>
-																			<sString>sender.vG494_Active&gt;0 &amp;&amp; (rUnitKind == 3 || rUnitKind == 4 || rUnitKind == 5 || rUnitKind == 18 || rUnitKind == 19)&amp;&amp; (!receiver.vImmune2Axe==1)</sString>
-																		</enabled>
-																		<formulaName>G494Damage</formulaName>
-																		<LoggingEvent>-1</LoggingEvent>
-																		<providerName></providerName>
-																		<timeLimiter>-1</timeLimiter>
-																		<uiEvent href="" />
-																	</DamageApplicator>
-																</applicator>
-																<variableNames>
-																	<Item>damageDealed</Item>
-																</variableNames>
-															</Item>
-															<Item>
-																<applicator href="/Items/Talents/Level2/G492_DMG.TALENT" id="AFBF3A73-B923-4A59-829D-D7B6247DABF1">
-																	<UIMessageApplicator>
-																		<applyTarget>ApplicatorTarget</applyTarget>
-																		<caption>вывести суммарный урон</caption>
-																		<enabled>
-																			<compiledString></compiledString>
-																			<returnType>bool</returnType>
-																			<sString>true</sString>
-																		</enabled>
-																		<formulaName></formulaName>
-																		<LoggingEvent>-1</LoggingEvent>
-																		<message textref="/Items/Talents/Level2/G492_DMG.TALENT_afbf3a73b9234a59829dd7b6247dabf1_message.txt" />
-																		<providerName></providerName>
-																		<uiEvent href="/UI/Events/CommonEvents/EventCustomFlyoff_EP.UIEV" />
-																		<value>
-																			<compiledString>FSgAAAACAAAATwAAAGEAAABkYW1hZ2VEZWFsZWQAAAAARzQ5NERhbWFnZTpkYW1hZ2VEZWFsZWQAVYvsg+wUi0UQixCLTRCLQkj/0IlF/ItNEIsRi00Qi0JI/9CJRfhoEAAAAItN+IsRi034i0JU/9BoAAAAAItN/IsRi038i0JU3V3w/9DcRfDZXezZReyL5V3D</compiledString>
-																			<returnType>float</returnType>
-																			<sString>$ParentApplVariable("damageDealed") + $ParentApplVariable("G494Damage:damageDealed")</sString>
-																		</value>
-																	</UIMessageApplicator>
-																</applicator>
-																<variableNames />
 															</Item>
 														</applicators>
 														<applyTarget>AbilityTarget</applyTarget>
@@ -662,11 +609,11 @@
 														<formulaName></formulaName>
 														<LoggingEvent>-1</LoggingEvent>
 														<providerName></providerName>
-														<reduceByPercent>false</reduceByPercent>
+														<reduceByPercent>true</reduceByPercent>
 														<reductionAmount>
-															<compiledString>FRIAAAABAAAALgAAAEc0OTNfQ0RfUmVkdWN0aW9uAFWL7IPsDItFEIsQi00Qi0I8/9CLTQxRi1UIUmgAAAAAi0UQixCLTRCLQlDdXfj/0Nxt+Nld9NlF9IvlXcM=</compiledString>
+															<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAPw==</compiledString>
 															<returnType>float</returnType>
-															<sString>mCooldown - cG493_CD_Reduction</sString>
+															<sString>0.5</sString>
 														</reductionAmount>
 														<refreshThis>false</refreshThis>
 														<talents>
@@ -1037,9 +984,9 @@
 																		<cancelInvisibility>false</cancelInvisibility>
 																		<caption>Урон по всем</caption>
 																		<damage>
-																			<compiledString>FQkAAAABAAAAFQAAAFRvdGFsRG1nAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+																			<compiledString>FR8AAAACAAAALgAAAEgAAABUb3RhbERtZwAAAABHNDk0X0NyZWVwQm9udXNEbWcAVYvsg+wMi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9KLRQxQi00IUWgMAAAAi1UQiwKLTRCLUFDdXfj/0txF+Nld9NlF9IvlXcM=</compiledString>
 																			<returnType>float</returnType>
-																			<sString>cTotalDmg</sString>
+																			<sString>cTotalDmg + cG494_CreepBonusDmg</sString>
 																		</damage>
 																		<damageMode>0</damageMode>
 																		<damageType>Material</damageType>
@@ -1052,65 +999,12 @@
 																		<LoggingEvent>-1</LoggingEvent>
 																		<providerName></providerName>
 																		<timeLimiter>-1</timeLimiter>
-																		<uiEvent href="" />
+																		<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Material.UIEV" />
 																	</DamageApplicator>
 																</applicator>
 																<variableNames>
 																	<Item>damageDealed</Item>
 																</variableNames>
-															</Item>
-															<Item>
-																<applicator href="/Items/Talents/Level2/G492_DMG.TALENT" id="5C62CAD3-8B71-4503-AB16-97BA02731867">
-																	<DamageApplicator>
-																		<applyTarget>ApplicatorTarget</applyTarget>
-																		<cancelInvisibility>false</cancelInvisibility>
-																		<caption>Урон по крипам</caption>
-																		<damage>
-																			<compiledString>FRMAAAABAAAAHwAAAEc0OTRfQ3JlZXBCb251c0RtZwBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
-																			<returnType>float</returnType>
-																			<sString>cG494_CreepBonusDmg</sString>
-																		</damage>
-																		<damageMode>0</damageMode>
-																		<damageType>Material</damageType>
-																		<enabled>
-																			<compiledString>FRcAAAAEAAAAHgAAADQAAACeAAAAtAAAAEc0OTRfQWN0aXZlAEltbXVuZTJBeGUAVYvsg+wIaAAAAACLRQiLEItNCIuCiAEAAP/Q3B3sAAAA3+D2xEEPhZsAAACLTQyLEYtNDItCUP/Qg/gDdEiLTQyLEYtNDItCUP/Qg/gEdDaLTQyLEYtNDItCUP/Qg/gFdCSLTQyLEYtNDItCUP/Qg/gSdBKLTQyLEYtNDItCUP/Qg/gTdUFoDAAAAItNDIsRi00Mi4KIAQAA/9DcHewAAADf4PbERHoJx0X8AQAAAOsHx0X8AAAAAIN9/AF1CcdF+AEAAADrB8dF+AAAAACKRfiL5V3DAAAAAAAAAAA=</compiledString>
-																			<returnType>bool</returnType>
-																			<sString>sender.vG494_Active&gt;0 &amp;&amp; (rUnitKind == 3 || rUnitKind == 4 || rUnitKind == 5 || rUnitKind == 18 || rUnitKind == 19)&amp;&amp; (!receiver.vImmune2Axe==1)</sString>
-																		</enabled>
-																		<formulaName>G494Damage</formulaName>
-																		<LoggingEvent>-1</LoggingEvent>
-																		<providerName></providerName>
-																		<timeLimiter>-1</timeLimiter>
-																		<uiEvent href="" />
-																	</DamageApplicator>
-																</applicator>
-																<variableNames>
-																	<Item>damageDealed</Item>
-																</variableNames>
-															</Item>
-															<Item>
-																<applicator href="/Items/Talents/Level2/G492_DMG.TALENT" id="EEB561E2-B265-46CD-ADCC-D27EC68CC41A">
-																	<UIMessageApplicator>
-																		<applyTarget>ApplicatorTarget</applyTarget>
-																		<caption>вывести суммарный урон</caption>
-																		<enabled>
-																			<compiledString></compiledString>
-																			<returnType>bool</returnType>
-																			<sString>true</sString>
-																		</enabled>
-																		<formulaName></formulaName>
-																		<LoggingEvent>-1</LoggingEvent>
-																		<message textref="/Items/Talents/Level2/G492_DMG.TALENT_eeb561e2b26546cdadccd27ec68cc41a_message.txt" />
-																		<providerName></providerName>
-																		<uiEvent href="/UI/Events/CommonEvents/EventCustomFlyoff_EP.UIEV" />
-																		<value>
-																			<compiledString>FSgAAAACAAAATwAAAGEAAABkYW1hZ2VEZWFsZWQAAAAARzQ5NERhbWFnZTpkYW1hZ2VEZWFsZWQAVYvsg+wUi0UQixCLTRCLQkj/0IlF/ItNEIsRi00Qi0JI/9CJRfhoEAAAAItN+IsRi034i0JU/9BoAAAAAItN/IsRi038i0JU3V3w/9DcRfDZXezZReyL5V3D</compiledString>
-																			<returnType>float</returnType>
-																			<sString>$ParentApplVariable("damageDealed") + $ParentApplVariable("G494Damage:damageDealed")</sString>
-																		</value>
-																	</UIMessageApplicator>
-																</applicator>
-																<variableNames />
 															</Item>
 														</applicators>
 														<applyTarget>AbilityTarget</applyTarget>
@@ -1414,9 +1308,9 @@
 					<UnitConstant>
 						<name>TotalDmg</name>
 						<var>
-							<compiledString>FUMAAAAHAAAASgAAAGAAAAB0AAAAkAAAAKYAAAC6AAAA3gAAAEc0OTJfRGFtYWdlAEc0OTZfQWN0aXZlAEc0OTZfQWRkRGFtYWdlAABHNDk3X0FjdGl2ZQBHNDk3X0FkZERhbWFnZQBVi+yD7AxoDAAAAItFCIsQi00Ii4KIAQAA/9DcHQMBAADf4PbEQXUfi00MUYtVCFJoGAAAAItFEIsQi00Qi0JQ/9DZXfzrBdnu2V38aCgAAACLTQiLEYtNCIuCiAEAAP/Q3B0DAQAA3+D2xEF1H4tNDFGLVQhSaDQAAACLRRCLEItNEItCUP/Q2V346wXZ7tld+ItNDFGLVQhSaAAAAACLRRCLEItNEItCUP/Q2EX82EX42V302UX0i+VdwwAAAAAAAAAAAAAAAA==</compiledString>
+							<compiledString>FVEAAAAIAAAAWAAAAG4AAACCAAAAngAAALQAAADIAAAA7AAAAAwBAABHNDkyX0RhbWFnZQBHNDk2X0FjdGl2ZQBHNDk2X0FkZERhbWFnZQAARzQ5N19BY3RpdmUARzQ5N19BZGREYW1hZ2UAAEc0OTRfTmV3X0RtZwBVi+yD7BRoDAAAAItFCIsQi00Ii4KIAQAA/9DcHTEBAADf4PbEQXUfi00MUYtVCFJoGAAAAItFEIsQi00Qi0JQ/9DZXfzrBdnu2V38aCgAAACLTQiLEYtNCIuCiAEAAP/Q3B0xAQAA3+D2xEF1H4tNDFGLVQhSaDQAAACLRRCLEItNEItCUP/Q2V346wXZ7tld+ItNDFGLVQhSaAAAAACLRRCLEItNEItCUP/Q2EX82EX4i00MUYtVCFJoRAAAAItFEIsQi00Qi0JQ3V3w/9DcRfDZXezZReyL5V3DAAAAAAAAAAAAAAAA</compiledString>
 							<returnType>float</returnType>
-							<sString>cG492_Damage + (sender.vG496_Active&gt;0 ? cG496_AddDamage : 0) + (sender.vG497_Active&gt;0 ? cG497_AddDamage : 0)</sString>
+							<sString>cG492_Damage + (sender.vG496_Active&gt;0 ? cG496_AddDamage : 0) + (sender.vG497_Active&gt;0 ? cG497_AddDamage : 0) + cG494_New_Dmg</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -1468,9 +1362,9 @@
 					<UnitConstant>
 						<name>G493_RefreshCD</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACMQg==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQg==</compiledString>
 							<returnType>float</returnType>
-							<sString>70</sString>
+							<sString>50</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -1485,6 +1379,26 @@
 					</UnitConstant>
 				</Item>
 				<Item href="/Items/Talents/TalentKits/RedSet2_3_Denai/const_G493_CD_Reduction" />
+				<Item href="/Items/Talents/Level2/G492_DMG.TALENT" id="D19A8831-B853-42EF-955A-C1D54C96DD62">
+					<UnitConstant>
+						<name>G494_New_Dmg</name>
+						<var>
+							<compiledString>FQwAAAADAAAAEwAAACkAAABDAAAARzQ5NF9BY3RpdmUAVYvsg+wMaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1mAAAA3+D2xEF1GItNCIsRi00Ii0IM/9DcDV4AAADdXfjrBdnu3V343UX42V302UX0i+Vdw+xRuB6F67E/AAAAAAAAAAA=</compiledString>
+							<returnType>float</returnType>
+							<sString>sender.vG494_Active &gt; 0 ? 0.07*sMaxLife : 0</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Level2/G492_DMG.TALENT" id="4B993FF9-C742-45FA-9530-748FEB8CF820">
+					<UnitConstant>
+						<name>G494_Cost</name>
+						<var>
+							<compiledString>FS4AAAAEAAAANQAAAEsAAABXAAAAbAAAAEc0OTRfQWN0aXZlAEc0OTJfemVyb2l0ZXJhdGlvbgAARzQ5Ml9yZWFsY29zdABVi+yD7BRoAAAAAItFCIsQi00Ii4KIAQAA/9DcHZ0AAADf4PbEQXU1aAwAAACLTQiLEYtNCIuCiAEAAP/QaCAAAACLTQiLEYtNCIuCiAEAAN1d+P/Q3EX43V3w6wXZ7t1d8N1F8Nld7NlF7IvlXcMAAAAAAAAAAA==</compiledString>
+							<returnType>float</returnType>
+							<sString>sender.vG494_Active &gt; 0 ? (sender.vG492_zeroiteration + sender.vG492_realcost) : 0.0f</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
@@ -1523,7 +1437,7 @@
 			<instantApply>false</instantApply>
 		</DispatchImmediate>
 	</dispatch>
-	<flags>7</flags>
+	<flags>16391</flags>
 	<forceBonus>0</forceBonus>
 	<image href="/UI/Styles/Icons/Talents/_492.ITEX" />
 	<imageSecondState href="" />
@@ -1532,9 +1446,9 @@
 	<isUltimateTalent>false</isUltimateTalent>
 	<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
 	<manaCost>
-		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+		<compiledString>FQoAAAABAAAAFgAAAEc0OTRfQ29zdABVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
 		<returnType>float</returnType>
-		<sString>0</sString>
+		<sString>cG494_Cost</sString>
 	</manaCost>
 	<marker></marker>
 	<microAI href="" />
@@ -1543,7 +1457,320 @@
 	<naftaCost>-1</naftaCost>
 	<name textref="/Items/Talents/Level2/G492_DMG.TALENT_name.txt" />
 	<node></node>
-	<passiveApplicators />
+	<passiveApplicators>
+		<Item href="/Items/Talents/Level2/G492_DMG.TALENT" id="1943F81D-A3E8-452B-90B5-A1DFD2B9F07B">
+			<TriggerApplicator>
+				<actionsCount>
+					<compiledString>FQAAAAAAAAAAVYvsuAEAAABdww==</compiledString>
+					<returnType>int</returnType>
+					<sString>1</sString>
+				</actionsCount>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>152</behaviorFlags>
+				<caption>корректировОЧКАноль</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FUAAAAAIAAAARQAAAFsAAABnAAAAfQAAAIkAAACfAAAAqwAAAMEAAABDaGlja1Jlc1N0YXJ0ZWQARHJhZ29uUmVzU3RhcnRlZAAAAABWYW1wUmVzU3RhcnRlZAAARzQ5NF9BY3RpdmUAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0Nwd4wAAAN/g9sREem9oEAAAAItNCIsRi00Ii4KIAQAA/9DcHeMAAADf4PbERHpNaCQAAACLTQiLEYtNCIuCiAEAAP/Q3B3jAAAA3+D2xER6K2g0AAAAi00IixGLTQiLgogBAAD/0Nwd4wAAAN/g9sRBdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAAA</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vChickResStarted == 0 &amp;&amp; sender.vDragonResStarted == 0 &amp;&amp; sender.vVampResStarted == 0 &amp;&amp; sender.vG494_Active &gt; 0</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<playAck>false</playAck>
+				<processor href="/Items/Talents/Level2/G492_DMG.TALENT" id="F9305F34-CE5E-4E54-99AE-A23A207C6C5E">
+					<EventProcessorCondition>
+						<applyTarget>AbilityOwner</applyTarget>
+						<condition>
+							<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+							<returnType>bool</returnType>
+							<sString>true</sString>
+						</condition>
+						<events>8192</events>
+						<onlyParent>false</onlyParent>
+						<spell href="/Items/Talents/Level2/G492_DMG.TALENT" id="E46317C5-1CA6-4B2D-8376-B9EA6375796F">
+							<Spell>
+								<applicators>
+									<Item href="/Items/Talents/Level2/G492_DMG.TALENT" id="AE3B80A6-D2AA-4FF3-803C-09C4C7970195">
+										<PermanentStatModApplicator>
+											<applyTarget>AbilityOwner</applyTarget>
+											<caption></caption>
+											<customApplyType>None</customApplyType>
+											<enabled>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</enabled>
+											<formulaName></formulaName>
+											<LoggingEvent>-1</LoggingEvent>
+											<modifier>
+												<addValue>
+													<compiledString>FQAAAAACAAAAFQAAADQAAABVi+yD7BCLRQiLEItNCItCDP/Q3A1ZAAAAi00IixGLTQiLgmABAADdXfj/0IlF9NtF9NwNUQAAANno3sHcffjZXfDZRfCL5V3DAAAAAAAA8D8AAAAAK4eWP+xRuB6F67E/</compiledString>
+													<returnType>float</returnType>
+													<sString>0.07*sMaxLife/(1+0.022f*sNaftaLevel)</sString>
+												</addValue>
+												<multValue>
+													<compiledString></compiledString>
+													<returnType>float</returnType>
+													<sString>1.0f</sString>
+												</multValue>
+												<stat>Life</stat>
+												<topModifier>false</topModifier>
+												<variable>G492_zeroiteration</variable>
+											</modifier>
+											<providerName></providerName>
+										</PermanentStatModApplicator>
+									</Item>
+								</applicators>
+								<dispatch href="/Items/Talents/Level2/G492_DMG.TALENT" id="E0703562-0144-4FF8-B190-631766AF1ED1">
+									<DispatchImmediate>
+										<alwaysApply>false</alwaysApply>
+										<applyEffect>
+											<Item href="" />
+											<Item href="" />
+										</applyEffect>
+										<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+										<applyEffectOrientation>Default</applyEffectOrientation>
+										<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+										<dieAfterApply>true</dieAfterApply>
+										<dispatchEffect>
+											<Item href="" />
+											<Item href="" />
+										</dispatchEffect>
+										<flags>0</flags>
+										<instantApply>false</instantApply>
+									</DispatchImmediate>
+								</dispatch>
+							</Spell>
+						</spell>
+					</EventProcessorCondition>
+				</processor>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<useAbilityCooldown>false</useAbilityCooldown>
+				<useAbilityOwnerMana>false</useAbilityOwnerMana>
+			</TriggerApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level2/G492_DMG.TALENT" id="312BB88B-1269-4310-8AE5-2FD4BD56DDF5">
+			<TriggerApplicator>
+				<actionsCount>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</actionsCount>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>152</behaviorFlags>
+				<caption>корректировОЧКАодин</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FT8AAAAKAAAARgAAAFwAAABsAAAAggAAAJIAAACoAAAAtAAAAMoAAAD0AAAA+gAAAEc0OTRfQWN0aXZlAENoaWNrUmVzU3RhcnRlZABEcmFnb25SZXNTdGFydGVkAAAAAFZhbXBSZXNTdGFydGVkAFWL7IPsDGgAAAAAi0UIixCLTQiLgogBAAD/0NwdLwEAAN/g9sRBD4WmAAAAaAwAAACLTQiLEYtNCIuCiAEAAP/Q3B0vAQAA3+D2xEQPioAAAABoHAAAAItNCIsRi00Ii4KIAQAA/9DcHS8BAADf4PbERHpeaDAAAACLTQiLEYtNCIuCiAEAAP/Q3B0vAQAA3+D2xER6PItNEIsRi00Qi0IY/9CLTQiLEYtNCItCDN1d+P/Q3A0nAQAA3AUfAQAA3F343+D2xAV6CcdF9AEAAADrB8dF9AAAAACKRfSL5V3DAAAAAAAAAEDsUbgeheuxPwAAAAAAAAAA</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vG494_Active &gt; 0 &amp;&amp; sender.vChickResStarted == 0 &amp;&amp; sender.vDragonResStarted == 0 &amp;&amp; sender.vVampResStarted == 0 &amp;&amp; mManaCost &gt; 0.07*sMaxLife+2</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<playAck>false</playAck>
+				<processor href="/Items/Talents/Level2/G492_DMG.TALENT" id="CB6168F7-2CC0-44ED-A80C-A5BFA43BDCCA">
+					<EventProcessorCondition>
+						<applyTarget>AbilityOwner</applyTarget>
+						<condition>
+							<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+							<returnType>bool</returnType>
+							<sString>true</sString>
+						</condition>
+						<events>8192</events>
+						<onlyParent>false</onlyParent>
+						<spell href="/Items/Talents/Level2/G492_DMG.TALENT" id="774AE0FE-00FE-447F-BC5B-DD629BFD298B">
+							<Spell>
+								<applicators>
+									<Item href="/Items/Talents/Level2/G492_DMG.TALENT" id="AB0638EB-0211-4500-95FB-6ABFD8842AF7">
+										<PermanentStatModApplicator>
+											<applyTarget>AbilityOwner</applyTarget>
+											<caption></caption>
+											<customApplyType>None</customApplyType>
+											<enabled>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</enabled>
+											<formulaName></formulaName>
+											<LoggingEvent>-1</LoggingEvent>
+											<modifier>
+												<addValue>
+													<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAvw==</compiledString>
+													<returnType>float</returnType>
+													<sString>-1.0f</sString>
+												</addValue>
+												<multValue>
+													<compiledString></compiledString>
+													<returnType>float</returnType>
+													<sString>1.0f</sString>
+												</multValue>
+												<stat>Life</stat>
+												<topModifier>false</topModifier>
+												<variable>G492_realcost</variable>
+											</modifier>
+											<providerName></providerName>
+										</PermanentStatModApplicator>
+									</Item>
+								</applicators>
+								<dispatch href="/Items/Talents/Level2/G492_DMG.TALENT" id="0D59D007-0A93-4F2E-B5C6-9028D3A8D09E">
+									<DispatchImmediate>
+										<alwaysApply>false</alwaysApply>
+										<applyEffect>
+											<Item href="" />
+											<Item href="" />
+										</applyEffect>
+										<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+										<applyEffectOrientation>Default</applyEffectOrientation>
+										<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+										<dieAfterApply>true</dieAfterApply>
+										<dispatchEffect>
+											<Item href="" />
+											<Item href="" />
+										</dispatchEffect>
+										<flags>0</flags>
+										<instantApply>false</instantApply>
+									</DispatchImmediate>
+								</dispatch>
+							</Spell>
+						</spell>
+					</EventProcessorCondition>
+				</processor>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<useAbilityCooldown>false</useAbilityCooldown>
+				<useAbilityOwnerMana>false</useAbilityOwnerMana>
+			</TriggerApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level2/G492_DMG.TALENT" id="BE6EC621-9F8C-4183-A12C-92210A244C72">
+			<TriggerApplicator>
+				<actionsCount>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</actionsCount>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>152</behaviorFlags>
+				<caption>корректировОЧКАдва</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FT8AAAAKAAAARgAAAFwAAABsAAAAggAAAJIAAACoAAAAtAAAAMoAAAD0AAAA+gAAAEc0OTRfQWN0aXZlAENoaWNrUmVzU3RhcnRlZABEcmFnb25SZXNTdGFydGVkAAAAAFZhbXBSZXNTdGFydGVkAFWL7IPsDGgAAAAAi0UIixCLTQiLgogBAAD/0NwdLwEAAN/g9sRBD4WmAAAAaAwAAACLTQiLEYtNCIuCiAEAAP/Q3B0vAQAA3+D2xEQPioAAAABoHAAAAItNCIsRi00Ii4KIAQAA/9DcHS8BAADf4PbERHpeaDAAAACLTQiLEYtNCIuCiAEAAP/Q3B0vAQAA3+D2xER6PItNEIsRi00Qi0IY/9CLTQiLEYtNCItCDN1d+P/Q3A0nAQAA3CUfAQAA3F343+D2xEF1CcdF9AEAAADrB8dF9AAAAACKRfSL5V3DAAAAAAAAAEDsUbgeheuxPwAAAAAAAAAA</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vG494_Active &gt; 0 &amp;&amp; sender.vChickResStarted == 0 &amp;&amp; sender.vDragonResStarted == 0 &amp;&amp; sender.vVampResStarted == 0 &amp;&amp; mManaCost &lt; 0.07*sMaxLife-2</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<playAck>false</playAck>
+				<processor href="/Items/Talents/Level2/G492_DMG.TALENT" id="4A7FC47C-B87F-4370-89F4-4B103108FF13">
+					<EventProcessorCondition>
+						<applyTarget>AbilityOwner</applyTarget>
+						<condition>
+							<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+							<returnType>bool</returnType>
+							<sString>true</sString>
+						</condition>
+						<events>8192</events>
+						<onlyParent>false</onlyParent>
+						<spell href="/Items/Talents/Level2/G492_DMG.TALENT" id="6EF65818-C0E0-47B0-8155-0D888BA860E0">
+							<Spell>
+								<applicators>
+									<Item href="/Items/Talents/Level2/G492_DMG.TALENT" id="1FCCAD42-1114-4AD8-8540-F724C7BF54A5">
+										<PermanentStatModApplicator>
+											<applyTarget>AbilityOwner</applyTarget>
+											<caption></caption>
+											<customApplyType>None</customApplyType>
+											<enabled>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</enabled>
+											<formulaName></formulaName>
+											<LoggingEvent>-1</LoggingEvent>
+											<modifier>
+												<addValue>
+													<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+													<returnType>float</returnType>
+													<sString>1.0f</sString>
+												</addValue>
+												<multValue>
+													<compiledString></compiledString>
+													<returnType>float</returnType>
+													<sString>1.0f</sString>
+												</multValue>
+												<stat>Life</stat>
+												<topModifier>false</topModifier>
+												<variable>G492_realcost</variable>
+											</modifier>
+											<providerName></providerName>
+										</PermanentStatModApplicator>
+									</Item>
+								</applicators>
+								<dispatch href="/Items/Talents/Level2/G492_DMG.TALENT" id="05A27D12-E292-4C27-B856-7973101390F0">
+									<DispatchImmediate>
+										<alwaysApply>false</alwaysApply>
+										<applyEffect>
+											<Item href="" />
+											<Item href="" />
+										</applyEffect>
+										<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+										<applyEffectOrientation>Default</applyEffectOrientation>
+										<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+										<dieAfterApply>true</dieAfterApply>
+										<dispatchEffect>
+											<Item href="" />
+											<Item href="" />
+										</dispatchEffect>
+										<flags>0</flags>
+										<instantApply>false</instantApply>
+									</DispatchImmediate>
+								</dispatch>
+							</Spell>
+						</spell>
+					</EventProcessorCondition>
+				</processor>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<useAbilityCooldown>false</useAbilityCooldown>
+				<useAbilityOwnerMana>false</useAbilityOwnerMana>
+			</TriggerApplicator>
+		</Item>
+	</passiveApplicators>
 	<persistentId>G492</persistentId>
 	<prerequisiteTalents />
 	<rarity>outstanding</rarity>

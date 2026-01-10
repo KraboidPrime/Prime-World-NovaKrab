@@ -73,9 +73,9 @@
 					<UnitConstant>
 						<name>Add_Will</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAEEEzMzM/</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACxQw==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(9, 0.7)</sString>
+							<sString>354</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -136,7 +136,7 @@
 		<Item href="/Items/Talents/Level5/G525_Will_StrOrInt.TALENT" id="3475F8AC-049A-4568-BE10-8A5EAC4EE6FB">
 			<PermanentStatModApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>Add_Will</caption>
+				<caption>Add_life</caption>
 				<customApplyType>None</customApplyType>
 				<enabled>
 					<compiledString></compiledString>
@@ -156,7 +156,7 @@
 						<returnType>float</returnType>
 						<sString>1.0f</sString>
 					</multValue>
-					<stat>Will</stat>
+					<stat>Life</stat>
 					<topModifier>false</topModifier>
 					<variable></variable>
 				</modifier>

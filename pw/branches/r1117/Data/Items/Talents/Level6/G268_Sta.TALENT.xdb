@@ -6,6 +6,7 @@
 	<BackLink DBID="/Test/Talents/TestSet5.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/RerollShop/TalentsList_Rar3_Pop" Count="1" />
 	<BackLink DBID="/Social/TalentsCollection" Count="2" />
+	<BackLink DBID="/GameLogic/AILogic.AILP" Count="2" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -28,7 +29,7 @@
 	<askId>0</askId>
 	<autoTargetSelector href="" />
 	<budget>-1</budget>
-	<caption>G268: Устойчивость</caption>
+	<caption>G268: Холодная плазма</caption>
 	<castAllowRange>
 		<compiledString></compiledString>
 		<returnType>float</returnType>
@@ -40,22 +41,7 @@
 	<compiledDescriptionB textref="" />
 	<conditionFormulas />
 	<conflictingTalents />
-	<constants href="/Items/Talents/Level6/G268_Sta.TALENT" id="955EE421-0162-42CD-AE13-43CB4CA69BB8">
-		<UnitConstantsContainer>
-			<vars>
-				<Item href="/Items/Talents/Level6/G268_Sta.TALENT" id="E8941012-7005-4C3C-90BE-F496EB7D6641">
-					<UnitConstant>
-						<name>Add_Stamina</name>
-						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAmEEzM7M/</compiledString>
-							<returnType>float</returnType>
-							<sString>refineScale(19, 1.4)</sString>
-						</var>
-					</UnitConstant>
-				</Item>
-			</vars>
-		</UnitConstantsContainer>
-	</constants>
+	<constants href="" />
 	<consumptionBonus>
 		<constant>0</constant>
 		<percent>0</percent>
@@ -75,7 +61,7 @@
 	<dispatch href="" />
 	<flags>1</flags>
 	<forceBonus>33</forceBonus>
-	<image href="/UI/Styles/Icons/Talents/_268.ITEX" />
+	<image href="/UI/Styles/Icons/Talents/2025_268.ITEX" />
 	<imageSecondState href="" />
 	<isGenderTalent>false</isGenderTalent>
 	<isTakenOnStart>false</isTakenOnStart>
@@ -94,10 +80,10 @@
 	<name textref="/Items/Talents/Level6/G268_Sta.TALENT_name.txt" />
 	<node></node>
 	<passiveApplicators>
-		<Item href="/Items/Talents/Level6/G268_Sta.TALENT" id="23B7B645-B2AA-4A6F-A239-DA352915D827">
+		<Item href="/Items/Talents/Level6/G268_Sta.TALENT" id="2D260821-C998-4C06-BF2C-D6C169EF6F05">
 			<PermanentStatModApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>Add_Stamina</caption>
+				<caption>хп</caption>
 				<customApplyType>None</customApplyType>
 				<enabled>
 					<compiledString></compiledString>
@@ -108,18 +94,108 @@
 				<LoggingEvent>-1</LoggingEvent>
 				<modifier>
 					<addValue>
-						<compiledString>FQwAAAABAAAAGAAAAEFkZF9TdGFtaW5hAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAClQw==</compiledString>
 						<returnType>float</returnType>
-						<sString>cAdd_Stamina</sString>
+						<sString>330</sString>
 					</addValue>
 					<multValue>
 						<compiledString></compiledString>
 						<returnType>float</returnType>
 						<sString>1.0f</sString>
 					</multValue>
-					<stat>Stamina</stat>
+					<stat>Life</stat>
 					<topModifier>false</topModifier>
 					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level6/G268_Sta.TALENT" id="C16120F4-82BC-4613-95CB-5B39984D44F9">
+			<PermanentStatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>int</caption>
+				<customApplyType>None</customApplyType>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgrwAAAD/0ItNCIsRi00Ii4K4AAAA3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sBaseIntellect &gt;= sBaseStrength</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADAQQ==</compiledString>
+						<returnType>float</returnType>
+						<sString>24</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Intellect</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level6/G268_Sta.TALENT" id="4F4D7118-1440-4228-849B-8BF7CCD04936">
+			<PermanentStatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>str</caption>
+				<customApplyType>None</customApplyType>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgrwAAAD/0ItNCIsRi00Ii4K4AAAA3V34/9DcXfjf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sBaseIntellect &lt; sBaseStrength</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADAQQ==</compiledString>
+						<returnType>float</returnType>
+						<sString>24</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Strength</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level6/G268_Sta.TALENT" id="B80B7CDA-CCCD-4B0B-AB69-76FC2EB2252F">
+			<PermanentStatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>dark</caption>
+				<customApplyType>None</customApplyType>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQQ==</compiledString>
+						<returnType>float</returnType>
+						<sString>30.0f</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Life</stat>
+					<topModifier>false</topModifier>
+					<variable>G129dark</variable>
 				</modifier>
 				<providerName></providerName>
 			</PermanentStatModApplicator>
@@ -127,9 +203,9 @@
 	</passiveApplicators>
 	<persistentId>G268</persistentId>
 	<prerequisiteTalents />
-	<rarity>excellent</rarity>
+	<rarity>outstanding</rarity>
 	<requireLineOfSight>true</requireLineOfSight>
-	<shortDescription textref="/Items/Talents/Level6/G268_Sta.TALENT_shortDescription.txt" />
+	<shortDescription textref="" />
 	<talentRollGroups>63</talentRollGroups>
 	<talentStats>
 		<Item>

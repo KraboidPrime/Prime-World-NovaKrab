@@ -37,7 +37,6 @@
 	<BackLink DBID="/Heroes/DefaultStatus/_POISON.APLR" Count="1" />
 	<BackLink DBID="/Heroes/DefaultStatus/_ROOT_Status.APLR" Count="1" />
 	<BackLink DBID="/Heroes/DefaultStatus/_ROOT_Tech_Status.APLR" Count="1" />
-	<BackLink DBID="/Heroes/DefaultStatus/_SILENCE_Status.APLR" Count="1" />
 	<BackLink DBID="/Heroes/DefaultStatus/_SLOW_ALL_status.APLR" Count="1" />
 	<BackLink DBID="/Heroes/DefaultStatus/_SLOW_MOVE_TOP.APLR" Count="1" />
 	<BackLink DBID="/Heroes/DefaultStatus/_STUN_Status.APLR" Count="1" />
@@ -101,6 +100,9 @@
 	<BackLink DBID="/Maps/PvE/Series/Coop1/Buildings/Road.FLAG" Count="1" />
 	<BackLink DBID="/Summons/EvilTree/_.SUMMONED" Count="1" />
 	<BackLink DBID="/Summons/Spear/_Mowgli.SUMMONED" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A0.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A4_2.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A4_1.TALENT" Count="1" />
 	<signRecipients>PLAYER_ONLY</signRecipients>
 	<UISigns>
 		<Item href="/UI/Events/CommonEvents/EventCustomFlyoff.UIEV" id="8BB942C3-4CCD-4302-A121-C182BF75F144">

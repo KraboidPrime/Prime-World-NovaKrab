@@ -292,6 +292,7 @@
 	<BackLink DBID="/Test/Talents/Witcher/Duel_Str.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Witcher/Elite_Int.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Witcher/Elite_Str.TALENTSET" Count="1" />
+	<BackLink DBID="/Test/Talents/Assassin/New_SUP.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -324,7 +325,28 @@
 	<commonDescription textref="" />
 	<compiledDescriptionA textref="" />
 	<compiledDescriptionB textref="" />
-	<conditionFormulas />
+	<conditionFormulas>
+		<Item href="/Items/Talents/Level2/G028_MoneyPerTime.TALENT" id="21DC57A3-77B4-4607-8A00-3D6F464E865C">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRcAAAACAAAAHAAAADIAAABTZWMyMDI1X1Rvb2x0aXBDb3VudGVyAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHVQAAADf4PbEAXUJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAIQA==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vSec2025_TooltipCounter &gt;= 3</sString>
+				</condition>
+				<name>Bonus3ActiveSe</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Items/Talents/Level2/G028_MoneyPerTime.TALENT" id="AA42DD22-59A6-45D2-B46A-7C3DC88A40DF">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRcAAAACAAAAHAAAADIAAABTZWMyMDI1X1Rvb2x0aXBDb3VudGVyAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHVQAAADf4PbEAXUJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAcQA==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vSec2025_TooltipCounter &gt;= 7</sString>
+				</condition>
+				<name>Bonus7ActiveSe</name>
+			</ConditionFormula>
+		</Item>
+	</conditionFormulas>
 	<conflictingTalents />
 	<constants href="/Items/Talents/Level2/G028_MoneyPerTime.TALENT" id="56F4AC6B-E04C-4436-A3EB-ECD57FA964EE">
 		<UnitConstantsContainer>
@@ -333,9 +355,9 @@
 					<UnitConstant>
 						<name>PrimeAmount</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAQA==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
 							<returnType>float</returnType>
-							<sString>4</sString>
+							<sString>2</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -343,9 +365,9 @@
 					<UnitConstant>
 						<name>PrimeCap</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAB6RA==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAEAcRg==</compiledString>
 							<returnType>float</returnType>
-							<sString>1000</sString>
+							<sString>10000</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -376,6 +398,16 @@
 							<compiledString>FQsAAAADAAAAFAAAAB4AAAA7AAAATGlmZUJ1ZGdldABVi+yD7AxR2QVgAAAA2RwkUdkFXAAAANkcJItFEIsQi00Qi0Js/9CLTQxRi1UIUmgAAAAAi0UQixCLTRCLQlDdXfj/0NxN+Nld9NlF9IvlXcMAAABAj8L1Pg==</compiledString>
 							<returnType>float</returnType>
 							<sString>refineScale(2,0.48)*cLifeBudget</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Level2/G028_MoneyPerTime.TALENT" id="67F950F9-2584-4C71-AF83-E11F76894054">
+					<UnitConstant>
+						<name>G028_curprime</name>
+						<var>
+							<compiledString>FQ0AAAABAAAAEQAAAEcwMjhfY291bnRlcgBVi+xoAAAAAItFCIsQi00Ii4KIAQAA/9Bdww==</compiledString>
+							<returnType>float</returnType>
+							<sString>sender.vG028_counter</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -471,6 +503,36 @@
 									<providerName></providerName>
 								</AddNaftaApplicator>
 							</Item>
+							<Item href="/Items/Talents/Level2/G028_MoneyPerTime.TALENT" id="17D73EB7-5045-494D-984F-6C4361A7F586">
+								<PermanentStatModApplicator>
+									<applyTarget>ApplicatorTarget</applyTarget>
+									<caption></caption>
+									<customApplyType>None</customApplyType>
+									<enabled>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<LoggingEvent>-1</LoggingEvent>
+									<modifier>
+										<addValue>
+											<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
+											<returnType>float</returnType>
+											<sString>2.0f</sString>
+										</addValue>
+										<multValue>
+											<compiledString></compiledString>
+											<returnType>float</returnType>
+											<sString>1.0f</sString>
+										</multValue>
+										<stat>Life</stat>
+										<topModifier>false</topModifier>
+										<variable>G028_counter</variable>
+									</modifier>
+									<providerName></providerName>
+								</PermanentStatModApplicator>
+							</Item>
 						</applicators>
 						<dispatch href="/Items/Talents/Level2/G028_MoneyPerTime.TALENT" id="0D3F5F36-A0C5-4B01-9CD6-76A243F58890">
 							<DispatchImmediate>
@@ -536,6 +598,7 @@
 				<providerName></providerName>
 			</PermanentStatModApplicator>
 		</Item>
+		<Item href="/Items/Talents/Level3/SecondPinkSet_Prog2025.APLR" />
 	</passiveApplicators>
 	<persistentId>G028</persistentId>
 	<prerequisiteTalents />

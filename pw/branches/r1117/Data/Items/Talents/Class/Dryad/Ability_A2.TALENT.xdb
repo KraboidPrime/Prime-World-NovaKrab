@@ -729,7 +729,7 @@
 	<shortDescription textref="/Items/Talents/Class/Dryad/Ability_A2.TALENT_shortDescription.txt" />
 	<talentRollGroups>63</talentRollGroups>
 	<talentStats />
-	<targetType>16777216</targetType>
+	<targetType>2031879171</targetType>
 	<type>Active</type>
 	<upgradeLevel>0</upgradeLevel>
 	<useRange>

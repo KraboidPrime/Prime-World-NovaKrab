@@ -27,8 +27,9 @@
 	<BackLink DBID="/Test/Talents/TST_6_6_BlindOscar.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/TST_7_2_Pirates.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/RedSet7_11.TALENTSET" Count="1" />
+	<BackLink DBID="/GameLogic/AILogic.AILP" Count="2" />
 	<activationConditions />
-	<activeCustomTrigger>true</activeCustomTrigger>
+	<activeCustomTrigger>false</activeCustomTrigger>
 	<allowChase>
 		<compiledString></compiledString>
 		<returnType>bool</returnType>
@@ -45,52 +46,408 @@
 		<sString>0.0f</sString>
 	</aoeSize>
 	<aoeType>None</aoeType>
-	<applicators />
+	<applicators>
+		<Item href="/Items/Talents/Level2/G021_Life-Str-Int.TALENT" id="A6A23816-98D0-41E2-9D36-4513C5F75C07">
+			<SpellSwitchApplicator>
+				<activeSpellIndex>
+					<compiledString>FQgAAAACAAAADQAAACMAAABTd2lHMDIxAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHUUAAADf4PbERHoJx0X8AAAAAOsHx0X8AQAAAItF/IvlXcMAAAAAAADwPw==</compiledString>
+					<returnType>int</returnType>
+					<sString>sender.vSwiG021 == 1.0f ? 0 : 1</sString>
+				</activeSpellIndex>
+				<applyTarget>AbilityOwner</applyTarget>
+				<caption></caption>
+				<dontUseDispatches>true</dontUseDispatches>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<spells>
+					<Item href="/Items/Talents/Level2/G021_Life-Str-Int.TALENT" id="97BB6BE5-F90F-4E62-BE36-B6484BFDA56E">
+						<Spell>
+							<applicators>
+								<Item href="/Items/Talents/Level2/G021_Life-Str-Int.TALENT" id="E7D2F86A-DC83-4F5F-BAE9-159EFE970426">
+									<PermanentStatModApplicator>
+										<applyTarget>AbilityOwner</applyTarget>
+										<caption>Огонь</caption>
+										<customApplyType>None</customApplyType>
+										<enabled>
+											<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</enabled>
+										<formulaName></formulaName>
+										<LoggingEvent>-1</LoggingEvent>
+										<modifier>
+											<addValue>
+												<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+												<returnType>float</returnType>
+												<sString>0.0f</sString>
+											</addValue>
+											<multValue>
+												<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+												<returnType>float</returnType>
+												<sString>0.0f</sString>
+											</multValue>
+											<stat>Life</stat>
+											<topModifier>true</topModifier>
+											<variable>SwiG021</variable>
+										</modifier>
+										<providerName></providerName>
+									</PermanentStatModApplicator>
+								</Item>
+							</applicators>
+							<dispatch href="" />
+						</Spell>
+					</Item>
+					<Item href="/Items/Talents/Level2/G021_Life-Str-Int.TALENT" id="43B4B170-16A5-4772-B989-1C7B688DCCA5">
+						<Spell>
+							<applicators>
+								<Item href="/Items/Talents/Level2/G021_Life-Str-Int.TALENT" id="B5AB676D-4FA5-4CCF-B272-0101A3674D02">
+									<PermanentStatModApplicator>
+										<applyTarget>AbilityOwner</applyTarget>
+										<caption>Вода</caption>
+										<customApplyType>None</customApplyType>
+										<enabled>
+											<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</enabled>
+										<formulaName></formulaName>
+										<LoggingEvent>-1</LoggingEvent>
+										<modifier>
+											<addValue>
+												<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+												<returnType>float</returnType>
+												<sString>1.0f</sString>
+											</addValue>
+											<multValue>
+												<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+												<returnType>float</returnType>
+												<sString>0.0f</sString>
+											</multValue>
+											<stat>Life</stat>
+											<topModifier>true</topModifier>
+											<variable>SwiG021</variable>
+										</modifier>
+										<providerName></providerName>
+									</PermanentStatModApplicator>
+								</Item>
+							</applicators>
+							<dispatch href="" />
+						</Spell>
+					</Item>
+				</spells>
+			</SpellSwitchApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level2/G021_Life-Str-Int.TALENT" id="DA166F0D-A68D-4582-A9D3-FB6F2E1D7FF0">
+			<StatusApplicator>
+				<applicators>
+					<Item href="/Items/Talents/Level2/G021_Life-Str-Int.TALENT" id="E4C444D1-D127-47DD-B927-951F245B879B">
+						<StatModApplicator>
+							<applyTarget>AbilityOwner</applyTarget>
+							<behaviorFlags>0</behaviorFlags>
+							<caption></caption>
+							<constraint>None</constraint>
+							<dontUpdate>false</dontUpdate>
+							<effect>
+								<Item href="" />
+								<Item href="" />
+							</effect>
+							<enabled>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</enabled>
+							<formulaName></formulaName>
+							<lifeTime>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>-1.0</sString>
+							</lifeTime>
+							<LoggingEvent>-1</LoggingEvent>
+							<modifier>
+								<addValue>
+									<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+									<returnType>float</returnType>
+									<sString>1.0f</sString>
+								</addValue>
+								<multValue>
+									<compiledString></compiledString>
+									<returnType>float</returnType>
+									<sString>1.0f</sString>
+								</multValue>
+								<stat>Life</stat>
+								<topModifier>false</topModifier>
+								<variable>G021_tri</variable>
+							</modifier>
+							<providerName></providerName>
+							<startCondition>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</startCondition>
+							<statModName></statModName>
+						</StatModApplicator>
+					</Item>
+					<Item href="/Items/Talents/Level2/G021_Life-Str-Int.TALENT" id="B4FA4F03-B65F-401A-8FB9-680C600EA36B">
+						<SpellApplicator>
+							<applyTarget>AbilityOwner</applyTarget>
+							<caption></caption>
+							<enabled>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</enabled>
+							<formulaName></formulaName>
+							<LoggingEvent>-1</LoggingEvent>
+							<providerName></providerName>
+							<spell href="/Items/Talents/Level2/G021_Life-Str-Int.TALENT" id="86FFF5F4-79E2-4D38-BF36-E33B91ADF2B0">
+								<Spell>
+									<applicators>
+										<Item href="/Items/Talents/Level2/G021_Life-Str-Int.TALENT" id="50C1D4AA-3D24-42C3-981B-AF22AFD2C1C6">
+											<StatusApplicator>
+												<applicators />
+												<applyTarget>AbilityOwner</applyTarget>
+												<behaviorFlags>216</behaviorFlags>
+												<caption>перезарядка</caption>
+												<customCounter>
+													<compiledString></compiledString>
+													<returnType>int</returnType>
+													<sString>0</sString>
+												</customCounter>
+												<customProgress>
+													<compiledString></compiledString>
+													<returnType>float</returnType>
+													<sString>-1.0</sString>
+												</customProgress>
+												<description textref="/Items/Talents/Level2/G021_Life-Str-Int.TALENT_50c1d4aa3d2442c3981baf22afd2c1c6_description.txt" />
+												<dispellPriority>NonDispellable</dispellPriority>
+												<effect>
+													<Item href="" />
+													<Item href="" />
+												</effect>
+												<enabled>
+													<compiledString>FQkAAAACAAAADgAAACQAAABHMDIxX3RyaQBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1GAAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
+													<returnType>bool</returnType>
+													<sString>sender.vG021_tri == 0.0f</sString>
+												</enabled>
+												<flags>2</flags>
+												<formulaName></formulaName>
+												<image href="/UI/Styles/Icons/Talents/TUE_Abrasive10.ITEX" />
+												<lifeTime>
+													<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQg==</compiledString>
+													<returnType>float</returnType>
+													<sString>40.0f</sString>
+												</lifeTime>
+												<LoggingEvent>-1</LoggingEvent>
+												<name textref="/Items/Talents/Level2/G021_Life-Str-Int.TALENT_50c1d4aa3d2442c3981baf22afd2c1c6_name.txt" />
+												<power>0</power>
+												<providerName></providerName>
+												<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+												<stackCount>0</stackCount>
+												<startCondition>
+													<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+													<returnType>bool</returnType>
+													<sString>true</sString>
+												</startCondition>
+												<statusPosition>0</statusPosition>
+												<stopBehaviour>StopByTime</stopBehaviour>
+												<unstackableWith href="" />
+											</StatusApplicator>
+										</Item>
+										<Item href="/Items/Talents/Level2/G021_Life-Str-Int.TALENT" id="8233782D-3C19-4FDE-BA44-2B7329169E3C">
+											<StatModApplicator>
+												<applyTarget>AbilityOwner</applyTarget>
+												<behaviorFlags>216</behaviorFlags>
+												<caption></caption>
+												<constraint>None</constraint>
+												<dontUpdate>false</dontUpdate>
+												<effect>
+													<Item href="" />
+													<Item href="" />
+												</effect>
+												<enabled>
+													<compiledString></compiledString>
+													<returnType>bool</returnType>
+													<sString>true</sString>
+												</enabled>
+												<formulaName></formulaName>
+												<lifeTime>
+													<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQg==</compiledString>
+													<returnType>float</returnType>
+													<sString>40.0f</sString>
+												</lifeTime>
+												<LoggingEvent>-1</LoggingEvent>
+												<modifier>
+													<addValue>
+														<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+														<returnType>float</returnType>
+														<sString>1.0f</sString>
+													</addValue>
+													<multValue>
+														<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+														<returnType>float</returnType>
+														<sString>0.0f</sString>
+													</multValue>
+													<stat>Life</stat>
+													<topModifier>true</topModifier>
+													<variable>G021_cd</variable>
+												</modifier>
+												<providerName></providerName>
+												<startCondition>
+													<compiledString></compiledString>
+													<returnType>bool</returnType>
+													<sString>true</sString>
+												</startCondition>
+												<statModName></statModName>
+											</StatModApplicator>
+										</Item>
+									</applicators>
+									<dispatch href="/Items/Talents/Level2/G021_Life-Str-Int.TALENT" id="257F0299-0B1E-4CC0-AFC9-B1DE7D701D66">
+										<DispatchImmediate>
+											<alwaysApply>false</alwaysApply>
+											<applyEffect>
+												<Item href="" />
+												<Item href="" />
+											</applyEffect>
+											<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+											<applyEffectOrientation>Default</applyEffectOrientation>
+											<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+											<dieAfterApply>true</dieAfterApply>
+											<dispatchEffect>
+												<Item href="" />
+												<Item href="" />
+											</dispatchEffect>
+											<flags>0</flags>
+											<instantApply>false</instantApply>
+										</DispatchImmediate>
+									</dispatch>
+								</Spell>
+							</spell>
+							<spellTarget>AbilityOwner</spellTarget>
+							<targetSelector href="" />
+						</SpellApplicator>
+					</Item>
+				</applicators>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>Атака и Защита</caption>
+				<customCounter>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</customCounter>
+				<customProgress>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</customProgress>
+				<description textref="/Items/Talents/Level2/G021_Life-Str-Int.TALENT_da166f0da68d4582a9d3fb6f2e1d7ff0_description.txt" />
+				<dispellPriority>High</dispellPriority>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<flags>0</flags>
+				<formulaName></formulaName>
+				<image href="/UI/Styles/Icons/Talents/TUE_Abrasive10.ITEX" />
+				<lifeTime>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADAQA==</compiledString>
+					<returnType>float</returnType>
+					<sString>6.0f</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<name textref="/Items/Talents/Level2/G021_Life-Str-Int.TALENT_da166f0da68d4582a9d3fb6f2e1d7ff0_name.txt" />
+				<power>0</power>
+				<providerName></providerName>
+				<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+				<stackCount>0</stackCount>
+				<startCondition>
+					<compiledString>FTgAAAAJAAAAPwAAAFgAAACGAAAAnwAAAM0AAADmAAAAKwEAADcBAABNAQAARzE0NQAAAABHMTQ1AAAAAEcyODMAAAAARzI4MwAAAABHMjc3AAAAAEcyNzcAAAAARzAyMV9jZABVi+yD7CBoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaAgAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AGgQAAAAi00IixGLTQiLgqgBAAD/0IXAdCpoGAAAAItNCIsRi00Ii4KoAQAA/9CJRfSLTfSLEYtN9ItCBP/QiEXz6wTGRfMAaCAAAACLTQiLEYtNCIuCqAEAAP/QhcB0KmgoAAAAi00IixGLTQiLgqgBAAD/0IlF7ItN7IsRi03si0IE/9CIRevrBMZF6wAPtk37D7ZV8wPKD7ZF6wPIiU3k20Xk3B13AQAA3+D2xEF1K2gwAAAAi00IixGLTQiLgogBAAD/0NwdbwEAAN/g9sREegnHReABAAAA6wfHReAAAAAAikXgi+VdwwAAAAAAAAAAAAAAAAAA+D8=</compiledString>
+					<returnType>bool</returnType>
+					<sString>(tal("G145")+tal("G283")+tal("G277")) &gt; 1.5 &amp;&amp; sender.vG021_cd == 0.0f</sString>
+				</startCondition>
+				<statusPosition>0</statusPosition>
+				<stopBehaviour>StopByTime</stopBehaviour>
+				<unstackableWith href="" />
+			</StatusApplicator>
+		</Item>
+	</applicators>
 	<askId>0</askId>
 	<autoTargetSelector href="" />
 	<budget>-1</budget>
-	<caption>G021: Образованность</caption>
+	<caption>G021: Фундаментальный абразив</caption>
 	<castAllowRange>
 		<compiledString></compiledString>
 		<returnType>float</returnType>
 		<sString>0.0f</sString>
 	</castAllowRange>
 	<castLimitations />
-	<commonDescription textref="" />
+	<commonDescription textref="/Items/Talents/Level2/G021_Life-Str-Int.TALENT_commonDescription.txt" />
 	<compiledDescriptionA textref="" />
 	<compiledDescriptionB textref="" />
-	<conditionFormulas />
+	<conditionFormulas>
+		<Item href="/Items/Talents/Level2/G021_Life-Str-Int.TALENT" id="E9B17835-DCB8-49C7-96D7-9920A603AC28">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FQgAAAACAAAADQAAACMAAABTd2lHMDIxAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHUUAAADf4PbERHoJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAAAA==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vSwiG021 == 0.0f</sString>
+				</condition>
+				<name>G021def</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Items/Talents/Level2/G021_Life-Str-Int.TALENT" id="5469113F-494D-4EAC-AA93-7EB8596D5CB8">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FQgAAAACAAAADQAAACMAAABTd2lHMDIxAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHUUAAADf4PbERHoJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAADwPw==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vSwiG021 == 1.0f</sString>
+				</condition>
+				<name>G021dmg</name>
+			</ConditionFormula>
+		</Item>
+	</conditionFormulas>
 	<conflictingTalents />
 	<constants href="/Items/Talents/Level2/G021_Life-Str-Int.TALENT" id="00503992-596F-414C-A7B4-F01C01BF7F9A">
 		<UnitConstantsContainer>
 			<vars>
 				<Item href="/Items/Talents/Level2/G021_Life-Str-Int.TALENT" id="72A84AAC-830A-45F4-9778-AA0E685D6BE7">
 					<UnitConstant>
-						<name>Add_Strength</name>
+						<name>Add_Stat</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9Bdw83MzD/NzMw9</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(1.6, 0.1)</sString>
+							<sString>10</sString>
 						</var>
 					</UnitConstant>
 				</Item>
-				<Item href="/Items/Talents/Level2/G021_Life-Str-Int.TALENT" id="FF69B563-66A3-4485-BDA6-83C05BA66440">
+				<Item href="/Items/Talents/Level2/G021_Life-Str-Int.TALENT" id="9B5B5949-4FB8-403F-BBEB-72F06A2F4344">
 					<UnitConstant>
-						<name>Add_Intellect</name>
+						<name>Buff</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9Bdw83MzD/NzMw9</compiledString>
+							<compiledString>FTkAAAAIAAAAQAAAAFkAAACHAAAAoAAAAM4AAADnAAAALQEAAEYBAABHMTQ1AAAAAEcxNDUAAAAARzI4MwAAAABHMjgzAAAAAEcyNzcAAAAARzI3NwAAAABHMDIxX3RyaQBVi+yD7ChoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaAgAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AGgQAAAAi00IixGLTQiLgqgBAAD/0IXAdCpoGAAAAItNCIsRi00Ii4KoAQAA/9CJRfSLTfSLEYtN9ItCBP/QiEXz6wTGRfMAaCAAAACLTQiLEYtNCIuCqAEAAP/QhcB0KmgoAAAAi00IixGLTQiLgqgBAAD/0IlF7ItN7IsRi03si0IE/9CIRevrBMZF6wAPtk37D7ZV841EEQcPtk3rA8GJReTbReRoMAAAAItVCIsCi00Ii5CIAQAA3V3c/9LcDVcBAADcRdzZXdjZRdiL5V3DAAAAAAAAFEA=</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(1.6, 0.1)</sString>
+							<sString>7+tal("G145")+tal("G283")+tal("G277") + 5*sender.vG021_tri</sString>
 						</var>
 					</UnitConstant>
 				</Item>
-				<Item href="/Items/Talents/Level2/G021_Life-Str-Int.TALENT" id="907D9800-AB30-469C-847B-241BAFB7CE8F">
+				<Item href="/Items/Talents/Level2/G021_Life-Str-Int.TALENT" id="924A239F-4A48-43BD-A0E3-867D2B8AEA73">
 					<UnitConstant>
-						<name>Add_Life</name>
+						<name>Debuff</name>
 						<var>
-							<compiledString>FQsAAAADAAAAFAAAAB4AAAA7AAAATGlmZUJ1ZGdldABVi+yD7AxR2QVgAAAA2RwkUdkFXAAAANkcJItFEIsQi00Qi0Js/9CLTQxRi1UIUmgAAAAAi0UQixCLTRCLQlDdXfj/0NxN+Nld9NlF9IvlXcMAAABACtcjPg==</compiledString>
+							<compiledString>FS0AAAAGAAAANAAAAE0AAAB7AAAAlAAAAMIAAADbAAAARzE0NQAAAABHMTQ1AAAAAEcyODMAAAAARzI4MwAAAABHMjc3AAAAAEcyNzcAVYvsg+wcaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgIAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wBoEAAAAItNCIsRi00Ii4KoAQAA/9CFwHQqaBgAAACLTQiLEYtNCIuCqAEAAP/QiUX0i030ixGLTfSLQgT/0IhF8+sExkXzAGggAAAAi00IixGLTQiLgqgBAAD/0IXAdCpoKAAAAItNCIsRi00Ii4KoAQAA/9CJReyLTeyLEYtN7ItCBP/QiEXr6wTGResAD7ZN+7oNAAAAK9EPtkXzK9APtk3rK9GJVeTbReSL5V3D</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(2,0.16)*cLifeBudget</sString>
+							<sString>13-tal("G145")-tal("G283")-tal("G277")</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -102,9 +459,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
 		<returnType>float</returnType>
-		<sString>0</sString>
+		<sString>5</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>
@@ -113,10 +470,28 @@
 	</cooldownTimeSecondState>
 	<description textref="/Items/Talents/Level2/G021_Life-Str-Int.TALENT_description.txt" />
 	<devPoints>1</devPoints>
-	<dispatch href="" />
-	<flags>1</flags>
+	<dispatch href="/Items/Talents/Level2/G021_Life-Str-Int.TALENT" id="69804658-3FE9-4C7A-ABC7-30E41A256BD2">
+		<DispatchImmediate>
+			<alwaysApply>false</alwaysApply>
+			<applyEffect>
+				<Item href="" />
+				<Item href="" />
+			</applyEffect>
+			<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+			<applyEffectOrientation>Default</applyEffectOrientation>
+			<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+			<dieAfterApply>true</dieAfterApply>
+			<dispatchEffect>
+				<Item href="" />
+				<Item href="" />
+			</dispatchEffect>
+			<flags>0</flags>
+			<instantApply>true</instantApply>
+		</DispatchImmediate>
+	</dispatch>
+	<flags>18</flags>
 	<forceBonus>9</forceBonus>
-	<image href="/UI/Styles/Icons/Talents/_021.ITEX" />
+	<image href="/UI/Styles/Icons/Talents/TUE_Abrasive7.ITEX" />
 	<imageSecondState href="" />
 	<isGenderTalent>false</isGenderTalent>
 	<isTakenOnStart>false</isTakenOnStart>
@@ -135,23 +510,23 @@
 	<name textref="/Items/Talents/Level2/G021_Life-Str-Int.TALENT_name.txt" />
 	<node></node>
 	<passiveApplicators>
-		<Item href="/Items/Talents/Level2/G021_Life-Str-Int.TALENT" id="B37B89F5-A918-4DAA-8B3F-046EA366CF8E">
+		<Item href="/Items/Talents/Level2/G021_Life-Str-Int.TALENT" id="7D503D75-F663-41CC-95A9-2A2A9CB07AD2">
 			<PermanentStatModApplicator>
-				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>Add_Strength</caption>
-				<customApplyType>None</customApplyType>
+				<applyTarget>AbilityOwner</applyTarget>
+				<caption>Strength</caption>
+				<customApplyType>Maximize</customApplyType>
 				<enabled>
-					<compiledString></compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgrgAAAD/0ItNCIsRi00Ii4LMAAAA3V34/9BR2Rwki00IixGLTQiLgsgAAAD/0FHZHCToQwAAAIPEBNkcJItNCIsRi00Ii4K8AAAA/9BR2Rwk6CQAAACDxAjcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcNVi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
 					<returnType>bool</returnType>
-					<sString>true</sString>
+					<sString>sBaseStrength &gt;= max(sBaseIntellect, max(sBaseStamina, sBaseWill))</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<LoggingEvent>-1</LoggingEvent>
 				<modifier>
 					<addValue>
-						<compiledString>FQ0AAAABAAAAGQAAAEFkZF9TdHJlbmd0aABVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+						<compiledString>FQkAAAABAAAAFQAAAEFkZF9TdGF0AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
 						<returnType>float</returnType>
-						<sString>cAdd_Strength</sString>
+						<sString>cAdd_Stat</sString>
 					</addValue>
 					<multValue>
 						<compiledString></compiledString>
@@ -165,23 +540,23 @@
 				<providerName></providerName>
 			</PermanentStatModApplicator>
 		</Item>
-		<Item href="/Items/Talents/Level2/G021_Life-Str-Int.TALENT" id="0BE81C9C-F2E1-4E77-9E2E-D515DD044F0B">
+		<Item href="/Items/Talents/Level2/G021_Life-Str-Int.TALENT" id="0ECA6145-060F-4811-AD05-F63219EB3EC4">
 			<PermanentStatModApplicator>
-				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>Add_Intellect</caption>
-				<customApplyType>None</customApplyType>
+				<applyTarget>AbilityOwner</applyTarget>
+				<caption>Intellect</caption>
+				<customApplyType>Maximize</customApplyType>
 				<enabled>
-					<compiledString></compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsg+wUi0UIixCLTQiLgrwAAAD/0ItNCIsRi00Ii4K4AAAA3V34/9DcXfjf4PbEBXpWi00IixGLTQiLgrwAAAD/0ItNCIsRi00Ii4LMAAAA3V3w/9BR2Rwki00IixGLTQiLgsgAAAD/0FHZHCToJAAAAIPECNxd8N/g9sRBegnHRewBAAAA6wfHRewAAAAAikXsi+Vdw1WL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
 					<returnType>bool</returnType>
-					<sString>true</sString>
+					<sString>sBaseIntellect &gt; sBaseStrength &amp;&amp; sBaseIntellect &gt;=  max(sBaseStamina, sBaseWill)</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<LoggingEvent>-1</LoggingEvent>
 				<modifier>
 					<addValue>
-						<compiledString>FQ4AAAABAAAAGgAAAEFkZF9JbnRlbGxlY3QAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+						<compiledString>FQkAAAABAAAAFQAAAEFkZF9TdGF0AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
 						<returnType>float</returnType>
-						<sString>cAdd_Intellect</sString>
+						<sString>cAdd_Stat</sString>
 					</addValue>
 					<multValue>
 						<compiledString></compiledString>
@@ -195,40 +570,438 @@
 				<providerName></providerName>
 			</PermanentStatModApplicator>
 		</Item>
-		<Item href="/Items/Talents/Level2/G021_Life-Str-Int.TALENT" id="22E204E1-D308-436F-9979-42D8830B07F3">
+		<Item href="/Items/Talents/Level2/G021_Life-Str-Int.TALENT" id="D7098ECF-84E8-4AFA-8F28-AADF81B65B46">
 			<PermanentStatModApplicator>
-				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>Add_Life</caption>
-				<customApplyType>None</customApplyType>
+				<applyTarget>AbilityOwner</applyTarget>
+				<caption>Stamina</caption>
+				<customApplyType>Maximize</customApplyType>
 				<enabled>
-					<compiledString></compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsg+wUi0UIixCLTQiLgsgAAAD/0ItNCIsRi00Ii4K8AAAA3V34/9BR2Rwki00IixGLTQiLgrgAAAD/0FHZHCToUQAAAIPECNxd+N/g9sQFejaLTQiLEYtNCIuCyAAAAP/Qi00IixGLTQiLgswAAADdXfD/0Nxd8N/g9sRBegnHRewBAAAA6wfHRewAAAAAikXsi+Vdw1WL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
 					<returnType>bool</returnType>
-					<sString>true</sString>
+					<sString>sBaseStamina &gt; max(sBaseStrength, sBaseIntellect) &amp;&amp; sBaseStamina &gt;= sBaseWill</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<LoggingEvent>-1</LoggingEvent>
 				<modifier>
 					<addValue>
-						<compiledString>FQkAAAABAAAAFQAAAEFkZF9MaWZlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+						<compiledString>FQkAAAABAAAAFQAAAEFkZF9TdGF0AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
 						<returnType>float</returnType>
-						<sString>cAdd_Life</sString>
+						<sString>cAdd_Stat</sString>
 					</addValue>
 					<multValue>
 						<compiledString></compiledString>
 						<returnType>float</returnType>
 						<sString>1.0f</sString>
 					</multValue>
-					<stat>Life</stat>
+					<stat>Stamina</stat>
 					<topModifier>false</topModifier>
 					<variable></variable>
 				</modifier>
 				<providerName></providerName>
 			</PermanentStatModApplicator>
 		</Item>
+		<Item href="/Items/Talents/Level2/G021_Life-Str-Int.TALENT" id="7F4D78C9-59CB-40BB-96B4-A7B90483BEEF">
+			<PermanentStatModApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<caption>Will</caption>
+				<customApplyType>Maximize</customApplyType>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgswAAAD/0ItNCIsRi00Ii4LIAAAA3V34/9BR2Rwki00IixGLTQiLgrwAAAD/0FHZHCSLTQiLEYtNCIuCuAAAAP/QUdkcJOgvAAAAg8QE2Rwk6CQAAACDxAjcXfjf4PbEBXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcNVi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
+					<returnType>bool</returnType>
+					<sString>sBaseWill &gt; max(max(sBaseStrength, sBaseIntellect), sBaseStamina)</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQkAAAABAAAAFQAAAEFkZF9TdGF0AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+						<returnType>float</returnType>
+						<sString>cAdd_Stat</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Will</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level2/G021_Life-Str-Int.TALENT" id="D3141325-B0D8-41CF-A462-8E64EF2F1955">
+			<StatusApplicator>
+				<applicators />
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>152</behaviorFlags>
+				<caption>Защита</caption>
+				<customCounter>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</customCounter>
+				<customProgress>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</customProgress>
+				<description textref="/Items/Talents/Level2/G021_Life-Str-Int.TALENT_d3141325b0d841cfa4628e64ef2f1955_description.txt" />
+				<dispellPriority>NonDispellable</dispellPriority>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FREAAAAEAAAAFgAAACwAAAA4AAAATgAAAFN3aUcwMjEARzAyMV90cmkAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdcAAAAN/g9sREeitoCAAAAItNCIsRi00Ii4KIAQAA/9DcHXAAAADf4PbERHoJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAAAA==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vSwiG021 == 0.0f &amp;&amp; sender.vG021_tri == 0.0f</sString>
+				</enabled>
+				<flags>0</flags>
+				<formulaName></formulaName>
+				<image href="/UI/Styles/Icons/Talents/2025_defst.ITEX" />
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<name textref="/Items/Talents/Level2/G021_Life-Str-Int.TALENT_d3141325b0d841cfa4628e64ef2f1955_name.txt" />
+				<power>0</power>
+				<providerName></providerName>
+				<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+				<stackCount>0</stackCount>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statusPosition>0</statusPosition>
+				<stopBehaviour>StopByTime</stopBehaviour>
+				<unstackableWith href="" />
+			</StatusApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level2/G021_Life-Str-Int.TALENT" id="91FADF22-E605-4190-8E68-C3EFDAB0D2BA">
+			<StatusApplicator>
+				<applicators />
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>152</behaviorFlags>
+				<caption>Атака</caption>
+				<customCounter>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</customCounter>
+				<customProgress>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</customProgress>
+				<description textref="/Items/Talents/Level2/G021_Life-Str-Int.TALENT_91fadf22e60541908e68c3efdab0d2ba_description.txt" />
+				<dispellPriority>NonDispellable</dispellPriority>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FREAAAAEAAAAFgAAACwAAAA4AAAATgAAAFN3aUcwMjEARzAyMV90cmkAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdeAAAAN/g9sREeitoCAAAAItNCIsRi00Ii4KIAQAA/9DcHXAAAADf4PbERHoJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAAAAAAAAAAAPA/</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vSwiG021 == 1.0f &amp;&amp; sender.vG021_tri == 0.0f</sString>
+				</enabled>
+				<flags>0</flags>
+				<formulaName></formulaName>
+				<image href="/UI/Styles/Icons/Talents/2025_dmgst.ITEX" />
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<name textref="/Items/Talents/Level2/G021_Life-Str-Int.TALENT_91fadf22e60541908e68c3efdab0d2ba_name.txt" />
+				<power>0</power>
+				<providerName></providerName>
+				<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+				<stackCount>0</stackCount>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statusPosition>0</statusPosition>
+				<stopBehaviour>StopByTime</stopBehaviour>
+				<unstackableWith href="" />
+			</StatusApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level2/G021_Life-Str-Int.TALENT" id="5EA4E3C6-7A83-49CF-98FC-F1B18ACA3D45">
+			<TriggerApplicator>
+				<actionsCount>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</actionsCount>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>модификация урона</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FQkAAAACAAAADgAAACQAAABHMDIxX3RyaQBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1GAAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vG021_tri == 0.0f</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<playAck>false</playAck>
+				<processor href="/Items/Talents/Level2/G021_Life-Str-Int.TALENT" id="DD2AB29D-5687-46ED-8046-6F094FDD30C2">
+					<EventProcessorOutgoingDamage>
+						<abilityFilter>
+							<abilitiesList />
+							<abilityCondition>
+								<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</abilityCondition>
+							<abilityCostMode>Any</abilityCostMode>
+							<exceptThis>false</exceptThis>
+							<flags>1610614015</flags>
+							<onlySingleTarget>false</onlySingleTarget>
+						</abilityFilter>
+						<applyTarget>ApplicatorTarget</applyTarget>
+						<damageTypeFilter>15</damageTypeFilter>
+						<modifiedDamage>
+							<compiledString>FR0AAAAHAAAAJAAAADoAAABOAAAAYwAAAHUAAACIAAAAkAAAAERhbWFnZQAAU3dpRzAyMQBEZWJ1ZmYAAEJ1ZmYAVYvsg+wMaAgAAACLRQiLEItNCIuCiAEAAP/Q3B3CAAAA3+D2xER6J4tNDFGLVQhSaBAAAACLRRCLEItNEItCUP/Q2eDcNboAAADdXfjrI4tNDFGLVQhSaBgAAACLRRCLEItNEItCUP/Q3DW6AAAA3V34aAAAAACLTRCLEYtNEItCVP/Q2ejcRfjeydld9NlF9IvlXcMAAAAAAADwPwAAAAAAAFlAAAAAAAAAAAA=</compiledString>
+							<returnType>float</returnType>
+							<sString>appl.vDamage * (1 + (sender.vSwiG021 == 0.0f ? -cDebuff/100 : cBuff/100) )</sString>
+						</modifiedDamage>
+						<spell href="" />
+					</EventProcessorOutgoingDamage>
+				</processor>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<useAbilityCooldown>false</useAbilityCooldown>
+				<useAbilityOwnerMana>false</useAbilityOwnerMana>
+			</TriggerApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level2/G021_Life-Str-Int.TALENT" id="89F41AC0-C50C-4865-B8E8-B12D6D6FB5CC">
+			<TriggerApplicator>
+				<actionsCount>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</actionsCount>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>снижаем урон</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FQkAAAACAAAADgAAACQAAABHMDIxX3RyaQBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1GAAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vG021_tri == 0.0f</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<playAck>false</playAck>
+				<processor href="/Items/Talents/Level2/G021_Life-Str-Int.TALENT" id="C92B5756-C5C6-4337-AAF8-F36A2989AD3B">
+					<EventProcessorDamageTransformer>
+						<abilityFilter>
+							<abilitiesList />
+							<abilityCondition>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</abilityCondition>
+							<abilityCostMode>Energy</abilityCostMode>
+							<exceptThis>false</exceptThis>
+							<flags>1610614015</flags>
+							<onlySingleTarget>false</onlySingleTarget>
+						</abilityFilter>
+						<add>
+							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>0.0f</sString>
+						</add>
+						<applyTarget>ApplicatorTarget</applyTarget>
+						<checkSender>0</checkSender>
+						<damageTypeFilter>15</damageTypeFilter>
+						<flags>0</flags>
+						<matchTargetInverted>false</matchTargetInverted>
+						<mul>
+							<compiledString>FRcAAAAGAAAAHgAAADQAAABIAAAAWwAAAG0AAACCAAAAU3dpRzAyMQBCdWZmAAAAAERlYnVmZgBVi+yD7AxoAAAAAItFCIsQi00Ii4KIAQAA/9DcHagAAADf4PbERHoli00MUYtVCFJoCAAAAItFEIsQi00Qi0JQ/9DcNaAAAADdXfjrJYtNDFGLVQhSaBAAAACLRRCLEItNEItCUP/Q2eDcNaAAAADdXfjZ6Nxl+Nld9NlF9IvlXcMAAAAAAADwPwAAAAAAAFlAAAAAAAAAAAA=</compiledString>
+							<returnType>float</returnType>
+							<sString>(1 - (sender.vSwiG021 == 0.0f ? cBuff/100 : -cDebuff/100))</sString>
+						</mul>
+						<objectFilter>2040319</objectFilter>
+						<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
+						<spell href="" />
+						<treatDelegatedByDelegator>false</treatDelegatedByDelegator>
+					</EventProcessorDamageTransformer>
+				</processor>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<useAbilityCooldown>false</useAbilityCooldown>
+				<useAbilityOwnerMana>false</useAbilityOwnerMana>
+			</TriggerApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level2/G021_Life-Str-Int.TALENT" id="557BA270-4D29-475C-83B9-5C616F467785">
+			<TriggerApplicator>
+				<actionsCount>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</actionsCount>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>модификация урона фул</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FQkAAAACAAAADgAAACQAAABHMDIxX3RyaQBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1GAAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAA8D8=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vG021_tri == 1.0f</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<playAck>false</playAck>
+				<processor href="/Items/Talents/Level2/G021_Life-Str-Int.TALENT" id="C19E636C-EA6C-4720-9AF6-E96E90F8FAFD">
+					<EventProcessorOutgoingDamage>
+						<abilityFilter>
+							<abilitiesList />
+							<abilityCondition>
+								<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</abilityCondition>
+							<abilityCostMode>Any</abilityCostMode>
+							<exceptThis>false</exceptThis>
+							<flags>1610614015</flags>
+							<onlySingleTarget>false</onlySingleTarget>
+						</abilityFilter>
+						<applyTarget>ApplicatorTarget</applyTarget>
+						<damageTypeFilter>15</damageTypeFilter>
+						<modifiedDamage>
+							<compiledString>FQ0AAAADAAAAFAAAAC4AAABEAAAARGFtYWdlAABCdWZmAFWL7IPsDGgAAAAAi0UQixCLTRCLQlT/0ItNDFGLVQhSaAgAAACLRRCLEItNEItCUN1d+P/Q3DVhAAAA2ejewdxN+Nld9NlF9IvlXcMAAAAAAADwPwAAAAAAAFlA</compiledString>
+							<returnType>float</returnType>
+							<sString>appl.vDamage * (1 + cBuff/100)</sString>
+						</modifiedDamage>
+						<spell href="" />
+					</EventProcessorOutgoingDamage>
+				</processor>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<useAbilityCooldown>false</useAbilityCooldown>
+				<useAbilityOwnerMana>false</useAbilityOwnerMana>
+			</TriggerApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level2/G021_Life-Str-Int.TALENT" id="3399B4E8-91FD-418E-9821-19A86D986270">
+			<TriggerApplicator>
+				<actionsCount>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</actionsCount>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>снижаем урон фул</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FQkAAAACAAAADgAAACQAAABHMDIxX3RyaQBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1GAAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAA8D8=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vG021_tri == 1.0f</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<playAck>false</playAck>
+				<processor href="/Items/Talents/Level2/G021_Life-Str-Int.TALENT" id="33829115-8146-4B9C-B7F5-FC11DBA2EF67">
+					<EventProcessorDamageTransformer>
+						<abilityFilter>
+							<abilitiesList />
+							<abilityCondition>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</abilityCondition>
+							<abilityCostMode>Energy</abilityCostMode>
+							<exceptThis>false</exceptThis>
+							<flags>1610614015</flags>
+							<onlySingleTarget>false</onlySingleTarget>
+						</abilityFilter>
+						<add>
+							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>0.0f</sString>
+						</add>
+						<applyTarget>ApplicatorTarget</applyTarget>
+						<checkSender>0</checkSender>
+						<damageTypeFilter>15</damageTypeFilter>
+						<flags>0</flags>
+						<matchTargetInverted>false</matchTargetInverted>
+						<mul>
+							<compiledString>FQUAAAACAAAAEgAAACUAAABCdWZmAFWL7FGLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0tw1PwAAANno3uHZXfzZRfyL5V3DAAAAAAAA8D8AAAAAAABZQA==</compiledString>
+							<returnType>float</returnType>
+							<sString>(1 - cBuff/100)</sString>
+						</mul>
+						<objectFilter>2040319</objectFilter>
+						<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
+						<spell href="" />
+						<treatDelegatedByDelegator>false</treatDelegatedByDelegator>
+					</EventProcessorDamageTransformer>
+				</processor>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<useAbilityCooldown>false</useAbilityCooldown>
+				<useAbilityOwnerMana>false</useAbilityOwnerMana>
+			</TriggerApplicator>
+		</Item>
 	</passiveApplicators>
 	<persistentId>G021</persistentId>
 	<prerequisiteTalents />
-	<rarity>excellent</rarity>
+	<rarity>outstanding</rarity>
 	<requireLineOfSight>true</requireLineOfSight>
 	<shortDescription textref="/Items/Talents/Level2/G021_Life-Str-Int.TALENT_shortDescription.txt" />
 	<talentRollGroups>0</talentRollGroups>
@@ -267,8 +1040,8 @@
 			</values>
 		</Item>
 	</talentStats>
-	<targetType>2040319</targetType>
-	<type>Simple</type>
+	<targetType>0</targetType>
+	<type>Active</type>
 	<upgradeLevel>0</upgradeLevel>
 	<useRange>
 		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
@@ -278,7 +1051,7 @@
 	<useRangeMaterial href="" />
 	<variativeMaxTalentStats />
 	<variativeMinTalentStats />
-	<vendorCost>-1</vendorCost>
+	<vendorCost>0</vendorCost>
 	<warFogRemoveRadius>0</warFogRemoveRadius>
 	<warFogRemoveTime>0</warFogRemoveTime>
 </Talent>

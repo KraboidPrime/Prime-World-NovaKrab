@@ -15,6 +15,7 @@
 	<BackLink DBID="/Test/Talents/Mage/Elite_Str.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Mage/Epic_Int.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Mage/Epic_Str.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Mage/status_A4_2_DemonForm.APLR" Count="2" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -663,9 +664,9 @@
 	<isUltimateTalent>false</isUltimateTalent>
 	<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
 	<manaCost>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQg==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADcQg==</compiledString>
 		<returnType>float</returnType>
-		<sString>80</sString>
+		<sString>110</sString>
 	</manaCost>
 	<marker></marker>
 	<microAI href="/Items/Talents/Class/Mage/Ability3.TALENT" id="BB57F62B-86BE-4E88-AC19-F43FB9D9FFE8">

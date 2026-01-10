@@ -98,7 +98,7 @@
 	<passiveApplicators />
 	<persistentId>Banshee_A3_SUP</persistentId>
 	<prerequisiteTalents>
-		<Item href="/Items/Talents/Class/Banshee/Ability_A3.TALENT" />
+		<Item href="/Items/Talents/Class/Banshee/Ability_A0.TALENT" />
 	</prerequisiteTalents>
 	<rarity>Class</rarity>
 	<requireLineOfSight>false</requireLineOfSight>

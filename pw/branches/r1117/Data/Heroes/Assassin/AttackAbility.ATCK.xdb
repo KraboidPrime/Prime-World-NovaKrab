@@ -56,10 +56,19 @@
 			<vars>
 				<Item href="/Items/Talents/Class/Assassin/const_Stun_Duration" />
 				<Item href="/Items/Talents/Class/Assassin/const_A3u_Haste_Duration" />
-				<Item href="/Items/Talents/Class/Assassin/const_A3u_Haste_Percent" />
 				<Item href="/Items/Talents/Class/Assassin/const_A3u_Haste_StartCondition" />
 				<Item href="/Items/Talents/Class/Assassin/const_A0_SUP_2_Inc_Resp_Time" />
 				<Item href="/Items/Talents/Class/Assassin/const_A0_SUP_2_Appl_Duration" />
+				<Item href="/Heroes/Assassin/AttackAbility.ATCK" id="6D0B0679-1379-4F8D-A252-46F7426AB4D3">
+					<UnitConstant>
+						<name>Haste_Percent</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQg==</compiledString>
+							<returnType>float</returnType>
+							<sString>60.0f</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
@@ -93,7 +102,7 @@
 			<instantApply>false</instantApply>
 		</DispatchImmediate>
 	</dispatch>
-	<flags>1</flags>
+	<flags>5</flags>
 	<image href="" />
 	<imageSecondState href="" />
 	<isMelee>true</isMelee>

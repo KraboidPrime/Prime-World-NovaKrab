@@ -516,9 +516,9 @@
 					<UnitConstant>
 						<name>Range</name>
 						<var>
-							<compiledString>FRwAAAADAAAAIwAAADkAAABdAAAAUmFuZ2VfTWVkaXVtAAAAAEc0NjVfQWN0aXZlAFWL7IPsCGgQAAAAi0UIixCLTQiLgogBAAD/0NwdewAAAN/g9sRBdQnHRfwDAAAA6wfHRfwAAAAAi00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ/9DaRfzZXfjZRfiL5V3DAAAAAAAAAAA=</compiledString>
+							<compiledString>FRwAAAADAAAAIwAAADkAAABdAAAAUmFuZ2VfTWVkaXVtAAAAAEc0NjVfQWN0aXZlAFWL7IPsCGgQAAAAi0UIixCLTQiLgogBAAD/0NwdewAAAN/g9sRBdQnHRfwJAAAA6wfHRfwAAAAAi00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ/9DaRfzZXfjZRfiL5V3DAAAAAAAAAAA=</compiledString>
 							<returnType>float</returnType>
-							<sString>cRange_Medium + (sender.vG465_Active &gt; 0 ? 3 : 0)</sString>
+							<sString>cRange_Medium + (sender.vG465_Active &gt; 0 ? 9 : 0)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

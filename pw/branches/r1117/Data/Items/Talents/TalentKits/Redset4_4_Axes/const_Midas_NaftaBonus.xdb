@@ -5,8 +5,8 @@
 	<BackLink DBID="/Items/Talents/Level3/G564_AxesInt.TALENT" Count="1" />
 	<name>NaftaBonus</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQg==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQQ==</compiledString>
 		<returnType>float</returnType>
-		<sString>40.0f</sString>
+		<sString>20.0f</sString>
 	</var>
 </UnitConstant>

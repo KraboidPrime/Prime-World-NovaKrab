@@ -6,8 +6,8 @@
 	<BackLink DBID="/Items/Talents/Level4/G750_AtSpd.TALENT" Count="1" />
 	<name>G476_Cooldown</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQg==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAWQw==</compiledString>
 		<returnType>float</returnType>
-		<sString>80</sString>
+		<sString>150</sString>
 	</var>
 </UnitConstant>

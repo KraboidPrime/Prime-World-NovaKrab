@@ -284,9 +284,9 @@
 									<LoggingEvent>-1</LoggingEvent>
 									<providerName></providerName>
 									<startCondition>
-										<compiledString>FS8AAAAEAAAANgAAAE8AAACFAAAAngAAAEZsdWZmeV9BNAAAAEZsdWZmeV9BNAAAAEZsdWZmeV9BNHUAAEZsdWZmeV9BNHUAVYvsg+wUaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgMAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0WGgYAAAAi1UIiwKLTQiLkKgBAAD/0oXAdCpoJAAAAItFCIsQi00Ii4KoAQAA/9CJRfSLTfSLEYtN9ItCBP/QiEXz6wTGRfMAD7ZN84XJdAnHRewBAAAA6wfHRewAAAAAikXsi+Vdww==</compiledString>
+										<compiledString>FYYAAAAKAAAAjQAAAKYAAADcAAAA9QAAAC8BAABIAQAAggEAAJsBAADRAQAA6gEAAEZsdWZmeV9BNAAAAEZsdWZmeV9BNAAAAEZsdWZmeV9BNHUAAEZsdWZmeV9BNHUAAEZsdWZmeV9BNF8yAEZsdWZmeV9BNF8yAEZsdWZmeV9BNF8ydQAAAABGbHVmZnlfQTRfMnUAAAAARmx1ZmZ5X0ExX1NVUAAAAEZsdWZmeV9BMV9TVVAAVYvsg+wsaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgMAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0U2gYAAAAi1UIiwKLTQiLkKgBAAD/0oXAdCpoJAAAAItFCIsQi00Ii4KoAQAA/9CJRfSLTfSLEYtN9ItCBP/QiEXz6wTGRfMAD7ZN84XJD4X6AAAAaDAAAACLVQiLAotNCIuQqAEAAP/ShcB0Kmg8AAAAi0UIixCLTQiLgqgBAAD/0IlF7ItN7IsRi03si0IE/9CIRevrBMZF6wAPtk3rhckPhJ4AAABoSAAAAItVCIsCi00Ii5CoAQAA/9KFwHQqaFgAAACLRQiLEItNCIuCqAEAAP/QiUXki03kixGLTeSLQgT/0IhF4+sExkXjAA+2TeOFyXRPaGgAAACLVQiLAotNCIuQqAEAAP/ShcB0Kmh4AAAAi0UIixCLTQiLgqgBAAD/0IlF3ItN3IsRi03ci0IE/9CIRdvrBMZF2wAPtk3bhcl1CcdF1AAAAADrB8dF1AEAAACKRdSL5V3D</compiledString>
 										<returnType>bool</returnType>
-										<sString>tal("Fluffy_A4") &amp;&amp; tal("Fluffy_A4u")</sString>
+										<sString>(tal("Fluffy_A4") &amp;&amp; tal("Fluffy_A4u")) || (tal("Fluffy_A4_2") &amp;&amp; tal("Fluffy_A4_2u") &amp;&amp; tal("Fluffy_A1_SUP"))</sString>
 									</startCondition>
 									<talents />
 									<useListAs>ListAsRule</useListAs>
@@ -336,9 +336,9 @@
 									<LoggingEvent>-1</LoggingEvent>
 									<providerName></providerName>
 									<startCondition>
-										<compiledString>FTUAAAAEAAAAPAAAAFUAAACLAAAApAAAAEZsdWZmeV9BNF8yAEZsdWZmeV9BNF8yAEZsdWZmeV9BNF8ydQAAAABGbHVmZnlfQTRfMnUAVYvsg+wUaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgMAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0WGgYAAAAi1UIiwKLTQiLkKgBAAD/0oXAdCpoKAAAAItFCIsQi00Ii4KoAQAA/9CJRfSLTfSLEYtN9ItCBP/QiEXz6wTGRfMAD7ZN84XJdAnHRewBAAAA6wfHRewAAAAAikXsi+Vdww==</compiledString>
+										<compiledString>FYYAAAAKAAAAjQAAAKYAAADcAAAA9QAAAC8BAABIAQAAggEAAJsBAADRAQAA6gEAAEZsdWZmeV9BNF8yAEZsdWZmeV9BNF8yAEZsdWZmeV9BNF8ydQAAAABGbHVmZnlfQTRfMnUAAAAARmx1ZmZ5X0E0AAAARmx1ZmZ5X0E0AAAARmx1ZmZ5X0E0dQAARmx1ZmZ5X0E0dQAARmx1ZmZ5X0ExX1NVUAAAAEZsdWZmeV9BMV9TVVAAVYvsg+wsaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgMAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0U2gYAAAAi1UIiwKLTQiLkKgBAAD/0oXAdCpoKAAAAItFCIsQi00Ii4KoAQAA/9CJRfSLTfSLEYtN9ItCBP/QiEXz6wTGRfMAD7ZN84XJD4X6AAAAaDgAAACLVQiLAotNCIuQqAEAAP/ShcB0KmhEAAAAi0UIixCLTQiLgqgBAAD/0IlF7ItN7IsRi03si0IE/9CIRevrBMZF6wAPtk3rhckPhJ4AAABoUAAAAItVCIsCi00Ii5CoAQAA/9KFwHQqaFwAAACLRQiLEItNCIuCqAEAAP/QiUXki03kixGLTeSLQgT/0IhF4+sExkXjAA+2TeOFyXRPaGgAAACLVQiLAotNCIuQqAEAAP/ShcB0Kmh4AAAAi0UIixCLTQiLgqgBAAD/0IlF3ItN3IsRi03ci0IE/9CIRdvrBMZF2wAPtk3bhcl1CcdF1AAAAADrB8dF1AEAAACKRdSL5V3D</compiledString>
 										<returnType>bool</returnType>
-										<sString>tal("Fluffy_A4_2") &amp;&amp; tal("Fluffy_A4_2u")</sString>
+										<sString>(tal("Fluffy_A4_2") &amp;&amp; tal("Fluffy_A4_2u")) || (tal("Fluffy_A4") &amp;&amp; tal("Fluffy_A4u") &amp;&amp; tal("Fluffy_A1_SUP"))</sString>
 									</startCondition>
 									<talents />
 									<useListAs>ListAsRule</useListAs>
@@ -368,9 +368,9 @@
 									<applyTarget>ApplicatorTarget</applyTarget>
 									<caption>Паника всем вокруг, если выучен А4у</caption>
 									<enabled>
-										<compiledString>FS8AAAAEAAAANgAAAE8AAACFAAAAngAAAEZsdWZmeV9BNAAAAEZsdWZmeV9BNAAAAEZsdWZmeV9BNHUAAEZsdWZmeV9BNHUAVYvsg+wUaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgMAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0WGgYAAAAi1UIiwKLTQiLkKgBAAD/0oXAdCpoJAAAAItFCIsQi00Ii4KoAQAA/9CJRfSLTfSLEYtN9ItCBP/QiEXz6wTGRfMAD7ZN84XJdAnHRewBAAAA6wfHRewAAAAAikXsi+Vdww==</compiledString>
+										<compiledString>FYYAAAAKAAAAjQAAAKYAAADcAAAA9QAAAC8BAABIAQAAggEAAJsBAADRAQAA6gEAAEZsdWZmeV9BNAAAAEZsdWZmeV9BNAAAAEZsdWZmeV9BNHUAAEZsdWZmeV9BNHUAAEZsdWZmeV9BNF8yAEZsdWZmeV9BNF8yAEZsdWZmeV9BNF8ydQAAAABGbHVmZnlfQTRfMnUAAAAARmx1ZmZ5X0ExX1NVUAAAAEZsdWZmeV9BMV9TVVAAVYvsg+wsaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgMAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0U2gYAAAAi1UIiwKLTQiLkKgBAAD/0oXAdCpoJAAAAItFCIsQi00Ii4KoAQAA/9CJRfSLTfSLEYtN9ItCBP/QiEXz6wTGRfMAD7ZN84XJD4X6AAAAaDAAAACLVQiLAotNCIuQqAEAAP/ShcB0Kmg8AAAAi0UIixCLTQiLgqgBAAD/0IlF7ItN7IsRi03si0IE/9CIRevrBMZF6wAPtk3rhckPhJ4AAABoSAAAAItVCIsCi00Ii5CoAQAA/9KFwHQqaFgAAACLRQiLEItNCIuCqAEAAP/QiUXki03kixGLTeSLQgT/0IhF4+sExkXjAA+2TeOFyXRPaGgAAACLVQiLAotNCIuQqAEAAP/ShcB0Kmh4AAAAi0UIixCLTQiLgqgBAAD/0IlF3ItN3IsRi03ci0IE/9CIRdvrBMZF2wAPtk3bhcl1CcdF1AAAAADrB8dF1AEAAACKRdSL5V3D</compiledString>
 										<returnType>bool</returnType>
-										<sString>tal("Fluffy_A4") &amp;&amp; tal("Fluffy_A4u")</sString>
+										<sString>(tal("Fluffy_A4") &amp;&amp; tal("Fluffy_A4u")) || (tal("Fluffy_A4_2") &amp;&amp; tal("Fluffy_A4_2u") &amp;&amp; tal("Fluffy_A1_SUP"))</sString>
 									</enabled>
 									<formulaName></formulaName>
 									<LoggingEvent>-1</LoggingEvent>
@@ -445,9 +445,9 @@
 									<applyTarget>ApplicatorTarget</applyTarget>
 									<caption>Порезка дефов всем вокруг, если выучен А4_2у</caption>
 									<enabled>
-										<compiledString>FTUAAAAEAAAAPAAAAFUAAACLAAAApAAAAEZsdWZmeV9BNF8yAEZsdWZmeV9BNF8yAEZsdWZmeV9BNF8ydQAAAABGbHVmZnlfQTRfMnUAVYvsg+wUaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgMAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0WGgYAAAAi1UIiwKLTQiLkKgBAAD/0oXAdCpoKAAAAItFCIsQi00Ii4KoAQAA/9CJRfSLTfSLEYtN9ItCBP/QiEXz6wTGRfMAD7ZN84XJdAnHRewBAAAA6wfHRewAAAAAikXsi+Vdww==</compiledString>
+										<compiledString>FYYAAAAKAAAAjQAAAKYAAADcAAAA9QAAAC8BAABIAQAAggEAAJsBAADRAQAA6gEAAEZsdWZmeV9BNF8yAEZsdWZmeV9BNF8yAEZsdWZmeV9BNF8ydQAAAABGbHVmZnlfQTRfMnUAAAAARmx1ZmZ5X0E0AAAARmx1ZmZ5X0E0AAAARmx1ZmZ5X0E0dQAARmx1ZmZ5X0E0dQAARmx1ZmZ5X0ExX1NVUAAAAEZsdWZmeV9BMV9TVVAAVYvsg+wsaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgMAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0U2gYAAAAi1UIiwKLTQiLkKgBAAD/0oXAdCpoKAAAAItFCIsQi00Ii4KoAQAA/9CJRfSLTfSLEYtN9ItCBP/QiEXz6wTGRfMAD7ZN84XJD4X6AAAAaDgAAACLVQiLAotNCIuQqAEAAP/ShcB0KmhEAAAAi0UIixCLTQiLgqgBAAD/0IlF7ItN7IsRi03si0IE/9CIRevrBMZF6wAPtk3rhckPhJ4AAABoUAAAAItVCIsCi00Ii5CoAQAA/9KFwHQqaFwAAACLRQiLEItNCIuCqAEAAP/QiUXki03kixGLTeSLQgT/0IhF4+sExkXjAA+2TeOFyXRPaGgAAACLVQiLAotNCIuQqAEAAP/ShcB0Kmh4AAAAi0UIixCLTQiLgqgBAAD/0IlF3ItN3IsRi03ci0IE/9CIRdvrBMZF2wAPtk3bhcl1CcdF1AAAAADrB8dF1AEAAACKRdSL5V3D</compiledString>
 										<returnType>bool</returnType>
-										<sString>tal("Fluffy_A4_2") &amp;&amp; tal("Fluffy_A4_2u")</sString>
+										<sString>(tal("Fluffy_A4_2") &amp;&amp; tal("Fluffy_A4_2u")) || (tal("Fluffy_A4") &amp;&amp; tal("Fluffy_A4u") &amp;&amp; tal("Fluffy_A1_SUP"))</sString>
 									</enabled>
 									<formulaName></formulaName>
 									<LoggingEvent>-1</LoggingEvent>

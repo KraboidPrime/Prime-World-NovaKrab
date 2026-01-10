@@ -31,6 +31,36 @@
 	<applicators>
 		<Item href="/GameLogic/GeneralApplicators/DispellWEffects.APLR" />
 		<Item href="/Items/Talents/Level4/status_G660_GuildAllyDispell_Red.APLR" />
+		<Item href="/Items/Talents/Level4/G660_GuildAllyDispell_Red.TALENT" id="A31E6425-1E01-41AD-9673-2E6EAF2C00BA">
+			<PermanentStatModApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<caption></caption>
+				<customApplyType>None</customApplyType>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQQ==</compiledString>
+						<returnType>float</returnType>
+						<sString>30</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Life</stat>
+					<topModifier>false</topModifier>
+					<variable>G660_counter</variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
 	</applicators>
 	<askId>0</askId>
 	<autoTargetSelector href="" />
@@ -62,6 +92,16 @@
 						</var>
 					</UnitConstant>
 				</Item>
+				<Item href="/Items/Talents/Level4/G660_GuildAllyDispell_Red.TALENT" id="2E0DA0CD-AC5D-4C2B-ABE3-C14D1E673F78">
+					<UnitConstant>
+						<name>CD_G660</name>
+						<var>
+							<compiledString>FQ0AAAACAAAAEgAAACgAAABHNjYwX2NvdW50ZXIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwFNgAAANld/NlF/IvlXcMAAAAAAEBgQA==</compiledString>
+							<returnType>float</returnType>
+							<sString>130+sender.vG660_counter</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
@@ -70,9 +110,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAACQw==</compiledString>
+		<compiledString>FQgAAAABAAAAFAAAAENEX0c2NjAAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
 		<returnType>float</returnType>
-		<sString>130</sString>
+		<sString>cCD_G660</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>

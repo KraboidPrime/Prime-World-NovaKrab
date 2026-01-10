@@ -221,6 +221,148 @@
 				</startCondition>
 			</StatusApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/Healer/A4_2AutoSpell.SPLL" id="502CBB69-6349-4352-B11D-CA9F781861D4">
+			<SpellApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<caption></caption>
+				<enabled>
+					<compiledString>FR4AAAACAAAAJQAAAD4AAABIZWFsZXJfQTRfU1VQAAAASGVhbGVyX0E0X1NVUABVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AIpF+4vlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("Healer_A4_SUP")</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<spell href="/Items/Talents/Class/Healer/A4_2AutoSpell.SPLL" id="973F1E6B-88DF-4B8A-922A-863B5F531C3A">
+					<Spell>
+						<applicators>
+							<Item href="/GameLogic/GeneralApplicators/DispellWEffects.APLR" />
+							<Item href="/Items/Talents/Class/Healer/A4_2AutoSpell.SPLL" id="229B8C48-B26F-447D-970D-F58F0C45D67C">
+								<StatusApplicator>
+									<applicators>
+										<Item href="/GameLogic/GeneralApplicators/Immune2Control.APLR" />
+										<Item href="/Items/Talents/Class/Healer/A4_2AutoSpell.SPLL" id="015F78C0-5895-416F-BC31-B953DDC142AC">
+											<StatModApplicator>
+												<applyTarget>ApplicatorTarget</applyTarget>
+												<behaviorFlags>0</behaviorFlags>
+												<caption>Immune2EvilTree = 1</caption>
+												<constraint>None</constraint>
+												<dontUpdate>true</dontUpdate>
+												<effect>
+													<Item href="" />
+													<Item href="" />
+												</effect>
+												<enabled>
+													<compiledString></compiledString>
+													<returnType>bool</returnType>
+													<sString>true</sString>
+												</enabled>
+												<formulaName></formulaName>
+												<lifeTime>
+													<compiledString></compiledString>
+													<returnType>float</returnType>
+													<sString>-1.0</sString>
+												</lifeTime>
+												<LoggingEvent>-1</LoggingEvent>
+												<modifier>
+													<addValue>
+														<compiledString></compiledString>
+														<returnType>float</returnType>
+														<sString>1.0f</sString>
+													</addValue>
+													<multValue>
+														<compiledString></compiledString>
+														<returnType>float</returnType>
+														<sString>1.0f</sString>
+													</multValue>
+													<stat>Life</stat>
+													<topModifier>false</topModifier>
+													<variable>Immune2EvilTree</variable>
+												</modifier>
+												<providerName></providerName>
+												<startCondition>
+													<compiledString></compiledString>
+													<returnType>bool</returnType>
+													<sString>true</sString>
+												</startCondition>
+												<statModName></statModName>
+											</StatModApplicator>
+										</Item>
+									</applicators>
+									<applyTarget>ApplicatorTarget</applyTarget>
+									<behaviorFlags>1</behaviorFlags>
+									<caption>Иммун к контролю</caption>
+									<customCounter>
+										<compiledString></compiledString>
+										<returnType>int</returnType>
+										<sString>0</sString>
+									</customCounter>
+									<customProgress>
+										<compiledString></compiledString>
+										<returnType>float</returnType>
+										<sString>-1.0</sString>
+									</customProgress>
+									<description textref="" />
+									<dispellPriority>NonDispellable</dispellPriority>
+									<effect>
+										<Item href="" />
+										<Item href="" />
+									</effect>
+									<enabled>
+										<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<flags>0</flags>
+									<formulaName></formulaName>
+									<image href="" />
+									<lifeTime>
+										<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
+										<returnType>float</returnType>
+										<sString>3</sString>
+									</lifeTime>
+									<LoggingEvent>-1</LoggingEvent>
+									<name textref="" />
+									<power>0</power>
+									<providerName></providerName>
+									<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+									<stackCount>0</stackCount>
+									<startCondition>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</startCondition>
+									<statusPosition>0</statusPosition>
+									<stopBehaviour>StopByTime</stopBehaviour>
+									<unstackableWith href="" />
+								</StatusApplicator>
+							</Item>
+						</applicators>
+						<dispatch href="/Items/Talents/Class/Healer/A4_2AutoSpell.SPLL" id="D2CCDA6B-EFB3-4EF2-A42A-7972357DD57C">
+							<DispatchImmediate>
+								<alwaysApply>false</alwaysApply>
+								<applyEffect>
+									<Item href="" />
+									<Item href="" />
+								</applyEffect>
+								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+								<applyEffectOrientation>Default</applyEffectOrientation>
+								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+								<dieAfterApply>true</dieAfterApply>
+								<dispatchEffect>
+									<Item href="" />
+									<Item href="" />
+								</dispatchEffect>
+								<flags>0</flags>
+								<instantApply>false</instantApply>
+							</DispatchImmediate>
+						</dispatch>
+					</Spell>
+				</spell>
+				<spellTarget>AbilityOwner</spellTarget>
+				<targetSelector href="" />
+			</SpellApplicator>
+		</Item>
 	</applicators>
 	<dispatch href="/Items/Talents/Class/Healer/A4_2AutoSpell.SPLL" id="E3114DE6-F009-4EBF-BDC6-4D41C4FEAE15">
 		<DispatchImmediate>

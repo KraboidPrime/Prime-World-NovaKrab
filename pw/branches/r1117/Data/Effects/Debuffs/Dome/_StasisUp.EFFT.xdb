@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BasicEffectStandalone>
 	<BackLink DBID="/Items/Talents/Class/MagicGirl/Ability_A4.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A4_1.TALENT" Count="2" />
 	<component href="/Effects/Debuffs/Dome/_StasisUpTRS.PRXY" />
 	<deathType>Manual</deathType>
 	<enableCondition href="" />

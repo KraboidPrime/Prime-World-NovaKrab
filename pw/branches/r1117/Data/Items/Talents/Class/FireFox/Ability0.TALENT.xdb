@@ -76,9 +76,9 @@
 					<UnitConstant>
 						<name>IdleTime</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
+							<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
 							<returnType>float</returnType>
-							<sString>2</sString>
+							<sString>1</sString>
 						</var>
 					</UnitConstant>
 				</Item>

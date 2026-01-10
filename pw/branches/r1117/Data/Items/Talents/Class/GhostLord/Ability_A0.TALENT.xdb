@@ -148,9 +148,9 @@
 					<UnitConstant>
 						<name>A0_AddStamina</name>
 						<var>
-							<compiledString>FT0AAAAHAAAARAAAAF0AAACXAAAAoQAAAPUAAAAWAQAAIAEAAEdob3N0TG9yZF9BMF9TVVAAAAAAR2hvc3RMb3JkX0EwX1NVUAAAAABBMF9Cb251c0RlZmVuY2VTdGF0cwBVi+yD7BxoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBQAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXR/agFR2QV/AQAA2RwkUdkFewEAANkcJGoAi1UIiwKLTQiLkDQBAAD/0lHZHCSLRQiLEItNCIuCMAEAAP/QUdkcJOisAAAAg8QE2RwkagCLTRCLEYtNEItCYP/Qi00MUYtVCFJoKAAAAItFEIsQi00Qi0JQ3V3w/9DcRfDdXejrXWoBUdkFfwEAANkcJFHZBXsBAADZHCRqAItNCIsRi00Ii4I0AQAA/9BR2Rwki00IixGLTQiLgjABAAD/0FHZHCToLQAAAIPEBNkcJGoAi00QixGLTRCLQmD/0N1d6N1F6Nld5NlF5IvlXcMAAEBAAADQQVWL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBWMAAADZHCRR2QVfAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJItNCIsRi00Ii4IwAQAA/9BR2Rwk6B8AAACDxATZHCRqAItNEIsRi00Qi0Jg/9BdwwAAQEAAANBBVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
 							<returnType>float</returnType>
-							<sString>tal("GhostLord_A0_SUP") ? abilityScale( max(sStrength, sIntellect), 3, 26 ) + cA0_BonusDefenceStats : abilityScale( max(sStrength, sIntellect), 3, 26 )</sString>
+							<sString>abilityScale( max(sStrength, sIntellect), 3, 26 )</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -158,9 +158,9 @@
 					<UnitConstant>
 						<name>A0_AddWill</name>
 						<var>
-							<compiledString>FT0AAAAHAAAARAAAAF0AAACXAAAAoQAAAPUAAAAWAQAAIAEAAEdob3N0TG9yZF9BMF9TVVAAAAAAR2hvc3RMb3JkX0EwX1NVUAAAAABBMF9Cb251c0RlZmVuY2VTdGF0cwBVi+yD7BxoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBQAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXR/agFR2QV/AQAA2RwkUdkFewEAANkcJGoAi1UIiwKLTQiLkDQBAAD/0lHZHCSLRQiLEItNCIuCMAEAAP/QUdkcJOisAAAAg8QE2RwkagCLTRCLEYtNEItCYP/Qi00MUYtVCFJoKAAAAItFEIsQi00Qi0JQ3V3w/9DcRfDdXejrXWoBUdkFfwEAANkcJFHZBXsBAADZHCRqAItNCIsRi00Ii4I0AQAA/9BR2Rwki00IixGLTQiLgjABAAD/0FHZHCToLQAAAIPEBNkcJGoAi00QixGLTRCLQmD/0N1d6N1F6Nld5NlF5IvlXcMAAEBAAADQQVWL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBWMAAADZHCRR2QVfAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJItNCIsRi00Ii4IwAQAA/9BR2Rwk6B8AAACDxATZHCRqAItNEIsRi00Qi0Jg/9BdwwAAQEAAANBBVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
 							<returnType>float</returnType>
-							<sString>tal("GhostLord_A0_SUP") ? abilityScale( max(sStrength, sIntellect), 3, 26 ) + cA0_BonusDefenceStats : abilityScale( max(sStrength, sIntellect), 3, 26 )</sString>
+							<sString>abilityScale( max(sStrength, sIntellect), 3, 26 )</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -358,7 +358,7 @@
 											</dispatch>
 										</Spell>
 									</spell>
-									<targets>806092859</targets>
+									<targets>805568571</targets>
 								</EventProcessorUnitDieNearMe>
 							</Item>
 							<Item href="/Items/Talents/Class/GhostLord/Ability_A0.TALENT" id="ADDA3238-A283-4446-9C88-961DA31D6CC4">
@@ -398,7 +398,7 @@
 	<shortDescription textref="" />
 	<talentRollGroups>63</talentRollGroups>
 	<talentStats />
-	<targetType>136258047</targetType>
+	<targetType>135733759</targetType>
 	<type>Passive</type>
 	<upgradeLevel>0</upgradeLevel>
 	<useRange>

@@ -137,6 +137,53 @@
 											<upper>false</upper>
 										</ChangeAnimationApplicator>
 									</Item>
+									<Item href="/Items/Talents/Class/FireFox/Ability4_2.TALENT" id="4FA9945A-DB1E-46C8-A460-996DA3E8E8AB">
+										<StatModApplicator>
+											<applyTarget>AbilityOwner</applyTarget>
+											<behaviorFlags>0</behaviorFlags>
+											<caption></caption>
+											<constraint>None</constraint>
+											<dontUpdate>false</dontUpdate>
+											<effect>
+												<Item href="" />
+												<Item href="" />
+											</effect>
+											<enabled>
+												<compiledString>FR4AAAACAAAAJQAAAD4AAABGaXJlZm94X0E0XzJVAAAARmlyZWZveF9BNF8yVQBVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AIpF+4vlXcM=</compiledString>
+												<returnType>bool</returnType>
+												<sString>tal("Firefox_A4_2U")</sString>
+											</enabled>
+											<formulaName></formulaName>
+											<lifeTime>
+												<compiledString></compiledString>
+												<returnType>float</returnType>
+												<sString>-1.0</sString>
+											</lifeTime>
+											<LoggingEvent>-1</LoggingEvent>
+											<modifier>
+												<addValue>
+													<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAQA==</compiledString>
+													<returnType>float</returnType>
+													<sString>4.0f</sString>
+												</addValue>
+												<multValue>
+													<compiledString></compiledString>
+													<returnType>float</returnType>
+													<sString>1.0f</sString>
+												</multValue>
+												<stat>Range</stat>
+												<topModifier>false</topModifier>
+												<variable></variable>
+											</modifier>
+											<providerName></providerName>
+											<startCondition>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</startCondition>
+											<statModName></statModName>
+										</StatModApplicator>
+									</Item>
 								</applicators>
 								<applyTarget>AbilityOwner</applyTarget>
 								<behaviorFlags>3</behaviorFlags>
@@ -327,9 +374,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAC0Qg==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQg==</compiledString>
 		<returnType>float</returnType>
-		<sString>90</sString>
+		<sString>60</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>

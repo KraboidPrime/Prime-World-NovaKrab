@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Level5/G534_Dex_Life.TALENT" Count="1" />
 	<name>G534_Damage_Per_Tick</name>
 	<var>
-		<compiledString>FQ0AAAACAAAAFAAAAC0AAABHNTM0AAAAAEc1MzQAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgIAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0Is/9CJRfjrB8dF+AEAAACLTfiNFI04AAAAiVX020X0i+Vdww==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQg==</compiledString>
 		<returnType>float</returnType>
-		<sString>60 + 4 * (getTalentRefineRate("G534", 1) - 1)</sString>
+		<sString>100</sString>
 	</var>
 </UnitConstant>

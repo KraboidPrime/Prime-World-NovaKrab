@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Class/Gunslinger/Ability_A2.TALENT" Count="1" />
 	<name>A0_Enrage_dmgup</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpmZPg==</compiledString>
+		<compiledString>FSYAAAADAAAALQAAAEYAAACEAAAAR3Vuc2xpbmdlcl9BMF9TVVAAAABHdW5zbGluZ2VyX0EwX1NVUABVi+yD7BRoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBQAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXQH2ejdXfDrCd0FmAAAAN1d8N1F8Nld7NlF7IvlXcMAAAAAAADgPwAAAAAAAPA/</compiledString>
 		<returnType>float</returnType>
-		<sString>0.3</sString>
+		<sString>tal("Gunslinger_A0_SUP") ? 1 : 0.5</sString>
 	</var>
 </UnitConstant>

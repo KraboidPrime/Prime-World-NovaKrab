@@ -159,9 +159,9 @@
 		<Item href="" />
 	</effect>
 	<enabled>
-		<compiledString></compiledString>
+		<compiledString>FREAAAACAAAAFgAAACwAAABEcmFnb25SZXNTdGFydGVkAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHU4AAADf4PbERHsJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAADwPw==</compiledString>
 		<returnType>bool</returnType>
-		<sString>true</sString>
+		<sString>!(sender.vDragonResStarted == 1.0f)</sString>
 	</enabled>
 	<flags>0</flags>
 	<formulaName></formulaName>

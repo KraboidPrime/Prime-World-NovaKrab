@@ -55,43 +55,53 @@
 	<constants href="/Items/Talents/Level6/G175_Defens_ifLifeDown.TALENT" id="4A3EA4BC-332A-405E-9FB5-F0348C10C07B">
 		<UnitConstantsContainer>
 			<vars>
-				<Item href="/Items/Talents/Level6/G175_Defens_ifLifeDown.TALENT" id="B4E6C12E-F6F3-4799-8502-EBC4D4DF2A78">
-					<UnitConstant>
-						<name>CoolDown</name>
-						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQg==</compiledString>
-							<returnType>float</returnType>
-							<sString>120</sString>
-						</var>
-					</UnitConstant>
-				</Item>
-				<Item href="/Items/Talents/Level6/G175_Defens_ifLifeDown.TALENT" id="76F3F501-352D-4DC9-A613-76D20250A2B2">
-					<UnitConstant>
-						<name>StatusDuration</name>
-						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAQA==</compiledString>
-							<returnType>float</returnType>
-							<sString>4</sString>
-						</var>
-					</UnitConstant>
-				</Item>
-				<Item href="/Items/Talents/Level6/G175_Defens_ifLifeDown.TALENT" id="AE400BBE-FC53-4A69-BB1E-9B591C92D60E">
-					<UnitConstant>
-						<name>LifeDown</name>
-						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
-							<returnType>float</returnType>
-							<sString>10</sString>
-						</var>
-					</UnitConstant>
-				</Item>
 				<Item href="/Items/Talents/Level6/G175_Defens_ifLifeDown.TALENT" id="01C38E0A-BEDB-4A05-B39C-F6C4EDB7821A">
 					<UnitConstant>
 						<name>DamageCapacity</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAA+kMAAKBB</compiledString>
+							<compiledString>FQAAAAABAAAAEwAAAFWL7FGLRQiLEItNCItCDP/Q3A0hAAAA2V382UX8i+VdwwAAAAAAAOA/</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(500, 20)</sString>
+							<sString>0.5*sMaxLife</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Level6/G175_Defens_ifLifeDown.TALENT" id="26B33D37-10DF-4D09-A74C-365B9D60CE9E">
+					<UnitConstant>
+						<name>Damage_trigger_G175</name>
+						<var>
+							<compiledString>FQAAAAABAAAAEgAAAFWL7FGLRQiLEItNCIsC/9DcDSAAAADZXfzZRfyL5V3DAAAAAAAA4D8=</compiledString>
+							<returnType>float</returnType>
+							<sString>0.5*sLife</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Level6/G175_Defens_ifLifeDown.TALENT" id="21CAE1A0-0BAE-49F9-A26B-E240C90283CD">
+					<UnitConstant>
+						<name>TECH_DontDie_G175</name>
+						<var>
+							<compiledString>FQAAAAABAAAAEgAAAFWL7FGLRQiLEItNCIsC/9DcHU0AAADf4PbERHoiaAAABACLTQiLEYtNCItCaP/QD7bIhcl0CcdF/AAAAADrB8dF/AEAAADbRfyL5V3DAAAAAAAA8D8=</compiledString>
+							<returnType>float</returnType>
+							<sString>!(sLife==1 &amp;&amp; sFlag(262144)); // ForbidDeath flag check -&gt; don't trigger if some immortality programm is in progress</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Level6/G175_Defens_ifLifeDown.TALENT" id="1CC9F395-235E-4C9C-834E-1889242BCB4B">
+					<UnitConstant>
+						<name>DamageAbsorbRemains</name>
+						<var>
+							<compiledString>FSoAAAADAAAANwAAAFUAAABvAAAARGFtYWdlQ2FwYWNpdHkAAFRyaWdnZXJfRzE3NQAAAAByYXdEYW1hZ2UAVYvsg+wQagCLRRBQaBAAAACLTQyLEYtNDIuCnAEAAP/QiUX8Udnu2RwkaCAAAACLTfyLEYtN/ItCVP/Qi00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ3V30/9DcZfTZXfDZRfBR2Rwk6AsAAACDxAiL5V3DAAAAAFWL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
+							<returnType>float</returnType>
+							<sString>max(cDamageCapacity - pSecond-&gt;FindApplicator("Trigger_G175", pMisc, GLOBAL)-&gt;GetVariable("rawDamage"), 0)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Level6/G175_Defens_ifLifeDown.TALENT" id="46697356-9360-40F1-9DD0-02246318857E">
+					<UnitConstant>
+						<name>Duration</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
+							<returnType>float</returnType>
+							<sString>2</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -103,9 +113,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQkAAAABAAAAFQAAAENvb2xEb3duAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAA0Qw==</compiledString>
 		<returnType>float</returnType>
-		<sString>cCoolDown</sString>
+		<sString>180</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>
@@ -115,7 +125,7 @@
 	<description textref="/Items/Talents/Level6/G175_Defens_ifLifeDown.TALENT_description.txt" />
 	<devPoints>1</devPoints>
 	<dispatch href="" />
-	<flags>19</flags>
+	<flags>4</flags>
 	<forceBonus>33</forceBonus>
 	<image href="/UI/Styles/Icons/Talents/_175.ITEX" />
 	<imageSecondState href="" />
@@ -136,91 +146,67 @@
 	<name textref="/Items/Talents/Level6/G175_Defens_ifLifeDown.TALENT_name.txt" />
 	<node></node>
 	<passiveApplicators>
-		<Item href="/Items/Talents/Level6/G175_Defens_ifLifeDown.TALENT" id="7F88CBD6-A42B-4DCE-BD62-8680B7646D51">
-			<TriggerApplicator>
-				<actionsCount>
+		<Item href="/Items/Talents/Level6/G175_Defens_ifLifeDown.TALENT" id="761070A9-6B68-44CC-B7B4-424CC9CCB868">
+			<StatusApplicator>
+				<applicators />
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>136</behaviorFlags>
+				<caption>Таблетки готовы</caption>
+				<customCounter>
 					<compiledString></compiledString>
 					<returnType>int</returnType>
 					<sString>0</sString>
-				</actionsCount>
-				<applyTarget>ApplicatorTarget</applyTarget>
-				<behaviorFlags>0</behaviorFlags>
-				<caption>автосрабатывание</caption>
+				</customCounter>
+				<customProgress>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</customProgress>
+				<description textref="/Items/Talents/Level6/G175_Defens_ifLifeDown.TALENT_761070a96b6844ccb7b4424cc9ccb868_description.txt" />
+				<dispellPriority>NonDispellable</dispellPriority>
 				<effect>
 					<Item href="" />
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FQ8AAAABAAAAGQAAAEc0NTVQb2x5U3RhdHVzAFWL7GoAi0UQUGgAAAAAi00IixGLTQiLgpwBAAD/0DPJO0UQD5TBisFdww==</compiledString>
+					<compiledString>FQAAAAABAAAAEwAAAFWL7FGLRRCLEItNEItCHP/Q3B01AAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAA8D8=</compiledString>
 					<returnType>bool</returnType>
-					<sString>sender.applG455PolyStatus(GLOBAL) == pMisc</sString>
+					<sString>mPreparedness == 1.0f</sString>
 				</enabled>
+				<flags>0</flags>
 				<formulaName></formulaName>
+				<image href="/UI/Styles/Icons/Talents/_175.ITEX" />
 				<lifeTime>
 					<compiledString></compiledString>
 					<returnType>float</returnType>
 					<sString>-1.0</sString>
 				</lifeTime>
 				<LoggingEvent>-1</LoggingEvent>
-				<playAck>false</playAck>
-				<processor href="/Items/Talents/Level6/G175_Defens_ifLifeDown.TALENT" id="8DAB67AF-21E5-471C-A2B3-55A2DF518CA3">
-					<EventProcessorCondition>
-						<applyTarget>ApplicatorTarget</applyTarget>
-						<condition>
-							<compiledString>FRYAAAADAAAAQQAAAFcAAABvAAAATGlmZURvd24AAAAARmFrZURlYXRoAFWL7IPsFItFCIsQi00IiwL/0ItNCIsRi00Ii0IM3V34/9CLTQxRi1UIUmgAAAAAi0UQixCLTRCLQlDdXfD/0NwNnwAAANxN8Nxd+N/g9sRBdSlqAItNEFFoDAAAAItVDIsCi00Mi5CcAQAA/9I7RRB1CcdF7AEAAADrB8dF7AAAAACKReyL5V3DexSuR+F6hD8=</compiledString>
-							<returnType>bool</returnType>
-							<sString>(sLife &lt; sMaxLife * (cLifeDown * 0.01))&amp;&amp;(receiver.applFakeDeath(GLOBAL) == pMisc)</sString>
-						</condition>
-						<events>8192</events>
-						<onlyParent>false</onlyParent>
-						<spell href="/Items/Talents/Level6/G175_Defens_ifLifeDown.TALENT" id="6FED5DAD-610B-4B05-902A-71DC82A92206">
-							<Spell>
-								<applicators>
-									<Item href="/Items/Talents/Level6/status_G175_DmgReduce.APLR" />
-									<Item href="/Items/Talents/Level6/status_G175_ifWeCant.APLR" />
-								</applicators>
-								<dispatch href="/Items/Talents/Level6/G175_Defens_ifLifeDown.TALENT" id="5D56CAD1-B8E3-4E6F-85FC-81C2E03511DF">
-									<DispatchImmediate>
-										<alwaysApply>false</alwaysApply>
-										<applyEffect>
-											<Item href="" />
-											<Item href="" />
-										</applyEffect>
-										<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
-										<applyEffectOrientation>Default</applyEffectOrientation>
-										<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
-										<dieAfterApply>true</dieAfterApply>
-										<dispatchEffect>
-											<Item href="" />
-											<Item href="" />
-										</dispatchEffect>
-										<flags>0</flags>
-										<instantApply>false</instantApply>
-									</DispatchImmediate>
-								</dispatch>
-							</Spell>
-						</spell>
-					</EventProcessorCondition>
-				</processor>
+				<name textref="/Items/Talents/Level6/G175_Defens_ifLifeDown.TALENT_761070a96b6844ccb7b4424cc9ccb868_name.txt" />
+				<power>0</power>
 				<providerName></providerName>
+				<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+				<stackCount>0</stackCount>
 				<startCondition>
-					<compiledString></compiledString>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
 					<returnType>bool</returnType>
 					<sString>true</sString>
 				</startCondition>
-				<useAbilityCooldown>true</useAbilityCooldown>
-				<useAbilityOwnerMana>true</useAbilityOwnerMana>
-			</TriggerApplicator>
+				<statusPosition>0</statusPosition>
+				<stopBehaviour>StopByTime</stopBehaviour>
+				<unstackableWith href="" />
+			</StatusApplicator>
 		</Item>
+		<Item href="/Items/Talents/Level6/Trigger_G175.APLR" />
 	</passiveApplicators>
 	<persistentId>G175</persistentId>
 	<prerequisiteTalents />
-	<rarity>excellent</rarity>
+	<rarity>magnificent</rarity>
 	<requireLineOfSight>true</requireLineOfSight>
 	<shortDescription textref="" />
 	<talentRollGroups>0</talentRollGroups>
 	<talentStats />
-	<targetType>0</targetType>
+	<targetType>136258047</targetType>
 	<type>Passive</type>
 	<upgradeLevel>0</upgradeLevel>
 	<useRange>

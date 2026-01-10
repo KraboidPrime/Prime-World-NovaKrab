@@ -15,6 +15,8 @@
 	<BackLink DBID="/Maps/PvE/Series/Episode1/heroes/ally/_.HROB" Count="1" />
 	<BackLink DBID="/Test/Talents/TestSet2.TALENTSET" Count="1" />
 	<BackLink DBID="/Social/TalentsCollection" Count="2" />
+	<BackLink DBID="/Items/Talents/TalentKits/Redset7_5_Alchemy/Redset7_5_Alchemy.TALKIT" Count="1" />
+	<BackLink DBID="/GameLogic/AILogic.AILP" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -37,7 +39,7 @@
 	<askId>0</askId>
 	<autoTargetSelector href="" />
 	<budget>-1</budget>
-	<caption>G133: Неукротимое исцеление</caption>
+	<caption>G133: Инновации алхимика</caption>
 	<castAllowRange>
 		<compiledString></compiledString>
 		<returnType>float</returnType>
@@ -47,21 +49,36 @@
 	<commonDescription textref="" />
 	<compiledDescriptionA textref="" />
 	<compiledDescriptionB textref="" />
-	<conditionFormulas />
+	<conditionFormulas>
+		<Item href="/Items/Talents/Level2/G133_PrimefromCreeps.TALENT" id="034D1F88-A5E4-4560-8A01-28FCD30B74C2">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FQ4AAAACAAAAEwAAACkAAABHNzI0X1N0ck9ySW50AFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHUsAAADf4PbERHoJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAADwPw==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vG724_StrOrInt==1</sString>
+				</condition>
+				<name>StrOrInt</name>
+			</ConditionFormula>
+		</Item>
+	</conditionFormulas>
 	<conflictingTalents />
-	<constants href="/Items/Talents/Level2/G133_PrimefromCreeps.TALENT" id="6BC6B403-60D1-4B17-AA4A-A21F26691153">
+	<constants href="/Items/Talents/Level2/G133_PrimefromCreeps.TALENT" id="6D6C1432-A69A-4CCF-8449-F6247E5A0FFE">
 		<UnitConstantsContainer>
 			<vars>
-				<Item href="/Items/Talents/Level2/G133_PrimefromCreeps.TALENT" id="FAB03DB3-EC02-445E-971D-587DD0CD0398">
+				<Item href="/Items/Talents/Level2/G133_PrimefromCreeps.TALENT" id="250880FA-D9DE-4E7F-8412-07BEAD96709C">
 					<UnitConstant>
-						<name>Add_LifeRegAbs</name>
+						<name>Add_Stat</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwzMzM0DNzEw+</compiledString>
+							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9Bdw2Zm5kAAAAA/</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(2.8, 0.2)</sString>
+							<sString>refineScale(7.2, 0.5)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
+				<Item href="/Items/Talents/TalentKits/Redset7_5_Alchemy/const_Redset7_5_Discount2" />
+				<Item href="/Items/Talents/TalentKits/Redset7_5_Alchemy/const_Redset7_5_Discount3" />
+				<Item href="/Items/Talents/TalentKits/Redset7_5_Alchemy/const_Redset7_5_Discount" />
+				<Item href="/Items/Talents/TalentKits/Redset7_5_Alchemy/const_Redset7_5_G725_AddDamage" />
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
@@ -84,7 +101,7 @@
 	<dispatch href="" />
 	<flags>1</flags>
 	<forceBonus>9</forceBonus>
-	<image href="/UI/Styles/Icons/Talents/_133.ITEX" />
+	<image href="/UI/Styles/Icons/Talents/_725_Rev.ITEX" />
 	<imageSecondState href="" />
 	<isGenderTalent>false</isGenderTalent>
 	<isTakenOnStart>false</isTakenOnStart>
@@ -103,11 +120,107 @@
 	<name textref="/Items/Talents/Level2/G133_PrimefromCreeps.TALENT_name.txt" />
 	<node></node>
 	<passiveApplicators>
-		<Item href="/Items/Talents/Level2/G133_PrimefromCreeps.TALENT" id="38F67B12-99E4-4817-9066-6112B2562FE8">
+		<Item href="/Items/Talents/Level2/G133_PrimefromCreeps.TALENT" id="E3810F9A-41CA-4390-99AD-E9A1E0E99A5B">
 			<PermanentStatModApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>Add_LifeRegAbs</caption>
-				<customApplyType>None</customApplyType>
+				<caption>Add_Strength</caption>
+				<customApplyType>Maximize</customApplyType>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgrgAAAD/0ItNCIsRi00Ii4K8AAAA3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sBaseStrength&gt;=sBaseIntellect</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQkAAAABAAAAFQAAAEFkZF9TdGF0AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+						<returnType>float</returnType>
+						<sString>cAdd_Stat</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Strength</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level2/G133_PrimefromCreeps.TALENT" id="AC9030A5-3746-4A16-92E8-6AF4422D9F12">
+			<PermanentStatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>Add_Intellect</caption>
+				<customApplyType>Maximize</customApplyType>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgrgAAAD/0ItNCIsRi00Ii4K8AAAA3V34/9DcXfjf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sBaseStrength&lt;sBaseIntellect</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQkAAAABAAAAFQAAAEFkZF9TdGF0AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+						<returnType>float</returnType>
+						<sString>cAdd_Stat</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Intellect</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level2/G133_PrimefromCreeps.TALENT" id="29A27900-E213-41C6-AE23-BA91CE76C7D6">
+			<PermanentStatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>StrOrInt</caption>
+				<customApplyType>Maximize</customApplyType>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgrgAAAD/0ItNCIsRi00Ii4K8AAAA3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sBaseStrength&gt;=sBaseIntellect</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+						<returnType>float</returnType>
+						<sString>1</sString>
+					</addValue>
+					<multValue>
+						<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+						<returnType>float</returnType>
+						<sString>0</sString>
+					</multValue>
+					<stat>Life</stat>
+					<topModifier>false</topModifier>
+					<variable>G724_StrOrInt</variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/TalentKits/Redset7_5_Alchemy/Program_Redset7_5_Discount.APLR" />
+		<Item href="/Items/Talents/Level2/G133_PrimefromCreeps.TALENT" id="A04A3E93-0921-4844-B1EC-D4BF3E8F22AC">
+			<GiveConsumable>
+				<amount>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>1</sString>
+				</amount>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>GiveConsumable</caption>
+				<consumable href="/Items/Consumables/KU-StickNew.ARCT" />
 				<enabled>
 					<compiledString></compiledString>
 					<returnType>bool</returnType>
@@ -115,28 +228,13 @@
 				</enabled>
 				<formulaName></formulaName>
 				<LoggingEvent>-1</LoggingEvent>
-				<modifier>
-					<addValue>
-						<compiledString>FQ8AAAABAAAAGwAAAEFkZF9MaWZlUmVnQWJzAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
-						<returnType>float</returnType>
-						<sString>cAdd_LifeRegAbs</sString>
-					</addValue>
-					<multValue>
-						<compiledString></compiledString>
-						<returnType>float</returnType>
-						<sString>1.0f</sString>
-					</multValue>
-					<stat>LifeRegenerationAbsolute</stat>
-					<topModifier>false</topModifier>
-					<variable></variable>
-				</modifier>
 				<providerName></providerName>
-			</PermanentStatModApplicator>
+			</GiveConsumable>
 		</Item>
 	</passiveApplicators>
 	<persistentId>G133</persistentId>
 	<prerequisiteTalents />
-	<rarity>excellent</rarity>
+	<rarity>outstanding</rarity>
 	<requireLineOfSight>true</requireLineOfSight>
 	<shortDescription textref="" />
 	<talentRollGroups>0</talentRollGroups>
@@ -153,18 +251,18 @@
 			</values>
 		</Item>
 	</talentStats>
-	<targetType>1073741824</targetType>
-	<type>Simple</type>
+	<targetType>136258047</targetType>
+	<type>Passive</type>
 	<upgradeLevel>0</upgradeLevel>
 	<useRange>
-		<compiledString>FRIAAAABAAAAHgAAAEF3YXJkS2lsbGVyc1JhbmdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 		<returnType>float</returnType>
-		<sString>cAwardKillersRange</sString>
+		<sString>0.0f</sString>
 	</useRange>
 	<useRangeMaterial href="" />
 	<variativeMaxTalentStats />
 	<variativeMinTalentStats />
-	<vendorCost>-1</vendorCost>
+	<vendorCost>0</vendorCost>
 	<warFogRemoveRadius>0</warFogRemoveRadius>
 	<warFogRemoveTime>0</warFogRemoveTime>
 </Talent>

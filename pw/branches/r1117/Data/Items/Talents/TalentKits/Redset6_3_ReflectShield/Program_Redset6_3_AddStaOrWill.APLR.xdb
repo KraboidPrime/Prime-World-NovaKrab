@@ -61,9 +61,9 @@
 					<caption>StaOrWill</caption>
 					<customApplyType>Maximize</customApplyType>
 					<enabled>
-						<compiledString>FRsAAAACAAAATwAAAGUAAABSZWRzZXQ2XzNfU3RhT3JXaWxsQ291bnRlcgBVi+yD7AyLRQiLEItNCIuCyAAAAP/Qi00IixGLTQiLgswAAADdXfj/0Nxd+N/g9sRBeitoAAAAAItNCIsRi00Ii4KIAQAA/9DcHYcAAADf4PbERHoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcMAAAAAAAAAQA==</compiledString>
+						<compiledString>FRsAAAACAAAATwAAAGUAAABSZWRzZXQ2XzNfU3RhT3JXaWxsQ291bnRlcgBVi+yD7AyLRQiLEItNCIuCyAAAAP/Qi00IixGLTQiLgswAAADdXfj/0Nxd+N/g9sRBeitoAAAAAItNCIsRi00Ii4KIAQAA/9DcHYcAAADf4PbERHoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcMAAAAAAAAQQA==</compiledString>
 						<returnType>bool</returnType>
-						<sString>sBaseStamina&gt;=sBaseWill &amp;&amp; sender.vRedset6_3_StaOrWillCounter == 2</sString>
+						<sString>sBaseStamina&gt;=sBaseWill &amp;&amp; sender.vRedset6_3_StaOrWillCounter == 4</sString>
 					</enabled>
 					<formulaName></formulaName>
 					<LoggingEvent>-1</LoggingEvent>
@@ -110,9 +110,9 @@
 					<caption>Add_Will</caption>
 					<customApplyType>Maximize</customApplyType>
 					<enabled>
-						<compiledString>FRsAAAACAAAATwAAAGUAAABSZWRzZXQ2XzNfU3RhT3JXaWxsQ291bnRlcgBVi+yD7AyLRQiLEItNCIuCyAAAAP/Qi00IixGLTQiLgswAAADdXfj/0Nxd+N/g9sRBdStoAAAAAItNCIsRi00Ii4KIAQAA/9DcHYcAAADf4PbERHoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcMAAAAAAAAAQA==</compiledString>
+						<compiledString>FRsAAAACAAAATwAAAGUAAABSZWRzZXQ2XzNfU3RhT3JXaWxsQ291bnRlcgBVi+yD7AyLRQiLEItNCIuCyAAAAP/Qi00IixGLTQiLgswAAADdXfj/0Nxd+N/g9sRBdStoAAAAAItNCIsRi00Ii4KIAQAA/9DcHYcAAADf4PbERHoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcMAAAAAAAAQQA==</compiledString>
 						<returnType>bool</returnType>
-						<sString>sBaseStamina&lt;sBaseWill &amp;&amp; sender.vRedset6_3_StaOrWillCounter == 2</sString>
+						<sString>sBaseStamina&lt;sBaseWill &amp;&amp; sender.vRedset6_3_StaOrWillCounter == 4</sString>
 					</enabled>
 					<formulaName></formulaName>
 					<LoggingEvent>-1</LoggingEvent>
@@ -159,9 +159,9 @@
 					<caption>Add_Stamina</caption>
 					<customApplyType>Maximize</customApplyType>
 					<enabled>
-						<compiledString>FRsAAAACAAAATwAAAGUAAABSZWRzZXQ2XzNfU3RhT3JXaWxsQ291bnRlcgBVi+yD7AyLRQiLEItNCIuCyAAAAP/Qi00IixGLTQiLgswAAADdXfj/0Nxd+N/g9sRBeitoAAAAAItNCIsRi00Ii4KIAQAA/9DcHYcAAADf4PbERHoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcMAAAAAAAAAQA==</compiledString>
+						<compiledString>FRsAAAACAAAATwAAAGUAAABSZWRzZXQ2XzNfU3RhT3JXaWxsQ291bnRlcgBVi+yD7AyLRQiLEItNCIuCyAAAAP/Qi00IixGLTQiLgswAAADdXfj/0Nxd+N/g9sRBeitoAAAAAItNCIsRi00Ii4KIAQAA/9DcHYcAAADf4PbERHoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcMAAAAAAAAQQA==</compiledString>
 						<returnType>bool</returnType>
-						<sString>sBaseStamina&gt;=sBaseWill &amp;&amp; sender.vRedset6_3_StaOrWillCounter == 2</sString>
+						<sString>sBaseStamina&gt;=sBaseWill &amp;&amp; sender.vRedset6_3_StaOrWillCounter == 4</sString>
 					</enabled>
 					<formulaName></formulaName>
 					<LoggingEvent>-1</LoggingEvent>
@@ -210,9 +210,9 @@
 		<Item href="" />
 	</effect>
 	<enabled>
-		<compiledString>FRsAAAACAAAAIAAAADYAAABSZWRzZXQ2XzNfU3RhT3JXaWxsQ291bnRlcgBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1YAAAA3+D2xAV6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAEA=</compiledString>
+		<compiledString>FRsAAAACAAAAIAAAADYAAABSZWRzZXQ2XzNfU3RhT3JXaWxsQ291bnRlcgBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1YAAAA3+D2xAV6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAEEA=</compiledString>
 		<returnType>bool</returnType>
-		<sString>sender.vRedset6_3_StaOrWillCounter &lt; 2</sString>
+		<sString>sender.vRedset6_3_StaOrWillCounter &lt; 4</sString>
 	</enabled>
 	<formulaName></formulaName>
 	<lifeTime>

@@ -1263,9 +1263,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAQQ==</compiledString>
+		<compiledString>FR4AAAAEAAAAJQAAAD4AAAB1AAAAgAAAAEJyZXdlcl9BMV9TVVAAAABCcmV3ZXJfQTFfU1VQAFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdAvZBZIAAADZXfTrCdkFjgAAANld9NlF9IvlXcMAAIBBAACgQQ==</compiledString>
 		<returnType>float</returnType>
-		<sString>16.0f</sString>
+		<sString>tal("Brewer_A1_SUP") ? 20.0f : 16.0f</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>

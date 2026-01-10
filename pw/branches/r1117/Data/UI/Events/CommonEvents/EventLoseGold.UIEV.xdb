@@ -2,6 +2,12 @@
 <UIEvent>
 	<BackLink DBID="/Items/Talents/Class/Ratcatcher/RatMainProgram.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Level3/552_NaftaBurn.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Level6/G1000_Max_Stat.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level5/G168_Vamp.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level1/G128_Life_Energy.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/Chicken/Ability_A4_2.TALENT" Count="1" />
+	<BackLink DBID="/Items/Consumables/SUPPORT.ARCT" Count="1" />
+	<BackLink DBID="/Items/Consumables/YaNeFarmlu.APLR" Count="2" />
 	<signRecipients>PLAYER_ONLY</signRecipients>
 	<UISigns>
 		<Item href="/UI/Events/CommonEvents/EventLoseGold.UIEV" id="FD71162B-5628-4A03-B0F8-D7EFF1A7D2BE">
@@ -15,7 +21,7 @@
 					<align>Center</align>
 					<endOpacity>0</endOpacity>
 					<layout>fly_lose_gold</layout>
-					<lifeTime>4</lifeTime>
+					<lifeTime>2</lifeTime>
 					<offset>
 						<x>0</x>
 						<y>-60</y>

@@ -40,7 +40,7 @@
 				<applicatorsOnSelf />
 				<applyTarget>AbilityOwner</applyTarget>
 				<behaviorFlags>1</behaviorFlags>
-				<cancelOnDisable>true</cancelOnDisable>
+				<cancelOnDisable>false</cancelOnDisable>
 				<cancelOnInterrupt>true</cancelOnInterrupt>
 				<cancelSpell href="/Items/Talents/Class/Vampire/Ability_A1.TALENT" id="2E25AEBF-ACBF-4E69-8F9B-EDDC6F128636">
 					<Spell>
@@ -97,7 +97,7 @@
 					<sString>1.0f</sString>
 				</scaleWhenInterrupted>
 				<startCondition>
-					<compiledString></compiledString>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
 					<returnType>bool</returnType>
 					<sString>true</sString>
 				</startCondition>
@@ -519,7 +519,7 @@
 									<Item href="" />
 								</dispatchEffect>
 								<flags>0</flags>
-								<instantApply>false</instantApply>
+								<instantApply>true</instantApply>
 							</DispatchImmediate>
 						</dispatch>
 					</Spell>
@@ -590,9 +590,9 @@
 					<UnitConstant>
 						<name>A1_LifeCost</name>
 						<var>
-							<compiledString>FRsAAAACAAAATgAAAHIAAABBMF9UZXJyYWluTGlmZUNvc3RNb2RpZmllcgBVi+yD7AhWi0UIixCLTQiLQkz/0Ivwi00IixGLTQiLgpABAAD/0DvwdR+LTQxRi1UIUmgAAAAAi0UQixCLTRCLQlD/0Nld/OsF2e7ZXfzZRfzZ6N7h3A2BAAAA2V342UX4XovlXcMAAAAAAIBBQAAAAAAAAPA/AAAAAA==</compiledString>
+							<compiledString>FRsAAAACAAAATgAAAHIAAABBMF9UZXJyYWluTGlmZUNvc3RNb2RpZmllcgBVi+yD7BRWi0UIixCLTQiLQkz/0Ivwi00IixGLTQiLgpABAAD/0DvwdR+LTQxRi1UIUmgAAAAAi0UQixCLTRCLQlD/0Nld/OsF2e7ZXfzZRfzZ6N7h3A2oAAAAi00IixGLTQiLgmABAADdXfT/0Jm5JAAAAPf5g8ABiUXw20Xw3E302V3s2UXsXovlXcMAAAAAAIBBQAAAAAAAAPA/AAAAAA==</compiledString>
 							<returnType>float</returnType>
-							<sString>35 * (1-nt( cA0_TerrainLifeCostModifier, 0 ))</sString>
+							<sString>35 * (1-nt( cA0_TerrainLifeCostModifier, 0 )) * (1 + sNaftaLevel/36)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -610,9 +610,9 @@
 					<UnitConstant>
 						<name>A1_Damage</name>
 						<var>
-							<compiledString>FR8AAAAGAAAAJgAAAD8AAAB5AAAAgwAAALkAAADDAAAAVmFtcGlyZV9BMV9TVVAAAFZhbXBpcmVfQTFfU1VQAFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdEBqAVHZBQUBAADZHCRR2QUBAQAA2RwkagCLVQiLAotNCIuQNAEAAP/SUdkcJGoBi0UQixCLTRCLQmD/0Nld9Os+agFR2QX9AAAA2RwkUdkF+QAAANkcJGoAi00IixGLTQiLgjQBAAD/0FHZHCRqAYtNEIsRi00Qi0Jg/9DZXfTZRfSL5V3DAAAUQgCAi0MAAIxCAIAERA==</compiledString>
+							<compiledString>FR8AAAAGAAAAJgAAAD8AAAB5AAAAgwAAALkAAADDAAAAVmFtcGlyZV9BMV9TVVAAAFZhbXBpcmVfQTFfU1VQAFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdEBqAVHZBQUBAADZHCRR2QUBAQAA2RwkagCLVQiLAotNCIuQNAEAAP/SUdkcJGoBi0UQixCLTRCLQmD/0Nld9Os+agFR2QX9AAAA2RwkUdkF+QAAANkcJGoAi00IixGLTQiLgjQBAAD/0FHZHCRqAYtNEIsRi00Qi0Jg/9DZXfTZRfSL5V3DAAAUQgCAi0MAAIZCAAD7Qw==</compiledString>
 							<returnType>float</returnType>
-							<sString>tal("Vampire_A1_SUP") ? damageScale(sIntellect, 70, 530) : damageScale(sIntellect, 37, 279)</sString>
+							<sString>tal("Vampire_A1_SUP") ? damageScale(sIntellect, 67, 502) : damageScale(sIntellect, 37, 279)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -672,9 +672,9 @@
 					<UnitConstant>
 						<name>A1_FXDelay</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzcxMPg==</compiledString>
+							<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 							<returnType>float</returnType>
-							<sString>0.2</sString>
+							<sString>0.0</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -828,7 +828,7 @@
 	<talentRollGroups>63</talentRollGroups>
 	<talentStats />
 	<targetType>672923711</targetType>
-	<type>Channelling</type>
+	<type>Active</type>
 	<upgradeLevel>0</upgradeLevel>
 	<useRange>
 		<compiledString>FQkAAAABAAAAFQAAAEExX1JhbmdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>

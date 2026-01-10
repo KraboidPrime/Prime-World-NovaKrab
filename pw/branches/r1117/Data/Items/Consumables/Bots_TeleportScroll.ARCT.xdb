@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Consumable>
+	<BackLink DBID="/Buildings/DefaultStats/Basic.CNSH" Count="2" />
+	<BackLink DBID="/Buildings/DefaultStats/Basic_NY.CNSH" Count="1" />
+	<BackLink DBID="/Buildings/DefaultStats/Secret.CNSH" Count="1" />
+	<BackLink DBID="/Buildings/DefaultStats/Secret_NY.CNSH" Count="1" />
+	<BackLink DBID="/GameLogic/Scoring.SCTB" Count="1" />
+	<BackLink DBID="/Items/Consumables/TeleportScroll.ARCT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level4/status_G336_TelBlock.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/TalentKits/Redset9_6_DeathCompensation/Programm_Redset9_6_CompensationTP.APLR" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/MidOnly/Scoring.SCTB" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/MOBA/_.SCTB" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/MOBA/Shops/Mod9_A.SHOP" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/MOBA/Shops/Mod9_B.SHOP" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/MOBA/Shops/Mod9_N.SHOP" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/MOBA/Tutorial/_.SCTB" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/PFmap/_.SCTB" Count="1" />
+	<BackLink DBID="/Maps/PvE/Series/Coop1/_.ADMPDSCR" Count="1" />
+	<BackLink DBID="/Maps/PvE/Series/Coop1/Blue.ADMPDSCR" Count="1" />
+	<BackLink DBID="/Maps/PvE/Series/Coop1/Green.ADMPDSCR" Count="1" />
+	<BackLink DBID="/Maps/PvE/Series/Coop1/Orange.ADMPDSCR" Count="1" />
+	<BackLink DBID="/Maps/PvE/Series/Coop1/Red.ADMPDSCR" Count="1" />
+	<BackLink DBID="/Maps/PvE/Series/Coop1/Test_2x2_Blue.ADMPDSCR" Count="1" />
+	<BackLink DBID="/Maps/PvE/Series/Coop1/Violet.ADMPDSCR" Count="1" />
+	<BackLink DBID="/Maps/Test/BalanseTest/Shops/_N.SHOP" Count="1" />
+	<BackLink DBID="/Maps/Test/DesignArtTest/Buildings/_N.SHOP" Count="1" />
+	<BackLink DBID="/Test/Talents/TST_TeleportCost.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level6/G728_StrOrInt.TALENT" Count="1" />
+	<BackLink DBID="/Buildings/DefaultStats/Basic_Bots.CNSH" Count="1" />
+	<activeCustomTrigger>true</activeCustomTrigger>
+	<allowChase>
+		<compiledString></compiledString>
+		<returnType>bool</returnType>
+		<sString>true</sString>
+	</allowChase>
+	<alternativeTargets />
+	<aoeDisplayOnMinimap>false</aoeDisplayOnMinimap>
+	<aoeHeight>0</aoeHeight>
+	<aoeMaterial href="" />
+	<aoePassabilityCheckMode>0</aoePassabilityCheckMode>
+	<aoeSize>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</aoeSize>
+	<aoeType>None</aoeType>
+	<applicators>
+		<Item href="/Items/Consumables/Bots_TeleportScroll.ARCT" id="629E7B16-025E-4571-8304-C0F048F0A257">
+			<SpellApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<caption>сам блинк</caption>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<spell href="/Items/Consumables/Bots_TeleportScroll.ARCT" id="082F8575-A2B9-4B3D-8693-8D9C2885BE22">
+					<Spell>
+						<applicators>
+							<Item href="/Items/Consumables/Bots_TeleportScroll.ARCT" id="8EC9C668-A692-4AA4-8601-51C9260E2C2D">
+								<TeleportApplicator>
+									<appearEffect href="" />
+									<applyTarget>AbilityOwner</applyTarget>
+									<caption>телепорт</caption>
+									<disappearEffect href="" />
+									<enabled>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<LoggingEvent>-1</LoggingEvent>
+									<maxDistance>
+										<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAB6RQ==</compiledString>
+										<returnType>float</returnType>
+										<sString>4000</sString>
+									</maxDistance>
+									<notifyInboundDispatches>true</notifyInboundDispatches>
+									<providerName></providerName>
+									<pushUnits>false</pushUnits>
+									<teleportTarget>ApplicatorTarget</teleportTarget>
+								</TeleportApplicator>
+							</Item>
+						</applicators>
+						<dispatch href="/Items/Consumables/Bots_TeleportScroll.ARCT" id="3DB45B69-817A-492F-A209-7132A63DB519">
+							<DispatchImmediate>
+								<alwaysApply>false</alwaysApply>
+								<applyEffect>
+									<Item href="" />
+									<Item href="" />
+								</applyEffect>
+								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+								<applyEffectOrientation>Default</applyEffectOrientation>
+								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+								<dieAfterApply>true</dieAfterApply>
+								<dispatchEffect>
+									<Item href="" />
+									<Item href="" />
+								</dispatchEffect>
+								<flags>0</flags>
+								<instantApply>false</instantApply>
+							</DispatchImmediate>
+						</dispatch>
+					</Spell>
+				</spell>
+				<spellTarget>ApplicatorTarget</spellTarget>
+				<targetSelector href="/Items/Consumables/Bots_TeleportScroll.ARCT" id="D40F6CAD-CD96-4C4C-9480-F86C67C62190">
+					<UnitPlaceCorrector>
+						<checkByRangeToRequester>true</checkByRangeToRequester>
+						<checkLineOfSight>false</checkLineOfSight>
+						<nativeTerrainOnly>false</nativeTerrainOnly>
+						<passabilityCheckMode>6</passabilityCheckMode>
+						<radius>4000</radius>
+						<targetSelector href="/Items/Consumables/Bots_TeleportScroll.ARCT" id="29C28706-8AE1-4366-B564-E9281C69A91F">
+							<SelectApplicatorTarget>
+								<applicatorIndex>0</applicatorIndex>
+								<applicatorName></applicatorName>
+								<namedApplicatorTarget>ApplicatorTarget</namedApplicatorTarget>
+								<selectTarget>ApplicatorTarget</selectTarget>
+							</SelectApplicatorTarget>
+						</targetSelector>
+					</UnitPlaceCorrector>
+				</targetSelector>
+			</SpellApplicator>
+		</Item>
+		<Item href="/Items/Consumables/Bots_TeleportScroll.ARCT" id="924D5F07-DCA9-4403-AC17-6B8CE063A8C2">
+			<UIMessageApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption></caption>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<message textref="" />
+				<providerName></providerName>
+				<uiEvent href="/Items/Consumables/Bots_TeleportScroll.ARCT" id="ABEC3DA7-8DC8-4034-AFDC-C4C0CE2D0711">
+					<UIEvent>
+						<signRecipients>ALL_PLAYERS</signRecipients>
+						<UISigns>
+							<Item href="/Items/Consumables/Bots_TeleportScroll.ARCT" id="8F06D140-CBDF-4E93-97C1-D3FFF33D2AD9">
+								<UISignMessageToChat>
+									<channel>Achievments</channel>
+									<messages>
+										<Item textref="/Items/Consumables/Bots_TeleportScroll.ARCT_8f06d140cbdf4e9397c1d3fff33d2ad9_messages_0.txt" />
+										<Item textref="" />
+										<Item textref="" />
+									</messages>
+									<signRecipients>USE_FROM_PARENT</signRecipients>
+								</UISignMessageToChat>
+							</Item>
+						</UISigns>
+					</UIEvent>
+				</uiEvent>
+				<value>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</value>
+			</UIMessageApplicator>
+		</Item>
+	</applicators>
+	<autoTargetSelector href="" />
+	<caption></caption>
+	<castAllowRange>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</castAllowRange>
+	<castLimitations />
+	<commonDescription textref="/Items/Consumables/Bots_TeleportScroll.ARCT_commonDescription.txt" />
+	<compiledDescriptionA textref="" />
+	<compiledDescriptionB textref="" />
+	<conditionFormulas />
+	<constants href="/Items/Consumables/Bots_TeleportScroll.ARCT" id="1260287B-B923-442E-A5DE-D419C9F4A323">
+		<UnitConstantsContainer>
+			<vars>
+				<Item href="/Items/Consumables/Bots_TeleportScroll.ARCT" id="6AEA9F29-A355-4534-B5C9-CB013FAE6A86">
+					<UnitConstant>
+						<name>Channeling_Time</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
+							<returnType>float</returnType>
+							<sString>2</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+			</vars>
+		</UnitConstantsContainer>
+	</constants>
+	<cooldownTime>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
+		<returnType>float</returnType>
+		<sString>2</sString>
+	</cooldownTime>
+	<cooldownTimeSecondState>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</cooldownTimeSecondState>
+	<description textref="/Items/Consumables/Bots_TeleportScroll.ARCT_description.txt" />
+	<dispatch href="/Items/Consumables/Bots_TeleportScroll.ARCT" id="38855C97-1DE8-4BD3-A081-9FF45AC2A5B8">
+		<DispatchImmediate>
+			<alwaysApply>false</alwaysApply>
+			<applyEffect>
+				<Item href="" />
+				<Item href="" />
+			</applyEffect>
+			<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+			<applyEffectOrientation>Default</applyEffectOrientation>
+			<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+			<dieAfterApply>true</dieAfterApply>
+			<dispatchEffect>
+				<Item href="" />
+				<Item href="" />
+			</dispatchEffect>
+			<flags>0</flags>
+			<instantApply>false</instantApply>
+		</DispatchImmediate>
+	</dispatch>
+	<flags>19</flags>
+	<gameObject href="" />
+	<image href="/UI/Styles/Icons/Talents/_291.ITEX" />
+	<imageSecondState href="" />
+	<isPotion>true</isPotion>
+	<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
+	<manaCost>
+		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+		<returnType>float</returnType>
+		<sString>0</sString>
+	</manaCost>
+	<marker></marker>
+	<maxQuantity>0</maxQuantity>
+	<microAI href="" />
+	<minUseRangeCorrection>0</minUseRangeCorrection>
+	<naftaCost>50</naftaCost>
+	<name textref="/Items/Consumables/Bots_TeleportScroll.ARCT_name.txt" />
+	<node></node>
+	<passiveApplicators>
+		<Item href="/Items/Consumables/Bots_TeleportScroll.ARCT" id="A0D877EF-CF21-4A28-BCB0-313D7115F1F8">
+			<FlagsApplicator parent="/GameLogic/GeneralApplicators/ForbidTalentByCondition.APLR">
+				<consumables>
+					<Item href="/Items/Consumables/TeleportScroll.ARCT" />
+				</consumables>
+				<flag>512</flag>
+				<talents>
+					<Item delete="1" />
+				</talents>
+			</FlagsApplicator>
+		</Item>
+	</passiveApplicators>
+	<persistentId></persistentId>
+	<requireLineOfSight>false</requireLineOfSight>
+	<shortDescription textref="/Items/Consumables/Bots_TeleportScroll.ARCT_shortDescription.txt" />
+	<targetType>16777216</targetType>
+	<type>Active</type>
+	<useRange>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAB6RQ==</compiledString>
+		<returnType>float</returnType>
+		<sString>4000</sString>
+	</useRange>
+	<useRangeMaterial href="" />
+	<warFogRemoveRadius>0</warFogRemoveRadius>
+	<warFogRemoveTime>0</warFogRemoveTime>
+</Consumable>

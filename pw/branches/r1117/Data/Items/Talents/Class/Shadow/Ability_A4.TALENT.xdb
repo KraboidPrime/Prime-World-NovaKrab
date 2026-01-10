@@ -21,7 +21,7 @@
 	<aoeSize>
 		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 		<returnType>float</returnType>
-		<sString>0</sString>
+		<sString>0.0f</sString>
 	</aoeSize>
 	<aoeType>None</aoeType>
 	<applicators>
@@ -134,6 +134,140 @@
 											<type>None</type>
 										</AuraApplicator>
 									</Item>
+									<Item href="/Items/Talents/Class/Shadow/Ability_A4.TALENT" id="2D6C9698-AA31-435B-A592-F54D4B41EF47">
+										<AuraApplicator>
+											<applicators>
+												<Item href="/Items/Talents/Class/Shadow/Ability_A4.TALENT" id="0EC7D8B5-DD29-4B4B-A354-6BA8994930CB">
+													<SpellPeriodicallyApplicator>
+														<applyTarget>ApplicatorTarget</applyTarget>
+														<behaviorFlags>153</behaviorFlags>
+														<caption>хитрое сало</caption>
+														<effect>
+															<Item href="" />
+															<Item href="" />
+														</effect>
+														<enabled>
+															<compiledString></compiledString>
+															<returnType>bool</returnType>
+															<sString>true</sString>
+														</enabled>
+														<formulaName></formulaName>
+														<lifeTime>
+															<compiledString></compiledString>
+															<returnType>float</returnType>
+															<sString>-1.0</sString>
+														</lifeTime>
+														<LoggingEvent>-1</LoggingEvent>
+														<period>
+															<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
+															<returnType>float</returnType>
+															<sString>2</sString>
+														</period>
+														<providerName></providerName>
+														<scaleMode>ScaleIsCount</scaleMode>
+														<spell href="/Items/Talents/Class/Shadow/Ability_A4.TALENT" id="FADD02BF-1833-4687-9581-2BC665CF05CD">
+															<Spell>
+																<applicators>
+																	<Item href="/Heroes/DefaultStatus/_SILENCE_Status.APLR" />
+																</applicators>
+																<dispatch href="/Items/Talents/Class/Shadow/Ability_A4.TALENT" id="7369D530-AEAB-43D4-AF0E-E6E438675514">
+																	<DispatchImmediate>
+																		<alwaysApply>false</alwaysApply>
+																		<applyEffect>
+																			<Item href="" />
+																			<Item href="" />
+																		</applyEffect>
+																		<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																		<applyEffectOrientation>Default</applyEffectOrientation>
+																		<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																		<dieAfterApply>true</dieAfterApply>
+																		<dispatchEffect>
+																			<Item href="" />
+																			<Item href="" />
+																		</dispatchEffect>
+																		<flags>0</flags>
+																		<instantApply>false</instantApply>
+																	</DispatchImmediate>
+																</dispatch>
+															</Spell>
+														</spell>
+														<startCondition>
+															<compiledString></compiledString>
+															<returnType>bool</returnType>
+															<sString>true</sString>
+														</startCondition>
+														<startOffset>
+															<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+															<returnType>float</returnType>
+															<sString>1</sString>
+														</startOffset>
+														<targetSelector href="" />
+													</SpellPeriodicallyApplicator>
+												</Item>
+											</applicators>
+											<applyTarget>ApplicatorTarget</applyTarget>
+											<behaviorFlags>153</behaviorFlags>
+											<caption>AoE on the ground сало</caption>
+											<effect>
+												<Item href="" />
+												<Item href="" />
+											</effect>
+											<enabled>
+												<compiledString>FRcAAAACAAAAHgAAADcAAABTaGFkb3dfQTR1AABTaGFkb3dfQTR1AFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoDAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAikX7i+Vdww==</compiledString>
+												<returnType>bool</returnType>
+												<sString>tal("Shadow_A4u") </sString>
+											</enabled>
+											<formulaName></formulaName>
+											<lifeTime>
+												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAvw==</compiledString>
+												<returnType>float</returnType>
+												<sString>-1</sString>
+											</lifeTime>
+											<LoggingEvent>-1</LoggingEvent>
+											<providerName></providerName>
+											<range>
+												<compiledString>FQoAAAABAAAAFgAAAEE0X1JhZGl1cwBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+												<returnType>float</returnType>
+												<sString>cA4_Radius</sString>
+											</range>
+											<startCondition>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</startCondition>
+											<targets>0</targets>
+											<targetSelector href="/Items/Talents/Class/Shadow/Ability_A4.TALENT" id="061024E9-8523-4576-AA74-7B96F68263F3">
+												<AreaTargetSelector>
+													<absolutePosition>
+														<x>0</x>
+														<y>0</y>
+													</absolutePosition>
+													<flags>0</flags>
+													<mode>Normal</mode>
+													<range>
+														<compiledString>FQoAAAABAAAAFgAAAEE0X1JhZGl1cwBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+														<returnType>float</returnType>
+														<sString>cA4_Radius</sString>
+													</range>
+													<targetFilter>536870915</targetFilter>
+													<targetSelector href="/Items/Talents/Class/Shadow/Ability_A4.TALENT" id="2F705DF6-D444-437D-8584-5711AE7B1873">
+														<ConvertTargetToLand>
+															<aggregateMode>First</aggregateMode>
+															<targetSelector href="/Items/Talents/Class/Shadow/Ability_A4.TALENT" id="FE30F962-7890-44F5-8F1B-F41DAE160CD2">
+																<SelectApplicatorTarget>
+																	<applicatorIndex>0</applicatorIndex>
+																	<applicatorName></applicatorName>
+																	<namedApplicatorTarget>ApplicatorTarget</namedApplicatorTarget>
+																	<selectTarget>CastPosition</selectTarget>
+																</SelectApplicatorTarget>
+															</targetSelector>
+														</ConvertTargetToLand>
+													</targetSelector>
+												</AreaTargetSelector>
+											</targetSelector>
+											<type>None</type>
+										</AuraApplicator>
+									</Item>
 								</persistentApplicators>
 							</DispatchByTime>
 						</dispatch>
@@ -228,9 +362,9 @@
 					<UnitConstant>
 						<name>Dec_MoveSpeed</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAA0Qg==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQg==</compiledString>
 							<returnType>float</returnType>
-							<sString>45.0f</sString>
+							<sString>60.0f</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -291,6 +425,16 @@
 							<compiledString>FQAAAAAAAAAAVYvsUYtFDIsQi00Mi0JQ/9AzyYP4Ag+VwYlN/NtF/IvlXcM=</compiledString>
 							<returnType>float</returnType>
 							<sString>rUnitKind != 2</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Shadow/Ability_A4.TALENT" id="99CB1F24-9E42-413D-9888-877319177EFE">
+					<UnitConstant>
+						<name>Silence_Duration</name>
+						<var>
+							<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+							<returnType>float</returnType>
+							<sString>1</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -400,11 +544,11 @@
 	<type>Active</type>
 	<upgradeLevel>0</upgradeLevel>
 	<useRange>
-		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+		<compiledString>FQoAAAABAAAAFgAAAEE0X1JhZGl1cwBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
 		<returnType>float</returnType>
-		<sString>0</sString>
+		<sString>cA4_Radius</sString>
 	</useRange>
-	<useRangeMaterial href="" />
+	<useRangeMaterial href="/Effects/UI/AOESelection/Circle.MTRL" />
 	<variativeMaxTalentStats />
 	<variativeMinTalentStats />
 	<vendorCost>0</vendorCost>

@@ -279,6 +279,16 @@
 						</var>
 					</UnitConstant>
 				</Item>
+				<Item href="/Items/Talents/Class/WitchDoctor/Ability4.TALENT" id="25802D2A-FD8E-4263-AAE5-C37E9B523417">
+					<UnitConstant>
+						<name>A4_Buff</name>
+						<var>
+							<compiledString>FRwAAAACAAAAIwAAADkAAABXaXRjaERvY3Rvcl9FdmlsVHJlZUNvdW50ZXIAVYvsg+wMaAAAAACLRQiLEItNCIuCiAEAAP/Q3A19AAAAi00IixGLTQiLgjABAADdXfj/0FHZHCSLTQiLEYtNCIuCNAEAAP/QUdkcJOgYAAAAg8QI3E342V302UX0i+Vdw3sUrkfhepQ/VYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
+							<returnType>float</returnType>
+							<sString>sender.vWitchDoctor_EvilTreeCounter*0.02*max(sIntellect,sStrength)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
@@ -287,9 +297,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQQ==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACwQQ==</compiledString>
 		<returnType>float</returnType>
-		<sString>25</sString>
+		<sString>22</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>
@@ -502,6 +512,204 @@
 				<useAbilityCooldown>false</useAbilityCooldown>
 				<useAbilityOwnerMana>false</useAbilityOwnerMana>
 			</TriggerApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/WitchDoctor/Ability4.TALENT" id="19D56309-8BF4-4885-92AC-C8997CC75466">
+			<StatusApplicator>
+				<applicators>
+					<Item href="/Items/Talents/Class/WitchDoctor/Ability4.TALENT" id="83A6675F-94ED-4B41-BE5E-BA71F956B4C2">
+						<StatModApplicator>
+							<applyTarget>ApplicatorTarget</applyTarget>
+							<behaviorFlags>216</behaviorFlags>
+							<caption>Баф</caption>
+							<constraint>None</constraint>
+							<dontUpdate>false</dontUpdate>
+							<effect>
+								<Item href="" />
+								<Item href="" />
+							</effect>
+							<enabled>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</enabled>
+							<formulaName></formulaName>
+							<lifeTime>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>-1.0</sString>
+							</lifeTime>
+							<LoggingEvent>-1</LoggingEvent>
+							<modifier>
+								<addValue>
+									<compiledString>FQgAAAABAAAAFAAAAEE0X0J1ZmYAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+									<returnType>float</returnType>
+									<sString>cA4_Buff</sString>
+								</addValue>
+								<multValue>
+									<compiledString></compiledString>
+									<returnType>float</returnType>
+									<sString>1.0f</sString>
+								</multValue>
+								<stat>Stamina</stat>
+								<topModifier>false</topModifier>
+								<variable></variable>
+							</modifier>
+							<providerName></providerName>
+							<startCondition>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</startCondition>
+							<statModName></statModName>
+						</StatModApplicator>
+					</Item>
+				</applicators>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>Стойкость</caption>
+				<customCounter>
+					<compiledString>FRwAAAABAAAAIAAAAFdpdGNoRG9jdG9yX0V2aWxUcmVlQ291bnRlcgBVi+xoAAAAAItFCIsQi00Ii4KIAQAA/9BR2Rwk6AUAAACDxARdw7gBAAAAD6L3wgAAAAR0B/MPLEQkBMPpAAAAAFWL7IPsDNlFCNl9/A+3RfwNAAwAAIlF+Nlt+Ntd9Nlt/ItF9IvlXcM=</compiledString>
+					<returnType>int</returnType>
+					<sString>f2l(sender.vWitchDoctor_EvilTreeCounter)</sString>
+				</customCounter>
+				<customProgress>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</customProgress>
+				<description textref="/Items/Talents/Class/WitchDoctor/Ability4.TALENT_19d563098bf4488592acc8997cc75466_description.txt" />
+				<dispellPriority>NonDispellable</dispellPriority>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FRYAAAACAAAAHQAAADYAAABWZWR1bl9BNHUAAABWZWR1bl9BNHUAVYvsg+wUaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgMAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0NotVCIsCi00Ii5DIAAAA/9KLRQiLEItNCIuCzAAAAN1d8P/Q3F3w3+D2xEF6CcdF7AEAAADrB8dF7AAAAACKReyL5V3D</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("Vedun_A4u") &amp;&amp; sBaseStamina &gt;= sBaseWill</sString>
+				</enabled>
+				<flags>64</flags>
+				<formulaName></formulaName>
+				<image href="/UI/Styles/Icons/Heroes/WitchDoctor/A4.ITEX" />
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<name textref="/Items/Talents/Class/WitchDoctor/Ability4.TALENT_19d563098bf4488592acc8997cc75466_name.txt" />
+				<power>0</power>
+				<providerName></providerName>
+				<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+				<stackCount>0</stackCount>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statusPosition>0</statusPosition>
+				<stopBehaviour>StopByTime</stopBehaviour>
+				<unstackableWith href="" />
+			</StatusApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/WitchDoctor/Ability4.TALENT" id="B0E5C68B-5495-4629-A301-F4B6D57EBF02">
+			<StatusApplicator>
+				<applicators>
+					<Item href="/Items/Talents/Class/WitchDoctor/Ability4.TALENT" id="56EDCC7D-A3FE-4A94-9C2B-38A73B2B3FB5">
+						<StatModApplicator>
+							<applyTarget>ApplicatorTarget</applyTarget>
+							<behaviorFlags>216</behaviorFlags>
+							<caption>Баф</caption>
+							<constraint>None</constraint>
+							<dontUpdate>false</dontUpdate>
+							<effect>
+								<Item href="" />
+								<Item href="" />
+							</effect>
+							<enabled>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</enabled>
+							<formulaName></formulaName>
+							<lifeTime>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>-1.0</sString>
+							</lifeTime>
+							<LoggingEvent>-1</LoggingEvent>
+							<modifier>
+								<addValue>
+									<compiledString>FQgAAAABAAAAFAAAAEE0X0J1ZmYAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+									<returnType>float</returnType>
+									<sString>cA4_Buff</sString>
+								</addValue>
+								<multValue>
+									<compiledString></compiledString>
+									<returnType>float</returnType>
+									<sString>1.0f</sString>
+								</multValue>
+								<stat>Will</stat>
+								<topModifier>false</topModifier>
+								<variable></variable>
+							</modifier>
+							<providerName></providerName>
+							<startCondition>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</startCondition>
+							<statModName></statModName>
+						</StatModApplicator>
+					</Item>
+				</applicators>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>Воля</caption>
+				<customCounter>
+					<compiledString>FRwAAAABAAAAIAAAAFdpdGNoRG9jdG9yX0V2aWxUcmVlQ291bnRlcgBVi+xoAAAAAItFCIsQi00Ii4KIAQAA/9BR2Rwk6AUAAACDxARdw7gBAAAAD6L3wgAAAAR0B/MPLEQkBMPpAAAAAFWL7IPsDNlFCNl9/A+3RfwNAAwAAIlF+Nlt+Ntd9Nlt/ItF9IvlXcM=</compiledString>
+					<returnType>int</returnType>
+					<sString>f2l(sender.vWitchDoctor_EvilTreeCounter)</sString>
+				</customCounter>
+				<customProgress>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</customProgress>
+				<description textref="/Items/Talents/Class/WitchDoctor/Ability4.TALENT_b0e5c68b54954629a301f4b6d57ebf02_description.txt" />
+				<dispellPriority>NonDispellable</dispellPriority>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FRYAAAACAAAAHQAAADYAAABWZWR1bl9BNHUAAABWZWR1bl9BNHUAVYvsg+wUaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgMAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0NotVCIsCi00Ii5DIAAAA/9KLRQiLEItNCIuCzAAAAN1d8P/Q3F3w3+D2xEF1CcdF7AEAAADrB8dF7AAAAACKReyL5V3D</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("Vedun_A4u") &amp;&amp; sBaseStamina &lt; sBaseWill</sString>
+				</enabled>
+				<flags>64</flags>
+				<formulaName></formulaName>
+				<image href="/UI/Styles/Icons/Heroes/WitchDoctor/A4.ITEX" />
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<name textref="/Items/Talents/Class/WitchDoctor/Ability4.TALENT_b0e5c68b54954629a301f4b6d57ebf02_name.txt" />
+				<power>0</power>
+				<providerName></providerName>
+				<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+				<stackCount>0</stackCount>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statusPosition>0</statusPosition>
+				<stopBehaviour>StopByTime</stopBehaviour>
+				<unstackableWith href="" />
+			</StatusApplicator>
 		</Item>
 	</passiveApplicators>
 	<persistentId>Vedun_A4</persistentId>

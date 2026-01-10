@@ -734,7 +734,7 @@
 					<instantApply>false</instantApply>
 				</DispatchImmediate>
 			</dispatch>
-			<flags>1</flags>
+			<flags>5</flags>
 			<image href="" />
 			<imageSecondState href="" />
 			<isMelee>true</isMelee>
@@ -1077,9 +1077,9 @@
 					<levelUpgrades />
 					<statId>LifeRegenerationAbsolute</statId>
 					<value>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DMzPTPw==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DMzNTQA==</compiledString>
 						<returnType>float</returnType>
-						<sString>1.65</sString>
+						<sString>3.3</sString>
 					</value>
 				</Item>
 				<Item>

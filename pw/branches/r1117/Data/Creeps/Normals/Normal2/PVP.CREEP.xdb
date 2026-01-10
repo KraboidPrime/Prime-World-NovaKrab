@@ -21,9 +21,9 @@
 						<applyTarget>ApplicatorTarget</applyTarget>
 						<caption>вероятность ослепить</caption>
 						<enabled>
-							<compiledString></compiledString>
+							<compiledString>FQUAAAACAAAAMgAAAFYAAABXYXJkAFWL7FFR2ejZHCRR2e7ZHCRqAYtFDIsQi00Mi0JY/9APtshR6GkAAACDxAzcHYYAAADf4PbERHs7i1UMiwKLTQyLUFD/0oP4EXQpagCLRRBQaAAAAACLTQyLEYtNDIuCnAEAAP/QO0UQdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAAAAAAAAAAAgD9Vi+xRD7ZFCIXAdAjZRQzZXfzrBtlFENld/NlF/IvlXcM=</compiledString>
 							<returnType>bool</returnType>
-							<sString>true</sString>
+							<sString>ut_bldg(false, true) &amp;&amp; rUnitKind != 17 &amp;&amp; receiver.applWard(GLOBAL) == pMisc</sString>
 						</enabled>
 						<formulaName></formulaName>
 						<LoggingEvent>-1</LoggingEvent>
@@ -131,6 +131,7 @@
 												</Item>
 												<Item skip="1" />
 											</applicators>
+											<description textref="/Creeps/Normals/Normal2/PVP.CREEP_aac5ff0f38824237b9e4b9fa903e86e0_description.txt" />
 											<image href="/UI/Styles/Icons/Statuses/Neutral/rage.ITEX" />
 											<lifeTime>
 												<compiledString>FQ4AAAABAAAAGgAAAEJ1cm5fRHVyYXRpb24AVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>

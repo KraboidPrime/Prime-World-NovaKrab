@@ -860,7 +860,7 @@
 					<toLocator>Body</toLocator>
 				</DispatchLinear>
 			</dispatch>
-			<flags>1</flags>
+			<flags>5</flags>
 			<image href="" />
 			<imageSecondState href="" />
 			<isMelee>false</isMelee>
@@ -1115,9 +1115,9 @@
 					<levelUpgrades />
 					<statId>Strength</statId>
 					<value>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABMQg==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABsQg==</compiledString>
 						<returnType>float</returnType>
-						<sString>51</sString>
+						<sString>59</sString>
 					</value>
 				</Item>
 				<Item>
@@ -1163,9 +1163,9 @@
 					<levelUpgrades />
 					<statId>AttackSpeed</statId>
 					<value>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAA+Qg==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABeQg==</compiledString>
 						<returnType>float</returnType>
-						<sString>47.5</sString>
+						<sString>55.5</sString>
 					</value>
 				</Item>
 				<Item>

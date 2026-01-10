@@ -99,6 +99,7 @@
 					</UnitConstant>
 				</Item>
 				<Item href="/Items/Talents/Class/Night/const_A2_2_Damage" />
+				<Item href="/Items/Talents/Class/Night/const_A2u_StunDuration" />
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

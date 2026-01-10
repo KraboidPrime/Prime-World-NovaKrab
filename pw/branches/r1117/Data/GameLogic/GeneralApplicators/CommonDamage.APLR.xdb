@@ -3,7 +3,6 @@
 	<BackLink DBID="/Creeps/Normals/Normal4/PvP_NY.CREEP" Count="1" />
 	<BackLink DBID="/Heroes/Artist/_.HROB" Count="1" />
 	<BackLink DBID="/Heroes/Dryad/_.HROB" Count="1" />
-	<BackLink DBID="/Heroes/FallenAngel/FallenAngel_DamageApplicator.APLR" Count="2" />
 	<BackLink DBID="/Heroes/PinkGirl/_.HROB" Count="1" />
 	<BackLink DBID="/Heroes/Reaper/_.HROB" Count="1" />
 	<BackLink DBID="/Heroes/Werewolf/AttackAbility.ATCK" Count="2" />

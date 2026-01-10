@@ -535,6 +535,16 @@
 				<name>Unicorn_A1u</name>
 			</ConditionFormula>
 		</Item>
+		<Item href="/Items/Talents/Class/Unicorn/Ability1.TALENT" id="D1EA836F-98BD-4755-A4D9-CEBE5276C7DF">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FR8AAAACAAAAJgAAAD8AAABVbmljb3JuX0ExX1NVUAAAVW5pY29ybl9BMV9TVVAAVYvsg+wIaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtkX799gbwIPAAYvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("Unicorn_A1_SUP") == false</sString>
+				</condition>
+				<name>Unicorn_A1SUP</name>
+			</ConditionFormula>
+		</Item>
 	</conditionFormulas>
 	<conflictingTalents />
 	<constants href="/Items/Talents/Class/Unicorn/Ability1.TALENT" id="F23BED40-33D3-4A91-AB37-A3E185D64CFA">
@@ -596,9 +606,9 @@
 					<UnitConstant>
 						<name>Heal_Cap</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACsQgAAIUQ=</compiledString>
+							<compiledString>FR8AAAAGAAAAJgAAAD8AAAB5AAAAgwAAANgAAADiAAAAVW5pY29ybl9BMV9TVVAAAFVuaWNvcm5fQTFfU1VQAFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdF9qAVHZBRwBAADZHCRR2QUYAQAA2RwkagCLVQiLAotNCIuQRAEAAP/SUdkcJItFCIsQi00Ii4I0AQAA/9BR2Rwk6GcAAACDxATZHCRqAYtNEIsRi00Qi0Jg/9DZXfTrPmoBUdkFHAEAANkcJFHZBRgBAADZHCRqAItNCIsRi00Ii4JEAQAA/9BR2RwkagGLTRCLEYtNEItCYP/Q2V302UX0i+VdwwAArEIAACFEVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale( sIntellect, 86, 644 )</sString>
+							<sString>tal("Unicorn_A1_SUP") ? damageScale( max(sIntellect, sWill), 86, 644 ) : damageScale( sWill, 86, 644 )</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -606,9 +616,9 @@
 					<UnitConstant>
 						<name>A1_BaseHeal</name>
 						<var>
-							<compiledString>FR8AAAAGAAAAJgAAAD8AAAB5AAAAgwAAALkAAADDAAAAVW5pY29ybl9BMV9TVVAAAFVuaWNvcm5fQTFfU1VQAFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdEBqAVHZBQUBAADZHCRR2QUBAQAA2RwkagCLVQiLAotNCIuQNAEAAP/SUdkcJGoBi0UQixCLTRCLQmD/0Nld9Os+agFR2QX9AAAA2RwkUdkF+QAAANkcJGoAi00IixGLTQiLgjQBAAD/0FHZHCRqAYtNEIsRi00Qi0Jg/9DZXfTZRfSL5V3DAADYQQAASEMAAFhCAADIQw==</compiledString>
+							<compiledString>FR8AAAAGAAAAJgAAAD8AAAB5AAAAgwAAANgAAADiAAAAVW5pY29ybl9BMV9TVVAAAFVuaWNvcm5fQTFfU1VQAFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdF9qAVHZBSQBAADZHCRR2QUgAQAA2RwkagCLVQiLAotNCIuQRAEAAP/SUdkcJItFCIsQi00Ii4I0AQAA/9BR2Rwk6G8AAACDxATZHCRqAYtNEIsRi00Qi0Jg/9DZXfTrPmoBUdkFHAEAANkcJFHZBRgBAADZHCRqAItNCIsRi00Ii4JEAQAA/9BR2RwkagGLTRCLEYtNEItCYP/Q2V302UX0i+VdwwAA2EEAAEhDAABYQgAAyENVi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
 							<returnType>float</returnType>
-							<sString>tal("Unicorn_A1_SUP") ? damageScale( sIntellect, 54, 400 ) : damageScale( sIntellect, 27, 200 )</sString>
+							<sString>tal("Unicorn_A1_SUP") ? damageScale( max(sIntellect, sWill), 54, 400 ) : damageScale( sWill, 27, 200 )</sString>
 						</var>
 					</UnitConstant>
 				</Item>

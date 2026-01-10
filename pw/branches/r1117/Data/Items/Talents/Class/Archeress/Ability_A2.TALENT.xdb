@@ -110,12 +110,27 @@
 										<Spell>
 											<applicators>
 												<Item href="/Items/Talents/Class/Archeress/Ability_A2.TALENT" id="D4CD79B2-799E-4CB9-9830-EDE0A1AC4518">
-													<TeleportApplicator parent="/GameLogic/GeneralApplicators/Teleport.APLR">
+													<TeleportApplicator>
+														<appearEffect href="" />
+														<applyTarget>ApplicatorTarget</applyTarget>
+														<caption>Teleport</caption>
+														<disappearEffect href="" />
 														<enabled>
 															<compiledString>FQYAAAACAAAACwAAACEAAABJc1BldABVi+xRaAAAAACLRQyLEItNDIuCiAEAAP/Q3B1DAAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAA8D8=</compiledString>
 															<returnType>bool</returnType>
 															<sString>receiver.vIsPet == 1.0f </sString>
 														</enabled>
+														<formulaName></formulaName>
+														<LoggingEvent>-1</LoggingEvent>
+														<maxDistance>
+															<compiledString></compiledString>
+															<returnType>float</returnType>
+															<sString>0.0f</sString>
+														</maxDistance>
+														<notifyInboundDispatches>true</notifyInboundDispatches>
+														<providerName></providerName>
+														<pushUnits>false</pushUnits>
+														<teleportTarget>Hier1UpApplicatorTarget</teleportTarget>
 													</TeleportApplicator>
 												</Item>
 												<Item href="/GameLogic/GeneralApplicators/SetTeleported.APLR" />

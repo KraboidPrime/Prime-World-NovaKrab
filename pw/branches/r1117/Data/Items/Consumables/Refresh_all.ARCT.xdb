@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Consumable>
+	<BackLink DBID="/Buildings/DefaultStats/Basic.CNSH" Count="2" />
+	<BackLink DBID="/Buildings/DefaultStats/Basic_NY.CNSH" Count="2" />
+	<BackLink DBID="/Buildings/DefaultStats/CTE_Basic.CNSH" Count="1" />
+	<BackLink DBID="/Buildings/DefaultStats/CTE_Secret.CNSH" Count="1" />
+	<BackLink DBID="/Buildings/DefaultStats/MidOnly_ShopList.CNSH" Count="1" />
+	<BackLink DBID="/Buildings/DefaultStats/Secret.CNSH" Count="1" />
+	<BackLink DBID="/Buildings/DefaultStats/Secret_NY.CNSH" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/MOBA/Shops/Mod9_A.SHOP" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/MOBA/Shops/Mod9_B.SHOP" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/MOBA/Shops/Mod9_N.SHOP" Count="1" />
+	<BackLink DBID="/Maps/PvE/Series/Episode1/buildings/Shop.SHOP" Count="1" />
+	<BackLink DBID="/Maps/Test/BalanseTest/Shops/_N.SHOP" Count="1" />
+	<BackLink DBID="/Maps/Test/DesignArtTest/Buildings/_N.SHOP" Count="1" />
+	<BackLink DBID="/Items/Talents/Level5/G727_SpdOrDex.TALENT" Count="1" />
+	<BackLink DBID="/Buildings/DefaultStats/Basic_Bots.CNSH" Count="2" />
+	<BackLink DBID="/Maps/Multiplayer/MOBA/Shops/_A_NY.SHOP" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/MOBA/Shops/_B_NY.SHOP" Count="1" />
+	<activeCustomTrigger>true</activeCustomTrigger>
+	<allowChase>
+		<compiledString></compiledString>
+		<returnType>bool</returnType>
+		<sString>true</sString>
+	</allowChase>
+	<alternativeTargets />
+	<aoeDisplayOnMinimap>false</aoeDisplayOnMinimap>
+	<aoeHeight>0</aoeHeight>
+	<aoeMaterial href="" />
+	<aoePassabilityCheckMode>0</aoePassabilityCheckMode>
+	<aoeSize>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</aoeSize>
+	<aoeType>None</aoeType>
+	<applicators>
+		<Item href="/Items/Consumables/Refresh_all.ARCT" id="E596FCAA-72B7-44B7-93E7-EF58E12C6E59">
+			<RefreshCooldownApplicator>
+				<allowCdIncrease>false</allowCdIncrease>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>Хоба</caption>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<flags>2301</flags>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<reduceByPercent>false</reduceByPercent>
+				<reductionAmount>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0f</sString>
+				</reductionAmount>
+				<refreshThis>false</refreshThis>
+				<talents />
+				<useListAs>ListAsRule</useListAs>
+			</RefreshCooldownApplicator>
+		</Item>
+		<Item href="/Items/Consumables/Refresh_all.ARCT" id="6D442A8D-ACBB-4622-B0DB-252B991DFCD5">
+			<HealApplicator>
+				<amount>
+					<compiledString>FQAAAAAAAAAAVYvsi0UIixCLTQiLQgz/0F3D</compiledString>
+					<returnType>float</returnType>
+					<sString>sMaxLife</sString>
+				</amount>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption></caption>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<healTarget>Health</healTarget>
+				<ignoreHealingMods>false</ignoreHealingMods>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<uiEvent href="" />
+			</HealApplicator>
+		</Item>
+		<Item href="/Items/Consumables/Refresh_all.ARCT" id="3A19C30A-BFFE-4050-8D6A-852027AB33AF">
+			<HealApplicator>
+				<amount>
+					<compiledString>FQAAAAAAAAAAVYvsi0UIixCLTQiLQhD/0F3D</compiledString>
+					<returnType>float</returnType>
+					<sString>sMaxEnergy</sString>
+				</amount>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption></caption>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<healTarget>Energy</healTarget>
+				<ignoreHealingMods>false</ignoreHealingMods>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<uiEvent href="" />
+			</HealApplicator>
+		</Item>
+		<Item href="/Items/Consumables/Refresh_all.ARCT" id="3C3CF128-DF60-4A5E-A967-389E4631D4A5">
+			<UIMessageApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption></caption>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<message textref="" />
+				<providerName></providerName>
+				<uiEvent href="/Items/Consumables/Refresh_all.ARCT" id="67C596B3-1E13-494E-841D-EED32FE62708">
+					<UIEvent>
+						<signRecipients>ALL_PLAYERS</signRecipients>
+						<UISigns>
+							<Item href="/Items/Consumables/Refresh_all.ARCT" id="F2120D75-C2BF-4CA0-BFC3-EDC1C3C18306">
+								<UISignMessageToChat>
+									<channel>Achievments</channel>
+									<messages>
+										<Item textref="/Items/Consumables/Refresh_all.ARCT_f2120d75c2bf4ca0bfc3edc1c3c18306_messages_0.txt" />
+										<Item textref="" />
+										<Item textref="" />
+									</messages>
+									<signRecipients>USE_FROM_PARENT</signRecipients>
+								</UISignMessageToChat>
+							</Item>
+						</UISigns>
+					</UIEvent>
+				</uiEvent>
+				<value>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</value>
+			</UIMessageApplicator>
+		</Item>
+	</applicators>
+	<autoTargetSelector href="" />
+	<caption></caption>
+	<castAllowRange>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</castAllowRange>
+	<castLimitations />
+	<commonDescription textref="/Items/Consumables/Refresh_all.ARCT_commonDescription.txt" />
+	<compiledDescriptionA textref="" />
+	<compiledDescriptionB textref="" />
+	<conditionFormulas />
+	<constants href="/Items/Consumables/Refresh_all.ARCT" id="5923C117-F1B6-46E3-9E30-D61F66AA98D4">
+		<UnitConstantsContainer>
+			<vars>
+				<Item href="/Items/Consumables/Refresh_all.ARCT" id="B08B8467-E10E-45F3-8E4E-5070320657F9">
+					<UnitConstant>
+						<name>Haste_Percent</name>
+						<var>
+							<compiledString>FTcAAAAEAAAAPgAAAFcAAACVAAAAuQAAAEhhc3RlX1BlcmNlbnRfQmFzZQAARzcyNwAAAABHNzI3AAAAAEc3MjdfSGFzdGVfUGVyY2VudABVi+yD7BBoFAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBwAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXQfi1UMUotFCFBoJAAAAItNEIsRi00Qi0JQ/9DZXfTrBdnu2V30i00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ/9DYRfTZXfDZRfCL5V3DAAAAAA==</compiledString>
+							<returnType>float</returnType>
+							<sString>cHaste_Percent_Base +( tal("G727")? cG727_Haste_Percent : 0)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Consumables/Refresh_all.ARCT" id="E3380CD3-8107-4E57-B724-3F9356BBF399">
+					<UnitConstant>
+						<name>Haste_Duration</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
+							<returnType>float</returnType>
+							<sString>10</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Consumables/Refresh_all.ARCT" id="B8E4D726-C301-4940-A9C7-11B5273B720F">
+					<UnitConstant>
+						<name>Haste_Percent_Base</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQg==</compiledString>
+							<returnType>float</returnType>
+							<sString>40</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/TalentKits/Redset7_5_Alchemy/const_Redset7_5_G727_HastePercentage" />
+			</vars>
+		</UnitConstantsContainer>
+	</constants>
+	<cooldownTime>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
+		<returnType>float</returnType>
+		<sString>2</sString>
+	</cooldownTime>
+	<cooldownTimeSecondState>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</cooldownTimeSecondState>
+	<description textref="/Items/Consumables/Refresh_all.ARCT_description.txt" />
+	<dispatch href="/Items/Consumables/Refresh_all.ARCT" id="38433A11-EA3A-4B2C-A548-EAAE6B003C7F">
+		<DispatchImmediate>
+			<alwaysApply>false</alwaysApply>
+			<applyEffect>
+				<Item href="" />
+				<Item href="" />
+			</applyEffect>
+			<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+			<applyEffectOrientation>Default</applyEffectOrientation>
+			<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+			<dieAfterApply>true</dieAfterApply>
+			<dispatchEffect>
+				<Item href="" />
+				<Item href="" />
+			</dispatchEffect>
+			<flags>0</flags>
+			<instantApply>false</instantApply>
+		</DispatchImmediate>
+	</dispatch>
+	<flags>19</flags>
+	<gameObject href="" />
+	<image href="/UI/Styles/Icons/Talents/_068.ITEX" />
+	<imageSecondState href="" />
+	<isPotion>true</isPotion>
+	<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
+	<manaCost>
+		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+		<returnType>float</returnType>
+		<sString>0</sString>
+	</manaCost>
+	<marker></marker>
+	<maxQuantity>0</maxQuantity>
+	<microAI href="" />
+	<minUseRangeCorrection>0</minUseRangeCorrection>
+	<naftaCost>50</naftaCost>
+	<name textref="/Items/Consumables/Refresh_all.ARCT_name.txt" />
+	<node></node>
+	<passiveApplicators />
+	<persistentId></persistentId>
+	<requireLineOfSight>true</requireLineOfSight>
+	<shortDescription textref="/Items/Consumables/Refresh_all.ARCT_shortDescription.txt" />
+	<targetType>0</targetType>
+	<type>Active</type>
+	<useRange>
+		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+		<returnType>float</returnType>
+		<sString>0</sString>
+	</useRange>
+	<useRangeMaterial href="" />
+	<warFogRemoveRadius>0</warFogRemoveRadius>
+	<warFogRemoveTime>0</warFogRemoveTime>
+</Consumable>

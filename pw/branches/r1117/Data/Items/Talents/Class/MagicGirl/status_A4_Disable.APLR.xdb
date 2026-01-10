@@ -2,6 +2,7 @@
 <StatusApplicator>
 	<BackLink DBID="/Items/Talents/Class/MagicGirl/Ability_A4.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Vampire/status_A4_2_DisableVampire.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A4_1.TALENT" Count="2" />
 	<applicators>
 		<Item href="/Items/Talents/Class/MagicGirl/status_A4_Disable.APLR" id="C91EEADC-BCC1-4557-9DBC-966FC5C7D7D8">
 			<FlagsApplicator>
@@ -48,7 +49,7 @@
 				</enabled>
 				<formulaName></formulaName>
 				<LoggingEvent>-1</LoggingEvent>
-				<message textref="/Items/Talents/Class/MagicGirl/status_A4_Disable.APLR_c59e06540bea4271ad43fbbb4828f503_message.txt" />
+				<message textref="" />
 				<providerName></providerName>
 				<uiEvent href="/UI/Events/CommonEvents/EventCustomFlyoff.UIEV" />
 				<value>
@@ -409,9 +410,9 @@
 				</lifeTime>
 				<LoggingEvent>-1</LoggingEvent>
 				<period>
-					<compiledString>FRAAAAABAAAAHAAAAFNUQVNJU19JTlRFUlZBTABVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzczMPQ==</compiledString>
 					<returnType>float</returnType>
-					<sString>cSTASIS_INTERVAL</sString>
+					<sString>0.1f</sString>
 				</period>
 				<providerName></providerName>
 				<scaleMode>ScaleIsCount</scaleMode>
@@ -434,9 +435,9 @@
 									<providerName></providerName>
 									<reduceByPercent>false</reduceByPercent>
 									<reductionAmount>
-										<compiledString>FRAAAAABAAAAHQAAAFNUQVNJU19JTlRFUlZBTABVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LZ4NzA2V382UX8i+Vdww==</compiledString>
+										<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzcxMvg==</compiledString>
 										<returnType>float</returnType>
-										<sString>-cSTASIS_INTERVAL*2 ;//т.к. мы должен компенсировать интервал и время за интервал</sString>
+										<sString>-0.2f ;//т.к. мы должен компенсировать интервал и время за интервал</sString>
 									</reductionAmount>
 									<refreshThis>false</refreshThis>
 									<talents />
@@ -488,9 +489,9 @@
 		<sString>0</sString>
 	</customCounter>
 	<customProgress>
-		<compiledString>FSgAAAADAAAANQAAAFUAAABnAAAATWFnaWNHaXJsQTRUaW1lAGR1cmF0aW9uAAAAAEE0X0R1cmF0aW9uAFWL7IPsEGoCi0UQUGgAAAAAi00IixGLTQiLgpwBAAD/0IlF/ItNDFGLVQhSaBwAAACLRRCLEItNEItCUP/QaBAAAACLTfyLEYtN/ItCVN1d9P/Q3HX02V3w2UXwi+Vdww==</compiledString>
+		<compiledString>FToAAAAGAAAAQQAAAFoAAACOAAAAsQAAALYAAADMAAAATWFnaWNHaXJsQTRUaW1lAGR1cmF0aW9uAAAAAFByaW1ldm9rZXJfQTAAAABQcmltZXZva2VyX0EwAFWL7IPsHGgcAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoLAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAagKLTRBRaAAAAACLVQiLAotNCIuQnAEAAP/SiUX0D7ZF+4lF8NtF8NwN5QAAAGgQAAAAi030ixGLTfSLQlTdXej/0Nw13QAAANxl6Nld5NlF5IvlXcMAAAAAAAAQQAAAAAAAANA/</compiledString>
 		<returnType>float</returnType>
-		<sString>sender.applMagicGirlA4Time(ABILITY).GetVariable("duration") / cA4_Duration</sString>
+		<sString>sender.applMagicGirlA4Time(ABILITY).GetVariable("duration") / 4 - 0.25f*tal("Primevoker_A0")</sString>
 	</customProgress>
 	<description textref="/Items/Talents/Class/MagicGirl/status_A4_Disable.APLR_description.txt" />
 	<dispellPriority>NonDispellable</dispellPriority>
@@ -529,6 +530,7 @@
 			<applicatorLists />
 			<applicators>
 				<Item href="/Items/Talents/Class/Vampire/status_A4_2_DisableVampire.APLR" />
+				<Item href="/Items/Talents/Class/Vampire/status_A4_2_DisableVampire_Self.APLR" />
 			</applicators>
 		</ApplicatorsList>
 	</unstackableWith>

@@ -2,6 +2,8 @@
 <StatusApplicator>
 	<BackLink DBID="/Items/Talents/Class/Alchemist/Ability_A1.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Alchemist/Ability_A2.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A0.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A4_2.TALENT" Count="2" />
 	<applicators>
 		<Item href="/Items/Talents/Class/Alchemist/status_A0_base.APLR" id="14062E32-B253-4615-8228-B3987895BD0E">
 			<StatModApplicator>

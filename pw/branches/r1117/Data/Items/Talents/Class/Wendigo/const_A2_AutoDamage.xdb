@@ -5,8 +5,8 @@
 	<BackLink DBID="/Heroes/Wendigo/AttackAbility.ATCK" Count="1" />
 	<name>A2_AutoDamage</name>
 	<var>
-		<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACgQAAAGEI=</compiledString>
+		<compiledString>FQAAAAADAAAACQAAABMAAABBAAAAVYvsUWoBUdkFWwAAANkcJFHZBVcAAADZHCRqAItFCIsQi00Ii4IwAQAA/9BR2RwkagGLTRCLEYtNEItCYP/Q3A1PAAAA2V382UX8i+VdwwAAAAAAAABAAACgQAAAGEI=</compiledString>
 		<returnType>float</returnType>
-		<sString>damageScale( sStrength, 5, 38)</sString>
+		<sString>2*damageScale( sStrength, 5, 38)</sString>
 	</var>
 </UnitConstant>

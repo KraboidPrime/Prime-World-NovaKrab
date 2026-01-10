@@ -49,9 +49,9 @@
 					<UnitConstant>
 						<name>Evadeprob</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQQ==</compiledString>
+							<compiledString>FQ0AAAACAAAAEgAAACgAAABSYWJLcmlzYUJ1ZmYAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdSgAAAN/g9sRBdQnHRfwyAAAA6wfHRfwUAAAA20X8i+VdwwAAAAAAAOA/</compiledString>
 							<returnType>float</returnType>
-							<sString>20</sString>
+							<sString>sender.vRabKrisaBuff &gt; 0.5 ? 50 : 20</sString>
 						</var>
 					</UnitConstant>
 				</Item>

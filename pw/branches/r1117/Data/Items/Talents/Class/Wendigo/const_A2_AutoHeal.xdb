@@ -7,8 +7,8 @@
 	<BackLink DBID="/Items/Talents/Class/Wendigo/Ability5_SUP.TALENT" Count="1" />
 	<name>A2_AutoHeal</name>
 	<var>
-		<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAAgQQAAlkI=</compiledString>
+		<compiledString>FQAAAAADAAAACQAAABMAAABBAAAAVYvsUWoBUdkFWwAAANkcJFHZBVcAAADZHCRqAItFCIsQi00Ii4IwAQAA/9BR2RwkagGLTRCLEYtNEItCYP/Q3A1PAAAA2V382UX8i+VdwwAAAAAAAABAAAAgQQAAlkI=</compiledString>
 		<returnType>float</returnType>
-		<sString>damageScale( sStrength, 10, 75)</sString>
+		<sString>2*damageScale( sStrength, 10, 75)</sString>
 	</var>
 </UnitConstant>

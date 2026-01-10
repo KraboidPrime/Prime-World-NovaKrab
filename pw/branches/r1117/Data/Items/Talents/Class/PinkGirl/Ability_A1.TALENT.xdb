@@ -937,9 +937,9 @@
 					<UnitConstant>
 						<name>Width</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAQA==</compiledString>
 							<returnType>float</returnType>
-							<sString>3</sString>
+							<sString>4</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -947,9 +947,9 @@
 					<UnitConstant>
 						<name>A1_Damage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAD4QQAAaUM=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAAUQgAAjEM=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(sIntellect, 31, 233)</sString>
+							<sString>damageScale(sIntellect, 37, 280)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

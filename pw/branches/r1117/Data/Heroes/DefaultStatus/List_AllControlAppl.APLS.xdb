@@ -1,6 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ApplicatorsList>
 	<BackLink DBID="/Items/Talents/Class/Healer/status_A5_SUP_Bubble.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/GhostLord/status_A2_SpectralShield.APLR" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/GhostLord/Ability_A4_2.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/GhostLord/program_A2_SprectralShield.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Level5/G063_Life-Int-DispellAoE.TALENT" Count="2" />
 	<applicatorLists />
 	<applicators>
 		<Item href="/Heroes/DefaultStatus/_BLIND_status.APLR" />
@@ -29,5 +33,7 @@
 		<Item href="/Items/Talents/Class/Mage/Hex.APLR" />
 		<Item href="/Items/Talents/Level5/program_G294HeroOff.APLR" />
 		<Item href="/Items/Talents/Level5/program_G661HeroOff_1.APLR" />
+		<Item href="/Items/Talents/Class/Shaman/A4_2_status.APLR" />
+		<Item href="/Items/Talents/Level5/G311_NEW_for_link_block.APLR" />
 	</applicators>
 </ApplicatorsList>

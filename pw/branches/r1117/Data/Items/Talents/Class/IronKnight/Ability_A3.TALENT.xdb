@@ -438,20 +438,21 @@
 					<UnitConstant>
 						<name>A3_Period</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzczMPg==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAPw==</compiledString>
 							<returnType>float</returnType>
-							<sString>0.4f</sString>
+							<sString>0.5f</sString>
 						</var>
 					</UnitConstant>
 				</Item>
 				<Item href="/Items/Talents/Class/IronKnight/const_A3u_Damage" />
+				<Item href="/Items/Talents/Class/IronKnight/const_A3u_TT_Damage" />
 				<Item href="/Items/Talents/Class/IronKnight/Ability_A3.TALENT" id="8E1A0BDC-A26D-4128-81B3-47B635BEAD12">
 					<UnitConstant>
 						<name>A3_DamagePerHitAxe</name>
 						<var>
-							<compiledString>FVgAAAAGAAAAXwAAAHgAAAC2AAAA2gAAAPcAAAAXAQAAQTNfRGFtYWdlAAAASXJvbktuaWdodF9BM3UAAElyb25LbmlnaHRfQTN1AABBM3VfRGFtYWdlAABBM19QZXJpb2QAAABBM19UZXJyYWluRGFtYWdlTW9kAFWL7IPsIGgMAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoHAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdB+LVQxSi0UIUGgsAAAAi00QixGLTRCLQlD/0Nld9OsF2e7ZXfSLTQxRi1UIUmgAAAAAi0UQixCLTRCLQlD/0NhF9ItNDFGLVQhSaDgAAACLRRCLEItNEItCUN1d7P/Q3E3si00MUYtVCFJoRAAAAItFEIsQi00Qi0JQ3V3k/9DZ6N7B3E3k2V3g2UXgi+VdwwAAAAAAAPA/AAAAAA==</compiledString>
+							<compiledString>FVgAAAAHAAAAXwAAAHgAAAC2AAAA2gAAAPcAAAAXAQAANAEAAEEzX0RhbWFnZQAAAElyb25LbmlnaHRfQTN1AABJcm9uS25pZ2h0X0EzdQAAQTN1X0RhbWFnZQAAQTNfUGVyaW9kAAAAQTNfVGVycmFpbkRhbWFnZU1vZABVi+yD7CBoDAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBwAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXQfi1UMUotFCFBoLAAAAItNEIsRi00Qi0JQ/9DZXfTrBdnu2V30i00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ/9DYRfSLTQxRi1UIUmg4AAAAi0UQixCLTRCLQlDdXez/0NxN7ItNDFGLVQhSaEQAAACLRRCLEItNEItCUN1d5P/Q2ejewdxN5NwNQgEAANld4NlF4IvlXcMfhetRuB7tPwAAAAAAAPA/AAAAAA==</compiledString>
 							<returnType>float</returnType>
-							<sString>(cA3_Damage  + (tal("IronKnight_A3u") ? cA3u_Damage : 0)) * cA3_Period * (1+cA3_TerrainDamageMod)</sString>
+							<sString>(cA3_Damage  + (tal("IronKnight_A3u") ? cA3u_Damage : 0)) * cA3_Period * (1+cA3_TerrainDamageMod) * 0.91</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -459,9 +460,9 @@
 					<UnitConstant>
 						<name>A3_DamagePerHit</name>
 						<var>
-							<compiledString>FSwAAAADAAAAOwAAAFUAAAB1AAAAQTNfRGFtYWdlAAAAQTNfUGVyaW9kAAAAQTNfVGVycmFpbkRhbWFnZU1vZABVi+yD7BSLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0otFDFCLTQhRaAwAAACLVRCLAotNEItQUN1d+P/S3E34i0UMUItNCFFoGAAAAItVEIsCi00Qi1BQ3V3w/9LZ6N7B3E3w2V3s2UXsi+VdwwAAAAAAAPA/</compiledString>
+							<compiledString>FSwAAAAEAAAAOwAAAFUAAAB1AAAAkgAAAEEzX0RhbWFnZQAAAEEzX1BlcmlvZAAAAEEzX1RlcnJhaW5EYW1hZ2VNb2QAVYvsg+wUi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9KLRQxQi00IUWgMAAAAi1UQiwKLTRCLUFDdXfj/0txN+ItFDFCLTQhRaBgAAACLVRCLAotNEItQUN1d8P/S2ejewdxN8NwNoAAAANld7NlF7IvlXcMfhetRuB7tPwAAAAAAAPA/</compiledString>
 							<returnType>float</returnType>
-							<sString>cA3_Damage * cA3_Period * (1+cA3_TerrainDamageMod)</sString>
+							<sString>cA3_Damage * cA3_Period * (1+cA3_TerrainDamageMod) * 0.91</sString>
 						</var>
 					</UnitConstant>
 				</Item>

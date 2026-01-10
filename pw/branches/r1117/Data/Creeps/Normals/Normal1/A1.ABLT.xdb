@@ -70,9 +70,9 @@
 					<UnitConstant>
 						<name>Armorcurse</name>
 						<var>
-							<compiledString>FQAAAAAAAAAAVYvsUYtFCIsQi00Ii4JgAQAA/9DR4IlF/NtF/IvlXcM=</compiledString>
+							<compiledString>FR0AAAADAAAAJAAAADoAAABGAAAAUmFiS3Jpc2FCdWZmAAAAAFJhYktyaXNhQnVmZgBVi+yD7AhoAAAAAItFCIsQi00Ii4KIAQAA/9DcHYEAAADf4PbEQXUaaBAAAACLTQiLEYtNCIuCiAEAAP/Q2V386xuLTQiLEYtNCIuCYAEAAP/Q0eCJRfjbRfjZXfzZRfyL5V3DAAAAAAAA4D8=</compiledString>
 							<returnType>float</returnType>
-							<sString>sNaftaLevel*2</sString>
+							<sString>sender.vRabKrisaBuff &gt; 0.5 ? sender.vRabKrisaBuff : sNaftaLevel*2</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -80,9 +80,9 @@
 					<UnitConstant>
 						<name>UseRange</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADAQA==</compiledString>
+							<compiledString>FQsAAAABAAAAFwAAAFJhbmdlX0xvbmcAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
 							<returnType>float</returnType>
-							<sString>6</sString>
+							<sString>cRange_Long</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -90,9 +90,9 @@
 		</UnitConstantsContainer>
 	</constants>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQQ==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQQ==</compiledString>
 		<returnType>float</returnType>
-		<sString>30</sString>
+		<sString>20</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>
@@ -144,12 +144,12 @@
 	<passiveApplicators />
 	<requireLineOfSight>true</requireLineOfSight>
 	<shortDescription textref="" />
-	<targetType>536870943</targetType>
+	<targetType>536870915</targetType>
 	<type>Active</type>
 	<useRange>
-		<compiledString>FQ0AAAABAAAAGQAAAFJhbmdlX01lZGl1bQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+		<compiledString>FQsAAAABAAAAFwAAAFJhbmdlX0xvbmcAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
 		<returnType>float</returnType>
-		<sString>cRange_Medium</sString>
+		<sString>cRange_Long</sString>
 	</useRange>
 	<useRangeMaterial href="" />
 	<warFogRemoveRadius>0</warFogRemoveRadius>

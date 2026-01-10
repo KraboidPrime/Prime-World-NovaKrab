@@ -287,9 +287,9 @@
 					<UnitConstant>
 						<name>ChannelTime</name>
 						<var>
-							<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DMzMzPw==</compiledString>
 							<returnType>float</returnType>
-							<sString>1.0f</sString>
+							<sString>0.7f</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -301,9 +301,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAA0Qw==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAACQw==</compiledString>
 		<returnType>float</returnType>
-		<sString>180</sString>
+		<sString>130</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>

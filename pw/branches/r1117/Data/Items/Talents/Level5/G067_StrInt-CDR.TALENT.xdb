@@ -50,6 +50,7 @@
 	<BackLink DBID="/Test/Talents/Unicorn/Duel.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Witcher/Duel_Int.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Witcher/Duel_Str.TALENTSET" Count="1" />
+	<BackLink DBID="/Test/Talents/Assassin/New_SUP.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -87,33 +88,23 @@
 	<constants href="/Items/Talents/Level5/G067_StrInt-CDR.TALENT" id="5B7FEAC1-E76D-4DAA-A43B-A5050AE337AC">
 		<UnitConstantsContainer>
 			<vars>
-				<Item href="/Items/Talents/Level5/G067_StrInt-CDR.TALENT" id="0C81BB43-F179-420E-9AF2-F67A2BF96AE6">
-					<UnitConstant>
-						<name>Add_Intellect</name>
-						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAoEAAAAA/</compiledString>
-							<returnType>float</returnType>
-							<sString>refineScale(5, 0.5)</sString>
-						</var>
-					</UnitConstant>
-				</Item>
-				<Item href="/Items/Talents/Level5/G067_StrInt-CDR.TALENT" id="63514611-24FA-497E-A3E1-5ADCEDD48039">
-					<UnitConstant>
-						<name>Add_Strength</name>
-						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAoEAAAAA/</compiledString>
-							<returnType>float</returnType>
-							<sString>refineScale(5, 0.5)</sString>
-						</var>
-					</UnitConstant>
-				</Item>
 				<Item href="/Items/Talents/Level5/G067_StrInt-CDR.TALENT" id="1E73523C-E7FA-4763-AFA6-FCEC394104F6">
 					<UnitConstant>
 						<name>CooldownReduction</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAQA==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
 							<returnType>float</returnType>
-							<sString>4</sString>
+							<sString>2</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Level5/G067_StrInt-CDR.TALENT" id="7C576150-2DE3-4623-AA8B-47628A1757C2">
+					<UnitConstant>
+						<name>Stat_G067</name>
+						<var>
+							<compiledString>FRgAAAACAAAAHAAAADcAAABUb3RhbF9Db29sZG93blJlZHVjdGlvbgBVi+xoAAAAAItFCIsQi00Ii4KIAQAA/9BR2RwkUdkFSAAAANkcJOgJAAAAg8QIXcMAACBCVYvsUdlFCNlFDN7Z3+D2xEF1CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
+							<returnType>float</returnType>
+							<sString>min(40, sender.vTotal_CooldownReduction)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -158,53 +149,36 @@
 	<name textref="/Items/Talents/Level5/G067_StrInt-CDR.TALENT_name.txt" />
 	<node></node>
 	<passiveApplicators>
-		<Item href="/Items/Talents/Level5/G067_StrInt-CDR.TALENT" id="CECC61DB-FCA1-467C-84C6-6D6BD4605EA3">
-			<PermanentStatModApplicator>
+		<Item href="/Items/Talents/_commonData/Total_CDR.APLR" />
+		<Item href="/GameLogic/GeneralApplicators/CooldownReduction.APLR" />
+		<Item href="/Items/Talents/Level5/G067_StrInt-CDR.TALENT" id="20074523-F408-4FA2-85F9-4EA406036605">
+			<StatModApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>Add_Intellect</caption>
-				<customApplyType>None</customApplyType>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>Силушка</caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
 				<enabled>
-					<compiledString></compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgrgAAAD/0ItNCIsRi00Ii4K8AAAA3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
 					<returnType>bool</returnType>
-					<sString>true</sString>
+					<sString>sBaseStrength &gt;= sBaseIntellect</sString>
 				</enabled>
 				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
 				<LoggingEvent>-1</LoggingEvent>
 				<modifier>
 					<addValue>
-						<compiledString>FQ4AAAABAAAAGgAAAEFkZF9JbnRlbGxlY3QAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+						<compiledString>FQoAAAABAAAAFgAAAFN0YXRfRzA2NwBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
 						<returnType>float</returnType>
-						<sString>cAdd_Intellect</sString>
-					</addValue>
-					<multValue>
-						<compiledString></compiledString>
-						<returnType>float</returnType>
-						<sString>1.0f</sString>
-					</multValue>
-					<stat>Intellect</stat>
-					<topModifier>false</topModifier>
-					<variable></variable>
-				</modifier>
-				<providerName></providerName>
-			</PermanentStatModApplicator>
-		</Item>
-		<Item href="/Items/Talents/Level5/G067_StrInt-CDR.TALENT" id="4914A101-2620-41EF-966B-1D61C03F9136">
-			<PermanentStatModApplicator>
-				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>Add_Strength</caption>
-				<customApplyType>None</customApplyType>
-				<enabled>
-					<compiledString></compiledString>
-					<returnType>bool</returnType>
-					<sString>true</sString>
-				</enabled>
-				<formulaName></formulaName>
-				<LoggingEvent>-1</LoggingEvent>
-				<modifier>
-					<addValue>
-						<compiledString>FQ0AAAABAAAAGQAAAEFkZF9TdHJlbmd0aABVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
-						<returnType>float</returnType>
-						<sString>cAdd_Strength</sString>
+						<sString>cStat_G067</sString>
 					</addValue>
 					<multValue>
 						<compiledString></compiledString>
@@ -216,14 +190,65 @@
 					<variable></variable>
 				</modifier>
 				<providerName></providerName>
-			</PermanentStatModApplicator>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
 		</Item>
-		<Item href="/Items/Talents/_commonData/Total_CDR.APLR" />
-		<Item href="/GameLogic/GeneralApplicators/CooldownReduction.APLR" />
+		<Item href="/Items/Talents/Level5/G067_StrInt-CDR.TALENT" id="7FE27AF9-ABAA-42A3-82C3-A4BC08820C44">
+			<StatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>Умец</caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgrgAAAD/0ItNCIsRi00Ii4K8AAAA3V34/9DcXfjf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sBaseStrength &lt; sBaseIntellect</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQoAAAABAAAAFgAAAFN0YXRfRzA2NwBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+						<returnType>float</returnType>
+						<sString>cStat_G067</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Intellect</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
+		</Item>
 	</passiveApplicators>
 	<persistentId>G067</persistentId>
 	<prerequisiteTalents />
-	<rarity>excellent</rarity>
+	<rarity>magnificent</rarity>
 	<requireLineOfSight>true</requireLineOfSight>
 	<shortDescription textref="" />
 	<talentRollGroups>63</talentRollGroups>

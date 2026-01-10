@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UIEvent>
 	<BackLink DBID="/UI/Events/UICustomEvents.UIEVCOLL" Count="1" />
+	<BackLink DBID="/Items/Talents/Level1/G128_Life_Energy.TALENT" Count="1" />
 	<signRecipients>PLAYER_ONLY</signRecipients>
 	<UISigns>
 		<Item href="/UI/Events/CommonEvents/EventGetGold.UIEV" id="D17949F6-F95C-4C28-A852-4080E4609E3B">

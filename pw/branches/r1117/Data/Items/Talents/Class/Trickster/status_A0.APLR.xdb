@@ -4,6 +4,7 @@
 	<BackLink DBID="/Items/Talents/Class/Trickster/Ability2.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Trickster/Ability4.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Trickster/Ability4_2.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A0.TALENT" Count="1" />
 	<applicators>
 		<Item href="/Items/Talents/Class/Trickster/status_A0.APLR" id="00DB9780-259C-4813-9886-50CE53C9D5AE">
 			<FlagsApplicator>
@@ -100,9 +101,9 @@
 						<flags>0</flags>
 						<matchTargetInverted>false</matchTargetInverted>
 						<mul>
-							<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpmZPg==</compiledString>
 							<returnType>float</returnType>
-							<sString>0.0f</sString>
+							<sString>0.3f</sString>
 						</mul>
 						<objectFilter>2040319</objectFilter>
 						<senderMatchTarget>ApplicatorTarget</senderMatchTarget>

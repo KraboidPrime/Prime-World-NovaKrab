@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StatusApplicator>
 	<BackLink DBID="/Items/Scrolls/appl_Clone.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Level3/G244_DeadlyIllusion.TALENT" Count="1" />
 	<applicators>
 		<Item href="/Items/Scrolls/status_CopyCooldownReduce.APLR" id="E04C3AD5-E290-4901-851F-4A94CDFE52FE">
 			<AbilityModApplicator>

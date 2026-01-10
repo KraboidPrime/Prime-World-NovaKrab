@@ -42,6 +42,55 @@
 		<Item href="/Items/Talents/Class/FireFox/_A3_NatTer.APLR" />
 		<Item href="/Items/Talents/Class/FireFox/A0Heal.APLR" />
 		<Item href="/Items/Talents/Class/FireFox/status_SUP_heal.APLR" />
+		<Item href="/Items/Talents/Class/FireFox/Ability3.TALENT" id="D34962EB-8CAC-4468-8D42-2B11301E3176">
+			<HealApplicator parent="/Items/Talents/Class/FireFox/status_SUP_heal.APLR">
+				<caption>SUP_HealMana</caption>
+				<healTarget>Energy</healTarget>
+				<uiEvent href="/UI/Events/CommonEvents/EventEnergy.UIEV" />
+			</HealApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/FireFox/Ability3.TALENT" id="6076C6E2-4175-48EA-80F5-C737EEB8B4D6">
+			<SpellApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<caption>диспел</caption>
+				<enabled>
+					<compiledString>FR8AAAACAAAAJgAAAD8AAABGaXJlZm94X0EzX1NVUAAARmlyZWZveF9BM19TVVAAVYvsg+wIaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wCKRfuL5V3D</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("Firefox_A3_SUP")</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<spell href="/Items/Talents/Class/FireFox/Ability3.TALENT" id="293E3CB4-3FF6-49FB-A6B3-EE3D873AE5EA">
+					<Spell>
+						<applicators>
+							<Item href="/GameLogic/GeneralApplicators/DispellWEffects.APLR" />
+						</applicators>
+						<dispatch href="/Items/Talents/Class/FireFox/Ability3.TALENT" id="92D687A8-409E-46C6-99BA-076DDE66D84D">
+							<DispatchImmediate>
+								<alwaysApply>false</alwaysApply>
+								<applyEffect>
+									<Item href="" />
+									<Item href="" />
+								</applyEffect>
+								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+								<applyEffectOrientation>Default</applyEffectOrientation>
+								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+								<dieAfterApply>true</dieAfterApply>
+								<dispatchEffect>
+									<Item href="" />
+									<Item href="" />
+								</dispatchEffect>
+								<flags>0</flags>
+								<instantApply>false</instantApply>
+							</DispatchImmediate>
+						</dispatch>
+					</Spell>
+				</spell>
+				<spellTarget>AbilityOwner</spellTarget>
+				<targetSelector href="" />
+			</SpellApplicator>
+		</Item>
 	</applicators>
 	<askId>3</askId>
 	<autoTargetSelector href="" />
@@ -299,6 +348,70 @@
 									<Item href="/Items/Talents/Class/FireFox/A0Heal.APLR" />
 									<Item href="/Items/Talents/Class/FireFox/status_SUP_heal.APLR" />
 									<Item href="/Heroes/DefaultStatus/_INVISIBILITY_status.APLR" />
+									<Item href="/Items/Talents/Class/FireFox/Ability3.TALENT" id="F67ECBD3-C409-4757-BE6D-4F746B8DB06E">
+										<HealApplicator>
+											<amount>
+												<compiledString>FQ0AAAABAAAAGQAAAEEzX0JvbnVzSGVhbABVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+												<returnType>float</returnType>
+												<sString>cA3_BonusHeal</sString>
+											</amount>
+											<applyTarget>AbilityOwner</applyTarget>
+											<caption>SUP_HealMana</caption>
+											<enabled>
+												<compiledString>FR8AAAACAAAAJgAAAD8AAABGaXJlZm94X0EzX1NVUAAARmlyZWZveF9BM19TVVAAVYvsg+wIaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wCKRfuL5V3D</compiledString>
+												<returnType>bool</returnType>
+												<sString>tal("Firefox_A3_SUP")</sString>
+											</enabled>
+											<formulaName></formulaName>
+											<healTarget>Energy</healTarget>
+											<ignoreHealingMods>false</ignoreHealingMods>
+											<LoggingEvent>-1</LoggingEvent>
+											<providerName></providerName>
+											<uiEvent href="/UI/Events/CommonEvents/EventEnergy.UIEV" />
+										</HealApplicator>
+									</Item>
+									<Item href="/Items/Talents/Class/FireFox/Ability3.TALENT" id="EBEDB388-6702-45F1-9067-319FAFBE936B">
+										<SpellApplicator>
+											<applyTarget>AbilityOwner</applyTarget>
+											<caption>диспел</caption>
+											<enabled>
+												<compiledString>FR8AAAACAAAAJgAAAD8AAABGaXJlZm94X0EzX1NVUAAARmlyZWZveF9BM19TVVAAVYvsg+wIaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wCKRfuL5V3D</compiledString>
+												<returnType>bool</returnType>
+												<sString>tal("Firefox_A3_SUP")</sString>
+											</enabled>
+											<formulaName></formulaName>
+											<LoggingEvent>-1</LoggingEvent>
+											<providerName></providerName>
+											<spell href="/Items/Talents/Class/FireFox/Ability3.TALENT" id="8B0D5762-4360-4DCC-B2E0-D48183F5512E">
+												<Spell>
+													<applicators>
+														<Item href="/GameLogic/GeneralApplicators/DispellWEffects.APLR" />
+													</applicators>
+													<dispatch href="/Items/Talents/Class/FireFox/Ability3.TALENT" id="4AE73DD8-6409-45A0-A121-3CBC224433C4">
+														<DispatchImmediate>
+															<alwaysApply>false</alwaysApply>
+															<applyEffect>
+																<Item href="" />
+																<Item href="" />
+															</applyEffect>
+															<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+															<applyEffectOrientation>Default</applyEffectOrientation>
+															<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+															<dieAfterApply>true</dieAfterApply>
+															<dispatchEffect>
+																<Item href="" />
+																<Item href="" />
+															</dispatchEffect>
+															<flags>0</flags>
+															<instantApply>false</instantApply>
+														</DispatchImmediate>
+													</dispatch>
+												</Spell>
+											</spell>
+											<spellTarget>AbilityOwner</spellTarget>
+											<targetSelector href="" />
+										</SpellApplicator>
+									</Item>
 								</applicators>
 								<dispatch href="/Items/Talents/Class/FireFox/Ability3.TALENT" id="234330FE-04CB-4262-94C1-CE6E0CA607AB">
 									<DispatchImmediate>

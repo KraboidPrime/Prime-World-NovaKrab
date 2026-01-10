@@ -27,7 +27,187 @@
 	</aoeSize>
 	<aoeType>None</aoeType>
 	<applicators>
-		<Item href="/Items/Talents/Level6/status_G020_EnergyDefence.APLR" />
+		<Item href="/Items/Talents/Level6/G020_Temp_Great_Def.TALENT" id="3A26569D-9861-4CBD-8114-949B617F599A">
+			<SpellApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>спелл со статусом</caption>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<spell href="/Items/Talents/Level6/G020_Temp_Great_Def.TALENT" id="354EE99F-55B3-4DCC-951B-B009897D9664">
+					<Spell>
+						<applicators>
+							<Item href="/Items/Talents/Level6/G020_Temp_Great_Def.TALENT" id="4D06F997-3E1D-4FAD-9808-72540BE870F6">
+								<StatusApplicator>
+									<applicators>
+										<Item href="/Items/Talents/Level6/G020_Temp_Great_Def.TALENT" id="1294892F-95F8-4FBC-AD34-B041B86F5DE6">
+											<TriggerApplicator>
+												<actionsCount>
+													<compiledString></compiledString>
+													<returnType>int</returnType>
+													<sString>0</sString>
+												</actionsCount>
+												<applyTarget>ApplicatorTarget</applyTarget>
+												<behaviorFlags>0</behaviorFlags>
+												<caption></caption>
+												<effect>
+													<Item href="" />
+													<Item href="" />
+												</effect>
+												<enabled>
+													<compiledString></compiledString>
+													<returnType>bool</returnType>
+													<sString>true</sString>
+												</enabled>
+												<formulaName></formulaName>
+												<lifeTime>
+													<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
+													<returnType>float</returnType>
+													<sString>5</sString>
+												</lifeTime>
+												<LoggingEvent>-1</LoggingEvent>
+												<playAck>false</playAck>
+												<processor href="/Items/Talents/Level6/G020_Temp_Great_Def.TALENT" id="F9275872-9130-405A-8282-DC675FB2BE1E">
+													<EventProcessorDamageTransformer>
+														<abilityFilter>
+															<abilitiesList />
+															<abilityCondition>
+																<compiledString></compiledString>
+																<returnType>bool</returnType>
+																<sString>true</sString>
+															</abilityCondition>
+															<abilityCostMode>Any</abilityCostMode>
+															<exceptThis>false</exceptThis>
+															<flags>1073743103</flags>
+															<onlySingleTarget>false</onlySingleTarget>
+														</abilityFilter>
+														<add>
+															<compiledString>FQoAAAABAAAAFgAAAEcwMjBfQnVmZgBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0tngXcM=</compiledString>
+															<returnType>float</returnType>
+															<sString>-cG020_Buff</sString>
+														</add>
+														<applyTarget>ApplicatorSelectedTarget</applyTarget>
+														<checkSender>2</checkSender>
+														<damageTypeFilter>31</damageTypeFilter>
+														<flags>0</flags>
+														<matchTargetInverted>false</matchTargetInverted>
+														<mul>
+															<compiledString></compiledString>
+															<returnType>float</returnType>
+															<sString>1.0f</sString>
+														</mul>
+														<objectFilter>538771967</objectFilter>
+														<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
+														<spell href="" />
+														<treatDelegatedByDelegator>false</treatDelegatedByDelegator>
+													</EventProcessorDamageTransformer>
+												</processor>
+												<providerName></providerName>
+												<startCondition>
+													<compiledString></compiledString>
+													<returnType>bool</returnType>
+													<sString>true</sString>
+												</startCondition>
+												<useAbilityCooldown>false</useAbilityCooldown>
+												<useAbilityOwnerMana>false</useAbilityOwnerMana>
+											</TriggerApplicator>
+										</Item>
+									</applicators>
+									<applyTarget>ApplicatorTarget</applyTarget>
+									<behaviorFlags>144</behaviorFlags>
+									<caption>Статус на союзниках</caption>
+									<customCounter>
+										<compiledString></compiledString>
+										<returnType>int</returnType>
+										<sString>0</sString>
+									</customCounter>
+									<customProgress>
+										<compiledString></compiledString>
+										<returnType>float</returnType>
+										<sString>-1.0</sString>
+									</customProgress>
+									<description textref="/Items/Talents/Level6/G020_Temp_Great_Def.TALENT_4d06f9973e1d4fad980872540be870f6_description.txt" />
+									<dispellPriority>Medium</dispellPriority>
+									<effect>
+										<Item href="/Effects/Buffs/Defence/_UnstableGold.EFFT" />
+										<Item href="" />
+									</effect>
+									<enabled>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<flags>0</flags>
+									<formulaName></formulaName>
+									<image href="/UI/Styles/Icons/Talents/_020.ITEX" />
+									<lifeTime>
+										<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
+										<returnType>float</returnType>
+										<sString>5</sString>
+									</lifeTime>
+									<LoggingEvent>-1</LoggingEvent>
+									<name textref="/Items/Talents/Level6/G020_Temp_Great_Def.TALENT_4d06f9973e1d4fad980872540be870f6_name.txt" />
+									<power>0</power>
+									<providerName></providerName>
+									<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+									<stackCount>0</stackCount>
+									<startCondition>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</startCondition>
+									<statusPosition>0</statusPosition>
+									<stopBehaviour>StopByChild</stopBehaviour>
+									<unstackableWith href="" />
+								</StatusApplicator>
+							</Item>
+						</applicators>
+						<dispatch href="/Items/Talents/Level6/G020_Temp_Great_Def.TALENT" id="D7378016-043E-4A7E-B1AB-C21039D14C12">
+							<DispatchImmediate>
+								<alwaysApply>false</alwaysApply>
+								<applyEffect>
+									<Item href="" />
+									<Item href="" />
+								</applyEffect>
+								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+								<applyEffectOrientation>Default</applyEffectOrientation>
+								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+								<dieAfterApply>true</dieAfterApply>
+								<dispatchEffect>
+									<Item href="" />
+									<Item href="" />
+								</dispatchEffect>
+								<flags>0</flags>
+								<instantApply>false</instantApply>
+							</DispatchImmediate>
+						</dispatch>
+					</Spell>
+				</spell>
+				<spellTarget>ApplicatorTarget</spellTarget>
+				<targetSelector href="/Items/Talents/Level6/G020_Temp_Great_Def.TALENT" id="F9A075CC-7820-4AB8-8235-4347BED54473">
+					<AreaTargetSelector>
+						<absolutePosition>
+							<x>0</x>
+							<y>0</y>
+						</absolutePosition>
+						<flags>0</flags>
+						<mode>Normal</mode>
+						<range>
+							<compiledString>FQsAAAABAAAAFwAAAFJhbmdlX0xvbmcAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+							<returnType>float</returnType>
+							<sString>cRange_Long</sString>
+						</range>
+						<targetFilter>1342177283</targetFilter>
+						<targetSelector href="" />
+					</AreaTargetSelector>
+				</targetSelector>
+			</SpellApplicator>
+		</Item>
 	</applicators>
 	<askId>0</askId>
 	<autoTargetSelector href="" />
@@ -42,38 +222,39 @@
 	<commonDescription textref="/Items/Talents/Level6/G020_Temp_Great_Def.TALENT_commonDescription.txt" />
 	<compiledDescriptionA textref="" />
 	<compiledDescriptionB textref="" />
-	<conditionFormulas />
+	<conditionFormulas>
+		<Item href="/Items/Talents/Level6/G020_Temp_Great_Def.TALENT" id="807072BA-1EBA-4EB7-BD86-73F5798926B6">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRYAAAACAAAAGwAAADEAAABUaDIwMjVfVG9vbHRpcENvdW50ZXIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdUwAAAN/g9sQBdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAhA</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vTh2025_TooltipCounter &gt;= 3</sString>
+				</condition>
+				<name>Bonus3ActiveTh</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Items/Talents/Level6/G020_Temp_Great_Def.TALENT" id="3126A0FD-9E83-4937-9E3A-BCD11944EF96">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRYAAAACAAAAGwAAADEAAABUaDIwMjVfVG9vbHRpcENvdW50ZXIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdUwAAAN/g9sQBdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAABxA</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vTh2025_TooltipCounter &gt;= 7</sString>
+				</condition>
+				<name>Bonus7ActiveTh</name>
+			</ConditionFormula>
+		</Item>
+	</conditionFormulas>
 	<conflictingTalents />
 	<constants href="/Items/Talents/Level6/G020_Temp_Great_Def.TALENT" id="41E6AC1A-400A-4D19-8ECC-A9DA11E05F1C">
 		<UnitConstantsContainer>
 			<vars>
-				<Item href="/Items/Talents/Level6/G020_Temp_Great_Def.TALENT" id="9659BC05-7953-460F-A97F-F3A97F2BE776">
-					<UnitConstant>
-						<name>DefenceAmount</name>
-						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAC0Qg==</compiledString>
-							<returnType>float</returnType>
-							<sString>90</sString>
-						</var>
-					</UnitConstant>
-				</Item>
-				<Item href="/Items/Talents/Level6/G020_Temp_Great_Def.TALENT" id="6BE2A0A0-CC4B-46BD-9E4D-81E9607CC1D9">
-					<UnitConstant>
-						<name>Duration</name>
-						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
-							<returnType>float</returnType>
-							<sString>2</sString>
-						</var>
-					</UnitConstant>
-				</Item>
 				<Item href="/Items/Talents/Level6/G020_Temp_Great_Def.TALENT" id="8D7CB37B-BEA8-49C5-BF27-1D72F78851ED">
 					<UnitConstant>
 						<name>Add_Stamina</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAA4EBmZuY/</compiledString>
+							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9Bdw5qZAUGamRk/</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(7, 1.8)</sString>
+							<sString>refineScale(8.1f, 0.6f)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -81,9 +262,19 @@
 					<UnitConstant>
 						<name>Add_Will</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAA4EBmZuY/</compiledString>
+							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9Bdw5qZAUGamRk/</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(7, 1.8)</sString>
+							<sString>refineScale(8.1f, 0.6f)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Level6/G020_Temp_Great_Def.TALENT" id="EA9EA473-50ED-4F81-8E84-306F870FF4FA">
+					<UnitConstant>
+						<name>G020_Buff</name>
+						<var>
+							<compiledString>FQAAAAADAAAALgAAADQAAABKAAAAVYvsg+wUi0UIixCLTQiLgkABAAD/0ItNCIsRi00Ii4JEAQAA3V34/9DcRfjcDWsAAADcBWMAAACLTQiLEYtNCItCDN1d8P/Q3DVbAAAA3EXw2V3s2UXsi+VdwwAAAAAAwHJAAAAAAAAATkCamZmZmZm5Pw==</compiledString>
+							<returnType>float</returnType>
+							<sString>60+0.1*(sStamina+sWill)+sMaxLife/300</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -95,9 +286,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQg==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQg==</compiledString>
 		<returnType>float</returnType>
-		<sString>100</sString>
+		<sString>120</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>
@@ -125,7 +316,7 @@
 			<instantApply>false</instantApply>
 		</DispatchImmediate>
 	</dispatch>
-	<flags>19</flags>
+	<flags>2</flags>
 	<forceBonus>33</forceBonus>
 	<image href="/UI/Styles/Icons/Talents/_020.ITEX" />
 	<imageSecondState href="" />
@@ -139,40 +330,7 @@
 		<sString>0</sString>
 	</manaCost>
 	<marker></marker>
-	<microAI href="/Items/Talents/Level6/G020_Temp_Great_Def.TALENT" id="183C5487-C22A-4990-AFC8-623418C24ABC">
-		<MultipleTargetSelectorMicroAI>
-			<castWhenIdle>false</castWhenIdle>
-			<condition>
-				<compiledString>FQAAAAABAAAAJwAAAFWL7IPsDItFCIsQi00IiwL/0ItNCIsRi00Ii0IM3V34/9DcffjcHUkAAADf4PbEBXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcOamZmZmZnJPw==</compiledString>
-				<returnType>bool</returnType>
-				<sString>sLife / sMaxLife &lt; 0.2</sString>
-			</condition>
-			<minTargetCount>2</minTargetCount>
-			<minTargetWeight>0</minTargetWeight>
-			<targetSelector href="/Items/Talents/Level6/G020_Temp_Great_Def.TALENT" id="E27B6627-A7BF-43D8-AA75-84F0F0CDEE48">
-				<AreaTargetSelector>
-					<absolutePosition>
-						<x>0</x>
-						<y>0</y>
-					</absolutePosition>
-					<flags>0</flags>
-					<mode>Normal</mode>
-					<range>
-						<compiledString>FQsAAAABAAAAFwAAAFJhbmdlX0xvbmcAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
-						<returnType>float</returnType>
-						<sString>cRange_Long</sString>
-					</range>
-					<targetFilter>672923651</targetFilter>
-					<targetSelector href="" />
-				</AreaTargetSelector>
-			</targetSelector>
-			<unitFilter>
-				<compiledString></compiledString>
-				<returnType>bool</returnType>
-				<sString>true</sString>
-			</unitFilter>
-		</MultipleTargetSelectorMicroAI>
-	</microAI>
+	<microAI href="" />
 	<minLevel>5</minLevel>
 	<minUseRangeCorrection>0</minUseRangeCorrection>
 	<naftaCost>-1</naftaCost>
@@ -239,11 +397,12 @@
 				<providerName></providerName>
 			</PermanentStatModApplicator>
 		</Item>
+		<Item href="/Items/Talents/Level3/ThirdPinkSet_Prog2025.APLR" />
 	</passiveApplicators>
 	<persistentId>G020</persistentId>
 	<prerequisiteTalents />
 	<rarity>magnificent</rarity>
-	<requireLineOfSight>true</requireLineOfSight>
+	<requireLineOfSight>false</requireLineOfSight>
 	<shortDescription textref="/Items/Talents/Level6/G020_Temp_Great_Def.TALENT_shortDescription.txt" />
 	<talentRollGroups>63</talentRollGroups>
 	<talentStats>
@@ -274,11 +433,11 @@
 	<type>Active</type>
 	<upgradeLevel>0</upgradeLevel>
 	<useRange>
-		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+		<compiledString>FQsAAAABAAAAFwAAAFJhbmdlX0xvbmcAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
 		<returnType>float</returnType>
-		<sString>0</sString>
+		<sString>cRange_Long</sString>
 	</useRange>
-	<useRangeMaterial href="" />
+	<useRangeMaterial href="/Effects/UI/AOESelection/Radius.MTRL" />
 	<variativeMaxTalentStats />
 	<variativeMinTalentStats />
 	<vendorCost>-1</vendorCost>

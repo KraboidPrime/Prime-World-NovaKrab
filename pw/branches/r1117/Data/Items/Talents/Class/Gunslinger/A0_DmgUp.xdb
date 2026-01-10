@@ -3,8 +3,8 @@
 	<BackLink DBID="/Items/Talents/Class/Gunslinger/Ability_A2.TALENT" Count="1" />
 	<name>A0_DmgUp</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQQ==</compiledString>
+		<compiledString>FSYAAAACAAAALQAAAEYAAABHdW5zbGluZ2VyX0EwX1NVUAAAAEd1bnNsaW5nZXJfQTBfU1VQAFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoFAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+/fZG8mD4TKDwTKJTfTbRfSL5V3D</compiledString>
 		<returnType>float</returnType>
-		<sString>30</sString>
+		<sString>tal("Gunslinger_A0_SUP") ? 100 : 50</sString>
 	</var>
 </UnitConstant>

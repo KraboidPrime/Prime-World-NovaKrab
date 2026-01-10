@@ -53,9 +53,9 @@
 					<UnitConstant>
 						<name>Add_Int_Var</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAQA==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DZma2QA==</compiledString>
 							<returnType>float</returnType>
-							<sString>4</sString>
+							<sString>5.7</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -103,9 +103,9 @@
 					<UnitConstant>
 						<name>Add_Intellect</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAgEDNzMw+</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DMzMTQQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(4, 0.4)</sString>
+							<sString>9.2</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -230,7 +230,7 @@
 	</passiveApplicators>
 	<persistentId>G239</persistentId>
 	<prerequisiteTalents />
-	<rarity>excellent</rarity>
+	<rarity>magnificent</rarity>
 	<requireLineOfSight>true</requireLineOfSight>
 	<shortDescription textref="/Items/Talents/Level2/G239_Int_Balancing.TALENT_shortDescription.txt" />
 	<talentRollGroups>48</talentRollGroups>

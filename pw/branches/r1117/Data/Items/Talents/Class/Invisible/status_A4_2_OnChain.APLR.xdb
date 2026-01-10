@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StatusApplicator>
-	<BackLink DBID="/Items/Talents/Class/Invisible/Ability_A4_2.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" Count="2" />
 	<applicators>
 		<Item href="/Items/Talents/Class/Invisible/status_A4_2_OnChain.APLR" id="7F0F0153-1628-4478-95C2-71DF273853DD">
 			<FlagsApplicator>

@@ -394,15 +394,16 @@
 		<SummonBehaviourCommon parent="/GameLogic/SummonBehaviourMelee">
 			<comment>common behaviour - demons</comment>
 			<lashRange>
-				<compiledString>FQAAAAAEAAAAFQAAAEUAAABLAAAAYQAAAFWL7IPsEItFDIsQi00Mi0IU/9DcHZIAAADf4PbEQXUGxkX/AesExkX/AFHZ6NkcJFHZ7tkcJA+2Tf9R6FoAAACDxAzcDYIAAADcBXoAAACLVQiLAotNCItQFN1d9P/S3CVyAAAA3EX02V3w2UXwi+VdwwAAAAAAACxAAAAAAAAAFEAAAAAAAAAcQAAAAAAAAIA/AAAAAAAAJEBVi+xRD7ZFCIXAdAjZRQzZXfzrBtlFENld/NlF/IvlXcM=</compiledString>
+				<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQQ==</compiledString>
 				<returnType>float</returnType>
-				<sString>5 + 7 * s(rRange &gt; 10, 0, 1)+(sRange-14)</sString>
+				<sString>8</sString>
 			</lashRange>
 			<maxCount>
 				<compiledString>FQ0AAAABAAAAGQAAAEEwX01heERlbW9ucwBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0lHZHCToBQAAAIPEBF3DuAEAAAAPovfCAAAABHQH8w8sRCQEw+kAAAAAVYvsg+wM2UUI2X38D7dF/A0ADAAAiUX42W3421302W38i0X0i+Vdww==</compiledString>
 				<returnType>int</returnType>
 				<sString>f2l(cA0_MaxDemons)</sString>
 			</maxCount>
+			<responseRange>12</responseRange>
 		</SummonBehaviourCommon>
 	</behaviour>
 	<caption>Саммон Демона</caption>

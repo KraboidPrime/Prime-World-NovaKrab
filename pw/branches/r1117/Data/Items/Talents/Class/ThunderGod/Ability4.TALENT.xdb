@@ -1284,16 +1284,7 @@
 		<sString>340</sString>
 	</manaCost>
 	<marker></marker>
-	<microAI href="/Items/Talents/Class/ThunderGod/Ability4.TALENT" id="B2787E57-E431-4BC3-A255-DDC2D4DAD5B3">
-		<BasicMicroAI>
-			<castWhenIdle>false</castWhenIdle>
-			<condition>
-				<compiledString></compiledString>
-				<returnType>bool</returnType>
-				<sString>true</sString>
-			</condition>
-		</BasicMicroAI>
-	</microAI>
+	<microAI href="" />
 	<minLevel>2</minLevel>
 	<minUseRangeCorrection>0</minUseRangeCorrection>
 	<naftaCost>540</naftaCost>

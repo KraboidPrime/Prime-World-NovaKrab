@@ -438,8 +438,13 @@
 					<returnType>bool</returnType>
 					<sString>true</sString>
 				</startCondition>
-				<talents />
-				<useListAs>ListAsException</useListAs>
+				<talents>
+					<Item href="/Items/Talents/Class/Mage/Ability1.TALENT" />
+					<Item href="/Items/Talents/Class/Mage/Ability2.TALENT" />
+					<Item href="/Items/Talents/Class/Mage/Ability3.TALENT" />
+					<Item href="/Items/Talents/Class/Mage/Ability4.TALENT" />
+				</talents>
+				<useListAs>ListAsRule</useListAs>
 			</FlagsApplicator>
 		</Item>
 		<Item href="/Heroes/DefaultStatus/_HASTE_status.APLR" />

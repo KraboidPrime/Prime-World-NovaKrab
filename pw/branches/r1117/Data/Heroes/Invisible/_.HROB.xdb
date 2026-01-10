@@ -833,7 +833,7 @@
 					<instantApply>true</instantApply>
 				</DispatchImmediate>
 			</dispatch>
-			<flags>1</flags>
+			<flags>5</flags>
 			<image href="" />
 			<imageSecondState href="" />
 			<isMelee>false</isMelee>
@@ -1096,9 +1096,9 @@
 					<levelUpgrades />
 					<statId>Intellect</statId>
 					<value>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABsQg==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABcQg==</compiledString>
 						<returnType>float</returnType>
-						<sString>59</sString>
+						<sString>55</sString>
 					</value>
 				</Item>
 				<Item>
@@ -1249,94 +1249,7 @@
 		</StatsContainer>
 	</stats>
 	<summonedUnits />
-	<targetingParams href="/Heroes/Invisible/_.HROB" id="3EAE7DD7-5F77-4036-A545-6FC2D3FAB2C0">
-		<UnitTargetingParameters parent="/GameLogic/TargetingParams_HeroRanged.UNTP">
-			<aggressiveNeutralAttackingHeroWeight>0</aggressiveNeutralAttackingHeroWeight>
-			<aggressiveNeutralWeight>0</aggressiveNeutralWeight>
-			<allyTargetWeight>-99</allyTargetWeight>
-			<attackerAllyWeight>-99</attackerAllyWeight>
-			<attackerHeroSummonWeight>0</attackerHeroSummonWeight>
-			<attackerHeroTableWeight>0</attackerHeroTableWeight>
-			<attackerHeroWeight>
-				<Item>-99</Item>
-				<Item>-99</Item>
-				<Item>-99</Item>
-				<Item>-99</Item>
-				<Item>-99</Item>
-				<Item>-99</Item>
-				<Item skip="1" />
-				<Item skip="1" />
-				<Item skip="1" />
-				<Item skip="1" />
-				<Item skip="1" />
-				<Item skip="1" />
-				<Item skip="1" />
-				<Item skip="1" />
-				<Item skip="1" />
-				<Item skip="1" />
-				<Item skip="1" />
-				<Item>-99</Item>
-				<Item skip="1" />
-				<Item skip="1" />
-				<Item>-99</Item>
-				<Item skip="1" />
-			</attackerHeroWeight>
-			<attackerMasterWeight>-99</attackerMasterWeight>
-			<attackerMeWeight>-99</attackerMeWeight>
-			<attackerTowerWeight>0</attackerTowerWeight>
-			<autoAttackWeight>-99</autoAttackWeight>
-			<currentTargetWeight>
-				<Item>-99</Item>
-				<Item>-99</Item>
-				<Item>-99</Item>
-				<Item>-99</Item>
-				<Item>-99</Item>
-				<Item>-99</Item>
-				<Item skip="1" />
-				<Item skip="1" />
-				<Item skip="1" />
-				<Item skip="1" />
-				<Item skip="1" />
-				<Item skip="1" />
-				<Item skip="1" />
-				<Item skip="1" />
-				<Item skip="1" />
-				<Item skip="1" />
-				<Item>-99</Item>
-				<Item>-99</Item>
-				<Item>-99</Item>
-				<Item>-99</Item>
-				<Item>-99</Item>
-				<Item skip="1" />
-			</currentTargetWeight>
-			<talentAttackWeight>-99</talentAttackWeight>
-			<unitTargetWeight>
-				<Item>-99</Item>
-				<Item>-99</Item>
-				<Item>-99</Item>
-				<Item>-99</Item>
-				<Item>-99</Item>
-				<Item>-99</Item>
-				<Item skip="1" />
-				<Item skip="1" />
-				<Item skip="1" />
-				<Item skip="1" />
-				<Item skip="1" />
-				<Item skip="1" />
-				<Item skip="1" />
-				<Item skip="1" />
-				<Item skip="1" />
-				<Item skip="1" />
-				<Item skip="1" />
-				<Item>-99</Item>
-				<Item>-99</Item>
-				<Item>-99</Item>
-				<Item>-99</Item>
-				<Item skip="1" />
-			</unitTargetWeight>
-			<unitTypeTableWeight>0</unitTypeTableWeight>
-		</UnitTargetingParameters>
-	</targetingParams>
+	<targetingParams href="/GameLogic/TargetingParams_HeroRanged.UNTP" />
 	<totalStatsBudget>4.6</totalStatsBudget>
 	<uniqueResource href="" />
 </Hero>

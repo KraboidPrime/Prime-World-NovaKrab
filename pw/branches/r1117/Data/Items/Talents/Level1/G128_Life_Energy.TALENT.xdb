@@ -7,8 +7,9 @@
 	<BackLink DBID="/Test/Talents/Test_ManaRework.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/TestSet3.TALENTSET" Count="1" />
 	<BackLink DBID="/Social/TalentsCollection" Count="3" />
+	<BackLink DBID="/Items/Talents/Level1/G128_Life_Energy.TALENT" Count="1" />
 	<activationConditions />
-	<activeCustomTrigger>true</activeCustomTrigger>
+	<activeCustomTrigger>false</activeCustomTrigger>
 	<allowChase>
 		<compiledString></compiledString>
 		<returnType>bool</returnType>
@@ -25,7 +26,243 @@
 		<sString>0.0f</sString>
 	</aoeSize>
 	<aoeType>None</aoeType>
-	<applicators />
+	<applicators>
+		<Item href="/Items/Talents/Level1/G128_Life_Energy.TALENT" id="37BF7B58-C563-4DFB-AD63-E2BEAC8C4237">
+			<SpellPeriodicallyApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>Сюда прайм</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+					<returnType>float</returnType>
+					<sString>1</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<period>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQg==</compiledString>
+					<returnType>float</returnType>
+					<sString>100.0f</sString>
+				</period>
+				<providerName></providerName>
+				<scaleMode>ScaleIsCount</scaleMode>
+				<spell href="/Items/Talents/Level1/G128_Life_Energy.TALENT" id="F532C5C0-D5EF-4DA5-AB41-316782A4FDBC">
+					<Spell>
+						<applicators>
+							<Item href="/Items/Talents/Level1/G128_Life_Energy.TALENT" id="828A6CFE-9E02-4D81-ADC2-6FE0327EE304">
+								<AddNaftaApplicator>
+									<applyTarget>AbilityOwner</applyTarget>
+									<caption></caption>
+									<enabled>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<isFromImpulseBuff>false</isFromImpulseBuff>
+									<LoggingEvent>-1</LoggingEvent>
+									<nafta>
+										<compiledString>FQwAAAACAAAAEQAAACcAAABHMTI4X2ludmVzdABVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3A01AAAA2V382UX8i+Vdw83MzMzMzOw/</compiledString>
+										<returnType>float</returnType>
+										<sString>0.9*sender.vG128_invest</sString>
+									</nafta>
+									<providerName></providerName>
+								</AddNaftaApplicator>
+							</Item>
+							<Item href="/Items/Talents/Level1/G128_Life_Energy.TALENT" id="C1B00627-ECE8-4F17-B20F-47FB6E5E4951">
+								<AddNaftaApplicator>
+									<applyTarget>AbilityOwner</applyTarget>
+									<caption></caption>
+									<enabled>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<isFromImpulseBuff>false</isFromImpulseBuff>
+									<LoggingEvent>-1</LoggingEvent>
+									<nafta>
+										<compiledString>FQwAAAABAAAAEAAAAEcxMjhfaW52ZXN0AFWL7GgAAAAAi0UIixCLTQiLgogBAAD/0NngXcM=</compiledString>
+										<returnType>float</returnType>
+										<sString>-sender.vG128_invest</sString>
+									</nafta>
+									<providerName></providerName>
+								</AddNaftaApplicator>
+							</Item>
+						</applicators>
+						<dispatch href="/Items/Talents/Level1/G128_Life_Energy.TALENT" id="8DC88973-5427-4CEE-8DA3-1642D5F47D8C">
+							<DispatchImmediate>
+								<alwaysApply>false</alwaysApply>
+								<applyEffect>
+									<Item href="" />
+									<Item href="" />
+								</applyEffect>
+								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+								<applyEffectOrientation>Default</applyEffectOrientation>
+								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+								<dieAfterApply>true</dieAfterApply>
+								<dispatchEffect>
+									<Item href="" />
+									<Item href="" />
+								</dispatchEffect>
+								<flags>0</flags>
+								<instantApply>false</instantApply>
+							</DispatchImmediate>
+						</dispatch>
+					</Spell>
+				</spell>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<startOffset>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzczMPQ==</compiledString>
+					<returnType>float</returnType>
+					<sString>0.1f</sString>
+				</startOffset>
+				<targetSelector href="" />
+			</SpellPeriodicallyApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level1/G128_Life_Energy.TALENT" id="D14AD3DF-A384-45EB-8AE2-482643AE3ECB">
+			<SpellProbabilityApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<caption></caption>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<probability>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAC0Qg==</compiledString>
+					<returnType>float</returnType>
+					<sString>90.0</sString>
+				</probability>
+				<providerName></providerName>
+				<spell href="/Items/Talents/Level1/G128_Life_Energy.TALENT" id="18CB5FD6-4BDA-4A95-AECC-0C72E3DB679B">
+					<Spell>
+						<applicators>
+							<Item href="/Items/Talents/Level1/G128_Life_Energy.TALENT" id="45577D33-8B0B-44BC-99C3-795A33C65721">
+								<PermanentStatModApplicator>
+									<applyTarget>AbilityOwner</applyTarget>
+									<caption></caption>
+									<customApplyType>None</customApplyType>
+									<enabled>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<LoggingEvent>-1</LoggingEvent>
+									<modifier>
+										<addValue>
+											<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+											<returnType>float</returnType>
+											<sString>1.0f</sString>
+										</addValue>
+										<multValue>
+											<compiledString></compiledString>
+											<returnType>float</returnType>
+											<sString>1.0f</sString>
+										</multValue>
+										<stat>Life</stat>
+										<topModifier>false</topModifier>
+										<variable>G128_counter</variable>
+									</modifier>
+									<providerName></providerName>
+								</PermanentStatModApplicator>
+							</Item>
+						</applicators>
+						<dispatch href="/Items/Talents/Level1/G128_Life_Energy.TALENT" id="BC5906A4-05F7-40E8-ADD7-CF949C23F0A0">
+							<DispatchImmediate>
+								<alwaysApply>false</alwaysApply>
+								<applyEffect>
+									<Item href="" />
+									<Item href="" />
+								</applyEffect>
+								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+								<applyEffectOrientation>Default</applyEffectOrientation>
+								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+								<dieAfterApply>true</dieAfterApply>
+								<dispatchEffect>
+									<Item href="" />
+									<Item href="" />
+								</dispatchEffect>
+								<flags>0</flags>
+								<instantApply>false</instantApply>
+							</DispatchImmediate>
+						</dispatch>
+					</Spell>
+				</spell>
+				<spellIfFailed href="/Items/Talents/Level1/G128_Life_Energy.TALENT" id="B622133A-7022-46ED-A6C8-E3177A89B7BF">
+					<Spell>
+						<applicators>
+							<Item href="/Items/Talents/Level1/G128_Life_Energy.TALENT" id="34B58A4D-D34A-4064-805A-255A1C104803">
+								<PermanentStatModApplicator>
+									<applyTarget>AbilityOwner</applyTarget>
+									<caption></caption>
+									<customApplyType>None</customApplyType>
+									<enabled>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<LoggingEvent>-1</LoggingEvent>
+									<modifier>
+										<addValue>
+											<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
+											<returnType>float</returnType>
+											<sString>2.0f</sString>
+										</addValue>
+										<multValue>
+											<compiledString></compiledString>
+											<returnType>float</returnType>
+											<sString>1.0f</sString>
+										</multValue>
+										<stat>Life</stat>
+										<topModifier>false</topModifier>
+										<variable>G128_counter</variable>
+									</modifier>
+									<providerName></providerName>
+								</PermanentStatModApplicator>
+							</Item>
+						</applicators>
+						<dispatch href="/Items/Talents/Level1/G128_Life_Energy.TALENT" id="1B1DCADE-4859-44A6-977B-78DE08762F2E">
+							<DispatchImmediate>
+								<alwaysApply>false</alwaysApply>
+								<applyEffect>
+									<Item href="" />
+									<Item href="" />
+								</applyEffect>
+								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+								<applyEffectOrientation>Default</applyEffectOrientation>
+								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+								<dieAfterApply>true</dieAfterApply>
+								<dispatchEffect>
+									<Item href="" />
+									<Item href="" />
+								</dispatchEffect>
+								<flags>0</flags>
+								<instantApply>false</instantApply>
+							</DispatchImmediate>
+						</dispatch>
+					</Spell>
+				</spellIfFailed>
+			</SpellProbabilityApplicator>
+		</Item>
+	</applicators>
 	<askId>0</askId>
 	<autoTargetSelector href="" />
 	<budget>-1</budget>
@@ -39,28 +276,49 @@
 	<commonDescription textref="" />
 	<compiledDescriptionA textref="" />
 	<compiledDescriptionB textref="" />
-	<conditionFormulas />
+	<conditionFormulas>
+		<Item href="/Items/Talents/Level1/G128_Life_Energy.TALENT" id="17B687A5-248E-4D09-BD38-71BBF2D85406">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FQ0AAAACAAAAEgAAACgAAABHMTI4X2NvdW50ZXIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdSgAAAN/g9sREegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAPA/</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vG128_counter == 1.0f</sString>
+				</condition>
+				<name>G128_oneTT</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Items/Talents/Level1/G128_Life_Energy.TALENT" id="2BDBED9F-C145-418F-8920-F2107FCDFB3B">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FQ0AAAACAAAAEgAAACgAAABHMTI4X2NvdW50ZXIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdSgAAAN/g9sREegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAABA</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vG128_counter == 2.0f</sString>
+				</condition>
+				<name>G128_twoTT</name>
+			</ConditionFormula>
+		</Item>
+	</conditionFormulas>
 	<conflictingTalents />
 	<constants href="/Items/Talents/Level1/G128_Life_Energy.TALENT" id="74D15284-01EC-4B42-BFF4-D5419E11E968">
 		<UnitConstantsContainer>
 			<vars>
 				<Item href="/Items/Talents/Level1/G128_Life_Energy.TALENT" id="458EC76B-9CA8-472C-A674-C1E8B4815770">
 					<UnitConstant>
-						<name>Add_Life</name>
+						<name>Invest</name>
 						<var>
-							<compiledString>FQsAAAADAAEAFAAAAB4AAABHAAAAkgAAAExpZmVCdWRnZXQAVYvsg+wMUdkFbAAAANkcJFHZBWgAAADZHCSLRRCLEItNEItCbP/QUdkcJOg1AAAAg8QEi00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ3V34/9DcTfjZXfTZRfSL5V3DAAAAQClcDz5Vi+xR2UUI2Rwk6AUAAACDxARdw1WL7FHZRQiD7AjdHCToXv///4PECNld/NlF/IvlXcM=</compiledString>
+							<compiledString>FQwAAAABAAAAEAAAAEcxMjhfaW52ZXN0AFWL7GgAAAAAi0UIixCLTQiLgogBAAD/0F3D</compiledString>
 							<returnType>float</returnType>
-							<sString>floor(refineScale(2,0.14))*cLifeBudget</sString>
+							<sString>sender.vG128_invest</sString>
 						</var>
 					</UnitConstant>
 				</Item>
 				<Item href="/Items/Talents/Level1/G128_Life_Energy.TALENT" id="B267C3BD-B45C-4D87-A582-8F37446741A5">
 					<UnitConstant>
-						<name>Add_Energy</name>
+						<name>Get_back</name>
 						<var>
-							<compiledString>FQAAAAACAAEABgAAABAAAABcAAAAVYvsUdkFNgAAANkcJFHZBTIAAADZHCSLRRCLEItNEItCbP/QUdkcJOgNAAAAg8QEXcMAAEhCAABgQFWL7FHZRQjZHCToBQAAAIPEBF3DVYvsUdlFCIPsCN0cJOiU////g8QI2V382UX8i+Vdww==</compiledString>
+							<compiledString>FRcAAAAEAAAAHgAAADQAAABPAAAAYgAAAEcxMjhfY291bnRlcgAAAABJbnZlc3QAVYvsg+wMaAAAAACLRQiLEItNCIuCiAEAAP/Q3B2GAAAA3+D2xAV6B9nu3V346yOLTQxRi1UIUmgQAAAAi0UQixCLTRCLQlD/0NwNdgAAAN1d+N1F+Nld9NlF9IvlXcNmZmZmZmb+PwAAAAAAAAAAAAAAAAAA4D8=</compiledString>
 							<returnType>float</returnType>
-							<sString>floor(refineScale(50, 3.5))</sString>
+							<sString>sender.vG128_counter &lt; 0.5 ? 0 : 1.9*cInvest</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -72,9 +330,9 @@
 		<percent>3</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
 		<returnType>float</returnType>
-		<sString>0</sString>
+		<sString>5</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>
@@ -83,8 +341,26 @@
 	</cooldownTimeSecondState>
 	<description textref="/Items/Talents/Level1/G128_Life_Energy.TALENT_description.txt" />
 	<devPoints>1</devPoints>
-	<dispatch href="" />
-	<flags>2</flags>
+	<dispatch href="/Items/Talents/Level1/G128_Life_Energy.TALENT" id="471157B7-AF23-420A-BCE5-F3B8164AD524">
+		<DispatchImmediate>
+			<alwaysApply>false</alwaysApply>
+			<applyEffect>
+				<Item href="" />
+				<Item href="" />
+			</applyEffect>
+			<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+			<applyEffectOrientation>Default</applyEffectOrientation>
+			<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+			<dieAfterApply>true</dieAfterApply>
+			<dispatchEffect>
+				<Item href="" />
+				<Item href="" />
+			</dispatchEffect>
+			<flags>0</flags>
+			<instantApply>false</instantApply>
+		</DispatchImmediate>
+	</dispatch>
+	<flags>6</flags>
 	<forceBonus>6</forceBonus>
 	<image href="/UI/Styles/Icons/Talents/_128.ITEX" />
 	<imageSecondState href="" />
@@ -105,70 +381,309 @@
 	<name textref="/Items/Talents/Level1/G128_Life_Energy.TALENT_name.txt" />
 	<node></node>
 	<passiveApplicators>
-		<Item href="/Items/Talents/Level1/G128_Life_Energy.TALENT" id="A739C93F-5680-4254-8A65-E48DE2EA227F">
-			<PermanentStatModApplicator>
+		<Item href="/Items/Talents/Level1/G128_Life_Energy.TALENT" id="3F0AD24E-F505-4B26-B9D5-003D5013684D">
+			<SpellPeriodicallyApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>Здоровье</caption>
-				<customApplyType>None</customApplyType>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>инвестиции от времени</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
 				<enabled>
+					<compiledString>FQ0AAAACAAAAEgAAACgAAABHMTI4X2NvdW50ZXIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdSgAAAN/g9sQFegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAOA/</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vG128_counter &lt; 0.5</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<period>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
+					<returnType>float</returnType>
+					<sString>10</sString>
+				</period>
+				<providerName></providerName>
+				<scaleMode>ScaleIsCount</scaleMode>
+				<spell href="/Items/Talents/Level1/G128_Life_Energy.TALENT" id="7F527796-985B-40AD-AC12-12B7ABD63AD6">
+					<Spell>
+						<applicators>
+							<Item href="/Items/Talents/Level1/G128_Life_Energy.TALENT" id="B2BAE72C-45D2-418E-9ADC-FE9C6C26A50B">
+								<NaftaTransferApplicator>
+									<addition>
+										<compiledString></compiledString>
+										<returnType>float</returnType>
+										<sString>0.0f</sString>
+									</addition>
+									<amount>
+										<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADgQA==</compiledString>
+										<returnType>float</returnType>
+										<sString>7</sString>
+									</amount>
+									<applyTarget>ApplicatorTarget</applyTarget>
+									<caption></caption>
+									<enabled>
+										<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<LoggingEvent>-1</LoggingEvent>
+									<multiplier>
+										<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+										<returnType>float</returnType>
+										<sString>0</sString>
+									</multiplier>
+									<naftaTransferTarget>ApplicatorTarget</naftaTransferTarget>
+									<providerName></providerName>
+									<uiEvent href="/UI/Events/CommonEvents/EventLoseGold.UIEV" />
+								</NaftaTransferApplicator>
+							</Item>
+							<Item href="/Items/Talents/Level1/G128_Life_Energy.TALENT" id="6B276C8F-9BC0-4714-AD17-758A979D66FC">
+								<PermanentStatModApplicator>
+									<applyTarget>ApplicatorTarget</applyTarget>
+									<caption></caption>
+									<customApplyType>None</customApplyType>
+									<enabled>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<LoggingEvent>-1</LoggingEvent>
+									<modifier>
+										<addValue>
+											<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADgQA==</compiledString>
+											<returnType>float</returnType>
+											<sString>7.0f</sString>
+										</addValue>
+										<multValue>
+											<compiledString></compiledString>
+											<returnType>float</returnType>
+											<sString>1.0f</sString>
+										</multValue>
+										<stat>Life</stat>
+										<topModifier>false</topModifier>
+										<variable>G128_invest</variable>
+									</modifier>
+									<providerName></providerName>
+								</PermanentStatModApplicator>
+							</Item>
+						</applicators>
+						<dispatch href="/Items/Talents/Level1/G128_Life_Energy.TALENT" id="6398F7DA-3F04-459B-BF28-5C3D70E42DD9">
+							<DispatchImmediate>
+								<alwaysApply>false</alwaysApply>
+								<applyEffect>
+									<Item href="" />
+									<Item href="" />
+								</applyEffect>
+								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+								<applyEffectOrientation>Default</applyEffectOrientation>
+								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+								<dieAfterApply>true</dieAfterApply>
+								<dispatchEffect>
+									<Item href="" />
+									<Item href="" />
+								</dispatchEffect>
+								<flags>0</flags>
+								<instantApply>false</instantApply>
+							</DispatchImmediate>
+						</dispatch>
+					</Spell>
+				</spell>
+				<startCondition>
 					<compiledString></compiledString>
 					<returnType>bool</returnType>
 					<sString>true</sString>
-				</enabled>
-				<formulaName></formulaName>
-				<LoggingEvent>-1</LoggingEvent>
-				<modifier>
-					<addValue>
-						<compiledString>FQkAAAABAAAAFQAAAEFkZF9MaWZlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
-						<returnType>float</returnType>
-						<sString>cAdd_Life</sString>
-					</addValue>
-					<multValue>
-						<compiledString></compiledString>
-						<returnType>float</returnType>
-						<sString>1.0f</sString>
-					</multValue>
-					<stat>Life</stat>
-					<topModifier>false</topModifier>
-					<variable></variable>
-				</modifier>
-				<providerName></providerName>
-			</PermanentStatModApplicator>
+				</startCondition>
+				<startOffset>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
+					<returnType>float</returnType>
+					<sString>10</sString>
+				</startOffset>
+				<targetSelector href="" />
+			</SpellPeriodicallyApplicator>
 		</Item>
-		<Item href="/Items/Talents/Level1/G128_Life_Energy.TALENT" id="4B1B92C7-98DA-4EBE-A16B-926006761B24">
-			<PermanentStatModApplicator>
+		<Item href="/Items/Talents/Level1/G128_Life_Energy.TALENT" id="84E406EB-6975-47CE-AFA2-B42BA47325C3">
+			<TriggerApplicator>
+				<actionsCount>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</actionsCount>
 				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>+Энергии</caption>
-				<customApplyType>None</customApplyType>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>инвестиции за добивание</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
 				<enabled>
+					<compiledString>FQ0AAAACAAAAEgAAACgAAABHMTI4X2NvdW50ZXIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdSgAAAN/g9sQFegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAOA/</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vG128_counter &lt; 0.5</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<playAck>false</playAck>
+				<processor href="/Items/Talents/Level1/G128_Life_Energy.TALENT" id="D6B5D7AD-6088-4316-A506-9F78A094B331">
+					<EventProcessorUnitDieNearMe>
+						<applyTarget>AbilityOwner</applyTarget>
+						<checkSender>0</checkSender>
+						<killerFlags>9</killerFlags>
+						<range>
+							<compiledString>FQ0AAAABAAAAGQAAAFJhbmdlX0V4TG9uZwBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+							<returnType>float</returnType>
+							<sString>cRange_ExLong</sString>
+						</range>
+						<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
+						<spell href="/Items/Talents/Level1/G128_Life_Energy.TALENT" id="D7E12F24-CF95-4942-BD3B-D9F12BE544E2">
+							<Spell>
+								<applicators>
+									<Item href="/Items/Talents/Level1/G128_Life_Energy.TALENT" id="571D3B2F-9FF1-4720-8076-2B2D6C5D6581">
+										<NaftaTransferApplicator>
+											<addition>
+												<compiledString></compiledString>
+												<returnType>float</returnType>
+												<sString>0.0f</sString>
+											</addition>
+											<amount>
+												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADgQA==</compiledString>
+												<returnType>float</returnType>
+												<sString>7</sString>
+											</amount>
+											<applyTarget>ApplicatorTarget</applyTarget>
+											<caption></caption>
+											<enabled>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</enabled>
+											<formulaName></formulaName>
+											<LoggingEvent>-1</LoggingEvent>
+											<multiplier>
+												<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+												<returnType>float</returnType>
+												<sString>0</sString>
+											</multiplier>
+											<naftaTransferTarget>ApplicatorTarget</naftaTransferTarget>
+											<providerName></providerName>
+											<uiEvent href="/UI/Events/CommonEvents/EventLoseGold.UIEV" />
+										</NaftaTransferApplicator>
+									</Item>
+									<Item href="/Items/Talents/Level1/G128_Life_Energy.TALENT" id="EC393565-7F38-4D9B-B99C-839605B62849">
+										<PermanentStatModApplicator>
+											<applyTarget>ApplicatorTarget</applyTarget>
+											<caption></caption>
+											<customApplyType>None</customApplyType>
+											<enabled>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</enabled>
+											<formulaName></formulaName>
+											<LoggingEvent>-1</LoggingEvent>
+											<modifier>
+												<addValue>
+													<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADgQA==</compiledString>
+													<returnType>float</returnType>
+													<sString>7.0f</sString>
+												</addValue>
+												<multValue>
+													<compiledString></compiledString>
+													<returnType>float</returnType>
+													<sString>1.0f</sString>
+												</multValue>
+												<stat>Life</stat>
+												<topModifier>false</topModifier>
+												<variable>G128_invest</variable>
+											</modifier>
+											<providerName></providerName>
+										</PermanentStatModApplicator>
+									</Item>
+								</applicators>
+								<dispatch href="/Items/Talents/Level1/G128_Life_Energy.TALENT" id="81E4CA57-F5D5-4701-BF7F-93C2F9FCB6C3">
+									<DispatchImmediate>
+										<alwaysApply>false</alwaysApply>
+										<applyEffect>
+											<Item href="" />
+											<Item href="" />
+										</applyEffect>
+										<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+										<applyEffectOrientation>Default</applyEffectOrientation>
+										<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+										<dieAfterApply>true</dieAfterApply>
+										<dispatchEffect>
+											<Item href="" />
+											<Item href="" />
+										</dispatchEffect>
+										<flags>0</flags>
+										<instantApply>false</instantApply>
+									</DispatchImmediate>
+								</dispatch>
+							</Spell>
+						</spell>
+						<targets>538771519</targets>
+					</EventProcessorUnitDieNearMe>
+				</processor>
+				<providerName></providerName>
+				<startCondition>
 					<compiledString></compiledString>
 					<returnType>bool</returnType>
 					<sString>true</sString>
+				</startCondition>
+				<useAbilityCooldown>false</useAbilityCooldown>
+				<useAbilityOwnerMana>false</useAbilityOwnerMana>
+			</TriggerApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level1/G128_Life_Energy.TALENT" id="E7696091-E50C-4CD0-8DA7-4012D775779B">
+			<FlagsApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption></caption>
+				<consumables />
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FQ0AAAACAAAAEgAAACgAAABHMTI4X2NvdW50ZXIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdSgAAAN/g9sRBdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAOA/</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vG128_counter &gt; 0.5</sString>
 				</enabled>
+				<flag>1024</flag>
 				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
 				<LoggingEvent>-1</LoggingEvent>
-				<modifier>
-					<addValue>
-						<compiledString>FQsAAAABAAAAFwAAAEFkZF9FbmVyZ3kAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
-						<returnType>float</returnType>
-						<sString>cAdd_Energy</sString>
-					</addValue>
-					<multValue>
-						<compiledString></compiledString>
-						<returnType>float</returnType>
-						<sString>1.0f</sString>
-					</multValue>
-					<stat>Energy</stat>
-					<topModifier>false</topModifier>
-					<variable></variable>
-				</modifier>
 				<providerName></providerName>
-			</PermanentStatModApplicator>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<talents>
+					<Item href="/Items/Talents/Level1/G128_Life_Energy.TALENT" />
+				</talents>
+				<useListAs>ListAsRule</useListAs>
+			</FlagsApplicator>
 		</Item>
 	</passiveApplicators>
 	<persistentId>G128</persistentId>
 	<prerequisiteTalents />
-	<rarity>excellent</rarity>
+	<rarity>magnificent</rarity>
 	<requireLineOfSight>true</requireLineOfSight>
 	<shortDescription textref="" />
 	<talentRollGroups>63</talentRollGroups>
@@ -197,7 +712,7 @@
 		</Item>
 	</talentStats>
 	<targetType>0</targetType>
-	<type>Simple</type>
+	<type>Active</type>
 	<upgradeLevel>0</upgradeLevel>
 	<useRange>
 		<compiledString></compiledString>

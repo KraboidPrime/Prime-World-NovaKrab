@@ -12,6 +12,7 @@
 	<BackLink DBID="/Test/Talents/Artist/Epic_Int.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Artist/Epic_Str.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Artist/Epic_Str_Ult2.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Artist/Ability_A0_SUP.TALENT" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>

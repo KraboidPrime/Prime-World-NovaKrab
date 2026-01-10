@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BasicEffectStandalone>
 	<BackLink DBID="/Effects/General/Teleport/_EndSwitch.EFFT" Count="1" />
+	<BackLink DBID="/Effects/General/Teleport/_EndSwitchP.EFFT" Count="1" />
 	<component href="/Effects/General/Teleport/_EndRedTRS.PRXY" />
 	<deathType>Anim</deathType>
 	<enableCondition href="" />

@@ -4,6 +4,7 @@
 	<BackLink DBID="/Items/Talents/Level4/G630_Str.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level4/G631_Int.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level2/G628_StrOrInt.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level3/G1001_Str_Int_Life.TALENT" Count="1" />
 	<applicators>
 		<Item href="/Items/Talents/TalentKits/Redset6_1_HealingWard/status_HealingAuraOnAlly.APLR" />
 	</applicators>
@@ -39,5 +40,5 @@
 	</startCondition>
 	<targets>1342177287</targets>
 	<targetSelector href="" />
-	<type>Ally</type>
+	<type>None</type>
 </AuraApplicator>

@@ -6,8 +6,8 @@
 	<BackLink DBID="/Items/Talents/Level4/G646_Int.TALENT" Count="1" />
 	<name>TowerCooldown</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQw==</compiledString>
+		<compiledString>FR4AAAACAAAAIwAAADkAAABBZGRfU3RyT3JJbnRfUmVkc2V0Nl81Q291bnRlcgBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1bAAAA3+D2xAF1CcdF/L4AAADrB8dF/PAAAADbRfyL5V3DAAAAAAAACEA=</compiledString>
 		<returnType>float</returnType>
-		<sString>240</sString>
+		<sString>sender.vAdd_StrOrInt_Redset6_5Counter &gt;= 3 ? 190 : 240</sString>
 	</var>
 </UnitConstant>

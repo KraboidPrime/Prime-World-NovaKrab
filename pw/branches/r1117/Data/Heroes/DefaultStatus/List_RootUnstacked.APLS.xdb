@@ -9,6 +9,7 @@
 	<BackLink DBID="/Items/Talents/Class/Vampire/A2_BlinkToTarget.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Level5/status_G334_Root.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Trickster/status_A1_root.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A4_1.TALENT" Count="1" />
 	<applicatorLists />
 	<applicators>
 		<Item href="/Items/Talents/Class/Demonolog/status_A2_Root.APLR" />

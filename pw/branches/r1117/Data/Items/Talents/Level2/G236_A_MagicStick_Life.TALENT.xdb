@@ -265,6 +265,28 @@
 				</spells>
 			</SpellSwitchApplicator>
 		</Item>
+		<Item href="/Items/Talents/Level2/G236_A_MagicStick_Life.TALENT" id="59E5848E-23CD-47ED-9EBD-BC4B7C2D8427">
+			<HealApplicator>
+				<amount>
+					<compiledString>FRQAAAABAAAAGAAAAEcyMzZfVGhpc0hlYWxBbW91bnQAVYvsaAAAAACLRQiLEItNCIuCiAEAAP/QXcM=</compiledString>
+					<returnType>float</returnType>
+					<sString>sender.vG236_ThisHealAmount</sString>
+				</amount>
+				<applyTarget>AbilityOwner</applyTarget>
+				<caption>Хиляемся (в энергию) за стеки</caption>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<healTarget>Energy</healTarget>
+				<ignoreHealingMods>false</ignoreHealingMods>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<uiEvent href="/UI/Events/CommonEvents/EventEnergy.UIEV" />
+			</HealApplicator>
+		</Item>
 	</applicators>
 	<askId>0</askId>
 	<autoTargetSelector href="" />
@@ -288,6 +310,26 @@
 					<sString>sender.vG236Counter &gt; 0</sString>
 				</condition>
 				<name>EnoughPoints</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Items/Talents/Level2/G236_A_MagicStick_Life.TALENT" id="CACBF480-89AD-4B68-BCE3-6A2E7085F87B">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRYAAAACAAAAGwAAADEAAABUaDIwMjVfVG9vbHRpcENvdW50ZXIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdUwAAAN/g9sQBdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAhA</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vTh2025_TooltipCounter &gt;= 3</sString>
+				</condition>
+				<name>Bonus3ActiveTh</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Items/Talents/Level2/G236_A_MagicStick_Life.TALENT" id="84BDB18A-224B-4AAF-9B6F-9B42D413796F">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRYAAAACAAAAGwAAADEAAABUaDIwMjVfVG9vbHRpcENvdW50ZXIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdUwAAAN/g9sQBdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAABxA</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vTh2025_TooltipCounter &gt;= 7</sString>
+				</condition>
+				<name>Bonus7ActiveTh</name>
 			</ConditionFormula>
 		</Item>
 	</conditionFormulas>
@@ -319,9 +361,9 @@
 					<UnitConstant>
 						<name>MaxStacks</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>5</sString>
+							<sString>10</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -329,9 +371,9 @@
 					<UnitConstant>
 						<name>HealPerStack</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAQEIAAEBA</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQg==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(48, 3)</sString>
+							<sString>50</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -363,9 +405,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACWQg==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQQ==</compiledString>
 		<returnType>float</returnType>
-		<sString>75</sString>
+		<sString>15</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>
@@ -498,9 +540,9 @@
 											<returnType>bool</returnType>
 											<sString>true</sString>
 										</abilityCondition>
-										<abilityCostMode>Custom</abilityCostMode>
+										<abilityCostMode>Any</abilityCostMode>
 										<exceptThis>false</exceptThis>
-										<flags>536871102</flags>
+										<flags>536871040</flags>
 										<onlySingleTarget>false</onlySingleTarget>
 									</filter>
 									<spell href="/Items/Talents/Level2/G236_A_MagicStick_Life.TALENT" id="AF4AB12C-73F2-4246-8AD7-F839DD97021F">
@@ -551,13 +593,60 @@
 																			<providerName></providerName>
 																		</PermanentStatModApplicator>
 																	</Item>
+																	<Item href="/Items/Talents/Level2/G236_A_MagicStick_Life.TALENT" id="9ABA656C-875F-46A7-A62B-F53246EBD82D">
+																		<StatModApplicator>
+																			<applyTarget>AbilityOwner</applyTarget>
+																			<behaviorFlags>216</behaviorFlags>
+																			<caption></caption>
+																			<constraint>None</constraint>
+																			<dontUpdate>false</dontUpdate>
+																			<effect>
+																				<Item href="" />
+																				<Item href="" />
+																			</effect>
+																			<enabled>
+																				<compiledString></compiledString>
+																				<returnType>bool</returnType>
+																				<sString>true</sString>
+																			</enabled>
+																			<formulaName></formulaName>
+																			<lifeTime>
+																				<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAQA==</compiledString>
+																				<returnType>float</returnType>
+																				<sString>4</sString>
+																			</lifeTime>
+																			<LoggingEvent>-1</LoggingEvent>
+																			<modifier>
+																				<addValue>
+																					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
+																					<returnType>float</returnType>
+																					<sString>2.0f</sString>
+																				</addValue>
+																				<multValue>
+																					<compiledString></compiledString>
+																					<returnType>float</returnType>
+																					<sString>1.0f</sString>
+																				</multValue>
+																				<stat>Life</stat>
+																				<topModifier>false</topModifier>
+																				<variable>Zapret_G236</variable>
+																			</modifier>
+																			<providerName></providerName>
+																			<startCondition>
+																				<compiledString></compiledString>
+																				<returnType>bool</returnType>
+																				<sString>true</sString>
+																			</startCondition>
+																			<statModName></statModName>
+																		</StatModApplicator>
+																	</Item>
 																</applicators>
 																<dispatch href="/Items/Talents/Level2/G236_A_MagicStick_Life.TALENT" id="FECD8A96-D4A5-43FE-960E-0EE3C6BD7C55">
 																	<DispatchLinear>
 																		<aiming>Straight</aiming>
 																		<alwaysApply>true</alwaysApply>
 																		<applyEffect>
-																			<Item href="/Effects/Buffs/EnergyBurst/_FlyInGreen.EFFT" />
+																			<Item href="" />
 																			<Item href="" />
 																		</applyEffect>
 																		<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
@@ -640,9 +729,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FRYAAAACAAAAHQAAADoAAABHMjM2Q291bnRlcgBNYXhTdGFja3MAVYvsg+wMaAAAAACLRQiLEItNCIuCiAEAAP/Qi00MUYtVCFJoDAAAAItFEIsQi00Qi0JQ3V34/9DcXfjf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+					<compiledString>FSQAAAAEAAAAKwAAAEgAAABnAAAAfQAAAEcyMzZDb3VudGVyAE1heFN0YWNrcwAAAFphcHJldF9HMjM2AFWL7IPsDGgAAAAAi0UIixCLTQiLgogBAAD/0ItNDFGLVQhSaAwAAACLRRCLEItNEItCUN1d+P/Q3F343+D2xEF1K2gYAAAAi00IixGLTQiLgogBAAD/0NwdnwAAAN/g9sQFegnHRfQBAAAA6wfHRfQAAAAAikX0i+VdwwAAAAAAAPA/</compiledString>
 					<returnType>bool</returnType>
-					<sString>sender.vG236Counter &lt; cMaxStacks</sString>
+					<sString>sender.vG236Counter &lt; cMaxStacks &amp;&amp; sender.vZapret_G236 &lt; 1</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<lifeTime>
@@ -684,10 +773,11 @@
 			</AuraApplicator>
 		</Item>
 		<Item href="/Items/Talents/Level2/status_G236_Ready.APLR" />
+		<Item href="/Items/Talents/Level3/ThirdPinkSet_Prog2025.APLR" />
 	</passiveApplicators>
 	<persistentId>G236</persistentId>
 	<prerequisiteTalents />
-	<rarity>excellent</rarity>
+	<rarity>magnificent</rarity>
 	<requireLineOfSight>false</requireLineOfSight>
 	<shortDescription textref="/Items/Talents/Level2/G236_A_MagicStick_Life.TALENT_shortDescription.txt" />
 	<talentRollGroups>63</talentRollGroups>

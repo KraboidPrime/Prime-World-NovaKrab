@@ -87,6 +87,7 @@
 									<uiEvent href="" />
 								</DamageApplicator>
 							</Item>
+							<Item href="/Heroes/DefaultStatus/_SLOW_MOVE.APLR" />
 						</applicators>
 						<dispatch href="/Items/Talents/Class/GhostLord/Ability_A3.TALENT" id="9D35DA6C-7252-4B92-8F88-71F00720A3C0">
 							<DispatchImmediate>
@@ -295,6 +296,26 @@
 				</Item>
 				<Item href="/Items/Talents/Class/GhostLord/const_A4_A3cd" />
 				<Item href="/Items/Talents/Class/GhostLord/const_A4_AxeAddDamage" />
+				<Item href="/Items/Talents/Class/GhostLord/Ability_A3.TALENT" id="8809FC0F-CCC6-4241-B762-DA3510811C78">
+					<UnitConstant>
+						<name>DecMoveSpeed_WithReduction</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQQ==</compiledString>
+							<returnType>float</returnType>
+							<sString>20</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/GhostLord/Ability_A3.TALENT" id="814578C0-67D4-4483-82C4-79C3B5BB85DF">
+					<UnitConstant>
+						<name>Slow_Duration</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
+							<returnType>float</returnType>
+							<sString>2</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

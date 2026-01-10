@@ -100,28 +100,49 @@
 	<commonDescription textref="" />
 	<compiledDescriptionA textref="" />
 	<compiledDescriptionB textref="" />
-	<conditionFormulas />
+	<conditionFormulas>
+		<Item href="/Items/Talents/Level2/G137_Int_LifeSteal.TALENT" id="6FB33FB9-40F6-4A0E-BF81-F05E0CD2B5E7">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRcAAAACAAAAHAAAADIAAABTZWMyMDI1X1Rvb2x0aXBDb3VudGVyAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHVQAAADf4PbEAXUJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAIQA==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vSec2025_TooltipCounter &gt;= 3</sString>
+				</condition>
+				<name>Bonus3ActiveSe</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Items/Talents/Level2/G137_Int_LifeSteal.TALENT" id="74A436A7-5BA6-48F9-BBEA-C6AEA3FF99CE">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRcAAAACAAAAHAAAADIAAABTZWMyMDI1X1Rvb2x0aXBDb3VudGVyAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHVQAAADf4PbEAXUJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAcQA==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vSec2025_TooltipCounter &gt;= 7</sString>
+				</condition>
+				<name>Bonus7ActiveSe</name>
+			</ConditionFormula>
+		</Item>
+	</conditionFormulas>
 	<conflictingTalents />
 	<constants href="/Items/Talents/Level2/G137_Int_LifeSteal.TALENT" id="C13B7CC2-92E6-4487-89EC-FFBDD7114297">
 		<UnitConstantsContainer>
 			<vars>
-				<Item href="/Items/Talents/Level2/G137_Int_LifeSteal.TALENT" id="8B3BF703-BB8F-4F51-B3C7-67B3CE772E09">
+				<Item href="/Items/Talents/Level2/G137_Int_LifeSteal.TALENT" id="55746E26-C93E-4F84-94AC-A6A3C58D0CEA">
 					<UnitConstant>
-						<name>Add_Intellect</name>
+						<name>CD_G137</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAQEAAAIA+</compiledString>
+							<compiledString>FRkAAAAJAAEAIAAAADkAAABvAAAAhQAAAIsAAACcAAAAzQAAANMAAADkAAAAPgEAAEcxMzcAAAAARzEzNwAAAABHMTM3X2FjdABVi+yD7BRoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaAgAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXRNaBAAAACLVQiLAotNCIuQiAEAAP/S3A0UAQAA3C0MAQAA2V302UX0UdkcJFHZBQgBAADZHCTopwAAAIPEBNkcJOhpAAAAg8QE2V3w60aLRQiLEItNCIuCjAAAAP/Q3A0UAQAA3C0MAQAA2V3s2UXsUdkcJFHZBQgBAADZHCToXwAAAIPEBNkcJOghAAAAg8QE2V3w2UXwi+VdwwAA4EAAAAAAAIBrQAAAAAAAAPg/VYvsUdlFCNkcJOgFAAAAg8QEXcNVi+xR2UUIg+wI3Rwk6LL+//+DxAjZXfzZRfyL5V3DVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(3, 0.25)</sString>
+							<sString>tal("G137") ? floor(max(7, 220-1.5*sender.vG137_act)) : floor(max(7, 220-1.5*sBaseAttackSpeed))</sString>
 						</var>
 					</UnitConstant>
 				</Item>
-				<Item href="/Items/Talents/Level2/G137_Int_LifeSteal.TALENT" id="C219F85B-1509-4FB7-8C90-BA6B08423012">
+				<Item href="/Items/Talents/Level2/G137_Int_LifeSteal.TALENT" id="C2FEB20F-D254-4A49-9C2C-68674F77C235">
 					<UnitConstant>
-						<name>Add_LifeDrain</name>
+						<name>G137TT_counter</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9Bdw83MrEDNzMw+</compiledString>
+							<compiledString>FRAAAAABAAAAFAAAAEcxMzdfVFRfY291bnRlcgBVi+xoAAAAAItFCIsQi00Ii4KIAQAA/9Bdww==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(5.4, 0.4)</sString>
+							<sString>sender.vG137_TT_counter</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -133,9 +154,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+		<compiledString>FQgAAAABAAAAFAAAAENEX0cxMzcAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
 		<returnType>float</returnType>
-		<sString>0</sString>
+		<sString>cCD_G137</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>
@@ -145,7 +166,7 @@
 	<description textref="/Items/Talents/Level2/G137_Int_LifeSteal.TALENT_description.txt" />
 	<devPoints>1</devPoints>
 	<dispatch href="" />
-	<flags>2</flags>
+	<flags>6</flags>
 	<forceBonus>9</forceBonus>
 	<image href="/UI/Styles/Icons/Talents/_137.ITEX" />
 	<imageSecondState href="" />
@@ -166,10 +187,10 @@
 	<name textref="/Items/Talents/Level2/G137_Int_LifeSteal.TALENT_name.txt" />
 	<node></node>
 	<passiveApplicators>
-		<Item href="/Items/Talents/Level2/G137_Int_LifeSteal.TALENT" id="2AE51043-0AF0-43C7-955E-8CFCEBC78E88">
+		<Item href="/Items/Talents/Level2/G137_Int_LifeSteal.TALENT" id="E664FBAC-47C6-468E-953D-451472DEA123">
 			<PermanentStatModApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>Разума</caption>
+				<caption>Сшивка</caption>
 				<customApplyType>None</customApplyType>
 				<enabled>
 					<compiledString></compiledString>
@@ -180,52 +201,187 @@
 				<LoggingEvent>-1</LoggingEvent>
 				<modifier>
 					<addValue>
-						<compiledString>FQ4AAAABAAAAGgAAAEFkZF9JbnRlbGxlY3QAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+						<compiledString>FQAAAAAAAAAAVYvsi0UIixCLTQiLgowAAAD/0F3D</compiledString>
 						<returnType>float</returnType>
-						<sString>cAdd_Intellect</sString>
+						<sString>sBaseAttackSpeed</sString>
 					</addValue>
 					<multValue>
 						<compiledString></compiledString>
 						<returnType>float</returnType>
 						<sString>1.0f</sString>
 					</multValue>
-					<stat>Intellect</stat>
+					<stat>Life</stat>
 					<topModifier>false</topModifier>
-					<variable></variable>
+					<variable>G137_act</variable>
 				</modifier>
 				<providerName></providerName>
 			</PermanentStatModApplicator>
 		</Item>
-		<Item href="/Items/Talents/Level2/G137_Int_LifeSteal.TALENT" id="6B1F4C67-9557-473A-AE8A-B16CAE8262ED">
-			<PermanentStatModApplicator>
+		<Item href="/Items/Talents/Level2/G137_Int_LifeSteal.TALENT" id="4F43F2ED-D84D-40A6-8E75-F8F1FB2F7D93">
+			<TriggerApplicator>
+				<actionsCount>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</actionsCount>
 				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>ВампЖизни</caption>
-				<customApplyType>None</customApplyType>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>Триггер</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
 				<enabled>
+					<compiledString>FQkAAAACAAAADgAAACQAAABHMTM3X2FjdABVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1GAAAA3+D2xAF1CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAJEA=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vG137_act &gt;= 10</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<playAck>false</playAck>
+				<processor href="/Items/Talents/Level2/G137_Int_LifeSteal.TALENT" id="89E36EDE-E514-4AF4-900B-366E7721C0C5">
+					<EventProcessorCondition>
+						<applyTarget>ApplicatorTarget</applyTarget>
+						<condition>
+							<compiledString>FQAAAAABAAAAFgAAAFWL7FGLRQiLEItNCIuCjAAAAP/Q3B04AAAA3+D2xAF1CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAACASUA=</compiledString>
+							<returnType>bool</returnType>
+							<sString>sBaseAttackSpeed &gt;= 51</sString>
+						</condition>
+						<events>8192</events>
+						<onlyParent>false</onlyParent>
+						<spell href="/Items/Talents/Level2/G137_Int_LifeSteal.TALENT" id="E911AC61-4B4D-4FDF-B67C-3CA1231112C3">
+							<Spell>
+								<applicators>
+									<Item href="/Items/Talents/Level2/G137_Int_LifeSteal.TALENT" id="0DE2DB02-D30A-448C-AF2D-11584A5AD9DF">
+										<PermanentStatModApplicator>
+											<applyTarget>ApplicatorTarget</applyTarget>
+											<caption></caption>
+											<customApplyType>None</customApplyType>
+											<enabled>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</enabled>
+											<formulaName></formulaName>
+											<LoggingEvent>-1</LoggingEvent>
+											<modifier>
+												<addValue>
+													<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAvw==</compiledString>
+													<returnType>float</returnType>
+													<sString>-1.0f</sString>
+												</addValue>
+												<multValue>
+													<compiledString></compiledString>
+													<returnType>float</returnType>
+													<sString>1.0f</sString>
+												</multValue>
+												<stat>AttackSpeed</stat>
+												<topModifier>false</topModifier>
+												<variable></variable>
+											</modifier>
+											<providerName></providerName>
+										</PermanentStatModApplicator>
+									</Item>
+									<Item href="/Items/Talents/Level2/G137_Int_LifeSteal.TALENT" id="99A7ABC1-123E-4840-99C4-3913E5F1F370">
+										<PermanentStatModApplicator>
+											<applyTarget>ApplicatorTarget</applyTarget>
+											<caption></caption>
+											<customApplyType>None</customApplyType>
+											<enabled>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</enabled>
+											<formulaName></formulaName>
+											<LoggingEvent>-1</LoggingEvent>
+											<modifier>
+												<addValue>
+													<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+													<returnType>float</returnType>
+													<sString>1.0f</sString>
+												</addValue>
+												<multValue>
+													<compiledString></compiledString>
+													<returnType>float</returnType>
+													<sString>1.0f</sString>
+												</multValue>
+												<stat>Dexterity</stat>
+												<topModifier>false</topModifier>
+												<variable></variable>
+											</modifier>
+											<providerName></providerName>
+										</PermanentStatModApplicator>
+									</Item>
+									<Item href="/Items/Talents/Level2/G137_Int_LifeSteal.TALENT" id="4E1182E8-0206-4B97-A8E6-DF5CF823C713">
+										<PermanentStatModApplicator>
+											<applyTarget>ApplicatorTarget</applyTarget>
+											<caption></caption>
+											<customApplyType>None</customApplyType>
+											<enabled>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</enabled>
+											<formulaName></formulaName>
+											<LoggingEvent>-1</LoggingEvent>
+											<modifier>
+												<addValue>
+													<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+													<returnType>float</returnType>
+													<sString>1.0f</sString>
+												</addValue>
+												<multValue>
+													<compiledString></compiledString>
+													<returnType>float</returnType>
+													<sString>1.0f</sString>
+												</multValue>
+												<stat>Life</stat>
+												<topModifier>false</topModifier>
+												<variable>G137_TT_counter</variable>
+											</modifier>
+											<providerName></providerName>
+										</PermanentStatModApplicator>
+									</Item>
+								</applicators>
+								<dispatch href="/Items/Talents/Level2/G137_Int_LifeSteal.TALENT" id="7E75156B-ED43-47CE-B880-7E37D018193C">
+									<DispatchImmediate>
+										<alwaysApply>false</alwaysApply>
+										<applyEffect>
+											<Item href="" />
+											<Item href="" />
+										</applyEffect>
+										<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+										<applyEffectOrientation>Default</applyEffectOrientation>
+										<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+										<dieAfterApply>true</dieAfterApply>
+										<dispatchEffect>
+											<Item href="" />
+											<Item href="" />
+										</dispatchEffect>
+										<flags>0</flags>
+										<instantApply>false</instantApply>
+									</DispatchImmediate>
+								</dispatch>
+							</Spell>
+						</spell>
+					</EventProcessorCondition>
+				</processor>
+				<providerName></providerName>
+				<startCondition>
 					<compiledString></compiledString>
 					<returnType>bool</returnType>
 					<sString>true</sString>
-				</enabled>
-				<formulaName></formulaName>
-				<LoggingEvent>-1</LoggingEvent>
-				<modifier>
-					<addValue>
-						<compiledString>FQ4AAAABAAAAGgAAAEFkZF9MaWZlRHJhaW4AVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
-						<returnType>float</returnType>
-						<sString>cAdd_LifeDrain</sString>
-					</addValue>
-					<multValue>
-						<compiledString></compiledString>
-						<returnType>float</returnType>
-						<sString>1.0f</sString>
-					</multValue>
-					<stat>LifeDrain</stat>
-					<topModifier>false</topModifier>
-					<variable></variable>
-				</modifier>
-				<providerName></providerName>
-			</PermanentStatModApplicator>
+				</startCondition>
+				<useAbilityCooldown>true</useAbilityCooldown>
+				<useAbilityOwnerMana>false</useAbilityOwnerMana>
+			</TriggerApplicator>
 		</Item>
+		<Item href="/Items/Talents/Level3/SecondPinkSet_Prog2025.APLR" />
 	</passiveApplicators>
 	<persistentId>G137</persistentId>
 	<prerequisiteTalents />

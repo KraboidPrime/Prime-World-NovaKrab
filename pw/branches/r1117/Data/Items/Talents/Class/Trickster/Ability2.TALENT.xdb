@@ -197,6 +197,53 @@
 																							<statModName></statModName>
 																						</StatModApplicator>
 																					</Item>
+																					<Item href="/Items/Talents/Class/Trickster/Ability2.TALENT" id="713B4307-148F-4E21-BA67-EB8248A4532E">
+																						<StatModApplicator>
+																							<applyTarget>ApplicatorTarget</applyTarget>
+																							<behaviorFlags>0</behaviorFlags>
+																							<caption>Immune2EvilTree = 1</caption>
+																							<constraint>None</constraint>
+																							<dontUpdate>true</dontUpdate>
+																							<effect>
+																								<Item href="" />
+																								<Item href="" />
+																							</effect>
+																							<enabled>
+																								<compiledString></compiledString>
+																								<returnType>bool</returnType>
+																								<sString>true</sString>
+																							</enabled>
+																							<formulaName></formulaName>
+																							<lifeTime>
+																								<compiledString></compiledString>
+																								<returnType>float</returnType>
+																								<sString>-1.0</sString>
+																							</lifeTime>
+																							<LoggingEvent>-1</LoggingEvent>
+																							<modifier>
+																								<addValue>
+																									<compiledString></compiledString>
+																									<returnType>float</returnType>
+																									<sString>1.0f</sString>
+																								</addValue>
+																								<multValue>
+																									<compiledString></compiledString>
+																									<returnType>float</returnType>
+																									<sString>1.0f</sString>
+																								</multValue>
+																								<stat>Life</stat>
+																								<topModifier>false</topModifier>
+																								<variable>Immune2EvilTree</variable>
+																							</modifier>
+																							<providerName></providerName>
+																							<startCondition>
+																								<compiledString></compiledString>
+																								<returnType>bool</returnType>
+																								<sString>true</sString>
+																							</startCondition>
+																							<statModName></statModName>
+																						</StatModApplicator>
+																					</Item>
 																				</applicators>
 																				<applyTarget>ApplicatorTarget</applyTarget>
 																				<caption>статус клона (в клона)</caption>
@@ -668,6 +715,151 @@
 																					</PointTargetSelector>
 																				</targetSelector>
 																			</SpellPeriodicallyApplicator>
+																		</Item>
+																		<Item href="/Items/Talents/Class/Trickster/Ability2.TALENT" id="6F15BA0D-E421-4448-9BE6-1EDB119CEE6B">
+																			<FlagsApplicator>
+																				<applyTarget>ApplicatorTarget</applyTarget>
+																				<behaviorFlags>0</behaviorFlags>
+																				<caption>неумирание</caption>
+																				<consumables />
+																				<effect>
+																					<Item href="" />
+																					<Item href="" />
+																				</effect>
+																				<enabled>
+																					<compiledString></compiledString>
+																					<returnType>bool</returnType>
+																					<sString>true</sString>
+																				</enabled>
+																				<flag>262144</flag>
+																				<formulaName></formulaName>
+																				<lifeTime>
+																					<compiledString></compiledString>
+																					<returnType>float</returnType>
+																					<sString>-1.0</sString>
+																				</lifeTime>
+																				<LoggingEvent>-1</LoggingEvent>
+																				<providerName></providerName>
+																				<startCondition>
+																					<compiledString></compiledString>
+																					<returnType>bool</returnType>
+																					<sString>true</sString>
+																				</startCondition>
+																				<talents />
+																				<useListAs>ListAsRule</useListAs>
+																			</FlagsApplicator>
+																		</Item>
+																		<Item href="/Items/Talents/Class/Trickster/Ability2.TALENT" id="F4C6C4A5-054D-4304-A3BA-F38391E13C87">
+																			<TriggerApplicator>
+																				<actionsCount>
+																					<compiledString></compiledString>
+																					<returnType>int</returnType>
+																					<sString>0</sString>
+																				</actionsCount>
+																				<applyTarget>ApplicatorTarget</applyTarget>
+																				<behaviorFlags>0</behaviorFlags>
+																				<caption>умирание</caption>
+																				<effect>
+																					<Item href="" />
+																					<Item href="" />
+																				</effect>
+																				<enabled>
+																					<compiledString></compiledString>
+																					<returnType>bool</returnType>
+																					<sString>true</sString>
+																				</enabled>
+																				<formulaName></formulaName>
+																				<lifeTime>
+																					<compiledString></compiledString>
+																					<returnType>float</returnType>
+																					<sString>-1.0</sString>
+																				</lifeTime>
+																				<LoggingEvent>-1</LoggingEvent>
+																				<playAck>false</playAck>
+																				<processor href="/Items/Talents/Class/Trickster/Ability2.TALENT" id="A9419C11-2709-487E-ACDE-716FAF582DFA">
+																					<EventProcessorDamageTransformer>
+																						<abilityFilter>
+																							<abilitiesList />
+																							<abilityCondition>
+																								<compiledString></compiledString>
+																								<returnType>bool</returnType>
+																								<sString>true</sString>
+																							</abilityCondition>
+																							<abilityCostMode>Any</abilityCostMode>
+																							<exceptThis>false</exceptThis>
+																							<flags>1610614015</flags>
+																							<onlySingleTarget>false</onlySingleTarget>
+																						</abilityFilter>
+																						<add>
+																							<compiledString></compiledString>
+																							<returnType>float</returnType>
+																							<sString>0.0f</sString>
+																						</add>
+																						<applyTarget>ApplicatorTarget</applyTarget>
+																						<checkSender>0</checkSender>
+																						<damageTypeFilter>31</damageTypeFilter>
+																						<flags>0</flags>
+																						<matchTargetInverted>false</matchTargetInverted>
+																						<mul>
+																							<compiledString></compiledString>
+																							<returnType>float</returnType>
+																							<sString>1.0f</sString>
+																						</mul>
+																						<objectFilter>2040319</objectFilter>
+																						<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
+																						<spell href="/Items/Talents/Class/Trickster/Ability2.TALENT" id="978ECB65-FA03-4C56-8E5E-01F3EBDE8B44">
+																							<Spell>
+																								<applicators>
+																									<Item href="/Items/Talents/Class/Trickster/Ability2.TALENT" id="08D071BA-7F12-4616-8EA3-6ADAFB20F65C">
+																										<KillApplicator>
+																											<applyTarget>ApplicatorTarget</applyTarget>
+																											<caption>корректное умирание</caption>
+																											<dontGiveRewards>true</dontGiveRewards>
+																											<enabled>
+																												<compiledString>FQAAAAABAAAAJAAAAFWL7IPsDItFDIsQi00MiwL/0ItNDIsRi00Mi0IM3V34/9DcDUkAAADcXfjf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcO4HoXrUbiePw==</compiledString>
+																												<returnType>bool</returnType>
+																												<sString>rLife &lt; 0.03*rMaxLife</sString>
+																											</enabled>
+																											<flag>Unsummon</flag>
+																											<formulaName></formulaName>
+																											<LoggingEvent>-1</LoggingEvent>
+																											<providerName></providerName>
+																										</KillApplicator>
+																									</Item>
+																								</applicators>
+																								<dispatch href="/Items/Talents/Class/Trickster/Ability2.TALENT" id="106B98C4-8AB9-41C1-9A9C-55103B5902B6">
+																									<DispatchImmediate>
+																										<alwaysApply>false</alwaysApply>
+																										<applyEffect>
+																											<Item href="" />
+																											<Item href="" />
+																										</applyEffect>
+																										<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																										<applyEffectOrientation>Default</applyEffectOrientation>
+																										<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																										<dieAfterApply>true</dieAfterApply>
+																										<dispatchEffect>
+																											<Item href="" />
+																											<Item href="" />
+																										</dispatchEffect>
+																										<flags>0</flags>
+																										<instantApply>false</instantApply>
+																									</DispatchImmediate>
+																								</dispatch>
+																							</Spell>
+																						</spell>
+																						<treatDelegatedByDelegator>false</treatDelegatedByDelegator>
+																					</EventProcessorDamageTransformer>
+																				</processor>
+																				<providerName></providerName>
+																				<startCondition>
+																					<compiledString></compiledString>
+																					<returnType>bool</returnType>
+																					<sString>true</sString>
+																				</startCondition>
+																				<useAbilityCooldown>false</useAbilityCooldown>
+																				<useAbilityOwnerMana>false</useAbilityOwnerMana>
+																			</TriggerApplicator>
 																		</Item>
 																	</applicators>
 																	<applyTarget>AbilityOwner</applyTarget>

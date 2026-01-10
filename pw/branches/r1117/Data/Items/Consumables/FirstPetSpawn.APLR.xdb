@@ -6,6 +6,7 @@
 	<BackLink DBID="/Items/Consumables/Pet_Horse.ARCT" Count="1" />
 	<BackLink DBID="/Items/Consumables/Pet_Pig.ARCT" Count="1" />
 	<BackLink DBID="/Items/Consumables/Pet_Tiger.ARCT" Count="1" />
+	<BackLink DBID="/Items/Consumables/Pet_Bear.ARCT" Count="1" />
 	<applyTarget>AbilityOwner</applyTarget>
 	<caption>FirstPetSpawn = 1</caption>
 	<customApplyType>None</customApplyType>

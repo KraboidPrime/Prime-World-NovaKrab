@@ -866,7 +866,7 @@
 							<Item>
 								<applicator href="/Heroes/Reaper/_.HROB" id="AFFF5220-C8AC-413E-8A3E-4D97C8BC5FB2">
 									<DamageApplicator parent="/GameLogic/GeneralApplicators/BaseAttackDmg_Hero.APLR">
-										<uiEvent href="" />
+										<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Material.UIEV" />
 									</DamageApplicator>
 								</applicator>
 								<variableNames>
@@ -883,16 +883,17 @@
 											<returnType>float</returnType>
 											<sString>cA2_TotalDamage</sString>
 										</damage>
+										<damageMode>12</damageMode>
 										<damageType>Material</damageType>
 										<enabled>
-											<compiledString>FRUAAAACAAAAIAAAAFIAAABBMlJlYXBlclN0YXR1cwAAV2FyZABVi+xRagCLRRBQaAAAAACLTQiLEYtNCIuCnAEAAP/QO0UQdDuLTQyLEYtNDItCUP/Qg/gRdClqAItNEFFoEAAAAItVDIsCi00Mi5CcAQAA/9I7RRB1CcdF/AEAAADrB8dF/AAAAACKRfyL5V3D</compiledString>
+											<compiledString>FRUAAAADAAAAIgAAAKIAAADGAAAAQTJSZWFwZXJTdGF0dXMAAFdhcmQAVYvsg+wQagCLRRBQaAAAAACLTQiLEYtNCIuCnAEAAP/QO0UQD4SpAAAAi00IixGLTQiLgrwAAAD/0ItNCIsRi00Ii4K4AAAA3V34/9DcXfjf4PbEBXoH2ejZXfTrKlHZ6NkcJFHZ7tkcJGoBi00MixGLTQyLQlj/0A+2yFHobwAAAIPEDNld9NlF9Nwd9gAAAN/g9sREezuLVQyLAotNDItQUP/Sg/gRdClqAItFEFBoEAAAAItNDIsRi00Mi4KcAQAA/9A7RRB1CcdF8AEAAADrB8dF8AAAAACKRfCL5V3DAAAAAAAAAAAAAAAAAACAP1WL7FEPtkUIhcB0CNlFDNld/OsG2UUQ2V382UX8i+Vdww==</compiledString>
 											<returnType>bool</returnType>
-											<sString>sender.applA2ReaperStatus(GLOBAL) != pMisc &amp;&amp; rUnitKind != 17 &amp;&amp; receiver.applWard(GLOBAL) == pMisc</sString>
+											<sString>sender.applA2ReaperStatus(GLOBAL) != pMisc &amp;&amp; ((sBaseIntellect &gt; sBaseStrength) ? true : ut_bldg(false, true)) &amp;&amp; rUnitKind != 17 &amp;&amp; receiver.applWard(GLOBAL) == pMisc</sString>
 										</enabled>
 										<formulaName>Reaper_A2Damage</formulaName>
 										<LoggingEvent>-1</LoggingEvent>
 										<providerName></providerName>
-										<uiEvent href="" />
+										<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Material.UIEV" />
 									</DamageApplicator>
 								</applicator>
 								<variableNames>
@@ -973,7 +974,7 @@
 					<instantApply>false</instantApply>
 				</DispatchImmediate>
 			</dispatch>
-			<flags>1</flags>
+			<flags>5</flags>
 			<image href="" />
 			<imageSecondState href="" />
 			<isMelee>true</isMelee>

@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Level4/G536_AOE_maxLife.TALENT" Count="1" />
 	<name>G546_Haste_Percent</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQQ==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAMQg==</compiledString>
 		<returnType>float</returnType>
-		<sString>25</sString>
+		<sString>35</sString>
 	</var>
 </UnitConstant>

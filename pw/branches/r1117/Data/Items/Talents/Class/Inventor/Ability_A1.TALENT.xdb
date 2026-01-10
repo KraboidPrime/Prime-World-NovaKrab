@@ -128,9 +128,9 @@
 					<UnitConstant>
 						<name>MasterStatConnected_Intellect</name>
 						<var>
-							<compiledString>FRQAAAADAAAAHwAAACkAAABeAAAAQTFfTlRCb251c0ludGVsbGVjdABVi+yD7AxqAVHZBYMAAADZHCRR2QV/AAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0ItNDFGLVQhSaAAAAACLRRCLEItNEItCUN1d+P/Q3EX42V302UX0i+VdwwAAQEEAAK5C</compiledString>
+							<compiledString>FUgAAAAJAAAAgAAAAJkAAADSAAAA3wAAAOkAAAAhAQAARQEAAE8BAACEAQAASW52ZW50b3JfQTBfU1VQAEludmVudG9yX0EwX1NVUABBMV9OVEJvbnVzSW50ZWxsZWN0AEExX05UQm9udXNJbnRlbGxlY3QAVYvsg+w4i0UIixCLTQiLgrgAAAD/0ItNCIsRi00Ii4K8AAAA3V34/9DcXfjf4PbEBQ+KwQAAAGgAAAAAi00IixGLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfSLTfSLEYtN9ItCBP/QiEXz6wTGRfMAD7ZN84lN7NtF7NwNuwEAANno3sFqAVHZBa8BAADZHCRR2QWrAQAA2RwkagCLVQiLAotNCIuQNAEAAN1d5P/SUdkcJGoBi0UQixCLTRCLQmD/0ItNDFGLVQhSaCAAAACLRRCLEItNEItCUN1d3P/Q3EXc3E3k3V3U615qAVHZBa8BAADZHCRR2QWrAQAA2RwkagCLTQiLEYtNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0ItNDFGLVQhSaDQAAACLRRCLEItNEItCUN1dzP/Q3EXM3V3U3UXU2V3I2UXIi+VdwwAAQEEAAK5CAAAAAAAA8D+amZmZmZnpPw==</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale( sIntellect, 12, 87 )+cA1_NTBonusIntellect</sString>
+							<sString>(sBaseStrength &gt; sBaseIntellect) ? (1+0.8*tal("Inventor_A0_SUP"))*(damageScale( sIntellect, 12, 87 )+cA1_NTBonusIntellect) : (damageScale( sIntellect, 12, 87 )+cA1_NTBonusIntellect)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -138,9 +138,9 @@
 					<UnitConstant>
 						<name>MasterStatConnected_Life</name>
 						<var>
-							<compiledString>FRwAAAADAAAAKQAAADwAAABCAAAATWFzdGVyU3RhdENvbm5lY3RlZF9MaWZlX1RUAFWL7FGLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0twlWAAAANwNUAAAANld/NlF/IvlXcMzMzMzMzPzPwAAAAAAAFlA</compiledString>
+							<compiledString>FRwAAAACAAAAKQAAADwAAABNYXN0ZXJTdGF0Q29ubmVjdGVkX0xpZmVfVFQAVYvsUYtFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S3CVKAAAA2V382UX8i+VdwwAAAAAAAFlA</compiledString>
 							<returnType>float</returnType>
-							<sString>(cMasterStatConnected_Life_TT - 100)*1.2</sString>
+							<sString>cMasterStatConnected_Life_TT - 100</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -236,9 +236,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
 		<returnType>float</returnType>
-		<sString>2</sString>
+		<sString>3</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>

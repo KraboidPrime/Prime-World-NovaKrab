@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Level4/G360_AttackSpeed_CDR.TALENT" Count="1" />
 	<name>MagDoT_TotalDamage</name>
 	<var>
-		<compiledString>FQ0AAAAEAAEAFAAAAC0AAABrAAAAfwAAAHYAAABHMzYwAAAAAEczNjAAVYvsg+wQaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgIAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0Is/9CJRfjrB8dF+AEAAACLTfiD6QGJTfTbRfTcDZUAAACD7AjdHCToev///4PECNwFjQAAANld8NlF8IvlXcMAAAAAAABeQAAAAAAAAB5A</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQw==</compiledString>
 		<returnType>float</returnType>
-		<sString>120 + floor(7.5 * (getTalentRefineRate("G360", 1) - 1))</sString>
+		<sString>200</sString>
 	</var>
 </UnitConstant>

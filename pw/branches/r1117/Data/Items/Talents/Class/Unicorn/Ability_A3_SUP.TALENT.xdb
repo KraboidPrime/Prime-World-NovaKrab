@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Talent>
+	<BackLink DBID="/Items/Talents/Class/Unicorn/Ability_A1_SUP.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Unicorn_Alternative.TALENTSET" Count="1" />
+	<BackLink DBID="/Social.ROOT" Count="1" />
+	<activationConditions />
+	<activeCustomTrigger>true</activeCustomTrigger>
+	<allowChase>
+		<compiledString></compiledString>
+		<returnType>bool</returnType>
+		<sString>true</sString>
+	</allowChase>
+	<alternativeTargets />
+	<aoeDisplayOnMinimap>false</aoeDisplayOnMinimap>
+	<aoeHeight>0</aoeHeight>
+	<aoeMaterial href="" />
+	<aoePassabilityCheckMode>0</aoePassabilityCheckMode>
+	<aoeSize>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</aoeSize>
+	<aoeType>None</aoeType>
+	<applicators />
+	<askId>0</askId>
+	<autoTargetSelector href="" />
+	<budget>-1</budget>
+	<caption>А3_SUP. Древняя сила</caption>
+	<castAllowRange>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</castAllowRange>
+	<castLimitations />
+	<commonDescription textref="" />
+	<compiledDescriptionA textref="" />
+	<compiledDescriptionB textref="" />
+	<conditionFormulas>
+		<Item href="/Items/Talents/Class/Unicorn/Ability_A3_SUP.TALENT" id="F56BBFC6-4CFE-4B02-9219-3E437DD7D53F">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRcAAAACAAAAHgAAADcAAABVbmljb3JuX0EwAABVbmljb3JuX0EwAFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoDAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZF+/fYG8CDwAGL5V3D</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("Unicorn_A0") == false</sString>
+				</condition>
+				<name>Unicorn_A0</name>
+			</ConditionFormula>
+		</Item>
+	</conditionFormulas>
+	<conflictingTalents>
+		<Item href="/Items/Talents/Class/Unicorn/Ability_A1_SUP.TALENT" />
+	</conflictingTalents>
+	<constants href="/Items/Talents/Class/Unicorn/Ability_A3_SUP.TALENT" id="06CD1F8B-E10E-4E3F-8988-E8900B97DDAB">
+		<UnitConstantsContainer>
+			<vars>
+				<Item href="/Items/Talents/Class/Unicorn/const_A0_SUP_Mult" />
+				<Item href="/Items/Talents/Class/Unicorn/Ability_A3_SUP.TALENT" id="663A9BBF-1F48-448A-9F53-C53F168AE747">
+					<UnitConstant>
+						<name>DMG_BUFF</name>
+						<var>
+							<compiledString>FQAAAAACAAAAFgAAABwAAABVi+xRi0UIixCLTQiLgrgAAAD/0NwNMgAAANwlKgAAANld/NlF/IvlXcMAAAAAAAAyQArXo3A9Ctc/</compiledString>
+							<returnType>float</returnType>
+							<sString>0.36*sBaseStrength - 18</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Unicorn/Ability_A3_SUP.TALENT" id="8C2EE4D8-BB34-4566-9A45-0A96FA4111A4">
+					<UnitConstant>
+						<name>Fiz_min</name>
+						<var>
+							<compiledString>FQAAAAACAAAAKwAAADEAAABVi+yD7AyLRQiLEItNCIuCMAEAAP/Qi00IixGLTQiLgrgAAADdXfj/0NwNSgAAANwFQgAAANxN+Nld9NlF9IvlXcMEVg4tsp3nP9DQP8HFimo/</compiledString>
+							<returnType>float</returnType>
+							<sString>sStrength*(0.00324*sBaseStrength+0.738)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Unicorn/Ability_A3_SUP.TALENT" id="A9FAD6C3-139D-4728-B4EC-C12569CB6B01">
+					<UnitConstant>
+						<name>Fiz_max</name>
+						<var>
+							<compiledString>FQAAAAACAAAAKwAAADEAAABVi+yD7AyLRQiLEItNCIuCMAEAAP/Qi00IixGLTQiLgrgAAADdXfj/0NwNSgAAANwFQgAAANxN+Nld9NlF9IvlXcN3vp8aL93sPyrj32dcOHA/</compiledString>
+							<returnType>float</returnType>
+							<sString>sStrength*(0.00396*sBaseStrength+0.902)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+			</vars>
+		</UnitConstantsContainer>
+	</constants>
+	<consumptionBonus>
+		<constant>0</constant>
+		<percent>0</percent>
+	</consumptionBonus>
+	<cooldownTime>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</cooldownTime>
+	<cooldownTimeSecondState>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</cooldownTimeSecondState>
+	<description textref="/Items/Talents/Class/Unicorn/Ability_A3_SUP.TALENT_description.txt" />
+	<devPoints>1</devPoints>
+	<dispatch href="" />
+	<flags>1</flags>
+	<forceBonus>0</forceBonus>
+	<image href="/UI/Styles/Icons/Heroes/Unicorn/A3_SUP.ITEX" />
+	<imageSecondState href="" />
+	<isGenderTalent>false</isGenderTalent>
+	<isTakenOnStart>false</isTakenOnStart>
+	<isUltimateTalent>false</isUltimateTalent>
+	<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
+	<manaCost>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</manaCost>
+	<marker></marker>
+	<microAI href="" />
+	<minLevel>4</minLevel>
+	<minUseRangeCorrection>0</minUseRangeCorrection>
+	<naftaCost>800</naftaCost>
+	<name textref="/Items/Talents/Class/Unicorn/Ability_A3_SUP.TALENT_name.txt" />
+	<node></node>
+	<passiveApplicators>
+		<Item href="/Items/Talents/Class/Unicorn/Ability_A3_SUP.TALENT" id="7FACD096-7F2C-482A-9D40-6303E35584BF">
+			<StatusApplicator>
+				<applicators />
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption></caption>
+				<customCounter>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</customCounter>
+				<customProgress>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</customProgress>
+				<description textref="/Items/Talents/Class/Unicorn/Ability_A3_SUP.TALENT_7facd0967f2c482a9d406303e35584bf_description.txt" />
+				<dispellPriority>NonDispellable</dispellPriority>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<flags>64</flags>
+				<formulaName></formulaName>
+				<image href="/UI/Styles/Icons/Heroes/Unicorn/A3_SUP_status.ITEX" />
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<name textref="/Items/Talents/Class/Unicorn/Ability_A3_SUP.TALENT_7facd0967f2c482a9d406303e35584bf_name.txt" />
+				<power>0</power>
+				<providerName></providerName>
+				<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+				<stackCount>0</stackCount>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statusPosition>0</statusPosition>
+				<stopBehaviour>StopByTime</stopBehaviour>
+				<unstackableWith href="" />
+			</StatusApplicator>
+		</Item>
+	</passiveApplicators>
+	<persistentId>Unicorn_A3_SUP</persistentId>
+	<prerequisiteTalents>
+		<Item href="/Items/Talents/Class/Unicorn/Ability0.TALENT" />
+	</prerequisiteTalents>
+	<rarity>Class</rarity>
+	<requireLineOfSight>true</requireLineOfSight>
+	<shortDescription textref="" />
+	<talentRollGroups>63</talentRollGroups>
+	<talentStats />
+	<targetType>0</targetType>
+	<type>Passive</type>
+	<upgradeLevel>0</upgradeLevel>
+	<useRange>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</useRange>
+	<useRangeMaterial href="" />
+	<variativeMaxTalentStats />
+	<variativeMinTalentStats />
+	<vendorCost>0</vendorCost>
+	<warFogRemoveRadius>0</warFogRemoveRadius>
+	<warFogRemoveTime>0</warFogRemoveTime>
+</Talent>

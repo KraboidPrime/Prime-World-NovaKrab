@@ -6,6 +6,7 @@
 	<BackLink DBID="/Items/Talents/Class/Dryad/status_A2_InfestSelf.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Dryad/status_A2_InfestTree.APLR" Count="2" />
 	<BackLink DBID="/Items/Talents/Level3/G074_AoEbyInt.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Rifleman/Status_A0.APLR" Count="3" />
 	<applicators>
 		<Item href="/Heroes/DefaultStatus/_FORBIDINVIS_status.APLR" id="BD0D850F-930B-4F18-BACC-B98FDB19DE1E">
 			<FlagsApplicator>

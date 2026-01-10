@@ -5,8 +5,8 @@
 	<BackLink DBID="/Items/Talents/Class/Stalker/Ability_A2.TALENT" Count="1" />
 	<name>A0_SUP_HealAmount</name>
 	<var>
-		<compiledString>FQAAAAABAAAAEwAAAFWL7FGLRQiLEItNCItCOP/Q3A0hAAAA2V382UX8i+VdwwAAAAAAAAhA</compiledString>
+		<compiledString>FQAAAAABAAAAUgAAAFWL7FGLRQiLEItNCIuCuAAAAP/QUdkcJItNCIsRi00Ii4K8AAAA/9BR2Rwk6F8AAACDxATZHCSLTQiLEYtNCItCOP/QUdkcJOgbAAAAg8QI3A1gAAAA2V382UX8i+VdwwAAAAAAAAhAVYvsUdlFCNlFDN7Z3+D2xEF1CNlFCNld/OsG2UUM2V382UX8i+Vdw1WL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
 		<returnType>float</returnType>
-		<sString>sLifeDrain * 3</sString>
+		<sString>3*min(sLifeDrain, max(sBaseIntellect, sBaseStrength))</sString>
 	</var>
 </UnitConstant>

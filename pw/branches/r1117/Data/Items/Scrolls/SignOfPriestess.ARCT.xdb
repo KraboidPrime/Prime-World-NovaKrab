@@ -2,13 +2,14 @@
 <Consumable>
 	<BackLink DBID="/Buildings/DefaultStats/CTE_Secret.CNSH" Count="1" />
 	<BackLink DBID="/Buildings/DefaultStats/Secret.CNSH" Count="1" />
-	<BackLink DBID="/Buildings/DefaultStats/Secret_NY.CNSH" Count="1" />
+	<BackLink DBID="/Buildings/DefaultStats/Secret_NY.CNSH" Count="3" />
 	<BackLink DBID="/Items/Talents/Class/Artist/Ability_A0.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Artist/status_A3_MasterColors.APLR" Count="2" />
 	<BackLink DBID="/Maps/Multiplayer/MOBA/Shops/Mod9_N.SHOP" Count="1" />
 	<BackLink DBID="/Maps/PvE/Series/Episode1/buildings/Shop.SHOP" Count="1" />
 	<BackLink DBID="/Maps/Test/BalanseTest/Shops/_N.SHOP" Count="1" />
 	<BackLink DBID="/MiniGames/Minigame02/GameLogic/EaselMinigameData" Count="1" />
+	<BackLink DBID="/Items/Talents/Level5/G735_Dex_inc_Str_Int.TALENT" Count="1" />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
 		<compiledString></compiledString>
@@ -348,13 +349,23 @@
 						</var>
 					</UnitConstant>
 				</Item>
+				<Item href="/Items/Scrolls/SignOfPriestess.ARCT" id="877E2090-7624-400D-BE67-8F36800933C4">
+					<UnitConstant>
+						<name>ManaRegSvitok</name>
+						<var>
+							<compiledString>FQAAAAACAAAAHgAAACQAAABVi+yD7AiLRQiLEItNCIuCYAEAAP/QiUX820X83A06AAAA3AUyAAAA2V342UX4i+VdwwAAAAAAAABAmpmZmZmZyT8=</compiledString>
+							<returnType>float</returnType>
+							<sString>2+sNaftaLevel*0.2</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACWQw==</compiledString>
+		<compiledString>FQ4AAAACAAAAFQAAAC4AAABHMTAwMgAAAEcxMDAyAFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoCAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+/fZG8mD4aaBwSwBAACJTfTbRfSL5V3D</compiledString>
 		<returnType>float</returnType>
-		<sString>300</sString>
+		<sString>tal("G1002") ? 210 : 300</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>
@@ -393,7 +404,7 @@
 		<sString>0</sString>
 	</manaCost>
 	<marker></marker>
-	<maxQuantity>5</maxQuantity>
+	<maxQuantity>100</maxQuantity>
 	<microAI href="" />
 	<minUseRangeCorrection>0</minUseRangeCorrection>
 	<naftaCost>1000</naftaCost>

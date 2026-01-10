@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Level4/G485_Int.TALENT" Count="1" />
 	<name>G485_AddHeal</name>
 	<var>
-		<compiledString>FQ0AAAACAAAAFAAAAC0AAABHNDg1AAAAAEc0ODUAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgIAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0Is/9CJRfjrB8dF+AEAAACLTfiD6QFryQqBwaAAAACJTfTbRfSL5V3D</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACWQw==</compiledString>
 		<returnType>float</returnType>
-		<sString>160 + 10 * (getTalentRefineRate("G485", 1) - 1)</sString>
+		<sString>300</sString>
 	</var>
 </UnitConstant>

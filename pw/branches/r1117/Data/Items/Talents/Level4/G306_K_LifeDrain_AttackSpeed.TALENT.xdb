@@ -96,9 +96,9 @@
 					<UnitConstant>
 						<name>TECH_AbilityProc</name>
 						<var>
-							<compiledString>FQ4AAAACAAAAKQAAADwAAABBYmlsaXR5Q2hhbmNlAFWL7IPsCItFDFCLTQhRagFqB4tVDFKLRQhQaAAAAACLTRCLEYtNEItCUP/Q3A1kAAAA2V382UX8UdkcJItNEIsRi00Qi0Jk/9APtsiJTfjbRfiL5V3DexSuR+F6hD8=</compiledString>
+							<compiledString>FQ4AAAACAAAAKQAAADwAAABBYmlsaXR5Q2hhbmNlAFWL7IPsCItFDFCLTQhRagpqCotVDFKLRQhQaAAAAACLTRCLEYtNEItCUP/Q3A1kAAAA2V382UX8UdkcJItNEIsRi00Qi0Jk/9APtsiJTfjbRfiL5V3DexSuR+F6hD8=</compiledString>
 							<returnType>float</returnType>
-							<sString>smartRoll(cAbilityChance*0.01 , 7 , 1)</sString>
+							<sString>smartRoll(cAbilityChance*0.01 , 10 , 10)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -112,9 +112,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQ4AAAABAAAAGgAAAEczMDZfQ29vbGRvd24AVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 		<returnType>float</returnType>
-		<sString>cG306_Cooldown</sString>
+		<sString>0</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>

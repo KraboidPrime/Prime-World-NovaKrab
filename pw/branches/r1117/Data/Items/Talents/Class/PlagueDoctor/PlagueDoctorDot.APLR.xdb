@@ -4,6 +4,7 @@
 	<BackLink DBID="/Items/Talents/Class/PlagueDoctor/Ability_A1.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/PlagueDoctor/Ability_A3.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/PlagueDoctor/Ability_A4.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A0.TALENT" Count="1" />
 	<applicators>
 		<Item href="/Items/Talents/Class/PlagueDoctor/PlagueDoctorDot.APLR" id="3522A34B-4A10-4C0E-AF42-19F7438C9115">
 			<SpellPeriodicallyApplicator>

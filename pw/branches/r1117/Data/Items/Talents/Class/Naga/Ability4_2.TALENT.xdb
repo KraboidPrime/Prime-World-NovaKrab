@@ -106,7 +106,7 @@
 											<applicator href="/Items/Talents/Class/Naga/Ability4_2.TALENT" id="069CD5DB-9497-4471-84EA-7BA09F05C906">
 												<FlagsApplicator>
 													<applyTarget>AbilityTarget</applyTarget>
-													<behaviorFlags>0</behaviorFlags>
+													<behaviorFlags>144</behaviorFlags>
 													<caption></caption>
 													<consumables />
 													<effect>
@@ -158,7 +158,7 @@
 											<applicator href="/Items/Talents/Class/Naga/Ability4_2.TALENT" id="13E2DB9D-6B75-48DA-B946-75454D26278D">
 												<InvisibilityApplicator>
 													<applyTarget>AbilityTarget</applyTarget>
-													<behaviorFlags>0</behaviorFlags>
+													<behaviorFlags>144</behaviorFlags>
 													<caption>Выходим из стейта атаки</caption>
 													<effect>
 														<Item href="" />
@@ -211,7 +211,7 @@
 										</Item>
 									</applicators>
 									<applyTarget>ApplicatorTarget</applyTarget>
-									<behaviorFlags>0</behaviorFlags>
+									<behaviorFlags>144</behaviorFlags>
 									<caption>Программа </caption>
 									<effect>
 										<Item href="" />
@@ -340,9 +340,9 @@
 					<UnitConstant>
 						<name>A4_2_Taunt_Range</name>
 						<var>
-							<compiledString>FQ0AAAABAAAAGQAAAFJhbmdlX01lZGl1bQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+							<compiledString>FQsAAAABAAAAFwAAAFJhbmdlX0xvbmcAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
 							<returnType>float</returnType>
-							<sString>cRange_Medium</sString>
+							<sString>cRange_Long</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -395,6 +395,66 @@
 							<compiledString>FREAAAACAAAAHgAAADEAAABBNF8ydV9EYW1hZ2VNdWx0AFWL7FGLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0tw1PwAAANld/NlF/IvlXcMAAAAAAABZQA==</compiledString>
 							<returnType>float</returnType>
 							<sString>cA4_2u_DamageMult / 100</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Naga/Ability4_2.TALENT" id="A05C14A5-D5D1-4518-985B-CDDF7049E7B4">
+					<UnitConstant>
+						<name>Haste_StartCondition</name>
+						<var>
+							<compiledString>FRcAAAACAAAAHgAAADcAAABOYWdhX0E0XzJ1AABOYWdhX0E0XzJ1AFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoDAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4lN9NtF9IvlXcM=</compiledString>
+							<returnType>float</returnType>
+							<sString>tal("Naga_A4_2u")</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Naga/Ability4_2.TALENT" id="B52F8B11-71BA-412B-978E-4A41642C3965">
+					<UnitConstant>
+						<name>Haste_Duration</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
+							<returnType>float</returnType>
+							<sString>3.0f</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Naga/Ability4_2.TALENT" id="76713A86-1F44-4CC1-9532-B2BD65E58764">
+					<UnitConstant>
+						<name>Haste_Percent</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQg==</compiledString>
+							<returnType>float</returnType>
+							<sString>50.0f</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Naga/Ability4_2.TALENT" id="26BE6224-1668-41BB-9776-0ED1B4CC5CF5">
+					<UnitConstant>
+						<name>Slow_StartCondition</name>
+						<var>
+							<compiledString>FRcAAAACAAAAHgAAADcAAABOYWdhX0E0XzJ1AABOYWdhX0E0XzJ1AFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoDAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4lN9NtF9IvlXcM=</compiledString>
+							<returnType>float</returnType>
+							<sString>tal("Naga_A4_2u")</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Naga/Ability4_2.TALENT" id="B52E2FDD-A6DB-4677-9783-A0D2EF56980D">
+					<UnitConstant>
+						<name>Slow_Duration</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
+							<returnType>float</returnType>
+							<sString>3.0f</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Naga/Ability4_2.TALENT" id="B4D94400-E765-459C-B20A-CD36FC6A9016">
+					<UnitConstant>
+						<name>DecMoveSpeed_WithReduction</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQg==</compiledString>
+							<returnType>float</returnType>
+							<sString>50.0f</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -468,9 +528,9 @@
 	<type>Active</type>
 	<upgradeLevel>0</upgradeLevel>
 	<useRange>
-		<compiledString>FQ0AAAABAAAAGQAAAFJhbmdlX01lZGl1bQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+		<compiledString>FQsAAAABAAAAFwAAAFJhbmdlX0xvbmcAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
 		<returnType>float</returnType>
-		<sString>cRange_Medium</sString>
+		<sString>cRange_Long</sString>
 	</useRange>
 	<useRangeMaterial href="/Effects/UI/AOESelection/Radius.MTRL" />
 	<variativeMaxTalentStats />

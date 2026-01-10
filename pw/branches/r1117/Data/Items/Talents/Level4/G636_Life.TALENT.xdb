@@ -49,6 +49,16 @@
 		<Item href="/Items/Talents/TalentKits/Redset6_3_ReflectShield/condition_Redset6_3_Bonus2Active" />
 		<Item href="/Items/Talents/TalentKits/Redset6_3_ReflectShield/condition_Redset6_3_Bonus3Active" />
 		<Item href="/Items/Talents/TalentKits/Redset6_3_ReflectShield/condition_Redset6_3_StaOrWill" />
+		<Item href="/Items/Talents/Level4/G636_Life.TALENT" id="32B3F007-0A4A-4C58-93FE-30819FBA4189">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRkAAAACAAAAHgAAADQAAABSZWRzZXQ2XzNfVG9vbHRpcENvdW50ZXIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdVgAAAN/g9sQBdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAABBA</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vRedset6_3_TooltipCounter &gt;= 4</sString>
+				</condition>
+				<name>Bonus4Active</name>
+			</ConditionFormula>
+		</Item>
 	</conditionFormulas>
 	<conflictingTalents />
 	<constants href="/Items/Talents/Level4/G636_Life.TALENT" id="396F4F1F-5B10-4346-B28D-AAD6F89EC849">

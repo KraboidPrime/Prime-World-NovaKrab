@@ -50,6 +50,26 @@
 			</ConditionFormula>
 		</Item>
 		<Item href="/Items/Talents/TalentKits/Spinners_Event/condition_Spinners_bonus2Active" />
+		<Item href="/Items/Talents/Level1/G611_Will.TALENT" id="75EDEDC1-7E11-4313-A1DC-FA9BCC6808EB">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRcAAAACAAAAHAAAADIAAABTcGlubmVyX1Rvb2x0aXBDb3VudGVyAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHVQAAADf4PbEAXUJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAQQA==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vSpinner_TooltipCounter &gt;= 4</sString>
+				</condition>
+				<name>Bonus4Active</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Items/Talents/Level1/G611_Will.TALENT" id="4496C30D-5173-439A-977B-D9100650DD3B">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRcAAAACAAAAHAAAADIAAABTcGlubmVyX1Rvb2x0aXBDb3VudGVyAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHVQAAADf4PbEAXUJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAYQA==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vSpinner_TooltipCounter &gt;= 6</sString>
+				</condition>
+				<name>Bonus6Active</name>
+			</ConditionFormula>
+		</Item>
 	</conditionFormulas>
 	<conflictingTalents />
 	<constants href="/Items/Talents/Level1/G611_Will.TALENT" id="D924AC39-D2B8-4C67-86EF-EC902D37E145">

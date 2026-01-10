@@ -104,9 +104,9 @@
 					<damageMode>4</damageMode>
 					<damageType>Energy</damageType>
 					<enabled>
-						<compiledString>FSEAAAAEAAAALAAAAEYAAABcAAAAgAAAAEd1bnNsaW5nZXJfQTQAAABIZXJvX1JhZ2UAAABXYXJkAFWL7FFqAItFEFBoAAAAAItNCIsRi00Ii4KcAQAA/9A7RRB0XWgQAAAAi00IixGLTQiLgogBAAD/0NwdsAAAAN/g9sRBdTuLTQyLEYtNDItCUP/Qg/gRdClqAItNEFFoHAAAAItVDIsCi00Mi5CcAQAA/9I7RRB1CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
+						<compiledString>FTgAAAAEAAAARQAAAHsAAACVAAAArgAAAEd1bnNsaW5nZXJfQTQAAABXYXJkAAAAAEd1bnNsaW5nZXJfQTRfMgBHdW5zbGluZ2VyX0E0XzIAVYvsg+wMagCLRRBQaAAAAACLTQiLEYtNCIuCnAEAAP/QO0UQD4SKAAAAi00MixGLTQyLQlD/0IP4EXR4agCLTRBRaBAAAACLVQyLAotNDIuQnAEAAP/SO0UQdVhoGAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaCgAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
 						<returnType>bool</returnType>
-						<sString>sender.applGunslinger_A4(GLOBAL) != pMisc &amp;&amp; sender.vHero_Rage &gt; 0 &amp;&amp; rUnitKind != 17 &amp;&amp; receiver.applWard(GLOBAL) == pMisc</sString>
+						<sString>sender.applGunslinger_A4(GLOBAL) != pMisc &amp;&amp; rUnitKind != 17 &amp;&amp; receiver.applWard(GLOBAL) == pMisc &amp;&amp; !tal("Gunslinger_A4_2")</sString>
 					</enabled>
 					<formulaName>Gun_A4Damage</formulaName>
 					<LoggingEvent>-1</LoggingEvent>

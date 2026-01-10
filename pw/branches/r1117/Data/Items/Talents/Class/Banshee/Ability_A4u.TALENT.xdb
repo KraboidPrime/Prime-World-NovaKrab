@@ -56,6 +56,16 @@
 			<vars>
 				<Item href="/Items/Talents/Class/Banshee/const_A4u_Delay" />
 				<Item href="/Items/Talents/Class/Banshee/const_A4u_Heal" />
+				<Item href="/Items/Talents/Class/Banshee/Ability_A4u.TALENT" id="72BFED3A-4770-4969-924D-C0EEFDF8E788">
+					<UnitConstant>
+						<name>A4u_MissChance</name>
+						<var>
+							<compiledString>FR8AAAAFAAAAJgAAAD8AAAB+AAAAhAAAAJQAAABCYW5zaGVlX0ExX1NVUAAAQmFuc2hlZV9BMV9TVVAAVYvsg+wQaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wCLTQiLEYtNCIuCwAAAAP/Q3A3AAAAA3AW4AAAAD7ZN+4lN9NtF9NwNsAAAANno3sHeydld8NlF8IvlXcMAAAAAAADwPwAAAAAAAOA/AAAAAAAAIkB7FK5H4XqUPw==</compiledString>
+							<returnType>float</returnType>
+							<sString>(0.02*sBaseDexterity + 9)*(1+0.5*tal("Banshee_A1_SUP"))</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
@@ -96,7 +106,55 @@
 	<naftaCost>560</naftaCost>
 	<name textref="/Items/Talents/Class/Banshee/Ability_A4u.TALENT_name.txt" />
 	<node></node>
-	<passiveApplicators />
+	<passiveApplicators>
+		<Item href="/Items/Talents/Class/Banshee/Ability_A4u.TALENT" id="8321C901-447D-4FAE-87A1-84D0F224BBE7">
+			<StatModApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption></caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQ8AAAABAAAAGwAAAEE0dV9NaXNzQ2hhbmNlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+						<returnType>float</returnType>
+						<sString>cA4u_MissChance</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Evasion</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
+		</Item>
+	</passiveApplicators>
 	<persistentId>Banshee_A4u</persistentId>
 	<prerequisiteTalents>
 		<Item href="/Items/Talents/Class/Banshee/Ability_A4.TALENT" />

@@ -110,7 +110,7 @@
 	<description textref="/Items/Talents/Level4/G702_StrOrInt.TALENT_description.txt" />
 	<devPoints>1</devPoints>
 	<dispatch href="" />
-	<flags>1</flags>
+	<flags>5</flags>
 	<forceBonus>0</forceBonus>
 	<image href="/UI/Styles/Icons/Talents/_702.ITEX" />
 	<imageSecondState href="" />

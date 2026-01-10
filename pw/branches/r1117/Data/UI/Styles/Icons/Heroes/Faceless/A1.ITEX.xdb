@@ -4,6 +4,7 @@
 	<BackLink DBID="/Items/Talents/Class/Faceless/Ability1.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Faceless/Ability1_Upg1.TALENT" Count="1" />
 	<BackLink DBID="/Maps/PvE/Dungeon2/Spawners/room15.NCSPN" Count="11" />
+	<BackLink DBID="/Items/Talents/Class/Faceless/Ability1_SUP.TALENT" Count="1" />
 	<generatedFileName></generatedFileName>
 	<importOnlyShape>false</importOnlyShape>
 	<mipLevels>0</mipLevels>

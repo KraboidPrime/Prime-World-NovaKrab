@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BasicEffectStandalone>
+	<BackLink DBID="/Items/Talents/Class/PinkGirl/Ability_A2.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level5/G186_AInt_Vamp.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Chicken/Ability_A4_1.TALENT" Count="1" />
+	<BackLink DBID="/Heroes/Chicken/_.HROB" Count="2" />
+	<component href="/Effects/Shots/Ball/_newAt2.PRXY" />
+	<deathType>Manual</deathType>
+	<enableCondition href="/Effects/Shots/Ball/_newAt2.EFFT" id="E69F74C9-317F-4B3E-A6C3-9D904DA908EB">
+		<ConditionFormula>
+			<condition>
+				<compiledString>FREAAAABAAAAGwAAAEE0XzJfQ2hpY2tfQm9vc3QAVYvsagGLRRBQaAAAAACLTQiLEYtNCIuCnAEAAP/QM8k7RRAPlcGKwV3D</compiledString>
+				<returnType>bool</returnType>
+				<sString>sender.applA4_2_Chick_Boost(UNIT) != pMisc</sString>
+			</condition>
+			<name></name>
+		</ConditionFormula>
+	</enableCondition>
+	<fadeIn>0</fadeIn>
+	<fadeOut>0</fadeOut>
+	<isVisibleUnderWarfog>false</isVisibleUnderWarfog>
+	<lifeTime>0</lifeTime>
+	<parentFlags>0</parentFlags>
+	<parentType>General</parentType>
+	<visibilityLimited>false</visibilityLimited>
+	<visibleTime>0</visibleTime>
+</BasicEffectStandalone>

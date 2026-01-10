@@ -24,7 +24,7 @@
 	<BackLink DBID="/Items/Talents/Level4/G308_K_Life_Energy.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level4/status_G774_SeeInvis.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Level5/G064_PureDmgProc-AtSpd.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Level5/G637_StrOrInt_Life.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level5/G637_StrOrInt_Life.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Level5/G641_StrOrInt.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level5/G666_EnemyAoeDmg_StrOrInt_Life.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentKits/RedSet2_4_Blow/status_G487_MarkDmg.APLR" Count="1" />
@@ -49,6 +49,10 @@
 	<BackLink DBID="/Maps/Test/BalanseTest/Spawners/DummyTest_7.NCSPN" Count="1" />
 	<BackLink DBID="/Maps/Test/BalanseTest/Spawners/DummyTest_8.NCSPN" Count="1" />
 	<BackLink DBID="/Maps/Test/BalanseTest/Spawners/DummyTest_9.NCSPN" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/GhostLord/A2_Enemy.SPLL" Count="1" />
+	<BackLink DBID="/Items/Consumables/NEW_Spear.ARCT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level6/G124_Str_Energy.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level1/G129_Str.TALENT" Count="1" />
 	<signRecipients>EVENT_PARTICIPANTS</signRecipients>
 	<UISigns>
 		<Item href="/UI/Events/CommonEvents/EventDamageDealed.UIEV" id="00B3EB47-25ED-4F60-8A69-8807269EE6D0">

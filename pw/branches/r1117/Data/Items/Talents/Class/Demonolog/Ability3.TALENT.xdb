@@ -692,9 +692,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQQ==</compiledString>
+		<compiledString>FSUAAAACAAAALAAAAEUAAABEZW1vbm9sb2dfQTNfU1VQAAAAAERlbW9ub2xvZ19BM19TVVAAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgUAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk3799kbyYPh9oPBGYlN9NtF9IvlXcM=</compiledString>
 		<returnType>float</returnType>
-		<sString>25</sString>
+		<sString>tal("Demonolog_A3_SUP") ? 15 : 25</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>

@@ -556,9 +556,9 @@
 					<levelUpgrades />
 					<statId>Intellect</statId>
 					<value>
-						<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+						<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
 						<returnType>float</returnType>
-						<sString>0</sString>
+						<sString>1</sString>
 					</value>
 				</Item>
 				<Item>
@@ -652,9 +652,9 @@
 					<levelUpgrades />
 					<statId>Range</statId>
 					<value>
-						<compiledString>FQsAAAABAAAAFwAAAFJhbmdlX0xvbmcAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+						<compiledString>FQsAAAACAAAAGAAAACsAAABSYW5nZV9Mb25nAFWL7FGLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0twlOQAAANld/NlF/IvlXcMAAAAAAAAAQA==</compiledString>
 						<returnType>float</returnType>
-						<sString>cRange_Long</sString>
+						<sString>(cRange_Long-2)</sString>
 					</value>
 				</Item>
 			</stats>

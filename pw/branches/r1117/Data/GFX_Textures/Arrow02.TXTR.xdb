@@ -3,6 +3,8 @@
 	<BackLink DBID="/Effects/Debuffs/Mark/_.PRXY" Count="1" />
 	<BackLink DBID="/Glyphs/_FXEgg.PRXY" Count="1" />
 	<BackLink DBID="/Glyphs/EggCarrier.PRXY" Count="1" />
+	<BackLink DBID="/Glyphs/Egg2.SOBJ" Count="1" />
+	<BackLink DBID="/Summons/Pumpkin/_EggEmul.SOBJ" Count="1" />
 	<generatedFileName></generatedFileName>
 	<mipLevels>0</mipLevels>
 	<mipLevelUsage>AutoGenerate</mipLevelUsage>

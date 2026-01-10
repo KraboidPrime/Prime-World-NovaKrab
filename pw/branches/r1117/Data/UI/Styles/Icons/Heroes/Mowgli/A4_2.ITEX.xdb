@@ -2,7 +2,6 @@
 <UITexture>
 	<BackLink DBID="/Items/Talents/Class/Mowgli/Ability4_2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Mowgli/Ability4_2Upg.TALENT" Count="1" />
-	<BackLink DBID="/Summons/Spear/_Mowgli.SUMMONED" Count="1" />
 	<generatedFileName></generatedFileName>
 	<importOnlyShape>false</importOnlyShape>
 	<mipLevels>0</mipLevels>

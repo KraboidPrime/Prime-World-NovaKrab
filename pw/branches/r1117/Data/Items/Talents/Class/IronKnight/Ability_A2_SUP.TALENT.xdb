@@ -65,6 +65,26 @@
 					</UnitConstant>
 				</Item>
 				<Item href="/Items/Talents/Class/IronKnight/const_A2_SUP_Slow" />
+				<Item href="/Items/Talents/Class/IronKnight/Ability_A2_SUP.TALENT" id="DB3357C7-1D39-4112-972A-A49D4AEF5DE5">
+					<UnitConstant>
+						<name>CD_Cringe</name>
+						<var>
+							<compiledString>FQwAAAAEAAEAGQAAACwAAABAAAAARgAAADcAAABDcmluZ2VfTGlmZQBVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcDVwAAACD7AjdHCTouf///4PECNwNVAAAANwFVAAAANld/NlF/IvlXcMAAAAAAAAIQHsUrkfheoQ/</compiledString>
+							<returnType>float</returnType>
+							<sString>3+3*floor(0.01*cCringe_Life)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/IronKnight/Ability_A2_SUP.TALENT" id="B49FE445-6D62-42CF-8391-ACF0B2AF06D1">
+					<UnitConstant>
+						<name>Cringe_Life</name>
+						<var>
+							<compiledString>FQ8AAAABAAAAEwAAAENvdW50ZXJfY3JpbmdlAFWL7GgAAAAAi0UIixCLTQiLgogBAAD/0F3D</compiledString>
+							<returnType>float</returnType>
+							<sString>sender.vCounter_cringe</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
@@ -73,7 +93,7 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString></compiledString>
+		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 		<returnType>float</returnType>
 		<sString>0.0f</sString>
 	</cooldownTime>
@@ -85,7 +105,7 @@
 	<description textref="/Items/Talents/Class/IronKnight/Ability_A2_SUP.TALENT_description.txt" />
 	<devPoints>1</devPoints>
 	<dispatch href="" />
-	<flags>1</flags>
+	<flags>5</flags>
 	<forceBonus>0</forceBonus>
 	<image href="/UI/Styles/Icons/Heroes/IronKnight/A2_SUP.ITEX" />
 	<imageSecondState href="" />

@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BasicEffectStandalone>
 	<BackLink DBID="/Items/Talents/Level6/G455_Life_StrOrInt.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/Chicken/Ability_A0.TALENT" Count="2" />
 	<component href="/Effects/General/Puff/_SmallTRS.PRXY" />
 	<deathType>Anim</deathType>
 	<enableCondition href="" />

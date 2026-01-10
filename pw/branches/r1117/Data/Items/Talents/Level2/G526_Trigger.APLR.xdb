@@ -15,9 +15,9 @@
 		<Item href="" />
 	</effect>
 	<enabled>
-		<compiledString>FSsAAAAGAAAAPgAAAEoAAABgAAAAbAAAAIIAAACUAAAAQTFJc1dvcmtpbmcAUGFudGhlcklzQWxpdmUAAEc0NTVQb2x5U3RhdHVzAFWL7FGLRRCLEItNEItCHP/Q3B3MAAAA3+D2xER6bWgAAAAAi00MixGLTQyLgogBAAD/0NwdxAAAAN/g9sREektoDAAAAItNCIsRi00Ii4KIAQAA/9DcHcwAAADf4PbERHspagCLTRBRaBwAAACLVQiLAotNCIuQnAEAAP/SO0UQdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAAAAAAAAAAA8D8=</compiledString>
+		<compiledString>FTwAAAAJAAAATwAAAF8AAAB1AAAAhQAAAJsAAACtAAAA1QAAAOEAAAD3AAAAQTFJc1dvcmtpbmcAUGFudGhlcklzQWxpdmUAAEc0NTVQb2x5U3RhdHVzAABDaGlja1Jlc1N0YXJ0ZWQAVYvsUYtFEIsQi00Qi0Ic/9DcHSkBAADf4PbERA+KrQAAAGgAAAAAi00MixGLTQyLgogBAAD/0NwdIQEAAN/g9sRED4qHAAAAaAwAAACLTQiLEYtNCIuCiAEAAP/Q3B0pAQAA3+D2xER7ZWoAi00QUWgcAAAAi1UIiwKLTQiLkJwBAAD/0jtFEHVFi0UIixCLTQiLQgz/0NwdGQEAAN/g9sRBdStoLAAAAItNCIsRi00Ii4KIAQAA/9DcHSkBAADf4PbERHsJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAABZQAAAAAAAAAAAAAAAAAAA8D8=</compiledString>
 		<returnType>bool</returnType>
-		<sString>mPreparedness == 1.0f &amp;&amp; receiver.vA1IsWorking == 0 &amp;&amp; sender.vPantherIsAlive != 1 &amp;&amp; sender.applG455PolyStatus(GLOBAL) == pMisc</sString>
+		<sString>mPreparedness == 1.0f &amp;&amp; receiver.vA1IsWorking == 0 &amp;&amp; sender.vPantherIsAlive != 1 &amp;&amp; sender.applG455PolyStatus(GLOBAL) == pMisc &amp;&amp; sMaxLife &gt; 100 &amp;&amp; sender.vChickResStarted != 1.0f</sString>
 	</enabled>
 	<formulaName>Trigger_G526</formulaName>
 	<lifeTime>
@@ -115,6 +115,212 @@
 									</Item>
 									<Item>
 										<applicator href="/Items/Talents/Level2/status_G526_Shield.APLR" />
+										<continueCondition>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>0</sString>
+										</continueCondition>
+										<continueEvents>1</continueEvents>
+										<delay>
+											<compiledString></compiledString>
+											<returnType>float</returnType>
+											<sString>-1.0</sString>
+										</delay>
+										<stopCondition>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>0</sString>
+										</stopCondition>
+										<stopEvents>0</stopEvents>
+									</Item>
+									<Item>
+										<applicator href="/Items/Talents/Level2/G526_Trigger.APLR" id="7E6CD279-CA32-47F9-AFF4-B4DC60373E2A">
+											<SpellApplicator>
+												<applyTarget>AbilityOwner</applyTarget>
+												<caption>новый резист</caption>
+												<enabled>
+													<compiledString>FQwAAAACAAAAEQAAACcAAABHNTI3X0FjdGl2ZQBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1JAAAA3+D2xEF1CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
+													<returnType>bool</returnType>
+													<sString>sender.vG527_Active &gt; 0</sString>
+												</enabled>
+												<formulaName></formulaName>
+												<LoggingEvent>-1</LoggingEvent>
+												<providerName></providerName>
+												<spell href="/Items/Talents/Level2/G526_Trigger.APLR" id="C98FFD74-8640-4B2A-A228-ECBD46190A18">
+													<Spell>
+														<applicators>
+															<Item href="/Items/Talents/Level2/G526_Trigger.APLR" id="EB05DF9C-6D0C-43AB-9679-ED846063C822">
+																<StatusApplicator>
+																	<applicators>
+																		<Item href="/Items/Talents/Level2/G526_Trigger.APLR" id="71EFD9CB-BE10-4C8D-9EAC-02C38AB952D3">
+																			<StatModApplicator>
+																				<applyTarget>AbilityOwner</applyTarget>
+																				<behaviorFlags>0</behaviorFlags>
+																				<caption></caption>
+																				<constraint>None</constraint>
+																				<dontUpdate>false</dontUpdate>
+																				<effect>
+																					<Item href="" />
+																					<Item href="" />
+																				</effect>
+																				<enabled>
+																					<compiledString></compiledString>
+																					<returnType>bool</returnType>
+																					<sString>true</sString>
+																				</enabled>
+																				<formulaName></formulaName>
+																				<lifeTime>
+																					<compiledString></compiledString>
+																					<returnType>float</returnType>
+																					<sString>-1.0</sString>
+																				</lifeTime>
+																				<LoggingEvent>-1</LoggingEvent>
+																				<modifier>
+																					<addValue>
+																						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQQ==</compiledString>
+																						<returnType>float</returnType>
+																						<sString>20.0f</sString>
+																					</addValue>
+																					<multValue>
+																						<compiledString></compiledString>
+																						<returnType>float</returnType>
+																						<sString>1.0f</sString>
+																					</multValue>
+																					<stat>EnergyDamageDecrease</stat>
+																					<topModifier>false</topModifier>
+																					<variable></variable>
+																				</modifier>
+																				<providerName></providerName>
+																				<startCondition>
+																					<compiledString></compiledString>
+																					<returnType>bool</returnType>
+																					<sString>true</sString>
+																				</startCondition>
+																				<statModName></statModName>
+																			</StatModApplicator>
+																		</Item>
+																		<Item href="/Items/Talents/Level2/G526_Trigger.APLR" id="C0557123-7764-4EC8-BEA5-89EDB9F029C1">
+																			<StatModApplicator>
+																				<applyTarget>AbilityOwner</applyTarget>
+																				<behaviorFlags>0</behaviorFlags>
+																				<caption></caption>
+																				<constraint>None</constraint>
+																				<dontUpdate>false</dontUpdate>
+																				<effect>
+																					<Item href="" />
+																					<Item href="" />
+																				</effect>
+																				<enabled>
+																					<compiledString></compiledString>
+																					<returnType>bool</returnType>
+																					<sString>true</sString>
+																				</enabled>
+																				<formulaName></formulaName>
+																				<lifeTime>
+																					<compiledString></compiledString>
+																					<returnType>float</returnType>
+																					<sString>-1.0</sString>
+																				</lifeTime>
+																				<LoggingEvent>-1</LoggingEvent>
+																				<modifier>
+																					<addValue>
+																						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQQ==</compiledString>
+																						<returnType>float</returnType>
+																						<sString>20.0f</sString>
+																					</addValue>
+																					<multValue>
+																						<compiledString></compiledString>
+																						<returnType>float</returnType>
+																						<sString>1.0f</sString>
+																					</multValue>
+																					<stat>MaterialDamageDecrease</stat>
+																					<topModifier>false</topModifier>
+																					<variable></variable>
+																				</modifier>
+																				<providerName></providerName>
+																				<startCondition>
+																					<compiledString></compiledString>
+																					<returnType>bool</returnType>
+																					<sString>true</sString>
+																				</startCondition>
+																				<statModName></statModName>
+																			</StatModApplicator>
+																		</Item>
+																	</applicators>
+																	<applyTarget>AbilityOwner</applyTarget>
+																	<behaviorFlags>0</behaviorFlags>
+																	<caption></caption>
+																	<customCounter>
+																		<compiledString></compiledString>
+																		<returnType>int</returnType>
+																		<sString>0</sString>
+																	</customCounter>
+																	<customProgress>
+																		<compiledString></compiledString>
+																		<returnType>float</returnType>
+																		<sString>-1.0</sString>
+																	</customProgress>
+																	<description textref="/Items/Talents/Level2/G526_Trigger.APLR_eb05df9c6d0c43ab9679ed846063c822_description.txt" />
+																	<dispellPriority>Medium</dispellPriority>
+																	<effect>
+																		<Item href="" />
+																		<Item href="" />
+																	</effect>
+																	<enabled>
+																		<compiledString></compiledString>
+																		<returnType>bool</returnType>
+																		<sString>true</sString>
+																	</enabled>
+																	<flags>0</flags>
+																	<formulaName></formulaName>
+																	<image href="/UI/Styles/Icons/Talents/_527.ITEX" />
+																	<lifeTime>
+																		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
+																		<returnType>float</returnType>
+																		<sString>5</sString>
+																	</lifeTime>
+																	<LoggingEvent>-1</LoggingEvent>
+																	<name textref="/Items/Talents/Level2/G526_Trigger.APLR_eb05df9c6d0c43ab9679ed846063c822_name.txt" />
+																	<power>0</power>
+																	<providerName></providerName>
+																	<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+																	<stackCount>0</stackCount>
+																	<startCondition>
+																		<compiledString></compiledString>
+																		<returnType>bool</returnType>
+																		<sString>true</sString>
+																	</startCondition>
+																	<statusPosition>0</statusPosition>
+																	<stopBehaviour>StopByTime</stopBehaviour>
+																	<unstackableWith href="" />
+																</StatusApplicator>
+															</Item>
+														</applicators>
+														<dispatch href="/Items/Talents/Level2/G526_Trigger.APLR" id="E6CA288A-07D5-4D22-B60C-07CF277C285F">
+															<DispatchImmediate>
+																<alwaysApply>false</alwaysApply>
+																<applyEffect>
+																	<Item href="" />
+																	<Item href="" />
+																</applyEffect>
+																<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																<applyEffectOrientation>Default</applyEffectOrientation>
+																<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																<dieAfterApply>true</dieAfterApply>
+																<dispatchEffect>
+																	<Item href="" />
+																	<Item href="" />
+																</dispatchEffect>
+																<flags>0</flags>
+																<instantApply>false</instantApply>
+															</DispatchImmediate>
+														</dispatch>
+													</Spell>
+												</spell>
+												<spellTarget>AbilityOwner</spellTarget>
+												<targetSelector href="" />
+											</SpellApplicator>
+										</applicator>
 										<continueCondition>
 											<compiledString></compiledString>
 											<returnType>bool</returnType>

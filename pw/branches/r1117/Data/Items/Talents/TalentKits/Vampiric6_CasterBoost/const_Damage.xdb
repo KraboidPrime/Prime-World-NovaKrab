@@ -5,8 +5,8 @@
 	<BackLink DBID="/Items/Talents/Level4/G308_K_Life_Energy.TALENT" Count="1" />
 	<name>Damage</name>
 	<var>
-		<compiledString>FQ0AAAACAAAAFAAAAC0AAABHMzA4AAAAAEczMDgAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgIAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0Is/9CJRfjrB8dF+AEAAACLTfiD6QFryQODwSiJTfTbRfSL5V3D</compiledString>
+		<compiledString>FQAAAAAAAAAAVYvsUYtFCIsQi00Ii4JgAQAA/9CDwB6JRfzbRfyL5V3D</compiledString>
 		<returnType>float</returnType>
-		<sString>40 + 3 * ( getTalentRefineRate("G308", 1) - 1 )</sString>
+		<sString>30+sNaftaLevel</sString>
 	</var>
 </UnitConstant>

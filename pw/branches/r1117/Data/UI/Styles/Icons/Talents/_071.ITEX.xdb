@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UITexture>
 	<BackLink DBID="/Creeps/Normals/Normal4/PvP_NY.CREEP" Count="1" />
-	<BackLink DBID="/Items/Talents/Level5/G071_SlowProc-AtSpd.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level5/G071_SlowProc-AtSpd.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Level5/G347_AntiCreep_PVE.TALENT" Count="1" />
 	<generatedFileName></generatedFileName>
 	<importOnlyShape>false</importOnlyShape>
 	<mipLevels>0</mipLevels>

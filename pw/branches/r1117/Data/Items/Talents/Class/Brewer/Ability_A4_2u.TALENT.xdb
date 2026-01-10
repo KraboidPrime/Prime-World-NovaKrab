@@ -36,12 +36,51 @@
 	<commonDescription textref="" />
 	<compiledDescriptionA textref="" />
 	<compiledDescriptionB textref="" />
-	<conditionFormulas />
+	<conditionFormulas>
+		<Item href="/Items/Talents/Class/Brewer/cond_TTStrOrInt" />
+		<Item href="/Items/Talents/Class/Brewer/cond_A0_SUP" />
+		<Item href="/Items/Talents/Class/Brewer/cond_A4_2" />
+		<Item href="/Items/Talents/Class/Brewer/cond_TTStaOrWill" />
+		<Item href="/Items/Talents/Class/Brewer/cond_A2" />
+	</conditionFormulas>
 	<conflictingTalents>
 		<Item href="/Items/Talents/Class/Brewer/Ability_A4.TALENT" />
 		<Item href="/Items/Talents/Class/Brewer/Ability_A4u.TALENT" />
 	</conflictingTalents>
-	<constants href="" />
+	<constants href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="C1D0699E-D2D1-4D40-B89F-A1578DA726B6">
+		<UnitConstantsContainer>
+			<vars>
+				<Item href="/Items/Talents/Class/Brewer/const_Honey_AoE" />
+				<Item href="/Items/Talents/Class/Brewer/const_Honey_Duration" />
+				<Item href="/Items/Talents/Class/Brewer/const_Honey_AddLife" />
+				<Item href="/Items/Talents/Class/Brewer/const_Honey_AddStaOrWill" />
+				<Item href="/Items/Talents/Class/Brewer/const_Honey_Dec_StrOrInt" />
+				<Item href="/Items/Talents/Class/Brewer/const_Honey_Slow_Duration" />
+				<Item href="/Items/Talents/Class/Brewer/const_Honey_Slow_Condition" />
+				<Item href="/Items/Talents/Class/Brewer/const_Honey_DecMS_PerStack" />
+				<Item href="/Items/Talents/Class/Brewer/const_Honey_DecMS_Total" />
+				<Item href="/Items/Talents/Class/Brewer/const_Honey_StackCount_Max" />
+				<Item href="/Items/Talents/Class/Brewer/const_Honey_DoT_DPS" />
+				<Item href="/Items/Talents/Class/Brewer/const_Honey_TTDPS" />
+				<Item href="/Items/Talents/Class/Brewer/const_Honey_DisarmDuration" />
+				<Item href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="6B8C2CB6-6426-452C-9940-52122A3B4F62">
+					<UnitConstant>
+						<name>A2u_Range</name>
+						<var>
+							<compiledString>FQ0AAAABAAAAGQAAAFJhbmdlX0V4TG9uZwBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+							<returnType>float</returnType>
+							<sString>cRange_ExLong</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Brewer/const_Honey_TTStrOrInt" />
+				<Item href="/Items/Talents/Class/Brewer/const_Honey_TTAddLife" />
+				<Item href="/Items/Talents/Class/Brewer/const_Honey_TTAddStaOrWill" />
+				<Item href="/Items/Talents/Class/Brewer/const_Honey_TTDec_StrOrInt" />
+				<Item href="/Items/Talents/Class/Brewer/const_Honey_TTStaOrWill" />
+			</vars>
+		</UnitConstantsContainer>
+	</constants>
 	<consumptionBonus>
 		<constant>0</constant>
 		<percent>0</percent>
@@ -79,7 +118,788 @@
 	<naftaCost>560</naftaCost>
 	<name textref="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT_name.txt" />
 	<node></node>
-	<passiveApplicators />
+	<passiveApplicators>
+		<Item href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="65A2DA55-B185-457C-9B34-F8C0F47D0199">
+			<SpellPeriodicallyApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>автоплевок</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FRcAAAACAAAASgAAAGMAAABCcmV3ZXJfQTJ1AABCcmV3ZXJfQTJ1AFWL7IPsDFaLRQiLEItNCItCTP/Qi/CLTQiLEYtNCIuCkAEAAP/QO/APlMEPttGF0nVYaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgMAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0CcdF9AEAAADrB8dF9AAAAACKRfRei+Vdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>!nt( true, false) &amp;&amp; tal("Brewer_A2u")</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<period>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
+					<returnType>float</returnType>
+					<sString>10</sString>
+				</period>
+				<providerName></providerName>
+				<scaleMode>ScaleIsCount</scaleMode>
+				<spell href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="5F0AF274-6778-47B6-9CCB-B1D7829CD99D">
+					<Spell>
+						<applicators>
+							<Item href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="181A03A9-7C5D-4B58-87D8-1D3A0D261438">
+								<SpellApplicator>
+									<applyTarget>ApplicatorTarget</applyTarget>
+									<caption>Spread Honey to ground</caption>
+									<enabled>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<LoggingEvent>-1</LoggingEvent>
+									<providerName></providerName>
+									<spell href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="26EFE6E8-3DFF-46B0-B7EB-0FB6B1F066AD">
+										<Spell>
+											<applicators>
+												<Item href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="49C42C37-35C0-4596-8101-30AD3545D146">
+													<SpellApplicator>
+														<applyTarget>ApplicatorTarget</applyTarget>
+														<caption>Apply_Honey_To_Friends</caption>
+														<enabled>
+															<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+															<returnType>bool</returnType>
+															<sString>true</sString>
+														</enabled>
+														<formulaName></formulaName>
+														<LoggingEvent>-1</LoggingEvent>
+														<providerName></providerName>
+														<spell href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="F35EDDB3-7C4F-4BCF-B766-422C43197B87">
+															<Spell>
+																<applicators>
+																	<Item href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="3682734D-B8DB-4D89-9392-7FBFCAFD47D5">
+																		<SpellSwitchApplicator>
+																			<activeSpellIndex>
+																				<compiledString>FQAAAAAAAAAAVYvsM8Bdww==</compiledString>
+																				<returnType>int</returnType>
+																				<sString>0</sString>
+																			</activeSpellIndex>
+																			<applyTarget>ApplicatorTarget</applyTarget>
+																			<caption>Choosing_Status(MaxStackCount_Switch)</caption>
+																			<dontUseDispatches>true</dontUseDispatches>
+																			<enabled>
+																				<compiledString></compiledString>
+																				<returnType>bool</returnType>
+																				<sString>true</sString>
+																			</enabled>
+																			<formulaName></formulaName>
+																			<LoggingEvent>-1</LoggingEvent>
+																			<providerName></providerName>
+																			<spells>
+																				<Item href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="1C9D784C-6B14-49E9-8E37-23154128D73E">
+																					<Spell>
+																						<applicators>
+																							<Item href="/Items/Talents/Class/Brewer/status_Honey_0F.APLR" />
+																						</applicators>
+																						<dispatch href="" />
+																					</Spell>
+																				</Item>
+																				<Item href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="722216A8-183B-4937-8D21-E6BB1851521A">
+																					<Spell>
+																						<applicators>
+																							<Item href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="E05E3E42-CD8A-41DF-9452-DAA3D4719505">
+																								<SpellSwitchApplicator>
+																									<activeSpellIndex>
+																										<compiledString>FScAAAACAAAANgAAAEgAAABIb25leV9TdGFja0NvdW50X01heAAAAABIb25leU1heFN0YWNrcwBVi+yD7AyLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0mgYAAAAi0UMixCLTQyLgogBAADdXfj/0N1F+Nrp3+D2xER6CcdF9AAAAADrB8dF9AEAAACLRfSL5V3D</compiledString>
+																										<returnType>int</returnType>
+																										<sString>cHoney_StackCount_Max == receiver.GetVariable("HoneyMaxStacks") ? 0 : 1</sString>
+																									</activeSpellIndex>
+																									<applyTarget>ApplicatorTarget</applyTarget>
+																									<caption>CurrentStackSwitch</caption>
+																									<dontUseDispatches>true</dontUseDispatches>
+																									<enabled>
+																										<compiledString></compiledString>
+																										<returnType>bool</returnType>
+																										<sString>true</sString>
+																									</enabled>
+																									<formulaName></formulaName>
+																									<LoggingEvent>-1</LoggingEvent>
+																									<providerName></providerName>
+																									<spells>
+																										<Item href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="CAD1E863-BEBE-4518-AE87-A8DDF136F6F1">
+																											<Spell>
+																												<applicators>
+																													<Item href="/Items/Talents/Class/Brewer/status_Honey_1F.APLR" />
+																												</applicators>
+																												<dispatch href="" />
+																											</Spell>
+																										</Item>
+																										<Item href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="2A325DC4-F531-4E3F-B6CF-B3B1A0355CC5">
+																											<Spell>
+																												<applicators>
+																													<Item href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="C27736F1-7578-4816-A917-E361A9CB387E">
+																														<SpellSwitchApplicator>
+																															<activeSpellIndex>
+																																<compiledString>FRwAAAABAAAAJgAAAEJyZXdlcl9Ib25leVN0YXR1c19GcmllbmRseQBVi+xqAYtFEFBoAAAAAItNDIsRi00Mi4KgAQAA/9Bdww==</compiledString>
+																																<returnType>int</returnType>
+																																<sString> receiver.CountApplicators( "Brewer_HoneyStatus_Friendly", pMisc, UNIT )</sString>
+																															</activeSpellIndex>
+																															<applyTarget>ApplicatorTarget</applyTarget>
+																															<caption>TransferStacks</caption>
+																															<dontUseDispatches>true</dontUseDispatches>
+																															<enabled>
+																																<compiledString></compiledString>
+																																<returnType>bool</returnType>
+																																<sString>true</sString>
+																															</enabled>
+																															<formulaName></formulaName>
+																															<LoggingEvent>-1</LoggingEvent>
+																															<providerName></providerName>
+																															<spells>
+																																<Item href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="7604759A-DABE-498D-A253-7EA976DEAF71">
+																																	<Spell>
+																																		<applicators>
+																																			<Item href="/Items/Talents/Class/Brewer/status_Honey_1F.APLR" />
+																																		</applicators>
+																																		<dispatch href="" />
+																																	</Spell>
+																																</Item>
+																																<Item href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="32BB779D-028A-4F27-9981-8E38FA79428E">
+																																	<Spell>
+																																		<applicators>
+																																			<Item href="/Items/Talents/Class/Brewer/status_Honey_1F.APLR" />
+																																			<Item href="/Items/Talents/Class/Brewer/status_Honey_1F.APLR" />
+																																		</applicators>
+																																		<dispatch href="" />
+																																	</Spell>
+																																</Item>
+																																<Item href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="8BAFCE26-8B9D-4713-8BFC-DFB12E61533D">
+																																	<Spell>
+																																		<applicators>
+																																			<Item href="/Items/Talents/Class/Brewer/status_Honey_1F.APLR" />
+																																			<Item href="/Items/Talents/Class/Brewer/status_Honey_1F.APLR" />
+																																			<Item href="/Items/Talents/Class/Brewer/status_Honey_1F.APLR" />
+																																		</applicators>
+																																		<dispatch href="" />
+																																	</Spell>
+																																</Item>
+																																<Item href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="5D78A297-2B06-401D-8574-0D370852131A">
+																																	<Spell>
+																																		<applicators>
+																																			<Item href="/Items/Talents/Class/Brewer/status_Honey_1F.APLR" />
+																																			<Item href="/Items/Talents/Class/Brewer/status_Honey_1F.APLR" />
+																																			<Item href="/Items/Talents/Class/Brewer/status_Honey_1F.APLR" />
+																																			<Item href="/Items/Talents/Class/Brewer/status_Honey_1F.APLR" />
+																																		</applicators>
+																																		<dispatch href="" />
+																																	</Spell>
+																																</Item>
+																															</spells>
+																														</SpellSwitchApplicator>
+																													</Item>
+																												</applicators>
+																												<dispatch href="" />
+																											</Spell>
+																										</Item>
+																									</spells>
+																								</SpellSwitchApplicator>
+																							</Item>
+																						</applicators>
+																						<dispatch href="" />
+																					</Spell>
+																				</Item>
+																				<Item href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="23E80B0C-D895-4122-8991-C12B2958D253">
+																					<Spell>
+																						<applicators>
+																							<Item href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="D1FDFBA6-E09F-4915-B983-CE51979E83F5">
+																								<SpellSwitchApplicator>
+																									<activeSpellIndex>
+																										<compiledString>FScAAAACAAAANgAAAEgAAABIb25leV9TdGFja0NvdW50X01heAAAAABIb25leU1heFN0YWNrcwBVi+yD7AyLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0mgYAAAAi0UMixCLTQyLgogBAADdXfj/0N1F+Nrp3+D2xER6CcdF9AAAAADrB8dF9AEAAACLRfSL5V3D</compiledString>
+																										<returnType>int</returnType>
+																										<sString>cHoney_StackCount_Max == receiver.GetVariable("HoneyMaxStacks") ? 0 : 1</sString>
+																									</activeSpellIndex>
+																									<applyTarget>ApplicatorTarget</applyTarget>
+																									<caption>CurrentStackSwitch</caption>
+																									<dontUseDispatches>true</dontUseDispatches>
+																									<enabled>
+																										<compiledString></compiledString>
+																										<returnType>bool</returnType>
+																										<sString>true</sString>
+																									</enabled>
+																									<formulaName></formulaName>
+																									<LoggingEvent>-1</LoggingEvent>
+																									<providerName></providerName>
+																									<spells>
+																										<Item href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="5CFD0781-D257-4398-8504-061FC6068144">
+																											<Spell>
+																												<applicators>
+																													<Item href="/Items/Talents/Class/Brewer/status_Honey_2F.APLR" />
+																												</applicators>
+																												<dispatch href="" />
+																											</Spell>
+																										</Item>
+																										<Item href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="35940DA2-88D1-4087-9490-8860857E06D2">
+																											<Spell>
+																												<applicators>
+																													<Item href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="AB000BCC-732E-4517-8EC4-288B936C4DAD">
+																														<SpellSwitchApplicator>
+																															<activeSpellIndex>
+																																<compiledString>FRwAAAABAAAAJgAAAEJyZXdlcl9Ib25leVN0YXR1c19GcmllbmRseQBVi+xqAYtFEFBoAAAAAItNDIsRi00Mi4KgAQAA/9Bdww==</compiledString>
+																																<returnType>int</returnType>
+																																<sString> receiver.CountApplicators( "Brewer_HoneyStatus_Friendly", pMisc, UNIT )</sString>
+																															</activeSpellIndex>
+																															<applyTarget>ApplicatorTarget</applyTarget>
+																															<caption>TransferStacks</caption>
+																															<dontUseDispatches>true</dontUseDispatches>
+																															<enabled>
+																																<compiledString></compiledString>
+																																<returnType>bool</returnType>
+																																<sString>true</sString>
+																															</enabled>
+																															<formulaName></formulaName>
+																															<LoggingEvent>-1</LoggingEvent>
+																															<providerName></providerName>
+																															<spells>
+																																<Item href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="CED4C6FC-8CF8-450D-96F3-157756CE5FEA">
+																																	<Spell>
+																																		<applicators>
+																																			<Item href="/Items/Talents/Class/Brewer/status_Honey_2F.APLR" />
+																																		</applicators>
+																																		<dispatch href="" />
+																																	</Spell>
+																																</Item>
+																																<Item href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="C48A5E11-4F54-4B20-B94C-37A2483C099F">
+																																	<Spell>
+																																		<applicators>
+																																			<Item href="/Items/Talents/Class/Brewer/status_Honey_2F.APLR" />
+																																			<Item href="/Items/Talents/Class/Brewer/status_Honey_2F.APLR" />
+																																		</applicators>
+																																		<dispatch href="" />
+																																	</Spell>
+																																</Item>
+																																<Item href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="96BD022D-9C89-42D2-804D-B4B099B91658">
+																																	<Spell>
+																																		<applicators>
+																																			<Item href="/Items/Talents/Class/Brewer/status_Honey_2F.APLR" />
+																																			<Item href="/Items/Talents/Class/Brewer/status_Honey_2F.APLR" />
+																																			<Item href="/Items/Talents/Class/Brewer/status_Honey_2F.APLR" />
+																																		</applicators>
+																																		<dispatch href="" />
+																																	</Spell>
+																																</Item>
+																																<Item href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="514DAD0A-1B41-4BEE-87AC-162A4C0272E1">
+																																	<Spell>
+																																		<applicators>
+																																			<Item href="/Items/Talents/Class/Brewer/status_Honey_2F.APLR" />
+																																			<Item href="/Items/Talents/Class/Brewer/status_Honey_2F.APLR" />
+																																			<Item href="/Items/Talents/Class/Brewer/status_Honey_2F.APLR" />
+																																			<Item href="/Items/Talents/Class/Brewer/status_Honey_2F.APLR" />
+																																		</applicators>
+																																		<dispatch href="" />
+																																	</Spell>
+																																</Item>
+																																<Item href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="9EE03794-A577-47C8-87AC-6B9CAF3639E5">
+																																	<Spell>
+																																		<applicators>
+																																			<Item href="/Items/Talents/Class/Brewer/status_Honey_2F.APLR" />
+																																			<Item href="/Items/Talents/Class/Brewer/status_Honey_2F.APLR" />
+																																			<Item href="/Items/Talents/Class/Brewer/status_Honey_2F.APLR" />
+																																			<Item href="/Items/Talents/Class/Brewer/status_Honey_2F.APLR" />
+																																			<Item href="/Items/Talents/Class/Brewer/status_Honey_2F.APLR" />
+																																		</applicators>
+																																		<dispatch href="" />
+																																	</Spell>
+																																</Item>
+																															</spells>
+																														</SpellSwitchApplicator>
+																													</Item>
+																												</applicators>
+																												<dispatch href="" />
+																											</Spell>
+																										</Item>
+																									</spells>
+																								</SpellSwitchApplicator>
+																							</Item>
+																						</applicators>
+																						<dispatch href="" />
+																					</Spell>
+																				</Item>
+																			</spells>
+																		</SpellSwitchApplicator>
+																	</Item>
+																</applicators>
+																<dispatch href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="A5E5CEB6-BD6F-4145-B69D-6C4C510B9051">
+																	<DispatchImmediate>
+																		<alwaysApply>false</alwaysApply>
+																		<applyEffect>
+																			<Item href="" />
+																			<Item href="" />
+																		</applyEffect>
+																		<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																		<applyEffectOrientation>Default</applyEffectOrientation>
+																		<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																		<dieAfterApply>true</dieAfterApply>
+																		<dispatchEffect>
+																			<Item href="" />
+																			<Item href="" />
+																		</dispatchEffect>
+																		<flags>0</flags>
+																		<instantApply>false</instantApply>
+																	</DispatchImmediate>
+																</dispatch>
+															</Spell>
+														</spell>
+														<spellTarget>ApplicatorTarget</spellTarget>
+														<targetSelector href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="0CDA4BBB-98E2-416F-A8B1-5B328A4B82AF">
+															<AreaTargetSelector>
+																<absolutePosition>
+																	<x>0</x>
+																	<y>0</y>
+																</absolutePosition>
+																<flags>0</flags>
+																<mode>Normal</mode>
+																<range>
+																	<compiledString>FQoAAAABAAAAFgAAAEhvbmV5X0FvRQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+																	<returnType>float</returnType>
+																	<sString>cHoney_AoE</sString>
+																</range>
+																<targetFilter>1346175039</targetFilter>
+																<targetSelector href="" />
+															</AreaTargetSelector>
+														</targetSelector>
+													</SpellApplicator>
+												</Item>
+												<Item href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="10AF15CB-5030-4815-9689-10404BCA8A91">
+													<SpellApplicator>
+														<applyTarget>ApplicatorTarget</applyTarget>
+														<caption>Apply_Honey_To_Enemies</caption>
+														<enabled>
+															<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+															<returnType>bool</returnType>
+															<sString>true; //ut_bldg( false, rUnitKind != 17 ) &amp;&amp; (sIsHero || sender.vIsClone != 0) &amp;&amp; receiver.applWard(GLOBAL) == pMisc</sString>
+														</enabled>
+														<formulaName></formulaName>
+														<LoggingEvent>-1</LoggingEvent>
+														<providerName></providerName>
+														<spell href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="43D4525A-64CB-475D-A00A-D6F18D9559A9">
+															<Spell>
+																<applicators>
+																	<Item href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="6E8C1A1B-7950-4BAA-8DC8-D17094D3AA56">
+																		<SpellSwitchApplicator>
+																			<activeSpellIndex>
+																				<compiledString>FQAAAAAAAAAAVYvsM8Bdww==</compiledString>
+																				<returnType>int</returnType>
+																				<sString>0</sString>
+																			</activeSpellIndex>
+																			<applyTarget>ApplicatorTarget</applyTarget>
+																			<caption>Choosing_Status(MaxStackCount_Switch)</caption>
+																			<dontUseDispatches>true</dontUseDispatches>
+																			<enabled>
+																				<compiledString></compiledString>
+																				<returnType>bool</returnType>
+																				<sString>true</sString>
+																			</enabled>
+																			<formulaName></formulaName>
+																			<LoggingEvent>-1</LoggingEvent>
+																			<providerName></providerName>
+																			<spells>
+																				<Item href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="09D38AC5-1741-4EF3-90D1-3D3701B43037">
+																					<Spell>
+																						<applicators>
+																							<Item href="/Items/Talents/Class/Brewer/status_Honey_0E.APLR" />
+																						</applicators>
+																						<dispatch href="" />
+																					</Spell>
+																				</Item>
+																				<Item href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="F839535B-A23D-46F5-B4D4-6A194E1390F9">
+																					<Spell>
+																						<applicators>
+																							<Item href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="E5B8196D-35B3-4DF4-8E91-E17AB13AB7DB">
+																								<SpellSwitchApplicator>
+																									<activeSpellIndex>
+																										<compiledString>FScAAAACAAAANgAAAEgAAABIb25leV9TdGFja0NvdW50X01heAAAAABIb25leU1heFN0YWNrcwBVi+yD7AyLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0mgYAAAAi0UMixCLTQyLgogBAADdXfj/0N1F+Nrp3+D2xER6CcdF9AAAAADrB8dF9AEAAACLRfSL5V3D</compiledString>
+																										<returnType>int</returnType>
+																										<sString>cHoney_StackCount_Max == receiver.GetVariable("HoneyMaxStacks") ? 0 : 1</sString>
+																									</activeSpellIndex>
+																									<applyTarget>ApplicatorTarget</applyTarget>
+																									<caption>CurrentStackSwitch</caption>
+																									<dontUseDispatches>true</dontUseDispatches>
+																									<enabled>
+																										<compiledString></compiledString>
+																										<returnType>bool</returnType>
+																										<sString>true</sString>
+																									</enabled>
+																									<formulaName></formulaName>
+																									<LoggingEvent>-1</LoggingEvent>
+																									<providerName></providerName>
+																									<spells>
+																										<Item href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="040D0C41-9F67-48DF-A50C-2B34454505EB">
+																											<Spell>
+																												<applicators>
+																													<Item href="/Items/Talents/Class/Brewer/status_Honey_1E.APLR" />
+																												</applicators>
+																												<dispatch href="" />
+																											</Spell>
+																										</Item>
+																										<Item href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="7CC0D155-E212-47AB-AAF5-5E736F0E588C">
+																											<Spell>
+																												<applicators>
+																													<Item href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="98AF11C8-B1AC-43A0-9269-9E0730692DC5">
+																														<SpellSwitchApplicator>
+																															<activeSpellIndex>
+																																<compiledString>FRkAAAABAAAAIwAAAEJyZXdlcl9Ib25leVN0YXR1c19FbmVteQBVi+xqAYtFEFBoAAAAAItNDIsRi00Mi4KgAQAA/9Bdww==</compiledString>
+																																<returnType>int</returnType>
+																																<sString> receiver.CountApplicators( "Brewer_HoneyStatus_Enemy", pMisc, UNIT )</sString>
+																															</activeSpellIndex>
+																															<applyTarget>ApplicatorTarget</applyTarget>
+																															<caption>TransferStacks</caption>
+																															<dontUseDispatches>true</dontUseDispatches>
+																															<enabled>
+																																<compiledString></compiledString>
+																																<returnType>bool</returnType>
+																																<sString>true</sString>
+																															</enabled>
+																															<formulaName></formulaName>
+																															<LoggingEvent>-1</LoggingEvent>
+																															<providerName></providerName>
+																															<spells>
+																																<Item href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="B2AFDCF4-A3EF-4691-B949-7C0CEDA1F82B">
+																																	<Spell>
+																																		<applicators>
+																																			<Item href="/Items/Talents/Class/Brewer/status_Honey_1E.APLR" />
+																																		</applicators>
+																																		<dispatch href="" />
+																																	</Spell>
+																																</Item>
+																																<Item href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="704988B5-0CB3-47CA-B3CC-97342D92246E">
+																																	<Spell>
+																																		<applicators>
+																																			<Item href="/Items/Talents/Class/Brewer/status_Honey_1E.APLR" />
+																																			<Item href="/Items/Talents/Class/Brewer/status_Honey_1E.APLR" />
+																																		</applicators>
+																																		<dispatch href="" />
+																																	</Spell>
+																																</Item>
+																																<Item href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="47D8A376-B81F-4484-900B-BD3351D90B0E">
+																																	<Spell>
+																																		<applicators>
+																																			<Item href="/Items/Talents/Class/Brewer/status_Honey_1E.APLR" />
+																																			<Item href="/Items/Talents/Class/Brewer/status_Honey_1E.APLR" />
+																																			<Item href="/Items/Talents/Class/Brewer/status_Honey_1E.APLR" />
+																																		</applicators>
+																																		<dispatch href="" />
+																																	</Spell>
+																																</Item>
+																																<Item href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="088A6362-5147-4226-8310-49CCAE8A80B5">
+																																	<Spell>
+																																		<applicators>
+																																			<Item href="/Items/Talents/Class/Brewer/status_Honey_1E.APLR" />
+																																			<Item href="/Items/Talents/Class/Brewer/status_Honey_1E.APLR" />
+																																			<Item href="/Items/Talents/Class/Brewer/status_Honey_1E.APLR" />
+																																			<Item href="/Items/Talents/Class/Brewer/status_Honey_1E.APLR" />
+																																		</applicators>
+																																		<dispatch href="" />
+																																	</Spell>
+																																</Item>
+																															</spells>
+																														</SpellSwitchApplicator>
+																													</Item>
+																												</applicators>
+																												<dispatch href="" />
+																											</Spell>
+																										</Item>
+																									</spells>
+																								</SpellSwitchApplicator>
+																							</Item>
+																						</applicators>
+																						<dispatch href="" />
+																					</Spell>
+																				</Item>
+																				<Item href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="37854924-B909-407C-98A3-649D4E36AE82">
+																					<Spell>
+																						<applicators>
+																							<Item href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="6555821C-4CD1-454A-A016-204D5AE2D02C">
+																								<SpellSwitchApplicator>
+																									<activeSpellIndex>
+																										<compiledString>FScAAAACAAAANgAAAEgAAABIb25leV9TdGFja0NvdW50X01heAAAAABIb25leU1heFN0YWNrcwBVi+yD7AyLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0mgYAAAAi0UMixCLTQyLgogBAADdXfj/0N1F+Nrp3+D2xER6CcdF9AAAAADrB8dF9AEAAACLRfSL5V3D</compiledString>
+																										<returnType>int</returnType>
+																										<sString>cHoney_StackCount_Max == receiver.GetVariable("HoneyMaxStacks") ? 0 : 1</sString>
+																									</activeSpellIndex>
+																									<applyTarget>ApplicatorTarget</applyTarget>
+																									<caption>CurrentStackSwitch</caption>
+																									<dontUseDispatches>true</dontUseDispatches>
+																									<enabled>
+																										<compiledString></compiledString>
+																										<returnType>bool</returnType>
+																										<sString>true</sString>
+																									</enabled>
+																									<formulaName></formulaName>
+																									<LoggingEvent>-1</LoggingEvent>
+																									<providerName></providerName>
+																									<spells>
+																										<Item href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="16A663A0-92D4-4A33-AA70-DB4173374DBB">
+																											<Spell>
+																												<applicators>
+																													<Item href="/Items/Talents/Class/Brewer/status_Honey_2E.APLR" />
+																												</applicators>
+																												<dispatch href="" />
+																											</Spell>
+																										</Item>
+																										<Item href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="16AF8192-43FE-4924-874F-4CD949DA2A09">
+																											<Spell>
+																												<applicators>
+																													<Item href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="18CDF714-BB17-4E20-B46A-AD40225492E2">
+																														<SpellSwitchApplicator>
+																															<activeSpellIndex>
+																																<compiledString>FRkAAAABAAAAIwAAAEJyZXdlcl9Ib25leVN0YXR1c19FbmVteQBVi+xqAYtFEFBoAAAAAItNDIsRi00Mi4KgAQAA/9Bdww==</compiledString>
+																																<returnType>int</returnType>
+																																<sString> receiver.CountApplicators( "Brewer_HoneyStatus_Enemy", pMisc, UNIT )</sString>
+																															</activeSpellIndex>
+																															<applyTarget>ApplicatorTarget</applyTarget>
+																															<caption>TransferStacks</caption>
+																															<dontUseDispatches>true</dontUseDispatches>
+																															<enabled>
+																																<compiledString></compiledString>
+																																<returnType>bool</returnType>
+																																<sString>true</sString>
+																															</enabled>
+																															<formulaName></formulaName>
+																															<LoggingEvent>-1</LoggingEvent>
+																															<providerName></providerName>
+																															<spells>
+																																<Item href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="7548872F-AB07-486F-A266-C399C6E02643">
+																																	<Spell>
+																																		<applicators>
+																																			<Item href="/Items/Talents/Class/Brewer/status_Honey_2E.APLR" />
+																																		</applicators>
+																																		<dispatch href="" />
+																																	</Spell>
+																																</Item>
+																																<Item href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="F71EA63C-4A19-4801-84C3-32BE6236C5CF">
+																																	<Spell>
+																																		<applicators>
+																																			<Item href="/Items/Talents/Class/Brewer/status_Honey_2E.APLR" />
+																																			<Item href="/Items/Talents/Class/Brewer/status_Honey_2E.APLR" />
+																																		</applicators>
+																																		<dispatch href="" />
+																																	</Spell>
+																																</Item>
+																																<Item href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="F2AD104F-5E5A-4F72-9687-11EC7F7B584C">
+																																	<Spell>
+																																		<applicators>
+																																			<Item href="/Items/Talents/Class/Brewer/status_Honey_2E.APLR" />
+																																			<Item href="/Items/Talents/Class/Brewer/status_Honey_2E.APLR" />
+																																			<Item href="/Items/Talents/Class/Brewer/status_Honey_2E.APLR" />
+																																		</applicators>
+																																		<dispatch href="" />
+																																	</Spell>
+																																</Item>
+																																<Item href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="8621BBF6-D0C2-47E6-A233-898D89DC8153">
+																																	<Spell>
+																																		<applicators>
+																																			<Item href="/Items/Talents/Class/Brewer/status_Honey_2E.APLR" />
+																																			<Item href="/Items/Talents/Class/Brewer/status_Honey_2E.APLR" />
+																																			<Item href="/Items/Talents/Class/Brewer/status_Honey_2E.APLR" />
+																																			<Item href="/Items/Talents/Class/Brewer/status_Honey_2E.APLR" />
+																																		</applicators>
+																																		<dispatch href="" />
+																																	</Spell>
+																																</Item>
+																																<Item href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="F93D554C-6CCB-4F3C-9B85-27C7DABCA5C7">
+																																	<Spell>
+																																		<applicators>
+																																			<Item href="/Items/Talents/Class/Brewer/status_Honey_2E.APLR" />
+																																			<Item href="/Items/Talents/Class/Brewer/status_Honey_2E.APLR" />
+																																			<Item href="/Items/Talents/Class/Brewer/status_Honey_2E.APLR" />
+																																			<Item href="/Items/Talents/Class/Brewer/status_Honey_2E.APLR" />
+																																			<Item href="/Items/Talents/Class/Brewer/status_Honey_2E.APLR" />
+																																		</applicators>
+																																		<dispatch href="" />
+																																	</Spell>
+																																</Item>
+																															</spells>
+																														</SpellSwitchApplicator>
+																													</Item>
+																												</applicators>
+																												<dispatch href="" />
+																											</Spell>
+																										</Item>
+																									</spells>
+																								</SpellSwitchApplicator>
+																							</Item>
+																						</applicators>
+																						<dispatch href="" />
+																					</Spell>
+																				</Item>
+																			</spells>
+																		</SpellSwitchApplicator>
+																	</Item>
+																</applicators>
+																<dispatch href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="CA3FDE97-D752-48CB-8150-8E7E1B77AE3F">
+																	<DispatchImmediate>
+																		<alwaysApply>false</alwaysApply>
+																		<applyEffect>
+																			<Item href="" />
+																			<Item href="" />
+																		</applyEffect>
+																		<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																		<applyEffectOrientation>Default</applyEffectOrientation>
+																		<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																		<dieAfterApply>true</dieAfterApply>
+																		<dispatchEffect>
+																			<Item href="" />
+																			<Item href="" />
+																		</dispatchEffect>
+																		<flags>0</flags>
+																		<instantApply>false</instantApply>
+																	</DispatchImmediate>
+																</dispatch>
+															</Spell>
+														</spell>
+														<spellTarget>ApplicatorTarget</spellTarget>
+														<targetSelector href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="CF58A78C-DD7C-4A57-B1F9-3F765ED47F72">
+															<ConditionTargetSelector>
+																<condition>
+																	<compiledString>FQ0AAAAEAAAAVQAAAHUAAACLAAAAnQAAAElzQ2xvbmUAV2FyZABVi+yD7AiLRQyLEItNDItCUP/QM8mD+BEPlcGJTfzbRfxR2RwkUdnu2RwkagGLVQyLAotNDItQWP/SD7bAUOiJAAAAg8QM3B3NAAAA3+D2xER7X4tNCIsRi00Ii0JU/9APtsiFyXUiaAAAAACLVQiLAotNCIuQiAEAAP/S3B3NAAAA3+D2xER7KWoAi0UQUGgIAAAAi00MixGLTQyLgpwBAAD/0DtFEHUJx0X4AQAAAOsHx0X4AAAAAIpF+IvlXcMAAAAAAAAAAAAAAABVi+xRD7ZFCIXAdAjZRQzZXfzrBtlFENld/NlF/IvlXcM=</compiledString>
+																	<returnType>bool</returnType>
+																	<sString>ut_bldg( false, rUnitKind != 17 ) &amp;&amp; (sIsHero || sender.vIsClone != 0) &amp;&amp; receiver.applWard(GLOBAL) == pMisc</sString>
+																</condition>
+																<flags>0</flags>
+																<mode>Normal</mode>
+																<targetSelector href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="491814A8-629B-4A48-9E77-98CB2EEAB34E">
+																	<AreaTargetSelector>
+																		<absolutePosition>
+																			<x>0</x>
+																			<y>0</y>
+																		</absolutePosition>
+																		<flags>0</flags>
+																		<mode>Normal</mode>
+																		<range>
+																			<compiledString>FQoAAAABAAAAFgAAAEhvbmV5X0FvRQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+																			<returnType>float</returnType>
+																			<sString>cHoney_AoE</sString>
+																		</range>
+																		<targetFilter>538771519</targetFilter>
+																		<targetSelector href="" />
+																	</AreaTargetSelector>
+																</targetSelector>
+															</ConditionTargetSelector>
+														</targetSelector>
+													</SpellApplicator>
+												</Item>
+											</applicators>
+											<dispatch href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="4DBC8697-8921-4003-86F8-890874F23011">
+												<DispatchImmediate>
+													<alwaysApply>false</alwaysApply>
+													<applyEffect>
+														<Item href="" />
+														<Item href="" />
+													</applyEffect>
+													<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+													<applyEffectOrientation>Default</applyEffectOrientation>
+													<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+													<dieAfterApply>true</dieAfterApply>
+													<dispatchEffect>
+														<Item href="" />
+														<Item href="" />
+													</dispatchEffect>
+													<flags>0</flags>
+													<instantApply>true</instantApply>
+												</DispatchImmediate>
+											</dispatch>
+										</Spell>
+									</spell>
+									<spellTarget>AbilityTarget</spellTarget>
+									<targetSelector href="" />
+								</SpellApplicator>
+							</Item>
+						</applicators>
+						<dispatch href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="81B2908F-C583-4D91-91F0-A2C783A2B700">
+							<DispatchLinear>
+								<aiming>Straight</aiming>
+								<alwaysApply>false</alwaysApply>
+								<applyEffect>
+									<Item href="/Effects/Debuffs/Glue/_Honey.EFFT" />
+									<Item href="" />
+								</applyEffect>
+								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+								<applyEffectOrientation>Default</applyEffectOrientation>
+								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+								<dieAfterApply>true</dieAfterApply>
+								<dispatchEffect>
+									<Item href="/Effects/Shots/Water/_Honey.EFFT" />
+									<Item href="" />
+								</dispatchEffect>
+								<flags>0</flags>
+								<flyMode>Parabolic</flyMode>
+								<fromLocator>Weapon_back</fromLocator>
+								<height>0</height>
+								<killEffect>true</killEffect>
+								<locatorOrient>false</locatorOrient>
+								<maxDeviation>180</maxDeviation>
+								<maxDistance>30</maxDistance>
+								<maxRise>6</maxRise>
+								<minRise>3</minRise>
+								<persistentApplicators />
+								<speed>20</speed>
+								<suspendTime>0</suspendTime>
+								<toLocator></toLocator>
+							</DispatchLinear>
+						</dispatch>
+					</Spell>
+				</spell>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<startOffset>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQQ==</compiledString>
+					<returnType>float</returnType>
+					<sString>8</sString>
+				</startOffset>
+				<targetSelector href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="4ED4DD62-7CE6-4502-B03A-1D53296B54E9">
+					<CountingTargetSelector>
+						<enableSorting>true</enableSorting>
+						<flags>0</flags>
+						<heroesFirst>true</heroesFirst>
+						<mode>Normal</mode>
+						<order>Increasing</order>
+						<sortingValue>
+							<compiledString>FQAAAAAAAAAAVYvsUWoZagGLRRCLEItNEItCXP/QiUX820X8i+Vdww==</compiledString>
+							<returnType>float</returnType>
+							<sString>random(1, 25)</sString>
+						</sortingValue>
+						<targetSelector href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" id="01447E5E-3C97-415F-8CED-34F061DEDECC">
+							<AreaTargetSelector>
+								<absolutePosition>
+									<x>0</x>
+									<y>0</y>
+								</absolutePosition>
+								<flags>0</flags>
+								<mode>Normal</mode>
+								<range>
+									<compiledString>FQ0AAAABAAAAGQAAAFJhbmdlX0V4TG9uZwBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+									<returnType>float</returnType>
+									<sString>cRange_ExLong</sString>
+								</range>
+								<targetFilter>941359167</targetFilter>
+								<targetSelector href="" />
+							</AreaTargetSelector>
+						</targetSelector>
+						<targetsNumber>
+							<compiledString></compiledString>
+							<returnType>int</returnType>
+							<sString>1</sString>
+						</targetsNumber>
+					</CountingTargetSelector>
+				</targetSelector>
+			</SpellPeriodicallyApplicator>
+		</Item>
+	</passiveApplicators>
 	<persistentId>Brewer_A4_2u</persistentId>
 	<prerequisiteTalents>
 		<Item href="/Items/Talents/Class/Brewer/Ability_A4_2.TALENT" />

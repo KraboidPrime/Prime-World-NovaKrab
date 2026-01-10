@@ -60,9 +60,9 @@
 				<damageMode>0</damageMode>
 				<damageType>Native</damageType>
 				<enabled>
-					<compiledString>FRUAAAADAAAAIgAAAH0AAACPAAAATmlnaHRIdW50ZXJBNAAAAFdhcmQAVYvsg+wIagCLRRBQaAAAAACLTQiLEYtNCIuCnAEAAP/QO0UQdHaLTQyLEYtNDItCUP/QM8mD+BEPlcGJTfzbRfxR2RwkUdnu2RwkagGLVQyLAotNDItQWP/SD7bAUOhTAAAAg8QM3B2/AAAA3+D2xER7KWoAi00QUWgQAAAAi1UMiwKLTQyLkJwBAAD/0jtFEHUJx0X4AQAAAOsHx0X4AAAAAIpF+IvlXcMAAAAAAAAAAAAAAABVi+xRD7ZFCIXAdAjZRQzZXfzrBtlFENld/NlF/IvlXcM=</compiledString>
+					<compiledString>FRUAAAACAAAAIAAAAFIAAABOaWdodEh1bnRlckE0AAAAV2FyZABVi+xRagCLRRBQaAAAAACLTQiLEYtNCIuCnAEAAP/QO0UQdDuLTQyLEYtNDItCUP/Qg/gRdClqAItNEFFoEAAAAItVDIsCi00Mi5CcAQAA/9I7RRB1CcdF/AEAAADrB8dF/AAAAACKRfyL5V3D</compiledString>
 					<returnType>bool</returnType>
-					<sString>pFirst-&gt;FindApplicator("NightHunterA4",pMisc,GLOBAL) != pMisc &amp;&amp; ut_bldg(false, rUnitKind != 17) &amp;&amp; receiver.applWard(GLOBAL) == pMisc</sString>
+					<sString>pFirst-&gt;FindApplicator("NightHunterA4",pMisc,GLOBAL) != pMisc &amp;&amp; rUnitKind != 17 &amp;&amp; receiver.applWard(GLOBAL) == pMisc</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<LoggingEvent>-1</LoggingEvent>

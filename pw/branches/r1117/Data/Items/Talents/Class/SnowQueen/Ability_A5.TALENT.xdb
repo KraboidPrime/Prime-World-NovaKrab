@@ -93,9 +93,9 @@
 	</manaCost>
 	<marker></marker>
 	<microAI href="" />
-	<minLevel>1</minLevel>
+	<minLevel>2</minLevel>
 	<minUseRangeCorrection>0</minUseRangeCorrection>
-	<naftaCost>300</naftaCost>
+	<naftaCost>440</naftaCost>
 	<name textref="/Items/Talents/Class/SnowQueen/Ability_A5.TALENT_name.txt" />
 	<node></node>
 	<passiveApplicators>

@@ -58,6 +58,16 @@
 				<Item href="/Items/Talents/Class/FallenAngel/const_A3_Duration" />
 				<Item href="/Items/Talents/Class/FallenAngel/const_A3_DamagePerSecond" />
 				<Item href="/Items/Talents/Class/FallenAngel/const_A3_Interval" />
+				<Item href="/Items/Talents/Class/FallenAngel/Ability_A3u.TALENT" id="57584B2A-3168-4764-97AD-DFB53FA4155A">
+					<UnitConstant>
+						<name>BuffedReg</name>
+						<var>
+							<compiledString>FU8AAAAFAAAAVgAAAG8AAACtAAAAwAAAANIAAABGYWxsZW5BbmdlbF9BMV9TVVAAAEZhbGxlbkFuZ2VsX0ExX1NVUAAAQTNfRGFtYWdlUGVyU2Vjb25kAABBM19EYW1hZ2VQZXJTZWNvbmQAVYvsg+wUaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgUAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0JYtVDFKLRQhQaCgAAACLTRCLEYtNEItCUP/Q3A3zAAAA3V3w6x2LTQxRi1UIUmg8AAAAi0UQixCLTRCLQlD/0N1d8N1F8Nld7NlF7IvlXcMAAAAAAAAAQA==</compiledString>
+							<returnType>float</returnType>
+							<sString>tal("FallenAngel_A1_SUP") ? 2*cA3_DamagePerSecond : cA3_DamagePerSecond</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

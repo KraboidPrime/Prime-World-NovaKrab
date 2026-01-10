@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LightningEffect>
 	<BackLink DBID="/Heroes/Mowgli/AbilityLink.EFFT" Count="1" />
-	<BackLink DBID="/Summons/Spear/_Mowgli.SUMMONED" Count="2" />
 	<component href="/Heroes/Mowgli/AbilityLink.LGSC" />
 	<controlledVisibility>false</controlledVisibility>
 	<deathType>Manual</deathType>

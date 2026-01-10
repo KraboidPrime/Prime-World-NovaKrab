@@ -27,9 +27,9 @@
 				<LoggingEvent>-1</LoggingEvent>
 				<providerName></providerName>
 				<startCondition>
-					<compiledString>FRQAAAACAAAAIQAAADQAAABTbG93X1N0YXJ0Q29uZGl0aW9uAFWL7FGLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0twdUAAAAN/g9sREewbGRf8B6wTGRf8AikX/i+VdwwAAAAAAAAAA</compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 					<returnType>bool</returnType>
-					<sString>cSlow_StartCondition</sString>
+					<sString>false</sString>
 				</startCondition>
 				<talents />
 				<useListAs>ListAsRule</useListAs>

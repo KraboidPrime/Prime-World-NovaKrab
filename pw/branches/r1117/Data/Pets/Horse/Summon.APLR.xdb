@@ -7,8 +7,6 @@
 		<Item skip="1" />
 		<Item skip="1" />
 		<Item skip="1" />
-		<Item skip="1" />
-		<Item href="/Pets/Horse/Ressurector.APLR" />
 		<Item href="/Pets/Horse/Summon.APLR" id="863D4EE9-7EDD-4C1A-9019-5038AFFF0E18">
 			<FlagsApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>

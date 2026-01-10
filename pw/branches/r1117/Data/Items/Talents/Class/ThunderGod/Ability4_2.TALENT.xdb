@@ -858,6 +858,218 @@
 				</startCondition>
 			</ProgramApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/ThunderGod/Ability4_2.TALENT" id="5CC534E5-3047-4235-80B2-2FE8B908C61A">
+			<SpellPeriodicallyApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption></caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FR4AAAACAAAAJQAAAD4AAABUaHVuZGVyX0E0XzJ1AAAAVGh1bmRlcl9BNF8ydQBVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AIpF+4vlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("Thunder_A4_2u")</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAQA==</compiledString>
+					<returnType>float</returnType>
+					<sString>4.0f</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<period>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
+					<returnType>float</returnType>
+					<sString>5.0f</sString>
+				</period>
+				<providerName></providerName>
+				<scaleMode>ScaleIsCount</scaleMode>
+				<spell href="/Items/Talents/Class/ThunderGod/Ability4_2.TALENT" id="80175CB6-D0E3-476B-B8DF-3E65D3D11F5A">
+					<Spell>
+						<applicators>
+							<Item href="/Items/Talents/Class/ThunderGod/Ability4_2.TALENT" id="5D90062D-5F28-4A32-9902-04A9FE609575">
+								<StatusApplicator>
+									<applicators>
+										<Item href="/Items/Talents/Class/ThunderGod/Ability4_2.TALENT" id="E41283C8-535E-445A-B8CC-5EC5CC97C362">
+											<StatModApplicator>
+												<applyTarget>AbilityOwner</applyTarget>
+												<behaviorFlags>0</behaviorFlags>
+												<caption></caption>
+												<constraint>None</constraint>
+												<dontUpdate>false</dontUpdate>
+												<effect>
+													<Item href="" />
+													<Item href="" />
+												</effect>
+												<enabled>
+													<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgowAAAD/0ItNCIsRi00Ii4LAAAAA3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+													<returnType>bool</returnType>
+													<sString>sBaseAttackSpeed &gt;= sBaseDexterity</sString>
+												</enabled>
+												<formulaName></formulaName>
+												<lifeTime>
+													<compiledString></compiledString>
+													<returnType>float</returnType>
+													<sString>-1.0</sString>
+												</lifeTime>
+												<LoggingEvent>-1</LoggingEvent>
+												<modifier>
+													<addValue>
+														<compiledString>FQoAAAABAAAAFgAAAEE0XzJfU3RhdABVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+														<returnType>float</returnType>
+														<sString>cA4_2_Stat</sString>
+													</addValue>
+													<multValue>
+														<compiledString></compiledString>
+														<returnType>float</returnType>
+														<sString>1.0f</sString>
+													</multValue>
+													<stat>AttackSpeed</stat>
+													<topModifier>false</topModifier>
+													<variable></variable>
+												</modifier>
+												<providerName></providerName>
+												<startCondition>
+													<compiledString></compiledString>
+													<returnType>bool</returnType>
+													<sString>true</sString>
+												</startCondition>
+												<statModName></statModName>
+											</StatModApplicator>
+										</Item>
+										<Item href="/Items/Talents/Class/ThunderGod/Ability4_2.TALENT" id="A5372E94-67EB-4F7D-9939-6C11C40E0675">
+											<StatModApplicator>
+												<applyTarget>AbilityOwner</applyTarget>
+												<behaviorFlags>0</behaviorFlags>
+												<caption></caption>
+												<constraint>None</constraint>
+												<dontUpdate>false</dontUpdate>
+												<effect>
+													<Item href="" />
+													<Item href="" />
+												</effect>
+												<enabled>
+													<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgowAAAD/0ItNCIsRi00Ii4LAAAAA3V34/9DcXfjf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+													<returnType>bool</returnType>
+													<sString>sBaseAttackSpeed &lt; sBaseDexterity</sString>
+												</enabled>
+												<formulaName></formulaName>
+												<lifeTime>
+													<compiledString></compiledString>
+													<returnType>float</returnType>
+													<sString>-1.0</sString>
+												</lifeTime>
+												<LoggingEvent>-1</LoggingEvent>
+												<modifier>
+													<addValue>
+														<compiledString>FQoAAAABAAAAFgAAAEE0XzJfU3RhdABVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+														<returnType>float</returnType>
+														<sString>cA4_2_Stat</sString>
+													</addValue>
+													<multValue>
+														<compiledString></compiledString>
+														<returnType>float</returnType>
+														<sString>1.0f</sString>
+													</multValue>
+													<stat>Dexterity</stat>
+													<topModifier>false</topModifier>
+													<variable></variable>
+												</modifier>
+												<providerName></providerName>
+												<startCondition>
+													<compiledString></compiledString>
+													<returnType>bool</returnType>
+													<sString>true</sString>
+												</startCondition>
+												<statModName></statModName>
+											</StatModApplicator>
+										</Item>
+									</applicators>
+									<applyTarget>AbilityOwner</applyTarget>
+									<behaviorFlags>0</behaviorFlags>
+									<caption></caption>
+									<customCounter>
+										<compiledString></compiledString>
+										<returnType>int</returnType>
+										<sString>0</sString>
+									</customCounter>
+									<customProgress>
+										<compiledString></compiledString>
+										<returnType>float</returnType>
+										<sString>-1.0</sString>
+									</customProgress>
+									<description textref="/Items/Talents/Class/ThunderGod/Ability4_2.TALENT_5d90062d5f284a32990204a9fe609575_description.txt" />
+									<dispellPriority>Medium</dispellPriority>
+									<effect>
+										<Item href="" />
+										<Item href="" />
+									</effect>
+									<enabled>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<flags>64</flags>
+									<formulaName></formulaName>
+									<image href="/UI/Styles/Icons/Heroes/ThunderGod/A4_2.ITEX" />
+									<lifeTime>
+										<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
+										<returnType>float</returnType>
+										<sString>10.0f</sString>
+									</lifeTime>
+									<LoggingEvent>-1</LoggingEvent>
+									<name textref="/Items/Talents/Class/ThunderGod/Ability4_2.TALENT_5d90062d5f284a32990204a9fe609575_name.txt" />
+									<power>0</power>
+									<providerName></providerName>
+									<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+									<stackCount>0</stackCount>
+									<startCondition>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</startCondition>
+									<statusPosition>0</statusPosition>
+									<stopBehaviour>StopByTime</stopBehaviour>
+									<unstackableWith href="" />
+								</StatusApplicator>
+							</Item>
+						</applicators>
+						<dispatch href="/Items/Talents/Class/ThunderGod/Ability4_2.TALENT" id="5CBAD76A-E5F1-4BE0-A3DC-1BCEE4776BF9">
+							<DispatchImmediate>
+								<alwaysApply>false</alwaysApply>
+								<applyEffect>
+									<Item href="" />
+									<Item href="" />
+								</applyEffect>
+								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+								<applyEffectOrientation>Default</applyEffectOrientation>
+								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+								<dieAfterApply>true</dieAfterApply>
+								<dispatchEffect>
+									<Item href="" />
+									<Item href="" />
+								</dispatchEffect>
+								<flags>0</flags>
+								<instantApply>false</instantApply>
+							</DispatchImmediate>
+						</dispatch>
+					</Spell>
+				</spell>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<startOffset>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
+					<returnType>float</returnType>
+					<sString>3.0f</sString>
+				</startOffset>
+				<targetSelector href="" />
+			</SpellPeriodicallyApplicator>
+		</Item>
 	</applicators>
 	<askId>4</askId>
 	<autoTargetSelector href="" />
@@ -984,6 +1196,16 @@
 				</Item>
 				<Item href="/Items/Talents/Class/ThunderGod/const_A4_2_DamageMaterial" />
 				<Item href="/Items/Talents/Class/ThunderGod/const_A0_AddDamage" />
+				<Item href="/Items/Talents/Class/ThunderGod/Ability4_2.TALENT" id="DE4A10F2-2348-4382-95B2-73A9840A2ABB">
+					<UnitConstant>
+						<name>A4_2_Stat</name>
+						<var>
+							<compiledString>FQAAAAACAAAANgAAADwAAABVi+xRi0UIixCLTQiLgjABAAD/0FHZHCSLTQiLEYtNCIuCNAEAAP/QUdkcJOgpAAAAg8QI3A1SAAAA3AVKAAAA2V382UX8i+VdwwAAAAAAAAhAexSuR+F6tD9Vi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
+							<returnType>float</returnType>
+							<sString>0.08*max(sIntellect, sStrength) + 3</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
@@ -1036,16 +1258,7 @@
 		<sString>300</sString>
 	</manaCost>
 	<marker></marker>
-	<microAI href="/Items/Talents/Class/ThunderGod/Ability4_2.TALENT" id="2B95AFB9-A802-441C-96CA-E10319E14273">
-		<BasicMicroAI>
-			<castWhenIdle>false</castWhenIdle>
-			<condition>
-				<compiledString></compiledString>
-				<returnType>bool</returnType>
-				<sString>true</sString>
-			</condition>
-		</BasicMicroAI>
-	</microAI>
+	<microAI href="" />
 	<minLevel>2</minLevel>
 	<minUseRangeCorrection>0</minUseRangeCorrection>
 	<naftaCost>540</naftaCost>

@@ -1,0 +1,789 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Consumable>
+	<BackLink DBID="/Buildings/DefaultStats/Basic.CNSH" Count="4" />
+	<BackLink DBID="/Buildings/DefaultStats/Basic_NY.CNSH" Count="1" />
+	<BackLink DBID="/Buildings/DefaultStats/CTE_Basic.CNSH" Count="1" />
+	<BackLink DBID="/Buildings/DefaultStats/CTE_Secret.CNSH" Count="1" />
+	<BackLink DBID="/Buildings/DefaultStats/MidOnly_ShopList.CNSH" Count="1" />
+	<BackLink DBID="/Buildings/DefaultStats/Secret.CNSH" Count="1" />
+	<BackLink DBID="/Buildings/DefaultStats/Secret_NY.CNSH" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/MOBA/Shops/Mod9_A.SHOP" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/MOBA/Shops/Mod9_B.SHOP" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/MOBA/Shops/Mod9_N.SHOP" Count="1" />
+	<BackLink DBID="/Maps/PvE/Series/Episode1/buildings/Shop.SHOP" Count="1" />
+	<BackLink DBID="/Maps/Test/BalanseTest/Shops/_N.SHOP" Count="1" />
+	<BackLink DBID="/Items/Talents/Level1/G722_RegEnergy.TALENT" Count="1" />
+	<BackLink DBID="/Items/Consumables/AADISABLE.ARCT" Count="1" />
+	<BackLink DBID="/Buildings/DefaultStats/Basic_Bots.CNSH" Count="3" />
+	<BackLink DBID="/Items/Consumables/SUPPORT.ARCT" Count="1" />
+	<BackLink DBID="/Items/Consumables/GANGER.ARCT" Count="1" />
+	<activeCustomTrigger>false</activeCustomTrigger>
+	<allowChase>
+		<compiledString></compiledString>
+		<returnType>bool</returnType>
+		<sString>true</sString>
+	</allowChase>
+	<alternativeTargets />
+	<aoeDisplayOnMinimap>false</aoeDisplayOnMinimap>
+	<aoeHeight>0</aoeHeight>
+	<aoeMaterial href="" />
+	<aoePassabilityCheckMode>0</aoePassabilityCheckMode>
+	<aoeSize>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</aoeSize>
+	<aoeType>None</aoeType>
+	<applicators>
+		<Item href="/Items/Consumables/YaNeFarmlu.APLR" />
+		<Item href="/Items/Consumables/GANGER.ARCT" id="8C1C2212-8D64-4E99-82F7-7E1AB33A43B7">
+			<StatusApplicator>
+				<applicators>
+					<Item href="/Items/Consumables/GANGER.ARCT" id="BC2E5175-B3A3-4A1F-8FCE-AAA7A006AF18">
+						<SpellPeriodicallyApplicator>
+							<applyTarget>AbilityOwner</applyTarget>
+							<behaviorFlags>216</behaviorFlags>
+							<caption>прайм за время</caption>
+							<effect>
+								<Item href="" />
+								<Item href="" />
+							</effect>
+							<enabled>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</enabled>
+							<formulaName></formulaName>
+							<lifeTime>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>-1.0</sString>
+							</lifeTime>
+							<LoggingEvent>-1</LoggingEvent>
+							<period>
+								<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQg==</compiledString>
+								<returnType>float</returnType>
+								<sString>60.0f</sString>
+							</period>
+							<providerName></providerName>
+							<scaleMode>ScaleIsCount</scaleMode>
+							<spell href="/Items/Consumables/GANGER.ARCT" id="9ABB2374-07C6-4363-BEE2-A0C3C8661A30">
+								<Spell>
+									<applicators>
+										<Item href="/Items/Consumables/GANGER.ARCT" id="B9F585FA-8DD2-4483-A115-1EF00A03A9BE">
+											<AddNaftaApplicator>
+												<applyTarget>AbilityOwner</applyTarget>
+												<caption></caption>
+												<enabled>
+													<compiledString></compiledString>
+													<returnType>bool</returnType>
+													<sString>true</sString>
+												</enabled>
+												<formulaName></formulaName>
+												<isFromImpulseBuff>false</isFromImpulseBuff>
+												<LoggingEvent>-1</LoggingEvent>
+												<nafta>
+													<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACMQg==</compiledString>
+													<returnType>float</returnType>
+													<sString>70.0f</sString>
+												</nafta>
+												<providerName></providerName>
+											</AddNaftaApplicator>
+										</Item>
+										<Item href="/Items/Consumables/GANGER.ARCT" id="8FE064C6-96A3-4F17-86A2-5847B985F08F">
+											<PermanentStatModApplicator>
+												<applyTarget>AbilityOwner</applyTarget>
+												<caption></caption>
+												<customApplyType>None</customApplyType>
+												<enabled>
+													<compiledString></compiledString>
+													<returnType>bool</returnType>
+													<sString>true</sString>
+												</enabled>
+												<formulaName></formulaName>
+												<LoggingEvent>-1</LoggingEvent>
+												<modifier>
+													<addValue>
+														<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+														<returnType>float</returnType>
+														<sString>1.0f</sString>
+													</addValue>
+													<multValue>
+														<compiledString></compiledString>
+														<returnType>float</returnType>
+														<sString>1.0f</sString>
+													</multValue>
+													<stat>Life</stat>
+													<topModifier>false</topModifier>
+													<variable>KudaAsistFarm</variable>
+												</modifier>
+												<providerName></providerName>
+											</PermanentStatModApplicator>
+										</Item>
+									</applicators>
+									<dispatch href="/Items/Consumables/GANGER.ARCT" id="D7AA1500-F22D-49C6-B4D7-82CA1CE0E292">
+										<DispatchImmediate>
+											<alwaysApply>false</alwaysApply>
+											<applyEffect>
+												<Item href="" />
+												<Item href="" />
+											</applyEffect>
+											<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+											<applyEffectOrientation>Default</applyEffectOrientation>
+											<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+											<dieAfterApply>true</dieAfterApply>
+											<dispatchEffect>
+												<Item href="" />
+												<Item href="" />
+											</dispatchEffect>
+											<flags>0</flags>
+											<instantApply>false</instantApply>
+										</DispatchImmediate>
+									</dispatch>
+								</Spell>
+							</spell>
+							<startCondition>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</startCondition>
+							<startOffset>
+								<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQg==</compiledString>
+								<returnType>float</returnType>
+								<sString>60.0f</sString>
+							</startOffset>
+							<targetSelector href="" />
+						</SpellPeriodicallyApplicator>
+					</Item>
+					<Item href="/Items/Consumables/GANGER.ARCT" id="2FEDAE3B-B758-47F7-B044-ACC84D2D53DA">
+						<AuraApplicator>
+							<applicators>
+								<Item href="/Items/Consumables/GANGER.ARCT" id="EE6A212B-1C3D-4A27-B73B-C9D3AE202D3E">
+									<TriggerApplicator>
+										<actionsCount>
+											<compiledString></compiledString>
+											<returnType>int</returnType>
+											<sString>0</sString>
+										</actionsCount>
+										<applyTarget>ApplicatorTarget</applyTarget>
+										<behaviorFlags>216</behaviorFlags>
+										<caption></caption>
+										<effect>
+											<Item href="" />
+											<Item href="" />
+										</effect>
+										<enabled>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</enabled>
+										<formulaName></formulaName>
+										<lifeTime>
+											<compiledString></compiledString>
+											<returnType>float</returnType>
+											<sString>-1.0</sString>
+										</lifeTime>
+										<LoggingEvent>-1</LoggingEvent>
+										<playAck>false</playAck>
+										<processor href="/Items/Consumables/GANGER.ARCT" id="387FBE3C-96CC-4F2E-A7ED-CB88628A71B3">
+											<EventProcessorOutgoingDamage>
+												<abilityFilter>
+													<abilitiesList />
+													<abilityCondition>
+														<compiledString>FQ8AAAACAAAAFgAAAD0AAABUYXJnZXQAAFRhcmdldABVi+yD7AxoAAAAAItFEIsQi00Qi0JM/9CJRfyLTfyLEYtN/ItCUP/Qg/gFdDBoCAAAAItNEIsRi00Qi0JM/9CJRfiLTfiLEYtN+ItCUP/Qg/gSdAnHRfQAAAAA6wfHRfQBAAAAikX0i+Vdww==</compiledString>
+														<returnType>bool</returnType>
+														<sString>pMisc-&gt;GetObject("Target")-&gt;GetUnitKind() == 5 || pMisc-&gt;GetObject("Target")-&gt;GetUnitKind() == 18</sString>
+													</abilityCondition>
+													<abilityCostMode>Any</abilityCostMode>
+													<exceptThis>false</exceptThis>
+													<flags>1610614015</flags>
+													<onlySingleTarget>false</onlySingleTarget>
+												</abilityFilter>
+												<applyTarget>ApplicatorTarget</applyTarget>
+												<damageTypeFilter>31</damageTypeFilter>
+												<modifiedDamage>
+													<compiledString>FQcAAAACAAAADAAAAB8AAABEYW1hZ2UAVYvsUWgAAAAAi0UQixCLTRCLQlT/0NwNLQAAANld/NlF/IvlXcMAAAAAAADgPw==</compiledString>
+													<returnType>float</returnType>
+													<sString>appl.vDamage*0.5f</sString>
+												</modifiedDamage>
+												<spell href="" />
+											</EventProcessorOutgoingDamage>
+										</processor>
+										<providerName></providerName>
+										<startCondition>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</startCondition>
+										<useAbilityCooldown>false</useAbilityCooldown>
+										<useAbilityOwnerMana>false</useAbilityOwnerMana>
+									</TriggerApplicator>
+								</Item>
+								<Item href="/Items/Consumables/GANGER.ARCT" id="FDD9F674-FE30-413D-AB53-DB4092CB0516">
+									<TriggerApplicator>
+										<actionsCount>
+											<compiledString></compiledString>
+											<returnType>int</returnType>
+											<sString>0</sString>
+										</actionsCount>
+										<applyTarget>ApplicatorTarget</applyTarget>
+										<behaviorFlags>216</behaviorFlags>
+										<caption></caption>
+										<effect>
+											<Item href="" />
+											<Item href="" />
+										</effect>
+										<enabled>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</enabled>
+										<formulaName></formulaName>
+										<lifeTime>
+											<compiledString></compiledString>
+											<returnType>float</returnType>
+											<sString>-1.0</sString>
+										</lifeTime>
+										<LoggingEvent>-1</LoggingEvent>
+										<playAck>false</playAck>
+										<processor href="/Items/Consumables/GANGER.ARCT" id="756A73CA-0FD5-415E-8C7D-C1C202E811C0">
+											<EventProcessorDamageTransformer>
+												<abilityFilter>
+													<abilitiesList />
+													<abilityCondition>
+														<compiledString></compiledString>
+														<returnType>bool</returnType>
+														<sString>true</sString>
+													</abilityCondition>
+													<abilityCostMode>Any</abilityCostMode>
+													<exceptThis>false</exceptThis>
+													<flags>1610614015</flags>
+													<onlySingleTarget>false</onlySingleTarget>
+												</abilityFilter>
+												<add>
+													<compiledString></compiledString>
+													<returnType>float</returnType>
+													<sString>0.0f</sString>
+												</add>
+												<applyTarget>ApplicatorTarget</applyTarget>
+												<checkSender>2</checkSender>
+												<damageTypeFilter>31</damageTypeFilter>
+												<flags>0</flags>
+												<matchTargetInverted>false</matchTargetInverted>
+												<mul>
+													<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
+													<returnType>float</returnType>
+													<sString>2.0f</sString>
+												</mul>
+												<objectFilter>537133088</objectFilter>
+												<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
+												<spell href="" />
+												<treatDelegatedByDelegator>false</treatDelegatedByDelegator>
+											</EventProcessorDamageTransformer>
+										</processor>
+										<providerName></providerName>
+										<startCondition>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</startCondition>
+										<useAbilityCooldown>false</useAbilityCooldown>
+										<useAbilityOwnerMana>false</useAbilityOwnerMana>
+									</TriggerApplicator>
+								</Item>
+							</applicators>
+							<applyTarget>ApplicatorTarget</applyTarget>
+							<behaviorFlags>216</behaviorFlags>
+							<caption>на саммонов</caption>
+							<effect>
+								<Item href="" />
+								<Item href="" />
+							</effect>
+							<enabled>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</enabled>
+							<formulaName></formulaName>
+							<lifeTime>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>-1.0</sString>
+							</lifeTime>
+							<LoggingEvent>-1</LoggingEvent>
+							<providerName></providerName>
+							<range>
+								<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQQ==</compiledString>
+								<returnType>float</returnType>
+								<sString>30</sString>
+							</range>
+							<startCondition>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</startCondition>
+							<targets>268435460</targets>
+							<targetSelector href="/Items/Consumables/GANGER.ARCT" id="1F02B4D8-78E4-411A-875B-E583D4FB1044">
+								<SummonEnumerator>
+									<flags>0</flags>
+									<mode>Normal</mode>
+									<summonTypes>11</summonTypes>
+								</SummonEnumerator>
+							</targetSelector>
+							<type>None</type>
+						</AuraApplicator>
+					</Item>
+					<Item href="/Items/Consumables/GANGER.ARCT" id="5E75CCEA-8079-41DB-AE40-5B2F6B59DD0D">
+						<TriggerApplicator>
+							<actionsCount>
+								<compiledString></compiledString>
+								<returnType>int</returnType>
+								<sString>0</sString>
+							</actionsCount>
+							<applyTarget>AbilityOwner</applyTarget>
+							<behaviorFlags>216</behaviorFlags>
+							<caption></caption>
+							<effect>
+								<Item href="" />
+								<Item href="" />
+							</effect>
+							<enabled>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</enabled>
+							<formulaName></formulaName>
+							<lifeTime>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>-1.0</sString>
+							</lifeTime>
+							<LoggingEvent>-1</LoggingEvent>
+							<playAck>false</playAck>
+							<processor href="/Items/Consumables/GANGER.ARCT" id="229748A0-C258-47F7-94CD-5FFAF8CE9D80">
+								<EventProcessorOutgoingDamage>
+									<abilityFilter>
+										<abilitiesList />
+										<abilityCondition>
+											<compiledString>FQ8AAAACAAAAFgAAAD0AAABUYXJnZXQAAFRhcmdldABVi+yD7AxoAAAAAItFEIsQi00Qi0JM/9CJRfyLTfyLEYtN/ItCUP/Qg/gFdDBoCAAAAItNEIsRi00Qi0JM/9CJRfiLTfiLEYtN+ItCUP/Qg/gSdAnHRfQAAAAA6wfHRfQBAAAAikX0i+Vdww==</compiledString>
+											<returnType>bool</returnType>
+											<sString>pMisc-&gt;GetObject("Target")-&gt;GetUnitKind() == 5 || pMisc-&gt;GetObject("Target")-&gt;GetUnitKind() == 18</sString>
+										</abilityCondition>
+										<abilityCostMode>Any</abilityCostMode>
+										<exceptThis>false</exceptThis>
+										<flags>1610614015</flags>
+										<onlySingleTarget>false</onlySingleTarget>
+									</abilityFilter>
+									<applyTarget>ApplicatorTarget</applyTarget>
+									<damageTypeFilter>31</damageTypeFilter>
+									<modifiedDamage>
+										<compiledString>FQcAAAACAAAADAAAAB8AAABEYW1hZ2UAVYvsUWgAAAAAi0UQixCLTRCLQlT/0NwNLQAAANld/NlF/IvlXcMAAAAAAADgPw==</compiledString>
+										<returnType>float</returnType>
+										<sString>appl.vDamage*0.5f</sString>
+									</modifiedDamage>
+									<spell href="" />
+								</EventProcessorOutgoingDamage>
+							</processor>
+							<providerName></providerName>
+							<startCondition>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</startCondition>
+							<useAbilityCooldown>false</useAbilityCooldown>
+							<useAbilityOwnerMana>false</useAbilityOwnerMana>
+						</TriggerApplicator>
+					</Item>
+					<Item href="/Items/Consumables/GANGER.ARCT" id="9BB32A74-39DC-4F21-8B0B-CD98F980BA67">
+						<TriggerApplicator>
+							<actionsCount>
+								<compiledString></compiledString>
+								<returnType>int</returnType>
+								<sString>0</sString>
+							</actionsCount>
+							<applyTarget>AbilityOwner</applyTarget>
+							<behaviorFlags>216</behaviorFlags>
+							<caption></caption>
+							<effect>
+								<Item href="" />
+								<Item href="" />
+							</effect>
+							<enabled>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</enabled>
+							<formulaName></formulaName>
+							<lifeTime>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>-1.0</sString>
+							</lifeTime>
+							<LoggingEvent>-1</LoggingEvent>
+							<playAck>false</playAck>
+							<processor href="/Items/Consumables/GANGER.ARCT" id="BBA4FA6F-927A-445F-AE1C-03CAFF921FCF">
+								<EventProcessorDamageTransformer>
+									<abilityFilter>
+										<abilitiesList />
+										<abilityCondition>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</abilityCondition>
+										<abilityCostMode>Any</abilityCostMode>
+										<exceptThis>false</exceptThis>
+										<flags>1610614015</flags>
+										<onlySingleTarget>false</onlySingleTarget>
+									</abilityFilter>
+									<add>
+										<compiledString></compiledString>
+										<returnType>float</returnType>
+										<sString>0.0f</sString>
+									</add>
+									<applyTarget>ApplicatorTarget</applyTarget>
+									<checkSender>2</checkSender>
+									<damageTypeFilter>31</damageTypeFilter>
+									<flags>0</flags>
+									<matchTargetInverted>false</matchTargetInverted>
+									<mul>
+										<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
+										<returnType>float</returnType>
+										<sString>2.0f</sString>
+									</mul>
+									<objectFilter>537133088</objectFilter>
+									<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
+									<spell href="" />
+									<treatDelegatedByDelegator>false</treatDelegatedByDelegator>
+								</EventProcessorDamageTransformer>
+							</processor>
+							<providerName></providerName>
+							<startCondition>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</startCondition>
+							<useAbilityCooldown>false</useAbilityCooldown>
+							<useAbilityOwnerMana>false</useAbilityOwnerMana>
+						</TriggerApplicator>
+					</Item>
+					<Item href="/Items/Consumables/GANGER.ARCT" id="A6BEB617-0FDB-4A47-AB18-0A4E549C77A8">
+						<TriggerApplicator>
+							<actionsCount>
+								<compiledString></compiledString>
+								<returnType>int</returnType>
+								<sString>0</sString>
+							</actionsCount>
+							<applyTarget>AbilityOwner</applyTarget>
+							<behaviorFlags>216</behaviorFlags>
+							<caption>прайм за асист</caption>
+							<effect>
+								<Item href="" />
+								<Item href="" />
+							</effect>
+							<enabled>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</enabled>
+							<formulaName></formulaName>
+							<lifeTime>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>-1.0</sString>
+							</lifeTime>
+							<LoggingEvent>-1</LoggingEvent>
+							<playAck>false</playAck>
+							<processor href="/Items/Consumables/GANGER.ARCT" id="5C3B4236-9777-4B8A-AD2F-59F24AFBEEF4">
+								<EventProcessorCondition>
+									<applyTarget>AbilityOwner</applyTarget>
+									<condition>
+										<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</condition>
+									<events>1073741824</events>
+									<onlyParent>false</onlyParent>
+									<spell href="/Items/Consumables/GANGER.ARCT" id="F0BB707D-890D-40BB-9F39-A3E19AEBC707">
+										<Spell>
+											<applicators>
+												<Item href="/Items/Consumables/GANGER.ARCT" id="EA62AE18-9F7C-4E4B-8C43-5A167EE098C1">
+													<AddNaftaApplicator>
+														<applyTarget>AbilityOwner</applyTarget>
+														<caption></caption>
+														<enabled>
+															<compiledString></compiledString>
+															<returnType>bool</returnType>
+															<sString>true</sString>
+														</enabled>
+														<formulaName></formulaName>
+														<isFromImpulseBuff>false</isFromImpulseBuff>
+														<LoggingEvent>-1</LoggingEvent>
+														<nafta>
+															<compiledString>FQoAAAABAAAAFgAAAE5hZnRhU3VkYQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+															<returnType>float</returnType>
+															<sString>cNaftaSuda</sString>
+														</nafta>
+														<providerName></providerName>
+													</AddNaftaApplicator>
+												</Item>
+											</applicators>
+											<dispatch href="/Items/Consumables/GANGER.ARCT" id="5F7B82C8-A2BE-4DC1-B22D-6E38453F9557">
+												<DispatchImmediate>
+													<alwaysApply>false</alwaysApply>
+													<applyEffect>
+														<Item href="" />
+														<Item href="" />
+													</applyEffect>
+													<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+													<applyEffectOrientation>Default</applyEffectOrientation>
+													<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+													<dieAfterApply>true</dieAfterApply>
+													<dispatchEffect>
+														<Item href="" />
+														<Item href="" />
+													</dispatchEffect>
+													<flags>0</flags>
+													<instantApply>false</instantApply>
+												</DispatchImmediate>
+											</dispatch>
+										</Spell>
+									</spell>
+								</EventProcessorCondition>
+							</processor>
+							<providerName></providerName>
+							<startCondition>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</startCondition>
+							<useAbilityCooldown>false</useAbilityCooldown>
+							<useAbilityOwnerMana>false</useAbilityOwnerMana>
+						</TriggerApplicator>
+					</Item>
+				</applicators>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>дебафы и бафы</caption>
+				<customCounter>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</customCounter>
+				<customProgress>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</customProgress>
+				<description textref="/Items/Consumables/GANGER.ARCT_8c1c22128d644e9982f77e1ab33a43b7_description.txt" />
+				<dispellPriority>NonDispellable</dispellPriority>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<flags>0</flags>
+				<formulaName>NechtoNovoeVot</formulaName>
+				<image href="/UI/Styles/Icons/Artifacts/GANGER" />
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<name textref="/Items/Consumables/GANGER.ARCT_8c1c22128d644e9982f77e1ab33a43b7_name.txt" />
+				<power>0</power>
+				<providerName></providerName>
+				<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+				<stackCount>0</stackCount>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statusPosition>0</statusPosition>
+				<stopBehaviour>StopByTime</stopBehaviour>
+				<unstackableWith href="" />
+			</StatusApplicator>
+		</Item>
+	</applicators>
+	<autoTargetSelector href="" />
+	<caption></caption>
+	<castAllowRange>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</castAllowRange>
+	<castLimitations />
+	<commonDescription textref="/Items/Consumables/GANGER.ARCT_commonDescription.txt" />
+	<compiledDescriptionA textref="" />
+	<compiledDescriptionB textref="" />
+	<conditionFormulas />
+	<constants href="/Items/Consumables/GANGER.ARCT" id="A32BE871-E5AD-49A6-838C-CA146375C49B">
+		<UnitConstantsContainer>
+			<vars>
+				<Item href="/Items/Consumables/GANGER.ARCT" id="3D370E71-B9A8-4BA8-99C3-130221805029">
+					<UnitConstant>
+						<name>NaftaSuda</name>
+						<var>
+							<compiledString>FQ4AAAADAAAAEwAAACkAAAAvAAAAS3VkYUFzaXN0RmFybQBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3A1FAAAA3AU9AAAA2V382UX8i+VdwwAAAAAAAD5AAAAAAAAAFEA=</compiledString>
+							<returnType>float</returnType>
+							<sString>30.0f + 5*sender.vKudaAsistFarm</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+			</vars>
+		</UnitConstantsContainer>
+	</constants>
+	<cooldownTime>
+		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</cooldownTime>
+	<cooldownTimeSecondState>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</cooldownTimeSecondState>
+	<description textref="/Items/Consumables/GANGER.ARCT_description.txt" />
+	<dispatch href="/Items/Consumables/GANGER.ARCT" id="5789DAEE-A221-449F-9B90-A875195BCBC4">
+		<DispatchImmediate>
+			<alwaysApply>false</alwaysApply>
+			<applyEffect>
+				<Item href="" />
+				<Item href="" />
+			</applyEffect>
+			<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+			<applyEffectOrientation>Default</applyEffectOrientation>
+			<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+			<dieAfterApply>true</dieAfterApply>
+			<dispatchEffect>
+				<Item href="" />
+				<Item href="" />
+			</dispatchEffect>
+			<flags>0</flags>
+			<instantApply>false</instantApply>
+		</DispatchImmediate>
+	</dispatch>
+	<flags>23</flags>
+	<gameObject href="" />
+	<image href="/UI/Styles/Icons/Artifacts/GANGER" />
+	<imageSecondState href="" />
+	<isPotion>true</isPotion>
+	<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
+	<manaCost>
+		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+		<returnType>float</returnType>
+		<sString>0</sString>
+	</manaCost>
+	<marker></marker>
+	<maxQuantity>100</maxQuantity>
+	<microAI href="" />
+	<minUseRangeCorrection>0</minUseRangeCorrection>
+	<naftaCost>0</naftaCost>
+	<name textref="/Items/Consumables/GANGER.ARCT_name.txt" />
+	<node></node>
+	<passiveApplicators>
+		<Item href="/Items/Consumables/GANGER.ARCT" id="B49CA312-3983-452C-87E1-FB42CCAA2522">
+			<SpellApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<caption>цена</caption>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<spell href="/Items/Consumables/GANGER.ARCT" id="FC6E287C-D3C3-44B9-8B35-779EC170B78D">
+					<Spell>
+						<applicators>
+							<Item href="/Items/Consumables/GANGER.ARCT" id="2F22754D-4810-4516-9F1B-8AE4B1ACDE66">
+								<AbilityModApplicator>
+									<addValue>
+										<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DACR0SQ==</compiledString>
+										<returnType>float</returnType>
+										<sString>1000000.0f</sString>
+									</addValue>
+									<applyTarget>AbilityOwner</applyTarget>
+									<behaviorFlags>216</behaviorFlags>
+									<caption>цена</caption>
+									<effect>
+										<Item href="" />
+										<Item href="" />
+									</effect>
+									<enabled>
+										<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<lifeTime>
+										<compiledString></compiledString>
+										<returnType>float</returnType>
+										<sString>-1.0</sString>
+									</lifeTime>
+									<LoggingEvent>-1</LoggingEvent>
+									<mode>naftacost</mode>
+									<multValue>
+										<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+										<returnType>float</returnType>
+										<sString>1.0f</sString>
+									</multValue>
+									<providerName></providerName>
+									<specificAbility href="/Items/Consumables/GANGER.ARCT" />
+									<startCondition>
+										<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</startCondition>
+									<talents />
+									<targetAbilities>0</targetAbilities>
+									<useListAs>ListAsRule</useListAs>
+								</AbilityModApplicator>
+							</Item>
+						</applicators>
+						<dispatch href="/Items/Consumables/GANGER.ARCT" id="2964ECD1-386A-4480-A397-A47EC07AF940">
+							<DispatchImmediate>
+								<alwaysApply>false</alwaysApply>
+								<applyEffect>
+									<Item href="" />
+									<Item href="" />
+								</applyEffect>
+								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+								<applyEffectOrientation>Default</applyEffectOrientation>
+								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+								<dieAfterApply>true</dieAfterApply>
+								<dispatchEffect>
+									<Item href="" />
+									<Item href="" />
+								</dispatchEffect>
+								<flags>0</flags>
+								<instantApply>false</instantApply>
+							</DispatchImmediate>
+						</dispatch>
+					</Spell>
+				</spell>
+				<spellTarget>AbilityOwner</spellTarget>
+				<targetSelector href="" />
+			</SpellApplicator>
+		</Item>
+	</passiveApplicators>
+	<persistentId></persistentId>
+	<requireLineOfSight>true</requireLineOfSight>
+	<shortDescription textref="/Items/Consumables/GANGER.ARCT_shortDescription.txt" />
+	<targetType>0</targetType>
+	<type>Active</type>
+	<useRange>
+		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+		<returnType>float</returnType>
+		<sString>0</sString>
+	</useRange>
+	<useRangeMaterial href="" />
+	<warFogRemoveRadius>0</warFogRemoveRadius>
+	<warFogRemoveTime>0</warFogRemoveTime>
+</Consumable>

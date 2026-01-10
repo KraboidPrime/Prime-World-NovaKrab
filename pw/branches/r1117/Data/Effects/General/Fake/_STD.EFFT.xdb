@@ -2,7 +2,6 @@
 <BasicEffectStandalone>
 	<BackLink DBID="/Items/Talents/Class/Frogenglut/TongueShotTerrain.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/IronKnight/A4_ChainSpell.SPLL" Count="1" />
-	<BackLink DBID="/Summons/Spear/_Mowgli.SUMMONED" Count="1" />
 	<component href="/Effects/General/Fake/_.PRXY" />
 	<deathType>Manual</deathType>
 	<enableCondition href="" />

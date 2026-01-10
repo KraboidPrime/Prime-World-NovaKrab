@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Class/Angel/Ability_A5_2.TALENT" Count="1" />
 	<name>A5_2u_AddLifeMana</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQQ==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQg==</compiledString>
 		<returnType>float</returnType>
-		<sString>25.0f</sString>
+		<sString>50.0f</sString>
 	</var>
 </UnitConstant>

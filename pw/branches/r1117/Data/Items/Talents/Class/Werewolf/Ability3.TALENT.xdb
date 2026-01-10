@@ -157,9 +157,9 @@
 					<UnitConstant>
 						<name>Haste_Duration</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAQQQ==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADgQA==</compiledString>
 							<returnType>float</returnType>
-							<sString>9</sString>
+							<sString>7</sString>
 						</var>
 					</UnitConstant>
 				</Item>

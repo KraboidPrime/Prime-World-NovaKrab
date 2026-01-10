@@ -376,7 +376,7 @@
 						<SummonEnumerator>
 							<flags>0</flags>
 							<mode>Normal</mode>
-							<summonTypes>3</summonTypes>
+							<summonTypes>11</summonTypes>
 						</SummonEnumerator>
 					</targetSelector>
 					<type>None</type>

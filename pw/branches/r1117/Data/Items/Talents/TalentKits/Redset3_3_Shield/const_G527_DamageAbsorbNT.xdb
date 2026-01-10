@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Level1/G527_Life.TALENT" Count="1" />
 	<name>G527_DamageAbsorbNT</name>
 	<var>
-		<compiledString>FQ0AAAACAAAAFAAAAC0AAABHNTI3AAAAAEc1MjcAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgIAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0Is/9CJRfjrB8dF+AEAAACLTfiD6QFryQ+BwQQBAACJTfTbRfSL5V3D</compiledString>
+		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 		<returnType>float</returnType>
-		<sString>260 + 15 * (getTalentRefineRate("G527", 1) - 1)</sString>
+		<sString>0.0f</sString>
 	</var>
 </UnitConstant>

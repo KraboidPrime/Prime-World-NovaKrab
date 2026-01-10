@@ -72,6 +72,16 @@
 				<Item href="/Items/Talents/Class/FallenAngel/const_A3u_Damage" />
 				<Item href="/Items/Talents/Class/FallenAngel/const_A3_Range" />
 				<Item href="/Items/Talents/Class/FallenAngel/const_A3_DamagePerSecond" />
+				<Item href="/Items/Talents/Class/FallenAngel/Ability_A3.TALENT" id="7ACF761D-8D9E-4EAE-B48B-25577BC2A92F">
+					<UnitConstant>
+						<name>BuffedReg</name>
+						<var>
+							<compiledString>FU8AAAAFAAAAVgAAAG8AAACtAAAAwAAAANIAAABGYWxsZW5BbmdlbF9BMV9TVVAAAEZhbGxlbkFuZ2VsX0ExX1NVUAAAQTNfRGFtYWdlUGVyU2Vjb25kAABBM19EYW1hZ2VQZXJTZWNvbmQAVYvsg+wUaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgUAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0JYtVDFKLRQhQaCgAAACLTRCLEYtNEItCUP/Q3A3zAAAA3V3w6x2LTQxRi1UIUmg8AAAAi0UQixCLTRCLQlD/0N1d8N1F8Nld7NlF7IvlXcMAAAAAAAAAQA==</compiledString>
+							<returnType>float</returnType>
+							<sString>tal("FallenAngel_A1_SUP") ? 2*cA3_DamagePerSecond : cA3_DamagePerSecond</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
@@ -424,6 +434,176 @@
 				<targetAbility>BaseAttack</targetAbility>
 				<useListAs>ListAsRule</useListAs>
 			</AbilityUpgradeApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/FallenAngel/Ability_A3.TALENT" id="484A6BDA-2365-44D6-A792-50A31938525A">
+			<TriggerApplicator>
+				<actionsCount>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</actionsCount>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>добивание для регена (вторая часть в статусе)</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FUgAAAAEAAAATwAAAGgAAACeAAAAtwAAAEZhbGxlbkFuZ2VsX0ExX1NVUAAARmFsbGVuQW5nZWxfQTFfU1VQAABGYWxsZW5BbmdlbF9BM3UARmFsbGVuQW5nZWxfQTN1AFWL7IPsFGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoFAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdFhoKAAAAItVCIsCi00Ii5CoAQAA/9KFwHQqaDgAAACLRQiLEItNCIuCqAEAAP/QiUX0i030ixGLTfSLQgT/0IhF8+sExkXzAA+2TfOFyXQJx0XsAQAAAOsHx0XsAAAAAIpF7IvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("FallenAngel_A1_SUP") &amp;&amp; tal("FallenAngel_A3u")</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<playAck>false</playAck>
+				<processor href="/Items/Talents/Class/FallenAngel/Ability_A3.TALENT" id="61E0E222-DF63-4AF8-8673-8251301986A4">
+					<EventProcessorUnitDieNearMe>
+						<applyTarget>AbilityOwner</applyTarget>
+						<checkSender>0</checkSender>
+						<killerFlags>9</killerFlags>
+						<range>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQg==</compiledString>
+							<returnType>float</returnType>
+							<sString>40</sString>
+						</range>
+						<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
+						<spell href="/Items/Talents/Class/FallenAngel/Ability_A3.TALENT" id="8405F024-9D55-4A77-B5E0-B0D838CE2EBE">
+							<Spell>
+								<applicators>
+									<Item href="/Items/Talents/Class/FallenAngel/Ability_A3.TALENT" id="DA605A73-1C4A-4F0E-9AFD-F3D3A75B6E8D">
+										<StatModApplicator>
+											<applyTarget>AbilityOwner</applyTarget>
+											<behaviorFlags>0</behaviorFlags>
+											<caption></caption>
+											<constraint>None</constraint>
+											<dontUpdate>false</dontUpdate>
+											<effect>
+												<Item href="" />
+												<Item href="" />
+											</effect>
+											<enabled>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</enabled>
+											<formulaName></formulaName>
+											<lifeTime>
+												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
+												<returnType>float</returnType>
+												<sString>2</sString>
+											</lifeTime>
+											<LoggingEvent>-1</LoggingEvent>
+											<modifier>
+												<addValue>
+													<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+													<returnType>float</returnType>
+													<sString>1.0f</sString>
+												</addValue>
+												<multValue>
+													<compiledString></compiledString>
+													<returnType>float</returnType>
+													<sString>1.0f</sString>
+												</multValue>
+												<stat>Life</stat>
+												<topModifier>false</topModifier>
+												<variable>AgelRegOne</variable>
+											</modifier>
+											<providerName></providerName>
+											<startCondition>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</startCondition>
+											<statModName></statModName>
+										</StatModApplicator>
+									</Item>
+								</applicators>
+								<dispatch href="/Items/Talents/Class/FallenAngel/Ability_A3.TALENT" id="F1C9E6D1-245B-4206-A9F0-3FC8528C6998">
+									<DispatchImmediate>
+										<alwaysApply>false</alwaysApply>
+										<applyEffect>
+											<Item href="" />
+											<Item href="" />
+										</applyEffect>
+										<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+										<applyEffectOrientation>Default</applyEffectOrientation>
+										<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+										<dieAfterApply>true</dieAfterApply>
+										<dispatchEffect>
+											<Item href="" />
+											<Item href="" />
+										</dispatchEffect>
+										<flags>0</flags>
+										<instantApply>true</instantApply>
+									</DispatchImmediate>
+								</dispatch>
+							</Spell>
+						</spell>
+						<targets>538705983</targets>
+					</EventProcessorUnitDieNearMe>
+				</processor>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<useAbilityCooldown>false</useAbilityCooldown>
+				<useAbilityOwnerMana>false</useAbilityOwnerMana>
+			</TriggerApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/FallenAngel/Ability_A3.TALENT" id="68011D89-4024-40EB-A776-A191DE32A951">
+			<StatModApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>фактический реген</caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FSAAAAACAAAAJwAAAEAAAABGYWxsZW5BbmdlbF9BM3UARmFsbGVuQW5nZWxfQTN1AFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAikX7i+Vdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("FallenAngel_A3u")</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FVwAAAAHAAAAawAAAH0AAACZAAAAugAAANUAAAD7AAAAEAEAAEEzX0RhbWFnZVBlclNlY29uZAAAQWdlbFJlZ1R3bwAAQWdlbFJlZ09uZQAAQWdlbFJlZ09uZQAAQWdlbFJlZ1R3bwAAQnVmZmVkUmVnAAAAQWdlbFJlZ1plcm8AVYvsg+wsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9JoFAAAAItFCIsQi00Ii4KIAQAA3V34/9BR2RwkaCAAAACLTQiLEYtNCIuCiAEAAP/QUdkcJOiBAAAAg8QIaCwAAACLTQiLEYtNCIuCiAEAAN1d8P/Q3EXwaDgAAACLTQiLEYtNCIuCiAEAAN1d6P/Q3EXo3E34i00MUYtVCFJoRAAAAItFEIsQi00Qi0JQ3V3g/9BoUAAAAItNCIsRi00Ii4KIAQAA3V3Y/9DcTdjcReDZXdTZRdSL5V3DVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
+						<returnType>float</returnType>
+						<sString>cA3_DamagePerSecond*(max(sender.vAgelRegOne,sender.vAgelRegTwo)+sender.vAgelRegOne+sender.vAgelRegTwo)+cBuffedReg*sender.vAgelRegZero</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>LifeRegenerationAbsolute</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
 		</Item>
 	</passiveApplicators>
 	<persistentId>FallenAngel_A3</persistentId>

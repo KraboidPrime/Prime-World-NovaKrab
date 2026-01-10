@@ -99,16 +99,6 @@
 				<name>G524_Active</name>
 			</ConditionFormula>
 		</Item>
-		<Item href="/Items/Consumables/SpeedCake.ARCT" id="397A930B-8814-4F44-ADB6-4D9690DFB726">
-			<ConditionFormula>
-				<condition>
-					<compiledString>FRgAAAAEAAAAHQAAADMAAAA/AAAAVQAAAEc1MjRfQWN0aXZlAEc1MjVfQWN0aXZlAFWL7FFoAAAAAItFDIsQi00Mi4KIAQAA/9DcHXcAAADf4PbEQXUraAwAAACLTQyLEYtNDIuCiAEAAP/Q3B13AAAA3+D2xEF1CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
-					<returnType>bool</returnType>
-					<sString>receiver.vG524_Active &gt; 0 &amp;&amp; receiver.vG525_Active &gt; 0</sString>
-				</condition>
-				<name>G524and525Active</name>
-			</ConditionFormula>
-		</Item>
 	</conditionFormulas>
 	<constants href="/Items/Consumables/SpeedCake.ARCT" id="78DA1BDD-EAAF-449B-9F68-DF301016BBEC">
 		<UnitConstantsContainer>
@@ -123,9 +113,9 @@
 		</UnitConstantsContainer>
 	</constants>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAC0Qg==</compiledString>
+		<compiledString>FQ4AAAACAAAAFQAAAC4AAABHMTAwMgAAAEcxMDAyAFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoCAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+/fZG8mD4eWDwVqJTfTbRfSL5V3D</compiledString>
 		<returnType>float</returnType>
-		<sString>90</sString>
+		<sString>tal("G1002") ? 63 : 90</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>
@@ -164,7 +154,7 @@
 		<sString>0</sString>
 	</manaCost>
 	<marker></marker>
-	<maxQuantity>5</maxQuantity>
+	<maxQuantity>100</maxQuantity>
 	<microAI href="" />
 	<minUseRangeCorrection>0</minUseRangeCorrection>
 	<naftaCost>0</naftaCost>

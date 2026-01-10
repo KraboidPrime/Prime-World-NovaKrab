@@ -6,10 +6,11 @@
 	<BackLink DBID="/Heroes/Brewer/_.HROB" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Brewer/Ability_A4.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Brewer/Ability_A2.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" Count="1" />
 	<name>Dec_MoveSpeed_PerStack</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
+		<compiledString>FR4AAAAEAAAAJQAAAD4AAAB1AAAAgAAAAEJyZXdlcl9BMF9TVVAAAABCcmV3ZXJfQTBfU1VQAFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdAvZBZIAAADZXfTrCdkFjgAAANld9NlF9IvlXcMAACBBAABQQQ==</compiledString>
 		<returnType>float</returnType>
-		<sString>10.0f</sString>
+		<sString>tal("Brewer_A0_SUP") ? 13.0f : 10.0f</sString>
 	</var>
 </UnitConstant>

@@ -82,9 +82,9 @@
 		<Item href="" />
 	</effect>
 	<enabled>
-		<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+		<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 		<returnType>bool</returnType>
-		<sString>true</sString>
+		<sString>false</sString>
 	</enabled>
 	<flags>1</flags>
 	<formulaName>G520Status</formulaName>
@@ -101,9 +101,9 @@
 	<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
 	<stackCount>0</stackCount>
 	<startCondition>
-		<compiledString>FRgAAAAEAAAAHQAAADMAAAA/AAAAVQAAAEc1MjVfQWN0aXZlAEc1MjRfQWN0aXZlAFWL7FFoAAAAAItFDIsQi00Mi4KIAQAA/9DcHXcAAADf4PbEQXQraAwAAACLTQyLEYtNDIuCiAEAAP/Q3B13AAAA3+D2xEF0CcdF/AAAAADrB8dF/AEAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
+		<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 		<returnType>bool</returnType>
-		<sString>receiver.vG525_Active &gt; 0 || receiver.vG524_Active &gt; 0</sString>
+		<sString>false</sString>
 	</startCondition>
 	<statusPosition>0</statusPosition>
 	<stopBehaviour>StopByTime</stopBehaviour>

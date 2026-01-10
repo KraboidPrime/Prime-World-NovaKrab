@@ -10,5 +10,6 @@
 		<Item href="/Items/Talents/Level5/G313_K_maxStrInt_LifeDrain.TALENT" />
 		<Item href="/Items/Talents/Level5/G310_Dexterity_Life.TALENT" />
 		<Item href="/Items/Talents/Level4/G304_Int_CDR.TALENT" />
+		<Item href="/Items/Talents/Level3/G300_LifeRegen_Will.TALENT" />
 	</talents>
 </TalentKit>

@@ -36,7 +36,7 @@
 				</Item>
 				<Item>
 					<key>Dragon</key>
-					<resource href="/Creeps/Bosses/Boss1/PVP_Walked.CREEP" />
+					<resource href="/Creeps/Bosses/Boss1/PVP_Walked_New.CREEP" />
 				</Item>
 			</resources>
 		</DictionaryPreloadingResources>

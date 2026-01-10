@@ -3,6 +3,12 @@
 	<BackLink DBID="/Heroes/Hunter/_.HROB" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Hunter/A4_2_SpellSwitch.APLR" Count="1" />
 	<BackLink DBID="/Maps/PvE/Series/Coop1/Heroes/Hunter/_.HROB" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Hunter/appl_A1_ArrowSpell.APLR" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/Hunter/Ability1.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A0.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A4_2.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/Hunter/Ability4_2.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/Hunter/ArrowDispatch.DSCH" Count="1" />
 	<applicators>
 		<Item href="/Items/Talents/Class/Hunter/status_A0_bleeding.APLR" id="11941F48-B280-437E-BF6A-C50A27024F5A">
 			<SpellPeriodicallyApplicator>
@@ -97,7 +103,7 @@
 		<Item href="/Items/Talents/Class/Hunter/status_A0_bleeding.APLR" id="C5651827-524E-4E49-B5E1-D693A811E7F2">
 			<EyeApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
-				<behaviorFlags>0</behaviorFlags>
+				<behaviorFlags>216</behaviorFlags>
 				<cancelObstacles>false</cancelObstacles>
 				<caption>открыть туман</caption>
 				<effect>
@@ -105,9 +111,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FTYAAAAEAAEAPQAAAFYAAACMAAAArAAAAJ4BAABIdW50ZXJfQTAAAABIdW50ZXJfQTAAAABIdW50ZXJfQTAAAABBMF9NYXhPcGVuRm9nRGlzdABVi+yD7CRoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaAwAAACLTQiLEYtNCIuCqAEAAP/QiUXsi03sixGLTeyLQgT/0IhF6+sExkXrAA+2TeuFyXQ3aBgAAACLVQiLAotNCIuQqAEAAP/SiUXki0UMUItNCFFoJAAAAItV5IsCi03ki1BQ/9LZXeDrBdnu2V3gjUX4UItNDIsRi00Mi4KMAQAA/9BQjU3wUYtVCIsCi00Ii5CMAQAA/9JQ6CoAAACDxAjZReDe2d/g9sRBdQnHRdwBAAAA6wfHRdwAAAAAikXci+VdwwAAAABVi+yD7BSLRQjZQASLTQzYYQTZXfTZRfRR2Rwki1UI2QKLRQzYINld8NlF8FHZHCSNTfjoVwAAANlF+NhN+NlF/NhN/N7B2V3s2UXsUdkcJOgHAAAAg8QEi+Vdw1WL7FHZRQjZHCToBQAAAIPEBF3DVYvsUdlFCIPsCN0cJOg6/v//g8QI2V382UX8i+Vdw1WL7FGJTfyLRfzZRQjZGItN/NlFDNlZBItF/IvlXcIIAA==</compiledString>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
 					<returnType>bool</returnType>
-					<sString>d( sPos, rPos ) &lt; talconst("Hunter_A0","A0_MaxOpenFogDist")</sString>
+					<sString>true</sString>
 				</enabled>
 				<eyeTarget>ApplicatorTarget</eyeTarget>
 				<flags>8</flags>
@@ -130,6 +136,39 @@
 					<sString>talconst("Hunter_A0","A0_OpenFogRadius")</sString>
 				</visRange>
 			</EyeApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/Hunter/status_A0_bleeding.APLR" id="9B48455E-DDB1-4A83-948F-D8D37626FB08">
+			<FlagsApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>153</behaviorFlags>
+				<caption>Запрет инвиза</caption>
+				<consumables />
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FR4AAAACAAAAJQAAAD4AAABIdW50ZXJfQTBfU1VQAAAASHVudGVyX0EwX1NVUABVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AIpF+4vlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("Hunter_A0_SUP")</sString>
+				</enabled>
+				<flag>134217728</flag>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<talents />
+				<useListAs>ListAsRule</useListAs>
+			</FlagsApplicator>
 		</Item>
 	</applicators>
 	<applyTarget>ApplicatorTarget</applyTarget>
@@ -160,9 +199,9 @@
 	<formulaName>Hunter_Bleeding</formulaName>
 	<image href="/UI/Styles/Icons/Heroes/Hunter/A0.ITEX" />
 	<lifeTime>
-		<compiledString>FTAAAAAFAAAANwAAAFAAAACGAAAApgAAAMYAAABIdW50ZXJfQTAAAABIdW50ZXJfQTAAAABIdW50ZXJfQTAAAABBMF9EdXJhdGlvbgBVi+yD7BRoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaAwAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXQ3aBgAAACLVQiLAotNCIuQqAEAAP/SiUX0i0UMUItNCFFoJAAAAItV9IsCi030i1BQ/9LZXfDrBdnu2V3w2UXw3AXUAAAA2V3s2UXsi+Vdw5qZmZmZmck/AAAAAA==</compiledString>
+		<compiledString>FTAAAAAFAAAANwAAAFAAAACGAAAApgAAAMYAAABIdW50ZXJfQTAAAABIdW50ZXJfQTAAAABIdW50ZXJfQTAAAABBMF9EdXJhdGlvbgBVi+yD7BRoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaAwAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXQ3aBgAAACLVQiLAotNCIuQqAEAAP/SiUX0i0UMUItNCFFoJAAAAItV9IsCi030i1BQ/9LZXfDrBdnu2V3w2UXw3AXUAAAA2V3s2UXsi+VdwzMzMzMzM9M/AAAAAA==</compiledString>
 		<returnType>float</returnType>
-		<sString>talconst("Hunter_A0","A0_Duration") + 0.2</sString>
+		<sString>talconst("Hunter_A0","A0_Duration") + 0.3</sString>
 	</lifeTime>
 	<LoggingEvent>-1</LoggingEvent>
 	<name textref="/Items/Talents/Class/Hunter/status_A0_bleeding.APLR_name.txt" />

@@ -373,9 +373,9 @@
 			</targetSelector>
 		</TargetSelectorMicroAI>
 	</microAI>
-	<minLevel>2</minLevel>
+	<minLevel>1</minLevel>
 	<minUseRangeCorrection>0</minUseRangeCorrection>
-	<naftaCost>540</naftaCost>
+	<naftaCost>390</naftaCost>
 	<name textref="/Items/Talents/Class/SnowQueen/Ability_A4.TALENT_name.txt" />
 	<node>ability2</node>
 	<passiveApplicators />

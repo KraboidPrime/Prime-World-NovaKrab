@@ -6,8 +6,8 @@
 	<BackLink DBID="/Items/Talents/Class/Crusader/Ability_A4_2u.TALENT" Count="1" />
 	<name>ArmorCut_Amount</name>
 	<var>
-		<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoAi00QixGLTRCLQmD/0F3DAACgQAAAEEI=</compiledString>
+		<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoAi00QixGLTRCLQmD/0F3DAACAQAAAyEE=</compiledString>
 		<returnType>float</returnType>
-		<sString>abilityScale(sStrength, 5, 36)</sString>
+		<sString>abilityScale(sStrength, 4, 25)</sString>
 	</var>
 </UnitConstant>

@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BasicEffectAttached>
 	<BackLink DBID="/Effects/General/Invisible/_ListAlly.EFFT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Angel/Ability_A5_2.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Angel/Ability_A5_2.TALENT" Count="4" />
+	<BackLink DBID="/Items/Talents/Class/Chicken/Ability_A0.TALENT" Count="1" />
 	<attachFlags>1</attachFlags>
 	<attachType>Body</attachType>
 	<component href="/Effects/General/Illusion/_.PRXY" />

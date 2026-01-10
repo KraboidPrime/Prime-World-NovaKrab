@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Summoned>
 	<BackLink DBID="/Items/Talents/Class/Mowgli/Ability4_2.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A4_1.TALENT" Count="1" />
 	<abilities>
 		<Item href="" />
 		<Item href="/Summons/Spear/_Mowgli.SUMMONED" id="CFCFDF10-76A5-46C0-AD4D-CFC8C569BF8F">

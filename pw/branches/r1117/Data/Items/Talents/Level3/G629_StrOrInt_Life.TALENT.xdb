@@ -12,6 +12,7 @@
 	<BackLink DBID="/Test/Talents/RedSet6.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/Angel_Mighty.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/Healer_Mighty.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Level3/G1001_Str_Int_Life.TALENT" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>

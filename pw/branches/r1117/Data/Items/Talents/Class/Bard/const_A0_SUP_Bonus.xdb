@@ -9,8 +9,8 @@
 	<BackLink DBID="/Items/Talents/Class/Bard/Ability_A4_2.TALENT" Count="1" />
 	<name>A0_SUP_Bonus</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQg==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQg==</compiledString>
 		<returnType>float</returnType>
-		<sString>50.0f</sString>
+		<sString>60.0f</sString>
 	</var>
 </UnitConstant>

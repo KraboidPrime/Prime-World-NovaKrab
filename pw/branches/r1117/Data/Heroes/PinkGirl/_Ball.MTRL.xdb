@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BasicFXMaterial>
 	<BackLink DBID="/Effects/Debuffs/Dome/_Ball.PRXY" Count="1" />
-	<BackLink DBID="/Heroes/Pinkgirl/_Ball.PRXY" Count="1" />
 	<BackLink DBID="/Heroes/PinkGirl/_BallStatusAbove.PRXY" Count="1" />
 	<BackLink DBID="/Summons/Ball/_ball.PRXY" Count="1" />
 	<BackLink DBID="/Summons/Ball/_BallAlly.PRXY" Count="1" />

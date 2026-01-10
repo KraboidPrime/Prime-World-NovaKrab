@@ -11,6 +11,7 @@
 	<BackLink DBID="/Test/Talents/Unicorn/Elite_Int.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Unicorn/Elite_Will.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Unicorn/Epic_IntWill.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Unicorn/Ability_A2_SUP.TALENT" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -63,9 +64,9 @@
 					<UnitConstant>
 						<name>Range</name>
 						<var>
-							<compiledString>FQsAAAABAAAAFwAAAFJhbmdlX0xvbmcAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+							<compiledString>FSsAAAAEAAAAMgAAAEsAAACCAAAAlAAAAFVuaWNvcm5fQTJfU1VQAABVbmljb3JuX0EyX1NVUAAAUmFuZ2VfTG9uZwBVi+yD7AxoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXQL2QWvAAAA2V306x2LVQxSi0UIUGggAAAAi00QixGLTRCLQlD/0Nld9NlF9IvlXcMAAKhB</compiledString>
 							<returnType>float</returnType>
-							<sString>cRange_Long</sString>
+							<sString>tal("Unicorn_A2_SUP") ? 21 : cRange_Long</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -83,9 +84,9 @@
 					<UnitConstant>
 						<name>A2u_Damage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAABQQQAAxkI=</compiledString>
+							<compiledString>FR8AAAAGAAAAJgAAAD8AAAB5AAAAgwAAALkAAADDAAAAVW5pY29ybl9BMl9TVVAAAFVuaWNvcm5fQTJfU1VQAFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdEBqAVHZBQUBAADZHCRR2QUBAQAA2RwkagCLVQiLAotNCIuQNAEAAP/SUdkcJGoBi0UQixCLTRCLQmD/0Nld9Os+agFR2QX9AAAA2RwkUdkF+QAAANkcJGoAi00IixGLTQiLgjQBAAD/0FHZHCRqAYtNEIsRi00Qi0Jg/9DZXfTZRfSL5V3DAABQQQAAxkIAAKBBAAAVQw==</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(sIntellect, 13, 99)</sString>
+							<sString>tal("Unicorn_A2_SUP") ? damageScale(sIntellect, 20, 149) : damageScale(sIntellect, 13, 99)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -185,14 +186,7 @@
 							<behaviorFlags>0</behaviorFlags>
 							<caption>- сложная конструкция, которая посылает диспатч от цели к кастеру</caption>
 							<effect>
-								<Item href="/Items/Talents/Class/Unicorn/Ability2.TALENT" id="7D1EC27E-BC76-48D2-A8CA-0A7B7312205B">
-									<AuraEffect>
-										<deathType>Manual</deathType>
-										<enableCondition href="" />
-										<lifeTime>0</lifeTime>
-										<type>Enemy</type>
-									</AuraEffect>
-								</Item>
+								<Item href="" />
 								<Item href="" />
 							</effect>
 							<enabled>
@@ -289,9 +283,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+					<compiledString>FQ0AAAABAAAAFwAAAEludmlzaWJpbGl0eQBVi+xqAItFEFBoAAAAAItNCIsRi00Ii4KcAQAA/9AzyTtFEA+UwYrBXcM=</compiledString>
 					<returnType>bool</returnType>
-					<sString>true</sString>
+					<sString>sender.applInvisibility(GLOBAL) == pMisc</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<lifeTime>
@@ -339,9 +333,9 @@
 	<type>Passive</type>
 	<upgradeLevel>0</upgradeLevel>
 	<useRange>
-		<compiledString>FQsAAAABAAAAFwAAAFJhbmdlX0xvbmcAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+		<compiledString>FQYAAAABAAAAEgAAAFJhbmdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
 		<returnType>float</returnType>
-		<sString>cRange_Long</sString>
+		<sString>cRange</sString>
 	</useRange>
 	<useRangeMaterial href="/Effects/UI/AOESelection/Radius.MTRL" />
 	<variativeMaxTalentStats />

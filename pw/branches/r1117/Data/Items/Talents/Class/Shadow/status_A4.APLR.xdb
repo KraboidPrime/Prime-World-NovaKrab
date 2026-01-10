@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StatusApplicator>
-	<BackLink DBID="/Items/Talents/Class/Shadow/Ability_A4.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Shadow/Ability_A4.TALENT" Count="2" />
 	<applicators>
 		<Item href="/Items/Talents/Class/Shadow/status_A4.APLR" id="77BFCD42-9FD6-4FA0-81EE-9361864ACD0C">
 			<StatModApplicator>

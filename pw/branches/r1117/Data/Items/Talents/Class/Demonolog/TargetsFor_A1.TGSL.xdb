@@ -1,13 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CapsuleTargetSelector>
 	<BackLink DBID="/Items/Talents/Class/Demonolog/Ability1.TALENT" Count="3" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A0.TALENT" Count="6" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A4_2.TALENT" Count="2" />
 	<cutoffFirstSegment>true</cutoffFirstSegment>
 	<flags>0</flags>
 	<mode>Normal</mode>
 	<range>
-		<compiledString>FQYAAAACAAAAEwAAACYAAABXaWR0aABVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcNTQAAADZXfzZRfyL5V3DAAAAAAAAAEA=</compiledString>
+		<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
 		<returnType>float</returnType>
-		<sString>cWidth/2</sString>
+		<sString>1</sString>
 	</range>
 	<rangeFromOwner>
 		<compiledString>FQkAAAABAAAAFQAAAEExX1JhbmdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>

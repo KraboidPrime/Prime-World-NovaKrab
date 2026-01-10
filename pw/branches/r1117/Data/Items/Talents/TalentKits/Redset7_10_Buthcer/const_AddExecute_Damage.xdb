@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Level6/G764_WillOrSta.TALENT" Count="1" />
 	<name>AddExecute_Damage</name>
 	<var>
-		<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAoEMAAMBB</compiledString>
+		<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAIEMAAEBB</compiledString>
 		<returnType>float</returnType>
-		<sString>refineScale(320, 24)</sString>
+		<sString>refineScale(160, 12)</sString>
 	</var>
 </UnitConstant>

@@ -54,9 +54,9 @@
 					<UnitConstant>
 						<name>BaseAttack_TT</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQQ==</compiledString>
+							<compiledString>FQAAAAACAAAAFgAAABwAAABVi+xRi0UIixCLTQiLgrwAAAD/0NwNMgAAANwFKgAAANld/NlF/IvlXcMAAAAAAAAgQHsUrkfheqQ/</compiledString>
 							<returnType>float</returnType>
-							<sString>15</sString>
+							<sString>0.04*sBaseIntellect + 8</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -101,26 +101,37 @@
 	<name textref="/Items/Talents/Class/Prince/Ability5.TALENT_name.txt" />
 	<node></node>
 	<passiveApplicators>
-		<Item href="/Items/Talents/Class/Prince/Ability5.TALENT" id="15A5DC1E-0C56-4F52-BC1C-95284E2128D9">
-			<PermanentStatModApplicator>
+		<Item href="/Items/Talents/Class/Prince/Ability5.TALENT" id="7A37C977-5293-4993-9BCF-705C3BD155D5">
+			<StatModApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>увеличить BaseAttack</caption>
-				<customApplyType>None</customApplyType>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>Хитрый буст атаки</caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
 				<enabled>
-					<compiledString></compiledString>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
 					<returnType>bool</returnType>
 					<sString>true</sString>
 				</enabled>
 				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
 				<LoggingEvent>-1</LoggingEvent>
 				<modifier>
 					<addValue>
-						<compiledString>FQ4AAAACAAAAGwAAAC4AAABCYXNlQXR0YWNrX1RUAFWL7FGLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0twNPAAAANld/NlF/IvlXcMAAABA4XqEPw==</compiledString>
+						<compiledString>FQ4AAAACAAAAGwAAAC4AAABCYXNlQXR0YWNrX1RUAFWL7FGLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0tw1PAAAANld/NlF/IvlXcMAAAAAAABZQA==</compiledString>
 						<returnType>float</returnType>
-						<sString>cBaseAttack_TT * 0.01f</sString>
+						<sString>cBaseAttack_TT/100</sString>
 					</addValue>
 					<multValue>
-						<compiledString></compiledString>
+						<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
 						<returnType>float</returnType>
 						<sString>1.0f</sString>
 					</multValue>
@@ -129,7 +140,13 @@
 					<variable></variable>
 				</modifier>
 				<providerName></providerName>
-			</PermanentStatModApplicator>
+				<startCondition>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
 		</Item>
 	</passiveApplicators>
 	<persistentId>Prince_A5</persistentId>

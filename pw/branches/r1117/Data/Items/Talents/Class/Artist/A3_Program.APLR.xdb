@@ -44,8 +44,8 @@
 	<LoggingEvent>-1</LoggingEvent>
 	<providerName>Artist_A3</providerName>
 	<startCondition>
-		<compiledString>FRYAAAADAAAAXgAAAGoAAACDAAAAQXJ0aXN0X0EzAAAAQXJ0aXN0X0EzAFWL7IPsEItFDIsQi00Mi0JQ/9AzyYP4EQ+VwYlN/NtF/FHZHCRR2e7ZHCRqAYtVDIsCi00Mi1BY/9IPtsBQ6IIAAACDxAzcHc8AAADf4PbERHtYaAAAAACLTQiLEYtNCIuCqAEAAP/QhcB0KmgMAAAAi00IixGLTQiLgqgBAAD/0IlF+ItN+IsRi034i0IE/9CIRffrBMZF9wAPtk33hcl0CcdF8AEAAADrB8dF8AAAAACKRfCL5V3DAAAAAAAAAAAAAAAAVYvsUQ+2RQiFwHQI2UUM2V386wbZRRDZXfzZRfyL5V3D</compiledString>
+		<compiledString>FR0AAAAEAAAAZQAAAHUAAACOAAAA3AAAAEFydGlzdF9BMwAAAEFydGlzdF9BMwAAAFdhcmQAVYvsg+wQi0UMixCLTQyLQlD/0DPJg/gRD5XBiU3820X8UdkcJFHZ7tkcJGoBi1UMiwKLTQyLUFj/0g+2wFDouAAAAIPEDNwdDAEAAN/g9sRED4uKAAAAaAAAAACLTQiLEYtNCIuCqAEAAP/QhcB0KmgMAAAAi00IixGLTQiLgqgBAAD/0IlF+ItN+IsRi034i0IE/9CIRffrBMZF9wAPtk33hcl0O4tVDIsCi00Mi1BQ/9KD+BF0KWoAi0UQUGgYAAAAi00MixGLTQyLgpwBAAD/0DtFEHUJx0XwAQAAAOsHx0XwAAAAAIpF8IvlXcMAAAAAAAAAAAAAAABVi+xRD7ZFCIXAdAjZRQzZXfzrBtlFENld/NlF/IvlXcM=</compiledString>
 		<returnType>bool</returnType>
-		<sString>ut_bldg( false, rUnitKind != 17 ) &amp;&amp; tal("Artist_A3")</sString>
+		<sString>ut_bldg( false, rUnitKind != 17 ) &amp;&amp; tal("Artist_A3") &amp;&amp; rUnitKind != 17 &amp;&amp; receiver.applWard(GLOBAL) == pMisc</sString>
 	</startCondition>
 </ProgramApplicator>

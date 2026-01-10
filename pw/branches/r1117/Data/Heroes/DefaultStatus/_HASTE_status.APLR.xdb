@@ -24,7 +24,7 @@
 	<BackLink DBID="/Items/Talents/Class/FireFox/_A3_NatTer.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Fluffy/status_A2_LittleSelf.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/GhostLord/Ability_A2.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/GhostLord/Ability_A4_2.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/GhostLord/Ability_A4_2.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/GhostLord/status_A4_Haste.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Gunslinger/Ability_A1.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Highlander/Ability2.TALENT" Count="1" />
@@ -54,6 +54,17 @@
 	<BackLink DBID="/Items/Talents/Level5/program_G661HeroOff_1.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Level5/program_G661HeroOff_Self.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset9_4_Summon/status_Redset9_4_SummonBuff.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/GhostLord/program_A2_SprectralShield.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Rifleman/Ability_A2.TALENT" Count="5" />
+	<BackLink DBID="/Items/Talents/Level5/G311_K_Life_Energy.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level4/G305_K_Dex_CDR.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A4_2.TALENT" Count="4" />
+	<BackLink DBID="/Items/Talents/Class/Rockman/Ability4_2.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/Naga/status_A4_2_Enemy.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Level3/G140_Str_Stamina.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level6/G124_Str_Energy.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level1/G129_Str.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level5/G637_StrOrInt_Life.TALENT" Count="1" />
 	<applicators>
 		<Item href="/Heroes/DefaultStatus/_HASTE_status.APLR" id="7CC84B56-9A1A-44F5-B216-FF4A42B55A9F">
 			<StatModApplicator>

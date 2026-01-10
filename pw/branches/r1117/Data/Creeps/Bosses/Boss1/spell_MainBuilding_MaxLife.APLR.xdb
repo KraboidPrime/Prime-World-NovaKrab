@@ -20,7 +20,7 @@
 						<behaviorFlags>0</behaviorFlags>
 						<caption>- Записать Макс. ХП у ГЗ в переменную и вернуть её Горынычу</caption>
 						<constraint>None</constraint>
-						<dontUpdate>false</dontUpdate>
+						<dontUpdate>true</dontUpdate>
 						<effect>
 							<Item href="" />
 							<Item href="" />
@@ -39,9 +39,9 @@
 						<LoggingEvent>-1</LoggingEvent>
 						<modifier>
 							<addValue>
-								<compiledString>FQcAAAABAAAADAAAAFRhcmdldABVi+xRaAAAAACLRRCLEItNEItCTP/QiUX8i038ixGLTfyLQgz/0IvlXcM=</compiledString>
+								<compiledString>FRUAAAACAAAAGgAAAC8AAABUYXJnZXQAAEdhbWVEdXJhdGlvbgBVi+xRaAAAAACLRRCLEItNEItCTP/QiUX8aAgAAACLTfyLEYtN/IuCiAEAAP/Qi+Vdww==</compiledString>
 								<returnType>float</returnType>
-								<sString>$ApplTarget-&gt;MaxLife</sString>
+								<sString>$ApplTarget-&gt;GetVariable("GameDuration")</sString>
 							</addValue>
 							<multValue>
 								<compiledString></compiledString>

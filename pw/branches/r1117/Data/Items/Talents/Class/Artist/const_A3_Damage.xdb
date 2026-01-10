@@ -6,8 +6,8 @@
 	<BackLink DBID="/Heroes/Artist/_.HROB" Count="1" />
 	<name>A3_DamageMultiplierPercent</name>
 	<var>
-		<compiledString>FU8AAAADAAAAXgAAAHgAAACNAAAAQTNfRGFtYWdlTXVsdGlwbGllcl9CYXNlAAAAAEEzX0RhbWFnZU11bHRpcGxpZXJfQm9udXNQZXJLcmFza2EAAEFydGlzdF9NYXN0ZXJ5AFWL7IPsFItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/Si0UMUItNCFFoHAAAAItVEIsCi00Qi1BQ3V34/9JoQAAAAItFCIsQi00Ii4KIAQAA3V3w/9DcTfDcRfjZXezZReyL5V3D</compiledString>
+		<compiledString>FU8AAAAEAAAAjgAAAKsAAADAAAAA4gAAAEEzX0RhbWFnZU11bHRpcGxpZXJfQmFzZQAAAABBM19EYW1hZ2VNdWx0aXBsaWVyX0JvbnVzUGVyS3Jhc2thAABBcnRpc3RfTWFzdGVyeQBVi+yD7ByLRQiLEItNCIuCMAEAAP/QUdkcJItNCIsRi00Ii4I0AQAA/9BR2Rwk6HYAAACDxAiLTQxRi1UIUmgAAAAAi0UQixCLTRCLQlDdXfj/0ItNDFGLVQhSaBwAAACLRRCLEItNEItCUN1d8P/QaEAAAACLTQiLEYtNCIuCiAEAAN1d6P/Q3E3o3EXw3E343DXwAAAA2V3k2UXki+VdwwAAAAAAwHJAVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
 		<returnType>float</returnType>
-		<sString>cA3_DamageMultiplier_Base+ cA3_DamageMultiplier_BonusPerKraska*sender.vArtist_Mastery</sString>
+		<sString>max(sIntellect, sStrength)*(cA3_DamageMultiplier_Base+ cA3_DamageMultiplier_BonusPerKraska*sender.vArtist_Mastery)/300</sString>
 	</var>
 </UnitConstant>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <SpellApplicator>
-	<BackLink DBID="/Items/Talents/Class/Healer/Ability1.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Healer/Ability1.TALENT" Count="2" />
 	<applyTarget>ApplicatorTarget</applyTarget>
 	<caption>полечить всех вокруг</caption>
 	<enabled>

@@ -36,9 +36,9 @@
 							<Item href="/Items/Talents/Level5/status_66_HealNearbyAllies.APLR" id="4B9BE613-1D6D-4A6D-8A1C-B663B7765FE8">
 								<HealApplicator>
 									<amount>
-										<compiledString>FQwAAAABAAAAGAAAAEhlYWxfQW1vdW50AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+										<compiledString>FQAAAAACAAAAOgAAAEAAAABVi+yD7BSLRQyLEItNDItCDP/Qi00MixGLTQyLAt1d+P/Q3G34i00MixGLTQyLQgzdXfD/0Nx98NwNVgAAANwFTgAAANld7NlF7IvlXcMAAAAAAAA+QAAAAAAAAFRA</compiledString>
 										<returnType>float</returnType>
-										<sString>cHeal_Amount</sString>
+										<sString>30+((rMaxLife-rLife)/rMaxLife)*80</sString>
 									</amount>
 									<applyTarget>ApplicatorTarget</applyTarget>
 									<caption> - лечим цели </caption>
@@ -100,7 +100,7 @@
 							<returnType>float</returnType>
 							<sString>cRange</sString>
 						</range>
-						<targetFilter>1342177311</targetFilter>
+						<targetFilter>1342177287</targetFilter>
 						<targetSelector href="" />
 					</AreaTargetSelector>
 				</targetSelector>

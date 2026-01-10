@@ -838,9 +838,9 @@
 					<UnitConstant>
 						<name>Stun_Duration</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DMzOzPw==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
 							<returnType>float</returnType>
-							<sString>1.4</sString>
+							<sString>2.0</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -924,7 +924,7 @@
 	<isGenderTalent>false</isGenderTalent>
 	<isTakenOnStart>false</isTakenOnStart>
 	<isUltimateTalent>false</isUltimateTalent>
-	<isUnitFreeAfterCast>false</isUnitFreeAfterCast>
+	<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
 	<manaCost>
 		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQg==</compiledString>
 		<returnType>float</returnType>

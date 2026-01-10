@@ -877,6 +877,7 @@
 																											<Spell>
 																												<applicators>
 																													<Item href="/Items/Talents/Level3/552_Damage.APLR" />
+																													<Item href="/Heroes/DefaultStatus/_STUN_Status.APLR" />
 																												</applicators>
 																												<dispatch href="/Items/Talents/Level3/G552_PhantomBase.TALENT" id="1DB70D8D-C77C-435D-8E86-EA1F9B489D2F">
 																													<DispatchImmediate>
@@ -1686,6 +1687,26 @@
 				<Item href="/Items/Talents/TalentKits/Redset4_2_Phantom/const_G553_AddNaftaCap" />
 				<Item href="/Items/Talents/TalentKits/Redset4_2_Phantom/const_G554_AddNaftaCap" />
 				<Item href="/Items/Talents/TalentKits/Redset4_2_Phantom/const_G578_AddDamage" />
+				<Item href="/Items/Talents/Level3/G552_PhantomBase.TALENT" id="1B5B0153-6E8F-46BF-A7C2-47B9BDDC0145">
+					<UnitConstant>
+						<name>Stun_StartCondition</name>
+						<var>
+							<compiledString>FQwAAAACAAAAEQAAACcAAABHNTU2X0FjdGl2ZQBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1JAAAA3+D2xEF1CcdF/AEAAADrB8dF/AAAAADbRfyL5V3DAAAAAAAAAAA=</compiledString>
+							<returnType>float</returnType>
+							<sString>sender.vG556_Active &gt; 0</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Level3/G552_PhantomBase.TALENT" id="E8FC8B32-8703-43A1-AAC8-AF8E937A4048">
+					<UnitConstant>
+						<name>Stun_Duration</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAPw==</compiledString>
+							<returnType>float</returnType>
+							<sString>0.5f</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
@@ -1694,9 +1715,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQg==</compiledString>
+		<compiledString>FRgAAAAEAAAAHwAAADUAAABRAAAAZwAAAEc1NTNfQWN0aXZlAEc1NTRfQWN0aXZlAFWL7IPsDGgAAAAAi0UIixCLTQiLgogBAAD/0NwdlwAAAN/g9sRBdQnHRfwUAAAA6wfHRfwAAAAAaAwAAACLTQiLEYtNCIuCiAEAAP/Q3B2XAAAA3+D2xEF1CcdF+BQAAADrB8dF+AAAAAC5eAAAACtN/CtN+IlN9NtF9IvlXcMAAAAAAAAAAA==</compiledString>
 		<returnType>float</returnType>
-		<sString>120</sString>
+		<sString>120 - (sender.vG553_Active &gt; 0 ? 20 : 0) - (sender.vG554_Active &gt; 0 ? 20 : 0)</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>

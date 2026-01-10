@@ -49,16 +49,6 @@
 				<name>BladeDancer_A3</name>
 			</ConditionFormula>
 		</Item>
-		<Item href="/Items/Talents/Class/BladeDancer/Ability_A3u.TALENT" id="EEC6502E-C5D7-45D5-A4AC-8620BAA02A89">
-			<ConditionFormula>
-				<condition>
-					<compiledString>FRAAAAACAAAAFQAAACsAAABCbGFkZURhbmNlcl9BM3UAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdTQAAAN/g9sREegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAPA/</compiledString>
-					<returnType>bool</returnType>
-					<sString>sender.vBladeDancer_A3u==1</sString>
-				</condition>
-				<name>StaOrWill</name>
-			</ConditionFormula>
-		</Item>
 	</conditionFormulas>
 	<conflictingTalents />
 	<constants href="/Items/Talents/Class/BladeDancer/Ability_A3u.TALENT" id="7A3809A3-5872-4367-8F7C-588BEBE40DA1">
@@ -68,9 +58,9 @@
 					<UnitConstant>
 						<name>A3u_AddDefence</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAFHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoAi00QixGLTRCLQmD/0F3DMzMTQGZmikE=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAFHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoAi00QixGLTRCLQmD/0F3DzczMP2ZmRkE=</compiledString>
 							<returnType>float</returnType>
-							<sString>abilityScale(sStrength, 2.3, 17.3, false)</sString>
+							<sString>abilityScale(sStrength, 1.6, 12.4, false)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -145,36 +135,6 @@
 	<name textref="/Items/Talents/Class/BladeDancer/Ability_A3u.TALENT_name.txt" />
 	<node></node>
 	<passiveApplicators>
-		<Item href="/Items/Talents/Class/BladeDancer/Ability_A3u.TALENT" id="E3D4C67F-7E34-47F7-81CD-5A7B0DC1E5FD">
-			<PermanentStatModApplicator>
-				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>StaOrWill</caption>
-				<customApplyType>Maximize</customApplyType>
-				<enabled>
-					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgsgAAAD/0ItNCIsRi00Ii4LMAAAA3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
-					<returnType>bool</returnType>
-					<sString>sBaseStamina&gt;=sBaseWill</sString>
-				</enabled>
-				<formulaName></formulaName>
-				<LoggingEvent>-1</LoggingEvent>
-				<modifier>
-					<addValue>
-						<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
-						<returnType>float</returnType>
-						<sString>1</sString>
-					</addValue>
-					<multValue>
-						<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
-						<returnType>float</returnType>
-						<sString>0</sString>
-					</multValue>
-					<stat>Life</stat>
-					<topModifier>false</topModifier>
-					<variable>BladeDancer_A3u</variable>
-				</modifier>
-				<providerName></providerName>
-			</PermanentStatModApplicator>
-		</Item>
 		<Item href="/Items/Talents/Class/BladeDancer/Ability_A3u.TALENT" id="E06CE62A-656E-40FE-A636-F70F0FAA24F1">
 			<StatModApplicator>
 				<applyTarget>AbilityOwner</applyTarget>
@@ -187,9 +147,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FQ8AAAACAAAAFgAAACwAAABWYW1wUmVzU3RhcnRlZABVi+yD7BBoAAAAAItFCIsQi00Ii4KIAQAA/9DcHY4AAADf4PbERHoJx0X8AQAAAOsHx0X8AAAAAItNCIsRi00Ii4LIAAAA/9CLTQiLEYtNCIuCzAAAAN1d9P/Q3F303+D2xAF1CcdF8AEAAADrB8dF8AAAAACLRfwjRfCL5V3DAAAAAAAAAAA=</compiledString>
+					<compiledString>FQ8AAAACAAAAFAAAACoAAABWYW1wUmVzU3RhcnRlZABVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1MAAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
 					<returnType>bool</returnType>
-					<sString>sender.vVampResStarted == 0 &amp; sBaseStamina &lt;= sBaseWill</sString>
+					<sString>sender.vVampResStarted == 0</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<lifeTime>
@@ -234,9 +194,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FQ8AAAACAAAAFgAAACwAAABWYW1wUmVzU3RhcnRlZABVi+yD7AxoAAAAAItFCIsQi00Ii4KIAQAA/9DcHXsAAADf4PbERHo2i00IixGLTQiLgsgAAAD/0ItNCIsRi00Ii4LMAAAA3V34/9DcXfjf4PbEBXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcMAAAAAAAAAAA==</compiledString>
+					<compiledString>FQ8AAAACAAAAFAAAACoAAABWYW1wUmVzU3RhcnRlZABVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1MAAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
 					<returnType>bool</returnType>
-					<sString>sender.vVampResStarted == 0 &amp;&amp; sBaseStamina &gt; sBaseWill</sString>
+					<sString>sender.vVampResStarted == 0</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<lifeTime>

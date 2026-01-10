@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Class/Freeze/Ability_A4_2u.TALENT" Count="1" />
 	<name>Stun_Duration</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAPw==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADAPw==</compiledString>
 		<returnType>float</returnType>
-		<sString>0.5f</sString>
+		<sString>1.5f</sString>
 	</var>
 </UnitConstant>

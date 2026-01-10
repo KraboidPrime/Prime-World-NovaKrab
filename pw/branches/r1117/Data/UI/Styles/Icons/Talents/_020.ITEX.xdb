@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UITexture>
-	<BackLink DBID="/Items/Talents/Level6/G020_Temp_Great_Def.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level6/G020_Temp_Great_Def.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Level6/status_G020_EnergyDefence.APLR" Count="1" />
 	<generatedFileName></generatedFileName>
 	<importOnlyShape>false</importOnlyShape>

@@ -238,6 +238,7 @@
 														<providerName></providerName>
 													</VariableProxyApplicator>
 												</Item>
+												<Item href="/Heroes/DefaultStatus/_SLOW_MOVE.APLR" />
 											</applicators>
 											<dispatch href="/Items/Talents/Class/Marine/status_A4_deadlyspin.APLR" id="1133B6B8-AFBF-431C-971F-2171880D7AF3">
 												<DispatchImmediate>

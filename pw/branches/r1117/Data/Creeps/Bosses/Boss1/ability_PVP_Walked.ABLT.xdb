@@ -45,9 +45,9 @@
 					<UnitConstant>
 						<name>BuildingMod</name>
 						<var>
-							<compiledString>FRUAAAADAAAAGgAAADAAAAA4AAAATWFpbkJ1aWxkaW5nX01heExpZmUAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0Nw1TgAAANzA3CVGAAAA2V382UX8i+VdwwAAAAAAAPA/AAAAAACUwUA=</compiledString>
+							<compiledString>FRUAAAABAAAAGQAAAE1haW5CdWlsZGluZ19NYXhMaWZlAFWL7GgAAAAAi0UIixCLTQiLgogBAAD/0F3D</compiledString>
 							<returnType>float</returnType>
-							<sString>sender.vMainBuilding_MaxLife/9000*2-1</sString>
+							<sString>sender.vMainBuilding_MaxLife</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -85,6 +85,404 @@
 		<Item href="/Creeps/Bosses/Boss1/status_DispatchOff.APLR" />
 		<Item href="/Heroes/DefaultStatus/status_Ancient.APLR" />
 		<Item href="/Creeps/Bosses/Boss1/status_Gorynich_Walked.APLR" />
+		<Item href="/Creeps/Bosses/Boss1/ability_PVP_Walked.ABLT" id="44E49DC8-1982-472D-A6F3-63EA4DB916F1">
+			<StatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>Life_boost</caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQwAAAACAAAAGQAAACwAAABCdWlsZGluZ01vZABVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcDToAAADZXfzZRfyL5V3DAAAAAAAAMkA=</compiledString>
+						<returnType>float</returnType>
+						<sString>cBuildingMod*18</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Life</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
+		</Item>
+		<Item href="/Creeps/Bosses/Boss1/ability_PVP_Walked.ABLT" id="75BC0DBD-7391-4086-ACC1-CD71FD2068F2">
+			<StatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>Str_boost</caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQwAAAACAAAAGQAAACwAAABCdWlsZGluZ01vZABVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcDToAAADZXfzZRfyL5V3DMzMzMzMz0z8=</compiledString>
+						<returnType>float</returnType>
+						<sString>cBuildingMod*0.3</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Strength</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
+		</Item>
+		<Item href="/Creeps/Bosses/Boss1/ability_PVP_Walked.ABLT" id="DAD690E8-D937-454D-A8A8-717570AA8F21">
+			<StatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>Stam_boost</caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQwAAAACAAAAGQAAACwAAABCdWlsZGluZ01vZABVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcDToAAADZXfzZRfyL5V3DuB6F61G4rj8=</compiledString>
+						<returnType>float</returnType>
+						<sString>cBuildingMod*0.06</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Stamina</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
+		</Item>
+		<Item href="/Creeps/Bosses/Boss1/ability_PVP_Walked.ABLT" id="FE6ED88B-6335-4DA5-B8E5-251B014C2CD6">
+			<StatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>Will_boost</caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQwAAAACAAAAGQAAACwAAABCdWlsZGluZ01vZABVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcDToAAADZXfzZRfyL5V3DuB6F61G4rj8=</compiledString>
+						<returnType>float</returnType>
+						<sString>cBuildingMod*0.06</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Will</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
+		</Item>
+		<Item href="/Creeps/Bosses/Boss1/ability_PVP_Walked.ABLT" id="3448E33E-A474-4ACA-BD1E-91C2FE007FF8">
+			<SpellPeriodicallyApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>хитрый дебуст хп</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<period>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAEAcRg==</compiledString>
+					<returnType>float</returnType>
+					<sString>10000</sString>
+				</period>
+				<providerName></providerName>
+				<scaleMode>ScaleIsCount</scaleMode>
+				<spell href="/Creeps/Bosses/Boss1/ability_PVP_Walked.ABLT" id="1BEED506-BC7D-46DE-A6D6-3C051097917B">
+					<Spell>
+						<applicators>
+							<Item href="/Creeps/Bosses/Boss1/ability_PVP_Walked.ABLT" id="3A55B032-9BCA-4CDF-8C9B-1B4ECAE84DC1">
+								<StatModApplicator>
+									<applyTarget>ApplicatorTarget</applyTarget>
+									<behaviorFlags>0</behaviorFlags>
+									<caption>Life_deboost</caption>
+									<constraint>None</constraint>
+									<dontUpdate>false</dontUpdate>
+									<effect>
+										<Item href="" />
+										<Item href="" />
+									</effect>
+									<enabled>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<lifeTime>
+										<compiledString></compiledString>
+										<returnType>float</returnType>
+										<sString>-1.0</sString>
+									</lifeTime>
+									<LoggingEvent>-1</LoggingEvent>
+									<modifier>
+										<addValue>
+											<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DANhWxw==</compiledString>
+											<returnType>float</returnType>
+											<sString>-55000</sString>
+										</addValue>
+										<multValue>
+											<compiledString></compiledString>
+											<returnType>float</returnType>
+											<sString>1.0f</sString>
+										</multValue>
+										<stat>Life</stat>
+										<topModifier>false</topModifier>
+										<variable></variable>
+									</modifier>
+									<providerName></providerName>
+									<startCondition>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</startCondition>
+									<statModName></statModName>
+								</StatModApplicator>
+							</Item>
+						</applicators>
+						<dispatch href="/Creeps/Bosses/Boss1/ability_PVP_Walked.ABLT" id="15B98E97-1B99-408E-A54C-B25B16899EDC">
+							<DispatchImmediate>
+								<alwaysApply>false</alwaysApply>
+								<applyEffect>
+									<Item href="" />
+									<Item href="" />
+								</applyEffect>
+								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+								<applyEffectOrientation>Default</applyEffectOrientation>
+								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+								<dieAfterApply>true</dieAfterApply>
+								<dispatchEffect>
+									<Item href="" />
+									<Item href="" />
+								</dispatchEffect>
+								<flags>0</flags>
+								<instantApply>false</instantApply>
+							</DispatchImmediate>
+						</dispatch>
+					</Spell>
+				</spell>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<startOffset>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
+					<returnType>float</returnType>
+					<sString>2</sString>
+				</startOffset>
+				<targetSelector href="" />
+			</SpellPeriodicallyApplicator>
+		</Item>
+		<Item href="/Creeps/Bosses/Boss1/ability_PVP_Walked.ABLT" id="F4D11FA3-276B-4B35-8390-14F4E085298E">
+			<SpellPeriodicallyApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>хитрый фикс бага</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<period>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAEAcRg==</compiledString>
+					<returnType>float</returnType>
+					<sString>10000</sString>
+				</period>
+				<providerName></providerName>
+				<scaleMode>ScaleIsCount</scaleMode>
+				<spell href="/Creeps/Bosses/Boss1/ability_PVP_Walked.ABLT" id="93696A00-1462-465D-B9AC-A159A30E85B6">
+					<Spell>
+						<applicators>
+							<Item href="/Creeps/Bosses/Boss1/ability_PVP_Walked.ABLT" id="FF6188C3-A5E1-4A1C-81AD-E0107E04C53B">
+								<GhostMoveApplicator>
+									<applyTarget>ApplicatorTarget</applyTarget>
+									<behaviorFlags>0</behaviorFlags>
+									<caption></caption>
+									<collisionFlags>7</collisionFlags>
+									<effect>
+										<Item href="" />
+										<Item href="" />
+									</effect>
+									<enabled>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<lifeTime>
+										<compiledString></compiledString>
+										<returnType>float</returnType>
+										<sString>-1.0</sString>
+									</lifeTime>
+									<LoggingEvent>-1</LoggingEvent>
+									<providerName></providerName>
+									<pushUnits>true</pushUnits>
+									<startCondition>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</startCondition>
+								</GhostMoveApplicator>
+							</Item>
+						</applicators>
+						<dispatch href="/Creeps/Bosses/Boss1/ability_PVP_Walked.ABLT" id="053CB1B9-7EB4-4678-9696-4C35EC7220A7">
+							<DispatchImmediate>
+								<alwaysApply>false</alwaysApply>
+								<applyEffect>
+									<Item href="" />
+									<Item href="" />
+								</applyEffect>
+								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+								<applyEffectOrientation>Default</applyEffectOrientation>
+								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+								<dieAfterApply>true</dieAfterApply>
+								<dispatchEffect>
+									<Item href="" />
+									<Item href="" />
+								</dispatchEffect>
+								<flags>0</flags>
+								<instantApply>false</instantApply>
+							</DispatchImmediate>
+						</dispatch>
+					</Spell>
+				</spell>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<startOffset>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAMQg==</compiledString>
+					<returnType>float</returnType>
+					<sString>35</sString>
+				</startOffset>
+				<targetSelector href="" />
+			</SpellPeriodicallyApplicator>
+		</Item>
 	</passiveApplicators>
 	<requireLineOfSight>true</requireLineOfSight>
 	<shortDescription textref="" />

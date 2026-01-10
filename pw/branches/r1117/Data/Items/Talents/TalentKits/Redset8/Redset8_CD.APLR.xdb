@@ -8,9 +8,9 @@
 	<applyTarget>ApplicatorTarget</applyTarget>
 	<caption>Блок активок сета</caption>
 	<enabled>
-		<compiledString></compiledString>
+		<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 		<returnType>bool</returnType>
-		<sString>true</sString>
+		<sString>false</sString>
 	</enabled>
 	<formulaName></formulaName>
 	<LoggingEvent>-1</LoggingEvent>

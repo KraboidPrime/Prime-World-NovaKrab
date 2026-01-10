@@ -95,9 +95,9 @@
 					<UnitConstant>
 						<name>A1_Damage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAB8QgCA7EM=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAABkQgAA1UM=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale( sIntellect,63, 473)</sString>
+							<sString>damageScale( sIntellect,57, 426)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -139,9 +139,9 @@
 					<UnitConstant>
 						<name>A1_VoidZoneDamage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAAAQgAAbUM=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAABkQgAA1UM=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale( sIntellect,32, 237)</sString>
+							<sString>damageScale( sIntellect,57, 426)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

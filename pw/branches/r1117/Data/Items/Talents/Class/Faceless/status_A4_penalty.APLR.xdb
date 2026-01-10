@@ -22,9 +22,9 @@
 		<Item href="" />
 	</effect>
 	<enabled>
-		<compiledString></compiledString>
+		<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 		<returnType>bool</returnType>
-		<sString>true</sString>
+		<sString>false</sString>
 	</enabled>
 	<flags>34</flags>
 	<formulaName></formulaName>

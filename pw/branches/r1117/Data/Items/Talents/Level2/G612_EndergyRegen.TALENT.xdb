@@ -53,6 +53,26 @@
 			</ConditionFormula>
 		</Item>
 		<Item href="/Items/Talents/TalentKits/Spinners_Event/condition_Spinners_bonus2Active" />
+		<Item href="/Items/Talents/Level2/G612_EndergyRegen.TALENT" id="F0A9A2A7-603D-4F2A-A96F-B2E159626702">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRcAAAACAAAAHAAAADIAAABTcGlubmVyX1Rvb2x0aXBDb3VudGVyAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHVQAAADf4PbEAXUJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAQQA==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vSpinner_TooltipCounter &gt;= 4</sString>
+				</condition>
+				<name>Bonus4Active</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Items/Talents/Level2/G612_EndergyRegen.TALENT" id="4C2C2C67-163D-4DF6-B3A7-D0837A0624B9">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRcAAAACAAAAHAAAADIAAABTcGlubmVyX1Rvb2x0aXBDb3VudGVyAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHVQAAADf4PbEAXUJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAYQA==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vSpinner_TooltipCounter &gt;= 6</sString>
+				</condition>
+				<name>Bonus6Active</name>
+			</ConditionFormula>
+		</Item>
 	</conditionFormulas>
 	<conflictingTalents />
 	<constants href="/Items/Talents/Level2/G612_EndergyRegen.TALENT" id="2871F61E-3EBD-48B5-B593-FAB55DF79E5A">

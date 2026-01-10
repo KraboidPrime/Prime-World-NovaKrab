@@ -6395,11 +6395,11 @@
 			<markers>
 				<Item>
 					<name>doCast2</name>
-					<virtPar>0.2333333</virtPar>
+					<virtPar>0.1</virtPar>
 				</Item>
 				<Item>
 					<name>workTime2</name>
-					<virtPar>0.4</virtPar>
+					<virtPar>0.2</virtPar>
 				</Item>
 			</markers>
 			<nextNode>idle</nextNode>
@@ -6789,11 +6789,11 @@
 			<markers>
 				<Item>
 					<name>doCast3</name>
-					<virtPar>1</virtPar>
+					<virtPar>0.3</virtPar>
 				</Item>
 				<Item>
 					<name>workTime3</name>
-					<virtPar>1</virtPar>
+					<virtPar>0.3</virtPar>
 				</Item>
 			</markers>
 			<nextNode>idle</nextNode>

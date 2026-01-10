@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <AreaTargetSelector>
 	<BackLink DBID="/Items/Talents/Class/Trickster/Ability1.TALENT" Count="3" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A0.TALENT" Count="12" />
 	<absolutePosition>
 		<x>0</x>
 		<y>0</y>

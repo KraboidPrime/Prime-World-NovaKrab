@@ -37,7 +37,28 @@
 	<commonDescription textref="" />
 	<compiledDescriptionA textref="" />
 	<compiledDescriptionB textref="" />
-	<conditionFormulas />
+	<conditionFormulas>
+		<Item href="/Items/Talents/Level6/G177_Aura-StamDown.TALENT" id="EF56B16C-B85E-4687-802A-991B2DC6DAD0">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRYAAAACAAAAGwAAADEAAABBdTIwMjVfVG9vbHRpcENvdW50ZXIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdUwAAAN/g9sQBdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAhA</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vAu2025_TooltipCounter &gt;= 3</sString>
+				</condition>
+				<name>Bonus3ActiveAu</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Items/Talents/Level6/G177_Aura-StamDown.TALENT" id="11F2C1BE-2E0D-407F-83D2-C3B91AFEC26B">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRYAAAACAAAAGwAAADEAAABBdTIwMjVfVG9vbHRpcENvdW50ZXIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdUwAAAN/g9sQBdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAABxA</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vAu2025_TooltipCounter &gt;= 7</sString>
+				</condition>
+				<name>Bonus7ActiveAu</name>
+			</ConditionFormula>
+		</Item>
+	</conditionFormulas>
 	<conflictingTalents />
 	<constants href="/Items/Talents/Level6/G177_Aura-StamDown.TALENT" id="948934FD-CAD2-4338-983D-82BC0441C35C">
 		<UnitConstantsContainer>
@@ -46,9 +67,9 @@
 					<UnitConstant>
 						<name>ArmorCut_Amount</name>
 						<var>
-							<compiledString>FQAAAAABAAAADAAAAFWL7FHZ6NkcJFHZBSIAAADZHCSLRRCLEItNEItCbP/QXcMAAEhBAACAPw==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADkQQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(12.5, 1)</sString>
+							<sString>28.5</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -111,9 +132,9 @@
 											<Item href="" />
 										</effect>
 										<enabled>
-											<compiledString></compiledString>
+											<compiledString>FQAAAAAAAAAAVYvsg+wMi0UMixCLTQyLgsgAAAD/0ItNDIsRi00Mi4LMAAAA3V34/9DcXfjf4PbEBXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
 											<returnType>bool</returnType>
-											<sString>true</sString>
+											<sString>rBaseStamina &gt; rBaseWill</sString>
 										</enabled>
 										<formulaName></formulaName>
 										<lifeTime>
@@ -146,6 +167,53 @@
 										<statModName></statModName>
 									</StatModApplicator>
 								</Item>
+								<Item href="/Items/Talents/Level6/G177_Aura-StamDown.TALENT" id="AE340E47-30A5-4DBB-884C-86F8AA42A676">
+									<StatModApplicator>
+										<applyTarget>ApplicatorTarget</applyTarget>
+										<behaviorFlags>144</behaviorFlags>
+										<caption>уменьшить Волю</caption>
+										<constraint>None</constraint>
+										<dontUpdate>true</dontUpdate>
+										<effect>
+											<Item href="" />
+											<Item href="" />
+										</effect>
+										<enabled>
+											<compiledString>FQAAAAAAAAAAVYvsg+wMi0UMixCLTQyLgsgAAAD/0ItNDIsRi00Mi4LMAAAA3V34/9DcXfjf4PbEAXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+											<returnType>bool</returnType>
+											<sString>rBaseStamina &lt;= rBaseWill</sString>
+										</enabled>
+										<formulaName></formulaName>
+										<lifeTime>
+											<compiledString></compiledString>
+											<returnType>float</returnType>
+											<sString>-1.0</sString>
+										</lifeTime>
+										<LoggingEvent>-1</LoggingEvent>
+										<modifier>
+											<addValue>
+												<compiledString>FRAAAAABAAAAHAAAAEFybW9yQ3V0X0Ftb3VudABVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0tngXcM=</compiledString>
+												<returnType>float</returnType>
+												<sString>-cArmorCut_Amount</sString>
+											</addValue>
+											<multValue>
+												<compiledString></compiledString>
+												<returnType>float</returnType>
+												<sString>1.0f</sString>
+											</multValue>
+											<stat>Will</stat>
+											<topModifier>false</topModifier>
+											<variable></variable>
+										</modifier>
+										<providerName></providerName>
+										<startCondition>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</startCondition>
+										<statModName></statModName>
+									</StatModApplicator>
+								</Item>
 							</applicators>
 							<applyTarget>ApplicatorTarget</applyTarget>
 							<behaviorFlags>144</behaviorFlags>
@@ -163,14 +231,7 @@
 							<description textref="/Items/Talents/Level6/G177_Aura-StamDown.TALENT_d553bc993dfa4d96bc721d18c16eb0f0_description.txt" />
 							<dispellPriority>NonDispellable</dispellPriority>
 							<effect>
-								<Item href="/Items/Talents/Level6/G177_Aura-StamDown.TALENT" id="2864C3D6-8836-405C-8125-68EF689EE018">
-									<AuraEffect>
-										<deathType>Manual</deathType>
-										<enableCondition href="" />
-										<lifeTime>0</lifeTime>
-										<type>Enemy</type>
-									</AuraEffect>
-								</Item>
+								<Item href="" />
 								<Item href="" />
 							</effect>
 							<enabled>
@@ -211,9 +272,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString></compiledString>
+					<compiledString>FQ0AAAABAAAAFwAAAEludmlzaWJpbGl0eQBVi+xqAItFEFBoAAAAAItNCIsRi00Ii4KcAQAA/9AzyTtFEA+UwYrBXcM=</compiledString>
 					<returnType>bool</returnType>
-					<sString>true</sString>
+					<sString>sender.applInvisibility(GLOBAL) == pMisc</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<lifeTime>
@@ -224,9 +285,9 @@
 				<LoggingEvent>-1</LoggingEvent>
 				<providerName></providerName>
 				<range>
-					<compiledString>FQsAAAABAAAAFwAAAFJhbmdlX0xvbmcAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+					<compiledString>FQ0AAAABAAAAGQAAAFJhbmdlX0V4TG9uZwBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
 					<returnType>float</returnType>
-					<sString>cRange_Long</sString>
+					<sString>cRange_ExLong</sString>
 				</range>
 				<startCondition>
 					<compiledString></compiledString>
@@ -239,10 +300,11 @@
 			</AuraApplicator>
 		</Item>
 		<Item href="/Items/Talents/Level6/status_177_Aura.APLR" />
+		<Item href="/Items/Talents/Level3/AURASET_Prog2025.APLR" />
 	</passiveApplicators>
 	<persistentId>G177</persistentId>
 	<prerequisiteTalents />
-	<rarity>excellent</rarity>
+	<rarity>magnificent</rarity>
 	<requireLineOfSight>true</requireLineOfSight>
 	<shortDescription textref="" />
 	<talentRollGroups>0</talentRollGroups>
@@ -251,9 +313,9 @@
 	<type>Passive</type>
 	<upgradeLevel>0</upgradeLevel>
 	<useRange>
-		<compiledString>FQsAAAABAAAAFwAAAFJhbmdlX0xvbmcAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+		<compiledString>FQ0AAAABAAAAGQAAAFJhbmdlX0V4TG9uZwBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
 		<returnType>float</returnType>
-		<sString>cRange_Long</sString>
+		<sString>cRange_ExLong</sString>
 	</useRange>
 	<useRangeMaterial href="/Effects/UI/AOESelection/Radius.MTRL" />
 	<variativeMaxTalentStats />

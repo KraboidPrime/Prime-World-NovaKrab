@@ -112,9 +112,9 @@
 					<UnitConstant>
 						<name>Add_Stat</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAEEGamRk/</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzczEQQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(9, 0.6)</sString>
+							<sString>24.6f</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -169,230 +169,6 @@
 	<name textref="/Items/Talents/Level5/G735_Dex_inc_Str_Int.TALENT_name.txt" />
 	<node></node>
 	<passiveApplicators>
-		<Item href="/Items/Talents/Level5/G735_Dex_inc_Str_Int.TALENT" id="438E3628-D5CE-4D59-BED4-6920717EFC07">
-			<PermanentStatModApplicator>
-				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>Add_Dex</caption>
-				<customApplyType>None</customApplyType>
-				<enabled>
-					<compiledString></compiledString>
-					<returnType>bool</returnType>
-					<sString>true</sString>
-				</enabled>
-				<formulaName></formulaName>
-				<LoggingEvent>-1</LoggingEvent>
-				<modifier>
-					<addValue>
-						<compiledString>FQgAAAABAAAAFAAAAEFkZF9EZXgAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
-						<returnType>float</returnType>
-						<sString>cAdd_Dex</sString>
-					</addValue>
-					<multValue>
-						<compiledString></compiledString>
-						<returnType>float</returnType>
-						<sString>1.0f</sString>
-					</multValue>
-					<stat>Dexterity</stat>
-					<topModifier>false</topModifier>
-					<variable></variable>
-				</modifier>
-				<providerName></providerName>
-			</PermanentStatModApplicator>
-		</Item>
-		<Item href="/Items/Talents/Level5/G735_Dex_inc_Str_Int.TALENT" id="F28ABEFA-2F94-4F34-A9BC-F97DCCEF6C91">
-			<AuraApplicator>
-				<applicators>
-					<Item href="/Items/Talents/Level5/G735_Dex_inc_Str_Int.TALENT" id="101FD63C-74BE-4B60-8B92-E3B91C2A9DD2">
-						<TriggerApplicator>
-							<actionsCount>
-								<compiledString></compiledString>
-								<returnType>int</returnType>
-								<sString>0</sString>
-							</actionsCount>
-							<applyTarget>ApplicatorTarget</applyTarget>
-							<behaviorFlags>0</behaviorFlags>
-							<caption>Триггер на каст</caption>
-							<effect>
-								<Item href="" />
-								<Item href="" />
-							</effect>
-							<enabled>
-								<compiledString>FRMAAAACAAAAGgAAADcAAABHNzM1X0luYwAAAABNYXhEZXgAVYvsg+wMaAAAAACLRQiLEItNCIuCiAEAAP/Qi00MUYtVCFJoDAAAAItFEIsQi00Qi0JQ3V34/9DcXfjf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
-								<returnType>bool</returnType>
-								<sString>sender.vG735_Inc &lt; cMaxDex</sString>
-							</enabled>
-							<formulaName></formulaName>
-							<lifeTime>
-								<compiledString></compiledString>
-								<returnType>float</returnType>
-								<sString>-1.0</sString>
-							</lifeTime>
-							<LoggingEvent>-1</LoggingEvent>
-							<playAck>false</playAck>
-							<processor href="/Items/Talents/Level5/G735_Dex_inc_Str_Int.TALENT" id="20A0B509-DFF6-40D8-B9B1-54C0790B58C1">
-								<EventProcessorAbilityManacostTransformer>
-									<applyTarget>AbilityOwner</applyTarget>
-									<filter>
-										<abilitiesList />
-										<abilityCondition>
-											<compiledString></compiledString>
-											<returnType>bool</returnType>
-											<sString>true</sString>
-										</abilityCondition>
-										<abilityCostMode>Custom</abilityCostMode>
-										<exceptThis>false</exceptThis>
-										<flags>536871040</flags>
-										<onlySingleTarget>false</onlySingleTarget>
-									</filter>
-									<spell href="/Items/Talents/Level5/G735_Dex_inc_Str_Int.TALENT" id="A2317A1E-A6E5-435C-9B28-781E3C60588B">
-										<Spell>
-											<applicators>
-												<Item href="/Items/Talents/Level5/G735_Dex_inc_Str_Int.TALENT" id="CB65B53A-E9FE-4BC2-92FD-FA135798F798">
-													<PermanentStatModApplicator>
-														<applyTarget>AbilityOwner</applyTarget>
-														<caption>+Dex</caption>
-														<customApplyType>None</customApplyType>
-														<enabled>
-															<compiledString>FRMAAAACAAAAGgAAADcAAABHNzM1X0luYwAAAABNYXhEZXgAVYvsg+wMaAAAAACLRQiLEItNCIuCiAEAAP/Qi00MUYtVCFJoDAAAAItFEIsQi00Qi0JQ3V34/9DcXfjf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
-															<returnType>bool</returnType>
-															<sString>sender.vG735_Inc &lt; cMaxDex</sString>
-														</enabled>
-														<formulaName></formulaName>
-														<LoggingEvent>-1</LoggingEvent>
-														<modifier>
-															<addValue>
-																<compiledString>FSAAAAADAAAALwAAAEEAAABuAAAATWF4RGV4AABHNzM1X0luYwAAAABBZGRfRGV4UGVybQBVi+yD7AyLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0mgIAAAAi0UIixCLTQiLgogBAADdXfj/0Nxt+Nld9NlF9FHZHCSLTQxRi1UIUmgUAAAAi0UQixCLTRCLQlD/0FHZHCToBwAAAIPECIvlXcNVi+xR2UUI2UUM3tnf4PbEQXUI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
-																<returnType>float</returnType>
-																<sString>min( cAdd_DexPerm, cMaxDex - sender.vG735_Inc)</sString>
-															</addValue>
-															<multValue>
-																<compiledString></compiledString>
-																<returnType>float</returnType>
-																<sString>1.0f</sString>
-															</multValue>
-															<stat>Dexterity</stat>
-															<topModifier>false</topModifier>
-															<variable></variable>
-														</modifier>
-														<providerName></providerName>
-													</PermanentStatModApplicator>
-												</Item>
-												<Item href="/Items/Talents/Level5/G735_Dex_inc_Str_Int.TALENT" id="C8D030EF-FAA4-4828-AAF3-B8E966B91D2A">
-													<PermanentStatModApplicator>
-														<applyTarget>AbilityOwner</applyTarget>
-														<caption>G735_Inc</caption>
-														<customApplyType>None</customApplyType>
-														<enabled>
-															<compiledString>FRMAAAACAAAAGgAAADcAAABHNzM1X0luYwAAAABNYXhEZXgAVYvsg+wMaAAAAACLRQiLEItNCIuCiAEAAP/Qi00MUYtVCFJoDAAAAItFEIsQi00Qi0JQ3V34/9DcXfjf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
-															<returnType>bool</returnType>
-															<sString>sender.vG735_Inc &lt; cMaxDex</sString>
-														</enabled>
-														<formulaName></formulaName>
-														<LoggingEvent>-1</LoggingEvent>
-														<modifier>
-															<addValue>
-																<compiledString>FSAAAAADAAAALwAAAEEAAABuAAAATWF4RGV4AABHNzM1X0luYwAAAABBZGRfRGV4UGVybQBVi+yD7AyLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0mgIAAAAi0UIixCLTQiLgogBAADdXfj/0Nxt+Nld9NlF9FHZHCSLTQxRi1UIUmgUAAAAi0UQixCLTRCLQlD/0FHZHCToBwAAAIPECIvlXcNVi+xR2UUI2UUM3tnf4PbEQXUI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
-																<returnType>float</returnType>
-																<sString>min( cAdd_DexPerm, cMaxDex - sender.vG735_Inc)</sString>
-															</addValue>
-															<multValue>
-																<compiledString></compiledString>
-																<returnType>float</returnType>
-																<sString>1.0f</sString>
-															</multValue>
-															<stat>Life</stat>
-															<topModifier>false</topModifier>
-															<variable>G735_Inc</variable>
-														</modifier>
-														<providerName></providerName>
-													</PermanentStatModApplicator>
-												</Item>
-											</applicators>
-											<dispatch href="/Items/Talents/Level5/G735_Dex_inc_Str_Int.TALENT" id="4FED8161-B228-404D-B078-95CF68F7F7D4">
-												<DispatchImmediate>
-													<alwaysApply>true</alwaysApply>
-													<applyEffect>
-														<Item href="" />
-														<Item href="" />
-													</applyEffect>
-													<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
-													<applyEffectOrientation>Default</applyEffectOrientation>
-													<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
-													<dieAfterApply>true</dieAfterApply>
-													<dispatchEffect>
-														<Item href="" />
-														<Item href="" />
-													</dispatchEffect>
-													<flags>0</flags>
-													<instantApply>false</instantApply>
-												</DispatchImmediate>
-											</dispatch>
-										</Spell>
-									</spell>
-								</EventProcessorAbilityManacostTransformer>
-							</processor>
-							<providerName></providerName>
-							<startCondition>
-								<compiledString></compiledString>
-								<returnType>bool</returnType>
-								<sString>true</sString>
-							</startCondition>
-							<useAbilityCooldown>false</useAbilityCooldown>
-							<useAbilityOwnerMana>false</useAbilityOwnerMana>
-						</TriggerApplicator>
-					</Item>
-				</applicators>
-				<applyTarget>ApplicatorTarget</applyTarget>
-				<behaviorFlags>0</behaviorFlags>
-				<caption>Ловим касты вокруг (внимание: в диспатчах alwaysApply = true)</caption>
-				<effect>
-					<Item href="" />
-					<Item href="" />
-				</effect>
-				<enabled>
-					<compiledString>FRMAAAACAAAAGgAAADcAAABHNzM1X0luYwAAAABNYXhEZXgAVYvsg+wMaAAAAACLRQiLEItNCIuCiAEAAP/Qi00MUYtVCFJoDAAAAItFEIsQi00Qi0JQ3V34/9DcXfjf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
-					<returnType>bool</returnType>
-					<sString>sender.vG735_Inc &lt; cMaxDex</sString>
-				</enabled>
-				<formulaName></formulaName>
-				<lifeTime>
-					<compiledString></compiledString>
-					<returnType>float</returnType>
-					<sString>-1.0</sString>
-				</lifeTime>
-				<LoggingEvent>-1</LoggingEvent>
-				<providerName></providerName>
-				<range>
-					<compiledString>FQYAAAABAAAAEgAAAFJhbmdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
-					<returnType>float</returnType>
-					<sString>cRange</sString>
-				</range>
-				<startCondition>
-					<compiledString></compiledString>
-					<returnType>bool</returnType>
-					<sString>true</sString>
-				</startCondition>
-				<targets>1879048195</targets>
-				<targetSelector href="/Items/Talents/Level5/G735_Dex_inc_Str_Int.TALENT" id="9D71FE16-245E-49F3-8EA9-9C5B32C8E0AC">
-					<AreaTargetSelector>
-						<absolutePosition>
-							<x>0</x>
-							<y>0</y>
-						</absolutePosition>
-						<flags>0</flags>
-						<mode>Normal</mode>
-						<range>
-							<compiledString>FQYAAAABAAAAEgAAAFJhbmdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
-							<returnType>float</returnType>
-							<sString>cRange</sString>
-						</range>
-						<targetFilter>1879048195</targetFilter>
-						<targetSelector href="" />
-					</AreaTargetSelector>
-				</targetSelector>
-				<type>None</type>
-			</AuraApplicator>
-		</Item>
 		<Item href="/Items/Talents/Level5/G735_Dex_inc_Str_Int.TALENT" id="342D422B-5886-49E0-91C1-CD2890E67F31">
 			<PermanentStatModApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
@@ -482,6 +258,290 @@
 				</modifier>
 				<providerName></providerName>
 			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level5/G735_Dex_inc_Str_Int.TALENT" id="76C45EAE-85E6-4BBD-8DB6-AB69EE7BC351">
+			<GiveConsumable>
+				<amount>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>1</sString>
+				</amount>
+				<applyTarget>AbilityOwner</applyTarget>
+				<caption>даём сразу</caption>
+				<consumable href="/Items/Scrolls/SignOfStarfall.ARCT" />
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+			</GiveConsumable>
+		</Item>
+		<Item href="/Items/Talents/Level5/G735_Dex_inc_Str_Int.TALENT" id="29EC5189-C483-49EC-985F-DA3AFE059ED8">
+			<TriggerApplicator>
+				<actionsCount>
+					<compiledString>FQAAAAAAAAAAVYvsuAEAAABdww==</compiledString>
+					<returnType>int</returnType>
+					<sString>1</sString>
+				</actionsCount>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>даём на 36</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsi0UIixCLTQiLgmABAAD/0DPJg/gkD5TBisFdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sNaftaLevel == 36</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<playAck>false</playAck>
+				<processor href="/Items/Talents/Level5/G735_Dex_inc_Str_Int.TALENT" id="A65EBF1F-973B-4829-92F5-E6624259F9EE">
+					<EventProcessorCondition>
+						<applyTarget>AbilityOwner</applyTarget>
+						<condition>
+							<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+							<returnType>bool</returnType>
+							<sString>true</sString>
+						</condition>
+						<events>8192</events>
+						<onlyParent>false</onlyParent>
+						<spell href="/Items/Talents/Level5/G735_Dex_inc_Str_Int.TALENT" id="68FABF1D-B086-4FCC-8FA0-DBB0ED432839">
+							<Spell>
+								<applicators>
+									<Item href="/Items/Talents/Level5/G735_Dex_inc_Str_Int.TALENT" id="6B6F631E-DB9E-4093-AFCF-468B4B8200DD">
+										<SpellSwitchApplicator>
+											<activeSpellIndex>
+												<compiledString>FQAAAAAAAAAAVYvsagRqAItFEIsQi00Qi0Jc/9Bdww==</compiledString>
+												<returnType>int</returnType>
+												<sString>random(0,4)</sString>
+											</activeSpellIndex>
+											<applyTarget>AbilityOwner</applyTarget>
+											<caption>Спелсвитчер с выдачей консумов</caption>
+											<dontUseDispatches>true</dontUseDispatches>
+											<enabled>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</enabled>
+											<formulaName></formulaName>
+											<LoggingEvent>-1</LoggingEvent>
+											<providerName></providerName>
+											<spells>
+												<Item href="/Items/Talents/Level5/G735_Dex_inc_Str_Int.TALENT" id="2F42F830-27C4-45B0-BD8A-D3626D26F98F">
+													<Spell>
+														<applicators>
+															<Item href="/Items/Talents/Level5/G735_Dex_inc_Str_Int.TALENT" id="96C56199-A3DE-479A-BD16-A0AD08A612C2">
+																<GiveConsumable>
+																	<amount>
+																		<compiledString></compiledString>
+																		<returnType>int</returnType>
+																		<sString>1</sString>
+																	</amount>
+																	<applyTarget>AbilityOwner</applyTarget>
+																	<caption></caption>
+																	<consumable href="/Items/Scrolls/SignOfBirds.ARCT" />
+																	<enabled>
+																		<compiledString></compiledString>
+																		<returnType>bool</returnType>
+																		<sString>true</sString>
+																	</enabled>
+																	<formulaName></formulaName>
+																	<LoggingEvent>-1</LoggingEvent>
+																	<providerName></providerName>
+																</GiveConsumable>
+															</Item>
+														</applicators>
+														<dispatch href="" />
+													</Spell>
+												</Item>
+												<Item href="/Items/Talents/Level5/G735_Dex_inc_Str_Int.TALENT" id="BB1A4840-0D91-4FF5-BBAF-59C01A066EFE">
+													<Spell>
+														<applicators>
+															<Item href="/Items/Talents/Level5/G735_Dex_inc_Str_Int.TALENT" id="A0ECD5D9-9CB7-49A1-8068-6033FD01F978">
+																<GiveConsumable>
+																	<amount>
+																		<compiledString></compiledString>
+																		<returnType>int</returnType>
+																		<sString>1</sString>
+																	</amount>
+																	<applyTarget>AbilityOwner</applyTarget>
+																	<caption></caption>
+																	<consumable href="/Items/Scrolls/SignOfCopy.ARCT" />
+																	<enabled>
+																		<compiledString></compiledString>
+																		<returnType>bool</returnType>
+																		<sString>true</sString>
+																	</enabled>
+																	<formulaName></formulaName>
+																	<LoggingEvent>-1</LoggingEvent>
+																	<providerName></providerName>
+																</GiveConsumable>
+															</Item>
+														</applicators>
+														<dispatch href="" />
+													</Spell>
+												</Item>
+												<Item href="/Items/Talents/Level5/G735_Dex_inc_Str_Int.TALENT" id="126C4850-FF3C-4057-90A2-82E52E5DD75A">
+													<Spell>
+														<applicators>
+															<Item href="/Items/Talents/Level5/G735_Dex_inc_Str_Int.TALENT" id="309F170E-95FC-4E86-8C00-6EBE2A59D6A7">
+																<GiveConsumable>
+																	<amount>
+																		<compiledString></compiledString>
+																		<returnType>int</returnType>
+																		<sString>1</sString>
+																	</amount>
+																	<applyTarget>AbilityOwner</applyTarget>
+																	<caption></caption>
+																	<consumable href="/Items/Scrolls/SignOfNova.ARCT" />
+																	<enabled>
+																		<compiledString></compiledString>
+																		<returnType>bool</returnType>
+																		<sString>true</sString>
+																	</enabled>
+																	<formulaName></formulaName>
+																	<LoggingEvent>-1</LoggingEvent>
+																	<providerName></providerName>
+																</GiveConsumable>
+															</Item>
+														</applicators>
+														<dispatch href="" />
+													</Spell>
+												</Item>
+												<Item href="/Items/Talents/Level5/G735_Dex_inc_Str_Int.TALENT" id="1F59F894-1F28-4B3C-82D4-B6327988C728">
+													<Spell>
+														<applicators>
+															<Item href="/Items/Talents/Level5/G735_Dex_inc_Str_Int.TALENT" id="C1F1C99D-BD26-4840-A268-64700B38E648">
+																<GiveConsumable>
+																	<amount>
+																		<compiledString></compiledString>
+																		<returnType>int</returnType>
+																		<sString>1</sString>
+																	</amount>
+																	<applyTarget>AbilityOwner</applyTarget>
+																	<caption></caption>
+																	<consumable href="/Items/Scrolls/SignOfPriestess.ARCT" />
+																	<enabled>
+																		<compiledString></compiledString>
+																		<returnType>bool</returnType>
+																		<sString>true</sString>
+																	</enabled>
+																	<formulaName></formulaName>
+																	<LoggingEvent>-1</LoggingEvent>
+																	<providerName></providerName>
+																</GiveConsumable>
+															</Item>
+														</applicators>
+														<dispatch href="" />
+													</Spell>
+												</Item>
+												<Item href="/Items/Talents/Level5/G735_Dex_inc_Str_Int.TALENT" id="94AED432-B5EF-4DFE-B1A4-B2CD99ADB5EC">
+													<Spell>
+														<applicators>
+															<Item href="/Items/Talents/Level5/G735_Dex_inc_Str_Int.TALENT" id="98813147-794A-400D-8914-EDAEC423BD83">
+																<GiveConsumable>
+																	<amount>
+																		<compiledString></compiledString>
+																		<returnType>int</returnType>
+																		<sString>1</sString>
+																	</amount>
+																	<applyTarget>AbilityOwner</applyTarget>
+																	<caption></caption>
+																	<consumable href="/Items/Scrolls/SignOfStarfall.ARCT" />
+																	<enabled>
+																		<compiledString></compiledString>
+																		<returnType>bool</returnType>
+																		<sString>true</sString>
+																	</enabled>
+																	<formulaName></formulaName>
+																	<LoggingEvent>-1</LoggingEvent>
+																	<providerName></providerName>
+																</GiveConsumable>
+															</Item>
+														</applicators>
+														<dispatch href="" />
+													</Spell>
+												</Item>
+											</spells>
+										</SpellSwitchApplicator>
+									</Item>
+								</applicators>
+								<dispatch href="/Items/Talents/Level5/G735_Dex_inc_Str_Int.TALENT" id="5D11A462-5696-4571-8FB3-0B51D842695B">
+									<DispatchImmediate>
+										<alwaysApply>false</alwaysApply>
+										<applyEffect>
+											<Item href="" />
+											<Item href="" />
+										</applyEffect>
+										<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+										<applyEffectOrientation>Default</applyEffectOrientation>
+										<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+										<dieAfterApply>true</dieAfterApply>
+										<dispatchEffect>
+											<Item href="" />
+											<Item href="" />
+										</dispatchEffect>
+										<flags>0</flags>
+										<instantApply>false</instantApply>
+									</DispatchImmediate>
+								</dispatch>
+							</Spell>
+						</spell>
+					</EventProcessorCondition>
+				</processor>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<useAbilityCooldown>false</useAbilityCooldown>
+				<useAbilityOwnerMana>false</useAbilityOwnerMana>
+			</TriggerApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level5/G735_Dex_inc_Str_Int.TALENT" id="72CAD27B-A62F-4077-A7EA-B4FBE85EBF34">
+			<FlagsApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption></caption>
+				<consumables />
+				<effect>
+					<Item href="/Effects/General/Firework/_Small.EFFT" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<flag>0</flag>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
+					<returnType>float</returnType>
+					<sString>10</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<talents />
+				<useListAs>ListAsRule</useListAs>
+			</FlagsApplicator>
 		</Item>
 	</passiveApplicators>
 	<persistentId>G735</persistentId>

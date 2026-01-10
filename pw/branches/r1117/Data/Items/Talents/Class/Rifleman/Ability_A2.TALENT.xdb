@@ -365,6 +365,21 @@
 				</targetSelector>
 			</SpellApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/Rifleman/Ability_A2.TALENT" id="ABC5B13B-C1DC-4821-B6EB-2292CECA04BA">
+			<StatusApplicator parent="/Heroes/DefaultStatus/_HASTE_status.APLR">
+				<applyTarget>AbilityOwner</applyTarget>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<startCondition>
+					<compiledString>FR0AAAACAAAAJAAAAD0AAABSaWZsZW1hbl9BMnUAAAAAUmlmbGVtYW5fQTJ1AFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAikX7i+Vdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("Rifleman_A2u")</sString>
+				</startCondition>
+			</StatusApplicator>
+		</Item>
 	</applicators>
 	<askId>2</askId>
 	<autoTargetSelector href="" />
@@ -399,9 +414,9 @@
 					<UnitConstant>
 						<name>A2_Damage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACmQgBAHEQ=</compiledString>
+							<compiledString>FR4AAAAHAAAAJQAAAD4AAAB4AAAAggAAALAAAAC+AAAAyAAAAFJpZmxlbWFuX0E0XzIAAABSaWZsZW1hbl9BNF8yAFWL7IPsFGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdEZqAVHZBRABAADZHCRR2QUMAQAA2RwkagCLVQiLAotNCIuQNAEAAP/SUdkcJGoBi0UQixCLTRCLQmD/0NwNBAEAAN1d8Os+agFR2QUQAQAA2RwkUdkFDAEAANkcJGoAi00IixGLTQiLgjQBAAD/0FHZHCRqAYtNEIsRi00Qi0Jg/9DdXfDdRfDZXezZReyL5V3DzczMzMzM9D8AAKZCAEAcRA==</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale( sIntellect, 83, 625 )</sString>
+							<sString>tal("Rifleman_A4_2")  ? 1.3*damageScale( sIntellect, 83, 625 ) : damageScale( sIntellect, 83, 625 )</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -508,6 +523,8 @@
 						</var>
 					</UnitConstant>
 				</Item>
+				<Item href="/Items/Talents/Class/Rifleman/const_A2u_Haste_Percent" />
+				<Item href="/Items/Talents/Class/Rifleman/const_A2u_HasteDuration" />
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

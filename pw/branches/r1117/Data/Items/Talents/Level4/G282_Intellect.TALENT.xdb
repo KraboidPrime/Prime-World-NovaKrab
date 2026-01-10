@@ -179,9 +179,9 @@
 					<UnitConstant>
 						<name>Add_Intellect</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAMEHNzEw/</compiledString>
+							<compiledString>FQcAAAACAAAADAAAACIAAABHMjgyX2QAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwtMAAAANld/NlF/IvlXcMAAAAAAAA6QA==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(11, 0.8)</sString>
+							<sString>26-sender.vG282_d</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -205,7 +205,7 @@
 	<description textref="/Items/Talents/Level4/G282_Intellect.TALENT_description.txt" />
 	<devPoints>1</devPoints>
 	<dispatch href="" />
-	<flags>3</flags>
+	<flags>6</flags>
 	<forceBonus>16</forceBonus>
 	<image href="/UI/Styles/Icons/Talents/_282.ITEX" />
 	<imageSecondState href="" />
@@ -240,9 +240,9 @@
 				<LoggingEvent>-1</LoggingEvent>
 				<modifier>
 					<addValue>
-						<compiledString>FQ4AAAABAAAAGgAAAEFkZF9JbnRlbGxlY3QAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADQQQ==</compiledString>
 						<returnType>float</returnType>
-						<sString>cAdd_Intellect</sString>
+						<sString>26</sString>
 					</addValue>
 					<multValue>
 						<compiledString></compiledString>
@@ -255,6 +255,132 @@
 				</modifier>
 				<providerName></providerName>
 			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level4/G282_Intellect.TALENT" id="BF97FCBC-C021-4BD3-B7AB-C24322C12F42">
+			<SpellPeriodicallyApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>Убывание</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAIA2RA==</compiledString>
+					<returnType>float</returnType>
+					<sString>730</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<period>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQQ==</compiledString>
+					<returnType>float</returnType>
+					<sString>30.0f</sString>
+				</period>
+				<providerName></providerName>
+				<scaleMode>ScaleIsCount</scaleMode>
+				<spell href="/Items/Talents/Level4/G282_Intellect.TALENT" id="B4B13B3E-5830-47D2-9C0A-D2595765459A">
+					<Spell>
+						<applicators>
+							<Item href="/Items/Talents/Level4/G282_Intellect.TALENT" id="F17C2992-4727-4B9C-ACF2-431AB02FF5C7">
+								<PermanentStatModApplicator>
+									<applyTarget>ApplicatorTarget</applyTarget>
+									<caption></caption>
+									<customApplyType>None</customApplyType>
+									<enabled>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<LoggingEvent>-1</LoggingEvent>
+									<modifier>
+										<addValue>
+											<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3D2qwKvw==</compiledString>
+											<returnType>float</returnType>
+											<sString>-0.5417f</sString>
+										</addValue>
+										<multValue>
+											<compiledString></compiledString>
+											<returnType>float</returnType>
+											<sString>1.0f</sString>
+										</multValue>
+										<stat>Intellect</stat>
+										<topModifier>false</topModifier>
+										<variable></variable>
+									</modifier>
+									<providerName></providerName>
+								</PermanentStatModApplicator>
+							</Item>
+							<Item href="/Items/Talents/Level4/G282_Intellect.TALENT" id="E3A8798C-19D5-4F7C-86D3-D48456FD9808">
+								<PermanentStatModApplicator>
+									<applyTarget>ApplicatorTarget</applyTarget>
+									<caption></caption>
+									<customApplyType>None</customApplyType>
+									<enabled>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<LoggingEvent>-1</LoggingEvent>
+									<modifier>
+										<addValue>
+											<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3D2qwKPw==</compiledString>
+											<returnType>float</returnType>
+											<sString>0.5417f</sString>
+										</addValue>
+										<multValue>
+											<compiledString></compiledString>
+											<returnType>float</returnType>
+											<sString>1.0f</sString>
+										</multValue>
+										<stat>Intellect</stat>
+										<topModifier>false</topModifier>
+										<variable>G282_d</variable>
+									</modifier>
+									<providerName></providerName>
+								</PermanentStatModApplicator>
+							</Item>
+						</applicators>
+						<dispatch href="/Items/Talents/Level4/G282_Intellect.TALENT" id="E7EC3571-17DB-4E30-8392-9991B534A3B7">
+							<DispatchImmediate>
+								<alwaysApply>false</alwaysApply>
+								<applyEffect>
+									<Item href="" />
+									<Item href="" />
+								</applyEffect>
+								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+								<applyEffectOrientation>Default</applyEffectOrientation>
+								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+								<dieAfterApply>true</dieAfterApply>
+								<dispatchEffect>
+									<Item href="" />
+									<Item href="" />
+								</dispatchEffect>
+								<flags>0</flags>
+								<instantApply>false</instantApply>
+							</DispatchImmediate>
+						</dispatch>
+					</Spell>
+				</spell>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<startOffset>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQQ==</compiledString>
+					<returnType>float</returnType>
+					<sString>30.0f</sString>
+				</startOffset>
+				<targetSelector href="" />
+			</SpellPeriodicallyApplicator>
 		</Item>
 	</passiveApplicators>
 	<persistentId>G282</persistentId>
@@ -276,7 +402,7 @@
 			</values>
 		</Item>
 	</talentStats>
-	<targetType>681312319</targetType>
+	<targetType>0</targetType>
 	<type>Simple</type>
 	<upgradeLevel>0</upgradeLevel>
 	<useRange>

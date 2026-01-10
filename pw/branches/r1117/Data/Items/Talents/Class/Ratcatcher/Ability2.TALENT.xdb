@@ -576,7 +576,7 @@
 														<Item href="" />
 													</effect>
 													<enabled>
-														<compiledString></compiledString>
+														<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
 														<returnType>bool</returnType>
 														<sString>true</sString>
 													</enabled>
@@ -599,6 +599,53 @@
 															<sString>0</sString>
 														</multValue>
 														<stat>LifeRegenerationAbsolute</stat>
+														<topModifier>true</topModifier>
+														<variable></variable>
+													</modifier>
+													<providerName></providerName>
+													<startCondition>
+														<compiledString></compiledString>
+														<returnType>bool</returnType>
+														<sString>true</sString>
+													</startCondition>
+													<statModName></statModName>
+												</StatModApplicator>
+											</Item>
+											<Item href="/Items/Talents/Class/Ratcatcher/Ability2.TALENT" id="168900D8-BD9A-4641-97A8-13ABFA8403C3">
+												<StatModApplicator>
+													<applyTarget>ApplicatorTarget</applyTarget>
+													<behaviorFlags>0</behaviorFlags>
+													<caption>- Даем регенерацию законтролленому крипу мана</caption>
+													<constraint>None</constraint>
+													<dontUpdate>false</dontUpdate>
+													<effect>
+														<Item href="" />
+														<Item href="" />
+													</effect>
+													<enabled>
+														<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+														<returnType>bool</returnType>
+														<sString>true</sString>
+													</enabled>
+													<formulaName></formulaName>
+													<lifeTime>
+														<compiledString></compiledString>
+														<returnType>float</returnType>
+														<sString>-1.0</sString>
+													</lifeTime>
+													<LoggingEvent>-1</LoggingEvent>
+													<modifier>
+														<addValue>
+															<compiledString>FQAAAAAAAAAAVYvsi0UIixCLTQiLgvwAAAD/0F3D</compiledString>
+															<returnType>float</returnType>
+															<sString>sEnergyRegenTotal</sString>
+														</addValue>
+														<multValue>
+															<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+															<returnType>float</returnType>
+															<sString>0</sString>
+														</multValue>
+														<stat>EnergyRegenerationAbsolute</stat>
 														<topModifier>true</topModifier>
 														<variable></variable>
 													</modifier>
@@ -646,6 +693,53 @@
 															<sString>0</sString>
 														</multValue>
 														<stat>LifeRegeneration</stat>
+														<topModifier>true</topModifier>
+														<variable></variable>
+													</modifier>
+													<providerName></providerName>
+													<startCondition>
+														<compiledString></compiledString>
+														<returnType>bool</returnType>
+														<sString>true</sString>
+													</startCondition>
+													<statModName></statModName>
+												</StatModApplicator>
+											</Item>
+											<Item href="/Items/Talents/Class/Ratcatcher/Ability2.TALENT" id="1BB50F62-EB43-4F17-A13B-B7A569B4A942">
+												<StatModApplicator>
+													<applyTarget>ApplicatorTarget</applyTarget>
+													<behaviorFlags>0</behaviorFlags>
+													<caption>обнулить EnReg</caption>
+													<constraint>None</constraint>
+													<dontUpdate>false</dontUpdate>
+													<effect>
+														<Item href="" />
+														<Item href="" />
+													</effect>
+													<enabled>
+														<compiledString></compiledString>
+														<returnType>bool</returnType>
+														<sString>true</sString>
+													</enabled>
+													<formulaName></formulaName>
+													<lifeTime>
+														<compiledString></compiledString>
+														<returnType>float</returnType>
+														<sString>-1.0</sString>
+													</lifeTime>
+													<LoggingEvent>-1</LoggingEvent>
+													<modifier>
+														<addValue>
+															<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+															<returnType>float</returnType>
+															<sString>0</sString>
+														</addValue>
+														<multValue>
+															<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+															<returnType>float</returnType>
+															<sString>0</sString>
+														</multValue>
+														<stat>EnergyRegeneration</stat>
 														<topModifier>true</topModifier>
 														<variable></variable>
 													</modifier>
@@ -754,6 +848,199 @@
 										<unstackableWith href="" />
 									</StatusApplicator>
 								</Item>
+								<Item href="/Items/Talents/Class/Ratcatcher/Ability2.TALENT" id="D0D3E5F9-3A51-4A5F-814C-F3CA393A679E">
+									<StatusApplicator>
+										<applicators>
+											<Item href="/Items/Talents/Class/Ratcatcher/Ability2.TALENT" id="92CE3871-6035-409B-B682-9D458207F83D">
+												<StatModApplicator>
+													<applyTarget>ApplicatorTarget</applyTarget>
+													<behaviorFlags>0</behaviorFlags>
+													<caption>Повышаем стойкость подконтрольных существ</caption>
+													<constraint>None</constraint>
+													<dontUpdate>false</dontUpdate>
+													<effect>
+														<Item href="" />
+														<Item href="" />
+													</effect>
+													<enabled>
+														<compiledString>FSYAAAACAAAALQAAAEYAAABSYXRjYXRjaGVyX0EyX1NVUAAAAFJhdGNhdGNoZXJfQTJfU1VQAFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoFAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAikX7i+Vdww==</compiledString>
+														<returnType>bool</returnType>
+														<sString>tal("Ratcatcher_A2_SUP")</sString>
+													</enabled>
+													<formulaName></formulaName>
+													<lifeTime>
+														<compiledString></compiledString>
+														<returnType>float</returnType>
+														<sString>-1.0</sString>
+													</lifeTime>
+													<LoggingEvent>-1</LoggingEvent>
+													<modifier>
+														<addValue>
+															<compiledString>FQAAAAABAAAAFgAAAFWL7FGLRQiLEItNCIuCyAAAAP/Q3A0kAAAA2V382UX8i+VdwwAAAAAAAOA/</compiledString>
+															<returnType>float</returnType>
+															<sString>0.5*sBaseStamina</sString>
+														</addValue>
+														<multValue>
+															<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+															<returnType>float</returnType>
+															<sString>1.0f</sString>
+														</multValue>
+														<stat>Stamina</stat>
+														<topModifier>false</topModifier>
+														<variable></variable>
+													</modifier>
+													<providerName></providerName>
+													<startCondition>
+														<compiledString></compiledString>
+														<returnType>bool</returnType>
+														<sString>true</sString>
+													</startCondition>
+													<statModName></statModName>
+												</StatModApplicator>
+											</Item>
+											<Item href="/Items/Talents/Class/Ratcatcher/Ability2.TALENT" id="2BD6BFC8-7CDA-4C92-B504-CF3BD5937AD1">
+												<StatModApplicator>
+													<applyTarget>ApplicatorTarget</applyTarget>
+													<behaviorFlags>0</behaviorFlags>
+													<caption>Повышаем волю подконтрольных существ</caption>
+													<constraint>None</constraint>
+													<dontUpdate>false</dontUpdate>
+													<effect>
+														<Item href="" />
+														<Item href="" />
+													</effect>
+													<enabled>
+														<compiledString>FSYAAAACAAAALQAAAEYAAABSYXRjYXRjaGVyX0EyX1NVUAAAAFJhdGNhdGNoZXJfQTJfU1VQAFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoFAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAikX7i+Vdww==</compiledString>
+														<returnType>bool</returnType>
+														<sString>tal("Ratcatcher_A2_SUP")</sString>
+													</enabled>
+													<formulaName></formulaName>
+													<lifeTime>
+														<compiledString></compiledString>
+														<returnType>float</returnType>
+														<sString>-1.0</sString>
+													</lifeTime>
+													<LoggingEvent>-1</LoggingEvent>
+													<modifier>
+														<addValue>
+															<compiledString>FQAAAAABAAAAFgAAAFWL7FGLRQiLEItNCIuCzAAAAP/Q3A0kAAAA2V382UX8i+VdwwAAAAAAAOA/</compiledString>
+															<returnType>float</returnType>
+															<sString>0.5*sBaseWill</sString>
+														</addValue>
+														<multValue>
+															<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+															<returnType>float</returnType>
+															<sString>1.0f</sString>
+														</multValue>
+														<stat>Will</stat>
+														<topModifier>false</topModifier>
+														<variable></variable>
+													</modifier>
+													<providerName></providerName>
+													<startCondition>
+														<compiledString></compiledString>
+														<returnType>bool</returnType>
+														<sString>true</sString>
+													</startCondition>
+													<statModName></statModName>
+												</StatModApplicator>
+											</Item>
+											<Item href="/Items/Talents/Class/Ratcatcher/Ability2.TALENT" id="5F170F1F-3220-4AB2-9431-10D2EE37448E">
+												<StatModApplicator>
+													<applyTarget>ApplicatorTarget</applyTarget>
+													<behaviorFlags>0</behaviorFlags>
+													<caption>MinionDefencesImproved</caption>
+													<constraint>None</constraint>
+													<dontUpdate>false</dontUpdate>
+													<effect>
+														<Item href="" />
+														<Item href="" />
+													</effect>
+													<enabled>
+														<compiledString></compiledString>
+														<returnType>bool</returnType>
+														<sString>true</sString>
+													</enabled>
+													<formulaName></formulaName>
+													<lifeTime>
+														<compiledString></compiledString>
+														<returnType>float</returnType>
+														<sString>-1.0</sString>
+													</lifeTime>
+													<LoggingEvent>-1</LoggingEvent>
+													<modifier>
+														<addValue>
+															<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+															<returnType>float</returnType>
+															<sString>1</sString>
+														</addValue>
+														<multValue>
+															<compiledString></compiledString>
+															<returnType>float</returnType>
+															<sString>1.0f</sString>
+														</multValue>
+														<stat>Life</stat>
+														<topModifier>false</topModifier>
+														<variable>MinionDefenceImproved</variable>
+													</modifier>
+													<providerName></providerName>
+													<startCondition>
+														<compiledString></compiledString>
+														<returnType>bool</returnType>
+														<sString>true</sString>
+													</startCondition>
+													<statModName></statModName>
+												</StatModApplicator>
+											</Item>
+										</applicators>
+										<applyTarget>ApplicatorTarget</applyTarget>
+										<behaviorFlags>0</behaviorFlags>
+										<caption>Мастер флейты</caption>
+										<customCounter>
+											<compiledString></compiledString>
+											<returnType>int</returnType>
+											<sString>0</sString>
+										</customCounter>
+										<customProgress>
+											<compiledString></compiledString>
+											<returnType>float</returnType>
+											<sString>-1.0</sString>
+										</customProgress>
+										<description textref="/Items/Talents/Class/Ratcatcher/Ability2.TALENT_d0d3e5f93a514a5f814cf3ca393a679e_description.txt" />
+										<dispellPriority>Medium</dispellPriority>
+										<effect>
+											<Item href="" />
+											<Item href="" />
+										</effect>
+										<enabled>
+											<compiledString>FT8AAAAEAAAARgAAAF8AAACVAAAAqwAAAFJhdGNhdGNoZXJfQTJfU1VQAAAAUmF0Y2F0Y2hlcl9BMl9TVVAAAABNaW5pb25EZWZlbmNlc0ltcHJvdmVkAFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoFAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdCtoKAAAAItVCIsCi00Ii5CIAQAA/9LcHc0AAADf4PbERHoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcMAAAAAAAAAAA==</compiledString>
+											<returnType>bool</returnType>
+											<sString>tal("Ratcatcher_A2_SUP") &amp;&amp; (!sender.vMinionDefencesImproved)</sString>
+										</enabled>
+										<flags>0</flags>
+										<formulaName></formulaName>
+										<image href="" />
+										<lifeTime>
+											<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAvw==</compiledString>
+											<returnType>float</returnType>
+											<sString>-1</sString>
+										</lifeTime>
+										<LoggingEvent>-1</LoggingEvent>
+										<name textref="/Items/Talents/Class/Ratcatcher/Ability2.TALENT_d0d3e5f93a514a5f814cf3ca393a679e_name.txt" />
+										<power>0</power>
+										<providerName></providerName>
+										<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+										<stackCount>0</stackCount>
+										<startCondition>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</startCondition>
+										<statusPosition>0</statusPosition>
+										<stopBehaviour>StopByTime</stopBehaviour>
+										<unstackableWith href="" />
+									</StatusApplicator>
+								</Item>
 							</applicators>
 							<dispatch href="/Items/Talents/Class/Ratcatcher/Ability2.TALENT" id="6514055E-55F7-49C8-B89F-4788896243B9">
 								<DispatchImmediate>
@@ -845,6 +1132,16 @@
 				<name>Ratcatcher_A2_SUP</name>
 			</ConditionFormula>
 		</Item>
+		<Item href="/Items/Talents/Class/Ratcatcher/Ability2.TALENT" id="7E04857D-5F95-4C88-9520-932071ACB9B0">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FU4AAAAEAAAAVQAAAG4AAACkAAAAvQAAAFJhdGNhdGNoZXJfQTJfVXBnMgAAUmF0Y2F0Y2hlcl9BMl9VcGcyAABSYXRjYXRjaGVyX0EyX1NVUAAAAFJhdGNhdGNoZXJfQTJfU1VQAFWL7IPsFGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoFAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdVhoKAAAAItVCIsCi00Ii5CoAQAA/9KFwHQqaDwAAACLRQiLEItNCIuCqAEAAP/QiUX0i030ixGLTfSLQgT/0IhF8+sExkXzAA+2TfOFyXUJx0XsAQAAAOsHx0XsAAAAAIpF7IvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("Ratcatcher_A2_Upg2") == false &amp;&amp; tal("Ratcatcher_A2_SUP") == false</sString>
+				</condition>
+				<name>Ratcatcher_A2_Upg2_And_SUP</name>
+			</ConditionFormula>
+		</Item>
 	</conditionFormulas>
 	<conflictingTalents />
 	<constants href="/Items/Talents/Class/Ratcatcher/Ability2.TALENT" id="28B315FD-44C6-45D5-B447-3C38D0F8F589">
@@ -913,11 +1210,11 @@
 				<Item href="/Items/Talents/Class/Ratcatcher/const_A2_CreepWeakness_Percent" />
 				<Item href="/Items/Talents/Class/Ratcatcher/Ability2.TALENT" id="42FA1444-1F62-48BB-B941-DBE97D47D2C8">
 					<UnitConstant>
-						<name>TotalStamina</name>
+						<name>TotalDefence</name>
 						<var>
-							<compiledString>FUIAAAAEAAAASQAAAGIAAACCAAAAngAAAFBvd2VyT2ZNYW55Q291bnQAAAAAUmF0Y2F0Y2hlcl9BMAAAAFJhdGNhdGNoZXJfQTAAAABCb251c19TdGFtaW5hAFWL7IPsDGgUAAAAi0UIixCLTQiLgqgBAAD/0IXAdDdoJAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTQxRi1UIUmg0AAAAi0X8ixCLTfyLQlD/0Nld+OsF2e7ZXfhoAAAAAItNCIsRi00Ii4KIAQAA/9DYTfjZXfTZRfSL5V3DAAAAAA==</compiledString>
+							<compiledString>FUIAAAAEAAAASQAAAGIAAACCAAAAngAAAFBvd2VyT2ZNYW55Q291bnQAAAAAUmF0Y2F0Y2hlcl9BMAAAAFJhdGNhdGNoZXJfQTAAAABCb251c19EZWZlbmNlAFWL7IPsDGgUAAAAi0UIixCLTQiLgqgBAAD/0IXAdDdoJAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTQxRi1UIUmg0AAAAi0X8ixCLTfyLQlD/0Nld+OsF2e7ZXfhoAAAAAItNCIsRi00Ii4KIAQAA/9DYTfjZXfTZRfSL5V3DAAAAAA==</compiledString>
 							<returnType>float</returnType>
-							<sString>sender.vPowerOfManyCount * talconstNoCheck("Ratcatcher_A0","Bonus_Stamina")</sString>
+							<sString>sender.vPowerOfManyCount * talconstNoCheck("Ratcatcher_A0","Bonus_Defence")</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -955,9 +1252,9 @@
 					<UnitConstant>
 						<name>A2_StopDamage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAB9QwAA7UQ=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBWMAAADZHCRR2QVfAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJItNCIsRi00Ii4IwAQAA/9BR2Rwk6B8AAACDxATZHCRqAYtNEIsRi00Qi0Jg/9BdwwAAfUMAAO1EVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(sIntellect,  253, 1896)</sString>
+							<sString>damageScale(max(sStrength, sIntellect),  253, 1896)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -965,9 +1262,9 @@
 					<UnitConstant>
 						<name>A2_Damage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACaQgDAD0Q=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBWMAAADZHCRR2QVfAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJItNCIsRi00Ii4IwAQAA/9BR2Rwk6B8AAACDxATZHCRqAYtNEIsRi00Qi0Jg/9BdwwAAmkIAwA9EVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(sIntellect,  77, 575)</sString>
+							<sString>damageScale(max(sStrength, sIntellect),  77, 575)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -976,9 +1273,9 @@
 					<UnitConstant>
 						<name>A4_2_ForCreepDamage</name>
 						<var>
-							<compiledString>FQAAAAACAAAAMQAAADsAAABVi+yD7AiLRQiLEItNCIuCfAEAAP/QiUX8i00IixGLTQiLgnwBAAD/0IlF+GoBUdkFjgAAANkcJFHZBYoAAADZHCRqAItN/IsRi038i4I0AQAA/9BR2Rwki034ixGLTfiLgjABAAD/0FHZHCToIQAAAIPEBNkcJGoBi00QixGLTRCLQmD/0IvlXcMAAABBAABwQlWL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
+							<compiledString>FQAAAAACAAAAMQAAADsAAABVi+yD7AiLRQiLEItNCIuCfAEAAP/QiUX8i00IixGLTQiLgnwBAAD/0IlF+GoBUdkFjgAAANkcJFHZBYoAAADZHCRqAItN/IsRi038i4I0AQAA/9BR2Rwki034ixGLTfiLgjABAAD/0FHZHCToIQAAAIPEBNkcJGoBi00QixGLTRCLQmD/0IvlXcMAAMBAAAAoQlWL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(max(sender.master.Strength, sender.master.Intellect), 8, 60)</sString>
+							<sString>damageScale(max(sender.master.Strength, sender.master.Intellect), 6, 42)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

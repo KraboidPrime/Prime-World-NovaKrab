@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TalentsSet>
+	<BackLink DBID="/Heroes/Chicken/_.HROB" Count="1" />
+	<levels>
+		<Item>
+			<talents>
+				<Item>
+					<aIPriority>0</aIPriority>
+					<refineRate>6</refineRate>
+					<status>normal</status>
+					<talent href="/Items/Talents/Class/Chicken/Ability_A1.TALENT" />
+				</Item>
+				<Item>
+					<aIPriority>0</aIPriority>
+					<refineRate>6</refineRate>
+					<status>normal</status>
+					<talent href="/Items/Talents/Class/Chicken/Ability_A2.TALENT" />
+				</Item>
+				<Item>
+					<aIPriority>0</aIPriority>
+					<refineRate>6</refineRate>
+					<status>normal</status>
+					<talent href="/Items/Talents/Level1/G723_StrOrInt.TALENT" />
+				</Item>
+				<Item>
+					<aIPriority>0</aIPriority>
+					<refineRate>6</refineRate>
+					<status>normal</status>
+					<talent href="/Items/Talents/Level1/G775_StrOrInt.TALENT" />
+				</Item>
+				<Item>
+					<aIPriority>0</aIPriority>
+					<refineRate>6</refineRate>
+					<status>normal</status>
+					<talent href="/Items/Talents/Level1/G537_StrOrInt.TALENT" />
+				</Item>
+				<Item>
+					<aIPriority>0</aIPriority>
+					<refineRate>6</refineRate>
+					<status>normal</status>
+					<talent href="/Items/Talents/Class/Chicken/Ability_A0.TALENT" />
+				</Item>
+			</talents>
+		</Item>
+		<Item>
+			<talents>
+				<Item>
+					<aIPriority>0</aIPriority>
+					<refineRate>6</refineRate>
+					<status>normal</status>
+					<talent href="/Items/Talents/Class/Chicken/Ability_A1u.TALENT" />
+				</Item>
+				<Item>
+					<aIPriority>0</aIPriority>
+					<refineRate>6</refineRate>
+					<status>normal</status>
+					<talent href="/Items/Talents/Class/Chicken/Ability_A2u.TALENT" />
+				</Item>
+				<Item>
+					<aIPriority>0</aIPriority>
+					<refineRate>6</refineRate>
+					<status>normal</status>
+					<talent href="/Items/Talents/Class/Chicken/Ability_A0u1.TALENT" />
+				</Item>
+				<Item>
+					<aIPriority>0</aIPriority>
+					<refineRate>6</refineRate>
+					<status>normal</status>
+					<talent href="/Items/Talents/Level2/G567_CasterBase.TALENT" />
+				</Item>
+				<Item>
+					<aIPriority>0</aIPriority>
+					<refineRate>6</refineRate>
+					<status>normal</status>
+					<talent href="/Items/Talents/Level2/G451_Str_int_Life.TALENT" />
+				</Item>
+				<Item>
+					<aIPriority>0</aIPriority>
+					<refineRate>6</refineRate>
+					<status>normal</status>
+					<talent href="/Items/Talents/Level2/G297_maxStrInt.TALENT" />
+				</Item>
+			</talents>
+		</Item>
+		<Item>
+			<talents>
+				<Item>
+					<aIPriority>0</aIPriority>
+					<refineRate>6</refineRate>
+					<status>normal</status>
+					<talent href="/Items/Talents/Level3/G766_MiniRefresher.TALENT" />
+				</Item>
+				<Item>
+					<aIPriority>0</aIPriority>
+					<refineRate>6</refineRate>
+					<status>normal</status>
+					<talent href="/Items/Talents/Class/Chicken/Ability_A3.TALENT" />
+				</Item>
+				<Item>
+					<aIPriority>0</aIPriority>
+					<refineRate>6</refineRate>
+					<status>normal</status>
+					<talent href="/Items/Talents/Class/Chicken/Ability_A4_2.TALENT" />
+				</Item>
+				<Item>
+					<aIPriority>0</aIPriority>
+					<refineRate>6</refineRate>
+					<status>normal</status>
+					<talent href="/Items/Talents/Level3/G708_StrOrInt.TALENT" />
+				</Item>
+				<Item>
+					<aIPriority>0</aIPriority>
+					<refineRate>6</refineRate>
+					<status>normal</status>
+					<talent href="/Items/Talents/Class/Chicken/Ability_A0u2.TALENT" />
+				</Item>
+				<Item>
+					<aIPriority>0</aIPriority>
+					<refineRate>6</refineRate>
+					<status>normal</status>
+					<talent href="/Items/Talents/Level3/G301_Life_AttackSpeed.TALENT" />
+				</Item>
+			</talents>
+		</Item>
+		<Item>
+			<talents>
+				<Item>
+					<aIPriority>0</aIPriority>
+					<refineRate>6</refineRate>
+					<status>normal</status>
+					<talent href="/Items/Talents/Level4/G770_Life.TALENT" />
+				</Item>
+				<Item>
+					<aIPriority>0</aIPriority>
+					<refineRate>6</refineRate>
+					<status>normal</status>
+					<talent href="/Items/Talents/Level4/G752_StrOrInt.TALENT" />
+				</Item>
+				<Item>
+					<aIPriority>0</aIPriority>
+					<refineRate>6</refineRate>
+					<status>normal</status>
+					<talent href="/Items/Talents/Level4/G702_StrOrInt.TALENT" />
+				</Item>
+				<Item>
+					<aIPriority>0</aIPriority>
+					<refineRate>6</refineRate>
+					<status>normal</status>
+					<talent href="/Items/Talents/Level4/G698_StrOrInt.TALENT" />
+				</Item>
+				<Item>
+					<aIPriority>0</aIPriority>
+					<refineRate>6</refineRate>
+					<status>normal</status>
+					<talent href="/Items/Talents/Level4/G307_Dex_maxStaWill.TALENT" />
+				</Item>
+				<Item>
+					<aIPriority>0</aIPriority>
+					<refineRate>6</refineRate>
+					<status>normal</status>
+					<talent href="/Items/Talents/Level4/G452_AttackSpeed_Life.TALENT" />
+				</Item>
+			</talents>
+		</Item>
+		<Item>
+			<talents>
+				<Item>
+					<aIPriority>0</aIPriority>
+					<refineRate>6</refineRate>
+					<status>normal</status>
+					<talent href="/Items/Talents/Level5/G058_ManaCostDecr.TALENT" />
+				</Item>
+				<Item>
+					<aIPriority>0</aIPriority>
+					<refineRate>6</refineRate>
+					<status>normal</status>
+					<talent href="/Items/Talents/Level5/G732_Life.TALENT" />
+				</Item>
+				<Item>
+					<aIPriority>0</aIPriority>
+					<refineRate>6</refineRate>
+					<status>normal</status>
+					<talent href="/Items/Talents/Level5/G696_StrOrInt.TALENT" />
+				</Item>
+				<Item>
+					<aIPriority>0</aIPriority>
+					<refineRate>6</refineRate>
+					<status>normal</status>
+					<talent href="/Items/Talents/Level5/G681_StrOrInt.TALENT" />
+				</Item>
+				<Item>
+					<aIPriority>0</aIPriority>
+					<refineRate>6</refineRate>
+					<status>normal</status>
+					<talent href="/Items/Talents/Level5/G453_Dex_StaOrWill.TALENT" />
+				</Item>
+				<Item>
+					<aIPriority>0</aIPriority>
+					<refineRate>6</refineRate>
+					<status>normal</status>
+					<talent href="/Items/Talents/Class/Chicken/Ability_A0SUP1.TALENT" />
+				</Item>
+			</talents>
+		</Item>
+		<Item>
+			<talents>
+				<Item>
+					<aIPriority>0</aIPriority>
+					<refineRate>6</refineRate>
+					<status>normal</status>
+					<talent href="/Items/Talents/Level6/G728_StrOrInt.TALENT" />
+				</Item>
+				<Item>
+					<aIPriority>0</aIPriority>
+					<refineRate>6</refineRate>
+					<status>normal</status>
+					<talent href="/Items/Talents/Level6/G701_StrOrInt.TALENT" />
+				</Item>
+				<Item>
+					<aIPriority>0</aIPriority>
+					<refineRate>6</refineRate>
+					<status>normal</status>
+					<talent href="/Items/Talents/Level6/G617_StrOrInt.TALENT" />
+				</Item>
+				<Item>
+					<aIPriority>0</aIPriority>
+					<refineRate>6</refineRate>
+					<status>normal</status>
+					<talent href="/Items/Talents/Level6/G317_K_Life_AttackSpeed.TALENT" />
+				</Item>
+				<Item>
+					<aIPriority>0</aIPriority>
+					<refineRate>6</refineRate>
+					<status>normal</status>
+					<talent href="/Items/Talents/Level6/G454_AttackSpeed_Life.TALENT" />
+				</Item>
+				<Item>
+					<aIPriority>0</aIPriority>
+					<refineRate>6</refineRate>
+					<status>normal</status>
+					<talent href="/Items/Talents/Level6/G455_Life_StrOrInt.TALENT" />
+				</Item>
+			</talents>
+		</Item>
+	</levels>
+</TalentsSet>

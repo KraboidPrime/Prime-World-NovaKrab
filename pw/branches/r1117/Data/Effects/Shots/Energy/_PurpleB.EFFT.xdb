@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BasicEffectStandalone>
+	<BackLink DBID="/Heroes/Healer/_.HROB" Count="2" />
+	<BackLink DBID="/Maps/PvE/Series/Coop1/Spawners/iva.NCSPN" Count="1" />
+	<BackLink DBID="/Maps/PvE/Series/Episode1/heroes/ally/_.HROB" Count="1" />
+	<component href="/Effects/Shots/Energy/_PurpleBTRS.PRXY" />
+	<deathType>Manual</deathType>
+	<enableCondition href="/Effects/Shots/Energy/_PurpleB.EFFT" id="1F6FF4E1-E46D-46CA-8391-C4F123DFC25B">
+		<ConditionFormula>
+			<condition>
+				<compiledString>FR4AAAACAAAAJQAAAD4AAABIZWFsZXJfQTNfU1VQAAAASGVhbGVyX0EzX1NVUABVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2Rfv32BvAg8ABi+Vdww==</compiledString>
+				<returnType>bool</returnType>
+				<sString>!tal("Healer_A3_SUP")</sString>
+			</condition>
+			<name></name>
+		</ConditionFormula>
+	</enableCondition>
+	<fadeIn>0</fadeIn>
+	<fadeOut>0</fadeOut>
+	<isVisibleUnderWarfog>false</isVisibleUnderWarfog>
+	<lifeTime>0</lifeTime>
+	<parentFlags>0</parentFlags>
+	<parentType>General</parentType>
+	<visibilityLimited>false</visibilityLimited>
+	<visibleTime>0</visibleTime>
+</BasicEffectStandalone>

@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Class/Rifleman/Ability_A1.TALENT" Count="1" />
 	<name>TT_BearAbility_Damage</name>
 	<var>
-		<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAADgQQAAUkM=</compiledString>
+		<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACmQgBAHEQ=</compiledString>
 		<returnType>float</returnType>
-		<sString>damageScale(sIntellect, 28, 210); //see A1_BearAbility_Damage</sString>
+		<sString>damageScale(sIntellect, 83, 625); //see A1_BearAbility_Damage</sString>
 	</var>
 </UnitConstant>

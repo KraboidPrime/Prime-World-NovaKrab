@@ -53,9 +53,9 @@
 					<UnitConstant>
 						<name>Add_LifeRegAbs</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAgECamZk+</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DZmYeQQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(4, 0.3)</sString>
+							<sString>9.9</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -133,7 +133,7 @@
 	</passiveApplicators>
 	<persistentId>G089</persistentId>
 	<prerequisiteTalents />
-	<rarity>excellent</rarity>
+	<rarity>magnificent</rarity>
 	<requireLineOfSight>true</requireLineOfSight>
 	<shortDescription textref="/Items/Talents/Level3/G089_LifeRegen.TALENT_shortDescription.txt" />
 	<talentRollGroups>63</talentRollGroups>

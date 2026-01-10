@@ -28,327 +28,394 @@
 	</aoeSize>
 	<aoeType>None</aoeType>
 	<applicators>
-		<Item href="/Items/Talents/Class/Vampire/Ability_A4_2.TALENT" id="BF72D59F-2A59-445B-8468-933EE3C8B0B9">
-			<ChannellingApplicator>
-				<applicatorsOnSelf>
-					<Item href="/Items/Talents/Class/Vampire/Ability_A4_2.TALENT" id="CCF9C61C-D6AE-4014-B886-3A0A5561A7FB">
-						<FlagsApplicator>
-							<applyTarget>AbilityOwner</applyTarget>
-							<behaviorFlags>1</behaviorFlags>
-							<caption>Запрет невидимости + FX на себя</caption>
-							<consumables />
-							<effect>
-								<Item href="" />
-								<Item href="" />
-							</effect>
-							<enabled>
-								<compiledString>FV0AAAAIAAEAfAAAAJ4AAACuAAAA4AAAAPUAAAALAQAAFwEAADQBAAAhAgAAQWJpbGl0eVRhcmdldAAAAEFiaWxpdHlUYXJnZXQAAABBYmlsaXR5VGFyZ2V0AAAASW1tdW5lMkNvbnRyb2wAAEFiaWxpdHlUYXJnZXQAAABSYW5nZV9NZWRpdW0AVYvsg+wsi0UIixCLTQiLQkT/0A+2yIXJD4USAQAAaAAAAACLVRCLAotNEItQTP/SiUXsi0XsixCLTeyLAv/Q3B2bAQAA3+D2xEEPheAAAABoEAAAAItNEIsRi00Qi0JM/9CJRehogAAAAItN6IsRi03oi0Jo/9APtsiFyQ+FrgAAAGggAAAAi1UQiwKLTRCLUEz/0olF5GgwAAAAi0XkixCLTeSLgogBAAD/0NwdmwEAAN/g9sREendoQAAAAItNEIsRi00Qi0JM/9CJReCLTQxRi1UIUmhQAAAAi0UQixCLTRCLQlD/0I1N+FGLVeCLAotN4IuQjAEAAN1d2P/SUI1F8FCLTQiLEYtNCIuCjAEAAP/QUOgsAAAAg8QI3F3Y3+D2xEF6CcdF1AEAAADrB8dF1AAAAACKRdSL5V3DAAAAAAAAAABVi+yD7BSLRQjZQASLTQzYYQTZXfTZRfRR2Rwki1UI2QKLRQzYINld8NlF8FHZHCSNTfjoVwAAANlF+NhN+NlF/NhN/N7B2V3s2UXsUdkcJOgHAAAAg8QEi+Vdw1WL7FHZRQjZHCToBQAAAIPEBF3DVYvsUdlFCIPsCN0cJOi3/f//g8QI2V382UX8i+Vdw1WL7FGJTfyLRfzZRQjZGItN/NlFDNlZBItF/IvlXcIIAA==</compiledString>
-								<returnType>bool</returnType>
-								<sString>!sIsMoving &amp;&amp; appl.oAbilityTarget.Life &gt; 0 &amp;&amp; !appl.oAbilityTarget.GetFlag(128) &amp;&amp; appl.oAbilityTarget.vImmune2Control == 0 &amp;&amp; d(sPos, appl.oAbilityTarget.Pos) &lt;= cRange_Medium</sString>
-							</enabled>
-							<flag>134283264</flag>
-							<formulaName></formulaName>
-							<lifeTime>
-								<compiledString>FQkAAAABAAAAFQAAAEE0X0RlbGF5AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
-								<returnType>float</returnType>
-								<sString>cA4_Delay</sString>
-							</lifeTime>
-							<LoggingEvent>-1</LoggingEvent>
-							<providerName></providerName>
-							<startCondition>
-								<compiledString></compiledString>
-								<returnType>bool</returnType>
-								<sString>true</sString>
-							</startCondition>
-							<talents />
-							<useListAs>ListAsRule</useListAs>
-						</FlagsApplicator>
-					</Item>
-				</applicatorsOnSelf>
-				<applyTarget>AbilityOwner</applyTarget>
-				<behaviorFlags>152</behaviorFlags>
-				<cancelOnDisable>false</cancelOnDisable>
-				<cancelOnInterrupt>true</cancelOnInterrupt>
-				<cancelSpell href="/Items/Talents/Class/Vampire/Ability_A4_2.TALENT" id="8F4C6FA3-7B98-49D4-9F38-3B4725BF5D18">
-					<Spell>
-						<applicators>
-							<Item href="/GameLogic/GeneralApplicators/EndOfAbility.APLR" />
-						</applicators>
-						<dispatch href="/Items/Talents/Class/Vampire/Ability_A4_2.TALENT" id="A24CC615-0290-44E1-A805-BE7DC7F90A93">
-							<DispatchImmediate>
-								<alwaysApply>false</alwaysApply>
-								<applyEffect>
-									<Item href="" />
-									<Item href="" />
-								</applyEffect>
-								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
-								<applyEffectOrientation>Default</applyEffectOrientation>
-								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
-								<dieAfterApply>true</dieAfterApply>
-								<dispatchEffect>
-									<Item href="" />
-									<Item href="" />
-								</dispatchEffect>
-								<flags>0</flags>
-								<instantApply>false</instantApply>
-							</DispatchImmediate>
-						</dispatch>
-					</Spell>
-				</cancelSpell>
-				<caption>Ченнелинг для A4_2</caption>
-				<channelingType>Creation</channelingType>
-				<effect>
-					<Item href="/Items/Talents/Class/Vampire/Ability_A4_2.TALENT" id="DF43A836-EE40-4CCC-8580-3800F2E1DBA5">
-						<PlayAnimationEffect>
-							<animGraphNode>ability4Start</animGraphNode>
-							<deathType>Anim</deathType>
-							<enableCondition href="" />
-							<goToOtherNodeOnStop>true</goToOtherNodeOnStop>
-							<lifeTime>0</lifeTime>
-							<marker></marker>
-							<markerReachTime>0</markerReachTime>
-							<returnAnimGraphNode>ability4</returnAnimGraphNode>
-						</PlayAnimationEffect>
-					</Item>
-					<Item href="" />
-				</effect>
+		<Item href="/Items/Talents/Class/Vampire/Ability_A4_2.TALENT" id="A2804E2B-FB9A-4DF6-AA82-5BD6444E1248">
+			<SpellSwitchApplicator>
+				<activeSpellIndex>
+					<compiledString>FQAAAAAAAAAAVYvsVotFCIsQi00Ii4KQAQAA/9CL8ItNDIsRi00Mi4KQAQAA/9AzyTvwD5XBi8FeXcM=</compiledString>
+					<returnType>int</returnType>
+					<sString>sFctn == rFctn ? 0 : 1</sString>
+				</activeSpellIndex>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption></caption>
+				<dontUseDispatches>false</dontUseDispatches>
 				<enabled>
-					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+					<compiledString></compiledString>
 					<returnType>bool</returnType>
 					<sString>true</sString>
 				</enabled>
 				<formulaName></formulaName>
-				<interruptEvents>6820319</interruptEvents>
-				<lifeTime>
-					<compiledString>FQkAAAABAAAAFQAAAEE0X0RlbGF5AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
-					<returnType>float</returnType>
-					<sString>cA4_Delay</sString>
-				</lifeTime>
 				<LoggingEvent>-1</LoggingEvent>
-				<period>0</period>
-				<periodicalSpell href="" />
 				<providerName></providerName>
-				<removeStartSpellEffectOnInterrupt>true</removeStartSpellEffectOnInterrupt>
-				<scaleWhenInterrupted>
-					<compiledString></compiledString>
-					<returnType>float</returnType>
-					<sString>1.0f</sString>
-				</scaleWhenInterrupted>
-				<startCondition>
-					<compiledString></compiledString>
-					<returnType>bool</returnType>
-					<sString>true</sString>
-				</startCondition>
-				<startSpell href="" />
-				<stopSpell href="/Items/Talents/Class/Vampire/Ability_A4_2.TALENT" id="69BD4855-DCC5-4BED-9D38-BE851A33B5E9">
-					<Spell>
-						<applicators>
-							<Item href="/Items/Talents/Class/Vampire/Ability_A4_2.TALENT" id="364208BA-2ADB-42DC-87A7-B0FF4198CC8F">
-								<ProgramApplicator>
-									<applicators>
-										<Item>
-											<applicator href="/Items/Talents/Class/Vampire/status_A4_2_DisableVampire.APLR" />
-											<continueCondition>
-												<compiledString></compiledString>
-												<returnType>bool</returnType>
-												<sString>0</sString>
-											</continueCondition>
-											<continueEvents>2</continueEvents>
-											<delay>
-												<compiledString></compiledString>
-												<returnType>float</returnType>
-												<sString>-1.0</sString>
-											</delay>
-											<stopCondition>
-												<compiledString></compiledString>
-												<returnType>bool</returnType>
-												<sString>0</sString>
-											</stopCondition>
-											<stopEvents>0</stopEvents>
-										</Item>
-										<Item>
-											<applicator href="/Items/Talents/Class/Vampire/Ability_A4_2.TALENT" id="28520BCC-F081-41D5-B09A-8F2E19788E14">
-												<SpellApplicator>
-													<applyTarget>ApplicatorTarget</applyTarget>
-													<caption>Спелл нужен для символа леса</caption>
-													<enabled>
-														<compiledString></compiledString>
-														<returnType>bool</returnType>
-														<sString>true</sString>
-													</enabled>
-													<formulaName></formulaName>
-													<LoggingEvent>-1</LoggingEvent>
-													<providerName></providerName>
-													<spell href="/Items/Talents/Class/Vampire/Ability_A4_2.TALENT" id="53FF1E77-FB87-406E-9D7F-DEBCA6F3EEF2">
-														<Spell>
-															<applicators>
-																<Item href="/Items/Talents/Class/Vampire/Ability_A4_2.TALENT" id="A22445D4-04E5-4529-AB1A-D87AF8EF1063">
-																	<VariableProxyApplicator>
-																		<applicators>
-																			<Item>
-																				<applicator href="/Items/Talents/Class/Vampire/Ability_A4_2.TALENT" id="9D92170F-8AE9-41D9-BB9D-303369369691">
-																					<DamageApplicator>
-																						<applyTarget>ApplicatorTarget</applyTarget>
-																						<cancelInvisibility>false</cancelInvisibility>
-																						<caption>Урон</caption>
-																						<damage>
-																							<compiledString>FQwAAAABAAAAGAAAAEE0XzJfRGFtYWdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
-																							<returnType>float</returnType>
-																							<sString>cA4_2_Damage</sString>
-																						</damage>
-																						<damageMode>4</damageMode>
-																						<damageType>Material</damageType>
-																						<enabled>
-																							<compiledString>FR4AAAACAAAAJQAAAD4AAABWYW1waXJlX0E0XzJ1AAAAVmFtcGlyZV9BNF8ydQBVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AIpF+4vlXcM=</compiledString>
-																							<returnType>bool</returnType>
-																							<sString>tal("Vampire_A4_2u")</sString>
-																						</enabled>
-																						<formulaName>VampireA4_2Damage</formulaName>
-																						<LoggingEvent>-1</LoggingEvent>
-																						<providerName></providerName>
-																						<timeLimiter>-1</timeLimiter>
-																						<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Material.UIEV" />
-																					</DamageApplicator>
-																				</applicator>
-																				<variableNames>
-																					<Item>damageDealed</Item>
-																				</variableNames>
-																			</Item>
-																			<Item>
-																				<applicator href="/Items/Talents/Class/Vampire/Ability_A4_2.TALENT" id="4FEDC819-F158-4708-BD1B-282074A85029">
-																					<HealApplicator>
-																						<amount>
-																							<compiledString>FTQAAAADAAAAUwAAAGUAAAB+AAAAVmFtcGlyZUE0XzJEYW1hZ2U6ZGFtYWdlRGVhbGVkAABBMF9MaWZlRHJhaW5QZXJjZW50AFWL7IPsEItFEIsQi00Qi0JI/9CJRfyLTQxRi1UIUmggAAAAi0UQixCLTRCLQlD/0GgAAAAAi038ixGLTfyLQlTdXfT/0NxN9Nw1jAAAANld8NlF8IvlXcMAAAAAAABZQA==</compiledString>
-																							<returnType>float</returnType>
-																							<sString>appl.parent.GetVariable("VampireA4_2Damage:damageDealed") * cA0_LifeDrainPercent / 100</sString>
-																						</amount>
-																						<applyTarget>AbilityOwner</applyTarget>
-																						<caption>heal</caption>
-																						<enabled>
-																							<compiledString></compiledString>
-																							<returnType>bool</returnType>
-																							<sString>true</sString>
-																						</enabled>
-																						<formulaName></formulaName>
-																						<healTarget>Health</healTarget>
-																						<ignoreHealingMods>false</ignoreHealingMods>
-																						<LoggingEvent>-1</LoggingEvent>
-																						<providerName></providerName>
-																						<uiEvent href="/UI/Events/CommonEvents/EventHeal.UIEV" />
-																					</HealApplicator>
-																				</applicator>
-																				<variableNames />
-																			</Item>
-																		</applicators>
-																		<applyTarget>ApplicatorTarget</applyTarget>
-																		<caption>Обертка для урона и отхила по окончании А4_2у</caption>
-																		<enabled>
-																			<compiledString></compiledString>
-																			<returnType>bool</returnType>
-																			<sString>true</sString>
-																		</enabled>
-																		<formulaName></formulaName>
-																		<LoggingEvent>-1</LoggingEvent>
-																		<providerName></providerName>
-																	</VariableProxyApplicator>
-																</Item>
-															</applicators>
-															<dispatch href="/Items/Talents/Class/Vampire/Ability_A4_2.TALENT" id="5A94F0B3-CE59-4F46-A4C7-E46DAE072E76">
-																<DispatchImmediate>
-																	<alwaysApply>false</alwaysApply>
-																	<applyEffect>
-																		<Item href="" />
-																		<Item href="" />
-																	</applyEffect>
-																	<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
-																	<applyEffectOrientation>Default</applyEffectOrientation>
-																	<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
-																	<dieAfterApply>true</dieAfterApply>
-																	<dispatchEffect>
-																		<Item href="" />
-																		<Item href="" />
-																	</dispatchEffect>
-																	<flags>1</flags>
-																	<instantApply>false</instantApply>
-																</DispatchImmediate>
-															</dispatch>
-														</Spell>
-													</spell>
-													<spellTarget>ApplicatorTarget</spellTarget>
-													<targetSelector href="" />
-												</SpellApplicator>
-											</applicator>
-											<continueCondition>
-												<compiledString></compiledString>
-												<returnType>bool</returnType>
-												<sString>0</sString>
-											</continueCondition>
-											<continueEvents>2</continueEvents>
-											<delay>
-												<compiledString></compiledString>
-												<returnType>float</returnType>
-												<sString>-1.0</sString>
-											</delay>
-											<stopCondition>
-												<compiledString></compiledString>
-												<returnType>bool</returnType>
-												<sString>0</sString>
-											</stopCondition>
-											<stopEvents>0</stopEvents>
-										</Item>
-									</applicators>
-									<applyTarget>AbilityTarget</applyTarget>
-									<behaviorFlags>144</behaviorFlags>
-									<caption>Программа статус+урон</caption>
-									<effect>
+				<spells>
+					<Item href="/Items/Talents/Class/Vampire/Ability_A4_2.TALENT" id="CA778FB3-2F26-42B0-BCCC-87FF4407B34A">
+						<Spell>
+							<applicators>
+								<Item href="/Items/Talents/Class/Vampire/Ability_A4_2.TALENT" id="F551E919-F092-467F-8C48-4736A63361BB">
+									<ProgramApplicator>
+										<applicators>
+											<Item>
+												<applicator href="/Items/Talents/Class/Vampire/status_A4_2_DisableVampire_Self.APLR" />
+												<continueCondition>
+													<compiledString></compiledString>
+													<returnType>bool</returnType>
+													<sString>0</sString>
+												</continueCondition>
+												<continueEvents>2</continueEvents>
+												<delay>
+													<compiledString></compiledString>
+													<returnType>float</returnType>
+													<sString>-1.0</sString>
+												</delay>
+												<stopCondition>
+													<compiledString></compiledString>
+													<returnType>bool</returnType>
+													<sString>0</sString>
+												</stopCondition>
+												<stopEvents>0</stopEvents>
+											</Item>
+											<Item>
+												<applicator href="/Items/Talents/Class/Vampire/Ability_A4_2.TALENT" id="B281BB3C-C073-41AE-9CD3-7103A425BCB7">
+													<SpellApplicator>
+														<applyTarget>AbilityOwner</applyTarget>
+														<caption>хил и диспел</caption>
+														<enabled>
+															<compiledString>FR4AAAACAAAAJQAAAD4AAABWYW1waXJlX0E0XzJ1AAAAVmFtcGlyZV9BNF8ydQBVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AIpF+4vlXcM=</compiledString>
+															<returnType>bool</returnType>
+															<sString>tal("Vampire_A4_2u")</sString>
+														</enabled>
+														<formulaName></formulaName>
+														<LoggingEvent>-1</LoggingEvent>
+														<providerName></providerName>
+														<spell href="/Items/Talents/Class/Vampire/Ability_A4_2.TALENT" id="ABB5B5ED-6210-434C-A8B2-AE7A77622AB6">
+															<Spell>
+																<applicators>
+																	<Item href="/Items/Talents/Class/Vampire/Ability_A4_2.TALENT" id="B0DF4C9C-1FCF-4C9A-AD33-E27878B40230">
+																		<HealApplicator>
+																			<amount>
+																				<compiledString>FQwAAAABAAAAGAAAAEE0XzJfRGFtYWdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+																				<returnType>float</returnType>
+																				<sString>cA4_2_Damage</sString>
+																			</amount>
+																			<applyTarget>AbilityOwner</applyTarget>
+																			<caption></caption>
+																			<enabled>
+																				<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+																				<returnType>bool</returnType>
+																				<sString>true</sString>
+																			</enabled>
+																			<formulaName></formulaName>
+																			<healTarget>Health</healTarget>
+																			<ignoreHealingMods>false</ignoreHealingMods>
+																			<LoggingEvent>-1</LoggingEvent>
+																			<providerName></providerName>
+																			<uiEvent href="/UI/Events/CommonEvents/EventHeal.UIEV" />
+																		</HealApplicator>
+																	</Item>
+																	<Item href="/GameLogic/GeneralApplicators/DispellWEffects.APLR" />
+																</applicators>
+																<dispatch href="/Items/Talents/Class/Vampire/Ability_A4_2.TALENT" id="E6810F31-2BED-4C93-AAC7-FC807BEAADD5">
+																	<DispatchImmediate>
+																		<alwaysApply>false</alwaysApply>
+																		<applyEffect>
+																			<Item href="" />
+																			<Item href="" />
+																		</applyEffect>
+																		<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																		<applyEffectOrientation>Default</applyEffectOrientation>
+																		<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																		<dieAfterApply>true</dieAfterApply>
+																		<dispatchEffect>
+																			<Item href="" />
+																			<Item href="" />
+																		</dispatchEffect>
+																		<flags>0</flags>
+																		<instantApply>false</instantApply>
+																	</DispatchImmediate>
+																</dispatch>
+															</Spell>
+														</spell>
+														<spellTarget>ApplicatorTarget</spellTarget>
+														<targetSelector href="" />
+													</SpellApplicator>
+												</applicator>
+												<continueCondition>
+													<compiledString></compiledString>
+													<returnType>bool</returnType>
+													<sString>0</sString>
+												</continueCondition>
+												<continueEvents>2</continueEvents>
+												<delay>
+													<compiledString></compiledString>
+													<returnType>float</returnType>
+													<sString>-1.0</sString>
+												</delay>
+												<stopCondition>
+													<compiledString></compiledString>
+													<returnType>bool</returnType>
+													<sString>0</sString>
+												</stopCondition>
+												<stopEvents>0</stopEvents>
+											</Item>
+										</applicators>
+										<applyTarget>AbilityTarget</applyTarget>
+										<behaviorFlags>144</behaviorFlags>
+										<caption>Программа статус+урон</caption>
+										<effect>
+											<Item href="" />
+											<Item href="" />
+										</effect>
+										<enabled>
+											<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</enabled>
+										<formulaName>VampA4_2Program</formulaName>
+										<lifeTime>
+											<compiledString></compiledString>
+											<returnType>float</returnType>
+											<sString>-1.0</sString>
+										</lifeTime>
+										<LoggingEvent>-1</LoggingEvent>
+										<providerName></providerName>
+										<startCondition>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</startCondition>
+									</ProgramApplicator>
+								</Item>
+								<Item href="/GameLogic/GeneralApplicators/EndOfAbility.APLR" />
+							</applicators>
+							<dispatch href="/Items/Talents/Class/Vampire/Ability_A4_2.TALENT" id="66C0DD8A-B277-4116-AC0A-AF821C84CDE5">
+								<DispatchImmediate>
+									<alwaysApply>false</alwaysApply>
+									<applyEffect>
 										<Item href="" />
 										<Item href="" />
-									</effect>
-									<enabled>
-										<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
-										<returnType>bool</returnType>
-										<sString>true</sString>
-									</enabled>
-									<formulaName>VampA4_2Program</formulaName>
-									<lifeTime>
-										<compiledString></compiledString>
-										<returnType>float</returnType>
-										<sString>-1.0</sString>
-									</lifeTime>
-									<LoggingEvent>-1</LoggingEvent>
-									<providerName></providerName>
-									<startCondition>
-										<compiledString></compiledString>
-										<returnType>bool</returnType>
-										<sString>true</sString>
-									</startCondition>
-								</ProgramApplicator>
-							</Item>
-							<Item href="/GameLogic/GeneralApplicators/EndOfAbility.APLR" />
-						</applicators>
-						<dispatch href="/Items/Talents/Class/Vampire/Ability_A4_2.TALENT" id="C2A911EE-F971-485C-A8DB-4A5D3789A0B8">
-							<DispatchImmediate>
-								<alwaysApply>false</alwaysApply>
-								<applyEffect>
-									<Item href="" />
-									<Item href="" />
-								</applyEffect>
-								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
-								<applyEffectOrientation>Default</applyEffectOrientation>
-								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
-								<dieAfterApply>true</dieAfterApply>
-								<dispatchEffect>
-									<Item href="" />
-									<Item href="" />
-								</dispatchEffect>
-								<flags>0</flags>
-								<instantApply>false</instantApply>
-							</DispatchImmediate>
-						</dispatch>
-					</Spell>
-				</stopSpell>
-				<targetSelector href="" />
-			</ChannellingApplicator>
+									</applyEffect>
+									<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+									<applyEffectOrientation>Default</applyEffectOrientation>
+									<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+									<dieAfterApply>true</dieAfterApply>
+									<dispatchEffect>
+										<Item href="" />
+										<Item href="" />
+									</dispatchEffect>
+									<flags>0</flags>
+									<instantApply>false</instantApply>
+								</DispatchImmediate>
+							</dispatch>
+						</Spell>
+					</Item>
+					<Item href="/Items/Talents/Class/Vampire/Ability_A4_2.TALENT" id="28A7CE61-D9DC-4C3D-81FA-A774285E1D76">
+						<Spell>
+							<applicators>
+								<Item href="/Items/Talents/Class/Vampire/Ability_A4_2.TALENT" id="3ACCFE0A-433A-45F7-8550-EA09B140D68E">
+									<ProgramApplicator>
+										<applicators>
+											<Item>
+												<applicator href="/Items/Talents/Class/Vampire/status_A4_2_DisableVampire.APLR" />
+												<continueCondition>
+													<compiledString></compiledString>
+													<returnType>bool</returnType>
+													<sString>0</sString>
+												</continueCondition>
+												<continueEvents>2</continueEvents>
+												<delay>
+													<compiledString></compiledString>
+													<returnType>float</returnType>
+													<sString>-1.0</sString>
+												</delay>
+												<stopCondition>
+													<compiledString></compiledString>
+													<returnType>bool</returnType>
+													<sString>0</sString>
+												</stopCondition>
+												<stopEvents>0</stopEvents>
+											</Item>
+											<Item>
+												<applicator href="/Items/Talents/Class/Vampire/Ability_A4_2.TALENT" id="E8C45CBE-4C63-4A54-BB61-39E021975D9A">
+													<SpellApplicator>
+														<applyTarget>ApplicatorTarget</applyTarget>
+														<caption>Спелл нужен для символа леса</caption>
+														<enabled>
+															<compiledString></compiledString>
+															<returnType>bool</returnType>
+															<sString>true</sString>
+														</enabled>
+														<formulaName></formulaName>
+														<LoggingEvent>-1</LoggingEvent>
+														<providerName></providerName>
+														<spell href="/Items/Talents/Class/Vampire/Ability_A4_2.TALENT" id="93DF2D9F-65DE-4D47-BD9A-D4D945E5AA93">
+															<Spell>
+																<applicators>
+																	<Item href="/Items/Talents/Class/Vampire/Ability_A4_2.TALENT" id="80B168CD-B657-44DF-9373-72F827E518B6">
+																		<VariableProxyApplicator>
+																			<applicators>
+																				<Item>
+																					<applicator href="/Items/Talents/Class/Vampire/Ability_A4_2.TALENT" id="6B0BDEBA-90DB-41C9-9329-2082319EE77C">
+																						<DamageApplicator>
+																							<applyTarget>ApplicatorTarget</applyTarget>
+																							<cancelInvisibility>false</cancelInvisibility>
+																							<caption>Урон</caption>
+																							<damage>
+																								<compiledString>FQwAAAABAAAAGAAAAEE0XzJfRGFtYWdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+																								<returnType>float</returnType>
+																								<sString>cA4_2_Damage</sString>
+																							</damage>
+																							<damageMode>4</damageMode>
+																							<damageType>Material</damageType>
+																							<enabled>
+																								<compiledString>FR4AAAACAAAAJQAAAD4AAABWYW1waXJlX0E0XzJ1AAAAVmFtcGlyZV9BNF8ydQBVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AIpF+4vlXcM=</compiledString>
+																								<returnType>bool</returnType>
+																								<sString>tal("Vampire_A4_2u")</sString>
+																							</enabled>
+																							<formulaName>VampireA4_2Damage</formulaName>
+																							<LoggingEvent>-1</LoggingEvent>
+																							<providerName></providerName>
+																							<timeLimiter>-1</timeLimiter>
+																							<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Material.UIEV" />
+																						</DamageApplicator>
+																					</applicator>
+																					<variableNames>
+																						<Item>damageDealed</Item>
+																					</variableNames>
+																				</Item>
+																				<Item>
+																					<applicator href="/Items/Talents/Class/Vampire/Ability_A4_2.TALENT" id="C0B0E1E9-70A6-4039-B164-F7A3982CC11B">
+																						<HealApplicator>
+																							<amount>
+																								<compiledString>FTQAAAADAAAAUwAAAGUAAAB+AAAAVmFtcGlyZUE0XzJEYW1hZ2U6ZGFtYWdlRGVhbGVkAABBMF9MaWZlRHJhaW5QZXJjZW50AFWL7IPsEItFEIsQi00Qi0JI/9CJRfyLTQxRi1UIUmggAAAAi0UQixCLTRCLQlD/0GgAAAAAi038ixGLTfyLQlTdXfT/0NxN9Nw1jAAAANld8NlF8IvlXcMAAAAAAABZQA==</compiledString>
+																								<returnType>float</returnType>
+																								<sString>appl.parent.GetVariable("VampireA4_2Damage:damageDealed") * cA0_LifeDrainPercent / 100</sString>
+																							</amount>
+																							<applyTarget>AbilityOwner</applyTarget>
+																							<caption>heal</caption>
+																							<enabled>
+																								<compiledString></compiledString>
+																								<returnType>bool</returnType>
+																								<sString>true</sString>
+																							</enabled>
+																							<formulaName></formulaName>
+																							<healTarget>Health</healTarget>
+																							<ignoreHealingMods>false</ignoreHealingMods>
+																							<LoggingEvent>-1</LoggingEvent>
+																							<providerName></providerName>
+																							<uiEvent href="/UI/Events/CommonEvents/EventHeal.UIEV" />
+																						</HealApplicator>
+																					</applicator>
+																					<variableNames />
+																				</Item>
+																			</applicators>
+																			<applyTarget>ApplicatorTarget</applyTarget>
+																			<caption>Обертка для урона и отхила по окончании А4_2у</caption>
+																			<enabled>
+																				<compiledString></compiledString>
+																				<returnType>bool</returnType>
+																				<sString>true</sString>
+																			</enabled>
+																			<formulaName></formulaName>
+																			<LoggingEvent>-1</LoggingEvent>
+																			<providerName></providerName>
+																		</VariableProxyApplicator>
+																	</Item>
+																</applicators>
+																<dispatch href="/Items/Talents/Class/Vampire/Ability_A4_2.TALENT" id="4E6C7163-8A72-4977-8AC3-16C9ACE01994">
+																	<DispatchImmediate>
+																		<alwaysApply>false</alwaysApply>
+																		<applyEffect>
+																			<Item href="" />
+																			<Item href="" />
+																		</applyEffect>
+																		<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																		<applyEffectOrientation>Default</applyEffectOrientation>
+																		<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																		<dieAfterApply>true</dieAfterApply>
+																		<dispatchEffect>
+																			<Item href="" />
+																			<Item href="" />
+																		</dispatchEffect>
+																		<flags>1</flags>
+																		<instantApply>false</instantApply>
+																	</DispatchImmediate>
+																</dispatch>
+															</Spell>
+														</spell>
+														<spellTarget>ApplicatorTarget</spellTarget>
+														<targetSelector href="" />
+													</SpellApplicator>
+												</applicator>
+												<continueCondition>
+													<compiledString></compiledString>
+													<returnType>bool</returnType>
+													<sString>0</sString>
+												</continueCondition>
+												<continueEvents>2</continueEvents>
+												<delay>
+													<compiledString></compiledString>
+													<returnType>float</returnType>
+													<sString>-1.0</sString>
+												</delay>
+												<stopCondition>
+													<compiledString></compiledString>
+													<returnType>bool</returnType>
+													<sString>0</sString>
+												</stopCondition>
+												<stopEvents>0</stopEvents>
+											</Item>
+										</applicators>
+										<applyTarget>AbilityTarget</applyTarget>
+										<behaviorFlags>144</behaviorFlags>
+										<caption>Программа статус+урон</caption>
+										<effect>
+											<Item href="" />
+											<Item href="" />
+										</effect>
+										<enabled>
+											<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</enabled>
+										<formulaName>VampA4_2Program</formulaName>
+										<lifeTime>
+											<compiledString></compiledString>
+											<returnType>float</returnType>
+											<sString>-1.0</sString>
+										</lifeTime>
+										<LoggingEvent>-1</LoggingEvent>
+										<providerName></providerName>
+										<startCondition>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</startCondition>
+									</ProgramApplicator>
+								</Item>
+								<Item href="/GameLogic/GeneralApplicators/EndOfAbility.APLR" />
+							</applicators>
+							<dispatch href="/Items/Talents/Class/Vampire/Ability_A4_2.TALENT" id="B2CB4BE8-B34F-4054-8AD3-6EBD7FCFCF22">
+								<DispatchImmediate>
+									<alwaysApply>false</alwaysApply>
+									<applyEffect>
+										<Item href="" />
+										<Item href="" />
+									</applyEffect>
+									<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+									<applyEffectOrientation>Default</applyEffectOrientation>
+									<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+									<dieAfterApply>true</dieAfterApply>
+									<dispatchEffect>
+										<Item href="" />
+										<Item href="" />
+									</dispatchEffect>
+									<flags>0</flags>
+									<instantApply>false</instantApply>
+								</DispatchImmediate>
+							</dispatch>
+						</Spell>
+					</Item>
+				</spells>
+			</SpellSwitchApplicator>
 		</Item>
 	</applicators>
 	<askId>4</askId>
@@ -364,9 +431,9 @@
 		<Item href="/Items/Talents/Class/Vampire/Ability_A4_2.TALENT" id="26EF1749-D6DD-4191-9D8D-D3957B115C3C">
 			<ConditionCastLimitation>
 				<condition>
-					<compiledString>FQ8AAAACAAAAFAAAACoAAABJbW11bmUyQ29udHJvbABVi+xRaAAAAACLRQyLEItNDIuCiAEAAP/Q3B1MAAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
+					<compiledString>FQ8AAAACAAAAFQAAACsAAABJbW11bmUyQ29udHJvbABVi+xRVmgAAAAAi0UMixCLTQyLgogBAAD/0NwddAAAAN/g9sREey+LTQiLEYtNCIuCkAEAAP/Qi/CLTQyLEYtNDIuCkAEAAP/QO/B0CcdF/AAAAADrB8dF/AEAAACKRfxei+VdwwAAAAAAAAAA</compiledString>
 					<returnType>bool</returnType>
-					<sString>receiver.vImmune2Control == 0</sString>
+					<sString>receiver.vImmune2Control == 0 || sFctn == rFctn</sString>
 				</condition>
 				<uiEvent href="/UI/Events/ErrorMessages/CastError_Immune2Ctrl.UIEV" />
 			</ConditionCastLimitation>
@@ -439,9 +506,9 @@
 					<UnitConstant>
 						<name>A4_2_LifeCost</name>
 						<var>
-							<compiledString>FRsAAAACAAAATgAAAHIAAABBMF9UZXJyYWluTGlmZUNvc3RNb2RpZmllcgBVi+yD7AhWi0UIixCLTQiLQkz/0Ivwi00IixGLTQiLgpABAAD/0DvwdR+LTQxRi1UIUmgAAAAAi0UQixCLTRCLQlD/0Nld/OsF2e7ZXfzZRfzZ6N7h3A2BAAAA2V342UX4XovlXcMAAAAAAABZQAAAAAAAAPA/AAAAAA==</compiledString>
+							<compiledString>FRsAAAACAAAATgAAAHIAAABBMF9UZXJyYWluTGlmZUNvc3RNb2RpZmllcgBVi+yD7BRWi0UIixCLTQiLQkz/0Ivwi00IixGLTQiLgpABAAD/0DvwdR+LTQxRi1UIUmgAAAAAi0UQixCLTRCLQlD/0Nld/OsF2e7ZXfzZRfzZ6N7h3A2oAAAAi00IixGLTQiLgmABAADdXfT/0Jm5JAAAAPf5g8ABiUXw20Xw3E302V3s2UXsXovlXcMAAAAAAABZQAAAAAAAAPA/AAAAAA==</compiledString>
 							<returnType>float</returnType>
-							<sString>100 * (1-nt( cA0_TerrainLifeCostModifier, 0 ))</sString>
+							<sString>100 * (1-nt( cA0_TerrainLifeCostModifier, 0 )) * (1 + sNaftaLevel/36)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -494,10 +561,10 @@
 				<Item href="" />
 			</dispatchEffect>
 			<flags>0</flags>
-			<instantApply>true</instantApply>
+			<instantApply>false</instantApply>
 		</DispatchImmediate>
 	</dispatch>
-	<flags>18467</flags>
+	<flags>49155</flags>
 	<forceBonus>0</forceBonus>
 	<image href="/UI/Styles/Icons/Heroes/Vampire/A4_2.ITEX" />
 	<imageSecondState href="" />
@@ -525,8 +592,8 @@
 	<shortDescription textref="/Items/Talents/Class/Vampire/Ability_A4_2.TALENT_shortDescription.txt" />
 	<talentRollGroups>63</talentRollGroups>
 	<talentStats />
-	<targetType>671088643</targetType>
-	<type>Channelling</type>
+	<targetType>1744830467</targetType>
+	<type>Active</type>
 	<upgradeLevel>0</upgradeLevel>
 	<useRange>
 		<compiledString>FQsAAAABAAAAFwAAAEE0XzJfUmFuZ2UAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>

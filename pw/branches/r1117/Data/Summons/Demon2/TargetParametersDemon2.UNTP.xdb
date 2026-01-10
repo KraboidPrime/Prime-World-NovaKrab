@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UnitTargetingParameters>
-	<BackLink DBID="/Summons/Demon2/_.SUMMONED" Count="1" />
 	<aggressiveNeutralAttackingHeroWeight>30</aggressiveNeutralAttackingHeroWeight>
 	<aggressiveNeutralWeight>30</aggressiveNeutralWeight>
 	<aggroRange>-1</aggroRange>

@@ -16,6 +16,7 @@
 	<BackLink DBID="/Test/Talents/Assassin/Elite_Int.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Assassin/Epic_Int.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Assassin/Epic_Str.TALENTSET" Count="1" />
+	<BackLink DBID="/Test/Talents/Assassin/New_SUP.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -787,9 +788,9 @@
 					<UnitConstant>
 						<name>A4_Damage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAD+QgCAbUQ=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAADkQgDAVUQ=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale( sIntellect, 127, 950 )</sString>
+							<sString>damageScale( sIntellect, 114, 855 )</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -848,7 +849,6 @@
 				</Item>
 				<Item href="/Items/Talents/Class/Assassin/const_A3_Duration" />
 				<Item href="/Items/Talents/Class/Assassin/const_A3_MaxDamagePercent" />
-				<Item href="/Items/Talents/Class/Assassin/const_A3_AddDamagePercent" />
 				<Item href="/Items/Talents/Class/Assassin/const_A3_DamageMul" />
 				<Item href="/Items/Talents/Class/Assassin/Ability_A4.TALENT" id="482E9F34-6FFA-495F-B12F-61F17BABDA91">
 					<UnitConstant>
@@ -862,6 +862,17 @@
 				</Item>
 				<Item href="/Items/Talents/Class/Assassin/const_A0_SUP_2_Appl_Duration" />
 				<Item href="/Items/Talents/Class/Assassin/const_A0_SUP_2_Inc_Resp_Time" />
+				<Item href="/Items/Talents/Class/Assassin/const_A3_SUP_Damage_Increase_Rate" />
+				<Item href="/Items/Talents/Class/Assassin/Ability_A4.TALENT" id="B4F9311E-C78C-40B4-8B3E-4772685D6F34">
+					<UnitConstant>
+						<name>A3_AddDamagePercent</name>
+						<var>
+							<compiledString>FYQAAAAIAAAAiwAAAKQAAADeAAAA9wAAAC0BAABGAQAAiwEAAKQBAABBc3Nhc3Npbl9BM19TVVAAQXNzYXNzaW5fQTNfU1VQAEFzc2Fzc2luX0EwX1NVUABBc3Nhc3Npbl9BMF9TVVAAQXNzYXNzaW5fQTBfU1VQXzIAAABBc3Nhc3Npbl9BMF9TVVBfMgAAAEEzX1NVUF9EYW1hZ2VfSW5jcmVhc2VfUmF0ZQBVi+yD7CBoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyQ+FpQAAAGggAAAAi1UIiwKLTQiLkKgBAAD/0oXAdCpoMAAAAItFCIsQi00Ii4KoAQAA/9CJRfSLTfSLEYtN9ItCBP/QiEXz6wTGRfMAD7ZN84XJdVZoQAAAAItVCIsCi00Ii5CoAQAA/9KFwHQqaFQAAACLRQiLEItNCIuCqAEAAP/QiUXsi03sixGLTeyLQgT/0IhF6+sExkXrAA+2TeuFyXUH2ejZXeTrHYtVDFKLRQhQaGgAAACLTRCLEYtNEItCUP/Q2V3k2UXk3A2yAQAA2V3g2UXgi+VdwwAAAAAAAD5AAACAPw==</compiledString>
+							<returnType>float</returnType>
+							<sString>30 * ((tal("Assassin_A3_SUP") || tal("Assassin_A0_SUP") || tal("Assassin_A0_SUP_2")) ? cA3_SUP_Damage_Increase_Rate : 1)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
@@ -907,7 +918,7 @@
 	<isGenderTalent>false</isGenderTalent>
 	<isTakenOnStart>false</isTakenOnStart>
 	<isUltimateTalent>false</isUltimateTalent>
-	<isUnitFreeAfterCast>false</isUnitFreeAfterCast>
+	<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
 	<manaCost>
 		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAB6Qw==</compiledString>
 		<returnType>float</returnType>

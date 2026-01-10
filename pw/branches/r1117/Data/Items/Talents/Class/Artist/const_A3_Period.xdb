@@ -6,8 +6,8 @@
 	<BackLink DBID="/Heroes/Artist/_.HROB" Count="1" />
 	<name>A3_Period</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DZmbmPw==</compiledString>
 		<returnType>float</returnType>
-		<sString>2</sString>
+		<sString>1.8f</sString>
 	</var>
 </UnitConstant>

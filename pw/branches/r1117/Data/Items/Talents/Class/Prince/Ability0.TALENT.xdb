@@ -62,9 +62,9 @@
 					<UnitConstant>
 						<name>A0_DefenceChance</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQQ==</compiledString>
+							<compiledString>FQAAAAADAAAABwAAACAAAAAmAAAAVYvsUVHZBVAAAADZHCSLRQiLEItNCIuCvAAAAP/Q3A1IAAAA3AVAAAAA2V382UX8UdkcJOgbAAAAg8QIi+VdwwAAAAAAADpAexSuR+F6tD8AAMZCVYvsUdlFCNlFDN7Z3+D2xEF1CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
 							<returnType>float</returnType>
-							<sString>25</sString>
+							<sString>min(0.08*sBaseIntellect + 26, 99)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -72,9 +72,9 @@
 					<UnitConstant>
 						<name>A0_RollChance</name>
 						<var>
-							<compiledString>FREAAAACAAAALAAAAD8AAABBMF9EZWZlbmNlQ2hhbmNlAFWL7IPsCItFDFCLTQhRagJqBItVDFKLRQhQaAAAAACLTRCLEYtNEItCUP/Q3A1nAAAA2V382UX8UdkcJItNEIsRi00Qi0Jk/9APtsiJTfjbRfiL5V3DexSuR+F6hD8=</compiledString>
+							<compiledString>FREAAAACAAAALAAAAD8AAABBMF9EZWZlbmNlQ2hhbmNlAFWL7IPsCItFDFCLTQhRagpqCotVDFKLRQhQaAAAAACLTRCLEYtNEItCUP/Q3A1nAAAA2V382UX8UdkcJItNEIsRi00Qi0Jk/9APtsiJTfjbRfiL5V3DexSuR+F6hD8=</compiledString>
 							<returnType>float</returnType>
-							<sString>smartRoll(cA0_DefenceChance*0.01 , 4 , 2) </sString>
+							<sString>smartRoll(cA0_DefenceChance*0.01 , 10 , 10) </sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -82,9 +82,9 @@
 					<UnitConstant>
 						<name>DefenceAmount</name>
 						<var>
-							<compiledString>FQAAAAACAAAAQgAAAEwAAABVi+yD7AyLRQiLEItNCIuCMAEAAP/Qi00IixGLTQiLgjQBAADdXfj/0Nxd+N/g9sQFegbGRfcB6wTGRfcAagFR2QWkAAAA2RwkUdkFoAAAANkcJGoAi00IixGLTQiLgjQBAAD/0FHZHCSLTQiLEYtNCIuCMAEAAP/QUdkcJA+2TfdR6CEAAACDxAjZHCRqAItVEIsCi00Qi1Bg/9KL5V3DAAAwQQAApkJVi+xRD7ZFCIXAdAjZRQzZXfzrBtlFENld/NlF/IvlXcM=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCuAAAAP/QUdkcJGoAi00QixGLTRCLQmD/0F3DAADgQAAAVEI=</compiledString>
 							<returnType>float</returnType>
-							<sString>abilityScale (s(sStrength&gt;sIntellect, sStrength, sIntellect), 11, 83)</sString>
+							<sString>abilityScale (sBaseStrength, 7, 53)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -92,9 +92,9 @@
 					<UnitConstant>
 						<name>A0_MaxDef</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQQ==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADGQg==</compiledString>
 							<returnType>float</returnType>
-							<sString>30</sString>
+							<sString>99</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -221,9 +221,9 @@
 							<onlySingleTarget>false</onlySingleTarget>
 						</abilityFilter>
 						<add>
-							<compiledString>FSoAAAAEAAAAOQAAAEwAAABRAAAAewAAAEEwX01heERlZgAAAHJhd0RhbWFnZQAAAFB1cmVEZWZlbmNlQW1vdW50AFWL7IPsDItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S3A2eAAAAaAwAAACLRRCLEItNEItCVN1d+P/Q3E342V302UX0UdkcJItNDFGLVQhSaBgAAACLRRCLEItNEItCUP/QUdkcJOgRAAAAg8QI2eCL5V3DexSuR+F6hD9Vi+xR2UUI2UUM3tnf4PbEQXUI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
+							<compiledString>FRIAAAABAAAAHgAAAFB1cmVEZWZlbmNlQW1vdW50AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S2eBdww==</compiledString>
 							<returnType>float</returnType>
-							<sString>-min(cPureDefenceAmount, cA0_MaxDef*0.01*appl.GetVariable("rawDamage"))</sString>
+							<sString>-cPureDefenceAmount</sString>
 						</add>
 						<applyTarget>ApplicatorTarget</applyTarget>
 						<checkSender>0</checkSender>

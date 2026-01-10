@@ -6,6 +6,7 @@
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/FallenAngel_Mighty.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/FallenAngel/Epic_IntDex.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/FallenAngel/Epic_IntSpeed.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/FallenAngel/Ability_A0_SUP.TALENT" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>

@@ -155,6 +155,8 @@
 	<BackLink DBID="/Test/Talents/WitchDoctor/Duel_Str.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/WitchDoctor/Elite_Str.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Witcher/Elite_Str.TALENTSET" Count="1" />
+	<BackLink DBID="/GameLogic/TalentGroup.TGRP" Count="1" />
+	<BackLink DBID="/GameLogic/AILogic.AILP" Count="2" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -173,18 +175,599 @@
 		<sString>0.0f</sString>
 	</aoeSize>
 	<aoeType>None</aoeType>
-	<applicators />
+	<applicators>
+		<Item href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="B5DC7CC2-6307-4CD9-B2AF-C62A8AB0FB73">
+			<SummonApplicator>
+				<applicators>
+					<Item href="/Heroes/DefaultStatus/_MasterStatConnect_Level.APLR" />
+					<Item href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="6472A21C-430C-4566-B3B8-39FCDD2343B4">
+						<PermanentStatModApplicator>
+							<applyTarget>ApplicatorTarget</applyTarget>
+							<caption>установить AttacksPerSecond</caption>
+							<customApplyType>None</customApplyType>
+							<enabled>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</enabled>
+							<formulaName></formulaName>
+							<LoggingEvent>-1</LoggingEvent>
+							<modifier>
+								<addValue>
+									<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+									<returnType>float</returnType>
+									<sString>1</sString>
+								</addValue>
+								<multValue>
+									<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+									<returnType>float</returnType>
+									<sString>0</sString>
+								</multValue>
+								<stat>Life</stat>
+								<topModifier>false</topModifier>
+								<variable>ExplicitAttacksPerSecond</variable>
+							</modifier>
+							<providerName></providerName>
+						</PermanentStatModApplicator>
+					</Item>
+					<Item href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="EE1A8205-757D-47A8-8838-887084A15B6B">
+						<GhostMoveApplicator>
+							<applyTarget>ApplicatorTarget</applyTarget>
+							<behaviorFlags>0</behaviorFlags>
+							<caption>гост</caption>
+							<collisionFlags>1</collisionFlags>
+							<effect>
+								<Item href="" />
+								<Item href="" />
+							</effect>
+							<enabled>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</enabled>
+							<formulaName></formulaName>
+							<lifeTime>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>-1.0</sString>
+							</lifeTime>
+							<LoggingEvent>-1</LoggingEvent>
+							<providerName></providerName>
+							<pushUnits>true</pushUnits>
+							<startCondition>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</startCondition>
+						</GhostMoveApplicator>
+					</Item>
+					<Item href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="866B3758-9577-4761-A884-4F7CA0633309">
+						<EyeApplicator>
+							<applyTarget>ApplicatorTarget</applyTarget>
+							<behaviorFlags>0</behaviorFlags>
+							<cancelObstacles>true</cancelObstacles>
+							<caption>нон обстакл</caption>
+							<effect>
+								<Item href="" />
+								<Item href="" />
+							</effect>
+							<enabled>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</enabled>
+							<eyeTarget>ApplicatorTarget</eyeTarget>
+							<flags>8</flags>
+							<formulaName></formulaName>
+							<lifeTime>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>-1.0</sString>
+							</lifeTime>
+							<LoggingEvent>-1</LoggingEvent>
+							<providerName></providerName>
+							<startCondition>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</startCondition>
+							<visRange>
+								<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABgQQ==</compiledString>
+								<returnType>float</returnType>
+								<sString>14.0f</sString>
+							</visRange>
+						</EyeApplicator>
+					</Item>
+					<Item href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="FA721275-C6D3-442B-88A8-5F697B75D1F7">
+						<PermanentStatModApplicator>
+							<applyTarget>ApplicatorTarget</applyTarget>
+							<caption>скорость</caption>
+							<customApplyType>None</customApplyType>
+							<enabled>
+								<compiledString>FQ0AAAACAAAAFAAAAC0AAABHMjY0AAAAAEcyNjQAVYvsg+wIaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgIAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wCKRfuL5V3D</compiledString>
+								<returnType>bool</returnType>
+								<sString>tal("G264")</sString>
+							</enabled>
+							<formulaName></formulaName>
+							<LoggingEvent>-1</LoggingEvent>
+							<modifier>
+								<addValue>
+									<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQQ==</compiledString>
+									<returnType>float</returnType>
+									<sString>25.0f</sString>
+								</addValue>
+								<multValue>
+									<compiledString></compiledString>
+									<returnType>float</returnType>
+									<sString>1.0f</sString>
+								</multValue>
+								<stat>MoveSpeed</stat>
+								<topModifier>false</topModifier>
+								<variable></variable>
+							</modifier>
+							<providerName></providerName>
+						</PermanentStatModApplicator>
+					</Item>
+					<Item href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="589E9250-3D0A-49FE-AFD3-68A75DF1B02C">
+						<PermanentStatModApplicator>
+							<applyTarget>ApplicatorTarget</applyTarget>
+							<caption>will</caption>
+							<customApplyType>None</customApplyType>
+							<enabled>
+								<compiledString>FQ0AAAACAAAAFAAAAC0AAABHMjY1AAAAAEcyNjUAVYvsg+wIaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgIAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wCKRfuL5V3D</compiledString>
+								<returnType>bool</returnType>
+								<sString>tal("G265")</sString>
+							</enabled>
+							<formulaName></formulaName>
+							<LoggingEvent>-1</LoggingEvent>
+							<modifier>
+								<addValue>
+									<compiledString>FQAAAAABAAAAFgAAAFWL7FGLRQiLEItNCIuCzAAAAP/Q3A0kAAAA2V382UX8i+VdwwAAAAAAAOA/</compiledString>
+									<returnType>float</returnType>
+									<sString>0.5*sBaseWill</sString>
+								</addValue>
+								<multValue>
+									<compiledString></compiledString>
+									<returnType>float</returnType>
+									<sString>1.0f</sString>
+								</multValue>
+								<stat>Will</stat>
+								<topModifier>false</topModifier>
+								<variable></variable>
+							</modifier>
+							<providerName></providerName>
+						</PermanentStatModApplicator>
+					</Item>
+					<Item href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="537F09D4-CCD3-444F-8B37-4F41B68ED9A3">
+						<PermanentStatModApplicator>
+							<applyTarget>ApplicatorTarget</applyTarget>
+							<caption>stam</caption>
+							<customApplyType>None</customApplyType>
+							<enabled>
+								<compiledString>FQ0AAAACAAAAFAAAAC0AAABHMjY1AAAAAEcyNjUAVYvsg+wIaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgIAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wCKRfuL5V3D</compiledString>
+								<returnType>bool</returnType>
+								<sString>tal("G265")</sString>
+							</enabled>
+							<formulaName></formulaName>
+							<LoggingEvent>-1</LoggingEvent>
+							<modifier>
+								<addValue>
+									<compiledString>FQAAAAABAAAAFgAAAFWL7FGLRQiLEItNCIuCyAAAAP/Q3A0kAAAA2V382UX8i+VdwwAAAAAAAOA/</compiledString>
+									<returnType>float</returnType>
+									<sString>0.5*sBaseStamina</sString>
+								</addValue>
+								<multValue>
+									<compiledString></compiledString>
+									<returnType>float</returnType>
+									<sString>1.0f</sString>
+								</multValue>
+								<stat>Stamina</stat>
+								<topModifier>false</topModifier>
+								<variable></variable>
+							</modifier>
+							<providerName></providerName>
+						</PermanentStatModApplicator>
+					</Item>
+					<Item href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="3CC9A501-6B6B-48C6-93B1-75DC42E97D44">
+						<PermanentStatModApplicator>
+							<applyTarget>ApplicatorTarget</applyTarget>
+							<caption>dex</caption>
+							<customApplyType>None</customApplyType>
+							<enabled>
+								<compiledString>FQ0AAAACAAAAFAAAAC0AAABHMjY1AAAAAEcyNjUAVYvsg+wIaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgIAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wCKRfuL5V3D</compiledString>
+								<returnType>bool</returnType>
+								<sString>tal("G265")</sString>
+							</enabled>
+							<formulaName></formulaName>
+							<LoggingEvent>-1</LoggingEvent>
+							<modifier>
+								<addValue>
+									<compiledString>FQAAAAABAAAAFgAAAFWL7FGLRQiLEItNCIuCwAAAAP/Q3A0kAAAA2V382UX8i+VdwwAAAAAAAOA/</compiledString>
+									<returnType>float</returnType>
+									<sString>0.5*sBaseDexterity</sString>
+								</addValue>
+								<multValue>
+									<compiledString></compiledString>
+									<returnType>float</returnType>
+									<sString>1.0f</sString>
+								</multValue>
+								<stat>Dexterity</stat>
+								<topModifier>false</topModifier>
+								<variable></variable>
+							</modifier>
+							<providerName></providerName>
+						</PermanentStatModApplicator>
+					</Item>
+					<Item href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="A92A0E9C-CACC-4DDD-8C0F-7A1059EBB7FB">
+						<PermanentStatModApplicator>
+							<applyTarget>ApplicatorTarget</applyTarget>
+							<caption>as</caption>
+							<customApplyType>None</customApplyType>
+							<enabled>
+								<compiledString>FQ0AAAACAAAAFAAAAC0AAABHMjY1AAAAAEcyNjUAVYvsg+wIaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgIAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wCKRfuL5V3D</compiledString>
+								<returnType>bool</returnType>
+								<sString>tal("G265")</sString>
+							</enabled>
+							<formulaName></formulaName>
+							<LoggingEvent>-1</LoggingEvent>
+							<modifier>
+								<addValue>
+									<compiledString>FQAAAAABAAAAFgAAAFWL7FGLRQiLEItNCIuCjAAAAP/Q3A0kAAAA2V382UX8i+VdwwAAAAAAAOA/</compiledString>
+									<returnType>float</returnType>
+									<sString>0.5*sBaseAttackSpeed</sString>
+								</addValue>
+								<multValue>
+									<compiledString></compiledString>
+									<returnType>float</returnType>
+									<sString>1.0f</sString>
+								</multValue>
+								<stat>AttackSpeed</stat>
+								<topModifier>false</topModifier>
+								<variable></variable>
+							</modifier>
+							<providerName></providerName>
+						</PermanentStatModApplicator>
+					</Item>
+					<Item href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="5E69C0F8-D009-4BA8-ABE4-A17E73257AE0">
+						<PermanentStatModApplicator>
+							<applyTarget>ApplicatorTarget</applyTarget>
+							<caption>life</caption>
+							<customApplyType>None</customApplyType>
+							<enabled>
+								<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</enabled>
+							<formulaName></formulaName>
+							<LoggingEvent>-1</LoggingEvent>
+							<modifier>
+								<addValue>
+									<compiledString>FQkAAAABAAAAFQAAAEFkZF9MaWZlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+									<returnType>float</returnType>
+									<sString>cAdd_Life</sString>
+								</addValue>
+								<multValue>
+									<compiledString></compiledString>
+									<returnType>float</returnType>
+									<sString>1.0f</sString>
+								</multValue>
+								<stat>Life</stat>
+								<topModifier>false</topModifier>
+								<variable></variable>
+							</modifier>
+							<providerName></providerName>
+						</PermanentStatModApplicator>
+					</Item>
+					<Item href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="EBADE602-BBFC-41D1-B552-7B2212DC3A12">
+						<PermanentStatModApplicator>
+							<applyTarget>ApplicatorTarget</applyTarget>
+							<caption>dmg</caption>
+							<customApplyType>None</customApplyType>
+							<enabled>
+								<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</enabled>
+							<formulaName></formulaName>
+							<LoggingEvent>-1</LoggingEvent>
+							<modifier>
+								<addValue>
+									<compiledString>FQgAAAABAAAAFAAAAEFkZF9TdHIAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+									<returnType>float</returnType>
+									<sString>cAdd_Str</sString>
+								</addValue>
+								<multValue>
+									<compiledString></compiledString>
+									<returnType>float</returnType>
+									<sString>1.0f</sString>
+								</multValue>
+								<stat>Strength</stat>
+								<topModifier>false</topModifier>
+								<variable></variable>
+							</modifier>
+							<providerName></providerName>
+						</PermanentStatModApplicator>
+					</Item>
+					<Item href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="B51959AE-6462-4D3E-B1E8-AC1F98DBA027">
+						<AbilityUpgradeApplicator>
+							<applicators>
+								<Item href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="8E14CFB3-6DB0-40DE-96AC-5947AA60CEC1">
+									<SpellProbabilityApplicator>
+										<applyTarget>ApplicatorTarget</applyTarget>
+										<caption></caption>
+										<enabled>
+											<compiledString>FQUAAAACAAAAMgAAAFYAAABXYXJkAFWL7FFR2ejZHCRR2e7ZHCRqAYtFDIsQi00Mi0JY/9APtshR6GkAAACDxAzcHYYAAADf4PbERHs7i1UMiwKLTQyLUFD/0oP4EXQpagCLRRBQaAAAAACLTQyLEYtNDIuCnAEAAP/QO0UQdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAAAAAAAAAAAgD9Vi+xRD7ZFCIXAdAjZRQzZXfzrBtlFENld/NlF/IvlXcM=</compiledString>
+											<returnType>bool</returnType>
+											<sString>ut_bldg(false, true) &amp;&amp; rUnitKind != 17 &amp;&amp; receiver.applWard(GLOBAL) == pMisc</sString>
+										</enabled>
+										<formulaName></formulaName>
+										<LoggingEvent>-1</LoggingEvent>
+										<probability>
+											<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQQ==</compiledString>
+											<returnType>float</returnType>
+											<sString>30.0</sString>
+										</probability>
+										<providerName></providerName>
+										<spell href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="B147DF92-DD89-4FD6-823F-0167A3EBCBF3">
+											<Spell>
+												<applicators>
+													<Item href="/Heroes/DefaultStatus/_STUN_Status.APLR" />
+												</applicators>
+												<dispatch href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="8C02405A-28EA-495D-BB8E-834FEADE3619">
+													<DispatchImmediate>
+														<alwaysApply>false</alwaysApply>
+														<applyEffect>
+															<Item href="" />
+															<Item href="" />
+														</applyEffect>
+														<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+														<applyEffectOrientation>Default</applyEffectOrientation>
+														<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+														<dieAfterApply>true</dieAfterApply>
+														<dispatchEffect>
+															<Item href="" />
+															<Item href="" />
+														</dispatchEffect>
+														<flags>0</flags>
+														<instantApply>false</instantApply>
+													</DispatchImmediate>
+												</dispatch>
+											</Spell>
+										</spell>
+										<spellIfFailed href="" />
+									</SpellProbabilityApplicator>
+								</Item>
+							</applicators>
+							<applyCount>
+								<compiledString></compiledString>
+								<returnType>int</returnType>
+								<sString>0</sString>
+							</applyCount>
+							<applyTarget>ApplicatorTarget</applyTarget>
+							<behaviorFlags>152</behaviorFlags>
+							<caption>стан</caption>
+							<effect>
+								<Item href="" />
+								<Item href="" />
+							</effect>
+							<enabled>
+								<compiledString>FQ0AAAACAAAAFAAAAC0AAABHMjYxAAAAAEcyNjEAVYvsg+wIaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgIAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wCKRfuL5V3D</compiledString>
+								<returnType>bool</returnType>
+								<sString>tal("G261")</sString>
+							</enabled>
+							<flags>0</flags>
+							<formulaName></formulaName>
+							<lifeTime>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>-1.0</sString>
+							</lifeTime>
+							<LoggingEvent>-1</LoggingEvent>
+							<persistentApplicators />
+							<providerName></providerName>
+							<startCondition>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</startCondition>
+							<talents />
+							<targetAbility>BaseAttack</targetAbility>
+							<useListAs>ListAsRule</useListAs>
+						</AbilityUpgradeApplicator>
+					</Item>
+					<Item href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="EF69A30B-3DA8-4346-BE91-3F3E44A0D28E">
+						<PermanentStatModApplicator>
+							<applyTarget>ApplicatorTarget</applyTarget>
+							<caption>аое</caption>
+							<customApplyType>None</customApplyType>
+							<enabled>
+								<compiledString>FQ0AAAACAAAAFAAAAC0AAABHMjg1AAAAAEcyODUAVYvsg+wIaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgIAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wCKRfuL5V3D</compiledString>
+								<returnType>bool</returnType>
+								<sString>tal("G285")</sString>
+							</enabled>
+							<formulaName></formulaName>
+							<LoggingEvent>-1</LoggingEvent>
+							<modifier>
+								<addValue>
+									<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+									<returnType>float</returnType>
+									<sString>1.0f</sString>
+								</addValue>
+								<multValue>
+									<compiledString></compiledString>
+									<returnType>float</returnType>
+									<sString>1.0f</sString>
+								</multValue>
+								<stat>Life</stat>
+								<topModifier>false</topModifier>
+								<variable>G260aoe</variable>
+							</modifier>
+							<providerName></providerName>
+						</PermanentStatModApplicator>
+					</Item>
+					<Item href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="D243F390-961A-4531-8E9D-8AD1B9883299">
+						<FlagsApplicator>
+							<applyTarget>ApplicatorTarget</applyTarget>
+							<behaviorFlags>0</behaviorFlags>
+							<caption>ох уж это освещение</caption>
+							<consumables />
+							<effect>
+								<Item href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="53170BCC-19D6-41EC-A7C5-17A34A61D6FE">
+									<ScaleColorEffect>
+										<blendMode>LerpByAlpha</blendMode>
+										<colorAdd>
+											<A>0</A>
+											<B>0</B>
+											<G>0</G>
+											<R>0.1</R>
+										</colorAdd>
+										<colorMul>
+											<A>1</A>
+											<B>1</B>
+											<G>1</G>
+											<R>1</R>
+										</colorMul>
+										<deathType>Manual</deathType>
+										<enableCondition href="" />
+										<fadeInTime>1</fadeInTime>
+										<fadeOutTime>1</fadeOutTime>
+										<fullRecolor>false</fullRecolor>
+										<lifeTime>0</lifeTime>
+										<scale>1</scale>
+										<scaleIn>1</scaleIn>
+										<scaleOut>1</scaleOut>
+									</ScaleColorEffect>
+								</Item>
+								<Item href="" />
+							</effect>
+							<enabled>
+								<compiledString>FQAAAAAAAAAAVYvsi0UQixCLTRCLgpAAAAD/0F3D</compiledString>
+								<returnType>bool</returnType>
+								<sString>mIsNight</sString>
+							</enabled>
+							<flag>0</flag>
+							<formulaName></formulaName>
+							<lifeTime>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>-1.0</sString>
+							</lifeTime>
+							<LoggingEvent>-1</LoggingEvent>
+							<providerName></providerName>
+							<startCondition>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</startCondition>
+							<talents />
+							<useListAs>ListAsRule</useListAs>
+						</FlagsApplicator>
+					</Item>
+				</applicators>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviour href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="2779A976-765D-4DCE-B5C0-5614734DC94E">
+					<SummonBehaviourCommon>
+						<comment></comment>
+						<lashRange>
+							<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+							<returnType>float</returnType>
+							<sString>0</sString>
+						</lashRange>
+						<maxCount>
+							<compiledString></compiledString>
+							<returnType>int</returnType>
+							<sString>1</sString>
+						</maxCount>
+						<maxThisCount>
+							<compiledString></compiledString>
+							<returnType>int</returnType>
+							<sString>0</sString>
+						</maxThisCount>
+						<responseRange>0</responseRange>
+						<responseTime>0</responseTime>
+						<summonType>Secondary</summonType>
+						<targetingParams href="" />
+					</SummonBehaviourCommon>
+				</behaviour>
+				<caption></caption>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<flags>64</flags>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQQ==</compiledString>
+					<returnType>float</returnType>
+					<sString>12.0f</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<openWarFog>true</openWarFog>
+				<placeMode>ByTargetSelector</placeMode>
+				<placeSelector href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="D79B58D5-D46F-4B4B-89D2-E8E793EBE3CF">
+					<SelectApplicatorTarget>
+						<applicatorIndex>0</applicatorIndex>
+						<applicatorName></applicatorName>
+						<namedApplicatorTarget>ApplicatorTarget</namedApplicatorTarget>
+						<selectTarget>AbilityTarget</selectTarget>
+					</SelectApplicatorTarget>
+				</placeSelector>
+				<providerName></providerName>
+				<spawnStats>
+					<energy>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>-1.0</sString>
+					</energy>
+					<life>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>-1.0</sString>
+					</life>
+				</spawnStats>
+				<summonedUnitIndex>
+					<compiledString>FRUAAAAEAAAAHAAAADIAAABHAAAAXQAAAEcyNjB0ZW1wAAAAAEcyNjB0ZW1wAFWL7IPsCGgAAAAAi0UIixCLTQiLgogBAAD/0NwdjQAAAN/g9sQFegnHRfwAAAAA6zhoDAAAAItNCIsRi00Ii4KIAQAA/9DcHYUAAADf4PbEBXoJx0X4AQAAAOsHx0X4AgAAAItN+IlN/ItF/IvlXcMAAAAAAABZQAAAAAAAAFBA</compiledString>
+					<returnType>int</returnType>
+					<sString>sender.vG260temp &lt; 64 ? 0 : ( sender.vG260temp &lt; 100 ? 1 : 2 )</sString>
+				</summonedUnitIndex>
+				<summonedUnits>
+					<Item href="/Summons/Demon/_1.SUMMONED" />
+					<Item href="/Summons/Demon/_2.SUMMONED" />
+					<Item href="/Summons/Demon/_3.SUMMONED" />
+				</summonedUnits>
+				<summonedUnitsCount>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>1</sString>
+				</summonedUnitsCount>
+				<summonGroupName>G260Champ</summonGroupName>
+				<summonSource>ByApplicator</summonSource>
+				<takeModDmg>
+					<compiledString>FRUAAAABAAAAIQAAAE1vZERhbWFnZUZyb21OZXV0cmFsAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+					<returnType>float</returnType>
+					<sString>cModDamageFromNeutral</sString>
+				</takeModDmg>
+				<takeTypeUnit>839647712</takeTypeUnit>
+				<unsummonSortCriterion>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>0.0f</sString>
+				</unsummonSortCriterion>
+			</SummonApplicator>
+		</Item>
+	</applicators>
 	<askId>0</askId>
 	<autoTargetSelector href="" />
 	<budget>-1</budget>
-	<caption>G260: Недюжинная сила</caption>
+	<caption>G260: Руна чемпиона</caption>
 	<castAllowRange>
 		<compiledString></compiledString>
 		<returnType>float</returnType>
 		<sString>0.0f</sString>
 	</castAllowRange>
 	<castLimitations />
-	<commonDescription textref="" />
+	<commonDescription textref="/Items/Talents/Level5/G260_Str_Life.TALENT_commonDescription.txt" />
 	<compiledDescriptionA textref="" />
 	<compiledDescriptionB textref="" />
 	<conditionFormulas />
@@ -192,23 +775,43 @@
 	<constants href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="1E24E6CF-EC2C-4465-8773-8DB83AAD3377">
 		<UnitConstantsContainer>
 			<vars>
-				<Item href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="A151D1AB-95D8-4BBF-8C15-1C4D97243D31">
+				<Item href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="DDABA2DF-7E4A-4DD9-A5FA-EF2FFAD4EA61">
 					<UnitConstant>
-						<name>Add_Strength</name>
+						<name>Temp</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAAEGamRk/</compiledString>
+							<compiledString>FQkAAAABAAAADQAAAEcyNjB0ZW1wAFWL7GgAAAAAi0UIixCLTQiLgogBAAD/0FHZHCRR2ejZHCToCQAAAIPECF3DAACAP1WL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(8, 0.6)</sString>
+							<sString>max(1, sender.vG260temp)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
-				<Item href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="B0177D21-4D56-4633-B603-898B3747A6EC">
+				<Item href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="77EE25D4-B3F7-40D2-8DDA-B389C402251A">
 					<UnitConstant>
 						<name>Add_Life</name>
 						<var>
-							<compiledString>FQsAAAADAAAAFAAAAB4AAAA7AAAATGlmZUJ1ZGdldABVi+yD7AxR2QVgAAAA2RwkUdkFXAAAANkcJItFEIsQi00Qi0Js/9CLTQxRi1UIUmgAAAAAi0UQixCLTRCLQlDdXfj/0NxN+Nld9NlF9IvlXcMAAABBmpkZPw==</compiledString>
+							<compiledString>FQ0AAAAHAAAALAAAADwAAABSAAAAhQAAAJsAAAC5AAAAwgAAAFRlbXAAAAAAVGVtcABVi+yD7CCLRQiLEItNCIuCYAEAAP/QiUX820X8UdkF9AAAANkcJItNDFGLVQhSaAAAAACLRRCLEItNEItCUN1d9P/Q3CXsAAAA2V3w2UXwUdkcJOiTAAAAg8QE2RwkUdnu2Rwk6KoAAACDxAjcRfSLTQxRi1UIUmgIAAAAi0UQixCLTRCLQlDdXej/0Nwl4AAAANld5NlF5FHZHCRR2e7ZHCTobAAAAIPECNwN2AAAANxF6NwN0AAAANld4NlF4IvlXcMAAAAAAABOQAAAAAAAAOA/AAAAAAAAWUAAAAAAAAAAAAAAQkAAAIBCVYvsUdlFCNlFDN7Z3+D2xEF1CNlFCNld/OsG2UUM2V382UX8i+Vdw1WL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(8,0.6)*cLifeBudget</sString>
+							<sString>60*(sNaftaLevel + max(0,min((cTemp-36),64)) + 0.5*max(0,(cTemp-100)))</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="0AE94449-6CFB-4BB0-8F0D-8370F15CC5B5">
+					<UnitConstant>
+						<name>Add_Str</name>
+						<var>
+							<compiledString>FQ0AAAAHAAAALAAAADwAAABSAAAAhQAAAJsAAAC5AAAAwgAAAFRlbXAAAAAAVGVtcABVi+yD7CCLRQiLEItNCIuCYAEAAP/QiUX820X8UdkF9AAAANkcJItNDFGLVQhSaAAAAACLRRCLEItNEItCUN1d9P/Q3CXsAAAA2V3w2UXwUdkcJOiTAAAAg8QE2RwkUdnu2Rwk6KoAAACDxAjcRfSLTQxRi1UIUmgIAAAAi0UQixCLTRCLQlDdXej/0Nwl4AAAANld5NlF5FHZHCRR2e7ZHCTobAAAAIPECNwN2AAAANxF6NwN0AAAANld4NlF4IvlXcMAAABAMzMDQAAAAAAAAOA/AAAAAAAAWUAAAAAAAAAAAAAAQkAAAIBCVYvsUdlFCNlFDN7Z3+D2xEF1CNlFCNld/OsG2UUM2V382UX8i+Vdw1WL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
+							<returnType>float</returnType>
+							<sString>2.4f*(sNaftaLevel + max(0,min((cTemp-36),64)) + 0.5*max(0,(cTemp-100)))</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="743B00DE-EE83-4EBA-A03C-89EEE84A43CB">
+					<UnitConstant>
+						<name>Stun_Duration</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzczMPg==</compiledString>
+							<returnType>float</returnType>
+							<sString>0.4f</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -220,9 +823,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+		<compiledString>FT0AAAAIAAAARAAAAF0AAACLAAAApAAAANIAAADrAAAAGQEAADIBAABHMjYxAAAAAEcyNjEAAAAARzI2NAAAAABHMjY0AAAAAEcyNjUAAAAARzI2NQAAAABHMjg1AAAAAEcyODUAVYvsg+wkaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgIAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wBoEAAAAItNCIsRi00Ii4KoAQAA/9CFwHQqaBgAAACLTQiLEYtNCIuCqAEAAP/QiUX0i030ixGLTfSLQgT/0IhF8+sExkXzAGggAAAAi00IixGLTQiLgqgBAAD/0IXAdCpoKAAAAItNCIsRi00Ii4KoAQAA/9CJReyLTeyLEYtN7ItCBP/QiEXr6wTGResAaDAAAACLTQiLEYtNCIuCqAEAAP/QhcB0Kmg4AAAAi00IixGLTQiLgqgBAAD/0IlF5ItN5IsRi03ki0IE/9CIRePrBMZF4wAPtk37D7ZV8wPKD7ZF6wPID7ZV4wPKa8kUg8FQiU3c20Xci+Vdww==</compiledString>
 		<returnType>float</returnType>
-		<sString>0</sString>
+		<sString>80+20*(tal("G261")+tal("G264")+tal("G265")+tal("G285"))</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>
@@ -231,10 +834,28 @@
 	</cooldownTimeSecondState>
 	<description textref="/Items/Talents/Level5/G260_Str_Life.TALENT_description.txt" />
 	<devPoints>1</devPoints>
-	<dispatch href="" />
-	<flags>1</flags>
+	<dispatch href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="B6E7C853-D23D-48E1-9B48-1B8F30A8C4E0">
+		<DispatchImmediate>
+			<alwaysApply>false</alwaysApply>
+			<applyEffect>
+				<Item href="" />
+				<Item href="" />
+			</applyEffect>
+			<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+			<applyEffectOrientation>Default</applyEffectOrientation>
+			<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+			<dieAfterApply>true</dieAfterApply>
+			<dispatchEffect>
+				<Item href="" />
+				<Item href="" />
+			</dispatchEffect>
+			<flags>0</flags>
+			<instantApply>false</instantApply>
+		</DispatchImmediate>
+	</dispatch>
+	<flags>7</flags>
 	<forceBonus>23</forceBonus>
-	<image href="/UI/Styles/Icons/Talents/_260.ITEX" />
+	<image href="/UI/Styles/Icons/Talents/2025_260.ITEX" />
 	<imageSecondState href="" />
 	<isGenderTalent>false</isGenderTalent>
 	<isTakenOnStart>false</isTakenOnStart>
@@ -253,39 +874,9 @@
 	<name textref="/Items/Talents/Level5/G260_Str_Life.TALENT_name.txt" />
 	<node></node>
 	<passiveApplicators>
-		<Item href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="4E331BBF-6402-45F3-A2B7-B7384867B22C">
-			<PermanentStatModApplicator>
-				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>Strength</caption>
-				<customApplyType>None</customApplyType>
-				<enabled>
-					<compiledString></compiledString>
-					<returnType>bool</returnType>
-					<sString>true</sString>
-				</enabled>
-				<formulaName></formulaName>
-				<LoggingEvent>-1</LoggingEvent>
-				<modifier>
-					<addValue>
-						<compiledString>FQ0AAAABAAAAGQAAAEFkZF9TdHJlbmd0aABVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
-						<returnType>float</returnType>
-						<sString>cAdd_Strength</sString>
-					</addValue>
-					<multValue>
-						<compiledString></compiledString>
-						<returnType>float</returnType>
-						<sString>1.0f</sString>
-					</multValue>
-					<stat>Strength</stat>
-					<topModifier>false</topModifier>
-					<variable></variable>
-				</modifier>
-				<providerName></providerName>
-			</PermanentStatModApplicator>
-		</Item>
 		<Item href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="431AAC1D-AA34-4B04-BC14-A3028955B753">
 			<PermanentStatModApplicator>
-				<applyTarget>ApplicatorTarget</applyTarget>
+				<applyTarget>AbilityOwner</applyTarget>
 				<caption>Life</caption>
 				<customApplyType>None</customApplyType>
 				<enabled>
@@ -297,9 +888,9 @@
 				<LoggingEvent>-1</LoggingEvent>
 				<modifier>
 					<addValue>
-						<compiledString>FQkAAAABAAAAFQAAAEFkZF9MaWZlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAC0Qw==</compiledString>
 						<returnType>float</returnType>
-						<sString>cAdd_Life</sString>
+						<sString>360</sString>
 					</addValue>
 					<multValue>
 						<compiledString></compiledString>
@@ -313,11 +904,618 @@
 				<providerName></providerName>
 			</PermanentStatModApplicator>
 		</Item>
+		<Item href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="CEE70BE9-E2E0-4F50-824B-D02B82C4796A">
+			<PermanentStatModApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<caption>стартовая температура</caption>
+				<customApplyType>None</customApplyType>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAQQg==</compiledString>
+						<returnType>float</returnType>
+						<sString>36.0f</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Life</stat>
+					<topModifier>false</topModifier>
+					<variable>G260temp</variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="329D4381-148D-4B3A-A3C2-A78E7E6723A3">
+			<StatusApplicator>
+				<applicators />
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>статус (визуал)</caption>
+				<customCounter>
+					<compiledString>FQUAAAABAAAAEQAAAFRlbXAAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9JR2Rwk6AUAAACDxARdw7gBAAAAD6L3wgAAAAR0B/MPLEQkBMPpAAAAAFWL7IPsDNlFCNl9/A+3RfwNAAwAAIlF+Nlt+Ntd9Nlt/ItF9IvlXcM=</compiledString>
+					<returnType>int</returnType>
+					<sString>f2l(cTemp)</sString>
+				</customCounter>
+				<customProgress>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</customProgress>
+				<description textref="/Items/Talents/Level5/G260_Str_Life.TALENT_329d4381148d4b3aa3c2a78e7e6723a3_description.txt" />
+				<dispellPriority>NonDispellable</dispellPriority>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<flags>0</flags>
+				<formulaName></formulaName>
+				<image href="/UI/Styles/Icons/Talents/2025_260.ITEX" />
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<name textref="/Items/Talents/Level5/G260_Str_Life.TALENT_329d4381148d4b3aa3c2a78e7e6723a3_name.txt" />
+				<power>0</power>
+				<providerName></providerName>
+				<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+				<stackCount>0</stackCount>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statusPosition>0</statusPosition>
+				<stopBehaviour>StopByTime</stopBehaviour>
+				<unstackableWith href="" />
+			</StatusApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="2388FDB1-EC08-4AF2-AA37-654644846DAD">
+			<TriggerApplicator>
+				<actionsCount>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</actionsCount>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>подогреваем чемпиона</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<playAck>false</playAck>
+				<processor href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="9CAB2240-1821-40A3-903B-393EFF132E29">
+					<EventProcessorUnitDieNearMe>
+						<applyTarget>ApplicatorTarget</applyTarget>
+						<checkSender>0</checkSender>
+						<killerFlags>15</killerFlags>
+						<range>
+							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>0.0f</sString>
+						</range>
+						<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
+						<spell href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="D4ED00F1-0DA8-426A-9498-58321BE8B124">
+							<Spell>
+								<applicators>
+									<Item href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="1D4B3544-F52F-403E-8201-03891C8760C5">
+										<SpellSwitchApplicator>
+											<activeSpellIndex>
+												<compiledString>FQAAAAAAAAAAVYvsagNqAItFEIsQi00Qi0Jc/9Bdww==</compiledString>
+												<returnType>int</returnType>
+												<sString>random(0,3)</sString>
+											</activeSpellIndex>
+											<applyTarget>AbilityOwner</applyTarget>
+											<caption></caption>
+											<dontUseDispatches>false</dontUseDispatches>
+											<enabled>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</enabled>
+											<formulaName></formulaName>
+											<LoggingEvent>-1</LoggingEvent>
+											<providerName></providerName>
+											<spells>
+												<Item href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="A8F7E8AC-7A4E-42D7-9151-28219AE5BFC3">
+													<Spell>
+														<applicators>
+															<Item href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="9E143887-1536-431B-AA65-E635376F0B2D">
+																<PermanentStatModApplicator>
+																	<applyTarget>AbilityOwner</applyTarget>
+																	<caption></caption>
+																	<customApplyType>None</customApplyType>
+																	<enabled>
+																		<compiledString></compiledString>
+																		<returnType>bool</returnType>
+																		<sString>true</sString>
+																	</enabled>
+																	<formulaName></formulaName>
+																	<LoggingEvent>-1</LoggingEvent>
+																	<modifier>
+																		<addValue>
+																			<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
+																			<returnType>float</returnType>
+																			<sString>3.0f</sString>
+																		</addValue>
+																		<multValue>
+																			<compiledString></compiledString>
+																			<returnType>float</returnType>
+																			<sString>1.0f</sString>
+																		</multValue>
+																		<stat>Life</stat>
+																		<topModifier>false</topModifier>
+																		<variable>G260temp</variable>
+																	</modifier>
+																	<providerName></providerName>
+																</PermanentStatModApplicator>
+															</Item>
+														</applicators>
+														<dispatch href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="249532E1-2EA3-4595-AE33-E97DD7594987">
+															<DispatchImmediate>
+																<alwaysApply>false</alwaysApply>
+																<applyEffect>
+																	<Item href="" />
+																	<Item href="" />
+																</applyEffect>
+																<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																<applyEffectOrientation>Default</applyEffectOrientation>
+																<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																<dieAfterApply>true</dieAfterApply>
+																<dispatchEffect>
+																	<Item href="" />
+																	<Item href="" />
+																</dispatchEffect>
+																<flags>0</flags>
+																<instantApply>false</instantApply>
+															</DispatchImmediate>
+														</dispatch>
+													</Spell>
+												</Item>
+												<Item href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="097AC7FB-1479-41C7-B3DA-358E4A9350A0">
+													<Spell>
+														<applicators>
+															<Item href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="2A53E9F8-8394-477F-84B2-7AF67D1CD3E9">
+																<PermanentStatModApplicator>
+																	<applyTarget>AbilityOwner</applyTarget>
+																	<caption></caption>
+																	<customApplyType>None</customApplyType>
+																	<enabled>
+																		<compiledString></compiledString>
+																		<returnType>bool</returnType>
+																		<sString>true</sString>
+																	</enabled>
+																	<formulaName></formulaName>
+																	<LoggingEvent>-1</LoggingEvent>
+																	<modifier>
+																		<addValue>
+																			<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAQA==</compiledString>
+																			<returnType>float</returnType>
+																			<sString>4.0f</sString>
+																		</addValue>
+																		<multValue>
+																			<compiledString></compiledString>
+																			<returnType>float</returnType>
+																			<sString>1.0f</sString>
+																		</multValue>
+																		<stat>Life</stat>
+																		<topModifier>false</topModifier>
+																		<variable>G260temp</variable>
+																	</modifier>
+																	<providerName></providerName>
+																</PermanentStatModApplicator>
+															</Item>
+														</applicators>
+														<dispatch href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="922694A2-9B68-4F72-879C-36A007F3116B">
+															<DispatchImmediate>
+																<alwaysApply>false</alwaysApply>
+																<applyEffect>
+																	<Item href="" />
+																	<Item href="" />
+																</applyEffect>
+																<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																<applyEffectOrientation>Default</applyEffectOrientation>
+																<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																<dieAfterApply>true</dieAfterApply>
+																<dispatchEffect>
+																	<Item href="" />
+																	<Item href="" />
+																</dispatchEffect>
+																<flags>0</flags>
+																<instantApply>false</instantApply>
+															</DispatchImmediate>
+														</dispatch>
+													</Spell>
+												</Item>
+												<Item href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="A660FBDE-554A-42A3-919E-D82D7E1887A4">
+													<Spell>
+														<applicators>
+															<Item href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="5576D015-C3F5-466C-A754-BBCCC707436B">
+																<PermanentStatModApplicator>
+																	<applyTarget>AbilityOwner</applyTarget>
+																	<caption></caption>
+																	<customApplyType>None</customApplyType>
+																	<enabled>
+																		<compiledString></compiledString>
+																		<returnType>bool</returnType>
+																		<sString>true</sString>
+																	</enabled>
+																	<formulaName></formulaName>
+																	<LoggingEvent>-1</LoggingEvent>
+																	<modifier>
+																		<addValue>
+																			<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
+																			<returnType>float</returnType>
+																			<sString>5.0f</sString>
+																		</addValue>
+																		<multValue>
+																			<compiledString></compiledString>
+																			<returnType>float</returnType>
+																			<sString>1.0f</sString>
+																		</multValue>
+																		<stat>Life</stat>
+																		<topModifier>false</topModifier>
+																		<variable>G260temp</variable>
+																	</modifier>
+																	<providerName></providerName>
+																</PermanentStatModApplicator>
+															</Item>
+														</applicators>
+														<dispatch href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="A6198159-BED8-4335-9DF9-8CDA73811138">
+															<DispatchImmediate>
+																<alwaysApply>false</alwaysApply>
+																<applyEffect>
+																	<Item href="" />
+																	<Item href="" />
+																</applyEffect>
+																<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																<applyEffectOrientation>Default</applyEffectOrientation>
+																<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																<dieAfterApply>true</dieAfterApply>
+																<dispatchEffect>
+																	<Item href="" />
+																	<Item href="" />
+																</dispatchEffect>
+																<flags>0</flags>
+																<instantApply>false</instantApply>
+															</DispatchImmediate>
+														</dispatch>
+													</Spell>
+												</Item>
+												<Item href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="240BE341-8C28-47F7-AA1A-7CDE8FA5EF2B">
+													<Spell>
+														<applicators>
+															<Item href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="263C93E7-CF6C-42CF-9A5A-14ED539F8D8A">
+																<PermanentStatModApplicator>
+																	<applyTarget>AbilityOwner</applyTarget>
+																	<caption></caption>
+																	<customApplyType>None</customApplyType>
+																	<enabled>
+																		<compiledString></compiledString>
+																		<returnType>bool</returnType>
+																		<sString>true</sString>
+																	</enabled>
+																	<formulaName></formulaName>
+																	<LoggingEvent>-1</LoggingEvent>
+																	<modifier>
+																		<addValue>
+																			<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADAQA==</compiledString>
+																			<returnType>float</returnType>
+																			<sString>6.0f</sString>
+																		</addValue>
+																		<multValue>
+																			<compiledString></compiledString>
+																			<returnType>float</returnType>
+																			<sString>1.0f</sString>
+																		</multValue>
+																		<stat>Life</stat>
+																		<topModifier>false</topModifier>
+																		<variable>G260temp</variable>
+																	</modifier>
+																	<providerName></providerName>
+																</PermanentStatModApplicator>
+															</Item>
+														</applicators>
+														<dispatch href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="78178631-70F9-47C7-92BB-458994AA7FB5">
+															<DispatchImmediate>
+																<alwaysApply>false</alwaysApply>
+																<applyEffect>
+																	<Item href="" />
+																	<Item href="" />
+																</applyEffect>
+																<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																<applyEffectOrientation>Default</applyEffectOrientation>
+																<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																<dieAfterApply>true</dieAfterApply>
+																<dispatchEffect>
+																	<Item href="" />
+																	<Item href="" />
+																</dispatchEffect>
+																<flags>0</flags>
+																<instantApply>false</instantApply>
+															</DispatchImmediate>
+														</dispatch>
+													</Spell>
+												</Item>
+											</spells>
+										</SpellSwitchApplicator>
+									</Item>
+								</applicators>
+								<dispatch href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="2678EB1A-E1D9-4455-9D9A-D155D3FDB76E">
+									<DispatchImmediate>
+										<alwaysApply>false</alwaysApply>
+										<applyEffect>
+											<Item href="" />
+											<Item href="" />
+										</applyEffect>
+										<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+										<applyEffectOrientation>Default</applyEffectOrientation>
+										<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+										<dieAfterApply>true</dieAfterApply>
+										<dispatchEffect>
+											<Item href="" />
+											<Item href="" />
+										</dispatchEffect>
+										<flags>0</flags>
+										<instantApply>false</instantApply>
+									</DispatchImmediate>
+								</dispatch>
+							</Spell>
+						</spell>
+						<targets>1342177281</targets>
+					</EventProcessorUnitDieNearMe>
+				</processor>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<useAbilityCooldown>false</useAbilityCooldown>
+				<useAbilityOwnerMana>false</useAbilityOwnerMana>
+			</TriggerApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="B087CA3F-3AE4-441D-BF31-7215DEA7CB3B">
+			<TriggerApplicator>
+				<actionsCount>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</actionsCount>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>остужаем чемпиона</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<playAck>false</playAck>
+				<processor href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="66C9D12B-7C45-4620-A140-D246622613A9">
+					<EventProcessorUnitDieNearMe>
+						<applyTarget>ApplicatorTarget</applyTarget>
+						<checkSender>0</checkSender>
+						<killerFlags>15</killerFlags>
+						<range>
+							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>0.0f</sString>
+						</range>
+						<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
+						<spell href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="1B760D63-2F13-424A-A0E4-EC60AD6871F4">
+							<Spell>
+								<applicators>
+									<Item href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="79CB6773-906D-4802-964B-24594FA546E2">
+										<SpellSwitchApplicator>
+											<activeSpellIndex>
+												<compiledString>FQAAAAAAAAAAVYvsagFqAItFEIsQi00Qi0Jc/9Bdww==</compiledString>
+												<returnType>int</returnType>
+												<sString>random(0,1)</sString>
+											</activeSpellIndex>
+											<applyTarget>AbilityOwner</applyTarget>
+											<caption></caption>
+											<dontUseDispatches>false</dontUseDispatches>
+											<enabled>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</enabled>
+											<formulaName></formulaName>
+											<LoggingEvent>-1</LoggingEvent>
+											<providerName></providerName>
+											<spells>
+												<Item href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="FB451ACF-D53A-42CF-82BF-907B35081F57">
+													<Spell>
+														<applicators>
+															<Item href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="4687B682-274F-4248-93EB-3AB2EE924A83">
+																<PermanentStatModApplicator>
+																	<applyTarget>AbilityOwner</applyTarget>
+																	<caption></caption>
+																	<customApplyType>None</customApplyType>
+																	<enabled>
+																		<compiledString></compiledString>
+																		<returnType>bool</returnType>
+																		<sString>true</sString>
+																	</enabled>
+																	<formulaName></formulaName>
+																	<LoggingEvent>-1</LoggingEvent>
+																	<modifier>
+																		<addValue>
+																			<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAvw==</compiledString>
+																			<returnType>float</returnType>
+																			<sString>-1.0f</sString>
+																		</addValue>
+																		<multValue>
+																			<compiledString></compiledString>
+																			<returnType>float</returnType>
+																			<sString>1.0f</sString>
+																		</multValue>
+																		<stat>Life</stat>
+																		<topModifier>false</topModifier>
+																		<variable>G260temp</variable>
+																	</modifier>
+																	<providerName></providerName>
+																</PermanentStatModApplicator>
+															</Item>
+														</applicators>
+														<dispatch href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="E20E3993-6200-4AFD-9873-BE03D59DA3E6">
+															<DispatchImmediate>
+																<alwaysApply>false</alwaysApply>
+																<applyEffect>
+																	<Item href="" />
+																	<Item href="" />
+																</applyEffect>
+																<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																<applyEffectOrientation>Default</applyEffectOrientation>
+																<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																<dieAfterApply>true</dieAfterApply>
+																<dispatchEffect>
+																	<Item href="" />
+																	<Item href="" />
+																</dispatchEffect>
+																<flags>0</flags>
+																<instantApply>false</instantApply>
+															</DispatchImmediate>
+														</dispatch>
+													</Spell>
+												</Item>
+												<Item href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="ECD4B322-079A-46E6-86A3-60438A6CF2E9">
+													<Spell>
+														<applicators>
+															<Item href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="1C655404-C845-4642-A82E-55D5D569DC76">
+																<PermanentStatModApplicator>
+																	<applyTarget>AbilityOwner</applyTarget>
+																	<caption></caption>
+																	<customApplyType>None</customApplyType>
+																	<enabled>
+																		<compiledString></compiledString>
+																		<returnType>bool</returnType>
+																		<sString>true</sString>
+																	</enabled>
+																	<formulaName></formulaName>
+																	<LoggingEvent>-1</LoggingEvent>
+																	<modifier>
+																		<addValue>
+																			<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAwA==</compiledString>
+																			<returnType>float</returnType>
+																			<sString>-2.0f</sString>
+																		</addValue>
+																		<multValue>
+																			<compiledString></compiledString>
+																			<returnType>float</returnType>
+																			<sString>1.0f</sString>
+																		</multValue>
+																		<stat>Life</stat>
+																		<topModifier>false</topModifier>
+																		<variable>G260temp</variable>
+																	</modifier>
+																	<providerName></providerName>
+																</PermanentStatModApplicator>
+															</Item>
+														</applicators>
+														<dispatch href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="BDAB14B1-6875-4AFF-B571-538EBE3299D4">
+															<DispatchImmediate>
+																<alwaysApply>false</alwaysApply>
+																<applyEffect>
+																	<Item href="" />
+																	<Item href="" />
+																</applyEffect>
+																<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																<applyEffectOrientation>Default</applyEffectOrientation>
+																<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																<dieAfterApply>true</dieAfterApply>
+																<dispatchEffect>
+																	<Item href="" />
+																	<Item href="" />
+																</dispatchEffect>
+																<flags>0</flags>
+																<instantApply>false</instantApply>
+															</DispatchImmediate>
+														</dispatch>
+													</Spell>
+												</Item>
+											</spells>
+										</SpellSwitchApplicator>
+									</Item>
+								</applicators>
+								<dispatch href="/Items/Talents/Level5/G260_Str_Life.TALENT" id="BA6FD248-4F86-42FB-ACFB-A1877AF2C4A6">
+									<DispatchImmediate>
+										<alwaysApply>false</alwaysApply>
+										<applyEffect>
+											<Item href="" />
+											<Item href="" />
+										</applyEffect>
+										<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+										<applyEffectOrientation>Default</applyEffectOrientation>
+										<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+										<dieAfterApply>true</dieAfterApply>
+										<dispatchEffect>
+											<Item href="" />
+											<Item href="" />
+										</dispatchEffect>
+										<flags>0</flags>
+										<instantApply>false</instantApply>
+									</DispatchImmediate>
+								</dispatch>
+							</Spell>
+						</spell>
+						<targets>536870915</targets>
+					</EventProcessorUnitDieNearMe>
+				</processor>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<useAbilityCooldown>false</useAbilityCooldown>
+				<useAbilityOwnerMana>false</useAbilityOwnerMana>
+			</TriggerApplicator>
+		</Item>
 	</passiveApplicators>
 	<persistentId>G260</persistentId>
 	<prerequisiteTalents />
-	<rarity>magnificent</rarity>
-	<requireLineOfSight>true</requireLineOfSight>
+	<rarity>outstanding</rarity>
+	<requireLineOfSight>false</requireLineOfSight>
 	<shortDescription textref="/Items/Talents/Level5/G260_Str_Life.TALENT_shortDescription.txt" />
 	<talentRollGroups>63</talentRollGroups>
 	<talentStats>
@@ -344,15 +1542,15 @@
 			</values>
 		</Item>
 	</talentStats>
-	<targetType>1909247</targetType>
-	<type>Simple</type>
+	<targetType>16777216</targetType>
+	<type>Active</type>
 	<upgradeLevel>0</upgradeLevel>
 	<useRange>
-		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+		<compiledString>FQsAAAABAAAAFwAAAFJhbmdlX0xvbmcAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
 		<returnType>float</returnType>
-		<sString>0</sString>
+		<sString>cRange_Long</sString>
 	</useRange>
-	<useRangeMaterial href="" />
+	<useRangeMaterial href="/Effects/UI/AOESelection/Radius.MTRL" />
 	<variativeMaxTalentStats />
 	<variativeMinTalentStats />
 	<vendorCost>-1</vendorCost>

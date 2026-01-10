@@ -13,5 +13,6 @@
 		<Item href="/Items/Talents/Level5/G726_Life_StaOrWill.TALENT" />
 		<Item href="/Items/Talents/Level5/G727_SpdOrDex.TALENT" />
 		<Item href="/Items/Talents/Level6/G728_StrOrInt.TALENT" />
+		<Item href="/Items/Talents/Level2/G133_PrimefromCreeps.TALENT" />
 	</talents>
 </TalentKit>

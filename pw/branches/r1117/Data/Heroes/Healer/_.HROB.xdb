@@ -741,7 +741,17 @@
 					<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
 					<dieAfterApply>true</dieAfterApply>
 					<dispatchEffect>
-						<Item href="/Effects/Shots/Energy/_Purple.EFFT" />
+						<Item href="/Heroes/Healer/_.HROB" id="9D42392E-36F4-49AA-8D24-D5549AA0B538">
+							<EffectList>
+								<deathType>Manual</deathType>
+								<effects>
+									<Item href="/Effects/Shots/Energy/_PurpleB.EFFT" />
+									<Item href="/Effects/Shots/Energy/_PurpleR.EFFT" />
+								</effects>
+								<enableCondition href="" />
+								<lifeTime>0</lifeTime>
+							</EffectList>
+						</Item>
 						<Item href="" />
 					</dispatchEffect>
 					<flags>7</flags>
@@ -760,7 +770,7 @@
 					<toLocator>Body</toLocator>
 				</DispatchLinear>
 			</dispatch>
-			<flags>1</flags>
+			<flags>5</flags>
 			<image href="" />
 			<imageSecondState href="" />
 			<isMelee>false</isMelee>

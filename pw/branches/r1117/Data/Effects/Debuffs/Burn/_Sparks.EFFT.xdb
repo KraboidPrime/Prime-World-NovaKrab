@@ -2,6 +2,7 @@
 <BasicEffectAttached>
 	<BackLink DBID="/Creeps/Normals/Normal1/PvE_Coop1_Support.CREEP" Count="1" />
 	<BackLink DBID="/Items/Talents/Level3/G244_DeadlyIllusion.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level5/G1003_Satanic.TALENT" Count="1" />
 	<attachFlags>1</attachFlags>
 	<attachType>Body</attachType>
 	<component href="/Effects/Debuffs/Burn/_Sparks.PRXY" />

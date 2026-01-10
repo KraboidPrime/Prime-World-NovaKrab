@@ -1,7 +1,61 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ProgramApplicator>
 	<BackLink DBID="/Items/Talents/Level4/G752_StrOrInt.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level2/G751_AtSpdOrDex.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level5/G753_StrOrIntAtSpd.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level5/G754_StrOrIntDex.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level6/G755_StaminaLife.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level6/G756_WillLife.TALENT" Count="1" />
 	<applicators>
+		<Item>
+			<applicator href="/Items/Talents/TalentKits/Redset7_9_AntiMnM/appl_BonusStat.APLR" id="21D290F7-F820-4EF1-9001-1F6A96952549">
+				<PermanentStatModApplicator>
+					<applyTarget>ApplicatorTarget</applyTarget>
+					<caption>счётчик</caption>
+					<customApplyType>None</customApplyType>
+					<enabled>
+						<compiledString></compiledString>
+						<returnType>bool</returnType>
+						<sString>true</sString>
+					</enabled>
+					<formulaName></formulaName>
+					<LoggingEvent>-1</LoggingEvent>
+					<modifier>
+						<addValue>
+							<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+							<returnType>float</returnType>
+							<sString>1.0f</sString>
+						</addValue>
+						<multValue>
+							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>1.0f</sString>
+						</multValue>
+						<stat>Life</stat>
+						<topModifier>false</topModifier>
+						<variable>Redset7_9_Counter_2</variable>
+					</modifier>
+					<providerName></providerName>
+				</PermanentStatModApplicator>
+			</applicator>
+			<continueCondition>
+				<compiledString></compiledString>
+				<returnType>bool</returnType>
+				<sString>0</sString>
+			</continueCondition>
+			<continueEvents>2</continueEvents>
+			<delay>
+				<compiledString></compiledString>
+				<returnType>float</returnType>
+				<sString>-1.0</sString>
+			</delay>
+			<stopCondition>
+				<compiledString></compiledString>
+				<returnType>bool</returnType>
+				<sString>0</sString>
+			</stopCondition>
+			<stopEvents>0</stopEvents>
+		</Item>
 		<Item>
 			<applicator href="/Items/Talents/TalentKits/Redset7_9_AntiMnM/appl_BonusStat.APLR" id="DAB236DF-1E6D-4F6C-86DF-6110E49D15F1">
 				<PermanentStatModApplicator>
@@ -9,17 +63,17 @@
 					<caption>AddStr</caption>
 					<customApplyType>Maximize</customApplyType>
 					<enabled>
-						<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgrgAAAD/0ItNCIsRi00Ii4K8AAAA3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+						<compiledString>FRQAAAACAAAASAAAAF4AAABSZWRzZXQ3XzlfQ291bnRlcl8yAFWL7IPsDItFCIsQi00Ii4K4AAAA/9CLTQiLEYtNCIuCvAAAAN1d+P/Q3F343+D2xEF6K2gAAAAAi00IixGLTQiLgogBAAD/0NwdgAAAAN/g9sREegnHRfQBAAAA6wfHRfQAAAAAikX0i+VdwwAAAAAAABBA</compiledString>
 						<returnType>bool</returnType>
-						<sString>sBaseStrength &gt;= sBaseIntellect</sString>
+						<sString>(sBaseStrength &gt;= sBaseIntellect) &amp;&amp; (sender.vRedset7_9_Counter_2 == 4)</sString>
 					</enabled>
 					<formulaName></formulaName>
 					<LoggingEvent>-1</LoggingEvent>
 					<modifier>
 						<addValue>
-							<compiledString>FRQAAAABAAAAIAAAAFJlZHNldDdfOV9Cb251c1N0YXQAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>cRedset7_9_BonusStat</sString>
+							<sString>8</sString>
 						</addValue>
 						<multValue>
 							<compiledString></compiledString>
@@ -38,7 +92,7 @@
 				<returnType>bool</returnType>
 				<sString>0</sString>
 			</continueCondition>
-			<continueEvents>1</continueEvents>
+			<continueEvents>2</continueEvents>
 			<delay>
 				<compiledString></compiledString>
 				<returnType>float</returnType>
@@ -58,17 +112,17 @@
 					<caption>AddInt</caption>
 					<customApplyType>Maximize</customApplyType>
 					<enabled>
-						<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgrgAAAD/0ItNCIsRi00Ii4K8AAAA3V34/9DcXfjf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+						<compiledString>FRQAAAACAAAASAAAAF4AAABSZWRzZXQ3XzlfQ291bnRlcl8yAFWL7IPsDItFCIsQi00Ii4K4AAAA/9CLTQiLEYtNCIuCvAAAAN1d+P/Q3F343+D2xEF1K2gAAAAAi00IixGLTQiLgogBAAD/0NwdgAAAAN/g9sREegnHRfQBAAAA6wfHRfQAAAAAikX0i+VdwwAAAAAAABBA</compiledString>
 						<returnType>bool</returnType>
-						<sString>sBaseStrength &lt; sBaseIntellect</sString>
+						<sString>(sBaseStrength &lt; sBaseIntellect) &amp;&amp; (sender.vRedset7_9_Counter_2 == 4)</sString>
 					</enabled>
 					<formulaName></formulaName>
 					<LoggingEvent>-1</LoggingEvent>
 					<modifier>
 						<addValue>
-							<compiledString>FRQAAAABAAAAIAAAAFJlZHNldDdfOV9Cb251c1N0YXQAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>cRedset7_9_BonusStat</sString>
+							<sString>8</sString>
 						</addValue>
 						<multValue>
 							<compiledString></compiledString>
@@ -102,16 +156,16 @@
 		</Item>
 	</applicators>
 	<applyTarget>ApplicatorTarget</applyTarget>
-	<behaviorFlags>216</behaviorFlags>
+	<behaviorFlags>0</behaviorFlags>
 	<caption>4 pieces: AddStat</caption>
 	<effect>
 		<Item href="" />
 		<Item href="" />
 	</effect>
 	<enabled>
-		<compiledString>FRIAAAACAAAAFwAAAC0AAABSZWRzZXQ3XzlfQ291bnRlcgBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1PAAAA3+D2xAF1CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAEEA=</compiledString>
+		<compiledString>FRQAAAACAAAAGQAAAC8AAABSZWRzZXQ3XzlfQ291bnRlcl8yAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHVEAAADf4PbEBXoJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAQQA==</compiledString>
 		<returnType>bool</returnType>
-		<sString>sender.vRedset7_9_Counter &gt;= 4</sString>
+		<sString>sender.vRedset7_9_Counter_2 &lt; 4</sString>
 	</enabled>
 	<formulaName></formulaName>
 	<lifeTime>

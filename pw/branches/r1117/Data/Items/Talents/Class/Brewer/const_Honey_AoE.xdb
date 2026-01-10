@@ -5,6 +5,7 @@
 	<BackLink DBID="/Items/Talents/Class/Brewer/Ability_A2u.TALENT" Count="1" />
 	<BackLink DBID="/Heroes/Brewer/_.HROB" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Brewer/Ability_A4.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" Count="1" />
 	<name>Honey_AoE</name>
 	<var>
 		<compiledString>FQwAAAACAAAAGQAAACwAAABSYW5nZV9NZWxlZQBVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcBToAAADZXfzZRfyL5V3DAAAAAAAA4D8=</compiledString>

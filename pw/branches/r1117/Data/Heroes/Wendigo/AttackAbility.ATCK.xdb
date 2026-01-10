@@ -69,9 +69,9 @@
 		<Item href="/Heroes/Wendigo/AttackAbility.ATCK" id="8AB8E873-814C-4685-8000-D1F05C3D7C4E">
 			<SpellSwitchApplicator>
 				<activeSpellIndex>
-					<compiledString>FTkAAAAGAAAAQAAAAFkAAADUAAAAJAEAADoBAABPAQAAV2VuZGlnb19BMgAAV2VuZGlnb19BMgAAQTJfTWF4RGFzaFJhbmdlAFdlbmRpZ29fQmxlZWRpbmcAVYvsg+wkaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgMAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hckPhAUBAACLVQyLAotNDItQUP/SM8mD+BEPlcGJTfTbRfRR2RwkUdnu2RwkagGLVQyLAotNDItQWP/SD7bAUOjqAAAAg8QM3B2tAQAA3+D2xEQPi7QAAACLTRCLEYtNEItCDP/Qi00IixGLTQiLQhTdXez/0Nxd7N/g9sQFD4qJAAAAi00QixGLTRCLQgz/0ItNDFGLVQhSaBgAAACLRRCLEItNEItCUN1d5P/Q3AWlAQAA3F3k3+D2xEF1T2oBi00QUWgoAAAAi1UMiwKLTQyLkJwBAAD/0jtFEHQgi0UQixCLTRCLgpAAAAD/0A+2yIXJdAnHReAAAAAA6wfHReABAAAAi1XgiVXc6wfHRdwBAAAAi0Xci+VdwwAAAAAAAABAAAAAAAAAAAAAAAAAVYvsUQ+2RQiFwHQI2UUM2V386wbZRRDZXfzZRfyL5V3D</compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsuAEAAABdww==</compiledString>
 					<returnType>int</returnType>
-					<sString>tal("Wendigo_A2") &amp;&amp; ut_bldg( false, rUnitKind != 17 ) &amp;&amp; mDist2Target &gt; sRange &amp;&amp; mDist2Target &lt; (cA2_MaxDashRange + 2) ? (receiver.applWendigo_Bleeding(UNIT) != pMisc &amp;&amp; mIsNight ? 0 : 1) : 1</sString>
+					<sString>1</sString>
 				</activeSpellIndex>
 				<applyTarget>ApplicatorTarget</applyTarget>
 				<caption>выбираем дэш или авто</caption>
@@ -572,9 +572,9 @@
 					<UnitConstant>
 						<name>A2_MaxDashRange</name>
 						<var>
-							<compiledString>FQ0AAAACAAAAGgAAAC0AAABSYW5nZV9NZWRpdW0AVYvsUYtFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S3AU7AAAA2V382UX8i+VdwwAAAAAAAAhA</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DZmaGQA==</compiledString>
 							<returnType>float</returnType>
-							<sString>cRange_Medium + 3</sString>
+							<sString>4.2</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -615,7 +615,7 @@
 			<instantApply>false</instantApply>
 		</DispatchImmediate>
 	</dispatch>
-	<flags>1</flags>
+	<flags>5</flags>
 	<image href="" />
 	<imageSecondState href="" />
 	<isMelee>true</isMelee>

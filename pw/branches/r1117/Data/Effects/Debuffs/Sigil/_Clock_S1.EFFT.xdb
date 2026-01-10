@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BasicEffectStandalone>
 	<BackLink DBID="/Items/Talents/Class/Chronicle/Ability_A1.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A0.TALENT" Count="1" />
 	<component href="/Effects/Debuffs/Sigil/_BaseChStTRS_S1.PRXY" />
 	<deathType>Manual</deathType>
 	<enableCondition href="/Effects/Debuffs/Sigil/_Clock_S1.EFFT" id="B8E2A54A-5678-49FE-A7FF-87449A96214C">

@@ -17,6 +17,7 @@
 	<BackLink DBID="/Test/Talents/Assassin/Elite_Int.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Assassin/Epic_Int.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Assassin/Epic_Str.TALENTSET" Count="1" />
+	<BackLink DBID="/Test/Talents/Assassin/New_SUP.TALENTSET" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -208,8 +209,8 @@
 													</dispatchEffect>
 													<flags>0</flags>
 													<flyMode>Linear</flyMode>
-													<fromLocator>Attack</fromLocator>
-													<height>2</height>
+													<fromLocator>Body</fromLocator>
+													<height>0</height>
 													<killEffect>true</killEffect>
 													<locatorOrient>false</locatorOrient>
 													<maxDeviation>180</maxDeviation>
@@ -370,6 +371,7 @@
 				<Item href="/Items/Talents/Class/Assassin/const_A3_DamageMul" />
 				<Item href="/Items/Talents/Class/Assassin/const_A0_SUP_2_Appl_Duration" />
 				<Item href="/Items/Talents/Class/Assassin/const_A0_SUP_2_Inc_Resp_Time" />
+				<Item href="/Items/Talents/Class/Assassin/const_A3_SUP_Damage_Increase_Rate" />
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

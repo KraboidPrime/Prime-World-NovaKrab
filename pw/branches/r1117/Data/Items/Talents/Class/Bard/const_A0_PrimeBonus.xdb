@@ -6,8 +6,8 @@
 	<BackLink DBID="/Items/Talents/Class/Bard/Ability_A3.TALENT" Count="1" />
 	<name>A0_PrimeBonus</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
+		<compiledString>FRgAAAACAAAAHwAAADgAAABCYXJkX0EwX1NVUABCYXJkX0EwX1NVUABVi+yD7AxoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaAwAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2Tfv32RvJg+EDg8EFiU3020X0i+Vdww==</compiledString>
 		<returnType>float</returnType>
-		<sString>10</sString>
+		<sString>tal("Bard_A0_SUP") ? 8 : 5</sString>
 	</var>
 </UnitConstant>

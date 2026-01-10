@@ -244,6 +244,7 @@
 														<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Energy.UIEV" />
 													</DamageApplicator>
 												</Item>
+												<Item href="/Heroes/DefaultStatus/_BLIND_status.APLR" />
 											</applicators>
 											<dispatch href="/Items/Talents/Level4/G498_Blink.TALENT" id="BD60D64D-EE2F-44F0-8E5E-85F710B55C1A">
 												<DispatchImmediate>
@@ -499,6 +500,16 @@
 							<compiledString>FQwAAAABAAAAGAAAAFJhbmdlX1Nob3J0AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
 							<returnType>float</returnType>
 							<sString>cRange_Short</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Level4/G498_Blink.TALENT" id="B4C850F0-F129-47B8-81A7-4B266954D04F">
+					<UnitConstant>
+						<name>Blind_Duration</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
+							<returnType>float</returnType>
+							<sString>2.0f</sString>
 						</var>
 					</UnitConstant>
 				</Item>

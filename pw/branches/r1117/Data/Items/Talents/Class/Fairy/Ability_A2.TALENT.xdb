@@ -412,13 +412,23 @@
 						</var>
 					</UnitConstant>
 				</Item>
+				<Item href="/Items/Talents/Class/Fairy/Ability_A2.TALENT" id="5591AD46-9DD8-477F-AD89-A5557CE8A5F4">
+					<UnitConstant>
+						<name>A2_Base_Shield</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQQ==</compiledString>
+							<returnType>float</returnType>
+							<sString>20</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 				<Item href="/Items/Talents/Class/Fairy/Ability_A2.TALENT" id="DFC59965-ADB8-4F0E-B81B-4EDBFE3FFBC0">
 					<UnitConstant>
 						<name>A2_DamReducPercent</name>
 						<var>
-							<compiledString>FRoAAAAGAAAAIQAAADcAAABLAAAAawAAAHEAAAB3AAAARmFpcnlVbHRPbgAAQTNfMUVmZmVjdE1vZABVi+yD7AhoAAAAAItFCIsQi00Ii4KIAQAA/9DcHZkAAADf4PbEQXUfi00MUYtVCFJoDAAAAItFEIsQi00Qi0JQ/9DZXfzrBdno2V382UX83CWNAAAA3A2FAAAA3AWFAAAA2V342UX4i+VdwwAAAAAAADRAAAAAAAAA8D8AAIA/AAAAAAAAAAA=</compiledString>
+							<compiledString>FSoAAAAFAAAAMQAAAEcAAABbAAAAfwAAAJUAAABBMl9CYXNlX1NoaWVsZAAARmFpcnlVbHRPbgAAQTNfMUVmZmVjdE1vZABVi+yD7AhoEAAAAItFCIsQi00Ii4KIAQAA/9DcHbUAAADf4PbEQXUfi00MUYtVCFJoHAAAAItFEIsQi00Qi0JQ/9DZXfzrBdno2V38i00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ/9DZRfzcJakAAADZ6N7B3snZXfjZRfiL5V3DAAAAAAAA8D8AAIA/AAAAAAAAAAA=</compiledString>
 							<returnType>float</returnType>
-							<sString>20 + 20 * ( (sender.vFairyUltOn &gt; 0 ? cA3_1EffectMod : 1) - 1 )</sString>
+							<sString>cA2_Base_Shield*(1 + ( (sender.vFairyUltOn &gt; 0 ? cA3_1EffectMod : 1) - 1 ))</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -600,6 +610,53 @@
 				<talents />
 				<useListAs>ListAsRule</useListAs>
 			</FlagsApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/Fairy/Ability_A2.TALENT" id="C0D2F130-FE5A-403C-8D47-797FFABC710E">
+			<StatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>Доп отхил</caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FR0AAAACAAAAJAAAAD0AAABGYWlyeV9BMl9TVVAAAAAARmFpcnlfQTJfU1VQAFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAikX7i+Vdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("Fairy_A2_SUP") </sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQwAAAABAAAAGAAAAEEyX0FkZFJlZ2VuAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+						<returnType>float</returnType>
+						<sString>cA2_AddRegen</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>LifeRegenerationAbsolute</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
 		</Item>
 	</passiveApplicators>
 	<persistentId>Fairy_A2</persistentId>

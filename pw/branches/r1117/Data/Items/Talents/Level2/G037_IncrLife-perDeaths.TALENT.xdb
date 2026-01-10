@@ -50,7 +50,28 @@
 	<commonDescription textref="" />
 	<compiledDescriptionA textref="" />
 	<compiledDescriptionB textref="" />
-	<conditionFormulas />
+	<conditionFormulas>
+		<Item href="/Items/Talents/Level2/G037_IncrLife-perDeaths.TALENT" id="9B59F60D-4A51-4068-9B3D-CF65BB62D656">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRcAAAACAAAAHAAAADIAAABTZWMyMDI1X1Rvb2x0aXBDb3VudGVyAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHVQAAADf4PbEAXUJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAIQA==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vSec2025_TooltipCounter &gt;= 3</sString>
+				</condition>
+				<name>Bonus3ActiveSe</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Items/Talents/Level2/G037_IncrLife-perDeaths.TALENT" id="630FF37D-31C2-49AC-A432-1CEDD1E4D511">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRcAAAACAAAAHAAAADIAAABTZWMyMDI1X1Rvb2x0aXBDb3VudGVyAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHVQAAADf4PbEAXUJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAcQA==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vSec2025_TooltipCounter &gt;= 7</sString>
+				</condition>
+				<name>Bonus7ActiveSe</name>
+			</ConditionFormula>
+		</Item>
+	</conditionFormulas>
 	<conflictingTalents />
 	<constants href="/Items/Talents/Level2/G037_IncrLife-perDeaths.TALENT" id="E329634C-0832-4AA2-9422-ED6C967A6F37">
 		<UnitConstantsContainer>
@@ -59,9 +80,9 @@
 					<UnitConstant>
 						<name>Add_Life</name>
 						<var>
-							<compiledString>FQsAAAADAAAAFAAAAB4AAAA7AAAATGlmZUJ1ZGdldABVi+yD7AxR2QVgAAAA2RwkUdkFXAAAANkcJItFEIsQi00Qi0Js/9CLTQxRi1UIUmgAAAAAi0UQixCLTRCLQlDdXfj/0NxN+Nld9NlF9IvlXcMAAABAzcxMPg==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAKQw==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(2,0.2)*cLifeBudget</sString>
+							<sString>138</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -69,9 +90,9 @@
 					<UnitConstant>
 						<name>PrimeAmount</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQg==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACMQg==</compiledString>
 							<returnType>float</returnType>
-							<sString>50</sString>
+							<sString>70</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -79,9 +100,9 @@
 					<UnitConstant>
 						<name>Add_LifePerm</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAIEIAAKBA</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADSQg==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(40, 5)</sString>
+							<sString>105</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -102,6 +123,26 @@
 							<compiledString>FSEAAAACAAAAMAAAAEoAAABBZGRfTGlmZVBlcm0AAAAATGlmZUluY3JlYXNlc0NhcABVi+yD7AyLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0otFDFCLTQhRaBAAAACLVRCLAotNEItQUN1d+P/S3E342V302UX0i+Vdww==</compiledString>
 							<returnType>float</returnType>
 							<sString>cAdd_LifePerm * cLifeIncreasesCap</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Level2/G037_IncrLife-perDeaths.TALENT" id="B8ECFDEC-C286-4BC4-8F07-FBC056F671BD">
+					<UnitConstant>
+						<name>G037LifeforD</name>
+						<var>
+							<compiledString>FQ8AAAADAAAAFAAAAC8AAABAAAAARzAzN05ld0NvdW50ZXIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0FHZHCRR2QVWAAAA2Rwk6B8AAACDxAjcDU4AAADZXfzZRfyL5V3DAAAAAABAWkAAAKBAVYvsUdlFCNlFDN7Z3+D2xEF1CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
+							<returnType>float</returnType>
+							<sString>105*min(5, sender.vG037NewCounter)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Level2/G037_IncrLife-perDeaths.TALENT" id="EC2AA14B-E5F8-459B-9427-B61BE84A94C8">
+					<UnitConstant>
+						<name>G037PrimeforD</name>
+						<var>
+							<compiledString>FQ8AAAACAAAAFAAAACoAAABHMDM3TmV3Q291bnRlcgBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3A04AAAA2V382UX8i+VdwwAAAAAAgFFA</compiledString>
+							<returnType>float</returnType>
+							<sString>70*sender.vG037NewCounter</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -235,6 +276,36 @@
 											</nafta>
 											<providerName></providerName>
 										</AddNaftaApplicator>
+									</Item>
+									<Item href="/Items/Talents/Level2/G037_IncrLife-perDeaths.TALENT" id="A20B4667-D7EB-4FF7-9F51-C9475BA14E33">
+										<PermanentStatModApplicator>
+											<applyTarget>ApplicatorTarget</applyTarget>
+											<caption></caption>
+											<customApplyType>None</customApplyType>
+											<enabled>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</enabled>
+											<formulaName></formulaName>
+											<LoggingEvent>-1</LoggingEvent>
+											<modifier>
+												<addValue>
+													<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+													<returnType>float</returnType>
+													<sString>1.0f</sString>
+												</addValue>
+												<multValue>
+													<compiledString></compiledString>
+													<returnType>float</returnType>
+													<sString>1.0f</sString>
+												</multValue>
+												<stat>Life</stat>
+												<topModifier>false</topModifier>
+												<variable>G037NewCounter</variable>
+											</modifier>
+											<providerName></providerName>
+										</PermanentStatModApplicator>
 									</Item>
 								</applicators>
 								<dispatch href="/Items/Talents/Level2/G037_IncrLife-perDeaths.TALENT" id="9E4EF478-C66E-4077-A3E5-59B139F43CBF">
@@ -374,10 +445,11 @@
 				<useAbilityOwnerMana>false</useAbilityOwnerMana>
 			</TriggerApplicator>
 		</Item>
+		<Item href="/Items/Talents/Level3/SecondPinkSet_Prog2025.APLR" />
 	</passiveApplicators>
 	<persistentId>G037</persistentId>
 	<prerequisiteTalents />
-	<rarity>excellent</rarity>
+	<rarity>magnificent</rarity>
 	<requireLineOfSight>true</requireLineOfSight>
 	<shortDescription textref="" />
 	<talentRollGroups>0</talentRollGroups>

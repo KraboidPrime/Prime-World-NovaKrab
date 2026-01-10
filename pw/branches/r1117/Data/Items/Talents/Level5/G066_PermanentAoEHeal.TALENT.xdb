@@ -39,21 +39,32 @@
 	<commonDescription textref="" />
 	<compiledDescriptionA textref="" />
 	<compiledDescriptionB textref="" />
-	<conditionFormulas />
+	<conditionFormulas>
+		<Item href="/Items/Talents/Level5/G066_PermanentAoEHeal.TALENT" id="9C87797A-D719-490A-97BA-F88175D8A45A">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRYAAAACAAAAGwAAADEAAABBdTIwMjVfVG9vbHRpcENvdW50ZXIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdUwAAAN/g9sQBdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAhA</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vAu2025_TooltipCounter &gt;= 3</sString>
+				</condition>
+				<name>Bonus3ActiveAu</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Items/Talents/Level5/G066_PermanentAoEHeal.TALENT" id="3D9DC104-C0DE-40F8-97F3-CF4C067D317A">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRYAAAACAAAAGwAAADEAAABBdTIwMjVfVG9vbHRpcENvdW50ZXIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdUwAAAN/g9sQBdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAABxA</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vAu2025_TooltipCounter &gt;= 7</sString>
+				</condition>
+				<name>Bonus7ActiveAu</name>
+			</ConditionFormula>
+		</Item>
+	</conditionFormulas>
 	<conflictingTalents />
 	<constants href="/Items/Talents/Level5/G066_PermanentAoEHeal.TALENT" id="5DE3212E-EE9A-44BF-8795-5B40A17EC9F7">
 		<UnitConstantsContainer>
 			<vars>
-				<Item href="/Items/Talents/Level5/G066_PermanentAoEHeal.TALENT" id="3CB2B33C-3732-4BC0-B2AD-047BC89AFEEC">
-					<UnitConstant>
-						<name>Heal_Amount</name>
-						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAA8EEAAABA</compiledString>
-							<returnType>float</returnType>
-							<sString>refineScale(30, 2)</sString>
-						</var>
-					</UnitConstant>
-				</Item>
 				<Item href="/Items/Talents/Level5/G066_PermanentAoEHeal.TALENT" id="04BA1045-DBF6-444D-A559-9A104179FA35">
 					<UnitConstant>
 						<name>Interval</name>
@@ -68,9 +79,9 @@
 					<UnitConstant>
 						<name>Range</name>
 						<var>
-							<compiledString>FQsAAAABAAAAFwAAAFJhbmdlX0xvbmcAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+							<compiledString>FQ0AAAABAAAAGQAAAFJhbmdlX0V4TG9uZwBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
 							<returnType>float</returnType>
-							<sString>cRange_Long</sString>
+							<sString>cRange_ExLong</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -116,10 +127,41 @@
 	<node></node>
 	<passiveApplicators>
 		<Item href="/Items/Talents/Level5/status_66_HealNearbyAllies.APLR" />
+		<Item href="/Items/Talents/Level5/G066_PermanentAoEHeal.TALENT" id="4F5E8036-EF0B-40DE-9860-B007A86AD2C3">
+			<PermanentStatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>Здоровице</caption>
+				<customApplyType>None</customApplyType>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQw==</compiledString>
+						<returnType>float</returnType>
+						<sString>400</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Life</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level3/AURASET_Prog2025.APLR" />
 	</passiveApplicators>
 	<persistentId>G066</persistentId>
 	<prerequisiteTalents />
-	<rarity>excellent</rarity>
+	<rarity>magnificent</rarity>
 	<requireLineOfSight>false</requireLineOfSight>
 	<shortDescription textref="/Items/Talents/Level5/G066_PermanentAoEHeal.TALENT_shortDescription.txt" />
 	<talentRollGroups>0</talentRollGroups>

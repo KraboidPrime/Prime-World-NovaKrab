@@ -2,6 +2,7 @@
 <UnitConstant>
 	<BackLink DBID="/Items/Talents/Class/Freeze/Ability_A4.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Freeze/Ability_A4u.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A4_1.TALENT" Count="1" />
 	<name>Dec_MoveSpeed</name>
 	<var>
 		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQg==</compiledString>

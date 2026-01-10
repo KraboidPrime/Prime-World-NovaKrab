@@ -22,7 +22,7 @@
 		<sString>true</sString>
 	</allowChase>
 	<alternativeTargets />
-	<aoeDisplayOnMinimap>true</aoeDisplayOnMinimap>
+	<aoeDisplayOnMinimap>false</aoeDisplayOnMinimap>
 	<aoeHeight>0</aoeHeight>
 	<aoeMaterial href="" />
 	<aoePassabilityCheckMode>0</aoePassabilityCheckMode>
@@ -273,9 +273,9 @@
 		<Item href="/Items/Talents/Class/Healer/Ability5.TALENT" id="FFA65FE4-B5C0-4E36-97F7-73367B887B38">
 			<FlagsApplicator parent="/GameLogic/GeneralApplicators/ForbidTalentByCondition.APLR">
 				<enabled>
-					<compiledString>FQAAAAAAAAAAVYvsVotFCIsQi00Ii0JM/9CL8ItNCIsRi00Ii4KQAQAA/9AzyTvwD5XBisFeXcM=</compiledString>
+					<compiledString>FR4AAAACAAAASQAAAGIAAABIZWFsZXJfQTVfU1VQAAAASGVhbGVyX0E1X1NVUABVi+yD7AxWi0UIixCLTQiLQkz/0Ivwi00IixGLTQiLgpABAAD/0DvwdFhoAAAAAItNCIsRi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXUJx0X0AQAAAOsHx0X0AAAAAIpF9F6L5V3D</compiledString>
 					<returnType>bool</returnType>
-					<sString>sTerrainType != sFctn</sString>
+					<sString>sTerrainType != sFctn &amp;&amp; !tal("Healer_A5_SUP")</sString>
 				</enabled>
 				<talents>
 					<Item href="/Items/Talents/Class/Healer/Ability5.TALENT" />
@@ -295,11 +295,11 @@
 	<type>Active</type>
 	<upgradeLevel>0</upgradeLevel>
 	<useRange>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQg==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAB6RA==</compiledString>
 		<returnType>float</returnType>
-		<sString>100</sString>
+		<sString>1000</sString>
 	</useRange>
-	<useRangeMaterial href="/Effects/UI/AOESelection/Radius.MTRL" />
+	<useRangeMaterial href="" />
 	<variativeMaxTalentStats />
 	<variativeMinTalentStats />
 	<vendorCost>0</vendorCost>

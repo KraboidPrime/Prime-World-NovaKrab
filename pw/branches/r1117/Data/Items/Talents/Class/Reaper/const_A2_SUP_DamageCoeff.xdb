@@ -5,8 +5,8 @@
 	<BackLink DBID="/Items/Talents/Class/Reaper/Ability_A2_SUP.TALENT" Count="1" />
 	<name>A2_SUP_DamageCoeff</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQg==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQQ==</compiledString>
 		<returnType>float</returnType>
-		<sString>40</sString>
+		<sString>30</sString>
 	</var>
 </UnitConstant>

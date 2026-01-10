@@ -7,6 +7,8 @@
 	<BackLink DBID="/Pets/Horse/Ressurector.APLR" Count="1" />
 	<BackLink DBID="/Pets/Pig/Summon.APLR" Count="1" />
 	<BackLink DBID="/Pets/Tiger/Ressuretor.APLR" Count="1" />
+	<BackLink DBID="/Pets/Bear/Ressurector.APLR" Count="1" />
+	<BackLink DBID="/Items/Consumables/Pet_Pig.ARCT" Count="1" />
 	<applicators>
 		<Item href="/Pets/Pig/Ressurector.APLR" id="EA09341E-734E-42F4-AE63-2AD28A214999">
 			<TriggerApplicator>
@@ -139,6 +141,9 @@
 				<Item href="/Pets/Duck/Ressurector.APLR" />
 				<Item href="/Pets/Tiger/Ressuretor.APLR" />
 				<Item href="/Pets/Dragon/Ressurector.APLR" />
+				<Item href="/Pets/mage/Ressurector.APLR" />
+				<Item href="/Pets/Bear/Ressurector.APLR" />
+				<Item href="/Pets/Lady/Ressurector.APLR" />
 			</applicators>
 		</ApplicatorsList>
 	</unstackableWith>

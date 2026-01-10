@@ -69,9 +69,9 @@
 					<UnitConstant>
 						<name>A4_Duration</name>
 						<var>
-							<compiledString>FTgAAAADAAAARwAAAFkAAAB5AAAAVFRfVGVjaF9BNF9EdXJhdGlvbgBIZXJvX1JhZ2UAAABUVF9UZWNoX0E0X1JhZ2VfUGVyX1NlYwBVi+yD7BSLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0mgUAAAAi0UIixCLTQiLgogBAADdXfj/0ItNDFGLVQhSaCAAAACLRRCLEItNEItCUN1d8P/Q3H3w3EX42V3s2UXsi+Vdww==</compiledString>
+							<compiledString>FV4AAAAFAAAAZQAAAH4AAAC0AAAAxgAAAOYAAABUVF9UZWNoX0E0X0R1cmF0aW9uAEhlcm9fUmFnZQAAAFRUX1RlY2hfQTRfUmFnZV9QZXJfU2VjAEd1bnNsaW5nZXJfQTBfU1VQAAAAR3Vuc2xpbmdlcl9BMF9TVVAAVYvsg+wgaDgAAACLRQiLEItNCIuCqAEAAP/QhcB0KmhMAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wCLTQxRi1UIUmgAAAAAi0UQixCLTRCLQlD/0GgUAAAAi00IixGLTQiLgogBAADdXfD/0ItNDFGLVQhSaCAAAACLRRCLEItNEItCUN1d6P/Q3H3oD7ZN+4PBAYlN5NpN5NxF8Nld4NlF4IvlXcM=</compiledString>
 							<returnType>float</returnType>
-							<sString>cTT_Tech_A4_Duration + (sender.vHero_Rage/ cTT_Tech_A4_Rage_Per_Sec)</sString>
+							<sString>cTT_Tech_A4_Duration + (sender.vHero_Rage/ cTT_Tech_A4_Rage_Per_Sec)*(1+tal("Gunslinger_A0_SUP"))</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -145,9 +145,9 @@
 					<UnitConstant>
 						<name>TT_Tech_A4_Duration_Up</name>
 						<var>
-							<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+							<compiledString>FSYAAAACAAAALQAAAEYAAABHdW5zbGluZ2VyX0EwX1NVUAAAAEd1bnNsaW5nZXJfQTBfU1VQAFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoFAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+/fZG8n32YPBAYlN9NtF9IvlXcM=</compiledString>
 							<returnType>float</returnType>
-							<sString>1</sString>
+							<sString>tal("Gunslinger_A0_SUP") ? 2 : 1</sString>
 						</var>
 					</UnitConstant>
 				</Item>
