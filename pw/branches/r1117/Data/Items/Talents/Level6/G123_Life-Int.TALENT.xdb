@@ -152,7 +152,7 @@
 							<onlySingleTarget>false</onlySingleTarget>
 						</abilityFilter>
 						<applyTarget>ApplicatorTarget</applyTarget>
-						<damageTypeFilter>31</damageTypeFilter>
+						<damageTypeFilter>15</damageTypeFilter>
 						<modifiedDamage>
 							<compiledString>FRIAAAADAAAAGQAAADMAAABJAAAARGFtYWdlAABHMTIzX0J1ZmYAVYvsg+wMaAAAAACLRRCLEItNEItCVP/Qi00MUYtVCFJoCAAAAItFEIsQi00Qi0JQ3V34/9DcNWYAAADZ6N7B3E342V302UX0i+VdwwAAAAAAAPA/AAAAAAAAWUA=</compiledString>
 							<returnType>float</returnType>

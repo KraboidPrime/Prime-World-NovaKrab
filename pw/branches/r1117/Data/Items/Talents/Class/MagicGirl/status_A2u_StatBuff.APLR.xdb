@@ -5,7 +5,7 @@
 		<Item href="/Items/Talents/Class/MagicGirl/status_A2u_StatBuff.APLR" id="F14291C4-B41F-4C39-8346-EF8123A1C53B">
 			<StatModApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
-				<behaviorFlags>0</behaviorFlags>
+				<behaviorFlags>144</behaviorFlags>
 				<caption>SpellDef</caption>
 				<constraint>None</constraint>
 				<dontUpdate>false</dontUpdate>
@@ -38,11 +38,58 @@
 					</multValue>
 					<stat>Life</stat>
 					<topModifier>false</topModifier>
-					<variable>SpellDef</variable>
+					<variable>SpellPierce</variable>
 				</modifier>
 				<providerName></providerName>
 				<startCondition>
 					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/MagicGirl/status_A2u_StatBuff.APLR" id="5B9C146E-1DC5-49C4-8072-DA1DC75C77EF">
+			<StatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>144</behaviorFlags>
+				<caption></caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQ0AAAABAAAAGQAAAFJlZ2VuQnVmZk5ldwBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+						<returnType>float</returnType>
+						<sString>cRegenBuffNew</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>LifeRegenerationAbsolute</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
 					<returnType>bool</returnType>
 					<sString>true</sString>
 				</startCondition>
@@ -54,9 +101,9 @@
 	<behaviorFlags>145</behaviorFlags>
 	<caption>Спелл дефы от A2_SUP</caption>
 	<customCounter>
-		<compiledString></compiledString>
+		<compiledString>FQ0AAAABAAAAEQAAAEx1bmFCdWZmMjAyNgBVi+xoAAAAAItFDIsQi00Mi4KIAQAA/9BR2Rwk6AUAAACDxARdw7gBAAAAD6L3wgAAAAR0B/MPLEQkBMPpAAAAAFWL7IPsDNlFCNl9/A+3RfwNAAwAAIlF+Nlt+Ntd9Nlt/ItF9IvlXcM=</compiledString>
 		<returnType>int</returnType>
-		<sString>0</sString>
+		<sString>f2l(receiver.vLunaBuff2026)</sString>
 	</customCounter>
 	<customProgress>
 		<compiledString></compiledString>

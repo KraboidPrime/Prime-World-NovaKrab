@@ -139,9 +139,9 @@
 					<UnitConstant>
 						<name>A4EnergyDegen</name>
 						<var>
-							<compiledString>FQAAAAACAAAAEwAAABkAAABVi+xRi0UIixCLTQiLQhD/0NwNLwAAANwFJwAAANld/NlF/IvlXcMAAAAAAABZQHsUrkfhepQ/</compiledString>
+							<compiledString>FQAAAAACAAAAEwAAABkAAABVi+xRi0UIixCLTQiLQhD/0NwNLwAAANwFJwAAANld/NlF/IvlXcMAAAAAAABZQLgehetRuJ4/</compiledString>
 							<returnType>float</returnType>
-							<sString>100 + 0.02*sMaxEnergy</sString>
+							<sString>100 + 0.03*sMaxEnergy</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -179,9 +179,9 @@
 					<UnitConstant>
 						<name>A4Damage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUEAAADZHCRR2QU9AAAA2RwkagGLRQiLEItNCItCDP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAABGQwBAsEQ=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUEAAADZHCRR2QU9AAAA2RwkagGLRQiLEItNCItCDP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAA8QwBgp0Q=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScaleCustomLife(sMaxLife, 198, 1410)</sString>
+							<sString>damageScaleCustomLife(sMaxLife, 188, 1339)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

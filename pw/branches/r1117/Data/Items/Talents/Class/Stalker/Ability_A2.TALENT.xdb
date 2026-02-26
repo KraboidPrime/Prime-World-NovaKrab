@@ -471,7 +471,7 @@
 														<WaitForSpellApplicator>
 															<applyTarget>AbilityOwner</applyTarget>
 															<behaviorFlags>153</behaviorFlags>
-															<behaviour>1</behaviour>
+															<behaviour>4</behaviour>
 															<caption>послать стрелу</caption>
 															<dispatchSource href="" />
 															<effect>
@@ -768,7 +768,7 @@
 														<WaitForSpellApplicator>
 															<applyTarget>AbilityOwner</applyTarget>
 															<behaviorFlags>153</behaviorFlags>
-															<behaviour>1</behaviour>
+															<behaviour>4</behaviour>
 															<caption>послать стрелу</caption>
 															<dispatchSource href="" />
 															<effect>

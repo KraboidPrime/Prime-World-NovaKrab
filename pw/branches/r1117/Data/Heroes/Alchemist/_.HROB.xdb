@@ -814,6 +814,7 @@
 	</heroSceneObjects>
 	<heroSkins>
 		<Item href="/Heroes/Alchemist/S1/_.HEROSKIN" />
+		<Item href="/Heroes/Alchemist/S2/_.HEROSKIN" />
 	</heroSkins>
 	<id>alchemist</id>
 	<image href="" />

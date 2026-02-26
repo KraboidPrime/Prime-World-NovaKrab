@@ -261,7 +261,7 @@
 		</Item>
 	</applicators>
 	<applyTarget>ApplicatorTarget</applyTarget>
-	<behaviorFlags>216</behaviorFlags>
+	<behaviorFlags>217</behaviorFlags>
 	<caption>статус Вечность</caption>
 	<customCounter>
 		<compiledString></compiledString>

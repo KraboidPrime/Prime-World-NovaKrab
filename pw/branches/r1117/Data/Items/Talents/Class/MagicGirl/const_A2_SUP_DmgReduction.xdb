@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Class/MagicGirl/Ability_A2_SUP.TALENT" Count="1" />
 	<name>A2_SUP_DmgReduction</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQQ==</compiledString>
+		<compiledString>FQ0AAAABAAAAFAAAAEx1bmFCdWZmMjAyNgBVi+yD7BBoAAAAAItFDIsQi00Mi4KIAQAA/9CLTRCLEYtNEIuCkAAAAN1d+P/QD7bIg8ECiU3020X03E342V3w2UXwi+Vdww==</compiledString>
 		<returnType>float</returnType>
-		<sString>15.0f</sString>
+		<sString>receiver.vLunaBuff2026*(2 + mIsNight)</sString>
 	</var>
 </UnitConstant>

@@ -223,7 +223,7 @@
 									</applicators>
 									<dispatch href="/Items/Talents/TalentKits/Redset9_3_SpellBlock/Programm_Redset9_3_SpellBlock.APLR" id="C74D0A6E-64D5-4C73-8F8C-9EB007C453CE">
 										<DispatchImmediate>
-											<alwaysApply>false</alwaysApply>
+											<alwaysApply>true</alwaysApply>
 											<applyEffect>
 												<Item href="" />
 												<Item href="" />

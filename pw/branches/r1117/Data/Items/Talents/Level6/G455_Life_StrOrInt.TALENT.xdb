@@ -200,9 +200,9 @@
 					<UnitConstant>
 						<name>Dragon_Health</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQQ==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>20</sString>
+							<sString>15</sString>
 						</var>
 					</UnitConstant>
 				</Item>

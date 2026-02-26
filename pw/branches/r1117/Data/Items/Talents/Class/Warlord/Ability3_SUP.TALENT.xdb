@@ -59,6 +59,16 @@
 				<Item href="/Items/Talents/Class/Warlord/const_A2u_Haste_MoveAmount" />
 				<Item href="/Items/Talents/Class/Warlord/const_A2u_Taunt_Duration" />
 				<Item href="/Items/Talents/Class/Warlord/const_A2u_TT_Haste_MoveAmount" />
+				<Item href="/Items/Talents/Class/Warlord/Ability3_SUP.TALENT" id="5855C7FE-99E2-495B-95DA-61922FC8EA60">
+					<UnitConstant>
+						<name>WarlordBuffStatA3</name>
+						<var>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCyAAAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DZmbmPwAAUEE=</compiledString>
+							<returnType>float</returnType>
+							<sString>damageScale(sBaseStamina,1.8, 13)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

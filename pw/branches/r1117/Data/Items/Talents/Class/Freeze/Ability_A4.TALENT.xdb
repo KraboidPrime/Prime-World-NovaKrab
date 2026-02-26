@@ -450,9 +450,9 @@
 																<applyTarget>ApplicatorTarget</applyTarget>
 																<caption>Подбросить врага и застунить</caption>
 																<enabled>
-																	<compiledString>FRcAAAACAAAAHgAAADcAAABGcmVlemVfQTR1AABGcmVlemVfQTR1AFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoDAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAikX7i+Vdww==</compiledString>
+																	<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
 																	<returnType>bool</returnType>
-																	<sString>tal("Freeze_A4u")</sString>
+																	<sString>true</sString>
 																</enabled>
 																<formulaName></formulaName>
 																<LoggingEvent>-1</LoggingEvent>
@@ -685,37 +685,6 @@
 																										<Spell>
 																											<applicators>
 																												<Item href="/Heroes/DefaultStatus/_STUN_Status.APLR" />
-																												<Item href="/Items/Talents/Class/Freeze/Ability_A4.TALENT" id="1503460B-CAA1-41E9-9D77-9F6B12EA079D">
-																													<TauntApplicator>
-																														<applyTarget>AbilityOwner</applyTarget>
-																														<behaviorFlags>0</behaviorFlags>
-																														<caption>Таунтим фриза на цель подброса</caption>
-																														<effect>
-																															<Item href="" />
-																															<Item href="" />
-																														</effect>
-																														<enabled>
-																															<compiledString>FRMAAAACAAAAIAAAADoAAABTdGF0dXNIZXhlZABUYXJnZXQAVYvsg+wIagCLRRBQaAAAAACLTQiLEYtNCIuCnAEAAP/QO0UQdUNoDAAAAItNEIsRi00Qi0JM/9CJRfyLTQiLEYtNCIuCkAEAAP/QUItN/IsRi038i0J0/9APtsiFyXQJx0X4AQAAAOsHx0X4AAAAAIpF+IvlXcM=</compiledString>
-																															<returnType>bool</returnType>
-																															<sString>sender.applStatusHexed(GLOBAL) == pMisc &amp;&amp; appl.oTarget.IsVisibleForEnemy(sender.Fctn)</sString>
-																														</enabled>
-																														<formulaName></formulaName>
-																														<lifeTime>
-																															<compiledString></compiledString>
-																															<returnType>float</returnType>
-																															<sString>0.1</sString>
-																														</lifeTime>
-																														<LoggingEvent>-1</LoggingEvent>
-																														<providerName></providerName>
-																														<startCondition>
-																															<compiledString>FQAAAAABAAAAEwAAAFWL7FGLRRCLEItNEItCDP/Q3B01AAAA3+D2xEF6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAEEA=</compiledString>
-																															<returnType>bool</returnType>
-																															<sString>mDist2Target &lt;=4</sString>
-																														</startCondition>
-																														<strongTarget>true</strongTarget>
-																														<tauntTarget>ApplicatorTarget</tauntTarget>
-																													</TauntApplicator>
-																												</Item>
 																											</applicators>
 																											<dispatch href="/Items/Talents/Class/Freeze/Ability_A4.TALENT" id="5E69F1AE-D921-4E8A-8F85-39EB7ED0088F">
 																												<DispatchImmediate>
@@ -949,11 +918,21 @@
 																<behaviorFlags>152</behaviorFlags>
 																<caption>Аура замедления</caption>
 																<effect>
-																	<Item href="/Summons/Fist/FXDecalU.EFFT" />
+																	<Item href="/Items/Talents/Class/Freeze/Ability_A4.TALENT" id="BFE3459C-020F-4039-A72B-5180AE6788A5">
+																		<EffectList>
+																			<deathType>Manual</deathType>
+																			<effects>
+																				<Item href="/Summons/Fist/FXDecalUAlly.EFFT" />
+																				<Item href="/Summons/Fist/FXDecalUAllyup.EFFT" />
+																			</effects>
+																			<enableCondition href="" />
+																			<lifeTime>0</lifeTime>
+																		</EffectList>
+																	</Item>
 																	<Item href="" />
 																</effect>
 																<enabled>
-																	<compiledString></compiledString>
+																	<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
 																	<returnType>bool</returnType>
 																	<sString>true</sString>
 																</enabled>
@@ -1384,9 +1363,9 @@
 					<UnitConstant>
 						<name>A4_AuraRange</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAQA==</compiledString>
+							<compiledString>FRcAAAAEAAAAHgAAADcAAABuAAAAeQAAAEZyZWV6ZV9BNHUAAEZyZWV6ZV9BNHUAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgMAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0C9kFiwAAANld9OsJ2QWHAAAA2V302UX0i+VdwwAAgEAAAMBA</compiledString>
 							<returnType>float</returnType>
-							<sString>4.0f</sString>
+							<sString>tal("Freeze_A4u") ? 6.0f : 4.0f</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -1439,6 +1418,16 @@
 							<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
 							<returnType>float</returnType>
 							<sString>1</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Freeze/Ability_A4.TALENT" id="D36DC010-22B3-48D0-889A-546E318FEE65">
+					<UnitConstant>
+						<name>Stun_StartCondition</name>
+						<var>
+							<compiledString>FRcAAAACAAAAHgAAADcAAABGcmVlemVfQTR1AABGcmVlemVfQTR1AFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoDAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4lN9NtF9IvlXcM=</compiledString>
+							<returnType>float</returnType>
+							<sString>tal("Freeze_A4u")</sString>
 						</var>
 					</UnitConstant>
 				</Item>

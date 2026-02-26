@@ -1307,9 +1307,9 @@
 																															</enabled>
 																															<formulaName></formulaName>
 																															<lifeTime>
-																																<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADgQA==</compiledString>
+																																<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
 																																<returnType>float</returnType>
-																																<sString>7.0f</sString>
+																																<sString>5.0f</sString>
 																															</lifeTime>
 																															<LoggingEvent>-1</LoggingEvent>
 																															<modifier>

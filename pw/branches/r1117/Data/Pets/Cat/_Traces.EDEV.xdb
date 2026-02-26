@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <EnableDisableSCEvents>
 	<BackLink DBID="/Pets/Cat/_.SOBJ" Count="1" />
+	<BackLink DBID="/Pets/Cat/_gora.SOBJ" Count="1" />
 	<disableEvents />
 	<enableEvents>
 		<Item href="/Pets/Cat/_Traces.EDEV" id="2780BEAE-1FBB-4852-AD36-5579CDDED2B9">

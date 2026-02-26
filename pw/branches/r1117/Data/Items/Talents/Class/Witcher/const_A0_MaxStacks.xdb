@@ -6,8 +6,8 @@
 	<BackLink DBID="/Maps/PvE/Series/Episode1/Talents/witcher/Ability1.TALENT" Count="1" />
 	<name>A0_MaxStacks</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
+		<compiledString>FR8AAAACAAAAJgAAAD8AAABXaXRjaGVyX0EzX1NVUAAAV2l0Y2hlcl9BM19TVVAAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37jVQJColV9NtF9IvlXcM=</compiledString>
 		<returnType>float</returnType>
-		<sString>10</sString>
+		<sString>10+2*tal("Witcher_A3_SUP")</sString>
 	</var>
 </UnitConstant>

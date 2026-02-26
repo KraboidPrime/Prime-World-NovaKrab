@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BasicEffectAttached>
+	<BackLink DBID="/Summons/Fist/FXDecalU.EFFT" Count="1" />
+	<BackLink DBID="/Summons/Fist/FXDecalUAlly.EFFT" Count="1" />
+	<BackLink DBID="/Summons/Fist/FXDecalUup.EFFT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Freeze/Ability_A4.TALENT" Count="1" />
+	<attachFlags>0</attachFlags>
+	<attachType>Ground</attachType>
+	<component href="/Summons/Fist/FXDecalUAllyup.PRXY" />
+	<deathType>Manual</deathType>
+	<enableCondition href="/Summons/Fist/FXDecalUAllyup.EFFT" id="09BBA8C3-5602-4DB2-BF10-4D26EF1FA772">
+		<ConditionFormula>
+			<condition>
+				<compiledString>FRcAAAACAAAAHgAAADcAAABGcmVlemVfQTR1AABGcmVlemVfQTR1AFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoDAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAikX7i+Vdww==</compiledString>
+				<returnType>bool</returnType>
+				<sString>tal("Freeze_A4u")</sString>
+			</condition>
+			<name></name>
+		</ConditionFormula>
+	</enableCondition>
+	<fadeIn>0.5</fadeIn>
+	<fadeOut>0.5</fadeOut>
+	<groupFlags>0</groupFlags>
+	<lifeTime>0</lifeTime>
+	<__states>
+		<state name="freeze_S2">
+			<component href="/Summons/Fist/FXDecalUAlly_S2up.PRXY" />
+		</state>
+	</__states>
+</BasicEffectAttached>

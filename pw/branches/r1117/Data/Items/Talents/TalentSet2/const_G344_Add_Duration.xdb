@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Level1/G344_Life_LifeReg.TALENT" Count="1" />
 	<name>G344_Add_Duration</name>
 	<var>
-		<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADAPw==</compiledString>
 		<returnType>float</returnType>
-		<sString>1</sString>
+		<sString>1.5f</sString>
 	</var>
 </UnitConstant>

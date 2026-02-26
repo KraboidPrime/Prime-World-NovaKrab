@@ -160,7 +160,7 @@
 		</Item>
 	</applicators>
 	<applyTarget>ApplicatorTarget</applyTarget>
-	<behaviorFlags>146</behaviorFlags>
+	<behaviorFlags>147</behaviorFlags>
 	<caption>Статус контроля</caption>
 	<customCounter>
 		<compiledString></compiledString>

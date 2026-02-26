@@ -17,5 +17,11 @@
 		<state name="banshee_S1">
 			<component href="/Effects/Debuffs/DoT/_EnemyCycleBlue_S1.PRXY" />
 		</state>
+		<state name="banshee_S2">
+			<component href="/Effects/Debuffs/DoT/_AllyCycleBlue_S2.PRXY" />
+		</state>
+		<state name="banshee_S3">
+			<component href="/Effects/Debuffs/DoT/_AllyCycleBlue_S3.PRXY" />
+		</state>
 	</__states>
 </BasicEffectStandalone>

@@ -2,11 +2,21 @@
 <BasicEffectAttached>
 	<BackLink DBID="/Summons/Fist/FXDecalU.EFFT" Count="1" />
 	<BackLink DBID="/Summons/Fist/FXDecalUAlly.EFFT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Freeze/Ability_A4.TALENT" Count="1" />
 	<attachFlags>0</attachFlags>
 	<attachType>Ground</attachType>
 	<component href="/Summons/Fist/FXDecalUAlly.PRXY" />
 	<deathType>Manual</deathType>
-	<enableCondition href="" />
+	<enableCondition href="/Summons/Fist/FXDecalUAlly.EFFT" id="523F5A0D-51C5-4B71-8273-181CBF759345">
+		<ConditionFormula>
+			<condition>
+				<compiledString>FRcAAAACAAAAHgAAADcAAABGcmVlemVfQTR1AABGcmVlemVfQTR1AFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoDAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZF+/fYG8CDwAGL5V3D</compiledString>
+				<returnType>bool</returnType>
+				<sString>!tal("Freeze_A4u")</sString>
+			</condition>
+			<name></name>
+		</ConditionFormula>
+	</enableCondition>
 	<fadeIn>0.5</fadeIn>
 	<fadeOut>0.5</fadeOut>
 	<groupFlags>0</groupFlags>

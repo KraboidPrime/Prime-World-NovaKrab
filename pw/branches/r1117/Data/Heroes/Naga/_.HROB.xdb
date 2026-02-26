@@ -879,9 +879,9 @@
 					<calcIncrement>0.6</calcIncrement>
 					<calcValue>55</calcValue>
 					<increment>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpkZPw==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DMzMzPw==</compiledString>
 						<returnType>float</returnType>
-						<sString>0.6</sString>
+						<sString>0.7</sString>
 					</increment>
 					<levelUpgrades />
 					<statId>Strength</statId>

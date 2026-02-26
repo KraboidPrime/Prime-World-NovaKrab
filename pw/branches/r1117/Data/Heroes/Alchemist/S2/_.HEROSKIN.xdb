@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HeroSkin>
+	<BackLink DBID="/Heroes/Alchemist/_.HROB" Count="2" />
+	<antagonistSkinId></antagonistSkinId>
+	<askList href="" />
+	<askListSecondState href="" />
+	<botRoll>true</botRoll>
+	<cost>1</cost>
+	<deathParameters href="" />
+	<gender>Female</gender>
+	<heroImageA href="/UI/Styles/Icons/Heroes/Alchemist/Face_S2.ITEX" />
+	<heroImageB href="/UI/Styles/Icons/Heroes/Alchemist/Face_S2.ITEX" />
+	<heroName textref="/Heroes/Alchemist/S2/_.HEROSKIN_heroName.txt" />
+	<heroRace>3</heroRace>
+	<heroRenderA href="/UI/Styles/Icons/Heroes/Alchemist/Face_S2.ITEX" />
+	<heroRenderB href="/UI/Styles/Icons/Heroes/Alchemist/Face_S2.ITEX" />
+	<legal>true</legal>
+	<lobbyAskSound>Heroes/Asks/alchemist_S1_a_iddle_1</lobbyAskSound>
+	<mute>false</mute>
+	<persistentId>alchemist_S2</persistentId>
+	<sceneObject href="/Heroes/Alchemist/_S2.SOBJ" />
+</HeroSkin>

@@ -175,6 +175,446 @@
 				<providerName></providerName>
 			</PermanentStatModApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="20863089-C99D-4EC0-B546-F7CF7CA87D9D">
+			<SpellApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption></caption>
+				<enabled>
+					<compiledString>FSUAAAACAAAALAAAAEUAAABQcmltZXZva2VyX0EyU1VQAAAAAFByaW1ldm9rZXJfQTJTVVAAVYvsg+wIaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgUAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wCKRfuL5V3D</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("Primevoker_A2SUP")</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<spell href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="232BC5C9-2FF7-4156-8657-66A4F0DB8FC9">
+					<Spell>
+						<applicators>
+							<Item href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="3EE79791-D9C6-4264-B3E2-93DA081F1A30">
+								<SpellSwitchApplicator>
+									<activeSpellIndex>
+										<compiledString>FQAAAAAAAAAAVYvsVotFCIsQi00Ii4KQAQAA/9CL8ItNDIsRi00Mi4KQAQAA/9AzyTvwD5XBi8FeXcM=</compiledString>
+										<returnType>int</returnType>
+										<sString>sFctn == rFctn ? 0 : 1</sString>
+									</activeSpellIndex>
+									<applyTarget>ApplicatorTarget</applyTarget>
+									<caption></caption>
+									<dontUseDispatches>false</dontUseDispatches>
+									<enabled>
+										<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<LoggingEvent>-1</LoggingEvent>
+									<providerName></providerName>
+									<spells>
+										<Item href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="0C96F533-1762-4A20-B276-7C606D70A1D6">
+											<Spell>
+												<applicators>
+													<Item href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="20F0DBDD-7050-4776-AB51-E503A3ACFA1D">
+														<SpellSwitchApplicator>
+															<activeSpellIndex>
+																<compiledString>FQAAAAAAAAAAVYvsagJqAItFEIsQi00Qi0Jc/9Bdww==</compiledString>
+																<returnType>int</returnType>
+																<sString>random(0,2)</sString>
+															</activeSpellIndex>
+															<applyTarget>ApplicatorTarget</applyTarget>
+															<caption></caption>
+															<dontUseDispatches>false</dontUseDispatches>
+															<enabled>
+																<compiledString></compiledString>
+																<returnType>bool</returnType>
+																<sString>true</sString>
+															</enabled>
+															<formulaName></formulaName>
+															<LoggingEvent>-1</LoggingEvent>
+															<providerName></providerName>
+															<spells>
+																<Item href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="75051289-94D5-4EEE-B7C2-AA1A65EB5415">
+																	<Spell>
+																		<applicators>
+																			<Item href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="C88B634D-BB2A-4A1C-8C31-EB8FA7FA243F">
+																				<HealApplicator>
+																					<amount>
+																						<compiledString>FQAAAAABAAAANgAAAFWL7FGLRQiLEItNCIuCMAEAAP/QUdkcJItNCIsRi00Ii4I0AQAA/9BR2Rwk6BsAAACDxAjcDUQAAADZXfzZRfyL5V3DZmZmZmZm5j9Vi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
+																						<returnType>float</returnType>
+																						<sString>0.7*max(sIntellect, sStrength)</sString>
+																					</amount>
+																					<applyTarget>ApplicatorTarget</applyTarget>
+																					<caption></caption>
+																					<enabled>
+																						<compiledString></compiledString>
+																						<returnType>bool</returnType>
+																						<sString>true</sString>
+																					</enabled>
+																					<formulaName></formulaName>
+																					<healTarget>Health</healTarget>
+																					<ignoreHealingMods>false</ignoreHealingMods>
+																					<LoggingEvent>-1</LoggingEvent>
+																					<providerName></providerName>
+																					<uiEvent href="/UI/Events/CommonEvents/EventHeal.UIEV" />
+																				</HealApplicator>
+																			</Item>
+																		</applicators>
+																		<dispatch href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="35833FAE-BC13-4000-8D1D-B1B01E2B6131">
+																			<DispatchImmediate>
+																				<alwaysApply>false</alwaysApply>
+																				<applyEffect>
+																					<Item href="/Effects/Buffs/Cure/_1.EFFT" />
+																					<Item href="" />
+																				</applyEffect>
+																				<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																				<applyEffectOrientation>Default</applyEffectOrientation>
+																				<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																				<dieAfterApply>true</dieAfterApply>
+																				<dispatchEffect>
+																					<Item href="" />
+																					<Item href="" />
+																				</dispatchEffect>
+																				<flags>0</flags>
+																				<instantApply>false</instantApply>
+																			</DispatchImmediate>
+																		</dispatch>
+																	</Spell>
+																</Item>
+																<Item href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="E09D59EC-C6D7-4B62-80E4-C52D8720C734">
+																	<Spell>
+																		<applicators>
+																			<Item href="/Items/Talents/Class/Primevoker/Unstackable_kraski.APLR" />
+																			<Item href="/Heroes/DefaultStatus/_HASTE_status.APLR" />
+																		</applicators>
+																		<dispatch href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="14217B1E-8BF3-40AA-9422-1D23333422EC">
+																			<DispatchLinear>
+																				<aiming>Straight</aiming>
+																				<alwaysApply>false</alwaysApply>
+																				<applyEffect>
+																					<Item href="/Effects/Shots/Paint/_GreenHit.EFFT" />
+																					<Item href="" />
+																				</applyEffect>
+																				<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																				<applyEffectOrientation>Default</applyEffectOrientation>
+																				<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																				<dieAfterApply>true</dieAfterApply>
+																				<dispatchEffect>
+																					<Item href="/Effects/Shots/Paint/_Green.EFFT" />
+																					<Item href="" />
+																				</dispatchEffect>
+																				<flags>0</flags>
+																				<flyMode>Parabolic</flyMode>
+																				<fromLocator>Body</fromLocator>
+																				<height>0</height>
+																				<killEffect>true</killEffect>
+																				<locatorOrient>false</locatorOrient>
+																				<maxDeviation>180</maxDeviation>
+																				<maxDistance>-1</maxDistance>
+																				<maxRise>6</maxRise>
+																				<minRise>3</minRise>
+																				<persistentApplicators />
+																				<speed>20</speed>
+																				<suspendTime>0</suspendTime>
+																				<toLocator>Body</toLocator>
+																			</DispatchLinear>
+																		</dispatch>
+																	</Spell>
+																</Item>
+																<Item href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="3861E9B6-30C0-42CD-A44B-6D2B4D575C92">
+																	<Spell>
+																		<applicators>
+																			<Item href="/Items/Talents/Class/Primevoker/Unstackable_Shield.APLR" />
+																		</applicators>
+																		<dispatch href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="F91BEE41-191F-4AD0-81A1-5478F0F288AB">
+																			<DispatchImmediate>
+																				<alwaysApply>false</alwaysApply>
+																				<applyEffect>
+																					<Item href="" />
+																					<Item href="" />
+																				</applyEffect>
+																				<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																				<applyEffectOrientation>Default</applyEffectOrientation>
+																				<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																				<dieAfterApply>true</dieAfterApply>
+																				<dispatchEffect>
+																					<Item href="" />
+																					<Item href="" />
+																				</dispatchEffect>
+																				<flags>0</flags>
+																				<instantApply>false</instantApply>
+																			</DispatchImmediate>
+																		</dispatch>
+																	</Spell>
+																</Item>
+															</spells>
+														</SpellSwitchApplicator>
+													</Item>
+												</applicators>
+												<dispatch href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="95874B33-9B11-4CDF-9230-727EE041BFAE">
+													<DispatchImmediate>
+														<alwaysApply>false</alwaysApply>
+														<applyEffect>
+															<Item href="" />
+															<Item href="" />
+														</applyEffect>
+														<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+														<applyEffectOrientation>Default</applyEffectOrientation>
+														<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+														<dieAfterApply>true</dieAfterApply>
+														<dispatchEffect>
+															<Item href="" />
+															<Item href="" />
+														</dispatchEffect>
+														<flags>0</flags>
+														<instantApply>false</instantApply>
+													</DispatchImmediate>
+												</dispatch>
+											</Spell>
+										</Item>
+										<Item href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="FA361214-D098-4AE1-A858-4838C97EBF67">
+											<Spell>
+												<applicators>
+													<Item href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="A50CBCC8-CD33-424F-9726-9B4D0EA7C0C2">
+														<SpellSwitchApplicator>
+															<activeSpellIndex>
+																<compiledString>FQAAAAAAAAAAVYvsagJqAItFEIsQi00Qi0Jc/9Bdww==</compiledString>
+																<returnType>int</returnType>
+																<sString>random(0,2)</sString>
+															</activeSpellIndex>
+															<applyTarget>ApplicatorTarget</applyTarget>
+															<caption></caption>
+															<dontUseDispatches>false</dontUseDispatches>
+															<enabled>
+																<compiledString></compiledString>
+																<returnType>bool</returnType>
+																<sString>true</sString>
+															</enabled>
+															<formulaName></formulaName>
+															<LoggingEvent>-1</LoggingEvent>
+															<providerName></providerName>
+															<spells>
+																<Item href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="9D42E42F-84DF-477C-A104-78D3C1335532">
+																	<Spell>
+																		<applicators>
+																			<Item href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="D9674825-A59A-48D0-BC4A-9B0C330B7705">
+																				<DamageApplicator>
+																					<applyTarget>ApplicatorTarget</applyTarget>
+																					<cancelInvisibility>true</cancelInvisibility>
+																					<caption></caption>
+																					<damage>
+																						<compiledString>FQAAAAABAAAANgAAAFWL7FGLRQiLEItNCIuCMAEAAP/QUdkcJItNCIsRi00Ii4I0AQAA/9BR2Rwk6BsAAACDxAjcDUQAAADZXfzZRfyL5V3DZmZmZmZm5j9Vi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
+																						<returnType>float</returnType>
+																						<sString>0.7*max(sIntellect, sStrength)</sString>
+																					</damage>
+																					<damageMode>0</damageMode>
+																					<damageType>Energy</damageType>
+																					<enabled>
+																						<compiledString></compiledString>
+																						<returnType>bool</returnType>
+																						<sString>true</sString>
+																					</enabled>
+																					<formulaName></formulaName>
+																					<LoggingEvent>-1</LoggingEvent>
+																					<providerName></providerName>
+																					<timeLimiter>-1</timeLimiter>
+																					<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Energy.UIEV" />
+																				</DamageApplicator>
+																			</Item>
+																		</applicators>
+																		<dispatch href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="5790FE1D-0574-49F0-B982-9797E34D4D23">
+																			<DispatchImmediate>
+																				<alwaysApply>false</alwaysApply>
+																				<applyEffect>
+																					<Item href="/Effects/Buffs/Cure/_1D.EFFT" />
+																					<Item href="" />
+																				</applyEffect>
+																				<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																				<applyEffectOrientation>Default</applyEffectOrientation>
+																				<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																				<dieAfterApply>true</dieAfterApply>
+																				<dispatchEffect>
+																					<Item href="" />
+																					<Item href="" />
+																				</dispatchEffect>
+																				<flags>0</flags>
+																				<instantApply>false</instantApply>
+																			</DispatchImmediate>
+																		</dispatch>
+																	</Spell>
+																</Item>
+																<Item href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="FE2F7C7C-EF55-403A-A5F8-4C9886B6131B">
+																	<Spell>
+																		<applicators>
+																			<Item href="/Items/Talents/Class/Primevoker/Unstackable_DMGKraski.APLR" />
+																			<Item href="/Heroes/DefaultStatus/_SLOW_MOVE.APLR" />
+																		</applicators>
+																		<dispatch href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="09CA589C-5F0F-4AAC-8B78-B365E426F9A7">
+																			<DispatchLinear>
+																				<aiming>Straight</aiming>
+																				<alwaysApply>false</alwaysApply>
+																				<applyEffect>
+																					<Item href="/Effects/Shots/Paint/_PurpleHit.EFFT" />
+																					<Item href="" />
+																				</applyEffect>
+																				<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																				<applyEffectOrientation>Default</applyEffectOrientation>
+																				<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																				<dieAfterApply>true</dieAfterApply>
+																				<dispatchEffect>
+																					<Item href="/Effects/Shots/Paint/_Purple.EFFT" />
+																					<Item href="" />
+																				</dispatchEffect>
+																				<flags>0</flags>
+																				<flyMode>Parabolic</flyMode>
+																				<fromLocator>Body</fromLocator>
+																				<height>0</height>
+																				<killEffect>true</killEffect>
+																				<locatorOrient>false</locatorOrient>
+																				<maxDeviation>180</maxDeviation>
+																				<maxDistance>-1</maxDistance>
+																				<maxRise>6</maxRise>
+																				<minRise>3</minRise>
+																				<persistentApplicators />
+																				<speed>20</speed>
+																				<suspendTime>0</suspendTime>
+																				<toLocator>Body</toLocator>
+																			</DispatchLinear>
+																		</dispatch>
+																	</Spell>
+																</Item>
+																<Item href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="E5886F62-1807-4037-87C1-335F14FA1858">
+																	<Spell>
+																		<applicators>
+																			<Item href="/Items/Talents/Class/Primevoker/Unstackable_Bard.APLR" />
+																			<Item href="/Heroes/DefaultStatus/_SILENCE_Status.APLR" />
+																		</applicators>
+																		<dispatch href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="714DA4BE-541F-488F-8D88-630C93AA3592">
+																			<DispatchLinear>
+																				<aiming>Straight</aiming>
+																				<alwaysApply>false</alwaysApply>
+																				<applyEffect>
+																					<Item href="/Effects/Shots/Notes/_AbilityHit.EFFT" />
+																					<Item href="" />
+																				</applyEffect>
+																				<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																				<applyEffectOrientation>Default</applyEffectOrientation>
+																				<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																				<dieAfterApply>true</dieAfterApply>
+																				<dispatchEffect>
+																					<Item href="/Effects/Shots/Notes/_Ability.EFFT" />
+																					<Item href="" />
+																				</dispatchEffect>
+																				<flags>0</flags>
+																				<flyMode>Parabolic</flyMode>
+																				<fromLocator>Body</fromLocator>
+																				<height>0</height>
+																				<killEffect>true</killEffect>
+																				<locatorOrient>false</locatorOrient>
+																				<maxDeviation>180</maxDeviation>
+																				<maxDistance>-1</maxDistance>
+																				<maxRise>0</maxRise>
+																				<minRise>0</minRise>
+																				<persistentApplicators />
+																				<speed>25</speed>
+																				<suspendTime>0</suspendTime>
+																				<toLocator>Body</toLocator>
+																			</DispatchLinear>
+																		</dispatch>
+																	</Spell>
+																</Item>
+															</spells>
+														</SpellSwitchApplicator>
+													</Item>
+												</applicators>
+												<dispatch href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="38F6B12D-A8AC-4940-B93F-8CDA4EF1B209">
+													<DispatchImmediate>
+														<alwaysApply>false</alwaysApply>
+														<applyEffect>
+															<Item href="" />
+															<Item href="" />
+														</applyEffect>
+														<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+														<applyEffectOrientation>Default</applyEffectOrientation>
+														<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+														<dieAfterApply>true</dieAfterApply>
+														<dispatchEffect>
+															<Item href="" />
+															<Item href="" />
+														</dispatchEffect>
+														<flags>0</flags>
+														<instantApply>false</instantApply>
+													</DispatchImmediate>
+												</dispatch>
+											</Spell>
+										</Item>
+									</spells>
+								</SpellSwitchApplicator>
+							</Item>
+						</applicators>
+						<dispatch href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="45D1683C-7994-40C5-A347-59AFAA146BB6">
+							<DispatchImmediate>
+								<alwaysApply>false</alwaysApply>
+								<applyEffect>
+									<Item href="" />
+									<Item href="" />
+								</applyEffect>
+								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+								<applyEffectOrientation>Default</applyEffectOrientation>
+								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+								<dieAfterApply>true</dieAfterApply>
+								<dispatchEffect>
+									<Item href="" />
+									<Item href="" />
+								</dispatchEffect>
+								<flags>0</flags>
+								<instantApply>false</instantApply>
+							</DispatchImmediate>
+						</dispatch>
+					</Spell>
+				</spell>
+				<spellTarget>ApplicatorTarget</spellTarget>
+				<targetSelector href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="EFDAE6BC-C144-42E6-94AD-C1550169EFAB">
+					<ComparingTargetSelector>
+						<referenceValue>
+							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>0.0f</sString>
+						</referenceValue>
+						<targetSelector href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="65A3F520-604B-4AB3-B8CB-BEC29868F120">
+							<ConditionTargetSelector>
+								<condition>
+									<compiledString>FQUAAAABAAAADwAAAFdhcmQAVYvsagCLRRBQaAAAAACLTQyLEYtNDIuCnAEAAP/QM8k7RRAPlMGKwV3D</compiledString>
+									<returnType>bool</returnType>
+									<sString>receiver.applWard(GLOBAL) == pMisc</sString>
+								</condition>
+								<flags>0</flags>
+								<mode>Normal</mode>
+								<targetSelector href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="9F29960C-B41B-4719-B2D6-9EA371BA83CD">
+									<AreaTargetSelector>
+										<absolutePosition>
+											<x>0</x>
+											<y>0</y>
+										</absolutePosition>
+										<flags>0</flags>
+										<mode>Normal</mode>
+										<range>
+											<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACIQQ==</compiledString>
+											<returnType>float</returnType>
+											<sString>17</sString>
+										</range>
+										<targetFilter>2022441023</targetFilter>
+										<targetSelector href="" />
+									</AreaTargetSelector>
+								</targetSelector>
+							</ConditionTargetSelector>
+						</targetSelector>
+						<valueToCompare>
+							<compiledString>FQAAAAAHAAAAcQAAAKMAAACzAAAAQQEAAFIBAACHAQAAmAEAAFWL7IPsWFaLRQyLEItNDItCVP/QD7bIhckPhNAAAACLVQiLAotNCIuQkAEAAP/Si/CLRQyLEItNDIuCkAEAAP/QO/B0QItNDIsRi00MiwL/0ItNDIsRi00Mi0IM3V34/9DcffjZXfTZRfRR2RwkUdkF1wEAANkcJOheAQAAg8QI3V3s61+LTQyLEYtNDIsC/9CLTQyLEYtNDItCDN1d5P/Q3A3PAQAA3F3k3+D2xAV6C90FxwEAAN1d3Osii00MixGLTQyLAv/Qi00MixGLTQyLQgzdXdT/0Nx91N1d3N1F3N1d7N1F7N1dzOm2AAAAi00IixGLTQiLgpABAAD/0Ivwi00MixGLTQyLgpABAAD/0DvwdEaLTQyLEYtNDIsC/9CLTQyLEYtNDItCDN1dxP/Q3H3E2V3A2UXAUdkcJFHZBcMBAADZHCTojgAAAIPECNwNuwEAAN1duOtEi00MixGLTQyLAv/Qi00MixGLTQyLQgzdXbD/0Nx9sNldrNlFrFHZHCRR2QXDAQAA2Rwk6EgAAACDxAjcDbMBAADdXbjdRbjdXczdRczZXajZRahei+VdwwAAAAAAADBAAAAAAAAAIEAAAAA/AAAAAAAAJECamZmZmZnpP5qZmT5Vi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
+							<returnType>float</returnType>
+							<sString>rIsHero ? (sFctn != rFctn ? max(0.3, rLife/rMaxLife) : (rLife &gt; 0.8*rMaxLife ? 10 : rLife/rMaxLife)) : (sFctn != rFctn ? 8*max(0.5,rLife/rMaxLife) : 16*max(0.5,rLife/rMaxLife))</sString>
+						</valueToCompare>
+					</ComparingTargetSelector>
+				</targetSelector>
+			</SpellApplicator>
+		</Item>
 	</applicators>
 	<askId>0</askId>
 	<autoTargetSelector href="" />
@@ -202,10 +642,10 @@
 		</Item>
 	</conditionFormulas>
 	<conflictingTalents />
-	<constants href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="36E5AF6D-197B-4940-9830-2CDA73D458DE">
+	<constants href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="FE6F3D21-AB3F-4BF3-AF5B-5C3C0C2D3F55">
 		<UnitConstantsContainer>
 			<vars>
-				<Item href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="B2FB7021-49F7-418D-B40F-4EC0550D8362">
+				<Item href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="CC850E92-C0AE-4F00-BCE7-C533EFACF38F">
 					<UnitConstant>
 						<name>VokerStat</name>
 						<var>
@@ -215,7 +655,7 @@
 						</var>
 					</UnitConstant>
 				</Item>
-				<Item href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="889467DA-4485-4A8D-8632-DB2927C5961B">
+				<Item href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="3CDB8565-0546-4A5E-8326-00652640683C">
 					<UnitConstant>
 						<name>VokerStat_TT</name>
 						<var>
@@ -225,13 +665,63 @@
 						</var>
 					</UnitConstant>
 				</Item>
-				<Item href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="4EDAB8B5-C8DF-4AE3-92E0-F7E2B5091C5F">
+				<Item href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="5860EBB2-E8F1-4C30-B339-53B45A3A55FE">
 					<UnitConstant>
 						<name>VockerCD</name>
 						<var>
 							<compiledString>FQsAAAABAAAAEAAAAFZva2VyVWx0Q0QAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0Nno3uHZXfzZRfyL5V3DAAAAAAAA8D8=</compiledString>
 							<returnType>float</returnType>
 							<sString>1.0f-sender.vVokerUltCD</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="DCCFC1EF-31C5-4F8E-A4E8-248D4591EA99">
+					<UnitConstant>
+						<name>Haste_Duration</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
+							<returnType>float</returnType>
+							<sString>3.0f</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="F8F3FB66-A7C4-46BB-AE3F-EB085FAEEA47">
+					<UnitConstant>
+						<name>Haste_Percent</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQQ==</compiledString>
+							<returnType>float</returnType>
+							<sString>30</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="65C166A9-A2AE-48FE-87BA-D0AB3A2B2A3A">
+					<UnitConstant>
+						<name>Slow_Duration</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
+							<returnType>float</returnType>
+							<sString>3.0f</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="76496578-DC4F-4C16-9613-A42076E793D3">
+					<UnitConstant>
+						<name>DecMoveSpeed_WithReduction</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQQ==</compiledString>
+							<returnType>float</returnType>
+							<sString>30</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" id="FD3702E9-2BF2-41D8-B7D9-FCCCE3F3B409">
+					<UnitConstant>
+						<name>Silence_Duration</name>
+						<var>
+							<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+							<returnType>float</returnType>
+							<sString>1.0f</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -282,9 +772,9 @@
 	<isUltimateTalent>false</isUltimateTalent>
 	<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
 	<manaCost>
-		<compiledString>FSUAAAAEAAAALAAAAEUAAAB+AAAAiAAAAFByaW1ldm9rZXJfQTJTVVAAAAAAUHJpbWV2b2tlcl9BMlNVUABVi+yD7BBoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBQAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuJTfTbRfTcDaYAAADZ6N7h3A2WAAAA2V3w2UXwi+VdwwAAAAAAAFlAAAAAAAAA8D8fhetRuB7lPw==</compiledString>
+		<compiledString>FSUAAAAEAAAALAAAAEUAAAB+AAAAiAAAAFByaW1ldm9rZXJfQTJTVVAAAAAAUHJpbWV2b2tlcl9BMlNVUABVi+yD7BBoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBQAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuJTfTbRfTcDaYAAADZ6N7h3A2WAAAA2V3w2UXwi+VdwwAAAAAAAFlAAAAAAAAA8D8AAAAAAADgPw==</compiledString>
 		<returnType>float</returnType>
-		<sString>100.0f*(1-0.66*tal("Primevoker_A2SUP"))</sString>
+		<sString>100.0f*(1-0.5*tal("Primevoker_A2SUP"))</sString>
 	</manaCost>
 	<marker></marker>
 	<microAI href="" />

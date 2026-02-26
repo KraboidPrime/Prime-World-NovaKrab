@@ -1860,6 +1860,126 @@
 				<tooltip textref="/UI/Content/_.UIDT_b4338739d9e34fa280781ba3cbc6c7c4_tooltip.txt" />
 			</CustomFlag>
 		</Item>
+		<Item href="/UI/Content/_.UIDT" id="CEB308AE-BAE3-4835-ACDA-F5DFFC2A8648">
+			<CustomFlag>
+				<bigIcon href="" />
+				<icon href="/UI/Styles/Icons/Flags/kiss2025.ITEX" />
+				<id>kiss2025</id>
+				<name textref="/UI/Content/_.UIDT_ceb308aebae34835acdaf5dffc2a8648_name.txt" />
+				<Price>0</Price>
+				<tooltip textref="/UI/Content/_.UIDT_ceb308aebae34835acdaf5dffc2a8648_tooltip.txt" />
+			</CustomFlag>
+		</Item>
+		<Item href="/UI/Content/_.UIDT" id="FB4BA83F-4777-442F-A33A-F8E31A5FBA48">
+			<CustomFlag>
+				<bigIcon href="" />
+				<icon href="/UI/Styles/Icons/Flags/kitten2025.ITEX" />
+				<id>kitten2025</id>
+				<name textref="/UI/Content/_.UIDT_fb4ba83f4777442fa33af8e31a5fba48_name.txt" />
+				<Price>0</Price>
+				<tooltip textref="/UI/Content/_.UIDT_fb4ba83f4777442fa33af8e31a5fba48_tooltip.txt" />
+			</CustomFlag>
+		</Item>
+		<Item href="/UI/Content/_.UIDT" id="7B535096-4199-43E4-BEE1-7105E665B32A">
+			<CustomFlag>
+				<bigIcon href="" />
+				<icon href="/UI/Styles/Icons/Flags/migera2025.ITEX" />
+				<id>migera2025</id>
+				<name textref="/UI/Content/_.UIDT_7b535096419943e4bee17105e665b32a_name.txt" />
+				<Price>0</Price>
+				<tooltip textref="/UI/Content/_.UIDT_7b535096419943e4bee17105e665b32a_tooltip.txt" />
+			</CustomFlag>
+		</Item>
+		<Item href="/UI/Content/_.UIDT" id="DF6CC7CC-93CA-4783-BDFA-CE6ED77F3C58">
+			<CustomFlag>
+				<bigIcon href="" />
+				<icon href="/UI/Styles/Icons/Flags/packman2025.ITEX" />
+				<id>packman2025</id>
+				<name textref="/UI/Content/_.UIDT_df6cc7cc93ca4783bdface6ed77f3c58_name.txt" />
+				<Price>0</Price>
+				<tooltip textref="/UI/Content/_.UIDT_df6cc7cc93ca4783bdface6ed77f3c58_tooltip.txt" />
+			</CustomFlag>
+		</Item>
+		<Item href="/UI/Content/_.UIDT" id="C2692047-4820-4B0F-9EBB-2541B4B678D5">
+			<CustomFlag>
+				<bigIcon href="" />
+				<icon href="/UI/Styles/Icons/Flags/radiation2025.ITEX" />
+				<id>radiation2025</id>
+				<name textref="/UI/Content/_.UIDT_c269204748204b0f9ebb2541b4b678d5_name.txt" />
+				<Price>0</Price>
+				<tooltip textref="/UI/Content/_.UIDT_c269204748204b0f9ebb2541b4b678d5_tooltip.txt" />
+			</CustomFlag>
+		</Item>
+		<Item href="/UI/Content/_.UIDT" id="CC0162B2-CC51-48F2-9A21-00ADCBBE7663">
+			<CustomFlag>
+				<bigIcon href="" />
+				<icon href="/UI/Styles/Icons/Flags/smile2025.ITEX" />
+				<id>smile2025</id>
+				<name textref="/UI/Content/_.UIDT_cc0162b2cc5148f29a2100adcbbe7663_name.txt" />
+				<Price>0</Price>
+				<tooltip textref="/UI/Content/_.UIDT_cc0162b2cc5148f29a2100adcbbe7663_tooltip.txt" />
+			</CustomFlag>
+		</Item>
+		<Item href="/UI/Content/_.UIDT" id="33B3D78C-5BC1-4AA1-8E97-735E7DFE36C4">
+			<CustomFlag>
+				<bigIcon href="" />
+				<icon href="/UI/Styles/Icons/Flags/snowboarder2025.ITEX" />
+				<id>snowboarder2025</id>
+				<name textref="/UI/Content/_.UIDT_33b3d78c5bc14aa18e97735e7dfe36c4_name.txt" />
+				<Price>0</Price>
+				<tooltip textref="/UI/Content/_.UIDT_33b3d78c5bc14aa18e97735e7dfe36c4_tooltip.txt" />
+			</CustomFlag>
+		</Item>
+		<Item href="/UI/Content/_.UIDT" id="FFFB31E8-9502-41FE-98A1-51B3A2132C60">
+			<CustomFlag>
+				<bigIcon href="" />
+				<icon href="/UI/Styles/Icons/Flags/troll2025.ITEX" />
+				<id>troll2025</id>
+				<name textref="/UI/Content/_.UIDT_fffb31e8950241fe98a151b3a2132c60_name.txt" />
+				<Price>0</Price>
+				<tooltip textref="/UI/Content/_.UIDT_fffb31e8950241fe98a151b3a2132c60_tooltip.txt" />
+			</CustomFlag>
+		</Item>
+		<Item href="/UI/Content/_.UIDT" id="31AB9BB2-8D36-4E1A-9DCD-47417A4CCFCC">
+			<CustomFlag>
+				<bigIcon href="" />
+				<icon href="/UI/Styles/Icons/Flags/8_march2026.ITEX" />
+				<id>8_march2026</id>
+				<name textref="/UI/Content/_.UIDT_31ab9bb28d364e1a9dcd47417a4ccfcc_name.txt" />
+				<Price>0</Price>
+				<tooltip textref="/UI/Content/_.UIDT_31ab9bb28d364e1a9dcd47417a4ccfcc_tooltip.txt" />
+			</CustomFlag>
+		</Item>
+		<Item href="/UI/Content/_.UIDT" id="646C740C-1FC0-4AB4-9971-365051C76977">
+			<CustomFlag>
+				<bigIcon href="" />
+				<icon href="/UI/Styles/Icons/Flags/cake2026.ITEX" />
+				<id>cake2026</id>
+				<name textref="/UI/Content/_.UIDT_646c740c1fc04ab49971365051c76977_name.txt" />
+				<Price>0</Price>
+				<tooltip textref="/UI/Content/_.UIDT_646c740c1fc04ab49971365051c76977_tooltip.txt" />
+			</CustomFlag>
+		</Item>
+		<Item href="/UI/Content/_.UIDT" id="E0F2D6A7-E299-4494-958F-0FD74B511874">
+			<CustomFlag>
+				<bigIcon href="" />
+				<icon href="/UI/Styles/Icons/Flags/military_cat2026.ITEX" />
+				<id>military_cat2026</id>
+				<name textref="/UI/Content/_.UIDT_e0f2d6a7e2994494958f0fd74b511874_name.txt" />
+				<Price>0</Price>
+				<tooltip textref="/UI/Content/_.UIDT_e0f2d6a7e2994494958f0fd74b511874_tooltip.txt" />
+			</CustomFlag>
+		</Item>
+		<Item href="/UI/Content/_.UIDT" id="A522E016-6362-4D47-9BB3-1F7810082B4C">
+			<CustomFlag>
+				<bigIcon href="" />
+				<icon href="/UI/Styles/Icons/Flags/star2026.ITEX" />
+				<id>star2026</id>
+				<name textref="/UI/Content/_.UIDT_a522e01663624d479bb31f7810082b4c_name.txt" />
+				<Price>0</Price>
+				<tooltip textref="/UI/Content/_.UIDT_a522e01663624d479bb31f7810082b4c_tooltip.txt" />
+			</CustomFlag>
+		</Item>
 	</customFlags>
 	<dialogsSettings>
 		<defaultPhraseDuration>10</defaultPhraseDuration>

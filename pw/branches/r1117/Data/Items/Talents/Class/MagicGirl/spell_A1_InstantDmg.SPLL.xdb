@@ -105,9 +105,9 @@
 									<applyTarget>AbilityOwner</applyTarget>
 									<caption>рефреш кд</caption>
 									<enabled>
-										<compiledString></compiledString>
+										<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 										<returnType>bool</returnType>
-										<sString>true</sString>
+										<sString>false</sString>
 									</enabled>
 									<flags>128</flags>
 									<formulaName></formulaName>
@@ -126,6 +126,53 @@
 									</talents>
 									<useListAs>ListAsRule</useListAs>
 								</RefreshCooldownApplicator>
+							</Item>
+							<Item href="/Items/Talents/Class/MagicGirl/spell_A1_InstantDmg.SPLL" id="0A49B1AE-DBA9-43CB-9072-81B255F9D8B5">
+								<StatModApplicator>
+									<applyTarget>AbilityOwner</applyTarget>
+									<behaviorFlags>216</behaviorFlags>
+									<caption></caption>
+									<constraint>None</constraint>
+									<dontUpdate>false</dontUpdate>
+									<effect>
+										<Item href="" />
+										<Item href="" />
+									</effect>
+									<enabled>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<lifeTime>
+										<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQg==</compiledString>
+										<returnType>float</returnType>
+										<sString>60</sString>
+									</lifeTime>
+									<LoggingEvent>-1</LoggingEvent>
+									<modifier>
+										<addValue>
+											<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
+											<returnType>float</returnType>
+											<sString>3.0f</sString>
+										</addValue>
+										<multValue>
+											<compiledString></compiledString>
+											<returnType>float</returnType>
+											<sString>1.0f</sString>
+										</multValue>
+										<stat>Life</stat>
+										<topModifier>false</topModifier>
+										<variable>A1uDMGBuff</variable>
+									</modifier>
+									<providerName></providerName>
+									<startCondition>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</startCondition>
+									<statModName></statModName>
+								</StatModApplicator>
 							</Item>
 						</applicators>
 						<dispatch href="/Items/Talents/Class/MagicGirl/spell_A1_InstantDmg.SPLL" id="9E55C3F4-0702-4903-A1A1-F722CC791AC3">

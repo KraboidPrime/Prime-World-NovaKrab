@@ -833,6 +833,36 @@
 						</var>
 					</UnitConstant>
 				</Item>
+				<Item href="/Items/Talents/Class/Zealot/Ability_A2.TALENT" id="F8AA2B80-E234-48C8-8663-F844C90EC4CE">
+					<UnitConstant>
+						<name>A2NewResistDmg</name>
+						<var>
+							<compiledString>FQAAAAACAAAAFgAAABwAAABVi+xRi0UIixCLTQiLgrwAAAD/0NwNMgAAANwFKgAAANld/NlF/IvlXcMAAAAAAAAIQOxRuB6F68E/</compiledString>
+							<returnType>float</returnType>
+							<sString>0.14*sBaseIntellect + 3</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Zealot/Ability_A2.TALENT" id="94BB76F5-365A-49F0-8E52-7832A9A1DDCC">
+					<UnitConstant>
+						<name>Damage_trigger_A2New</name>
+						<var>
+							<compiledString>FQAAAAABAAAAEgAAAFWL7FGLRQiLEItNCIsC/9DcDSAAAADZXfzZRfyL5V3DAAAAAAAA4D8=</compiledString>
+							<returnType>float</returnType>
+							<sString>0.5f*sLife</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Zealot/Ability_A2.TALENT" id="035120EE-DEA5-4A54-A612-1123F0273553">
+					<UnitConstant>
+						<name>A2SUPTTDMGREDUCED</name>
+						<var>
+							<compiledString>FQAAAAABAAAAKwAAAFWL7IPsDItFDIsQi00MiwL/0ItNDIsRi00Mi0IM3V34/9DcffjZ6N7h3A05AAAA2V302UX0i+VdwwAAAAAAAD5AAAAAAAAA8D8=</compiledString>
+							<returnType>float</returnType>
+							<sString>30*(1-rLife/rMaxLife)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
@@ -935,6 +965,78 @@
 	<node>ability2</node>
 	<passiveApplicators>
 		<Item href="/Items/Talents/TalentKits/Redset7_11_MiniRefresher/trigger_G766_RefreshAndNotify.APLR" />
+		<Item href="/Items/Talents/Class/Zealot/Ability_A2.TALENT" id="F586D69E-7166-41FF-911D-968257F4368D">
+			<TriggerApplicator>
+				<actionsCount>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</actionsCount>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>152</behaviorFlags>
+				<caption>полузащита от смерти</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName>Trigger_A2Fant</formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<playAck>false</playAck>
+				<processor href="/Items/Talents/Class/Zealot/Ability_A2.TALENT" id="3DD36F63-3602-418A-988A-B8AFAEE7D2E1">
+					<EventProcessorDamageTransformer>
+						<abilityFilter>
+							<abilitiesList />
+							<abilityCondition>
+								<compiledString>FT0AAAAEAAAASgAAAGIAAACCAAAAlAAAAFRyaWdnZXJfQTJGYW50AAByYXdEYW1hZ2UAAABaZWFsb3RfQTIAAABEYW1hZ2VfdHJpZ2dlcl9BMk5ldwBVi+yD7BRqAItFEFBoAAAAAItNDIsRi00Mi4KcAQAA/9CJRfxoHAAAAItNDIsRi00Mi4KoAQAA/9CJRfiLTQhRi1UMUmgoAAAAi0X4ixCLTfiLQlD/0GgQAAAAi038ixGLTfyLQlTdXfD/0Nxd8N/g9sQBdQnHRewBAAAA6wfHRewAAAAAikXsi+Vdww==</compiledString>
+								<returnType>bool</returnType>
+								<sString>(pSecond-&gt;FindApplicator("Trigger_A2Fant", pMisc, GLOBAL)-&gt;GetVariable("rawDamage") &gt;= pSecond-&gt;GetTalent("Zealot_A2")-&gt;GetConstant("Damage_trigger_A2New", pSecond, pFirst))</sString>
+							</abilityCondition>
+							<abilityCostMode>Any</abilityCostMode>
+							<exceptThis>false</exceptThis>
+							<flags>1610614015</flags>
+							<onlySingleTarget>false</onlySingleTarget>
+						</abilityFilter>
+						<add>
+							<compiledString>FQ8AAAABAAAAGwAAAEEyTmV3UmVzaXN0RG1nAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S2eBdww==</compiledString>
+							<returnType>float</returnType>
+							<sString>-cA2NewResistDmg</sString>
+						</add>
+						<applyTarget>ApplicatorTarget</applyTarget>
+						<checkSender>0</checkSender>
+						<damageTypeFilter>31</damageTypeFilter>
+						<flags>0</flags>
+						<matchTargetInverted>false</matchTargetInverted>
+						<mul>
+							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>1.0f</sString>
+						</mul>
+						<objectFilter>2040319</objectFilter>
+						<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
+						<spell href="" />
+						<treatDelegatedByDelegator>false</treatDelegatedByDelegator>
+					</EventProcessorDamageTransformer>
+				</processor>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<useAbilityCooldown>false</useAbilityCooldown>
+				<useAbilityOwnerMana>false</useAbilityOwnerMana>
+			</TriggerApplicator>
+		</Item>
 	</passiveApplicators>
 	<persistentId>Zealot_A2</persistentId>
 	<prerequisiteTalents />

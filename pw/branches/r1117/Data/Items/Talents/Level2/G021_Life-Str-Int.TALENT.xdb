@@ -239,9 +239,9 @@
 												<formulaName></formulaName>
 												<image href="/UI/Styles/Icons/Talents/TUE_Abrasive10.ITEX" />
 												<lifeTime>
-													<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQg==</compiledString>
+													<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQg==</compiledString>
 													<returnType>float</returnType>
-													<sString>40.0f</sString>
+													<sString>50.0f</sString>
 												</lifeTime>
 												<LoggingEvent>-1</LoggingEvent>
 												<name textref="/Items/Talents/Level2/G021_Life-Str-Int.TALENT_50c1d4aa3d2442c3981baf22afd2c1c6_name.txt" />
@@ -277,9 +277,9 @@
 												</enabled>
 												<formulaName></formulaName>
 												<lifeTime>
-													<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQg==</compiledString>
+													<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQg==</compiledString>
 													<returnType>float</returnType>
-													<sString>40.0f</sString>
+													<sString>50.0f</sString>
 												</lifeTime>
 												<LoggingEvent>-1</LoggingEvent>
 												<modifier>
@@ -372,9 +372,9 @@
 				<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
 				<stackCount>0</stackCount>
 				<startCondition>
-					<compiledString>FTgAAAAJAAAAPwAAAFgAAACGAAAAnwAAAM0AAADmAAAAKwEAADcBAABNAQAARzE0NQAAAABHMTQ1AAAAAEcyODMAAAAARzI4MwAAAABHMjc3AAAAAEcyNzcAAAAARzAyMV9jZABVi+yD7CBoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaAgAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AGgQAAAAi00IixGLTQiLgqgBAAD/0IXAdCpoGAAAAItNCIsRi00Ii4KoAQAA/9CJRfSLTfSLEYtN9ItCBP/QiEXz6wTGRfMAaCAAAACLTQiLEYtNCIuCqAEAAP/QhcB0KmgoAAAAi00IixGLTQiLgqgBAAD/0IlF7ItN7IsRi03si0IE/9CIRevrBMZF6wAPtk37D7ZV8wPKD7ZF6wPIiU3k20Xk3B13AQAA3+D2xEF1K2gwAAAAi00IixGLTQiLgogBAAD/0NwdbwEAAN/g9sREegnHReABAAAA6wfHReAAAAAAikXgi+VdwwAAAAAAAAAAAAAAAAAA+D8=</compiledString>
+					<compiledString>FUgAAAALAAAATwAAAGgAAACWAAAArwAAAN0AAAD2AAAAJAEAAD0BAACIAQAAlAEAAKoBAABHMTQ1AAAAAEcxNDUAAAAARzI4MwAAAABHMjgzAAAAAEcyNzcAAAAARzI3NwAAAABHMTc0AAAAAEcxNzQAAAAARzAyMV9jZABVi+yD7ChoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaAgAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AGgQAAAAi00IixGLTQiLgqgBAAD/0IXAdCpoGAAAAItNCIsRi00Ii4KoAQAA/9CJRfSLTfSLEYtN9ItCBP/QiEXz6wTGRfMAaCAAAACLTQiLEYtNCIuCqAEAAP/QhcB0KmgoAAAAi00IixGLTQiLgqgBAAD/0IlF7ItN7IsRi03si0IE/9CIRevrBMZF6wBoMAAAAItNCIsRi00Ii4KoAQAA/9CFwHQqaDgAAACLTQiLEYtNCIuCqAEAAP/QiUXki03kixGLTeSLQgT/0IhF4+sExkXjAA+2TfsPtlXzA8oPtkXrA8gPtlXjA8qJTdzbRdzcHdQBAADf4PbEQXUraEAAAACLRQiLEItNCIuCiAEAAP/Q3B3MAQAA3+D2xER6CcdF2AEAAADrB8dF2AAAAACKRdiL5V3DAAAAAAAAAAAAAAAAAAD4Pw==</compiledString>
 					<returnType>bool</returnType>
-					<sString>(tal("G145")+tal("G283")+tal("G277")) &gt; 1.5 &amp;&amp; sender.vG021_cd == 0.0f</sString>
+					<sString>(tal("G145")+tal("G283")+tal("G277")+tal("G174")) &gt; 1.5 &amp;&amp; sender.vG021_cd == 0.0f</sString>
 				</startCondition>
 				<statusPosition>0</statusPosition>
 				<stopBehaviour>StopByTime</stopBehaviour>
@@ -435,9 +435,9 @@
 					<UnitConstant>
 						<name>Buff</name>
 						<var>
-							<compiledString>FTkAAAAIAAAAQAAAAFkAAACHAAAAoAAAAM4AAADnAAAALQEAAEYBAABHMTQ1AAAAAEcxNDUAAAAARzI4MwAAAABHMjgzAAAAAEcyNzcAAAAARzI3NwAAAABHMDIxX3RyaQBVi+yD7ChoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaAgAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AGgQAAAAi00IixGLTQiLgqgBAAD/0IXAdCpoGAAAAItNCIsRi00Ii4KoAQAA/9CJRfSLTfSLEYtN9ItCBP/QiEXz6wTGRfMAaCAAAACLTQiLEYtNCIuCqAEAAP/QhcB0KmgoAAAAi00IixGLTQiLgqgBAAD/0IlF7ItN7IsRi03si0IE/9CIRevrBMZF6wAPtk37D7ZV841EEQcPtk3rA8GJReTbReRoMAAAAItVCIsCi00Ii5CIAQAA3V3c/9LcDVcBAADcRdzZXdjZRdiL5V3DAAAAAAAAFEA=</compiledString>
+							<compiledString>FUkAAAAKAAAAUAAAAGkAAACXAAAAsAAAAN4AAAD3AAAAJQEAAD4BAACKAQAAowEAAEcxNDUAAAAARzE0NQAAAABHMjgzAAAAAEcyODMAAAAARzI3NwAAAABHMjc3AAAAAEcxNzQAAAAARzE3NAAAAABHMDIxX3RyaQBVi+yD7DBoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaAgAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AGgQAAAAi00IixGLTQiLgqgBAAD/0IXAdCpoGAAAAItNCIsRi00Ii4KoAQAA/9CJRfSLTfSLEYtN9ItCBP/QiEXz6wTGRfMAaCAAAACLTQiLEYtNCIuCqAEAAP/QhcB0KmgoAAAAi00IixGLTQiLgqgBAAD/0IlF7ItN7IsRi03si0IE/9CIRevrBMZF6wBoMAAAAItNCIsRi00Ii4KoAQAA/9CFwHQqaDgAAACLTQiLEYtNCIuCqAEAAP/QiUXki03kixGLTeSLQgT/0IhF4+sExkXjAA+2TfsPtlXzjUQRBg+2TesDwQ+2VeMDwolF3NtF3GhAAAAAi0UIixCLTQiLgogBAADdXdT/0NwNwAEAANno3sHcTdTZXdDZRdCL5V3DAAAAAAAA8D8AAAAAAADgPw==</compiledString>
 							<returnType>float</returnType>
-							<sString>7+tal("G145")+tal("G283")+tal("G277") + 5*sender.vG021_tri</sString>
+							<sString>(6+tal("G145")+tal("G283")+tal("G277")+tal("G174"))*(1+0.5*sender.vG021_tri)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -445,9 +445,9 @@
 					<UnitConstant>
 						<name>Debuff</name>
 						<var>
-							<compiledString>FS0AAAAGAAAANAAAAE0AAAB7AAAAlAAAAMIAAADbAAAARzE0NQAAAABHMTQ1AAAAAEcyODMAAAAARzI4MwAAAABHMjc3AAAAAEcyNzcAVYvsg+wcaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgIAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wBoEAAAAItNCIsRi00Ii4KoAQAA/9CFwHQqaBgAAACLTQiLEYtNCIuCqAEAAP/QiUX0i030ixGLTfSLQgT/0IhF8+sExkXzAGggAAAAi00IixGLTQiLgqgBAAD/0IXAdCpoKAAAAItNCIsRi00Ii4KoAQAA/9CJReyLTeyLEYtN7ItCBP/QiEXr6wTGResAD7ZN+7oNAAAAK9EPtkXzK9APtk3rK9GJVeTbReSL5V3D</compiledString>
+							<compiledString>FT0AAAAIAAAARAAAAF0AAACLAAAApAAAANIAAADrAAAAGQEAADIBAABHMTQ1AAAAAEcxNDUAAAAARzI4MwAAAABHMjgzAAAAAEcyNzcAAAAARzI3NwAAAABHMTc0AAAAAEcxNzQAVYvsg+wkaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgIAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wBoEAAAAItNCIsRi00Ii4KoAQAA/9CFwHQqaBgAAACLTQiLEYtNCIuCqAEAAP/QiUX0i030ixGLTfSLQgT/0IhF8+sExkXzAGggAAAAi00IixGLTQiLgqgBAAD/0IXAdCpoKAAAAItNCIsRi00Ii4KoAQAA/9CJReyLTeyLEYtN7ItCBP/QiEXr6wTGResAaDAAAACLTQiLEYtNCIuCqAEAAP/QhcB0Kmg4AAAAi00IixGLTQiLgqgBAAD/0IlF5ItN5IsRi03ki0IE/9CIRePrBMZF4wAPtk37ug4AAAAr0Q+2RfMr0A+2Tesr0Q+2ReMr0IlV3NtF3IvlXcM=</compiledString>
 							<returnType>float</returnType>
-							<sString>13-tal("G145")-tal("G283")-tal("G277")</sString>
+							<sString>14-tal("G145")-tal("G283")-tal("G277")-tal("G174")</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -491,7 +491,7 @@
 	</dispatch>
 	<flags>18</flags>
 	<forceBonus>9</forceBonus>
-	<image href="/UI/Styles/Icons/Talents/TUE_Abrasive7.ITEX" />
+	<image href="/UI/Styles/Icons/Talents/TUE_Abrasive6.ITEX" />
 	<imageSecondState href="" />
 	<isGenderTalent>false</isGenderTalent>
 	<isTakenOnStart>false</isTakenOnStart>

@@ -1014,9 +1014,9 @@
 					<calcIncrement>0.6</calcIncrement>
 					<calcValue>58</calcValue>
 					<increment>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpkZPw==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3Dw/UoPw==</compiledString>
 						<returnType>float</returnType>
-						<sString>0.6</sString>
+						<sString>0.66</sString>
 					</increment>
 					<levelUpgrades />
 					<statId>Strength</statId>
@@ -1030,9 +1030,9 @@
 					<calcIncrement>0</calcIncrement>
 					<calcValue>10</calcValue>
 					<increment>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpkZPw==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3Dw/UoPw==</compiledString>
 						<returnType>float</returnType>
-						<sString>0.6</sString>
+						<sString>0.66</sString>
 					</increment>
 					<levelUpgrades />
 					<statId>Intellect</statId>

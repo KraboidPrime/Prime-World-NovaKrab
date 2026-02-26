@@ -1062,9 +1062,9 @@
 																	<LoggingEvent>-1</LoggingEvent>
 																	<modifier>
 																		<addValue>
-																			<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
+																			<compiledString>FRkAAAAFAAAAIAAAADYAAABSAAAAawAAAKgAAABHMjYwdGVtcAAAAABHMjYxAAAAAEcyNjEAVYvsg+wUaAAAAACLRQiLEItNCIuCiAEAAP/Q3B2+AAAA3+D2xAV6CcdF/AMAAADrB8dF/AEAAABoDAAAAItNCIsRi00Ii4KoAQAA/9CFwHQqaBQAAACLTQiLEYtNCIuCqAEAAP/QiUX4i034ixGLTfiLQgT/0IhF9+sExkX3AA+2TfcPr038iU3w20Xw3AW2AAAA2V3s2UXsi+VdwwAAAAAAAAhAAAAAAAAAWUA=</compiledString>
 																			<returnType>float</returnType>
-																			<sString>3.0f</sString>
+																			<sString>3.0f+ (sender.vG260temp &lt; 100 ? 3 : 1)* tal("G261")</sString>
 																		</addValue>
 																		<multValue>
 																			<compiledString></compiledString>
@@ -1117,9 +1117,9 @@
 																	<LoggingEvent>-1</LoggingEvent>
 																	<modifier>
 																		<addValue>
-																			<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAQA==</compiledString>
+																			<compiledString>FRkAAAAFAAAAIAAAADYAAABSAAAAawAAAKgAAABHMjYwdGVtcAAAAABHMjY0AAAAAEcyNjQAVYvsg+wUaAAAAACLRQiLEItNCIuCiAEAAP/Q3B2+AAAA3+D2xAV6CcdF/AMAAADrB8dF/AEAAABoDAAAAItNCIsRi00Ii4KoAQAA/9CFwHQqaBQAAACLTQiLEYtNCIuCqAEAAP/QiUX4i034ixGLTfiLQgT/0IhF9+sExkX3AA+2TfcPr038iU3w20Xw3AW2AAAA2V3s2UXsi+VdwwAAAAAAABBAAAAAAAAAWUA=</compiledString>
 																			<returnType>float</returnType>
-																			<sString>4.0f</sString>
+																			<sString>4.0f+ (sender.vG260temp &lt; 100 ? 3 : 1)* tal("G264")</sString>
 																		</addValue>
 																		<multValue>
 																			<compiledString></compiledString>
@@ -1172,9 +1172,9 @@
 																	<LoggingEvent>-1</LoggingEvent>
 																	<modifier>
 																		<addValue>
-																			<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
+																			<compiledString>FRkAAAAFAAAAIAAAADYAAABSAAAAawAAAKgAAABHMjYwdGVtcAAAAABHMjY1AAAAAEcyNjUAVYvsg+wUaAAAAACLRQiLEItNCIuCiAEAAP/Q3B2+AAAA3+D2xAV6CcdF/AMAAADrB8dF/AEAAABoDAAAAItNCIsRi00Ii4KoAQAA/9CFwHQqaBQAAACLTQiLEYtNCIuCqAEAAP/QiUX4i034ixGLTfiLQgT/0IhF9+sExkX3AA+2TfcPr038iU3w20Xw3AW2AAAA2V3s2UXsi+VdwwAAAAAAABRAAAAAAAAAWUA=</compiledString>
 																			<returnType>float</returnType>
-																			<sString>5.0f</sString>
+																			<sString>5.0f+ (sender.vG260temp &lt; 100 ? 3 : 1)* tal("G265")</sString>
 																		</addValue>
 																		<multValue>
 																			<compiledString></compiledString>
@@ -1227,9 +1227,9 @@
 																	<LoggingEvent>-1</LoggingEvent>
 																	<modifier>
 																		<addValue>
-																			<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADAQA==</compiledString>
+																			<compiledString>FRkAAAAFAAAAIAAAADYAAABSAAAAawAAAKgAAABHMjYwdGVtcAAAAABHMjg1AAAAAEcyODUAVYvsg+wUaAAAAACLRQiLEItNCIuCiAEAAP/Q3B2+AAAA3+D2xAV6CcdF/AMAAADrB8dF/AEAAABoDAAAAItNCIsRi00Ii4KoAQAA/9CFwHQqaBQAAACLTQiLEYtNCIuCqAEAAP/QiUX4i034ixGLTfiLQgT/0IhF9+sExkX3AA+2TfcPr038iU3w20Xw3AW2AAAA2V3s2UXsi+VdwwAAAAAAABhAAAAAAAAAWUA=</compiledString>
 																			<returnType>float</returnType>
-																			<sString>6.0f</sString>
+																			<sString>6.0f+ (sender.vG260temp &lt; 100 ? 3 : 1)* tal("G285")</sString>
 																		</addValue>
 																		<multValue>
 																			<compiledString></compiledString>

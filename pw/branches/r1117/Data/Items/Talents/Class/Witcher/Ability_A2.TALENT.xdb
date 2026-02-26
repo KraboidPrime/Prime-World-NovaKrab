@@ -497,9 +497,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAA0Qg==</compiledString>
+		<compiledString>FR8AAAACAAAAJgAAAD8AAABXaXRjaGVyX0EyX1NVUAAAV2l0Y2hlcl9BMl9TVVAAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk3799kbyYPh8YPBLYlN9NtF9IvlXcM=</compiledString>
 		<returnType>float</returnType>
-		<sString>45</sString>
+		<sString>tal("Witcher_A2_SUP") ? 30 : 45</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>

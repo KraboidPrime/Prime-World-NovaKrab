@@ -95,77 +95,65 @@
 	<name textref="/Items/Talents/Class/SnowQueen/Ability_A2_SUP.TALENT_name.txt" />
 	<node></node>
 	<passiveApplicators>
-		<Item href="/Items/Talents/Class/SnowQueen/Ability_A2_SUP.TALENT" id="BB3572B3-ACDB-4758-A081-A4AFC1F9EAA8">
-			<TriggerApplicator>
-				<actionsCount>
-					<compiledString></compiledString>
-					<returnType>int</returnType>
-					<sString>0</sString>
-				</actionsCount>
-				<applyTarget>ApplicatorTarget</applyTarget>
-				<behaviorFlags>0</behaviorFlags>
-				<caption>снижаем урон</caption>
-				<effect>
-					<Item href="" />
-					<Item href="" />
-				</effect>
+		<Item href="/Items/Talents/Class/SnowQueen/Ability_A2_SUP.TALENT" id="A8A28F15-68D3-4798-9764-B5FFC1482858">
+			<PermanentStatModApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<caption>-- даем EnergyDamageDecrease </caption>
+				<customApplyType>None</customApplyType>
 				<enabled>
 					<compiledString></compiledString>
 					<returnType>bool</returnType>
 					<sString>true</sString>
 				</enabled>
 				<formulaName></formulaName>
-				<lifeTime>
-					<compiledString></compiledString>
-					<returnType>float</returnType>
-					<sString>-1.0</sString>
-				</lifeTime>
 				<LoggingEvent>-1</LoggingEvent>
-				<playAck>false</playAck>
-				<processor href="/Items/Talents/Class/SnowQueen/Ability_A2_SUP.TALENT" id="90FBB08A-3BA9-4994-91B6-B88D1ECE3B4C">
-					<EventProcessorDamageTransformer>
-						<abilityFilter>
-							<abilitiesList />
-							<abilityCondition>
-								<compiledString></compiledString>
-								<returnType>bool</returnType>
-								<sString>true</sString>
-							</abilityCondition>
-							<abilityCostMode>Energy</abilityCostMode>
-							<exceptThis>false</exceptThis>
-							<flags>1610614015</flags>
-							<onlySingleTarget>false</onlySingleTarget>
-						</abilityFilter>
-						<add>
-							<compiledString></compiledString>
-							<returnType>float</returnType>
-							<sString>0.0f</sString>
-						</add>
-						<applyTarget>ApplicatorTarget</applyTarget>
-						<checkSender>0</checkSender>
-						<damageTypeFilter>15</damageTypeFilter>
-						<flags>0</flags>
-						<matchTargetInverted>false</matchTargetInverted>
-						<mul>
-							<compiledString>FRgAAAACAAAAJQAAADgAAABEZWNyZWFzaW5nRGFtYWdlX0Ftb3VudABVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcNVIAAADZ6N7h2V382UX8i+VdwwAAAAAAAPA/AAAAAAAAWUA=</compiledString>
-							<returnType>float</returnType>
-							<sString>(1- cDecreasingDamage_Amount/100.0f)</sString>
-						</mul>
-						<objectFilter>2040319</objectFilter>
-						<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
-						<spell href="" />
-						<treatDelegatedByDelegator>false</treatDelegatedByDelegator>
-					</EventProcessorDamageTransformer>
-				</processor>
+				<modifier>
+					<addValue>
+						<compiledString>FRgAAAABAAAAJAAAAERlY3JlYXNpbmdEYW1hZ2VfQW1vdW50AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+						<returnType>float</returnType>
+						<sString>cDecreasingDamage_Amount</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>EnergyDamageDecrease</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
 				<providerName></providerName>
-				<startCondition>
+			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/SnowQueen/Ability_A2_SUP.TALENT" id="DA04BF22-5746-4ADD-B776-3688E1FF32C0">
+			<PermanentStatModApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<caption>-- даем MaterialDamageDecrease </caption>
+				<customApplyType>None</customApplyType>
+				<enabled>
 					<compiledString></compiledString>
 					<returnType>bool</returnType>
 					<sString>true</sString>
-				</startCondition>
-				<useAbilityCooldown>false</useAbilityCooldown>
-				<useAbilityOwnerMana>false</useAbilityOwnerMana>
-			</TriggerApplicator>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FRgAAAABAAAAJAAAAERlY3JlYXNpbmdEYW1hZ2VfQW1vdW50AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+						<returnType>float</returnType>
+						<sString>cDecreasingDamage_Amount</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>MaterialDamageDecrease</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
 		</Item>
 	</passiveApplicators>
 	<persistentId>SnowQueen_A2_SUP</persistentId>

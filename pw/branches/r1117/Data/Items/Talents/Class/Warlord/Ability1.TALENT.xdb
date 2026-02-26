@@ -252,9 +252,9 @@
 					<UnitConstant>
 						<name>A1_DamageBase</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAABkQgCA1EM=</compiledString>
+							<compiledString>FR8AAAAGAAAAJgAAAD8AAAB5AAAAgwAAALkAAADDAAAAV2FybG9yZF9BMV9TVVAAAFdhcmxvcmRfQTFfU1VQAFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdEBqAVHZBQUBAADZHCRR2QUBAQAA2RwkagCLVQiLAotNCIuQMAEAAP/SUdkcJGoBi0UQixCLTRCLQmD/0Nld9Os+agFR2QX9AAAA2RwkUdkF+QAAANkcJGoAi00IixGLTQiLgjABAAD/0FHZHCRqAYtNEIsRi00Qi0Jg/9DZXfTZRfSL5V3DAABkQgCA1EMAAIhCAAD/Qw==</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(sStrength, 57, 425)</sString>
+							<sString>tal("Warlord_A1_SUP") ? damageScale(sStrength, 68, 510) : damageScale(sStrength, 57, 425)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

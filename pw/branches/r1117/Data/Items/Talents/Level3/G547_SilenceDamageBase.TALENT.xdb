@@ -61,7 +61,18 @@
 		<returnType>float</returnType>
 		<sString>0.0f</sString>
 	</castAllowRange>
-	<castLimitations />
+	<castLimitations>
+		<Item href="/Items/Talents/Level3/G547_SilenceDamageBase.TALENT" id="E7301A5C-2C8E-426F-BFEB-04743081FF65">
+			<ConditionCastLimitation>
+				<condition>
+					<compiledString>FQ8AAAACAAAAFAAAACoAAABJbW11bmUyQ29udHJvbABVi+xRaAAAAACLRQyLEItNDIuCiAEAAP/Q3B1MAAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
+					<returnType>bool</returnType>
+					<sString>receiver.vImmune2Control == 0</sString>
+				</condition>
+				<uiEvent href="/UI/Events/ErrorMessages/CastError_Immune2Ctrl.UIEV" />
+			</ConditionCastLimitation>
+		</Item>
+	</castLimitations>
 	<commonDescription textref="/Items/Talents/Level3/G547_SilenceDamageBase.TALENT_commonDescription.txt" />
 	<compiledDescriptionA textref="" />
 	<compiledDescriptionB textref="" />

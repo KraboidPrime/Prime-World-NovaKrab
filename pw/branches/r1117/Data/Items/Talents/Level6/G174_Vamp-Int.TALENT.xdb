@@ -7,6 +7,7 @@
 	<BackLink DBID="/Test/Talents/RedSet2_2.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/TestSet2.TALENTSET" Count="1" />
 	<BackLink DBID="/Social/TalentsCollection" Count="3" />
+	<BackLink DBID="/GameLogic/AILogic.AILP" Count="2" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -29,7 +30,7 @@
 	<askId>0</askId>
 	<autoTargetSelector href="" />
 	<budget>-1</budget>
-	<caption>G174: Истощающий ум</caption>
+	<caption>G174: Мифриловый абразив</caption>
 	<castAllowRange>
 		<compiledString></compiledString>
 		<returnType>float</returnType>
@@ -41,26 +42,16 @@
 	<compiledDescriptionB textref="" />
 	<conditionFormulas />
 	<conflictingTalents />
-	<constants href="/Items/Talents/Level6/G174_Vamp-Int.TALENT" id="1432CF4A-CBD0-4785-95AE-1C56C4B1792E">
+	<constants href="/Items/Talents/Level6/G174_Vamp-Int.TALENT" id="21D06122-EE0C-4A35-B31C-2A96548EB1FF">
 		<UnitConstantsContainer>
 			<vars>
-				<Item href="/Items/Talents/Level6/G174_Vamp-Int.TALENT" id="D76BA4D4-70CE-4056-9CF8-35D7538C8E42">
+				<Item href="/Items/Talents/Level6/G174_Vamp-Int.TALENT" id="7DC34E70-A87D-4368-AF65-DA6DE275A4B1">
 					<UnitConstant>
-						<name>Add_LifeDrain</name>
+						<name>Add_Stat</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAAoEHNzMw/</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAMQg==</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(20, 1.6)</sString>
-						</var>
-					</UnitConstant>
-				</Item>
-				<Item href="/Items/Talents/Level6/G174_Vamp-Int.TALENT" id="EF4E2BFA-96DC-45BB-BCD3-E2557DCBD4C1">
-					<UnitConstant>
-						<name>Add_Intellect</name>
-						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwwAA4EAAAAA/</compiledString>
-							<returnType>float</returnType>
-							<sString>refineScale(7, 0.5)</sString>
+							<sString>35</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -86,7 +77,7 @@
 	<dispatch href="" />
 	<flags>1</flags>
 	<forceBonus>33</forceBonus>
-	<image href="/UI/Styles/Icons/Talents/_174.ITEX" />
+	<image href="/UI/Styles/Icons/Talents/TUE_Abrasive10.ITEX" />
 	<imageSecondState href="" />
 	<isGenderTalent>false</isGenderTalent>
 	<isTakenOnStart>false</isTakenOnStart>
@@ -105,60 +96,120 @@
 	<name textref="/Items/Talents/Level6/G174_Vamp-Int.TALENT_name.txt" />
 	<node></node>
 	<passiveApplicators>
-		<Item href="/Items/Talents/Level6/G174_Vamp-Int.TALENT" id="80418EA3-B1DE-4C32-9D5D-5F2F42A03764">
+		<Item href="/Items/Talents/Level6/G174_Vamp-Int.TALENT" id="B1C3E716-338D-43EC-A35A-C77E4FDB73E2">
 			<PermanentStatModApplicator>
-				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>Add_Vamp</caption>
-				<customApplyType>None</customApplyType>
+				<applyTarget>AbilityOwner</applyTarget>
+				<caption>Stam</caption>
+				<customApplyType>Maximize</customApplyType>
 				<enabled>
-					<compiledString></compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgsgAAAD/0ItNCIsRi00Ii4LAAAAA3V34/9BR2Rwki00IixGLTQiLgowAAAD/0FHZHCToQwAAAIPEBNkcJItNCIsRi00Ii4LMAAAA/9BR2Rwk6CQAAACDxAjcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcNVi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
 					<returnType>bool</returnType>
-					<sString>true</sString>
+					<sString>sBaseStamina &gt;= max(sBaseWill, max(sBaseAttackSpeed, sBaseDexterity))</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<LoggingEvent>-1</LoggingEvent>
 				<modifier>
 					<addValue>
-						<compiledString>FQ4AAAABAAAAGgAAAEFkZF9MaWZlRHJhaW4AVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+						<compiledString>FQkAAAABAAAAFQAAAEFkZF9TdGF0AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
 						<returnType>float</returnType>
-						<sString>cAdd_LifeDrain</sString>
+						<sString>cAdd_Stat</sString>
 					</addValue>
 					<multValue>
 						<compiledString></compiledString>
 						<returnType>float</returnType>
 						<sString>1.0f</sString>
 					</multValue>
-					<stat>LifeDrain</stat>
+					<stat>Stamina</stat>
 					<topModifier>false</topModifier>
 					<variable></variable>
 				</modifier>
 				<providerName></providerName>
 			</PermanentStatModApplicator>
 		</Item>
-		<Item href="/Items/Talents/Level6/G174_Vamp-Int.TALENT" id="5B7A5504-07F1-4CBC-B4D5-74DB833C60B4">
+		<Item href="/Items/Talents/Level6/G174_Vamp-Int.TALENT" id="58791D0D-A18E-4934-BCE7-9C652FAD4E76">
 			<PermanentStatModApplicator>
-				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>Add_Intellect</caption>
-				<customApplyType>None</customApplyType>
+				<applyTarget>AbilityOwner</applyTarget>
+				<caption>Will</caption>
+				<customApplyType>Maximize</customApplyType>
 				<enabled>
-					<compiledString></compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsg+wUi0UIixCLTQiLgswAAAD/0ItNCIsRi00Ii4LIAAAA3V34/9DcXfjf4PbEBXpWi00IixGLTQiLgswAAAD/0ItNCIsRi00Ii4LAAAAA3V3w/9BR2Rwki00IixGLTQiLgowAAAD/0FHZHCToJAAAAIPECNxd8N/g9sRBegnHRewBAAAA6wfHRewAAAAAikXsi+Vdw1WL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
 					<returnType>bool</returnType>
-					<sString>true</sString>
+					<sString>sBaseWill &gt; sBaseStamina &amp;&amp; sBaseWill &gt;=  max(sBaseAttackSpeed, sBaseDexterity)</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<LoggingEvent>-1</LoggingEvent>
 				<modifier>
 					<addValue>
-						<compiledString>FQ4AAAABAAAAGgAAAEFkZF9JbnRlbGxlY3QAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+						<compiledString>FQkAAAABAAAAFQAAAEFkZF9TdGF0AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
 						<returnType>float</returnType>
-						<sString>cAdd_Intellect</sString>
+						<sString>cAdd_Stat</sString>
 					</addValue>
 					<multValue>
 						<compiledString></compiledString>
 						<returnType>float</returnType>
 						<sString>1.0f</sString>
 					</multValue>
-					<stat>Intellect</stat>
+					<stat>Will</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level6/G174_Vamp-Int.TALENT" id="4F6E5BFE-2919-4C90-935B-6931C46D1690">
+			<PermanentStatModApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<caption>As</caption>
+				<customApplyType>Maximize</customApplyType>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsg+wUi0UIixCLTQiLgowAAAD/0ItNCIsRi00Ii4LMAAAA3V34/9BR2Rwki00IixGLTQiLgsgAAAD/0FHZHCToUQAAAIPECNxd+N/g9sQFejaLTQiLEYtNCIuCjAAAAP/Qi00IixGLTQiLgsAAAADdXfD/0Nxd8N/g9sRBegnHRewBAAAA6wfHRewAAAAAikXsi+Vdw1WL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sBaseAttackSpeed &gt; max(sBaseStamina, sBaseWill) &amp;&amp; sBaseAttackSpeed &gt;= sBaseDexterity</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQkAAAABAAAAFQAAAEFkZF9TdGF0AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+						<returnType>float</returnType>
+						<sString>cAdd_Stat</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>AttackSpeed</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level6/G174_Vamp-Int.TALENT" id="A2739BB4-4A88-447A-99A7-519BD45DD813">
+			<PermanentStatModApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<caption>Dex</caption>
+				<customApplyType>Maximize</customApplyType>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgsAAAAD/0ItNCIsRi00Ii4KMAAAA3V34/9BR2Rwki00IixGLTQiLgswAAAD/0FHZHCSLTQiLEYtNCIuCyAAAAP/QUdkcJOgvAAAAg8QE2Rwk6CQAAACDxAjcXfjf4PbEBXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcNVi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
+					<returnType>bool</returnType>
+					<sString>sBaseDexterity &gt; max(max(sBaseStamina, sBaseWill), sBaseAttackSpeed)</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQkAAAABAAAAFQAAAEFkZF9TdGF0AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+						<returnType>float</returnType>
+						<sString>cAdd_Stat</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Dexterity</stat>
 					<topModifier>false</topModifier>
 					<variable></variable>
 				</modifier>
@@ -168,9 +219,9 @@
 	</passiveApplicators>
 	<persistentId>G174</persistentId>
 	<prerequisiteTalents />
-	<rarity>excellent</rarity>
+	<rarity>outstanding</rarity>
 	<requireLineOfSight>true</requireLineOfSight>
-	<shortDescription textref="/Items/Talents/Level6/G174_Vamp-Int.TALENT_shortDescription.txt" />
+	<shortDescription textref="" />
 	<talentRollGroups>0</talentRollGroups>
 	<talentStats>
 		<Item>

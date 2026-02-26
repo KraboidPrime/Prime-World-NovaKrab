@@ -1383,9 +1383,9 @@
 					<UnitConstant>
 						<name>G494_New_Dmg</name>
 						<var>
-							<compiledString>FQwAAAADAAAAEwAAACkAAABDAAAARzQ5NF9BY3RpdmUAVYvsg+wMaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1mAAAA3+D2xEF1GItNCIsRi00Ii0IM/9DcDV4AAADdXfjrBdnu3V343UX42V302UX0i+Vdw+xRuB6F67E/AAAAAAAAAAA=</compiledString>
+							<compiledString>FQwAAAADAAAAEwAAACkAAABCAAAARzQ5NF9BY3RpdmUAVYvsg+wMaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1lAAAA3+D2xEF1F4tNCIsRi00IiwL/0NwNXQAAAN1d+OsF2e7dXfjdRfjZXfTZRfSL5V3DuB6F61G4rj8AAAAAAAAAAA==</compiledString>
 							<returnType>float</returnType>
-							<sString>sender.vG494_Active &gt; 0 ? 0.07*sMaxLife : 0</sString>
+							<sString>sender.vG494_Active &gt; 0 ? 0.06*sLife : 0</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -1512,9 +1512,9 @@
 											<LoggingEvent>-1</LoggingEvent>
 											<modifier>
 												<addValue>
-													<compiledString>FQAAAAACAAAAFQAAADQAAABVi+yD7BCLRQiLEItNCItCDP/Q3A1ZAAAAi00IixGLTQiLgmABAADdXfj/0IlF9NtF9NwNUQAAANno3sHcffjZXfDZRfCL5V3DAAAAAAAA8D8AAAAAK4eWP+xRuB6F67E/</compiledString>
+													<compiledString>FQAAAAACAAAAFQAAADQAAABVi+yD7BCLRQiLEItNCItCDP/Q3A1ZAAAAi00IixGLTQiLgmABAADdXfj/0IlF9NtF9NwNUQAAANno3sHcffjZXfDZRfCL5V3DAAAAAAAA8D8AAAAAK4eWPwrXo3A9Crc/</compiledString>
 													<returnType>float</returnType>
-													<sString>0.07*sMaxLife/(1+0.022f*sNaftaLevel)</sString>
+													<sString>0.09*sMaxLife/(1+0.022f*sNaftaLevel)</sString>
 												</addValue>
 												<multValue>
 													<compiledString></compiledString>
@@ -1577,9 +1577,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FT8AAAAKAAAARgAAAFwAAABsAAAAggAAAJIAAACoAAAAtAAAAMoAAAD0AAAA+gAAAEc0OTRfQWN0aXZlAENoaWNrUmVzU3RhcnRlZABEcmFnb25SZXNTdGFydGVkAAAAAFZhbXBSZXNTdGFydGVkAFWL7IPsDGgAAAAAi0UIixCLTQiLgogBAAD/0NwdLwEAAN/g9sRBD4WmAAAAaAwAAACLTQiLEYtNCIuCiAEAAP/Q3B0vAQAA3+D2xEQPioAAAABoHAAAAItNCIsRi00Ii4KIAQAA/9DcHS8BAADf4PbERHpeaDAAAACLTQiLEYtNCIuCiAEAAP/Q3B0vAQAA3+D2xER6PItNEIsRi00Qi0IY/9CLTQiLEYtNCItCDN1d+P/Q3A0nAQAA3AUfAQAA3F343+D2xAV6CcdF9AEAAADrB8dF9AAAAACKRfSL5V3DAAAAAAAAAEDsUbgeheuxPwAAAAAAAAAA</compiledString>
+					<compiledString>FT8AAAAKAAAARgAAAFwAAABsAAAAggAAAJIAAACoAAAAtAAAAMoAAAD0AAAA+gAAAEc0OTRfQWN0aXZlAENoaWNrUmVzU3RhcnRlZABEcmFnb25SZXNTdGFydGVkAAAAAFZhbXBSZXNTdGFydGVkAFWL7IPsDGgAAAAAi0UIixCLTQiLgogBAAD/0NwdLwEAAN/g9sRBD4WmAAAAaAwAAACLTQiLEYtNCIuCiAEAAP/Q3B0vAQAA3+D2xEQPioAAAABoHAAAAItNCIsRi00Ii4KIAQAA/9DcHS8BAADf4PbERHpeaDAAAACLTQiLEYtNCIuCiAEAAP/Q3B0vAQAA3+D2xER6PItNEIsRi00Qi0IY/9CLTQiLEYtNCItCDN1d+P/Q3A0nAQAA3AUfAQAA3F343+D2xAV6CcdF9AEAAADrB8dF9AAAAACKRfSL5V3DAAAAAAAAAEAK16NwPQq3PwAAAAAAAAAA</compiledString>
 					<returnType>bool</returnType>
-					<sString>sender.vG494_Active &gt; 0 &amp;&amp; sender.vChickResStarted == 0 &amp;&amp; sender.vDragonResStarted == 0 &amp;&amp; sender.vVampResStarted == 0 &amp;&amp; mManaCost &gt; 0.07*sMaxLife+2</sString>
+					<sString>sender.vG494_Active &gt; 0 &amp;&amp; sender.vChickResStarted == 0 &amp;&amp; sender.vDragonResStarted == 0 &amp;&amp; sender.vVampResStarted == 0 &amp;&amp; mManaCost &gt; 0.09*sMaxLife+2</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<lifeTime>
@@ -1681,9 +1681,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FT8AAAAKAAAARgAAAFwAAABsAAAAggAAAJIAAACoAAAAtAAAAMoAAAD0AAAA+gAAAEc0OTRfQWN0aXZlAENoaWNrUmVzU3RhcnRlZABEcmFnb25SZXNTdGFydGVkAAAAAFZhbXBSZXNTdGFydGVkAFWL7IPsDGgAAAAAi0UIixCLTQiLgogBAAD/0NwdLwEAAN/g9sRBD4WmAAAAaAwAAACLTQiLEYtNCIuCiAEAAP/Q3B0vAQAA3+D2xEQPioAAAABoHAAAAItNCIsRi00Ii4KIAQAA/9DcHS8BAADf4PbERHpeaDAAAACLTQiLEYtNCIuCiAEAAP/Q3B0vAQAA3+D2xER6PItNEIsRi00Qi0IY/9CLTQiLEYtNCItCDN1d+P/Q3A0nAQAA3CUfAQAA3F343+D2xEF1CcdF9AEAAADrB8dF9AAAAACKRfSL5V3DAAAAAAAAAEDsUbgeheuxPwAAAAAAAAAA</compiledString>
+					<compiledString>FT8AAAAKAAAARgAAAFwAAABsAAAAggAAAJIAAACoAAAAtAAAAMoAAAD0AAAA+gAAAEc0OTRfQWN0aXZlAENoaWNrUmVzU3RhcnRlZABEcmFnb25SZXNTdGFydGVkAAAAAFZhbXBSZXNTdGFydGVkAFWL7IPsDGgAAAAAi0UIixCLTQiLgogBAAD/0NwdLwEAAN/g9sRBD4WmAAAAaAwAAACLTQiLEYtNCIuCiAEAAP/Q3B0vAQAA3+D2xEQPioAAAABoHAAAAItNCIsRi00Ii4KIAQAA/9DcHS8BAADf4PbERHpeaDAAAACLTQiLEYtNCIuCiAEAAP/Q3B0vAQAA3+D2xER6PItNEIsRi00Qi0IY/9CLTQiLEYtNCItCDN1d+P/Q3A0nAQAA3CUfAQAA3F343+D2xEF1CcdF9AEAAADrB8dF9AAAAACKRfSL5V3DAAAAAAAAAEAK16NwPQq3PwAAAAAAAAAA</compiledString>
 					<returnType>bool</returnType>
-					<sString>sender.vG494_Active &gt; 0 &amp;&amp; sender.vChickResStarted == 0 &amp;&amp; sender.vDragonResStarted == 0 &amp;&amp; sender.vVampResStarted == 0 &amp;&amp; mManaCost &lt; 0.07*sMaxLife-2</sString>
+					<sString>sender.vG494_Active &gt; 0 &amp;&amp; sender.vChickResStarted == 0 &amp;&amp; sender.vDragonResStarted == 0 &amp;&amp; sender.vVampResStarted == 0 &amp;&amp; mManaCost &lt; 0.09*sMaxLife-2</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<lifeTime>

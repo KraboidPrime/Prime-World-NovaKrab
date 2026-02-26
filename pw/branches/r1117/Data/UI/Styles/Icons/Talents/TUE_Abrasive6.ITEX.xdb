@@ -2,6 +2,7 @@
 <UITexture>
 	<BackLink DBID="/Social/TalentUpgrade/TalUpg_Abrasive6.TALUGRDENT" Count="1" />
 	<BackLink DBID="/Social/Lootboxes/LB_TalUpg_Abrasive6" Count="1" />
+	<BackLink DBID="/Items/Talents/Level2/G021_Life-Str-Int.TALENT" Count="1" />
 	<generatedFileName></generatedFileName>
 	<importOnlyShape>false</importOnlyShape>
 	<mipLevels>0</mipLevels>

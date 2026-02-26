@@ -134,9 +134,9 @@
 							<applyTarget>ApplicatorTarget</applyTarget>
 							<caption>- с некой вероятностью применяем на врага</caption>
 							<enabled>
-								<compiledString>FQUAAAACAAAAMgAAAGgAAABXYXJkAFWL7FFR2ejZHCRR2e7ZHCRqAYtFDIsQi00Mi0JY/9APtshR6HsAAACDxAzcHZgAAADf4PbERHtNi1UMiwKLTQyLUFD/0oP4EXQ7i0UMixCLTQyLQlD/0IP4E3QpagCLTRBRaAAAAACLVQyLAotNDIuQnAEAAP/SO0UQdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAAAAAAAAAAAgD9Vi+xRD7ZFCIXAdAjZRQzZXfzrBtlFENld/NlF/IvlXcM=</compiledString>
+								<compiledString>FQUAAAACAAAAMgAAAHoAAABXYXJkAFWL7FFR2ejZHCRR2e7ZHCRqAYtFDIsQi00Mi0JY/9APtshR6I0AAACDxAzcHaoAAADf4PbERHtfi1UMiwKLTQyLUFD/0oP4EXRNi0UMixCLTQyLQlD/0IP4E3Q7i00MixGLTQyLQlD/0IP4FHQpagCLTRBRaAAAAACLVQyLAotNDIuQnAEAAP/SO0UQdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAAAAAAAAAAAgD9Vi+xRD7ZFCIXAdAjZRQzZXfzrBtlFENld/NlF/IvlXcM=</compiledString>
 								<returnType>bool</returnType>
-								<sString>ut_bldg(false,true) &amp;&amp; rUnitKind != 17 &amp;&amp; rUnitKind != 19 &amp;&amp; receiver.applWard(GLOBAL) == pMisc</sString>
+								<sString>ut_bldg(false,true) &amp;&amp; rUnitKind != 17 &amp;&amp; rUnitKind != 19 &amp;&amp; rUnitKind != 20 &amp;&amp; receiver.applWard(GLOBAL) == pMisc</sString>
 							</enabled>
 							<formulaName></formulaName>
 							<LoggingEvent>-1</LoggingEvent>

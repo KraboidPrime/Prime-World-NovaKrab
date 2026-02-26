@@ -44,7 +44,7 @@
 		</Item>
 	</applicators>
 	<applyTarget>AbilityTarget</applyTarget>
-	<behaviorFlags>154</behaviorFlags>
+	<behaviorFlags>155</behaviorFlags>
 	<caption> - уникальный статус Синий-Стан-С-Сердечками</caption>
 	<customCounter>
 		<compiledString></compiledString>

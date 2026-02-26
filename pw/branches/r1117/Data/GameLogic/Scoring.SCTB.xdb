@@ -301,7 +301,7 @@
 			<outputPriority>0</outputPriority>
 		</Item>
 		<Item>
-			<icon href="/UI/Styles/Icons/Statistics/TowersDestroyed.ITEX" />
+			<icon href="/UI/Styles/Icons/Statistics/TowersDenied.ITEX" />
 			<name textref="/GameLogic/Scoring.SCTB_scoreDescriptions_6_name.txt" />
 			<outputPriority>0</outputPriority>
 		</Item>
@@ -389,6 +389,11 @@
 			<icon href="/UI/Styles/Icons/Statistics/EnergyDamageRecieved.ITEX" />
 			<name textref="/GameLogic/Scoring.SCTB_scoreDescriptions_23_name.txt" />
 			<outputPriority>0</outputPriority>
+		</Item>
+		<Item>
+			<icon href="/UI/Styles/Icons/Statistics/WardsPlaced.ITEX" />
+			<name textref="/GameLogic/Scoring.SCTB_scoreDescriptions_24_name.txt" />
+			<outputPriority>1</outputPriority>
 		</Item>
 	</scoreDescriptions>
 	<teleporterAbilities>

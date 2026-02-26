@@ -256,9 +256,134 @@
 					<Item href="" />
 				</effect>
 				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsi0UMixCLTQyLQmD/0IXAD5XAXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>rNativeAttackIndex</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<startCondition>
 					<compiledString></compiledString>
 					<returnType>bool</returnType>
 					<sString>true</sString>
+				</startCondition>
+			</ChangeBaseAttackApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/Werewolf/status_A4_curse.APLR" id="21F0926C-FE3E-4DE3-AA74-FA9B9CB0ADB2">
+			<ChangeBaseAttackApplicator>
+				<applyPassivePart>false</applyPassivePart>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<attackAbility href="/Items/Talents/Class/Werewolf/status_A4_curse.APLR" id="32DFFCE8-CFD4-4B01-8CDC-75DC9B6CC564">
+					<BaseAttack>
+						<activeCustomTrigger>true</activeCustomTrigger>
+						<allowChase>
+							<compiledString></compiledString>
+							<returnType>bool</returnType>
+							<sString>true</sString>
+						</allowChase>
+						<alternativeTargets />
+						<aoeDisplayOnMinimap>false</aoeDisplayOnMinimap>
+						<aoeHeight>0</aoeHeight>
+						<aoeMaterial href="" />
+						<aoePassabilityCheckMode>0</aoePassabilityCheckMode>
+						<aoeSize>
+							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>0.0f</sString>
+						</aoeSize>
+						<aoeType>None</aoeType>
+						<applicators>
+							<Item href="/GameLogic/GeneralApplicators/BaseAttackDmg_Hero_material.APLR" />
+						</applicators>
+						<autoTargetSelector href="" />
+						<caption></caption>
+						<castAllowRange>
+							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>0.0f</sString>
+						</castAllowRange>
+						<castLimitations />
+						<commonDescription textref="" />
+						<compiledDescriptionA textref="" />
+						<compiledDescriptionB textref="" />
+						<conditionFormulas />
+						<constants href="" />
+						<cooldownTime>
+							<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+							<returnType>float</returnType>
+							<sString>0</sString>
+						</cooldownTime>
+						<cooldownTimeSecondState>
+							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>0.0f</sString>
+						</cooldownTimeSecondState>
+						<description textref="" />
+						<dispatch href="/Items/Talents/Class/Werewolf/status_A4_curse.APLR" id="7AC74C3D-EB00-4158-99A7-63CA7024169B">
+							<DispatchImmediate>
+								<alwaysApply>false</alwaysApply>
+								<applyEffect>
+									<Item href="" />
+									<Item href="" />
+								</applyEffect>
+								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+								<applyEffectOrientation>Default</applyEffectOrientation>
+								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+								<dieAfterApply>true</dieAfterApply>
+								<dispatchEffect>
+									<Item href="" />
+									<Item href="" />
+								</dispatchEffect>
+								<flags>2</flags>
+								<instantApply>false</instantApply>
+							</DispatchImmediate>
+						</dispatch>
+						<flags>1</flags>
+						<image href="" />
+						<imageSecondState href="" />
+						<isMelee>true</isMelee>
+						<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
+						<manaCost>
+							<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+							<returnType>float</returnType>
+							<sString>0</sString>
+						</manaCost>
+						<marker></marker>
+						<microAI href="" />
+						<minUseRangeCorrection>0</minUseRangeCorrection>
+						<name textref="" />
+						<node></node>
+						<passiveApplicators />
+						<requireLineOfSight>true</requireLineOfSight>
+						<shortDescription textref="" />
+						<targetType>1835519</targetType>
+						<type>Simple</type>
+						<useRange>
+							<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+							<returnType>float</returnType>
+							<sString>0</sString>
+						</useRange>
+						<useRangeMaterial href="" />
+						<warFogRemoveRadius>0</warFogRemoveRadius>
+						<warFogRemoveTime>0</warFogRemoveTime>
+					</BaseAttack>
+				</attackAbility>
+				<behaviorFlags>144</behaviorFlags>
+				<caption>Меняем Base Attack</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsi0UMixCLTQyLQmD/0PfYG8CDwAFdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>!rNativeAttackIndex</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<lifeTime>

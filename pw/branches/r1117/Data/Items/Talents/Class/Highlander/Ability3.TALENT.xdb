@@ -95,9 +95,9 @@
 					<UnitConstant>
 						<name>A3HealTotalAmount</name>
 						<var>
-							<compiledString>FSYAAAAGAAAALQAAAEYAAACAAAAAigAAAL0AAADHAAAASGlnaGxhbmRlcl9BM19TVVAAAABIaWdobGFuZGVyX0EzX1NVUABVi+yD7AxoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBQAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXQ9agFR2QUGAQAA2RwkUdkFAgEAANkcJGoBi1UIiwKLTQiLUAz/0lHZHCRqAItFEIsQi00Qi0Jg/9DZXfTrO2oBUdkF/gAAANkcJFHZBfoAAADZHCRqAYtNCIsRi00Ii0IM/9BR2RwkagCLTRCLEYtNEItCYP/Q2V302UX0i+VdwwAAqEEAAB5DAADYQQAATUM=</compiledString>
+							<compiledString>FSYAAAAGAAAALQAAAEYAAACAAAAAigAAAL0AAADHAAAASGlnaGxhbmRlcl9BM19TVVAAAABIaWdobGFuZGVyX0EzX1NVUABVi+yD7AxoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBQAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXQ9agFR2QUGAQAA2RwkUdkFAgEAANkcJGoBi1UIiwKLTQiLUAz/0lHZHCRqAItFEIsQi00Qi0Jg/9DZXfTrO2oBUdkF/gAAANkcJFHZBfoAAADZHCRqAYtNCIsRi00Ii0IM/9BR2RwkagCLTRCLEYtNEItCYP/Q2V302UX0i+VdwwAAqEEAAB5DAADIQQAAPkM=</compiledString>
 							<returnType>float</returnType>
-							<sString>tal("Highlander_A3_SUP") ? abilityScaleCustomLife(sMaxLife, 27, 205) : abilityScaleCustomLife(sMaxLife, 21, 158)</sString>
+							<sString>tal("Highlander_A3_SUP") ? abilityScaleCustomLife(sMaxLife, 25, 190) : abilityScaleCustomLife(sMaxLife, 21, 158)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -173,9 +173,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+					<compiledString>FQoAAAACAAAADwAAACUAAABBNFN0YXJ0ZWQAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdRwAAAN/g9sREegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAAA</compiledString>
 					<returnType>bool</returnType>
-					<sString>true</sString>
+					<sString>sender.vA4Started == 0</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<lifeTime>

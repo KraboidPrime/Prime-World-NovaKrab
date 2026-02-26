@@ -164,80 +164,6 @@
 							<statModName></statModName>
 						</StatModApplicator>
 					</Item>
-					<Item href="/Items/Consumables/CleansingCake.ARCT" id="32493032-40C6-4A66-8458-C7B86DF2330A">
-						<SpellApplicator>
-							<applyTarget>AbilityOwner</applyTarget>
-							<caption></caption>
-							<enabled>
-								<compiledString></compiledString>
-								<returnType>bool</returnType>
-								<sString>true</sString>
-							</enabled>
-							<formulaName></formulaName>
-							<LoggingEvent>-1</LoggingEvent>
-							<providerName></providerName>
-							<spell href="/Items/Consumables/CleansingCake.ARCT" id="4D8166E0-6089-40F3-9AFA-13C4784A881E">
-								<Spell>
-									<applicators>
-										<Item href="/Items/Consumables/CleansingCake.ARCT" id="DF664195-D61A-40A5-90DC-664EAE924C98">
-											<FlagsApplicator>
-												<applyTarget>AbilityOwner</applyTarget>
-												<behaviorFlags>0</behaviorFlags>
-												<caption>звук</caption>
-												<consumables />
-												<effect>
-													<Item href="/Effects/Buffs/ColdCharged/_Gold2.EFFT" />
-													<Item href="" />
-												</effect>
-												<enabled>
-													<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
-													<returnType>bool</returnType>
-													<sString>true</sString>
-												</enabled>
-												<flag>0</flag>
-												<formulaName></formulaName>
-												<lifeTime>
-													<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADAPw==</compiledString>
-													<returnType>float</returnType>
-													<sString>1.5f</sString>
-												</lifeTime>
-												<LoggingEvent>-1</LoggingEvent>
-												<providerName></providerName>
-												<startCondition>
-													<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
-													<returnType>bool</returnType>
-													<sString>true</sString>
-												</startCondition>
-												<talents />
-												<useListAs>ListAsRule</useListAs>
-											</FlagsApplicator>
-										</Item>
-									</applicators>
-									<dispatch href="/Items/Consumables/CleansingCake.ARCT" id="832704B1-C453-4640-A768-8182EEAAB6AD">
-										<DispatchImmediate>
-											<alwaysApply>false</alwaysApply>
-											<applyEffect>
-												<Item href="" />
-												<Item href="" />
-											</applyEffect>
-											<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
-											<applyEffectOrientation>Default</applyEffectOrientation>
-											<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
-											<dieAfterApply>true</dieAfterApply>
-											<dispatchEffect>
-												<Item href="" />
-												<Item href="" />
-											</dispatchEffect>
-											<flags>0</flags>
-											<instantApply>false</instantApply>
-										</DispatchImmediate>
-									</dispatch>
-								</Spell>
-							</spell>
-							<spellTarget>AbilityOwner</spellTarget>
-							<targetSelector href="" />
-						</SpellApplicator>
-					</Item>
 				</applicators>
 				<applyTarget>AbilityOwner</applyTarget>
 				<behaviorFlags>1</behaviorFlags>
@@ -255,7 +181,7 @@
 				<description textref="/Items/Consumables/CleansingCake.ARCT_430e1ba2fe6644a08c1bc17957b73be3_description.txt" />
 				<dispellPriority>NonDispellable</dispellPriority>
 				<effect>
-					<Item href="/Effects/Buffs/ColdCharged/_Gold1.EFFT" />
+					<Item href="/Effects/Buffs/ColdCharged/_Gold.EFFT" />
 					<Item href="" />
 				</effect>
 				<enabled>
@@ -267,9 +193,9 @@
 				<formulaName></formulaName>
 				<image href="/UI/Styles/Icons/Artifacts/CakeCleansing.ITEX" />
 				<lifeTime>
-					<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADAPw==</compiledString>
 					<returnType>float</returnType>
-					<sString>1.0f</sString>
+					<sString>1.5f</sString>
 				</lifeTime>
 				<LoggingEvent>-1</LoggingEvent>
 				<name textref="/Items/Consumables/CleansingCake.ARCT_430e1ba2fe6644a08c1bc17957b73be3_name.txt" />

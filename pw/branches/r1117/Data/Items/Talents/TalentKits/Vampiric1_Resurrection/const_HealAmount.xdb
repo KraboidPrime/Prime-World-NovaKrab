@@ -6,8 +6,8 @@
 	<BackLink DBID="/Items/Talents/Level6/G317_K_Life_AttackSpeed.TALENT" Count="1" />
 	<name>HealAmount</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAIC7RA==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADhRA==</compiledString>
 		<returnType>float</returnType>
-		<sString>1500</sString>
+		<sString>1800</sString>
 	</var>
 </UnitConstant>

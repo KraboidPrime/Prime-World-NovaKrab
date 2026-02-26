@@ -56,7 +56,7 @@
 				<returnType>float</returnType>
 				<sString>1.0f</sString>
 			</mul>
-			<objectFilter>536870915</objectFilter>
+			<objectFilter>536936455</objectFilter>
 			<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
 			<spell href="/Items/Talents/Level6/Trigger_G175.APLR" id="B8C67606-B73F-4B60-9C46-8303805395B8">
 				<Spell>
@@ -506,7 +506,7 @@
 					</applicators>
 					<dispatch href="/Items/Talents/Level6/Trigger_G175.APLR" id="64961306-2F89-4DC4-93BD-07CF46DD3882">
 						<DispatchImmediate>
-							<alwaysApply>false</alwaysApply>
+							<alwaysApply>true</alwaysApply>
 							<applyEffect>
 								<Item href="" />
 								<Item href="" />

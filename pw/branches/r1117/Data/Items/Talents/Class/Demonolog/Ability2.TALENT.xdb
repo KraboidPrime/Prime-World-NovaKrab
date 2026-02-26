@@ -304,7 +304,7 @@
 													<maxRise>0</maxRise>
 													<minRise>0</minRise>
 													<persistentApplicators />
-													<speed>25</speed>
+													<speed>33</speed>
 													<suspendTime>0</suspendTime>
 													<toLocator></toLocator>
 												</DispatchLinear>
@@ -423,9 +423,9 @@
 					<UnitConstant>
 						<name>A2_Range</name>
 						<var>
-							<compiledString>FQsAAAABAAAAFwAAAFJhbmdlX0xvbmcAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+							<compiledString>FQsAAAACAAAAGAAAACsAAABSYW5nZV9Mb25nAFWL7FGLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0twFOQAAANld/NlF/IvlXcMAAAAAAAAAQA==</compiledString>
 							<returnType>float</returnType>
-							<sString>cRange_Long</sString>
+							<sString>cRange_Long + 2</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -537,9 +537,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQQ==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABQQQ==</compiledString>
 		<returnType>float</returnType>
-		<sString>15</sString>
+		<sString>13</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>

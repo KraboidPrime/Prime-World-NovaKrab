@@ -487,9 +487,9 @@
 					<UnitConstant>
 						<name>Root_Duration</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQA==</compiledString>
+							<compiledString>FR4AAAAEAAAAJQAAAD4AAAB1AAAAgAAAAE1vbnN0ZXJfQTRfMnUAAABNb25zdGVyX0E0XzJ1AFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdAvZBZIAAADZXfTrCdkFjgAAANld9NlF9IvlXcMAAMA/AAAAQA==</compiledString>
 							<returnType>float</returnType>
-							<sString>2.5f</sString>
+							<sString>tal("Monster_A4_2u") ? 2.0f : 1.5f</sString>
 						</var>
 					</UnitConstant>
 				</Item>

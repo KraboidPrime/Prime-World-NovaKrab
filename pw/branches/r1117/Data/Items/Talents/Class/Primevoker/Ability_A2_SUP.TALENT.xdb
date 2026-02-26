@@ -90,11 +90,11 @@
 	<type>Passive</type>
 	<upgradeLevel>0</upgradeLevel>
 	<useRange>
-		<compiledString></compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACIQQ==</compiledString>
 		<returnType>float</returnType>
-		<sString>0.0f</sString>
+		<sString>17.0f</sString>
 	</useRange>
-	<useRangeMaterial href="" />
+	<useRangeMaterial href="/Effects/UI/AOESelection/Radius.MTRL" />
 	<variativeMaxTalentStats />
 	<variativeMinTalentStats />
 	<vendorCost>0</vendorCost>

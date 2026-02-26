@@ -399,9 +399,9 @@
 					<UnitConstant>
 						<name>A2_StopDamage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAADMQgBAP0Q=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAAFQwDAeEQ=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale (sStrength, 102, 765)</sString>
+							<sString>damageScale (sStrength, 133, 995)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

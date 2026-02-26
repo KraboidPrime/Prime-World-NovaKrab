@@ -203,9 +203,9 @@
 		<Item href="" />
 	</effect>
 	<enabled>
-		<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+		<compiledString>FQoAAAACAAAADwAAACUAAABBNFN0YXJ0ZWQAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdRwAAAN/g9sREegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAAA</compiledString>
 		<returnType>bool</returnType>
-		<sString>true</sString>
+		<sString>sender.vA4Started == 0</sString>
 	</enabled>
 	<flags>0</flags>
 	<formulaName></formulaName>

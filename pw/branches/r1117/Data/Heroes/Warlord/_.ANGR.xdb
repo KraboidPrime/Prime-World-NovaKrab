@@ -4010,11 +4010,11 @@
 			<markers>
 				<Item>
 					<name>doCast1</name>
-					<virtPar>0.2307692</virtPar>
+					<virtPar>0.2</virtPar>
 				</Item>
 				<Item>
 					<name>workTime1</name>
-					<virtPar>0.3846154</virtPar>
+					<virtPar>0.25</virtPar>
 				</Item>
 			</markers>
 			<nextNode>idle</nextNode>

@@ -153,6 +153,36 @@
 					<Spell>
 						<applicators>
 							<Item href="/Items/Talents/Class/MagicGirl/A4_2_SummonBall.APLR" />
+							<Item href="/Items/Talents/Class/MagicGirl/Ability_A4_2.TALENT" id="4D96C143-C58F-4966-83DC-D8E192579ADE">
+								<PermanentStatModApplicator>
+									<applyTarget>AbilityOwner</applyTarget>
+									<caption></caption>
+									<customApplyType>None</customApplyType>
+									<enabled>
+										<compiledString>FTYAAAAEAAAAPQAAAFYAAACMAAAAogAAAE1hZ2ljR2lybF9BNF8yU1VQAAAATWFnaWNHaXJsX0E0XzJTVVAAAABBNEx1bmFETUdCdWZmAFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoFAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdCtoKAAAAItVCIsCi00Ii5CIAQAA/9LcHcQAAADf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcMAAAAAAAD4Pw==</compiledString>
+										<returnType>bool</returnType>
+										<sString>tal("MagicGirl_A4_2SUP") &amp;&amp; sender.vA4LunaDMGBuff &gt;1.5</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<LoggingEvent>-1</LoggingEvent>
+									<modifier>
+										<addValue>
+											<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAvw==</compiledString>
+											<returnType>float</returnType>
+											<sString>-1.0f</sString>
+										</addValue>
+										<multValue>
+											<compiledString></compiledString>
+											<returnType>float</returnType>
+											<sString>1.0f</sString>
+										</multValue>
+										<stat>Life</stat>
+										<topModifier>false</topModifier>
+										<variable>A4LunaDMGBuff</variable>
+									</modifier>
+									<providerName></providerName>
+								</PermanentStatModApplicator>
+							</Item>
 						</applicators>
 						<dispatch href="/Items/Talents/Class/MagicGirl/Ability_A4_2.TALENT" id="D97B3800-A604-47B8-9E50-916AEEE02EEE">
 							<DispatchImmediate>
@@ -283,9 +313,9 @@
 					<UnitConstant>
 						<name>A4_2_CreepDamage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAADIQgCAO0Q=</compiledString>
+							<compiledString>FTcAAAAIAAAAPgAAAFcAAACVAAAAqAAAALUAAAC/AAAA+wAAAAUBAABNYWdpY0dpcmxfQTRfMlNVUAAAAE1hZ2ljR2lybF9BNF8yU1VQAAAAQTRMdW5hRE1HQnVmZkMAVYvsg+wcaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgUAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0aotVDFKLRQhQaCgAAACLTRCLEYtNEItCUP/Q3A1ZAQAA2ejewWoBUdkFTQEAANkcJFHZBUkBAADZHCRqAItNCIsRi00Ii4IwAQAA3V3w/9BR2RwkagGLTRCLEYtNEItCYP/Q3E3w3V3o6z5qAVHZBUUBAADZHCRR2QVBAQAA2RwkagCLTQiLEYtNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0N1d6N1F6Nld5NlF5IvlXcMAAMhCAIA7RAAABEIAAHpDAAAAAAAA8D8AAABA4XqEPw==</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(sStrength, 100, 750)</sString>
+							<sString>tal("MagicGirl_A4_2SUP") ? (1.0f + 0.01f*cA4LunaDMGBuffC)*damageScale(sStrength, 33, 250) : damageScale(sStrength, 100, 750)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -293,9 +323,9 @@
 					<UnitConstant>
 						<name>A4_2_HeroDamage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACWQwCgDEU=</compiledString>
+							<compiledString>FTcAAAAIAAAAPgAAAFcAAACVAAAAqAAAALUAAAC/AAAA+wAAAAUBAABNYWdpY0dpcmxfQTRfMlNVUAAAAE1hZ2ljR2lybF9BNF8yU1VQAAAAQTRMdW5hRE1HQnVmZkMAVYvsg+wcaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgUAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0aotVDFKLRQhQaCgAAACLTRCLEYtNEItCUP/Q3A1ZAQAA2ejewWoBUdkFTQEAANkcJFHZBUkBAADZHCRqAItNCIsRi00Ii4IwAQAA3V3w/9BR2RwkagGLTRCLEYtNEItCYP/Q3E3w3V3o6z5qAVHZBUUBAADZHCRR2QVBAQAA2RwkagCLTQiLEYtNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0N1d6N1F6Nld5NlF5IvlXcMAAJZDAKAMRQAAyEIAgDtEAAAAAAAA8D8AAABA4XqEPw==</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale( sStrength, 300 , 2250)</sString>
+							<sString>tal("MagicGirl_A4_2SUP") ? (1.0f + 0.01f*cA4LunaDMGBuffC)*damageScale(sStrength, 100, 750) : damageScale( sStrength, 300 , 2250)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -369,6 +399,26 @@
 						</var>
 					</UnitConstant>
 				</Item>
+				<Item href="/Items/Talents/Class/MagicGirl/Ability_A4_2.TALENT" id="9A5F0DDC-9D78-4903-BC63-438DBB5614A7">
+					<UnitConstant>
+						<name>A4LunaDMGBuffC</name>
+						<var>
+							<compiledString>FQ4AAAABAAAAEgAAAEE0THVuYURNR0J1ZmYAVYvsaAAAAACLRQiLEItNCIuCiAEAAP/QUdkcJFHZ7tkcJOgJAAAAg8QIXcMAAAAAVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
+							<returnType>float</returnType>
+							<sString>max(0, sender.vA4LunaDMGBuff)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/MagicGirl/Ability_A4_2.TALENT" id="DE8C92E1-8902-4CE4-AAA9-6DB8FB359FCE">
+					<UnitConstant>
+						<name>A4LunaDMGBuffOther</name>
+						<var>
+							<compiledString>FQ4AAAACAAAAEwAAACkAAABBNEx1bmFETUdCdWZmAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcDU0AAADZXfzZRfxR2RwkUdnu2Rwk6BMAAACDxAiL5V3DAAAAAAAAAAAAAOA/VYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
+							<returnType>float</returnType>
+							<sString>max(0, 0.5*sender.vA4LunaDMGBuff)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
@@ -377,9 +427,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADcQg==</compiledString>
+		<compiledString>FSYAAAAEAAAALQAAAEYAAAB9AAAAiAAAAE1hZ2ljR2lybF9BNF8yU1VQAAAATWFnaWNHaXJsX0E0XzJTVVAAVYvsg+wUaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgUAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0C90FpAAAAN1d8OsJ3QWcAAAA3V3w3UXw2V3s2UXsi+VdwwAAAAAAgFtAzczMzMxMQkA=</compiledString>
 		<returnType>float</returnType>
-		<sString>110</sString>
+		<sString>tal("MagicGirl_A4_2SUP") ? 36.6 : 110</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>
@@ -407,7 +457,7 @@
 			<instantApply>false</instantApply>
 		</DispatchImmediate>
 	</dispatch>
-	<flags>2089</flags>
+	<flags>2093</flags>
 	<forceBonus>13</forceBonus>
 	<image href="/UI/Styles/Icons/Heroes/MagicGirl/A4_2.ITEX" />
 	<imageSecondState href="" />
@@ -441,9 +491,9 @@
 							<flags>0</flags>
 							<mode>Normal</mode>
 							<range>
-								<compiledString>FQkAAAABAAAAFQAAAEE0X1JhbmdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+								<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQQ==</compiledString>
 								<returnType>float</returnType>
-								<sString>cA4_Range</sString>
+								<sString>20</sString>
 							</range>
 							<targetFilter>679477251</targetFilter>
 							<targetSelector href="" />
@@ -458,7 +508,59 @@
 	<naftaCost>540</naftaCost>
 	<name textref="/Items/Talents/Class/MagicGirl/Ability_A4_2.TALENT_name.txt" />
 	<node></node>
-	<passiveApplicators />
+	<passiveApplicators>
+		<Item href="/Items/Talents/Class/MagicGirl/Ability_A4_2.TALENT" id="1706BBAA-26EE-4D09-A027-DE50FD40FF76">
+			<StatusApplicator>
+				<applicators />
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>ап в 5</caption>
+				<customCounter>
+					<compiledString>FQ8AAAABAAAAGwAAAEE0THVuYURNR0J1ZmZDAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SUdkcJOgFAAAAg8QEXcO4AQAAAA+i98IAAAAEdAfzDyxEJATD6QAAAABVi+yD7AzZRQjZffwPt0X8DQAMAACJRfjZbfjbXfTZbfyLRfSL5V3D</compiledString>
+					<returnType>int</returnType>
+					<sString>f2l(cA4LunaDMGBuffC)</sString>
+				</customCounter>
+				<customProgress>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</customProgress>
+				<description textref="/Items/Talents/Class/MagicGirl/Ability_A4_2.TALENT_1706bbaa26ee4d09a027de50fd40ff76_description.txt" />
+				<dispellPriority>NonDispellable</dispellPriority>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FSYAAAACAAAALQAAAEYAAABNYWdpY0dpcmxfQTRfMlNVUAAAAE1hZ2ljR2lybF9BNF8yU1VQAFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoFAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAikX7i+Vdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("MagicGirl_A4_2SUP")</sString>
+				</enabled>
+				<flags>0</flags>
+				<formulaName></formulaName>
+				<image href="/UI/Styles/Icons/Heroes/MagicGirl/A4_2.ITEX" />
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<name textref="/Items/Talents/Class/MagicGirl/Ability_A4_2.TALENT_1706bbaa26ee4d09a027de50fd40ff76_name.txt" />
+				<power>0</power>
+				<providerName></providerName>
+				<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+				<stackCount>0</stackCount>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statusPosition>0</statusPosition>
+				<stopBehaviour>StopByTime</stopBehaviour>
+				<unstackableWith href="" />
+			</StatusApplicator>
+		</Item>
+	</passiveApplicators>
 	<persistentId>MagicGirl_A4_2</persistentId>
 	<prerequisiteTalents />
 	<rarity>Class</rarity>

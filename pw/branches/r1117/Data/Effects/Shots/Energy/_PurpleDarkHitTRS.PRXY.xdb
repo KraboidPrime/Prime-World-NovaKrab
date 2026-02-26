@@ -2,6 +2,8 @@
 <DBSceneComponent>
 	<BackLink DBID="/Effects/Shots/Energy/_PurpleDarkHitBuilding.EFFT" Count="1" />
 	<BackLink DBID="/Effects/Shots/Energy/_PurpleDarkHit.EFFT" Count="1" />
+	<BackLink DBID="/Effects/Shots/Energy/_Hit.EFFT" Count="1" />
+	<BackLink DBID="/Effects/Shots/Energy/_HitBuilding.EFFT" Count="1" />
 	<attached>
 		<Item>
 			<attachFlags>15</attachFlags>

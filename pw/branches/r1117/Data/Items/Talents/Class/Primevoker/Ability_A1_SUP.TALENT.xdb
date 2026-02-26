@@ -38,7 +38,22 @@
 	<conflictingTalents>
 		<Item href="/Items/Talents/Class/Primevoker/Ability_A0_SUP.TALENT" />
 	</conflictingTalents>
-	<constants href="" />
+	<constants href="/Items/Talents/Class/Primevoker/Ability_A1_SUP.TALENT" id="7549DAF7-C417-4B16-A449-47EF8B53AF55">
+		<UnitConstantsContainer>
+			<vars>
+				<Item href="/Items/Talents/Class/Primevoker/Ability_A1_SUP.TALENT" id="EE32C753-C664-4EA1-B85F-D51F3ECB15A2">
+					<UnitConstant>
+						<name>VokerSupStatAdd</name>
+						<var>
+							<compiledString>FQ8AAAABAAAAEwAAAFZva2VyU3VwU3RhdEFkAFWL7GgAAAAAi0UIixCLTQiLgogBAAD/0F3D</compiledString>
+							<returnType>float</returnType>
+							<sString>sender.vVokerSupStatAd</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+			</vars>
+		</UnitConstantsContainer>
+	</constants>
 	<consumptionBonus>
 		<constant>0</constant>
 		<percent>0</percent>
@@ -76,7 +91,348 @@
 	<naftaCost>800</naftaCost>
 	<name textref="/Items/Talents/Class/Primevoker/Ability_A1_SUP.TALENT_name.txt" />
 	<node></node>
-	<passiveApplicators />
+	<passiveApplicators>
+		<Item href="/Items/Talents/Class/Primevoker/Ability_A1_SUP.TALENT" id="1E490D4D-A32F-48E0-997A-EA7715C57E3C">
+			<TriggerApplicator>
+				<actionsCount>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</actionsCount>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>152</behaviorFlags>
+				<caption></caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<playAck>false</playAck>
+				<processor href="/Items/Talents/Class/Primevoker/Ability_A1_SUP.TALENT" id="A20D57AE-A6B2-4569-A694-5DC931E3D962">
+					<EventProcessorUnitDieNearMe>
+						<applyTarget>AbilityOwner</applyTarget>
+						<checkSender>0</checkSender>
+						<killerFlags>15</killerFlags>
+						<range>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQQ==</compiledString>
+							<returnType>float</returnType>
+							<sString>20.0f</sString>
+						</range>
+						<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
+						<spell href="/Items/Talents/Class/Primevoker/Ability_A1_SUP.TALENT" id="EE02A24C-3A0F-47DE-A1A0-28E208A02801">
+							<Spell>
+								<applicators>
+									<Item href="/Items/Talents/Class/Primevoker/Ability_A1_SUP.TALENT" id="6BC7F9D5-C363-4ECD-AC6A-58C33F859CD8">
+										<StatModApplicator>
+											<applyTarget>AbilityOwner</applyTarget>
+											<behaviorFlags>216</behaviorFlags>
+											<caption></caption>
+											<constraint>None</constraint>
+											<dontUpdate>false</dontUpdate>
+											<effect>
+												<Item href="" />
+												<Item href="" />
+											</effect>
+											<enabled>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</enabled>
+											<formulaName></formulaName>
+											<lifeTime>
+												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQg==</compiledString>
+												<returnType>float</returnType>
+												<sString>60</sString>
+											</lifeTime>
+											<LoggingEvent>-1</LoggingEvent>
+											<modifier>
+												<addValue>
+													<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+													<returnType>float</returnType>
+													<sString>1.0f</sString>
+												</addValue>
+												<multValue>
+													<compiledString></compiledString>
+													<returnType>float</returnType>
+													<sString>1.0f</sString>
+												</multValue>
+												<stat>Life</stat>
+												<topModifier>false</topModifier>
+												<variable>VokerSupStatAd</variable>
+											</modifier>
+											<providerName></providerName>
+											<startCondition>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</startCondition>
+											<statModName></statModName>
+										</StatModApplicator>
+									</Item>
+								</applicators>
+								<dispatch href="/Items/Talents/Class/Primevoker/Ability_A1_SUP.TALENT" id="2169EA3D-5ADA-4F57-AEC4-90A33AB0793A">
+									<DispatchImmediate>
+										<alwaysApply>false</alwaysApply>
+										<applyEffect>
+											<Item href="" />
+											<Item href="" />
+										</applyEffect>
+										<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+										<applyEffectOrientation>Default</applyEffectOrientation>
+										<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+										<dieAfterApply>true</dieAfterApply>
+										<dispatchEffect>
+											<Item href="" />
+											<Item href="" />
+										</dispatchEffect>
+										<flags>0</flags>
+										<instantApply>false</instantApply>
+									</DispatchImmediate>
+								</dispatch>
+							</Spell>
+						</spell>
+						<targets>805568572</targets>
+					</EventProcessorUnitDieNearMe>
+				</processor>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<useAbilityCooldown>false</useAbilityCooldown>
+				<useAbilityOwnerMana>false</useAbilityOwnerMana>
+			</TriggerApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/Primevoker/Ability_A1_SUP.TALENT" id="166FA5C8-26E9-45E6-9273-73FF148B8D28">
+			<TriggerApplicator>
+				<actionsCount>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</actionsCount>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>152</behaviorFlags>
+				<caption></caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<playAck>false</playAck>
+				<processor href="/Items/Talents/Class/Primevoker/Ability_A1_SUP.TALENT" id="42E4C070-AC64-438E-BD3A-9890EB60CABD">
+					<EventProcessorUnitDieNearMe>
+						<applyTarget>AbilityOwner</applyTarget>
+						<checkSender>0</checkSender>
+						<killerFlags>15</killerFlags>
+						<range>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQQ==</compiledString>
+							<returnType>float</returnType>
+							<sString>20.0f</sString>
+						</range>
+						<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
+						<spell href="/Items/Talents/Class/Primevoker/Ability_A1_SUP.TALENT" id="F496690F-DB90-446B-97B2-8A78BAE40591">
+							<Spell>
+								<applicators>
+									<Item href="/Items/Talents/Class/Primevoker/Ability_A1_SUP.TALENT" id="BDD1C32A-5CB8-4337-87D1-87CEC2AAAAF6">
+										<StatModApplicator>
+											<applyTarget>AbilityOwner</applyTarget>
+											<behaviorFlags>216</behaviorFlags>
+											<caption></caption>
+											<constraint>None</constraint>
+											<dontUpdate>false</dontUpdate>
+											<effect>
+												<Item href="" />
+												<Item href="" />
+											</effect>
+											<enabled>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</enabled>
+											<formulaName></formulaName>
+											<lifeTime>
+												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQg==</compiledString>
+												<returnType>float</returnType>
+												<sString>60</sString>
+											</lifeTime>
+											<LoggingEvent>-1</LoggingEvent>
+											<modifier>
+												<addValue>
+													<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
+													<returnType>float</returnType>
+													<sString>10.0f</sString>
+												</addValue>
+												<multValue>
+													<compiledString></compiledString>
+													<returnType>float</returnType>
+													<sString>1.0f</sString>
+												</multValue>
+												<stat>Life</stat>
+												<topModifier>false</topModifier>
+												<variable>VokerSupStatAd</variable>
+											</modifier>
+											<providerName></providerName>
+											<startCondition>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</startCondition>
+											<statModName></statModName>
+										</StatModApplicator>
+									</Item>
+								</applicators>
+								<dispatch href="/Items/Talents/Class/Primevoker/Ability_A1_SUP.TALENT" id="308FC8E0-3606-487C-9BA5-6FE660A8B58F">
+									<DispatchImmediate>
+										<alwaysApply>false</alwaysApply>
+										<applyEffect>
+											<Item href="" />
+											<Item href="" />
+										</applyEffect>
+										<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+										<applyEffectOrientation>Default</applyEffectOrientation>
+										<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+										<dieAfterApply>true</dieAfterApply>
+										<dispatchEffect>
+											<Item href="" />
+											<Item href="" />
+										</dispatchEffect>
+										<flags>0</flags>
+										<instantApply>false</instantApply>
+									</DispatchImmediate>
+								</dispatch>
+							</Spell>
+						</spell>
+						<targets>806879235</targets>
+					</EventProcessorUnitDieNearMe>
+				</processor>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<useAbilityCooldown>false</useAbilityCooldown>
+				<useAbilityOwnerMana>false</useAbilityOwnerMana>
+			</TriggerApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/Primevoker/Ability_A1_SUP.TALENT" id="EB55AF6A-B66E-40C7-AF02-679A73338933">
+			<StatModApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption></caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgrwAAAD/0ItNCIsRi00Ii4K4AAAA3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sBaseIntellect &gt;= sBaseStrength</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQ8AAAABAAAAEwAAAFZva2VyU3VwU3RhdEFkAFWL7GgAAAAAi0UIixCLTQiLgogBAAD/0F3D</compiledString>
+						<returnType>float</returnType>
+						<sString>sender.vVokerSupStatAd</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Intellect</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/Primevoker/Ability_A1_SUP.TALENT" id="4B52A18D-49C5-4153-805B-A749A161BD52">
+			<StatModApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption></caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgrwAAAD/0ItNCIsRi00Ii4K4AAAA3V34/9DcXfjf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sBaseIntellect &lt; sBaseStrength</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQ8AAAABAAAAEwAAAFZva2VyU3VwU3RhdEFkAFWL7GgAAAAAi0UIixCLTQiLgogBAAD/0F3D</compiledString>
+						<returnType>float</returnType>
+						<sString>sender.vVokerSupStatAd</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Strength</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
+		</Item>
+	</passiveApplicators>
 	<persistentId>Primevoker_A1SUP</persistentId>
 	<prerequisiteTalents>
 		<Item href="/Items/Talents/Class/Primevoker/Ability_A1.TALENT" />
@@ -90,11 +446,11 @@
 	<type>Passive</type>
 	<upgradeLevel>0</upgradeLevel>
 	<useRange>
-		<compiledString></compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQQ==</compiledString>
 		<returnType>float</returnType>
-		<sString>0.0f</sString>
+		<sString>20.0f</sString>
 	</useRange>
-	<useRangeMaterial href="" />
+	<useRangeMaterial href="/Effects/UI/AOESelection/Radius.MTRL" />
 	<variativeMaxTalentStats />
 	<variativeMinTalentStats />
 	<vendorCost>0</vendorCost>

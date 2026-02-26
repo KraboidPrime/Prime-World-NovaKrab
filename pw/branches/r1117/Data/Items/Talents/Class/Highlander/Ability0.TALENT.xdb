@@ -98,6 +98,16 @@
 						</var>
 					</UnitConstant>
 				</Item>
+				<Item href="/Items/Talents/Class/Highlander/Ability0.TALENT" id="2D1B4C7C-164E-4A7A-B827-9632E09513E7">
+					<UnitConstant>
+						<name>A0AddMaxLifeSum</name>
+						<var>
+							<compiledString>FSMAAAACAAAAMgAAAEQAAABBMEFkZE1heExpZmUAAAAAQTBoaWdobGFkZXJsaWZlU3VtAFWL7IPsDItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SaBAAAACLRQiLEItNCIuCiAEAAN1d+P/Q3E342V302UX0i+Vdww==</compiledString>
+							<returnType>float</returnType>
+							<sString>cA0AddMaxLife*sender.vA0highladerlifeSum</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

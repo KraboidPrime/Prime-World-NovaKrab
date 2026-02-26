@@ -423,16 +423,6 @@
 						</var>
 					</UnitConstant>
 				</Item>
-				<Item href="/Items/Talents/Class/Hunter/Ability1.TALENT" id="F7423353-7444-474E-A95D-00A42C8EAD9E">
-					<UnitConstant>
-						<name>A1u_MaxStacks</name>
-						<var>
-							<compiledString>FSYAAAADAAAALQAAAEYAAABmAAAASHVudGVyX0ExdQAASHVudGVyX0ExdQAAQTF1X01heFN0YWNrcwBVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQ3aAwAAACLTQiLEYtNCIuCqAEAAP/QiUX8i00MUYtVCFJoGAAAAItF/IsQi038i0JQ/9DZXfjrBdnu2V342UX4i+VdwwAAAAA=</compiledString>
-							<returnType>float</returnType>
-							<sString>talconstNoCheck("Hunter_A1u","A1u_MaxStacks")</sString>
-						</var>
-					</UnitConstant>
-				</Item>
 				<Item href="/Items/Talents/Class/Hunter/Ability1.TALENT" id="0A3B1568-F191-40FF-8822-99FB7A187A72">
 					<UnitConstant>
 						<name>MortalStrike_AmountTT</name>

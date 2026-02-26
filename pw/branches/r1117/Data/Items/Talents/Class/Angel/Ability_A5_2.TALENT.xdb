@@ -510,6 +510,7 @@
 																																					<formulaName></formulaName>
 																																					<healthPercent>50</healthPercent>
 																																					<LoggingEvent>-1</LoggingEvent>
+																																					<resurrectAt>Death</resurrectAt>
 																																					<providerName></providerName>
 																																				</ResurrectApplicator>
 																																			</Item>
@@ -639,6 +640,7 @@
 																																					<formulaName></formulaName>
 																																					<healthPercent>100</healthPercent>
 																																					<LoggingEvent>-1</LoggingEvent>
+																																					<resurrectAt>Death</resurrectAt>
 																																					<providerName></providerName>
 																																				</ResurrectApplicator>
 																																			</Item>

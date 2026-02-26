@@ -94,7 +94,18 @@
 		<returnType>float</returnType>
 		<sString>0.0f</sString>
 	</castAllowRange>
-	<castLimitations />
+	<castLimitations>
+		<Item href="/Items/Talents/Level4/G779_AtSpdOrDex_Stun.TALENT" id="C292BD4D-A37A-4FCE-9779-0DD6495BBF2F">
+			<ConditionCastLimitation>
+				<condition>
+					<compiledString>FQ8AAAACAAAAFAAAACoAAABJbW11bmUyQ29udHJvbABVi+xRaAAAAACLRQyLEItNDIuCiAEAAP/Q3B1MAAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
+					<returnType>bool</returnType>
+					<sString>receiver.vImmune2Control == 0</sString>
+				</condition>
+				<uiEvent href="/UI/Events/ErrorMessages/CastError_Immune2Ctrl.UIEV" />
+			</ConditionCastLimitation>
+		</Item>
+	</castLimitations>
 	<commonDescription textref="/Items/Talents/Level4/G779_AtSpdOrDex_Stun.TALENT_commonDescription.txt" />
 	<compiledDescriptionA textref="" />
 	<compiledDescriptionB textref="" />

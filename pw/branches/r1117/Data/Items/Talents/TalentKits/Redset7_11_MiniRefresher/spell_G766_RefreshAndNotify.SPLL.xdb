@@ -304,7 +304,7 @@
 				<description textref="/Items/Talents/TalentKits/Redset7_11_MiniRefresher/spell_G766_RefreshAndNotify.SPLL_a3393ee85803490d9b19aa81799b84f6_description.txt" />
 				<dispellPriority>NonDispellable</dispellPriority>
 				<effect>
-					<Item href="/Effects/Buffs/ColdCharged/_Gold1.EFFT" />
+					<Item href="/Effects/Buffs/ColdCharged/_Gold.EFFT" />
 					<Item href="" />
 				</effect>
 				<enabled>
@@ -316,9 +316,9 @@
 				<formulaName></formulaName>
 				<image href="/UI/Styles/Icons/Talents/_770.ITEX" />
 				<lifeTime>
-					<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADAPw==</compiledString>
 					<returnType>float</returnType>
-					<sString>1.0f</sString>
+					<sString>1.5f</sString>
 				</lifeTime>
 				<LoggingEvent>-1</LoggingEvent>
 				<name textref="/Items/Talents/TalentKits/Redset7_11_MiniRefresher/spell_G766_RefreshAndNotify.SPLL_a3393ee85803490d9b19aa81799b84f6_name.txt" />
@@ -335,39 +335,6 @@
 				<stopBehaviour>StopByTime</stopBehaviour>
 				<unstackableWith href="" />
 			</StatusApplicator>
-		</Item>
-		<Item href="/Items/Talents/TalentKits/Redset7_11_MiniRefresher/spell_G766_RefreshAndNotify.SPLL" id="BCA19987-0197-4CEF-AC4C-3734C5F996EC">
-			<FlagsApplicator>
-				<applyTarget>AbilityOwner</applyTarget>
-				<behaviorFlags>0</behaviorFlags>
-				<caption>звук</caption>
-				<consumables />
-				<effect>
-					<Item href="/Effects/Buffs/ColdCharged/_Gold2.EFFT" />
-					<Item href="" />
-				</effect>
-				<enabled>
-					<compiledString>FQwAAAACAAAAEQAAACcAAABHNzcwX0FjdGl2ZQBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1JAAAA3+D2xEF1CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
-					<returnType>bool</returnType>
-					<sString>sender.vG770_Active &gt; 0</sString>
-				</enabled>
-				<flag>0</flag>
-				<formulaName></formulaName>
-				<lifeTime>
-					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADAPw==</compiledString>
-					<returnType>float</returnType>
-					<sString>1.5f</sString>
-				</lifeTime>
-				<LoggingEvent>-1</LoggingEvent>
-				<providerName></providerName>
-				<startCondition>
-					<compiledString></compiledString>
-					<returnType>bool</returnType>
-					<sString>true</sString>
-				</startCondition>
-				<talents />
-				<useListAs>ListAsRule</useListAs>
-			</FlagsApplicator>
 		</Item>
 	</applicators>
 	<dispatch href="/Items/Talents/TalentKits/Redset7_11_MiniRefresher/spell_G766_RefreshAndNotify.SPLL" id="BEC5A08C-8A02-44D0-B265-E8ADA2EA3124">

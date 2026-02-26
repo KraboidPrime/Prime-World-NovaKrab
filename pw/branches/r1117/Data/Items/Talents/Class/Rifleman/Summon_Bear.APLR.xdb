@@ -444,6 +444,107 @@
 				<statModName></statModName>
 			</StatModApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/Rifleman/Summon_Bear.APLR" id="4D716D06-6A50-46C4-A7F8-8A15102E7787">
+			<GhostMoveApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>гост</caption>
+				<collisionFlags>1</collisionFlags>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<pushUnits>true</pushUnits>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+			</GhostMoveApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/Rifleman/Summon_Bear.APLR" id="D41AE9C0-B35A-47C4-8A82-6E2398DDFDA4">
+			<EyeApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<cancelObstacles>true</cancelObstacles>
+				<caption>нон обстакл</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<eyeTarget>ApplicatorTarget</eyeTarget>
+				<flags>8</flags>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<visRange>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQQ==</compiledString>
+					<returnType>float</returnType>
+					<sString>12.0f</sString>
+				</visRange>
+			</EyeApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/Rifleman/Summon_Bear.APLR" id="35260154-F891-4160-8826-DEED5258DEE9">
+			<FlagsApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>запрет аа (но он ни на что не влияет)</caption>
+				<consumables />
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<flag>2097152</flag>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<talents />
+				<useListAs>ListAsRule</useListAs>
+			</FlagsApplicator>
+		</Item>
 	</applicators>
 	<applyTarget>ApplicatorTarget</applyTarget>
 	<behaviour href="/Items/Talents/Class/Rifleman/Summon_Bear.APLR" id="1B231494-0D55-4C4A-9954-A49583C838D5">
@@ -571,20 +672,20 @@
 			<comment>common behaviour - bear</comment>
 			<guardBehaviourParams>
 				<lashRange>
-					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACIQQ==</compiledString>
+					<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
 					<returnType>float</returnType>
-					<sString>17</sString>
+					<sString>1</sString>
 				</lashRange>
-				<responseRange>17</responseRange>
+				<responseRange>1</responseRange>
 				<responseTime>3</responseTime>
 				<targetingParams href="/Items/Talents/Class/Rifleman/Summon_Bear.APLR" id="D2D70874-84DC-4511-902E-5E306C64DCCC">
 					<UnitTargetingParameters parent="/GameLogic/TargetingParams_Summon.UNTP">
 						<aggressiveNeutralAttackingHeroWeight>0</aggressiveNeutralAttackingHeroWeight>
 						<aggressiveNeutralWeight>0</aggressiveNeutralWeight>
 						<attackerHeroWeight>
-							<Item skip="1" />
-							<Item skip="1" />
-							<Item skip="1" />
+							<Item>7</Item>
+							<Item>2</Item>
+							<Item>2</Item>
 							<Item>0</Item>
 							<Item>0</Item>
 							<Item skip="1" />
@@ -607,13 +708,14 @@
 						</attackerHeroWeight>
 						<attackerMeWeight>10</attackerMeWeight>
 						<attackerTowerWeight>0</attackerTowerWeight>
-						<chaseRange>17</chaseRange>
+						<chaseRange>0.1</chaseRange>
 						<masterTargetWeight>0</masterTargetWeight>
+						<onlyAutoTargeting>false</onlyAutoTargeting>
 						<rangeWeight>20</rangeWeight>
-						<targetingRange>14</targetingRange>
+						<targetingRange>0.1</targetingRange>
 						<unitTargetWeight>
 							<Item>10</Item>
-							<Item skip="1" />
+							<Item>1</Item>
 							<Item>-100</Item>
 							<Item>-100</Item>
 							<Item>-100</Item>

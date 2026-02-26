@@ -1152,9 +1152,9 @@
 					<UnitConstant>
 						<name>G557_Range</name>
 						<var>
-							<compiledString>FSgAAAAGAAAALwAAAEUAAABZAAAAdQAAAIsAAACrAAAARzU1OF9BY3RpdmUARzU1OF9BZGRSYW5nZQAAAEc1NzlfQWN0aXZlAFWL7IPsDGgAAAAAi0UIixCLTQiLgogBAAD/0NwdyAAAAN/g9sRBdR+LTQxRi1UIUmgMAAAAi0UQixCLTRCLQlD/0Nld/OsF2e7ZXfxoHAAAAItNCIsRi00Ii4KIAQAA/9DcHcgAAADf4PbEQXUJx0X4AgAAAOsHx0X4AAAAANlF/NwFvAAAANpl+Nld9NlF9IvlXcMAAAAAAAAiQAAAAAAAAAAAAAAAAA==</compiledString>
+							<compiledString>FRoAAAAEAAAAIQAAADcAAABLAAAAawAAAEc1NThfQWN0aXZlAEc1NThfQWRkUmFuZ2UAVYvsg+wIaAAAAACLRQiLEItNCIuCiAEAAP/Q3B2FAAAA3+D2xEF1H4tNDFGLVQhSaAwAAACLRRCLEItNEItCUP/Q2V386wXZ7tld/NlF/NwFeQAAANld+NlF+IvlXcMAAAAAAAAiQAAAAAAAAAAAAAAAAA==</compiledString>
 							<returnType>float</returnType>
-							<sString>9 + (sender.vG558_Active &gt; 0 ? cG558_AddRange : 0) - (sender.vG579_Active &gt; 0 ? 2: 0)</sString>
+							<sString>9 + (sender.vG558_Active &gt; 0 ? cG558_AddRange : 0)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

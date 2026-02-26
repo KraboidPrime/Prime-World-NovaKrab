@@ -3676,6 +3676,7 @@
 							<Item href="/Items/Talents/Level3/G145_Str.TALENT" />
 							<Item href="/Items/Talents/Level4/G283_Dexterity.TALENT" />
 							<Item href="/Items/Talents/Level5/G277_Life_LifeReg.TALENT" />
+							<Item href="/Items/Talents/Level6/G174_Vamp-Int.TALENT" />
 						</talents>
 					</TalentKit>
 				</Item>
@@ -4399,6 +4400,7 @@
 							<Item href="/Items/Talents/Level5/G261_Int_Life.TALENT" />
 							<Item href="/Items/Talents/Level6/G264_StaminaWill_Str.TALENT" />
 							<Item href="/Items/Talents/Level6/G265_StaminaWill_Int.TALENT" />
+							<Item href="/Items/Talents/Level6/G174_Vamp-Int.TALENT" />
 						</talents>
 					</TalentPack>
 				</Item>

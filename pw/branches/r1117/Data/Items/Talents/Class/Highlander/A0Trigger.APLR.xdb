@@ -70,6 +70,36 @@
 								<providerName></providerName>
 							</PermanentStatModApplicator>
 						</Item>
+						<Item href="/Items/Talents/Class/Highlander/A0Trigger.APLR" id="EACE60E0-04BE-479B-8B8E-27E96238036E">
+							<PermanentStatModApplicator>
+								<applyTarget>ApplicatorTarget</applyTarget>
+								<caption>перманентно увеличить здоровье счётчик</caption>
+								<customApplyType>None</customApplyType>
+								<enabled>
+									<compiledString></compiledString>
+									<returnType>bool</returnType>
+									<sString>true</sString>
+								</enabled>
+								<formulaName></formulaName>
+								<LoggingEvent>-1</LoggingEvent>
+								<modifier>
+									<addValue>
+										<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+										<returnType>float</returnType>
+										<sString>1.0f</sString>
+									</addValue>
+									<multValue>
+										<compiledString></compiledString>
+										<returnType>float</returnType>
+										<sString>1.0f</sString>
+									</multValue>
+									<stat>Life</stat>
+									<topModifier>false</topModifier>
+									<variable>A0highladerlifeSum</variable>
+								</modifier>
+								<providerName></providerName>
+							</PermanentStatModApplicator>
+						</Item>
 					</applicators>
 					<dispatch href="/Items/Talents/Class/Highlander/A0Trigger.APLR" id="E1293960-39D0-4E8C-B33A-2E6C4D7CE4FC">
 						<DispatchImmediate>

@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Level6/G497_Life_Dex.TALENT" Count="1" />
 	<name>G497_AddDamage</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACqQw==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACWQw==</compiledString>
 		<returnType>float</returnType>
-		<sString>340</sString>
+		<sString>300</sString>
 	</var>
 </UnitConstant>

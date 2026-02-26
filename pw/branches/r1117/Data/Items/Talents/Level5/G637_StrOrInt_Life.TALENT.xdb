@@ -36,126 +36,6 @@
 		<Item href="/Items/Talents/Level5/G637_StrOrInt_Life.TALENT" id="F2CD8E1F-F04C-4B48-BE20-736053585BC7">
 			<StatusApplicator>
 				<applicators>
-					<Item href="/Items/Talents/Level5/G637_StrOrInt_Life.TALENT" id="E95ECA3E-E349-4726-8DF1-AB9008B49AC2">
-						<TriggerApplicator>
-							<actionsCount>
-								<compiledString></compiledString>
-								<returnType>int</returnType>
-								<sString>0</sString>
-							</actionsCount>
-							<applyTarget>ApplicatorTarget</applyTarget>
-							<behaviorFlags>0</behaviorFlags>
-							<caption>Триггер на урон</caption>
-							<effect>
-								<Item href="" />
-								<Item href="" />
-							</effect>
-							<enabled>
-								<compiledString></compiledString>
-								<returnType>bool</returnType>
-								<sString>true</sString>
-							</enabled>
-							<formulaName></formulaName>
-							<lifeTime>
-								<compiledString></compiledString>
-								<returnType>float</returnType>
-								<sString>-1.0</sString>
-							</lifeTime>
-							<LoggingEvent>-1</LoggingEvent>
-							<playAck>false</playAck>
-							<processor href="/Items/Talents/Level5/G637_StrOrInt_Life.TALENT" id="E5ED5425-93A6-40A1-B6E4-3080FCEDA455">
-								<EventProcessorDamageTransformer>
-									<abilityFilter>
-										<abilitiesList />
-										<abilityCondition>
-											<compiledString></compiledString>
-											<returnType>bool</returnType>
-											<sString>true</sString>
-										</abilityCondition>
-										<abilityCostMode>Any</abilityCostMode>
-										<exceptThis>false</exceptThis>
-										<flags>1073743103</flags>
-										<onlySingleTarget>false</onlySingleTarget>
-									</abilityFilter>
-									<add>
-										<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
-										<returnType>float</returnType>
-										<sString>0</sString>
-									</add>
-									<applyTarget>ApplicatorSelectedTarget</applyTarget>
-									<checkSender>2</checkSender>
-									<damageTypeFilter>15</damageTypeFilter>
-									<flags>0</flags>
-									<matchTargetInverted>false</matchTargetInverted>
-									<mul>
-										<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
-										<returnType>float</returnType>
-										<sString>1</sString>
-									</mul>
-									<objectFilter>538771967</objectFilter>
-									<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
-									<spell href="/Items/Talents/Level5/G637_StrOrInt_Life.TALENT" id="A6037CCF-8EBF-4913-9A64-8A55F9AF13F6">
-										<Spell>
-											<applicators>
-												<Item href="/Items/Talents/Level5/G637_StrOrInt_Life.TALENT" id="37FD9E03-98CF-4351-9981-32654A356860">
-													<DamageApplicator>
-														<applyTarget>ApplicatorTarget</applyTarget>
-														<cancelInvisibility>false</cancelInvisibility>
-														<caption> - Возвращаем врагу урон</caption>
-														<damage>
-															<compiledString>FRoAAAADAAAAMQAAAEsAAABhAAAARzYzN19yZWZsX2FtAAAAAHJhd0RhbWFnZQBVi+yD7BCLRRCLEItNEItCSP/QiUX8aBAAAACLTfyLEYtN/ItCVP/Qi00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ3V30/9DcDXIAAADcTfTZXfDZRfCL5V3DexSuR+F6hD8=</compiledString>
-															<returnType>float</returnType>
-															<sString>0.01*cG637_refl_am*appl.parent.GetVariable("rawDamage")</sString>
-														</damage>
-														<damageMode>0</damageMode>
-														<damageType>Pure</damageType>
-														<enabled>
-															<compiledString>FQAAAAABAAAALQAAAFWL7FFR2ejZHCRR2e7ZHCRqAYtFDIsQi00Mi0JY/9APtshR6DEAAACDxAzcHUkAAADf4PbERHsGxkX/AesExkX/AIpF/4vlXcMAAAAAAAAAAAAAAAAAAIA/VYvsUQ+2RQiFwHQI2UUM2V386wbZRRDZXfzZRfyL5V3D</compiledString>
-															<returnType>bool</returnType>
-															<sString>ut_bldg(false,true)</sString>
-														</enabled>
-														<formulaName></formulaName>
-														<LoggingEvent>-1</LoggingEvent>
-														<providerName></providerName>
-														<timeLimiter>-1</timeLimiter>
-														<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed.UIEV" />
-													</DamageApplicator>
-												</Item>
-											</applicators>
-											<dispatch href="/Items/Talents/Level5/G637_StrOrInt_Life.TALENT" id="40476FAB-E6CC-47F3-8DD0-CF555B575987">
-												<DispatchImmediate>
-													<alwaysApply>false</alwaysApply>
-													<applyEffect>
-														<Item href="" />
-														<Item href="" />
-													</applyEffect>
-													<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
-													<applyEffectOrientation>Default</applyEffectOrientation>
-													<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
-													<dieAfterApply>true</dieAfterApply>
-													<dispatchEffect>
-														<Item href="" />
-														<Item href="" />
-													</dispatchEffect>
-													<flags>0</flags>
-													<instantApply>true</instantApply>
-												</DispatchImmediate>
-											</dispatch>
-										</Spell>
-									</spell>
-									<treatDelegatedByDelegator>false</treatDelegatedByDelegator>
-								</EventProcessorDamageTransformer>
-							</processor>
-							<providerName></providerName>
-							<startCondition>
-								<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
-								<returnType>bool</returnType>
-								<sString>true</sString>
-							</startCondition>
-							<useAbilityCooldown>false</useAbilityCooldown>
-							<useAbilityOwnerMana>false</useAbilityOwnerMana>
-						</TriggerApplicator>
-					</Item>
 					<Item href="/Items/Talents/Level5/G637_StrOrInt_Life.TALENT" id="41591B6E-2A55-4B8A-8DBE-A5E11417178A">
 						<TriggerApplicator>
 							<actionsCount>
@@ -205,14 +85,14 @@
 									<applyTarget>ApplicatorSelectedTarget</applyTarget>
 									<checkSender>2</checkSender>
 									<damageTypeFilter>15</damageTypeFilter>
-									<flags>0</flags>
+									<flags>1</flags>
 									<matchTargetInverted>false</matchTargetInverted>
 									<mul>
 										<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
 										<returnType>float</returnType>
 										<sString>1</sString>
 									</mul>
-									<objectFilter>538771967</objectFilter>
+									<objectFilter>542965823</objectFilter>
 									<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
 									<spell href="/Items/Talents/Level5/G637_StrOrInt_Life.TALENT" id="0C88CA63-E395-45D8-ABFC-6A5DB15D978F">
 										<Spell>
@@ -243,6 +123,726 @@
 												</Item>
 											</applicators>
 											<dispatch href="/Items/Talents/Level5/G637_StrOrInt_Life.TALENT" id="3E291190-EEE7-4053-9DB6-93CD9BFB19AF">
+												<DispatchImmediate>
+													<alwaysApply>false</alwaysApply>
+													<applyEffect>
+														<Item href="" />
+														<Item href="" />
+													</applyEffect>
+													<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+													<applyEffectOrientation>Default</applyEffectOrientation>
+													<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+													<dieAfterApply>true</dieAfterApply>
+													<dispatchEffect>
+														<Item href="" />
+														<Item href="" />
+													</dispatchEffect>
+													<flags>0</flags>
+													<instantApply>true</instantApply>
+												</DispatchImmediate>
+											</dispatch>
+										</Spell>
+									</spell>
+									<treatDelegatedByDelegator>false</treatDelegatedByDelegator>
+								</EventProcessorDamageTransformer>
+							</processor>
+							<providerName></providerName>
+							<startCondition>
+								<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</startCondition>
+							<useAbilityCooldown>false</useAbilityCooldown>
+							<useAbilityOwnerMana>false</useAbilityOwnerMana>
+						</TriggerApplicator>
+					</Item>
+					<Item href="/Items/Talents/Level5/G637_StrOrInt_Life.TALENT" id="C8F61EBB-6B7D-4021-986C-FC10FB998EFF">
+						<TriggerApplicator>
+							<actionsCount>
+								<compiledString></compiledString>
+								<returnType>int</returnType>
+								<sString>0</sString>
+							</actionsCount>
+							<applyTarget>ApplicatorTarget</applyTarget>
+							<behaviorFlags>0</behaviorFlags>
+							<caption>физ атака</caption>
+							<effect>
+								<Item href="" />
+								<Item href="" />
+							</effect>
+							<enabled>
+								<compiledString>FRwAAAAEAAAAIQAAADcAAABDAAAAWQAAAEludlJlZjIwMjYAAEludlJlZlNwZWxsMjAyNgBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B17AAAA3+D2xER6K2gMAAAAi00IixGLTQiLgogBAAD/0NwdewAAAN/g9sREegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAAA</compiledString>
+								<returnType>bool</returnType>
+								<sString>sender.vInvRef2026 == 0.0f &amp;&amp; sender.vInvRefSpell2026 == 0.0f</sString>
+							</enabled>
+							<formulaName></formulaName>
+							<lifeTime>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>-1.0</sString>
+							</lifeTime>
+							<LoggingEvent>-1</LoggingEvent>
+							<playAck>false</playAck>
+							<processor href="/Items/Talents/Level5/G637_StrOrInt_Life.TALENT" id="F075D87B-AC43-4546-94E1-63D90418A2B2">
+								<EventProcessorDamageTransformer>
+									<abilityFilter>
+										<abilitiesList />
+										<abilityCondition>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</abilityCondition>
+										<abilityCostMode>Any</abilityCostMode>
+										<exceptThis>false</exceptThis>
+										<flags>1073741825</flags>
+										<onlySingleTarget>false</onlySingleTarget>
+									</abilityFilter>
+									<add>
+										<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+										<returnType>float</returnType>
+										<sString>0</sString>
+									</add>
+									<applyTarget>ApplicatorSelectedTarget</applyTarget>
+									<checkSender>2</checkSender>
+									<damageTypeFilter>7</damageTypeFilter>
+									<flags>0</flags>
+									<matchTargetInverted>false</matchTargetInverted>
+									<mul>
+										<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+										<returnType>float</returnType>
+										<sString>1</sString>
+									</mul>
+									<objectFilter>538771967</objectFilter>
+									<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
+									<spell href="/Items/Talents/Level5/G637_StrOrInt_Life.TALENT" id="DC009159-4CD2-4909-9A5F-61E1F64D7E6C">
+										<Spell>
+											<applicators>
+												<Item href="/Items/Talents/Level5/G637_StrOrInt_Life.TALENT" id="4D519933-C389-4307-82E2-472EAF7D67D3">
+													<DamageApplicator>
+														<applyTarget>ApplicatorTarget</applyTarget>
+														<cancelInvisibility>false</cancelInvisibility>
+														<caption> - Возвращаем врагу урон</caption>
+														<damage>
+															<compiledString>FRoAAAAGAAAAYwAAAKEAAAC2AAAAygAAAP8AAAAVAQAARzYzN19yZWZsX2FtAAAAAHJhd0RhbWFnZQBVi+yD7DCLRRCLEItNEItCSP/QiUX8i00IixGLTQiLAv/QUdkcJFHZ6NkcJOgnAQAAg8QE2Rwki00IixGLTQiLgnQBAAD/0Nw1PgEAANno3uGLTQiLEYtNCIuCGAEAAN1d9P/Qi00MixGLTQyLgigBAADdXez/0Nxl7Nld6NlF6FHZHCRR2QUyAQAA2Rwk6MUAAACDxATZHCRR2QUuAQAA2Rwk6IgAAACDxAjZ6N7BaBAAAACLTfyLEYtN/ItCVN1d4P/Q3E3g3E302V3c2UXcUdkcJOhXAAAAg8QIi00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ3V3U/9DcDSYBAADcTdTZXdDZRdCL5V3DexSuR+F6hD8AAEA/AABAvwAAAAAAAPA/AAAAAAAAWUAAAIA/VYvsUdlFCNlFDN7Z3+D2xEF1CNlFCNld/OsG2UUM2V382UX8i+Vdw1WL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
+															<returnType>float</returnType>
+															<sString>0.01*cG637_refl_am*min(appl.parent.GetVariable("rawDamage")*(1 + min(0.75,max(-0.75,(rPenetrationTotal-sBodyDefence))))*(1-sMaterialDamageDecrease/100),max(1,sLife))</sString>
+														</damage>
+														<damageMode>0</damageMode>
+														<damageType>Pure</damageType>
+														<enabled>
+															<compiledString>FQAAAAABAAAALQAAAFWL7FFR2ejZHCRR2e7ZHCRqAYtFDIsQi00Mi0JY/9APtshR6DEAAACDxAzcHUkAAADf4PbERHsGxkX/AesExkX/AIpF/4vlXcMAAAAAAAAAAAAAAAAAAIA/VYvsUQ+2RQiFwHQI2UUM2V386wbZRRDZXfzZRfyL5V3D</compiledString>
+															<returnType>bool</returnType>
+															<sString>ut_bldg(false,true)</sString>
+														</enabled>
+														<formulaName></formulaName>
+														<LoggingEvent>-1</LoggingEvent>
+														<providerName></providerName>
+														<timeLimiter>-1</timeLimiter>
+														<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed.UIEV" />
+													</DamageApplicator>
+												</Item>
+											</applicators>
+											<dispatch href="/Items/Talents/Level5/G637_StrOrInt_Life.TALENT" id="4209DBB7-C3D3-4B7A-97BB-0CFFE4CEA519">
+												<DispatchImmediate>
+													<alwaysApply>false</alwaysApply>
+													<applyEffect>
+														<Item href="" />
+														<Item href="" />
+													</applyEffect>
+													<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+													<applyEffectOrientation>Default</applyEffectOrientation>
+													<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+													<dieAfterApply>true</dieAfterApply>
+													<dispatchEffect>
+														<Item href="" />
+														<Item href="" />
+													</dispatchEffect>
+													<flags>0</flags>
+													<instantApply>true</instantApply>
+												</DispatchImmediate>
+											</dispatch>
+										</Spell>
+									</spell>
+									<treatDelegatedByDelegator>false</treatDelegatedByDelegator>
+								</EventProcessorDamageTransformer>
+							</processor>
+							<providerName></providerName>
+							<startCondition>
+								<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</startCondition>
+							<useAbilityCooldown>false</useAbilityCooldown>
+							<useAbilityOwnerMana>false</useAbilityOwnerMana>
+						</TriggerApplicator>
+					</Item>
+					<Item href="/Items/Talents/Level5/G637_StrOrInt_Life.TALENT" id="9F0337CB-D8EF-436A-BA9F-13E9A1F26D14">
+						<TriggerApplicator>
+							<actionsCount>
+								<compiledString></compiledString>
+								<returnType>int</returnType>
+								<sString>0</sString>
+							</actionsCount>
+							<applyTarget>ApplicatorTarget</applyTarget>
+							<behaviorFlags>0</behaviorFlags>
+							<caption>маг атака</caption>
+							<effect>
+								<Item href="" />
+								<Item href="" />
+							</effect>
+							<enabled>
+								<compiledString>FRwAAAAEAAAAIQAAADcAAABDAAAAWQAAAEludlJlZjIwMjYAAEludlJlZlNwZWxsMjAyNgBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B17AAAA3+D2xER6K2gMAAAAi00IixGLTQiLgogBAAD/0NwdewAAAN/g9sREegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAAA</compiledString>
+								<returnType>bool</returnType>
+								<sString>sender.vInvRef2026 == 0.0f &amp;&amp; sender.vInvRefSpell2026 == 0.0f</sString>
+							</enabled>
+							<formulaName></formulaName>
+							<lifeTime>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>-1.0</sString>
+							</lifeTime>
+							<LoggingEvent>-1</LoggingEvent>
+							<playAck>false</playAck>
+							<processor href="/Items/Talents/Level5/G637_StrOrInt_Life.TALENT" id="450A121D-A41B-43E9-9D75-D84389920039">
+								<EventProcessorDamageTransformer>
+									<abilityFilter>
+										<abilitiesList />
+										<abilityCondition>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</abilityCondition>
+										<abilityCostMode>Any</abilityCostMode>
+										<exceptThis>false</exceptThis>
+										<flags>1073741825</flags>
+										<onlySingleTarget>false</onlySingleTarget>
+									</abilityFilter>
+									<add>
+										<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+										<returnType>float</returnType>
+										<sString>0</sString>
+									</add>
+									<applyTarget>ApplicatorSelectedTarget</applyTarget>
+									<checkSender>2</checkSender>
+									<damageTypeFilter>11</damageTypeFilter>
+									<flags>0</flags>
+									<matchTargetInverted>false</matchTargetInverted>
+									<mul>
+										<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+										<returnType>float</returnType>
+										<sString>1</sString>
+									</mul>
+									<objectFilter>538771967</objectFilter>
+									<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
+									<spell href="/Items/Talents/Level5/G637_StrOrInt_Life.TALENT" id="DCFF67DF-0336-425B-84E3-F2A8B2DC1943">
+										<Spell>
+											<applicators>
+												<Item href="/Items/Talents/Level5/G637_StrOrInt_Life.TALENT" id="62B9C554-9DB5-412C-BA5B-1598D6FDA1E7">
+													<DamageApplicator>
+														<applyTarget>ApplicatorTarget</applyTarget>
+														<cancelInvisibility>false</cancelInvisibility>
+														<caption> - Возвращаем врагу урон</caption>
+														<damage>
+															<compiledString>FRoAAAAGAAAAYwAAAKEAAAC2AAAAygAAAP8AAAAVAQAARzYzN19yZWZsX2FtAAAAAHJhd0RhbWFnZQBVi+yD7DCLRRCLEItNEItCSP/QiUX8i00IixGLTQiLAv/QUdkcJFHZ6NkcJOgnAQAAg8QE2Rwki00IixGLTQiLgnABAAD/0Nw1PgEAANno3uGLTQiLEYtNCIuCHAEAAN1d9P/Qi00MixGLTQyLgigBAADdXez/0Nxl7Nld6NlF6FHZHCRR2QUyAQAA2Rwk6MUAAACDxATZHCRR2QUuAQAA2Rwk6IgAAACDxAjZ6N7BaBAAAACLTfyLEYtN/ItCVN1d4P/Q3E3g3E302V3c2UXcUdkcJOhXAAAAg8QIi00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ3V3U/9DcDSYBAADcTdTZXdDZRdCL5V3DexSuR+F6hD8AAEA/AABAvwAAAAAAAPA/AAAAAAAAWUAAAIA/VYvsUdlFCNlFDN7Z3+D2xEF1CNlFCNld/OsG2UUM2V382UX8i+Vdw1WL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
+															<returnType>float</returnType>
+															<sString>0.01*cG637_refl_am*min(appl.parent.GetVariable("rawDamage")*(1 + min(0.75,max(-0.75,(rPenetrationTotal-sSpiritDefence))))*(1-sEnergyDamageDecrease/100),max(1,sLife))</sString>
+														</damage>
+														<damageMode>0</damageMode>
+														<damageType>Pure</damageType>
+														<enabled>
+															<compiledString>FQAAAAABAAAALQAAAFWL7FFR2ejZHCRR2e7ZHCRqAYtFDIsQi00Mi0JY/9APtshR6DEAAACDxAzcHUkAAADf4PbERHsGxkX/AesExkX/AIpF/4vlXcMAAAAAAAAAAAAAAAAAAIA/VYvsUQ+2RQiFwHQI2UUM2V386wbZRRDZXfzZRfyL5V3D</compiledString>
+															<returnType>bool</returnType>
+															<sString>ut_bldg(false,true)</sString>
+														</enabled>
+														<formulaName></formulaName>
+														<LoggingEvent>-1</LoggingEvent>
+														<providerName></providerName>
+														<timeLimiter>-1</timeLimiter>
+														<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed.UIEV" />
+													</DamageApplicator>
+												</Item>
+											</applicators>
+											<dispatch href="/Items/Talents/Level5/G637_StrOrInt_Life.TALENT" id="6931FE3B-5BFF-4A84-B818-41F77A4569B6">
+												<DispatchImmediate>
+													<alwaysApply>false</alwaysApply>
+													<applyEffect>
+														<Item href="" />
+														<Item href="" />
+													</applyEffect>
+													<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+													<applyEffectOrientation>Default</applyEffectOrientation>
+													<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+													<dieAfterApply>true</dieAfterApply>
+													<dispatchEffect>
+														<Item href="" />
+														<Item href="" />
+													</dispatchEffect>
+													<flags>0</flags>
+													<instantApply>true</instantApply>
+												</DispatchImmediate>
+											</dispatch>
+										</Spell>
+									</spell>
+									<treatDelegatedByDelegator>false</treatDelegatedByDelegator>
+								</EventProcessorDamageTransformer>
+							</processor>
+							<providerName></providerName>
+							<startCondition>
+								<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</startCondition>
+							<useAbilityCooldown>false</useAbilityCooldown>
+							<useAbilityOwnerMana>false</useAbilityOwnerMana>
+						</TriggerApplicator>
+					</Item>
+					<Item href="/Items/Talents/Level5/G637_StrOrInt_Life.TALENT" id="00C7C76A-FD6D-48B4-8E93-D72D3050CB84">
+						<TriggerApplicator>
+							<actionsCount>
+								<compiledString></compiledString>
+								<returnType>int</returnType>
+								<sString>0</sString>
+							</actionsCount>
+							<applyTarget>ApplicatorTarget</applyTarget>
+							<behaviorFlags>0</behaviorFlags>
+							<caption>физ спел</caption>
+							<effect>
+								<Item href="" />
+								<Item href="" />
+							</effect>
+							<enabled>
+								<compiledString>FR8AAAAEAAAAJAAAADoAAABGAAAAXAAAAEludlJlZjIwMjYAAEhhbHZlZFJlZlNwZWxsMjAyNgBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1+AAAA3+D2xER6K2gMAAAAi00IixGLTQiLgogBAAD/0NwdfgAAAN/g9sREegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAAA</compiledString>
+								<returnType>bool</returnType>
+								<sString>sender.vInvRef2026 == 0.0f &amp;&amp; sender.vHalvedRefSpell2026 == 0.0f</sString>
+							</enabled>
+							<formulaName></formulaName>
+							<lifeTime>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>-1.0</sString>
+							</lifeTime>
+							<LoggingEvent>-1</LoggingEvent>
+							<playAck>false</playAck>
+							<processor href="/Items/Talents/Level5/G637_StrOrInt_Life.TALENT" id="6A7FB324-730D-4BC6-8892-3BA5E40DB4D9">
+								<EventProcessorDamageTransformer>
+									<abilityFilter>
+										<abilitiesList />
+										<abilityCondition>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</abilityCondition>
+										<abilityCostMode>Any</abilityCostMode>
+										<exceptThis>false</exceptThis>
+										<flags>1073743102</flags>
+										<onlySingleTarget>false</onlySingleTarget>
+									</abilityFilter>
+									<add>
+										<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+										<returnType>float</returnType>
+										<sString>0</sString>
+									</add>
+									<applyTarget>ApplicatorSelectedTarget</applyTarget>
+									<checkSender>2</checkSender>
+									<damageTypeFilter>7</damageTypeFilter>
+									<flags>0</flags>
+									<matchTargetInverted>false</matchTargetInverted>
+									<mul>
+										<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+										<returnType>float</returnType>
+										<sString>1</sString>
+									</mul>
+									<objectFilter>538771967</objectFilter>
+									<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
+									<spell href="/Items/Talents/Level5/G637_StrOrInt_Life.TALENT" id="7D5C9084-AEC0-4C14-A719-C2C897F14FF3">
+										<Spell>
+											<applicators>
+												<Item href="/Items/Talents/Level5/G637_StrOrInt_Life.TALENT" id="C87E6F99-35E7-4DED-AB8A-A38C2BE3BD12">
+													<DamageApplicator>
+														<applyTarget>ApplicatorTarget</applyTarget>
+														<cancelInvisibility>false</cancelInvisibility>
+														<caption> - Возвращаем врагу урон</caption>
+														<damage>
+															<compiledString>FRoAAAAKAAAASAAAAIYAAACbAAAArAAAAOgAAAD9AAAAUgEAAGABAACaAQAAsAEAAEc2MzdfcmVmbF9hbQAAAAByYXdEYW1hZ2UAVYvsg+xMi0UMixCLTQyLgigBAAD/0ItNCIsRi00Ii4IYAQAA3V34/9DcbfjcHe0BAADf4PbEQXVii00MixGLTQyLgigBAAD/0ItNCIsRi00Ii4IYAQAA3V3w/9DcbfDZXezZRexR2RwkUdkF6QEAANkcJOiLAQAAg8QE2RwkUdkF5QEAANkcJOhOAQAAg8QI3A3dAQAA3V3k61qLTQyLEYtNDIuCKAEAAP/Qi00IixGLTQiLghgBAADdXdz/0Nxt3Nld2NlF2FHZHCRR2QXpAQAA2Rwk6CkBAACDxATZHCRR2QXlAQAA2Rwk6OwAAACDxAjdXeSLTRCLEYtNEItCSP/QiUXUi00IixGLTQiLAv/QUdkcJFHZ6NkcJOjjAAAAg8QE2Rwki00IixGLTQiLgnQBAAD/0Nw10QEAANno3uHZ6NxF5GgQAAAAi03UixGLTdSLQlTZyd1dzN1dxP/Q3E3E3E3M2V3A2UXAUdkcJOhnAAAAg8QIi00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ3V24/9DcDcEBAADcTbjZXbTZRbSL5V3DexSuR+F6hD8AAAAAAADwPwAAAAAAAFlAAACAPwAAAAAAAOg/AABAPwAAQL8AAAAAAAAAAFWL7FHZRQjZRQze2d/g9sRBdQjZRQjZXfzrBtlFDNld/NlF/IvlXcNVi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
+															<returnType>float</returnType>
+															<sString>0.01*cG637_refl_am*min(appl.parent.GetVariable("rawDamage")*(1 + ((rPenetrationTotal-sBodyDefence) &gt; 0 ? 0.75*min(0.75,max(-0.75,(rPenetrationTotal-sBodyDefence))) : min(0.75,max(-0.75,(rPenetrationTotal-sBodyDefence)))) )*(1-sMaterialDamageDecrease/100),max(1,sLife))</sString>
+														</damage>
+														<damageMode>0</damageMode>
+														<damageType>Pure</damageType>
+														<enabled>
+															<compiledString>FQAAAAABAAAALQAAAFWL7FFR2ejZHCRR2e7ZHCRqAYtFDIsQi00Mi0JY/9APtshR6DEAAACDxAzcHUkAAADf4PbERHsGxkX/AesExkX/AIpF/4vlXcMAAAAAAAAAAAAAAAAAAIA/VYvsUQ+2RQiFwHQI2UUM2V386wbZRRDZXfzZRfyL5V3D</compiledString>
+															<returnType>bool</returnType>
+															<sString>ut_bldg(false,true)</sString>
+														</enabled>
+														<formulaName></formulaName>
+														<LoggingEvent>-1</LoggingEvent>
+														<providerName></providerName>
+														<timeLimiter>-1</timeLimiter>
+														<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed.UIEV" />
+													</DamageApplicator>
+												</Item>
+											</applicators>
+											<dispatch href="/Items/Talents/Level5/G637_StrOrInt_Life.TALENT" id="4B92F410-0FD8-41CA-9149-AA190F682FC5">
+												<DispatchImmediate>
+													<alwaysApply>false</alwaysApply>
+													<applyEffect>
+														<Item href="" />
+														<Item href="" />
+													</applyEffect>
+													<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+													<applyEffectOrientation>Default</applyEffectOrientation>
+													<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+													<dieAfterApply>true</dieAfterApply>
+													<dispatchEffect>
+														<Item href="" />
+														<Item href="" />
+													</dispatchEffect>
+													<flags>0</flags>
+													<instantApply>true</instantApply>
+												</DispatchImmediate>
+											</dispatch>
+										</Spell>
+									</spell>
+									<treatDelegatedByDelegator>false</treatDelegatedByDelegator>
+								</EventProcessorDamageTransformer>
+							</processor>
+							<providerName></providerName>
+							<startCondition>
+								<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</startCondition>
+							<useAbilityCooldown>false</useAbilityCooldown>
+							<useAbilityOwnerMana>false</useAbilityOwnerMana>
+						</TriggerApplicator>
+					</Item>
+					<Item href="/Items/Talents/Level5/G637_StrOrInt_Life.TALENT" id="FFA06480-A1AF-4340-BC7A-5491BDC0B592">
+						<TriggerApplicator>
+							<actionsCount>
+								<compiledString></compiledString>
+								<returnType>int</returnType>
+								<sString>0</sString>
+							</actionsCount>
+							<applyTarget>ApplicatorTarget</applyTarget>
+							<behaviorFlags>0</behaviorFlags>
+							<caption>маг спел</caption>
+							<effect>
+								<Item href="" />
+								<Item href="" />
+							</effect>
+							<enabled>
+								<compiledString>FR8AAAAEAAAAJAAAADoAAABGAAAAXAAAAEludlJlZjIwMjYAAEhhbHZlZFJlZlNwZWxsMjAyNgBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1+AAAA3+D2xER6K2gMAAAAi00IixGLTQiLgogBAAD/0NwdfgAAAN/g9sREegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAAA</compiledString>
+								<returnType>bool</returnType>
+								<sString>sender.vInvRef2026 == 0.0f &amp;&amp; sender.vHalvedRefSpell2026 == 0.0f</sString>
+							</enabled>
+							<formulaName></formulaName>
+							<lifeTime>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>-1.0</sString>
+							</lifeTime>
+							<LoggingEvent>-1</LoggingEvent>
+							<playAck>false</playAck>
+							<processor href="/Items/Talents/Level5/G637_StrOrInt_Life.TALENT" id="274F1522-5C00-4A23-8676-1A3EE4D47FB9">
+								<EventProcessorDamageTransformer>
+									<abilityFilter>
+										<abilitiesList />
+										<abilityCondition>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</abilityCondition>
+										<abilityCostMode>Any</abilityCostMode>
+										<exceptThis>false</exceptThis>
+										<flags>1073743102</flags>
+										<onlySingleTarget>false</onlySingleTarget>
+									</abilityFilter>
+									<add>
+										<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+										<returnType>float</returnType>
+										<sString>0</sString>
+									</add>
+									<applyTarget>ApplicatorSelectedTarget</applyTarget>
+									<checkSender>2</checkSender>
+									<damageTypeFilter>11</damageTypeFilter>
+									<flags>0</flags>
+									<matchTargetInverted>false</matchTargetInverted>
+									<mul>
+										<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+										<returnType>float</returnType>
+										<sString>1</sString>
+									</mul>
+									<objectFilter>538771967</objectFilter>
+									<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
+									<spell href="/Items/Talents/Level5/G637_StrOrInt_Life.TALENT" id="7BEE2F59-34AE-4803-B5FE-1366955AD74F">
+										<Spell>
+											<applicators>
+												<Item href="/Items/Talents/Level5/G637_StrOrInt_Life.TALENT" id="31DB3F63-C91E-4C06-A0F5-6FCB4934F8CE">
+													<DamageApplicator>
+														<applyTarget>ApplicatorTarget</applyTarget>
+														<cancelInvisibility>false</cancelInvisibility>
+														<caption> - Возвращаем врагу урон</caption>
+														<damage>
+															<compiledString>FRoAAAAKAAAASAAAAIYAAACbAAAArAAAAOgAAAD9AAAAUgEAAGABAACaAQAAsAEAAEc2MzdfcmVmbF9hbQAAAAByYXdEYW1hZ2UAVYvsg+xMi0UMixCLTQyLgigBAAD/0ItNCIsRi00Ii4IcAQAA3V34/9DcbfjcHe0BAADf4PbEQXVii00MixGLTQyLgigBAAD/0ItNCIsRi00Ii4IcAQAA3V3w/9DcbfDZXezZRexR2RwkUdkF6QEAANkcJOiLAQAAg8QE2RwkUdkF5QEAANkcJOhOAQAAg8QI3A3dAQAA3V3k61qLTQyLEYtNDIuCKAEAAP/Qi00IixGLTQiLghwBAADdXdz/0Nxt3Nld2NlF2FHZHCRR2QXpAQAA2Rwk6CkBAACDxATZHCRR2QXlAQAA2Rwk6OwAAACDxAjdXeSLTRCLEYtNEItCSP/QiUXUi00IixGLTQiLAv/QUdkcJFHZ6NkcJOjjAAAAg8QE2Rwki00IixGLTQiLgnABAAD/0Nw10QEAANno3uHZ6NxF5GgQAAAAi03UixGLTdSLQlTZyd1dzN1dxP/Q3E3E3E3M2V3A2UXAUdkcJOhnAAAAg8QIi00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ3V24/9DcDcEBAADcTbjZXbTZRbSL5V3DexSuR+F6hD8AAAAAAADwPwAAAAAAAFlAAACAPwAAAAAAAOg/AABAPwAAQL8AAAAAAAAAAFWL7FHZRQjZRQze2d/g9sRBdQjZRQjZXfzrBtlFDNld/NlF/IvlXcNVi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
+															<returnType>float</returnType>
+															<sString>0.01*cG637_refl_am*min(appl.parent.GetVariable("rawDamage")*(1 + ((rPenetrationTotal-sSpiritDefence) &gt; 0 ? 0.75*min(0.75,max(-0.75,(rPenetrationTotal-sSpiritDefence))) : min(0.75,max(-0.75,(rPenetrationTotal-sSpiritDefence)))) )*(1-sEnergyDamageDecrease/100),max(1,sLife))</sString>
+														</damage>
+														<damageMode>0</damageMode>
+														<damageType>Pure</damageType>
+														<enabled>
+															<compiledString>FQAAAAABAAAALQAAAFWL7FFR2ejZHCRR2e7ZHCRqAYtFDIsQi00Mi0JY/9APtshR6DEAAACDxAzcHUkAAADf4PbERHsGxkX/AesExkX/AIpF/4vlXcMAAAAAAAAAAAAAAAAAAIA/VYvsUQ+2RQiFwHQI2UUM2V386wbZRRDZXfzZRfyL5V3D</compiledString>
+															<returnType>bool</returnType>
+															<sString>ut_bldg(false,true)</sString>
+														</enabled>
+														<formulaName></formulaName>
+														<LoggingEvent>-1</LoggingEvent>
+														<providerName></providerName>
+														<timeLimiter>-1</timeLimiter>
+														<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed.UIEV" />
+													</DamageApplicator>
+												</Item>
+											</applicators>
+											<dispatch href="/Items/Talents/Level5/G637_StrOrInt_Life.TALENT" id="92861CC1-3A4D-441B-B22A-79D93FC30C75">
+												<DispatchImmediate>
+													<alwaysApply>false</alwaysApply>
+													<applyEffect>
+														<Item href="" />
+														<Item href="" />
+													</applyEffect>
+													<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+													<applyEffectOrientation>Default</applyEffectOrientation>
+													<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+													<dieAfterApply>true</dieAfterApply>
+													<dispatchEffect>
+														<Item href="" />
+														<Item href="" />
+													</dispatchEffect>
+													<flags>0</flags>
+													<instantApply>true</instantApply>
+												</DispatchImmediate>
+											</dispatch>
+										</Spell>
+									</spell>
+									<treatDelegatedByDelegator>false</treatDelegatedByDelegator>
+								</EventProcessorDamageTransformer>
+							</processor>
+							<providerName></providerName>
+							<startCondition>
+								<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</startCondition>
+							<useAbilityCooldown>false</useAbilityCooldown>
+							<useAbilityOwnerMana>false</useAbilityOwnerMana>
+						</TriggerApplicator>
+					</Item>
+					<Item href="/Items/Talents/Level5/G637_StrOrInt_Life.TALENT" id="6C612B81-724C-4213-AAB3-A85480290A9B">
+						<TriggerApplicator>
+							<actionsCount>
+								<compiledString></compiledString>
+								<returnType>int</returnType>
+								<sString>0</sString>
+							</actionsCount>
+							<applyTarget>ApplicatorTarget</applyTarget>
+							<behaviorFlags>0</behaviorFlags>
+							<caption>физ спел по челу с бкб в 5</caption>
+							<effect>
+								<Item href="" />
+								<Item href="" />
+							</effect>
+							<enabled>
+								<compiledString>FR8AAAAEAAAAJAAAADoAAABGAAAAXAAAAEludlJlZjIwMjYAAEhhbHZlZFJlZlNwZWxsMjAyNgBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B2GAAAA3+D2xER6K2gMAAAAi00IixGLTQiLgogBAAD/0NwdfgAAAN/g9sREegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAPA/AAAAAAAAAAA=</compiledString>
+								<returnType>bool</returnType>
+								<sString>sender.vInvRef2026 == 0.0f &amp;&amp; sender.vHalvedRefSpell2026 == 1.0f</sString>
+							</enabled>
+							<formulaName></formulaName>
+							<lifeTime>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>-1.0</sString>
+							</lifeTime>
+							<LoggingEvent>-1</LoggingEvent>
+							<playAck>false</playAck>
+							<processor href="/Items/Talents/Level5/G637_StrOrInt_Life.TALENT" id="2279E1F3-9D38-423E-AD08-267D10E1B2E8">
+								<EventProcessorDamageTransformer>
+									<abilityFilter>
+										<abilitiesList />
+										<abilityCondition>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</abilityCondition>
+										<abilityCostMode>Any</abilityCostMode>
+										<exceptThis>false</exceptThis>
+										<flags>1073743102</flags>
+										<onlySingleTarget>false</onlySingleTarget>
+									</abilityFilter>
+									<add>
+										<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+										<returnType>float</returnType>
+										<sString>0</sString>
+									</add>
+									<applyTarget>ApplicatorSelectedTarget</applyTarget>
+									<checkSender>2</checkSender>
+									<damageTypeFilter>7</damageTypeFilter>
+									<flags>0</flags>
+									<matchTargetInverted>false</matchTargetInverted>
+									<mul>
+										<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+										<returnType>float</returnType>
+										<sString>1</sString>
+									</mul>
+									<objectFilter>538771967</objectFilter>
+									<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
+									<spell href="/Items/Talents/Level5/G637_StrOrInt_Life.TALENT" id="02BDD0A9-E7B3-47F8-A6CE-C18AE07F5B05">
+										<Spell>
+											<applicators>
+												<Item href="/Items/Talents/Level5/G637_StrOrInt_Life.TALENT" id="53C959AA-D965-4E96-959A-8EF24A687170">
+													<DamageApplicator>
+														<applyTarget>ApplicatorTarget</applyTarget>
+														<cancelInvisibility>false</cancelInvisibility>
+														<caption> - Возвращаем врагу урон</caption>
+														<damage>
+															<compiledString>FRoAAAAKAAAASAAAAIYAAACbAAAArAAAAOgAAAD9AAAAUgEAAGABAACaAQAAsAEAAEc2MzdfcmVmbF9hbQAAAAByYXdEYW1hZ2UAVYvsg+xMi0UMixCLTQyLgigBAAD/0ItNCIsRi00Ii4IYAQAA3V34/9DcbfjcHe0BAADf4PbEQXVii00MixGLTQyLgigBAAD/0ItNCIsRi00Ii4IYAQAA3V3w/9DcbfDZXezZRexR2RwkUdkF6QEAANkcJOiLAQAAg8QE2RwkUdkF5QEAANkcJOhOAQAAg8QI3A3dAQAA3V3k61qLTQyLEYtNDIuCKAEAAP/Qi00IixGLTQiLghgBAADdXdz/0Nxt3Nld2NlF2FHZHCRR2QXpAQAA2Rwk6CkBAACDxATZHCRR2QXlAQAA2Rwk6OwAAACDxAjdXeSLTRCLEYtNEItCSP/QiUXUi00IixGLTQiLAv/QUdkcJFHZ6NkcJOjjAAAAg8QE2Rwki00IixGLTQiLgnQBAAD/0Nw10QEAANno3uHZ6NxF5GgQAAAAi03UixGLTdSLQlTZyd1dzN1dxP/Q3E3E3E3M2V3A2UXAUdkcJOhnAAAAg8QIi00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ3V24/9DcDcEBAADcTbjZXbTZRbSL5V3DAAAAQOF6dD8AAAAAAADwPwAAAAAAAFlAAACAPwAAAAAAAOg/AABAPwAAQL8AAAAAAAAAAFWL7FHZRQjZRQze2d/g9sRBdQjZRQjZXfzrBtlFDNld/NlF/IvlXcNVi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
+															<returnType>float</returnType>
+															<sString>0.005f*cG637_refl_am*min(appl.parent.GetVariable("rawDamage")*(1 + ((rPenetrationTotal-sBodyDefence) &gt; 0 ? 0.75*min(0.75,max(-0.75,(rPenetrationTotal-sBodyDefence))) : min(0.75,max(-0.75,(rPenetrationTotal-sBodyDefence)))) )*(1-sMaterialDamageDecrease/100),max(1,sLife))</sString>
+														</damage>
+														<damageMode>0</damageMode>
+														<damageType>Pure</damageType>
+														<enabled>
+															<compiledString>FQAAAAABAAAALQAAAFWL7FFR2ejZHCRR2e7ZHCRqAYtFDIsQi00Mi0JY/9APtshR6DEAAACDxAzcHUkAAADf4PbERHsGxkX/AesExkX/AIpF/4vlXcMAAAAAAAAAAAAAAAAAAIA/VYvsUQ+2RQiFwHQI2UUM2V386wbZRRDZXfzZRfyL5V3D</compiledString>
+															<returnType>bool</returnType>
+															<sString>ut_bldg(false,true)</sString>
+														</enabled>
+														<formulaName></formulaName>
+														<LoggingEvent>-1</LoggingEvent>
+														<providerName></providerName>
+														<timeLimiter>-1</timeLimiter>
+														<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed.UIEV" />
+													</DamageApplicator>
+												</Item>
+											</applicators>
+											<dispatch href="/Items/Talents/Level5/G637_StrOrInt_Life.TALENT" id="6A62F3D5-2D36-4A3A-82AA-A637BA928409">
+												<DispatchImmediate>
+													<alwaysApply>false</alwaysApply>
+													<applyEffect>
+														<Item href="" />
+														<Item href="" />
+													</applyEffect>
+													<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+													<applyEffectOrientation>Default</applyEffectOrientation>
+													<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+													<dieAfterApply>true</dieAfterApply>
+													<dispatchEffect>
+														<Item href="" />
+														<Item href="" />
+													</dispatchEffect>
+													<flags>0</flags>
+													<instantApply>true</instantApply>
+												</DispatchImmediate>
+											</dispatch>
+										</Spell>
+									</spell>
+									<treatDelegatedByDelegator>false</treatDelegatedByDelegator>
+								</EventProcessorDamageTransformer>
+							</processor>
+							<providerName></providerName>
+							<startCondition>
+								<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</startCondition>
+							<useAbilityCooldown>false</useAbilityCooldown>
+							<useAbilityOwnerMana>false</useAbilityOwnerMana>
+						</TriggerApplicator>
+					</Item>
+					<Item href="/Items/Talents/Level5/G637_StrOrInt_Life.TALENT" id="555273B0-FD23-4A66-815A-838313ACD91A">
+						<TriggerApplicator>
+							<actionsCount>
+								<compiledString></compiledString>
+								<returnType>int</returnType>
+								<sString>0</sString>
+							</actionsCount>
+							<applyTarget>ApplicatorTarget</applyTarget>
+							<behaviorFlags>0</behaviorFlags>
+							<caption>маг спел по челу с бкб в 5</caption>
+							<effect>
+								<Item href="" />
+								<Item href="" />
+							</effect>
+							<enabled>
+								<compiledString>FR8AAAAEAAAAJAAAADoAAABGAAAAXAAAAEludlJlZjIwMjYAAEhhbHZlZFJlZlNwZWxsMjAyNgBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B2GAAAA3+D2xER6K2gMAAAAi00IixGLTQiLgogBAAD/0NwdfgAAAN/g9sREegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAPA/AAAAAAAAAAA=</compiledString>
+								<returnType>bool</returnType>
+								<sString>sender.vInvRef2026 == 0.0f &amp;&amp; sender.vHalvedRefSpell2026 == 1.0f</sString>
+							</enabled>
+							<formulaName></formulaName>
+							<lifeTime>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>-1.0</sString>
+							</lifeTime>
+							<LoggingEvent>-1</LoggingEvent>
+							<playAck>false</playAck>
+							<processor href="/Items/Talents/Level5/G637_StrOrInt_Life.TALENT" id="E914E612-8B17-42E8-96F9-012BF643BB93">
+								<EventProcessorDamageTransformer>
+									<abilityFilter>
+										<abilitiesList />
+										<abilityCondition>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</abilityCondition>
+										<abilityCostMode>Any</abilityCostMode>
+										<exceptThis>false</exceptThis>
+										<flags>1073743102</flags>
+										<onlySingleTarget>false</onlySingleTarget>
+									</abilityFilter>
+									<add>
+										<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+										<returnType>float</returnType>
+										<sString>0</sString>
+									</add>
+									<applyTarget>ApplicatorSelectedTarget</applyTarget>
+									<checkSender>2</checkSender>
+									<damageTypeFilter>11</damageTypeFilter>
+									<flags>0</flags>
+									<matchTargetInverted>false</matchTargetInverted>
+									<mul>
+										<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+										<returnType>float</returnType>
+										<sString>1</sString>
+									</mul>
+									<objectFilter>538771967</objectFilter>
+									<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
+									<spell href="/Items/Talents/Level5/G637_StrOrInt_Life.TALENT" id="0BA517B1-673A-44F9-868D-BFA4FA4F1209">
+										<Spell>
+											<applicators>
+												<Item href="/Items/Talents/Level5/G637_StrOrInt_Life.TALENT" id="CBC90E12-9D88-4797-95C5-404A0E020AF6">
+													<DamageApplicator>
+														<applyTarget>ApplicatorTarget</applyTarget>
+														<cancelInvisibility>false</cancelInvisibility>
+														<caption> - Возвращаем врагу урон</caption>
+														<damage>
+															<compiledString>FRoAAAAKAAAASAAAAIYAAACbAAAArAAAAOgAAAD9AAAAUgEAAGABAACaAQAAsAEAAEc2MzdfcmVmbF9hbQAAAAByYXdEYW1hZ2UAVYvsg+xMi0UMixCLTQyLgigBAAD/0ItNCIsRi00Ii4IcAQAA3V34/9DcbfjcHe0BAADf4PbEQXVii00MixGLTQyLgigBAAD/0ItNCIsRi00Ii4IcAQAA3V3w/9DcbfDZXezZRexR2RwkUdkF6QEAANkcJOiLAQAAg8QE2RwkUdkF5QEAANkcJOhOAQAAg8QI3A3dAQAA3V3k61qLTQyLEYtNDIuCKAEAAP/Qi00IixGLTQiLghwBAADdXdz/0Nxt3Nld2NlF2FHZHCRR2QXpAQAA2Rwk6CkBAACDxATZHCRR2QXlAQAA2Rwk6OwAAACDxAjdXeSLTRCLEYtNEItCSP/QiUXUi00IixGLTQiLAv/QUdkcJFHZ6NkcJOjjAAAAg8QE2Rwki00IixGLTQiLgnABAAD/0Nw10QEAANno3uHZ6NxF5GgQAAAAi03UixGLTdSLQlTZyd1dzN1dxP/Q3E3E3E3M2V3A2UXAUdkcJOhnAAAAg8QIi00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ3V24/9DcDcEBAADcTbjZXbTZRbSL5V3DAAAAQOF6dD8AAAAAAADwPwAAAAAAAFlAAACAPwAAAAAAAOg/AABAPwAAQL8AAAAAAAAAAFWL7FHZRQjZRQze2d/g9sRBdQjZRQjZXfzrBtlFDNld/NlF/IvlXcNVi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
+															<returnType>float</returnType>
+															<sString>0.005f*cG637_refl_am*min(appl.parent.GetVariable("rawDamage")*(1 + ((rPenetrationTotal-sSpiritDefence) &gt; 0 ? 0.75*min(0.75,max(-0.75,(rPenetrationTotal-sSpiritDefence))) : min(0.75,max(-0.75,(rPenetrationTotal-sSpiritDefence)))) )*(1-sEnergyDamageDecrease/100),max(1,sLife))</sString>
+														</damage>
+														<damageMode>0</damageMode>
+														<damageType>Pure</damageType>
+														<enabled>
+															<compiledString>FQAAAAABAAAALQAAAFWL7FFR2ejZHCRR2e7ZHCRqAYtFDIsQi00Mi0JY/9APtshR6DEAAACDxAzcHUkAAADf4PbERHsGxkX/AesExkX/AIpF/4vlXcMAAAAAAAAAAAAAAAAAAIA/VYvsUQ+2RQiFwHQI2UUM2V386wbZRRDZXfzZRfyL5V3D</compiledString>
+															<returnType>bool</returnType>
+															<sString>ut_bldg(false,true)</sString>
+														</enabled>
+														<formulaName></formulaName>
+														<LoggingEvent>-1</LoggingEvent>
+														<providerName></providerName>
+														<timeLimiter>-1</timeLimiter>
+														<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed.UIEV" />
+													</DamageApplicator>
+												</Item>
+											</applicators>
+											<dispatch href="/Items/Talents/Level5/G637_StrOrInt_Life.TALENT" id="4702EAC1-17ED-4F3C-AEF1-7C04F5A74FAF">
 												<DispatchImmediate>
 													<alwaysApply>false</alwaysApply>
 													<applyEffect>
@@ -307,9 +907,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+					<compiledString>FTMAAAAGAAAAOAAAAE4AAABaAAAAcAAAAHwAAACSAAAAQ2hpY2tSZXNTdGFydGVkAERyYWdvblJlc1N0YXJ0ZWQAAAAAVmFtcFJlc1N0YXJ0ZWQAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdtAAAAN/g9sREek1oEAAAAItNCIsRi00Ii4KIAQAA/9DcHbQAAADf4PbERHoraCQAAACLTQiLEYtNCIuCiAEAAP/Q3B20AAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
 					<returnType>bool</returnType>
-					<sString>true</sString>
+					<sString>sender.vChickResStarted == 0 &amp;&amp; sender.vDragonResStarted == 0 &amp;&amp; sender.vVampResStarted == 0</sString>
 				</enabled>
 				<flags>0</flags>
 				<formulaName></formulaName>
@@ -450,9 +1050,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FREAAAACAAAAHgAAADEAAABHNjM3X2FkZF9jb3VudGVyAFWL7FGLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0twdUwAAAN/g9sREegnHRfxaAAAA6wfHRfx4AAAA20X8i+VdwwAAAAAAABBA</compiledString>
+		<compiledString>FREAAAACAAAAHgAAADEAAABHNjM3X2FkZF9jb3VudGVyAFWL7FGLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0twdUwAAAN/g9sREegnHRfx4AAAA6wfHRfyWAAAA20X8i+VdwwAAAAAAABBA</compiledString>
 		<returnType>float</returnType>
-		<sString>cG637_add_counter == 4 ? 90 : 120</sString>
+		<sString>cG637_add_counter == 4 ? 120 : 150</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>

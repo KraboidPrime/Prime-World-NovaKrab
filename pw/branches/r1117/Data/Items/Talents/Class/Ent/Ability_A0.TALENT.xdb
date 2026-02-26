@@ -58,9 +58,9 @@
 					<UnitConstant>
 						<name>A0_Range</name>
 						<var>
-							<compiledString>FQsAAAABAAAAFwAAAFJhbmdlX0xvbmcAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+							<compiledString>FQ0AAAABAAAAGQAAAFJhbmdlX0V4TG9uZwBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
 							<returnType>float</returnType>
-							<sString>cRange_Long</sString>
+							<sString>cRange_ExLong</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -78,9 +78,9 @@
 					<UnitConstant>
 						<name>A0_TerrainAdditionalStat</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAFHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoAi00QixGLTRCLQmD/0F3DAADAP83MNEE=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAFHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCvAAAAP/QUdkcJGoAi00QixGLTRCLQmD/0F3DAADAP83MNEE=</compiledString>
 							<returnType>float</returnType>
-							<sString>abilityScale(sIntellect, 1.5, 11.3, false)</sString>
+							<sString>abilityScale(sBaseIntellect, 1.5, 11.3, false)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -88,9 +88,9 @@
 					<UnitConstant>
 						<name>A0_AddStrBase</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAFHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoAi00QixGLTRCLQmD/0F3DAADAP83MNEE=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAFHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCvAAAAP/QUdkcJGoAi00QixGLTRCLQmD/0F3DAADAP83MNEE=</compiledString>
 							<returnType>float</returnType>
-							<sString>abilityScale(sIntellect, 1.5, 11.3, false)</sString>
+							<sString>abilityScale(sBaseIntellect, 1.5, 11.3, false)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -98,9 +98,9 @@
 					<UnitConstant>
 						<name>A0_AddIntBase</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAFHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoAi00QixGLTRCLQmD/0F3DAADAP83MNEE=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAFHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCvAAAAP/QUdkcJGoAi00QixGLTRCLQmD/0F3DAADAP83MNEE=</compiledString>
 							<returnType>float</returnType>
-							<sString>abilityScale(sIntellect, 1.5, 11.3, false)</sString>
+							<sString>abilityScale(sBaseIntellect, 1.5, 11.3, false)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -181,12 +181,12 @@
 					<returnType>bool</returnType>
 					<sString>true</sString>
 				</startCondition>
-				<targets>270475775</targets>
+				<targets>1342177287</targets>
 				<targetSelector href="/Items/Talents/Class/Ent/Ability_A0.TALENT" id="8FF6FC18-3227-4CE3-9FC2-7EE529FE59AB">
 					<HeroEnumerator>
-						<flags>1</flags>
+						<flags>0</flags>
 						<mode>Normal</mode>
-						<targetFilter>270475775</targetFilter>
+						<targetFilter>1342177287</targetFilter>
 					</HeroEnumerator>
 				</targetSelector>
 				<type>None</type>

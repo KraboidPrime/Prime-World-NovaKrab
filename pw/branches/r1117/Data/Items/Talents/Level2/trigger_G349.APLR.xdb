@@ -829,7 +829,7 @@
 					</applicators>
 					<dispatch href="/Items/Talents/Level2/trigger_G349.APLR" id="42C3A9DF-BE3C-4E94-B742-EE9ED634FCD5">
 						<DispatchImmediate>
-							<alwaysApply>false</alwaysApply>
+							<alwaysApply>true</alwaysApply>
 							<applyEffect>
 								<Item href="/Effects/Buffs/Defence/_Ring.EFFT" />
 								<Item href="" />
@@ -843,7 +843,7 @@
 								<Item href="" />
 							</dispatchEffect>
 							<flags>0</flags>
-							<instantApply>false</instantApply>
+							<instantApply>true</instantApply>
 						</DispatchImmediate>
 					</dispatch>
 				</Spell>

@@ -64,6 +64,16 @@
 				<name>Zealot_A1_SUP</name>
 			</ConditionFormula>
 		</Item>
+		<Item href="/Items/Talents/Class/Zealot/Ability_A1.TALENT" id="D3873671-0305-40E3-81EA-BA5E9DA4E997">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FR4AAAACAAAAJQAAAD4AAABaZWFsb3RfQTNfU1VQAAAAWmVhbG90X0EzX1NVUABVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AIpF+4vlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("Zealot_A3_SUP")</sString>
+				</condition>
+				<name>Zealot_A3_SUP1</name>
+			</ConditionFormula>
+		</Item>
 	</conditionFormulas>
 	<conflictingTalents />
 	<constants href="/Items/Talents/Class/Zealot/Ability_A1.TALENT" id="BE688BB9-21A7-49CC-AB8A-94383D34C9CE">

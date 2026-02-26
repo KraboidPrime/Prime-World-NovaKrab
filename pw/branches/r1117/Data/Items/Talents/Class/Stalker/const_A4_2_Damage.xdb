@@ -6,8 +6,8 @@
 	<BackLink DBID="/Items/Talents/Class/Stalker/Ability_A2.TALENT" Count="1" />
 	<name>A4_2_DamageTT</name>
 	<var>
-		<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAABEQgAAxkM=</compiledString>
+		<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAA8QgAAvEM=</compiledString>
 		<returnType>float</returnType>
-		<sString>damageScale (sIntellect, 49, 396)</sString>
+		<sString>damageScale (sIntellect, 47, 376)</sString>
 	</var>
 </UnitConstant>

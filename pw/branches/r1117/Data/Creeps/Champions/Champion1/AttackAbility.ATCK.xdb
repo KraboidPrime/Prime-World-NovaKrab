@@ -107,9 +107,9 @@
 					<UnitConstant>
 						<name>Aura_AddStamina</name>
 						<var>
-							<compiledString>FRUAAAAEAAAAHAAAADIAAAA+AAAAaQAAAElzUGV0AAAAUmFiS3Jpc2FCdWZmAFWL7IPsDGgAAAAAi0UIixCLTQiLgogBAAD/0NwdhQAAAN/g9sREexpoCAAAAItNCIsRi00Ii4KIAQAA/9DdXfjrGYtNCIsRi00Ii4IwAQAA/9DcNX0AAADdXfjdRfjZXfTZRfSL5V3DAAAAAAAACEAAAAAAAAAAAA==</compiledString>
+							<compiledString>FRUAAAAFAAAAHAAAADIAAAA+AAAAVAAAAG8AAABJc1BldAAAAFJhYktyaXNhQnVmZgBVi+yD7AxoAAAAAItFCIsQi00Ii4KIAQAA/9DcHZMAAADf4PbERHsgaAgAAACLTQiLEYtNCIuCiAEAAP/Q3A2LAAAA3V346xmLTQiLEYtNCIuCMAEAAP/Q3DWDAAAA3V343UX42V302UX0i+VdwwAAAAAAAAhAcT0K16Nw5T8AAAAAAAAAAA==</compiledString>
 							<returnType>float</returnType>
-							<sString>sender.vIsPet ? sender.vRabKrisaBuff : sStrength / 3</sString>
+							<sString>sender.vIsPet ? sender.vRabKrisaBuff*0.67 : sStrength / 3</sString>
 						</var>
 					</UnitConstant>
 				</Item>

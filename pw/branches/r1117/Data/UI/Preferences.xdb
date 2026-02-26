@@ -432,5 +432,13 @@
 			<enabledFromOtherVarId></enabledFromOtherVarId>
 			<varId>smartchat_cb</varId>
 		</Item>
+		<Item>
+			<applyCommandName></applyCommandName>
+			<comboBoxDescription />
+			<commandName>chat_time_visible</commandName>
+			<controlVarType>CheckBox</controlVarType>
+			<enabledFromOtherVarId></enabledFromOtherVarId>
+			<varId>timechat_cb</varId>
+		</Item>
 	</variables>
 </Preferences>

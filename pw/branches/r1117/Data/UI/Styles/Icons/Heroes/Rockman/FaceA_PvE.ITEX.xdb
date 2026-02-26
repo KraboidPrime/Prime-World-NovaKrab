@@ -2,6 +2,7 @@
 <UITexture>
 	<BackLink DBID="/Maps/PvE/Series/Episode1/dialogs/actors/petOwner_A" Count="1" />
 	<BackLink DBID="/Maps/PvE/Series/Episode1/heroes/ally/rockman.HROB" Count="1" />
+	<BackLink DBID="/Heroes/Rockman/S4/_.HEROSKIN" Count="4" />
 	<generatedFileName></generatedFileName>
 	<importOnlyShape>false</importOnlyShape>
 	<mipLevels>0</mipLevels>

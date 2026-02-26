@@ -496,7 +496,18 @@
 		<returnType>float</returnType>
 		<sString>0.0f</sString>
 	</castAllowRange>
-	<castLimitations />
+	<castLimitations>
+		<Item href="/Items/Talents/Level3/G531_Dot_Root.TALENT" id="4467A60B-FEB1-46CD-8962-5CCB085880FC">
+			<ConditionCastLimitation>
+				<condition>
+					<compiledString>FQ8AAAACAAAAFAAAACoAAABJbW11bmUyQ29udHJvbABVi+xRaAAAAACLRQyLEItNDIuCiAEAAP/Q3B1MAAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
+					<returnType>bool</returnType>
+					<sString>receiver.vImmune2Control == 0</sString>
+				</condition>
+				<uiEvent href="/UI/Events/ErrorMessages/CastError_Immune2Ctrl.UIEV" />
+			</ConditionCastLimitation>
+		</Item>
+	</castLimitations>
 	<commonDescription textref="/Items/Talents/Level3/G531_Dot_Root.TALENT_commonDescription.txt" />
 	<compiledDescriptionA textref="" />
 	<compiledDescriptionB textref="" />

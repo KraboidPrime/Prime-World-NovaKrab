@@ -12,7 +12,7 @@
 	<BackLink DBID="/Items/Talents/Level6/G248_StaminaWill_MvSpeed.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level2/G201_Life_Portal.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level2/G236_A_MagicStick_Life.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Level3/G244_DeadlyIllusion.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level3/G244_DeadlyIllusion.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Level3/G074_AoEbyInt.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level4/G096_Flower.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level4/G348_TempDefence_PVE.TALENT" Count="1" />

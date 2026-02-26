@@ -109,7 +109,7 @@
 	<dispatch href="" />
 	<flags>2</flags>
 	<forceBonus>13</forceBonus>
-	<image href="/UI/Styles/Icons/Talents/TUE_Abrasive8.ITEX" />
+	<image href="/UI/Styles/Icons/Talents/TUE_Abrasive7.ITEX" />
 	<imageSecondState href="" />
 	<isGenderTalent>false</isGenderTalent>
 	<isTakenOnStart>false</isTakenOnStart>

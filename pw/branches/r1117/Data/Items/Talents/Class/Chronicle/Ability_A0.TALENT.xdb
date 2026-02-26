@@ -38,7 +38,18 @@
 	<commonDescription textref="" />
 	<compiledDescriptionA textref="" />
 	<compiledDescriptionB textref="" />
-	<conditionFormulas />
+	<conditionFormulas>
+		<Item href="/Items/Talents/Class/Chronicle/Ability_A0.TALENT" id="3C67F919-AE7F-4F9D-B508-E3D2DB2FA5A6">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FSUAAAACAAAALAAAAEUAAABDaHJvbmljbGVfQTBfU1VQAAAAAENocm9uaWNsZV9BMF9TVVAAVYvsg+wIaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgUAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wCKRfuL5V3D</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("Chronicle_A0_SUP")</sString>
+				</condition>
+				<name>Chronicle_A0_SUP1</name>
+			</ConditionFormula>
+		</Item>
+	</conditionFormulas>
 	<conflictingTalents />
 	<constants href="/Items/Talents/Class/Chronicle/Ability_A0.TALENT" id="20A25D49-DDC1-45DB-A223-2484AB7AF9DA">
 		<UnitConstantsContainer>
@@ -47,9 +58,9 @@
 					<UnitConstant>
 						<name>A0_Damage</name>
 						<var>
-							<compiledString>FQgAAAAGAAAADQAAACMAAAAzAAAAPQAAAHMAAAB9AAAASXNDbG9uZQBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B3DAAAA3+D2xER6QGoBUdkFvwAAANkcJFHZBbsAAADZHCRqAItNCIsRi00Ii4I0AQAA/9BR2RwkagGLTRCLEYtNEItCYP/Q2V386z5qAVHZBbcAAADZHCRR2QWzAAAA2RwkagCLTQiLEYtNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0Nld/NlF/IvlXcMAABRCAACNQwAAkEEAAA1DAAAAAAAA8D8=</compiledString>
+							<compiledString>FVUAAAAOAAAAXAAAAHIAAACCAAAAmwAAANUAAADfAAAAFQEAAB8BAABaAQAAcwEAAK0BAAC3AQAA7QEAAPcBAABJc0Nsb25lAENocm9uaWNsZV9BMF9TVVAAAAAAQ2hyb25pY2xlX0EwX1NVUAAAAABDaHJvbmljbGVfQTBfU1VQAAAAAENocm9uaWNsZV9BMF9TVVAAVYvsg+wcaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1DAgAA3+D2xEQPitgAAABoCAAAAItNCIsRi00Ii4KoAQAA/9CFwHQqaBwAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXRAagFR2QU/AgAA2RwkUdkFOwIAANkcJGoAi1UIiwKLTQiLkDABAAD/0lHZHCRqAYtFEIsQi00Qi0Jg/9DZXfTrPmoBUdkFPwIAANkcJFHZBTsCAADZHCRqAItNCIsRi00Ii4I0AQAA/9BR2RwkagGLTRCLEYtNEItCYP/Q2V302UX02V3w6dMAAABoMAAAAItNCIsRi00Ii4KoAQAA/9CFwHQqaEQAAACLTQiLEYtNCIuCqAEAAP/QiUXsi03sixGLTeyLQgT/0IhF6+sExkXrAA+2TeuFyXRAagFR2QU3AgAA2RwkUdkFMwIAANkcJGoAi1UIiwKLTQiLkDABAAD/0lHZHCRqAYtFEIsQi00Qi0Jg/9DZXeTrPmoBUdkFNwIAANkcJFHZBTMCAADZHCRqAItNCIsRi00Ii4I0AQAA/9BR2RwkagGLTRCLEYtNEItCYP/Q2V3k2UXk2V3w2UXwi+VdwwAAFEIAAI1DAACQQQAADUMAAAAAAADwPw==</compiledString>
 							<returnType>float</returnType>
-							<sString>sender.vIsClone == 1 ? damageScale(sIntellect, 18, 141) : damageScale(sIntellect, 37, 282)</sString>
+							<sString>sender.vIsClone == 1 ? (tal("Chronicle_A0_SUP") ? damageScale(sStrength, 18, 141) : damageScale(sIntellect, 18, 141)) : (tal("Chronicle_A0_SUP") ? damageScale(sStrength, 37, 282) : damageScale(sIntellect, 37, 282))</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -127,9 +138,9 @@
 					<UnitConstant>
 						<name>A0_LifeReg</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAQA==</compiledString>
+							<compiledString>FQAAAAADAAAAGwAAACwAAAAyAAAAVYvsUYtFCIsQi00Ii4I0AQAA/9BR2RwkUdkFUAAAANkcJOgtAAAAg8QI3A1IAAAA3CVAAAAA2V382UX8i+VdwwAAAGBmZvY/AAAAwHSTqD8AAEhCVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
 							<returnType>float</returnType>
-							<sString>4.0f</sString>
+							<sString>0.048f*max(50, sIntellect) -1.4f</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -353,6 +364,53 @@
 															<stat>Life</stat>
 															<topModifier>false</topModifier>
 															<variable>ClockRot</variable>
+														</modifier>
+														<providerName></providerName>
+														<startCondition>
+															<compiledString></compiledString>
+															<returnType>bool</returnType>
+															<sString>true</sString>
+														</startCondition>
+														<statModName></statModName>
+													</StatModApplicator>
+												</Item>
+												<Item href="/Items/Talents/Class/Chronicle/Ability_A0.TALENT" id="CE1B2AF7-4E6D-45A4-BB51-EBD16F5A622A">
+													<StatModApplicator>
+														<applyTarget>AbilityOwner</applyTarget>
+														<behaviorFlags>0</behaviorFlags>
+														<caption>триггер для регена</caption>
+														<constraint>None</constraint>
+														<dontUpdate>false</dontUpdate>
+														<effect>
+															<Item href="" />
+															<Item href="" />
+														</effect>
+														<enabled>
+															<compiledString></compiledString>
+															<returnType>bool</returnType>
+															<sString>true</sString>
+														</enabled>
+														<formulaName></formulaName>
+														<lifeTime>
+															<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
+															<returnType>float</returnType>
+															<sString>3.0f</sString>
+														</lifeTime>
+														<LoggingEvent>-1</LoggingEvent>
+														<modifier>
+															<addValue>
+																<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+																<returnType>float</returnType>
+																<sString>1.0f</sString>
+															</addValue>
+															<multValue>
+																<compiledString></compiledString>
+																<returnType>float</returnType>
+																<sString>1.0f</sString>
+															</multValue>
+															<stat>Life</stat>
+															<topModifier>false</topModifier>
+															<variable>A0RegBuff</variable>
 														</modifier>
 														<providerName></providerName>
 														<startCondition>
@@ -837,23 +895,34 @@
 				<useListAs>ListAsRule</useListAs>
 			</FlagsApplicator>
 		</Item>
-		<Item href="/Items/Talents/Class/Chronicle/Ability_A0.TALENT" id="979F2A33-D1E0-4A82-866F-1A3565D569C3">
-			<PermanentStatModApplicator>
-				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>Регенерация</caption>
-				<customApplyType>None</customApplyType>
+		<Item href="/Items/Talents/Class/Chronicle/Ability_A0.TALENT" id="06E617C8-96AC-401E-AC75-DF9D642FB2D1">
+			<StatModApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>реген</caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
 				<enabled>
-					<compiledString></compiledString>
+					<compiledString>FSUAAAACAAAALAAAAEUAAABDaHJvbmljbGVfQTBfU1VQAAAAAENocm9uaWNsZV9BMF9TVVAAVYvsg+wIaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgUAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtkX799gbwIPAAYvlXcM=</compiledString>
 					<returnType>bool</returnType>
-					<sString>true</sString>
+					<sString>!tal("Chronicle_A0_SUP")</sString>
 				</enabled>
 				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
 				<LoggingEvent>-1</LoggingEvent>
 				<modifier>
 					<addValue>
-						<compiledString>FQsAAAABAAAAFwAAAEEwX0xpZmVSZWcAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+						<compiledString>FSMAAAAFAAAAKgAAAEAAAABUAAAAZwAAAHkAAABBMFJlZ0J1ZmYAAABBMF9MaWZlUmVnAABBMF9MaWZlUmVnAFWL7IPsDGgAAAAAi0UIixCLTQiLgogBAAD/0NwdogAAAN/g9sRBdSWLTQxRi1UIUmgMAAAAi0UQixCLTRCLQlD/0NwNmgAAAN1d+Osdi00MUYtVCFJoGAAAAItFEIsQi00Qi0JQ/9DdXfjdRfjZXfTZRfSL5V3DAAAAAAAACEAAAAAAAADgPw==</compiledString>
 						<returnType>float</returnType>
-						<sString>cA0_LifeReg</sString>
+						<sString>sender.vA0RegBuff &gt; 0.5 ? 3*cA0_LifeReg : cA0_LifeReg</sString>
 					</addValue>
 					<multValue>
 						<compiledString></compiledString>
@@ -865,7 +934,13 @@
 					<variable></variable>
 				</modifier>
 				<providerName></providerName>
-			</PermanentStatModApplicator>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
 		</Item>
 	</passiveApplicators>
 	<persistentId>Chronicle_A0</persistentId>

@@ -953,9 +953,9 @@
 					<UnitConstant>
 						<name>A2_Damage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACWQgAADEQ=</compiledString>
+							<compiledString>FTYAAAAGAAAAPQAAAFYAAACPAAAAlAAAALcAAADBAAAATWFnaWNHaXJsX0E0XzJTVVAAAABNYWdpY0dpcmxfQTRfMlNVUAAAAEE0THVuYURNR0J1ZmYAVYvsg+wgaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgUAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37iU3020X03A0NAQAAaCgAAACLVQiLAotNCIuQiAEAAN1d7P/S3E3s2ejewWoBUdkFAQEAANkcJFHZBf0AAADZHCRqAItFCIsQi00Ii4IwAQAA3V3k/9BR2RwkagGLTRCLEYtNEItCYP/Q3E3k2V3g2UXgi+VdwwAAlkIAAAxEAAAAAAAA8D8AAABA4Xp0Pw==</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale( sStrength, 75, 560)</sString>
+							<sString>(1+0.005f*tal("MagicGirl_A4_2SUP")*sender.vA4LunaDMGBuff)*damageScale( sStrength, 75, 560)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -1022,6 +1022,16 @@
 						</var>
 					</UnitConstant>
 				</Item>
+				<Item href="/Items/Talents/Class/MagicGirl/Ability_A2.TALENT" id="B8EFFECB-A495-4AE8-8B75-9FF637316536">
+					<UnitConstant>
+						<name>RegenBuffNew</name>
+						<var>
+							<compiledString>FQ0AAAADAAAAFAAAAF0AAABjAAAATHVuYUJ1ZmYyMDI2AFWL7IPsDGgAAAAAi0UMixCLTQyLgogBAAD/0ItNCIsRi00Ii4IwAQAA3V34/9BR2Rwki00IixGLTQiLgjQBAAD/0FHZHCToLAAAAIPECNwNfAAAANwldAAAANxN+Nld9NlF9IvlXcMAAAAAAADwPwAAAEDheqQ/VYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
+							<returnType>float</returnType>
+							<sString>receiver.vLunaBuff2026*(0.04f*max(sIntellect, sStrength) - 1)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
@@ -1069,9 +1079,9 @@
 	<isUltimateTalent>false</isUltimateTalent>
 	<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
 	<manaCost>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACqQg==</compiledString>
+		<compiledString>FSUAAAACAAAALAAAAEUAAABNYWdpY0dpcmxfQTJfU1VQAAAAAE1hZ2ljR2lybF9BMl9TVVAAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgUAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37ugEAAAAr0WvSVYlV9NtF9IvlXcM=</compiledString>
 		<returnType>float</returnType>
-		<sString>85</sString>
+		<sString>85*(1-tal("MagicGirl_A2_SUP"))</sString>
 	</manaCost>
 	<marker></marker>
 	<microAI href="/Items/Talents/Class/MagicGirl/Ability_A2.TALENT" id="82C79E86-978D-40C0-A751-2825D19BD390">

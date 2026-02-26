@@ -169,12 +169,12 @@
 		<Item href="/Items/Talents/Level6/G326_Dex_WillOrStrmn.TALENT" id="F2F5EE01-D818-40E4-A0C3-D9CF415EF425">
 			<PermanentStatModApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
-				<caption>Add_Dexterity</caption>
+				<caption>Add_str</caption>
 				<customApplyType>None</customApplyType>
 				<enabled>
-					<compiledString></compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgrgAAAD/0ItNCIsRi00Ii4K8AAAA3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
 					<returnType>bool</returnType>
-					<sString>true</sString>
+					<sString>sBaseStrength &gt;= sBaseIntellect</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<LoggingEvent>-1</LoggingEvent>
@@ -189,7 +189,7 @@
 						<returnType>float</returnType>
 						<sString>1.0f</sString>
 					</multValue>
-					<stat>Dexterity</stat>
+					<stat>Strength</stat>
 					<topModifier>false</topModifier>
 					<variable></variable>
 				</modifier>
@@ -523,6 +523,36 @@
 			</PermanentStatModApplicator>
 		</Item>
 		<Item href="/Items/Talents/TalentSet2/G330_FormCounter.APLR" />
+		<Item href="/Items/Talents/Level6/G326_Dex_WillOrStrmn.TALENT" id="0F09FEBA-6654-4DCC-BE37-919157B59042">
+			<PermanentStatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>Add_int</caption>
+				<customApplyType>None</customApplyType>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgrgAAAD/0ItNCIsRi00Ii4K8AAAA3V34/9DcXfjf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sBaseStrength &lt; sBaseIntellect</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQ4AAAABAAAAGgAAAEFkZF9EZXh0ZXJpdHkAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+						<returnType>float</returnType>
+						<sString>cAdd_Dexterity</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Intellect</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
 	</passiveApplicators>
 	<persistentId>G326</persistentId>
 	<prerequisiteTalents />

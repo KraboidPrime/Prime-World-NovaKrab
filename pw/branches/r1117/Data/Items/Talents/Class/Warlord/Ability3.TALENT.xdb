@@ -284,9 +284,9 @@
 		<Item href="/Items/Talents/Class/Warlord/Ability3.TALENT" id="81E8D970-FBD0-483F-A168-260B3BEF6AF1">
 			<ConditionFormula>
 				<condition>
-					<compiledString>FR8AAAACAAAALgAAAEcAAABXYXJsb3JkX0EzX1NVUAAAV2FybG9yZF9BM19TVVAAVYvsg+wIi0UIO0UMdE5oAAAAAItNCIsRi00Ii4KoAQAA/9CFwHQ1aBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0A+2yIXJdAnHRfgBAAAA6wfHRfgAAAAAikX4i+Vdww==</compiledString>
+					<compiledString>FR8AAAACAAAAJgAAAD8AAABXYXJsb3JkX0EzX1NVUAAAV2FybG9yZF9BM19TVVAAVYvsg+wIaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0NWgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9APtsiFyXQJx0X4AQAAAOsHx0X4AAAAAIpF+IvlXcM=</compiledString>
 					<returnType>bool</returnType>
-					<sString>pFirst != pSecond &amp;&amp; pFirst-&gt;GetTalent("Warlord_A3_SUP") &amp;&amp; pFirst-&gt;GetTalent("Warlord_A3_SUP")-&gt;IsTalentBought()</sString>
+					<sString>pFirst-&gt;GetTalent("Warlord_A3_SUP") &amp;&amp; pFirst-&gt;GetTalent("Warlord_A3_SUP")-&gt;IsTalentBought()</sString>
 				</condition>
 				<name>Warlord_StatusA3_SUP</name>
 			</ConditionFormula>
@@ -309,6 +309,16 @@
 				<Item href="/Items/Talents/Class/Warlord/const_A3_RetaliationDamage" />
 				<Item href="/Items/Talents/Class/Warlord/const_A3_Duration" />
 				<Item href="/Items/Talents/Class/Warlord/const_A3u_AllDamage_Decrease_Percent" />
+				<Item href="/Items/Talents/Class/Warlord/Ability3.TALENT" id="9DF58B50-96F3-4060-AC36-32439DF291DB">
+					<UnitConstant>
+						<name>WarlordBuffStatA3</name>
+						<var>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCyAAAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DZmbmPwAAUEE=</compiledString>
+							<returnType>float</returnType>
+							<sString>damageScale(sBaseStamina,1.8, 13)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

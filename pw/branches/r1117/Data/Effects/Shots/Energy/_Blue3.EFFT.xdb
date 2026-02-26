@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BasicEffectStandalone>
+	<BackLink DBID="/Effects/Shots/Energy/_Blue.EFFT" Count="1" />
+	<BackLink DBID="/Heroes/Banshee/_.HROB" Count="1" />
+	<component href="/Effects/Shots/Energy/_BlueTRS3.PRXY" />
+	<deathType>Manual</deathType>
+	<enableCondition href="/Effects/Shots/Energy/_Blue3.EFFT" id="6DEB2098-E4ED-4D5C-87F9-6EC9D661F266">
+		<ConditionFormula>
+			<condition>
+				<compiledString>FQsAAAABAAAADwAAAGJhbnNoZWVfUzMAVYvsaAAAAACLRQiLEItNCIuC6AEAAP/QXcM=</compiledString>
+				<returnType>bool</returnType>
+				<sString>sender.IsSkinUsed("banshee_S3")</sString>
+			</condition>
+			<name></name>
+		</ConditionFormula>
+	</enableCondition>
+	<fadeIn>0</fadeIn>
+	<fadeOut>0</fadeOut>
+	<isVisibleUnderWarfog>false</isVisibleUnderWarfog>
+	<lifeTime>0</lifeTime>
+	<parentFlags>0</parentFlags>
+	<parentType>General</parentType>
+	<visibilityLimited>false</visibilityLimited>
+	<visibleTime>0</visibleTime>
+	<__states>
+		<state name="banshee_S1">
+			<component href="/Effects/Shots/Energy/_RedTRS.PRXY" />
+		</state>
+	</__states>
+</BasicEffectStandalone>

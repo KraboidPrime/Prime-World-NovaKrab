@@ -18,7 +18,7 @@
 	<alternativeTargets />
 	<aoeDisplayOnMinimap>false</aoeDisplayOnMinimap>
 	<aoeHeight>0</aoeHeight>
-	<aoeMaterial href="/Effects/UI/AOESelection/Radius.MTRL" />
+	<aoeMaterial href="" />
 	<aoePassabilityCheckMode>0</aoePassabilityCheckMode>
 	<aoeSize>
 		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>

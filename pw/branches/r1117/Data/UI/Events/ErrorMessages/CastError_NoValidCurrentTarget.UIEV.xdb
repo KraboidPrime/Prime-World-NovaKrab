@@ -18,6 +18,7 @@
 	<BackLink DBID="/Maps/PvE/Series/Coop1/Heroes/ManaWyrm/Ability4.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Healer/Ability1.TALENT" Count="1" />
 	<BackLink DBID="/Items/Consumables/KU-StickNew.ARCT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/SnowQueen/Ability_A3.TALENT" Count="1" />
 	<signRecipients>PLAYER_ONLY</signRecipients>
 	<UISigns>
 		<Item href="/UI/Events/ErrorMessages/CastError_NoValidCurrentTarget.UIEV" id="96C49B2E-A72D-44D9-8350-F44C37763F49">

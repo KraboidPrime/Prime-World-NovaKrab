@@ -4,6 +4,7 @@
 	<BackLink DBID="/Items/Talents/Class/Brewer/Ability_A4.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Brewer_Alternative.TALENTSET" Count="1" />
 	<BackLink DBID="/Social.ROOT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level2/G567_CasterBase.TALENT" Count="2" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -753,7 +754,7 @@
 																			<Item href="" />
 																			<Item href="" />
 																		</dispatchEffect>
-																		<flags>0</flags>
+																		<flags>1</flags>
 																		<instantApply>false</instantApply>
 																	</DispatchImmediate>
 																</dispatch>

@@ -530,6 +530,374 @@
 																		<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Material.UIEV" />
 																	</DamageApplicator>
 																</Item>
+																<Item href="/Items/Talents/Class/MagicGirl/A4_2_SummonBall.APLR" id="6A7E4833-7814-435C-ABA0-6B1CC4715CF5">
+																	<SpellApplicator>
+																		<applyTarget>ApplicatorTarget</applyTarget>
+																		<caption></caption>
+																		<enabled>
+																			<compiledString>FSYAAAACAAAALQAAAEYAAABNYWdpY0dpcmxfQTRfMlNVUAAAAE1hZ2ljR2lybF9BNF8yU1VQAFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoFAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdCyLVQyLAotNDItQUP/ShcB0EotFDIsQi00Mi0JQ/9CD+AF1CcdF9AEAAADrB8dF9AAAAACKRfSL5V3D</compiledString>
+																			<returnType>bool</returnType>
+																			<sString>tal("MagicGirl_A4_2SUP") &amp;&amp; (rUnitKind == 0  || rUnitKind == 1)</sString>
+																		</enabled>
+																		<formulaName></formulaName>
+																		<LoggingEvent>-1</LoggingEvent>
+																		<providerName></providerName>
+																		<spell href="/Items/Talents/Class/MagicGirl/A4_2_SummonBall.APLR" id="8BBB20ED-7740-4EE0-AC30-2D3BCD84AA86">
+																			<Spell>
+																				<applicators>
+																					<Item href="/Items/Talents/Class/MagicGirl/A4_2_SummonBall.APLR" id="A7C5E404-1E91-4820-B97D-E8D4A01223D4">
+																						<SpellProbabilityApplicator>
+																							<applyTarget>AbilityOwner</applyTarget>
+																							<caption></caption>
+																							<enabled>
+																								<compiledString></compiledString>
+																								<returnType>bool</returnType>
+																								<sString>true</sString>
+																							</enabled>
+																							<formulaName></formulaName>
+																							<LoggingEvent>-1</LoggingEvent>
+																							<probability>
+																								<compiledString>FQ8AAAADAAAAFgAAACYAAAA5AAAAQTRMdW5hRE1HQnVmZkMAVYvsUVHZBVsAAADZHCSLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0twNUwAAANld/NlF/FHZHCToEwAAAIPECIvlXcMzMzMzMzPjPwAASEJVi+xR2UUI2UUM3tnf4PbEQXUI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
+																								<returnType>float</returnType>
+																								<sString>min(0.6*cA4LunaDMGBuffC, 50)</sString>
+																							</probability>
+																							<providerName></providerName>
+																							<spell href="/Items/Talents/Class/MagicGirl/A4_2_SummonBall.APLR" id="70270823-D439-4E7F-A30A-40E5E433FEE9">
+																								<Spell>
+																									<applicators>
+																										<Item href="/Items/Talents/Class/MagicGirl/A4_2_SummonBall.APLR" id="81A82590-4024-4A93-A2F7-8D8C98177402">
+																											<PermanentStatModApplicator>
+																												<applyTarget>AbilityOwner</applyTarget>
+																												<caption></caption>
+																												<customApplyType>None</customApplyType>
+																												<enabled>
+																													<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+																													<returnType>bool</returnType>
+																													<sString>true</sString>
+																												</enabled>
+																												<formulaName></formulaName>
+																												<LoggingEvent>-1</LoggingEvent>
+																												<modifier>
+																													<addValue>
+																														<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+																														<returnType>float</returnType>
+																														<sString>1.0f</sString>
+																													</addValue>
+																													<multValue>
+																														<compiledString></compiledString>
+																														<returnType>float</returnType>
+																														<sString>1.0f</sString>
+																													</multValue>
+																													<stat>Life</stat>
+																													<topModifier>false</topModifier>
+																													<variable>A4LunaDMGBuff</variable>
+																												</modifier>
+																												<providerName></providerName>
+																											</PermanentStatModApplicator>
+																										</Item>
+																									</applicators>
+																									<dispatch href="/Items/Talents/Class/MagicGirl/A4_2_SummonBall.APLR" id="E00C24BF-B241-48EE-A186-57640A5E75EA">
+																										<DispatchImmediate>
+																											<alwaysApply>false</alwaysApply>
+																											<applyEffect>
+																												<Item href="" />
+																												<Item href="" />
+																											</applyEffect>
+																											<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																											<applyEffectOrientation>Default</applyEffectOrientation>
+																											<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																											<dieAfterApply>true</dieAfterApply>
+																											<dispatchEffect>
+																												<Item href="" />
+																												<Item href="" />
+																											</dispatchEffect>
+																											<flags>0</flags>
+																											<instantApply>false</instantApply>
+																										</DispatchImmediate>
+																									</dispatch>
+																								</Spell>
+																							</spell>
+																							<spellIfFailed href="/Items/Talents/Class/MagicGirl/A4_2_SummonBall.APLR" id="D9946977-852F-4EB0-A1B2-99172FA320DC">
+																								<Spell>
+																									<applicators>
+																										<Item href="/Items/Talents/Class/MagicGirl/A4_2_SummonBall.APLR" id="7A1C596B-B9C2-4CBC-A26E-22074FA6731E">
+																											<SpellProbabilityApplicator>
+																												<applyTarget>AbilityOwner</applyTarget>
+																												<caption></caption>
+																												<enabled>
+																													<compiledString></compiledString>
+																													<returnType>bool</returnType>
+																													<sString>true</sString>
+																												</enabled>
+																												<formulaName></formulaName>
+																												<LoggingEvent>-1</LoggingEvent>
+																												<probability>
+																													<compiledString>FQ8AAAAEAAAAFgAAACYAAAA5AAAAPwAAAEE0THVuYURNR0J1ZmZDAFWL7FFR2QVpAAAA2Rwki0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcDWEAAADcBVkAAADZXfzZRfxR2Rwk6BsAAACDxAiL5V3DAAAAAAAAJECamZmZmZnpPwAASEJVi+xR2UUI2UUM3tnf4PbEQXUI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
+																													<returnType>float</returnType>
+																													<sString>min(10+0.8*cA4LunaDMGBuffC, 50)</sString>
+																												</probability>
+																												<providerName></providerName>
+																												<spell href="/Items/Talents/Class/MagicGirl/A4_2_SummonBall.APLR" id="8A5BC4E1-A556-4B34-B78B-FC994315CF10">
+																													<Spell>
+																														<applicators>
+																															<Item href="/Items/Talents/Class/MagicGirl/A4_2_SummonBall.APLR" id="91089401-DE24-437C-B01A-154F0E2749AC">
+																																<PermanentStatModApplicator>
+																																	<applyTarget>AbilityOwner</applyTarget>
+																																	<caption></caption>
+																																	<customApplyType>None</customApplyType>
+																																	<enabled>
+																																		<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+																																		<returnType>bool</returnType>
+																																		<sString>true</sString>
+																																	</enabled>
+																																	<formulaName></formulaName>
+																																	<LoggingEvent>-1</LoggingEvent>
+																																	<modifier>
+																																		<addValue>
+																																			<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
+																																			<returnType>float</returnType>
+																																			<sString>2.0f</sString>
+																																		</addValue>
+																																		<multValue>
+																																			<compiledString></compiledString>
+																																			<returnType>float</returnType>
+																																			<sString>1.0f</sString>
+																																		</multValue>
+																																		<stat>Life</stat>
+																																		<topModifier>false</topModifier>
+																																		<variable>A4LunaDMGBuff</variable>
+																																	</modifier>
+																																	<providerName></providerName>
+																																</PermanentStatModApplicator>
+																															</Item>
+																														</applicators>
+																														<dispatch href="/Items/Talents/Class/MagicGirl/A4_2_SummonBall.APLR" id="AADBFC5A-CFB8-4D4A-A9A2-D8548AA05C75">
+																															<DispatchImmediate>
+																																<alwaysApply>false</alwaysApply>
+																																<applyEffect>
+																																	<Item href="" />
+																																	<Item href="" />
+																																</applyEffect>
+																																<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																																<applyEffectOrientation>Default</applyEffectOrientation>
+																																<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																																<dieAfterApply>true</dieAfterApply>
+																																<dispatchEffect>
+																																	<Item href="" />
+																																	<Item href="" />
+																																</dispatchEffect>
+																																<flags>0</flags>
+																																<instantApply>false</instantApply>
+																															</DispatchImmediate>
+																														</dispatch>
+																													</Spell>
+																												</spell>
+																												<spellIfFailed href="/Items/Talents/Class/MagicGirl/A4_2_SummonBall.APLR" id="00A55519-3E23-4CEF-8003-A3BA1E0A58BF">
+																													<Spell>
+																														<applicators>
+																															<Item href="/Items/Talents/Class/MagicGirl/A4_2_SummonBall.APLR" id="D81674A0-A113-4073-9E2C-EE70E5E56EFA">
+																																<SpellProbabilityApplicator>
+																																	<applyTarget>AbilityOwner</applyTarget>
+																																	<caption></caption>
+																																	<enabled>
+																																		<compiledString></compiledString>
+																																		<returnType>bool</returnType>
+																																		<sString>true</sString>
+																																	</enabled>
+																																	<formulaName></formulaName>
+																																	<LoggingEvent>-1</LoggingEvent>
+																																	<probability>
+																																		<compiledString>FQ8AAAADAAAAFgAAACYAAAA5AAAAQTRMdW5hRE1HQnVmZkMAVYvsUVHZBVsAAADZHCSLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0twFUwAAANld/NlF/FHZHCToEwAAAIPECIvlXcMAAAAAAAA0QAAASEJVi+xR2UUI2UUM3tnf4PbEQXUI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
+																																		<returnType>float</returnType>
+																																		<sString>min(20+cA4LunaDMGBuffC, 50)</sString>
+																																	</probability>
+																																	<providerName></providerName>
+																																	<spell href="/Items/Talents/Class/MagicGirl/A4_2_SummonBall.APLR" id="87D749DA-A444-462C-B6E4-AAE655C70353">
+																																		<Spell>
+																																			<applicators>
+																																				<Item href="/Items/Talents/Class/MagicGirl/A4_2_SummonBall.APLR" id="DFE600B5-5B06-4671-B008-66E61685BF59">
+																																					<PermanentStatModApplicator>
+																																						<applyTarget>AbilityOwner</applyTarget>
+																																						<caption></caption>
+																																						<customApplyType>None</customApplyType>
+																																						<enabled>
+																																							<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+																																							<returnType>bool</returnType>
+																																							<sString>true</sString>
+																																						</enabled>
+																																						<formulaName></formulaName>
+																																						<LoggingEvent>-1</LoggingEvent>
+																																						<modifier>
+																																							<addValue>
+																																								<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
+																																								<returnType>float</returnType>
+																																								<sString>3.0f</sString>
+																																							</addValue>
+																																							<multValue>
+																																								<compiledString></compiledString>
+																																								<returnType>float</returnType>
+																																								<sString>1.0f</sString>
+																																							</multValue>
+																																							<stat>Life</stat>
+																																							<topModifier>false</topModifier>
+																																							<variable>A4LunaDMGBuff</variable>
+																																						</modifier>
+																																						<providerName></providerName>
+																																					</PermanentStatModApplicator>
+																																				</Item>
+																																			</applicators>
+																																			<dispatch href="/Items/Talents/Class/MagicGirl/A4_2_SummonBall.APLR" id="0E94F60A-5985-454C-8251-4D80D8DF249D">
+																																				<DispatchImmediate>
+																																					<alwaysApply>false</alwaysApply>
+																																					<applyEffect>
+																																						<Item href="" />
+																																						<Item href="" />
+																																					</applyEffect>
+																																					<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																																					<applyEffectOrientation>Default</applyEffectOrientation>
+																																					<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																																					<dieAfterApply>true</dieAfterApply>
+																																					<dispatchEffect>
+																																						<Item href="" />
+																																						<Item href="" />
+																																					</dispatchEffect>
+																																					<flags>0</flags>
+																																					<instantApply>false</instantApply>
+																																				</DispatchImmediate>
+																																			</dispatch>
+																																		</Spell>
+																																	</spell>
+																																	<spellIfFailed href="/Items/Talents/Class/MagicGirl/A4_2_SummonBall.APLR" id="20783629-B9E9-4017-A681-2733948EAAB4">
+																																		<Spell>
+																																			<applicators>
+																																				<Item href="/Items/Talents/Class/MagicGirl/A4_2_SummonBall.APLR" id="D6A39811-A90E-40FB-BC0B-B1F977D1A8BF">
+																																					<PermanentStatModApplicator>
+																																						<applyTarget>AbilityOwner</applyTarget>
+																																						<caption></caption>
+																																						<customApplyType>None</customApplyType>
+																																						<enabled>
+																																							<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+																																							<returnType>bool</returnType>
+																																							<sString>true</sString>
+																																						</enabled>
+																																						<formulaName></formulaName>
+																																						<LoggingEvent>-1</LoggingEvent>
+																																						<modifier>
+																																							<addValue>
+																																								<compiledString>FQAAAAAAAAAAVYvsUWoFagSLRRCLEItNEItCXP/QiUX820X8i+Vdww==</compiledString>
+																																								<returnType>float</returnType>
+																																								<sString>random(4,5)</sString>
+																																							</addValue>
+																																							<multValue>
+																																								<compiledString></compiledString>
+																																								<returnType>float</returnType>
+																																								<sString>1.0f</sString>
+																																							</multValue>
+																																							<stat>Life</stat>
+																																							<topModifier>false</topModifier>
+																																							<variable>A4LunaDMGBuff</variable>
+																																						</modifier>
+																																						<providerName></providerName>
+																																					</PermanentStatModApplicator>
+																																				</Item>
+																																			</applicators>
+																																			<dispatch href="/Items/Talents/Class/MagicGirl/A4_2_SummonBall.APLR" id="E074CBF4-0FAD-42F2-A391-9F56B119C173">
+																																				<DispatchImmediate>
+																																					<alwaysApply>false</alwaysApply>
+																																					<applyEffect>
+																																						<Item href="" />
+																																						<Item href="" />
+																																					</applyEffect>
+																																					<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																																					<applyEffectOrientation>Default</applyEffectOrientation>
+																																					<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																																					<dieAfterApply>true</dieAfterApply>
+																																					<dispatchEffect>
+																																						<Item href="" />
+																																						<Item href="" />
+																																					</dispatchEffect>
+																																					<flags>0</flags>
+																																					<instantApply>false</instantApply>
+																																				</DispatchImmediate>
+																																			</dispatch>
+																																		</Spell>
+																																	</spellIfFailed>
+																																</SpellProbabilityApplicator>
+																															</Item>
+																														</applicators>
+																														<dispatch href="/Items/Talents/Class/MagicGirl/A4_2_SummonBall.APLR" id="6CCD8B4F-E1F7-4AC4-8F48-7862317E9EF5">
+																															<DispatchImmediate>
+																																<alwaysApply>false</alwaysApply>
+																																<applyEffect>
+																																	<Item href="" />
+																																	<Item href="" />
+																																</applyEffect>
+																																<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																																<applyEffectOrientation>Default</applyEffectOrientation>
+																																<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																																<dieAfterApply>true</dieAfterApply>
+																																<dispatchEffect>
+																																	<Item href="" />
+																																	<Item href="" />
+																																</dispatchEffect>
+																																<flags>0</flags>
+																																<instantApply>false</instantApply>
+																															</DispatchImmediate>
+																														</dispatch>
+																													</Spell>
+																												</spellIfFailed>
+																											</SpellProbabilityApplicator>
+																										</Item>
+																									</applicators>
+																									<dispatch href="/Items/Talents/Class/MagicGirl/A4_2_SummonBall.APLR" id="1B9A6561-E303-48C5-A8ED-EFD5FEA9E36C">
+																										<DispatchImmediate>
+																											<alwaysApply>false</alwaysApply>
+																											<applyEffect>
+																												<Item href="" />
+																												<Item href="" />
+																											</applyEffect>
+																											<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																											<applyEffectOrientation>Default</applyEffectOrientation>
+																											<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																											<dieAfterApply>true</dieAfterApply>
+																											<dispatchEffect>
+																												<Item href="" />
+																												<Item href="" />
+																											</dispatchEffect>
+																											<flags>0</flags>
+																											<instantApply>false</instantApply>
+																										</DispatchImmediate>
+																									</dispatch>
+																								</Spell>
+																							</spellIfFailed>
+																						</SpellProbabilityApplicator>
+																					</Item>
+																				</applicators>
+																				<dispatch href="/Items/Talents/Class/MagicGirl/A4_2_SummonBall.APLR" id="734FFFBC-5026-4EF4-8D92-E1FE046F4184">
+																					<DispatchImmediate>
+																						<alwaysApply>false</alwaysApply>
+																						<applyEffect>
+																							<Item href="" />
+																							<Item href="" />
+																						</applyEffect>
+																						<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																						<applyEffectOrientation>Default</applyEffectOrientation>
+																						<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																						<dieAfterApply>true</dieAfterApply>
+																						<dispatchEffect>
+																							<Item href="" />
+																							<Item href="" />
+																						</dispatchEffect>
+																						<flags>0</flags>
+																						<instantApply>false</instantApply>
+																					</DispatchImmediate>
+																				</dispatch>
+																			</Spell>
+																		</spell>
+																		<spellTarget>ApplicatorTarget</spellTarget>
+																		<targetSelector href="" />
+																	</SpellApplicator>
+																</Item>
 															</applicators>
 															<dispatch href="/Items/Talents/Class/MagicGirl/A4_2_SummonBall.APLR" id="759BD6B9-62E3-437A-BF92-5E0E14BFE8C5">
 																<DispatchImmediate>

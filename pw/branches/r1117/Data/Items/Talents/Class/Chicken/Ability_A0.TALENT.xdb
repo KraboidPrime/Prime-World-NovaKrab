@@ -65,9 +65,9 @@
 					<UnitConstant>
 						<name>A0EggLife</name>
 						<var>
-							<compiledString>FQ0AAAACAAAAEgAAACgAAABFZ2dDaGlja0xpZmUAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwFNgAAANld/NlF/IvlXcMAAAAAAAAAQA==</compiledString>
+							<compiledString>FS0AAAAEAAAANgAAAE8AAAB9AAAAkwAAAEVnZ0NoaWNrTGlmZQAAAABDaGlja2VuX0EwdTIAAAAAQ2hpY2tlbl9BMHUyAFWL7IPsGFZXaBAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmggAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wBoAAAAAItNCIsRi00Ii4KIAQAA/9DcBd0AAAAPtnX7i00IixGLTQiLQkzdXfD/0Iv4i00IixGLTQiLgpABAAD/0Dv4D5TBD7bRD6/yiXXs20Xs3EXw2V3o2UXoX16L5V3DAAAAAAAAAEA=</compiledString>
 							<returnType>float</returnType>
-							<sString>2 + sender.vEggChickLife</sString>
+							<sString>2 + sender.vEggChickLife + tal("Chicken_A0u2")*nt(true, false)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -95,9 +95,9 @@
 					<UnitConstant>
 						<name>Blind_Duration</name>
 						<var>
-							<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADAPw==</compiledString>
 							<returnType>float</returnType>
-							<sString>1.0f</sString>
+							<sString>1.5f</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -1181,9 +1181,9 @@
 																				<LoggingEvent>-1</LoggingEvent>
 																				<modifier>
 																					<addValue>
-																						<compiledString>FQ0AAAACAAAAEgAAACgAAABFZ2dDaGlja0xpZmUAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwFNgAAANld/NlF/IvlXcMAAAAAAADwPw==</compiledString>
+																						<compiledString>FQoAAAABAAAAFgAAAEEwRWdnTGlmZQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
 																						<returnType>float</returnType>
-																						<sString>sender.vEggChickLife + 1</sString>
+																						<sString>cA0EggLife</sString>
 																					</addValue>
 																					<multValue>
 																						<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
@@ -1466,9 +1466,9 @@
 																										<LoggingEvent>-1</LoggingEvent>
 																										<modifier>
 																											<addValue>
-																												<compiledString>FQwAAAACAAAAEQAAACsAAABSZWFsRWdnTGlmZQBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q2ejewdwNOQAAANld/NlF/IvlXcMAAAAAAECPQAAAAAAAAPA/</compiledString>
+																												<compiledString>FQwAAAACAAAAEQAAACcAAABSZWFsRWdnTGlmZQBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3A01AAAA2V382UX8i+VdwwAAAAAAQI9A</compiledString>
 																												<returnType>float</returnType>
-																												<sString>(1+sender.vRealEggLife)*1000</sString>
+																												<sString>sender.vRealEggLife*1000</sString>
 																											</addValue>
 																											<multValue>
 																												<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
@@ -1599,7 +1599,7 @@
 																													<returnType>float</returnType>
 																													<sString>0.0f</sString>
 																												</mul>
-																												<objectFilter>538706371</objectFilter>
+																												<objectFilter>538705923</objectFilter>
 																												<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
 																												<spell href="" />
 																												<treatDelegatedByDelegator>false</treatDelegatedByDelegator>
@@ -1941,6 +1941,150 @@
 																										</startCondition>
 																										<statModName></statModName>
 																									</StatModApplicator>
+																								</Item>
+																								<Item href="/Items/Talents/Class/Chicken/Ability_A0.TALENT" id="E18A4D06-E6EB-460F-BD74-C69A01B0FCB5">
+																									<TriggerApplicator>
+																										<actionsCount>
+																											<compiledString></compiledString>
+																											<returnType>int</returnType>
+																											<sString>0</sString>
+																										</actionsCount>
+																										<applyTarget>ApplicatorTarget</applyTarget>
+																										<behaviorFlags>1</behaviorFlags>
+																										<caption>Меняем входящий урон от вышек раз</caption>
+																										<effect>
+																											<Item href="" />
+																											<Item href="" />
+																										</effect>
+																										<enabled>
+																											<compiledString></compiledString>
+																											<returnType>bool</returnType>
+																											<sString>true</sString>
+																										</enabled>
+																										<formulaName>Ward</formulaName>
+																										<lifeTime>
+																											<compiledString></compiledString>
+																											<returnType>float</returnType>
+																											<sString>-1.0</sString>
+																										</lifeTime>
+																										<LoggingEvent>-1</LoggingEvent>
+																										<playAck>false</playAck>
+																										<processor href="/Items/Talents/Class/Chicken/Ability_A0.TALENT" id="EB6E0829-5EA4-4053-99C5-562EFFB96BD4">
+																											<EventProcessorDamageTransformer>
+																												<abilityFilter>
+																													<abilitiesList />
+																													<abilityCondition>
+																														<compiledString></compiledString>
+																														<returnType>bool</returnType>
+																														<sString>true</sString>
+																													</abilityCondition>
+																													<abilityCostMode>Any</abilityCostMode>
+																													<exceptThis>false</exceptThis>
+																													<flags>1610614015</flags>
+																													<onlySingleTarget>false</onlySingleTarget>
+																												</abilityFilter>
+																												<add>
+																													<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+																													<returnType>float</returnType>
+																													<sString>0.0f</sString>
+																												</add>
+																												<applyTarget>ApplicatorTarget</applyTarget>
+																												<checkSender>2</checkSender>
+																												<damageTypeFilter>27</damageTypeFilter>
+																												<flags>0</flags>
+																												<matchTargetInverted>false</matchTargetInverted>
+																												<mul>
+																													<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+																													<returnType>float</returnType>
+																													<sString>0.0f</sString>
+																												</mul>
+																												<objectFilter>536871360</objectFilter>
+																												<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
+																												<spell href="" />
+																												<treatDelegatedByDelegator>false</treatDelegatedByDelegator>
+																											</EventProcessorDamageTransformer>
+																										</processor>
+																										<providerName></providerName>
+																										<startCondition>
+																											<compiledString></compiledString>
+																											<returnType>bool</returnType>
+																											<sString>true</sString>
+																										</startCondition>
+																										<useAbilityCooldown>false</useAbilityCooldown>
+																										<useAbilityOwnerMana>false</useAbilityOwnerMana>
+																									</TriggerApplicator>
+																								</Item>
+																								<Item href="/Items/Talents/Class/Chicken/Ability_A0.TALENT" id="D94F1BF4-85C3-4E6C-A527-BE32FF4AEAA3">
+																									<TriggerApplicator>
+																										<actionsCount>
+																											<compiledString></compiledString>
+																											<returnType>int</returnType>
+																											<sString>0</sString>
+																										</actionsCount>
+																										<applyTarget>ApplicatorTarget</applyTarget>
+																										<behaviorFlags>1</behaviorFlags>
+																										<caption>Меняем входящий урон от вышек два</caption>
+																										<effect>
+																											<Item href="" />
+																											<Item href="" />
+																										</effect>
+																										<enabled>
+																											<compiledString></compiledString>
+																											<returnType>bool</returnType>
+																											<sString>true</sString>
+																										</enabled>
+																										<formulaName>Ward</formulaName>
+																										<lifeTime>
+																											<compiledString></compiledString>
+																											<returnType>float</returnType>
+																											<sString>-1.0</sString>
+																										</lifeTime>
+																										<LoggingEvent>-1</LoggingEvent>
+																										<playAck>false</playAck>
+																										<processor href="/Items/Talents/Class/Chicken/Ability_A0.TALENT" id="F4E05DD4-F403-4AA4-9B4B-253CEDD9B55F">
+																											<EventProcessorDamageTransformer>
+																												<abilityFilter>
+																													<abilitiesList />
+																													<abilityCondition>
+																														<compiledString></compiledString>
+																														<returnType>bool</returnType>
+																														<sString>true</sString>
+																													</abilityCondition>
+																													<abilityCostMode>Any</abilityCostMode>
+																													<exceptThis>false</exceptThis>
+																													<flags>1610614015</flags>
+																													<onlySingleTarget>false</onlySingleTarget>
+																												</abilityFilter>
+																												<add>
+																													<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAB6RA==</compiledString>
+																													<returnType>float</returnType>
+																													<sString>1000.0f</sString>
+																												</add>
+																												<applyTarget>ApplicatorTarget</applyTarget>
+																												<checkSender>2</checkSender>
+																												<damageTypeFilter>7</damageTypeFilter>
+																												<flags>0</flags>
+																												<matchTargetInverted>false</matchTargetInverted>
+																												<mul>
+																													<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+																													<returnType>float</returnType>
+																													<sString>0.0f</sString>
+																												</mul>
+																												<objectFilter>536871360</objectFilter>
+																												<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
+																												<spell href="" />
+																												<treatDelegatedByDelegator>false</treatDelegatedByDelegator>
+																											</EventProcessorDamageTransformer>
+																										</processor>
+																										<providerName></providerName>
+																										<startCondition>
+																											<compiledString></compiledString>
+																											<returnType>bool</returnType>
+																											<sString>true</sString>
+																										</startCondition>
+																										<useAbilityCooldown>false</useAbilityCooldown>
+																										<useAbilityOwnerMana>false</useAbilityOwnerMana>
+																									</TriggerApplicator>
 																								</Item>
 																							</applicators>
 																							<applyTarget>AbilityOwner</applyTarget>

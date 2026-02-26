@@ -4,214 +4,6 @@
 	<attached>
 		<Item>
 			<attachFlags>15</attachFlags>
-			<component href="/Effects/Debuffs/DoT/_EnemyCycleBlue.PRXY" id="3147787E-AA3D-4E66-AEFD-CD7C63E5A31B">
-				<DBStaticSceneComponent>
-					<aabb>
-						<maxX>0.5</maxX>
-						<maxY>0.5</maxY>
-						<maxZ>6</maxZ>
-						<minX>-0.5</minX>
-						<minY>-0.5</minY>
-						<minZ>-6</minZ>
-					</aabb>
-					<attached />
-					<caption>decal_01</caption>
-					<geometryFileName>/Effects/Debuffs/DoT/_AllyCycledecal_01.stat</geometryFileName>
-					<groupFlags>0</groupFlags>
-					<locatorList href="" />
-					<materialsReferences>
-						<Item href="/Effects/Debuffs/DoT/_EnemyCycleBlue.PRXY" id="D0A10E8B-32D1-45C8-BBA1-90C04A4F6068">
-							<DecalMaterial>
-								<AccessibilityPinValue>None</AccessibilityPinValue>
-								<caption>Flash01Gold_1Material</caption>
-								<DecalPlanePinValue>Present</DecalPlanePinValue>
-								<DiffuseAdd>
-									<A>0</A>
-									<B>0</B>
-									<G>0</G>
-									<R>0</R>
-								</DiffuseAdd>
-								<DiffuseMap>
-									<samplerState>
-										<addressU>Clamp</addressU>
-										<addressV>Clamp</addressV>
-										<addressW>Clamp</addressW>
-										<magFilter>Linear</magFilter>
-										<minFilter>Linear</minFilter>
-										<mipFilter>Linear</mipFilter>
-									</samplerState>
-									<texture href="/GFX_Textures/Aura03Blue.TXTR" />
-								</DiffuseMap>
-								<DiffuseMul>
-									<A>1</A>
-									<B>0.8</B>
-									<G>0.8</G>
-									<R>0.8</R>
-								</DiffuseMul>
-								<distortion>1</distortion>
-								<DistortionPinValue>None</DistortionPinValue>
-								<ignoreRenderState>false</ignoreRenderState>
-								<opacity>1</opacity>
-								<OpacityAndEmissiveModePinValue>BlendOpacity</OpacityAndEmissiveModePinValue>
-								<putOnWater>false</putOnWater>
-								<radius>0.5</radius>
-								<renderState>
-									<alphaTest>Off</alphaTest>
-									<alphaTestRef>0</alphaTestRef>
-									<blendMode>LerpByAlpha</blendMode>
-									<culling>On</culling>
-								</renderState>
-								<SubPriority>0</SubPriority>
-							</DecalMaterial>
-						</Item>
-					</materialsReferences>
-					<mayaFileName>/Effects/Debuffs/DoT/_AllyCycledecal_01.mayaStat</mayaFileName>
-					<orientation>Default</orientation>
-					<selection>decal_01</selection>
-					<srcFileName crc="0">/Effects/Debuffs/DoT/_AllyCycle.mb</srcFileName>
-					<uvSetCount>1</uvSetCount>
-				</DBStaticSceneComponent>
-			</component>
-			<events href="" />
-			<id></id>
-			<locatorName></locatorName>
-			<placement>
-				<pos>
-					<x>0</x>
-					<y>0</y>
-					<z>0</z>
-				</pos>
-				<rot>
-					<w>1</w>
-					<x>0</x>
-					<y>0</y>
-					<z>0</z>
-				</rot>
-				<scale>
-					<x>4.2</x>
-					<y>15</y>
-					<z>4.2</z>
-				</scale>
-			</placement>
-			<timeController href="/Effects/Debuffs/DoT/_EnemyCycleBlue.PRXY" id="3204B3D6-744D-45CC-89FF-FD6A3F63EB51">
-				<TimeController>
-					<cycleCount>0</cycleCount>
-					<cycleLength>0</cycleLength>
-					<fadein>0</fadein>
-					<fadeout>0</fadeout>
-					<firstCycleOffset>0</firstCycleOffset>
-					<firstCycleOffsetDelta>0</firstCycleOffsetDelta>
-					<speed>1</speed>
-					<startDelay>0</startDelay>
-				</TimeController>
-			</timeController>
-		</Item>
-		<Item>
-			<attachFlags>15</attachFlags>
-			<component href="/Effects/Debuffs/DoT/_EnemyCycleBlue.PRXY" id="4B3C5F83-8CD7-4A46-9D06-24E08CCBC2AB">
-				<DBStaticSceneComponent>
-					<aabb>
-						<maxX>0.5</maxX>
-						<maxY>0.5</maxY>
-						<maxZ>6</maxZ>
-						<minX>-0.5</minX>
-						<minY>-0.5</minY>
-						<minZ>-6</minZ>
-					</aabb>
-					<attached />
-					<caption>decal_01</caption>
-					<geometryFileName>/Effects/Debuffs/DoT/_AllyCycledecal_01.stat</geometryFileName>
-					<groupFlags>0</groupFlags>
-					<locatorList href="" />
-					<materialsReferences>
-						<Item href="/Effects/Debuffs/DoT/_EnemyCycleBlue.PRXY" id="9A64E75C-2486-4577-855C-D667ACAF79EC">
-							<DecalMaterial>
-								<AccessibilityPinValue>None</AccessibilityPinValue>
-								<caption>Flash01Gold_1Material</caption>
-								<DecalPlanePinValue>Present</DecalPlanePinValue>
-								<DiffuseAdd>
-									<A>0</A>
-									<B>0</B>
-									<G>0</G>
-									<R>0</R>
-								</DiffuseAdd>
-								<DiffuseMap>
-									<samplerState>
-										<addressU>Clamp</addressU>
-										<addressV>Clamp</addressV>
-										<addressW>Clamp</addressW>
-										<magFilter>Linear</magFilter>
-										<minFilter>Linear</minFilter>
-										<mipFilter>Linear</mipFilter>
-									</samplerState>
-									<texture href="/GFX_Textures/Aura03Blue.TXTR" />
-								</DiffuseMap>
-								<DiffuseMul>
-									<A>1</A>
-									<B>0.8</B>
-									<G>0.8</G>
-									<R>0.8</R>
-								</DiffuseMul>
-								<distortion>1</distortion>
-								<DistortionPinValue>None</DistortionPinValue>
-								<ignoreRenderState>false</ignoreRenderState>
-								<opacity>1</opacity>
-								<OpacityAndEmissiveModePinValue>BlendOpacity</OpacityAndEmissiveModePinValue>
-								<putOnWater>false</putOnWater>
-								<radius>0.5</radius>
-								<renderState>
-									<alphaTest>Off</alphaTest>
-									<alphaTestRef>0</alphaTestRef>
-									<blendMode>LerpByAlpha</blendMode>
-									<culling>On</culling>
-								</renderState>
-								<SubPriority>0</SubPriority>
-							</DecalMaterial>
-						</Item>
-					</materialsReferences>
-					<mayaFileName>/Effects/Debuffs/DoT/_AllyCycledecal_01.mayaStat</mayaFileName>
-					<orientation>Default</orientation>
-					<selection>decal_01</selection>
-					<srcFileName crc="0">/Effects/Debuffs/DoT/_AllyCycle.mb</srcFileName>
-					<uvSetCount>1</uvSetCount>
-				</DBStaticSceneComponent>
-			</component>
-			<events href="" />
-			<id></id>
-			<locatorName></locatorName>
-			<placement>
-				<pos>
-					<x>0</x>
-					<y>0</y>
-					<z>0</z>
-				</pos>
-				<rot>
-					<w>1</w>
-					<x>0</x>
-					<y>0</y>
-					<z>0</z>
-				</rot>
-				<scale>
-					<x>2.4</x>
-					<y>9</y>
-					<z>2.4</z>
-				</scale>
-			</placement>
-			<timeController href="/Effects/Debuffs/DoT/_EnemyCycleBlue.PRXY" id="6E9C3178-C993-49F5-B3FD-1EEC8DE5BC19">
-				<TimeController>
-					<cycleCount>0</cycleCount>
-					<cycleLength>0</cycleLength>
-					<fadein>0</fadein>
-					<fadeout>0</fadeout>
-					<firstCycleOffset>0</firstCycleOffset>
-					<firstCycleOffsetDelta>0</firstCycleOffsetDelta>
-					<speed>1</speed>
-					<startDelay>0</startDelay>
-				</TimeController>
-			</timeController>
-		</Item>
-		<Item>
-			<attachFlags>15</attachFlags>
 			<component href="/Effects/Debuffs/DoT/_EnemyCycleBlue.PRXY" id="A07196B8-F515-433E-A53A-BCB807A87BDA">
 				<DBParticleSceneComponent>
 					<aabb>
@@ -242,7 +34,7 @@
 									<R>0</R>
 								</Add>
 								<Multiplier>
-									<A>0.9</A>
+									<A>0.1</A>
 									<B>1</B>
 									<G>0</G>
 									<R>0</R>
@@ -336,9 +128,9 @@
 					<z>0</z>
 				</rot>
 				<scale>
-					<x>0.6</x>
-					<y>2</y>
-					<z>3</z>
+					<x>0.5</x>
+					<y>1.8</y>
+					<z>2.7</z>
 				</scale>
 			</placement>
 			<timeController href="/Effects/Debuffs/DoT/_EnemyCycleBlue.PRXY" id="43736D1E-59C9-419F-8B43-712ABA442478">
@@ -381,15 +173,15 @@
 							<DiffuseMap>
 								<Add>
 									<A>0</A>
-									<B>4</B>
-									<G>2</G>
-									<R>2</R>
+									<B>100</B>
+									<G>50</G>
+									<R>1</R>
 								</Add>
 								<Multiplier>
-									<A>1</A>
-									<B>1</B>
-									<G>1</G>
-									<R>1</R>
+									<A>0.3</A>
+									<B>0</B>
+									<G>0</G>
+									<R>0</R>
 								</Multiplier>
 								<samplerState>
 									<addressU>Wrap</addressU>
@@ -417,10 +209,10 @@
 									</Texture>
 								</texture>
 							</DiffuseMap>
-							<distortion>0</distortion>
-							<DistortionPinValue>Present</DistortionPinValue>
+							<distortion>1</distortion>
+							<DistortionPinValue>None</DistortionPinValue>
 							<ignoreRenderState>false</ignoreRenderState>
-							<opacity>1</opacity>
+							<opacity>2</opacity>
 							<OpacityAndEmissiveModePinValue>Simple</OpacityAndEmissiveModePinValue>
 							<renderState>
 								<alphaTest>Off</alphaTest>

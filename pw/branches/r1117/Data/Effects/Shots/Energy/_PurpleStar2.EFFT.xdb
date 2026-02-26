@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BasicEffectStandalone>
+	<BackLink DBID="/Heroes/Banshee/_.HROB" Count="2" />
+	<component href="/Effects/Shots/Energy/_PurpleStarTRS.PRXY" />
+	<deathType>Manual</deathType>
+	<enableCondition href="/Effects/Shots/Energy/_PurpleStar2.EFFT" id="4717F7FB-079A-4785-97ED-A5DEC24EC745">
+		<ConditionFormula>
+			<condition>
+				<compiledString>FQsAAAABAAAADwAAAGJhbnNoZWVfUzIAVYvsaAAAAACLRQiLEItNCIuC6AEAAP/QXcM=</compiledString>
+				<returnType>bool</returnType>
+				<sString>sender.IsSkinUsed("banshee_S2")</sString>
+			</condition>
+			<name></name>
+		</ConditionFormula>
+	</enableCondition>
+	<fadeIn>0</fadeIn>
+	<fadeOut>0</fadeOut>
+	<isVisibleUnderWarfog>false</isVisibleUnderWarfog>
+	<lifeTime>0</lifeTime>
+	<parentFlags>0</parentFlags>
+	<parentType>General</parentType>
+	<visibilityLimited>false</visibilityLimited>
+	<visibleTime>0</visibleTime>
+</BasicEffectStandalone>

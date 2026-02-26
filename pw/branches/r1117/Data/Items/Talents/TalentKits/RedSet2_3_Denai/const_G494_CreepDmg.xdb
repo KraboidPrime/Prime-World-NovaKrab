@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Level1/G494_LifeDrain.TALENT" Count="1" />
 	<name>G494_CreepBonusDmg</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAWRA==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAD6Qw==</compiledString>
 		<returnType>float</returnType>
-		<sString>600</sString>
+		<sString>500</sString>
 	</var>
 </UnitConstant>

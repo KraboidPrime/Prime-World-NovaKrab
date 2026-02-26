@@ -55,6 +55,16 @@
 			<vars>
 				<Item href="/Items/Talents/Class/MagicGirl/const_A2_SUP_BonusCount" />
 				<Item href="/Items/Talents/Class/MagicGirl/const_A2_SUP_DmgReduction" />
+				<Item href="/Items/Talents/Class/MagicGirl/Ability_A2_SUP.TALENT" id="6A2E42DE-5BB9-4A2A-8E17-78A9BEC6F21A">
+					<UnitConstant>
+						<name>RegenBuffNew</name>
+						<var>
+							<compiledString>FQAAAAACAAAANgAAADwAAABVi+xRi0UIixCLTQiLgjABAAD/0FHZHCSLTQiLEYtNCIuCNAEAAP/QUdkcJOgpAAAAg8QI3A1SAAAA3CVKAAAA2V382UX8i+VdwwAAAAAAAPA/AAAAQOF6pD9Vi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
+							<returnType>float</returnType>
+							<sString>0.04f*max(sIntellect, sStrength) - 1</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

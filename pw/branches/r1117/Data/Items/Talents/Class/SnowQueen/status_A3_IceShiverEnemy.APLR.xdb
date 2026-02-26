@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StatusApplicator>
-	<BackLink DBID="/Items/Talents/Class/SnowQueen/Ability_A3.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/SnowQueen/Ability_A3.TALENT" Count="2" />
 	<applicators>
 		<Item href="/Items/Talents/Class/SnowQueen/status_A3_IceShiverEnemy.APLR" id="4CC8843B-F035-4A49-865F-B6AA277C8EFF">
 			<SpellPeriodicallyApplicator>

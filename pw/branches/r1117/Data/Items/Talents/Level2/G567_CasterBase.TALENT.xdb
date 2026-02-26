@@ -595,7 +595,6 @@
 					<Item href="/Items/Talents/Class/Brewer/Ability_A4.TALENT" />
 					<Item href="/Items/Talents/Class/Brewer/Ability_A2u.TALENT" />
 					<Item href="/Items/Talents/Class/MagicGirl/Ability_A4_2.TALENT" />
-					<Item href="/Items/Talents/Class/MagicGirl/Ability_A4.TALENT" />
 					<Item href="/Items/Talents/Class/MagicGirl/Ability_A2.TALENT" />
 					<Item href="/Items/Talents/Class/Shadow/Ability_A1.TALENT" />
 					<Item href="/Items/Talents/Class/Shadow/Ability_A3.TALENT" />
@@ -622,6 +621,7 @@
 					<Item href="/Items/Talents/Class/Healer/Ability1.TALENT" />
 					<Item href="/Items/Talents/Class/Healer/Ability4.TALENT" />
 					<Item href="/Items/Talents/Class/PinkGirl/Ability_A4_2.TALENT" />
+					<Item href="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" />
 				</talents>
 				<targetAbility>TalentFromList</targetAbility>
 				<useListAs>ListAsRule</useListAs>
@@ -683,7 +683,7 @@
 				<talents>
 					<Item href="/Items/Talents/Class/Chronicle/Ability_A0.TALENT" />
 					<Item href="/Items/Talents/Class/WitchDoctor/Ability2.TALENT" />
-					<Item href="/Items/Talents/Class/Brewer/Ability_A0.TALENT" />
+					<Item href="/Items/Talents/Class/Brewer/Ability_A4_2u.TALENT" />
 				</talents>
 				<targetAbility>TalentFromList</targetAbility>
 				<useListAs>ListAsRule</useListAs>

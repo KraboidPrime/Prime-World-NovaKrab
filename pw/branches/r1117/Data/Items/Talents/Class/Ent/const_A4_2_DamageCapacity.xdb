@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Class/Ent/Ability_A4_2u.TALENT" Count="1" />
 	<name>A4_2_DamageCapacity</name>
 	<var>
-		<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACMQgBAA0Q=</compiledString>
+		<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCuAAAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAADSQgAARUQ=</compiledString>
 		<returnType>float</returnType>
-		<sString>damageScale(sStrength, 70, 525 )</sString>
+		<sString>damageScale(sBaseStrength, 105, 788 )</sString>
 	</var>
 </UnitConstant>

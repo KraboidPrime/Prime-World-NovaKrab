@@ -72,9 +72,9 @@
 	<maxDistance>14</maxDistance>
 	<maxHeight>6</maxHeight>
 	<moveSpeed>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQQ==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAMQg==</compiledString>
 		<returnType>float</returnType>
-		<sString>25</sString>
+		<sString>35</sString>
 	</moveSpeed>
 	<providerName></providerName>
 	<startSpell href="" />

@@ -119,9 +119,9 @@
 					<UnitConstant>
 						<name>Add_Stat</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACQQQ==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACIQQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>18</sString>
+							<sString>17</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -147,7 +147,7 @@
 	<dispatch href="" />
 	<flags>3</flags>
 	<forceBonus>16</forceBonus>
-	<image href="/UI/Styles/Icons/Talents/TUE_Abrasive9.ITEX" />
+	<image href="/UI/Styles/Icons/Talents/TUE_Abrasive8.ITEX" />
 	<imageSecondState href="" />
 	<isGenderTalent>false</isGenderTalent>
 	<isTakenOnStart>false</isTakenOnStart>

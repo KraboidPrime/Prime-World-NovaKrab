@@ -375,9 +375,9 @@
 																				<Item href="" />
 																			</effect>
 																			<enabled>
-																				<compiledString>FS0AAAAHAAAAMgAAAEgAAABUAAAAagAAAHYAAACMAAAAngAAAEltbXVuZTJDb250cm9sAABUcmFuc2Zvcm1lZABHNFlhR2hvc3QAAABXYXJkAFWL7FFoAAAAAItFDIsQi00Mi4KIAQAA/9DcHdYAAADf4PbERHptaBAAAACLTQyLEYtNDIuCiAEAAP/Q3B3WAAAA3+D2xER7ImgcAAAAi00MixGLTQyLgogBAAD/0NwdzgAAAN/g9sREeilqAItNEFFoKAAAAItVDIsCi00Mi5CcAQAA/9I7RRB1CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAA8D8AAAAAAAAAAA==</compiledString>
+																				<compiledString>FUEAAAALAAAARgAAAFwAAABsAAAAggAAAI4AAACkAAAAsAAAAMYAAADSAAAA6AAAAPoAAABJbW11bmUyQ29udHJvbAAAVHJhbnNmb3JtZWQARzRZYUdob3N0AAAAQmlnRm9ybQBCaWdNYWdlRm9ybQBXYXJkAFWL7FFoAAAAAItFDIsQi00Mi4KIAQAA/9DcHTIBAADf4PbERA+KsQAAAGgQAAAAi00MixGLTQyLgogBAAD/0NwdMgEAAN/g9sREe2ZoHAAAAItNDIsRi00Mi4KIAQAA/9DcHSoBAADf4PbERHtEaCgAAACLTQyLEYtNDIuCiAEAAP/Q3B0qAQAA3+D2xER7ImgwAAAAi00MixGLTQyLgogBAAD/0NwdKgEAAN/g9sREeilqAItNEFFoPAAAAItVDIsCi00Mi5CcAQAA/9I7RRB1CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAA8D8AAAAAAAAAAA==</compiledString>
 																				<returnType>bool</returnType>
-																				<sString>receiver.vImmune2Control == 0 &amp;&amp; (receiver.vTransformed == 0 || receiver.vG4YaGhost == 1.0f) &amp;&amp; receiver.applWard(GLOBAL) == pMisc</sString>
+																				<sString>receiver.vImmune2Control == 0 &amp;&amp; (receiver.vTransformed == 0 || receiver.vG4YaGhost == 1.0f || receiver.vBigForm == 1.0f || receiver.vBigMageForm == 1.0f) &amp;&amp; receiver.applWard(GLOBAL) == pMisc</sString>
 																			</enabled>
 																			<formulaName></formulaName>
 																			<isMoveDirect>
@@ -429,9 +429,9 @@
 																				<Item href="" />
 																			</effect>
 																			<enabled>
-																				<compiledString>FS0AAAAHAAAAMgAAAEgAAABUAAAAagAAAHYAAACMAAAAngAAAEltbXVuZTJDb250cm9sAABUcmFuc2Zvcm1lZABHNFlhR2hvc3QAAABXYXJkAFWL7FFoAAAAAItFDIsQi00Mi4KIAQAA/9DcHdYAAADf4PbERHptaBAAAACLTQyLEYtNDIuCiAEAAP/Q3B3WAAAA3+D2xER7ImgcAAAAi00MixGLTQyLgogBAAD/0NwdzgAAAN/g9sREeilqAItNEFFoKAAAAItVDIsCi00Mi5CcAQAA/9I7RRB1CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAA8D8AAAAAAAAAAA==</compiledString>
+																				<compiledString>FUEAAAALAAAARgAAAFwAAABsAAAAggAAAI4AAACkAAAAsAAAAMYAAADSAAAA6AAAAPoAAABJbW11bmUyQ29udHJvbAAAVHJhbnNmb3JtZWQARzRZYUdob3N0AAAAQmlnRm9ybQBCaWdNYWdlRm9ybQBXYXJkAFWL7FFoAAAAAItFDIsQi00Mi4KIAQAA/9DcHTIBAADf4PbERA+KsQAAAGgQAAAAi00MixGLTQyLgogBAAD/0NwdMgEAAN/g9sREe2ZoHAAAAItNDIsRi00Mi4KIAQAA/9DcHSoBAADf4PbERHtEaCgAAACLTQyLEYtNDIuCiAEAAP/Q3B0qAQAA3+D2xER7ImgwAAAAi00MixGLTQyLgogBAAD/0NwdKgEAAN/g9sREeilqAItNEFFoPAAAAItVDIsCi00Mi5CcAQAA/9I7RRB1CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAA8D8AAAAAAAAAAA==</compiledString>
 																				<returnType>bool</returnType>
-																				<sString>receiver.vImmune2Control == 0 &amp;&amp; (receiver.vTransformed == 0 || receiver.vG4YaGhost == 1.0f) &amp;&amp; receiver.applWard(GLOBAL) == pMisc</sString>
+																				<sString>receiver.vImmune2Control == 0 &amp;&amp; (receiver.vTransformed == 0 || receiver.vG4YaGhost == 1.0f || receiver.vBigForm == 1.0f || receiver.vBigMageForm == 1.0f) &amp;&amp; receiver.applWard(GLOBAL) == pMisc</sString>
 																			</enabled>
 																			<formulaName></formulaName>
 																			<lifeTime>
@@ -442,9 +442,9 @@
 																			<LoggingEvent>-1</LoggingEvent>
 																			<modifier>
 																				<addValue>
-																					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQQ==</compiledString>
+																					<compiledString>FQ4AAAADAAAAEwAAACkAAAA9AAAARzEyOXBhcmtpbnNvbgBVi+xRaAAAAACLRQyLEItNDIuCiAEAAP/Q3B1TAAAA3+D2xEF1B9nu2V386wnZBUsAAADZXfzZRfyL5V3DAADIQQAAAAAAAAAAAADgPw==</compiledString>
 																					<returnType>float</returnType>
-																					<sString>25.0f</sString>
+																					<sString>receiver.vG129parkinson &gt; 0.5 ? 0.0f : 25.0f</sString>
 																				</addValue>
 																				<multValue>
 																					<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
@@ -475,9 +475,9 @@
 																				<Item href="" />
 																			</effect>
 																			<enabled>
-																				<compiledString>FS0AAAAHAAAAMgAAAEgAAABUAAAAagAAAHYAAACMAAAAngAAAEltbXVuZTJDb250cm9sAABUcmFuc2Zvcm1lZABHNFlhR2hvc3QAAABXYXJkAFWL7FFoAAAAAItFDIsQi00Mi4KIAQAA/9DcHdYAAADf4PbERHptaBAAAACLTQyLEYtNDIuCiAEAAP/Q3B3WAAAA3+D2xER7ImgcAAAAi00MixGLTQyLgogBAAD/0NwdzgAAAN/g9sREeilqAItNEFFoKAAAAItVDIsCi00Mi5CcAQAA/9I7RRB1CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAA8D8AAAAAAAAAAA==</compiledString>
+																				<compiledString>FUEAAAALAAAARgAAAFwAAABsAAAAggAAAI4AAACkAAAAsAAAAMYAAADSAAAA6AAAAPoAAABJbW11bmUyQ29udHJvbAAAVHJhbnNmb3JtZWQARzRZYUdob3N0AAAAQmlnRm9ybQBCaWdNYWdlRm9ybQBXYXJkAFWL7FFoAAAAAItFDIsQi00Mi4KIAQAA/9DcHTIBAADf4PbERA+KsQAAAGgQAAAAi00MixGLTQyLgogBAAD/0NwdMgEAAN/g9sREe2ZoHAAAAItNDIsRi00Mi4KIAQAA/9DcHSoBAADf4PbERHtEaCgAAACLTQyLEYtNDIuCiAEAAP/Q3B0qAQAA3+D2xER7ImgwAAAAi00MixGLTQyLgogBAAD/0NwdKgEAAN/g9sREeilqAItNEFFoPAAAAItVDIsCi00Mi5CcAQAA/9I7RRB1CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAA8D8AAAAAAAAAAA==</compiledString>
 																				<returnType>bool</returnType>
-																				<sString>receiver.vImmune2Control == 0 &amp;&amp; (receiver.vTransformed == 0 || receiver.vG4YaGhost == 1.0f) &amp;&amp; receiver.applWard(GLOBAL) == pMisc</sString>
+																				<sString>receiver.vImmune2Control == 0 &amp;&amp; (receiver.vTransformed == 0 || receiver.vG4YaGhost == 1.0f || receiver.vBigForm == 1.0f || receiver.vBigMageForm == 1.0f) &amp;&amp; receiver.applWard(GLOBAL) == pMisc</sString>
 																			</enabled>
 																			<flag>8914558</flag>
 																			<formulaName></formulaName>
@@ -534,9 +534,9 @@
 																				<Item href="" />
 																			</effect>
 																			<enabled>
-																				<compiledString>FTkAAAAJAAAAPgAAAFQAAABkAAAAegAAAIYAAACcAAAAqAAAAL4AAADQAAAARzEyOWNhc3RpbmcASW1tdW5lMkNvbnRyb2wAAFRyYW5zZm9ybWVkAEc0WWFHaG9zdAAAAFdhcmQAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdCAEAAN/g9sRED4qPAAAAaAwAAACLTQyLEYtNDIuCiAEAAP/Q3B0AAQAA3+D2xER6bWgcAAAAi00MixGLTQyLgogBAAD/0NwdAAEAAN/g9sREeyJoKAAAAItNDIsRi00Mi4KIAQAA/9DcHQgBAADf4PbERHopagCLTRBRaDQAAACLVQyLAotNDIuQnAEAAP/SO0UQdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAAAAAAAAAAA8D8=</compiledString>
+																				<compiledString>FU0AAAANAAAAUgAAAGgAAAB4AAAAjgAAAJ4AAAC0AAAAwAAAANYAAADiAAAA+AAAAAQBAAAaAQAALAEAAEcxMjljYXN0aW5nAEltbXVuZTJDb250cm9sAABUcmFuc2Zvcm1lZABHNFlhR2hvc3QAAABCaWdGb3JtAEJpZ01hZ2VGb3JtAFdhcmQAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdZAEAAN/g9sRED4rXAAAAaAwAAACLTQyLEYtNDIuCiAEAAP/Q3B1cAQAA3+D2xEQPirEAAABoHAAAAItNDIsRi00Mi4KIAQAA/9DcHVwBAADf4PbERHtmaCgAAACLTQyLEYtNDIuCiAEAAP/Q3B1kAQAA3+D2xER7RGg0AAAAi00MixGLTQyLgogBAAD/0NwdZAEAAN/g9sREeyJoPAAAAItNDIsRi00Mi4KIAQAA/9DcHWQBAADf4PbERHopagCLTRBRaEgAAACLVQyLAotNDIuQnAEAAP/SO0UQdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAAAAAAAAAAA8D8=</compiledString>
 																				<returnType>bool</returnType>
-																				<sString>sender.vG129casting == 1.0f &amp;&amp; receiver.vImmune2Control == 0 &amp;&amp; (receiver.vTransformed == 0 || receiver.vG4YaGhost == 1.0f) &amp;&amp; receiver.applWard(GLOBAL) == pMisc</sString>
+																				<sString>sender.vG129casting == 1.0f &amp;&amp; receiver.vImmune2Control == 0 &amp;&amp; (receiver.vTransformed == 0 || receiver.vG4YaGhost == 1.0f || receiver.vBigForm == 1.0f || receiver.vBigMageForm == 1.0f) &amp;&amp; receiver.applWard(GLOBAL) == pMisc</sString>
 																			</enabled>
 																			<formulaName></formulaName>
 																			<lifeTime>
@@ -827,6 +827,142 @@
 																</range>
 																<targetFilter>537133112</targetFilter>
 																<targetSelector href="/Items/Talents/Level1/G129_Str.TALENT" id="1F5F1961-D7D3-4B7F-8451-0F3413EEAF26">
+																	<SelectApplicatorTarget>
+																		<applicatorIndex>0</applicatorIndex>
+																		<applicatorName></applicatorName>
+																		<namedApplicatorTarget>ApplicatorTarget</namedApplicatorTarget>
+																		<selectTarget>AbilityTarget</selectTarget>
+																	</SelectApplicatorTarget>
+																</targetSelector>
+															</AreaTargetSelector>
+														</targetSelector>
+													</SpellPeriodicallyApplicator>
+												</Item>
+												<Item href="/Items/Talents/Level1/G129_Str.TALENT" id="F1FC45AA-0DE3-459F-9FC2-E7AEE15258CA">
+													<SpellPeriodicallyApplicator>
+														<applyTarget>ApplicatorTarget</applyTarget>
+														<behaviorFlags>3</behaviorFlags>
+														<caption>антипаркинсон</caption>
+														<effect>
+															<Item href="" />
+															<Item href="" />
+														</effect>
+														<enabled>
+															<compiledString>FQwAAAACAAAAEQAAACcAAABHMTI5Y2FzdGluZwBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1JAAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAA8D8=</compiledString>
+															<returnType>bool</returnType>
+															<sString>sender.vG129casting == 1.0f</sString>
+														</enabled>
+														<formulaName></formulaName>
+														<lifeTime>
+															<compiledString></compiledString>
+															<returnType>float</returnType>
+															<sString>-1.0</sString>
+														</lifeTime>
+														<LoggingEvent>-1</LoggingEvent>
+														<period>
+															<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzczMPQ==</compiledString>
+															<returnType>float</returnType>
+															<sString>0.1f</sString>
+														</period>
+														<providerName></providerName>
+														<scaleMode>ScaleIsCount</scaleMode>
+														<spell href="/Items/Talents/Level1/G129_Str.TALENT" id="D505B5E4-E066-4A9F-AA1A-2558CEC0E44F">
+															<Spell>
+																<applicators>
+																	<Item href="/Items/Talents/Level1/G129_Str.TALENT" id="39B7FD68-8594-4B1E-8FDB-CD43B6C79F88">
+																		<StatModApplicator>
+																			<applyTarget>ApplicatorTarget</applyTarget>
+																			<behaviorFlags>3</behaviorFlags>
+																			<caption>циферка</caption>
+																			<constraint>None</constraint>
+																			<dontUpdate>false</dontUpdate>
+																			<effect>
+																				<Item href="" />
+																				<Item href="" />
+																			</effect>
+																			<enabled>
+																				<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+																				<returnType>bool</returnType>
+																				<sString>true</sString>
+																			</enabled>
+																			<formulaName></formulaName>
+																			<lifeTime>
+																				<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpmZPg==</compiledString>
+																				<returnType>float</returnType>
+																				<sString>0.3f</sString>
+																			</lifeTime>
+																			<LoggingEvent>-1</LoggingEvent>
+																			<modifier>
+																				<addValue>
+																					<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+																					<returnType>float</returnType>
+																					<sString>1.0f</sString>
+																				</addValue>
+																				<multValue>
+																					<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+																					<returnType>float</returnType>
+																					<sString>0.0f</sString>
+																				</multValue>
+																				<stat>Life</stat>
+																				<topModifier>true</topModifier>
+																				<variable>G129parkinson</variable>
+																			</modifier>
+																			<providerName></providerName>
+																			<startCondition>
+																				<compiledString></compiledString>
+																				<returnType>bool</returnType>
+																				<sString>true</sString>
+																			</startCondition>
+																			<statModName></statModName>
+																		</StatModApplicator>
+																	</Item>
+																</applicators>
+																<dispatch href="/Items/Talents/Level1/G129_Str.TALENT" id="826E0FD5-A615-4429-9EA7-3B2A4F1C5363">
+																	<DispatchImmediate>
+																		<alwaysApply>false</alwaysApply>
+																		<applyEffect>
+																			<Item href="" />
+																			<Item href="" />
+																		</applyEffect>
+																		<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																		<applyEffectOrientation>Default</applyEffectOrientation>
+																		<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																		<dieAfterApply>true</dieAfterApply>
+																		<dispatchEffect>
+																			<Item href="" />
+																			<Item href="" />
+																		</dispatchEffect>
+																		<flags>0</flags>
+																		<instantApply>false</instantApply>
+																	</DispatchImmediate>
+																</dispatch>
+															</Spell>
+														</spell>
+														<startCondition>
+															<compiledString></compiledString>
+															<returnType>bool</returnType>
+															<sString>true</sString>
+														</startCondition>
+														<startOffset>
+															<compiledString></compiledString>
+															<returnType>float</returnType>
+															<sString>0.0f</sString>
+														</startOffset>
+														<targetSelector href="/Items/Talents/Level1/G129_Str.TALENT" id="1A78B99C-8C4A-4956-8315-A025FB13734D">
+															<AreaTargetSelector>
+																<absolutePosition>
+																	<x>0</x>
+																	<y>0</y>
+																</absolutePosition>
+																<flags>0</flags>
+																<mode>Normal</mode>
+																<range>
+																	<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+																	<returnType>float</returnType>
+																	<sString>1</sString>
+																</range>
+																<targetFilter>536870919</targetFilter>
+																<targetSelector href="/Items/Talents/Level1/G129_Str.TALENT" id="90EA1A37-874C-4602-A473-B5375BA1A895">
 																	<SelectApplicatorTarget>
 																		<applicatorIndex>0</applicatorIndex>
 																		<applicatorName></applicatorName>

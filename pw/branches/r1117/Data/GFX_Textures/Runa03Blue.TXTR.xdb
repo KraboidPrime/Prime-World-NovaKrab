@@ -10,6 +10,7 @@
 	<BackLink DBID="/Effects/Shots/Energy/_Orange_TRS.PRXY" Count="1" />
 	<BackLink DBID="/Effects/Shots/Energy/_RedTRS.PRXY" Count="1" />
 	<BackLink DBID="/Effects/Shots/Energy/_TRS.PRXY" Count="1" />
+	<BackLink DBID="/Effects/Shots/Energy/_BlueTRS3.PRXY" Count="1" />
 	<generatedFileName></generatedFileName>
 	<mipLevels>0</mipLevels>
 	<mipLevelUsage>AutoGenerate</mipLevelUsage>

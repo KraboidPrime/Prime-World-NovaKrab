@@ -43,7 +43,396 @@
 	</aoeSize>
 	<aoeType>None</aoeType>
 	<applicators>
-		<Item href="/Items/Talents/Class/SnowQueen/status_A3_IceShiverEnemy.APLR" />
+		<Item href="/Items/Talents/Class/SnowQueen/Ability_A3.TALENT" id="F264D708-6E71-4289-96C7-8C6D34ABC6B9">
+			<SpellSwitchApplicator>
+				<activeSpellIndex>
+					<compiledString>FQAAAAAAAAAAVYvsVotFCIsQi00Ii4KQAQAA/9CL8ItNDIsRi00Mi4KQAQAA/9AzyTvwD5XBi8FeXcM=</compiledString>
+					<returnType>int</returnType>
+					<sString>sFctn == rFctn ? 0 : 1</sString>
+				</activeSpellIndex>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption></caption>
+				<dontUseDispatches>false</dontUseDispatches>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<spells>
+					<Item href="/Items/Talents/Class/SnowQueen/Ability_A3.TALENT" id="622DB927-CD5F-42FB-81C8-0FB0FE9AEE28">
+						<Spell>
+							<applicators>
+								<Item href="/Items/Talents/Class/SnowQueen/Ability_A3.TALENT" id="ADE51D3A-F721-48AF-A9E0-707083C72134">
+									<StatusApplicator>
+										<applicators>
+											<Item href="/Items/Talents/Class/SnowQueen/Ability_A3.TALENT" id="B60B2FAC-0839-4290-AFFB-8796A5805798">
+												<TriggerApplicator>
+													<actionsCount>
+														<compiledString></compiledString>
+														<returnType>int</returnType>
+														<sString>0</sString>
+													</actionsCount>
+													<applyTarget>ApplicatorTarget</applyTarget>
+													<behaviorFlags>0</behaviorFlags>
+													<caption>обратка</caption>
+													<effect>
+														<Item href="" />
+														<Item href="" />
+													</effect>
+													<enabled>
+														<compiledString></compiledString>
+														<returnType>bool</returnType>
+														<sString>true</sString>
+													</enabled>
+													<formulaName></formulaName>
+													<lifeTime>
+														<compiledString></compiledString>
+														<returnType>float</returnType>
+														<sString>-1.0</sString>
+													</lifeTime>
+													<LoggingEvent>-1</LoggingEvent>
+													<playAck>false</playAck>
+													<processor href="/Items/Talents/Class/SnowQueen/Ability_A3.TALENT" id="24D9BBAB-E852-4588-9434-A1AA1D0E5A3E">
+														<EventProcessorDamageTransformer>
+															<abilityFilter>
+																<abilitiesList />
+																<abilityCondition>
+																	<compiledString></compiledString>
+																	<returnType>bool</returnType>
+																	<sString>true</sString>
+																</abilityCondition>
+																<abilityCostMode>Any</abilityCostMode>
+																<exceptThis>false</exceptThis>
+																<flags>1073741825</flags>
+																<onlySingleTarget>false</onlySingleTarget>
+															</abilityFilter>
+															<add>
+																<compiledString></compiledString>
+																<returnType>float</returnType>
+																<sString>0.0f</sString>
+															</add>
+															<applyTarget>ApplicatorSelectedTarget</applyTarget>
+															<checkSender>2</checkSender>
+															<damageTypeFilter>31</damageTypeFilter>
+															<flags>1</flags>
+															<matchTargetInverted>false</matchTargetInverted>
+															<mul>
+																<compiledString></compiledString>
+																<returnType>float</returnType>
+																<sString>1.0f</sString>
+															</mul>
+															<objectFilter>542965823</objectFilter>
+															<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
+															<spell href="/Items/Talents/Class/SnowQueen/A2A3_Spell.SPLL" />
+															<treatDelegatedByDelegator>false</treatDelegatedByDelegator>
+														</EventProcessorDamageTransformer>
+													</processor>
+													<providerName></providerName>
+													<startCondition>
+														<compiledString></compiledString>
+														<returnType>bool</returnType>
+														<sString>true</sString>
+													</startCondition>
+													<useAbilityCooldown>false</useAbilityCooldown>
+													<useAbilityOwnerMana>false</useAbilityOwnerMana>
+												</TriggerApplicator>
+											</Item>
+											<Item href="/Items/Talents/Class/SnowQueen/Ability_A3.TALENT" id="A639D91C-66AC-4A1F-9580-80DF3C1FFE1A">
+												<StatModApplicator>
+													<applyTarget>ApplicatorTarget</applyTarget>
+													<behaviorFlags>0</behaviorFlags>
+													<caption>реген</caption>
+													<constraint>None</constraint>
+													<dontUpdate>false</dontUpdate>
+													<effect>
+														<Item href="" />
+														<Item href="" />
+													</effect>
+													<enabled>
+														<compiledString>FR4AAAACAAAAJQAAAD4AAABTbm93UXVlZW5fQTN1AAAAU25vd1F1ZWVuX0EzdQBVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AIpF+4vlXcM=</compiledString>
+														<returnType>bool</returnType>
+														<sString>tal("SnowQueen_A3u")</sString>
+													</enabled>
+													<formulaName></formulaName>
+													<lifeTime>
+														<compiledString></compiledString>
+														<returnType>float</returnType>
+														<sString>-1.0</sString>
+													</lifeTime>
+													<LoggingEvent>-1</LoggingEvent>
+													<modifier>
+														<addValue>
+															<compiledString>FQcAAAABAAAAEwAAAEEyX1JlZwBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+															<returnType>float</returnType>
+															<sString>cA2_Reg</sString>
+														</addValue>
+														<multValue>
+															<compiledString></compiledString>
+															<returnType>float</returnType>
+															<sString>1.0f</sString>
+														</multValue>
+														<stat>LifeRegenerationAbsolute</stat>
+														<topModifier>false</topModifier>
+														<variable></variable>
+													</modifier>
+													<providerName></providerName>
+													<startCondition>
+														<compiledString></compiledString>
+														<returnType>bool</returnType>
+														<sString>true</sString>
+													</startCondition>
+													<statModName></statModName>
+												</StatModApplicator>
+											</Item>
+										</applicators>
+										<applyTarget>ApplicatorTarget</applyTarget>
+										<behaviorFlags>145</behaviorFlags>
+										<caption>осколок льда (на союзника)</caption>
+										<customCounter>
+											<compiledString></compiledString>
+											<returnType>int</returnType>
+											<sString>0</sString>
+										</customCounter>
+										<customProgress>
+											<compiledString></compiledString>
+											<returnType>float</returnType>
+											<sString>-1.0</sString>
+										</customProgress>
+										<description textref="/Items/Talents/Class/SnowQueen/Ability_A3.TALENT_ade51d3af72148afa9e0707083c72134_description.txt" />
+										<dispellPriority>Medium</dispellPriority>
+										<effect>
+											<Item href="/Effects/Debuffs/Crystal/_Ally.EFFT" />
+											<Item href="" />
+										</effect>
+										<enabled>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</enabled>
+										<flags>0</flags>
+										<formulaName></formulaName>
+										<image href="/UI/Styles/Icons/Heroes/SnowQueen/A3.ITEX" />
+										<lifeTime>
+											<compiledString>FQwAAAABAAAAGAAAAEEzX0R1cmF0aW9uAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+											<returnType>float</returnType>
+											<sString>cA3_Duration</sString>
+										</lifeTime>
+										<LoggingEvent>-1</LoggingEvent>
+										<name textref="/Items/Talents/Class/SnowQueen/Ability_A3.TALENT_ade51d3af72148afa9e0707083c72134_name.txt" />
+										<power>0</power>
+										<providerName></providerName>
+										<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+										<stackCount>0</stackCount>
+										<startCondition>
+											<compiledString>FSkAAAAEAAAAMAAAAEYAAABSAAAAawAAAElhbUNyeW8yMDI2AFNub3dRdWVlbl9BMgAAAABTbm93UXVlZW5fQTIAVYvsg+wMaAAAAACLRQyLEItNDIuCiAEAAP/Q3B23AAAA3+D2xER6WGgMAAAAi00IixGLTQiLgqgBAAD/0IXAdCpoHAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdAnHRfQAAAAA6wfHRfQBAAAAikX0i+VdwwAAAAAAAPA/</compiledString>
+											<returnType>bool</returnType>
+											<sString>!(receiver.vIamCryo2026 == 1.0f &amp;&amp; tal("SnowQueen_A2"))</sString>
+										</startCondition>
+										<statusPosition>0</statusPosition>
+										<stopBehaviour>StopByTime</stopBehaviour>
+										<unstackableWith href="" />
+									</StatusApplicator>
+								</Item>
+								<Item href="/Items/Talents/Class/SnowQueen/Ability_A3.TALENT" id="6EA8F783-5AB3-4B6A-AB21-6B641C2C1EC2">
+									<StatusApplicator>
+										<applicators>
+											<Item href="/Items/Talents/Class/SnowQueen/Ability_A3.TALENT" id="01DE0249-5335-4CA5-B4C4-BEF6D871A3C3">
+												<StatModApplicator>
+													<applyTarget>ApplicatorTarget</applyTarget>
+													<behaviorFlags>0</behaviorFlags>
+													<caption>баф своей обратки</caption>
+													<constraint>None</constraint>
+													<dontUpdate>false</dontUpdate>
+													<effect>
+														<Item href="" />
+														<Item href="" />
+													</effect>
+													<enabled>
+														<compiledString></compiledString>
+														<returnType>bool</returnType>
+														<sString>true</sString>
+													</enabled>
+													<formulaName></formulaName>
+													<lifeTime>
+														<compiledString></compiledString>
+														<returnType>float</returnType>
+														<sString>-1.0</sString>
+													</lifeTime>
+													<LoggingEvent>-1</LoggingEvent>
+													<modifier>
+														<addValue>
+															<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+															<returnType>float</returnType>
+															<sString>1.0f</sString>
+														</addValue>
+														<multValue>
+															<compiledString></compiledString>
+															<returnType>float</returnType>
+															<sString>1.0f</sString>
+														</multValue>
+														<stat>Life</stat>
+														<topModifier>false</topModifier>
+														<variable>A3SelfCryo</variable>
+													</modifier>
+													<providerName></providerName>
+													<startCondition>
+														<compiledString></compiledString>
+														<returnType>bool</returnType>
+														<sString>true</sString>
+													</startCondition>
+													<statModName></statModName>
+												</StatModApplicator>
+											</Item>
+											<Item href="/Items/Talents/Class/SnowQueen/Ability_A3.TALENT" id="BEA4788F-054C-4C00-BFB0-0CF633B38824">
+												<StatModApplicator>
+													<applyTarget>ApplicatorTarget</applyTarget>
+													<behaviorFlags>0</behaviorFlags>
+													<caption>реген</caption>
+													<constraint>None</constraint>
+													<dontUpdate>false</dontUpdate>
+													<effect>
+														<Item href="" />
+														<Item href="" />
+													</effect>
+													<enabled>
+														<compiledString>FR4AAAACAAAAJQAAAD4AAABTbm93UXVlZW5fQTN1AAAAU25vd1F1ZWVuX0EzdQBVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AIpF+4vlXcM=</compiledString>
+														<returnType>bool</returnType>
+														<sString>tal("SnowQueen_A3u")</sString>
+													</enabled>
+													<formulaName></formulaName>
+													<lifeTime>
+														<compiledString></compiledString>
+														<returnType>float</returnType>
+														<sString>-1.0</sString>
+													</lifeTime>
+													<LoggingEvent>-1</LoggingEvent>
+													<modifier>
+														<addValue>
+															<compiledString>FQcAAAABAAAAEwAAAEEyX1JlZwBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+															<returnType>float</returnType>
+															<sString>cA2_Reg</sString>
+														</addValue>
+														<multValue>
+															<compiledString></compiledString>
+															<returnType>float</returnType>
+															<sString>1.0f</sString>
+														</multValue>
+														<stat>LifeRegenerationAbsolute</stat>
+														<topModifier>false</topModifier>
+														<variable></variable>
+													</modifier>
+													<providerName></providerName>
+													<startCondition>
+														<compiledString></compiledString>
+														<returnType>bool</returnType>
+														<sString>true</sString>
+													</startCondition>
+													<statModName></statModName>
+												</StatModApplicator>
+											</Item>
+										</applicators>
+										<applyTarget>ApplicatorTarget</applyTarget>
+										<behaviorFlags>145</behaviorFlags>
+										<caption>осколок льда (на себя)</caption>
+										<customCounter>
+											<compiledString></compiledString>
+											<returnType>int</returnType>
+											<sString>0</sString>
+										</customCounter>
+										<customProgress>
+											<compiledString></compiledString>
+											<returnType>float</returnType>
+											<sString>-1.0</sString>
+										</customProgress>
+										<description textref="/Items/Talents/Class/SnowQueen/Ability_A3.TALENT_6ea8f7835ab34b6aab216b641c2c1ec2_description.txt" />
+										<dispellPriority>Medium</dispellPriority>
+										<effect>
+											<Item href="" />
+											<Item href="" />
+										</effect>
+										<enabled>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</enabled>
+										<flags>0</flags>
+										<formulaName></formulaName>
+										<image href="/UI/Styles/Icons/Heroes/SnowQueen/A3.ITEX" />
+										<lifeTime>
+											<compiledString>FQwAAAABAAAAGAAAAEEzX0R1cmF0aW9uAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+											<returnType>float</returnType>
+											<sString>cA3_Duration</sString>
+										</lifeTime>
+										<LoggingEvent>-1</LoggingEvent>
+										<name textref="/Items/Talents/Class/SnowQueen/Ability_A3.TALENT_6ea8f7835ab34b6aab216b641c2c1ec2_name.txt" />
+										<power>0</power>
+										<providerName></providerName>
+										<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+										<stackCount>0</stackCount>
+										<startCondition>
+											<compiledString>FSkAAAAEAAAAMAAAAEYAAABSAAAAawAAAElhbUNyeW8yMDI2AFNub3dRdWVlbl9BMgAAAABTbm93UXVlZW5fQTIAVYvsg+wMaAAAAACLRQyLEItNDIuCiAEAAP/Q3B23AAAA3+D2xER6WGgMAAAAi00IixGLTQiLgqgBAAD/0IXAdCpoHAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdAnHRfQBAAAA6wfHRfQAAAAAikX0i+VdwwAAAAAAAPA/</compiledString>
+											<returnType>bool</returnType>
+											<sString>receiver.vIamCryo2026 == 1.0f &amp;&amp; tal("SnowQueen_A2")</sString>
+										</startCondition>
+										<statusPosition>0</statusPosition>
+										<stopBehaviour>StopByTime</stopBehaviour>
+										<unstackableWith href="" />
+									</StatusApplicator>
+								</Item>
+							</applicators>
+							<dispatch href="/Items/Talents/Class/SnowQueen/Ability_A3.TALENT" id="CD10EB13-D101-4B71-9C15-ACF662B11ADE">
+								<DispatchImmediate>
+									<alwaysApply>false</alwaysApply>
+									<applyEffect>
+										<Item href="" />
+										<Item href="" />
+									</applyEffect>
+									<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+									<applyEffectOrientation>Default</applyEffectOrientation>
+									<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+									<dieAfterApply>true</dieAfterApply>
+									<dispatchEffect>
+										<Item href="" />
+										<Item href="" />
+									</dispatchEffect>
+									<flags>0</flags>
+									<instantApply>false</instantApply>
+								</DispatchImmediate>
+							</dispatch>
+						</Spell>
+					</Item>
+					<Item href="/Items/Talents/Class/SnowQueen/Ability_A3.TALENT" id="E3B7259B-8FCB-4400-87A9-264F0A2DEE41">
+						<Spell>
+							<applicators>
+								<Item href="/Items/Talents/Class/SnowQueen/status_A3_IceShiverEnemy.APLR" />
+							</applicators>
+							<dispatch href="/Items/Talents/Class/SnowQueen/Ability_A3.TALENT" id="F8EAD6A2-0AAE-48ED-BD36-D96559D371D2">
+								<DispatchImmediate>
+									<alwaysApply>false</alwaysApply>
+									<applyEffect>
+										<Item href="" />
+										<Item href="" />
+									</applyEffect>
+									<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+									<applyEffectOrientation>Default</applyEffectOrientation>
+									<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+									<dieAfterApply>true</dieAfterApply>
+									<dispatchEffect>
+										<Item href="" />
+										<Item href="" />
+									</dispatchEffect>
+									<flags>0</flags>
+									<instantApply>false</instantApply>
+								</DispatchImmediate>
+							</dispatch>
+						</Spell>
+					</Item>
+				</spells>
+			</SpellSwitchApplicator>
+		</Item>
 		<Item href="/Items/Talents/Class/SnowQueen/Ability_A3.TALENT" id="744FE13E-2623-4C8C-ADD9-3AF4CE8A10C4">
 			<PermanentStatModApplicator>
 				<applyTarget>AbilityOwner</applyTarget>
@@ -84,7 +473,18 @@
 		<returnType>float</returnType>
 		<sString>0.0f</sString>
 	</castAllowRange>
-	<castLimitations />
+	<castLimitations>
+		<Item href="/Items/Talents/Class/SnowQueen/Ability_A3.TALENT" id="9DC13E01-DE2C-4B15-B754-F32C8283B480">
+			<ConditionCastLimitation>
+				<condition>
+					<compiledString>FQAAAAAAAAAAVYvsUVaLRQyLEItNDItCUP/Qg/gUdS+LTQiLEYtNCIuCkAEAAP/Qi/CLTQyLEYtNDIuCkAEAAP/QO/B1CcdF/AAAAADrB8dF/AEAAACKRfxei+Vdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>!(rUnitKind == 20 &amp;&amp; sFctn == rFctn)</sString>
+				</condition>
+				<uiEvent href="/UI/Events/ErrorMessages/CastError_NoValidCurrentTarget.UIEV" />
+			</ConditionCastLimitation>
+		</Item>
+	</castLimitations>
 	<commonDescription textref="/Items/Talents/Class/SnowQueen/Ability_A3.TALENT_commonDescription.txt" />
 	<compiledDescriptionA textref="" />
 	<compiledDescriptionB textref="" />
@@ -232,6 +632,26 @@
 						</var>
 					</UnitConstant>
 				</Item>
+				<Item href="/Items/Talents/Class/SnowQueen/Ability_A3.TALENT" id="242D3699-ADA2-4CE0-BB8B-E4FC5E3B8634">
+					<UnitConstant>
+						<name>A2_Damage</name>
+						<var>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACoQQAA1kI=</compiledString>
+							<returnType>float</returnType>
+							<sString>damageScale(sIntellect, 21, 107)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/SnowQueen/Ability_A3.TALENT" id="26AF099E-A61B-4921-8A20-44F02E064B05">
+					<UnitConstant>
+						<name>A2_Reg</name>
+						<var>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBWMAAADZHCRR2QVfAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJItNCIsRi00Ii4I0AQAA/9BR2Rwk6B8AAACDxATZHCRqAYtNEIsRi00Qi0Jg/9BdwwAAqEEAANZCVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
+							<returnType>float</returnType>
+							<sString>damageScale( max(sIntellect, sStrength), 21, 107)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
@@ -270,7 +690,7 @@
 			<instantApply>false</instantApply>
 		</DispatchImmediate>
 	</dispatch>
-	<flags>11</flags>
+	<flags>32779</flags>
 	<forceBonus>9</forceBonus>
 	<image href="/UI/Styles/Icons/Heroes/SnowQueen/A3.ITEX" />
 	<imageSecondState href="" />
@@ -331,7 +751,7 @@
 	<shortDescription textref="/Items/Talents/Class/SnowQueen/Ability_A3.TALENT_shortDescription.txt" />
 	<talentRollGroups>63</talentRollGroups>
 	<talentStats />
-	<targetType>672923711</targetType>
+	<targetType>2015100991</targetType>
 	<type>Active</type>
 	<upgradeLevel>0</upgradeLevel>
 	<useRange>

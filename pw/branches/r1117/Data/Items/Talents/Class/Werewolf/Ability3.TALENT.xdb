@@ -117,9 +117,9 @@
 					<UnitConstant>
 						<name>A3_Range</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQg==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAQQg==</compiledString>
 							<returnType>float</returnType>
-							<sString>40</sString>
+							<sString>36</sString>
 						</var>
 					</UnitConstant>
 				</Item>

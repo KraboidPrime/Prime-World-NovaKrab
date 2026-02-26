@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StatusApplicator>
-	<BackLink DBID="/Items/Talents/Class/Chronicle/Ability_A3.TALENT" Count="1" />
 	<applicators />
 	<applyTarget>ApplicatorTarget</applyTarget>
 	<behaviorFlags>152</behaviorFlags>

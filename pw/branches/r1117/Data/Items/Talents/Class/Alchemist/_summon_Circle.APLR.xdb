@@ -98,9 +98,9 @@
 				<LoggingEvent>-1</LoggingEvent>
 				<providerName></providerName>
 				<startCondition>
-					<compiledString>FSUAAAACAAAALAAAAEUAAABBbGNoZW1pc3RfQTNfU1VQAAAAAEFsY2hlbWlzdF9BM19TVVAAVYvsg+wIaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgUAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtkX799gbwIPAAYvlXcM=</compiledString>
+					<compiledString>FTUAAAADAAAAPAAAAFUAAACLAAAAQWxjaGVtaXN0X0EzX1NVUAAAAABBbGNoZW1pc3RfQTNfU1VQAAAAAGFsY2hlbWlzdF9TMgBVi+yD7AxoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBQAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXUlaCgAAACLVQiLAotNCIuQ6AEAAP/SD7bAhcB1CcdF9AEAAADrB8dF9AAAAACKRfSL5V3D</compiledString>
 					<returnType>bool</returnType>
-					<sString>tal("Alchemist_A3_SUP") == false</sString>
+					<sString>tal("Alchemist_A3_SUP") == false &amp;&amp; !sender.IsSkinUsed("alchemist_S2")</sString>
 				</startCondition>
 				<talents />
 				<useListAs>ListAsRule</useListAs>
@@ -131,9 +131,42 @@
 				<LoggingEvent>-1</LoggingEvent>
 				<providerName></providerName>
 				<startCondition>
-					<compiledString>FSUAAAACAAAALAAAAEUAAABBbGNoZW1pc3RfQTNfU1VQAAAAAEFsY2hlbWlzdF9BM19TVVAAVYvsg+wIaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgUAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtkX7g+gB99gbwIPAAYvlXcM=</compiledString>
+					<compiledString>FTUAAAADAAAAPAAAAFUAAACMAAAAQWxjaGVtaXN0X0EzX1NVUAAAAABBbGNoZW1pc3RfQTNfU1VQAAAAAGFsY2hlbWlzdF9TMgBVi+yD7AxoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBQAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuD+QF1JWgoAAAAi1UIiwKLTQiLkOgBAAD/0g+2wIXAdQnHRfQBAAAA6wfHRfQAAAAAikX0i+Vdww==</compiledString>
 					<returnType>bool</returnType>
-					<sString>tal("Alchemist_A3_SUP") == true</sString>
+					<sString>tal("Alchemist_A3_SUP") == true &amp;&amp; !sender.IsSkinUsed("alchemist_S2")</sString>
+				</startCondition>
+				<talents />
+				<useListAs>ListAsRule</useListAs>
+			</FlagsApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/Alchemist/_summon_Circle.APLR" id="E81FF5C6-598D-4C1A-AB85-631A1A884F93">
+			<FlagsApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>152</behaviorFlags>
+				<caption> - эффект круга S2</caption>
+				<consumables />
+				<effect>
+					<Item href="/Summons/Circle/FXS2.EFFT" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<flag>0</flag>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString>FQ0AAAABAAAAEQAAAGFsY2hlbWlzdF9TMgBVi+xoAAAAAItFCIsQi00Ii4LoAQAA/9Bdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.IsSkinUsed("alchemist_S2")</sString>
 				</startCondition>
 				<talents />
 				<useListAs>ListAsRule</useListAs>

@@ -800,7 +800,18 @@
 					<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
 					<dieAfterApply>true</dieAfterApply>
 					<dispatchEffect>
-						<Item href="/Effects/Shots/Energy/_Blue.EFFT" />
+						<Item href="/Heroes/Banshee/_.HROB" id="68AE217F-2B94-4C45-A925-C4662BF007A8">
+							<EffectList>
+								<deathType>Manual</deathType>
+								<effects>
+									<Item href="/Effects/Shots/Energy/_Blue2.EFFT" />
+									<Item href="/Effects/Shots/Energy/_PurpleStar2.EFFT" />
+									<Item href="/Effects/Shots/Energy/_Blue3.EFFT" />
+								</effects>
+								<enableCondition href="" />
+								<lifeTime>0</lifeTime>
+							</EffectList>
+						</Item>
 						<Item href="" />
 					</dispatchEffect>
 					<flags>7</flags>
@@ -889,6 +900,8 @@
 	</heroSceneObjects>
 	<heroSkins>
 		<Item href="/Heroes/Banshee/S1/_.HEROSKIN" />
+		<Item href="/Heroes/Banshee/S2/_.HEROSKIN" />
+		<Item href="/Heroes/Banshee/S3/_.HEROSKIN" />
 	</heroSkins>
 	<id>banshee</id>
 	<image href="" />

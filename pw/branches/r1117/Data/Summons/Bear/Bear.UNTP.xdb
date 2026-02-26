@@ -1,11 +1,37 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UnitTargetingParameters parent="/GameLogic/TargetingParams_Summon.UNTP">
 	<BackLink DBID="/Summons/Bear/_.SUMMONED" Count="1" />
+	<attackerHeroWeight>
+		<Item>7</Item>
+		<Item>2</Item>
+		<Item skip="1" />
+		<Item skip="1" />
+		<Item skip="1" />
+		<Item skip="1" />
+		<Item skip="1" />
+		<Item skip="1" />
+		<Item skip="1" />
+		<Item skip="1" />
+		<Item skip="1" />
+		<Item skip="1" />
+		<Item skip="1" />
+		<Item skip="1" />
+		<Item skip="1" />
+		<Item skip="1" />
+		<Item skip="1" />
+		<Item skip="1" />
+		<Item skip="1" />
+		<Item skip="1" />
+		<Item skip="1" />
+		<Item skip="1" />
+	</attackerHeroWeight>
 	<attackerMasterWeight>20</attackerMasterWeight>
 	<attackerMeWeight>10</attackerMeWeight>
+	<autoAttackWeight>0</autoAttackWeight>
 	<chaseRange>18</chaseRange>
 	<currentTargetTableWeight>0</currentTargetTableWeight>
 	<healthWeight>3</healthWeight>
+	<onlyAutoTargeting>false</onlyAutoTargeting>
 	<rangeWeight>20</rangeWeight>
 	<targetingRange>14</targetingRange>
 	<targetRevisionTime>0.1</targetRevisionTime>

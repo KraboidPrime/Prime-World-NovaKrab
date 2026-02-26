@@ -1581,9 +1581,9 @@
 					<UnitConstant>
 						<name>A4_2_cd_wen</name>
 						<var>
-							<compiledString>FR4AAAACAAAAJQAAAD4AAABXZW5kaWdvX0E0XzJ1AAAAV2VuZGlnb19BNF8ydQBVi+yD7AxoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXQii1UQiwKLTRCLkJAAAAD/0g+2wPfYG8CD4N+DwGSJRfTrB8dF9GQAAADbRfSL5V3D</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQg==</compiledString>
 							<returnType>float</returnType>
-							<sString>tal("Wendigo_A4_2u") ? (mIsNight ? 67 : 100) : 100</sString>
+							<sString>100</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -1634,9 +1634,9 @@
 	<isUltimateTalent>true</isUltimateTalent>
 	<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
 	<manaCost>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABmQw==</compiledString>
+		<compiledString>FR4AAAACAAAAJQAAAD4AAABXZW5kaWdvX0E0XzJ1AAAAV2VuZGlnb19BNF8ydQBVi+yD7AxoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXQki1UQiwKLTRCLkJAAAAD/0g+2wPfYG8CD4JwFLAEAAIlF9OsHx0X0LAEAANtF9IvlXcM=</compiledString>
 		<returnType>float</returnType>
-		<sString>230</sString>
+		<sString>tal("Wendigo_A4_2u") ? (mIsNight ? 200 : 300) : 300</sString>
 	</manaCost>
 	<marker>doCast4_2</marker>
 	<microAI href="" />

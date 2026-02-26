@@ -3,12 +3,13 @@
 	<BackLink DBID="/Social.ROOT" Count="1" />
 	<BackLink DBID="/Items/Talents/Alchemist_Alternative.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Alchemist/Ability_A4.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Alchemist/Ability_A4u.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Alchemist/Ability_A4u_2.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset5_7_Ultimate/Status_Redset5_7_Cooldown.APLR" Count="1" />
 	<BackLink DBID="/Test/Talents/Alchemist/Epic_Str_ult2.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/Alchemist_Mighty.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Level2/G567_CasterBase.TALENT" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -404,6 +405,99 @@
 					</Item>
 				</spells>
 			</SpellSwitchApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" id="CB97AB29-F91D-4E9E-8F95-2E3C04795DDE">
+			<SpellPeriodicallyApplicator>
+				<applyTarget>AbilityTarget</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption></caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FSAAAAACAAAAJwAAAEAAAABBbGNoZW1pc3RfQTR1XzIAQWxjaGVtaXN0X0E0dV8yAFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAikX7i+Vdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("Alchemist_A4u_2")</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzcwMQA==</compiledString>
+					<returnType>float</returnType>
+					<sString>2.2f</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<period>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
+					<returnType>float</returnType>
+					<sString>3.0f</sString>
+				</period>
+				<providerName></providerName>
+				<scaleMode>ScaleIsCount</scaleMode>
+				<spell href="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" id="183D59E3-A1E9-414C-B4AF-CBB422BFFAD8">
+					<Spell>
+						<applicators>
+							<Item href="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" id="20725793-676E-4E61-82A6-0E7E2004C3E4">
+								<RefreshCooldownApplicator>
+									<allowCdIncrease>false</allowCdIncrease>
+									<applyTarget>AbilityOwner</applyTarget>
+									<caption></caption>
+									<enabled>
+										<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<flags>128</flags>
+									<formulaName></formulaName>
+									<LoggingEvent>-1</LoggingEvent>
+									<providerName></providerName>
+									<reduceByPercent>true</reduceByPercent>
+									<reductionAmount>
+										<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzczMPg==</compiledString>
+										<returnType>float</returnType>
+										<sString>0.4</sString>
+									</reductionAmount>
+									<refreshThis>false</refreshThis>
+									<talents>
+										<Item href="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" />
+									</talents>
+									<useListAs>ListAsRule</useListAs>
+								</RefreshCooldownApplicator>
+							</Item>
+						</applicators>
+						<dispatch href="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" id="BAC34FF1-EF0E-4DB5-B93D-F2E9B68538E5">
+							<DispatchImmediate>
+								<alwaysApply>false</alwaysApply>
+								<applyEffect>
+									<Item href="" />
+									<Item href="" />
+								</applyEffect>
+								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+								<applyEffectOrientation>Default</applyEffectOrientation>
+								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+								<dieAfterApply>true</dieAfterApply>
+								<dispatchEffect>
+									<Item href="" />
+									<Item href="" />
+								</dispatchEffect>
+								<flags>0</flags>
+								<instantApply>false</instantApply>
+							</DispatchImmediate>
+						</dispatch>
+					</Spell>
+				</spell>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<startOffset>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DZmbmPw==</compiledString>
+					<returnType>float</returnType>
+					<sString>1.8f</sString>
+				</startOffset>
+				<targetSelector href="" />
+			</SpellPeriodicallyApplicator>
 		</Item>
 	</applicators>
 	<askId>4</askId>

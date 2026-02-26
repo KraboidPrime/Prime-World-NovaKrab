@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <AnimGraphCreator>
 	<BackLink DBID="/Pets/Cat/_.SOBJ" Count="1" />
+	<BackLink DBID="/Pets/Cat/_gora.SOBJ" Count="1" />
 	<defaultNode>idle</defaultNode>
 	<macroNodes>
 		<Item>

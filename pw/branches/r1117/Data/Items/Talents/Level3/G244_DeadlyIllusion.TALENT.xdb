@@ -1397,7 +1397,28 @@
 	<commonDescription textref="/Items/Talents/Level3/G244_DeadlyIllusion.TALENT_commonDescription.txt" />
 	<compiledDescriptionA textref="" />
 	<compiledDescriptionB textref="" />
-	<conditionFormulas />
+	<conditionFormulas>
+		<Item href="/Items/Talents/Level3/G244_DeadlyIllusion.TALENT" id="5C9F4794-B6A8-4529-A283-47ADD5DC799A">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRYAAAACAAAAGwAAADEAAABUaDIwMjVfVG9vbHRpcENvdW50ZXIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdUwAAAN/g9sQBdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAhA</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vTh2025_TooltipCounter &gt;= 3</sString>
+				</condition>
+				<name>Bonus3ActiveTh</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Items/Talents/Level3/G244_DeadlyIllusion.TALENT" id="65D475F6-0F09-4D74-9A27-9685618F9583">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FRYAAAACAAAAGwAAADEAAABUaDIwMjVfVG9vbHRpcENvdW50ZXIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdUwAAAN/g9sQBdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAABxA</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vTh2025_TooltipCounter &gt;= 7</sString>
+				</condition>
+				<name>Bonus7ActiveTh</name>
+			</ConditionFormula>
+		</Item>
+	</conditionFormulas>
 	<conflictingTalents />
 	<constants href="/Items/Talents/Level3/G244_DeadlyIllusion.TALENT" id="F117BFB9-A518-447A-8EB2-CD2D73DC6E90">
 		<UnitConstantsContainer>
@@ -1590,7 +1611,9 @@
 	<naftaCost>-1</naftaCost>
 	<name textref="/Items/Talents/Level3/G244_DeadlyIllusion.TALENT_name.txt" />
 	<node></node>
-	<passiveApplicators />
+	<passiveApplicators>
+		<Item href="/Items/Talents/Level3/ThirdPinkSet_Prog2025.APLR" />
+	</passiveApplicators>
 	<persistentId>G244</persistentId>
 	<prerequisiteTalents />
 	<rarity>magnificent</rarity>
