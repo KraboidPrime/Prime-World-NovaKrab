@@ -521,7 +521,17 @@
 				<caption>часы айдл</caption>
 				<consumables />
 				<effect>
-					<Item href="/Effects/Debuffs/Clock/FX_Clock.EFFT" />
+					<Item href="/Items/Talents/Class/Chronicle/Ability_A0.TALENT" id="C8AF68B9-8F6B-4617-AD44-4E9FAFEE40B4">
+						<EffectList>
+							<deathType>Manual</deathType>
+							<effects>
+								<Item href="/Effects/Debuffs/Clock/FX_Clock.EFFT" />
+								<Item href="/Effects/Debuffs/Clock/FX_ClockS2.EFFT" />
+							</effects>
+							<enableCondition href="" />
+							<lifeTime>0</lifeTime>
+						</EffectList>
+					</Item>
 					<Item href="" />
 				</effect>
 				<enabled>

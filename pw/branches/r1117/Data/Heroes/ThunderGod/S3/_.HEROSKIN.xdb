@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HeroSkin>
+	<BackLink DBID="/Heroes/ThunderGod/_.HROB" Count="1" />
+	<antagonistSkinId></antagonistSkinId>
+	<askList href="/Heroes/ThunderGod/S3/_.HEROSKIN" id="AA6ECEDC-134D-4E5C-A6F7-315514FEC3C0">
+		<AskSoundsRef>
+			<asks>
+				<settings>
+					<Item>
+						<ask3dRecipient>Enemies</ask3dRecipient>
+						<minInterval>12</minInterval>
+					</Item>
+					<Item>
+						<ask3dRecipient>Enemies</ask3dRecipient>
+						<minInterval>6</minInterval>
+					</Item>
+					<Item>
+						<ask3dRecipient>Enemies</ask3dRecipient>
+						<minInterval>6</minInterval>
+					</Item>
+					<Item>
+						<ask3dRecipient>Enemies</ask3dRecipient>
+						<minInterval>6</minInterval>
+					</Item>
+					<Item>
+						<ask3dRecipient>Enemies</ask3dRecipient>
+						<minInterval>6</minInterval>
+					</Item>
+					<Item>
+						<ask3dRecipient>Enemies</ask3dRecipient>
+						<minInterval>12</minInterval>
+					</Item>
+					<Item>
+						<ask3dRecipient>Enemies</ask3dRecipient>
+						<minInterval>6</minInterval>
+					</Item>
+					<Item>
+						<ask3dRecipient>Enemies</ask3dRecipient>
+						<minInterval>6</minInterval>
+					</Item>
+					<Item>
+						<ask3dRecipient>Enemies</ask3dRecipient>
+						<minInterval>6</minInterval>
+					</Item>
+					<Item>
+						<ask3dRecipient>Enemies</ask3dRecipient>
+						<minInterval>3</minInterval>
+					</Item>
+					<Item>
+						<ask3dRecipient>Enemies</ask3dRecipient>
+						<minInterval>3</minInterval>
+					</Item>
+					<Item>
+						<ask3dRecipient>Enemies</ask3dRecipient>
+						<minInterval>3</minInterval>
+					</Item>
+					<Item>
+						<ask3dRecipient>Enemies</ask3dRecipient>
+						<minInterval>3</minInterval>
+					</Item>
+					<Item>
+						<ask3dRecipient>Enemies</ask3dRecipient>
+						<minInterval>3</minInterval>
+					</Item>
+				</settings>
+				<sounds>
+					<Item href="/Heroes/ThunderGod/S3/_.HEROSKIN" id="0A15AA8F-40C6-491E-B14B-E3D2CCFE78F8">
+						<DBSoundSceneComponent>
+							<attached />
+							<caption>sound</caption>
+							<desc>
+								<eventName>move</eventName>
+								<groupName>Heroes/Thunder_S6/Asks</groupName>
+								<projectName>PF</projectName>
+							</desc>
+							<groupFlags>0</groupFlags>
+							<locatorList href="" />
+							<orientation>Default</orientation>
+							<timeInterval>0</timeInterval>
+						</DBSoundSceneComponent>
+					</Item>
+					<Item href="/Heroes/ThunderGod/S3/_.HEROSKIN" id="45000812-52C1-439B-9CB2-F9FE17A6F80C">
+						<DBSoundSceneComponent>
+							<attached />
+							<caption>sound</caption>
+							<desc>
+								<eventName>ability_2</eventName>
+								<groupName>Heroes/Thunder_S6/Asks</groupName>
+								<projectName>PF</projectName>
+							</desc>
+							<groupFlags>0</groupFlags>
+							<locatorList href="" />
+							<orientation>Default</orientation>
+							<timeInterval>0</timeInterval>
+						</DBSoundSceneComponent>
+					</Item>
+					<Item href="/Heroes/ThunderGod/S3/_.HEROSKIN" id="DB939512-3848-4CE0-AFD8-1D5080BB3CF5">
+						<DBSoundSceneComponent>
+							<attached />
+							<caption>sound</caption>
+							<desc>
+								<eventName>ability_2</eventName>
+								<groupName>Heroes/Thunder_S6/Asks</groupName>
+								<projectName>PF</projectName>
+							</desc>
+							<groupFlags>0</groupFlags>
+							<locatorList href="" />
+							<orientation>Default</orientation>
+							<timeInterval>0</timeInterval>
+						</DBSoundSceneComponent>
+					</Item>
+					<Item href="/Heroes/ThunderGod/S3/_.HEROSKIN" id="2AFFC2D4-D617-4CE6-A2AF-3BDB532592A3">
+						<DBSoundSceneComponent>
+							<attached />
+							<caption>sound</caption>
+							<desc>
+								<eventName>ability_3</eventName>
+								<groupName>Heroes/Thunder_S6/Asks</groupName>
+								<projectName>PF</projectName>
+							</desc>
+							<groupFlags>0</groupFlags>
+							<locatorList href="" />
+							<orientation>Default</orientation>
+							<timeInterval>0</timeInterval>
+						</DBSoundSceneComponent>
+					</Item>
+					<Item href="/Heroes/ThunderGod/S3/_.HEROSKIN" id="8894DC57-C510-4CA4-8B63-56A13D860734">
+						<DBSoundSceneComponent>
+							<attached />
+							<caption>sound</caption>
+							<desc>
+								<eventName>ability_ult</eventName>
+								<groupName>Heroes/Thunder_S6/Asks</groupName>
+								<projectName>PF</projectName>
+							</desc>
+							<groupFlags>0</groupFlags>
+							<locatorList href="" />
+							<orientation>Default</orientation>
+							<timeInterval>0</timeInterval>
+						</DBSoundSceneComponent>
+					</Item>
+					<Item href="/Heroes/ThunderGod/S3/_.HEROSKIN" id="C20D03E3-5CF6-4E16-89AE-3EDD66706B48">
+						<DBSoundSceneComponent>
+							<attached />
+							<caption>sound</caption>
+							<desc>
+								<eventName>attack</eventName>
+								<groupName>Heroes/Thunder_S6/Asks</groupName>
+								<projectName>PF</projectName>
+							</desc>
+							<groupFlags>0</groupFlags>
+							<locatorList href="" />
+							<orientation>Default</orientation>
+							<timeInterval>0</timeInterval>
+						</DBSoundSceneComponent>
+					</Item>
+					<Item href="/Heroes/ThunderGod/S3/_.HEROSKIN" id="29E3AE89-0229-4754-8DC2-427977EA4FF3">
+						<DBSoundSceneComponent>
+							<attached />
+							<caption>sound</caption>
+							<desc>
+								<eventName>death</eventName>
+								<groupName>Heroes/Thunder_S6/Asks</groupName>
+								<projectName>PF</projectName>
+							</desc>
+							<groupFlags>0</groupFlags>
+							<locatorList href="" />
+							<orientation>Default</orientation>
+							<timeInterval>0</timeInterval>
+						</DBSoundSceneComponent>
+					</Item>
+					<Item href="/Heroes/ThunderGod/S3/_.HEROSKIN" id="63D1E378-43B6-40F3-9907-7F909AF74759">
+						<DBSoundSceneComponent>
+							<attached />
+							<caption>sound</caption>
+							<desc>
+								<eventName>revive</eventName>
+								<groupName>Heroes/Thunder_S6/Asks</groupName>
+								<projectName>PF</projectName>
+							</desc>
+							<groupFlags>0</groupFlags>
+							<locatorList href="" />
+							<orientation>Default</orientation>
+							<timeInterval>0</timeInterval>
+						</DBSoundSceneComponent>
+					</Item>
+					<Item href="/Heroes/ThunderGod/S3/_.HEROSKIN" id="EDEB3D75-FC81-4BC4-8556-4C42D78731EB">
+						<DBSoundSceneComponent>
+							<attached />
+							<caption>sound</caption>
+							<desc>
+								<eventName>kill</eventName>
+								<groupName>Heroes/Thunder_S6/Asks</groupName>
+								<projectName>PF</projectName>
+							</desc>
+							<groupFlags>0</groupFlags>
+							<locatorList href="" />
+							<orientation>Default</orientation>
+							<timeInterval>0</timeInterval>
+						</DBSoundSceneComponent>
+					</Item>
+					<Item href="/Heroes/ThunderGod/S3/_.HEROSKIN" id="3D950CDC-7789-4CDC-90F1-0E8D4FE5D032">
+						<DBSoundSceneComponent>
+							<attached />
+							<caption>sound</caption>
+							<desc>
+								<eventName>move</eventName>
+								<groupName>Heroes/Thunder_S6/Asks</groupName>
+								<projectName>PF</projectName>
+							</desc>
+							<groupFlags>0</groupFlags>
+							<locatorList href="" />
+							<orientation>Default</orientation>
+							<timeInterval>0</timeInterval>
+						</DBSoundSceneComponent>
+					</Item>
+					<Item href="" />
+					<Item href="" />
+					<Item href="" />
+					<Item href="" />
+				</sounds>
+				<sounds3d>
+					<Item href="" />
+					<Item href="" />
+					<Item href="" />
+					<Item href="" />
+					<Item href="" />
+					<Item href="" />
+					<Item href="" />
+					<Item href="" />
+					<Item href="" />
+					<Item href="" />
+					<Item href="" />
+					<Item href="" />
+					<Item href="" />
+					<Item href="" />
+				</sounds3d>
+			</asks>
+		</AskSoundsRef>
+	</askList>
+	<askListSecondState href="" />
+	<botRoll>true</botRoll>
+	<cost>500</cost>
+	<deathParameters href="" />
+	<gender>Male</gender>
+	<heroImageA href="/UI/Styles/Icons/Heroes/ThunderGod/Face_S3.ITEX" />
+	<heroImageB href="/UI/Styles/Icons/Heroes/ThunderGod/Face_S3.ITEX" />
+	<heroName textref="/Heroes/ThunderGod/S3/_.HEROSKIN_heroName.txt" />
+	<heroRace>3</heroRace>
+	<heroRenderA href="/UI/Styles/Icons/Heroes/ThunderGod/Face_S3.ITEX" />
+	<heroRenderB href="/UI/Styles/Icons/Heroes/ThunderGod/Face_S3.ITEX" />
+	<legal>true</legal>
+	<lobbyAskSound>Heroes/Asks/thunder_a_S1_iddle_1</lobbyAskSound>
+	<mute>false</mute>
+	<persistentId>thundergod_S3</persistentId>
+	<sceneObject href="/Heroes/ThunderGod/S3/_B.SOBJ" />
+</HeroSkin>

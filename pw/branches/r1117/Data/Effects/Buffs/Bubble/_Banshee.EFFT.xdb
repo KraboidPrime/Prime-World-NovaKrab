@@ -10,4 +10,9 @@
 	<fadeOut>0.2</fadeOut>
 	<groupFlags>0</groupFlags>
 	<lifeTime>0</lifeTime>
+	<__states>
+		<state name="banshee_S3">
+			<component href="/Effects/Buffs/Bubble/_Banshee2TRS.PRXY" />
+		</state>
+	</__states>
 </BasicEffectAttached>

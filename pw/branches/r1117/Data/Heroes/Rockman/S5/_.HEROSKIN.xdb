@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HeroSkin>
+	<BackLink DBID="/Heroes/Rockman/_.HROB" Count="3" />
+	<BackLink DBID="/Maps/PvE/Series/Episode1/heroes/ally/rockman.HROB" Count="1" />
+	<BackLink DBID="/Social/Lootboxes/LB_Season5_Skin" Count="1" />
+	<antagonistSkinId></antagonistSkinId>
+	<askList href="/Heroes/Rockman/S5/_.HEROSKIN" id="A26C922D-377B-4D35-9721-F102E98AE64F">
+		<AskSoundsRef>
+			<asks>
+				<settings>
+					<Item>
+						<ask3dRecipient>Enemies</ask3dRecipient>
+						<minInterval>12</minInterval>
+					</Item>
+					<Item>
+						<ask3dRecipient>Enemies</ask3dRecipient>
+						<minInterval>6</minInterval>
+					</Item>
+					<Item>
+						<ask3dRecipient>Enemies</ask3dRecipient>
+						<minInterval>6</minInterval>
+					</Item>
+					<Item>
+						<ask3dRecipient>Enemies</ask3dRecipient>
+						<minInterval>6</minInterval>
+					</Item>
+					<Item>
+						<ask3dRecipient>Enemies</ask3dRecipient>
+						<minInterval>6</minInterval>
+					</Item>
+					<Item>
+						<ask3dRecipient>Enemies</ask3dRecipient>
+						<minInterval>12</minInterval>
+					</Item>
+					<Item>
+						<ask3dRecipient>Enemies</ask3dRecipient>
+						<minInterval>6</minInterval>
+					</Item>
+					<Item>
+						<ask3dRecipient>Enemies</ask3dRecipient>
+						<minInterval>6</minInterval>
+					</Item>
+					<Item>
+						<ask3dRecipient>Enemies</ask3dRecipient>
+						<minInterval>6</minInterval>
+					</Item>
+					<Item>
+						<ask3dRecipient>Enemies</ask3dRecipient>
+						<minInterval>3</minInterval>
+					</Item>
+					<Item>
+						<ask3dRecipient>Enemies</ask3dRecipient>
+						<minInterval>3</minInterval>
+					</Item>
+					<Item>
+						<ask3dRecipient>Enemies</ask3dRecipient>
+						<minInterval>3</minInterval>
+					</Item>
+					<Item>
+						<ask3dRecipient>Enemies</ask3dRecipient>
+						<minInterval>3</minInterval>
+					</Item>
+					<Item>
+						<ask3dRecipient>Enemies</ask3dRecipient>
+						<minInterval>3</minInterval>
+					</Item>
+				</settings>
+				<sounds>
+					<Item href="/Heroes/Rockman/S5/_.HEROSKIN" id="36F7D411-962A-41B5-8E81-AED2EC0FD352">
+						<DBSoundSceneComponent>
+							<attached />
+							<caption>sound</caption>
+							<desc>
+								<eventName>Move</eventName>
+								<groupName>Heroes/Rockman/Asks/Elf</groupName>
+								<projectName>PF</projectName>
+							</desc>
+							<groupFlags>0</groupFlags>
+							<locatorList href="" />
+							<orientation>Default</orientation>
+							<timeInterval>0</timeInterval>
+						</DBSoundSceneComponent>
+					</Item>
+					<Item href="/Heroes/Rockman/S5/_.HEROSKIN" id="1F861C75-CDC4-40B4-A8D4-E1367DF4D1D4">
+						<DBSoundSceneComponent>
+							<attached />
+							<caption>sound</caption>
+							<desc>
+								<eventName>Ability1</eventName>
+								<groupName>Heroes/Rockman/Asks/Elf</groupName>
+								<projectName>PF</projectName>
+							</desc>
+							<groupFlags>0</groupFlags>
+							<locatorList href="" />
+							<orientation>Default</orientation>
+							<timeInterval>0</timeInterval>
+						</DBSoundSceneComponent>
+					</Item>
+					<Item href="/Heroes/Rockman/S5/_.HEROSKIN" id="E9767BDE-A60D-441D-BC0A-52CA4FF27868">
+						<DBSoundSceneComponent>
+							<attached />
+							<caption>sound</caption>
+							<desc>
+								<eventName>Ability2</eventName>
+								<groupName>Heroes/Rockman/Asks/Elf</groupName>
+								<projectName>PF</projectName>
+							</desc>
+							<groupFlags>0</groupFlags>
+							<locatorList href="" />
+							<orientation>Default</orientation>
+							<timeInterval>0</timeInterval>
+						</DBSoundSceneComponent>
+					</Item>
+					<Item href="/Heroes/Rockman/S5/_.HEROSKIN" id="33B1A1F1-8155-473F-8F61-1FBCEBEEDCA6">
+						<DBSoundSceneComponent>
+							<attached />
+							<caption>sound</caption>
+							<desc>
+								<eventName>Ability3</eventName>
+								<groupName>Heroes/Rockman/Asks/Elf</groupName>
+								<projectName>PF</projectName>
+							</desc>
+							<groupFlags>0</groupFlags>
+							<locatorList href="" />
+							<orientation>Default</orientation>
+							<timeInterval>0</timeInterval>
+						</DBSoundSceneComponent>
+					</Item>
+					<Item href="/Heroes/Rockman/S5/_.HEROSKIN" id="81F89CA6-BE58-43FE-9DE6-5C8F940C84F2">
+						<DBSoundSceneComponent>
+							<attached />
+							<caption>sound</caption>
+							<desc>
+								<eventName>UltimateAbility</eventName>
+								<groupName>Heroes/Rockman/Asks/Elf</groupName>
+								<projectName>PF</projectName>
+							</desc>
+							<groupFlags>0</groupFlags>
+							<locatorList href="" />
+							<orientation>Default</orientation>
+							<timeInterval>0</timeInterval>
+						</DBSoundSceneComponent>
+					</Item>
+					<Item href="/Heroes/Rockman/S5/_.HEROSKIN" id="CA3D63A5-72E7-4754-BCD6-7625022AB1D7">
+						<DBSoundSceneComponent>
+							<attached />
+							<caption>sound</caption>
+							<desc>
+								<eventName>Attack</eventName>
+								<groupName>Heroes/Rockman/Asks/Elf</groupName>
+								<projectName>PF</projectName>
+							</desc>
+							<groupFlags>0</groupFlags>
+							<locatorList href="" />
+							<orientation>Default</orientation>
+							<timeInterval>0</timeInterval>
+						</DBSoundSceneComponent>
+					</Item>
+					<Item href="/Heroes/Rockman/S5/_.HEROSKIN" id="995D21E8-F388-403C-9EA3-CDB9B6834673">
+						<DBSoundSceneComponent>
+							<attached />
+							<caption>sound</caption>
+							<desc>
+								<eventName>petOwner_PetOwnerQuest_1</eventName>
+								<groupName>PVE/Episode1</groupName>
+								<projectName>PF</projectName>
+							</desc>
+							<groupFlags>0</groupFlags>
+							<locatorList href="" />
+							<orientation>Default</orientation>
+							<timeInterval>0</timeInterval>
+						</DBSoundSceneComponent>
+					</Item>
+					<Item href="/Heroes/Rockman/S5/_.HEROSKIN" id="9B496D26-2750-4F3C-966F-012A7EE185D9">
+						<DBSoundSceneComponent>
+							<attached />
+							<caption>sound</caption>
+							<desc>
+								<eventName>Revive</eventName>
+								<groupName>Heroes/Rockman/Asks/Elf</groupName>
+								<projectName>PF</projectName>
+							</desc>
+							<groupFlags>0</groupFlags>
+							<locatorList href="" />
+							<orientation>Default</orientation>
+							<timeInterval>0</timeInterval>
+						</DBSoundSceneComponent>
+					</Item>
+					<Item href="/Heroes/Rockman/S5/_.HEROSKIN" id="F6B58D86-CB82-495D-8DBC-E4CA678864B4">
+						<DBSoundSceneComponent>
+							<attached />
+							<caption>sound</caption>
+							<desc>
+								<eventName>petOwner_PetOwnerHappy</eventName>
+								<groupName>PVE/Episode1</groupName>
+								<projectName>PF</projectName>
+							</desc>
+							<groupFlags>0</groupFlags>
+							<locatorList href="" />
+							<orientation>Default</orientation>
+							<timeInterval>0</timeInterval>
+						</DBSoundSceneComponent>
+					</Item>
+					<Item href="/Heroes/Rockman/S5/_.HEROSKIN" id="C132236D-7E82-4C87-8C45-E76B74CFC765">
+						<DBSoundSceneComponent>
+							<attached />
+							<caption>sound</caption>
+							<desc>
+								<eventName>Iddle</eventName>
+								<groupName>Heroes/Rockman/Asks/Elf</groupName>
+								<projectName>PF</projectName>
+							</desc>
+							<groupFlags>0</groupFlags>
+							<locatorList href="" />
+							<orientation>Default</orientation>
+							<timeInterval>0</timeInterval>
+						</DBSoundSceneComponent>
+					</Item>
+					<Item href="" />
+					<Item href="" />
+					<Item href="" />
+					<Item href="" />
+				</sounds>
+				<sounds3d>
+					<Item href="" />
+					<Item href="" />
+					<Item href="" />
+					<Item href="" />
+					<Item href="" />
+					<Item href="" />
+					<Item href="" />
+					<Item href="" />
+					<Item href="" />
+					<Item href="" />
+					<Item href="" />
+					<Item href="" />
+					<Item href="" />
+					<Item href="" />
+				</sounds3d>
+			</asks>
+		</AskSoundsRef>
+	</askList>
+	<askListSecondState href="" />
+	<botRoll>true</botRoll>
+	<cost>500</cost>
+	<deathParameters href="" />
+	<gender>Male</gender>
+	<heroImageA href="/UI/Styles/Icons/Heroes/Rockman/FaceB_PvE.ITEX" />
+	<heroImageB href="/UI/Styles/Icons/Heroes/Rockman/FaceB_PvE.ITEX" />
+	<heroName textref="/Heroes/Rockman/S5/_.HEROSKIN_heroName.txt" />
+	<heroRace>3</heroRace>
+	<heroRenderA href="/UI/Styles/Icons/Heroes/Rockman/FaceB_PvE.ITEX" />
+	<heroRenderB href="/UI/Styles/Icons/Heroes/Rockman/FaceB_PvE.ITEX" />
+	<legal>true</legal>
+	<lobbyAskSound>Heroes/Asks/rockman_a_iddle_2</lobbyAskSound>
+	<mute>false</mute>
+	<persistentId>rockman_S5</persistentId>
+	<sceneObject href="/Heroes/Rockman/_Bcat.SOBJ" />
+</HeroSkin>

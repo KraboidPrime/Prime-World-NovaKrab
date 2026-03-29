@@ -5,6 +5,7 @@
 	<BackLink DBID="/Heroes/Artist/S2/_.SOBJ" Count="1" />
 	<BackLink DBID="/Heroes/Artist/S3/_.SOBJ" Count="1" />
 	<BackLink DBID="/Heroes/Artist/S4/_.SOBJ" Count="1" />
+	<BackLink DBID="/Heroes/Artist/S5/_.SOBJ" Count="1" />
 	<defaultNode>idle</defaultNode>
 	<macroNodes>
 		<Item>

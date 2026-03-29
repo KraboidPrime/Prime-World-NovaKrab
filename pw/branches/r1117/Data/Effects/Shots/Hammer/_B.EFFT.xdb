@@ -36,5 +36,8 @@
 		<state name="thundergod_S0_A">
 			<component href="/Effects/Shots/Hammer/_ATRS.PRXY" />
 		</state>
+		<state name="thundergod_S3">
+			<component href="/Effects/Shots/Blade/_gromTRS.PRXY" />
+		</state>
 	</__states>
 </BasicEffectStandalone>

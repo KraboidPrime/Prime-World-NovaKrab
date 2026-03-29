@@ -809,6 +809,7 @@
 		<Item href="/Heroes/Rockman/S2/_B.HEROSKIN" />
 		<Item href="/Heroes/Rockman/S3/_.HEROSKIN" />
 		<Item href="/Heroes/Rockman/S4/_.HEROSKIN" />
+		<Item href="/Heroes/Rockman/S5/_.HEROSKIN" />
 	</heroSkins>
 	<id>rockman</id>
 	<image href="" />

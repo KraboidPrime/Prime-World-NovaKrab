@@ -15,5 +15,11 @@
 		<state name="banshee_S1">
 			<component href="/Effects/Buffs/Sacrifice/_TripleTRS_S1.PRXY" />
 		</state>
+		<state name="bansgee_S2">
+			<component href="/Effects/Buffs/Sacrifice/_TripleTRSS2.PRXY" />
+		</state>
+		<state name="banshee_S3">
+			<component href="/Effects/Buffs/Sacrifice/_TripleTRSS3.PRXY" />
+		</state>
 	</__states>
 </BasicEffectAttached>

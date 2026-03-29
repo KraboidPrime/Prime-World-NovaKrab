@@ -4,7 +4,16 @@
 	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A0.TALENT" Count="1" />
 	<component href="/Effects/Debuffs/Sigil/_Clock_ExpTRSEnemy.PRXY" />
 	<deathType>Manual</deathType>
-	<enableCondition href="" />
+	<enableCondition href="/Effects/Debuffs/Sigil/_Clock_ExpEnemy.EFFT" id="3A77F581-4E98-4852-B7F6-7F902E45FC64">
+		<ConditionFormula>
+			<condition>
+				<compiledString>FQ0AAAABAAAAEQAAAGNocm9uaWNsZV9TMgBVi+xoAAAAAItFCIsQi00Ii4LoAQAA/9APtsD32BvAg8ABXcM=</compiledString>
+				<returnType>bool</returnType>
+				<sString>!sender.IsSkinUsed("chronicle_S2")</sString>
+			</condition>
+			<name>A4_Active</name>
+		</ConditionFormula>
+	</enableCondition>
 	<fadeIn>0</fadeIn>
 	<fadeOut>0.5</fadeOut>
 	<isVisibleUnderWarfog>false</isVisibleUnderWarfog>

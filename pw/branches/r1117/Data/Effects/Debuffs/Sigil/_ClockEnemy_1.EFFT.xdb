@@ -7,9 +7,9 @@
 	<enableCondition href="/Effects/Debuffs/Sigil/_ClockEnemy_1.EFFT" id="16061B81-93A6-4653-8CFB-28D6D327B746">
 		<ConditionFormula>
 			<condition>
-				<compiledString>FQ0AAAACAAAAEgAAACgAAABBNF9DaHJvbmljbGUAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdSgAAAN/g9sREegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAPA/</compiledString>
+				<compiledString>FR0AAAADAAAAIgAAADgAAABEAAAAQTRfQ2hyb25pY2xlAAAAAGNocm9uaWNsZV9TMgBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B12AAAA3+D2xER6JWgQAAAAi00IixGLTQiLgugBAAD/0A+2yIXJdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAPA/</compiledString>
 				<returnType>bool</returnType>
-				<sString>sender.vA4_Chronicle == 1</sString>
+				<sString>sender.vA4_Chronicle == 1 &amp;&amp; !sender.IsSkinUsed("chronicle_S2")</sString>
 			</condition>
 			<name>A4_Active</name>
 		</ConditionFormula>

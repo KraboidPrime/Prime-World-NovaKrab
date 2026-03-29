@@ -4,6 +4,7 @@
 	<BackLink DBID="/Heroes/Artist/S1/_.SOBJ" Count="1" />
 	<BackLink DBID="/Heroes/Artist/S2/_.SOBJ" Count="1" />
 	<BackLink DBID="/Heroes/Artist/S4/_.SOBJ" Count="1" />
+	<BackLink DBID="/Heroes/Artist/S5/_.SOBJ" Count="1" />
 	<locators>
 		<Item>
 			<flags>7</flags>

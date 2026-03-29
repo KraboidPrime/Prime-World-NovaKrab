@@ -706,6 +706,7 @@
 	</heroSceneObjects>
 	<heroSkins>
 		<Item href="/Heroes/Chronicle/S1/_.HEROSKIN" />
+		<Item href="/Heroes/Chronicle/S2/_.HEROSKIN" />
 	</heroSkins>
 	<id>chronicle</id>
 	<image href="" />

@@ -15,5 +15,8 @@
 		<state name="chronicle_S1">
 			<component href="/Effects/Buffs/Trail/Trail_S1.PRXY" />
 		</state>
+		<state name="chronicle_S2">
+			<component href="/Effects/Buffs/Trail/Trail_S2.PRXY" />
+		</state>
 	</__states>
 </BasicEffectAttached>

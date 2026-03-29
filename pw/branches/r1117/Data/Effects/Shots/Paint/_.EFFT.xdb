@@ -12,4 +12,10 @@
 	<parentType>General</parentType>
 	<visibilityLimited>false</visibilityLimited>
 	<visibleTime>0</visibleTime>
+	<__states>
+		<state name="artist_S5">
+			<component href="/Effects/Shots/Paint/_Green_TRSS5.PRXY" />
+			<fadeIn>0</fadeIn>
+		</state>
+	</__states>
 </BasicEffectStandalone>

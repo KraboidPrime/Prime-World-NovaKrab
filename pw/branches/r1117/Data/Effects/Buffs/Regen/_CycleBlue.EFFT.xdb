@@ -15,5 +15,8 @@
 		<state name="banshee_S1">
 			<component href="/Effects/Buffs/Regen/_CycleBlueTRS_S1.PRXY" />
 		</state>
+		<state name="banshee_S3">
+			<component href="/Effects/Buffs/Regen/_CycleBlueTRS_S3.PRXY" />
+		</state>
 	</__states>
 </BasicEffectAttached>

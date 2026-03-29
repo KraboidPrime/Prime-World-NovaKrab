@@ -17,5 +17,8 @@
 		<state name="chronicle_S1">
 			<component href="/Effects/Debuffs/Clock/fx_clock_A4TRS_S1.PRXY" />
 		</state>
+		<state name="chronicle_S2">
+			<component href="/Effects/Debuffs/Clock/fx_clock_A4_2S2.PRXY" />
+		</state>
 	</__states>
 </BasicEffectStandalone>

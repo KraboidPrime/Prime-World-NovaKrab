@@ -12,4 +12,9 @@
 	<parentType>General</parentType>
 	<visibilityLimited>false</visibilityLimited>
 	<visibleTime>0</visibleTime>
+	<__states>
+		<state name="chronicle_S2">
+			<component href="/Effects/Debuffs/Clock/fx_clock_A4_2S2.PRXY" />
+		</state>
+	</__states>
 </BasicEffectStandalone>

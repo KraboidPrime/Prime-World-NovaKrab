@@ -74,6 +74,7 @@
 	<BackLink DBID="/Test/clamp/_.PRXY" Count="1" />
 	<BackLink DBID="/Test/clamp/testSVN.SOBJ" Count="1" />
 	<BackLink DBID="/Test/TestSVN2/_.PRXY" Count="1" />
+	<BackLink DBID="/Effects/Buffs/Sacrifice/_S3.PRXY" Count="1" />
 	<generatedFileName></generatedFileName>
 	<mipLevels>0</mipLevels>
 	<mipLevelUsage>AutoGenerate</mipLevelUsage>

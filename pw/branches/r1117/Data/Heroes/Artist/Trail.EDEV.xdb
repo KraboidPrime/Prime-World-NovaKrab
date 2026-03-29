@@ -4,6 +4,7 @@
 	<BackLink DBID="/Heroes/Artist/S1/_.SOBJ" Count="1" />
 	<BackLink DBID="/Heroes/Artist/S2/_.SOBJ" Count="1" />
 	<BackLink DBID="/Heroes/Artist/S4/_.SOBJ" Count="1" />
+	<BackLink DBID="/Heroes/Artist/S5/_.SOBJ" Count="1" />
 	<disableEvents>
 		<Item href="/Heroes/Artist/Trail.EDEV" id="16350E77-6DE3-4AA5-B657-82FEECC263D2">
 			<AnimationSCEvent>

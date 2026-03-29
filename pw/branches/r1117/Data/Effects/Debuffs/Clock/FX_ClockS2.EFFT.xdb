@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BasicEffectAttached>
+	<BackLink DBID="/Items/Talents/Class/Chronicle/Ability_A0.TALENT" Count="3" />
+	<attachFlags>7</attachFlags>
+	<attachType>Clock</attachType>
+	<component href="/Effects/Debuffs/Clock/fx_clockS2.PRXY" />
+	<deathType>Manual</deathType>
+	<enableCondition href="/Effects/Debuffs/Clock/FX_ClockS2.EFFT" id="4B7DB0EA-28E7-40ED-9EC0-841A39A23648">
+		<ConditionFormula>
+			<condition>
+				<compiledString>FQ0AAAABAAAAEQAAAGNocm9uaWNsZV9TMgBVi+xoAAAAAItFCIsQi00Ii4LoAQAA/9Bdww==</compiledString>
+				<returnType>bool</returnType>
+				<sString>sender.IsSkinUsed("chronicle_S2")</sString>
+			</condition>
+			<name></name>
+		</ConditionFormula>
+	</enableCondition>
+	<fadeIn>0</fadeIn>
+	<fadeOut>0</fadeOut>
+	<groupFlags>0</groupFlags>
+	<lifeTime>0</lifeTime>
+</BasicEffectAttached>

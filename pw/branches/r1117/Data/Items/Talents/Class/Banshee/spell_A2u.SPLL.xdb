@@ -57,9 +57,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString></compiledString>
+					<compiledString>FQsAAAABAAAADwAAAGJhbnNoZWVfUzMAVYvsaAAAAACLRQiLEItNCIuC6AEAAP/QD7bA99gbwIPAAV3D</compiledString>
 					<returnType>bool</returnType>
-					<sString>true</sString>
+					<sString>!sender.IsSkinUsed("banshee_S3")</sString>
 				</enabled>
 				<flag>0</flag>
 				<formulaName></formulaName>
@@ -167,6 +167,39 @@
 					</AreaTargetSelector>
 				</targetSelector>
 			</SpellApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/Banshee/spell_A2u.SPLL" id="6A320E76-F9EF-44DD-93F4-45F6DEFFDCC2">
+			<FlagsApplicator>
+				<applyTarget>AbilityTarget</applyTarget>
+				<behaviorFlags>248</behaviorFlags>
+				<caption>(upg) FX волны скин</caption>
+				<consumables />
+				<effect>
+					<Item href="/Effects/Debuffs/ShockWave/_AirShort.EFFT" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FQsAAAABAAAADwAAAGJhbnNoZWVfUzMAVYvsaAAAAACLRQiLEItNCIuC6AEAAP/QXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.IsSkinUsed("banshee_S3")</sString>
+				</enabled>
+				<flag>0</flag>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAPw==</compiledString>
+					<returnType>float</returnType>
+					<sString>0.5f</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString>FRgAAAACAAAAHwAAADgAAABCYW5zaGVlX0EydQBCYW5zaGVlX0EydQBVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaAwAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AIpF+4vlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("Banshee_A2u")</sString>
+				</startCondition>
+				<talents />
+				<useListAs>ListAsRule</useListAs>
+			</FlagsApplicator>
 		</Item>
 	</applicators>
 	<dispatch href="/Items/Talents/Class/Banshee/spell_A2u.SPLL" id="74CF02B5-306F-438B-B5DA-643DB528A030">

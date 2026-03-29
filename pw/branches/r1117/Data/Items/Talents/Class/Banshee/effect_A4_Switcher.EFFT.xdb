@@ -14,5 +14,12 @@
 			<effectOnInvisible href="/Effects/Buffs/Assist/_BansheeA4Enemy_S1.EFFT" />
 			<effectOnVisible href="/Effects/Buffs/Assist/_BansheeA4_S1.EFFT" />
 		</state>
+		<state name="banshee_S2">
+			<effectOnVisible href="/Effects/Buffs/Assist/_BansheeA4Enemy.EFFT" />
+		</state>
+		<state name="banshee_S3">
+			<effectOnInvisible href="/Effects/Buffs/Assist/_BansheeA4S3.EFFT" />
+			<effectOnVisible href="/Effects/Buffs/Assist/_BansheeA4S3.EFFT" />
+		</state>
 	</__states>
 </EffectSwitcher>

@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BasicEffectAttached>
 	<BackLink DBID="/Items/Talents/Class/FireFox/A3Clone.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Banshee/spell_A2u.SPLL" Count="1" />
 	<attachFlags>0</attachFlags>
 	<attachType>Body</attachType>
 	<component href="/Effects/Debuffs/ShockWave/_AirShort.PRXY" />

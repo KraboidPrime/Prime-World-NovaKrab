@@ -11,5 +11,8 @@
 		<state name="banshee_S1">
 			<component href="/Effects/General/Sleep/Lightning_S1.LGSC" />
 		</state>
+		<state name="banshee_S3">
+			<component href="/Effects/General/Sleep/Lightning_S3.LGSC" />
+		</state>
 	</__states>
 </LightningEffect>

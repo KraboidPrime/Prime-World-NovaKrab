@@ -5,7 +5,16 @@
 	<attachType>Clock</attachType>
 	<component href="/Effects/Debuffs/Clock/fx_clock.PRXY" />
 	<deathType>Manual</deathType>
-	<enableCondition href="" />
+	<enableCondition href="/Effects/Debuffs/Clock/FX_Clock.EFFT" id="4B7DB0EA-28E7-40ED-9EC0-841A39A23648">
+		<ConditionFormula>
+			<condition>
+				<compiledString>FQ0AAAABAAAAEQAAAGNocm9uaWNsZV9TMgBVi+xoAAAAAItFCIsQi00Ii4LoAQAA/9APtsD32BvAg8ABXcM=</compiledString>
+				<returnType>bool</returnType>
+				<sString>!sender.IsSkinUsed("chronicle_S2")</sString>
+			</condition>
+			<name></name>
+		</ConditionFormula>
+	</enableCondition>
 	<fadeIn>0</fadeIn>
 	<fadeOut>0</fadeOut>
 	<groupFlags>0</groupFlags>

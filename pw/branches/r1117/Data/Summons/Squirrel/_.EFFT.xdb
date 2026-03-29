@@ -17,5 +17,8 @@
 		<state name="artist_S4">
 			<component href="/Summons/Squirrel/_S4_TRS.PRXY" />
 		</state>
+		<state name="artist_S5">
+			<component href="/Summons/Squirrel/_TRSS5.PRXY" />
+		</state>
 	</__states>
 </BasicEffectStandalone>

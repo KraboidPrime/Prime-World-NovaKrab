@@ -15,5 +15,8 @@
 		<state name="artist_S3">
 			<attachType>Bottle</attachType>
 		</state>
+		<state name="artist_S5">
+			<component href="/Heroes/Artist/FXBrushS5.PRXY" />
+		</state>
 	</__states>
 </BasicEffectAttached>

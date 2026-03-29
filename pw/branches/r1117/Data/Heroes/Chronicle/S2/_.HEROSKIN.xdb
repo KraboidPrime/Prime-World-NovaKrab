@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HeroSkin>
+	<BackLink DBID="/Social/Lootboxes/LB_Season13_Skin" Count="1" />
+	<BackLink DBID="/Heroes/Chronicle/_.HROB" Count="2" />
+	<antagonistSkinId></antagonistSkinId>
+	<askList href="" />
+	<askListSecondState href="" />
+	<botRoll>true</botRoll>
+	<cost>500</cost>
+	<deathParameters href="" />
+	<gender>Female</gender>
+	<heroImageA href="/UI/Styles/Icons/Heroes/Chronicle/Face_S2.ITEX" />
+	<heroImageB href="/UI/Styles/Icons/Heroes/Chronicle/Face_S2.ITEX" />
+	<heroName textref="/Heroes/Chronicle/S2/_.HEROSKIN_heroName.txt" />
+	<heroRace>3</heroRace>
+	<heroRenderA href="/UI/Styles/Icons/Heroes/Chronicle/Face_S2.ITEX" />
+	<heroRenderB href="/UI/Styles/Icons/Heroes/Chronicle/Face_S2.ITEX" />
+	<legal>true</legal>
+	<lobbyAskSound>Heroes/Asks/chronicle_S1_iddle_1</lobbyAskSound>
+	<mute>false</mute>
+	<persistentId>chronicle_S2</persistentId>
+	<sceneObject href="/Heroes/Chronicle/S2/_.SOBJ" />
+</HeroSkin>
