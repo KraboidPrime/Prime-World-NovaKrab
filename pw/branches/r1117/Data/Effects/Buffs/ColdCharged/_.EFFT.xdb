@@ -13,7 +13,7 @@
 	<lifeTime>0</lifeTime>
 	<__states>
 		<state name="snowqueen_S7">
-			<component href="/Effects/Buffs/ColdCharged/_CoperTRS.PRXY" />
+			<component href="/Effects/Buffs/ColdCharged/_GoldTRS7.PRXY" />
 		</state>
 	</__states>
 </BasicEffectAttached>

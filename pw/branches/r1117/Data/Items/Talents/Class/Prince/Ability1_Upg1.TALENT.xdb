@@ -56,25 +56,7 @@
 		</Item>
 	</conditionFormulas>
 	<conflictingTalents />
-	<constants href="/Items/Talents/Class/Prince/Ability1_Upg1.TALENT" id="54585529-96E0-4CF9-B761-329CDD28DE7A">
-		<UnitConstantsContainer>
-			<vars>
-				<Item href="/Items/Talents/Class/Prince/Ability1_Upg1.TALENT" id="2185B6E7-6522-43AE-97E7-B4E269522566">
-					<UnitConstant>
-						<name>Blind_Duration</name>
-						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
-							<returnType>float</returnType>
-							<sString>3</sString>
-						</var>
-					</UnitConstant>
-				</Item>
-				<Item href="/Items/Talents/Class/Prince/const_A1_Add_Stun_Duration" />
-				<Item href="/Items/Talents/Class/Prince/const_A1_StunDuration" />
-				<Item href="/Items/Talents/Class/Prince/const_A1u_BaseStunDuration" />
-			</vars>
-		</UnitConstantsContainer>
-	</constants>
+	<constants href="" />
 	<consumptionBonus>
 		<constant>0</constant>
 		<percent>0</percent>

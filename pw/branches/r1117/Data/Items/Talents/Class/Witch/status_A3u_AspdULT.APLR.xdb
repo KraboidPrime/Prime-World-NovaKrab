@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StatusApplicator>
+	<BackLink DBID="/Heroes/Witch/_.HROB" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Witch/Ability_A3.TALENT" Count="1" />
+	<applicators>
+		<Item href="/Items/Talents/Class/Witch/status_A3u_AspdULT.APLR" id="65A24791-011F-4545-83E1-04E709B6F345">
+			<StatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>увеличить переменную Witch_A3uStacks</caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADAQA==</compiledString>
+						<returnType>float</returnType>
+						<sString>6.0f</sString>
+					</addValue>
+					<multValue>
+						<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+						<returnType>float</returnType>
+						<sString>0.0f</sString>
+					</multValue>
+					<stat>Life</stat>
+					<topModifier>true</topModifier>
+					<variable>Witch_A3uStacks</variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
+		</Item>
+	</applicators>
+	<applyTarget>AbilityOwner</applyTarget>
+	<behaviorFlags>152</behaviorFlags>
+	<caption>(А3у) статус Witch_A3uAspdULT</caption>
+	<customCounter>
+		<compiledString>FQAAAAAAAAAAVYvsuAYAAABdww==</compiledString>
+		<returnType>int</returnType>
+		<sString>6</sString>
+	</customCounter>
+	<customProgress>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>-1.0</sString>
+	</customProgress>
+	<description textref="/Items/Talents/Class/Witch/status_A3u_AspdULT.APLR_description.txt" />
+	<dispellPriority>NonDispellable</dispellPriority>
+	<effect>
+		<Item href="" />
+		<Item href="" />
+	</effect>
+	<enabled>
+		<compiledString>FTIAAAAFAAAAOQAAAFIAAACOAAAAqAAAAL4AAABXaXRjaF9BM3UAAABXaXRjaF9BM3UAAABBM0FiaWxpdHlPbgBBNE1veXJhT2xkVWx0AFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoDAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdEtqAItVEFJoGAAAAItFCIsQi00Ii4KcAQAA/9A7RRB0K2gkAAAAi00IixGLTQiLgogBAAD/0Nwd4AAAAN/g9sREegnHRfQBAAAA6wfHRfQAAAAAikX0i+VdwwAAAAAAAPA/</compiledString>
+		<returnType>bool</returnType>
+		<sString>tal("Witch_A3u") &amp;&amp; sender.applA3AbilityOn(GLOBAL) != pMisc &amp;&amp; sender.vA4MoyraOldUlt == 1.0f</sString>
+	</enabled>
+	<flags>0</flags>
+	<formulaName>Witch_A3uAspd</formulaName>
+	<image href="/UI/Styles/Icons/Heroes/Witch/A3.ITEX" />
+	<lifeTime>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAvw==</compiledString>
+		<returnType>float</returnType>
+		<sString>-1</sString>
+	</lifeTime>
+	<LoggingEvent>-1</LoggingEvent>
+	<name textref="/Items/Talents/Class/Witch/status_A3u_AspdULT.APLR_name.txt" />
+	<power>0</power>
+	<providerName></providerName>
+	<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+	<stackCount>0</stackCount>
+	<startCondition>
+		<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+		<returnType>bool</returnType>
+		<sString>true</sString>
+	</startCondition>
+	<statusPosition>-1</statusPosition>
+	<stopBehaviour>StopByTime</stopBehaviour>
+	<unstackableWith href="" />
+</StatusApplicator>

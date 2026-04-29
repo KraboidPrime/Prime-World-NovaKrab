@@ -3,10 +3,10 @@
 	<BackLink DBID="/MiniGames/Minigame02/GameLogic/EaselMinigameData" Count="1" />
 	<availabilityTable>
 		<Item>1</Item>
-		<Item>2</Item>
-		<Item>3</Item>
-		<Item>5</Item>
-		<Item>6</Item>
+		<Item>1</Item>
+		<Item>1</Item>
+		<Item>1</Item>
+		<Item>1</Item>
 	</availabilityTable>
 	<designerChainParams href="/MiniGames/Minigame02/GameLogic/minigame02" id="4BF3B373-092D-43F0-A6B1-189388D87C5E">
 		<DBEaselChains>

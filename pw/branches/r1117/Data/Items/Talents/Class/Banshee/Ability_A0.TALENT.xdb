@@ -82,9 +82,9 @@
 					<UnitConstant>
 						<name>A3sup_DefenceTotal</name>
 						<var>
-							<compiledString>FSMAAAADAAAAMgAAAEoAAAB3AAAAQTNzdXBfRGVmZW5jZVBlckEwAABCYW5zaGVlQTBfU2VsZgBVi+yD7BCLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0moAi0UQUGgUAAAAi00IixGLTQiLgqABAADdXfj/0IlF9NtF9NxN+Nld8NlF8FHZHCRR2QWKAAAA2Rwk6AsAAACDxAiL5V3DAADIQlWL7FHZRQjZRQze2d/g9sRBdQjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
+							<compiledString>FSMAAAADAAAAMgAAAEoAAAB3AAAAQTNzdXBfRGVmZW5jZVBlckEwAABCYW5zaGVlQTBfU2VsZgBVi+yD7BCLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0moAi0UQUGgUAAAAi00IixGLTQiLgqABAADdXfj/0IlF9NtF9NxN+Nld8NlF8FHZHCRR2QWKAAAA2Rwk6AsAAACDxAiL5V3DAACWQlWL7FHZRQjZRQze2d/g9sRBdQjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
 							<returnType>float</returnType>
-							<sString>min(100, cA3sup_DefencePerA0 * pFirst-&gt;CountApplicators("BansheeA0_Self", pMisc, GLOBAL))</sString>
+							<sString>min(75, cA3sup_DefencePerA0 * pFirst-&gt;CountApplicators("BansheeA0_Self", pMisc, GLOBAL))</sString>
 						</var>
 					</UnitConstant>
 				</Item>

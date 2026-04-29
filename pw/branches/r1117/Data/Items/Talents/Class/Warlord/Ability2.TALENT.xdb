@@ -972,7 +972,9 @@
 		<Item href="/Items/Talents/Class/Warlord/Ability2.TALENT" id="CE2A8D13-DF0E-433B-852D-2429298B0E78">
 			<FlagsApplicator parent="/GameLogic/GeneralApplicators/ForbidTalentByCondition.APLR">
 				<enabled>
-					<compiledString>FQAAAAAAAAAAVYvsaAAAAgCLRQyLEItNDItCaP/QXcM=</compiledString>
+					<compiledString>FU8AAAAFAAAAdwAAAJsAAAC7AAAA2wAAAPsAAABHdW5uZXJSb290QTMAAAAAV2VuZGlnb1Jvb3QARnJlZXplQTJSb290AAAAAENhcHR1cmVkRGVtb25vbG9nUm9vdAAAAFN0YXR1c1Jvb3QAVYvsUWgAAAIAi0UMixCLTQyLQmj/0A+2yIXJD4WtAAAAagCLVRBSaAAAAACLRQyLEItNDIuCnAEAAP/QO0UQD4WJAAAAagCLTRBRaBAAAACLVQyLAotNDIuQnAEAAP/SO0UQdWlqAItFEFBoHAAAAItNDIsRi00Mi4KcAQAA/9A7RRB1SWoAi00QUWgsAAAAi1UMiwKLTQyLkJwBAAD/0jtFEHUpagCLRRBQaEQAAACLTQyLEYtNDIuCnAEAAP/QO0UQdQnHRfwAAAAA6wfHRfwBAAAAikX8i+Vdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>(rFlag(131072) || receiver.applGunnerRootA3(GLOBAL) != pMisc || receiver.applWendigoRoot(GLOBAL) != pMisc || receiver.applFreezeA2Root(GLOBAL) != pMisc || receiver.applCapturedDemonologRoot(GLOBAL) != pMisc || receiver.applStatusRoot(GLOBAL) != pMisc)</sString>
 				</enabled>
 				<lifeTime>
 					<compiledString></compiledString>

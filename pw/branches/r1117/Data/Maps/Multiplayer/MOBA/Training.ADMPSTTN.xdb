@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <AdvMapSettings parent="/Maps/Multiplayer/MOBA/_.ADMPSTTN">
 	<BackLink DBID="/Maps/Multiplayer/MOBA/Training.ADMPDSCR" Count="1" />
+	<BackLink DBID="/Maps/Multiplayer/MOBA/TrainingNoSides.ADMPDSCR" Count="1" />
 	<enableStatistics>false</enableStatistics>
 	<trainingForceCoeff>2.3</trainingForceCoeff>
 </AdvMapSettings>

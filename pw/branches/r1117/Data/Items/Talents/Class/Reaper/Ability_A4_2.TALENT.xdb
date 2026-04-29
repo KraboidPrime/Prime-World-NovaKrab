@@ -92,9 +92,9 @@
 					<UnitConstant>
 						<name>A4_2_AddDef</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>10.0f</sString>
+							<sString>20.0f</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -627,7 +627,7 @@
 										<returnType>bool</returnType>
 										<sString>0</sString>
 									</continueCondition>
-									<continueEvents>1</continueEvents>
+									<continueEvents>2</continueEvents>
 									<delay>
 										<compiledString></compiledString>
 										<returnType>float</returnType>
@@ -644,16 +644,16 @@
 									<applicator href="/Items/Talents/Class/Reaper/Ability_A4_2.TALENT" id="1F0C5567-84A1-4EE3-AA99-62A16F97E13C">
 										<SpellPeriodicallyApplicator>
 											<applyTarget>ApplicatorTarget</applyTarget>
-											<behaviorFlags>216</behaviorFlags>
+											<behaviorFlags>217</behaviorFlags>
 											<caption></caption>
 											<effect>
 												<Item href="" />
 												<Item href="" />
 											</effect>
 											<enabled>
-												<compiledString></compiledString>
+												<compiledString>FQAAAAABAAAAEwAAAFWL7FGLRRCLEItNEItCHP/Q3B01AAAA3+D2xER7CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAA8D8=</compiledString>
 												<returnType>bool</returnType>
-												<sString>true</sString>
+												<sString>mPreparedness != 1.0f </sString>
 											</enabled>
 											<formulaName></formulaName>
 											<lifeTime>

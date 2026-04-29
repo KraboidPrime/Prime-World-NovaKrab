@@ -2,9 +2,127 @@
 <Summoned>
 	<BackLink DBID="/Items/Talents/Class/Angel/Ability_A5_2.TALENT" Count="4" />
 	<BackLink DBID="/Items/Talents/Class/Chicken/Ability_A0.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Angel/Resurrect_A5.APLR" Count="1" />
 	<abilities>
 		<Item href="" />
-		<Item href="" />
+		<Item href="/Summons/AngelFake/FakeInterractor.SUMMONED" id="0FC09458-5338-4C25-92FF-9FBC95FA2B65">
+			<Ability>
+				<activeCustomTrigger>true</activeCustomTrigger>
+				<allowChase>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</allowChase>
+				<alternativeTargets />
+				<aoeDisplayOnMinimap>false</aoeDisplayOnMinimap>
+				<aoeHeight>0</aoeHeight>
+				<aoeMaterial href="" />
+				<aoePassabilityCheckMode>0</aoePassabilityCheckMode>
+				<aoeSize>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>0.0f</sString>
+				</aoeSize>
+				<aoeType>None</aoeType>
+				<applicators />
+				<autoTargetSelector href="" />
+				<caption></caption>
+				<castAllowRange>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>0.0f</sString>
+				</castAllowRange>
+				<castLimitations />
+				<commonDescription textref="" />
+				<compiledDescriptionA textref="" />
+				<compiledDescriptionB textref="" />
+				<conditionFormulas />
+				<constants href="" />
+				<cooldownTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>0.0f</sString>
+				</cooldownTime>
+				<cooldownTimeSecondState>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>0.0f</sString>
+				</cooldownTimeSecondState>
+				<description textref="" />
+				<dispatch href="" />
+				<flags>1</flags>
+				<image href="" />
+				<imageSecondState href="" />
+				<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
+				<manaCost>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>0.0f</sString>
+				</manaCost>
+				<marker></marker>
+				<microAI href="" />
+				<minUseRangeCorrection>0</minUseRangeCorrection>
+				<name textref="" />
+				<node></node>
+				<passiveApplicators>
+					<Item href="/Summons/AngelFake/FakeInterractor.SUMMONED" id="14C251C9-780C-460B-8582-6881973AEFF9">
+						<FlagsApplicator>
+							<applyTarget>AbilityOwner</applyTarget>
+							<behaviorFlags>0</behaviorFlags>
+							<caption></caption>
+							<consumables />
+							<effect>
+								<Item href="/Summons/AngelFake/FakeInterractor.SUMMONED" id="1108A0BF-3E67-45A7-8C91-CCDA4BF29A26">
+									<EffectSwitcher>
+										<deathType>Manual</deathType>
+										<effectOnInvisible href="" />
+										<effectOnVisible href="/Summons/Spear/_DecalLightSnowAA.EFFT" />
+										<enableCondition href="" />
+										<isVisibleUnderWarfog>false</isVisibleUnderWarfog>
+										<lifeTime>0</lifeTime>
+										<logic>FactionVisibility</logic>
+									</EffectSwitcher>
+								</Item>
+								<Item href="" />
+							</effect>
+							<enabled>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</enabled>
+							<flag>0</flag>
+							<formulaName></formulaName>
+							<lifeTime>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>-1.0</sString>
+							</lifeTime>
+							<LoggingEvent>-1</LoggingEvent>
+							<providerName></providerName>
+							<startCondition>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</startCondition>
+							<talents />
+							<useListAs>ListAsRule</useListAs>
+						</FlagsApplicator>
+					</Item>
+				</passiveApplicators>
+				<requireLineOfSight>true</requireLineOfSight>
+				<shortDescription textref="" />
+				<targetType>136258047</targetType>
+				<type>Passive</type>
+				<useRange>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>0.0f</sString>
+				</useRange>
+				<useRangeMaterial href="" />
+				<warFogRemoveRadius>0</warFogRemoveRadius>
+				<warFogRemoveTime>0</warFogRemoveTime>
+			</Ability>
+		</Item>
 		<Item href="" />
 		<Item href="" />
 		<Item href="" />
@@ -476,7 +594,7 @@
 		<R>0</R>
 	</recolor>
 	<rounded>false</rounded>
-	<sceneObject href="/Summons/Whisper/_A.SOBJ" />
+	<sceneObject href="/Summons/Whisper/_AA.SOBJ" />
 	<selectionAoe>
 		<Item href="" />
 		<Item href="" />

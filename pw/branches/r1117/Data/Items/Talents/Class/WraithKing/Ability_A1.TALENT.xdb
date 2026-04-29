@@ -9,6 +9,7 @@
 	<BackLink DBID="/Items/Talents/TalentKits/Redset6_2_CDR/appl_Redset6_2_RefreshCooldown.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/WraithKing_Mighty.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/WraithKing/Ability_A1_SUP.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/WraithKing/Ability_A1.TALENT" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -1672,7 +1673,43 @@
 	<naftaCost>300</naftaCost>
 	<name textref="/Items/Talents/Class/WraithKing/Ability_A1.TALENT_name.txt" />
 	<node>ability1</node>
-	<passiveApplicators />
+	<passiveApplicators>
+		<Item href="/Items/Talents/Class/WraithKing/Ability_A1.TALENT" id="BC125A81-3305-465E-8A79-4AFE56AB0A9C">
+			<FlagsApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>автозапрет таланта при ForbidMoveSpeical</caption>
+				<consumables />
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FU8AAAAFAAAAdwAAAJsAAAC7AAAA2wAAAPsAAABHdW5uZXJSb290QTMAAAAAV2VuZGlnb1Jvb3QARnJlZXplQTJSb290AAAAAENhcHR1cmVkRGVtb25vbG9nUm9vdAAAAFN0YXR1c1Jvb3QAVYvsUWgAAAIAi0UMixCLTQyLQmj/0A+2yIXJD4WkAAAAagCLVRBSaAAAAACLRQyLEItNDIuCnAEAAP/QO0UQD4WAAAAAagCLTRBRaBAAAACLVQyLAotNDIuQnAEAAP/SO0UQdWBqAItFEFBoHAAAAItNDIsRi00Mi4KcAQAA/9A7RRB1QGoAi00QUWgsAAAAi1UMiwKLTQyLkJwBAAD/0jtFEHUgagCLRRBQaEQAAACLTQyLEYtNDIuCnAEAAP/QO0UQdByLTRCLEYtNEIsC/9APtsiFyXQJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>(rFlag(131072) || receiver.applGunnerRootA3(GLOBAL) != pMisc || receiver.applWendigoRoot(GLOBAL) != pMisc || receiver.applFreezeA2Root(GLOBAL) != pMisc || receiver.applCapturedDemonologRoot(GLOBAL) != pMisc || receiver.applStatusRoot(GLOBAL) != pMisc) &amp;&amp; mIsAbilityOn</sString>
+				</enabled>
+				<flag>1024</flag>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<talents>
+					<Item href="/Items/Talents/Class/WraithKing/Ability_A1.TALENT" />
+				</talents>
+				<useListAs>ListAsRule</useListAs>
+			</FlagsApplicator>
+		</Item>
+	</passiveApplicators>
 	<persistentId>WraithKing_A1</persistentId>
 	<prerequisiteTalents />
 	<rarity>Class</rarity>

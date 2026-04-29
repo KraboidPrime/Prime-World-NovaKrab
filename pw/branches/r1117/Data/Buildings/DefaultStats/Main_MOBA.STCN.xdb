@@ -79,9 +79,9 @@
 			<levelUpgrades />
 			<statId>Dexterity</statId>
 			<value>
-				<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADyQg==</compiledString>
+				<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAD8Qg==</compiledString>
 				<returnType>float</returnType>
-				<sString>121</sString>
+				<sString>126</sString>
 			</value>
 		</Item>
 		<Item>
@@ -143,9 +143,9 @@
 			<levelUpgrades />
 			<statId>BaseAttack</statId>
 			<value>
-				<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+				<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAPw==</compiledString>
 				<returnType>float</returnType>
-				<sString>1.0f</sString>
+				<sString>0.5f</sString>
 			</value>
 		</Item>
 	</stats>

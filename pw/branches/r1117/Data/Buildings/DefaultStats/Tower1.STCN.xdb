@@ -134,9 +134,9 @@
 			<levelUpgrades />
 			<statId>Dexterity</statId>
 			<value>
-				<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQg==</compiledString>
+				<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAC+Qg==</compiledString>
 				<returnType>float</returnType>
-				<sString>100</sString>
+				<sString>95</sString>
 			</value>
 		</Item>
 		<Item>

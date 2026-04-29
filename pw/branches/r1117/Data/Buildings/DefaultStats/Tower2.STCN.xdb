@@ -40,9 +40,9 @@
 			<levelUpgrades />
 			<statId>Strength</statId>
 			<value>
-				<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAD2Qg==</compiledString>
+				<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADqQg==</compiledString>
 				<returnType>float</returnType>
-				<sString>123</sString>
+				<sString>117</sString>
 			</value>
 		</Item>
 		<Item>
@@ -136,9 +136,9 @@
 			<levelUpgrades />
 			<statId>Dexterity</statId>
 			<value>
-				<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADyQg==</compiledString>
+				<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAD8Qg==</compiledString>
 				<returnType>float</returnType>
-				<sString>121</sString>
+				<sString>126</sString>
 			</value>
 		</Item>
 		<Item>

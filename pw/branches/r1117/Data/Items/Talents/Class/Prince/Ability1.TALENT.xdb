@@ -39,9 +39,9 @@
 				<applyTarget>ApplicatorTarget</applyTarget>
 				<caption>(РЗ) Ослепление аое</caption>
 				<enabled>
-					<compiledString>FQAAAAAAAAAAVYvsVotFCIsQi00Ii4KQAQAA/9CL8ItNCIsRi00Ii0JM/9AzyTvwD5TBisFeXcM=</compiledString>
+					<compiledString>FRgAAAACAAAAIAAAADkAAABQcmluY2VfQTF1MQBQcmluY2VfQTF1MQBVi+yD7AxWaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgMAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0LItVCIsCi00Ii5CQAQAA/9KL8ItFCIsQi00Ii0JM/9A78HUJx0X0AQAAAOsHx0X0AAAAAIpF9F6L5V3D</compiledString>
 					<returnType>bool</returnType>
-					<sString>sFctn == sTerrainType</sString>
+					<sString>tal("Prince_A1u1") &amp;&amp; (sFctn == sTerrainType)</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<LoggingEvent>-1</LoggingEvent>
@@ -212,9 +212,9 @@
 				<applyTarget>ApplicatorTarget</applyTarget>
 				<caption>(Sup_Upg) Стан аое</caption>
 				<enabled>
-					<compiledString>FTgAAAAEAAAAPwAAAFgAAACOAAAApwAAAFByaW5jZV9BMV9TVVAAAABQcmluY2VfQTFfU1VQAAAAUHJpbmNlX0ExdTEAUHJpbmNlX0ExdTEAVYvsg+wUaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0WGggAAAAi1UIiwKLTQiLkKgBAAD/0oXAdCpoLAAAAItFCIsQi00Ii4KoAQAA/9CJRfSLTfSLEYtN9ItCBP/QiEXz6wTGRfMAD7ZN84XJdAnHRewBAAAA6wfHRewAAAAAikXsi+Vdww==</compiledString>
+					<compiledString>FR4AAAACAAAAJQAAAD4AAABQcmluY2VfQTFfU1VQAAAAUHJpbmNlX0ExX1NVUABVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AIpF+4vlXcM=</compiledString>
 					<returnType>bool</returnType>
-					<sString>tal("Prince_A1_SUP") &amp;&amp; tal("Prince_A1u1")</sString>
+					<sString>tal("Prince_A1_SUP")</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<LoggingEvent>-1</LoggingEvent>
@@ -222,20 +222,7 @@
 				<spell href="/Items/Talents/Class/Prince/Ability1.TALENT" id="334D0904-8241-485B-BC58-412319679B45">
 					<Spell>
 						<applicators>
-							<Item href="/Items/Talents/Class/Prince/Ability1.TALENT" id="A3368548-B66A-4F71-B8CE-19335272F680">
-								<StatusApplicator parent="/Heroes/DefaultStatus/_STUN_Status.APLR">
-									<lifeTime>
-										<compiledString>FRIAAAABAAAAHgAAAEFkZF9TdHVuX0R1cmF0aW9uAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
-										<returnType>float</returnType>
-										<sString>cAdd_Stun_Duration</sString>
-									</lifeTime>
-									<startCondition>
-										<compiledString>FRcAAAADAAAAXwAAAHMAAACGAAAAU3VwU3R1bl9TdGFydENvbmRpdGlvbgBVi+yD7AiLRQyLEItNDItCUP/QM8mD+BEPlcGJTfzbRfxR2RwkUdnu2RwkagGLVQyLAotNDItQWP/SD7bAUOhaAAAAg8QM3B2oAAAA3+D2xER7MItNDFGLVQhSaAAAAACLRRCLEItNEItCUP/Q3B2oAAAA3+D2xER7CcdF+AEAAADrB8dF+AAAAACKRfiL5V3DAAAAAAAAAAAAAAAAVYvsUQ+2RQiFwHQI2UUM2V386wbZRRDZXfzZRfyL5V3D</compiledString>
-										<returnType>bool</returnType>
-										<sString>ut_bldg( false, rUnitKind != 17 ) &amp;&amp; cSupStun_StartCondition</sString>
-									</startCondition>
-								</StatusApplicator>
-							</Item>
+							<Item href="/Heroes/DefaultStatus/_STUN_Status.APLR" />
 						</applicators>
 						<dispatch href="/Items/Talents/Class/Prince/Ability1.TALENT" id="11D78E11-54C4-4E21-8307-C288782B2CAA">
 							<DispatchImmediate>
@@ -336,28 +323,6 @@
 							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
 							<returnType>float</returnType>
 							<sString>3.0f</sString>
-						</var>
-					</UnitConstant>
-				</Item>
-				<Item href="/Items/Talents/Class/Prince/const_A1_Add_Stun_Duration" />
-				<Item href="/Items/Talents/Class/Prince/const_A1u_BaseStunDuration" />
-				<Item href="/Items/Talents/Class/Prince/Ability1.TALENT" id="BD9A64CC-40F8-47A3-8FC9-4377A1A5C5C6">
-					<UnitConstant>
-						<name>Stun_StartCondition</name>
-						<var>
-							<compiledString>FRgAAAACAAAAHwAAADgAAABQcmluY2VfQTF1MQBQcmluY2VfQTF1MQBVi+yD7AxoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaAwAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuJTfTbRfSL5V3D</compiledString>
-							<returnType>float</returnType>
-							<sString>tal("Prince_A1u1")</sString>
-						</var>
-					</UnitConstant>
-				</Item>
-				<Item href="/Items/Talents/Class/Prince/Ability1.TALENT" id="252C33FE-7826-4ABC-951D-5274323F2736">
-					<UnitConstant>
-						<name>SupStun_StartCondition</name>
-						<var>
-							<compiledString>FR4AAAACAAAAJQAAAD4AAABQcmluY2VfQTFfU1VQAAAAUHJpbmNlX0ExX1NVUABVi+yD7AxoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuJTfTbRfSL5V3D</compiledString>
-							<returnType>float</returnType>
-							<sString>tal("Prince_A1_SUP")</sString>
 						</var>
 					</UnitConstant>
 				</Item>

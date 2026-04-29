@@ -2,7 +2,7 @@
 <UITexture>
 	<BackLink DBID="/Items/Consumables/EnergyPotion.ARCT" Count="2" />
 	<BackLink DBID="/Impulses/_.IBCN" Count="1" />
-	<BackLink DBID="/Items/Consumables/SUPPORT.ARCT" Count="2" />
+	<BackLink DBID="/Items/Consumables/SUPPORT.ARCT" Count="3" />
 	<generatedFileName></generatedFileName>
 	<importOnlyShape>false</importOnlyShape>
 	<mipLevels>0</mipLevels>

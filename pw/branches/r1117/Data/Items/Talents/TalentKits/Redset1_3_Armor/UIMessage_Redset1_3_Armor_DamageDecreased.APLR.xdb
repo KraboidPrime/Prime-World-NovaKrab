@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UIMessageApplicator>
-	<BackLink DBID="/Items/Talents/TalentKits/Redset1_3_Armor/Programm_Redset1_3_Armor.APLR" Count="1" />
 	<applyTarget>AbilityOwner</applyTarget>
 	<caption>Сообщение</caption>
 	<enabled>

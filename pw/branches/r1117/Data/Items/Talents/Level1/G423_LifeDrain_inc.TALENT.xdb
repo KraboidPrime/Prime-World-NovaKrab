@@ -70,9 +70,9 @@
 					<UnitConstant>
 						<name>Add_DrainLife</name>
 						<var>
-							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwzMzs0AzMzM/</compiledString>
+							<compiledString>FQAAAAACAAAABgAAABAAAABVi+xR2QUqAAAA2RwkUdkFJgAAANkcJItFEIsQi00Qi0Js/9BdwzMzk0AzMzM/</compiledString>
 							<returnType>float</returnType>
-							<sString>refineScale(5.6, 0.7)</sString>
+							<sString>refineScale(4.6, 0.7)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

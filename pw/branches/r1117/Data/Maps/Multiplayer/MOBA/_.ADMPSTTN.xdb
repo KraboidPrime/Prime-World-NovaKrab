@@ -60,7 +60,7 @@
 	<primeSettings>
 		<awardSpecRange>25</awardSpecRange>
 		<awardTeamRange>25</awardTeamRange>
-		<giveWorldPrimeAmount>4</giveWorldPrimeAmount>
+		<giveWorldPrimeAmount>7</giveWorldPrimeAmount>
 		<giveWorldPrimeRessurectDelay>0</giveWorldPrimeRessurectDelay>
 		<giveWorldPrimeToDead>true</giveWorldPrimeToDead>
 		<heroNaftaParams href="/Maps/Multiplayer/MOBA/PrimeForVictimKill.HNP" />
@@ -75,7 +75,7 @@
 		<naftaForKill>-1</naftaForKill>
 		<naftaSpecForKill>-1</naftaSpecForKill>
 		<neutralKillExperienceModifier href="" />
-		<startPrimePerTeam>2000</startPrimePerTeam>
+		<startPrimePerTeam>1850</startPrimePerTeam>
 		<teamNaftaForPresence>-1</teamNaftaForPresence>
 	</primeSettings>
 	<questsCollection href="" />

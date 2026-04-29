@@ -70,9 +70,9 @@
 		<Item href="" />
 	</effect>
 	<enabled>
-		<compiledString>FR8AAAADAAAAJgAAAD8AAACDAAAAQXJjaGVyZXNzX0EydTEAAEFyY2hlcmVzc19BMnUxAFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdCOLVRCLAotNEItQHP/S3B2lAAAA3+D2xER6CcdF9AEAAADrB8dF9AAAAACKRfSL5V3DAAAAAAAA8D8=</compiledString>
+		<compiledString>FUUAAAAFAAAATAAAAGUAAACpAAAAtQAAAM4AAABBcmNoZXJlc3NfQTJ1MQAAQXJjaGVyZXNzX0EydTEAAEFyY2hlcmVzc19BMl9TVVAAAAAAQXJjaGVyZXNzX0EyX1NVUABVi+yD7BRoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXRyi1UQiwKLTRCLUBz/0twdGgEAAN/g9sREe09oIAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaDQAAACLTQiLEYtNCIuCqAEAAP/QiUX0i030ixGLTfSLQgT/0IhF8+sExkXzAA+2TfOFyXQJx0XsAQAAAOsHx0XsAAAAAIpF7IvlXcMAAAAAAADwPw==</compiledString>
 		<returnType>bool</returnType>
-		<sString>tal("Archeress_A2u1") &amp;&amp; mPreparedness == 1</sString>
+		<sString>tal("Archeress_A2u1") &amp;&amp; (mPreparedness == 1 || tal("Archeress_A2_SUP"))</sString>
 	</enabled>
 	<flags>0</flags>
 	<formulaName></formulaName>

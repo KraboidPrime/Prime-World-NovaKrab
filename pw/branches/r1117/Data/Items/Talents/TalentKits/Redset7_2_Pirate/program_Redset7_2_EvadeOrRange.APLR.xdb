@@ -63,9 +63,9 @@
 					<caption>EvadeOrRange</caption>
 					<customApplyType>None</customApplyType>
 					<enabled>
-						<compiledString>FSIAAAADAAAAOAAAAEQAAABaAAAAQWRkX0V2YWRlT3JSYW5nZV9SZWRzZXQ3XzJDb3VudGVyAFWL7FGLRQiLEItNCIuChAAAAP/Q3B2EAAAA3+D2xAF1K2gAAAAAi00IixGLTQiLgogBAAD/0NwdfAAAAN/g9sREegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAhAAAAAAAAAFEA=</compiledString>
+						<compiledString>FSIAAAADAAAAOAAAAEQAAABaAAAAQWRkX0V2YWRlT3JSYW5nZV9SZWRzZXQ3XzJDb3VudGVyAFWL7FGLRQiLEItNCIuChAAAAP/Q3B2EAAAA3+D2xAF1K2gAAAAAi00IixGLTQiLgogBAAD/0NwdfAAAAN/g9sREegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAABAAAAAAAAAGEA=</compiledString>
 						<returnType>bool</returnType>
-						<sString>sBaseRange&gt;=5 &amp;&amp; sender.vAdd_EvadeOrRange_Redset7_2Counter == 3</sString>
+						<sString>sBaseRange&gt;=6 &amp;&amp; sender.vAdd_EvadeOrRange_Redset7_2Counter == 2</sString>
 					</enabled>
 					<formulaName></formulaName>
 					<LoggingEvent>-1</LoggingEvent>
@@ -112,9 +112,9 @@
 					<caption>Add_Evade</caption>
 					<customApplyType>None</customApplyType>
 					<enabled>
-						<compiledString>FSIAAAADAAAAOAAAAEQAAABaAAAAQWRkX0V2YWRlT3JSYW5nZV9SZWRzZXQ3XzJDb3VudGVyAFWL7FGLRQiLEItNCIuChAAAAP/Q3B2EAAAA3+D2xEF6K2gAAAAAi00IixGLTQiLgogBAAD/0NwdfAAAAN/g9sREegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAhAAAAAAAAAFEA=</compiledString>
+						<compiledString>FSIAAAADAAAAOAAAAEQAAABaAAAAQWRkX0V2YWRlT3JSYW5nZV9SZWRzZXQ3XzJDb3VudGVyAFWL7FGLRQiLEItNCIuChAAAAP/Q3B2EAAAA3+D2xAV6K2gAAAAAi00IixGLTQiLgogBAAD/0NwdfAAAAN/g9sREegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAABAAAAAAAAAGEA=</compiledString>
 						<returnType>bool</returnType>
-						<sString>sBaseRange&lt;=5 &amp;&amp; sender.vAdd_EvadeOrRange_Redset7_2Counter == 3</sString>
+						<sString>sBaseRange&lt;6 &amp;&amp; sender.vAdd_EvadeOrRange_Redset7_2Counter == 2</sString>
 					</enabled>
 					<formulaName></formulaName>
 					<LoggingEvent>-1</LoggingEvent>
@@ -161,9 +161,9 @@
 					<caption>Add_Range</caption>
 					<customApplyType>None</customApplyType>
 					<enabled>
-						<compiledString>FSIAAAADAAAAOAAAAEQAAABaAAAAQWRkX0V2YWRlT3JSYW5nZV9SZWRzZXQ3XzJDb3VudGVyAFWL7FGLRQiLEItNCIuChAAAAP/Q3B2EAAAA3+D2xEF1K2gAAAAAi00IixGLTQiLgogBAAD/0NwdfAAAAN/g9sREegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAhAAAAAAAAAFEA=</compiledString>
+						<compiledString>FSIAAAADAAAAOAAAAEQAAABaAAAAQWRkX0V2YWRlT3JSYW5nZV9SZWRzZXQ3XzJDb3VudGVyAFWL7FGLRQiLEItNCIuChAAAAP/Q3B2EAAAA3+D2xAF1K2gAAAAAi00IixGLTQiLgogBAAD/0NwdfAAAAN/g9sREegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAABAAAAAAAAAGEA=</compiledString>
 						<returnType>bool</returnType>
-						<sString>sBaseRange&gt;5 &amp;&amp; sender.vAdd_EvadeOrRange_Redset7_2Counter == 3</sString>
+						<sString>sBaseRange&gt;=6 &amp;&amp; sender.vAdd_EvadeOrRange_Redset7_2Counter == 2</sString>
 					</enabled>
 					<formulaName></formulaName>
 					<LoggingEvent>-1</LoggingEvent>
@@ -212,9 +212,9 @@
 		<Item href="" />
 	</effect>
 	<enabled>
-		<compiledString>FSIAAAACAAAAJwAAAD0AAABBZGRfRXZhZGVPclJhbmdlX1JlZHNldDdfMUNvdW50ZXIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdXwAAAN/g9sQFegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAhA</compiledString>
+		<compiledString>FSIAAAACAAAAJwAAAD0AAABBZGRfRXZhZGVPclJhbmdlX1JlZHNldDdfMUNvdW50ZXIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdXwAAAN/g9sQFegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAABA</compiledString>
 		<returnType>bool</returnType>
-		<sString>sender.vAdd_EvadeOrRange_Redset7_1Counter &lt; 3</sString>
+		<sString>sender.vAdd_EvadeOrRange_Redset7_1Counter &lt; 2</sString>
 	</enabled>
 	<formulaName></formulaName>
 	<lifeTime>

@@ -2,6 +2,7 @@
 <BasicEffectStandalone>
 	<BackLink DBID="/Items/Talents/Class/Angel/Ability_A5_2.TALENT" Count="4" />
 	<BackLink DBID="/Items/Talents/Class/Chicken/Ability_A0.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Angel/Resurrect_A5.APLR" Count="1" />
 	<component href="/Effects/Buffs/Rebirth/_AngelTRS.PRXY" />
 	<deathType>Anim</deathType>
 	<enableCondition href="" />

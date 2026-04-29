@@ -80,7 +80,7 @@
 					<returnType>float</returnType>
 					<sString>-1.0</sString>
 				</customProgress>
-				<description textref="/Items/Talents/Class/Ent/Ability_A2.TALENT_1ba006a35a73479d90b5cfecd61fdfbd_description.txt" />
+				<description textref="" />
 				<dispellPriority>NonDispellable</dispellPriority>
 				<effect>
 					<Item href="" />
@@ -93,14 +93,14 @@
 				</enabled>
 				<flags>0</flags>
 				<formulaName>EntA2_Bonus</formulaName>
-				<image href="/UI/Styles/Icons/Heroes/Ent/A2.ITEX" />
+				<image href="" />
 				<lifeTime>
 					<compiledString>FQ8AAAABAAAAGwAAAEhhc3RlX0R1cmF0aW9uAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
 					<returnType>float</returnType>
 					<sString>cHaste_Duration</sString>
 				</lifeTime>
 				<LoggingEvent>-1</LoggingEvent>
-				<name textref="/Items/Talents/Class/Ent/Ability_A2.TALENT_1ba006a35a73479d90b5cfecd61fdfbd_name.txt" />
+				<name textref="" />
 				<power>0</power>
 				<providerName></providerName>
 				<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
@@ -371,9 +371,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FQAAAAAAAAAAVYvsaAAAAgCLRQyLEItNDItCaP/QXcM=</compiledString>
+					<compiledString>FU8AAAAFAAAAdwAAAJsAAAC7AAAA2wAAAPsAAABHdW5uZXJSb290QTMAAAAAV2VuZGlnb1Jvb3QARnJlZXplQTJSb290AAAAAENhcHR1cmVkRGVtb25vbG9nUm9vdAAAAFN0YXR1c1Jvb3QAVYvsUWgAAAIAi0UMixCLTQyLQmj/0A+2yIXJD4WtAAAAagCLVRBSaAAAAACLRQyLEItNDIuCnAEAAP/QO0UQD4WJAAAAagCLTRBRaBAAAACLVQyLAotNDIuQnAEAAP/SO0UQdWlqAItFEFBoHAAAAItNDIsRi00Mi4KcAQAA/9A7RRB1SWoAi00QUWgsAAAAi1UMiwKLTQyLkJwBAAD/0jtFEHUpagCLRRBQaEQAAACLTQyLEYtNDIuCnAEAAP/QO0UQdQnHRfwAAAAA6wfHRfwBAAAAikX8i+Vdww==</compiledString>
 					<returnType>bool</returnType>
-					<sString>rFlag(131072)</sString>
+					<sString>(rFlag(131072) || receiver.applGunnerRootA3(GLOBAL) != pMisc || receiver.applWendigoRoot(GLOBAL) != pMisc || receiver.applFreezeA2Root(GLOBAL) != pMisc || receiver.applCapturedDemonologRoot(GLOBAL) != pMisc || receiver.applStatusRoot(GLOBAL) != pMisc)</sString>
 				</enabled>
 				<flag>1024</flag>
 				<formulaName></formulaName>

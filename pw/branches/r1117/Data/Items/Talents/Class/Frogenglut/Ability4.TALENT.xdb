@@ -1346,6 +1346,11 @@
 	<passiveApplicators>
 		<Item href="/Items/Talents/Class/Frogenglut/Ability4.TALENT" id="F16709F3-13AD-42E0-86D8-39DD2C0FD9F2">
 			<FlagsApplicator parent="/GameLogic/GeneralApplicators/ForbidTalentByCondition.APLR">
+				<enabled>
+					<compiledString>FU8AAAAFAAAAdwAAAJsAAAC7AAAA2wAAAPsAAABHdW5uZXJSb290QTMAAAAAV2VuZGlnb1Jvb3QARnJlZXplQTJSb290AAAAAENhcHR1cmVkRGVtb25vbG9nUm9vdAAAAFN0YXR1c1Jvb3QAVYvsUWgAAAIAi0UMixCLTQyLQmj/0A+2yIXJD4WtAAAAagCLVRBSaAAAAACLRQyLEItNDIuCnAEAAP/QO0UQD4WJAAAAagCLTRBRaBAAAACLVQyLAotNDIuQnAEAAP/SO0UQdWlqAItFEFBoHAAAAItNDIsRi00Mi4KcAQAA/9A7RRB1SWoAi00QUWgsAAAAi1UMiwKLTQyLkJwBAAD/0jtFEHUpagCLRRBQaEQAAACLTQyLEYtNDIuCnAEAAP/QO0UQdQnHRfwAAAAA6wfHRfwBAAAAikX8i+Vdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>(rFlag(131072) || receiver.applGunnerRootA3(GLOBAL) != pMisc || receiver.applWendigoRoot(GLOBAL) != pMisc || receiver.applFreezeA2Root(GLOBAL) != pMisc || receiver.applCapturedDemonologRoot(GLOBAL) != pMisc || receiver.applStatusRoot(GLOBAL) != pMisc)</sString>
+				</enabled>
 				<talents>
 					<Item href="/Items/Talents/Class/Frogenglut/Ability4.TALENT" />
 				</talents>

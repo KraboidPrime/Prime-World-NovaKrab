@@ -29,28 +29,8 @@
 										<returnType>bool</returnType>
 										<sString>true</sString>
 									</enabled>
+									<uiEvent href="/UI/Events/CommonEvents/EventHeal.UIEV" />
 								</HealApplicator>
-							</Item>
-							<Item href="/Items/Talents/Class/Gunslinger/status_A4.APLR" id="E6312D06-4E76-4D2A-9D8D-947DA3494DBC">
-								<PermanentStatModApplicator parent="/Items/Talents/Class/Gunslinger/A0_RageReduce.APLR">
-									<enabled>
-										<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
-										<returnType>bool</returnType>
-										<sString>true</sString>
-									</enabled>
-									<modifier>
-										<addValue>
-											<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
-											<returnType>float</returnType>
-											<sString>0.0f</sString>
-										</addValue>
-										<multValue>
-											<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
-											<returnType>float</returnType>
-											<sString>0.0f</sString>
-										</multValue>
-									</modifier>
-								</PermanentStatModApplicator>
 							</Item>
 						</applicators>
 						<dispatch href="/Items/Talents/Class/Gunslinger/status_A4.APLR" id="EC76C76C-4E47-4A35-A0AA-8B5CDAC111DE">
@@ -88,9 +68,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+					<compiledString>FR8AAAACAAAAJgAAAD8AAABHdW5zbGluZ2VyX0E0dQAAR3Vuc2xpbmdlcl9BNHUAVYvsg+wIaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wCKRfuL5V3D</compiledString>
 					<returnType>bool</returnType>
-					<sString>true</sString>
+					<sString>tal("Gunslinger_A4u") </sString>
 				</enabled>
 				<formulaName></formulaName>
 				<lifeTime>

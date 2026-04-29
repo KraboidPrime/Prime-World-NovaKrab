@@ -888,7 +888,7 @@
 									</applicators>
 									<dispatch href="/Heroes/Firefox/_.HROB" id="74B40ED1-4F8C-41DD-B71C-397F47540E26">
 										<DispatchLinear>
-											<aiming>Straight</aiming>
+											<aiming>Pursue</aiming>
 											<alwaysApply>false</alwaysApply>
 											<applyEffect>
 												<Item href="" />
@@ -902,7 +902,7 @@
 												<Item href="/Effects/Shots/FireBall/_.EFFT" />
 												<Item href="" />
 											</dispatchEffect>
-											<flags>7</flags>
+											<flags>5</flags>
 											<flyMode>Parabolic</flyMode>
 											<fromLocator>Attack3</fromLocator>
 											<height>0</height>

@@ -23,7 +23,7 @@
 	<BackLink DBID="/Heroes/Vampire/_.HROB" Count="1" />
 	<BackLink DBID="/Impulses/_.IBCN" Count="1" />
 	<BackLink DBID="/Items/Consumables/CleansingCake.ARCT" Count="1" />
-	<BackLink DBID="/Items/Consumables/EnergyCake.ARCT" Count="1" />
+	<BackLink DBID="/Items/Consumables/EnergyCake.ARCT" Count="3" />
 	<BackLink DBID="/Items/Consumables/HealingCake.ARCT" Count="4" />
 	<BackLink DBID="/Items/Consumables/HealingPotion.ARCT" Count="3" />
 	<BackLink DBID="/Items/Consumables/OffHealHeart.ARCT" Count="1" />
@@ -64,8 +64,8 @@
 	<BackLink DBID="/Items/Talents/Class/GhostLord/status_A2_SpectralShield.APLR" Count="3" />
 	<BackLink DBID="/Items/Talents/Class/Gunner/Ability_A2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Gunslinger/A0_HealByRage.APLR" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Gunslinger/Ability_A4_2.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Gunslinger/status_A4.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Gunslinger/Ability_A4_2.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/Gunslinger/status_A4.APLR" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Healer/A1HealSelf.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Healer/A4PeriodSpell.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Healer/A4PeriodSpell2.APLR" Count="1" />
@@ -102,7 +102,7 @@
 	<BackLink DBID="/Items/Talents/Class/Trickster/appl_A2u_heal.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Unicorn/Ability1.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Unicorn/status_A3_Recovery.APLR" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Vampire/Ability_A1.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/Vampire/Ability_A1.TALENT" Count="4" />
 	<BackLink DBID="/Items/Talents/Class/Vampire/Ability_A2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Vampire/Ability_A3.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Vampire/Ability_A4_2.TALENT" Count="4" />

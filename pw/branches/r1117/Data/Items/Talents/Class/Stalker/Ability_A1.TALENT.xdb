@@ -8,6 +8,7 @@
 	<BackLink DBID="/Items/Talents/TalentKits/Redset6_2_CDR/appl_Redset6_2_RefreshCooldown.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/Stalker_Mighty.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Stalker/Ability_A2.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Stalker/Ability_A1.TALENT" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -1044,9 +1045,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FQAAAAAAAAAAVYvsaAAAAgCLRQyLEItNDItCaP/QXcM=</compiledString>
+					<compiledString>FU8AAAAFAAAAdwAAAJsAAAC7AAAA2wAAAPsAAABHdW5uZXJSb290QTMAAAAAV2VuZGlnb1Jvb3QARnJlZXplQTJSb290AAAAAENhcHR1cmVkRGVtb25vbG9nUm9vdAAAAFN0YXR1c1Jvb3QAVYvsUWgAAAIAi0UMixCLTQyLQmj/0A+2yIXJD4WtAAAAagCLVRBSaAAAAACLRQyLEItNDIuCnAEAAP/QO0UQD4WJAAAAagCLTRBRaBAAAACLVQyLAotNDIuQnAEAAP/SO0UQdWlqAItFEFBoHAAAAItNDIsRi00Mi4KcAQAA/9A7RRB1SWoAi00QUWgsAAAAi1UMiwKLTQyLkJwBAAD/0jtFEHUpagCLRRBQaEQAAACLTQyLEYtNDIuCnAEAAP/QO0UQdQnHRfwAAAAA6wfHRfwBAAAAikX8i+Vdww==</compiledString>
 					<returnType>bool</returnType>
-					<sString>rFlag(131072)</sString>
+					<sString>(rFlag(131072) || receiver.applGunnerRootA3(GLOBAL) != pMisc || receiver.applWendigoRoot(GLOBAL) != pMisc || receiver.applFreezeA2Root(GLOBAL) != pMisc || receiver.applCapturedDemonologRoot(GLOBAL) != pMisc || receiver.applStatusRoot(GLOBAL) != pMisc)</sString>
 				</enabled>
 				<flag>1024</flag>
 				<formulaName></formulaName>
@@ -1063,7 +1064,7 @@
 					<sString>true</sString>
 				</startCondition>
 				<talents>
-					<Item href="/Items/Talents/Class/Naga/Ability1.TALENT" />
+					<Item href="/Items/Talents/Class/Stalker/Ability_A1.TALENT" />
 				</talents>
 				<useListAs>ListAsRule</useListAs>
 			</FlagsApplicator>

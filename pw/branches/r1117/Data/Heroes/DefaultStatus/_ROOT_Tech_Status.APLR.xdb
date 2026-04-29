@@ -21,7 +21,7 @@
 					<returnType>bool</returnType>
 					<sString>true</sString>
 				</enabled>
-				<flag>131073</flag>
+				<flag>1</flag>
 				<formulaName></formulaName>
 				<lifeTime>
 					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAvw==</compiledString>
@@ -59,6 +59,86 @@
 					<sString>-1.0</sString>
 				</value>
 			</UIMessageApplicator>
+		</Item>
+		<Item href="/Heroes/DefaultStatus/_ROOT_Tech_Status.APLR" id="E14BADA3-C8EF-4302-BBA0-801C6B48A25B">
+			<SpellApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>хитрый эффект корней</caption>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<spell href="/Heroes/DefaultStatus/_ROOT_Tech_Status.APLR" id="2D2B26DC-C26D-430D-A010-D521ADFA7A7A">
+					<Spell>
+						<applicators>
+							<Item href="/Heroes/DefaultStatus/_ROOT_Tech_Status.APLR" id="711E170F-A637-4B6C-92DE-CEF502728CE3">
+								<FlagsApplicator>
+									<applyTarget>ApplicatorTarget</applyTarget>
+									<behaviorFlags>145</behaviorFlags>
+									<caption></caption>
+									<consumables />
+									<effect>
+										<Item href="" />
+										<Item href="" />
+									</effect>
+									<enabled>
+										<compiledString>FTkAAAAHAAAARAAAAHsAAACRAAAApQAAALgAAADEAAAA2gAAAFN0YXR1c1Jvb3QAAEltbXVuZTJDb250cm9sAABSb290X0NvbmRpdGlvbgAAQWxsb3dDb250cm9sAFWL7FFqAItFEFBoAAAAAItNDIsRi00Mi4KcAQAA/9A7RRAPhI0AAABoAAAQAItNDIsRi00Mi0Jo/9APtsiFyXVJaAwAAACLVQyLAotNDIuQiAEAAP/S3B0EAQAA3+D2xER6J4tFDFCLTQhRaBwAAACLVRCLAotNEItQUP/S3B0EAQAA3+D2xER6ImgsAAAAi0UMixCLTQyLgogBAAD/0Nwd/AAAAN/g9sREegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAPA/AAAAAAAAAAA=</compiledString>
+										<returnType>bool</returnType>
+										<sString>receiver.applStatusRoot(GLOBAL) != pMisc &amp;&amp; ((!rFlag(1048576) &amp;&amp; receiver.vImmune2Control == 0 &amp;&amp; cRoot_Condition) || receiver.vAllowControl == 1)</sString>
+									</enabled>
+									<flag>131072</flag>
+									<formulaName></formulaName>
+									<lifeTime>
+										<compiledString>FQ4AAAABAAAAGgAAAFJvb3RfRHVyYXRpb24AVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+										<returnType>float</returnType>
+										<sString>cRoot_Duration</sString>
+									</lifeTime>
+									<LoggingEvent>-1</LoggingEvent>
+									<providerName></providerName>
+									<startCondition>
+										<compiledString>FQsAAAABAAAAFQAAAFN0YXR1c1Jvb3QAVYvsagCLRRBQaAAAAACLTQyLEYtNDIuCnAEAAP/QM8k7RRAPlcGKwV3D</compiledString>
+										<returnType>bool</returnType>
+										<sString>receiver.applStatusRoot(GLOBAL) != pMisc</sString>
+									</startCondition>
+									<talents />
+									<useListAs>ListAsRule</useListAs>
+								</FlagsApplicator>
+							</Item>
+						</applicators>
+						<dispatch href="/Heroes/DefaultStatus/_ROOT_Tech_Status.APLR" id="2EC3732E-A0DB-43F1-9F02-2698AA8B3A5C">
+							<DispatchByTime>
+								<alwaysApply>false</alwaysApply>
+								<applyEffect>
+									<Item href="" />
+									<Item href="" />
+								</applyEffect>
+								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+								<applyEffectOrientation>Default</applyEffectOrientation>
+								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+								<cancelOnSenderDeath>false</cancelOnSenderDeath>
+								<dieAfterApply>true</dieAfterApply>
+								<dispatchEffect>
+									<Item href="" />
+									<Item href="" />
+								</dispatchEffect>
+								<flags>0</flags>
+								<lifeTime>
+									<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpmZPg==</compiledString>
+									<returnType>float</returnType>
+									<sString>0.3f</sString>
+								</lifeTime>
+								<persistentApplicators />
+							</DispatchByTime>
+						</dispatch>
+					</Spell>
+				</spell>
+				<spellTarget>ApplicatorTarget</spellTarget>
+				<targetSelector href="" />
+			</SpellApplicator>
 		</Item>
 	</applicators>
 	<applyTarget>ApplicatorTarget</applyTarget>

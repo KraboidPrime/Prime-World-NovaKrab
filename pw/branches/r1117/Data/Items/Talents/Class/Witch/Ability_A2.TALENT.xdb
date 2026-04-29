@@ -361,9 +361,9 @@
 					<UnitConstant>
 						<name>Panic_StartCondition</name>
 						<var>
-							<compiledString>FQwAAAABAAAAFwAAAFN0YXR1c1BhbmljAFWL7FFqAYtFEFBoAAAAAItNDIsRi00Mi4KcAQAA/9AzyTtFEA+UwYlN/NtF/IvlXcM=</compiledString>
+							<compiledString>FRMAAAABAAAAHgAAAFN0YXR1c1BhbmljU3BlY2lhbABVi+xRagGLRRBQaAAAAACLTQyLEYtNDIuCnAEAAP/QM8k7RRAPlMGJTfzbRfyL5V3D</compiledString>
 							<returnType>float</returnType>
-							<sString>receiver.applStatusPanic(UNIT) == pMisc</sString>
+							<sString>receiver.applStatusPanicSpecial(UNIT) == pMisc</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -448,6 +448,11 @@
 	<passiveApplicators>
 		<Item href="/Items/Talents/Class/Witch/Ability_A2.TALENT" id="F6B9F056-55B3-4E81-B03C-D20D94A41260">
 			<FlagsApplicator parent="/GameLogic/GeneralApplicators/ForbidTalentByCondition.APLR">
+				<enabled>
+					<compiledString>FU8AAAAFAAAAdwAAAJsAAAC7AAAA2wAAAPsAAABHdW5uZXJSb290QTMAAAAAV2VuZGlnb1Jvb3QARnJlZXplQTJSb290AAAAAENhcHR1cmVkRGVtb25vbG9nUm9vdAAAAFN0YXR1c1Jvb3QAVYvsUWgAAAIAi0UMixCLTQyLQmj/0A+2yIXJD4WtAAAAagCLVRBSaAAAAACLRQyLEItNDIuCnAEAAP/QO0UQD4WJAAAAagCLTRBRaBAAAACLVQyLAotNDIuQnAEAAP/SO0UQdWlqAItFEFBoHAAAAItNDIsRi00Mi4KcAQAA/9A7RRB1SWoAi00QUWgsAAAAi1UMiwKLTQyLkJwBAAD/0jtFEHUpagCLRRBQaEQAAACLTQyLEYtNDIuCnAEAAP/QO0UQdQnHRfwAAAAA6wfHRfwBAAAAikX8i+Vdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>(rFlag(131072) || receiver.applGunnerRootA3(GLOBAL) != pMisc || receiver.applWendigoRoot(GLOBAL) != pMisc || receiver.applFreezeA2Root(GLOBAL) != pMisc || receiver.applCapturedDemonologRoot(GLOBAL) != pMisc || receiver.applStatusRoot(GLOBAL) != pMisc)</sString>
+				</enabled>
 				<talents>
 					<Item href="/Items/Talents/Class/Witch/Ability_A2.TALENT" />
 				</talents>

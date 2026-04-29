@@ -172,9 +172,9 @@
 																				<damageMode>4</damageMode>
 																				<damageType>Material</damageType>
 																				<enabled>
-																					<compiledString>FSAAAAACAAAAJwAAAEAAAABJbnZpc2libGVfQTRfMnUASW52aXNpYmxlX0E0XzJ1AFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAikX7i+Vdww==</compiledString>
+																					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
 																					<returnType>bool</returnType>
-																					<sString>tal("Invisible_A4_2u")</sString>
+																					<sString>true</sString>
 																				</enabled>
 																				<formulaName></formulaName>
 																				<LoggingEvent>-1</LoggingEvent>
@@ -923,9 +923,9 @@
 																				<damageMode>4</damageMode>
 																				<damageType>Material</damageType>
 																				<enabled>
-																					<compiledString>FSAAAAACAAAAJwAAAEAAAABJbnZpc2libGVfQTRfMnUASW52aXNpYmxlX0E0XzJ1AFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAikX7i+Vdww==</compiledString>
+																					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
 																					<returnType>bool</returnType>
-																					<sString>tal("Invisible_A4_2u")</sString>
+																					<sString>true</sString>
 																				</enabled>
 																				<formulaName></formulaName>
 																				<LoggingEvent>-1</LoggingEvent>

@@ -1670,9 +1670,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FQwAAAACAAAAEQAAACcAAABGb3JiaWRVc2VBMgBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1iAAAA3+D2xER6ImgAAAIAi00MixGLTQyLQmj/0A+2yIXJdQnHRfwAAAAA6wfHRfwBAAAAikX8i+VdwwAAAAAAAAAA</compiledString>
+					<compiledString>FVsAAAAHAAAAYAAAAHYAAACpAAAAzQAAAO0AAAANAQAALQEAAEZvcmJpZFVzZUEyAEd1bm5lclJvb3RBMwAAAABXZW5kaWdvUm9vdABGcmVlemVBMlJvb3QAAAAAQ2FwdHVyZWREZW1vbm9sb2dSb290AAAAU3RhdHVzUm9vdABVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1dAQAA3+D2xEQPisoAAABoAAACAItNDIsRi00Mi0Jo/9APtsiFyQ+FrQAAAGoAi1UQUmgMAAAAi0UMixCLTQyLgpwBAAD/0DtFEA+FiQAAAGoAi00QUWgcAAAAi1UMiwKLTQyLkJwBAAD/0jtFEHVpagCLRRBQaCgAAACLTQyLEYtNDIuCnAEAAP/QO0UQdUlqAItNEFFoOAAAAItVDIsCi00Mi5CcAQAA/9I7RRB1KWoAi0UQUGhQAAAAi00MixGLTQyLgpwBAAD/0DtFEHUJx0X8AAAAAOsHx0X8AQAAAIpF/IvlXcMAAAAAAAAAAA==</compiledString>
 					<returnType>bool</returnType>
-					<sString>sender.vForbidUseA2 || rFlag(131072)</sString>
+					<sString>sender.vForbidUseA2 || (rFlag(131072) || receiver.applGunnerRootA3(GLOBAL) != pMisc || receiver.applWendigoRoot(GLOBAL) != pMisc || receiver.applFreezeA2Root(GLOBAL) != pMisc || receiver.applCapturedDemonologRoot(GLOBAL) != pMisc || receiver.applStatusRoot(GLOBAL) != pMisc)</sString>
 				</enabled>
 				<flag>1024</flag>
 				<formulaName></formulaName>
@@ -1730,7 +1730,7 @@
 								<returnType>bool</returnType>
 								<sString>true</sString>
 							</abilityCondition>
-							<abilityCostMode>Energy</abilityCostMode>
+							<abilityCostMode>Any</abilityCostMode>
 							<exceptThis>false</exceptThis>
 							<flags>1073743103</flags>
 							<onlySingleTarget>false</onlySingleTarget>

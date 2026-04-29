@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DBSceneObject>
-	<BackLink DBID="/Summons/AngelFake/FakeInterractor.SUMMONED" Count="1" />
 	<BackLink DBID="/Summons/Whisper/_A.SUMMONED" Count="1" />
 	<BackLink DBID="/Summons/Whisper/_Parent.SUMMONED" Count="1" />
 	<attached>

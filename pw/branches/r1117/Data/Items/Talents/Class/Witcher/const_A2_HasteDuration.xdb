@@ -5,7 +5,7 @@
 	<BackLink DBID="/Items/Talents/Class/Witcher/Ability_A2u.TALENT" Count="1" />
 	<name>Haste_Duration</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADgQA==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADAQA==</compiledString>
 		<returnType>float</returnType>
 		<sString>6</sString>
 	</var>

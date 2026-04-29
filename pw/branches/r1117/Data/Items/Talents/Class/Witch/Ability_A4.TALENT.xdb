@@ -24,17 +24,274 @@
 	<alternativeTargets />
 	<aoeDisplayOnMinimap>false</aoeDisplayOnMinimap>
 	<aoeHeight>0</aoeHeight>
-	<aoeMaterial href="" />
+	<aoeMaterial href="/Effects/UI/AOESelection/Radius.MTRL" />
 	<aoePassabilityCheckMode>0</aoePassabilityCheckMode>
 	<aoeSize>
-		<compiledString></compiledString>
+		<compiledString>FRYAAAACAAAAHQAAADYAAABXaXRjaF9BNHUAAABXaXRjaF9BNHUAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgMAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk3799kbyYPhCIlN9NtF9IvlXcM=</compiledString>
 		<returnType>float</returnType>
-		<sString>0.0f</sString>
+		<sString>tal("Witch_A4u") ? 8 : 0</sString>
 	</aoeSize>
-	<aoeType>None</aoeType>
+	<aoeType>Disk</aoeType>
 	<applicators>
 		<Item href="/Items/Talents/Class/Witch/status_A4_FragileCurse.APLR" />
 		<Item href="/Heroes/DefaultStatus/_PANIC_status.APLR" />
+		<Item href="/Items/Talents/Class/Witch/Ability_A4.TALENT" id="4FABFD8C-87B4-4828-AB4E-5B824386C94D">
+			<SpellApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption></caption>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<spell href="/Items/Talents/Class/Witch/Ability_A4.TALENT" id="7AA75A6B-6EA9-4FA5-9EB0-C38E3DB49AAE">
+					<Spell>
+						<applicators>
+							<Item href="/Items/Talents/Class/Witch/Ability_A4.TALENT" id="088F3F45-5335-4282-AE5A-4797F834D231">
+								<StatusApplicator parent="/Heroes/DefaultStatus/_PANIC_status.APLR">
+									<lifeTime>
+										<compiledString>FRMAAAABAAAAHwAAAFBhbmljX0R1cmF0aW9uU3BlYwBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+										<returnType>float</returnType>
+										<sString>cPanic_DurationSpec</sString>
+									</lifeTime>
+								</StatusApplicator>
+							</Item>
+						</applicators>
+						<dispatch href="/Items/Talents/Class/Witch/Ability_A4.TALENT" id="1D9C81FF-34AD-49A9-A0F8-E9DD45F45AAB">
+							<DispatchImmediate>
+								<alwaysApply>false</alwaysApply>
+								<applyEffect>
+									<Item href="" />
+									<Item href="" />
+								</applyEffect>
+								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+								<applyEffectOrientation>Default</applyEffectOrientation>
+								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+								<dieAfterApply>true</dieAfterApply>
+								<dispatchEffect>
+									<Item href="" />
+									<Item href="" />
+								</dispatchEffect>
+								<flags>0</flags>
+								<instantApply>false</instantApply>
+							</DispatchImmediate>
+						</dispatch>
+					</Spell>
+				</spell>
+				<spellTarget>ApplicatorTarget</spellTarget>
+				<targetSelector href="/Items/Talents/Class/Witch/Ability_A4.TALENT" id="1285C854-6842-4013-94A9-666E1CE1243E">
+					<CountingTargetSelector>
+						<enableSorting>true</enableSorting>
+						<flags>1</flags>
+						<heroesFirst>true</heroesFirst>
+						<mode>Normal</mode>
+						<order>Increasing</order>
+						<sortingValue>
+							<compiledString>FQAAAAAAAAAAVYvsUWoZagGLRRCLEItNEItCXP/QiUX820X8i+Vdww==</compiledString>
+							<returnType>float</returnType>
+							<sString>random(1, 25)</sString>
+						</sortingValue>
+						<targetSelector href="/Items/Talents/Class/Witch/Ability_A4.TALENT" id="87EDC231-28AE-490A-A293-A66CAC780B34">
+							<AreaTargetSelector>
+								<absolutePosition>
+									<x>0</x>
+									<y>0</y>
+								</absolutePosition>
+								<flags>1</flags>
+								<mode>Normal</mode>
+								<range>
+									<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQQ==</compiledString>
+									<returnType>float</returnType>
+									<sString>8.0f</sString>
+								</range>
+								<targetFilter>671350847</targetFilter>
+								<targetSelector href="" />
+							</AreaTargetSelector>
+						</targetSelector>
+						<targetsNumber>
+							<compiledString></compiledString>
+							<returnType>int</returnType>
+							<sString>1</sString>
+						</targetsNumber>
+					</CountingTargetSelector>
+				</targetSelector>
+			</SpellApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/Witch/Ability_A4.TALENT" id="733E9C31-1756-411E-B90D-B56DEDF26C1A">
+			<StatModApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption></caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAQQQ==</compiledString>
+					<returnType>float</returnType>
+					<sString>9.0f</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Life</stat>
+					<topModifier>false</topModifier>
+					<variable>A4MoyraOldUlt</variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/Witch/Ability_A4.TALENT" id="9A9A06A9-554A-4285-8DD4-B428DCCBA7CF">
+			<SpellApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<caption></caption>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<spell href="/Items/Talents/Class/Witch/Ability_A4.TALENT" id="95903FF8-794D-4C1F-BDCF-435C45D9D0C0">
+					<Spell>
+						<applicators>
+							<Item href="/Items/Talents/Class/Witch/Ability_A4.TALENT" id="B67D9CB2-349B-49FA-9BDD-32638509075C">
+								<TriggerApplicator>
+									<actionsCount>
+										<compiledString>FQAAAAAAAAAAVYvsuAEAAABdww==</compiledString>
+										<returnType>int</returnType>
+										<sString>1</sString>
+									</actionsCount>
+									<applyTarget>AbilityOwner</applyTarget>
+									<behaviorFlags>0</behaviorFlags>
+									<caption></caption>
+									<effect>
+										<Item href="" />
+										<Item href="" />
+									</effect>
+									<enabled>
+										<compiledString>FQ4AAAACAAAAEwAAACkAAABBNE1veXJhT2xkVWx0AFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHUsAAADf4PbERHoJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAAAA==</compiledString>
+										<returnType>bool</returnType>
+										<sString>sender.vA4MoyraOldUlt == 0.0f</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<lifeTime>
+										<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
+										<returnType>float</returnType>
+										<sString>10</sString>
+									</lifeTime>
+									<LoggingEvent>-1</LoggingEvent>
+									<playAck>false</playAck>
+									<processor href="/Items/Talents/Class/Witch/Ability_A4.TALENT" id="52BCFACE-5C48-4A06-AE6F-77D4198FB72B">
+										<EventProcessorCondition>
+											<applyTarget>AbilityOwner</applyTarget>
+											<condition>
+												<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</condition>
+											<events>8192</events>
+											<onlyParent>false</onlyParent>
+											<spell href="/Items/Talents/Class/Witch/Ability_A4.TALENT" id="0F63E975-D614-4653-B16B-CFE0FD488589">
+												<Spell>
+													<applicators>
+														<Item href="/Items/Talents/Class/Witch/status_A3u_Aspd.APLR" />
+														<Item href="/Items/Talents/Class/Witch/status_A3u_Aspd.APLR" />
+														<Item href="/Items/Talents/Class/Witch/status_A3u_Aspd.APLR" />
+														<Item href="/Items/Talents/Class/Witch/status_A3u_Aspd.APLR" />
+													</applicators>
+													<dispatch href="/Items/Talents/Class/Witch/Ability_A4.TALENT" id="AA253226-806C-4A8E-AA0B-F4883B9C65E9">
+														<DispatchByTime>
+															<alwaysApply>false</alwaysApply>
+															<applyEffect>
+																<Item href="" />
+																<Item href="" />
+															</applyEffect>
+															<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+															<applyEffectOrientation>Default</applyEffectOrientation>
+															<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+															<cancelOnSenderDeath>true</cancelOnSenderDeath>
+															<dieAfterApply>true</dieAfterApply>
+															<dispatchEffect>
+																<Item href="" />
+																<Item href="" />
+															</dispatchEffect>
+															<flags>0</flags>
+															<lifeTime>
+																<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzcxMPg==</compiledString>
+																<returnType>float</returnType>
+																<sString>0.2f</sString>
+															</lifeTime>
+															<persistentApplicators />
+														</DispatchByTime>
+													</dispatch>
+												</Spell>
+											</spell>
+										</EventProcessorCondition>
+									</processor>
+									<providerName></providerName>
+									<startCondition>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</startCondition>
+									<useAbilityCooldown>false</useAbilityCooldown>
+									<useAbilityOwnerMana>false</useAbilityOwnerMana>
+								</TriggerApplicator>
+							</Item>
+						</applicators>
+						<dispatch href="/Items/Talents/Class/Witch/Ability_A4.TALENT" id="9CF0A3B4-829D-4F01-BB33-3773B418673D">
+							<DispatchImmediate>
+								<alwaysApply>false</alwaysApply>
+								<applyEffect>
+									<Item href="" />
+									<Item href="" />
+								</applyEffect>
+								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+								<applyEffectOrientation>Default</applyEffectOrientation>
+								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+								<dieAfterApply>true</dieAfterApply>
+								<dispatchEffect>
+									<Item href="" />
+									<Item href="" />
+								</dispatchEffect>
+								<flags>0</flags>
+								<instantApply>false</instantApply>
+							</DispatchImmediate>
+						</dispatch>
+					</Spell>
+				</spell>
+				<spellTarget>AbilityOwner</spellTarget>
+				<targetSelector href="" />
+			</SpellApplicator>
+		</Item>
 	</applicators>
 	<askId>4</askId>
 	<autoTargetSelector href="" />
@@ -93,9 +350,9 @@
 					<UnitConstant>
 						<name>A4_MaxDamage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBWMAAADZHCRR2QVfAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJItNCIsRi00Ii4IwAQAA/9BR2Rwk6B8AAACDxATZHCRqAYtNEIsRi00Qi0Jg/9BdwwAAKkMAYJ9EVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBWMAAADZHCRR2QVfAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJItNCIsRi00Ii4IwAQAA/9BR2Rwk6B8AAACDxATZHCRqAYtNEIsRi00Qi0Jg/9BdwwAATEMAQL9EVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale( max(sStrength, sIntellect), 170, 1275)</sString>
+							<sString>damageScale( max(sStrength, sIntellect), 204, 1530)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -143,9 +400,9 @@
 					<UnitConstant>
 						<name>Panic_Duration</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQA==</compiledString>
 							<returnType>float</returnType>
-							<sString>3</sString>
+							<sString>2.5f</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -158,6 +415,36 @@
 							<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
 							<returnType>float</returnType>
 							<sString>1</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Witch/Ability_A4.TALENT" id="FF50775E-A9FF-4E9C-A12D-1ACF930FA031">
+					<UnitConstant>
+						<name>A3u_AspdDuration</name>
+						<var>
+							<compiledString>FTUAAAAEAAAAPAAAAFUAAACLAAAAqwAAAFdpdGNoX0EzAAAAAFdpdGNoX0EzAAAAAFdpdGNoX0EzAAAAAEEzdV9Bc3BkRHVyYXRpb24AVYvsg+wQaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgMAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0N2gYAAAAi1UIiwKLTQiLkKgBAAD/0olF9ItFDFCLTQhRaCQAAACLVfSLAotN9ItQUP/S2V3w6wXZ7tld8NlF8IvlXcMAAAAA</compiledString>
+							<returnType>float</returnType>
+							<sString>talconst("Witch_A3", "A3u_AspdDuration")</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Witch/Ability_A4.TALENT" id="F90C7161-AD2A-4D63-B6AB-296099BE330D">
+					<UnitConstant>
+						<name>A3u_AspdBuff</name>
+						<var>
+							<compiledString>FTEAAAAEAAAAOAAAAFEAAACHAAAApwAAAFdpdGNoX0EzAAAAAFdpdGNoX0EzAAAAAFdpdGNoX0EzAAAAAEEzdV9Bc3BkQnVmZgBVi+yD7BBoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaAwAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXQ3aBgAAACLVQiLAotNCIuQqAEAAP/SiUX0i0UMUItNCFFoJAAAAItV9IsCi030i1BQ/9LZXfDrBdnu2V3w2UXwi+VdwwAAAAA=</compiledString>
+							<returnType>float</returnType>
+							<sString>talconst("Witch_A3", "A3u_AspdBuff")</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Witch/Ability_A4.TALENT" id="F7966730-67F5-444F-87C2-62823A8F47A5">
+					<UnitConstant>
+						<name>Panic_DurationSpec</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADAPw==</compiledString>
+							<returnType>float</returnType>
+							<sString>1.5f</sString>
 						</var>
 					</UnitConstant>
 				</Item>

@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Class/Mage/Ability1_SUP.TALENT" Count="1" />
 	<name>Burn_TotalDamage</name>
 	<var>
-		<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAABgQgAA0kM=</compiledString>
+		<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAA0QgAAqEM=</compiledString>
 		<returnType>float</returnType>
-		<sString>damageScale(sIntellect, 56, 420)</sString>
+		<sString>damageScale(sIntellect, 45, 336)</sString>
 	</var>
 </UnitConstant>

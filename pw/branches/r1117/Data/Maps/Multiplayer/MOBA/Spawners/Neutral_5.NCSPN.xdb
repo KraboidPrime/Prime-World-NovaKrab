@@ -35,6 +35,53 @@
 										<Item href="/Maps/Multiplayer/MOBA/Spawners/Neutral_5.NCSPN" id="E9D51EB5-D47B-4C9F-BF99-D79BA43B22C9">
 											<TriggerApplicator parent="/Glyphs/HealTriggerCreeps_Moba.APLR" />
 										</Item>
+										<Item href="/Maps/Multiplayer/MOBA/Spawners/Neutral_5.NCSPN" id="D7B037CB-2B94-4489-B8DE-009CB1110C82">
+											<StatModApplicator>
+												<applyTarget>AbilityOwner</applyTarget>
+												<behaviorFlags>0</behaviorFlags>
+												<caption></caption>
+												<constraint>None</constraint>
+												<dontUpdate>false</dontUpdate>
+												<effect>
+													<Item href="" />
+													<Item href="" />
+												</effect>
+												<enabled>
+													<compiledString>FQYAAAACAAAACwAAACEAAABJc1BldABVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1DAAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
+													<returnType>bool</returnType>
+													<sString>sender.vIsPet == 0</sString>
+												</enabled>
+												<formulaName></formulaName>
+												<lifeTime>
+													<compiledString></compiledString>
+													<returnType>float</returnType>
+													<sString>-1.0</sString>
+												</lifeTime>
+												<LoggingEvent>-1</LoggingEvent>
+												<modifier>
+													<addValue>
+														<compiledString>FQAAAAACAAAAJgAAADcAAABVi+yD7AiLRQiLEItNCIuCYAEAAP/Qg+gBiUX820X8UdkcJFHZBU0AAADZHCToHwAAAIPECNwNRQAAANld+NlF+IvlXcMAAAAAAAAAQAAAQEFVi+xR2UUI2UUM3tnf4PbEQXUI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
+														<returnType>float</returnType>
+														<sString>2*min(12,(sNaftaLevel-1))</sString>
+													</addValue>
+													<multValue>
+														<compiledString></compiledString>
+														<returnType>float</returnType>
+														<sString>1.0f</sString>
+													</multValue>
+													<stat>Intellect</stat>
+													<topModifier>false</topModifier>
+													<variable></variable>
+												</modifier>
+												<providerName></providerName>
+												<startCondition>
+													<compiledString></compiledString>
+													<returnType>bool</returnType>
+													<sString>true</sString>
+												</startCondition>
+												<statModName></statModName>
+											</StatModApplicator>
+										</Item>
 									</passiveApplicators>
 								</BaseAttack>
 							</attackAbility>

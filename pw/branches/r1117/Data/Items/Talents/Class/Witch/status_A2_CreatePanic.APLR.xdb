@@ -85,7 +85,27 @@
 									<Spell>
 										<applicators>
 											<Item href="/Items/Talents/Class/Witch/A2u_PanicOn.APLR" />
-											<Item href="/Heroes/DefaultStatus/_PANIC_status.APLR" />
+											<Item href="/Items/Talents/Class/Witch/status_A2_CreatePanic.APLR" id="BBEDDF21-23FE-4AB6-8433-78011A66B74B">
+												<StatusApplicator parent="/Heroes/DefaultStatus/_PANIC_status.APLR">
+													<dispellPriority>NonDispellable</dispellPriority>
+													<enabled>
+														<compiledString>FSwAAAAFAAAAMQAAAEcAAABbAAAAbgAAAIAAAABJbW11bmUyQ29udHJvbAAAUGFuaWNfQ29uZGl0aW9uAFN0YXR1c1BhbmljAFWL7FFoAAAAAItFDIsQi00Mi4KIAQAA/9DcHbAAAADf4PbERHpQi00MUYtVCFJoEAAAAItFEIsQi00Qi0JQ/9DcHbAAAADf4PbERHspagGLTRBRaCAAAACLVQyLAotNDIuQnAEAAP/SO0UQdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAAA</compiledString>
+														<returnType>bool</returnType>
+														<sString>receiver.vImmune2Control == 0 &amp;&amp; cPanic_Condition &amp;&amp; receiver.applStatusPanic(UNIT) == pMisc</sString>
+													</enabled>
+													<formulaName>StatusPanicSpecial</formulaName>
+													<lifeTime>
+														<compiledString>FQ8AAAABAAAAGwAAAFBhbmljX0R1cmF0aW9uAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+														<returnType>float</returnType>
+														<sString>cPanic_Duration</sString>
+													</lifeTime>
+													<startCondition>
+														<compiledString>FRUAAAADAAAAXQAAAHEAAACEAAAAUGFuaWNfU3RhcnRDb25kaXRpb24AVYvsg+wIi0UMixCLTQyLQlD/0DPJg/gRD5XBiU3820X8UdkcJFHZ7tkcJGoBi1UMiwKLTQyLUFj/0g+2wFDoWgAAAIPEDNwdpgAAAN/g9sREezCLTQxRi1UIUmgAAAAAi0UQixCLTRCLQlD/0NwdpgAAAN/g9sREewnHRfgBAAAA6wfHRfgAAAAAikX4i+VdwwAAAAAAAAAAAAAAAFWL7FEPtkUIhcB0CNlFDNld/OsG2UUQ2V382UX8i+Vdww==</compiledString>
+														<returnType>bool</returnType>
+														<sString>ut_bldg( false, rUnitKind != 17 ) &amp;&amp; cPanic_StartCondition</sString>
+													</startCondition>
+												</StatusApplicator>
+											</Item>
 										</applicators>
 										<dispatch href="/Items/Talents/Class/Witch/status_A2_CreatePanic.APLR" id="D122C820-6199-4120-ACC3-A9740F88A15B">
 											<DispatchImmediate>

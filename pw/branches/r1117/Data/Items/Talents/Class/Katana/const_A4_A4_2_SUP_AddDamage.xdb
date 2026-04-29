@@ -5,8 +5,8 @@
 	<BackLink DBID="/Items/Talents/Class/Katana/Ability_A4_2.TALENT" Count="1" />
 	<name>A4_A4_2_SUP_AddDamage</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQQ==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQQ==</compiledString>
 		<returnType>float</returnType>
-		<sString>25.0f</sString>
+		<sString>30.0f</sString>
 	</var>
 </UnitConstant>

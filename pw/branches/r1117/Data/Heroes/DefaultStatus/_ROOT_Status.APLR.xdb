@@ -40,6 +40,86 @@
 				</value>
 			</UIMessageApplicator>
 		</Item>
+		<Item href="/Heroes/DefaultStatus/_ROOT_Status.APLR" id="8CB0A83B-8DC4-428B-91D4-718A64640644">
+			<SpellApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>хитрый эффект корней</caption>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<spell href="/Heroes/DefaultStatus/_ROOT_Status.APLR" id="F823E8AB-A97D-464F-B257-6CF381A2F775">
+					<Spell>
+						<applicators>
+							<Item href="/Heroes/DefaultStatus/_ROOT_Status.APLR" id="3B0D0854-BF59-4007-B050-7350AC3D18E7">
+								<FlagsApplicator>
+									<applyTarget>ApplicatorTarget</applyTarget>
+									<behaviorFlags>145</behaviorFlags>
+									<caption></caption>
+									<consumables />
+									<effect>
+										<Item href="" />
+										<Item href="" />
+									</effect>
+									<enabled>
+										<compiledString>FTkAAAAHAAAARAAAAHsAAACRAAAApQAAALgAAADEAAAA2gAAAFN0YXR1c1Jvb3QAAEltbXVuZTJDb250cm9sAABSb290X0NvbmRpdGlvbgAAQWxsb3dDb250cm9sAFWL7FFqAItFEFBoAAAAAItNDIsRi00Mi4KcAQAA/9A7RRAPhI0AAABoAAAQAItNDIsRi00Mi0Jo/9APtsiFyXVJaAwAAACLVQyLAotNDIuQiAEAAP/S3B0EAQAA3+D2xER6J4tFDFCLTQhRaBwAAACLVRCLAotNEItQUP/S3B0EAQAA3+D2xER6ImgsAAAAi0UMixCLTQyLgogBAAD/0Nwd/AAAAN/g9sREegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAPA/AAAAAAAAAAA=</compiledString>
+										<returnType>bool</returnType>
+										<sString>receiver.applStatusRoot(GLOBAL) != pMisc &amp;&amp; ((!rFlag(1048576) &amp;&amp; receiver.vImmune2Control == 0 &amp;&amp; cRoot_Condition) || receiver.vAllowControl == 1)</sString>
+									</enabled>
+									<flag>131072</flag>
+									<formulaName></formulaName>
+									<lifeTime>
+										<compiledString>FQ4AAAABAAAAGgAAAFJvb3RfRHVyYXRpb24AVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+										<returnType>float</returnType>
+										<sString>cRoot_Duration</sString>
+									</lifeTime>
+									<LoggingEvent>-1</LoggingEvent>
+									<providerName></providerName>
+									<startCondition>
+										<compiledString>FQsAAAABAAAAFQAAAFN0YXR1c1Jvb3QAVYvsagCLRRBQaAAAAACLTQyLEYtNDIuCnAEAAP/QM8k7RRAPlcGKwV3D</compiledString>
+										<returnType>bool</returnType>
+										<sString>receiver.applStatusRoot(GLOBAL) != pMisc</sString>
+									</startCondition>
+									<talents />
+									<useListAs>ListAsRule</useListAs>
+								</FlagsApplicator>
+							</Item>
+						</applicators>
+						<dispatch href="/Heroes/DefaultStatus/_ROOT_Status.APLR" id="8B0CC277-0528-4D4E-B3BC-0DD6F6916DE4">
+							<DispatchByTime>
+								<alwaysApply>false</alwaysApply>
+								<applyEffect>
+									<Item href="" />
+									<Item href="" />
+								</applyEffect>
+								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+								<applyEffectOrientation>Default</applyEffectOrientation>
+								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+								<cancelOnSenderDeath>false</cancelOnSenderDeath>
+								<dieAfterApply>true</dieAfterApply>
+								<dispatchEffect>
+									<Item href="" />
+									<Item href="" />
+								</dispatchEffect>
+								<flags>0</flags>
+								<lifeTime>
+									<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpmZPg==</compiledString>
+									<returnType>float</returnType>
+									<sString>0.3f</sString>
+								</lifeTime>
+								<persistentApplicators />
+							</DispatchByTime>
+						</dispatch>
+					</Spell>
+				</spell>
+				<spellTarget>ApplicatorTarget</spellTarget>
+				<targetSelector href="" />
+			</SpellApplicator>
+		</Item>
 	</applicators>
 	<applyTarget>ApplicatorTarget</applyTarget>
 	<behaviorFlags>145</behaviorFlags>

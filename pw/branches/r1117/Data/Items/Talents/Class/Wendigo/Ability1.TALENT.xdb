@@ -382,7 +382,7 @@
 						<checkLineOfSight>false</checkLineOfSight>
 						<nativeTerrainOnly>false</nativeTerrainOnly>
 						<passabilityCheckMode>6</passabilityCheckMode>
-						<radius>0</radius>
+						<radius>10</radius>
 						<targetSelector href="/Items/Talents/Class/Wendigo/Ability1.TALENT" id="934457BE-C80A-440B-9192-8C769568A3B8">
 							<PointTargetSelector>
 								<checkMinRange>true</checkMinRange>
@@ -435,9 +435,9 @@
 					<UnitConstant>
 						<name>Range</name>
 						<var>
-							<compiledString>FQ0AAAABAAAAGQAAAFJhbmdlX01lZGl1bQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>cRange_Medium</sString>
+							<sString>10</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -509,9 +509,9 @@
 	<isUltimateTalent>false</isUltimateTalent>
 	<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
 	<manaCost>
-		<compiledString>FQAAAAAAAAAAVYvsUYtFCIsQi00Ii4JgAQAA/9CDwAqJRfzbRfyL5V3D</compiledString>
+		<compiledString>FQAAAAACAAAANwAAAEQAAABVi+yD7BSLRQiLEItNCIuCYAEAAP/QiUX820X8i00IixGLTQiLgmABAADdXfT/0IlF8NtF8NwNYgAAANno3sHcTfTcBVIAAADZXezZReyL5V3DAAAAAAAAJEAAAAAAAADwPwAAAEDhepQ/</compiledString>
 		<returnType>float</returnType>
-		<sString>(10+sNaftaLevel)</sString>
+		<sString>10+sNaftaLevel*(1+0.02f*sNaftaLevel)</sString>
 	</manaCost>
 	<marker>doCast1</marker>
 	<microAI href="" />
@@ -532,9 +532,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FQAAAAAAAAAAVYvsaAAAAgCLRQyLEItNDItCaP/QXcM=</compiledString>
+					<compiledString>FU8AAAAFAAAAdwAAAJsAAAC7AAAA2wAAAPsAAABHdW5uZXJSb290QTMAAAAAV2VuZGlnb1Jvb3QARnJlZXplQTJSb290AAAAAENhcHR1cmVkRGVtb25vbG9nUm9vdAAAAFN0YXR1c1Jvb3QAVYvsUWgAAAIAi0UMixCLTQyLQmj/0A+2yIXJD4WtAAAAagCLVRBSaAAAAACLRQyLEItNDIuCnAEAAP/QO0UQD4WJAAAAagCLTRBRaBAAAACLVQyLAotNDIuQnAEAAP/SO0UQdWlqAItFEFBoHAAAAItNDIsRi00Mi4KcAQAA/9A7RRB1SWoAi00QUWgsAAAAi1UMiwKLTQyLkJwBAAD/0jtFEHUpagCLRRBQaEQAAACLTQyLEYtNDIuCnAEAAP/QO0UQdQnHRfwAAAAA6wfHRfwBAAAAikX8i+Vdww==</compiledString>
 					<returnType>bool</returnType>
-					<sString>rFlag(131072)</sString>
+					<sString>(rFlag(131072) || receiver.applGunnerRootA3(GLOBAL) != pMisc || receiver.applWendigoRoot(GLOBAL) != pMisc || receiver.applFreezeA2Root(GLOBAL) != pMisc || receiver.applCapturedDemonologRoot(GLOBAL) != pMisc || receiver.applStatusRoot(GLOBAL) != pMisc)</sString>
 				</enabled>
 				<flag>1024</flag>
 				<formulaName></formulaName>

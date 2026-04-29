@@ -7,7 +7,7 @@
 	<BackLink DBID="/Test/Talents/TestSet11.TALENTSET" Count="1" />
 	<BackLink DBID="/Social.ROOT" Count="1" />
 	<activationConditions />
-	<activeCustomTrigger>true</activeCustomTrigger>
+	<activeCustomTrigger>false</activeCustomTrigger>
 	<allowChase>
 		<compiledString></compiledString>
 		<returnType>bool</returnType>
@@ -66,11 +66,11 @@
 				</Item>
 				<Item href="/Items/Talents/Level1/G126_Int_Str.TALENT" id="B0408DD9-B1C8-4043-A63A-79F115E9FCEC">
 					<UnitConstant>
-						<name>Add_Nafta</name>
+						<name>G126CD</name>
 						<var>
-							<compiledString>FQYAAAADAAAACwAAACEAAAAnAAAAVGltZXIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwFPQAAANw9NQAAANld/NlF/IvlXcMAAAAAABilQAAAAAAAAD5A</compiledString>
+							<compiledString>FQAAAAAAAAAAVYvsi0UQixCLTRCLQjz/0F3D</compiledString>
 							<returnType>float</returnType>
-							<sString>2700/(30+sender.vTimer)</sString>
+							<sString>mCooldown</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -82,9 +82,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAC0Qw==</compiledString>
 		<returnType>float</returnType>
-		<sString>0</sString>
+		<sString>360</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>
@@ -94,7 +94,7 @@
 	<description textref="/Items/Talents/Level1/G126_Int_Str.TALENT_description.txt" />
 	<devPoints>1</devPoints>
 	<dispatch href="" />
-	<flags>1</flags>
+	<flags>5</flags>
 	<forceBonus>6</forceBonus>
 	<image href="/UI/Styles/Icons/Talents/_126.ITEX" />
 	<imageSecondState href="" />
@@ -115,102 +115,6 @@
 	<name textref="/Items/Talents/Level1/G126_Int_Str.TALENT_name.txt" />
 	<node></node>
 	<passiveApplicators>
-		<Item href="/Items/Talents/Level1/G126_Int_Str.TALENT" id="36BCCF8A-2FFF-4BE1-B78B-E66B283FF5B1">
-			<SpellPeriodicallyApplicator>
-				<applyTarget>ApplicatorTarget</applyTarget>
-				<behaviorFlags>152</behaviorFlags>
-				<caption>раз в 10 сек</caption>
-				<effect>
-					<Item href="" />
-					<Item href="" />
-				</effect>
-				<enabled>
-					<compiledString></compiledString>
-					<returnType>bool</returnType>
-					<sString>true</sString>
-				</enabled>
-				<formulaName></formulaName>
-				<lifeTime>
-					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAvw==</compiledString>
-					<returnType>float</returnType>
-					<sString>-1</sString>
-				</lifeTime>
-				<LoggingEvent>-1</LoggingEvent>
-				<period>
-					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
-					<returnType>float</returnType>
-					<sString>10</sString>
-				</period>
-				<providerName></providerName>
-				<scaleMode>ScaleIsCount</scaleMode>
-				<spell href="/Items/Talents/Level1/G126_Int_Str.TALENT" id="35A40A87-729C-400A-895D-F34898CA8EC7">
-					<Spell>
-						<applicators>
-							<Item href="/Items/Talents/Level1/G126_Int_Str.TALENT" id="55C0C390-F5E0-4393-A762-29EEAAB4FAF7">
-								<PermanentStatModApplicator>
-									<applyTarget>ApplicatorTarget</applyTarget>
-									<caption>uy</caption>
-									<customApplyType>None</customApplyType>
-									<enabled>
-										<compiledString></compiledString>
-										<returnType>bool</returnType>
-										<sString>true</sString>
-									</enabled>
-									<formulaName></formulaName>
-									<LoggingEvent>-1</LoggingEvent>
-									<modifier>
-										<addValue>
-											<compiledString>FQYAAAACAAAACwAAACEAAABUaW1lcgBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3AUvAAAA2V382UX8i+VdwwAAAAAAAPA/</compiledString>
-											<returnType>float</returnType>
-											<sString>sender.vTimer+1</sString>
-										</addValue>
-										<multValue>
-											<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
-											<returnType>float</returnType>
-											<sString>0.0f</sString>
-										</multValue>
-										<stat>Life</stat>
-										<topModifier>false</topModifier>
-										<variable>Timer</variable>
-									</modifier>
-									<providerName></providerName>
-								</PermanentStatModApplicator>
-							</Item>
-						</applicators>
-						<dispatch href="/Items/Talents/Level1/G126_Int_Str.TALENT" id="D6B9AFE1-CD2E-43D9-A0EA-DE2E56BFCFB6">
-							<DispatchImmediate>
-								<alwaysApply>false</alwaysApply>
-								<applyEffect>
-									<Item href="" />
-									<Item href="" />
-								</applyEffect>
-								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
-								<applyEffectOrientation>Default</applyEffectOrientation>
-								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
-								<dieAfterApply>true</dieAfterApply>
-								<dispatchEffect>
-									<Item href="" />
-									<Item href="" />
-								</dispatchEffect>
-								<flags>0</flags>
-								<instantApply>false</instantApply>
-							</DispatchImmediate>
-						</dispatch>
-					</Spell>
-				</spell>
-				<startCondition>
-					<compiledString></compiledString>
-					<returnType>bool</returnType>
-					<sString>true</sString>
-				</startCondition>
-				<startOffset>
-					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
-					<returnType>float</returnType>
-					<sString>10</sString>
-				</startOffset>
-				<targetSelector href="" />
-			</SpellPeriodicallyApplicator>
-		</Item>
 		<Item href="/Items/Talents/Level1/G126_Int_Str.TALENT" id="B4FF2DB6-BEE4-40E6-AE66-9F42C732B324">
 			<PermanentStatModApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
@@ -301,102 +205,16 @@
 				<providerName></providerName>
 			</PermanentStatModApplicator>
 		</Item>
-		<Item href="/Items/Talents/Level1/G126_Int_Str.TALENT" id="0386042E-E4B1-4811-BFC7-8D4C561DBDCA">
-			<AuraApplicator>
-				<applicators>
-					<Item href="/Items/Talents/Level1/G126_Int_Str.TALENT" id="67F56CFA-DCE1-418F-968D-A65956FFBB24">
-						<TriggerApplicator>
-							<actionsCount>
-								<compiledString></compiledString>
-								<returnType>int</returnType>
-								<sString>0</sString>
-							</actionsCount>
-							<applyTarget>ApplicatorTarget</applyTarget>
-							<behaviorFlags>0</behaviorFlags>
-							<caption>Триггер на получение консьюмобла из минигейма</caption>
-							<effect>
-								<Item href="" />
-								<Item href="" />
-							</effect>
-							<enabled>
-								<compiledString></compiledString>
-								<returnType>bool</returnType>
-								<sString>true</sString>
-							</enabled>
-							<formulaName>G126Trigger</formulaName>
-							<lifeTime>
-								<compiledString></compiledString>
-								<returnType>float</returnType>
-								<sString>-1.0</sString>
-							</lifeTime>
-							<LoggingEvent>-1</LoggingEvent>
-							<playAck>false</playAck>
-							<processor href="/Items/Talents/Level1/G126_Int_Str.TALENT" id="2BFFDB75-8F37-474D-A35E-C2463D5DD6BA">
-								<EventProcessorOnConsumableObtained>
-									<applyTarget>ApplicatorTarget</applyTarget>
-									<consumable href="" />
-									<origin>4</origin>
-									<spell href="/Items/Talents/Level1/G126_Int_Str.TALENT" id="C1441612-3D5C-428A-9ED4-842C3B165611">
-										<Spell>
-											<applicators>
-												<Item href="/Items/Talents/Level1/G126_Int_Str.TALENT" id="53679C10-F4E8-4D01-A570-E1A9942D9B05">
-													<AddNaftaApplicator>
-														<applyTarget>AbilityOwner</applyTarget>
-														<caption>Дать прайм</caption>
-														<enabled>
-															<compiledString>FQAAAAAAAAAAVYvsaAAAABCLRQyLEItNDItCaP/QD7bAg+gB99gbwIPAAV3D</compiledString>
-															<returnType>bool</returnType>
-															<sString>rFlag(268435456) == true</sString>
-														</enabled>
-														<formulaName></formulaName>
-														<isFromImpulseBuff>false</isFromImpulseBuff>
-														<LoggingEvent>-1</LoggingEvent>
-														<nafta>
-															<compiledString>FQYAAAADAAAACwAAACEAAAAnAAAAVGltZXIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwFPQAAANw9NQAAANld/NlF/IvlXcMAAAAAABilQAAAAAAAAD5A</compiledString>
-															<returnType>float</returnType>
-															<sString>2700/(30+sender.vTimer)</sString>
-														</nafta>
-														<providerName></providerName>
-													</AddNaftaApplicator>
-												</Item>
-											</applicators>
-											<dispatch href="/Items/Talents/Level1/G126_Int_Str.TALENT" id="19906E03-6152-4C02-850D-A6CA42A68E3C">
-												<DispatchImmediate>
-													<alwaysApply>false</alwaysApply>
-													<applyEffect>
-														<Item href="" />
-														<Item href="" />
-													</applyEffect>
-													<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
-													<applyEffectOrientation>Default</applyEffectOrientation>
-													<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
-													<dieAfterApply>true</dieAfterApply>
-													<dispatchEffect>
-														<Item href="" />
-														<Item href="" />
-													</dispatchEffect>
-													<flags>0</flags>
-													<instantApply>true</instantApply>
-												</DispatchImmediate>
-											</dispatch>
-										</Spell>
-									</spell>
-								</EventProcessorOnConsumableObtained>
-							</processor>
-							<providerName></providerName>
-							<startCondition>
-								<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
-								<returnType>bool</returnType>
-								<sString>true</sString>
-							</startCondition>
-							<useAbilityCooldown>false</useAbilityCooldown>
-							<useAbilityOwnerMana>false</useAbilityOwnerMana>
-						</TriggerApplicator>
-					</Item>
-				</applicators>
-				<applyTarget>ApplicatorTarget</applyTarget>
-				<behaviorFlags>0</behaviorFlags>
-				<caption>Аура на всех - дай прайм герою в миниигре</caption>
+		<Item href="/Items/Talents/Level1/G126_Int_Str.TALENT" id="7135E652-33D7-4C08-BB0F-2496B787FD2A">
+			<TriggerApplicator>
+				<actionsCount>
+					<compiledString>FQAAAAAAAAAAVYvsuAEAAABdww==</compiledString>
+					<returnType>int</returnType>
+					<sString>1</sString>
+				</actionsCount>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>запуск кд</caption>
 				<effect>
 					<Item href="" />
 					<Item href="" />
@@ -413,27 +231,316 @@
 					<sString>-1.0</sString>
 				</lifeTime>
 				<LoggingEvent>-1</LoggingEvent>
+				<playAck>false</playAck>
+				<processor href="/Items/Talents/Level1/G126_Int_Str.TALENT" id="FD895272-F195-4AE1-B993-01708EC9758E">
+					<EventProcessorCondition>
+						<applyTarget>ApplicatorTarget</applyTarget>
+						<condition>
+							<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+							<returnType>bool</returnType>
+							<sString>true</sString>
+						</condition>
+						<events>8192</events>
+						<onlyParent>false</onlyParent>
+						<spell href="" />
+					</EventProcessorCondition>
+				</processor>
 				<providerName></providerName>
-				<range>
-					<compiledString></compiledString>
-					<returnType>float</returnType>
-					<sString>0.0f</sString>
-				</range>
 				<startCondition>
 					<compiledString></compiledString>
 					<returnType>bool</returnType>
 					<sString>true</sString>
 				</startCondition>
-				<targets>2040319</targets>
-				<targetSelector href="/Items/Talents/Level1/G126_Int_Str.TALENT" id="6C047A28-B025-495B-8448-7D3331AAAB81">
-					<HeroEnumerator>
-						<flags>2</flags>
-						<mode>Normal</mode>
-						<targetFilter>1342177283</targetFilter>
-					</HeroEnumerator>
-				</targetSelector>
-				<type>None</type>
-			</AuraApplicator>
+				<useAbilityCooldown>true</useAbilityCooldown>
+				<useAbilityOwnerMana>false</useAbilityOwnerMana>
+			</TriggerApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level1/G126_Int_Str.TALENT" id="711F30E4-B370-43A4-AF45-AC7E55758E25">
+			<TriggerApplicator>
+				<actionsCount>
+					<compiledString>FQAAAAAAAAAAVYvsuAEAAABdww==</compiledString>
+					<returnType>int</returnType>
+					<sString>1</sString>
+				</actionsCount>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>выдача награды</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FQ4AAAADAAAAIQAAAC0AAABDAAAARzEyMUFzQ291bnRlcgBVi+xRi0UQixCLTRCLQhz/0NwdbQAAAN/g9sREeytoAAAAAItNCIsRi00Ii4KIAQAA/9DcHWUAAADf4PbEQXUJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAMQAAAAAAAAPA/</compiledString>
+					<returnType>bool</returnType>
+					<sString>mPreparedness != 1.0f &amp;&amp; sender.vG121AsCounter &gt; 3.5</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<playAck>false</playAck>
+				<processor href="/Items/Talents/Level1/G126_Int_Str.TALENT" id="B3DF0185-CCD6-41CD-919C-0B07F536E97B">
+					<EventProcessorCondition>
+						<applyTarget>ApplicatorTarget</applyTarget>
+						<condition>
+							<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+							<returnType>bool</returnType>
+							<sString>true</sString>
+						</condition>
+						<events>8192</events>
+						<onlyParent>false</onlyParent>
+						<spell href="/Items/Talents/Level1/G126_Int_Str.TALENT" id="3CFBCB6C-1762-4672-8E40-F62334FC7CCE">
+							<Spell>
+								<applicators>
+									<Item href="/Items/Talents/Level1/G126_Int_Str.TALENT" id="18CB8F76-44F3-41E0-A2BD-210963637FE2">
+										<SpellProbabilityApplicator>
+											<applyTarget>AbilityOwner</applyTarget>
+											<caption></caption>
+											<enabled>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</enabled>
+											<formulaName></formulaName>
+											<LoggingEvent>-1</LoggingEvent>
+											<probability>
+												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQg==</compiledString>
+												<returnType>float</returnType>
+												<sString>50.0</sString>
+											</probability>
+											<providerName></providerName>
+											<spell href="/Items/Talents/Level1/G126_Int_Str.TALENT" id="E2BCFEDB-F9E4-4582-BE59-82DF9CB7BCF9">
+												<Spell>
+													<applicators>
+														<Item href="/Items/Talents/Level1/G126_Int_Str.TALENT" id="333126EF-91F5-498B-BA18-233B661CA5A0">
+															<GiveConsumable>
+																<amount>
+																	<compiledString></compiledString>
+																	<returnType>int</returnType>
+																	<sString>1</sString>
+																</amount>
+																<applyTarget>AbilityOwner</applyTarget>
+																<caption></caption>
+																<consumable href="/Items/Scrolls/SignOfBirds.ARCT" />
+																<enabled>
+																	<compiledString></compiledString>
+																	<returnType>bool</returnType>
+																	<sString>true</sString>
+																</enabled>
+																<formulaName></formulaName>
+																<LoggingEvent>-1</LoggingEvent>
+																<providerName></providerName>
+															</GiveConsumable>
+														</Item>
+													</applicators>
+													<dispatch href="/Items/Talents/Level1/G126_Int_Str.TALENT" id="A22505B2-E24C-43E2-84BF-7D3EBB471B01">
+														<DispatchImmediate>
+															<alwaysApply>false</alwaysApply>
+															<applyEffect>
+																<Item href="" />
+																<Item href="" />
+															</applyEffect>
+															<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+															<applyEffectOrientation>Default</applyEffectOrientation>
+															<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+															<dieAfterApply>true</dieAfterApply>
+															<dispatchEffect>
+																<Item href="" />
+																<Item href="" />
+															</dispatchEffect>
+															<flags>0</flags>
+															<instantApply>false</instantApply>
+														</DispatchImmediate>
+													</dispatch>
+												</Spell>
+											</spell>
+											<spellIfFailed href="/Items/Talents/Level1/G126_Int_Str.TALENT" id="769E5B36-2482-4299-8593-CF0D65510958">
+												<Spell>
+													<applicators>
+														<Item href="/Items/Talents/Level1/G126_Int_Str.TALENT" id="826D37B6-3495-44AB-854B-6618D1A983DB">
+															<GiveConsumable>
+																<amount>
+																	<compiledString></compiledString>
+																	<returnType>int</returnType>
+																	<sString>1</sString>
+																</amount>
+																<applyTarget>AbilityOwner</applyTarget>
+																<caption></caption>
+																<consumable href="/Items/Scrolls/SignOfNova.ARCT" />
+																<enabled>
+																	<compiledString></compiledString>
+																	<returnType>bool</returnType>
+																	<sString>true</sString>
+																</enabled>
+																<formulaName></formulaName>
+																<LoggingEvent>-1</LoggingEvent>
+																<providerName></providerName>
+															</GiveConsumable>
+														</Item>
+													</applicators>
+													<dispatch href="/Items/Talents/Level1/G126_Int_Str.TALENT" id="45C09404-B265-4752-B3DA-F693DA55C066">
+														<DispatchImmediate>
+															<alwaysApply>false</alwaysApply>
+															<applyEffect>
+																<Item href="" />
+																<Item href="" />
+															</applyEffect>
+															<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+															<applyEffectOrientation>Default</applyEffectOrientation>
+															<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+															<dieAfterApply>true</dieAfterApply>
+															<dispatchEffect>
+																<Item href="" />
+																<Item href="" />
+															</dispatchEffect>
+															<flags>0</flags>
+															<instantApply>false</instantApply>
+														</DispatchImmediate>
+													</dispatch>
+												</Spell>
+											</spellIfFailed>
+										</SpellProbabilityApplicator>
+									</Item>
+								</applicators>
+								<dispatch href="/Items/Talents/Level1/G126_Int_Str.TALENT" id="04D96293-3790-48FB-B6C9-FC919EAE97BA">
+									<DispatchImmediate>
+										<alwaysApply>false</alwaysApply>
+										<applyEffect>
+											<Item href="" />
+											<Item href="" />
+										</applyEffect>
+										<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+										<applyEffectOrientation>Default</applyEffectOrientation>
+										<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+										<dieAfterApply>true</dieAfterApply>
+										<dispatchEffect>
+											<Item href="" />
+											<Item href="" />
+										</dispatchEffect>
+										<flags>0</flags>
+										<instantApply>false</instantApply>
+									</DispatchImmediate>
+								</dispatch>
+							</Spell>
+						</spell>
+					</EventProcessorCondition>
+				</processor>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<useAbilityCooldown>false</useAbilityCooldown>
+				<useAbilityOwnerMana>false</useAbilityOwnerMana>
+			</TriggerApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level1/G126_Int_Str.TALENT" id="4B3D6F2A-F5E0-481B-9846-E7811C75F0C4">
+			<TriggerApplicator>
+				<actionsCount>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</actionsCount>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>асисты</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<playAck>false</playAck>
+				<processor href="/Items/Talents/Level1/G126_Int_Str.TALENT" id="96BC6300-0AA4-4C8D-9832-A76FC95DD20A">
+					<EventProcessorCondition>
+						<applyTarget>ApplicatorTarget</applyTarget>
+						<condition>
+							<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+							<returnType>bool</returnType>
+							<sString>true</sString>
+						</condition>
+						<events>1073741824</events>
+						<onlyParent>false</onlyParent>
+						<spell href="/Items/Talents/Level1/G126_Int_Str.TALENT" id="7F6CD596-5E01-47D6-821D-8992C26B853D">
+							<Spell>
+								<applicators>
+									<Item href="/Items/Talents/Level1/G126_Int_Str.TALENT" id="BFC44DB8-FAA5-4100-ACC4-0D3EE54C140A">
+										<PermanentStatModApplicator>
+											<applyTarget>AbilityOwner</applyTarget>
+											<caption></caption>
+											<customApplyType>None</customApplyType>
+											<enabled>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</enabled>
+											<formulaName></formulaName>
+											<LoggingEvent>-1</LoggingEvent>
+											<modifier>
+												<addValue>
+													<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+													<returnType>float</returnType>
+													<sString>1.0f</sString>
+												</addValue>
+												<multValue>
+													<compiledString></compiledString>
+													<returnType>float</returnType>
+													<sString>1.0f</sString>
+												</multValue>
+												<stat>Life</stat>
+												<topModifier>false</topModifier>
+												<variable>G121AsCounter</variable>
+											</modifier>
+											<providerName></providerName>
+										</PermanentStatModApplicator>
+									</Item>
+								</applicators>
+								<dispatch href="/Items/Talents/Level1/G126_Int_Str.TALENT" id="6B8EC084-43CE-4D43-8E5D-67691CC6E090">
+									<DispatchImmediate>
+										<alwaysApply>false</alwaysApply>
+										<applyEffect>
+											<Item href="" />
+											<Item href="" />
+										</applyEffect>
+										<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+										<applyEffectOrientation>Default</applyEffectOrientation>
+										<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+										<dieAfterApply>true</dieAfterApply>
+										<dispatchEffect>
+											<Item href="" />
+											<Item href="" />
+										</dispatchEffect>
+										<flags>0</flags>
+										<instantApply>false</instantApply>
+									</DispatchImmediate>
+								</dispatch>
+							</Spell>
+						</spell>
+					</EventProcessorCondition>
+				</processor>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<useAbilityCooldown>false</useAbilityCooldown>
+				<useAbilityOwnerMana>false</useAbilityOwnerMana>
+			</TriggerApplicator>
 		</Item>
 	</passiveApplicators>
 	<persistentId>G126</persistentId>

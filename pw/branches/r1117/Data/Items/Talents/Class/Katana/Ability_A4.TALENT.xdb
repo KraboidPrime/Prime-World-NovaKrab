@@ -1048,9 +1048,9 @@
 					<UnitConstant>
 						<name>A4_Damage</name>
 						<var>
-							<compiledString>FTgAAAADAAAARwAAAGEAAACBAAAAQTRfRGFtYWdlX1RvdGFsAEE0X0E0XzJfU1VQX0RhbWFnZV9Ub3RhbAAAAABBNF9EdXJhdGlvbgBVi+yD7BSLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0otFDFCLTQhRaBAAAACLVRCLAotNEItQUN1d+P/S3EX4i0UMUItNCFFoLAAAAItVEIsCi00Qi1BQ3V3w/9LcffDZXezZReyL5V3D</compiledString>
+							<compiledString>FUgAAAAEAAAAVwAAAHEAAACRAAAAsQAAAEE0X0RhbWFnZV9Ub3RhbABBNF9BNF8yX1NVUF9EYW1hZ2VfVG90YWwAAAAAQTR1RE1HX0JvbnVzAAAAAEE0X0R1cmF0aW9uAFWL7IPsHItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/Si0UMUItNCFFoEAAAAItVEIsCi00Qi1BQ3V34/9LcRfiLRQxQi00IUWgsAAAAi1UQiwKLTRCLUFDdXfD/0txF8ItFDFCLTQhRaDwAAACLVRCLAotNEItQUN1d6P/S3H3o2V3k2UXki+Vdww==</compiledString>
 							<returnType>float</returnType>
-							<sString>(cA4_Damage_Total + cA4_A4_2_SUP_Damage_Total) / cA4_Duration</sString>
+							<sString>(cA4_Damage_Total + cA4_A4_2_SUP_Damage_Total + cA4uDMG_Bonus) / cA4_Duration</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -1112,6 +1112,16 @@
 							<compiledString>FU8AAAAFAAAAVgAAAG8AAAClAAAAvwAAANUAAABBNF9EYW1hZ2VfVG90YWwAQTRfQTRfMl9TVVBfQWRkRGFtYWdlAAAAS2F0YW5hX0E0X0E0XzJfU1VQAABLYXRhbmFfQTRfQTRfMl9TVVAAVYvsg+wYaCgAAACLRQiLEItNCIuCqAEAAP/QhcB0Kmg8AAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wCLTQxRi1UIUmgAAAAAi0UQixCLTRCLQlD/0ItNDFGLVQhSaBAAAACLRRCLEItNEItCUN1d8P/Q3DXwAAAA3E3wD7ZN+4lN7NpN7Nld6NlF6IvlXcMAAAAAAABZQA==</compiledString>
 							<returnType>float</returnType>
 							<sString>cA4_Damage_Total * (cA4_A4_2_SUP_AddDamage / 100.0f) * tal("Katana_A4_A4_2_SUP")</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Katana/Ability_A4.TALENT" id="E77850C7-A686-4A0F-B091-D8B46A6054B8">
+					<UnitConstant>
+						<name>A4uDMG_Bonus</name>
+						<var>
+							<compiledString>FSgAAAAEAAAALwAAAEgAAACGAAAAmQAAAEthdGFuYV9BNHUAAEthdGFuYV9BNHUAAEE0X0RhbWFnZV9Ub3RhbABVi+yD7BRoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaAwAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXQli1UMUotFCFBoGAAAAItNEIsRi00Qi0JQ/9DcDbwAAADdXfDrBdnu3V3w3UXw2V3s2UXsi+VdwwAAAAAAAAAAmpmZmZmZuT8=</compiledString>
+							<returnType>float</returnType>
+							<sString>tal("Katana_A4u") ? 0.1*cA4_Damage_Total : 0</sString>
 						</var>
 					</UnitConstant>
 				</Item>

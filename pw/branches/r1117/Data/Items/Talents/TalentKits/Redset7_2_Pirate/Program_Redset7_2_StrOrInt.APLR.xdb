@@ -63,9 +63,9 @@
 					<caption>StrOrInt</caption>
 					<customApplyType>None</customApplyType>
 					<enabled>
-						<compiledString>FR4AAAACAAAAUgAAAGgAAABBZGRfU3RyT3JJbnRfUmVkc2V0N18yQ291bnRlcgBVi+yD7AyLRQiLEItNCIuCuAAAAP/Qi00IixGLTQiLgrwAAADdXfj/0Nxd+N/g9sRBeitoAAAAAItNCIsRi00Ii4KIAQAA/9DcHYoAAADf4PbERHoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcMAAAAAAAAAQA==</compiledString>
+						<compiledString>FR4AAAACAAAAUgAAAGgAAABBZGRfU3RyT3JJbnRfUmVkc2V0N18yQ291bnRlcgBVi+yD7AyLRQiLEItNCIuCuAAAAP/Qi00IixGLTQiLgrwAAADdXfj/0Nxd+N/g9sRBeitoAAAAAItNCIsRi00Ii4KIAQAA/9DcHYoAAADf4PbERHoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcMAAAAAAAAIQA==</compiledString>
 						<returnType>bool</returnType>
-						<sString>sBaseStrength&gt;=sBaseIntellect &amp;&amp; sender.vAdd_StrOrInt_Redset7_2Counter == 2</sString>
+						<sString>sBaseStrength&gt;=sBaseIntellect &amp;&amp; sender.vAdd_StrOrInt_Redset7_2Counter == 3</sString>
 					</enabled>
 					<formulaName></formulaName>
 					<LoggingEvent>-1</LoggingEvent>
@@ -112,9 +112,9 @@
 					<caption>Add_Strength</caption>
 					<customApplyType>Maximize</customApplyType>
 					<enabled>
-						<compiledString>FR4AAAACAAAAUgAAAGgAAABBZGRfU3RyT3JJbnRfUmVkc2V0N18yQ291bnRlcgBVi+yD7AyLRQiLEItNCIuCuAAAAP/Qi00IixGLTQiLgrwAAADdXfj/0Nxd+N/g9sRBeitoAAAAAItNCIsRi00Ii4KIAQAA/9DcHYoAAADf4PbERHoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcMAAAAAAAAAQA==</compiledString>
+						<compiledString>FR4AAAADAAAAUgAAAGgAAACFAAAAQWRkX1N0ck9ySW50X1JlZHNldDdfMkNvdW50ZXIAVYvsg+wMi0UIixCLTQiLgrgAAAD/0ItNCIsRi00Ii4K8AAAA3V34/9DcXfjf4PbEQXpIaAAAAACLTQiLEYtNCIuCiAEAAP/Q3B2vAAAA3+D2xER6JotNCIsRi00Ii4KEAAAA/9DcHacAAADf4PbEAXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcMAAAAAAAAYQAAAAAAAAAhA</compiledString>
 						<returnType>bool</returnType>
-						<sString>sBaseStrength&gt;=sBaseIntellect &amp;&amp; sender.vAdd_StrOrInt_Redset7_2Counter == 2</sString>
+						<sString>sBaseStrength&gt;=sBaseIntellect &amp;&amp; sender.vAdd_StrOrInt_Redset7_2Counter == 3 &amp;&amp; sBaseRange&gt;=6</sString>
 					</enabled>
 					<formulaName></formulaName>
 					<LoggingEvent>-1</LoggingEvent>
@@ -161,9 +161,9 @@
 					<caption>Add_Intellect</caption>
 					<customApplyType>None</customApplyType>
 					<enabled>
-						<compiledString>FR4AAAACAAAAUgAAAGgAAABBZGRfU3RyT3JJbnRfUmVkc2V0N18yQ291bnRlcgBVi+yD7AyLRQiLEItNCIuCuAAAAP/Qi00IixGLTQiLgrwAAADdXfj/0Nxd+N/g9sRBdStoAAAAAItNCIsRi00Ii4KIAQAA/9DcHYoAAADf4PbERHoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcMAAAAAAAAAQA==</compiledString>
+						<compiledString>FR4AAAADAAAAUgAAAGgAAACFAAAAQWRkX1N0ck9ySW50X1JlZHNldDdfMkNvdW50ZXIAVYvsg+wMi0UIixCLTQiLgrgAAAD/0ItNCIsRi00Ii4K8AAAA3V34/9DcXfjf4PbEQXVIaAAAAACLTQiLEYtNCIuCiAEAAP/Q3B2vAAAA3+D2xER6JotNCIsRi00Ii4KEAAAA/9DcHacAAADf4PbEAXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcMAAAAAAAAYQAAAAAAAAAhA</compiledString>
 						<returnType>bool</returnType>
-						<sString>sBaseStrength&lt;sBaseIntellect &amp;&amp; sender.vAdd_StrOrInt_Redset7_2Counter == 2</sString>
+						<sString>sBaseStrength&lt;sBaseIntellect &amp;&amp; sender.vAdd_StrOrInt_Redset7_2Counter == 3 &amp;&amp; sBaseRange&gt;=6</sString>
 					</enabled>
 					<formulaName></formulaName>
 					<LoggingEvent>-1</LoggingEvent>
@@ -203,6 +203,55 @@
 			</stopCondition>
 			<stopEvents>0</stopEvents>
 		</Item>
+		<Item>
+			<applicator href="/Items/Talents/TalentKits/Redset7_2_Pirate/program_Redset7_2_StrOrInt.APLR" id="F9BCED05-5756-447F-98F7-616A9A50CF13">
+				<PermanentStatModApplicator>
+					<applyTarget>ApplicatorTarget</applyTarget>
+					<caption>Add_evas</caption>
+					<customApplyType>None</customApplyType>
+					<enabled>
+						<compiledString>FR4AAAADAAAAIwAAADkAAABWAAAAQWRkX1N0ck9ySW50X1JlZHNldDdfMkNvdW50ZXIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdgAAAAN/g9sREeiaLTQiLEYtNCIuChAAAAP/Q3B14AAAA3+D2xAV6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAGEAAAAAAAAAIQA==</compiledString>
+						<returnType>bool</returnType>
+						<sString>sender.vAdd_StrOrInt_Redset7_2Counter == 3 &amp;&amp; sBaseRange&lt;6</sString>
+					</enabled>
+					<formulaName></formulaName>
+					<LoggingEvent>-1</LoggingEvent>
+					<modifier>
+						<addValue>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
+							<returnType>float</returnType>
+							<sString>5</sString>
+						</addValue>
+						<multValue>
+							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>1.0f</sString>
+						</multValue>
+						<stat>Evasion</stat>
+						<topModifier>false</topModifier>
+						<variable></variable>
+					</modifier>
+					<providerName></providerName>
+				</PermanentStatModApplicator>
+			</applicator>
+			<continueCondition>
+				<compiledString></compiledString>
+				<returnType>bool</returnType>
+				<sString>0</sString>
+			</continueCondition>
+			<continueEvents>2</continueEvents>
+			<delay>
+				<compiledString></compiledString>
+				<returnType>float</returnType>
+				<sString>-1.0</sString>
+			</delay>
+			<stopCondition>
+				<compiledString></compiledString>
+				<returnType>bool</returnType>
+				<sString>0</sString>
+			</stopCondition>
+			<stopEvents>0</stopEvents>
+		</Item>
 	</applicators>
 	<applyTarget>ApplicatorTarget</applyTarget>
 	<behaviorFlags>0</behaviorFlags>
@@ -212,9 +261,9 @@
 		<Item href="" />
 	</effect>
 	<enabled>
-		<compiledString>FR4AAAACAAAAIwAAADkAAABBZGRfU3RyT3JJbnRfUmVkc2V0N18yQ291bnRlcgBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1bAAAA3+D2xAV6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAEA=</compiledString>
+		<compiledString>FR4AAAACAAAAIwAAADkAAABBZGRfU3RyT3JJbnRfUmVkc2V0N18yQ291bnRlcgBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1bAAAA3+D2xAV6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAACEA=</compiledString>
 		<returnType>bool</returnType>
-		<sString>sender.vAdd_StrOrInt_Redset7_2Counter &lt; 2</sString>
+		<sString>sender.vAdd_StrOrInt_Redset7_2Counter &lt; 3</sString>
 	</enabled>
 	<formulaName></formulaName>
 	<lifeTime>

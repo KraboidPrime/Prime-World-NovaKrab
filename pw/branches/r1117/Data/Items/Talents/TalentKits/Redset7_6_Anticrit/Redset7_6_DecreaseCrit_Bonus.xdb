@@ -8,8 +8,8 @@
 	<BackLink DBID="/Items/Talents/Level6/G734_Will.TALENT" Count="1" />
 	<name>DecreaseCrit_Bonus</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQQ==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQQ==</compiledString>
 		<returnType>float</returnType>
-		<sString>20.0f</sString>
+		<sString>15.0f</sString>
 	</var>
 </UnitConstant>

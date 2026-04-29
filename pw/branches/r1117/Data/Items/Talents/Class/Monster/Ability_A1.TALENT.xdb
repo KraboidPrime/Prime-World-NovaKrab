@@ -1600,9 +1600,9 @@
 			<FlagsApplicator parent="/GameLogic/GeneralApplicators/ForbidTalentByCondition.APLR">
 				<caption>автозапрет таланта при ForbidMoveSpeical или удалённости от кокона</caption>
 				<enabled>
-					<compiledString>FSMAAAAEAAAAQQAAAFcAAABjAAAAeQAAAE1vbnN0ZXJfQTFDb2Nvb25Jc0F3YXkAAFRlbGVwb3J0ZWQAVYvsUWgAAAIAi0UMixCLTQyLQmj/0A+2yIXJdU1oAAAAAItVCIsCi00Ii5CIAQAA/9LcHZsAAADf4PbEQXQraBgAAACLRQiLEItNCIuCiAEAAP/Q3B2bAAAA3+D2xEF0CcdF/AAAAADrB8dF/AEAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
+					<compiledString>FXMAAAAJAAAAmwAAAL8AAADjAAAABwEAACcBAABBAQAAVwEAAGMBAAB5AQAAR3VubmVyUm9vdEEzAAAAAFdlbmRpZ29Sb290AEZyZWV6ZUEyUm9vdAAAAABDYXB0dXJlZERlbW9ub2xvZ1Jvb3QAAABTdGF0dXNSb290AABNb25zdGVyX0ExQ29jb29uSXNBd2F5AABUZWxlcG9ydGVkAFWL7FFoAAACAItFDIsQi00Mi0Jo/9APtsiFyQ+F+QAAAGoAi1UQUmgAAAAAi0UMixCLTQyLgpwBAAD/0DtFEA+F1QAAAGoAi00QUWgQAAAAi1UMiwKLTQyLkJwBAAD/0jtFEA+FsQAAAGoAi0UQUGgcAAAAi00MixGLTQyLgpwBAAD/0DtFEA+FjQAAAGoAi00QUWgsAAAAi1UMiwKLTQyLkJwBAAD/0jtFEHVtagCLRRBQaEQAAACLTQyLEYtNDIuCnAEAAP/QO0UQdU1oUAAAAItNCIsRi00Ii4KIAQAA/9DcHZsBAADf4PbEQXQraGgAAACLTQiLEYtNCIuCiAEAAP/Q3B2bAQAA3+D2xEF0CcdF/AAAAADrB8dF/AEAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
 					<returnType>bool</returnType>
-					<sString>rFlag(131072) || sender.vMonster_A1CocoonIsAway &gt; 0 || sender.vTeleported &gt; 0</sString>
+					<sString>(rFlag(131072) || receiver.applGunnerRootA3(GLOBAL) != pMisc || receiver.applWendigoRoot(GLOBAL) != pMisc || receiver.applFreezeA2Root(GLOBAL) != pMisc || receiver.applCapturedDemonologRoot(GLOBAL) != pMisc || receiver.applStatusRoot(GLOBAL) != pMisc) || sender.vMonster_A1CocoonIsAway &gt; 0 || sender.vTeleported &gt; 0</sString>
 				</enabled>
 				<talents>
 					<Item href="/Items/Talents/Class/Monster/Ability_A1.TALENT" />

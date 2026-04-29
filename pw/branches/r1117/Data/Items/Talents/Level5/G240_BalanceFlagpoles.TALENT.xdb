@@ -50,9 +50,9 @@
 					<UnitConstant>
 						<name>StatTotal</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQg==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAA4Qg==</compiledString>
 							<returnType>float</returnType>
-							<sString>50</sString>
+							<sString>46</sString>
 						</var>
 					</UnitConstant>
 				</Item>

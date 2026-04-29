@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StatusApplicator>
 	<BackLink DBID="/Items/Talents/TalentKits/Redset4_4_Axes/status_ImproveAA_Pure.APLR" Count="1" />
+	<BackLink DBID="/Items/Consumables/SUPPORT.ARCT" Count="1" />
 	<applicators>
 		<Item href="/Items/Talents/TalentKits/Redset4_4_Axes/status_G580_Regen.APLR" id="3D89F577-56F9-4B4D-AF58-8B23F1E0AE70">
 			<StatModApplicator>

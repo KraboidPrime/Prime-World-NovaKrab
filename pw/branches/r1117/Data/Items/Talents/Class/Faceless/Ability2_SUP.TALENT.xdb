@@ -58,9 +58,9 @@
 					<UnitConstant>
 						<name>TT_CritMult</name>
 						<var>
-							<compiledString>FQAAAAABAAAAFgAAAFWL7FGLRQiLEItNCIuCuAAAAP/Q3A0kAAAA2V382UX8i+Vdw3sUrkfhepQ/</compiledString>
+							<compiledString>FQAAAAABAAAAFgAAAFWL7FGLRQiLEItNCIuCuAAAAP/Q3A0kAAAA2V382UX8i+Vdw9nO91PjpZs/</compiledString>
 							<returnType>float</returnType>
-							<sString>0.02*sBaseStrength</sString>
+							<sString>0.027*sBaseStrength</sString>
 						</var>
 					</UnitConstant>
 				</Item>

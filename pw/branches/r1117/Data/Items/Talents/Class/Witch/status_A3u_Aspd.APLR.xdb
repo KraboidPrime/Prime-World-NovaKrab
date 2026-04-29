@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StatusApplicator>
 	<BackLink DBID="/Heroes/Witch/_.HROB" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Witch/Ability_A4.TALENT" Count="4" />
 	<applicators>
 		<Item href="/Items/Talents/Class/Witch/status_A3u_Aspd.APLR" id="65A24791-011F-4545-83E1-04E709B6F345">
 			<StatModApplicator>
@@ -70,9 +71,9 @@
 		<Item href="" />
 	</effect>
 	<enabled>
-		<compiledString></compiledString>
+		<compiledString>FRwAAAADAAAAIQAAADcAAABJAAAAQTRNb3lyYU9sZFVsdAAAAEEzQWJpbGl0eU9uAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHXkAAADf4PbERHopagCLTRBRaBAAAACLVQiLAotNCIuQnAEAAP/SO0UQdAnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAAA</compiledString>
 		<returnType>bool</returnType>
-		<sString>true</sString>
+		<sString>sender.vA4MoyraOldUlt == 0.0f &amp;&amp; sender.applA3AbilityOn(GLOBAL) != pMisc</sString>
 	</enabled>
 	<flags>65</flags>
 	<formulaName>Witch_A3uAspd</formulaName>
@@ -93,7 +94,7 @@
 		<returnType>bool</returnType>
 		<sString>tal("Witch_A3u") &amp;&amp; sender.applA3AbilityOn(GLOBAL) != pMisc</sString>
 	</startCondition>
-	<statusPosition>0</statusPosition>
+	<statusPosition>-1</statusPosition>
 	<stopBehaviour>StopByTime</stopBehaviour>
 	<unstackableWith href="" />
 </StatusApplicator>

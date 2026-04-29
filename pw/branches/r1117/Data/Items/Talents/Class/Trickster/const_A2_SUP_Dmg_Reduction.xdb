@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Class/Trickster/Ability2.TALENT" Count="1" />
 	<name>A3_SUP_Dmg_Reduction</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQg==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQg==</compiledString>
 		<returnType>float</returnType>
-		<sString>50.0f</sString>
+		<sString>40.0f</sString>
 	</var>
 </UnitConstant>

@@ -865,6 +865,331 @@
 						</processor>
 						<providerName></providerName>
 						<startCondition>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+							<returnType>bool</returnType>
+							<sString>false</sString>
+						</startCondition>
+						<useAbilityCooldown>false</useAbilityCooldown>
+						<useAbilityOwnerMana>false</useAbilityOwnerMana>
+					</TriggerApplicator>
+				</Item>
+				<Item href="/Heroes/Faceless/_.HROB" id="69F06E1E-D294-48DF-BB9C-72FD353EA888">
+					<TriggerApplicator>
+						<actionsCount>
+							<compiledString>FQAAAAAAAAAAVYvsM8Bdww==</compiledString>
+							<returnType>int</returnType>
+							<sString>0</sString>
+						</actionsCount>
+						<applyTarget>AbilityOwner</applyTarget>
+						<behaviorFlags>216</behaviorFlags>
+						<caption>критуля</caption>
+						<effect>
+							<Item href="" />
+							<Item href="" />
+						</effect>
+						<enabled>
+							<compiledString>FSAAAAACAAAAJwAAAEAAAABGYWNlbGVzc19BM19TVVAARmFjZWxlc3NfQTNfU1VQAFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAikX7i+Vdww==</compiledString>
+							<returnType>bool</returnType>
+							<sString>tal("Faceless_A3_SUP")</sString>
+						</enabled>
+						<formulaName></formulaName>
+						<lifeTime>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAvw==</compiledString>
+							<returnType>float</returnType>
+							<sString>-1.0</sString>
+						</lifeTime>
+						<LoggingEvent>-1</LoggingEvent>
+						<playAck>false</playAck>
+						<processor href="/Heroes/Faceless/_.HROB" id="F6F1BC48-3397-4397-BC20-F13E0B5A5501">
+							<EventProcessorOutgoingDamage>
+								<abilityFilter>
+									<abilitiesList />
+									<abilityCondition>
+										<compiledString>FQsAAAACAAAAEAAAACMAAABpc0NyaXRpY2FsAFWL7FFoAAAAAItFEIsQi00Qi0JU/9DcHUUAAADf4PbERHoJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAADwPw==</compiledString>
+										<returnType>bool</returnType>
+										<sString>pMisc-&gt;GetVariable("isCritical") == 1.0</sString>
+									</abilityCondition>
+									<abilityCostMode>Any</abilityCostMode>
+									<exceptThis>false</exceptThis>
+									<flags>536870913</flags>
+									<onlySingleTarget>false</onlySingleTarget>
+								</abilityFilter>
+								<applyTarget>ApplicatorTarget</applyTarget>
+								<damageTypeFilter>31</damageTypeFilter>
+								<modifiedDamage>
+									<compiledString>FQcAAAABAAAACwAAAERhbWFnZQBVi+xoAAAAAItFEIsQi00Qi0JU/9Bdww==</compiledString>
+									<returnType>float</returnType>
+									<sString>appl.vDamage</sString>
+								</modifiedDamage>
+								<spell href="/Heroes/Faceless/_.HROB" id="54D8E54E-6D59-4494-BD61-3A7064F18E22">
+									<Spell>
+										<applicators>
+											<Item href="/Heroes/Faceless/_.HROB" id="CD5C72D8-E49B-4CEE-B75A-F5C9F0810788">
+												<ProgramApplicator>
+													<applicators>
+														<Item>
+															<applicator href="/Heroes/Faceless/_.HROB" id="E02796D1-62C4-4F66-B0E6-46901E66E520">
+																<SpellApplicator>
+																	<applyTarget>AbilityOwner</applyTarget>
+																	<caption></caption>
+																	<enabled>
+																		<compiledString>FQ0AAAABAAAAFwAAAE1hc2tDcml0MjAyNgBVi+xqAYtFEFBoAAAAAItNCIsRi00Ii4KcAQAA/9AzyTtFEA+UwYrBXcM=</compiledString>
+																		<returnType>bool</returnType>
+																		<sString>sender.applMaskCrit2026(UNIT) == pMisc</sString>
+																	</enabled>
+																	<formulaName></formulaName>
+																	<LoggingEvent>-1</LoggingEvent>
+																	<providerName></providerName>
+																	<spell href="/Heroes/Faceless/_.HROB" id="6FDE4526-A7FF-4BBB-9407-C06B9677E69B">
+																		<Spell>
+																			<applicators>
+																				<Item href="/Heroes/Faceless/_.HROB" id="5B6646C3-3699-48B3-9E43-78B313B944AE">
+																					<RefreshCooldownApplicator>
+																						<allowCdIncrease>false</allowCdIncrease>
+																						<applyTarget>AbilityOwner</applyTarget>
+																						<caption></caption>
+																						<enabled>
+																							<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+																							<returnType>bool</returnType>
+																							<sString>true</sString>
+																						</enabled>
+																						<flags>0</flags>
+																						<formulaName></formulaName>
+																						<LoggingEvent>-1</LoggingEvent>
+																						<providerName></providerName>
+																						<reduceByPercent>false</reduceByPercent>
+																						<reductionAmount>
+																							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAvw==</compiledString>
+																							<returnType>float</returnType>
+																							<sString>-1</sString>
+																						</reductionAmount>
+																						<refreshThis>true</refreshThis>
+																						<talents />
+																						<useListAs>ListAsRule</useListAs>
+																					</RefreshCooldownApplicator>
+																				</Item>
+																			</applicators>
+																			<dispatch href="/Heroes/Faceless/_.HROB" id="618D3CE2-0AD7-48A1-BA8C-B68BE8CF645C">
+																				<DispatchByTime>
+																					<alwaysApply>false</alwaysApply>
+																					<applyEffect>
+																						<Item href="" />
+																						<Item href="" />
+																					</applyEffect>
+																					<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																					<applyEffectOrientation>Default</applyEffectOrientation>
+																					<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																					<cancelOnSenderDeath>true</cancelOnSenderDeath>
+																					<dieAfterApply>true</dieAfterApply>
+																					<dispatchEffect>
+																						<Item href="" />
+																						<Item href="" />
+																					</dispatchEffect>
+																					<flags>0</flags>
+																					<lifeTime>
+																						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzcxMPg==</compiledString>
+																						<returnType>float</returnType>
+																						<sString>0.2f</sString>
+																					</lifeTime>
+																					<persistentApplicators />
+																				</DispatchByTime>
+																			</dispatch>
+																		</Spell>
+																	</spell>
+																	<spellTarget>AbilityOwner</spellTarget>
+																	<targetSelector href="" />
+																</SpellApplicator>
+															</applicator>
+															<continueCondition>
+																<compiledString></compiledString>
+																<returnType>bool</returnType>
+																<sString>0</sString>
+															</continueCondition>
+															<continueEvents>2</continueEvents>
+															<delay>
+																<compiledString></compiledString>
+																<returnType>float</returnType>
+																<sString>-1.0</sString>
+															</delay>
+															<stopCondition>
+																<compiledString></compiledString>
+																<returnType>bool</returnType>
+																<sString>0</sString>
+															</stopCondition>
+															<stopEvents>0</stopEvents>
+														</Item>
+														<Item>
+															<applicator href="/Heroes/Faceless/_.HROB" id="A3594087-F7C5-41A5-AF8A-1AECC9EF9175">
+																<StatusApplicator>
+																	<applicators>
+																		<Item href="/Heroes/Faceless/_.HROB" id="8647D68B-9B5D-4F35-9A31-D5A73E448DCA">
+																			<StatModApplicator>
+																				<applyTarget>AbilityOwner</applyTarget>
+																				<behaviorFlags>216</behaviorFlags>
+																				<caption></caption>
+																				<constraint>None</constraint>
+																				<dontUpdate>false</dontUpdate>
+																				<effect>
+																					<Item href="" />
+																					<Item href="" />
+																				</effect>
+																				<enabled>
+																					<compiledString></compiledString>
+																					<returnType>bool</returnType>
+																					<sString>true</sString>
+																				</enabled>
+																				<formulaName></formulaName>
+																				<lifeTime>
+																					<compiledString></compiledString>
+																					<returnType>float</returnType>
+																					<sString>-1.0</sString>
+																				</lifeTime>
+																				<LoggingEvent>-1</LoggingEvent>
+																				<modifier>
+																					<addValue>
+																						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DMzPzPw==</compiledString>
+																						<returnType>float</returnType>
+																						<sString>1.9f</sString>
+																					</addValue>
+																					<multValue>
+																						<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+																						<returnType>float</returnType>
+																						<sString>0.0f</sString>
+																					</multValue>
+																					<stat>Life</stat>
+																					<topModifier>true</topModifier>
+																					<variable>ExplicitAttacksPerSecond</variable>
+																				</modifier>
+																				<providerName></providerName>
+																				<startCondition>
+																					<compiledString></compiledString>
+																					<returnType>bool</returnType>
+																					<sString>true</sString>
+																				</startCondition>
+																				<statModName></statModName>
+																			</StatModApplicator>
+																		</Item>
+																	</applicators>
+																	<applyTarget>AbilityOwner</applyTarget>
+																	<behaviorFlags>216</behaviorFlags>
+																	<caption>Статус</caption>
+																	<customCounter>
+																		<compiledString>FQAAAAAAAAAAVYvsM8Bdww==</compiledString>
+																		<returnType>int</returnType>
+																		<sString>0</sString>
+																	</customCounter>
+																	<customProgress>
+																		<compiledString></compiledString>
+																		<returnType>float</returnType>
+																		<sString>-1.0</sString>
+																	</customProgress>
+																	<description textref="/Heroes/Faceless/_.HROB_a3594087f7c541a5af8a1aecc9ef9175_description.txt" />
+																	<dispellPriority>NonDispellable</dispellPriority>
+																	<effect>
+																		<Item href="" />
+																		<Item href="" />
+																	</effect>
+																	<enabled>
+																		<compiledString></compiledString>
+																		<returnType>bool</returnType>
+																		<sString>true</sString>
+																	</enabled>
+																	<flags>64</flags>
+																	<formulaName>MaskCrit2026</formulaName>
+																	<image href="/UI/Styles/Icons/Heroes/Faceless/A3_SUP_status.ITEX" />
+																	<lifeTime>
+																		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DMzPzPw==</compiledString>
+																		<returnType>float</returnType>
+																		<sString>1.9f</sString>
+																	</lifeTime>
+																	<LoggingEvent>-1</LoggingEvent>
+																	<name textref="/Heroes/Faceless/_.HROB_a3594087f7c541a5af8a1aecc9ef9175_name.txt" />
+																	<power>0</power>
+																	<providerName></providerName>
+																	<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+																	<stackCount>0</stackCount>
+																	<startCondition>
+																		<compiledString></compiledString>
+																		<returnType>bool</returnType>
+																		<sString>true</sString>
+																	</startCondition>
+																	<statusPosition>0</statusPosition>
+																	<stopBehaviour>StopByTime</stopBehaviour>
+																	<unstackableWith href="" />
+																</StatusApplicator>
+															</applicator>
+															<continueCondition>
+																<compiledString></compiledString>
+																<returnType>bool</returnType>
+																<sString>0</sString>
+															</continueCondition>
+															<continueEvents>2</continueEvents>
+															<delay>
+																<compiledString></compiledString>
+																<returnType>float</returnType>
+																<sString>-1.0</sString>
+															</delay>
+															<stopCondition>
+																<compiledString></compiledString>
+																<returnType>bool</returnType>
+																<sString>0</sString>
+															</stopCondition>
+															<stopEvents>0</stopEvents>
+														</Item>
+													</applicators>
+													<applyTarget>AbilityOwner</applyTarget>
+													<behaviorFlags>0</behaviorFlags>
+													<caption></caption>
+													<effect>
+														<Item href="" />
+														<Item href="" />
+													</effect>
+													<enabled>
+														<compiledString></compiledString>
+														<returnType>bool</returnType>
+														<sString>true</sString>
+													</enabled>
+													<formulaName></formulaName>
+													<lifeTime>
+														<compiledString></compiledString>
+														<returnType>float</returnType>
+														<sString>-1.0</sString>
+													</lifeTime>
+													<LoggingEvent>-1</LoggingEvent>
+													<providerName></providerName>
+													<startCondition>
+														<compiledString></compiledString>
+														<returnType>bool</returnType>
+														<sString>true</sString>
+													</startCondition>
+												</ProgramApplicator>
+											</Item>
+										</applicators>
+										<dispatch href="/Heroes/Faceless/_.HROB" id="3657CB5B-9D7C-4CEE-9226-665B6510AF43">
+											<DispatchImmediate>
+												<alwaysApply>false</alwaysApply>
+												<applyEffect>
+													<Item href="" />
+													<Item href="" />
+												</applyEffect>
+												<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+												<applyEffectOrientation>Default</applyEffectOrientation>
+												<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+												<dieAfterApply>true</dieAfterApply>
+												<dispatchEffect>
+													<Item href="" />
+													<Item href="" />
+												</dispatchEffect>
+												<flags>0</flags>
+												<instantApply>false</instantApply>
+											</DispatchImmediate>
+										</dispatch>
+									</Spell>
+								</spell>
+							</EventProcessorOutgoingDamage>
+						</processor>
+						<providerName></providerName>
+						<startCondition>
 							<compiledString></compiledString>
 							<returnType>bool</returnType>
 							<sString>true</sString>

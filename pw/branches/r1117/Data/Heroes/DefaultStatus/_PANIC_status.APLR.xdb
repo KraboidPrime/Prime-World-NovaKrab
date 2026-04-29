@@ -9,8 +9,8 @@
 	<BackLink DBID="/Items/Talents/Class/PlagueDoctor/Ability_A3.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Wendigo/Ability4.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Witch/Ability_A1.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Witch/Ability_A4.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Witch/status_A2_CreatePanic.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Witch/Ability_A4.TALENT" Count="4" />
+	<BackLink DBID="/Items/Talents/Class/Witch/status_A2_CreatePanic.APLR" Count="6" />
 	<BackLink DBID="/Items/Talents/Class/Werewolf/Ability2.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Wendigo/status_A4_2_Night.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A0.TALENT" Count="3" />

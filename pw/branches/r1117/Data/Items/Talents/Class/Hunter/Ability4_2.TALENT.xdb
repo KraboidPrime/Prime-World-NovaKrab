@@ -716,16 +716,6 @@
 						</var>
 					</UnitConstant>
 				</Item>
-				<Item href="/Items/Talents/Class/Hunter/Ability4_2.TALENT" id="85657E9F-7B40-4D43-86DC-49E1F369E712">
-					<UnitConstant>
-						<name>A0_DamageTT</name>
-						<var>
-							<compiledString>FTAAAAAEAAAANwAAAFAAAACGAAAApgAAAEh1bnRlcl9BMAAAAEh1bnRlcl9BMAAAAEh1bnRlcl9BMAAAAEEwX0RhbWFnZVRUAFWL7IPsEGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoDAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdDdoGAAAAItVCIsCi00Ii5CoAQAA/9KJRfSLRQxQi00IUWgkAAAAi1X0iwKLTfSLUFD/0tld8OsF2e7ZXfDZRfCL5V3DAAAAAA==</compiledString>
-							<returnType>float</returnType>
-							<sString>talconst("Hunter_A0","A0_DamageTT")</sString>
-						</var>
-					</UnitConstant>
-				</Item>
 				<Item href="/Items/Talents/Class/Hunter/Ability4_2.TALENT" id="17B47CDA-018B-4D99-85FD-051DC9E43185">
 					<UnitConstant>
 						<name>A1u_MaxStacks</name>

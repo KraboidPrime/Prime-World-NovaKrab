@@ -43,7 +43,7 @@
 	<BackLink DBID="/Heroes/DefaultStatus/_SWIFTNESS_status.APLR" Count="1" />
 	<BackLink DBID="/Heroes/DefaultStatus/_TRUESIGHT_status.APLR" Count="1" />
 	<BackLink DBID="/Heroes/DefaultStatus/QuicknessFlyoff.APLR" Count="1" />
-	<BackLink DBID="/Heroes/ManaWyrm/_.HROB" Count="1" />
+	<BackLink DBID="/Heroes/Manawyrm/_.HROB" Count="1" />
 	<BackLink DBID="/Items/Consumables/Snowball.ARCT" Count="2" />
 	<BackLink DBID="/Items/Consumables/status_Pumpkin.APLR" Count="1" />
 	<BackLink DBID="/Items/Scrolls/status_NovaBlind.APLR" Count="1" />

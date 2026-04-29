@@ -1172,9 +1172,9 @@
 					<calcIncrement>0.3</calcIncrement>
 					<calcValue>54.5</calcValue>
 					<increment>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAPg==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DMzOzPg==</compiledString>
 						<returnType>float</returnType>
-						<sString>0.25</sString>
+						<sString>0.35</sString>
 					</increment>
 					<levelUpgrades />
 					<statId>Stamina</statId>

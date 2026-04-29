@@ -3,7 +3,7 @@
 	<BackLink DBID="/Social.ROOT" Count="1" />
 	<BackLink DBID="/Items/Talents/Vampire.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Vampire_Alternative.TALENTSET" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Vampire/Ability_A2.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/Vampire/Ability_A2.TALENT" Count="3" />
 	<BackLink DBID="/Items/Talents/Class/Vampire/Ability_A2u.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Vampire/status_A2_EnemyRose.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Level2/G567_CasterBase.TALENT" Count="1" />
@@ -1246,7 +1246,43 @@
 	<naftaCost>300</naftaCost>
 	<name textref="/Items/Talents/Class/Vampire/Ability_A2.TALENT_name.txt" />
 	<node>ability2</node>
-	<passiveApplicators />
+	<passiveApplicators>
+		<Item href="/Items/Talents/Class/Vampire/Ability_A2.TALENT" id="F2CB6D10-C024-4D50-9971-CA951262A741">
+			<FlagsApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>автозапрет таланта при ForbidMoveSpeical</caption>
+				<consumables />
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FU8AAAAFAAAAdwAAAJsAAAC7AAAA2wAAAPsAAABHdW5uZXJSb290QTMAAAAAV2VuZGlnb1Jvb3QARnJlZXplQTJSb290AAAAAENhcHR1cmVkRGVtb25vbG9nUm9vdAAAAFN0YXR1c1Jvb3QAVYvsUWgAAAIAi0UMixCLTQyLQmj/0A+2yIXJD4WkAAAAagCLVRBSaAAAAACLRQyLEItNDIuCnAEAAP/QO0UQD4WAAAAAagCLTRBRaBAAAACLVQyLAotNDIuQnAEAAP/SO0UQdWBqAItFEFBoHAAAAItNDIsRi00Mi4KcAQAA/9A7RRB1QGoAi00QUWgsAAAAi1UMiwKLTQyLkJwBAAD/0jtFEHUgagCLRRBQaEQAAACLTQyLEYtNDIuCnAEAAP/QO0UQdByLTRCLEYtNEIsC/9APtsiFyXQJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>(rFlag(131072) || receiver.applGunnerRootA3(GLOBAL) != pMisc || receiver.applWendigoRoot(GLOBAL) != pMisc || receiver.applFreezeA2Root(GLOBAL) != pMisc || receiver.applCapturedDemonologRoot(GLOBAL) != pMisc || receiver.applStatusRoot(GLOBAL) != pMisc) &amp;&amp; mIsAbilityOn</sString>
+				</enabled>
+				<flag>1024</flag>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<talents>
+					<Item href="/Items/Talents/Class/Vampire/Ability_A2.TALENT" />
+				</talents>
+				<useListAs>ListAsRule</useListAs>
+			</FlagsApplicator>
+		</Item>
+	</passiveApplicators>
 	<persistentId>Vampire_A2</persistentId>
 	<prerequisiteTalents />
 	<rarity>Class</rarity>

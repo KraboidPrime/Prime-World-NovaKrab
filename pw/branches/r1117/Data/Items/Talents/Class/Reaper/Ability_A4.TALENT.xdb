@@ -123,6 +123,33 @@
 				</startCondition>
 			</ProgramApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/Reaper/Ability_A4.TALENT" id="C9DBC42E-E1CD-4B21-9A1D-1EDDE7C441A2">
+			<RefreshCooldownApplicator>
+				<allowCdIncrease>false</allowCdIncrease>
+				<applyTarget>AbilityOwner</applyTarget>
+				<caption></caption>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<flags>128</flags>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<reduceByPercent>true</reduceByPercent>
+				<reductionAmount>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAvw==</compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0f</sString>
+				</reductionAmount>
+				<refreshThis>false</refreshThis>
+				<talents>
+					<Item href="/Items/Talents/Class/Reaper/Ability_A1.TALENT" />
+				</talents>
+				<useListAs>ListAsRule</useListAs>
+			</RefreshCooldownApplicator>
+		</Item>
 	</applicators>
 	<askId>4</askId>
 	<autoTargetSelector href="" />

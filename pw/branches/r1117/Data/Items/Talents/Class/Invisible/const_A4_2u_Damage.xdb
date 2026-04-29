@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Class/Invisible/Ability_A4_2u.TALENT" Count="1" />
 	<name>A4_2_Damage</name>
 	<var>
-		<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAA9QwAgsUQ=</compiledString>
+		<compiledString>FSAAAAAGAAAAJwAAAEAAAAB5AAAAfwAAAIgAAACSAAAASW52aXNpYmxlX0E0XzJ1AEludmlzaWJsZV9BNF8ydQBVi+yD7BhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuJTfTbRfTcDdYAAADcBdYAAABqAVHZBdIAAADZHCRR2QXOAAAA2RwkagCLVQiLAotNCIuQMAEAAN1d7P/SUdkcJGoBi0UQixCLTRCLQmD/0NxN7Nld6NlF6IvlXcMAAD1DACCxRAAAAAAAAOA/</compiledString>
 		<returnType>float</returnType>
-		<sString>damageScale( sStrength, 189, 1417)</sString>
+		<sString>(0.5f+0.5f*tal("Invisible_A4_2u"))*damageScale( sStrength, 189, 1417)</sString>
 	</var>
 </UnitConstant>

@@ -100,7 +100,7 @@
 		<sString>-1.0</sString>
 	</customProgress>
 	<description textref="/Items/Talents/Class/SnowQueen/status_A0_Tech.APLR_description.txt" />
-	<dispellPriority>Medium</dispellPriority>
+	<dispellPriority>Low</dispellPriority>
 	<effect>
 		<Item href="" />
 		<Item href="" />

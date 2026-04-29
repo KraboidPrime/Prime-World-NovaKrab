@@ -240,6 +240,99 @@
 																				<stopEvents>0</stopEvents>
 																			</Item>
 																			<Item>
+																				<applicator href="/Items/Talents/Class/Crusader/Ability_A2.TALENT" id="AA1BCD14-6AE4-4DB4-9BA8-6E9E97C7BAF2">
+																					<SpellApplicator>
+																						<applyTarget>ApplicatorTarget</applyTarget>
+																						<caption>фикс агра</caption>
+																						<enabled>
+																							<compiledString>FR8AAAAEAAAAJAAAADoAAAByAAAAhQAAAElzUGV0AAAAVGhyb3dVcF9TdGFydENvbmRpdGlvbgBVi+xRaAAAAACLRQyLEItNDIuCiAEAAP/Q3B2nAAAA3+D2xER6VItNDIsRi00Mi0JQ/9CD+AN0EotNDIsRi00Mi0JQ/9CD+AR1MItNDFGLVQhSaAgAAACLRRCLEItNEItCUP/Q3B2nAAAA3+D2xER7CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
+																							<returnType>bool</returnType>
+																							<sString>receiver.vIsPet == 0 &amp;&amp; (rUnitKind == 3 || rUnitKind == 4) &amp;&amp; cThrowUp_StartCondition</sString>
+																						</enabled>
+																						<formulaName></formulaName>
+																						<LoggingEvent>-1</LoggingEvent>
+																						<providerName></providerName>
+																						<spell href="/Items/Talents/Class/Crusader/Ability_A2.TALENT" id="49B394C0-8A2D-4E1A-B840-209BA19706F8">
+																							<Spell>
+																								<applicators>
+																									<Item href="/Items/Talents/Class/Crusader/Ability_A2.TALENT" id="49FDABB8-34A7-46E8-9A7E-7EE882365959">
+																										<CreepBehaviourChangeApplicator>
+																											<applicators />
+																											<applyTarget>ApplicatorTarget</applyTarget>
+																											<behaviorFlags>0</behaviorFlags>
+																											<behaviour href="" />
+																											<behaviourChangeFlags>32</behaviourChangeFlags>
+																											<caption></caption>
+																											<effect>
+																												<Item href="" />
+																												<Item href="" />
+																											</effect>
+																											<enabled>
+																												<compiledString>FQYAAAACAAAACwAAACEAAABJc1BldABVi+xRaAAAAACLRQyLEItNDIuCiAEAAP/Q3B1nAAAA3+D2xER6LYtNDIsRi00Mi0JQ/9CD+AN0EotNDIsRi00Mi0JQ/9CD+AR1CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
+																												<returnType>bool</returnType>
+																												<sString>receiver.vIsPet == 0 &amp;&amp; (rUnitKind == 3 || rUnitKind == 4)</sString>
+																											</enabled>
+																											<formulaName></formulaName>
+																											<lifeTime>
+																												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzcxMPg==</compiledString>
+																												<returnType>float</returnType>
+																												<sString>0.2f</sString>
+																											</lifeTime>
+																											<LoggingEvent>-1</LoggingEvent>
+																											<providerName></providerName>
+																											<startCondition>
+																												<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+																												<returnType>bool</returnType>
+																												<sString>true</sString>
+																											</startCondition>
+																											<summonGroupName></summonGroupName>
+																										</CreepBehaviourChangeApplicator>
+																									</Item>
+																								</applicators>
+																								<dispatch href="/Items/Talents/Class/Crusader/Ability_A2.TALENT" id="2FBB2838-538E-45AD-B351-9AA40FA7E2A1">
+																									<DispatchImmediate>
+																										<alwaysApply>false</alwaysApply>
+																										<applyEffect>
+																											<Item href="" />
+																											<Item href="" />
+																										</applyEffect>
+																										<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																										<applyEffectOrientation>Default</applyEffectOrientation>
+																										<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																										<dieAfterApply>true</dieAfterApply>
+																										<dispatchEffect>
+																											<Item href="" />
+																											<Item href="" />
+																										</dispatchEffect>
+																										<flags>0</flags>
+																										<instantApply>false</instantApply>
+																									</DispatchImmediate>
+																								</dispatch>
+																							</Spell>
+																						</spell>
+																						<spellTarget>ApplicatorTarget</spellTarget>
+																						<targetSelector href="" />
+																					</SpellApplicator>
+																				</applicator>
+																				<continueCondition>
+																					<compiledString></compiledString>
+																					<returnType>bool</returnType>
+																					<sString>0</sString>
+																				</continueCondition>
+																				<continueEvents>1</continueEvents>
+																				<delay>
+																					<compiledString></compiledString>
+																					<returnType>float</returnType>
+																					<sString>-1.0</sString>
+																				</delay>
+																				<stopCondition>
+																					<compiledString></compiledString>
+																					<returnType>bool</returnType>
+																					<sString>0</sString>
+																				</stopCondition>
+																				<stopEvents>0</stopEvents>
+																			</Item>
+																			<Item>
 																				<applicator href="/Heroes/DefaultStatus/_STUN_Status.APLR" />
 																				<continueCondition>
 																					<compiledString></compiledString>
@@ -1193,9 +1286,9 @@
 		<Item href="/Items/Talents/Class/Crusader/Ability_A2.TALENT" id="52825426-5B6C-4365-BA74-8A9BD72294D0">
 			<FlagsApplicator parent="/GameLogic/GeneralApplicators/ForbidTalentByCondition.APLR">
 				<enabled>
-					<compiledString>FQAAAAAAAAAAVYvsaAAAAgCLRQyLEItNDItCaP/QXcM=</compiledString>
+					<compiledString>FU8AAAAFAAAAdwAAAJsAAAC7AAAA2wAAAPsAAABHdW5uZXJSb290QTMAAAAAV2VuZGlnb1Jvb3QARnJlZXplQTJSb290AAAAAENhcHR1cmVkRGVtb25vbG9nUm9vdAAAAFN0YXR1c1Jvb3QAVYvsUWgAAAIAi0UMixCLTQyLQmj/0A+2yIXJD4WtAAAAagCLVRBSaAAAAACLRQyLEItNDIuCnAEAAP/QO0UQD4WJAAAAagCLTRBRaBAAAACLVQyLAotNDIuQnAEAAP/SO0UQdWlqAItFEFBoHAAAAItNDIsRi00Mi4KcAQAA/9A7RRB1SWoAi00QUWgsAAAAi1UMiwKLTQyLkJwBAAD/0jtFEHUpagCLRRBQaEQAAACLTQyLEYtNDIuCnAEAAP/QO0UQdQnHRfwAAAAA6wfHRfwBAAAAikX8i+Vdww==</compiledString>
 					<returnType>bool</returnType>
-					<sString>rFlag(131072)</sString>
+					<sString>(rFlag(131072) || receiver.applGunnerRootA3(GLOBAL) != pMisc || receiver.applWendigoRoot(GLOBAL) != pMisc || receiver.applFreezeA2Root(GLOBAL) != pMisc || receiver.applCapturedDemonologRoot(GLOBAL) != pMisc || receiver.applStatusRoot(GLOBAL) != pMisc)</sString>
 				</enabled>
 				<talents>
 					<Item href="/Items/Talents/Class/Crusader/Ability_A2.TALENT" />

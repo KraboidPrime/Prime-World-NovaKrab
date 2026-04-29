@@ -39,6 +39,86 @@
 			</UIMessageApplicator>
 		</Item>
 		<Item href="/Heroes/DefaultStatus/_TECH_OpenEnemyStatus.APLR" />
+		<Item href="/Items/Talents/Class/Demonolog/status_A2_Root.APLR" id="26025D24-89F9-4593-A42C-8BA1B819227E">
+			<SpellApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>хитрый эффект корней</caption>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<spell href="/Items/Talents/Class/Demonolog/status_A2_Root.APLR" id="7830ADEA-A052-4005-8FCB-9D3644818FEB">
+					<Spell>
+						<applicators>
+							<Item href="/Items/Talents/Class/Demonolog/status_A2_Root.APLR" id="6D756177-A329-4BF1-B730-B504B6BC98C3">
+								<FlagsApplicator>
+									<applyTarget>ApplicatorTarget</applyTarget>
+									<behaviorFlags>145</behaviorFlags>
+									<caption></caption>
+									<consumables />
+									<effect>
+										<Item href="" />
+										<Item href="" />
+									</effect>
+									<enabled>
+										<compiledString>FScAAAADAAAAMgAAAGUAAAB7AAAAQ2FwdHVyZWREZW1vbm9sb2dSb290AAAASW1tdW5lMkNvbnRyb2wAVYvsUWoAi0UQUGgAAAAAi00MixGLTQyLgpwBAAD/0DtFEHREaAAAEACLTQyLEYtNDItCaP/QD7bIhcl1K2gYAAAAi1UMiwKLTQyLkIgBAAD/0twdnQAAAN/g9sREegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAAA</compiledString>
+										<returnType>bool</returnType>
+										<sString>receiver.applCapturedDemonologRoot(GLOBAL) != pMisc &amp;&amp; !rFlag(1048576) &amp;&amp; receiver.vImmune2Control == 0</sString>
+									</enabled>
+									<flag>131072</flag>
+									<formulaName></formulaName>
+									<lifeTime>
+										<compiledString>FQ4AAAABAAAAGgAAAFJvb3RfRHVyYXRpb24AVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+										<returnType>float</returnType>
+										<sString>cRoot_Duration</sString>
+									</lifeTime>
+									<LoggingEvent>-1</LoggingEvent>
+									<providerName></providerName>
+									<startCondition>
+										<compiledString>FRYAAAABAAAAIAAAAENhcHR1cmVkRGVtb25vbG9nUm9vdABVi+xqAItFEFBoAAAAAItNDIsRi00Mi4KcAQAA/9AzyTtFEA+VwYrBXcM=</compiledString>
+										<returnType>bool</returnType>
+										<sString>receiver.applCapturedDemonologRoot(GLOBAL) != pMisc</sString>
+									</startCondition>
+									<talents />
+									<useListAs>ListAsRule</useListAs>
+								</FlagsApplicator>
+							</Item>
+						</applicators>
+						<dispatch href="/Items/Talents/Class/Demonolog/status_A2_Root.APLR" id="DD7DF1EE-F76C-4471-9187-B70359E18557">
+							<DispatchByTime>
+								<alwaysApply>false</alwaysApply>
+								<applyEffect>
+									<Item href="" />
+									<Item href="" />
+								</applyEffect>
+								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+								<applyEffectOrientation>Default</applyEffectOrientation>
+								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+								<cancelOnSenderDeath>false</cancelOnSenderDeath>
+								<dieAfterApply>true</dieAfterApply>
+								<dispatchEffect>
+									<Item href="" />
+									<Item href="" />
+								</dispatchEffect>
+								<flags>0</flags>
+								<lifeTime>
+									<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpmZPg==</compiledString>
+									<returnType>float</returnType>
+									<sString>0.3f</sString>
+								</lifeTime>
+								<persistentApplicators />
+							</DispatchByTime>
+						</dispatch>
+					</Spell>
+				</spell>
+				<spellTarget>ApplicatorTarget</spellTarget>
+				<targetSelector href="" />
+			</SpellApplicator>
+		</Item>
 	</applicators>
 	<applyTarget>PrevApplicatorTarget</applyTarget>
 	<behaviorFlags>145</behaviorFlags>

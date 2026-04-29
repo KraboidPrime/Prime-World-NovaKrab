@@ -154,16 +154,7 @@
 																			<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Material.UIEV" />
 																		</DamageApplicator>
 																	</Item>
-																	<Item href="/Items/Talents/Class/Assassin/Ability_A1.TALENT" id="53BDFEC3-767F-484E-9EED-C0A6B9558421">
-																		<StatusApplicator parent="/Heroes/DefaultStatus/_SLOW_MOVE.APLR">
-																			<caption>- Стандарт.статус "Замедление" (Dec_MoveSpeed, Slow_Duration)</caption>
-																			<enabled>
-																				<compiledString>FT0AAAAGAAAARAAAAFoAAABmAAAAfAAAAIgAAAChAAAASW1tdW5lMkNvbnRyb2wAAEFsbG93Q29udHJvbAAAAABBc3Nhc3Npbl9BMXUAAAAAQXNzYXNzaW5fQTF1AFWL7IPsDGgAAAAAi0UMixCLTQyLgogBAAD/0Nwd9QAAAN/g9sREeyJoEAAAAItNDIsRi00Mi4KIAQAA/9DcHe0AAADf4PbERHpYaCAAAACLTQiLEYtNCIuCqAEAAP/QhcB0KmgwAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0CcdF9AEAAADrB8dF9AAAAACKRfSL5V3DAAAAAAAA8D8AAAAAAAAAAA==</compiledString>
-																				<returnType>bool</returnType>
-																				<sString>(receiver.vImmune2Control == 0 || receiver.vAllowControl == 1) &amp;&amp; tal("Assassin_A1u")</sString>
-																			</enabled>
-																		</StatusApplicator>
-																	</Item>
+																	<Item href="/Heroes/DefaultStatus/_SLOW_MOVE.APLR" />
 																</applicators>
 																<dispatch href="/Items/Talents/Class/Assassin/Ability_A1.TALENT" id="29FDB3F1-128B-4F8C-B529-6549619FF073">
 																	<DispatchImmediate>
@@ -328,9 +319,9 @@
 					<UnitConstant>
 						<name>Dec_MoveSpeed</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQg==</compiledString>
+							<compiledString>FR0AAAACAAAAJAAAAD0AAABBc3Nhc3Npbl9BMXUAAAAAQXNzYXNzaW5fQTF1AFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+/fZG8mD4RSDwR6JTfTbRfSL5V3D</compiledString>
 							<returnType>float</returnType>
-							<sString>50</sString>
+							<sString>tal("Assassin_A1u") ? 50 : 30</sString>
 						</var>
 					</UnitConstant>
 				</Item>

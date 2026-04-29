@@ -3812,9 +3812,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FQ8AAAACAAAANQAAAEgAAABWb2NrZXJTZWxlY3RvcgBVi+xRaAAAAgCLRQyLEItNDItCaP/QD7bIhcl0MItVDFKLRQhQaAAAAACLTRCLEYtNEItCUP/Q3B1qAAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAACAXkA=</compiledString>
+					<compiledString>FV8AAAAHAAAAhwAAAKsAAADLAAAA6wAAAAsBAAAtAQAAQAEAAEd1bm5lclJvb3RBMwAAAABXZW5kaWdvUm9vdABGcmVlemVBMlJvb3QAAAAAQ2FwdHVyZWREZW1vbm9sb2dSb290AAAAU3RhdHVzUm9vdAAAVm9ja2VyU2VsZWN0b3IAVYvsUWgAAAIAi0UMixCLTQyLQmj/0A+2yIXJD4WkAAAAagCLVRBSaAAAAACLRQyLEItNDIuCnAEAAP/QO0UQD4WAAAAAagCLTRBRaBAAAACLVQyLAotNDIuQnAEAAP/SO0UQdWBqAItFEFBoHAAAAItNDIsRi00Mi4KcAQAA/9A7RRB1QGoAi00QUWgsAAAAi1UMiwKLTQyLkJwBAAD/0jtFEHUgagCLRRBQaEQAAACLTQyLEYtNDIuCnAEAAP/QO0UQdDCLTQxRi1UIUmhQAAAAi0UQixCLTRCLQlD/0NwdYgEAAN/g9sREegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAgF5A</compiledString>
 					<returnType>bool</returnType>
-					<sString>rFlag(131072) &amp;&amp; cVockerSelector == 122.0f</sString>
+					<sString>(rFlag(131072) || receiver.applGunnerRootA3(GLOBAL) != pMisc || receiver.applWendigoRoot(GLOBAL) != pMisc || receiver.applFreezeA2Root(GLOBAL) != pMisc || receiver.applCapturedDemonologRoot(GLOBAL) != pMisc || receiver.applStatusRoot(GLOBAL) != pMisc) &amp;&amp; cVockerSelector == 122.0f</sString>
 				</enabled>
 				<flag>1024</flag>
 				<formulaName></formulaName>

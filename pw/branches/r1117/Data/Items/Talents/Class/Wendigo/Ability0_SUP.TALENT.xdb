@@ -77,7 +77,7 @@
 	<description textref="/Items/Talents/Class/Wendigo/Ability0_SUP.TALENT_description.txt" />
 	<devPoints>1</devPoints>
 	<dispatch href="" />
-	<flags>1</flags>
+	<flags>21</flags>
 	<forceBonus>13</forceBonus>
 	<image href="/UI/Styles/Icons/Heroes/Wendigo/A0_SUP.ITEX" />
 	<imageSecondState href="" />
@@ -97,7 +97,180 @@
 	<naftaCost>800</naftaCost>
 	<name textref="/Items/Talents/Class/Wendigo/Ability0_SUP.TALENT_name.txt" />
 	<node></node>
-	<passiveApplicators />
+	<passiveApplicators>
+		<Item href="/Items/Talents/Class/Wendigo/Ability0_SUP.TALENT" id="58635833-6294-4A96-9A15-A12E862FDC2A">
+			<PermanentStatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>Не запускать в первый день</caption>
+				<customApplyType>None</customApplyType>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+						<returnType>float</returnType>
+						<sString>1</sString>
+					</addValue>
+					<multValue>
+						<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+						<returnType>float</returnType>
+						<sString>0</sString>
+					</multValue>
+					<stat>Life</stat>
+					<topModifier>false</topModifier>
+					<variable>Hitrost</variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/Wendigo/Ability0_SUP.TALENT" id="04AEAF7E-1592-4980-8E4C-179A15730B40">
+			<SpellPeriodicallyApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>Укорачиваем день</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<period>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
+					<returnType>float</returnType>
+					<sString>5</sString>
+				</period>
+				<providerName></providerName>
+				<scaleMode>ScaleIsCount</scaleMode>
+				<spell href="/Items/Talents/Class/Wendigo/Ability0_SUP.TALENT" id="1C89CF9C-D0C3-4F89-9D2F-5C2914D6808F">
+					<Spell>
+						<applicators>
+							<Item href="/Items/Talents/Class/Wendigo/Ability0_SUP.TALENT" id="0F51B695-1561-4404-BB87-CC49E45EDFCE">
+								<DayNightTransitionApplicator>
+									<applyTarget>ApplicatorTarget</applyTarget>
+									<caption>Обрезаем день</caption>
+									<desiredState>Day</desiredState>
+									<desiredStateFraction>0.11</desiredStateFraction>
+									<enabled>
+										<compiledString>FQgAAAACAAAADQAAACMAAABIaXRyb3N0AFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHVwAAADf4PbEBXogi00QixGLTRCLgpAAAAD/0A+2yIXJdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAOA/</compiledString>
+										<returnType>bool</returnType>
+										<sString>sender.vHitrost &lt; 0.5 &amp;&amp; !(mIsNight)</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<LoggingEvent>-1</LoggingEvent>
+									<providerName></providerName>
+								</DayNightTransitionApplicator>
+							</Item>
+							<Item href="/Items/Talents/Class/Wendigo/Ability0_SUP.TALENT" id="CA1095F7-FA9E-4C15-8A22-FC5CA428F90D">
+								<PermanentStatModApplicator>
+									<applyTarget>ApplicatorTarget</applyTarget>
+									<caption>Отключение днём</caption>
+									<customApplyType>None</customApplyType>
+									<enabled>
+										<compiledString>FQAAAAAAAAAAVYvsi0UQixCLTRCLgpAAAAD/0A+2wPfYG8CDwAFdww==</compiledString>
+										<returnType>bool</returnType>
+										<sString>!(mIsNight)</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<LoggingEvent>-1</LoggingEvent>
+									<modifier>
+										<addValue>
+											<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+											<returnType>float</returnType>
+											<sString>1.0f</sString>
+										</addValue>
+										<multValue>
+											<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+											<returnType>float</returnType>
+											<sString>0.0f</sString>
+										</multValue>
+										<stat>Life</stat>
+										<topModifier>false</topModifier>
+										<variable>Hitrost</variable>
+									</modifier>
+									<providerName></providerName>
+								</PermanentStatModApplicator>
+							</Item>
+							<Item href="/Items/Talents/Class/Wendigo/Ability0_SUP.TALENT" id="9EBBBC93-F7D0-46D7-894A-3AEC01EB7A4F">
+								<PermanentStatModApplicator>
+									<applyTarget>ApplicatorTarget</applyTarget>
+									<caption>Включение ночью</caption>
+									<customApplyType>None</customApplyType>
+									<enabled>
+										<compiledString>FQAAAAAAAAAAVYvsi0UQixCLTRCLgpAAAAD/0F3D</compiledString>
+										<returnType>bool</returnType>
+										<sString>mIsNight</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<LoggingEvent>-1</LoggingEvent>
+									<modifier>
+										<addValue>
+											<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+											<returnType>float</returnType>
+											<sString>0.0f</sString>
+										</addValue>
+										<multValue>
+											<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+											<returnType>float</returnType>
+											<sString>0.0f</sString>
+										</multValue>
+										<stat>Life</stat>
+										<topModifier>false</topModifier>
+										<variable>Hitrost</variable>
+									</modifier>
+									<providerName></providerName>
+								</PermanentStatModApplicator>
+							</Item>
+						</applicators>
+						<dispatch href="/Items/Talents/Class/Wendigo/Ability0_SUP.TALENT" id="86A295EA-10FB-4B09-9DB2-F1BC75BFD000">
+							<DispatchImmediate>
+								<alwaysApply>false</alwaysApply>
+								<applyEffect>
+									<Item href="" />
+									<Item href="" />
+								</applyEffect>
+								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+								<applyEffectOrientation>Default</applyEffectOrientation>
+								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+								<dieAfterApply>true</dieAfterApply>
+								<dispatchEffect>
+									<Item href="" />
+									<Item href="" />
+								</dispatchEffect>
+								<flags>0</flags>
+								<instantApply>false</instantApply>
+							</DispatchImmediate>
+						</dispatch>
+					</Spell>
+				</spell>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<startOffset>
+					<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+					<returnType>float</returnType>
+					<sString>1</sString>
+				</startOffset>
+				<targetSelector href="" />
+			</SpellPeriodicallyApplicator>
+		</Item>
+	</passiveApplicators>
 	<persistentId>Wendigo_A0_SUP</persistentId>
 	<prerequisiteTalents>
 		<Item href="/Items/Talents/Class/Wendigo/Ability0.TALENT" />

@@ -1893,9 +1893,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FQwAAAACAAAAKgAAAEAAAABGb3JiaWRVc2VBMgBVi+xRaAAAAgCLRQyLEItNDItCaP/QD7bIhcl1K2gAAAAAi1UIiwKLTQiLkIgBAAD/0twdYgAAAN/g9sRBdAnHRfwAAAAA6wfHRfwBAAAAikX8i+VdwwAAAAAAAAAA</compiledString>
+					<compiledString>FVwAAAAHAAAAmwAAAL8AAADjAAAAAwEAACMBAAA9AQAAUwEAAEd1bm5lclJvb3RBMwAAAABXZW5kaWdvUm9vdABGcmVlemVBMlJvb3QAAAAAQ2FwdHVyZWREZW1vbm9sb2dSb290AAAAU3RhdHVzUm9vdAAARm9yYmlkVXNlQTIAVYvsUYtFEIsQi00QiwL/0A+2yIXJD4TFAAAAaAAAAgCLVQyLAotNDItQaP/SD7bAhcAPhdMAAABqAItNEFFoAAAAAItVDIsCi00Mi5CcAQAA/9I7RRAPha8AAABqAItFEFBoEAAAAItNDIsRi00Mi4KcAQAA/9A7RRAPhYsAAABqAItNEFFoHAAAAItVDIsCi00Mi5CcAQAA/9I7RRB1a2oAi0UQUGgsAAAAi00MixGLTQyLgpwBAAD/0DtFEHVLagCLTRBRaEQAAACLVQyLAotNDIuQnAEAAP/SO0UQdStoUAAAAItFCIsQi00Ii4KIAQAA/9DcHXUBAADf4PbEQXQJx0X8AAAAAOsHx0X8AQAAAIpF/IvlXcMAAAAAAAAAAA==</compiledString>
 					<returnType>bool</returnType>
-					<sString>rFlag(131072) || sender.vForbidUseA2 &gt; 0</sString>
+					<sString>(mIsAbilityOn &amp;&amp; (rFlag(131072) || receiver.applGunnerRootA3(GLOBAL) != pMisc || receiver.applWendigoRoot(GLOBAL) != pMisc || receiver.applFreezeA2Root(GLOBAL) != pMisc || receiver.applCapturedDemonologRoot(GLOBAL) != pMisc || receiver.applStatusRoot(GLOBAL) != pMisc)) || sender.vForbidUseA2 &gt; 0</sString>
 				</enabled>
 				<flag>1024</flag>
 				<formulaName></formulaName>

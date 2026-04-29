@@ -57,6 +57,16 @@
 		<UnitConstantsContainer>
 			<vars>
 				<Item href="/Items/Talents/Class/Gunslinger/const_A4_2_CDR" />
+				<Item href="/Items/Talents/Class/Gunslinger/Ability_A4_2u.TALENT" id="C804BC00-8748-4DBF-951F-C224A219A3DF">
+					<UnitConstant>
+						<name>A0_HealNew</name>
+						<var>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAADAQAAANEI=</compiledString>
+							<returnType>float</returnType>
+							<sString>damageScale (sStrength, 6, 45)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

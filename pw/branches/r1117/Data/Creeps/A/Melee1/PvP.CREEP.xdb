@@ -40,7 +40,13 @@
 					</value>
 				</Item>
 				<Item skip="1" />
-				<Item skip="1" />
+				<Item>
+					<value>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACqQg==</compiledString>
+						<returnType>float</returnType>
+						<sString>85</sString>
+					</value>
+				</Item>
 				<Item skip="1" />
 				<Item skip="1" />
 				<Item skip="1" />

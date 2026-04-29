@@ -8,8 +8,8 @@
 	<BackLink DBID="/Items/Talents/Class/Wendigo/Ability5_SUP.TALENT" Count="1" />
 	<name>A2_Damage</name>
 	<var>
-		<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DZmbmQJqZMUI=</compiledString>
+		<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAADQQAAAIEI=</compiledString>
 		<returnType>float</returnType>
-		<sString>damageScale( sIntellect, 7.2, 44.4)</sString>
+		<sString>damageScale( sIntellect, 6.5, 40)</sString>
 	</var>
 </UnitConstant>

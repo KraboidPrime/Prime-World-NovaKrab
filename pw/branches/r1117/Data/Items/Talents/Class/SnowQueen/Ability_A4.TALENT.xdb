@@ -359,9 +359,9 @@
 									<flags>0</flags>
 									<mode>Normal</mode>
 									<range>
-										<compiledString>FQsAAAABAAAAFwAAAFJhbmdlX0xvbmcAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+										<compiledString>FQsAAAACAAAAGAAAACsAAABSYW5nZV9Mb25nAFWL7FGLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0twlOQAAANld/NlF/IvlXcMAAAAAAAAAQA==</compiledString>
 										<returnType>float</returnType>
-										<sString>cRange_Long</sString>
+										<sString>cRange_Long - 2</sString>
 									</range>
 									<targetFilter>679477251</targetFilter>
 									<targetSelector href="" />
@@ -390,9 +390,9 @@
 	<type>Active</type>
 	<upgradeLevel>0</upgradeLevel>
 	<useRange>
-		<compiledString>FQsAAAABAAAAFwAAAFJhbmdlX0xvbmcAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+		<compiledString>FQsAAAACAAAAGAAAACsAAABSYW5nZV9Mb25nAFWL7FGLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0twlOQAAANld/NlF/IvlXcMAAAAAAAAAQA==</compiledString>
 		<returnType>float</returnType>
-		<sString>cRange_Long</sString>
+		<sString>cRange_Long - 2</sString>
 	</useRange>
 	<useRangeMaterial href="/Effects/UI/AOESelection/Radius.MTRL" />
 	<variativeMaxTalentStats />

@@ -194,9 +194,9 @@
 	<isUltimateTalent>false</isUltimateTalent>
 	<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
 	<manaCost>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQQ==</compiledString>
+		<compiledString>FQAAAAACAAAAHgAAACgAAABVi+yD7AiLRQiLEItNCIuCYAEAAP/QiUX820X83A1GAAAA2ejewdw9NgAAANld+NlF+IvlXcMAAAAAAAA5QAAAAAAAAPA/AAAAgPTblz8=</compiledString>
 		<returnType>float</returnType>
-		<sString>25</sString>
+		<sString>25/(1+0.0233f*sNaftaLevel)</sString>
 	</manaCost>
 	<marker></marker>
 	<microAI href="/Items/Talents/Class/Witch/Ability_A3.TALENT" id="246CAD40-234A-40FE-8D45-F41BA053B882">
@@ -398,6 +398,7 @@
 				<useAbilityOwnerMana>false</useAbilityOwnerMana>
 			</TriggerApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/Witch/status_A3u_AspdULT.APLR" />
 	</passiveApplicators>
 	<persistentId>Witch_A3</persistentId>
 	<prerequisiteTalents />

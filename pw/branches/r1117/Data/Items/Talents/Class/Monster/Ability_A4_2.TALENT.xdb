@@ -166,7 +166,7 @@
 																	<returnType>bool</returnType>
 																	<sString>true</sString>
 																</enabled>
-																<flag>131073</flag>
+																<flag>1</flag>
 																<formulaName></formulaName>
 																<lifeTime>
 																	<compiledString></compiledString>
@@ -204,6 +204,86 @@
 																	<sString>-1.0</sString>
 																</value>
 															</UIMessageApplicator>
+														</Item>
+														<Item href="/Items/Talents/Class/Monster/Ability_A4_2.TALENT" id="635D1E2F-BCF4-4C9F-A869-EAD2E661BB7D">
+															<SpellApplicator>
+																<applyTarget>ApplicatorTarget</applyTarget>
+																<caption>хитрый эффект корней</caption>
+																<enabled>
+																	<compiledString></compiledString>
+																	<returnType>bool</returnType>
+																	<sString>true</sString>
+																</enabled>
+																<formulaName></formulaName>
+																<LoggingEvent>-1</LoggingEvent>
+																<providerName></providerName>
+																<spell href="/Items/Talents/Class/Monster/Ability_A4_2.TALENT" id="A2F5B270-C234-4FDC-989D-F9D1F0631460">
+																	<Spell>
+																		<applicators>
+																			<Item href="/Items/Talents/Class/Monster/Ability_A4_2.TALENT" id="F00F52F7-8AE9-4E0F-95C1-1FBF7F851E64">
+																				<FlagsApplicator>
+																					<applyTarget>ApplicatorTarget</applyTarget>
+																					<behaviorFlags>145</behaviorFlags>
+																					<caption></caption>
+																					<consumables />
+																					<effect>
+																						<Item href="" />
+																						<Item href="" />
+																					</effect>
+																					<enabled>
+																						<compiledString>FRsAAAADAAAAJgAAAFkAAABvAAAAU3RhdHVzUm9vdAAASW1tdW5lMkNvbnRyb2wAVYvsUWoAi0UQUGgAAAAAi00MixGLTQyLgpwBAAD/0DtFEHREaAAAEACLTQyLEYtNDItCaP/QD7bIhcl1K2gMAAAAi1UMiwKLTQyLkIgBAAD/0twdkQAAAN/g9sREegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAAA</compiledString>
+																						<returnType>bool</returnType>
+																						<sString>receiver.applStatusRoot(GLOBAL) != pMisc &amp;&amp; !rFlag(1048576) &amp;&amp; receiver.vImmune2Control == 0</sString>
+																					</enabled>
+																					<flag>131072</flag>
+																					<formulaName></formulaName>
+																					<lifeTime>
+																						<compiledString>FQ4AAAABAAAAGgAAAFJvb3RfRHVyYXRpb24AVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+																						<returnType>float</returnType>
+																						<sString>cRoot_Duration</sString>
+																					</lifeTime>
+																					<LoggingEvent>-1</LoggingEvent>
+																					<providerName></providerName>
+																					<startCondition>
+																						<compiledString>FQsAAAABAAAAFQAAAFN0YXR1c1Jvb3QAVYvsagCLRRBQaAAAAACLTQyLEYtNDIuCnAEAAP/QM8k7RRAPlcGKwV3D</compiledString>
+																						<returnType>bool</returnType>
+																						<sString>receiver.applStatusRoot(GLOBAL) != pMisc</sString>
+																					</startCondition>
+																					<talents />
+																					<useListAs>ListAsRule</useListAs>
+																				</FlagsApplicator>
+																			</Item>
+																		</applicators>
+																		<dispatch href="/Items/Talents/Class/Monster/Ability_A4_2.TALENT" id="9E89BEFD-1580-4067-A4FF-DD8C39508C64">
+																			<DispatchByTime>
+																				<alwaysApply>false</alwaysApply>
+																				<applyEffect>
+																					<Item href="" />
+																					<Item href="" />
+																				</applyEffect>
+																				<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																				<applyEffectOrientation>Default</applyEffectOrientation>
+																				<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																				<cancelOnSenderDeath>false</cancelOnSenderDeath>
+																				<dieAfterApply>true</dieAfterApply>
+																				<dispatchEffect>
+																					<Item href="" />
+																					<Item href="" />
+																				</dispatchEffect>
+																				<flags>0</flags>
+																				<lifeTime>
+																					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpmZPg==</compiledString>
+																					<returnType>float</returnType>
+																					<sString>0.3f</sString>
+																				</lifeTime>
+																				<persistentApplicators />
+																			</DispatchByTime>
+																		</dispatch>
+																	</Spell>
+																</spell>
+																<spellTarget>ApplicatorTarget</spellTarget>
+																<targetSelector href="" />
+															</SpellApplicator>
 														</Item>
 													</applicators>
 													<applyTarget>ApplicatorTarget</applyTarget>
@@ -391,6 +471,12 @@
 						<enableSorting>false</enableSorting>
 						<targetSelector href="/Items/Talents/Class/Monster/Ability_A4_2.TALENT" id="FD665EA1-F191-4018-A0F3-017458BFEF02">
 							<SectorTargetSelector parent="/Items/Talents/Class/Monster/A4_2_Spit_SectorTargetSelector.TGSL">
+								<angle>40</angle>
+								<range>
+									<compiledString>FQ0AAAACAAAAGgAAAC0AAABBNF8yVXNlUmFuZ2UAVYvsUYtFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S3CU7AAAA2V382UX8i+VdwwAAAAAAAABA</compiledString>
+									<returnType>float</returnType>
+									<sString>cA4_2UseRange-2</sString>
+								</range>
 								<segmentEnd>CurrentPosition</segmentEnd>
 							</SectorTargetSelector>
 						</targetSelector>
@@ -436,9 +522,9 @@
 					<UnitConstant>
 						<name>A4_2UseRange</name>
 						<var>
-							<compiledString>FQ0AAAACAAAAGgAAAC0AAABSYW5nZV9NZWRpdW0AVYvsUYtFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S3AU7AAAA2V382UX8i+VdwwAAAAAAAABA</compiledString>
+							<compiledString>FQ0AAAACAAAAGgAAAC0AAABSYW5nZV9NZWRpdW0AVYvsUYtFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S3AU7AAAA2V382UX8i+VdwwAAAAAAABBA</compiledString>
 							<returnType>float</returnType>
-							<sString>cRange_Medium+2</sString>
+							<sString>cRange_Medium+4</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -589,9 +675,9 @@
 	<type>Active</type>
 	<upgradeLevel>0</upgradeLevel>
 	<useRange>
-		<compiledString>FQ0AAAACAAAAGgAAAC8AAABBNF8yVXNlUmFuZ2UAVYvsUYtFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S3MDcNT0AAADZXfzZRfyL5V3DAAAAAAAACEA=</compiledString>
+		<compiledString>FQ0AAAADAAAAGgAAAC0AAAA1AAAAQTRfMlVzZVJhbmdlAFWL7FGLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0twlSwAAANzA3DVDAAAA2V382UX8i+VdwwAAAAAAAAhAAAAAAAAAAEA=</compiledString>
 		<returnType>float</returnType>
-		<sString>cA4_2UseRange*2.0/3.0</sString>
+		<sString>(cA4_2UseRange-2)*2.0/3.0</sString>
 	</useRange>
 	<useRangeMaterial href="" />
 	<variativeMaxTalentStats />

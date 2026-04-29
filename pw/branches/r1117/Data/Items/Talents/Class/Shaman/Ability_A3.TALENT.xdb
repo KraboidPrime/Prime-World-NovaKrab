@@ -806,7 +806,7 @@
 										<returnType>int</returnType>
 										<sString>1</sString>
 									</summonedUnitsCount>
-									<summonGroupName></summonGroupName>
+									<summonGroupName>plushshamana</summonGroupName>
 									<summonSource>ByApplicator</summonSource>
 									<takeModDmg>
 										<compiledString></compiledString>

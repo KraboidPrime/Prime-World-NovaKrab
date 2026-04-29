@@ -60,9 +60,9 @@
 					<UnitConstant>
 						<name>Add_Stamina</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzcygQQ==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzcyYQQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>20.1</sString>
+							<sString>19.1</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -80,9 +80,9 @@
 					<UnitConstant>
 						<name>Add_Will</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzcygQQ==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzcyYQQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>20.1</sString>
+							<sString>19.1</sString>
 						</var>
 					</UnitConstant>
 				</Item>

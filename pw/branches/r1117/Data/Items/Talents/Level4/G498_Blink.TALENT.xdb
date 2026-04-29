@@ -454,9 +454,9 @@
 					<UnitConstant>
 						<name>CoolDown</name>
 						<var>
-							<compiledString>FRoAAAAEAAAAIQAAADcAAABLAAAAawAAAEc1MDFfQWN0aXZlAEc1MDFfQ29vbERvd24AVYvsg+wIaAAAAACLRQiLEItNCIuCiAEAAP/Q3B2FAAAA3+D2xEF1H4tNDFGLVQhSaAwAAACLRRCLEItNEItCUP/Q2V386wXZ7tld/NlF/NwteQAAANld+NlF+IvlXcMAAAAAAMBiQAAAAAAAAAAAAAAAAA==</compiledString>
+							<compiledString>FToAAAAHAAAAQQAAAFcAAABrAAAAiwAAAJgAAAC1AAAAzgAAAEc1MDFfQWN0aXZlAEc1MDFfQ29vbERvd24AAABHNTAwX0FkZFJhbmdlAAAARzQ5OV9BZGRSYW5nZQBVi+yD7BhoAAAAAItFCIsQi00Ii4KIAQAA/9DcHfMAAADf4PbEQXUfi00MUYtVCFJoDAAAAItFEIsQi00Qi0JQ/9DZXfzrBdnu2V382UX83C3nAAAAi00MUYtVCFJoHAAAAItFEIsQi00Qi0JQ3V30/9CLTQxRi1UIUmgsAAAAi0UQixCLTRCLQlDdXez/0NxF7NwN3wAAANxF9Nld6NlF6IvlXcMAAAAAAAAUQAAAAAAAwGJAAAAAAAAAAAAAAAAA</compiledString>
 							<returnType>float</returnType>
-							<sString>150 - (sender.vG501_Active&gt; 0 ? cG501_CoolDown : 0)</sString>
+							<sString>150 - (sender.vG501_Active&gt; 0 ? cG501_CoolDown : 0) + 5*(cG500_AddRange + cG499_AddRange)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -604,7 +604,7 @@
 		</Item>
 		<Item href="/Items/Talents/Level4/G498_Blink.TALENT" id="CB82BA66-028E-47CE-941B-3FD649747A2F">
 			<FlagsApplicator>
-				<applyTarget>ApplicatorTarget</applyTarget>
+				<applyTarget>AbilityOwner</applyTarget>
 				<behaviorFlags>152</behaviorFlags>
 				<caption>Запрет использовать при ForbidMoveSpecial</caption>
 				<consumables />
@@ -613,9 +613,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FQAAAAAAAAAAVYvsaAAAAgCLRQiLEItNCItCaP/QXcM=</compiledString>
+					<compiledString>FU8AAAAFAAAAdwAAAJsAAAC7AAAA2wAAAPsAAABHdW5uZXJSb290QTMAAAAAV2VuZGlnb1Jvb3QARnJlZXplQTJSb290AAAAAENhcHR1cmVkRGVtb25vbG9nUm9vdAAAAFN0YXR1c1Jvb3QAVYvsUWgAAAIAi0UMixCLTQyLQmj/0A+2yIXJD4WtAAAAagCLVRBSaAAAAACLRQyLEItNDIuCnAEAAP/QO0UQD4WJAAAAagCLTRBRaBAAAACLVQyLAotNDIuQnAEAAP/SO0UQdWlqAItFEFBoHAAAAItNDIsRi00Mi4KcAQAA/9A7RRB1SWoAi00QUWgsAAAAi1UMiwKLTQyLkJwBAAD/0jtFEHUpagCLRRBQaEQAAACLTQyLEYtNDIuCnAEAAP/QO0UQdQnHRfwAAAAA6wfHRfwBAAAAikX8i+Vdww==</compiledString>
 					<returnType>bool</returnType>
-					<sString>sFlag(131072)</sString>
+					<sString>(rFlag(131072) || receiver.applGunnerRootA3(GLOBAL) != pMisc || receiver.applWendigoRoot(GLOBAL) != pMisc || receiver.applFreezeA2Root(GLOBAL) != pMisc || receiver.applCapturedDemonologRoot(GLOBAL) != pMisc || receiver.applStatusRoot(GLOBAL) != pMisc)</sString>
 				</enabled>
 				<flag>1024</flag>
 				<formulaName></formulaName>

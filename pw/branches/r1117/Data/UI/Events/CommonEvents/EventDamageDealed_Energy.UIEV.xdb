@@ -64,10 +64,10 @@
 	<BackLink DBID="/Heroes/Ent/AttackAbility.ATCK" Count="1" />
 	<BackLink DBID="/Heroes/Firefox/_.HROB" Count="1" />
 	<BackLink DBID="/Heroes/Gunslinger/_.HROB" Count="4" />
-	<BackLink DBID="/Heroes/ManaWyrm/_.HROB" Count="1" />
+	<BackLink DBID="/Heroes/Manawyrm/_.HROB" Count="1" />
 	<BackLink DBID="/Heroes/Naga/A2u2Damage.APLR" Count="1" />
-	<BackLink DBID="/Heroes/PinkGirl/_.HROB" Count="1" />
-	<BackLink DBID="/Heroes/PlagueDoctor/_.HROB" Count="1" />
+	<BackLink DBID="/Heroes/Pinkgirl/_.HROB" Count="1" />
+	<BackLink DBID="/Heroes/Plaguedoctor/_.HROB" Count="1" />
 	<BackLink DBID="/Heroes/Prince/_.HROB" Count="1" />
 	<BackLink DBID="/Heroes/Trickster/_.HROB" Count="1" />
 	<BackLink DBID="/Heroes/Trickster/appl_bounce.APLR" Count="1" />
@@ -111,7 +111,7 @@
 	<BackLink DBID="/Items/Talents/Class/FireFox/A4Damage.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/FireFox/Ability1.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Fluffy/Ability_A1.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Fluffy/Ability_A3.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Fluffy/Ability_A3.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Fluffy/status_A2_LittleSelf.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Fluffy/status_A3Self.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Freeze/Ability_A1.TALENT" Count="1" />
@@ -184,7 +184,7 @@
 	<BackLink DBID="/Items/Talents/Class/SnowQueen/status_A3_IceShiverEnemy.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Stalker/Ability_A2.TALENT" Count="6" />
 	<BackLink DBID="/Items/Talents/Class/ThunderGod/_A0_SUP_Strike.APLR" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/ThunderGod/Ability2.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/ThunderGod/Ability2.TALENT" Count="4" />
 	<BackLink DBID="/Items/Talents/Class/ThunderGod/Ability3.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/ThunderGod/Ability4.TALENT" Count="3" />
 	<BackLink DBID="/Items/Talents/Class/ThunderGod/Ability4_2.TALENT" Count="2" />
@@ -196,7 +196,7 @@
 	<BackLink DBID="/Items/Talents/Class/Unicorn/Ability4_2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Unicorn/status_A0_shield.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Unicorn/status_A4_fly.APLR" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Vampire/Ability_A1.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Vampire/Ability_A1.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Vampire/Ability_A2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Vampire/Ability_A3.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Vampire/status_A4_StunAndDPS.APLR" Count="1" />
@@ -287,6 +287,7 @@
 	<BackLink DBID="/Items/Talents/Class/PinkGirl/Ability_A4.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Healer/Ability1.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Healer/A4PeriodSpell.APLR" Count="1" />
+	<BackLink DBID="/Buildings/DefaultStats/DefaultMainAttack.ATCK" Count="1" />
 	<signRecipients>EVENT_PARTICIPANTS</signRecipients>
 	<UISigns>
 		<Item href="/UI/Events/CommonEvents/EventDamageDealed_Energy.UIEV" id="FCDDC7F1-12E2-4611-8C2F-927182843C56">

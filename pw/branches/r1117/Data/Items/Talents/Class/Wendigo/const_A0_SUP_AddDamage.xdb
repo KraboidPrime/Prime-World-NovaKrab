@@ -5,8 +5,8 @@
 	<BackLink DBID="/Heroes/Wendigo/AttackAbility.ATCK" Count="1" />
 	<name>A0_SUP_AddDamage</name>
 	<var>
-		<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DmpkBQgAAc0M=</compiledString>
+		<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAADIQQAAQkM=</compiledString>
 		<returnType>float</returnType>
-		<sString>damageScale (sStrength, 32.4, 243)</sString>
+		<sString>damageScale (sStrength, 25, 194)</sString>
 	</var>
 </UnitConstant>

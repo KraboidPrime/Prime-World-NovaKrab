@@ -57,9 +57,9 @@
 					<UnitConstant>
 						<name>A4_2_full_dmg</name>
 						<var>
-							<compiledString>FRAAAAACAAAAHwAAAEIAAABUVF9DaGlja19BNDJEbWcAVYvsg+wMi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9KLRQiLEItNCItCDN1d+P/Q3A1TAAAA3EX42V302UX0i+Vdw3sUrkfheoQ/</compiledString>
+							<compiledString>FRAAAAACAAAAHwAAAEIAAABUVF9DaGlja19BNDJEbWcAVYvsg+wMi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9KLRQiLEItNCItCDN1d+P/Q3A1TAAAA3EX42V302UX0i+VdwwAAAOBNYoA/</compiledString>
 							<returnType>float</returnType>
-							<sString>cTT_Chick_A42Dmg + 0.01*sMaxLife</sString>
+							<sString>cTT_Chick_A42Dmg + 0.008f*sMaxLife</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -120,9 +120,9 @@
 	<isUltimateTalent>true</isUltimateTalent>
 	<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
 	<manaCost>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQg==</compiledString>
+		<compiledString>FQAAAAACAAAAHgAAACgAAABVi+yD7AiLRQiLEItNCIuCYAEAAP/QiUX820X83A1GAAAA2ejewdw9NgAAANld+NlF+IvlXcMAAAAAAABZQAAAAAAAAPA/AAAAgPTblz8=</compiledString>
 		<returnType>float</returnType>
-		<sString>100.0f</sString>
+		<sString>100/(1+0.0233f*sNaftaLevel)</sString>
 	</manaCost>
 	<marker></marker>
 	<microAI href="" />

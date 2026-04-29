@@ -424,9 +424,9 @@
 																														<providerName></providerName>
 																														<reduceByPercent>false</reduceByPercent>
 																														<reductionAmount>
-																															<compiledString>FTEAAAADAAAAQAAAAFoAAAB6AAAAQ0QAAEE0XzJfTm9UYXJnZXRDb29sZG93blJlZHVjdGlvbgAAQTRfMkR1cmF0aW9uAFWL7IPsFItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/Si0UMUItNCFFoBAAAAItVEIsCi00Qi1BQ3V34/9LcbfiLRQxQi00IUWgkAAAAi1UQiwKLTRCLUFDdXfD/0txt8Nld7NlF7IvlXcM=</compiledString>
+																															<compiledString>FR8AAAACAAAAUgAAAGsAAABBNF8yX05vVGFyZ2V0Q29vbGRvd25SZWR1Y3Rpb24AVYvsg+wUi0UQixCLTRCLQhz/0Nno3uGLTRCLEYtNEItCPN1d+P/Q3E34i00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ3V3w/9DcbfDcJXkAAADZXezZReyL5V3DAAAAAAAA4D8AAAAAAADwPw==</compiledString>
 																															<returnType>float</returnType>
-																															<sString>cCD - cA4_2_NoTargetCooldownReduction - cA4_2Duration</sString>
+																															<sString>(1-mPreparedness)*mCooldown - cA4_2_NoTargetCooldownReduction - 0.5</sString>
 																														</reductionAmount>
 																														<refreshThis>true</refreshThis>
 																														<talents>
@@ -962,55 +962,6 @@
 																					<stopEvents>0</stopEvents>
 																				</Item>
 																				<Item>
-																					<applicator href="/Items/Talents/Class/Gunslinger/Ability_A4_2.TALENT" id="036F450A-2FD3-4587-9152-7781FA9B6454">
-																						<PermanentStatModApplicator>
-																							<applyTarget>AbilityOwner</applyTarget>
-																							<caption>Уменьшаем ярость</caption>
-																							<customApplyType>None</customApplyType>
-																							<enabled>
-																								<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
-																								<returnType>bool</returnType>
-																								<sString>true</sString>
-																							</enabled>
-																							<formulaName></formulaName>
-																							<LoggingEvent>-1</LoggingEvent>
-																							<modifier>
-																								<addValue>
-																									<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
-																									<returnType>float</returnType>
-																									<sString>0.0f</sString>
-																								</addValue>
-																								<multValue>
-																									<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
-																									<returnType>float</returnType>
-																									<sString>0.0f</sString>
-																								</multValue>
-																								<stat>Life</stat>
-																								<topModifier>false</topModifier>
-																								<variable>Hero_Rage</variable>
-																							</modifier>
-																							<providerName></providerName>
-																						</PermanentStatModApplicator>
-																					</applicator>
-																					<continueCondition>
-																						<compiledString></compiledString>
-																						<returnType>bool</returnType>
-																						<sString>0</sString>
-																					</continueCondition>
-																					<continueEvents>1</continueEvents>
-																					<delay>
-																						<compiledString></compiledString>
-																						<returnType>float</returnType>
-																						<sString>-1.0</sString>
-																					</delay>
-																					<stopCondition>
-																						<compiledString></compiledString>
-																						<returnType>bool</returnType>
-																						<sString>0</sString>
-																					</stopCondition>
-																					<stopEvents>0</stopEvents>
-																				</Item>
-																				<Item>
 																					<applicator href="/Items/Talents/Class/Gunslinger/Ability_A4_2.TALENT" id="07E63C6B-7317-4AD2-B2C3-51FF750C28A4">
 																						<ChannellingApplicator>
 																							<applicatorsOnSelf>
@@ -1161,6 +1112,28 @@
 																												<timeLimiter>-1</timeLimiter>
 																												<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Material.UIEV" />
 																											</DamageApplicator>
+																										</Item>
+																										<Item href="/Items/Talents/Class/Gunslinger/Ability_A4_2.TALENT" id="A6A6E362-738B-418A-8308-F658A58B96CD">
+																											<HealApplicator>
+																												<amount>
+																													<compiledString>FQsAAAABAAAAFwAAAEEwX0hlYWxOZXcAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+																													<returnType>float</returnType>
+																													<sString>cA0_HealNew</sString>
+																												</amount>
+																												<applyTarget>AbilityOwner</applyTarget>
+																												<caption>Лечение за ярость</caption>
+																												<enabled>
+																													<compiledString>FSUAAAACAAAALAAAAEUAAABHdW5zbGluZ2VyX0E0XzJ1AAAAAEd1bnNsaW5nZXJfQTRfMnUAVYvsg+wIaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgUAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wCKRfuL5V3D</compiledString>
+																													<returnType>bool</returnType>
+																													<sString>tal("Gunslinger_A4_2u")</sString>
+																												</enabled>
+																												<formulaName></formulaName>
+																												<healTarget>Health</healTarget>
+																												<ignoreHealingMods>false</ignoreHealingMods>
+																												<LoggingEvent>-1</LoggingEvent>
+																												<providerName></providerName>
+																												<uiEvent href="/UI/Events/CommonEvents/EventHeal.UIEV" />
+																											</HealApplicator>
 																										</Item>
 																									</applicators>
 																									<dispatch href="/Items/Talents/Class/Gunslinger/Ability_A4_2.TALENT" id="BCB974EE-DE7F-49C2-9418-A7E86A1AF3B2">
@@ -1348,9 +1321,9 @@
 																			<providerName></providerName>
 																			<reduceByPercent>false</reduceByPercent>
 																			<reductionAmount>
-																				<compiledString>FR8AAAABAAAAOwAAAEE0XzJfTm9UYXJnZXRDb29sZG93blJlZHVjdGlvbgBVi+yD7AyLRRCLEItNEItCPP/Qi00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ3V34/9DcbfjZXfTZRfSL5V3D</compiledString>
+																				<compiledString>FR8AAAACAAAAUgAAAGsAAABBNF8yX05vVGFyZ2V0Q29vbGRvd25SZWR1Y3Rpb24AVYvsg+wUi0UQixCLTRCLQhz/0Nno3uGLTRCLEYtNEItCPN1d+P/Q3E34i00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ3V3w/9DcbfDcJXkAAADZXezZReyL5V3DAAAAAAAA4D8AAAAAAADwPw==</compiledString>
 																				<returnType>float</returnType>
-																				<sString>mCooldown - cA4_2_NoTargetCooldownReduction</sString>
+																				<sString>(1-mPreparedness)*mCooldown - cA4_2_NoTargetCooldownReduction - 0.5</sString>
 																			</reductionAmount>
 																			<refreshThis>true</refreshThis>
 																			<talents>
@@ -1589,9 +1562,9 @@
 					<UnitConstant>
 						<name>A4_2Range</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABgQQ==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAQQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>14</sString>
+							<sString>16</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -1643,9 +1616,9 @@
 					<UnitConstant>
 						<name>A4_2_InstaHeal</name>
 						<var>
-							<compiledString>FRQAAAACAAAAGwAAADgAAABIZXJvX1JhZ2UAAABBMF9IZWFsAFWL7IPsDGgAAAAAi0UIixCLTQiLgogBAAD/0ItNDFGLVQhSaAwAAACLRRCLEItNEItCUN1d+P/Q3E342V302UX0i+Vdww==</compiledString>
+							<compiledString>FRcAAAADAAAAHgAAADsAAABUAAAASGVyb19SYWdlAAAAQTBfSGVhbE5ldwBVi+yD7AxoAAAAAItFCIsQi00Ii4KIAQAA/9CLTQxRi1UIUmgMAAAAi0UQixCLTRCLQlDdXfj/0NxN+NwNYgAAANld9NlF9IvlXcMAAAAAAADgPw==</compiledString>
 							<returnType>float</returnType>
-							<sString>sender.vHero_Rage * cA0_Heal</sString>
+							<sString>sender.vHero_Rage * cA0_HealNew * 0.5f</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -1655,9 +1628,9 @@
 					<UnitConstant>
 						<name>CD</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAC0Qg==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQg==</compiledString>
 							<returnType>float</returnType>
-							<sString>90.0f</sString>
+							<sString>80.0f</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -1668,6 +1641,16 @@
 							<compiledString>FSYAAAACAAAALQAAAEYAAABHdW5zbGluZ2VyX0EwX1NVUAAAAEd1bnNsaW5nZXJfQTBfU1VQAFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoFAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+/fZG8mD4QKDwQKJTfTbRfSL5V3D</compiledString>
 							<returnType>float</returnType>
 							<sString>tal("Gunslinger_A0_SUP") ? 4 : 2</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Gunslinger/Ability_A4_2.TALENT" id="8243C76B-7686-4A92-8827-DA1073FC23FC">
+					<UnitConstant>
+						<name>A0_HealNew</name>
+						<var>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAADAQAAANEI=</compiledString>
+							<returnType>float</returnType>
+							<sString>damageScale (sStrength, 6, 45)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -1741,9 +1724,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FQAAAAAAAAAAVYvsaAAAAgCLRQyLEItNDItCaP/QXcM=</compiledString>
+					<compiledString>FU8AAAAFAAAAdwAAAJsAAAC7AAAA2wAAAPsAAABHdW5uZXJSb290QTMAAAAAV2VuZGlnb1Jvb3QARnJlZXplQTJSb290AAAAAENhcHR1cmVkRGVtb25vbG9nUm9vdAAAAFN0YXR1c1Jvb3QAVYvsUWgAAAIAi0UMixCLTQyLQmj/0A+2yIXJD4WtAAAAagCLVRBSaAAAAACLRQyLEItNDIuCnAEAAP/QO0UQD4WJAAAAagCLTRBRaBAAAACLVQyLAotNDIuQnAEAAP/SO0UQdWlqAItFEFBoHAAAAItNDIsRi00Mi4KcAQAA/9A7RRB1SWoAi00QUWgsAAAAi1UMiwKLTQyLkJwBAAD/0jtFEHUpagCLRRBQaEQAAACLTQyLEYtNDIuCnAEAAP/QO0UQdQnHRfwAAAAA6wfHRfwBAAAAikX8i+Vdww==</compiledString>
 					<returnType>bool</returnType>
-					<sString>rFlag(131072)</sString>
+					<sString>(rFlag(131072) || receiver.applGunnerRootA3(GLOBAL) != pMisc || receiver.applWendigoRoot(GLOBAL) != pMisc || receiver.applFreezeA2Root(GLOBAL) != pMisc || receiver.applCapturedDemonologRoot(GLOBAL) != pMisc || receiver.applStatusRoot(GLOBAL) != pMisc)</sString>
 				</enabled>
 				<flag>1024</flag>
 				<formulaName></formulaName>

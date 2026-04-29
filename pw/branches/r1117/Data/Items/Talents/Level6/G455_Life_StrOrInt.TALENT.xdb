@@ -1708,6 +1708,36 @@
 				<targetSelector href="" />
 			</SpellPeriodicallyApplicator>
 		</Item>
+		<Item href="/Items/Talents/Level6/G455_Life_StrOrInt.TALENT" id="48508F3A-66CB-4CE6-8B28-0388E9595C80">
+			<PermanentStatModApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<caption>костыль для реса ангела</caption>
+				<customApplyType>None</customApplyType>
+				<enabled>
+					<compiledString>FRUAAAACAAAAHAAAADUAAABBbmdlbF9BMAAAAABBbmdlbF9BMABVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaAwAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2Rfv32BvAg8ABi+Vdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>!tal("Angel_A0")</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
+						<returnType>float</returnType>
+						<sString>10.0f</sString>
+					</addValue>
+					<multValue>
+						<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Life</stat>
+					<topModifier>false</topModifier>
+					<variable>ForResAngelKostil2026</variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
 	</passiveApplicators>
 	<persistentId>G455</persistentId>
 	<prerequisiteTalents />

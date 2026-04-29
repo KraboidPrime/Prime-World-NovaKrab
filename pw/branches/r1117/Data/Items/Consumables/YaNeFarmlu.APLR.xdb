@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StatusApplicator>
-	<BackLink DBID="/Items/Consumables/SUPPORT.ARCT" Count="1" />
+	<BackLink DBID="/Items/Consumables/SUPPORT.ARCT" Count="2" />
 	<applicators>
 		<Item href="/Items/Consumables/YaNeFarmlu.APLR" id="8A73D501-DA86-489E-AE24-B3A228ACC088">
 			<TriggerApplicator>
@@ -130,9 +130,9 @@
 		<Item href="" />
 	</effect>
 	<enabled>
-		<compiledString>FS0AAAAGAAAAMgAAAEgAAABUAAAAagAAAHYAAACMAAAATW9uZXlOZXdUaW1lAAAAAExvdmtheWFJZGVhAE9jaGVyZWRub3lLb3N0aWwAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdvgAAAN/g9sREek1oEAAAAItNCIsRi00Ii4KIAQAA/9DcHbYAAADf4PbEQXUraBwAAACLTQiLEYtNCIuCiAEAAP/Q3B2uAAAA3+D2xAV6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAA+D8AAAAAAAASQAAAAAAAAAAA</compiledString>
+		<compiledString>FS0AAAAGAAAAMgAAAEgAAABUAAAAagAAAHYAAACMAAAATW9uZXlOZXdUaW1lAAAAAExvdmtheWFJZGVhAE9jaGVyZWRub3lLb3N0aWwAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdvgAAAN/g9sREek1oEAAAAItNCIsRi00Ii4KIAQAA/9DcHbYAAADf4PbEQXUraBwAAACLTQiLEYtNCIuCiAEAAP/Q3B2uAAAA3+D2xAV6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAA4D8AAAAAAAASQAAAAAAAAAAA</compiledString>
 		<returnType>bool</returnType>
-		<sString>sender.vMoneyNewTime == 0.0f &amp;&amp; sender.vLovkayaIdea &gt; 4.5 &amp;&amp; sender.vOcherednoyKostil &lt; 1.5</sString>
+		<sString>sender.vMoneyNewTime == 0.0f &amp;&amp; sender.vLovkayaIdea &gt; 4.5 &amp;&amp; sender.vOcherednoyKostil &lt; 0.5</sString>
 	</enabled>
 	<flags>0</flags>
 	<formulaName>MoneyDebuffNew</formulaName>

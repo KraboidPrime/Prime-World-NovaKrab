@@ -88,6 +88,7 @@
 	<BackLink DBID="/Items/Talents/TalentKits/Redset7_11_MiniRefresher/spell_G766_RefreshAndNotify.SPLL" Count="1" />
 	<BackLink DBID="/Items/Consumables/CleansingCake.ARCT" Count="1" />
 	<BackLink DBID="/Items/Scrolls/appl_Clone.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Angel/Resurrect_A5.APLR" Count="1" />
 	<applyTarget>ApplicatorTarget</applyTarget>
 	<behaviorFlags>0</behaviorFlags>
 	<caption>записывалка Immune2Control</caption>

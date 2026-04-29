@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DamageApplicator>
 	<BackLink DBID="/Buildings/A/Main/_.ATCK" Count="1" />
-	<BackLink DBID="/Buildings/DefaultStats/DefaultMainAttack.ATCK" Count="1" />
+	<BackLink DBID="/Buildings/DefaultStats/DefaultMainAttack.ATCK" Count="3" />
 	<applyTarget>ApplicatorTarget</applyTarget>
 	<cancelInvisibility>false</cancelInvisibility>
 	<caption>Настекивающийся урон</caption>

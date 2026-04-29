@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Consumable>
+	<BackLink DBID="/Items/Consumables/SVITOKUMA.ARCT" Count="2" />
+	<BackLink DBID="/Buildings/DefaultStats/Basic.CNSH" Count="1" />
+	<BackLink DBID="/Buildings/DefaultStats/Basic_Bots.CNSH" Count="1" />
+	<activeCustomTrigger>false</activeCustomTrigger>
+	<allowChase>
+		<compiledString></compiledString>
+		<returnType>bool</returnType>
+		<sString>true</sString>
+	</allowChase>
+	<alternativeTargets />
+	<aoeDisplayOnMinimap>false</aoeDisplayOnMinimap>
+	<aoeHeight>0</aoeHeight>
+	<aoeMaterial href="" />
+	<aoePassabilityCheckMode>0</aoePassabilityCheckMode>
+	<aoeSize>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</aoeSize>
+	<aoeType>None</aoeType>
+	<applicators />
+	<autoTargetSelector href="" />
+	<caption></caption>
+	<castAllowRange>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</castAllowRange>
+	<castLimitations />
+	<commonDescription textref="/Items/Consumables/SVITOKUMA.ARCT_commonDescription.txt" />
+	<compiledDescriptionA textref="" />
+	<compiledDescriptionB textref="" />
+	<conditionFormulas>
+		<Item href="/Items/Consumables/SVITOKUMA.ARCT" id="C6F4E287-5FFF-4ED4-9B77-38D33F6D8613">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FQoAAAACAAAADwAAACUAAABTdml0b2tVbWEAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdRwAAAN/g9sREegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAAA</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vSvitokUma == 0.0f</sString>
+				</condition>
+				<name>SvitokUmaUnbuyed</name>
+			</ConditionFormula>
+		</Item>
+	</conditionFormulas>
+	<constants href="" />
+	<cooldownTime>
+		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</cooldownTime>
+	<cooldownTimeSecondState>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</cooldownTimeSecondState>
+	<description textref="/Items/Consumables/SVITOKUMA.ARCT_description.txt" />
+	<dispatch href="" />
+	<flags>5</flags>
+	<gameObject href="" />
+	<image href="/UI/Styles/Icons/Talents/_021.ITEX" />
+	<imageSecondState href="" />
+	<isPotion>true</isPotion>
+	<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
+	<manaCost>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</manaCost>
+	<marker></marker>
+	<maxQuantity>0</maxQuantity>
+	<microAI href="" />
+	<minUseRangeCorrection>0</minUseRangeCorrection>
+	<naftaCost>0</naftaCost>
+	<name textref="/Items/Consumables/SVITOKUMA.ARCT_name.txt" />
+	<node></node>
+	<passiveApplicators>
+		<Item href="/Items/Consumables/SVITOKUMA.ARCT" id="6A31B95C-ABCB-4E18-B609-1F6AC0F990B3">
+			<PermanentStatModApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<caption></caption>
+				<customApplyType>None</customApplyType>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Life</stat>
+					<topModifier>false</topModifier>
+					<variable>SvitokUma</variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Consumables/SVITOKUMA.ARCT" id="1C65C16A-84FA-4B99-905F-4C881A8D7B8E">
+			<SpellApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<caption></caption>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<spell href="/Items/Consumables/SVITOKUMA.ARCT" id="EC34773F-5423-41DD-A3BD-BA7C75612AC5">
+					<Spell>
+						<applicators>
+							<Item href="/Items/Consumables/SVITOKUMA.ARCT" id="9DB42621-7642-4BF6-BC40-93041043D222">
+								<AbilityModApplicator>
+									<addValue>
+										<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DACR0SQ==</compiledString>
+										<returnType>float</returnType>
+										<sString>1000000.0f</sString>
+									</addValue>
+									<applyTarget>AbilityOwner</applyTarget>
+									<behaviorFlags>216</behaviorFlags>
+									<caption></caption>
+									<effect>
+										<Item href="" />
+										<Item href="" />
+									</effect>
+									<enabled>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<lifeTime>
+										<compiledString></compiledString>
+										<returnType>float</returnType>
+										<sString>-1.0</sString>
+									</lifeTime>
+									<LoggingEvent>-1</LoggingEvent>
+									<mode>naftacost</mode>
+									<multValue>
+										<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+										<returnType>float</returnType>
+										<sString>0.0f</sString>
+									</multValue>
+									<providerName></providerName>
+									<specificAbility href="/Items/Consumables/SVITOKUMA.ARCT" />
+									<startCondition>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</startCondition>
+									<talents />
+									<targetAbilities>0</targetAbilities>
+									<useListAs>ListAsRule</useListAs>
+								</AbilityModApplicator>
+							</Item>
+						</applicators>
+						<dispatch href="/Items/Consumables/SVITOKUMA.ARCT" id="60589CEA-1C4E-4D78-89C8-9A294F702172">
+							<DispatchImmediate>
+								<alwaysApply>false</alwaysApply>
+								<applyEffect>
+									<Item href="" />
+									<Item href="" />
+								</applyEffect>
+								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+								<applyEffectOrientation>Default</applyEffectOrientation>
+								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+								<dieAfterApply>true</dieAfterApply>
+								<dispatchEffect>
+									<Item href="" />
+									<Item href="" />
+								</dispatchEffect>
+								<flags>0</flags>
+								<instantApply>false</instantApply>
+							</DispatchImmediate>
+						</dispatch>
+					</Spell>
+				</spell>
+				<spellTarget>AbilityOwner</spellTarget>
+				<targetSelector href="" />
+			</SpellApplicator>
+		</Item>
+	</passiveApplicators>
+	<persistentId></persistentId>
+	<requireLineOfSight>true</requireLineOfSight>
+	<shortDescription textref="/Items/Consumables/SVITOKUMA.ARCT_shortDescription.txt" />
+	<targetType>136258047</targetType>
+	<type>Passive</type>
+	<useRange>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</useRange>
+	<useRangeMaterial href="" />
+	<warFogRemoveRadius>0</warFogRemoveRadius>
+	<warFogRemoveTime>0</warFogRemoveTime>
+</Consumable>

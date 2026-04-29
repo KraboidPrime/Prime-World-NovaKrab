@@ -416,9 +416,9 @@
 																										</enabled>
 																										<formulaName>WendigoTP</formulaName>
 																										<lifeTime>
-																											<compiledString>FQwAAAABAAAAGAAAAFRQQXZhaWxhYmxlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+																											<compiledString>FQwAAAACAAAAGQAAACwAAABUUEF2YWlsYWJsZQBVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcBToAAADZXfzZRfyL5V3DAAAAQDMz8z8=</compiledString>
 																											<returnType>float</returnType>
-																											<sString>cTPAvailable</sString>
+																											<sString>cTPAvailable + 1.2f</sString>
 																										</lifeTime>
 																										<LoggingEvent>-1</LoggingEvent>
 																										<modifier>
@@ -877,9 +877,9 @@
 														</continueCondition>
 														<continueEvents>2</continueEvents>
 														<delay>
-															<compiledString>FQwAAAACAAAAGQAAACwAAABUUEF2YWlsYWJsZQBVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcBToAAADZXfzZRfyL5V3DAAAAAAAA8D8=</compiledString>
+															<compiledString>FQwAAAACAAAAGQAAACwAAABUUEF2YWlsYWJsZQBVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcBToAAADZXfzZRfyL5V3DAAAAAAAABEA=</compiledString>
 															<returnType>float</returnType>
-															<sString>cTPAvailable+1</sString>
+															<sString>cTPAvailable+2.5</sString>
 														</delay>
 														<stopCondition>
 															<compiledString></compiledString>
@@ -1246,16 +1246,16 @@
 									<placeSelector href="/Items/Talents/Class/Wendigo/Ability3.TALENT" id="BC7AF99E-9100-4FAC-9AA4-D10E303061F4">
 										<UnitPlaceCorrector>
 											<checkByRangeToRequester>false</checkByRangeToRequester>
-											<checkLineOfSight>true</checkLineOfSight>
+											<checkLineOfSight>false</checkLineOfSight>
 											<nativeTerrainOnly>false</nativeTerrainOnly>
 											<passabilityCheckMode>7</passabilityCheckMode>
-											<radius>7</radius>
+											<radius>3</radius>
 											<targetSelector href="/Items/Talents/Class/Wendigo/Ability3.TALENT" id="660C4728-FCD7-4793-A1AB-CE08A561F747">
 												<SelectApplicatorTarget>
 													<applicatorIndex>0</applicatorIndex>
 													<applicatorName></applicatorName>
 													<namedApplicatorTarget>ApplicatorTarget</namedApplicatorTarget>
-													<selectTarget>ApplicatorTarget</selectTarget>
+													<selectTarget>AbilityTarget</selectTarget>
 												</SelectApplicatorTarget>
 											</targetSelector>
 										</UnitPlaceCorrector>
@@ -1292,7 +1292,7 @@
 										<returnType>int</returnType>
 										<sString>1</sString>
 									</summonedUnitsCount>
-									<summonGroupName></summonGroupName>
+									<summonGroupName>wendigolovushkaa</summonGroupName>
 									<summonSource>ByApplicator</summonSource>
 									<takeModDmg>
 										<compiledString></compiledString>
@@ -1333,7 +1333,7 @@
 				<targetSelector href="/Items/Talents/Class/Wendigo/Ability3.TALENT" id="46E729D2-8802-41ED-9AF2-97A93E598538">
 					<UnitPlaceCorrector>
 						<checkByRangeToRequester>true</checkByRangeToRequester>
-						<checkLineOfSight>false</checkLineOfSight>
+						<checkLineOfSight>true</checkLineOfSight>
 						<nativeTerrainOnly>false</nativeTerrainOnly>
 						<passabilityCheckMode>7</passabilityCheckMode>
 						<radius>15</radius>
@@ -1359,7 +1359,28 @@
 		<returnType>float</returnType>
 		<sString>0.0f</sString>
 	</castAllowRange>
-	<castLimitations />
+	<castLimitations>
+		<Item href="/Items/Talents/Class/Wendigo/Ability3.TALENT" id="8246BFEE-2CFC-4783-9A2A-104F96292D88">
+			<TargetCastLimitation>
+				<targetSelector href="/Items/Talents/Class/Wendigo/Ability3.TALENT" id="52B029FB-4C88-4F19-981C-62FAF04FF769">
+					<UnitPlaceCorrector>
+						<checkByRangeToRequester>false</checkByRangeToRequester>
+						<checkLineOfSight>false</checkLineOfSight>
+						<nativeTerrainOnly>false</nativeTerrainOnly>
+						<passabilityCheckMode>0</passabilityCheckMode>
+						<radius>0</radius>
+						<targetSelector href="/Items/Talents/Class/Wendigo/Ability3.TALENT" id="EF02F373-E144-4F8F-9AA9-3CC77029B58D">
+							<ConvertTargetToLand>
+								<aggregateMode>First</aggregateMode>
+								<targetSelector href="" />
+							</ConvertTargetToLand>
+						</targetSelector>
+					</UnitPlaceCorrector>
+				</targetSelector>
+				<uiEvent href="/UI/Events/ErrorMessages/CastError_UnsuitablePlace.UIEV" />
+			</TargetCastLimitation>
+		</Item>
+	</castLimitations>
 	<commonDescription textref="/Items/Talents/Class/Wendigo/Ability3.TALENT_commonDescription.txt" />
 	<compiledDescriptionA textref="" />
 	<compiledDescriptionB textref="" />

@@ -248,9 +248,9 @@
 					<UnitConstant>
 						<name>A1_Damage_forTT</name>
 						<var>
-							<compiledString>FSMAAAAIAAAAKgAAAEAAAABUAAAAZwAAAG0AAACAAAAAigAAAL8AAABBMV9EdXJhdGlvbgBBNF8yX0FjdGl2ZQBBNF8yX1Bvd2VyAFWL7IPsFGgMAAAAi0UIixCLTQiLgogBAAD/0Nwd8wAAAN/g9sREeiuLTQxRi1UIUmgYAAAAi0UQixCLTRCLQlD/0Nw16wAAANwF8wAAAN1d+OsF2ejdXfhqAVHZBecAAADZHCRR2QXjAAAA2RwkagCLTQiLEYtNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0ItNDFGLVQhSaAAAAACLRRCLEItNEItCUN1d8P/Q3H3w3E342V3s2UXsi+VdwwAAlkIAwAxEAAAAAAAAWUAAAAAAAADwPw==</compiledString>
+							<compiledString>FSMAAAAIAAAAKgAAAEAAAABUAAAAZwAAAG0AAACAAAAAigAAAL8AAABBMV9EdXJhdGlvbgBBNF8yX0FjdGl2ZQBBNF8yX1Bvd2VyAFWL7IPsFGgMAAAAi0UIixCLTQiLgogBAAD/0Nwd8wAAAN/g9sREeiuLTQxRi1UIUmgYAAAAi0UQixCLTRCLQlD/0Nw16wAAANwF8wAAAN1d+OsF2ejdXfhqAVHZBecAAADZHCRR2QXjAAAA2RwkagCLTQiLEYtNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0ItNDFGLVQhSaAAAAACLRRCLEItNEItCUN1d8P/Q3H3w3E342V3s2UXsi+VdwwAAnkIAwBNEAAAAAAAAWUAAAAAAAADwPw==</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale (sIntellect, 75, 563) / cA1_Duration * (sender.vA4_2_Active== 1 ? cA4_2_Power/100 + 1 : 1)</sString>
+							<sString>damageScale (sIntellect, 79, 591) / cA1_Duration * (sender.vA4_2_Active== 1 ? cA4_2_Power/100 + 1 : 1)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -268,9 +268,9 @@
 					<UnitConstant>
 						<name>A1_DamageTT_Castle</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACWQgDADEQ=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACeQgDAE0Q=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale (sIntellect, 75, 563)</sString>
+							<sString>damageScale (sIntellect, 79, 591)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

@@ -9,6 +9,7 @@
 	<BackLink DBID="/Summons/Spear/_Light.PRXY" Count="1" />
 	<BackLink DBID="/Summons/Spear/DecalLight.PRXY" Count="1" />
 	<BackLink DBID="/Summons/Spear/DecalLightSnow.PRXY" Count="1" />
+	<BackLink DBID="/Summons/Spear/DecalLightSnowAE.PRXY" Count="1" />
 	<generatedFileName></generatedFileName>
 	<mipLevels>0</mipLevels>
 	<mipLevelUsage>AutoGenerate</mipLevelUsage>

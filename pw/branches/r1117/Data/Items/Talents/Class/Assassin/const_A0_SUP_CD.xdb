@@ -3,8 +3,8 @@
 	<BackLink DBID="/Items/Talents/Class/Assassin/Ability_A0_SUP.TALENT" Count="1" />
 	<name>A0_SUP_CD</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQQ==</compiledString>
 		<returnType>float</returnType>
-		<sString>10.0f</sString>
+		<sString>20.0f</sString>
 	</var>
 </UnitConstant>

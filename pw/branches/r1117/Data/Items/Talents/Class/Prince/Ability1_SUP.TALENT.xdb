@@ -50,13 +50,7 @@
 	<conflictingTalents>
 		<Item href="/Items/Talents/Class/Prince/Ability2_SUP.TALENT" />
 	</conflictingTalents>
-	<constants href="/Items/Talents/Class/Prince/Ability1_SUP.TALENT" id="4E7279D7-33C7-4649-879D-093ABF796C42">
-		<UnitConstantsContainer>
-			<vars>
-				<Item href="/Items/Talents/Class/Prince/const_A1_Add_Stun_Duration" />
-			</vars>
-		</UnitConstantsContainer>
-	</constants>
+	<constants href="" />
 	<consumptionBonus>
 		<constant>0</constant>
 		<percent>0</percent>

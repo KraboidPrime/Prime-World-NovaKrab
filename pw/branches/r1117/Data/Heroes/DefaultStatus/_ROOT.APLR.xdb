@@ -22,7 +22,7 @@
 		<returnType>bool</returnType>
 		<sString>true</sString>
 	</enabled>
-	<flag>131073</flag>
+	<flag>1</flag>
 	<formulaName></formulaName>
 	<lifeTime>
 		<compiledString>FQ4AAAABAAAAGgAAAFJvb3RfRHVyYXRpb24AVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>

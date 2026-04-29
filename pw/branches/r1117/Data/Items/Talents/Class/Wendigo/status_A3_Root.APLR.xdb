@@ -20,52 +20,173 @@
 				</lifeTime>
 			</FlagsApplicator>
 		</Item>
-		<Item href="/Items/Talents/Class/Wendigo/status_A3_Root.APLR" id="F2FD0B66-3735-45C4-9498-A7EDCD92437C">
-			<StatModApplicator>
+		<Item href="/Items/Talents/Class/Wendigo/status_A3_Root.APLR" id="9D0F3A5D-AE3F-4F96-ADD8-67DE4F0E8A25">
+			<SpellApplicator>
 				<applyTarget>AbilityOwner</applyTarget>
-				<behaviorFlags>0</behaviorFlags>
-				<caption>кидаем флаг на вендиго</caption>
-				<constraint>None</constraint>
-				<dontUpdate>false</dontUpdate>
-				<effect>
-					<Item href="" />
-					<Item href="" />
-				</effect>
+				<caption>исправленный телепорт</caption>
 				<enabled>
 					<compiledString></compiledString>
 					<returnType>bool</returnType>
 					<sString>true</sString>
 				</enabled>
 				<formulaName></formulaName>
-				<lifeTime>
-					<compiledString></compiledString>
-					<returnType>float</returnType>
-					<sString>-1.0</sString>
-				</lifeTime>
 				<LoggingEvent>-1</LoggingEvent>
-				<modifier>
-					<addValue>
-						<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
-						<returnType>float</returnType>
-						<sString>1.0f</sString>
-					</addValue>
-					<multValue>
-						<compiledString></compiledString>
-						<returnType>float</returnType>
-						<sString>1.0f</sString>
-					</multValue>
-					<stat>Life</stat>
-					<topModifier>false</topModifier>
-					<variable>TeleportablePrey</variable>
-				</modifier>
 				<providerName></providerName>
-				<startCondition>
+				<spell href="/Items/Talents/Class/Wendigo/status_A3_Root.APLR" id="A7AB54AD-32CF-477B-8B26-EB8BB6FB172D">
+					<Spell>
+						<applicators>
+							<Item href="/Items/Talents/Class/Wendigo/status_A3_Root.APLR" id="CF2871A0-1370-4F86-BB22-981BDC31BAD0">
+								<StatModApplicator>
+									<applyTarget>AbilityOwner</applyTarget>
+									<behaviorFlags>1</behaviorFlags>
+									<caption>кидаем флаг на вендиго</caption>
+									<constraint>None</constraint>
+									<dontUpdate>false</dontUpdate>
+									<effect>
+										<Item href="" />
+										<Item href="" />
+									</effect>
+									<enabled>
+										<compiledString>FQ8AAAACAAAAFAAAACoAAABUUFdlbGxEb25lV2VuZABVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1MAAAA3+D2xAV6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAA4D8=</compiledString>
+										<returnType>bool</returnType>
+										<sString>sender.vTPWellDoneWend &lt; 0.5</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<lifeTime>
+										<compiledString>FQwAAAACAAAAGQAAACwAAABUUEF2YWlsYWJsZQBVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcJToAAADZXfzZRfyL5V3DAAAAoJmZyT8=</compiledString>
+										<returnType>float</returnType>
+										<sString>cTPAvailable - 0.2f</sString>
+									</lifeTime>
+									<LoggingEvent>-1</LoggingEvent>
+									<modifier>
+										<addValue>
+											<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+											<returnType>float</returnType>
+											<sString>1.0f</sString>
+										</addValue>
+										<multValue>
+											<compiledString></compiledString>
+											<returnType>float</returnType>
+											<sString>1.0f</sString>
+										</multValue>
+										<stat>Life</stat>
+										<topModifier>false</topModifier>
+										<variable>TeleportablePrey</variable>
+									</modifier>
+									<providerName></providerName>
+									<startCondition>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</startCondition>
+									<statModName></statModName>
+								</StatModApplicator>
+							</Item>
+						</applicators>
+						<dispatch href="/Items/Talents/Class/Wendigo/status_A3_Root.APLR" id="1E482810-FED3-4D1C-8A91-04135E823F1F">
+							<DispatchImmediate>
+								<alwaysApply>false</alwaysApply>
+								<applyEffect>
+									<Item href="" />
+									<Item href="" />
+								</applyEffect>
+								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+								<applyEffectOrientation>Default</applyEffectOrientation>
+								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+								<dieAfterApply>true</dieAfterApply>
+								<dispatchEffect>
+									<Item href="" />
+									<Item href="" />
+								</dispatchEffect>
+								<flags>0</flags>
+								<instantApply>false</instantApply>
+							</DispatchImmediate>
+						</dispatch>
+					</Spell>
+				</spell>
+				<spellTarget>AbilityOwner</spellTarget>
+				<targetSelector href="" />
+			</SpellApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/Wendigo/status_A3_Root.APLR" id="891FF5E6-A4A8-4F2C-AAAB-831C7588047E">
+			<SpellApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>хитрый эффект корней</caption>
+				<enabled>
 					<compiledString></compiledString>
 					<returnType>bool</returnType>
 					<sString>true</sString>
-				</startCondition>
-				<statModName></statModName>
-			</StatModApplicator>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<spell href="/Items/Talents/Class/Wendigo/status_A3_Root.APLR" id="AD9DE44D-2832-43E7-81BD-19A1CA5E1C5A">
+					<Spell>
+						<applicators>
+							<Item href="/Items/Talents/Class/Wendigo/status_A3_Root.APLR" id="F7FB45B0-07EE-4FD7-B80E-BA98F44020BA">
+								<FlagsApplicator>
+									<applyTarget>ApplicatorTarget</applyTarget>
+									<behaviorFlags>145</behaviorFlags>
+									<caption></caption>
+									<consumables />
+									<effect>
+										<Item href="" />
+										<Item href="" />
+									</effect>
+									<enabled>
+										<compiledString>FSkAAAAFAAAANAAAAE4AAABkAAAAcAAAAIYAAABXZW5kaWdvUm9vdABJbW11bmUyQ29udHJvbAAAQWxsb3dDb250cm9sAFWL7FFqAItFEFBoAAAAAItNDIsRi00Mi4KcAQAA/9A7RRB0TWgMAAAAi00MixGLTQyLgogBAAD/0NwdsAAAAN/g9sREeyJoHAAAAItNDIsRi00Mi4KIAQAA/9DcHagAAADf4PbERHoJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAADwPwAAAAAAAAAA</compiledString>
+										<returnType>bool</returnType>
+										<sString>receiver.applWendigoRoot(GLOBAL) != pMisc &amp;&amp; (receiver.vImmune2Control == 0 || receiver.vAllowControl == 1)</sString>
+									</enabled>
+									<flag>131072</flag>
+									<formulaName></formulaName>
+									<lifeTime>
+										<compiledString>FQ4AAAABAAAAGgAAAFJvb3RfRHVyYXRpb24AVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+										<returnType>float</returnType>
+										<sString>cRoot_Duration</sString>
+									</lifeTime>
+									<LoggingEvent>-1</LoggingEvent>
+									<providerName></providerName>
+									<startCondition>
+										<compiledString>FQwAAAABAAAAFgAAAFdlbmRpZ29Sb290AFWL7GoAi0UQUGgAAAAAi00MixGLTQyLgpwBAAD/0DPJO0UQD5XBisFdww==</compiledString>
+										<returnType>bool</returnType>
+										<sString>receiver.applWendigoRoot(GLOBAL) != pMisc</sString>
+									</startCondition>
+									<talents />
+									<useListAs>ListAsRule</useListAs>
+								</FlagsApplicator>
+							</Item>
+						</applicators>
+						<dispatch href="/Items/Talents/Class/Wendigo/status_A3_Root.APLR" id="98262DA5-85C0-462C-8D09-42A1CAEB3868">
+							<DispatchByTime>
+								<alwaysApply>false</alwaysApply>
+								<applyEffect>
+									<Item href="" />
+									<Item href="" />
+								</applyEffect>
+								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+								<applyEffectOrientation>Default</applyEffectOrientation>
+								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+								<cancelOnSenderDeath>false</cancelOnSenderDeath>
+								<dieAfterApply>true</dieAfterApply>
+								<dispatchEffect>
+									<Item href="" />
+									<Item href="" />
+								</dispatchEffect>
+								<flags>0</flags>
+								<lifeTime>
+									<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpmZPg==</compiledString>
+									<returnType>float</returnType>
+									<sString>0.3f</sString>
+								</lifeTime>
+								<persistentApplicators />
+							</DispatchByTime>
+						</dispatch>
+					</Spell>
+				</spell>
+				<spellTarget>ApplicatorTarget</spellTarget>
+				<targetSelector href="" />
+			</SpellApplicator>
 		</Item>
 	</applicators>
 	<applyTarget>ApplicatorTarget</applyTarget>

@@ -1923,9 +1923,9 @@
 					<UnitConstant>
 						<name>A2_SlowEffect</name>
 						<var>
-							<compiledString>FSYAAAACAAAALQAAAEYAAABJcm9uS25pZ2h0X0EyX1NVUAAAAElyb25LbmlnaHRfQTJfU1VQAFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoFAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+/fZG8mD4RmDwSOJTfTbRfSL5V3D</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAMQg==</compiledString>
 							<returnType>float</returnType>
-							<sString>tal("IronKnight_A2_SUP") ? 60 : 35</sString>
+							<sString>35</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -2139,9 +2139,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FQwAAAACAAAAKgAAAEAAAABGb3JiaWRVc2VBMgBVi+xRaAAAAgCLRQyLEItNDItCaP/QD7bIhcl1K2gAAAAAi1UIiwKLTQiLkIgBAAD/0twdYgAAAN/g9sRBdAnHRfwAAAAA6wfHRfwBAAAAikX8i+VdwwAAAAAAAAAA</compiledString>
+					<compiledString>FVwAAAAHAAAAhAAAAKgAAADIAAAA6AAAAAgBAAA1AQAASwEAAEd1bm5lclJvb3RBMwAAAABXZW5kaWdvUm9vdABGcmVlemVBMlJvb3QAAAAAQ2FwdHVyZWREZW1vbm9sb2dSb290AAAAU3RhdHVzUm9vdAAARm9yYmlkVXNlQTIAVYvsUWgAAAIAi0UMixCLTQyLQmj/0A+2yIXJD4WkAAAAagCLVRBSaAAAAACLRQyLEItNDIuCnAEAAP/QO0UQD4WAAAAAagCLTRBRaBAAAACLVQyLAotNDIuQnAEAAP/SO0UQdWBqAItFEFBoHAAAAItNDIsRi00Mi4KcAQAA/9A7RRB1QGoAi00QUWgsAAAAi1UMiwKLTQyLkJwBAAD/0jtFEHUgagCLRRBQaEQAAACLTQyLEYtNDIuCnAEAAP/QO0UQdBOLTRCLEYtNEIsC/9APtsiFyXUraFAAAACLVQiLAotNCIuQiAEAAP/S3B1tAQAA3+D2xEF0CcdF/AAAAADrB8dF/AEAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
 					<returnType>bool</returnType>
-					<sString>rFlag(131072)  || sender.vForbidUseA2 &gt; 0</sString>
+					<sString>((rFlag(131072) || receiver.applGunnerRootA3(GLOBAL) != pMisc || receiver.applWendigoRoot(GLOBAL) != pMisc || receiver.applFreezeA2Root(GLOBAL) != pMisc || receiver.applCapturedDemonologRoot(GLOBAL) != pMisc || receiver.applStatusRoot(GLOBAL) != pMisc) &amp;&amp; mIsAbilityOn)  || sender.vForbidUseA2 &gt; 0</sString>
 				</enabled>
 				<flag>1024</flag>
 				<formulaName></formulaName>

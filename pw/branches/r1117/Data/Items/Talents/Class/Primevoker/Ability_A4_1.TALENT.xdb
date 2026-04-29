@@ -2676,7 +2676,7 @@
 																							<returnType>bool</returnType>
 																							<sString>true</sString>
 																						</enabled>
-																						<flag>131073</flag>
+																						<flag>1</flag>
 																						<formulaName></formulaName>
 																						<lifeTime>
 																							<compiledString></compiledString>
@@ -2714,6 +2714,86 @@
 																							<sString>-1.0</sString>
 																						</value>
 																					</UIMessageApplicator>
+																				</Item>
+																				<Item href="/Items/Talents/Class/Primevoker/Ability_A4_1.TALENT" id="8F413F7B-ABB3-48F3-81B4-11525E7315A0">
+																					<SpellApplicator>
+																						<applyTarget>ApplicatorTarget</applyTarget>
+																						<caption>хитрый эффект корней</caption>
+																						<enabled>
+																							<compiledString></compiledString>
+																							<returnType>bool</returnType>
+																							<sString>true</sString>
+																						</enabled>
+																						<formulaName></formulaName>
+																						<LoggingEvent>-1</LoggingEvent>
+																						<providerName></providerName>
+																						<spell href="/Items/Talents/Class/Primevoker/Ability_A4_1.TALENT" id="AD091C64-BF42-40F8-8136-430D17369819">
+																							<Spell>
+																								<applicators>
+																									<Item href="/Items/Talents/Class/Primevoker/Ability_A4_1.TALENT" id="7B6026C2-45F4-4DA1-9225-D70AE8DC638C">
+																										<FlagsApplicator>
+																											<applyTarget>ApplicatorTarget</applyTarget>
+																											<behaviorFlags>145</behaviorFlags>
+																											<caption></caption>
+																											<consumables />
+																											<effect>
+																												<Item href="" />
+																												<Item href="" />
+																											</effect>
+																											<enabled>
+																												<compiledString>FTkAAAAHAAAARAAAAHsAAACRAAAApQAAALgAAADEAAAA2gAAAFN0YXR1c1Jvb3QAAEltbXVuZTJDb250cm9sAABSb290X0NvbmRpdGlvbgAAQWxsb3dDb250cm9sAFWL7FFqAItFEFBoAAAAAItNDIsRi00Mi4KcAQAA/9A7RRAPhI0AAABoAAAQAItNDIsRi00Mi0Jo/9APtsiFyXVJaAwAAACLVQyLAotNDIuQiAEAAP/S3B0EAQAA3+D2xER6J4tFDFCLTQhRaBwAAACLVRCLAotNEItQUP/S3B0EAQAA3+D2xER6ImgsAAAAi0UMixCLTQyLgogBAAD/0Nwd/AAAAN/g9sREegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAPA/AAAAAAAAAAA=</compiledString>
+																												<returnType>bool</returnType>
+																												<sString>receiver.applStatusRoot(GLOBAL) != pMisc &amp;&amp; ((!rFlag(1048576) &amp;&amp; receiver.vImmune2Control == 0 &amp;&amp; cRoot_Condition) || receiver.vAllowControl == 1)</sString>
+																											</enabled>
+																											<flag>131072</flag>
+																											<formulaName></formulaName>
+																											<lifeTime>
+																												<compiledString>FQ4AAAABAAAAGgAAAFJvb3RfRHVyYXRpb24AVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+																												<returnType>float</returnType>
+																												<sString>cRoot_Duration</sString>
+																											</lifeTime>
+																											<LoggingEvent>-1</LoggingEvent>
+																											<providerName></providerName>
+																											<startCondition>
+																												<compiledString>FQsAAAABAAAAFQAAAFN0YXR1c1Jvb3QAVYvsagCLRRBQaAAAAACLTQyLEYtNDIuCnAEAAP/QM8k7RRAPlcGKwV3D</compiledString>
+																												<returnType>bool</returnType>
+																												<sString>receiver.applStatusRoot(GLOBAL) != pMisc</sString>
+																											</startCondition>
+																											<talents />
+																											<useListAs>ListAsRule</useListAs>
+																										</FlagsApplicator>
+																									</Item>
+																								</applicators>
+																								<dispatch href="/Items/Talents/Class/Primevoker/Ability_A4_1.TALENT" id="6944DE49-6062-462C-AD99-BC713A02A4A6">
+																									<DispatchByTime>
+																										<alwaysApply>false</alwaysApply>
+																										<applyEffect>
+																											<Item href="" />
+																											<Item href="" />
+																										</applyEffect>
+																										<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																										<applyEffectOrientation>Default</applyEffectOrientation>
+																										<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																										<cancelOnSenderDeath>false</cancelOnSenderDeath>
+																										<dieAfterApply>true</dieAfterApply>
+																										<dispatchEffect>
+																											<Item href="" />
+																											<Item href="" />
+																										</dispatchEffect>
+																										<flags>0</flags>
+																										<lifeTime>
+																											<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpmZPg==</compiledString>
+																											<returnType>float</returnType>
+																											<sString>0.3f</sString>
+																										</lifeTime>
+																										<persistentApplicators />
+																									</DispatchByTime>
+																								</dispatch>
+																							</Spell>
+																						</spell>
+																						<spellTarget>ApplicatorTarget</spellTarget>
+																						<targetSelector href="" />
+																					</SpellApplicator>
 																				</Item>
 																			</applicators>
 																			<applyTarget>ApplicatorTarget</applyTarget>

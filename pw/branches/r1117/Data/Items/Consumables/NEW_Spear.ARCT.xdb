@@ -106,9 +106,9 @@
 		</UnitConstantsContainer>
 	</constants>
 	<cooldownTime>
-		<compiledString>FQ4AAAACAAAAFQAAAC4AAABHMTAwMgAAAEcxMDAyAFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoCAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+/fZG8mD4dyDwXiJTfTbRfSL5V3D</compiledString>
+		<compiledString>FQ4AAAACAAAAFQAAAC4AAABHMTAwMgAAAEcxMDAyAFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoCAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+/fZG8mD4eWDwVqJTfTbRfSL5V3D</compiledString>
 		<returnType>float</returnType>
-		<sString>tal("G1002") ? 84 : 120</sString>
+		<sString>tal("G1002") ? 63 : 90</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>
@@ -163,7 +163,7 @@
 	<maxQuantity>100</maxQuantity>
 	<microAI href="" />
 	<minUseRangeCorrection>0</minUseRangeCorrection>
-	<naftaCost>100</naftaCost>
+	<naftaCost>90</naftaCost>
 	<name textref="/Items/Consumables/NEW_Spear.ARCT_name.txt" />
 	<node></node>
 	<passiveApplicators>

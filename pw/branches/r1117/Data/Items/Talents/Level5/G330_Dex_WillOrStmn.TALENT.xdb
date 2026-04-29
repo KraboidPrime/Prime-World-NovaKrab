@@ -327,9 +327,9 @@
 					<UnitConstant>
 						<name>CD</name>
 						<var>
-							<compiledString>FRoAAAAEAAAAIQAAADcAAABLAAAAawAAAEczNDRfQWN0aXZlAEczMjZfQ29vbERvd24AVYvsg+wIaAAAAACLRQiLEItNCIuCiAEAAP/Q3B2FAAAA3+D2xEF1H4tNDFGLVQhSaAwAAACLRRCLEItNEItCUP/Q2V386wXZ7tld/NlF/NwteQAAANld+NlF+IvlXcMAAAAAAIBmQAAAAAAAAAAAAAAAAA==</compiledString>
+							<compiledString>FSgAAAAGAAAALwAAAEUAAABZAAAAdQAAAIsAAACrAAAARzM0NF9BY3RpdmUARzMyNl9Db29sRG93bgAAAEczMjZfQWN0aXZlAFWL7IPsDGgAAAAAi0UIixCLTQiLgogBAAD/0NwdyAAAAN/g9sRBdR+LTQxRi1UIUmgMAAAAi0UQixCLTRCLQlD/0Nld/OsF2e7ZXfxoHAAAAItNCIsRi00Ii4KIAQAA/9DcHcgAAADf4PbEQXUJx0X4FAAAAOsHx0X4AAAAANlF/NwtvAAAANpF+Nld9NlF9IvlXcMAAAAAAIBmQAAAAAAAAAAAAAAAAA==</compiledString>
 							<returnType>float</returnType>
-							<sString>180 - (sender.vG344_Active&gt; 0 ? cG326_CoolDown : 0)</sString>
+							<sString>180 - (sender.vG344_Active&gt; 0 ? cG326_CoolDown : 0) + (sender.vG326_Active&gt;0 ? 20 : 0)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

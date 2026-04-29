@@ -139,7 +139,7 @@
 	<BackLink DBID="/Heroes/Gunner/_.HROB" Count="2" />
 	<BackLink DBID="/Heroes/Monster/_.HROB" Count="1" />
 	<BackLink DBID="/Heroes/Naga/AttackAbility.ATCK" Count="1" />
-	<BackLink DBID="/Heroes/PlagueDoctor/_.HROB" Count="1" />
+	<BackLink DBID="/Heroes/Plaguedoctor/_.HROB" Count="1" />
 	<BackLink DBID="/Heroes/Plane/_.HROB" Count="1" />
 	<BackLink DBID="/Heroes/Shadow/appl_AutoAttack.APLR" Count="1" />
 	<BackLink DBID="/Heroes/SnowQueen/_.HROB" Count="1" />
@@ -219,7 +219,7 @@
 	<BackLink DBID="/Items/Talents/Class/ThunderGod/Ability4_2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Trickster/Ability1.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Trickster/Ability4_2.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Vampire/Ability_A1.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Vampire/Ability_A1.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Vampire/Ability_A4_2.TALENT" Count="3" />
 	<BackLink DBID="/Items/Talents/Class/Warlord/Ability1.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Warlord/Ability2.TALENT" Count="1" />

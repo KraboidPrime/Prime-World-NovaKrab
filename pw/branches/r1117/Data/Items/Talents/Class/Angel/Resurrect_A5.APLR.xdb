@@ -1,0 +1,799 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StatusApplicator>
+	<BackLink DBID="/Items/Talents/Class/Angel/Ability_A5_2.TALENT" Count="2" />
+	<applicators>
+		<Item href="/Items/Talents/Class/Angel/Resurrect_A5.APLR" id="C4E422DF-36B5-4F5A-9860-65FA5DF895D1">
+			<TriggerApplicator>
+				<actionsCount>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</actionsCount>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>Триггер</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName>AngelRes</formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<playAck>false</playAck>
+				<processor href="/Items/Talents/Class/Angel/Resurrect_A5.APLR" id="FEC59491-15E6-4168-A8EC-E366A6F5C622">
+					<EventProcessorOnDeath>
+						<applyTarget>ApplicatorTarget</applyTarget>
+						<castSpellDelay>
+							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>0.0f</sString>
+						</castSpellDelay>
+						<checkSender>0</checkSender>
+						<objectFilter>2040319</objectFilter>
+						<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
+						<spell href="/Items/Talents/Class/Angel/Resurrect_A5.APLR" id="A7F81E59-B42F-4F7A-B017-260F53C70F50">
+							<Spell>
+								<applicators>
+									<Item href="/Items/Talents/Class/Angel/Resurrect_A5.APLR" id="7B6B7500-52D5-4341-84EE-0C372873E169">
+										<SummonApplicator>
+											<applicators>
+												<Item href="/Items/Talents/Class/Angel/Resurrect_A5.APLR" id="4E742318-1B37-42F4-BA47-4C1C131F2CE1">
+													<FlagsApplicator>
+														<applyTarget>ApplicatorTarget</applyTarget>
+														<behaviorFlags>144</behaviorFlags>
+														<caption>Запрещаем автоатаковать меня</caption>
+														<consumables />
+														<effect>
+															<Item href="" />
+															<Item href="" />
+														</effect>
+														<enabled>
+															<compiledString></compiledString>
+															<returnType>bool</returnType>
+															<sString>true</sString>
+														</enabled>
+														<flag>69339135</flag>
+														<formulaName>NotAuraTarget</formulaName>
+														<lifeTime>
+															<compiledString></compiledString>
+															<returnType>float</returnType>
+															<sString>-1.0</sString>
+														</lifeTime>
+														<LoggingEvent>-1</LoggingEvent>
+														<providerName></providerName>
+														<startCondition>
+															<compiledString></compiledString>
+															<returnType>bool</returnType>
+															<sString>true</sString>
+														</startCondition>
+														<talents />
+														<useListAs>ListAsRule</useListAs>
+													</FlagsApplicator>
+												</Item>
+												<Item href="/Items/Talents/Class/Angel/Resurrect_A5.APLR" id="17889F69-31B5-4D6B-9F32-CE0CF951BDA3">
+													<GhostMoveApplicator>
+														<applyTarget>ApplicatorTarget</applyTarget>
+														<behaviorFlags>0</behaviorFlags>
+														<caption>ghost mode</caption>
+														<collisionFlags>1</collisionFlags>
+														<effect>
+															<Item href="" />
+															<Item href="" />
+														</effect>
+														<enabled>
+															<compiledString></compiledString>
+															<returnType>bool</returnType>
+															<sString>true</sString>
+														</enabled>
+														<formulaName></formulaName>
+														<lifeTime>
+															<compiledString></compiledString>
+															<returnType>float</returnType>
+															<sString>-1.0</sString>
+														</lifeTime>
+														<LoggingEvent>-1</LoggingEvent>
+														<providerName></providerName>
+														<pushUnits>false</pushUnits>
+														<startCondition>
+															<compiledString></compiledString>
+															<returnType>bool</returnType>
+															<sString>true</sString>
+														</startCondition>
+													</GhostMoveApplicator>
+												</Item>
+												<Item href="/GameLogic/GeneralApplicators/Uncontrollable.APLR" />
+												<Item href="/GameLogic/GeneralApplicators/Immune2Control.APLR" />
+												<Item href="/Items/Talents/Class/Angel/Resurrect_A5.APLR" id="A2F3177C-D683-49DF-8422-7805C9A6305E">
+													<ProgramApplicator>
+														<applicators>
+															<Item>
+																<applicator href="/Items/Talents/Class/Angel/Resurrect_A5.APLR" id="17FFFF3E-631E-4A0C-8F40-131C7437F003">
+																	<FlagsApplicator>
+																		<applyTarget>ApplicatorTarget</applyTarget>
+																		<behaviorFlags>1</behaviorFlags>
+																		<caption>Ждем интеракта</caption>
+																		<consumables />
+																		<effect>
+																			<Item href="" />
+																			<Item href="" />
+																		</effect>
+																		<enabled>
+																			<compiledString>FQ8AAAAEAAAAFgAAACwAAABYAAAAegAAAFJlc01lAAAAVGFyZ2V0AFWL7IPsEGgAAAAAi0UMixCLTQyLgogBAAD/0NwdnAAAAN/g9sREeleLTRCLEYtNEItCSP/QiUX8i038ixGLTfyLQkj/0IlF+GgIAAAAi034ixGLTfiLQkz/0IlF9ItN9IsRi030iwL/0NwdnAAAAN/g9sRBegnHRfABAAAA6wfHRfAAAAAAikXwi+VdwwAAAAAAAAAA</compiledString>
+																			<returnType>bool</returnType>
+																			<sString>receiver.vResMe == 0 &amp;&amp; appl.parent.parent.oTarget.Life &lt;=0</sString>
+																		</enabled>
+																		<flag>0</flag>
+																		<formulaName></formulaName>
+																		<lifeTime>
+																			<compiledString></compiledString>
+																			<returnType>float</returnType>
+																			<sString>-1.0</sString>
+																		</lifeTime>
+																		<LoggingEvent>-1</LoggingEvent>
+																		<providerName></providerName>
+																		<startCondition>
+																			<compiledString></compiledString>
+																			<returnType>bool</returnType>
+																			<sString>true</sString>
+																		</startCondition>
+																		<talents />
+																		<useListAs>ListAsRule</useListAs>
+																	</FlagsApplicator>
+																</applicator>
+																<continueCondition>
+																	<compiledString></compiledString>
+																	<returnType>bool</returnType>
+																	<sString>0</sString>
+																</continueCondition>
+																<continueEvents>2</continueEvents>
+																<delay>
+																	<compiledString></compiledString>
+																	<returnType>float</returnType>
+																	<sString>-1.0</sString>
+																</delay>
+																<stopCondition>
+																	<compiledString></compiledString>
+																	<returnType>bool</returnType>
+																	<sString>0</sString>
+																</stopCondition>
+																<stopEvents>0</stopEvents>
+															</Item>
+															<Item>
+																<applicator href="/Items/Talents/Class/Angel/Resurrect_A5.APLR" id="4F7260FE-C4CB-450D-AAF7-85D6D2A4F39F">
+																	<SpellApplicator>
+																		<applyTarget>ApplicatorTarget</applyTarget>
+																		<caption>Рессуректим героя</caption>
+																		<enabled>
+																			<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+																			<returnType>bool</returnType>
+																			<sString>true</sString>
+																		</enabled>
+																		<formulaName></formulaName>
+																		<LoggingEvent>-1</LoggingEvent>
+																		<providerName></providerName>
+																		<spell href="/Items/Talents/Class/Angel/Resurrect_A5.APLR" id="1421963E-F320-4423-A12F-A541AF6A2E5C">
+																			<Spell>
+																				<applicators>
+																					<Item href="/Items/Talents/Class/Angel/Resurrect_A5.APLR" id="AE90F475-BE04-40D5-877D-D1B306C0E7AA">
+																						<SpellSwitchApplicator>
+																							<activeSpellIndex>
+																								<compiledString>FRgAAAACAAAAHwAAADgAAABBbmdlbF9BNV8ydQBBbmdlbF9BNV8ydQBVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaAwAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2Rfv32BvA99iL5V3D</compiledString>
+																								<returnType>int</returnType>
+																								<sString>tal("Angel_A5_2u") ? 1 : 0</sString>
+																							</activeSpellIndex>
+																							<applyTarget>ApplicatorTarget</applyTarget>
+																							<caption>Выбираем со скольки хп рессуректить</caption>
+																							<dontUseDispatches>true</dontUseDispatches>
+																							<enabled>
+																								<compiledString></compiledString>
+																								<returnType>bool</returnType>
+																								<sString>true</sString>
+																							</enabled>
+																							<formulaName></formulaName>
+																							<LoggingEvent>-1</LoggingEvent>
+																							<providerName></providerName>
+																							<spells>
+																								<Item href="/Items/Talents/Class/Angel/Resurrect_A5.APLR" id="AC7844FA-5AD7-4F0A-B2C4-C2E18F8CB53F">
+																									<Spell>
+																										<applicators>
+																											<Item href="/Items/Talents/Class/Angel/Resurrect_A5.APLR" id="67B3DE44-2594-49F9-B7E0-D3E0A6588C56">
+																												<ResurrectApplicator>
+																													<applyTarget>ApplicatorTarget</applyTarget>
+																													<caption>Рессурект</caption>
+																													<enabled>
+																														<compiledString>FQAAAAABAAAAEgAAAFWL7FGLRQyLEItNDIsC/9DcHTQAAADf4PbEQXoJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAAAA==</compiledString>
+																														<returnType>bool</returnType>
+																														<sString>receiver.Life&lt;=0</sString>
+																													</enabled>
+																													<energyPercent>50</energyPercent>
+																													<formulaName></formulaName>
+																													<healthPercent>50</healthPercent>
+																													<LoggingEvent>-1</LoggingEvent>
+																													<resurrectAt>Death</resurrectAt>
+																													<providerName></providerName>
+																												</ResurrectApplicator>
+																											</Item>
+																											<Item href="/Items/Talents/Class/Angel/Resurrect_A5.APLR" id="4A0041C3-53C2-4C49-8004-B2E3163E5AB6">
+																												<SpellPeriodicallyApplicator>
+																													<applyTarget>ApplicatorTarget</applyTarget>
+																													<behaviorFlags>0</behaviorFlags>
+																													<caption></caption>
+																													<effect>
+																														<Item href="" />
+																														<Item href="" />
+																													</effect>
+																													<enabled>
+																														<compiledString></compiledString>
+																														<returnType>bool</returnType>
+																														<sString>true</sString>
+																													</enabled>
+																													<formulaName></formulaName>
+																													<lifeTime>
+																														<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAQA==</compiledString>
+																														<returnType>float</returnType>
+																														<sString>4</sString>
+																													</lifeTime>
+																													<LoggingEvent>-1</LoggingEvent>
+																													<period>
+																														<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
+																														<returnType>float</returnType>
+																														<sString>5.0f</sString>
+																													</period>
+																													<providerName></providerName>
+																													<scaleMode>ScaleIsCount</scaleMode>
+																													<spell href="/Items/Talents/Class/Angel/Resurrect_A5.APLR" id="845F4EF0-3F97-4EC9-B6EE-699EE98B80A3">
+																														<Spell>
+																															<applicators>
+																																<Item href="/Items/Talents/Class/Angel/Resurrect_A5.APLR" id="09E4DA36-97A5-49D3-B726-5C62526437A5">
+																																	<HealApplicator>
+																																		<amount>
+																																			<compiledString>FQAAAAABAAAAEwAAAFWL7FGLRQyLEItNDItCfP/Q3DUtAAAA2eje4dld/NlF/IvlXcMAAAAAAADwPwAAAAAAAABA</compiledString>
+																																			<returnType>float</returnType>
+																																			<sString>1-(rBaseLife/2)</sString>
+																																		</amount>
+																																		<applyTarget>ApplicatorTarget</applyTarget>
+																																		<caption></caption>
+																																		<enabled>
+																																			<compiledString>FQ0AAAACAAAAEgAAACgAAABOZXdIZXJvRHJhZ28AVYvsUWgAAAAAi0UMixCLTQyLgogBAAD/0NwdSgAAAN/g9sREegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAPA/</compiledString>
+																																			<returnType>bool</returnType>
+																																			<sString>receiver.vNewHeroDrago == 1.0f</sString>
+																																		</enabled>
+																																		<formulaName></formulaName>
+																																		<healTarget>Health</healTarget>
+																																		<ignoreHealingMods>true</ignoreHealingMods>
+																																		<LoggingEvent>-1</LoggingEvent>
+																																		<providerName></providerName>
+																																		<uiEvent href="" />
+																																	</HealApplicator>
+																																</Item>
+																															</applicators>
+																															<dispatch href="/Items/Talents/Class/Angel/Resurrect_A5.APLR" id="83C4E7EF-7429-4B7F-9DF7-E50B65960DA0">
+																																<DispatchImmediate>
+																																	<alwaysApply>false</alwaysApply>
+																																	<applyEffect>
+																																		<Item href="" />
+																																		<Item href="" />
+																																	</applyEffect>
+																																	<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																																	<applyEffectOrientation>Default</applyEffectOrientation>
+																																	<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																																	<dieAfterApply>true</dieAfterApply>
+																																	<dispatchEffect>
+																																		<Item href="" />
+																																		<Item href="" />
+																																	</dispatchEffect>
+																																	<flags>0</flags>
+																																	<instantApply>false</instantApply>
+																																</DispatchImmediate>
+																															</dispatch>
+																														</Spell>
+																													</spell>
+																													<startCondition>
+																														<compiledString></compiledString>
+																														<returnType>bool</returnType>
+																														<sString>true</sString>
+																													</startCondition>
+																													<startOffset>
+																														<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+																														<returnType>float</returnType>
+																														<sString>1.0f</sString>
+																													</startOffset>
+																													<targetSelector href="" />
+																												</SpellPeriodicallyApplicator>
+																											</Item>
+																										</applicators>
+																										<dispatch href="/Items/Talents/Class/Angel/Resurrect_A5.APLR" id="8D62261E-9D72-4B02-9977-122408A6D2D3">
+																											<DispatchImmediate>
+																												<alwaysApply>false</alwaysApply>
+																												<applyEffect>
+																													<Item href="" />
+																													<Item href="" />
+																												</applyEffect>
+																												<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																												<applyEffectOrientation>Default</applyEffectOrientation>
+																												<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																												<dieAfterApply>true</dieAfterApply>
+																												<dispatchEffect>
+																													<Item href="" />
+																													<Item href="" />
+																												</dispatchEffect>
+																												<flags>0</flags>
+																												<instantApply>true</instantApply>
+																											</DispatchImmediate>
+																										</dispatch>
+																									</Spell>
+																								</Item>
+																								<Item href="/Items/Talents/Class/Angel/Resurrect_A5.APLR" id="819C0201-88AF-4174-8705-CB95BF7A97E7">
+																									<Spell>
+																										<applicators>
+																											<Item href="/Items/Talents/Class/Angel/Resurrect_A5.APLR" id="D622BD98-2B47-4E55-A9B8-66747C7C679A">
+																												<ResurrectApplicator>
+																													<applyTarget>ApplicatorTarget</applyTarget>
+																													<caption>Рессурект</caption>
+																													<enabled>
+																														<compiledString>FQAAAAABAAAAEgAAAFWL7FGLRQyLEItNDIsC/9DcHTQAAADf4PbEQXoJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAAAA==</compiledString>
+																														<returnType>bool</returnType>
+																														<sString>receiver.Life&lt;=0</sString>
+																													</enabled>
+																													<energyPercent>100</energyPercent>
+																													<formulaName></formulaName>
+																													<healthPercent>100</healthPercent>
+																													<LoggingEvent>-1</LoggingEvent>
+																													<resurrectAt>Death</resurrectAt>
+																													<providerName></providerName>
+																												</ResurrectApplicator>
+																											</Item>
+																										</applicators>
+																										<dispatch href="/Items/Talents/Class/Angel/Resurrect_A5.APLR" id="D0C331A2-1A15-4DCB-9042-F90BFCF8EFAC">
+																											<DispatchImmediate>
+																												<alwaysApply>false</alwaysApply>
+																												<applyEffect>
+																													<Item href="" />
+																													<Item href="" />
+																												</applyEffect>
+																												<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																												<applyEffectOrientation>Default</applyEffectOrientation>
+																												<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																												<dieAfterApply>true</dieAfterApply>
+																												<dispatchEffect>
+																													<Item href="" />
+																													<Item href="" />
+																												</dispatchEffect>
+																												<flags>0</flags>
+																												<instantApply>true</instantApply>
+																											</DispatchImmediate>
+																										</dispatch>
+																									</Spell>
+																								</Item>
+																							</spells>
+																						</SpellSwitchApplicator>
+																					</Item>
+																					<Item href="/Items/Talents/Class/Angel/Resurrect_A5.APLR" id="84ED7EC8-6EBC-4E26-B8F6-AB15AF1389A1">
+																						<ProgramApplicator>
+																							<applicators>
+																								<Item>
+																									<applicator href="/Items/Talents/Class/Angel/Resurrect_A5.APLR" id="E79687DB-002B-4239-9B6F-2D35318797E5">
+																										<FlagsApplicator>
+																											<applyTarget>ApplicatorTarget</applyTarget>
+																											<behaviorFlags>0</behaviorFlags>
+																											<caption>Ожидаем степ</caption>
+																											<consumables />
+																											<effect>
+																												<Item href="" />
+																												<Item href="" />
+																											</effect>
+																											<enabled>
+																												<compiledString></compiledString>
+																												<returnType>bool</returnType>
+																												<sString>true</sString>
+																											</enabled>
+																											<flag>0</flag>
+																											<formulaName></formulaName>
+																											<lifeTime>
+																												<compiledString>FQUAAAACAAAAEgAAACUAAABTVEVQAFWL7FGLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0twNMwAAANld/NlF/IvlXcMAAAAAAAAIQA==</compiledString>
+																												<returnType>float</returnType>
+																												<sString>cSTEP*3</sString>
+																											</lifeTime>
+																											<LoggingEvent>-1</LoggingEvent>
+																											<providerName></providerName>
+																											<startCondition>
+																												<compiledString></compiledString>
+																												<returnType>bool</returnType>
+																												<sString>true</sString>
+																											</startCondition>
+																											<talents />
+																											<useListAs>ListAsRule</useListAs>
+																										</FlagsApplicator>
+																									</applicator>
+																									<continueCondition>
+																										<compiledString></compiledString>
+																										<returnType>bool</returnType>
+																										<sString>0</sString>
+																									</continueCondition>
+																									<continueEvents>2</continueEvents>
+																									<delay>
+																										<compiledString></compiledString>
+																										<returnType>float</returnType>
+																										<sString>-1.0</sString>
+																									</delay>
+																									<stopCondition>
+																										<compiledString></compiledString>
+																										<returnType>bool</returnType>
+																										<sString>0</sString>
+																									</stopCondition>
+																									<stopEvents>0</stopEvents>
+																								</Item>
+																								<Item>
+																									<applicator href="/Items/Talents/Class/Angel/Resurrect_A5.APLR" id="76D2D726-4F47-4149-8D29-35CACB328D9E">
+																										<TeleportApplicator>
+																											<appearEffect href="/Effects/Buffs/Rebirth/_Angel.EFFT" />
+																											<applyTarget>ApplicatorTarget</applyTarget>
+																											<caption>Собственно телепорт c эффектом</caption>
+																											<disappearEffect href="" />
+																											<enabled>
+																												<compiledString>FQ4AAAADAAAARQAAAFoAAABwAAAAVGFyZ2V0AABSZXNNZQBVi+yD7BSLRRCLEItNEItCSP/QiUX8i038ixGLTfyLQkj/0IlF+ItN+IsRi034i0JI/9CJRfRoAAAAAItN9IsRi030i0JM/9CJRfBoCAAAAItN8IsRi03wi4KIAQAA/9DcHZIAAADf4PbERHoJx0XsAQAAAOsHx0XsAAAAAIpF7IvlXcMAAAAAAADwPw==</compiledString>
+																												<returnType>bool</returnType>
+																												<sString>appl.parent.parent.parent.oTarget.vResMe == 1</sString>
+																											</enabled>
+																											<formulaName></formulaName>
+																											<LoggingEvent>-1</LoggingEvent>
+																											<maxDistance>
+																												<compiledString></compiledString>
+																												<returnType>float</returnType>
+																												<sString>0.0f</sString>
+																											</maxDistance>
+																											<notifyInboundDispatches>true</notifyInboundDispatches>
+																											<providerName></providerName>
+																											<pushUnits>false</pushUnits>
+																											<teleportTarget>Hier3UpApplicatorTarget</teleportTarget>
+																										</TeleportApplicator>
+																									</applicator>
+																									<continueCondition>
+																										<compiledString></compiledString>
+																										<returnType>bool</returnType>
+																										<sString>0</sString>
+																									</continueCondition>
+																									<continueEvents>1</continueEvents>
+																									<delay>
+																										<compiledString></compiledString>
+																										<returnType>float</returnType>
+																										<sString>-1.0</sString>
+																									</delay>
+																									<stopCondition>
+																										<compiledString></compiledString>
+																										<returnType>bool</returnType>
+																										<sString>0</sString>
+																									</stopCondition>
+																									<stopEvents>0</stopEvents>
+																								</Item>
+																								<Item>
+																									<applicator href="/Items/Talents/Class/Angel/Resurrect_A5.APLR" id="12A36D46-96E6-42E1-BAD6-C887C54E3F05">
+																										<KillApplicator>
+																											<applyTarget>Hier3UpApplicatorTarget</applyTarget>
+																											<caption>Убить саммона</caption>
+																											<dontGiveRewards>true</dontGiveRewards>
+																											<enabled>
+																												<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+																												<returnType>bool</returnType>
+																												<sString>true</sString>
+																											</enabled>
+																											<flag>None</flag>
+																											<formulaName></formulaName>
+																											<LoggingEvent>-1</LoggingEvent>
+																											<providerName></providerName>
+																										</KillApplicator>
+																									</applicator>
+																									<continueCondition>
+																										<compiledString></compiledString>
+																										<returnType>bool</returnType>
+																										<sString>0</sString>
+																									</continueCondition>
+																									<continueEvents>2</continueEvents>
+																									<delay>
+																										<compiledString></compiledString>
+																										<returnType>float</returnType>
+																										<sString>-1.0</sString>
+																									</delay>
+																									<stopCondition>
+																										<compiledString></compiledString>
+																										<returnType>bool</returnType>
+																										<sString>0</sString>
+																									</stopCondition>
+																									<stopEvents>0</stopEvents>
+																								</Item>
+																							</applicators>
+																							<applyTarget>ApplicatorTarget</applyTarget>
+																							<behaviorFlags>3</behaviorFlags>
+																							<caption>Ждем, телепортим и убиваем саммона</caption>
+																							<effect>
+																								<Item href="" />
+																								<Item href="" />
+																							</effect>
+																							<enabled>
+																								<compiledString></compiledString>
+																								<returnType>bool</returnType>
+																								<sString>true</sString>
+																							</enabled>
+																							<formulaName></formulaName>
+																							<lifeTime>
+																								<compiledString></compiledString>
+																								<returnType>float</returnType>
+																								<sString>-1.0</sString>
+																							</lifeTime>
+																							<LoggingEvent>-1</LoggingEvent>
+																							<providerName></providerName>
+																							<startCondition>
+																								<compiledString></compiledString>
+																								<returnType>bool</returnType>
+																								<sString>true</sString>
+																							</startCondition>
+																						</ProgramApplicator>
+																					</Item>
+																				</applicators>
+																				<dispatch href="/Items/Talents/Class/Angel/Resurrect_A5.APLR" id="6B6F75BF-0EFB-4969-B3E1-4F26BEF0661E">
+																					<DispatchImmediate>
+																						<alwaysApply>false</alwaysApply>
+																						<applyEffect>
+																							<Item href="" />
+																							<Item href="" />
+																						</applyEffect>
+																						<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																						<applyEffectOrientation>Default</applyEffectOrientation>
+																						<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																						<dieAfterApply>true</dieAfterApply>
+																						<dispatchEffect>
+																							<Item href="" />
+																							<Item href="" />
+																						</dispatchEffect>
+																						<flags>0</flags>
+																						<instantApply>false</instantApply>
+																					</DispatchImmediate>
+																				</dispatch>
+																			</Spell>
+																		</spell>
+																		<spellTarget>ApplicatorTarget</spellTarget>
+																		<targetSelector href="/Items/Talents/Class/Angel/Resurrect_A5.APLR" id="1B20564E-A4E9-4258-A259-75A744D5D56D">
+																			<SelectApplicatorTarget>
+																				<applicatorIndex>0</applicatorIndex>
+																				<applicatorName></applicatorName>
+																				<namedApplicatorTarget>ApplicatorTarget</namedApplicatorTarget>
+																				<selectTarget>Hier3UpApplicatorTarget</selectTarget>
+																			</SelectApplicatorTarget>
+																		</targetSelector>
+																	</SpellApplicator>
+																</applicator>
+																<continueCondition>
+																	<compiledString></compiledString>
+																	<returnType>bool</returnType>
+																	<sString>0</sString>
+																</continueCondition>
+																<continueEvents>1</continueEvents>
+																<delay>
+																	<compiledString></compiledString>
+																	<returnType>float</returnType>
+																	<sString>-1.0</sString>
+																</delay>
+																<stopCondition>
+																	<compiledString></compiledString>
+																	<returnType>bool</returnType>
+																	<sString>0</sString>
+																</stopCondition>
+																<stopEvents>0</stopEvents>
+															</Item>
+														</applicators>
+														<applyTarget>ApplicatorTarget</applyTarget>
+														<behaviorFlags>3</behaviorFlags>
+														<caption>Программа жизни</caption>
+														<effect>
+															<Item href="" />
+															<Item href="" />
+														</effect>
+														<enabled>
+															<compiledString></compiledString>
+															<returnType>bool</returnType>
+															<sString>true</sString>
+														</enabled>
+														<formulaName></formulaName>
+														<lifeTime>
+															<compiledString></compiledString>
+															<returnType>float</returnType>
+															<sString>-1.0</sString>
+														</lifeTime>
+														<LoggingEvent>-1</LoggingEvent>
+														<providerName></providerName>
+														<startCondition>
+															<compiledString></compiledString>
+															<returnType>bool</returnType>
+															<sString>true</sString>
+														</startCondition>
+													</ProgramApplicator>
+												</Item>
+												<Item href="/Items/Talents/Class/Angel/Resurrect_A5.APLR" id="84139A76-A905-4311-BC93-3C45EF72EF38">
+													<PermanentStatModApplicator>
+														<applyTarget>ApplicatorTarget</applyTarget>
+														<caption>Метка</caption>
+														<customApplyType>None</customApplyType>
+														<enabled>
+															<compiledString></compiledString>
+															<returnType>bool</returnType>
+															<sString>true</sString>
+														</enabled>
+														<formulaName></formulaName>
+														<LoggingEvent>-1</LoggingEvent>
+														<modifier>
+															<addValue>
+																<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+																<returnType>float</returnType>
+																<sString>1.0f</sString>
+															</addValue>
+															<multValue>
+																<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+																<returnType>float</returnType>
+																<sString>0.0f</sString>
+															</multValue>
+															<stat>Life</stat>
+															<topModifier>false</topModifier>
+															<variable>IsSoul</variable>
+														</modifier>
+														<providerName></providerName>
+													</PermanentStatModApplicator>
+												</Item>
+											</applicators>
+											<applyTarget>ApplicatorTarget</applyTarget>
+											<behaviour href="" />
+											<caption>Интерактивный саммон</caption>
+											<enabled>
+												<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</enabled>
+											<flags>8</flags>
+											<formulaName></formulaName>
+											<lifeTime>
+												<compiledString>FRQAAAABAAAAIAAAAEE1XzJfU3VtbW9uTGlmZXRpbWUAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+												<returnType>float</returnType>
+												<sString>cA5_2_SummonLifetime</sString>
+											</lifeTime>
+											<LoggingEvent>-1</LoggingEvent>
+											<openWarFog>true</openWarFog>
+											<placeMode>ByTargetSelector</placeMode>
+											<placeSelector href="/Items/Talents/Class/Angel/Resurrect_A5.APLR" id="D7FDDF52-913A-47B4-BFAA-EAFB2E76BC1E">
+												<SelectApplicatorTarget>
+													<applicatorIndex>0</applicatorIndex>
+													<applicatorName></applicatorName>
+													<namedApplicatorTarget>ApplicatorTarget</namedApplicatorTarget>
+													<selectTarget>ApplicatorTarget</selectTarget>
+												</SelectApplicatorTarget>
+											</placeSelector>
+											<providerName></providerName>
+											<spawnStats>
+												<energy>
+													<compiledString></compiledString>
+													<returnType>float</returnType>
+													<sString>-1.0</sString>
+												</energy>
+												<life>
+													<compiledString></compiledString>
+													<returnType>float</returnType>
+													<sString>-1.0</sString>
+												</life>
+											</spawnStats>
+											<summonedUnitIndex>
+												<compiledString></compiledString>
+												<returnType>int</returnType>
+												<sString>0</sString>
+											</summonedUnitIndex>
+											<summonedUnits>
+												<Item href="/Summons/AngelFake/FakeInterractor.SUMMONED" />
+											</summonedUnits>
+											<summonedUnitsCount>
+												<compiledString></compiledString>
+												<returnType>int</returnType>
+												<sString>1</sString>
+											</summonedUnitsCount>
+											<summonGroupName></summonGroupName>
+											<summonSource>ByApplicator</summonSource>
+											<takeModDmg>
+												<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+												<returnType>float</returnType>
+												<sString>0</sString>
+											</takeModDmg>
+											<takeTypeUnit>0</takeTypeUnit>
+											<unsummonSortCriterion>
+												<compiledString></compiledString>
+												<returnType>float</returnType>
+												<sString>0.0f</sString>
+											</unsummonSortCriterion>
+										</SummonApplicator>
+									</Item>
+								</applicators>
+								<dispatch href="/Items/Talents/Class/Angel/Resurrect_A5.APLR" id="7944C7C8-54FA-4F3F-9213-150328267841">
+									<DispatchImmediate>
+										<alwaysApply>false</alwaysApply>
+										<applyEffect>
+											<Item href="" />
+											<Item href="" />
+										</applyEffect>
+										<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+										<applyEffectOrientation>Default</applyEffectOrientation>
+										<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+										<dieAfterApply>true</dieAfterApply>
+										<dispatchEffect>
+											<Item href="" />
+											<Item href="" />
+										</dispatchEffect>
+										<flags>0</flags>
+										<instantApply>false</instantApply>
+									</DispatchImmediate>
+								</dispatch>
+							</Spell>
+						</spell>
+					</EventProcessorOnDeath>
+				</processor>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString>FQkAAAABAAAAEwAAAEFuZ2VsUmVzAFWL7GoAi0UQUGgAAAAAi00MixGLTQyLgpwBAAD/0DPJO0UQD5TBisFdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>receiver.applAngelRes(GLOBAL) == pMisc</sString>
+				</startCondition>
+				<useAbilityCooldown>false</useAbilityCooldown>
+				<useAbilityOwnerMana>false</useAbilityOwnerMana>
+			</TriggerApplicator>
+		</Item>
+	</applicators>
+	<applyTarget>ApplicatorTarget</applyTarget>
+	<behaviorFlags>0</behaviorFlags>
+	<caption></caption>
+	<customCounter>
+		<compiledString></compiledString>
+		<returnType>int</returnType>
+		<sString>0</sString>
+	</customCounter>
+	<customProgress>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>-1.0</sString>
+	</customProgress>
+	<description textref="" />
+	<dispellPriority>NonDispellable</dispellPriority>
+	<effect>
+		<Item href="" />
+		<Item href="" />
+	</effect>
+	<enabled>
+		<compiledString>FRYAAAADAAAAKQAAADUAAABLAAAARm9yUmVzQW5nZWxLb3N0aWwyMDI2AFWL7FGLRRCLEItNEItCHP/Q3B1tAAAA3+D2xER6K2gAAAAAi00IixGLTQiLgogBAAD/0NwdbQAAAN/g9sREegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAPA/</compiledString>
+		<returnType>bool</returnType>
+		<sString>mPreparedness == 1.0f &amp;&amp; sender.vForResAngelKostil2026 == 1.0f</sString>
+	</enabled>
+	<flags>0</flags>
+	<formulaName>Ya_Ebal_No_Potom</formulaName>
+	<image href="" />
+	<lifeTime>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>-1.0</sString>
+	</lifeTime>
+	<LoggingEvent>-1</LoggingEvent>
+	<name textref="" />
+	<power>0</power>
+	<providerName></providerName>
+	<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+	<stackCount>0</stackCount>
+	<startCondition>
+		<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+		<returnType>bool</returnType>
+		<sString>true</sString>
+	</startCondition>
+	<statusPosition>0</statusPosition>
+	<stopBehaviour>StopByTime</stopBehaviour>
+	<unstackableWith href="" />
+</StatusApplicator>

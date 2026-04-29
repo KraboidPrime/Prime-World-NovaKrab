@@ -26,6 +26,7 @@
 		<Item href="/Items/Talents/Class/Assassin/Ability_A2.TALENT" />
 		<Item href="/Items/Talents/Class/Assassin/Ability_A3.TALENT" />
 		<Item href="/Items/Talents/Class/Assassin/Ability_A4.TALENT" />
+		<Item href="/Items/Talents/Class/Assassin/Ability_A3_2.TALENT" />
 	</talents>
 	<useListAs>ListAsRule</useListAs>
 </RefreshCooldownApplicator>

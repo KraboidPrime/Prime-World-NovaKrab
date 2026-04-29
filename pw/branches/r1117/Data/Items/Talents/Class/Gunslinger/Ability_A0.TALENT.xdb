@@ -43,7 +43,18 @@
 	<commonDescription textref="/Items/Talents/Class/Gunslinger/Ability_A0.TALENT_commonDescription.txt" />
 	<compiledDescriptionA textref="" />
 	<compiledDescriptionB textref="" />
-	<conditionFormulas />
+	<conditionFormulas>
+		<Item href="/Items/Talents/Class/Gunslinger/Ability_A0.TALENT" id="F7D60460-F107-4EF3-A301-1D36F57977BB">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FSYAAAACAAAALQAAAEYAAABHdW5zbGluZ2VyX0EwX1NVUAAAAEd1bnNsaW5nZXJfQTBfU1VQAFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoFAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAikX7i+Vdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("Gunslinger_A0_SUP")</sString>
+				</condition>
+				<name>A0GUNSUP</name>
+			</ConditionFormula>
+		</Item>
+	</conditionFormulas>
 	<conflictingTalents />
 	<constants href="/Items/Talents/Class/Gunslinger/Ability_A0.TALENT" id="5461205A-7B42-4BD7-8D68-ABA3D73810EC">
 		<UnitConstantsContainer>

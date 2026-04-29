@@ -95,15 +95,66 @@
 				<Item skip="1" />
 				<Item href="/Creeps/Minions/Minion1/DoT.APLR" />
 			</applicators>
+			<caption></caption>
 			<constants href="/Creeps/Minions/Minion1/DoTConst.UCCN" />
 			<cooldownTime>
 				<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 				<sString>0</sString>
 			</cooldownTime>
+			<flags>1</flags>
 			<manaCost>
 				<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 				<sString>0</sString>
 			</manaCost>
+			<passiveApplicators>
+				<Item href="/Creeps/Minions/Minion1/PVP.CREEP" id="DAD45A5E-4158-4B6A-A0B0-15B735BA827E">
+					<StatModApplicator>
+						<applyTarget>AbilityOwner</applyTarget>
+						<behaviorFlags>0</behaviorFlags>
+						<caption></caption>
+						<constraint>None</constraint>
+						<dontUpdate>false</dontUpdate>
+						<effect>
+							<Item href="" />
+							<Item href="" />
+						</effect>
+						<enabled>
+							<compiledString>FQYAAAACAAAACwAAACEAAABJc1BldABVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1DAAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
+							<returnType>bool</returnType>
+							<sString>sender.vIsPet == 0</sString>
+						</enabled>
+						<formulaName></formulaName>
+						<lifeTime>
+							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>-1.0</sString>
+						</lifeTime>
+						<LoggingEvent>-1</LoggingEvent>
+						<modifier>
+							<addValue>
+								<compiledString>FQAAAAABAAAAJAAAAFWL7FGLRQiLEItNCIuCYAEAAP/Qg+gBiUX820X8UdkcJFHZBTcAAADZHCToCwAAAIPECIvlXcMAAEBBVYvsUdlFCNlFDN7Z3+D2xEF1CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
+								<returnType>float</returnType>
+								<sString>min(12,(sNaftaLevel-1))</sString>
+							</addValue>
+							<multValue>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>1.0f</sString>
+							</multValue>
+							<stat>Strength</stat>
+							<topModifier>false</topModifier>
+							<variable></variable>
+						</modifier>
+						<providerName></providerName>
+						<startCondition>
+							<compiledString></compiledString>
+							<returnType>bool</returnType>
+							<sString>true</sString>
+						</startCondition>
+						<statModName></statModName>
+					</StatModApplicator>
+				</Item>
+			</passiveApplicators>
 			<targetType>10224127</targetType>
 			<useRange>
 				<compiledString></compiledString>
@@ -129,7 +180,7 @@
 						</Item>
 						<Item>
 							<increment>0</increment>
-							<level>10</level>
+							<level>13</level>
 						</Item>
 					</levelUpgrades>
 					<value>
@@ -151,7 +202,7 @@
 						</Item>
 						<Item>
 							<increment>0</increment>
-							<level>10</level>
+							<level>13</level>
 						</Item>
 					</levelUpgrades>
 					<value>
@@ -239,7 +290,7 @@
 						</Item>
 						<Item>
 							<increment>0</increment>
-							<level>10</level>
+							<level>13</level>
 						</Item>
 					</levelUpgrades>
 					<value>
@@ -259,9 +310,9 @@
 					<levelUpgrades />
 					<statId>TeamNaftaForPresence</statId>
 					<value>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADAQA==</compiledString>
+						<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 						<returnType>float</returnType>
-						<sString>6</sString>
+						<sString>0</sString>
 					</value>
 				</Item>
 			</stats>

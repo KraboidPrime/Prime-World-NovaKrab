@@ -109,9 +109,9 @@
 													<LoggingEvent>-1</LoggingEvent>
 													<providerName></providerName>
 													<startCondition>
-														<compiledString>FQ4AAAACAAEAFQAAAEgAAAArAQAAQWJpbGl0eVRhcmdldABVi+yD7ChoAAAAAItFEIsQi00Qi0JM/9CJReyLTQiLEYtNCItCFP/Qi00MixGLTQyLQnjdXeT/0NwNpQAAANxF5I1N+FGLVeyLAotN7IuQjAEAAN1d3P/SUI1F8FCLTQiLEYtNCIuCjAEAAP/QUOgsAAAAg8QI3F3c3+D2xEF1CcdF2AEAAADrB8dF2AAAAACKRdiL5V3DAAAAAAAA4D9Vi+yD7BSLRQjZQASLTQzYYQTZXfTZRfRR2Rwki1UI2QKLRQzYINld8NlF8FHZHCSNTfjoVwAAANlF+NhN+NlF/NhN/N7B2V3s2UXsUdkcJOgHAAAAg8QEi+Vdw1WL7FHZRQjZHCToBQAAAIPEBF3DVYvsUdlFCIPsCN0cJOit/v//g8QI2V382UX8i+Vdw1WL7FGJTfyLRfzZRQjZGItN/NlFDNlZBItF/IvlXcIIAA==</compiledString>
+														<compiledString>FQ4AAAACAAEAMgAAAGUAAABIAQAAQWJpbGl0eVRhcmdldABVi+yD7ChoAAACAItFCIsQi00Ii0Jo/9APtsiFyQ+FgwAAAGgAAAAAi1UQiwKLTRCLUEz/0olF7ItFCIsQi00Ii0IU/9CLTQyLEYtNDItCeN1d5P/Q3A3CAAAA3EXkjU34UYtV7IsCi03si5CMAQAA3V3c/9JQjUXwUItNCIsRi00Ii4KMAQAA/9BQ6CwAAACDxAjcXdzf4PbEQXUJx0XYAQAAAOsHx0XYAAAAAIpF2IvlXcMAAAAAAADgP1WL7IPsFItFCNlABItNDNhhBNld9NlF9FHZHCSLVQjZAotFDNgg2V3w2UXwUdkcJI1N+OhXAAAA2UX42E342UX82E383sHZXezZRexR2Rwk6AcAAACDxASL5V3DVYvsUdlFCNkcJOgFAAAAg8QEXcNVi+xR2UUIg+wI3Rwk6JD+//+DxAjZXfzZRfyL5V3DVYvsUYlN/ItF/NlFCNkYi0382UUM2VkEi0X8i+VdwggA</compiledString>
 														<returnType>bool</returnType>
-														<sString>d(sPos, appl.oAbilityTarget.Pos) &gt; rObjectSize * 0.5 + sRange</sString>
+														<sString>!sFlag(131072) &amp;&amp; d(sPos, appl.oAbilityTarget.Pos) &gt; rObjectSize * 0.5 + sRange</sString>
 													</startCondition>
 													<talents />
 													<useListAs>ListAsRule</useListAs>
@@ -143,9 +143,9 @@
 													<caption>Телепорт</caption>
 													<disappearEffect href="" />
 													<enabled>
-														<compiledString>FTAAAAAEAAEANwAAAGoAAACxAAAAzgAAALsBAABBYmlsaXR5VGFyZ2V0AAAAQWJpbGl0eVRhcmdldAAAAE1heFRlbGVwb3J0RGlzdABVi+yD7ERoAAAAAItFEIsQi00Qi0JM/9CJRdyLTQiLEYtNCItCFP/Qi00MixGLTQyLQnjdXdT/0NwNNQEAANxF1I1N+FGLVdyLAotN3IuQjAEAAN1dzP/SUI1F8FCLTQiLEYtNCIuCjAEAAP/QUOiaAAAAg8QI3F3M3+D2xEF1d2gQAAAAi00QixGLTRCLQkz/0IlFyItNDFGLVQhSaCAAAACLRRCLEItNEItCUP/QjU3oUYtVyIsCi03Ii5CMAQAA3V3A/9JQjUXgUItNCIsRi00Ii4KMAQAA/9BQ6CwAAACDxAjcXcDf4PbEQXoJx0W8AQAAAOsHx0W8AAAAAIpFvIvlXcMAAAAAAADgP1WL7IPsFItFCNlABItNDNhhBNld9NlF9FHZHCSLVQjZAotFDNgg2V3w2UXwUdkcJI1N+OhXAAAA2UX42E342UX82E383sHZXezZRexR2Rwk6AcAAACDxASL5V3DVYvsUdlFCNkcJOgFAAAAg8QEXcNVi+xR2UUIg+wI3Rwk6B3+//+DxAjZXfzZRfyL5V3DVYvsUYlN/ItF/NlFCNkYi0382UUM2VkEi0X8i+VdwggA</compiledString>
+														<compiledString>FTAAAAAEAAEAVAAAAIcAAADOAAAA6wAAANgBAABBYmlsaXR5VGFyZ2V0AAAAQWJpbGl0eVRhcmdldAAAAE1heFRlbGVwb3J0RGlzdABVi+yD7ERoAAACAItFCIsQi00Ii0Jo/9APtsiFyQ+F8QAAAGgAAAAAi1UQiwKLTRCLUEz/0olF3ItFCIsQi00Ii0IU/9CLTQyLEYtNDItCeN1d1P/Q3A1SAQAA3EXUjU34UYtV3IsCi03ci5CMAQAA3V3M/9JQjUXwUItNCIsRi00Ii4KMAQAA/9BQ6JoAAACDxAjcXczf4PbEQXV3aBAAAACLTRCLEYtNEItCTP/QiUXIi00MUYtVCFJoIAAAAItFEIsQi00Qi0JQ/9CNTehRi1XIiwKLTciLkIwBAADdXcD/0lCNReBQi00IixGLTQiLgowBAAD/0FDoLAAAAIPECNxdwN/g9sRBegnHRbwBAAAA6wfHRbwAAAAAikW8i+VdwwAAAAAAAOA/VYvsg+wUi0UI2UAEi00M2GEE2V302UX0UdkcJItVCNkCi0UM2CDZXfDZRfBR2RwkjU346FcAAADZRfjYTfjZRfzYTfzewdld7NlF7FHZHCToBwAAAIPEBIvlXcNVi+xR2UUI2Rwk6AUAAACDxARdw1WL7FHZRQiD7AjdHCToAP7//4PECNld/NlF/IvlXcNVi+xRiU38i0X82UUI2RiLTfzZRQzZWQSLRfyL5V3CCAA=</compiledString>
 														<returnType>bool</returnType>
-														<sString>d( sPos, appl.oAbilityTarget.Pos) &gt; rObjectSize * 0.5 + sRange &amp;&amp; d (sPos, appl.oAbilityTarget.Pos ) &lt;= cMaxTeleportDist</sString>
+														<sString>!sFlag(131072) &amp;&amp; d( sPos, appl.oAbilityTarget.Pos) &gt; rObjectSize * 0.5 + sRange &amp;&amp; d (sPos, appl.oAbilityTarget.Pos ) &lt;= cMaxTeleportDist</sString>
 													</enabled>
 													<formulaName></formulaName>
 													<LoggingEvent>-1</LoggingEvent>
@@ -794,6 +794,16 @@
 				<uiEvent href="" />
 			</ConditionCastLimitation>
 		</Item>
+		<Item href="/Items/Talents/Class/Monster/Ability_A4.TALENT" id="32DA2B91-703E-4B53-A2F6-8C2E9152701A">
+			<ConditionCastLimitation>
+				<condition>
+					<compiledString>FQAAAAABAAEAbAAAABQBAABVi+yD7BRoAAACAItFCIsQi00Ii0Jo/9APtsiFyXRhaAAAAgCLVQiLAotNCItQaP/SD7bAhcB0P41N+FGLVQyLAotNDIuQjAEAAP/SUI1F8FCLTQiLEYtNCIuCjAEAAP/QUOgvAAAAg8QI3B2OAAAA3+D2xAV7CcdF7AAAAADrB8dF7AEAAACKReyL5V3DAAAAAAAAGEBVi+yD7BSLRQjZQASLTQzYYQTZXfTZRfRR2Rwki1UI2QKLRQzYINld8NlF8FHZHCSNTfjoVwAAANlF+NhN+NlF/NhN/N7B2V3s2UXsUdkcJOgHAAAAg8QEi+Vdw1WL7FHZRQjZHCToBQAAAIPEBF3DVYvsUdlFCIPsCN0cJOjE/v//g8QI2V382UX8i+Vdw1WL7FGJTfyLRfzZRQjZGItN/NlFDNlZBItF/IvlXcIIAA==</compiledString>
+					<returnType>bool</returnType>
+					<sString>!sFlag(131072) || (sFlag(131072) &amp;&amp; d(sPos, rPos) &lt; 6)</sString>
+				</condition>
+				<uiEvent href="/UI/Events/ErrorMessages/CastError_NoValidRange.UIEV" />
+			</ConditionCastLimitation>
+		</Item>
 	</castLimitations>
 	<commonDescription textref="/Items/Talents/Class/Monster/Ability_A4.TALENT_commonDescription.txt" />
 	<compiledDescriptionA textref="" />
@@ -1267,9 +1277,9 @@
 			<FlagsApplicator parent="/GameLogic/GeneralApplicators/ForbidTalentByCondition.APLR">
 				<caption>автозапрет таланта при ForbidMoveSpeical или нехватке стеков</caption>
 				<enabled>
-					<compiledString>FTQAAAACAAAAVAAAAHEAAABNb25zdGVyX0E0Q3VycmVudFRveGluU3RhY2sAQTRfRGVjVG94aW5TdGFja3NQZXJVc2UAVYvsg+wMaAAAAgCLRQyLEItNDItCaP/QD7bIhcl1RWgAAAAAi1UIiwKLTQiLkIgBAAD/0otFDFCLTQhRaBwAAACLVRCLAotNEItQUN1d+P/S3F343+D2xEF0CcdF9AAAAADrB8dF9AEAAACKRfSL5V3D</compiledString>
+					<compiledString>FTQAAAACAAAAOwAAAFgAAABNb25zdGVyX0E0Q3VycmVudFRveGluU3RhY2sAQTRfRGVjVG94aW5TdGFja3NQZXJVc2UAVYvsg+wMaAAAAACLRQiLEItNCIuCiAEAAP/Qi00MUYtVCFJoHAAAAItFEIsQi00Qi0JQ3V34/9DcXfjf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
 					<returnType>bool</returnType>
-					<sString>rFlag(131072) || sender.vMonster_A4CurrentToxinStack &lt; cA4_DecToxinStacksPerUse</sString>
+					<sString>sender.vMonster_A4CurrentToxinStack &lt; cA4_DecToxinStacksPerUse</sString>
 				</enabled>
 				<talents>
 					<Item href="/Items/Talents/Class/Monster/Ability_A4.TALENT" />

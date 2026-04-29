@@ -46,9 +46,9 @@
 					<damageMode>4</damageMode>
 					<damageType>Energy</damageType>
 					<enabled>
-						<compiledString>FQUAAAABAAAATgAAAFdhcmQAVYvsUVaLRQiLEItNCItCTP/Qi/CLTQiLEYtNCIuCkAEAAP/QO/APlMEPttGF0nQ7i0UMixCLTQyLQlD/0IP4EXQpagCLTRBRaAAAAACLVQyLAotNDIuQnAEAAP/SO0UQdQnHRfwBAAAA6wfHRfwAAAAAikX8XovlXcM=</compiledString>
+						<compiledString>FS0AAAADAAAAYAAAAHkAAADHAAAAR3Vuc2xpbmdlcl9BMF9TVVAAAABHdW5zbGluZ2VyX0EwX1NVUAAAAFdhcmQAVYvsg+wMVotFCIsQi00Ii0JM/9CL8ItNCIsRi00Ii4KQAQAA/9A78A+UwQ+20YXSdU9oAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBQAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXQ7i1UMiwKLTQyLUFD/0oP4EXQpagCLRRBQaCgAAACLTQyLEYtNDIuCnAEAAP/QO0UQdQnHRfQBAAAA6wfHRfQAAAAAikX0XovlXcM=</compiledString>
 						<returnType>bool</returnType>
-						<sString>nt(true, false) &amp;&amp; rUnitKind != 17 &amp;&amp; receiver.applWard(GLOBAL) == pMisc</sString>
+						<sString>(nt(true, false) || tal("Gunslinger_A0_SUP")) &amp;&amp; rUnitKind != 17 &amp;&amp; receiver.applWard(GLOBAL) == pMisc</sString>
 					</enabled>
 					<formulaName>Gun_A0Damage</formulaName>
 					<LoggingEvent>-1</LoggingEvent>

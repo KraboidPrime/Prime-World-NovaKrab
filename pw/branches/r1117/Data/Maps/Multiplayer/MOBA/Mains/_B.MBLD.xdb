@@ -363,7 +363,7 @@
 				</cooldownTimeSecondState>
 				<description textref="" />
 				<dispatch href="" />
-				<flags>1</flags>
+				<flags>5</flags>
 				<image href="" />
 				<imageSecondState href="" />
 				<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
@@ -491,7 +491,7 @@
 							</actionsCount>
 							<applyTarget>ApplicatorTarget</applyTarget>
 							<behaviorFlags>0</behaviorFlags>
-							<caption>сообщение в чат один плюс спел</caption>
+							<caption>сообщение в чат плюс спел</caption>
 							<effect>
 								<Item href="" />
 								<Item href="" />
@@ -942,6 +942,213 @@
 																			<targetSelector href="" />
 																		</SpellApplicator>
 																	</Item>
+																	<Item href="/Heroes/Alchemist/ComeBackForAll.APLR" />
+																	<Item href="/Maps/Multiplayer/MOBA/Mains/_B.MBLD" id="D2E56FC5-6E42-49C4-9302-7FE3D75A6BF4">
+																		<SpellPeriodicallyApplicator>
+																			<applyTarget>ApplicatorTarget</applyTarget>
+																			<behaviorFlags>216</behaviorFlags>
+																			<caption>не покупаем сапорт</caption>
+																			<effect>
+																				<Item href="" />
+																				<Item href="" />
+																			</effect>
+																			<enabled>
+																				<compiledString></compiledString>
+																				<returnType>bool</returnType>
+																				<sString>true</sString>
+																			</enabled>
+																			<formulaName></formulaName>
+																			<lifeTime>
+																				<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACbQw==</compiledString>
+																				<returnType>float</returnType>
+																				<sString>310</sString>
+																			</lifeTime>
+																			<LoggingEvent>-1</LoggingEvent>
+																			<period>
+																				<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
+																				<returnType>float</returnType>
+																				<sString>10.0f</sString>
+																			</period>
+																			<providerName></providerName>
+																			<scaleMode>ScaleIsCount</scaleMode>
+																			<spell href="/Maps/Multiplayer/MOBA/Mains/_B.MBLD" id="A8575EC5-2B27-4705-B477-F21C17829986">
+																				<Spell>
+																					<applicators>
+																						<Item href="/Maps/Multiplayer/MOBA/Mains/_B.MBLD" id="70D2ED5E-9B31-463D-9EEC-4CF533B4A8DA">
+																							<AbilityModApplicator>
+																								<addValue>
+																									<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DACR0SQ==</compiledString>
+																									<returnType>float</returnType>
+																									<sString>1000000.0f</sString>
+																								</addValue>
+																								<applyTarget>ApplicatorTarget</applyTarget>
+																								<behaviorFlags>216</behaviorFlags>
+																								<caption>цена</caption>
+																								<effect>
+																									<Item href="" />
+																									<Item href="" />
+																								</effect>
+																								<enabled>
+																									<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+																									<returnType>bool</returnType>
+																									<sString>true</sString>
+																								</enabled>
+																								<formulaName></formulaName>
+																								<lifeTime>
+																									<compiledString></compiledString>
+																									<returnType>float</returnType>
+																									<sString>-1.0</sString>
+																								</lifeTime>
+																								<LoggingEvent>-1</LoggingEvent>
+																								<mode>naftacost</mode>
+																								<multValue>
+																									<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+																									<returnType>float</returnType>
+																									<sString>0.0f</sString>
+																								</multValue>
+																								<providerName></providerName>
+																								<specificAbility href="/Items/Consumables/SUPPORT.ARCT" />
+																								<startCondition>
+																									<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+																									<returnType>bool</returnType>
+																									<sString>true</sString>
+																								</startCondition>
+																								<talents />
+																								<targetAbilities>0</targetAbilities>
+																								<useListAs>ListAsRule</useListAs>
+																							</AbilityModApplicator>
+																						</Item>
+																					</applicators>
+																					<dispatch href="/Maps/Multiplayer/MOBA/Mains/_B.MBLD" id="7ACB2901-BF26-4942-960E-E982FCB13730">
+																						<DispatchImmediate>
+																							<alwaysApply>false</alwaysApply>
+																							<applyEffect>
+																								<Item href="" />
+																								<Item href="" />
+																							</applyEffect>
+																							<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																							<applyEffectOrientation>Default</applyEffectOrientation>
+																							<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																							<dieAfterApply>true</dieAfterApply>
+																							<dispatchEffect>
+																								<Item href="" />
+																								<Item href="" />
+																							</dispatchEffect>
+																							<flags>0</flags>
+																							<instantApply>false</instantApply>
+																						</DispatchImmediate>
+																					</dispatch>
+																				</Spell>
+																			</spell>
+																			<startCondition>
+																				<compiledString></compiledString>
+																				<returnType>bool</returnType>
+																				<sString>true</sString>
+																			</startCondition>
+																			<startOffset>
+																				<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACTQw==</compiledString>
+																				<returnType>float</returnType>
+																				<sString>294.0f</sString>
+																			</startOffset>
+																			<targetSelector href="" />
+																		</SpellPeriodicallyApplicator>
+																	</Item>
+																	<Item href="/Maps/Multiplayer/MOBA/Mains/_B.MBLD" id="99D5A498-0887-4F60-A237-4ABDDBEEE0C0">
+																		<SpellPeriodicallyApplicator>
+																			<applyTarget>ApplicatorTarget</applyTarget>
+																			<behaviorFlags>216</behaviorFlags>
+																			<caption>для прайма из зумы</caption>
+																			<effect>
+																				<Item href="" />
+																				<Item href="" />
+																			</effect>
+																			<enabled>
+																				<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+																				<returnType>bool</returnType>
+																				<sString>true</sString>
+																			</enabled>
+																			<formulaName></formulaName>
+																			<lifeTime>
+																				<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAIA7RA==</compiledString>
+																				<returnType>float</returnType>
+																				<sString>750</sString>
+																			</lifeTime>
+																			<LoggingEvent>-1</LoggingEvent>
+																			<period>
+																				<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAQQQ==</compiledString>
+																				<returnType>float</returnType>
+																				<sString>9</sString>
+																			</period>
+																			<providerName></providerName>
+																			<scaleMode>ScaleIsCount</scaleMode>
+																			<spell href="/Maps/Multiplayer/MOBA/Mains/_B.MBLD" id="E79EE5B3-C5CD-4670-B460-F8E0BFFC4748">
+																				<Spell>
+																					<applicators>
+																						<Item href="/Maps/Multiplayer/MOBA/Mains/_B.MBLD" id="43595480-2A2B-4B1E-9FC4-C0EF1B73D01E">
+																							<PermanentStatModApplicator>
+																								<applyTarget>ApplicatorTarget</applyTarget>
+																								<caption>uy</caption>
+																								<customApplyType>None</customApplyType>
+																								<enabled>
+																									<compiledString></compiledString>
+																									<returnType>bool</returnType>
+																									<sString>true</sString>
+																								</enabled>
+																								<formulaName></formulaName>
+																								<LoggingEvent>-1</LoggingEvent>
+																								<modifier>
+																									<addValue>
+																										<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpmZPw==</compiledString>
+																										<returnType>float</returnType>
+																										<sString>1.2f</sString>
+																									</addValue>
+																									<multValue>
+																										<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+																										<returnType>float</returnType>
+																										<sString>1.0f</sString>
+																									</multValue>
+																									<stat>Life</stat>
+																									<topModifier>false</topModifier>
+																									<variable>TimerDopPrime</variable>
+																								</modifier>
+																								<providerName></providerName>
+																							</PermanentStatModApplicator>
+																						</Item>
+																					</applicators>
+																					<dispatch href="/Maps/Multiplayer/MOBA/Mains/_B.MBLD" id="BE449920-9186-4364-B48E-AE7A0D43055A">
+																						<DispatchImmediate>
+																							<alwaysApply>false</alwaysApply>
+																							<applyEffect>
+																								<Item href="" />
+																								<Item href="" />
+																							</applyEffect>
+																							<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																							<applyEffectOrientation>Default</applyEffectOrientation>
+																							<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																							<dieAfterApply>true</dieAfterApply>
+																							<dispatchEffect>
+																								<Item href="" />
+																								<Item href="" />
+																							</dispatchEffect>
+																							<flags>0</flags>
+																							<instantApply>false</instantApply>
+																						</DispatchImmediate>
+																					</dispatch>
+																				</Spell>
+																			</spell>
+																			<startCondition>
+																				<compiledString></compiledString>
+																				<returnType>bool</returnType>
+																				<sString>true</sString>
+																			</startCondition>
+																			<startOffset>
+																				<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
+																				<returnType>float</returnType>
+																				<sString>10</sString>
+																			</startOffset>
+																			<targetSelector href="" />
+																		</SpellPeriodicallyApplicator>
+																	</Item>
 																</applicators>
 																<dispatch href="/Maps/Multiplayer/MOBA/Mains/_B.MBLD" id="48C9F302-1E0F-4121-BF3F-9AA65E393566">
 																	<DispatchImmediate>
@@ -976,118 +1183,6 @@
 												</Item>
 											</applicators>
 											<dispatch href="/Maps/Multiplayer/MOBA/Mains/_B.MBLD" id="909BFEC3-2869-43C2-B339-9033D001C436">
-												<DispatchImmediate>
-													<alwaysApply>false</alwaysApply>
-													<applyEffect>
-														<Item href="" />
-														<Item href="" />
-													</applyEffect>
-													<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
-													<applyEffectOrientation>Default</applyEffectOrientation>
-													<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
-													<dieAfterApply>true</dieAfterApply>
-													<dispatchEffect>
-														<Item href="" />
-														<Item href="" />
-													</dispatchEffect>
-													<flags>0</flags>
-													<instantApply>false</instantApply>
-												</DispatchImmediate>
-											</dispatch>
-										</Spell>
-									</spell>
-								</EventProcessorCondition>
-							</processor>
-							<providerName></providerName>
-							<startCondition>
-								<compiledString></compiledString>
-								<returnType>bool</returnType>
-								<sString>true</sString>
-							</startCondition>
-							<useAbilityCooldown>false</useAbilityCooldown>
-							<useAbilityOwnerMana>false</useAbilityOwnerMana>
-						</TriggerApplicator>
-					</Item>
-					<Item href="/Maps/Multiplayer/MOBA/Mains/_B.MBLD" id="65B88559-6D69-4253-B871-77FD955587C4">
-						<TriggerApplicator>
-							<actionsCount>
-								<compiledString>FQAAAAAAAAAAVYvsuAEAAABdww==</compiledString>
-								<returnType>int</returnType>
-								<sString>1</sString>
-							</actionsCount>
-							<applyTarget>ApplicatorTarget</applyTarget>
-							<behaviorFlags>0</behaviorFlags>
-							<caption>сообщение в чат два</caption>
-							<effect>
-								<Item href="" />
-								<Item href="" />
-							</effect>
-							<enabled>
-								<compiledString>FQ0AAAACAAAAEgAAACgAAABHYW1lRHVyYXRpb24AVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdSgAAAN/g9sRBdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAcIJA</compiledString>
-								<returnType>bool</returnType>
-								<sString>sender.vGameDuration &gt; 590</sString>
-							</enabled>
-							<formulaName></formulaName>
-							<lifeTime>
-								<compiledString></compiledString>
-								<returnType>float</returnType>
-								<sString>-1.0</sString>
-							</lifeTime>
-							<LoggingEvent>-1</LoggingEvent>
-							<playAck>false</playAck>
-							<processor href="/Maps/Multiplayer/MOBA/Mains/_B.MBLD" id="5D4E0B87-998F-40A8-A951-CDD3FF8FF809">
-								<EventProcessorCondition>
-									<applyTarget>ApplicatorTarget</applyTarget>
-									<condition>
-										<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
-										<returnType>bool</returnType>
-										<sString>true</sString>
-									</condition>
-									<events>8192</events>
-									<onlyParent>false</onlyParent>
-									<spell href="/Maps/Multiplayer/MOBA/Mains/_B.MBLD" id="DE9C90FB-D7C3-439B-A0DB-50E9F64B3C3E">
-										<Spell>
-											<applicators>
-												<Item href="/Maps/Multiplayer/MOBA/Mains/_B.MBLD" id="8066B512-B88C-40FB-9564-A153FBBE1D5F">
-													<UIMessageApplicator>
-														<applyTarget>ApplicatorTarget</applyTarget>
-														<caption></caption>
-														<enabled>
-															<compiledString></compiledString>
-															<returnType>bool</returnType>
-															<sString>true</sString>
-														</enabled>
-														<formulaName></formulaName>
-														<LoggingEvent>-1</LoggingEvent>
-														<message textref="" />
-														<providerName></providerName>
-														<uiEvent href="/Maps/Multiplayer/MOBA/Mains/_B.MBLD" id="B1CB587D-0D34-4BED-A69A-7673425A9A56">
-															<UIEvent>
-																<signRecipients>EVENT_MAKER_TEAM</signRecipients>
-																<UISigns>
-																	<Item href="/Maps/Multiplayer/MOBA/Mains/_B.MBLD" id="D04350E7-9CBD-4635-A013-7BAA26DC53FA">
-																		<UISignMessageToChat>
-																			<channel>Achievments</channel>
-																			<messages>
-																				<Item textref="/Maps/Multiplayer/MOBA/Mains/_B.MBLD_d04350e79cbd4635a0137baa26dc53fa_messages_0.txt" />
-																				<Item textref="" />
-																				<Item textref="" />
-																			</messages>
-																			<signRecipients>USE_FROM_PARENT</signRecipients>
-																		</UISignMessageToChat>
-																	</Item>
-																</UISigns>
-															</UIEvent>
-														</uiEvent>
-														<value>
-															<compiledString></compiledString>
-															<returnType>float</returnType>
-															<sString>-1.0</sString>
-														</value>
-													</UIMessageApplicator>
-												</Item>
-											</applicators>
-											<dispatch href="/Maps/Multiplayer/MOBA/Mains/_B.MBLD" id="A7565680-052A-4432-B869-B46F33A9DD60">
 												<DispatchImmediate>
 													<alwaysApply>false</alwaysApply>
 													<applyEffect>

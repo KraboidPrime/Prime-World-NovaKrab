@@ -3,7 +3,7 @@
 	<BackLink DBID="/Creeps/Champions/Champion4/PvE_Coop1.CREEP" Count="2" />
 	<BackLink DBID="/Creeps/Minions/Minion4/AttackAbility.ATCK" Count="1" />
 	<BackLink DBID="/Creeps/Normals/Normal7/PvE_Coop1.CREEP" Count="1" />
-	<BackLink DBID="/Heroes/BladeDancer/_.HROB" Count="1" />
+	<BackLink DBID="/Heroes/Bladedancer/_.HROB" Count="1" />
 	<BackLink DBID="/Heroes/Wendigo/AttackAbility.ATCK" Count="1" />
 	<BackLink DBID="/Items/Talents/_commonData/Portal_coop1.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/_commonData/Portal_CTE.TALENT" Count="1" />

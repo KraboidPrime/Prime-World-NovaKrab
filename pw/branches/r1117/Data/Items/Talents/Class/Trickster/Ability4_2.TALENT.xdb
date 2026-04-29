@@ -1591,9 +1591,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FSAAAAACAAAAJwAAAEAAAABUcmlja3N0ZXJfQTRfMnUAVHJpY2tzdGVyX0E0XzJ1AFWL7IPsGGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdEWLVQiLAotNCIuQuAAAAP/Si0UIixCLTQiLgrwAAADdXfD/0Nxd8N/g9sQFegnHReyMAAAA6wfHRexkAAAAi03siU3o6wfHRehkAAAA20Xoi+Vdww==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQg==</compiledString>
 		<returnType>float</returnType>
-		<sString>tal("Trickster_A4_2u") ? ((sBaseStrength &gt; sBaseIntellect) ? 140 : 100) :100</sString>
+		<sString>120</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>

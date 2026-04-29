@@ -103,9 +103,9 @@
 													<cancelInvisibility>false</cancelInvisibility>
 													<caption>Pure Урон</caption>
 													<damage>
-														<compiledString>FRQAAAACAAAAIAAAADgAAABHNTcxX0FkZFNraWxsRGFtYWdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SUdkcJFHZBUkAAADZHCToCQAAAIPECF3DAAAgQlWL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
+														<compiledString>FRQAAAACAAAAIAAAADgAAABHNTcxX0FkZFNraWxsRGFtYWdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SUdkcJFHZBUkAAADZHCToCQAAAIPECF3DAACgQVWL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
 														<returnType>float</returnType>
-														<sString>max(40, cG571_AddSkillDamage)</sString>
+														<sString>max(20, cG571_AddSkillDamage)</sString>
 													</damage>
 													<damageMode>4</damageMode>
 													<damageType>Pure</damageType>

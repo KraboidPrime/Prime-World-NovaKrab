@@ -132,11 +132,11 @@
 	<type>Passive</type>
 	<upgradeLevel>0</upgradeLevel>
 	<useRange>
-		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAwQQ==</compiledString>
 		<returnType>float</returnType>
-		<sString>0</sString>
+		<sString>11</sString>
 	</useRange>
-	<useRangeMaterial href="" />
+	<useRangeMaterial href="/Effects/UI/AOESelection/Radius.MTRL" />
 	<variativeMaxTalentStats />
 	<variativeMinTalentStats />
 	<vendorCost>0</vendorCost>

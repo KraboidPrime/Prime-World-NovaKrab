@@ -67,9 +67,9 @@
 					<UnitConstant>
 						<name>Add_Stat</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAkQg==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAcQg==</compiledString>
 							<returnType>float</returnType>
-							<sString>41</sString>
+							<sString>39</sString>
 						</var>
 					</UnitConstant>
 				</Item>

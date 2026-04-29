@@ -13,6 +13,7 @@
 	<BackLink DBID="/Buildings/DefaultStats/Basic_Bots.CNSH" Count="1" />
 	<BackLink DBID="/Buildings/DefaultStats/Basic_NY.CNSH" Count="1" />
 	<BackLink DBID="/Items/Talents/Level5/G735_Dex_inc_Str_Int.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level1/G126_Int_Str.TALENT" Count="1" />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
 		<compiledString></compiledString>

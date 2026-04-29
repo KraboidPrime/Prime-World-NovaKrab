@@ -31,6 +31,55 @@
 			<manaCost>
 				<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 			</manaCost>
+			<passiveApplicators>
+				<Item href="/Creeps/Champions/Champion2/PVP.CREEP" id="67AE66ED-A955-4658-B386-244A7217A180">
+					<StatModApplicator>
+						<applyTarget>AbilityOwner</applyTarget>
+						<behaviorFlags>0</behaviorFlags>
+						<caption></caption>
+						<constraint>None</constraint>
+						<dontUpdate>false</dontUpdate>
+						<effect>
+							<Item href="" />
+							<Item href="" />
+						</effect>
+						<enabled>
+							<compiledString>FQYAAAACAAAACwAAACEAAABJc1BldABVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1DAAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
+							<returnType>bool</returnType>
+							<sString>sender.vIsPet == 0</sString>
+						</enabled>
+						<formulaName></formulaName>
+						<lifeTime>
+							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>-1.0</sString>
+						</lifeTime>
+						<LoggingEvent>-1</LoggingEvent>
+						<modifier>
+							<addValue>
+								<compiledString>FQAAAAACAAAAJgAAADcAAABVi+yD7AiLRQiLEItNCIuCYAEAAP/Qg+gBiUX820X8UdkcJFHZBU0AAADZHCToHwAAAIPECNwNRQAAANld+NlF+IvlXcMAAAAAAAAAQAAAQEFVi+xR2UUI2UUM3tnf4PbEQXUI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
+								<returnType>float</returnType>
+								<sString>2*min(12,(sNaftaLevel-1))</sString>
+							</addValue>
+							<multValue>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>1.0f</sString>
+							</multValue>
+							<stat>Intellect</stat>
+							<topModifier>false</topModifier>
+							<variable></variable>
+						</modifier>
+						<providerName></providerName>
+						<startCondition>
+							<compiledString></compiledString>
+							<returnType>bool</returnType>
+							<sString>true</sString>
+						</startCondition>
+						<statModName></statModName>
+					</StatModApplicator>
+				</Item>
+			</passiveApplicators>
 			<useRange>
 				<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 			</useRange>
@@ -56,7 +105,7 @@
 						</Item>
 						<Item>
 							<increment>0</increment>
-							<level>10</level>
+							<level>13</level>
 						</Item>
 					</levelUpgrades>
 					<statId>Life</statId>
@@ -106,7 +155,7 @@
 						</Item>
 						<Item>
 							<increment>0</increment>
-							<level>10</level>
+							<level>13</level>
 						</Item>
 					</levelUpgrades>
 					<statId>Intellect</statId>
@@ -277,7 +326,7 @@
 						</Item>
 						<Item>
 							<increment>0</increment>
-							<level>10</level>
+							<level>13</level>
 						</Item>
 					</levelUpgrades>
 					<statId>Level</statId>
@@ -298,9 +347,9 @@
 					<levelUpgrades />
 					<statId>TeamNaftaForPresence</statId>
 					<value>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAD4QQ==</compiledString>
+						<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 						<returnType>float</returnType>
-						<sString>31</sString>
+						<sString>0</sString>
 					</value>
 				</Item>
 			</stats>

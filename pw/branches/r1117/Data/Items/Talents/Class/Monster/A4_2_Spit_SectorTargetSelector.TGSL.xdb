@@ -2,7 +2,7 @@
 <SectorTargetSelector>
 	<BackLink DBID="/Items/Talents/Class/Monster/A4_2_Spit_targetSelector.TGSL" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Monster/Ability_A4_2.TALENT" Count="1" />
-	<angle>40</angle>
+	<angle>50</angle>
 	<centerIsSegmentEnd>false</centerIsSegmentEnd>
 	<flags>0</flags>
 	<mode>Normal</mode>

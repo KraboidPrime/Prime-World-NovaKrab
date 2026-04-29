@@ -1173,9 +1173,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FQwAAAACAAAAKgAAAEAAAABGbHVmZnlQaXpkYQBVi+xRaAAAAgCLRQyLEItNDItCaP/QD7bIhcl1K2gAAAAAi1UIiwKLTQiLkIgBAAD/0twdYgAAAN/g9sRBdAnHRfwAAAAA6wfHRfwBAAAAikX8i+VdwwAAAAAAAAAA</compiledString>
+					<compiledString>FVwAAAAHAAAAhAAAAKgAAADMAAAA7AAAAAwBAAAmAQAAPAEAAEd1bm5lclJvb3RBMwAAAABXZW5kaWdvUm9vdABGcmVlemVBMlJvb3QAAAAAQ2FwdHVyZWREZW1vbm9sb2dSb290AAAAU3RhdHVzUm9vdAAARmx1ZmZ5UGl6ZGEAVYvsUWgAAAIAi0UMixCLTQyLQmj/0A+2yIXJD4XTAAAAagCLVRBSaAAAAACLRQyLEItNDIuCnAEAAP/QO0UQD4WvAAAAagCLTRBRaBAAAACLVQyLAotNDIuQnAEAAP/SO0UQD4WLAAAAagCLRRBQaBwAAACLTQyLEYtNDIuCnAEAAP/QO0UQdWtqAItNEFFoLAAAAItVDIsCi00Mi5CcAQAA/9I7RRB1S2oAi0UQUGhEAAAAi00MixGLTQyLgpwBAAD/0DtFEHUraFAAAACLTQiLEYtNCIuCiAEAAP/Q3B1eAQAA3+D2xEF0CcdF/AAAAADrB8dF/AEAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
 					<returnType>bool</returnType>
-					<sString>rFlag(131072) || sender.vFluffyPizda &gt; 0</sString>
+					<sString>(rFlag(131072) || receiver.applGunnerRootA3(GLOBAL) != pMisc || receiver.applWendigoRoot(GLOBAL) != pMisc || receiver.applFreezeA2Root(GLOBAL) != pMisc || receiver.applCapturedDemonologRoot(GLOBAL) != pMisc || receiver.applStatusRoot(GLOBAL) != pMisc) || sender.vFluffyPizda &gt; 0</sString>
 				</enabled>
 				<flag>1024</flag>
 				<formulaName></formulaName>

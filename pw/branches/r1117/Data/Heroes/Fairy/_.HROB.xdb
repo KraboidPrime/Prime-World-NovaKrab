@@ -996,9 +996,9 @@
 					<calcIncrement>0.5</calcIncrement>
 					<calcValue>55</calcValue>
 					<increment>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAPw==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpkZPw==</compiledString>
 						<returnType>float</returnType>
-						<sString>0.5</sString>
+						<sString>0.6</sString>
 					</increment>
 					<levelUpgrades />
 					<statId>Strength</statId>
@@ -1019,9 +1019,9 @@
 					<levelUpgrades />
 					<statId>Intellect</statId>
 					<value>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABoQg==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABcQg==</compiledString>
 						<returnType>float</returnType>
-						<sString>58</sString>
+						<sString>55</sString>
 					</value>
 				</Item>
 				<Item>
@@ -1035,9 +1035,9 @@
 					<levelUpgrades />
 					<statId>Dexterity</statId>
 					<value>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABgQg==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABQQg==</compiledString>
 						<returnType>float</returnType>
-						<sString>56</sString>
+						<sString>52</sString>
 					</value>
 				</Item>
 				<Item>

@@ -762,7 +762,7 @@
 																	<returnType>float</returnType>
 																	<sString>cA3_BuffDmg</sString>
 																</damage>
-																<damageMode>4</damageMode>
+																<damageMode>12</damageMode>
 																<damageType>Material</damageType>
 																<enabled>
 																	<compiledString>FQUAAAABAAAAIgAAAFdhcmQAVYvsUYtFDIsQi00Mi0JQ/9CD+BF0KWoAi00QUWgAAAAAi1UMiwKLTQyLkJwBAAD/0jtFEHUJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcM=</compiledString>
@@ -1328,9 +1328,9 @@
 					<calcIncrement>0.85</calcIncrement>
 					<calcValue>56</calcValue>
 					<increment>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzczMPg==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAPw==</compiledString>
 						<returnType>float</returnType>
-						<sString>0.4</sString>
+						<sString>0.5</sString>
 					</increment>
 					<levelUpgrades />
 					<statId>Intellect</statId>

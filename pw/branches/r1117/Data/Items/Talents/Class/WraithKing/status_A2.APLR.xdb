@@ -241,9 +241,9 @@
 						<sString>cA2_Total_Defence</sString>
 					</addValue>
 					<multValue>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DMzMzPw==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DZmZmPw==</compiledString>
 						<returnType>float</returnType>
-						<sString>0.7f</sString>
+						<sString>0.9f</sString>
 					</multValue>
 					<stat>EnergyDamageDecrease</stat>
 					<topModifier>false</topModifier>
@@ -288,9 +288,9 @@
 						<sString>cA2_Total_Defence</sString>
 					</addValue>
 					<multValue>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DMzMzPw==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DZmZmPw==</compiledString>
 						<returnType>float</returnType>
-						<sString>0.7f</sString>
+						<sString>0.9f</sString>
 					</multValue>
 					<stat>MaterialDamageDecrease</stat>
 					<topModifier>false</topModifier>

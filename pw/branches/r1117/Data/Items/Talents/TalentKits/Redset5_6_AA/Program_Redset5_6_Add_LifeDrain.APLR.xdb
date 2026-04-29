@@ -78,7 +78,7 @@
 							<returnType>float</returnType>
 							<sString>1.0f</sString>
 						</multValue>
-						<stat>LifeDrain</stat>
+						<stat>AttackSpeed</stat>
 						<topModifier>false</topModifier>
 						<variable></variable>
 					</modifier>

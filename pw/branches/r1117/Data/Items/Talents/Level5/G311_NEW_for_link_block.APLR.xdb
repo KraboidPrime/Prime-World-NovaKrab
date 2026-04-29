@@ -147,9 +147,9 @@
 											<sString>20.0f</sString>
 										</addValue>
 										<multValue>
-											<compiledString></compiledString>
+											<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DZmZmPw==</compiledString>
 											<returnType>float</returnType>
-											<sString>1.0f</sString>
+											<sString>0.9f</sString>
 										</multValue>
 										<stat>EnergyDamageDecrease</stat>
 										<topModifier>false</topModifier>
@@ -194,9 +194,9 @@
 											<sString>20.0f</sString>
 										</addValue>
 										<multValue>
-											<compiledString></compiledString>
+											<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DZmZmPw==</compiledString>
 											<returnType>float</returnType>
-											<sString>1.0f</sString>
+											<sString>0.9f</sString>
 										</multValue>
 										<stat>MaterialDamageDecrease</stat>
 										<topModifier>false</topModifier>

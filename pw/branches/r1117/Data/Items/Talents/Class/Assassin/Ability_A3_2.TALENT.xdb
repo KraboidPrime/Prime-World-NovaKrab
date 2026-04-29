@@ -8,6 +8,7 @@
 	<BackLink DBID="/Items/Talents/TalentKits/Redset5_7_Ultimate/Status_Redset5_7_Cooldown.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Assassin/Ability_A3_SUP.TALENT" Count="1" />
 	<BackLink DBID="/Test/Talents/Assassin/New_SUP.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Assassin/A0_RefreshCd.APLR" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>

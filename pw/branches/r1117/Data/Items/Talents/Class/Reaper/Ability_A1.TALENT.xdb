@@ -11,6 +11,7 @@
 	<BackLink DBID="/Test/Talents/Reaper/Epic_Int.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/Reaper/Epic_Str.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Reaper/Ability_A1_SUP.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Reaper/Ability_A4.TALENT" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -846,7 +847,6 @@
 				</targetSelector>
 			</SpellApplicator>
 		</Item>
-		<Item href="/Items/Talents/Class/Reaper/status_A1_SUP_GhostMove.APLR" />
 	</applicators>
 	<askId>1</askId>
 	<autoTargetSelector href="" />
@@ -911,9 +911,9 @@
 					<UnitConstant>
 						<name>A1_Damage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAC6QgAAL0Q=</compiledString>
+							<compiledString>FR4AAAAFAAAAJQAAAD4AAAB3AAAAhAAAAI4AAABSZWFwZXJfQTFfU1VQAAAAUmVhcGVyX0ExX1NVUABVi+yD7BhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuJTfTbRfTcDdoAAADZ6N7BagFR2QXOAAAA2RwkUdkFygAAANkcJGoAi1UIiwKLTQiLkDQBAADdXez/0lHZHCRqAYtFEIsQi00Qi0Jg/9DcTezZXejZReiL5V3DAAC6QgAAL0QAAAAAAADwP5qZmZmZmck/</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(sIntellect, 93, 700)</sString>
+							<sString>(1+0.2*tal("Reaper_A1_SUP"))*damageScale(sIntellect, 93, 700)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -963,9 +963,9 @@
 					<UnitConstant>
 						<name>A1_PushDamage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAABwQgAA4UM=</compiledString>
+							<compiledString>FR4AAAAFAAAAJQAAAD4AAAB3AAAAhAAAAI4AAABSZWFwZXJfQTFfU1VQAAAAUmVhcGVyX0ExX1NVUABVi+yD7BhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuJTfTbRfTcDdoAAADZ6N7BagFR2QXOAAAA2RwkUdkFygAAANkcJGoAi1UIiwKLTQiLkDQBAADdXez/0lHZHCRqAYtFEIsQi00Qi0Jg/9DcTezZXejZReiL5V3DAABwQgAA4UMAAAAAAADwP5qZmZmZmck/</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(sIntellect, 60, 450)</sString>
+							<sString>(1+0.2*tal("Reaper_A1_SUP"))*damageScale(sIntellect, 60, 450)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -1126,9 +1126,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FQAAAAAAAAAAVYvsaAAAAgCLRQyLEItNDItCaP/QXcM=</compiledString>
+					<compiledString>FU8AAAAFAAAAdwAAAJsAAAC7AAAA2wAAAPsAAABHdW5uZXJSb290QTMAAAAAV2VuZGlnb1Jvb3QARnJlZXplQTJSb290AAAAAENhcHR1cmVkRGVtb25vbG9nUm9vdAAAAFN0YXR1c1Jvb3QAVYvsUWgAAAIAi0UMixCLTQyLQmj/0A+2yIXJD4WtAAAAagCLVRBSaAAAAACLRQyLEItNDIuCnAEAAP/QO0UQD4WJAAAAagCLTRBRaBAAAACLVQyLAotNDIuQnAEAAP/SO0UQdWlqAItFEFBoHAAAAItNDIsRi00Mi4KcAQAA/9A7RRB1SWoAi00QUWgsAAAAi1UMiwKLTQyLkJwBAAD/0jtFEHUpagCLRRBQaEQAAACLTQyLEYtNDIuCnAEAAP/QO0UQdQnHRfwAAAAA6wfHRfwBAAAAikX8i+Vdww==</compiledString>
 					<returnType>bool</returnType>
-					<sString>rFlag(131072)</sString>
+					<sString>(rFlag(131072) || receiver.applGunnerRootA3(GLOBAL) != pMisc || receiver.applWendigoRoot(GLOBAL) != pMisc || receiver.applFreezeA2Root(GLOBAL) != pMisc || receiver.applCapturedDemonologRoot(GLOBAL) != pMisc || receiver.applStatusRoot(GLOBAL) != pMisc)</sString>
 				</enabled>
 				<flag>1024</flag>
 				<formulaName></formulaName>
@@ -1256,6 +1256,39 @@
 				<useAbilityCooldown>false</useAbilityCooldown>
 				<useAbilityOwnerMana>false</useAbilityOwnerMana>
 			</TriggerApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/Reaper/Ability_A1.TALENT" id="94BE7536-F962-4E51-BBB9-C4CF5985E8B3">
+			<FlagsApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>визуал</caption>
+				<consumables />
+				<effect>
+					<Item href="/Effects/General/Ghost/_Prime.EFFT" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FR4AAAADAAAAMwAAAD8AAABYAAAAUmVhcGVyX0ExX1NVUAAAAFJlYXBlcl9BMV9TVVAAVYvsg+wMi0UQixCLTRCLQhz/0NwdpAAAAN/g9sREe1hoAAAAAItNCIsRi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXQJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcMAAAAAAADwPw==</compiledString>
+					<returnType>bool</returnType>
+					<sString>mPreparedness != 1.0 &amp;&amp; tal("Reaper_A1_SUP")</sString>
+				</enabled>
+				<flag>0</flag>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<talents />
+				<useListAs>ListAsRule</useListAs>
+			</FlagsApplicator>
 		</Item>
 	</passiveApplicators>
 	<persistentId>Reaper_A1</persistentId>

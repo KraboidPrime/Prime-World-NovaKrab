@@ -18,6 +18,86 @@
 				</lifeTime>
 			</FlagsApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/Freeze/status_A2_Root.APLR" id="B52CCE42-38FB-4B3C-A773-967CB841DDCD">
+			<SpellApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>хитрый эффект корней</caption>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<spell href="/Items/Talents/Class/Freeze/status_A2_Root.APLR" id="2251ABD5-1A75-4BEF-82C6-5FB724F1E78D">
+					<Spell>
+						<applicators>
+							<Item href="/Items/Talents/Class/Freeze/status_A2_Root.APLR" id="6E1AD123-E881-435C-9627-DE78081AD1BF">
+								<FlagsApplicator>
+									<applyTarget>ApplicatorTarget</applyTarget>
+									<behaviorFlags>145</behaviorFlags>
+									<caption></caption>
+									<consumables />
+									<effect>
+										<Item href="" />
+										<Item href="" />
+									</effect>
+									<enabled>
+										<compiledString>FS0AAAAFAAAAOAAAAFIAAABoAAAAdAAAAIoAAABGcmVlemVBMlJvb3QAAAAASW1tdW5lMkNvbnRyb2wAAEFsbG93Q29udHJvbABVi+xRagCLRRBQaAAAAACLTQyLEYtNDIuCnAEAAP/QO0UQdE1oEAAAAItNDIsRi00Mi4KIAQAA/9DcHbQAAADf4PbERHsiaCAAAACLTQyLEYtNDIuCiAEAAP/Q3B2sAAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAA8D8AAAAAAAAAAA==</compiledString>
+										<returnType>bool</returnType>
+										<sString>receiver.applFreezeA2Root(GLOBAL) != pMisc &amp;&amp; (receiver.vImmune2Control == 0 || receiver.vAllowControl == 1)</sString>
+									</enabled>
+									<flag>131072</flag>
+									<formulaName></formulaName>
+									<lifeTime>
+										<compiledString>FQ4AAAABAAAAGgAAAFJvb3RfRHVyYXRpb24AVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+										<returnType>float</returnType>
+										<sString>cRoot_Duration</sString>
+									</lifeTime>
+									<LoggingEvent>-1</LoggingEvent>
+									<providerName></providerName>
+									<startCondition>
+										<compiledString>FQ0AAAABAAAAFwAAAEZyZWV6ZUEyUm9vdABVi+xqAItFEFBoAAAAAItNDIsRi00Mi4KcAQAA/9AzyTtFEA+VwYrBXcM=</compiledString>
+										<returnType>bool</returnType>
+										<sString>receiver.applFreezeA2Root(GLOBAL) != pMisc</sString>
+									</startCondition>
+									<talents />
+									<useListAs>ListAsRule</useListAs>
+								</FlagsApplicator>
+							</Item>
+						</applicators>
+						<dispatch href="/Items/Talents/Class/Freeze/status_A2_Root.APLR" id="114EB837-D0EB-4A85-B2A4-60761B1AA6B8">
+							<DispatchByTime>
+								<alwaysApply>false</alwaysApply>
+								<applyEffect>
+									<Item href="" />
+									<Item href="" />
+								</applyEffect>
+								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+								<applyEffectOrientation>Default</applyEffectOrientation>
+								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+								<cancelOnSenderDeath>false</cancelOnSenderDeath>
+								<dieAfterApply>true</dieAfterApply>
+								<dispatchEffect>
+									<Item href="" />
+									<Item href="" />
+								</dispatchEffect>
+								<flags>0</flags>
+								<lifeTime>
+									<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpmZPg==</compiledString>
+									<returnType>float</returnType>
+									<sString>0.3f</sString>
+								</lifeTime>
+								<persistentApplicators />
+							</DispatchByTime>
+						</dispatch>
+					</Spell>
+				</spell>
+				<spellTarget>ApplicatorTarget</spellTarget>
+				<targetSelector href="" />
+			</SpellApplicator>
+		</Item>
 	</applicators>
 	<applyTarget>ApplicatorTarget</applyTarget>
 	<behaviorFlags>147</behaviorFlags>

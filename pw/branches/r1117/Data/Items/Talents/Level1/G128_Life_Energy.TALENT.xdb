@@ -7,7 +7,7 @@
 	<BackLink DBID="/Test/Talents/Test_ManaRework.TALENTSET" Count="1" />
 	<BackLink DBID="/Test/Talents/TestSet3.TALENTSET" Count="1" />
 	<BackLink DBID="/Social/TalentsCollection" Count="3" />
-	<BackLink DBID="/Items/Talents/Level1/G128_Life_Energy.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level1/G128_Life_Energy.TALENT" Count="2" />
 	<activationConditions />
 	<activeCustomTrigger>false</activeCustomTrigger>
 	<allowChase>
@@ -360,7 +360,7 @@
 			<instantApply>false</instantApply>
 		</DispatchImmediate>
 	</dispatch>
-	<flags>6</flags>
+	<flags>22</flags>
 	<forceBonus>6</forceBonus>
 	<image href="/UI/Styles/Icons/Talents/_128.ITEX" />
 	<imageSecondState href="" />
@@ -666,6 +666,41 @@
 					<compiledString></compiledString>
 					<returnType>float</returnType>
 					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<talents>
+					<Item href="/Items/Talents/Level1/G128_Life_Energy.TALENT" />
+				</talents>
+				<useListAs>ListAsRule</useListAs>
+			</FlagsApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level1/G128_Life_Energy.TALENT" id="40E9B478-9CA3-4F4D-94A1-D8837478E3FA">
+			<FlagsApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>страховка</caption>
+				<consumables />
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<flag>1024</flag>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
+					<returnType>float</returnType>
+					<sString>10</sString>
 				</lifeTime>
 				<LoggingEvent>-1</LoggingEvent>
 				<providerName></providerName>

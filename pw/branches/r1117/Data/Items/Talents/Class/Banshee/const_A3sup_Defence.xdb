@@ -5,8 +5,8 @@
 	<BackLink DBID="/Items/Talents/Class/Banshee/Ability_A0.TALENT" Count="1" />
 	<name>A3sup_DefencePerA0</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAQA==</compiledString>
 		<returnType>float</returnType>
-		<sString>5</sString>
+		<sString>4</sString>
 	</var>
 </UnitConstant>

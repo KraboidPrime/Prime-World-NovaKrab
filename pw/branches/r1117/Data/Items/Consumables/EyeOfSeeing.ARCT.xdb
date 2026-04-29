@@ -15,8 +15,8 @@
 	<BackLink DBID="/Maps/PvE/Series/Episode1/buildings/Shop.SHOP" Count="1" />
 	<BackLink DBID="/Maps/Test/BalanseTest/Shops/_N.SHOP" Count="1" />
 	<BackLink DBID="/Maps/Test/DesignArtTest/Buildings/_N.SHOP" Count="1" />
-	<BackLink DBID="/Items/Consumables/SUPPORT.ARCT" Count="4" />
-	<BackLink DBID="/Items/Consumables/EyeOfSeeing.ARCT" Count="1" />
+	<BackLink DBID="/Items/Consumables/SUPPORT.ARCT" Count="5" />
+	<BackLink DBID="/Items/Consumables/EyeOfSeeing.ARCT" Count="3" />
 	<BackLink DBID="/Items/Consumables/KU-StickNew.ARCT" Count="1" />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -279,10 +279,10 @@
 	<name textref="/Items/Consumables/EyeOfSeeing.ARCT_name.txt" />
 	<node></node>
 	<passiveApplicators>
-		<Item href="/Items/Consumables/EyeOfSeeing.ARCT" id="49E79397-7E7A-42F9-AE43-F49E8E863DA3">
+		<Item href="/Items/Consumables/EyeOfSeeing.ARCT" id="2CC3CBDB-C509-4DF0-AFB5-F3985B360CDD">
 			<SpellApplicator>
 				<applyTarget>AbilityOwner</applyTarget>
-				<caption>цена</caption>
+				<caption></caption>
 				<enabled>
 					<compiledString></compiledString>
 					<returnType>bool</returnType>
@@ -291,19 +291,19 @@
 				<formulaName></formulaName>
 				<LoggingEvent>-1</LoggingEvent>
 				<providerName></providerName>
-				<spell href="/Items/Consumables/EyeOfSeeing.ARCT" id="C7A52D3C-0B7D-4C71-8B57-38DDFAA8EEB6">
+				<spell href="/Items/Consumables/EyeOfSeeing.ARCT" id="229AAEBC-26D7-4C08-93FB-DA367D8E8B07">
 					<Spell>
 						<applicators>
-							<Item href="/Items/Consumables/EyeOfSeeing.ARCT" id="68DE82FE-6C58-4FBA-B406-44FF1E046387">
-								<AbilityModApplicator>
-									<addValue>
-										<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DACR0SQ==</compiledString>
-										<returnType>float</returnType>
-										<sString>1000000.0f</sString>
-									</addValue>
+							<Item href="/Items/Consumables/EyeOfSeeing.ARCT" id="1F780A5C-7FDA-4694-90AD-723EF51E8575">
+								<TriggerApplicator>
+									<actionsCount>
+										<compiledString>FQAAAAAAAAAAVYvsuAEAAABdww==</compiledString>
+										<returnType>int</returnType>
+										<sString>1</sString>
+									</actionsCount>
 									<applyTarget>AbilityOwner</applyTarget>
 									<behaviorFlags>216</behaviorFlags>
-									<caption>цена</caption>
+									<caption></caption>
 									<effect>
 										<Item href="" />
 										<Item href="" />
@@ -320,26 +320,95 @@
 										<sString>-1.0</sString>
 									</lifeTime>
 									<LoggingEvent>-1</LoggingEvent>
-									<mode>naftacost</mode>
-									<multValue>
-										<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
-										<returnType>float</returnType>
-										<sString>0.0f</sString>
-									</multValue>
+									<playAck>false</playAck>
+									<processor href="/Items/Consumables/EyeOfSeeing.ARCT" id="DC8F5868-8EDC-4E80-B0B8-4350C4481566">
+										<EventProcessorOnConsumableObtained>
+											<applyTarget>ApplicatorTarget</applyTarget>
+											<consumable href="/Items/Consumables/EyeOfSeeing.ARCT" />
+											<origin>26</origin>
+											<spell href="/Items/Consumables/EyeOfSeeing.ARCT" id="A6A4277B-AA94-40A4-8E1F-18F84AC09291">
+												<Spell>
+													<applicators>
+														<Item href="/Items/Consumables/EyeOfSeeing.ARCT" id="BFEF8032-4F18-44AF-8633-C3910917E1C2">
+															<AbilityModApplicator>
+																<addValue>
+																	<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DACR0SQ==</compiledString>
+																	<returnType>float</returnType>
+																	<sString>1000000.0f</sString>
+																</addValue>
+																<applyTarget>AbilityOwner</applyTarget>
+																<behaviorFlags>216</behaviorFlags>
+																<caption>цена</caption>
+																<effect>
+																	<Item href="" />
+																	<Item href="" />
+																</effect>
+																<enabled>
+																	<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+																	<returnType>bool</returnType>
+																	<sString>true</sString>
+																</enabled>
+																<formulaName></formulaName>
+																<lifeTime>
+																	<compiledString></compiledString>
+																	<returnType>float</returnType>
+																	<sString>-1.0</sString>
+																</lifeTime>
+																<LoggingEvent>-1</LoggingEvent>
+																<mode>naftacost</mode>
+																<multValue>
+																	<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+																	<returnType>float</returnType>
+																	<sString>0.0f</sString>
+																</multValue>
+																<providerName></providerName>
+																<specificAbility href="/Items/Consumables/SUPPORT.ARCT" />
+																<startCondition>
+																	<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+																	<returnType>bool</returnType>
+																	<sString>true</sString>
+																</startCondition>
+																<talents />
+																<targetAbilities>0</targetAbilities>
+																<useListAs>ListAsRule</useListAs>
+															</AbilityModApplicator>
+														</Item>
+													</applicators>
+													<dispatch href="/Items/Consumables/EyeOfSeeing.ARCT" id="4E13A9B9-F186-4338-B770-FAEFE86D4F51">
+														<DispatchImmediate>
+															<alwaysApply>false</alwaysApply>
+															<applyEffect>
+																<Item href="" />
+																<Item href="" />
+															</applyEffect>
+															<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+															<applyEffectOrientation>Default</applyEffectOrientation>
+															<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+															<dieAfterApply>true</dieAfterApply>
+															<dispatchEffect>
+																<Item href="" />
+																<Item href="" />
+															</dispatchEffect>
+															<flags>0</flags>
+															<instantApply>false</instantApply>
+														</DispatchImmediate>
+													</dispatch>
+												</Spell>
+											</spell>
+										</EventProcessorOnConsumableObtained>
+									</processor>
 									<providerName></providerName>
-									<specificAbility href="/Items/Consumables/SUPPORT.ARCT" />
 									<startCondition>
-										<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+										<compiledString></compiledString>
 										<returnType>bool</returnType>
 										<sString>true</sString>
 									</startCondition>
-									<talents />
-									<targetAbilities>0</targetAbilities>
-									<useListAs>ListAsRule</useListAs>
-								</AbilityModApplicator>
+									<useAbilityCooldown>false</useAbilityCooldown>
+									<useAbilityOwnerMana>false</useAbilityOwnerMana>
+								</TriggerApplicator>
 							</Item>
 						</applicators>
-						<dispatch href="/Items/Consumables/EyeOfSeeing.ARCT" id="7259FA36-F981-4518-94BB-B64D62AFEFD7">
+						<dispatch href="/Items/Consumables/EyeOfSeeing.ARCT" id="D2458F97-C0B9-4F1C-A0FF-942CC21E3E4E">
 							<DispatchImmediate>
 								<alwaysApply>false</alwaysApply>
 								<applyEffect>

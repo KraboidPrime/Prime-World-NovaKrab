@@ -355,6 +355,99 @@
 															<stopEvents>0</stopEvents>
 														</Item>
 														<Item>
+															<applicator href="/Items/Talents/Class/Rockman/Ability3.TALENT" id="57F6C9F9-E638-4107-A6DC-1CFF53DD4041">
+																<SpellApplicator>
+																	<applyTarget>ApplicatorTarget</applyTarget>
+																	<caption>фикс агра</caption>
+																	<enabled>
+																		<compiledString>FQYAAAACAAAACwAAACEAAABJc1BldABVi+xRaAAAAACLRQyLEItNDIuCiAEAAP/Q3B1nAAAA3+D2xER6LYtNDIsRi00Mi0JQ/9CD+AN0EotNDIsRi00Mi0JQ/9CD+AR1CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
+																		<returnType>bool</returnType>
+																		<sString>receiver.vIsPet == 0 &amp;&amp; (rUnitKind == 3 || rUnitKind == 4)</sString>
+																	</enabled>
+																	<formulaName></formulaName>
+																	<LoggingEvent>-1</LoggingEvent>
+																	<providerName></providerName>
+																	<spell href="/Items/Talents/Class/Rockman/Ability3.TALENT" id="0C6DF142-1EDB-44CA-A61F-CADF8DDF08A7">
+																		<Spell>
+																			<applicators>
+																				<Item href="/Items/Talents/Class/Rockman/Ability3.TALENT" id="9EB29604-BE83-4ADB-9FDC-1BAD4CD3A50E">
+																					<CreepBehaviourChangeApplicator>
+																						<applicators />
+																						<applyTarget>ApplicatorTarget</applyTarget>
+																						<behaviorFlags>0</behaviorFlags>
+																						<behaviour href="" />
+																						<behaviourChangeFlags>32</behaviourChangeFlags>
+																						<caption></caption>
+																						<effect>
+																							<Item href="" />
+																							<Item href="" />
+																						</effect>
+																						<enabled>
+																							<compiledString>FQYAAAACAAAACwAAACEAAABJc1BldABVi+xRaAAAAACLRQyLEItNDIuCiAEAAP/Q3B1nAAAA3+D2xER6LYtNDIsRi00Mi0JQ/9CD+AN0EotNDIsRi00Mi0JQ/9CD+AR1CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
+																							<returnType>bool</returnType>
+																							<sString>receiver.vIsPet == 0 &amp;&amp; (rUnitKind == 3 || rUnitKind == 4)</sString>
+																						</enabled>
+																						<formulaName></formulaName>
+																						<lifeTime>
+																							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzcxMPg==</compiledString>
+																							<returnType>float</returnType>
+																							<sString>0.2f</sString>
+																						</lifeTime>
+																						<LoggingEvent>-1</LoggingEvent>
+																						<providerName></providerName>
+																						<startCondition>
+																							<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+																							<returnType>bool</returnType>
+																							<sString>true</sString>
+																						</startCondition>
+																						<summonGroupName></summonGroupName>
+																					</CreepBehaviourChangeApplicator>
+																				</Item>
+																			</applicators>
+																			<dispatch href="/Items/Talents/Class/Rockman/Ability3.TALENT" id="B74DE3D5-7C68-4872-AAA6-3D516B6C77C6">
+																				<DispatchImmediate>
+																					<alwaysApply>false</alwaysApply>
+																					<applyEffect>
+																						<Item href="" />
+																						<Item href="" />
+																					</applyEffect>
+																					<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																					<applyEffectOrientation>Default</applyEffectOrientation>
+																					<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																					<dieAfterApply>true</dieAfterApply>
+																					<dispatchEffect>
+																						<Item href="" />
+																						<Item href="" />
+																					</dispatchEffect>
+																					<flags>0</flags>
+																					<instantApply>false</instantApply>
+																				</DispatchImmediate>
+																			</dispatch>
+																		</Spell>
+																	</spell>
+																	<spellTarget>ApplicatorTarget</spellTarget>
+																	<targetSelector href="" />
+																</SpellApplicator>
+															</applicator>
+															<continueCondition>
+																<compiledString></compiledString>
+																<returnType>bool</returnType>
+																<sString>0</sString>
+															</continueCondition>
+															<continueEvents>1</continueEvents>
+															<delay>
+																<compiledString></compiledString>
+																<returnType>float</returnType>
+																<sString>-1.0</sString>
+															</delay>
+															<stopCondition>
+																<compiledString></compiledString>
+																<returnType>bool</returnType>
+																<sString>0</sString>
+															</stopCondition>
+															<stopEvents>0</stopEvents>
+														</Item>
+														<Item>
 															<applicator href="/Heroes/DefaultStatus/_STUN_Status.APLR" />
 															<continueCondition>
 																<compiledString></compiledString>

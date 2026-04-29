@@ -2,7 +2,7 @@
 <UIEvent>
 	<BackLink DBID="/Heroes/Frogenglut/_.HROB" Count="1" />
 	<BackLink DBID="/Impulses/_.IBCN" Count="1" />
-	<BackLink DBID="/Items/Consumables/EnergyCake.ARCT" Count="1" />
+	<BackLink DBID="/Items/Consumables/EnergyCake.ARCT" Count="2" />
 	<BackLink DBID="/Items/Consumables/EnergyPotion.ARCT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Bard/Ability_A3.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/GhostLord/A0_MakeGhost.SPLL" Count="5" />

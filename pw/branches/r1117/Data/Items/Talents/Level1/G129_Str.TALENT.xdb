@@ -229,7 +229,7 @@
 					<Item href="/Items/Talents/Level1/G129_Str.TALENT" id="A882FB47-9572-43C5-AA20-FEEF3903043A">
 						<StatModApplicator>
 							<applyTarget>AbilityOwner</applyTarget>
-							<behaviorFlags>3</behaviorFlags>
+							<behaviorFlags>1</behaviorFlags>
 							<caption>контроль каста для надёжности</caption>
 							<constraint>None</constraint>
 							<dontUpdate>false</dontUpdate>
@@ -368,7 +368,7 @@
 																	<Item href="/Items/Talents/Level1/G129_Str.TALENT" id="D6F6CFF4-9017-405E-B095-ACE32E86B816">
 																		<MoveToApplicator>
 																			<applyTarget>ApplicatorTarget</applyTarget>
-																			<behaviorFlags>3</behaviorFlags>
+																			<behaviorFlags>1</behaviorFlags>
 																			<caption>Движение к центру</caption>
 																			<effect>
 																				<Item href="" />
@@ -411,16 +411,16 @@
 																			<providerName></providerName>
 																			<pushUnits>false</pushUnits>
 																			<startCondition>
-																				<compiledString></compiledString>
+																				<compiledString>FQ8AAAACAAAAFAAAACoAAABJbW11bmUyQ29udHJvbABVi+xRaAAAAACLRQyLEItNDIuCiAEAAP/Q3B1MAAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
 																				<returnType>bool</returnType>
-																				<sString>true</sString>
+																				<sString>receiver.vImmune2Control == 0</sString>
 																			</startCondition>
 																		</MoveToApplicator>
 																	</Item>
 																	<Item href="/Items/Talents/Level1/G129_Str.TALENT" id="76265271-7143-449F-B317-05DFF679CD20">
 																		<StatModApplicator>
 																			<applyTarget>ApplicatorTarget</applyTarget>
-																			<behaviorFlags>3</behaviorFlags>
+																			<behaviorFlags>1</behaviorFlags>
 																			<caption>скорость</caption>
 																			<constraint>None</constraint>
 																			<dontUpdate>false</dontUpdate>
@@ -457,9 +457,9 @@
 																			</modifier>
 																			<providerName></providerName>
 																			<startCondition>
-																				<compiledString></compiledString>
+																				<compiledString>FQ8AAAACAAAAFAAAACoAAABJbW11bmUyQ29udHJvbABVi+xRaAAAAACLRQyLEItNDIuCiAEAAP/Q3B1MAAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
 																				<returnType>bool</returnType>
-																				<sString>true</sString>
+																				<sString>receiver.vImmune2Control == 0</sString>
 																			</startCondition>
 																			<statModName></statModName>
 																		</StatModApplicator>
@@ -467,7 +467,7 @@
 																	<Item href="/Items/Talents/Level1/G129_Str.TALENT" id="64A99E26-147F-4AC3-B26F-D365C4DFA6EF">
 																		<FlagsApplicator>
 																			<applyTarget>ApplicatorTarget</applyTarget>
-																			<behaviorFlags>3</behaviorFlags>
+																			<behaviorFlags>1</behaviorFlags>
 																			<caption>Запреты</caption>
 																			<consumables />
 																			<effect>
@@ -489,9 +489,9 @@
 																			<LoggingEvent>-1</LoggingEvent>
 																			<providerName></providerName>
 																			<startCondition>
-																				<compiledString></compiledString>
+																				<compiledString>FQ8AAAACAAAAFAAAACoAAABJbW11bmUyQ29udHJvbABVi+xRaAAAAACLRQyLEItNDIuCiAEAAP/Q3B1MAAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
 																				<returnType>bool</returnType>
-																				<sString>true</sString>
+																				<sString>receiver.vImmune2Control == 0</sString>
 																			</startCondition>
 																			<talents>
 																				<Item href="/Items/Talents/Class/Shadow/Ability_A3.TALENT" />
@@ -523,36 +523,77 @@
 																			<uiEvent href="" />
 																		</DamageApplicator>
 																	</Item>
-																	<Item href="/Items/Talents/Level1/G129_Str.TALENT" id="66524BB3-C908-4582-A27D-918537FA0FF3">
-																		<GhostMoveApplicator>
+																	<Item href="/Items/Talents/Level1/G129_Str.TALENT" id="D5291224-BAE4-4756-BADA-63CD9763B850">
+																		<SpellApplicator>
 																			<applyTarget>ApplicatorTarget</applyTarget>
-																			<behaviorFlags>3</behaviorFlags>
-																			<caption>гост</caption>
-																			<collisionFlags>1</collisionFlags>
-																			<effect>
-																				<Item href="" />
-																				<Item href="" />
-																			</effect>
+																			<caption>фикс бага из-за ебаного стопа из-за госта</caption>
 																			<enabled>
-																				<compiledString>FU0AAAANAAAAUgAAAGgAAAB4AAAAjgAAAJ4AAAC0AAAAwAAAANYAAADiAAAA+AAAAAQBAAAaAQAALAEAAEcxMjljYXN0aW5nAEltbXVuZTJDb250cm9sAABUcmFuc2Zvcm1lZABHNFlhR2hvc3QAAABCaWdGb3JtAEJpZ01hZ2VGb3JtAFdhcmQAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdZAEAAN/g9sRED4rXAAAAaAwAAACLTQyLEYtNDIuCiAEAAP/Q3B1cAQAA3+D2xEQPirEAAABoHAAAAItNDIsRi00Mi4KIAQAA/9DcHVwBAADf4PbERHtmaCgAAACLTQyLEYtNDIuCiAEAAP/Q3B1kAQAA3+D2xER7RGg0AAAAi00MixGLTQyLgogBAAD/0NwdZAEAAN/g9sREeyJoPAAAAItNDIsRi00Mi4KIAQAA/9DcHWQBAADf4PbERHopagCLTRBRaEgAAACLVQyLAotNDIuQnAEAAP/SO0UQdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAAAAAAAAAAA8D8=</compiledString>
+																				<compiledString>FQ8AAAACAAAAFAAAACoAAABJbW11bmUyQ29udHJvbABVi+xRaAAAAACLRQyLEItNDIuCiAEAAP/Q3B1MAAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
 																				<returnType>bool</returnType>
-																				<sString>sender.vG129casting == 1.0f &amp;&amp; receiver.vImmune2Control == 0 &amp;&amp; (receiver.vTransformed == 0 || receiver.vG4YaGhost == 1.0f || receiver.vBigForm == 1.0f || receiver.vBigMageForm == 1.0f) &amp;&amp; receiver.applWard(GLOBAL) == pMisc</sString>
+																				<sString>receiver.vImmune2Control == 0</sString>
 																			</enabled>
 																			<formulaName></formulaName>
-																			<lifeTime>
-																				<compiledString>FQkAAAACAAAAFgAAACkAAABHMTI5dGltZQBVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcBTcAAADZXfzZRfyL5V3DAAAAoJmZyT8=</compiledString>
-																				<returnType>float</returnType>
-																				<sString>cG129time + 0.2f</sString>
-																			</lifeTime>
 																			<LoggingEvent>-1</LoggingEvent>
 																			<providerName></providerName>
-																			<pushUnits>true</pushUnits>
-																			<startCondition>
-																				<compiledString></compiledString>
-																				<returnType>bool</returnType>
-																				<sString>true</sString>
-																			</startCondition>
-																		</GhostMoveApplicator>
+																			<spell href="/Items/Talents/Level1/G129_Str.TALENT" id="A96D3D62-788F-42D4-B000-974EC19043AD">
+																				<Spell>
+																					<applicators>
+																						<Item href="/Items/Talents/Level1/G129_Str.TALENT" id="BA77D595-FB0A-49F9-B930-F3F9108154B2">
+																							<GhostMoveApplicator>
+																								<applyTarget>ApplicatorTarget</applyTarget>
+																								<behaviorFlags>1</behaviorFlags>
+																								<caption>гост</caption>
+																								<collisionFlags>1</collisionFlags>
+																								<effect>
+																									<Item href="" />
+																									<Item href="" />
+																								</effect>
+																								<enabled>
+																									<compiledString>FU0AAAANAAAAUgAAAGgAAAB4AAAAjgAAAJ4AAAC0AAAAwAAAANYAAADiAAAA+AAAAAQBAAAaAQAALAEAAEcxMjljYXN0aW5nAEltbXVuZTJDb250cm9sAABUcmFuc2Zvcm1lZABHNFlhR2hvc3QAAABCaWdGb3JtAEJpZ01hZ2VGb3JtAFdhcmQAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdZAEAAN/g9sRED4rXAAAAaAwAAACLTQyLEYtNDIuCiAEAAP/Q3B1cAQAA3+D2xEQPirEAAABoHAAAAItNDIsRi00Mi4KIAQAA/9DcHVwBAADf4PbERHtmaCgAAACLTQyLEYtNDIuCiAEAAP/Q3B1kAQAA3+D2xER7RGg0AAAAi00MixGLTQyLgogBAAD/0NwdZAEAAN/g9sREeyJoPAAAAItNDIsRi00Mi4KIAQAA/9DcHWQBAADf4PbERHopagCLTRBRaEgAAACLVQyLAotNDIuQnAEAAP/SO0UQdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAAAAAAAAAAA8D8=</compiledString>
+																									<returnType>bool</returnType>
+																									<sString>sender.vG129casting == 1.0f &amp;&amp; receiver.vImmune2Control == 0 &amp;&amp; (receiver.vTransformed == 0 || receiver.vG4YaGhost == 1.0f || receiver.vBigForm == 1.0f || receiver.vBigMageForm == 1.0f) &amp;&amp; receiver.applWard(GLOBAL) == pMisc</sString>
+																								</enabled>
+																								<formulaName></formulaName>
+																								<lifeTime>
+																									<compiledString>FQkAAAACAAAAFgAAACkAAABHMTI5dGltZQBVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcBTcAAADZXfzZRfyL5V3DAAAAoJmZyT8=</compiledString>
+																									<returnType>float</returnType>
+																									<sString>cG129time + 0.2f</sString>
+																								</lifeTime>
+																								<LoggingEvent>-1</LoggingEvent>
+																								<providerName></providerName>
+																								<pushUnits>true</pushUnits>
+																								<startCondition>
+																									<compiledString>FQ8AAAACAAAAFAAAACoAAABJbW11bmUyQ29udHJvbABVi+xRaAAAAACLRQyLEItNDIuCiAEAAP/Q3B1MAAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
+																									<returnType>bool</returnType>
+																									<sString>receiver.vImmune2Control == 0</sString>
+																								</startCondition>
+																							</GhostMoveApplicator>
+																						</Item>
+																					</applicators>
+																					<dispatch href="/Items/Talents/Level1/G129_Str.TALENT" id="720EAB72-67FE-4B77-9511-9FD509EF99F3">
+																						<DispatchImmediate>
+																							<alwaysApply>false</alwaysApply>
+																							<applyEffect>
+																								<Item href="" />
+																								<Item href="" />
+																							</applyEffect>
+																							<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																							<applyEffectOrientation>Default</applyEffectOrientation>
+																							<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																							<dieAfterApply>true</dieAfterApply>
+																							<dispatchEffect>
+																								<Item href="" />
+																								<Item href="" />
+																							</dispatchEffect>
+																							<flags>0</flags>
+																							<instantApply>false</instantApply>
+																						</DispatchImmediate>
+																					</dispatch>
+																				</Spell>
+																			</spell>
+																			<spellTarget>ApplicatorTarget</spellTarget>
+																			<targetSelector href="" />
+																		</SpellApplicator>
 																	</Item>
 																</applicators>
 																<dispatch href="/Items/Talents/Level1/G129_Str.TALENT" id="D5EF5063-79B2-4823-B935-724B9AD85997">
@@ -872,7 +913,7 @@
 																	<Item href="/Items/Talents/Level1/G129_Str.TALENT" id="39B7FD68-8594-4B1E-8FDB-CD43B6C79F88">
 																		<StatModApplicator>
 																			<applyTarget>ApplicatorTarget</applyTarget>
-																			<behaviorFlags>3</behaviorFlags>
+																			<behaviorFlags>1</behaviorFlags>
 																			<caption>циферка</caption>
 																			<constraint>None</constraint>
 																			<dontUpdate>false</dontUpdate>
@@ -881,9 +922,9 @@
 																				<Item href="" />
 																			</effect>
 																			<enabled>
-																				<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+																				<compiledString>FQ8AAAACAAAAFAAAACoAAABJbW11bmUyQ29udHJvbABVi+xRaAAAAACLRQyLEItNDIuCiAEAAP/Q3B1MAAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
 																				<returnType>bool</returnType>
-																				<sString>true</sString>
+																				<sString>receiver.vImmune2Control == 0</sString>
 																			</enabled>
 																			<formulaName></formulaName>
 																			<lifeTime>
@@ -909,9 +950,9 @@
 																			</modifier>
 																			<providerName></providerName>
 																			<startCondition>
-																				<compiledString></compiledString>
+																				<compiledString>FQ8AAAACAAAAFAAAACoAAABJbW11bmUyQ29udHJvbABVi+xRaAAAAACLRQyLEItNDIuCiAEAAP/Q3B1MAAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
 																				<returnType>bool</returnType>
-																				<sString>true</sString>
+																				<sString>receiver.vImmune2Control == 0</sString>
 																			</startCondition>
 																			<statModName></statModName>
 																		</StatModApplicator>

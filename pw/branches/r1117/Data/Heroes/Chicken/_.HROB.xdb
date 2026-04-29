@@ -559,9 +559,9 @@
 							<UnitConstant>
 								<name>Dchick_Attck_Buff</name>
 								<var>
-									<compiledString>FQAAAAAEAAAAFQAAABwAAAA4AAAAUwAAAFWL7IPsEItFCIsQi00Ii0IM/9DcDXUAAABR2QVxAAAA2Rwki00IixGLTQiLgjQBAADdXfj/0NwNaQAAANld9NlF9FHZHCToMgAAAIPECNxF+NwlYQAAANld8NlF8IvlXcMAAAAAAAAQQKRwPQrXo9A/AABQQXsUrkfheoQ/VYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
+									<compiledString>FQAAAAAEAAAAFQAAABwAAAA4AAAAUwAAAFWL7IPsEItFCIsQi00Ii0IM/9DcDXUAAABR2QVxAAAA2Rwki00IixGLTQiLgjQBAADdXfj/0NwNaQAAANld9NlF9FHZHCToMgAAAIPECNxF+NwlYQAAANld8NlF8IvlXcMAAAAAAAAQQKRwPQrXo9A/AABQQQAAAOBNYoA/VYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
 									<returnType>float</returnType>
-									<sString>0.01*sMaxLife + max(0.26*sIntellect, 13) - 4</sString>
+									<sString>0.008f*sMaxLife + max(0.26*sIntellect, 13) - 4</sString>
 								</var>
 							</UnitConstant>
 						</Item>

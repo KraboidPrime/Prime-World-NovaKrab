@@ -98,27 +98,121 @@
 							<spell href="/Items/Consumables/EnergyCake.ARCT" id="68D4F43B-E8F4-4894-AD2F-517F149BBE48">
 								<Spell>
 									<applicators>
-										<Item href="/Items/Consumables/EnergyCake.ARCT" id="A417DC1E-1B8C-4F41-B0FF-D93D0213A20C">
-											<HealApplicator>
-												<amount>
-													<compiledString>FR8AAAABAAAAKwAAAEVuZXJneV9yZXN0b3JlX2Ftb3VudF9wZXJfdGljawBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
-													<returnType>float</returnType>
-													<sString>cEnergy_restore_amount_per_tick</sString>
-												</amount>
+										<Item href="/Items/Consumables/EnergyCake.ARCT" id="A2EED172-9551-4806-9037-83CDA939DDF7">
+											<SpellSwitchApplicator>
+												<activeSpellIndex>
+													<compiledString>FQ0AAAADAAAAMgAAAEEAAABXAAAATWFuYWxlc3NIZXJvAFWL7IPsDItFCIsQi00Ii0IE/9CLTQiLEYtNCItCEN1d+P/Q3A2BAAAA3F343+D2xEF7K2gAAAAAi00IixGLTQiLgogBAAD/0NwdeQAAAN/g9sREewnHRfQBAAAA6wfHRfQAAAAAi0X0i+VdwwAAAAAAAPA/mpmZmZmZ6T8=</compiledString>
+													<returnType>int</returnType>
+													<sString>(sEnergy &gt;= 0.8*sMaxEnergy || sender.vManalessHero == 1.0f) ? 0 : 1</sString>
+												</activeSpellIndex>
 												<applyTarget>ApplicatorTarget</applyTarget>
-												<caption>Energy restored per tick</caption>
+												<caption></caption>
+												<dontUseDispatches>false</dontUseDispatches>
 												<enabled>
 													<compiledString></compiledString>
 													<returnType>bool</returnType>
 													<sString>true</sString>
 												</enabled>
 												<formulaName></formulaName>
-												<healTarget>Energy</healTarget>
-												<ignoreHealingMods>false</ignoreHealingMods>
 												<LoggingEvent>-1</LoggingEvent>
 												<providerName></providerName>
-												<uiEvent href="/UI/Events/CommonEvents/EventEnergy.UIEV" />
-											</HealApplicator>
+												<spells>
+													<Item href="/Items/Consumables/EnergyCake.ARCT" id="4AE85DC0-5C49-4F81-80B1-B54FE3473DF6">
+														<Spell>
+															<applicators>
+																<Item href="/Items/Consumables/EnergyCake.ARCT" id="7F9940B3-FCF7-449E-94B1-A1BA12B42014">
+																	<HealApplicator>
+																		<amount>
+																			<compiledString>FR8AAAABAAAAKwAAAEVuZXJneV9yZXN0b3JlX2Ftb3VudF9wZXJfdGljawBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+																			<returnType>float</returnType>
+																			<sString>cEnergy_restore_amount_per_tick</sString>
+																		</amount>
+																		<applyTarget>ApplicatorTarget</applyTarget>
+																		<caption>Life restored per tick</caption>
+																		<enabled>
+																			<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+																			<returnType>bool</returnType>
+																			<sString>true</sString>
+																		</enabled>
+																		<formulaName></formulaName>
+																		<healTarget>Health</healTarget>
+																		<ignoreHealingMods>false</ignoreHealingMods>
+																		<LoggingEvent>-1</LoggingEvent>
+																		<providerName></providerName>
+																		<uiEvent href="/UI/Events/CommonEvents/EventHeal.UIEV" />
+																	</HealApplicator>
+																</Item>
+															</applicators>
+															<dispatch href="/Items/Consumables/EnergyCake.ARCT" id="EC325C8A-C19B-4A74-B461-3E37088A0EBF">
+																<DispatchImmediate>
+																	<alwaysApply>false</alwaysApply>
+																	<applyEffect>
+																		<Item href="" />
+																		<Item href="" />
+																	</applyEffect>
+																	<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																	<applyEffectOrientation>Default</applyEffectOrientation>
+																	<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																	<dieAfterApply>true</dieAfterApply>
+																	<dispatchEffect>
+																		<Item href="" />
+																		<Item href="" />
+																	</dispatchEffect>
+																	<flags>0</flags>
+																	<instantApply>false</instantApply>
+																</DispatchImmediate>
+															</dispatch>
+														</Spell>
+													</Item>
+													<Item href="/Items/Consumables/EnergyCake.ARCT" id="2C1EFE09-93D3-467C-A88B-B9E097D8874E">
+														<Spell>
+															<applicators>
+																<Item href="/Items/Consumables/EnergyCake.ARCT" id="96B1C915-C5DF-498B-893F-80258BAB2E8A">
+																	<HealApplicator>
+																		<amount>
+																			<compiledString>FR8AAAABAAAAKwAAAEVuZXJneV9yZXN0b3JlX2Ftb3VudF9wZXJfdGljawBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+																			<returnType>float</returnType>
+																			<sString>cEnergy_restore_amount_per_tick</sString>
+																		</amount>
+																		<applyTarget>ApplicatorTarget</applyTarget>
+																		<caption>Energy restored per tick</caption>
+																		<enabled>
+																			<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+																			<returnType>bool</returnType>
+																			<sString>true</sString>
+																		</enabled>
+																		<formulaName></formulaName>
+																		<healTarget>Energy</healTarget>
+																		<ignoreHealingMods>false</ignoreHealingMods>
+																		<LoggingEvent>-1</LoggingEvent>
+																		<providerName></providerName>
+																		<uiEvent href="/UI/Events/CommonEvents/EventEnergy.UIEV" />
+																	</HealApplicator>
+																</Item>
+															</applicators>
+															<dispatch href="/Items/Consumables/EnergyCake.ARCT" id="6DE95442-EB96-44B4-9C43-85012B4B4EBC">
+																<DispatchImmediate>
+																	<alwaysApply>false</alwaysApply>
+																	<applyEffect>
+																		<Item href="" />
+																		<Item href="" />
+																	</applyEffect>
+																	<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																	<applyEffectOrientation>Default</applyEffectOrientation>
+																	<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																	<dieAfterApply>true</dieAfterApply>
+																	<dispatchEffect>
+																		<Item href="" />
+																		<Item href="" />
+																	</dispatchEffect>
+																	<flags>0</flags>
+																	<instantApply>false</instantApply>
+																</DispatchImmediate>
+															</dispatch>
+														</Spell>
+													</Item>
+												</spells>
+											</SpellSwitchApplicator>
 										</Item>
 									</applicators>
 									<dispatch href="/Items/Consumables/EnergyCake.ARCT" id="11A6CE9A-34E4-4D2D-B561-6DED65D21A29">
