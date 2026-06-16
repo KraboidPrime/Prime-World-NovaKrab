@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HeroSkin>
+	<BackLink DBID="/Heroes/Assassin/_.HROB" Count="2" />
+	<antagonistSkinId></antagonistSkinId>
+	<askList href="/Heroes/Assassin/S7/_.HEROSKIN" id="F01DD1BB-F6AC-4F2A-BC93-215539C0C609">
+		<AskSoundsRef>
+			<asks>
+				<settings>
+					<Item>
+						<ask3dRecipient>Enemies</ask3dRecipient>
+						<minInterval>12</minInterval>
+					</Item>
+					<Item>
+						<ask3dRecipient>Enemies</ask3dRecipient>
+						<minInterval>6</minInterval>
+					</Item>
+					<Item>
+						<ask3dRecipient>Enemies</ask3dRecipient>
+						<minInterval>6</minInterval>
+					</Item>
+					<Item>
+						<ask3dRecipient>Enemies</ask3dRecipient>
+						<minInterval>6</minInterval>
+					</Item>
+					<Item>
+						<ask3dRecipient>Enemies</ask3dRecipient>
+						<minInterval>6</minInterval>
+					</Item>
+					<Item>
+						<ask3dRecipient>Enemies</ask3dRecipient>
+						<minInterval>12</minInterval>
+					</Item>
+					<Item>
+						<ask3dRecipient>Enemies</ask3dRecipient>
+						<minInterval>6</minInterval>
+					</Item>
+					<Item>
+						<ask3dRecipient>Enemies</ask3dRecipient>
+						<minInterval>6</minInterval>
+					</Item>
+					<Item>
+						<ask3dRecipient>Enemies</ask3dRecipient>
+						<minInterval>6</minInterval>
+					</Item>
+					<Item>
+						<ask3dRecipient>Enemies</ask3dRecipient>
+						<minInterval>3</minInterval>
+					</Item>
+					<Item>
+						<ask3dRecipient>Enemies</ask3dRecipient>
+						<minInterval>3</minInterval>
+					</Item>
+					<Item>
+						<ask3dRecipient>Enemies</ask3dRecipient>
+						<minInterval>3</minInterval>
+					</Item>
+					<Item>
+						<ask3dRecipient>Enemies</ask3dRecipient>
+						<minInterval>3</minInterval>
+					</Item>
+					<Item>
+						<ask3dRecipient>Enemies</ask3dRecipient>
+						<minInterval>3</minInterval>
+					</Item>
+				</settings>
+				<sounds>
+					<Item href="/Heroes/Assassin/S7/_.HEROSKIN" id="A47F1241-5BED-4C9B-B7DE-07645E07DE1E">
+						<DBSoundSceneComponent>
+							<attached />
+							<caption>sound</caption>
+							<desc>
+								<eventName>Move</eventName>
+								<groupName>Heroes/Assassin/Asks/Elf</groupName>
+								<projectName>PF</projectName>
+							</desc>
+							<groupFlags>0</groupFlags>
+							<locatorList href="" />
+							<orientation>Default</orientation>
+							<timeInterval>0</timeInterval>
+						</DBSoundSceneComponent>
+					</Item>
+					<Item href="/Heroes/Assassin/S7/_.HEROSKIN" id="F28DFE85-D3BD-4528-B9A1-3CE210F8A0BE">
+						<DBSoundSceneComponent>
+							<attached />
+							<caption>sound</caption>
+							<desc>
+								<eventName>Ability1</eventName>
+								<groupName>Heroes/Assassin/Asks/Elf</groupName>
+								<projectName>PF</projectName>
+							</desc>
+							<groupFlags>0</groupFlags>
+							<locatorList href="" />
+							<orientation>Default</orientation>
+							<timeInterval>0</timeInterval>
+						</DBSoundSceneComponent>
+					</Item>
+					<Item href="/Heroes/Assassin/S7/_.HEROSKIN" id="61202AC9-BE1B-4F01-BD09-720AF09F95DD">
+						<DBSoundSceneComponent>
+							<attached />
+							<caption>sound</caption>
+							<desc>
+								<eventName>Ability2</eventName>
+								<groupName>Heroes/Assassin/Asks/Elf</groupName>
+								<projectName>PF</projectName>
+							</desc>
+							<groupFlags>0</groupFlags>
+							<locatorList href="" />
+							<orientation>Default</orientation>
+							<timeInterval>0</timeInterval>
+						</DBSoundSceneComponent>
+					</Item>
+					<Item href="/Heroes/Assassin/S7/_.HEROSKIN" id="26BC6AE4-7158-4794-AD06-87A95E57EF30">
+						<DBSoundSceneComponent>
+							<attached />
+							<caption>sound</caption>
+							<desc>
+								<eventName>Ability3</eventName>
+								<groupName>Heroes/Assassin/Asks/Elf</groupName>
+								<projectName>PF</projectName>
+							</desc>
+							<groupFlags>0</groupFlags>
+							<locatorList href="" />
+							<orientation>Default</orientation>
+							<timeInterval>0</timeInterval>
+						</DBSoundSceneComponent>
+					</Item>
+					<Item href="/Heroes/Assassin/S7/_.HEROSKIN" id="7DC87095-4429-46D5-993D-A5F2191E02B3">
+						<DBSoundSceneComponent>
+							<attached />
+							<caption>sound</caption>
+							<desc>
+								<eventName>UltimateAbility</eventName>
+								<groupName>Heroes/Assassin/Asks/Elf</groupName>
+								<projectName>PF</projectName>
+							</desc>
+							<groupFlags>0</groupFlags>
+							<locatorList href="" />
+							<orientation>Default</orientation>
+							<timeInterval>0</timeInterval>
+						</DBSoundSceneComponent>
+					</Item>
+					<Item href="/Heroes/Assassin/S7/_.HEROSKIN" id="8C0CF77D-71F3-4172-AA20-3D2F69A8A742">
+						<DBSoundSceneComponent>
+							<attached />
+							<caption>sound</caption>
+							<desc>
+								<eventName>Attack</eventName>
+								<groupName>Heroes/Assassin/Asks/Elf</groupName>
+								<projectName>PF</projectName>
+							</desc>
+							<groupFlags>0</groupFlags>
+							<locatorList href="" />
+							<orientation>Default</orientation>
+							<timeInterval>0</timeInterval>
+						</DBSoundSceneComponent>
+					</Item>
+					<Item href="/Heroes/Assassin/S7/_.HEROSKIN" id="7C1320EC-A775-4A00-ABE2-6489D6A02BF8">
+						<DBSoundSceneComponent>
+							<attached />
+							<caption>sound</caption>
+							<desc>
+								<eventName>Death</eventName>
+								<groupName>Heroes/Assassin/Asks/Elf</groupName>
+								<projectName>PF</projectName>
+							</desc>
+							<groupFlags>0</groupFlags>
+							<locatorList href="" />
+							<orientation>Default</orientation>
+							<timeInterval>0</timeInterval>
+						</DBSoundSceneComponent>
+					</Item>
+					<Item href="/Heroes/Assassin/S7/_.HEROSKIN" id="D583D874-C8CD-4BF1-8A32-CA4FB9BD6CE9">
+						<DBSoundSceneComponent>
+							<attached />
+							<caption>sound</caption>
+							<desc>
+								<eventName>Revive</eventName>
+								<groupName>Heroes/Assassin/Asks/Elf</groupName>
+								<projectName>PF</projectName>
+							</desc>
+							<groupFlags>0</groupFlags>
+							<locatorList href="" />
+							<orientation>Default</orientation>
+							<timeInterval>0</timeInterval>
+						</DBSoundSceneComponent>
+					</Item>
+					<Item href="/Heroes/Assassin/S7/_.HEROSKIN" id="C6F688F1-8E3C-4D80-AD4C-20C6DB777ED5">
+						<DBSoundSceneComponent>
+							<attached />
+							<caption>sound</caption>
+							<desc>
+								<eventName>Deathenemyhero</eventName>
+								<groupName>Heroes/Assassin/Asks/Elf</groupName>
+								<projectName>PF</projectName>
+							</desc>
+							<groupFlags>0</groupFlags>
+							<locatorList href="" />
+							<orientation>Default</orientation>
+							<timeInterval>0</timeInterval>
+						</DBSoundSceneComponent>
+					</Item>
+					<Item href="/Heroes/Assassin/S7/_.HEROSKIN" id="59E97A21-C6B7-4E2F-BF00-0AD5FDB91B91">
+						<DBSoundSceneComponent>
+							<attached />
+							<caption>sound</caption>
+							<desc>
+								<eventName>Iddle</eventName>
+								<groupName>Heroes/Assassin/Asks/Elf</groupName>
+								<projectName>PF</projectName>
+							</desc>
+							<groupFlags>0</groupFlags>
+							<locatorList href="" />
+							<orientation>Default</orientation>
+							<timeInterval>0</timeInterval>
+						</DBSoundSceneComponent>
+					</Item>
+					<Item href="" />
+					<Item href="" />
+					<Item href="" />
+					<Item href="" />
+				</sounds>
+				<sounds3d>
+					<Item href="" />
+					<Item href="" />
+					<Item href="" />
+					<Item href="" />
+					<Item href="" />
+					<Item href="" />
+					<Item href="" />
+					<Item href="" />
+					<Item href="" />
+					<Item href="" />
+					<Item href="" />
+					<Item href="" />
+					<Item href="" />
+					<Item href="" />
+				</sounds3d>
+			</asks>
+		</AskSoundsRef>
+	</askList>
+	<askListSecondState href="" />
+	<botRoll>true</botRoll>
+	<cost>1</cost>
+	<deathParameters href="" />
+	<gender>Male</gender>
+	<heroImageA href="/UI/Styles/Icons/Heroes/Assassin/Face_S7.ITEX" />
+	<heroImageB href="/UI/Styles/Icons/Heroes/Assassin/Face_S7.ITEX" />
+	<heroName textref="/Heroes/Assassin/S7/_.HEROSKIN_heroName.txt" />
+	<heroRace>3</heroRace>
+	<heroRenderA href="/UI/Styles/Icons/Heroes/Assassin/Face_S7.ITEX" />
+	<heroRenderB href="/UI/Styles/Icons/Heroes/Assassin/Face_S7.ITEX" />
+	<legal>true</legal>
+	<lobbyAskSound>Heroes/Asks/assassin_b_iddle_2</lobbyAskSound>
+	<mute>false</mute>
+	<persistentId>assassin_S7</persistentId>
+	<sceneObject href="/Heroes/Assassin/S7/_.SOBJ" />
+</HeroSkin>

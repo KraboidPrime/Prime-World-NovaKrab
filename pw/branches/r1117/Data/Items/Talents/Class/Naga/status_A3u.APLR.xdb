@@ -6,6 +6,7 @@
 		<Item href="/Items/Talents/Class/Naga/status_A3u.APLR" id="BD204300-0BD4-4A43-961D-81257EB20A7B">
 			<StatusApplicator parent="/Heroes/DefaultStatus/status_ControlTimeDecrease.APLR">
 				<description textref="" />
+				<dispellPriority>NonDispellable</dispellPriority>
 				<effect>
 					<Item href="" />
 					<Item skip="1" />
@@ -31,7 +32,7 @@
 	<description textref="/Items/Talents/Class/Naga/status_A3u.APLR_description.txt" />
 	<dispellPriority>NonDispellable</dispellPriority>
 	<effect>
-		<Item href="" />
+		<Item href="/Effects/Buffs/Bless/_GoldPowerfulRes.EFFT" />
 		<Item href="" />
 	</effect>
 	<enabled>

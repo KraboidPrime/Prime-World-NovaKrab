@@ -336,7 +336,7 @@
 				<constraint>None</constraint>
 				<dontUpdate>true</dontUpdate>
 				<effect>
-					<Item href="" />
+					<Item href="/Effects/Buffs/SpeedingUp/_MoveCycle.EFFT" />
 					<Item href="" />
 				</effect>
 				<enabled>
@@ -383,7 +383,7 @@
 				<constraint>None</constraint>
 				<dontUpdate>false</dontUpdate>
 				<effect>
-					<Item href="" />
+					<Item href="/Heroes/Chronicle/A4Sound.EFFT" />
 					<Item href="" />
 				</effect>
 				<enabled>
@@ -425,6 +425,11 @@
 		<Item href="/Items/Talents/Class/Chronicle/status_A4_self.APLR" id="677CFBC2-9A56-4D56-84FB-017BD13A9240">
 			<StatusApplicator parent="/Heroes/DefaultStatus/status_ControlTimeDecrease.APLR">
 				<description textref="" />
+				<dispellPriority>NonDispellable</dispellPriority>
+				<effect>
+					<Item href="/Effects/Buffs/Bless/_GoldPowerfulRes.EFFT" />
+					<Item skip="1" />
+				</effect>
 				<image href="" />
 				<name textref="" />
 			</StatusApplicator>
@@ -447,7 +452,7 @@
 	<dispellPriority>NonDispellable</dispellPriority>
 	<effect>
 		<Item href="/Effects/Debuffs/Explosion/_TimeSlow.EFFT" />
-		<Item href="/Heroes/Chronicle/A4Sound.EFFT" />
+		<Item href="" />
 	</effect>
 	<enabled>
 		<compiledString></compiledString>

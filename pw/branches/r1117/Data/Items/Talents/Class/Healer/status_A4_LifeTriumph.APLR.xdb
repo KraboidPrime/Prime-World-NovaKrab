@@ -38,7 +38,14 @@
 		</Item>
 		<Item href="/Heroes/DefaultStatus/CancelAllEnemyDispatches.APLR" />
 		<Item href="/Items/Talents/Class/Healer/A4PeriodSpell.APLR" />
-		<Item href="/GameLogic/GeneralApplicators/Immune2Control.APLR" />
+		<Item href="/Items/Talents/Class/Healer/status_A4_LifeTriumph.APLR" id="62AAD259-29EB-4673-8E77-B81A8D301E2A">
+			<StatModApplicator parent="/GameLogic/GeneralApplicators/Immune2Control.APLR">
+				<effect>
+					<Item href="/Effects/Buffs/ColdCharged/_Gold1.EFFT" />
+					<Item skip="1" />
+				</effect>
+			</StatModApplicator>
+		</Item>
 		<Item href="/GameLogic/GeneralApplicators/Uncontrollable.APLR" />
 	</applicators>
 	<applyTarget>ApplicatorTarget</applyTarget>

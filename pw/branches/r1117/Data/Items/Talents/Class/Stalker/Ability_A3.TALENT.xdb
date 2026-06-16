@@ -6,6 +6,8 @@
 	<BackLink DBID="/Items/Talents/Class/Stalker/Ability_A3u.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset6_2_CDR/appl_Redset6_2_RefreshCooldown.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/Stalker_Mighty.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Stalker/Ability_A3_SUP.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Stalker/NewSupA3.APLR" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -103,6 +105,22 @@
 		</Item>
 		<Item href="/Heroes/DefaultStatus/_HASTE_status.APLR" />
 		<Item href="/Items/Talents/Class/Stalker/status_NEW_def_Stalk.APLR" />
+		<Item href="/Items/Talents/Class/Stalker/Ability_A3.TALENT" id="3C8C4DB7-2C4D-41E2-AF13-C2BC8B38516F">
+			<StatusApplicator parent="/Items/Talents/Level4/status_G660_GuildAllyDispell_Red.APLR">
+				<applyTarget>AbilityOwner</applyTarget>
+				<effect>
+					<Item href="/Effects/Buffs/ColdCharged/_Gold1.EFFT" />
+					<Item skip="1" />
+				</effect>
+				<enabled>
+					<compiledString>FTgAAAAEAAAAPwAAAFgAAACOAAAApwAAAFN0YWxrZXJfQTNfU1VQAABTdGFsa2VyX0EzX1NVUAAAU3RhbGtlcl9BM3UAU3RhbGtlcl9BM3UAVYvsg+wUaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0WGggAAAAi1UIiwKLTQiLkKgBAAD/0oXAdCpoLAAAAItFCIsQi00Ii4KoAQAA/9CJRfSLTfSLEYtN9ItCBP/QiEXz6wTGRfMAD7ZN84XJdAnHRewBAAAA6wfHRewAAAAAikXsi+Vdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("Stalker_A3_SUP") &amp;&amp; tal("Stalker_A3u")</sString>
+				</enabled>
+				<image href="/UI/Styles/Icons/Heroes/Stalker/A3.ITEX" />
+				<name textref="/Items/Talents/Class/Stalker/Ability_A3.TALENT_3c8c4db72c4d41e2af13c2bc8b38516f_name.txt" />
+			</StatusApplicator>
+		</Item>
 	</applicators>
 	<askId>3</askId>
 	<autoTargetSelector href="" />
@@ -204,6 +222,16 @@
 					</UnitConstant>
 				</Item>
 				<Item href="/Items/Talents/Class/Stalker/const_A1_Stamina" />
+				<Item href="/Items/Talents/Class/Stalker/Ability_A3.TALENT" id="C8C785E6-A2AD-4D89-8EAF-593B81F21EA9">
+					<UnitConstant>
+						<name>Immune2Control_Duration</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
+							<returnType>float</returnType>
+							<sString>2.0f</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
@@ -239,7 +267,7 @@
 				<Item href="" />
 			</dispatchEffect>
 			<flags>0</flags>
-			<instantApply>true</instantApply>
+			<instantApply>false</instantApply>
 		</DispatchImmediate>
 	</dispatch>
 	<flags>18</flags>

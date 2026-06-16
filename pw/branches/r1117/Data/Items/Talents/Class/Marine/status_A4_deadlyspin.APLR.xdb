@@ -390,7 +390,14 @@
 				<statModName></statModName>
 			</StatModApplicator>
 		</Item>
-		<Item href="/GameLogic/GeneralApplicators/Immune2Control.APLR" />
+		<Item href="/Items/Talents/Class/Marine/status_A4_deadlyspin.APLR" id="3FC87AF7-FFC9-40B0-86D6-5EB8FB77B00B">
+			<StatModApplicator parent="/GameLogic/GeneralApplicators/Immune2Control.APLR">
+				<effect>
+					<Item href="/Effects/Buffs/ColdCharged/_Gold1.EFFT" />
+					<Item skip="1" />
+				</effect>
+			</StatModApplicator>
+		</Item>
 		<Item href="/GameLogic/GeneralApplicators/Uncontrollable.APLR" />
 		<Item href="/Items/Talents/Class/Marine/status_A4_deadlyspin.APLR" id="88452469-A5CD-4993-9C3A-602E7AB51454">
 			<StatModApplicator>

@@ -73,6 +73,10 @@
 					<Item href="/Items/Talents/Class/Ratcatcher/Ability4.TALENT" id="B22A8705-F71A-4A82-825B-50791D1E9E0D">
 						<StatModApplicator parent="/GameLogic/GeneralApplicators/Immune2Control.APLR">
 							<applyTarget>AbilityOwner</applyTarget>
+							<effect>
+								<Item href="/Effects/Buffs/ColdCharged/_Gold1.EFFT" />
+								<Item skip="1" />
+							</effect>
 							<lifeTime>
 								<compiledString>FREAAAABAAAAHQAAAENoYW5uZWxsaW5nX1RpbWUAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
 								<returnType>float</returnType>

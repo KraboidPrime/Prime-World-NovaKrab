@@ -5,7 +5,16 @@
 	<attachType>Sword</attachType>
 	<component href="/Heroes/Stalker/FXSword_A4_2.PRXY" />
 	<deathType>Manual</deathType>
-	<enableCondition href="" />
+	<enableCondition href="/Heroes/Stalker/FXSword_A4_2.EFFT" id="FFDE8D41-81FD-45E6-A400-750468344983">
+		<ConditionFormula>
+			<condition>
+				<compiledString>FRcAAAACAAAAHAAAADgAAABzdGFsa2VyX1MyAABzdGFsa2VyX1MzAFWL7FFoAAAAAItFCIsQi00Ii4LoAQAA/9APtsiFyXUlaAwAAACLVQiLAotNCIuQ6AEAAP/SD7bAhcB1CcdF/AEAAADrB8dF/AAAAACKRfyL5V3D</compiledString>
+				<returnType>bool</returnType>
+				<sString>!sender.IsSkinUsed("stalker_S2") &amp;&amp; !sender.IsSkinUsed("stalker_S3")</sString>
+			</condition>
+			<name></name>
+		</ConditionFormula>
+	</enableCondition>
 	<fadeIn>0</fadeIn>
 	<fadeOut>0.2</fadeOut>
 	<groupFlags>0</groupFlags>

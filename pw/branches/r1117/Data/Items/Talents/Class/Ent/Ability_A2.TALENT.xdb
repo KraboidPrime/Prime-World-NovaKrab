@@ -183,7 +183,7 @@
 				<description textref="/Items/Talents/Class/Ent/Ability_A2.TALENT_e8d37035524e412fbd819ae44b301377_description.txt" />
 				<dispellPriority>NonDispellable</dispellPriority>
 				<effect>
-					<Item href="" />
+					<Item href="/Effects/Buffs/ColdCharged/_Gold1.EFFT" />
 					<Item href="" />
 				</effect>
 				<enabled>

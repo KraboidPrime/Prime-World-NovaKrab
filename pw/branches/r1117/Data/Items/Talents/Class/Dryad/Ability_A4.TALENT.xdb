@@ -248,9 +248,9 @@
 					<UnitConstant>
 						<name>A4_Range</name>
 						<var>
-							<compiledString>FQsAAAABAAAAFwAAAFJhbmdlX0xvbmcAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>cRange_Long</sString>
+							<sString>20</sString>
 						</var>
 					</UnitConstant>
 				</Item>

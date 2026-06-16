@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RefreshCooldownApplicator>
+	<BackLink DBID="/Items/Talents/Class/Stalker/Ability_A2.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Stalker/Ability_A1.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Stalker/Ability_A4.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Stalker/Ability_A4_2.TALENT" Count="1" />
+	<allowCdIncrease>false</allowCdIncrease>
+	<applyTarget>AbilityOwner</applyTarget>
+	<caption>ап в 5 на кд</caption>
+	<enabled>
+		<compiledString>FR8AAAACAAAAJgAAAD8AAABTdGFsa2VyX0EzX1NVUAAAU3RhbGtlcl9BM19TVVAAVYvsg+wIaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wCKRfuL5V3D</compiledString>
+		<returnType>bool</returnType>
+		<sString>tal("Stalker_A3_SUP")</sString>
+	</enabled>
+	<flags>128</flags>
+	<formulaName></formulaName>
+	<LoggingEvent>-1</LoggingEvent>
+	<providerName></providerName>
+	<reduceByPercent>true</reduceByPercent>
+	<reductionAmount>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzczMPQ==</compiledString>
+		<returnType>float</returnType>
+		<sString>0.1</sString>
+	</reductionAmount>
+	<refreshThis>false</refreshThis>
+	<talents>
+		<Item href="/Items/Talents/Class/Stalker/Ability_A3.TALENT" />
+	</talents>
+	<useListAs>ListAsRule</useListAs>
+</RefreshCooldownApplicator>

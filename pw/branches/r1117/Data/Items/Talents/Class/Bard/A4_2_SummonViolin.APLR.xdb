@@ -2,6 +2,36 @@
 <SummonApplicator>
 	<BackLink DBID="/Items/Talents/Class/Bard/Ability_A4_2.TALENT" Count="1" />
 	<applicators>
+		<Item href="/Items/Talents/Class/Bard/A4_2_SummonViolin.APLR" id="6ACC297D-535C-4658-9250-07A7552D6294">
+			<PermanentStatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>set BardStacks_A4Start = BardCurrentStacks</caption>
+				<customApplyType>None</customApplyType>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FRIAAAABAAAAFgAAAEJhcmRDdXJyZW50U3RhY2tzAFWL7GgAAAAAi0UIixCLTQiLgogBAAD/0F3D</compiledString>
+						<returnType>float</returnType>
+						<sString>sender.vBardCurrentStacks</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>0.0f</sString>
+					</multValue>
+					<stat>Life</stat>
+					<topModifier>false</topModifier>
+					<variable>BardStacks_A4Start</variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
 		<Item href="/Items/Talents/Class/Bard/A4_2_SummonViolin.APLR" id="01F81BC5-9703-4922-A4E0-4AAFE7683EE3">
 			<GhostMoveApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
@@ -171,6 +201,53 @@
 								<stat>Life</stat>
 								<topModifier>false</topModifier>
 								<variable>A4_2_Active</variable>
+							</modifier>
+							<providerName></providerName>
+							<startCondition>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</startCondition>
+							<statModName></statModName>
+						</StatModApplicator>
+					</Item>
+					<Item href="/Items/Talents/Class/Bard/A4_2_SummonViolin.APLR" id="F8A5D210-F2DF-490E-BCA7-03C911DB7C5A">
+						<StatModApplicator>
+							<applyTarget>AbilityOwner</applyTarget>
+							<behaviorFlags>0</behaviorFlags>
+							<caption></caption>
+							<constraint>None</constraint>
+							<dontUpdate>false</dontUpdate>
+							<effect>
+								<Item href="" />
+								<Item href="" />
+							</effect>
+							<enabled>
+								<compiledString>FRcAAAACAAAAHgAAADcAAABCYXJkX0E0XzJ1AABCYXJkX0E0XzJ1AFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoDAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAikX7i+Vdww==</compiledString>
+								<returnType>bool</returnType>
+								<sString>tal("Bard_A4_2u")</sString>
+							</enabled>
+							<formulaName></formulaName>
+							<lifeTime>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>-1.0</sString>
+							</lifeTime>
+							<LoggingEvent>-1</LoggingEvent>
+							<modifier>
+								<addValue>
+									<compiledString>FUEAAAAIAAAASAAAAGEAAACfAAAAsgAAALgAAADXAAAA7AAAAAIBAABUYXJnZXQAAEJhcmRTdGFja3NfQTRTdGFydAAAQmFyZF9BMF9TVVAAQmFyZF9BMF9TVVAAQTBfU1VQX0JvbnVzAFWL7IPsHGgcAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoKAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdCuLVQxSi0UIUGg0AAAAi00QixGLTRCLQlD/0Nw1IwEAANwFGwEAAN1d8OsF2ejdXfCLTRCLEYtNEItCSP/QiUXsaAAAAACLTeyLEYtN7ItCTP/QiUXoaAgAAACLTeiLEYtN6IuCiAEAAP/Q3A0TAQAA3E3w2V3k2UXki+VdwwAAAAAAAOA/AAAAAAAA8D8AAAAAAABZQA==</compiledString>
+									<returnType>float</returnType>
+									<sString>0.5 *  appl.parent.oTarget.vBardStacks_A4Start * (tal("Bard_A0_SUP") ? (cA0_SUP_Bonus/100 + 1) : 1)</sString>
+								</addValue>
+								<multValue>
+									<compiledString></compiledString>
+									<returnType>float</returnType>
+									<sString>1.0f</sString>
+								</multValue>
+								<stat>MoveSpeed</stat>
+								<topModifier>false</topModifier>
+								<variable></variable>
 							</modifier>
 							<providerName></providerName>
 							<startCondition>

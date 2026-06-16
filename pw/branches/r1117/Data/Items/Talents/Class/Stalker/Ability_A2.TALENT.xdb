@@ -247,7 +247,7 @@
 																			<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
 																			<dieAfterApply>true</dieAfterApply>
 																			<dispatchEffect>
-																				<Item href="/Effects/Shots/Arrow/_Prime.EFFT" />
+																				<Item href="/Effects/Shots/Arrow/_PrimeBigger.EFFT" />
 																				<Item href="" />
 																			</dispatchEffect>
 																			<flags>0</flags>
@@ -919,7 +919,7 @@
 																			<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
 																			<dieAfterApply>true</dieAfterApply>
 																			<dispatchEffect>
-																				<Item href="/Effects/Shots/Arrow/_PrimeBigger.EFFT" />
+																				<Item href="/Effects/Shots/Arrow/_Prime.EFFT" />
 																				<Item href="" />
 																			</dispatchEffect>
 																			<flags>0</flags>
@@ -1119,6 +1119,7 @@
 			</SpellApplicator>
 		</Item>
 		<Item href="/Items/Talents/Class/Stalker/status_NEW_def_Stalk.APLR" />
+		<Item href="/Items/Talents/Class/Stalker/NewSupA3.APLR" />
 	</applicators>
 	<askId>2</askId>
 	<autoTargetSelector href="" />

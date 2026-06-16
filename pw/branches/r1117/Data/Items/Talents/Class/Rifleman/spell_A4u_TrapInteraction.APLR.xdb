@@ -2,6 +2,7 @@
 <SpellSwitchApplicator>
 	<BackLink DBID="/Items/Talents/Class/Rifleman/Summon_Trap.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Rifleman/Summon_Trap_SUP.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/WitchDoctor/Ability4_2.TALENT" Count="1" />
 	<activeSpellIndex>
 		<compiledString>FQwAAAACAAAAEwAAADkAAABSaWZsZW1hbl9BNABVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCHP/Q3B1bAAAA3+D2xER6CcdF+AAAAADrB8dF+AEAAACLRfiL5V3DAAAAAAAA8D8=</compiledString>
 		<returnType>int</returnType>

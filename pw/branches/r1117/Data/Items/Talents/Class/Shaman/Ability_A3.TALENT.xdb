@@ -721,6 +721,37 @@
 												<useListAs>ListAsRule</useListAs>
 											</FlagsApplicator>
 										</Item>
+										<Item href="/Items/Talents/Class/Shaman/Ability_A3.TALENT" id="0D0A3027-A1F2-41C1-A4FC-9620A1F5128C">
+											<GhostMoveApplicator>
+												<applyTarget>ApplicatorTarget</applyTarget>
+												<behaviorFlags>0</behaviorFlags>
+												<caption>ghost move</caption>
+												<collisionFlags>7</collisionFlags>
+												<effect>
+													<Item href="" />
+													<Item href="" />
+												</effect>
+												<enabled>
+													<compiledString></compiledString>
+													<returnType>bool</returnType>
+													<sString>true</sString>
+												</enabled>
+												<formulaName></formulaName>
+												<lifeTime>
+													<compiledString></compiledString>
+													<returnType>float</returnType>
+													<sString>-1.0</sString>
+												</lifeTime>
+												<LoggingEvent>-1</LoggingEvent>
+												<providerName></providerName>
+												<pushUnits>false</pushUnits>
+												<startCondition>
+													<compiledString></compiledString>
+													<returnType>bool</returnType>
+													<sString>true</sString>
+												</startCondition>
+											</GhostMoveApplicator>
+										</Item>
 									</applicators>
 									<applyTarget>AbilityOwner</applyTarget>
 									<behaviour href="/Items/Talents/Class/Shaman/Ability_A3.TALENT" id="C03085C5-BDB9-4F08-B08E-4A5AC2DB8352">

@@ -365,9 +365,9 @@
 									<applyTarget>ApplicatorTarget</applyTarget>
 									<caption>анимация аое дамага</caption>
 									<enabled>
-										<compiledString>FRUAAAABAAAAHwAAAFNlbmRlcl9OYXRpdmVUZXJyYWluAFWL7GoCi0UQUGgAAAAAi00IixGLTQiLgpwBAAD/0DPJO0UQD5XBisFdww==</compiledString>
+										<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
 										<returnType>bool</returnType>
-										<sString>sender.applSender_NativeTerrain(ABILITY) != pMisc; //cSender_NativeTerrain</sString>
+										<sString>true</sString>
 									</enabled>
 									<formulaName></formulaName>
 									<LoggingEvent>-1</LoggingEvent>
@@ -504,9 +504,9 @@
 									<applyTarget>ApplicatorTarget</applyTarget>
 									<caption>Аое дамаг</caption>
 									<enabled>
-										<compiledString>FRUAAAABAAAAHwAAAFNlbmRlcl9OYXRpdmVUZXJyYWluAFWL7GoCi0UQUGgAAAAAi00IixGLTQiLgpwBAAD/0DPJO0UQD5XBisFdww==</compiledString>
+										<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
 										<returnType>bool</returnType>
-										<sString>sender.applSender_NativeTerrain(ABILITY) != pMisc; //cSender_NativeTerrain</sString>
+										<sString>true</sString>
 									</enabled>
 									<formulaName></formulaName>
 									<LoggingEvent>-1</LoggingEvent>

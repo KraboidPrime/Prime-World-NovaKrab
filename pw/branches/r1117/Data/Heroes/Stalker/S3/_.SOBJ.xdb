@@ -1,0 +1,1472 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DBSceneObject>
+	<BackLink DBID="/Heroes/Stalker/S3/_.HEROSKIN" Count="1" />
+	<attached>
+		<Item>
+			<attachFlags>15</attachFlags>
+			<component href="/Heroes/Stalker/S3/_.SOBJ" id="089D69B3-7CBD-4987-B98D-D568060EB40C">
+				<DBAnimatedSceneComponent>
+					<aabb>
+						<maxX>1.5</maxX>
+						<maxY>1.5</maxY>
+						<maxZ>3.8</maxZ>
+						<minX>-1.5</minX>
+						<minY>-1.5</minY>
+						<minZ>0</minZ>
+					</aabb>
+					<additionalGraph href="" />
+					<animations>
+						<Item>
+							<animationFileName>/Heroes/Stalker/S3/ability1.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/Stalker/S3/ability1.mayaAnim</mayaFileName>
+							<name>ability1</name>
+							<srcFileName crc="0">//Heroes/Stalker/S3/ability1.ma</srcFileName>
+						</Item>
+						<Item>
+							<animationFileName>/Heroes/Stalker/S3/ability2.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/Stalker/S3/ability2.mayaAnim</mayaFileName>
+							<name>ability2</name>
+							<srcFileName crc="0">//Heroes/Stalker/S3/ability2.ma</srcFileName>
+						</Item>
+						<Item>
+							<animationFileName>/Heroes/Stalker/S3/ability4.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/Stalker/S3/ability4.mayaAnim</mayaFileName>
+							<name>ability4</name>
+							<srcFileName crc="0">//Heroes/Stalker/S3/ability4.ma</srcFileName>
+						</Item>
+						<Item>
+							<animationFileName>/Heroes/Stalker/S3/attack1.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/Stalker/S3/attack1.mayaAnim</mayaFileName>
+							<name>attack1</name>
+							<srcFileName crc="0">//Heroes/Stalker/S3/attack1.ma</srcFileName>
+						</Item>
+						<Item>
+							<animationFileName>/Heroes/Stalker/S3/attack2.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/Stalker/S3/attack2.mayaAnim</mayaFileName>
+							<name>attack2</name>
+							<srcFileName crc="0">//Heroes/Stalker/S3/attack2.ma</srcFileName>
+						</Item>
+						<Item>
+							<animationFileName>/Heroes/Stalker/S3/attack3.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/Stalker/S3/attack3.mayaAnim</mayaFileName>
+							<name>attack3</name>
+							<srcFileName crc="0">//Heroes/Stalker/S3/attack3.ma</srcFileName>
+						</Item>
+						<Item>
+							<animationFileName>/Heroes/Stalker/S3/attack4.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/Stalker/S3/attack4.mayaAnim</mayaFileName>
+							<name>attack4</name>
+							<srcFileName crc="0">//Heroes/Stalker/S3/attack4.ma</srcFileName>
+						</Item>
+						<Item>
+							<animationFileName>/Heroes/Stalker/S3/battleidle.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/Stalker/S3/battleidle.mayaAnim</mayaFileName>
+							<name>battleidle</name>
+							<srcFileName crc="0">//Heroes/Stalker/S3/battleidle.ma</srcFileName>
+						</Item>
+						<Item>
+							<animationFileName>/Heroes/Stalker/S3/blocked.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/Stalker/S3/blocked.mayaAnim</mayaFileName>
+							<name>blocked</name>
+							<srcFileName crc="0">//Heroes/Stalker/S3/blocked.ma</srcFileName>
+						</Item>
+						<Item>
+							<animationFileName>/Heroes/Stalker/S3/idle1.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/Stalker/S3/idle1.mayaAnim</mayaFileName>
+							<name>idle1</name>
+							<srcFileName crc="0">//Heroes/Stalker/S3/idle1.ma</srcFileName>
+						</Item>
+						<Item>
+							<animationFileName>/Heroes/Stalker/S3/idle2.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/Stalker/S3/idle2.mayaAnim</mayaFileName>
+							<name>idle2</name>
+							<srcFileName crc="0">//Heroes/Stalker/S3/idle2.ma</srcFileName>
+						</Item>
+						<Item>
+							<animationFileName>/Heroes/Stalker/S3/idle3.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/Stalker/S3/idle3.mayaAnim</mayaFileName>
+							<name>idle3</name>
+							<srcFileName crc="0">//Heroes/Stalker/S3/idle3.ma</srcFileName>
+						</Item>
+						<Item>
+							<animationFileName>/Heroes/Stalker/S3/move1.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/Stalker/S3/move1.mayaAnim</mayaFileName>
+							<name>move1</name>
+							<srcFileName crc="0">//Heroes/Stalker/S3/move1.ma</srcFileName>
+						</Item>
+						<Item>
+							<animationFileName>/Heroes/Stalker/S3/move2.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/Stalker/S3/move2.mayaAnim</mayaFileName>
+							<name>move2</name>
+							<srcFileName crc="0">//Heroes/Stalker/S3/move2.ma</srcFileName>
+						</Item>
+						<Item>
+							<animationFileName>/Heroes/Stalker/S3/stun.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/Stalker/S3/stun.mayaAnim</mayaFileName>
+							<name>stun</name>
+							<srcFileName crc="0">//Heroes/Stalker/S3/stun.ma</srcFileName>
+						</Item>
+						<Item>
+							<animationFileName>/Heroes/Stalker/S3/channeling.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/Stalker/S3/channeling.mayaAnim</mayaFileName>
+							<name>channeling</name>
+							<srcFileName crc="0">//Heroes/Stalker/S3/channeling.ma</srcFileName>
+						</Item>
+						<Item>
+							<animationFileName>/Heroes/Stalker/S3/death.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/Stalker/S3/death.mayaAnim</mayaFileName>
+							<name>death</name>
+							<srcFileName crc="0">//Heroes/Stalker/S3/death.ma</srcFileName>
+						</Item>
+						<Item>
+							<animationFileName>/Heroes/Stalker/S3/happy.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/Stalker/S3/happy.mayaAnim</mayaFileName>
+							<name>happy</name>
+							<srcFileName crc="0">//Heroes/Stalker/S3/happy.ma</srcFileName>
+						</Item>
+						<Item>
+							<animationFileName>/Heroes/Stalker/S3/revive.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/Stalker/S3/revive.mayaAnim</mayaFileName>
+							<name>revive</name>
+							<srcFileName crc="0">//Heroes/Stalker/S3/revive.ma</srcFileName>
+						</Item>
+					</animations>
+					<animGraph href="/Heroes/Stalker/_.ANGR" />
+					<anims />
+					<attached>
+						<Item>
+							<attachFlags>30</attachFlags>
+							<component href="/Heroes/Stalker/TrailS23.PRXY" />
+							<events href="/Heroes/Stalker/S3/_.SOBJ" id="0AE44C9D-AE08-495B-8E01-674C110F3DFA">
+								<EnableDisableSCEvents>
+									<disableEvents>
+										<Item href="/Heroes/Stalker/S3/_.SOBJ" id="8B981CDD-61AC-4CBC-942A-FA571A5CCFCA">
+											<AnimationSCEvent>
+												<animParam>0.9</animParam>
+												<name>attack1</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+										<Item href="/Heroes/Stalker/S3/_.SOBJ" id="657A4BC7-9329-4B74-907F-8C08B807B575">
+											<AnimationSCEvent>
+												<animParam>0.9</animParam>
+												<name>attack2</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+										<Item href="/Heroes/Stalker/S3/_.SOBJ" id="40679FA1-7333-4C75-9C56-231DE839327A">
+											<AnimationSCEvent>
+												<animParam>0.8</animParam>
+												<name>attack3</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+										<Item href="/Heroes/Stalker/S3/_.SOBJ" id="D1C140AD-2A63-4624-B2B1-D82342DA46C1">
+											<AnimationSCEvent>
+												<animParam>0.5</animParam>
+												<name>attack4</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+										<Item href="/Heroes/Stalker/S3/_.SOBJ" id="2870C976-F006-45F9-84EB-C57C26A0823B">
+											<AnimationSCEvent>
+												<animParam>0</animParam>
+												<name>attack1</name>
+												<probability>100</probability>
+												<type>NodeLeave</type>
+											</AnimationSCEvent>
+										</Item>
+										<Item href="/Heroes/Stalker/S3/_.SOBJ" id="160B201E-7821-4417-B17D-8C52585DBDE1">
+											<AnimationSCEvent>
+												<animParam>0</animParam>
+												<name>attack2</name>
+												<probability>100</probability>
+												<type>NodeLeave</type>
+											</AnimationSCEvent>
+										</Item>
+										<Item href="/Heroes/Stalker/S3/_.SOBJ" id="EAAAB5C1-C0E7-4ACA-B645-D9AC8B7ED247">
+											<AnimationSCEvent>
+												<animParam>0</animParam>
+												<name>attack3</name>
+												<probability>100</probability>
+												<type>NodeLeave</type>
+											</AnimationSCEvent>
+										</Item>
+										<Item href="/Heroes/Stalker/S3/_.SOBJ" id="0376196B-630C-409C-96D4-62AA20E00113">
+											<AnimationSCEvent>
+												<animParam>0</animParam>
+												<name>attack4</name>
+												<probability>100</probability>
+												<type>NodeLeave</type>
+											</AnimationSCEvent>
+										</Item>
+										<Item href="/Heroes/Stalker/S3/_.SOBJ" id="F80D493B-6A64-4708-A255-B7E09CCE4026">
+											<AnimationSCEvent>
+												<animParam>0.8</animParam>
+												<name>idle2</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+										<Item href="/Heroes/Stalker/S3/_.SOBJ" id="EE0B4ACF-45FD-4B25-B800-B4CF6158A49D">
+											<AnimationSCEvent>
+												<animParam>0</animParam>
+												<name>idle2</name>
+												<probability>100</probability>
+												<type>NodeLeave</type>
+											</AnimationSCEvent>
+										</Item>
+									</disableEvents>
+									<enableEvents>
+										<Item href="/Heroes/Stalker/S3/_.SOBJ" id="75A0296D-DBE0-4C90-990C-CFBA42FAF917">
+											<AnimationSCEvent>
+												<animParam>0</animParam>
+												<name>attack1</name>
+												<probability>100</probability>
+												<type>NodeEnter</type>
+											</AnimationSCEvent>
+										</Item>
+										<Item href="/Heroes/Stalker/S3/_.SOBJ" id="6A29E365-FA49-4FD7-AC86-CD9821177FD8">
+											<AnimationSCEvent>
+												<animParam>0</animParam>
+												<name>attack2</name>
+												<probability>100</probability>
+												<type>NodeEnter</type>
+											</AnimationSCEvent>
+										</Item>
+										<Item href="/Heroes/Stalker/S3/_.SOBJ" id="CBD76EC0-711C-4898-81AC-62F3BAB792F9">
+											<AnimationSCEvent>
+												<animParam>0</animParam>
+												<name>attack3</name>
+												<probability>100</probability>
+												<type>NodeEnter</type>
+											</AnimationSCEvent>
+										</Item>
+										<Item href="/Heroes/Stalker/S3/_.SOBJ" id="06D09267-39E2-4E98-9435-5E821408690F">
+											<AnimationSCEvent>
+												<animParam>0</animParam>
+												<name>attack4</name>
+												<probability>100</probability>
+												<type>NodeEnter</type>
+											</AnimationSCEvent>
+										</Item>
+										<Item href="/Heroes/Stalker/S3/_.SOBJ" id="F0F5FDDF-AADE-4E49-B887-1E4D0A04A28B">
+											<AnimationSCEvent>
+												<animParam>0</animParam>
+												<name>idle2</name>
+												<probability>100</probability>
+												<type>NodeEnter</type>
+											</AnimationSCEvent>
+										</Item>
+									</enableEvents>
+									<order>EnableThenDisable</order>
+									<restartComponent>true</restartComponent>
+								</EnableDisableSCEvents>
+							</events>
+							<id></id>
+							<locatorName></locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>15</attachFlags>
+							<component href="/Heroes/Stalker/TrailA1S23.PRXY" />
+							<events href="/Heroes/Stalker/S3/_.SOBJ" id="1A79F205-94F7-45C3-88C5-F60422DE992B">
+								<EnableDisableSCEvents>
+									<disableEvents>
+										<Item href="/Heroes/Stalker/S3/_.SOBJ" id="AD2BC0CF-4D80-4D05-AE5F-D7D9F76F5028">
+											<AnimationSCEvent>
+												<animParam>0</animParam>
+												<name>ability1</name>
+												<probability>100</probability>
+												<type>NodeLeave</type>
+											</AnimationSCEvent>
+										</Item>
+									</disableEvents>
+									<enableEvents>
+										<Item href="/Heroes/Stalker/S3/_.SOBJ" id="F4365769-5773-47CB-9EB5-9B98525BE1E1">
+											<AnimationSCEvent>
+												<animParam>0</animParam>
+												<name>ability1</name>
+												<probability>100</probability>
+												<type>NodeEnter</type>
+											</AnimationSCEvent>
+										</Item>
+									</enableEvents>
+									<order>EnableThenDisable</order>
+									<restartComponent>true</restartComponent>
+								</EnableDisableSCEvents>
+							</events>
+							<id></id>
+							<locatorName></locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>15</attachFlags>
+							<component href="/Heroes/Stalker/FxIdle_sword.PRXY" />
+							<events href="/Heroes/Stalker/S3/_.SOBJ" id="AA2CC1E1-9B61-4653-8D50-86E90F27ACE8">
+								<EnableDisableSCEvents>
+									<disableEvents>
+										<Item href="/Heroes/Stalker/S3/_.SOBJ" id="87693442-AF77-46F7-B95F-8292EEC04454">
+											<AnimationSCEvent>
+												<animParam>0</animParam>
+												<name>ability1</name>
+												<probability>100</probability>
+												<type>NodeLeave</type>
+											</AnimationSCEvent>
+										</Item>
+										<Item href="/Heroes/Stalker/S3/_.SOBJ" id="F2B569C3-1265-4182-86EF-E1BDF42348CD">
+											<AnimationSCEvent>
+												<animParam>0</animParam>
+												<name>ability4</name>
+												<probability>100</probability>
+												<type>NodeLeave</type>
+											</AnimationSCEvent>
+										</Item>
+									</disableEvents>
+									<enableEvents>
+										<Item href="/Heroes/Stalker/S3/_.SOBJ" id="B1B13C49-DB3D-4361-96EE-924134B80EBE">
+											<AnimationSCEvent>
+												<animParam>0</animParam>
+												<name>ability1</name>
+												<probability>100</probability>
+												<type>NodeEnter</type>
+											</AnimationSCEvent>
+										</Item>
+										<Item href="/Heroes/Stalker/S3/_.SOBJ" id="60658EBC-2D3F-4FF8-8115-72FB3EBE4549">
+											<AnimationSCEvent>
+												<animParam>0</animParam>
+												<name>ability4</name>
+												<probability>100</probability>
+												<type>NodeEnter</type>
+											</AnimationSCEvent>
+										</Item>
+									</enableEvents>
+									<order>EnableThenDisable</order>
+									<restartComponent>true</restartComponent>
+								</EnableDisableSCEvents>
+							</events>
+							<id></id>
+							<locatorName>Sword</locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1.1</x>
+									<y>1.1</y>
+									<z>1.1</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>15</attachFlags>
+							<component href="/Heroes/Stalker/S1/FxIdle3.PRXY" />
+							<events href="/Heroes/Stalker/S3/_.SOBJ" id="FB5373CB-550D-4895-9B35-E792713440DD">
+								<EnableDisableSCEvents>
+									<disableEvents>
+										<Item href="/Heroes/Stalker/S3/_.SOBJ" id="42A2D660-081A-4763-98CC-D9B3A2E05DD7">
+											<AnimationSCEvent>
+												<animParam>0.52</animParam>
+												<name>idle3</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+										<Item href="/Heroes/Stalker/S3/_.SOBJ" id="A804F167-2640-4903-8497-1457612E7A14">
+											<AnimationSCEvent>
+												<animParam>0</animParam>
+												<name>idle3</name>
+												<probability>100</probability>
+												<type>NodeLeave</type>
+											</AnimationSCEvent>
+										</Item>
+									</disableEvents>
+									<enableEvents>
+										<Item href="/Heroes/Stalker/S3/_.SOBJ" id="A1AF8FE3-52F4-4114-81C3-CE6F4AC59D3B">
+											<AnimationSCEvent>
+												<animParam>0.37</animParam>
+												<name>idle3</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+									</enableEvents>
+									<order>EnableThenDisable</order>
+									<restartComponent>true</restartComponent>
+								</EnableDisableSCEvents>
+							</events>
+							<id></id>
+							<locatorName>Sword</locatorName>
+							<placement>
+								<pos>
+									<x>0.01</x>
+									<y>-0.01</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1.7</x>
+									<y>2</y>
+									<z>1.7</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>15</attachFlags>
+							<component href="/Heroes/Stalker/FxIdleTrailS23.PRXY" />
+							<events href="/Heroes/Stalker/S3/_.SOBJ" id="52E8D655-6A8C-43F7-B13B-521BE523F90F">
+								<EnableDisableSCEvents>
+									<disableEvents>
+										<Item href="/Heroes/Stalker/S3/_.SOBJ" id="273FE19C-414F-42F6-98B9-B7F204FF13CF">
+											<AnimationSCEvent>
+												<animParam>0.9</animParam>
+												<name>ability4</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+										<Item href="/Heroes/Stalker/S3/_.SOBJ" id="E1910D78-3D23-4629-8274-3506271F5B83">
+											<AnimationSCEvent>
+												<animParam>0</animParam>
+												<name>ability4</name>
+												<probability>100</probability>
+												<type>NodeLeave</type>
+											</AnimationSCEvent>
+										</Item>
+									</disableEvents>
+									<enableEvents>
+										<Item href="/Heroes/Stalker/S3/_.SOBJ" id="0EB5C9D3-F556-489D-9DE6-8172E8BF9157">
+											<AnimationSCEvent>
+												<animParam>0</animParam>
+												<name>ability4</name>
+												<probability>100</probability>
+												<type>NodeEnter</type>
+											</AnimationSCEvent>
+										</Item>
+									</enableEvents>
+									<order>EnableThenDisable</order>
+									<restartComponent>true</restartComponent>
+								</EnableDisableSCEvents>
+							</events>
+							<id></id>
+							<locatorName></locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</placement>
+							<timeController href="/Heroes/Stalker/S3/_.SOBJ" id="1CB34B93-4FF6-4242-9300-AB48C081D497">
+								<TimeController>
+									<cycleCount>1</cycleCount>
+									<cycleLength>0</cycleLength>
+									<fadein>0</fadein>
+									<fadeout>0</fadeout>
+									<firstCycleOffset>0</firstCycleOffset>
+									<firstCycleOffsetDelta>0</firstCycleOffsetDelta>
+									<speed>0.68</speed>
+									<startDelay>0</startDelay>
+								</TimeController>
+							</timeController>
+						</Item>
+						<Item>
+							<attachFlags>15</attachFlags>
+							<component href="/Heroes/Stalker/S3/_.SOBJ" id="FAB3131D-1116-4883-8660-D3A074D0ECFD">
+								<DBSoundSceneComponent>
+									<attached />
+									<caption>sound_move1</caption>
+									<desc>
+										<eventName>Move</eventName>
+										<groupName>Heroes/Prince/Animation</groupName>
+										<projectName>PF</projectName>
+									</desc>
+									<groupFlags>0</groupFlags>
+									<locatorList href="" />
+									<orientation>Default</orientation>
+									<timeInterval>0</timeInterval>
+								</DBSoundSceneComponent>
+							</component>
+							<events href="/Heroes/Stalker/S3/_.SOBJ" id="8594F516-B2D9-465A-B29F-4C6B5FBEA1AE">
+								<EnableDisableSCEvents>
+									<disableEvents />
+									<enableEvents>
+										<Item href="/Heroes/Stalker/S3/_.SOBJ" id="EB254677-B2C8-4FEF-90F9-782A7410E4B4">
+											<AnimationSCEvent>
+												<animParam>0</animParam>
+												<name>move1</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+										<Item href="/Heroes/Stalker/S3/_.SOBJ" id="AA7872C0-798A-4AC6-88AA-2740C8CD24D4">
+											<AnimationSCEvent>
+												<animParam>0.25</animParam>
+												<name>move1</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+										<Item href="/Heroes/Stalker/S3/_.SOBJ" id="5E8B3ADC-A979-4ADD-A3ED-E0F9C7E0B09A">
+											<AnimationSCEvent>
+												<animParam>0.5</animParam>
+												<name>move1</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+										<Item href="/Heroes/Stalker/S3/_.SOBJ" id="D950ECAE-7981-4F86-B313-329454195DC3">
+											<AnimationSCEvent>
+												<animParam>0.75</animParam>
+												<name>move1</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+									</enableEvents>
+									<order>EnableThenDisable</order>
+									<restartComponent>true</restartComponent>
+								</EnableDisableSCEvents>
+							</events>
+							<id></id>
+							<locatorName></locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>15</attachFlags>
+							<component href="/Heroes/Stalker/S3/_.SOBJ" id="8855896B-B364-4A10-95BB-D055503C896C">
+								<DBSoundSceneComponent>
+									<attached />
+									<caption>sound_move2</caption>
+									<desc>
+										<eventName>Move</eventName>
+										<groupName>Heroes/Prince/Animation</groupName>
+										<projectName>PF</projectName>
+									</desc>
+									<groupFlags>0</groupFlags>
+									<locatorList href="" />
+									<orientation>Default</orientation>
+									<timeInterval>0</timeInterval>
+								</DBSoundSceneComponent>
+							</component>
+							<events href="/Heroes/Stalker/S3/_.SOBJ" id="38067A74-64B9-4D5E-A346-900628D15C6B">
+								<EnableDisableSCEvents>
+									<disableEvents />
+									<enableEvents>
+										<Item href="/Heroes/Stalker/S3/_.SOBJ" id="B0667750-FAAE-4A1D-967B-1C6F3EE990A7">
+											<AnimationSCEvent>
+												<animParam>0</animParam>
+												<name>move2</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+										<Item href="/Heroes/Stalker/S3/_.SOBJ" id="2CA93678-BC63-4BE1-AF64-5A6C4CA10406">
+											<AnimationSCEvent>
+												<animParam>0.1</animParam>
+												<name>move2</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+										<Item href="/Heroes/Stalker/S3/_.SOBJ" id="B2FB5229-AC0E-4C57-9880-45498FB5D8F4">
+											<AnimationSCEvent>
+												<animParam>0.2</animParam>
+												<name>move2</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+										<Item href="/Heroes/Stalker/S3/_.SOBJ" id="1D614FC8-DCE0-47E4-9E48-47EDDC777E8D">
+											<AnimationSCEvent>
+												<animParam>0.3</animParam>
+												<name>move2</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+										<Item href="/Heroes/Stalker/S3/_.SOBJ" id="51FF770D-AD6C-4C95-A78E-48AB59374098">
+											<AnimationSCEvent>
+												<animParam>0.4</animParam>
+												<name>move2</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+										<Item href="/Heroes/Stalker/S3/_.SOBJ" id="EC1295DD-655E-4282-851E-AC62AC153415">
+											<AnimationSCEvent>
+												<animParam>0.5</animParam>
+												<name>move2</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+										<Item href="/Heroes/Stalker/S3/_.SOBJ" id="58249B16-E778-4452-ADBC-182B41B0D708">
+											<AnimationSCEvent>
+												<animParam>0.6</animParam>
+												<name>move2</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+										<Item href="/Heroes/Stalker/S3/_.SOBJ" id="245CE83B-4A95-4596-A1B6-7F216D310E38">
+											<AnimationSCEvent>
+												<animParam>0.7</animParam>
+												<name>move2</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+										<Item href="/Heroes/Stalker/S3/_.SOBJ" id="C365E80F-62D3-497A-9ED2-561B5ADB7F6E">
+											<AnimationSCEvent>
+												<animParam>0.8</animParam>
+												<name>move2</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+										<Item href="/Heroes/Stalker/S3/_.SOBJ" id="3B75F06A-70BC-45BE-897F-9512F78649AA">
+											<AnimationSCEvent>
+												<animParam>0.9</animParam>
+												<name>move2</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+									</enableEvents>
+									<order>EnableThenDisable</order>
+									<restartComponent>true</restartComponent>
+								</EnableDisableSCEvents>
+							</events>
+							<id></id>
+							<locatorName></locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>15</attachFlags>
+							<component href="/Heroes/Stalker/S3/_.SOBJ" id="76AA7F48-127A-4743-B764-339D89D321D8">
+								<DBSoundSceneComponent>
+									<attached />
+									<caption>sound_attack1</caption>
+									<desc>
+										<eventName>Katana_Attack_Whoosh</eventName>
+										<groupName>Heroes/Katana/Animation</groupName>
+										<projectName>PF</projectName>
+									</desc>
+									<groupFlags>0</groupFlags>
+									<locatorList href="" />
+									<orientation>Default</orientation>
+									<timeInterval>0</timeInterval>
+								</DBSoundSceneComponent>
+							</component>
+							<events href="/Heroes/Stalker/S3/_.SOBJ" id="EB9850AC-8BE2-4B9D-A15E-A9018B21A763">
+								<EnableDisableSCEvents>
+									<disableEvents />
+									<enableEvents>
+										<Item href="/Heroes/Stalker/S3/_.SOBJ" id="8638A51D-3C2A-49F5-A5FA-99DB918E37A7">
+											<AnimationSCEvent>
+												<animParam>0</animParam>
+												<name>attack1</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+										<Item href="/Heroes/Stalker/S3/_.SOBJ" id="64A43633-4304-4C61-BD3F-E8C63226F43B">
+											<AnimationSCEvent>
+												<animParam>0.2</animParam>
+												<name>attack1</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+									</enableEvents>
+									<order>EnableThenDisable</order>
+									<restartComponent>true</restartComponent>
+								</EnableDisableSCEvents>
+							</events>
+							<id></id>
+							<locatorName></locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>15</attachFlags>
+							<component href="/Heroes/Stalker/S3/_.SOBJ" id="94D8E055-F2ED-47BA-987B-B21B140A559C">
+								<DBSoundSceneComponent>
+									<attached />
+									<caption>sound_attack2</caption>
+									<desc>
+										<eventName>Katana_Attack_Whoosh</eventName>
+										<groupName>Heroes/Katana/Animation</groupName>
+										<projectName>PF</projectName>
+									</desc>
+									<groupFlags>0</groupFlags>
+									<locatorList href="" />
+									<orientation>Default</orientation>
+									<timeInterval>0</timeInterval>
+								</DBSoundSceneComponent>
+							</component>
+							<events href="/Heroes/Stalker/S3/_.SOBJ" id="82D010E5-C3F4-4EC7-A6FD-D56EBE9A3FFA">
+								<EnableDisableSCEvents>
+									<disableEvents />
+									<enableEvents>
+										<Item href="/Heroes/Stalker/S3/_.SOBJ" id="49CB2AD3-8967-4AF6-AB49-9698F5E2B85D">
+											<AnimationSCEvent>
+												<animParam>0</animParam>
+												<name>attack2</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+										<Item href="/Heroes/Stalker/S3/_.SOBJ" id="04ADA0CB-B669-435B-8704-027244FA3055">
+											<AnimationSCEvent>
+												<animParam>0.2</animParam>
+												<name>attack2</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+									</enableEvents>
+									<order>EnableThenDisable</order>
+									<restartComponent>true</restartComponent>
+								</EnableDisableSCEvents>
+							</events>
+							<id></id>
+							<locatorName></locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>15</attachFlags>
+							<component href="/Heroes/Stalker/S3/_.SOBJ" id="84DEE3C5-49C7-4B20-B8FA-EB9CBB7D6A91">
+								<DBSoundSceneComponent>
+									<attached />
+									<caption>sound_attack3</caption>
+									<desc>
+										<eventName>Katana_Attack_Whoosh</eventName>
+										<groupName>Heroes/Katana/Animation</groupName>
+										<projectName>PF</projectName>
+									</desc>
+									<groupFlags>0</groupFlags>
+									<locatorList href="" />
+									<orientation>Default</orientation>
+									<timeInterval>0</timeInterval>
+								</DBSoundSceneComponent>
+							</component>
+							<events href="/Heroes/Stalker/S3/_.SOBJ" id="0CA9CB08-87F4-44D7-8D75-8E0B5E04C938">
+								<EnableDisableSCEvents>
+									<disableEvents />
+									<enableEvents>
+										<Item href="/Heroes/Stalker/S3/_.SOBJ" id="6A8D301A-84D7-42BB-8FFE-30EDE2494E08">
+											<AnimationSCEvent>
+												<animParam>0</animParam>
+												<name>attack3</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+										<Item href="/Heroes/Stalker/S3/_.SOBJ" id="21FAE436-16D9-41A6-8BCE-0E742846E6D5">
+											<AnimationSCEvent>
+												<animParam>0.2</animParam>
+												<name>attack3</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+									</enableEvents>
+									<order>EnableThenDisable</order>
+									<restartComponent>true</restartComponent>
+								</EnableDisableSCEvents>
+							</events>
+							<id></id>
+							<locatorName></locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>15</attachFlags>
+							<component href="/Heroes/Stalker/S3/_.SOBJ" id="89B2D455-78F3-4F88-8E8A-E4803F951762">
+								<DBSoundSceneComponent>
+									<attached />
+									<caption>sound_attack4</caption>
+									<desc>
+										<eventName>Katana_Attack_Whoosh</eventName>
+										<groupName>Heroes/Katana/Animation</groupName>
+										<projectName>PF</projectName>
+									</desc>
+									<groupFlags>0</groupFlags>
+									<locatorList href="" />
+									<orientation>Default</orientation>
+									<timeInterval>0</timeInterval>
+								</DBSoundSceneComponent>
+							</component>
+							<events href="/Heroes/Stalker/S3/_.SOBJ" id="3B3EBF78-8BAE-4887-AE09-2021DC8D478C">
+								<EnableDisableSCEvents>
+									<disableEvents />
+									<enableEvents>
+										<Item href="/Heroes/Stalker/S3/_.SOBJ" id="7F9765E3-2E4C-48C3-8CC7-30C0D05AFD14">
+											<AnimationSCEvent>
+												<animParam>0</animParam>
+												<name>attack4</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+									</enableEvents>
+									<order>EnableThenDisable</order>
+									<restartComponent>true</restartComponent>
+								</EnableDisableSCEvents>
+							</events>
+							<id></id>
+							<locatorName></locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>15</attachFlags>
+							<component href="/Heroes/Stalker/S3/_.SOBJ" id="FDCF82EA-59F2-4A27-868D-B9E2C3FFE3F0">
+								<DBSoundSceneComponent>
+									<attached />
+									<caption>sound_attack_hit</caption>
+									<desc>
+										<eventName>Katana_Attack</eventName>
+										<groupName>Heroes/Katana/Animation</groupName>
+										<projectName>PF</projectName>
+									</desc>
+									<groupFlags>0</groupFlags>
+									<locatorList href="" />
+									<orientation>Default</orientation>
+									<timeInterval>0</timeInterval>
+								</DBSoundSceneComponent>
+							</component>
+							<events href="/Heroes/Stalker/S3/_.SOBJ" id="66508A66-373D-4597-AB8E-7A6A232071D6">
+								<EnableDisableSCEvents>
+									<disableEvents />
+									<enableEvents>
+										<Item href="/Heroes/Stalker/S3/_.SOBJ" id="A481A0CF-EBB9-4917-99A8-9F0B80EB6142">
+											<AnimationSCEvent>
+												<animParam>0.12</animParam>
+												<name>attack1</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+										<Item href="/Heroes/Stalker/S3/_.SOBJ" id="5D20BA3A-67B1-4CCB-BCEB-5ADF4EFD3D62">
+											<AnimationSCEvent>
+												<animParam>0.12</animParam>
+												<name>attack2</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+										<Item href="/Heroes/Stalker/S3/_.SOBJ" id="9655AA6F-9209-443B-B935-C210169185F6">
+											<AnimationSCEvent>
+												<animParam>0.08</animParam>
+												<name>attack3</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+										<Item href="/Heroes/Stalker/S3/_.SOBJ" id="042A560A-A175-46BC-9E8B-0A6C3D468443">
+											<AnimationSCEvent>
+												<animParam>0.08</animParam>
+												<name>attack4</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+									</enableEvents>
+									<order>EnableThenDisable</order>
+									<restartComponent>true</restartComponent>
+								</EnableDisableSCEvents>
+							</events>
+							<id></id>
+							<locatorName></locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>15</attachFlags>
+							<component href="/Heroes/Stalker/S3/_.SOBJ" id="8972DC00-48C5-4681-B44B-91E4DB49EF94">
+								<DBSoundSceneComponent>
+									<attached />
+									<caption>sound_ability1</caption>
+									<desc>
+										<eventName>A1</eventName>
+										<groupName>Heroes/Marine/Animation</groupName>
+										<projectName>PF</projectName>
+									</desc>
+									<groupFlags>0</groupFlags>
+									<locatorList href="" />
+									<orientation>Default</orientation>
+									<timeInterval>0</timeInterval>
+								</DBSoundSceneComponent>
+							</component>
+							<events href="/Heroes/Stalker/S3/_.SOBJ" id="7547CA17-742E-4019-A500-61AAF2FB0B83">
+								<EnableDisableSCEvents>
+									<disableEvents />
+									<enableEvents>
+										<Item href="/Heroes/Stalker/S3/_.SOBJ" id="80A65C7B-47AE-4ACA-8303-119FB6495F54">
+											<AnimationSCEvent>
+												<animParam>0</animParam>
+												<name>ability1</name>
+												<probability>100</probability>
+												<type>NodeEnter</type>
+											</AnimationSCEvent>
+										</Item>
+									</enableEvents>
+									<order>EnableThenDisable</order>
+									<restartComponent>true</restartComponent>
+								</EnableDisableSCEvents>
+							</events>
+							<id></id>
+							<locatorName></locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>15</attachFlags>
+							<component href="/Heroes/Stalker/S3/_.SOBJ" id="6BF160B4-21CE-490E-BBF9-15FF2F68ED7E">
+								<DBSoundSceneComponent>
+									<attached />
+									<caption>sound_death</caption>
+									<desc>
+										<eventName>Body</eventName>
+										<groupName>Creeps</groupName>
+										<projectName>PF</projectName>
+									</desc>
+									<groupFlags>0</groupFlags>
+									<locatorList href="" />
+									<orientation>Default</orientation>
+									<timeInterval>0</timeInterval>
+								</DBSoundSceneComponent>
+							</component>
+							<events href="/Heroes/Stalker/S3/_.SOBJ" id="A801CF0A-BD67-477E-A2F0-EA555B5FB4AD">
+								<EnableDisableSCEvents>
+									<disableEvents />
+									<enableEvents>
+										<Item href="/Heroes/Stalker/S3/_.SOBJ" id="14DA5E00-338B-4F92-AF20-0DF061723F34">
+											<AnimationSCEvent>
+												<animParam>0.4</animParam>
+												<name>death</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+									</enableEvents>
+									<order>EnableThenDisable</order>
+									<restartComponent>true</restartComponent>
+								</EnableDisableSCEvents>
+							</events>
+							<id></id>
+							<locatorName></locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>15</attachFlags>
+							<component href="/Heroes/Stalker/S3/_.SOBJ" id="BD56D960-9D94-4F41-AE47-EC86B800D050">
+								<DBSoundSceneComponent>
+									<attached />
+									<caption>sound_ability4</caption>
+									<desc>
+										<eventName>ability1</eventName>
+										<groupName>Heroes/Witcher/Animation</groupName>
+										<projectName>PF</projectName>
+									</desc>
+									<groupFlags>0</groupFlags>
+									<locatorList href="" />
+									<orientation>Default</orientation>
+									<timeInterval>0</timeInterval>
+								</DBSoundSceneComponent>
+							</component>
+							<events href="/Heroes/Stalker/S3/_.SOBJ" id="8F645F74-CCD1-4024-9C84-3C847D1E4F6C">
+								<EnableDisableSCEvents>
+									<disableEvents />
+									<enableEvents>
+										<Item href="/Heroes/Stalker/S3/_.SOBJ" id="4524126B-6021-486B-80C8-33882F7A895F">
+											<AnimationSCEvent>
+												<animParam>0</animParam>
+												<name>ability4</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+									</enableEvents>
+									<order>EnableThenDisable</order>
+									<restartComponent>true</restartComponent>
+								</EnableDisableSCEvents>
+							</events>
+							<id></id>
+							<locatorName></locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>15</attachFlags>
+							<component href="/Heroes/Stalker/S3/_.SOBJ" id="AC2F0311-5021-4710-B835-3045C168741F">
+								<DBSoundSceneComponent>
+									<attached />
+									<caption>sound_ability2</caption>
+									<desc>
+										<eventName>Stalker_A2_Attack</eventName>
+										<groupName>Heroes/Stalker</groupName>
+										<projectName>PF</projectName>
+									</desc>
+									<groupFlags>0</groupFlags>
+									<locatorList href="" />
+									<orientation>Default</orientation>
+									<timeInterval>0</timeInterval>
+								</DBSoundSceneComponent>
+							</component>
+							<events href="/Heroes/Stalker/S3/_.SOBJ" id="B5857FF8-E695-46B5-9D2E-D8B85CA5FFA9">
+								<EnableDisableSCEvents>
+									<disableEvents />
+									<enableEvents>
+										<Item href="/Heroes/Stalker/S3/_.SOBJ" id="24956711-DA72-4941-B5DA-106C1F1132A9">
+											<AnimationSCEvent>
+												<animParam>0.2</animParam>
+												<name>ability2</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+									</enableEvents>
+									<order>EnableThenDisable</order>
+									<restartComponent>true</restartComponent>
+								</EnableDisableSCEvents>
+							</events>
+							<id></id>
+							<locatorName></locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>15</attachFlags>
+							<component href="/Heroes/Stalker/S1/FxIdleS23.PRXY" />
+							<events href="" />
+							<id></id>
+							<locatorName>Sword</locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>14</attachFlags>
+							<component href="/Heroes/Stalker/S1/FXIdle_ArbaletTRSS3.PRXY" />
+							<events href="" />
+							<id></id>
+							<locatorName>Arbalet</locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>1.2</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>3</attachFlags>
+							<component href="/Heroes/Stalker/Traces.TGSC" />
+							<events href="/Heroes/Stalker/Traces.EDEV" />
+							<id></id>
+							<locatorName></locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+					</attached>
+					<caption></caption>
+					<faceFXAnims />
+					<groupFlags>4</groupFlags>
+					<keys />
+					<locatorList href="/Heroes/Stalker/_.LOLS" />
+					<mayaFileName>/Heroes/Stalker/S3/stalkerroot.mayaSkel</mayaFileName>
+					<orientation>Default</orientation>
+					<selection>root</selection>
+					<skeletonFileName>/Heroes/Stalker/S3/stalkerroot.skel</skeletonFileName>
+					<skinOn />
+					<skins>
+						<Item>
+							<events href="" />
+							<geometryFileName>/Heroes/Stalker/S3/stalker.skin</geometryFileName>
+							<jointsCountPerVertex>4</jointsCountPerVertex>
+							<materialsReferences>
+								<Item href="/Heroes/Stalker/S3/_.MTRL" />
+							</materialsReferences>
+							<mayaFileName>/Heroes/Stalker/S3/stalker.mayaSkin</mayaFileName>
+							<selection></selection>
+							<skinPartName></skinPartName>
+							<srcFileName crc="0">//Heroes/Stalker/S3/stalker.mb</srcFileName>
+							<uvSetCount>1</uvSetCount>
+						</Item>
+					</skins>
+					<splitBoneName></splitBoneName>
+					<srcFileName crc="0">//Heroes/Stalker/S3/stalker.mb</srcFileName>
+				</DBAnimatedSceneComponent>
+			</component>
+			<events href="" />
+			<id></id>
+			<locatorName></locatorName>
+			<placement>
+				<pos>
+					<x>0</x>
+					<y>0</y>
+					<z>0</z>
+				</pos>
+				<rot>
+					<w>1</w>
+					<x>0</x>
+					<y>0</y>
+					<z>0</z>
+				</rot>
+				<scale>
+					<x>1</x>
+					<y>1</y>
+					<z>1</z>
+				</scale>
+			</placement>
+			<timeController href="" />
+		</Item>
+	</attached>
+	<collisionGeometry href="" />
+	<ignoreAttachesToNonDefaultLocators>false</ignoreAttachesToNonDefaultLocators>
+	<tracksList href="" />
+</DBSceneObject>

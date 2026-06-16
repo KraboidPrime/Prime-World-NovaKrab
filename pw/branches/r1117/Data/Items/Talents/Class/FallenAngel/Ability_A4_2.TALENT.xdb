@@ -276,7 +276,14 @@
 											</targetSelector>
 										</SpellPeriodicallyApplicator>
 									</Item>
-									<Item href="/GameLogic/GeneralApplicators/Immune2Control.APLR" />
+									<Item href="/Items/Talents/Class/FallenAngel/Ability_A4_2.TALENT" id="456155AA-A6AE-4892-8F6C-168F49AFE5CB">
+										<StatModApplicator parent="/GameLogic/GeneralApplicators/Immune2Control.APLR">
+											<effect>
+												<Item href="/Effects/Buffs/ColdCharged/_Gold1.EFFT" />
+												<Item skip="1" />
+											</effect>
+										</StatModApplicator>
+									</Item>
 									<Item href="/GameLogic/GeneralApplicators/Uncontrollable.APLR" />
 									<Item href="/Items/Talents/Class/FallenAngel/Ability_A4_2.TALENT" id="4954A025-178E-4CEC-ABB6-BC5EA9EE73B1">
 										<FlagsApplicator>

@@ -108,9 +108,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FQwAAAACAAAAEwAAACkAAABHNTQxX0FjdGl2ZQBVi+yD7AxoAAAAAItFCIsQi00Ii4KIAQAA/9DcHXgAAADf4PbEQXU2i00IixGLTQiLgowAAAD/0ItNCIsRi00Ii4LAAAAA3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcMAAAAAAAAAAA==</compiledString>
+					<compiledString>FQwAAAACAAAAEwAAACkAAABHNTQxX0FjdGl2ZQBVi+yD7AxoAAAAAItFCIsQi00Ii4KIAQAA/9DcHXgAAADf4PbEQXU2i00MixGLTQyLgowAAAD/0ItNDIsRi00Mi4LAAAAA3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcMAAAAAAAAAAA==</compiledString>
 					<returnType>bool</returnType>
-					<sString>sender.vG541_Active &gt; 0 &amp;&amp; sBaseAttackSpeed &gt;= sBaseDexterity</sString>
+					<sString>sender.vG541_Active &gt; 0 &amp;&amp; rBaseAttackSpeed &gt;= rBaseDexterity</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<lifeTime>
@@ -416,9 +416,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FQwAAAACAAAAEwAAACkAAABHNTQxX0FjdGl2ZQBVi+yD7AxoAAAAAItFCIsQi00Ii4KIAQAA/9DcHXgAAADf4PbEQXU2i00IixGLTQiLgowAAAD/0ItNCIsRi00Ii4LAAAAA3V34/9DcXfjf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcMAAAAAAAAAAA==</compiledString>
+					<compiledString>FQwAAAACAAAAEwAAACkAAABHNTQxX0FjdGl2ZQBVi+yD7AxoAAAAAItFCIsQi00Ii4KIAQAA/9DcHXgAAADf4PbEQXU2i00MixGLTQyLgowAAAD/0ItNDIsRi00Mi4LAAAAA3V34/9DcXfjf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcMAAAAAAAAAAA==</compiledString>
 					<returnType>bool</returnType>
-					<sString>sender.vG541_Active &gt; 0 &amp;&amp; sBaseAttackSpeed &lt; sBaseDexterity</sString>
+					<sString>sender.vG541_Active &gt; 0 &amp;&amp; rBaseAttackSpeed &lt; rBaseDexterity</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<lifeTime>

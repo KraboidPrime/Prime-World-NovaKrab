@@ -135,9 +135,9 @@
 					<UnitConstant>
 						<name>A4_2_Duration</name>
 						<var>
-							<compiledString>FWUAAAAIAAAAbAAAAIUAAADDAAAA1gAAANwAAADzAAAABQEAACUBAABEdXJhdGlvbkZvckNhc3RsZQAAAEJhcmRDdXJyZW50U3RhY2tzAAAAU3RhY2tEdXJhdGlvbgAAAEEwX1NVUF9Cb251cwAAAABBMF9TVVBfQm9udXMAAAAAQTBfU1VQX0JvbnVzAFWL7IPsJGg4AAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoSAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdCuLVQxSi0UIUGhYAAAAi00QixGLTRCLQlD/0Nw1VAEAANwFTAEAAN1d8OsF2ejdXfCLTQxRi1UIUmgAAAAAi0UQixCLTRCLQlD/0GgUAAAAi00IixGLTQiLgogBAADdXej/0ItNDFGLVQhSaCgAAACLRRCLEItNEItCUN1d4P/Q3E3g3E3w3EXo2V3c2UXci+VdwwAAAAAAAPA/AAAAAAAAWUA=</compiledString>
+							<compiledString>FTYAAAADAAAARQAAAFcAAAB3AAAARHVyYXRpb25Gb3JDYXN0bGUAAABCYXJkQ3VycmVudFN0YWNrcwAAAFN0YWNrRHVyYXRpb24AVYvsg+wUi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9JoFAAAAItFCIsQi00Ii4KIAQAA3V34/9CLTQxRi1UIUmgoAAAAi0UQixCLTRCLQlDdXfD/0NxN8NxF+Nld7NlF7IvlXcM=</compiledString>
 							<returnType>float</returnType>
-							<sString>cDurationForCastle + sender.vBardCurrentStacks * cStackDuration * (tal("A0_SUP_Bonus") ? (cA0_SUP_Bonus/100 + 1) : 1)</sString>
+							<sString>cDurationForCastle + sender.vBardCurrentStacks * cStackDuration</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -165,9 +165,9 @@
 					<UnitConstant>
 						<name>StackDuration</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpmZPg==</compiledString>
+							<compiledString>FSUAAAAGAAAALAAAAEUAAACDAAAAlgAAAJwAAACsAAAAQmFyZF9BMF9TVVAAQmFyZF9BMF9TVVAAQTBfU1VQX0JvbnVzAFWL7IPsFGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoDAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdCuLVQxSi0UIUGgYAAAAi00QixGLTRCLQlD/0Nw1zQAAANwFxQAAAN1d8OsF2ejdXfDdBb0AAADcTfDZXezZReyL5V3DMzMzMzMz0z8AAAAAAADwPwAAAAAAAFlA</compiledString>
 							<returnType>float</returnType>
-							<sString>0.3</sString>
+							<sString>0.3 * (tal("Bard_A0_SUP") ? (cA0_SUP_Bonus/100 + 1) : 1)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DBSceneComponent>
+	<BackLink DBID="/Effects/Buffs/Bless/_GoldPowerfulTRS.PRXY" Count="1" />
+	<BackLink DBID="/Effects/Buffs/Bless/_GoldPowerfulTRSRes.PRXY" Count="1" />
+	<attached>
+		<Item>
+			<attachFlags>15</attachFlags>
+			<component href="/Effects/Buffs/Bless/_GoldPowerfulRes.PRXY" id="9A0FC3C6-D6E3-46BD-9BD0-1CFB10039F0D">
+				<DBParticleSceneComponent>
+					<aabb>
+						<maxX>-666</maxX>
+						<maxY>-666</maxY>
+						<maxZ>-666</maxZ>
+						<minX>666</minX>
+						<minY>666</minY>
+						<minZ>666</minZ>
+					</aabb>
+					<attached />
+					<camoffset>0</camoffset>
+					<caption>Sparks</caption>
+					<compression>2</compression>
+					<deathFadeOutTime>0.5</deathFadeOutTime>
+					<fxFileName>/Effects/Buffs/Bless/_GoldPowerfulSparks.part</fxFileName>
+					<groupFlags>0</groupFlags>
+					<leaveParticlesWhereStarted>false</leaveParticlesWhereStarted>
+					<locatorList href="" />
+					<material href="/Effects/Buffs/Bless/_GoldPowerfulRes.PRXY" id="7C7F41C2-ED32-4DED-930D-74E5688E3BD4">
+						<ParticleFXMaterial>
+							<caption></caption>
+							<DiffuseMap>
+								<Add>
+									<A>0</A>
+									<B>0</B>
+									<G>0</G>
+									<R>0</R>
+								</Add>
+								<Multiplier>
+									<A>1</A>
+									<B>1</B>
+									<G>1</G>
+									<R>1</R>
+								</Multiplier>
+								<samplerState>
+									<addressU>Wrap</addressU>
+									<addressV>Wrap</addressV>
+									<addressW>Wrap</addressW>
+									<magFilter>Linear</magFilter>
+									<minFilter>Linear</minFilter>
+									<mipFilter>Linear</mipFilter>
+								</samplerState>
+								<texture href="/GFX_Textures/Atlases/atlas_0.TXTR" />
+							</DiffuseMap>
+							<distortion>1</distortion>
+							<DistortionPinValue>None</DistortionPinValue>
+							<ignoreRenderState>false</ignoreRenderState>
+							<opacity>1</opacity>
+							<OpacityAndEmissiveModePinValue>Simple</OpacityAndEmissiveModePinValue>
+							<renderState>
+								<alphaTest>Off</alphaTest>
+								<alphaTestRef>127</alphaTestRef>
+								<blendMode>AddColorMulAlpha</blendMode>
+								<culling>On</culling>
+							</renderState>
+							<scale>0</scale>
+							<SubPriority>0</SubPriority>
+							<uvSpeed>
+								<x>0</x>
+								<y>0</y>
+							</uvSpeed>
+						</ParticleFXMaterial>
+					</material>
+					<mayaFileName>/Effects/Buffs/Bless/_GoldPowerfulSparks.mayaPart</mayaFileName>
+					<normaltextures />
+					<orient>None</orient>
+					<orientation>Default</orientation>
+					<pivot>
+						<x>0</x>
+						<y>0</y>
+					</pivot>
+					<selection>Sparks</selection>
+					<speculartextures />
+					<srcFileName crc="0">/Effects/Buffs/Bless/_GoldPowerful.mb</srcFileName>
+					<textures>
+						<Item crc="0">/PFX_Textures/Spark08Gold.tga</Item>
+					</textures>
+					<uvPairs>
+						<Item>
+							<uvBottomRight>
+								<x>0.2636719</x>
+								<y>0.08203125</y>
+							</uvBottomRight>
+							<uvTopLeft>
+								<x>0.2558594</x>
+								<y>0.06640625</y>
+							</uvTopLeft>
+						</Item>
+					</uvPairs>
+				</DBParticleSceneComponent>
+			</component>
+			<events href="" />
+			<id></id>
+			<locatorName></locatorName>
+			<placement>
+				<pos>
+					<x>0</x>
+					<y>0</y>
+					<z>0</z>
+				</pos>
+				<rot>
+					<w>1</w>
+					<x>0</x>
+					<y>0</y>
+					<z>0</z>
+				</rot>
+				<scale>
+					<x>0.85</x>
+					<y>0.85</y>
+					<z>0.85</z>
+				</scale>
+			</placement>
+			<timeController href="/Effects/Buffs/Bless/_GoldPowerfulRes.PRXY" id="7596594B-0259-4DE1-969F-A3913D6C9294">
+				<TimeController>
+					<cycleCount>0</cycleCount>
+					<cycleLength>2</cycleLength>
+					<fadein>0</fadein>
+					<fadeout>0</fadeout>
+					<firstCycleOffset>0</firstCycleOffset>
+					<firstCycleOffsetDelta>0</firstCycleOffsetDelta>
+					<speed>1</speed>
+					<startDelay>0</startDelay>
+				</TimeController>
+			</timeController>
+		</Item>
+		<Item>
+			<attachFlags>15</attachFlags>
+			<component href="/Effects/Buffs/Bless/_GoldPowerfulRes.PRXY" id="74928129-CDF7-446F-A9FA-7D9EEC87F354">
+				<DBParticleSceneComponent>
+					<aabb>
+						<maxX>-666</maxX>
+						<maxY>-666</maxY>
+						<maxZ>-666</maxZ>
+						<minX>666</minX>
+						<minY>666</minY>
+						<minZ>666</minZ>
+					</aabb>
+					<attached />
+					<camoffset>2</camoffset>
+					<caption>Glow</caption>
+					<compression>2</compression>
+					<deathFadeOutTime>0.5</deathFadeOutTime>
+					<fxFileName>/Effects/Buffs/Bless/_GoldPowerfulGlow.part</fxFileName>
+					<groupFlags>0</groupFlags>
+					<leaveParticlesWhereStarted>false</leaveParticlesWhereStarted>
+					<locatorList href="" />
+					<material href="/Effects/Buffs/Bless/_GoldPowerfulRes.PRXY" id="13E346DF-FD66-402C-B2CC-BD181A4926DD">
+						<ParticleFXMaterial>
+							<caption></caption>
+							<DiffuseMap>
+								<Add>
+									<A>0</A>
+									<B>0</B>
+									<G>0</G>
+									<R>0</R>
+								</Add>
+								<Multiplier>
+									<A>0.3</A>
+									<B>0.07450981</B>
+									<G>0.5137255</G>
+									<R>0.9490196</R>
+								</Multiplier>
+								<samplerState>
+									<addressU>Wrap</addressU>
+									<addressV>Wrap</addressV>
+									<addressW>Wrap</addressW>
+									<magFilter>Linear</magFilter>
+									<minFilter>Linear</minFilter>
+									<mipFilter>Linear</mipFilter>
+								</samplerState>
+								<texture href="/GFX_Textures/Atlases/atlas_0.TXTR" />
+							</DiffuseMap>
+							<distortion>1</distortion>
+							<DistortionPinValue>None</DistortionPinValue>
+							<ignoreRenderState>false</ignoreRenderState>
+							<opacity>0.7</opacity>
+							<OpacityAndEmissiveModePinValue>Simple</OpacityAndEmissiveModePinValue>
+							<renderState>
+								<alphaTest>Off</alphaTest>
+								<alphaTestRef>127</alphaTestRef>
+								<blendMode>AddColorMulAlpha</blendMode>
+								<culling>On</culling>
+							</renderState>
+							<scale>0</scale>
+							<SubPriority>0</SubPriority>
+							<uvSpeed>
+								<x>0</x>
+								<y>0</y>
+							</uvSpeed>
+						</ParticleFXMaterial>
+					</material>
+					<mayaFileName>/Effects/Buffs/Bless/_GoldPowerfulGlow.mayaPart</mayaFileName>
+					<normaltextures />
+					<orient>None</orient>
+					<orientation>Default</orientation>
+					<pivot>
+						<x>0</x>
+						<y>0</y>
+					</pivot>
+					<selection>Glow</selection>
+					<speculartextures />
+					<srcFileName crc="0">/Effects/Buffs/Bless/_GoldPowerful.mb</srcFileName>
+					<textures>
+						<Item crc="0">/PFX_Textures/LensFlare04Yellow.tga</Item>
+					</textures>
+					<uvPairs>
+						<Item>
+							<uvBottomRight>
+								<x>0.824707</x>
+								<y>0.4316406</y>
+							</uvBottomRight>
+							<uvTopLeft>
+								<x>0.793457</x>
+								<y>0.3691406</y>
+							</uvTopLeft>
+						</Item>
+					</uvPairs>
+				</DBParticleSceneComponent>
+			</component>
+			<events href="" />
+			<id></id>
+			<locatorName></locatorName>
+			<placement>
+				<pos>
+					<x>0</x>
+					<y>0</y>
+					<z>0</z>
+				</pos>
+				<rot>
+					<w>1</w>
+					<x>0</x>
+					<y>0</y>
+					<z>0</z>
+				</rot>
+				<scale>
+					<x>1</x>
+					<y>1</y>
+					<z>1</z>
+				</scale>
+			</placement>
+			<timeController href="/Effects/Buffs/Bless/_GoldPowerfulRes.PRXY" id="CE796A63-30B2-4D15-90F1-2AF6266F2FDA">
+				<TimeController>
+					<cycleCount>0</cycleCount>
+					<cycleLength>1.7</cycleLength>
+					<fadein>0</fadein>
+					<fadeout>0</fadeout>
+					<firstCycleOffset>0</firstCycleOffset>
+					<firstCycleOffsetDelta>0</firstCycleOffsetDelta>
+					<speed>1</speed>
+					<startDelay>0</startDelay>
+				</TimeController>
+			</timeController>
+		</Item>
+	</attached>
+	<caption></caption>
+	<groupFlags>0</groupFlags>
+	<locatorList href="" />
+	<orientation>Default</orientation>
+</DBSceneComponent>

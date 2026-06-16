@@ -269,7 +269,14 @@
 				<targetSelector href="" />
 			</SpellPeriodicallyApplicator>
 		</Item>
-		<Item href="/Items/Talents/Class/Marine/status_A4_2_I2C.APLR" />
+		<Item href="/Items/Talents/Class/Marine/status_A4_2_stun.APLR" id="D47B4FE0-9443-4480-8F8A-3B99FE4CE768">
+			<StatusApplicator parent="/Items/Talents/Class/Marine/status_A4_2_I2C.APLR">
+				<effect>
+					<Item href="/Effects/Buffs/ColdCharged/_Gold1.EFFT" />
+					<Item skip="1" />
+				</effect>
+			</StatusApplicator>
+		</Item>
 		<Item href="/Items/Talents/Class/Marine/status_A4_2_stun.APLR" id="47CD6EF0-A601-4240-8CD4-3B0652BFD133">
 			<FlagsApplicator>
 				<applyTarget>AbilityOwner</applyTarget>

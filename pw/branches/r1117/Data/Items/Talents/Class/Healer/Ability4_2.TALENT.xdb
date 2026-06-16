@@ -335,9 +335,9 @@
 														<sString>1.0f</sString>
 													</addValue>
 													<multValue>
-														<compiledString></compiledString>
+														<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 														<returnType>float</returnType>
-														<sString>1.0f</sString>
+														<sString>0.0f</sString>
 													</multValue>
 													<stat>Life</stat>
 													<topModifier>false</topModifier>
@@ -369,7 +369,7 @@
 									<description textref="" />
 									<dispellPriority>NonDispellable</dispellPriority>
 									<effect>
-										<Item href="" />
+										<Item href="/Effects/Buffs/ColdCharged/_Gold1.EFFT" />
 										<Item href="" />
 									</effect>
 									<enabled>
@@ -477,9 +477,9 @@
 														<sString>1.0f</sString>
 													</addValue>
 													<multValue>
-														<compiledString></compiledString>
+														<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 														<returnType>float</returnType>
-														<sString>1.0f</sString>
+														<sString>0.0f</sString>
 													</multValue>
 													<stat>Life</stat>
 													<topModifier>false</topModifier>
@@ -511,7 +511,7 @@
 									<description textref="" />
 									<dispellPriority>NonDispellable</dispellPriority>
 									<effect>
-										<Item href="" />
+										<Item href="/Effects/Buffs/ColdCharged/_Gold1.EFFT" />
 										<Item href="" />
 									</effect>
 									<enabled>

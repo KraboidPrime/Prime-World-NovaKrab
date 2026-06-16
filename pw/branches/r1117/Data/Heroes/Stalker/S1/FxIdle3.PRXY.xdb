@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DBSceneComponent>
 	<BackLink DBID="/Heroes/Stalker/S1/_.SOBJ" Count="1" />
+	<BackLink DBID="/Heroes/Stalker/S2/_.SOBJ" Count="1" />
+	<BackLink DBID="/Heroes/Stalker/S3/_.SOBJ" Count="1" />
 	<attached>
 		<Item>
 			<attachFlags>15</attachFlags>

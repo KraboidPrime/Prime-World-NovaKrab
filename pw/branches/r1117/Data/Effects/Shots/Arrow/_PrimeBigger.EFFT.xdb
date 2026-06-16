@@ -12,4 +12,12 @@
 	<parentType>General</parentType>
 	<visibilityLimited>false</visibilityLimited>
 	<visibleTime>0</visibleTime>
+	<__states>
+		<state name="stalker_S2">
+			<component href="/Effects/Shots/Lightning/_BallTRSS2BIG.PRXY" />
+		</state>
+		<state name="stalker_S3">
+			<component href="/Effects/Shots/Arrow/_Purple2TRSbig.PRXY" />
+		</state>
+	</__states>
 </BasicEffectStandalone>

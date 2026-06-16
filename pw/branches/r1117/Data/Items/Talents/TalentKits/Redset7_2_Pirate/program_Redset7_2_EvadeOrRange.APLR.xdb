@@ -155,11 +155,10 @@
 			<stopEvents>0</stopEvents>
 		</Item>
 		<Item>
-			<applicator href="/Items/Talents/TalentKits/Redset7_2_Pirate/program_Redset7_2_EvadeOrrange.APLR" id="21EE206C-04BD-4018-838E-ADF530A934F6">
-				<PermanentStatModApplicator>
-					<applyTarget>ApplicatorTarget</applyTarget>
-					<caption>Add_Range</caption>
-					<customApplyType>None</customApplyType>
+			<applicator href="/Items/Talents/TalentKits/Redset7_2_Pirate/program_Redset7_2_EvadeOrrange.APLR" id="A4F4D1D6-0297-4737-A5B9-BAC07E06FB6E">
+				<SpellApplicator>
+					<applyTarget>AbilityOwner</applyTarget>
+					<caption>Range_new</caption>
 					<enabled>
 						<compiledString>FSIAAAADAAAAOAAAAEQAAABaAAAAQWRkX0V2YWRlT3JSYW5nZV9SZWRzZXQ3XzJDb3VudGVyAFWL7FGLRQiLEItNCIuChAAAAP/Q3B2EAAAA3+D2xAF1K2gAAAAAi00IixGLTQiLgogBAAD/0NwdfAAAAN/g9sREegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAABAAAAAAAAAGEA=</compiledString>
 						<returnType>bool</returnType>
@@ -167,23 +166,82 @@
 					</enabled>
 					<formulaName></formulaName>
 					<LoggingEvent>-1</LoggingEvent>
-					<modifier>
-						<addValue>
-							<compiledString>FRMAAAABAAAAHwAAAFJlZHNldDdfMl9BZGRSYW5nZQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
-							<returnType>float</returnType>
-							<sString>cRedset7_2_AddRange</sString>
-						</addValue>
-						<multValue>
-							<compiledString></compiledString>
-							<returnType>float</returnType>
-							<sString>1.0f</sString>
-						</multValue>
-						<stat>Range</stat>
-						<topModifier>false</topModifier>
-						<variable></variable>
-					</modifier>
 					<providerName></providerName>
-				</PermanentStatModApplicator>
+					<spell href="/Items/Talents/TalentKits/Redset7_2_Pirate/program_Redset7_2_EvadeOrrange.APLR" id="27E012EB-66B4-4CCB-929B-073267F6B589">
+						<Spell>
+							<applicators>
+								<Item href="/Items/Talents/TalentKits/Redset7_2_Pirate/program_Redset7_2_EvadeOrrange.APLR" id="3DDED90B-E1CD-4E82-9A15-A65AB05525D7">
+									<StatModApplicator>
+										<applyTarget>AbilityOwner</applyTarget>
+										<behaviorFlags>216</behaviorFlags>
+										<caption></caption>
+										<constraint>None</constraint>
+										<dontUpdate>false</dontUpdate>
+										<effect>
+											<Item href="" />
+											<Item href="" />
+										</effect>
+										<enabled>
+											<compiledString>FQAAAAABAAAAHgAAAFWL7IPsCItFCIsQi00Ii4JgAQAA/9CJRfzbRfzcHUAAAADf4PbEQXUJx0X4AQAAAOsHx0X4AAAAAIpF+IvlXcMAAAAAAAAvQA==</compiledString>
+											<returnType>bool</returnType>
+											<sString>sNaftaLevel &gt; 15.5</sString>
+										</enabled>
+										<formulaName></formulaName>
+										<lifeTime>
+											<compiledString></compiledString>
+											<returnType>float</returnType>
+											<sString>-1.0</sString>
+										</lifeTime>
+										<LoggingEvent>-1</LoggingEvent>
+										<modifier>
+											<addValue>
+												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
+												<returnType>float</returnType>
+												<sString>2.0f</sString>
+											</addValue>
+											<multValue>
+												<compiledString></compiledString>
+												<returnType>float</returnType>
+												<sString>1.0f</sString>
+											</multValue>
+											<stat>Range</stat>
+											<topModifier>false</topModifier>
+											<variable></variable>
+										</modifier>
+										<providerName></providerName>
+										<startCondition>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</startCondition>
+										<statModName></statModName>
+									</StatModApplicator>
+								</Item>
+							</applicators>
+							<dispatch href="/Items/Talents/TalentKits/Redset7_2_Pirate/program_Redset7_2_EvadeOrrange.APLR" id="3F15BCA8-D11C-4A03-9C89-144767EBA5C5">
+								<DispatchImmediate>
+									<alwaysApply>false</alwaysApply>
+									<applyEffect>
+										<Item href="" />
+										<Item href="" />
+									</applyEffect>
+									<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+									<applyEffectOrientation>Default</applyEffectOrientation>
+									<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+									<dieAfterApply>true</dieAfterApply>
+									<dispatchEffect>
+										<Item href="" />
+										<Item href="" />
+									</dispatchEffect>
+									<flags>0</flags>
+									<instantApply>false</instantApply>
+								</DispatchImmediate>
+							</dispatch>
+						</Spell>
+					</spell>
+					<spellTarget>AbilityOwner</spellTarget>
+					<targetSelector href="" />
+				</SpellApplicator>
 			</applicator>
 			<continueCondition>
 				<compiledString></compiledString>

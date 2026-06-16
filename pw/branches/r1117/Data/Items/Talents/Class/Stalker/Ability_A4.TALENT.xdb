@@ -7,6 +7,7 @@
 	<BackLink DBID="/Items/Talents/Class/Stalker/Ability_A4u.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset5_7_Ultimate/Status_Redset5_7_Cooldown.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentList_Mighty/Stalker_Mighty.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Level2/G567_CasterBase.TALENT" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -46,9 +47,9 @@
 							<Item href="/Items/Talents/Class/Stalker/Ability_A4.TALENT" id="56ED6E3E-D62F-45BA-9D71-A18886FB4CF0">
 								<SpellSwitchApplicator>
 									<activeSpellIndex>
-										<compiledString>FQAAAAAAAAAAVYvsg+wMi0UMixCLTQyLgkABAAD/0ItNDIsRi00Mi4JEAQAA3V34/9DcXfjf4PbEQXoJx0X0AAAAAOsHx0X0AQAAAItF9IvlXcM=</compiledString>
+										<compiledString>FQAAAAAAAAAAVYvsg+wMi0UMixCLTQyLgsgAAAD/0ItNDIsRi00Mi4LMAAAA3V34/9DcXfjf4PbEQXoJx0X0AAAAAOsHx0X0AQAAAItF9IvlXcM=</compiledString>
 										<returnType>int</returnType>
-										<sString>rStamina &gt;= rWill ? 0 : 1</sString>
+										<sString>rBaseStamina &gt;= rBaseWill ? 0 : 1</sString>
 									</activeSpellIndex>
 									<applyTarget>ApplicatorTarget</applyTarget>
 									<caption>Свич дебаффа</caption>
@@ -81,6 +82,30 @@
 									</spells>
 								</SpellSwitchApplicator>
 							</Item>
+							<Item href="/Items/Talents/Class/Stalker/Ability_A4.TALENT" id="C18B5E4B-5118-4D25-B17C-9DD1A68C4B70">
+								<DamageApplicator>
+									<applyTarget>ApplicatorTarget</applyTarget>
+									<cancelInvisibility>true</cancelInvisibility>
+									<caption>Урон</caption>
+									<damage>
+										<compiledString>FQkAAAABAAAAFQAAAEE0RGFtYWdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+										<returnType>float</returnType>
+										<sString>cA4Damage</sString>
+									</damage>
+									<damageMode>0</damageMode>
+									<damageType>Material</damageType>
+									<enabled>
+										<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<LoggingEvent>-1</LoggingEvent>
+									<providerName></providerName>
+									<timeLimiter>-1</timeLimiter>
+									<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Material.UIEV" />
+								</DamageApplicator>
+							</Item>
 						</applicators>
 						<dispatch href="/Items/Talents/Class/Stalker/Ability_A4.TALENT" id="31A3882A-D651-4229-AF90-A220C4D2301A">
 							<DispatchImmediate>
@@ -97,7 +122,7 @@
 									<Item href="" />
 									<Item href="" />
 								</dispatchEffect>
-								<flags>0</flags>
+								<flags>1</flags>
 								<instantApply>false</instantApply>
 							</DispatchImmediate>
 						</dispatch>
@@ -125,6 +150,7 @@
 		</Item>
 		<Item href="/Items/Talents/Class/Stalker/status_Aspd_Buff.APLR" />
 		<Item href="/Items/Talents/Class/Stalker/status_NEW_def_Stalk.APLR" />
+		<Item href="/Items/Talents/Class/Stalker/NewSupA3.APLR" />
 	</applicators>
 	<askId>4</askId>
 	<autoTargetSelector href="" />
@@ -237,6 +263,16 @@
 					</UnitConstant>
 				</Item>
 				<Item href="/Items/Talents/Class/Stalker/const_A1_Stamina" />
+				<Item href="/Items/Talents/Class/Stalker/Ability_A4.TALENT" id="6A0BEAD9-E164-4327-A83A-67B15CC77265">
+					<UnitConstant>
+						<name>A4Damage</name>
+						<var>
+							<compiledString>FRgAAAAEAAAAHwAAADgAAAB0AAAAkgAAAFN0YWxrZXJfQTR1AFN0YWxrZXJfQTR1AFWL7IPsGGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoDAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4PBAYlN9NtF9NwNsgAAAItVCIsCi00Ii5AwAQAA3V3s/9JR2RwkUdkFrgAAANkcJOgcAAAAg8QI3E3s2V3o2UXoi+VdwwAASEKamZmZmZnpP1WL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
+							<returnType>float</returnType>
+							<sString>(1+tal("Stalker_A4u"))*0.8*max(50, sStrength)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

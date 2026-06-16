@@ -2,6 +2,8 @@
 <AnimGraphCreator>
 	<BackLink DBID="/Heroes/Stalker/_.SOBJ" Count="1" />
 	<BackLink DBID="/Heroes/Stalker/S1/_.SOBJ" Count="1" />
+	<BackLink DBID="/Heroes/Stalker/S2/_.SOBJ" Count="1" />
+	<BackLink DBID="/Heroes/Stalker/S3/_.SOBJ" Count="1" />
 	<defaultNode>idle</defaultNode>
 	<macroNodes>
 		<Item>

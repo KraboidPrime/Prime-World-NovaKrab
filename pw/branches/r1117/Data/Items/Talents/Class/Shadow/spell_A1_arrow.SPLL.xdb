@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Spell>
-	<BackLink DBID="/Items/Talents/Class/Shadow/Ability_A1.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/Shadow/Ability_A1.TALENT" Count="1" />
 	<applicators />
 	<dispatch href="/Items/Talents/Class/Shadow/spell_A1_arrow.SPLL" id="08891CF7-A16A-4632-8CC9-F4E55A3D334F">
 		<DispatchLinear>

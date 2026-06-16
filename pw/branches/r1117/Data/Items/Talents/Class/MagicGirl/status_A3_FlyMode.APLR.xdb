@@ -82,7 +82,14 @@
 		</Item>
 		<Item href="/Heroes/DefaultStatus/CancelAllEnemyDispatches.APLR" />
 		<Item href="/GameLogic/GeneralApplicators/Uncontrollable.APLR" />
-		<Item href="/GameLogic/GeneralApplicators/Immune2Control.APLR" />
+		<Item href="/Items/Talents/Class/MagicGirl/status_A3_FlyMode.APLR" id="274E7945-EEF7-4ADB-AF1C-42A93F1FDDAB">
+			<StatModApplicator parent="/GameLogic/GeneralApplicators/Immune2Control.APLR">
+				<effect>
+					<Item href="/Effects/Buffs/ColdCharged/_Gold1.EFFT" />
+					<Item skip="1" />
+				</effect>
+			</StatModApplicator>
+		</Item>
 		<Item href="/Items/Talents/Class/MagicGirl/status_A3_FlyMode.APLR" id="655CFA3D-59E9-48AC-A019-E1CC906CBA6F">
 			<StatModApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>

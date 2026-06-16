@@ -5,6 +5,7 @@
 	<BackLink DBID="/Items/Talents/Class/Rifleman/Summon_Trap.APLR" Count="1" />
 	<BackLink DBID="/Summons/Bear/_.SUMMONED" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Rifleman/Summon_Trap_SUP.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/WitchDoctor/Ability4_2.TALENT" Count="1" />
 	<applicators>
 		<Item href="/Items/Talents/Class/Rifleman/Status_A0.APLR" id="D138733D-2B3C-4434-BC15-B3F0AD07CC1B">
 			<StatModApplicator>

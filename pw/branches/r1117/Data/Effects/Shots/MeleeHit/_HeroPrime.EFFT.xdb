@@ -11,4 +11,12 @@
 	<fadeOut>0.05</fadeOut>
 	<groupFlags>0</groupFlags>
 	<lifeTime>0</lifeTime>
+	<__states>
+		<state name="stalker_S2">
+			<component href="/Effects/Shots/MeleeHit/_PurpleTRS.PRXY" />
+		</state>
+		<state name="stalker_S3">
+			<component href="/Effects/Shots/MeleeHit/_PurpleTRS.PRXY" />
+		</state>
+	</__states>
 </BasicEffectAttached>

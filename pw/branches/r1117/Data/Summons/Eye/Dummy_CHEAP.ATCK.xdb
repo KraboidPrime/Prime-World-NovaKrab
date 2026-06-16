@@ -2,7 +2,6 @@
 <BaseAttack>
 	<BackLink DBID="/Summons/Eye/_A_CHEAP.SUMMONED" Count="1" />
 	<BackLink DBID="/Summons/Eye/_B_CHEAP.SUMMONED" Count="1" />
-	<BackLink DBID="/Summons/Shroom/Shroom.SUMMONED" Count="1" />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
 		<compiledString></compiledString>

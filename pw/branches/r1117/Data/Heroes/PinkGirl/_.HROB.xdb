@@ -746,7 +746,7 @@
 								</variableNames>
 							</Item>
 							<Item>
-								<applicator href="/Heroes/DefaultStatus/_STUN_Status.APLR" />
+								<applicator href="/Heroes/DefaultStatus/_STUNsleep_Status.APLR" />
 								<variableNames />
 							</Item>
 							<Item>

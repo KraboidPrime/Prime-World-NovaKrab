@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HeroSkin>
+	<BackLink DBID="/Heroes/Stalker/_.HROB" Count="2" />
+	<antagonistSkinId></antagonistSkinId>
+	<askList href="/Heroes/Stalker/S2/_.HEROSKIN" id="3E9C90D7-B9EA-4193-B78A-BEFBE6C6CD72">
+		<AskSoundsRef>
+			<asks>
+				<settings>
+					<Item>
+						<ask3dRecipient>Enemies</ask3dRecipient>
+						<minInterval>12</minInterval>
+					</Item>
+					<Item>
+						<ask3dRecipient>Enemies</ask3dRecipient>
+						<minInterval>6</minInterval>
+					</Item>
+					<Item>
+						<ask3dRecipient>Enemies</ask3dRecipient>
+						<minInterval>6</minInterval>
+					</Item>
+					<Item>
+						<ask3dRecipient>Enemies</ask3dRecipient>
+						<minInterval>6</minInterval>
+					</Item>
+					<Item>
+						<ask3dRecipient>Enemies</ask3dRecipient>
+						<minInterval>6</minInterval>
+					</Item>
+					<Item>
+						<ask3dRecipient>Enemies</ask3dRecipient>
+						<minInterval>12</minInterval>
+					</Item>
+					<Item>
+						<ask3dRecipient>Enemies</ask3dRecipient>
+						<minInterval>6</minInterval>
+					</Item>
+					<Item>
+						<ask3dRecipient>Enemies</ask3dRecipient>
+						<minInterval>6</minInterval>
+					</Item>
+					<Item>
+						<ask3dRecipient>Enemies</ask3dRecipient>
+						<minInterval>6</minInterval>
+					</Item>
+					<Item>
+						<ask3dRecipient>Enemies</ask3dRecipient>
+						<minInterval>3</minInterval>
+					</Item>
+					<Item>
+						<ask3dRecipient>Enemies</ask3dRecipient>
+						<minInterval>3</minInterval>
+					</Item>
+					<Item>
+						<ask3dRecipient>Enemies</ask3dRecipient>
+						<minInterval>3</minInterval>
+					</Item>
+					<Item>
+						<ask3dRecipient>Enemies</ask3dRecipient>
+						<minInterval>3</minInterval>
+					</Item>
+					<Item>
+						<ask3dRecipient>Enemies</ask3dRecipient>
+						<minInterval>3</minInterval>
+					</Item>
+				</settings>
+				<sounds>
+					<Item href="/Heroes/Stalker/S2/_.HEROSKIN" id="BFCCB9CF-1E14-4AD0-A998-91CD66FD4A42">
+						<DBSoundSceneComponent>
+							<attached />
+							<caption>sound</caption>
+							<desc>
+								<eventName>move</eventName>
+								<groupName>Heroes/Stalker_S23/Asks</groupName>
+								<projectName>PF</projectName>
+							</desc>
+							<groupFlags>0</groupFlags>
+							<locatorList href="" />
+							<orientation>Default</orientation>
+							<timeInterval>0</timeInterval>
+						</DBSoundSceneComponent>
+					</Item>
+					<Item href="/Heroes/Stalker/S2/_.HEROSKIN" id="194B8328-9989-42D9-B5ED-9E3ECDD30C39">
+						<DBSoundSceneComponent>
+							<attached />
+							<caption>sound</caption>
+							<desc>
+								<eventName>ability_1</eventName>
+								<groupName>Heroes/Stalker_S23/Asks</groupName>
+								<projectName>PF</projectName>
+							</desc>
+							<groupFlags>0</groupFlags>
+							<locatorList href="" />
+							<orientation>Default</orientation>
+							<timeInterval>0</timeInterval>
+						</DBSoundSceneComponent>
+					</Item>
+					<Item href="/Heroes/Stalker/S2/_.HEROSKIN" id="31644F3B-59EC-4FC8-BB15-E02ACD50990A">
+						<DBSoundSceneComponent>
+							<attached />
+							<caption>sound</caption>
+							<desc>
+								<eventName>ability_2</eventName>
+								<groupName>Heroes/Stalker_S23/Asks</groupName>
+								<projectName>PF</projectName>
+							</desc>
+							<groupFlags>0</groupFlags>
+							<locatorList href="" />
+							<orientation>Default</orientation>
+							<timeInterval>0</timeInterval>
+						</DBSoundSceneComponent>
+					</Item>
+					<Item href="/Heroes/Stalker/S2/_.HEROSKIN" id="395861FA-6C69-4460-B149-BE1F5E335A2E">
+						<DBSoundSceneComponent>
+							<attached />
+							<caption>sound</caption>
+							<desc>
+								<eventName>ability_3</eventName>
+								<groupName>Heroes/Stalker_S23/Asks</groupName>
+								<projectName>PF</projectName>
+							</desc>
+							<groupFlags>0</groupFlags>
+							<locatorList href="" />
+							<orientation>Default</orientation>
+							<timeInterval>0</timeInterval>
+						</DBSoundSceneComponent>
+					</Item>
+					<Item href="/Heroes/Stalker/S2/_.HEROSKIN" id="CB13A0FA-72DA-4020-8E56-3828EBF0175A">
+						<DBSoundSceneComponent>
+							<attached />
+							<caption>sound</caption>
+							<desc>
+								<eventName>ability_ult</eventName>
+								<groupName>Heroes/Stalker_S23/Asks</groupName>
+								<projectName>PF</projectName>
+							</desc>
+							<groupFlags>0</groupFlags>
+							<locatorList href="" />
+							<orientation>Default</orientation>
+							<timeInterval>0</timeInterval>
+						</DBSoundSceneComponent>
+					</Item>
+					<Item href="/Heroes/Stalker/S2/_.HEROSKIN" id="CEDA62A2-529A-4A5C-8146-CF27B0EA42B2">
+						<DBSoundSceneComponent>
+							<attached />
+							<caption>sound</caption>
+							<desc>
+								<eventName>attack</eventName>
+								<groupName>Heroes/Stalker_S23/Asks</groupName>
+								<projectName>PF</projectName>
+							</desc>
+							<groupFlags>0</groupFlags>
+							<locatorList href="" />
+							<orientation>Default</orientation>
+							<timeInterval>0</timeInterval>
+						</DBSoundSceneComponent>
+					</Item>
+					<Item href="/Heroes/Stalker/S2/_.HEROSKIN" id="BE78AD7A-DE4E-41A1-91A2-C3F7F4705546">
+						<DBSoundSceneComponent>
+							<attached />
+							<caption>sound</caption>
+							<desc>
+								<eventName>death</eventName>
+								<groupName>Heroes/Stalker_S23/Asks</groupName>
+								<projectName>PF</projectName>
+							</desc>
+							<groupFlags>0</groupFlags>
+							<locatorList href="" />
+							<orientation>Default</orientation>
+							<timeInterval>0</timeInterval>
+						</DBSoundSceneComponent>
+					</Item>
+					<Item href="/Heroes/Stalker/S2/_.HEROSKIN" id="15B80A13-7FE1-49D5-96B7-43233FBAA5B3">
+						<DBSoundSceneComponent>
+							<attached />
+							<caption>sound</caption>
+							<desc>
+								<eventName>revive</eventName>
+								<groupName>Heroes/Stalker_S23/Asks</groupName>
+								<projectName>PF</projectName>
+							</desc>
+							<groupFlags>0</groupFlags>
+							<locatorList href="" />
+							<orientation>Default</orientation>
+							<timeInterval>0</timeInterval>
+						</DBSoundSceneComponent>
+					</Item>
+					<Item href="/Heroes/Stalker/S2/_.HEROSKIN" id="DD413314-E657-4CE2-913A-61EFB821AD1B">
+						<DBSoundSceneComponent>
+							<attached />
+							<caption>sound</caption>
+							<desc>
+								<eventName>kill</eventName>
+								<groupName>Heroes/Stalker_S23/Asks</groupName>
+								<projectName>PF</projectName>
+							</desc>
+							<groupFlags>0</groupFlags>
+							<locatorList href="" />
+							<orientation>Default</orientation>
+							<timeInterval>0</timeInterval>
+						</DBSoundSceneComponent>
+					</Item>
+					<Item href="/Heroes/Stalker/S2/_.HEROSKIN" id="854CEC3D-7C18-4809-9CE8-C2EFC41E3057">
+						<DBSoundSceneComponent>
+							<attached />
+							<caption>sound</caption>
+							<desc>
+								<eventName>idle</eventName>
+								<groupName>Heroes/Stalker_S23/Asks</groupName>
+								<projectName>PF</projectName>
+							</desc>
+							<groupFlags>0</groupFlags>
+							<locatorList href="" />
+							<orientation>Default</orientation>
+							<timeInterval>0</timeInterval>
+						</DBSoundSceneComponent>
+					</Item>
+					<Item href="" />
+					<Item href="" />
+					<Item href="" />
+					<Item href="" />
+				</sounds>
+				<sounds3d>
+					<Item href="" />
+					<Item href="" />
+					<Item href="" />
+					<Item href="" />
+					<Item href="" />
+					<Item href="" />
+					<Item href="" />
+					<Item href="" />
+					<Item href="" />
+					<Item href="" />
+					<Item href="" />
+					<Item href="" />
+					<Item href="" />
+					<Item href="" />
+				</sounds3d>
+			</asks>
+		</AskSoundsRef>
+	</askList>
+	<askListSecondState href="" />
+	<botRoll>true</botRoll>
+	<cost>500</cost>
+	<deathParameters href="" />
+	<gender>Female</gender>
+	<heroImageA href="/UI/Styles/Icons/Heroes/Stalker/Face_S2.ITEX" />
+	<heroImageB href="/UI/Styles/Icons/Heroes/Stalker/Face_S2.ITEX" />
+	<heroName textref="/Heroes/Stalker/S2/_.HEROSKIN_heroName.txt" />
+	<heroRace>3</heroRace>
+	<heroRenderA href="/UI/Styles/Icons/Heroes/Stalker/Face_S2.ITEX" />
+	<heroRenderB href="/UI/Styles/Icons/Heroes/Stalker/Face_S2.ITEX" />
+	<legal>true</legal>
+	<lobbyAskSound>Heroes/Asks/stalker_iddle_1</lobbyAskSound>
+	<mute>false</mute>
+	<persistentId>stalker_S2</persistentId>
+	<sceneObject href="/Heroes/Stalker/S2/_.SOBJ" />
+</HeroSkin>

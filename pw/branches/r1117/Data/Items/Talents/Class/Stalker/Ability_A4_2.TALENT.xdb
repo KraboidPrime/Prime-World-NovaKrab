@@ -273,6 +273,7 @@
 			</ProgramApplicator>
 		</Item>
 		<Item href="/Items/Talents/Class/Stalker/status_NEW_def_Stalk.APLR" />
+		<Item href="/Items/Talents/Class/Stalker/NewSupA3.APLR" />
 	</applicators>
 	<askId>4</askId>
 	<autoTargetSelector href="" />

@@ -274,9 +274,9 @@
 														<caption>Self throw</caption>
 														<collisionFlags>5</collisionFlags>
 														<enabled>
-															<compiledString>FTsAAAAFAAAAVwAAAHYAAACMAAAAngAAAL4AAABURUNIX1B1c2hEaXN0YW5jZVNlbGYAAABJbW11bmUyQ29udHJvbAAAVGhyb3cAAABUaHJvd19KdW1wAFWL7IPsDItFEIsQi00Qi0IM/9CLTQxRi1UIUmgAAAAAi0UQixCLTRCLQlDdXfj/0Nxd+N/g9sRBdWtoGAAAAItNDIsRi00Mi4KIAQAA/9DcHe4AAADf4PbERHpJagCLTRBRaCgAAACLVQyLAotNDIuQnAEAAP/SO0UQdSlqAItFEFBoMAAAAItNDIsRi00Mi4KcAQAA/9A7RRB1CcdF9AEAAADrB8dF9AAAAACKRfSL5V3DAAAAAAAAAAA=</compiledString>
+															<compiledString>FSsAAAADAAAARwAAAGwAAACMAAAAVEVDSF9QdXNoRGlzdGFuY2VTZWxmAAAAVGhyb3cAAABUaHJvd19KdW1wAFWL7IPsDItFEIsQi00Qi0IM/9CLTQxRi1UIUmgAAAAAi0UQixCLTRCLQlDdXfj/0Nxd+N/g9sRBdUlqAItNEFFoGAAAAItVDIsCi00Mi5CcAQAA/9I7RRB1KWoAi0UQUGggAAAAi00MixGLTQyLgpwBAAD/0DtFEHUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
 															<returnType>bool</returnType>
-															<sString>mDist2Target &lt; cTECH_PushDistanceSelf &amp;&amp; receiver.vImmune2Control == 0 &amp;&amp; receiver.applThrow(GLOBAL) == pMisc &amp;&amp; receiver.applThrow_Jump(GLOBAL) == pMisc</sString>
+															<sString>mDist2Target &lt; cTECH_PushDistanceSelf &amp;&amp; receiver.applThrow(GLOBAL) == pMisc &amp;&amp; receiver.applThrow_Jump(GLOBAL) == pMisc</sString>
 														</enabled>
 														<firstTargetToHit href="" />
 														<flightType>Throw</flightType>
@@ -918,9 +918,9 @@
 		<Item href="/Items/Talents/Level5/G313_K_maxStrInt_LifeDrain.TALENT" id="0F62C4F3-DEA2-4755-8741-D8931F2F7A42">
 			<ConditionCastLimitation>
 				<condition>
-					<compiledString>FQ8AAAACAAAAFQAAACsAAABJbW11bmUyQ29udHJvbABVi+xRVmgAAAAAi0UMixCLTQyLgogBAAD/0NwdjQAAAN/g9sREeyaLTQyLEYtNDIuCmAEAAP/Qi/CLTQiLEYtNCIuCmAEAAP/QO/B1ImgAAAIAi00MixGLTQyLQmj/0A+2yIXJdQnHRfwBAAAA6wfHRfwAAAAAikX8XovlXcMAAAAAAAAAAA==</compiledString>
+					<compiledString>FQ8AAAACAAAAFQAAACsAAABJbW11bmUyQ29udHJvbABVi+xRVmgAAAAAi0UMixCLTQyLgogBAAD/0NwdmgAAAN/g9sREe1WLTQiLEYtNCIuCkAEAAP/Qi/CLTQyLEYtNDIuCkAEAAP/QO/B0L4tNDIsRi00Mi4KYAQAA/9CL8ItNCIsRi00Ii4KYAQAA/9A78HQJx0X8AAAAAOsHx0X8AQAAAIpF/F6L5V3DAAAAAAAAAAA=</compiledString>
 					<returnType>bool</returnType>
-					<sString>((receiver.vImmune2Control == 0)||(receiver.WOID == sender.WOID))&amp;&amp;(!rFlag(131072))</sString>
+					<sString>(receiver.vImmune2Control == 0  || sFctn == rFctn)||(receiver.WOID == sender.WOID)</sString>
 				</condition>
 				<uiEvent href="/UI/Events/ErrorMessages/CastError_NoValidCurrentTarget.UIEV" />
 			</ConditionCastLimitation>

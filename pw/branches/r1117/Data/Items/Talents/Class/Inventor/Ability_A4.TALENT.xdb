@@ -139,9 +139,9 @@
 												<Item href="" />
 											</effect>
 											<enabled>
-												<compiledString></compiledString>
+												<compiledString>FSAAAAACAAAAJwAAAEAAAABJbnZlbnRvcl9BNF9TVVAASW52ZW50b3JfQTRfU1VQAFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZF+/fYG8CDwAGL5V3D</compiledString>
 												<returnType>bool</returnType>
-												<sString>true</sString>
+												<sString>!tal("Inventor_A4_SUP")</sString>
 											</enabled>
 											<formulaName></formulaName>
 											<lifeTime>
@@ -159,9 +159,9 @@
 											<scaleMode>ScaleIsCount</scaleMode>
 											<spell href="/GameLogic/GeneralApplicators/ChannelingInterruptApplicator.SPLL" />
 											<startCondition>
-												<compiledString></compiledString>
+												<compiledString>FSAAAAACAAAAJwAAAEAAAABJbnZlbnRvcl9BNF9TVVAASW52ZW50b3JfQTRfU1VQAFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZF+/fYG8CDwAGL5V3D</compiledString>
 												<returnType>bool</returnType>
-												<sString>true</sString>
+												<sString>!tal("Inventor_A4_SUP")</sString>
 											</startCondition>
 											<startOffset>
 												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpmZPg==</compiledString>

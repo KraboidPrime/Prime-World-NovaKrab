@@ -130,9 +130,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FRcAAAACAAAASgAAAGMAAABCcmV3ZXJfQTJ1AABCcmV3ZXJfQTJ1AFWL7IPsDFaLRQiLEItNCItCTP/Qi/CLTQiLEYtNCIuCkAEAAP/QO/APlMEPttGF0nVYaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgMAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0CcdF9AEAAADrB8dF9AAAAACKRfRei+Vdww==</compiledString>
+					<compiledString>FTAAAAAEAAAAZwAAAIAAAAC2AAAAzwAAAEJyZXdlcl9BMnUAAEJyZXdlcl9BMnUAAEJyZXdlcl9BNF8yAEJyZXdlcl9BNF8yAFWL7IPsFFaLRQiLEItNCItCTP/Qi/CLTQiLEYtNCIuCkAEAAP/QO/APlMEPttGF0g+FpwAAAGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoDAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdFhoGAAAAItVCIsCi00Ii5CoAQAA/9KFwHQqaCQAAACLRQiLEItNCIuCqAEAAP/QiUX0i030ixGLTfSLQgT/0IhF8+sExkXzAA+2TfOFyXQJx0XsAQAAAOsHx0XsAAAAAIpF7F6L5V3D</compiledString>
 					<returnType>bool</returnType>
-					<sString>!nt( true, false) &amp;&amp; tal("Brewer_A2u")</sString>
+					<sString>!nt( true, false) &amp;&amp; tal("Brewer_A2u") &amp;&amp; tal("Brewer_A4_2")</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<lifeTime>

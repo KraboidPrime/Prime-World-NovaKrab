@@ -84,7 +84,7 @@
 							<returnType>bool</returnType>
 							<sString>true</sString>
 						</enabled>
-						<flag>74055943</flag>
+						<flag>74056071</flag>
 						<formulaName></formulaName>
 						<lifeTime>
 							<compiledString></compiledString>
@@ -232,6 +232,8 @@
 					</TriggerApplicator>
 				</Item>
 				<Item href="/GameLogic/GeneralApplicators/IgnoreTarget.APLR" />
+				<Item href="/GameLogic/GeneralApplicators/Immune2Control.APLR" />
+				<Item href="/GameLogic/GeneralApplicators/Uncontrollable.APLR" />
 			</passiveApplicators>
 			<requireLineOfSight>true</requireLineOfSight>
 			<shortDescription textref="" />

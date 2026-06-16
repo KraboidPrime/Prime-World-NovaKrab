@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Class/Assassin/Ability_A1u.TALENT" Count="1" />
 	<name>A1_BaseDamage</name>
 	<var>
-		<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACGQgAA+kM=</compiledString>
+		<compiledString>FSAAAAAGAAAAJwAAAEAAAAB6AAAAhAAAALoAAADEAAAAQXNzYXNzaW5fQTJfU1VQAEFzc2Fzc2luX0EyX1NVUABVi+yD7AxoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXRAagFR2QUGAQAA2RwkUdkFAgEAANkcJGoAi1UIiwKLTQiLkIwAAAD/0lHZHCRqAYtFEIsQi00Qi0Jg/9DZXfTrPmoBUdkF/gAAANkcJFHZBfoAAADZHCRqAItNCIsRi00Ii4IwAQAA/9BR2RwkagGLTRCLEYtNEItCYP/Q2V302UX0i+VdwwAAhkIAAPpDAABYQgAAyEM=</compiledString>
 		<returnType>float</returnType>
-		<sString>damageScale( sStrength, 67, 500 )</sString>
+		<sString>tal("Assassin_A2_SUP") ? damageScale( sBaseAttackSpeed, 54, 400 ) : damageScale( sStrength, 67, 500 )</sString>
 	</var>
 </UnitConstant>

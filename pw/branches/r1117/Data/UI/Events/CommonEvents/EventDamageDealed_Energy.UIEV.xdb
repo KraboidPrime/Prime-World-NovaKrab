@@ -208,7 +208,7 @@
 	<BackLink DBID="/Items/Talents/Class/Witch/Ability_A4_2.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/WitchDoctor/Ability1.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/WitchDoctor/Ability2.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/WitchDoctor/Ability4_2.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/WitchDoctor/Ability4_2.TALENT" Count="3" />
 	<BackLink DBID="/Items/Talents/Level2/G503_AA_DMG.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Level2/G510_FireWard.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level2/status_G567_DamagePeriod.APLR" Count="1" />

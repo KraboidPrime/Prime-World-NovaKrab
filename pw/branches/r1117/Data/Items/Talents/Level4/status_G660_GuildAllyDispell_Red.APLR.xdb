@@ -3,6 +3,7 @@
 	<BackLink DBID="/Items/Talents/Level4/G660_GuildAllyDispell_Red.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level5/G330_Dex_WillOrStmn.TALENT" Count="3" />
 	<BackLink DBID="/Items/Talents/Class/Gunner/Ability_A4.TALENT" Count="3" />
+	<BackLink DBID="/Items/Talents/Class/Stalker/Ability_A3.TALENT" Count="3" />
 	<applicators>
 		<Item href="/GameLogic/GeneralApplicators/Immune2Control.APLR" />
 		<Item href="/Items/Talents/Level4/status_G660_GuildAllyDispell_Red.APLR" id="594D7C76-E7FD-407D-BF16-3DF682914063">

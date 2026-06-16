@@ -73,6 +73,10 @@
 						<applicator href="/Items/Talents/Class/Gunner/Ability_A4.TALENT" id="160C1EBB-2492-472C-8557-5B0F795ECE9D">
 							<StatusApplicator parent="/Items/Talents/Level4/status_G660_GuildAllyDispell_Red.APLR">
 								<applyTarget>AbilityOwner</applyTarget>
+								<effect>
+									<Item href="/Effects/Buffs/ColdCharged/_Gold1.EFFT" />
+									<Item skip="1" />
+								</effect>
 								<enabled>
 									<compiledString>FR4AAAACAAAAJQAAAD4AAABHdW5uZXJfQTJfU1VQAAAAR3VubmVyX0EyX1NVUABVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AIpF+4vlXcM=</compiledString>
 									<returnType>bool</returnType>

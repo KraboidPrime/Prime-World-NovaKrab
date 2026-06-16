@@ -744,9 +744,9 @@
 					<UnitConstant>
 						<name>Panic_Duration</name>
 						<var>
-							<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzcxMPw==</compiledString>
 							<returnType>float</returnType>
-							<sString>1</sString>
+							<sString>0.8f</sString>
 						</var>
 					</UnitConstant>
 				</Item>

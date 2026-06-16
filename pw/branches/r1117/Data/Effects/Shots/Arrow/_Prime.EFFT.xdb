@@ -20,5 +20,11 @@
 		<state name="hunter_S3">
 			<component href="/Effects/Shots/Arrow/_Purple_S3.PRXY" />
 		</state>
+		<state name="stalker_S2">
+			<component href="/Effects/Shots/Lightning/_BallTRSS2.PRXY" />
+		</state>
+		<state name="stalker_S3">
+			<component href="/Effects/Shots/Arrow/_Purple2TRSsmall.PRXY" />
+		</state>
 	</__states>
 </BasicEffectStandalone>

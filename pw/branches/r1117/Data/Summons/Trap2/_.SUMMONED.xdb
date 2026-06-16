@@ -2,6 +2,7 @@
 <Summoned>
 	<BackLink DBID="/Items/Talents/Class/Rifleman/Summon_Trap.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Wendigo/Ability3.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/WitchDoctor/Ability4_2.TALENT" Count="1" />
 	<abilities>
 		<Item href="" />
 		<Item href="" />
@@ -254,9 +255,9 @@
 					<levelUpgrades />
 					<statId>NaftaForKill</statId>
 					<value>
-						<compiledString></compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
 						<returnType>float</returnType>
-						<sString>0.0f</sString>
+						<sString>5.0f</sString>
 					</value>
 				</Item>
 				<Item>

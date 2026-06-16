@@ -89,6 +89,39 @@
 		<Item href="/Items/Talents/Class/BladeDancer/ProgramA1.APLR" />
 		<Item href="/Items/Talents/Class/BladeDancer/ProgramA2.APLR" />
 		<Item href="/Items/Talents/Class/BladeDancer/ProgramA3.APLR" />
+		<Item href="/Items/Talents/Class/BladeDancer/status_A4_SuperBuff.APLR" id="2AAEE679-CB65-483C-B2C6-F56F7D84998B">
+			<FlagsApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption></caption>
+				<consumables />
+				<effect>
+					<Item href="/Effects/Buffs/Bless/_GoldPowerfulRes.EFFT" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FSAAAAACAAAAJwAAAEAAAABCbGFkZURhbmNlcl9BNHUAQmxhZGVEYW5jZXJfQTR1AFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAikX7i+Vdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("BladeDancer_A4u")</sString>
+				</enabled>
+				<flag>0</flag>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<talents />
+				<useListAs>ListAsRule</useListAs>
+			</FlagsApplicator>
+		</Item>
 	</applicators>
 	<applyTarget>AbilityOwner</applyTarget>
 	<behaviorFlags>1</behaviorFlags>

@@ -854,6 +854,7 @@
 			</SpellApplicator>
 		</Item>
 		<Item href="/Items/Talents/Class/Stalker/status_NEW_def_Stalk.APLR" />
+		<Item href="/Items/Talents/Class/Stalker/NewSupA3.APLR" />
 	</applicators>
 	<askId>1</askId>
 	<autoTargetSelector href="" />

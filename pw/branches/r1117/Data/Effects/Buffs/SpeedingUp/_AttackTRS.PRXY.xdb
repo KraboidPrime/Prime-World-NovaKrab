@@ -2,6 +2,7 @@
 <DBSceneComponent>
 	<BackLink DBID="/Effects/Buffs/SpeedingUp/_Attack.EFFT" Count="1" />
 	<BackLink DBID="/Effects/Buffs/SpeedingUp/_MoveAndAttack.PRXY" Count="1" />
+	<BackLink DBID="/Effects/Buffs/Bless/_GoldPowerfulTRSRes2.PRXY" Count="1" />
 	<attached>
 		<Item>
 			<attachFlags>15</attachFlags>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StatusApplicator>
-	<BackLink DBID="/Items/Talents/Class/Marine/status_A4_2_stun.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Marine/status_A4_2_stun.APLR" Count="3" />
 	<applicators>
 		<Item href="/GameLogic/GeneralApplicators/DispellWEffects.APLR" />
 		<Item href="/GameLogic/GeneralApplicators/Immune2Control.APLR" />

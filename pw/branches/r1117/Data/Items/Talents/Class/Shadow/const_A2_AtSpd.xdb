@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Class/Shadow/Ability_A2u.TALENT" Count="1" />
 	<name>AtSpd_Per_Hatred</name>
 	<var>
-		<compiledString>FRoAAAAFAAAAJQAAAC8AAABkAAAAeQAAAJUAAABBNF8yX0JvbnVzAABTaGFkb3dfRW5yYWdlAFWL7IPsFGoAUdkFvgAAANkcJFHZBboAAADZHCRqAItFCIsQi00Ii4K4AAAA/9BR2RwkagCLTRCLEYtNEItCYP/Qi00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ3V34/9BoDAAAAItNDIsRi00Mi4KIAQAA3V3w/9DcTfDcNbIAAADZ6N7B3E342V3s2UXsi+VdwwAAAAAAAPA/AAAAAAAAWUBmZqY/zczMQA==</compiledString>
+		<compiledString>FRoAAAAFAAAAJQAAAC8AAABkAAAAeQAAAJUAAABBNF8yX0JvbnVzAABTaGFkb3dfRW5yYWdlAFWL7IPsFGoAUdkFvgAAANkcJFHZBboAAADZHCRqAItFCIsQi00Ii4K4AAAA/9BR2RwkagCLTRCLEYtNEItCYP/Qi00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ3V34/9BoDAAAAItNDIsRi00Mi4KIAQAA3V3w/9DcTfDcNbIAAADZ6N7B3E342V3s2UXsi+VdwwAAAAAAAPA/AAAAAAAAWUAAAMA/MzPzQA==</compiledString>
 		<returnType>float</returnType>
-		<sString>abilityScale(sBaseStrength,1.3, 6.4, false) * (1.0f + cA4_2_Bonus * receiver.vShadow_Enrage / 100)</sString>
+		<sString>abilityScale(sBaseStrength,1.5, 7.6, false) * (1.0f + cA4_2_Bonus * receiver.vShadow_Enrage / 100)</sString>
 	</var>
 </UnitConstant>

@@ -592,7 +592,7 @@
 													<formulaName></formulaName>
 													<LoggingEvent>-1</LoggingEvent>
 													<providerName></providerName>
-													<spell href="/Items/Talents/Class/Shadow/spell_A1_arrow.SPLL" />
+													<spell href="/Items/Talents/Class/Shadow/spell_A1_arrowSUP.SPLL" />
 													<spellTarget>ApplicatorTarget</spellTarget>
 													<targetSelector href="/Items/Talents/Class/Shadow/Ability_A1.TALENT" id="BBBC9154-1824-4461-A25B-382B03C7BBAD">
 														<PointTargetSelector>

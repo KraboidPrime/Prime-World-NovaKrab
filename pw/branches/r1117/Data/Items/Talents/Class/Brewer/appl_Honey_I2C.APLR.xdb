@@ -2,7 +2,7 @@
 <StatModApplicator>
 	<BackLink DBID="/Items/Talents/Class/Brewer/status_Honey_1F.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Brewer/status_Honey_2F.APLR" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Brewer/status_Honey_0F.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Brewer/status_Honey_0F.APLR" Count="5" />
 	<applyTarget>ApplicatorTarget</applyTarget>
 	<behaviorFlags>0</behaviorFlags>
 	<caption>записывалка Immune2Control</caption>

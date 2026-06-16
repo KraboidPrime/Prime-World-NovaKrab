@@ -249,6 +249,10 @@
 									<Item href="/Summons/AngelFake/FakeInterractor.SUMMONED" id="71649B07-BA01-4848-8A7E-E5EA12D0ECF5">
 										<StatModApplicator parent="/GameLogic/GeneralApplicators/Immune2Control.APLR">
 											<applyTarget>AbilityOwner</applyTarget>
+											<effect>
+												<Item href="/Effects/Buffs/ColdCharged/_Gold1.EFFT" />
+												<Item skip="1" />
+											</effect>
 											<enabled>
 												<compiledString>FRgAAAACAAAAHwAAADgAAABBbmdlbF9BNV8ydQBBbmdlbF9BNV8ydQBVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaAwAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AIpF+4vlXcM=</compiledString>
 												<returnType>bool</returnType>

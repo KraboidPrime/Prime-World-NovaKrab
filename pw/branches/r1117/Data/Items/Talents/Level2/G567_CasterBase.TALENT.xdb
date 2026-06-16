@@ -622,6 +622,7 @@
 					<Item href="/Items/Talents/Class/Healer/Ability4.TALENT" />
 					<Item href="/Items/Talents/Class/PinkGirl/Ability_A4_2.TALENT" />
 					<Item href="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" />
+					<Item href="/Items/Talents/Class/Stalker/Ability_A4.TALENT" />
 				</talents>
 				<targetAbility>TalentFromList</targetAbility>
 				<useListAs>ListAsRule</useListAs>

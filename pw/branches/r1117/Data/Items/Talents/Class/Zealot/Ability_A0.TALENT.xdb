@@ -46,9 +46,9 @@
 					<UnitConstant>
 						<name>FanNewBuff</name>
 						<var>
-							<compiledString>FQAAAAACAAAAFgAAABwAAABVi+xRi0UIixCLTQiLgrwAAAD/0NwNSAAAANwtQAAAANld/NlF/FHZHCRR2ejZHCToGwAAAIPECIvlXcMAAIA/AAAAAABAWEDsUbgehevBP1WL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
+							<compiledString>FQAAAAACAAAAFgAAABwAAABVi+xRi0UIixCLTQiLgrwAAAD/0NwNSAAAANwtQAAAANld/NlF/FHZHCRR2ejZHCToGwAAAIPECIvlXcMAAIA/AAAAAACAWEB7FK5H4XrEP1WL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
 							<returnType>float</returnType>
-							<sString>max(1.0f, (97-0.14*sBaseIntellect))</sString>
+							<sString>max(1.0f, (98-0.16*sBaseIntellect))</sString>
 						</var>
 					</UnitConstant>
 				</Item>

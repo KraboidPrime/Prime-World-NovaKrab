@@ -4,13 +4,13 @@
 	<applicators>
 		<Item href="/GameLogic/GeneralApplicators/Immune2Control.APLR" />
 		<Item href="/GameLogic/GeneralApplicators/Uncontrollable.APLR" />
-		<Item href="/Items/Talents/Class/Inventor/status_A4_SUP_Immun2Control.APLR" id="D9486BBB-BB92-4CCF-82CE-B07050915F7D">
+		<Item href="/Items/Talents/Class/Inventor/status_A4_SUP_Immun2Control.APLR" id="8E5F0F3C-083C-4BBB-903B-09F51A436BD4">
 			<StatModApplicator>
-				<applyTarget>AbilityOwner</applyTarget>
-				<behaviorFlags>1</behaviorFlags>
-				<caption>Переменная для контролей, которые не отменяют ченнел</caption>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>Immune2EvilTree = 1</caption>
 				<constraint>None</constraint>
-				<dontUpdate>false</dontUpdate>
+				<dontUpdate>true</dontUpdate>
 				<effect>
 					<Item href="" />
 					<Item href="" />
@@ -29,18 +29,18 @@
 				<LoggingEvent>-1</LoggingEvent>
 				<modifier>
 					<addValue>
-						<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+						<compiledString></compiledString>
 						<returnType>float</returnType>
 						<sString>1.0f</sString>
 					</addValue>
 					<multValue>
-						<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+						<compiledString></compiledString>
 						<returnType>float</returnType>
-						<sString>0.0f</sString>
+						<sString>1.0f</sString>
 					</multValue>
 					<stat>Life</stat>
 					<topModifier>false</topModifier>
-					<variable>AllowControl</variable>
+					<variable>Immune2EvilTree</variable>
 				</modifier>
 				<providerName></providerName>
 				<startCondition>
@@ -87,7 +87,7 @@
 								<returnType>bool</returnType>
 								<sString>true</sString>
 							</abilityCondition>
-							<abilityCostMode>Energy</abilityCostMode>
+							<abilityCostMode>Any</abilityCostMode>
 							<exceptThis>false</exceptThis>
 							<flags>1073743103</flags>
 							<onlySingleTarget>false</onlySingleTarget>
@@ -99,7 +99,7 @@
 						</add>
 						<applyTarget>ApplicatorTarget</applyTarget>
 						<checkSender>0</checkSender>
-						<damageTypeFilter>31</damageTypeFilter>
+						<damageTypeFilter>15</damageTypeFilter>
 						<flags>0</flags>
 						<matchTargetInverted>false</matchTargetInverted>
 						<mul>
@@ -140,7 +140,7 @@
 	<description textref="/Items/Talents/Class/Inventor/status_A4_SUP_Immun2Control.APLR_description.txt" />
 	<dispellPriority>Medium</dispellPriority>
 	<effect>
-		<Item href="" />
+		<Item href="/Effects/Buffs/ColdCharged/_Gold1.EFFT" />
 		<Item href="" />
 	</effect>
 	<enabled>

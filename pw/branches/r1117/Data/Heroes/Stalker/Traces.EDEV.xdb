@@ -2,6 +2,8 @@
 <EnableDisableSCEvents>
 	<BackLink DBID="/Heroes/Stalker/_.SOBJ" Count="1" />
 	<BackLink DBID="/Heroes/Stalker/S1/_.SOBJ" Count="1" />
+	<BackLink DBID="/Heroes/Stalker/S2/_.SOBJ" Count="1" />
+	<BackLink DBID="/Heroes/Stalker/S3/_.SOBJ" Count="1" />
 	<disableEvents />
 	<enableEvents>
 		<Item href="/Heroes/Stalker/Traces.EDEV" id="3D212390-9105-4678-9A8C-3DD19AB8F5D1">

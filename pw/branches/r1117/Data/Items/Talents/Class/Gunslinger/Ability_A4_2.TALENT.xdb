@@ -1135,6 +1135,43 @@
 																												<uiEvent href="/UI/Events/CommonEvents/EventHeal.UIEV" />
 																											</HealApplicator>
 																										</Item>
+																										<Item href="/Items/Talents/Class/Gunslinger/Ability_A4_2.TALENT" id="8FD2A831-A3D8-4731-8781-77CD31307C19">
+																											<EyeApplicator>
+																												<applyTarget>ApplicatorTarget</applyTarget>
+																												<behaviorFlags>0</behaviorFlags>
+																												<cancelObstacles>false</cancelObstacles>
+																												<caption>открываем вижен</caption>
+																												<effect>
+																													<Item href="" />
+																													<Item href="" />
+																												</effect>
+																												<enabled>
+																													<compiledString></compiledString>
+																													<returnType>bool</returnType>
+																													<sString>true</sString>
+																												</enabled>
+																												<eyeTarget>ApplicatorTarget</eyeTarget>
+																												<flags>8</flags>
+																												<formulaName></formulaName>
+																												<lifeTime>
+																													<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+																													<returnType>float</returnType>
+																													<sString>1.0f</sString>
+																												</lifeTime>
+																												<LoggingEvent>-1</LoggingEvent>
+																												<providerName></providerName>
+																												<startCondition>
+																													<compiledString></compiledString>
+																													<returnType>bool</returnType>
+																													<sString>true</sString>
+																												</startCondition>
+																												<visRange>
+																													<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
+																													<returnType>float</returnType>
+																													<sString>5.0f</sString>
+																												</visRange>
+																											</EyeApplicator>
+																										</Item>
 																									</applicators>
 																									<dispatch href="/Items/Talents/Class/Gunslinger/Ability_A4_2.TALENT" id="BCB974EE-DE7F-49C2-9418-A7E86A1AF3B2">
 																										<DispatchLinear>
@@ -1182,7 +1219,68 @@
 																								<returnType>bool</returnType>
 																								<sString>true</sString>
 																							</startCondition>
-																							<startSpell href="" />
+																							<startSpell href="/Items/Talents/Class/Gunslinger/Ability_A4_2.TALENT" id="8827B40D-86AD-4E88-A9D1-43BAF23EEF73">
+																								<Spell>
+																									<applicators>
+																										<Item href="/Items/Talents/Class/Gunslinger/Ability_A4_2.TALENT" id="5DDACF57-667F-4362-AC24-D293FCAC6C8D">
+																											<EyeApplicator>
+																												<applyTarget>ApplicatorTarget</applyTarget>
+																												<behaviorFlags>0</behaviorFlags>
+																												<cancelObstacles>false</cancelObstacles>
+																												<caption>открываем вижен</caption>
+																												<effect>
+																													<Item href="" />
+																													<Item href="" />
+																												</effect>
+																												<enabled>
+																													<compiledString></compiledString>
+																													<returnType>bool</returnType>
+																													<sString>true</sString>
+																												</enabled>
+																												<eyeTarget>ApplicatorTarget</eyeTarget>
+																												<flags>8</flags>
+																												<formulaName></formulaName>
+																												<lifeTime>
+																													<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADAPw==</compiledString>
+																													<returnType>float</returnType>
+																													<sString>1.5f</sString>
+																												</lifeTime>
+																												<LoggingEvent>-1</LoggingEvent>
+																												<providerName></providerName>
+																												<startCondition>
+																													<compiledString></compiledString>
+																													<returnType>bool</returnType>
+																													<sString>true</sString>
+																												</startCondition>
+																												<visRange>
+																													<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
+																													<returnType>float</returnType>
+																													<sString>5.0f</sString>
+																												</visRange>
+																											</EyeApplicator>
+																										</Item>
+																									</applicators>
+																									<dispatch href="/Items/Talents/Class/Gunslinger/Ability_A4_2.TALENT" id="9DF1724E-6A40-431A-8D23-A0119504C780">
+																										<DispatchImmediate>
+																											<alwaysApply>false</alwaysApply>
+																											<applyEffect>
+																												<Item href="" />
+																												<Item href="" />
+																											</applyEffect>
+																											<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																											<applyEffectOrientation>Default</applyEffectOrientation>
+																											<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																											<dieAfterApply>true</dieAfterApply>
+																											<dispatchEffect>
+																												<Item href="" />
+																												<Item href="" />
+																											</dispatchEffect>
+																											<flags>0</flags>
+																											<instantApply>false</instantApply>
+																										</DispatchImmediate>
+																									</dispatch>
+																								</Spell>
+																							</startSpell>
 																							<stopSpell href="" />
 																							<targetSelector href="/Items/Talents/Class/Gunslinger/Ability_A4_2.TALENT" id="4B90F0E0-85C2-4E38-AE94-73A81C30E933">
 																								<ConditionTargetSelector>

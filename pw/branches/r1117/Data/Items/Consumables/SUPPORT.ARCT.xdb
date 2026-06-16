@@ -224,9 +224,9 @@
 					<UnitConstant>
 						<name>PrimeZumaSingle</name>
 						<var>
-							<compiledString>FQ4AAAACAAAAEwAAACkAAABUaW1lckRvcFByaW1lAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcLU0AAADZXfzZRfxR2RwkUdnu2Rwk6BMAAACDxAiL5V3DAAAAAAAAAAAAgFZAVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
+							<compiledString>FQ4AAAACAAAAEwAAACkAAABUaW1lckRvcFByaW1lAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcLU0AAADZXfzZRfxR2RwkUdnu2Rwk6BMAAACDxAiL5V3DAAAAAAAAAAAAAFlAVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
 							<returnType>float</returnType>
-							<sString>max(0, (90-sender.vTimerDopPrime))</sString>
+							<sString>max(0, (100-sender.vTimerDopPrime))</sString>
 						</var>
 					</UnitConstant>
 				</Item>

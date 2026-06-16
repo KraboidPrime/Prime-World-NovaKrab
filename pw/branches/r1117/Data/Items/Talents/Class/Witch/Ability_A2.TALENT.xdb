@@ -115,7 +115,14 @@
 		<Item href="/Items/Talents/Class/Witch/Ability_A2.TALENT" id="4FF41C40-76CA-4EE1-A009-988D05577F09">
 			<StatusApplicator>
 				<applicators>
-					<Item href="/GameLogic/GeneralApplicators/Immune2Control.APLR" />
+					<Item href="/Items/Talents/Class/Witch/Ability_A2.TALENT" id="B75E88E2-25C1-4DD3-B790-4564A194D226">
+						<StatModApplicator parent="/GameLogic/GeneralApplicators/Immune2Control.APLR">
+							<effect>
+								<Item href="/Effects/Buffs/ColdCharged/_Gold1.EFFT" />
+								<Item skip="1" />
+							</effect>
+						</StatModApplicator>
+					</Item>
 					<Item href="/GameLogic/GeneralApplicators/Uncontrollable.APLR" />
 				</applicators>
 				<applyTarget>AbilityOwner</applyTarget>

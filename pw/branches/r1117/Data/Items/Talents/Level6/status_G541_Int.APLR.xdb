@@ -15,9 +15,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgowAAAD/0ItNCIsRi00Ii4LAAAAA3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UMixCLTQyLgowAAAD/0ItNDIsRi00Mi4LAAAAA3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
 					<returnType>bool</returnType>
-					<sString>sBaseAttackSpeed &gt;= sBaseDexterity</sString>
+					<sString>rBaseAttackSpeed &gt;= rBaseDexterity</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<lifeTime>
@@ -54,7 +54,7 @@
 			<StatModApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
 				<behaviorFlags>0</behaviorFlags>
-				<caption>Add_As</caption>
+				<caption>Add_dex</caption>
 				<constraint>None</constraint>
 				<dontUpdate>false</dontUpdate>
 				<effect>
@@ -62,9 +62,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgowAAAD/0ItNCIsRi00Ii4LAAAAA3V34/9DcXfjf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UMixCLTQyLgowAAAD/0ItNDIsRi00Mi4LAAAAA3V34/9DcXfjf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
 					<returnType>bool</returnType>
-					<sString>sBaseAttackSpeed &lt; sBaseDexterity</sString>
+					<sString>rBaseAttackSpeed &lt; rBaseDexterity</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<lifeTime>

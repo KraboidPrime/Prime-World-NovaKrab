@@ -24,6 +24,10 @@
 			<StatusApplicator parent="/Heroes/DefaultStatus/status_ControlTimeDecrease.APLR">
 				<caption>(upg) Сокращаем время контроль эффектов</caption>
 				<dispellPriority>NonDispellable</dispellPriority>
+				<effect>
+					<Item href="/Effects/Buffs/Bless/_GoldPowerfulRes.EFFT" />
+					<Item skip="1" />
+				</effect>
 				<image href="" />
 				<lifeTime>
 					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAvw==</compiledString>

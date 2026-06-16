@@ -155,7 +155,7 @@
 	<description textref="/Items/Talents/Class/Shaman/A4_status.APLR_description.txt" />
 	<dispellPriority>NonDispellable</dispellPriority>
 	<effect>
-		<Item href="" />
+		<Item href="/Effects/Buffs/ColdCharged/_Gold1.EFFT" />
 		<Item href="" />
 	</effect>
 	<enabled>

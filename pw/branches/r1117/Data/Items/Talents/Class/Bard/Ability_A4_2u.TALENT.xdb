@@ -56,6 +56,16 @@
 		<UnitConstantsContainer>
 			<vars>
 				<Item href="/Items/Talents/Class/Bard/const_A4_2u_CDR" />
+				<Item href="/Items/Talents/Class/Bard/Ability_A4_2u.TALENT" id="4A4EA39D-192A-4C13-AB17-7002DFBAC74E">
+					<UnitConstant>
+						<name>A42uMsBuff</name>
+						<var>
+							<compiledString>FRgAAAAEAAAAHwAAADgAAABvAAAAegAAAEJhcmRfQTBfU1VQAEJhcmRfQTBfU1VQAFWL7IPsFGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoDAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdAvdBZYAAADdXfDrCd0FjgAAAN1d8N1F8Nld7NlF7IvlXcMAAAAAAADgP5qZmZmZmek/</compiledString>
+							<returnType>float</returnType>
+							<sString>tal("Bard_A0_SUP") ? 0.8 : 0.5</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

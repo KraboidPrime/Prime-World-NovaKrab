@@ -299,6 +299,16 @@
 				<name>Assassin_A1u</name>
 			</ConditionFormula>
 		</Item>
+		<Item href="/Items/Talents/Class/Assassin/Ability_A1.TALENT" id="B692A233-4F1D-432D-974E-17D6EAD3D2A2">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FSAAAAACAAAAJwAAAEAAAABBc3Nhc3Npbl9BMl9TVVAAQXNzYXNzaW5fQTJfU1VQAFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZF+4PoAffYG8CDwAGL5V3D</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("Assassin_A2_SUP") == true</sString>
+				</condition>
+				<name>AssA2Sup</name>
+			</ConditionFormula>
+		</Item>
 	</conditionFormulas>
 	<conflictingTalents />
 	<constants href="/Items/Talents/Class/Assassin/Ability_A1.TALENT" id="89293FA5-1EB7-4955-BF37-64274E32FE78">

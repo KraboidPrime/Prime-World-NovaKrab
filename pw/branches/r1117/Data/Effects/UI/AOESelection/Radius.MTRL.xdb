@@ -353,7 +353,6 @@
 	<BackLink DBID="/Items/Talents/Level5/G260_Str_Life.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level1/G129_Str.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/MagicGirl/Ability_A4_2SUP.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Plane/Ability_A4_2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Wendigo/Ability5_SUP.TALENT" Count="1" />
 	<aspectRatio>2</aspectRatio>
 	<caption></caption>

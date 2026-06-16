@@ -1841,9 +1841,9 @@
 					<calcIncrement>27.5</calcIncrement>
 					<calcValue>750</calcValue>
 					<increment>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQQ==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQg==</compiledString>
 						<returnType>float</returnType>
-						<sString>30</sString>
+						<sString>32</sString>
 					</increment>
 					<levelUpgrades />
 					<statId>Life</statId>

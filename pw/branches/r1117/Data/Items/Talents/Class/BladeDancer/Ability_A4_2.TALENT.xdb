@@ -25,7 +25,6 @@
 	</aoeSize>
 	<aoeType>None</aoeType>
 	<applicators>
-		<Item href="/Items/Talents/Class/BladeDancer/status_A0_AddMastery.APLR" />
 		<Item href="/Items/Talents/Class/BladeDancer/Ability_A4_2.TALENT" id="9C2BC0F7-7193-458C-9986-BBF38BC68730">
 			<StatusApplicator>
 				<applicators>
@@ -172,7 +171,14 @@
 							<unstackableWith href="" />
 						</StatusApplicator>
 					</Item>
-					<Item href="/GameLogic/GeneralApplicators/Immune2Control.APLR" />
+					<Item href="/Items/Talents/Class/BladeDancer/Ability_A4_2.TALENT" id="EA099A80-4E85-4B04-9559-45B02414682F">
+						<StatModApplicator parent="/GameLogic/GeneralApplicators/Immune2Control.APLR">
+							<effect>
+								<Item href="/Effects/Buffs/ColdCharged/_Gold1.EFFT" />
+								<Item skip="1" />
+							</effect>
+						</StatModApplicator>
+					</Item>
 					<Item href="/Items/Talents/Class/BladeDancer/Ability_A4_2.TALENT" id="7F783D85-8385-4309-A0A5-F01408C4AEFC">
 						<StatModApplicator>
 							<applyTarget>ApplicatorTarget</applyTarget>
@@ -237,7 +243,7 @@
 				<description textref="/Items/Talents/Class/BladeDancer/Ability_A4_2.TALENT_9c2bc0f77193458c9986bbf38bc68730_description.txt" />
 				<dispellPriority>NonDispellable</dispellPriority>
 				<effect>
-					<Item href="/Effects/Buffs/ColdCharged/_Gold.EFFT" />
+					<Item href="/Heroes/BladeDancer/FXAbility4.EFFT" />
 					<Item href="" />
 				</effect>
 				<enabled>

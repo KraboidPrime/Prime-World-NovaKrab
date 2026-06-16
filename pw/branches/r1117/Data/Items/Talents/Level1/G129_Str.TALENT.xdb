@@ -1166,9 +1166,9 @@
 					<UnitConstant>
 						<name>G129time</name>
 						<var>
-							<compiledString>FQ0AAAAEAAAAFAAAAC0AAABkAAAAbwAAAEcwNzAAAAAARzA3MABVi+yD7AxoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaAgAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXQL2QWBAAAA2V306wnZBX0AAADZXfTZRfSL5V3DAAAAQAAAQEA=</compiledString>
+							<compiledString>FQ0AAAAEAAAAFAAAAC0AAABkAAAAbwAAAEcwNzAAAAAARzA3MABVi+yD7AxoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaAgAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXQL2QWBAAAA2V306wnZBX0AAADZXfTZRfSL5V3DmpnZPwAAIEA=</compiledString>
 							<returnType>float</returnType>
-							<sString>tal("G070") ? 3.0f : 2.0f</sString>
+							<sString>tal("G070") ? 2.5f : 1.7f</sString>
 						</var>
 					</UnitConstant>
 				</Item>

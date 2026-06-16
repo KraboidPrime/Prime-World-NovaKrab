@@ -699,6 +699,8 @@
 	</heroSceneObjects>
 	<heroSkins>
 		<Item href="/Heroes/Stalker/S1/_.HEROSKIN" />
+		<Item href="/Heroes/Stalker/S2/_.HEROSKIN" />
+		<Item href="/Heroes/Stalker/S3/_.HEROSKIN" />
 	</heroSkins>
 	<id>stalker</id>
 	<image href="" />

@@ -4530,7 +4530,7 @@
 			<instantApply>true</instantApply>
 		</DispatchImmediate>
 	</dispatch>
-	<flags>65539</flags>
+	<flags>65543</flags>
 	<forceBonus>0</forceBonus>
 	<image href="/UI/Styles/Icons/Heroes/Primevoker/tal4.ITEX" />
 	<imageSecondState href="" />

@@ -2367,9 +2367,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FSMAAAACAAAARwAAAGcAAABJcm9uS25pZ2h0X0EydV9XYWl0AEEyX0FiaWxpdHlXYWl0AFWL7FFoAAACAItFDIsQi00Mi0Jo/9APtsiFyXVJagGLVRBSaAAAAACLRQiLEItNCIuCnAEAAP/QO0UQdSlqAYtNEFFoFAAAAItVCIsCi00Ii5CcAQAA/9I7RRB1CcdF/AAAAADrB8dF/AEAAACKRfyL5V3D</compiledString>
+					<compiledString>FXMAAAAHAAAAmwAAAL8AAADjAAAABwEAACcBAABHAQAAZwEAAEd1bm5lclJvb3RBMwAAAABXZW5kaWdvUm9vdABGcmVlemVBMlJvb3QAAAAAQ2FwdHVyZWREZW1vbm9sb2dSb290AAAAU3RhdHVzUm9vdAAASXJvbktuaWdodF9BMnVfV2FpdABBMl9BYmlsaXR5V2FpdABVi+xRaAAAAgCLRQyLEItNDItCaP/QD7bIhckPhfUAAABqAItVEFJoAAAAAItFDIsQi00Mi4KcAQAA/9A7RRAPhdEAAABqAItNEFFoEAAAAItVDIsCi00Mi5CcAQAA/9I7RRAPha0AAABqAItFEFBoHAAAAItNDIsRi00Mi4KcAQAA/9A7RRAPhYkAAABqAItNEFFoLAAAAItVDIsCi00Mi5CcAQAA/9I7RRB1aWoAi0UQUGhEAAAAi00MixGLTQyLgpwBAAD/0DtFEHVJagGLTRBRaFAAAACLVQiLAotNCIuQnAEAAP/SO0UQdSlqAYtFEFBoZAAAAItNCIsRi00Ii4KcAQAA/9A7RRB1CcdF/AAAAADrB8dF/AEAAACKRfyL5V3D</compiledString>
 					<returnType>bool</returnType>
-					<sString>rFlag(131072) || sender.applIronKnight_A2u_Wait(UNIT) != pMisc || sender.applA2_AbilityWait(UNIT) != pMisc</sString>
+					<sString>(rFlag(131072) || receiver.applGunnerRootA3(GLOBAL) != pMisc || receiver.applWendigoRoot(GLOBAL) != pMisc || receiver.applFreezeA2Root(GLOBAL) != pMisc || receiver.applCapturedDemonologRoot(GLOBAL) != pMisc || receiver.applStatusRoot(GLOBAL) != pMisc) || sender.applIronKnight_A2u_Wait(UNIT) != pMisc || sender.applA2_AbilityWait(UNIT) != pMisc</sString>
 				</enabled>
 				<flag>1024</flag>
 				<formulaName></formulaName>

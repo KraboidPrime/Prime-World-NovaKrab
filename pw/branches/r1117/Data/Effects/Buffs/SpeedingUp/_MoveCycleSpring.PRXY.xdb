@@ -4,7 +4,7 @@
 	<BackLink DBID="/Effects/Buffs/SpeedingUp/_MoveCycle.EFFT" Count="1" />
 	<BackLink DBID="/Heroes/Warlord/S1/_A.SOBJ" Count="1" />
 	<BackLink DBID="/Heroes/Warlord/S1/_B.SOBJ" Count="1" />
-	<BackLink DBID="/Effects/Buffs/SpeedingUp/_MovePrime.EFFT" Count="1" />
+	<BackLink DBID="/Effects/Buffs/Bless/_GoldPowerfulTRSRes2.PRXY" Count="1" />
 	<attached>
 		<Item>
 			<attachFlags>15</attachFlags>

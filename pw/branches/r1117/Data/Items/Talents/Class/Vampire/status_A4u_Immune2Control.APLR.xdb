@@ -3,7 +3,14 @@
 	<BackLink DBID="/Items/Talents/Class/Vampire/Ability_A4.TALENT" Count="1" />
 	<applicators>
 		<Item href="/GameLogic/GeneralApplicators/DispellWEffects.APLR" />
-		<Item href="/GameLogic/GeneralApplicators/Immune2Control.APLR" />
+		<Item href="/Items/Talents/Class/Vampire/status_A4u_Immune2Control.APLR" id="DF8216AC-0C96-4020-BA9F-BBA11D72B35D">
+			<StatModApplicator parent="/GameLogic/GeneralApplicators/Immune2Control.APLR">
+				<effect>
+					<Item href="/Effects/Buffs/ColdCharged/_Gold1.EFFT" />
+					<Item skip="1" />
+				</effect>
+			</StatModApplicator>
+		</Item>
 		<Item href="/GameLogic/GeneralApplicators/Uncontrollable.APLR" />
 	</applicators>
 	<applyTarget>AbilityOwner</applyTarget>

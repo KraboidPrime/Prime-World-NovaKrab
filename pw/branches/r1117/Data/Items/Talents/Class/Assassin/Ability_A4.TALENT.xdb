@@ -423,6 +423,30 @@
 																						<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Energy.UIEV" />
 																					</DamageApplicator>
 																				</Item>
+																				<Item href="/Items/Talents/Class/Assassin/Ability_A4.TALENT" id="0BB16734-DD24-407A-85DB-6139EAE213D0">
+																					<DamageApplicator>
+																						<applyTarget>ApplicatorTarget</applyTarget>
+																						<cancelInvisibility>false</cancelInvisibility>
+																						<caption>урон с рз</caption>
+																						<damage>
+																							<compiledString>FQAAAAABAAAAEwAAAFWL7FGLRQyLEItNDItCDP/Q3A0hAAAA2V382UX8i+VdwwAAAOBRuJ4/</compiledString>
+																							<returnType>float</returnType>
+																							<sString>0.03f*rMaxLife</sString>
+																						</damage>
+																						<damageMode>4</damageMode>
+																						<damageType>Pure</damageType>
+																						<enabled>
+																							<compiledString>FQAAAAAAAAAAVYvsVotFCIsQi00Ii0JM/9CL8ItNCIsRi00Ii4KQAQAA/9AzyTvwD5TBisFeXcM=</compiledString>
+																							<returnType>bool</returnType>
+																							<sString>nt(1, 0)</sString>
+																						</enabled>
+																						<formulaName></formulaName>
+																						<LoggingEvent>-1</LoggingEvent>
+																						<providerName></providerName>
+																						<timeLimiter>-1</timeLimiter>
+																						<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed.UIEV" />
+																					</DamageApplicator>
+																				</Item>
 																			</applicators>
 																			<dispatch href="/Items/Talents/Class/Assassin/Ability_A4.TALENT" id="28B808D6-3FAD-4182-9E1F-86B14528C735">
 																				<DispatchImmediate>
@@ -779,7 +803,18 @@
 	<commonDescription textref="/Items/Talents/Class/Assassin/Ability_A4.TALENT_commonDescription.txt" />
 	<compiledDescriptionA textref="" />
 	<compiledDescriptionB textref="" />
-	<conditionFormulas />
+	<conditionFormulas>
+		<Item href="/Items/Talents/Class/Assassin/Ability_A4.TALENT" id="9ADA16CF-9375-434F-A798-74C1C12F300B">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FSAAAAACAAAAJwAAAEAAAABBc3Nhc3Npbl9BMl9TVVAAQXNzYXNzaW5fQTJfU1VQAFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZF+4PoAffYG8CDwAGL5V3D</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("Assassin_A2_SUP") == true</sString>
+				</condition>
+				<name>AssA2Sup</name>
+			</ConditionFormula>
+		</Item>
+	</conditionFormulas>
 	<conflictingTalents />
 	<constants href="/Items/Talents/Class/Assassin/Ability_A4.TALENT" id="A717A219-5C3D-448D-BA08-ABAE0AB92863">
 		<UnitConstantsContainer>
@@ -788,9 +823,9 @@
 					<UnitConstant>
 						<name>A4_Damage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAADkQgDAVUQ=</compiledString>
+							<compiledString>FSAAAAAGAAAAJwAAAEAAAAB6AAAAhAAAALoAAADEAAAAQXNzYXNzaW5fQTJfU1VQAEFzc2Fzc2luX0EyX1NVUABVi+yD7AxoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXRAagFR2QUGAQAA2RwkUdkFAgEAANkcJGoAi1UIiwKLTQiLkIwAAAD/0lHZHCRqAYtFEIsQi00Qi0Jg/9DZXfTrPmoBUdkF/gAAANkcJFHZBfoAAADZHCRqAItNCIsRi00Ii4I0AQAA/9BR2RwkagGLTRCLEYtNEItCYP/Q2V302UX0i+VdwwAA5EIAwFVEAAC2QgAAK0Q=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale( sIntellect, 114, 855 )</sString>
+							<sString>tal("Assassin_A2_SUP") ? damageScale( sBaseAttackSpeed, 91, 684 ) : damageScale( sIntellect, 114, 855 )</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -1005,9 +1040,9 @@
 	<type>Active</type>
 	<upgradeLevel>0</upgradeLevel>
 	<useRange>
-		<compiledString>FRkAAAACAAAASgAAAGkAAABSYW5nZV9Mb25nAABSYW5nZV9NZWRpdW0AVYvsUVaLRQiLEItNCItCTP/Qi/CLTQiLEYtNCIuCkAEAAP/QO/B1H4tNDFGLVQhSaAAAAACLRRCLEItNEItCUP/Q2V386x2LTQxRi1UIUmgMAAAAi0UQixCLTRCLQlD/0Nld/NlF/F6L5V3D</compiledString>
+		<compiledString>FQ0AAAABAAAAGQAAAFJhbmdlX01lZGl1bQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
 		<returnType>float</returnType>
-		<sString>nt( cRange_Long, cRange_Medium )</sString>
+		<sString>cRange_Medium</sString>
 	</useRange>
 	<useRangeMaterial href="/Effects/UI/AOESelection/Radius.MTRL" />
 	<variativeMaxTalentStats />

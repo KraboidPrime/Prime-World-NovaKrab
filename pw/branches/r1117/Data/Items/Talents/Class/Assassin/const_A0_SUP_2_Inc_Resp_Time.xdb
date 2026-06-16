@@ -9,8 +9,8 @@
 	<BackLink DBID="/Items/Talents/Class/Assassin/Ability_A3_SUP.TALENT" Count="1" />
 	<name>A0_SUP_2_Inc_Resp_Time</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQQ==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQQ==</compiledString>
 		<returnType>float</returnType>
-		<sString>20</sString>
+		<sString>25</sString>
 	</var>
 </UnitConstant>

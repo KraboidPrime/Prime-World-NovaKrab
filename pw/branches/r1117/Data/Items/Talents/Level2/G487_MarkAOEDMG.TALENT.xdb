@@ -444,9 +444,9 @@
 					<UnitConstant>
 						<name>G487_Damage</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQw==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAA+Qw==</compiledString>
 							<returnType>float</returnType>
-							<sString>200</sString>
+							<sString>190</sString>
 						</var>
 					</UnitConstant>
 				</Item>

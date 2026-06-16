@@ -12,13 +12,12 @@
 	<BackLink DBID="/Creeps/Normals/Normal5/AttackAbility.ATCK" Count="1" />
 	<BackLink DBID="/Creeps/Normals/Normal6/HarpoonProgram.APLR" Count="1" />
 	<BackLink DBID="/Creeps/Normals/Normal7/PvE_Coop1.CREEP" Count="1" />
-	<BackLink DBID="/Heroes/Bladedancer/_.HROB" Count="1" />
+	<BackLink DBID="/Heroes/BladeDancer/_.HROB" Count="1" />
 	<BackLink DBID="/Heroes/Chronicle/spell_atk.APLR" Count="1" />
 	<BackLink DBID="/Heroes/DefaultStatus/List_AllControlAppl.APLS" Count="1" />
 	<BackLink DBID="/Heroes/DefaultStatus/List_AllControlStatusesWithoutSlow.APLS" Count="1" />
 	<BackLink DBID="/Heroes/Ent/AttackAbility.ATCK" Count="1" />
-	<BackLink DBID="/Heroes/Ironknight/_.HROB" Count="1" />
-	<BackLink DBID="/Heroes/Pinkgirl/_.HROB" Count="1" />
+	<BackLink DBID="/Heroes/IronKnight/_.HROB" Count="1" />
 	<BackLink DBID="/Heroes/Shaman/_.HROB" Count="1" />
 	<BackLink DBID="/Items/Consumables/Snowball.ARCT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Angel/Ability_A3.TALENT" Count="1" />

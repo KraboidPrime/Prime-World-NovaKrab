@@ -1554,9 +1554,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FREAAAACAAAAFgAAACwAAABUZWxlcG9ydGFibGVQcmV5AFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHWcAAADf4PbERHsiaAAAAgCLTQyLEYtNDItCaP/QD7bIhcl1CcdF/AAAAADrB8dF/AEAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
+					<compiledString>FWMAAAAHAAAAaAAAAH4AAACxAAAA1QAAAPUAAAAVAQAANQEAAFRlbGVwb3J0YWJsZVByZXkAAAAAR3VubmVyUm9vdEEzAAAAAFdlbmRpZ29Sb290AEZyZWV6ZUEyUm9vdAAAAABDYXB0dXJlZERlbW9ub2xvZ1Jvb3QAAABTdGF0dXNSb290AFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHWUBAADf4PbERA+LygAAAGgAAAIAi00MixGLTQyLQmj/0A+2yIXJD4WtAAAAagCLVRBSaBQAAACLRQyLEItNDIuCnAEAAP/QO0UQD4WJAAAAagCLTRBRaCQAAACLVQyLAotNDIuQnAEAAP/SO0UQdWlqAItFEFBoMAAAAItNDIsRi00Mi4KcAQAA/9A7RRB1SWoAi00QUWhAAAAAi1UMiwKLTQyLkJwBAAD/0jtFEHUpagCLRRBQaFgAAACLTQyLEYtNDIuCnAEAAP/QO0UQdQnHRfwAAAAA6wfHRfwBAAAAikX8i+VdwwAAAAAAAAAA</compiledString>
 					<returnType>bool</returnType>
-					<sString>sender.vTeleportablePrey == 0 || rFlag(131072)</sString>
+					<sString>sender.vTeleportablePrey == 0 || (rFlag(131072) || receiver.applGunnerRootA3(GLOBAL) != pMisc || receiver.applWendigoRoot(GLOBAL) != pMisc || receiver.applFreezeA2Root(GLOBAL) != pMisc || receiver.applCapturedDemonologRoot(GLOBAL) != pMisc || receiver.applStatusRoot(GLOBAL) != pMisc)</sString>
 				</enabled>
 				<flag>1024</flag>
 				<formulaName></formulaName>
