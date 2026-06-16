@@ -76,9 +76,6 @@
 	<constants href="/Items/Talents/Class/Fluffy/Ability_A4_2u.TALENT" id="263DA7D1-F932-41B7-B61B-161ACC4EB942">
 		<UnitConstantsContainer>
 			<vars>
-				<Item href="/Items/Talents/Class/Fluffy/const_A0_ArmorCut_Duration" />
-				<Item href="/Items/Talents/Class/Fluffy/const_A0_ArmorCut_Amount" />
-				<Item href="/Items/Talents/Class/Fluffy/const_A0_WillCut_Amount" />
 				<Item href="/Items/Talents/Class/Fluffy/const_A4u_PanicDuration" />
 			</vars>
 		</UnitConstantsContainer>

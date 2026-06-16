@@ -311,9 +311,9 @@
 					<levelUpgrades />
 					<statId>MoveSpeed</statId>
 					<value>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQg==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADQQg==</compiledString>
 						<returnType>float</returnType>
-						<sString>80</sString>
+						<sString>104</sString>
 					</value>
 				</Item>
 			</stats>

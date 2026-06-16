@@ -192,6 +192,43 @@
 				<type>None</type>
 			</AuraApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/Ent/Ability_A0.TALENT" id="E8940908-6286-4C72-92DD-27030FB519F8">
+			<EyeApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<cancelObstacles>true</cancelObstacles>
+				<caption>зрение сквозь препятствия</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<eyeTarget>ApplicatorTarget</eyeTarget>
+				<flags>8</flags>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<visRange>
+					<compiledString>FQAAAAAAAAAAVYvsi0UIixCLTQiLgrQAAAD/0F3D</compiledString>
+					<returnType>float</returnType>
+					<sString>sBaseVisibilityRange</sString>
+				</visRange>
+			</EyeApplicator>
+		</Item>
 	</passiveApplicators>
 	<persistentId>Ent_A0</persistentId>
 	<prerequisiteTalents />

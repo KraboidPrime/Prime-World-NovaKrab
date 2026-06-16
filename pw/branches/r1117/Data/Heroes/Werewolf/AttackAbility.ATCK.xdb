@@ -83,18 +83,42 @@
 						</variableNames>
 					</Item>
 					<Item>
+						<applicator href="/Heroes/Werewolf/AttackAbility.ATCK" id="CE4E8A0D-1B9A-4A19-956F-C0B5B87E2D76">
+							<DamageApplicator parent="/GameLogic/GeneralApplicators/CommonDamage.APLR">
+								<caption>(A3u) доп урон во время Звериного чутья</caption>
+								<damage>
+									<compiledString>FTsAAAAEAAAAQgAAAFsAAACRAAAAsQAAAFdlcmV3b2xmX0EzdQAAAABXZXJld29sZl9BM3UAAAAAV2VyZXdvbGZfQTN1AAAAAEEzdV9EYW1hZ2UAVYvsg+wQaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0N2ggAAAAi1UIiwKLTQiLkKgBAAD/0olF9ItFDFCLTQhRaDAAAACLVfSLAotN9ItQUP/S2V3w6wXZ7tld8NlF8IvlXcMAAAAA</compiledString>
+									<returnType>float</returnType>
+									<sString>talconst("Werewolf_A3u","A3u_Damage")</sString>
+								</damage>
+								<damageMode>4</damageMode>
+								<damageType>Energy</damageType>
+								<enabled>
+									<compiledString>FUgAAAAGAAAATwAAAGgAAACoAAAA7gAAABIBAAAyAQAAV2VyZXdvbGZfQTN1AAAAAFdlcmV3b2xmX0EzdQAAAABXZXJld29sZkEzQWN0aXZlAAAAAFdhcmQAAAAASW1NYWdpY0dhdGUAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hckPhLMAAABqAYtVEFJoIAAAAItFCIsQi00Ii4KcAQAA/9A7RRAPhI8AAABR2ejZHCRR2e7ZHCRqAYtNDIsRi00Mi0JY/9APtshR6IkAAACDxAzcHWIBAADf4PbERHtbi1UMiwKLTQyLUFD/0oP4EXRJagCLRRBQaDQAAACLTQyLEYtNDIuCnAEAAP/QO0UQdSlqAItNEFFoPAAAAItVDIsCi00Mi5CcAQAA/9I7RRB1CcdF9AEAAADrB8dF9AAAAACKRfSL5V3DAAAAAAAAAAAAAAAAAACAP1WL7FEPtkUIhcB0CNlFDNld/OsG2UUQ2V382UX8i+Vdww==</compiledString>
+									<returnType>bool</returnType>
+									<sString>tal("Werewolf_A3u") &amp;&amp; sender.FindApplicator("WerewolfA3Active", pMisc, UNIT) != pMisc &amp;&amp; ut_bldg(false, true) &amp;&amp; rUnitKind != 17 &amp;&amp; receiver.applWard(GLOBAL) == pMisc &amp;&amp; receiver.applImMagicGate(GLOBAL) == pMisc</sString>
+								</enabled>
+								<formulaName>WW_A3uDamage</formulaName>
+								<uiEvent href="" />
+							</DamageApplicator>
+						</applicator>
+						<variableNames>
+							<Item>damageDealed</Item>
+						</variableNames>
+					</Item>
+					<Item>
 						<applicator href="/Heroes/Werewolf/AttackAbility.ATCK" id="92556814-8C51-44E8-B8C2-89AB1FF3CD11">
 							<UIMessageApplicator parent="/UI/Events/CommonEvents/UI_Message_Damage_Energy.APLR">
 								<enabled>
-									<compiledString>FTUAAAADAAAAXAAAAG4AAACHAAAAV1dfQTBEYW1hZ2U6ZGFtYWdlRGVhbGVkAAAAAFdXX0EyRGFtYWdlOmRhbWFnZURlYWxlZABVi+yD7BSLRRCLEItNEItCSP/QiUX8i00QixGLTRCLQkj/0IlF+GgcAAAAi034ixGLTfiLQlT/0GgAAAAAi038ixGLTfyLQlTdXfD/0NxF8NwdqQAAAN/g9sRBdQnHRewBAAAA6wfHRewAAAAAikXsi+VdwwAAAAAAAAAA</compiledString>
+									<compiledString>FVIAAAAEAAAAiQAAAJsAAACwAAAAzAAAAFdXX0EwRGFtYWdlOmRhbWFnZURlYWxlZAAAAABXV19BMkRhbWFnZTpkYW1hZ2VEZWFsZWQAAAAAV1dfQTN1RGFtYWdlOmRhbWFnZURlYWxlZABVi+yD7CCLRRCLEItNEItCSP/QiUX8i00QixGLTRCLQkj/0IlF+ItNEIsRi00Qi0JI/9CJRfRoOAAAAItN9IsRi030i0JU/9BoHAAAAItN+IsRi034i0JU3V3s/9BoAAAAAItN/IsRi038i0JU3V3k/9DcReTcRezcHe4AAADf4PbEQXUJx0XgAQAAAOsHx0XgAAAAAIpF4IvlXcMAAAAAAAAAAA==</compiledString>
 									<returnType>bool</returnType>
-									<sString>($ParentApplVariable("WW_A0Damage:damageDealed") + $ParentApplVariable("WW_A2Damage:damageDealed")) &gt; 0</sString>
+									<sString>($ParentApplVariable("WW_A0Damage:damageDealed") + $ParentApplVariable("WW_A2Damage:damageDealed") + $ParentApplVariable("WW_A3uDamage:damageDealed")) &gt; 0</sString>
 								</enabled>
 								<formulaName></formulaName>
 								<value>
-									<compiledString>FTUAAAACAAAAXAAAAG4AAABXV19BMERhbWFnZTpkYW1hZ2VEZWFsZWQAAAAAV1dfQTJEYW1hZ2U6ZGFtYWdlRGVhbGVkAFWL7IPsFItFEIsQi00Qi0JI/9CJRfyLTRCLEYtNEItCSP/QiUX4aBwAAACLTfiLEYtN+ItCVP/QaAAAAACLTfyLEYtN/ItCVN1d8P/Q3EXw2V3s2UXsi+Vdww==</compiledString>
+									<compiledString>FVIAAAADAAAAiQAAAJsAAACwAAAAV1dfQTBEYW1hZ2U6ZGFtYWdlRGVhbGVkAAAAAFdXX0EyRGFtYWdlOmRhbWFnZURlYWxlZAAAAABXV19BM3VEYW1hZ2U6ZGFtYWdlRGVhbGVkAFWL7IPsIItFEIsQi00Qi0JI/9CJRfyLTRCLEYtNEItCSP/QiUX4i00QixGLTRCLQkj/0IlF9Gg4AAAAi030ixGLTfSLQlT/0GgcAAAAi034ixGLTfiLQlTdXez/0GgAAAAAi038ixGLTfyLQlTdXeT/0NxF5NxF7Nld4NlF4IvlXcM=</compiledString>
 									<returnType>float</returnType>
-									<sString>$ParentApplVariable("WW_A0Damage:damageDealed") + $ParentApplVariable("WW_A2Damage:damageDealed")</sString>
+									<sString>$ParentApplVariable("WW_A0Damage:damageDealed") + $ParentApplVariable("WW_A2Damage:damageDealed") + $ParentApplVariable("WW_A3uDamage:damageDealed")</sString>
 								</value>
 							</UIMessageApplicator>
 						</applicator>

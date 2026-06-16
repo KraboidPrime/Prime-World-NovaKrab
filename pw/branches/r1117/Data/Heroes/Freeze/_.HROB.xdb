@@ -710,6 +710,7 @@
 				</Item>
 				<Item href="/Heroes/Freeze/dmg_buff_a3u_apl.APLR" />
 				<Item href="/Heroes/Freeze/dmg_buff_a3u_apl.APLR" />
+				<Item href="/Heroes/Freeze/status_A3_Slow.APLR" />
 			</applicators>
 			<autoTargetSelector href="" />
 			<caption></caption>

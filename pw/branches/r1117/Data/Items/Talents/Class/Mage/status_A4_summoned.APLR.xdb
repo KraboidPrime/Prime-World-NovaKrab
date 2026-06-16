@@ -2,6 +2,40 @@
 <StatusApplicator>
 	<BackLink DBID="/Items/Talents/Class/Mage/A4_SummonDemon.APLR" Count="1" />
 	<applicators>
+		<Item href="/Items/Talents/Class/Mage/status_A4_summoned.APLR" id="46639592-3F75-473A-A50C-50EAB559FC8B">
+			<AbsorbShieldApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>Demon spawn shield</caption>
+				<damageToAbsorb>
+					<compiledString>FRQAAAABAAAAIAAAAERlbW9uU2hpZWxkQ2FwYWNpdHkAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+					<returnType>float</returnType>
+					<sString>cDemonShieldCapacity</sString>
+				</damageToAbsorb>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+			</AbsorbShieldApplicator>
+		</Item>
 		<Item href="/Items/Talents/Class/Mage/status_A4_summoned.APLR" id="0400457B-F2CC-4C76-85A6-35739D521455">
 			<StatusApplicator>
 				<applicators />

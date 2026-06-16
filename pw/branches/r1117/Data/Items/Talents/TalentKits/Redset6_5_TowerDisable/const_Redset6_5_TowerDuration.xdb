@@ -6,8 +6,8 @@
 	<BackLink DBID="/Items/Talents/Level4/G646_Int.TALENT" Count="1" />
 	<name>TowerDuration</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADAQA==</compiledString>
 		<returnType>float</returnType>
-		<sString>5</sString>
+		<sString>6</sString>
 	</var>
 </UnitConstant>

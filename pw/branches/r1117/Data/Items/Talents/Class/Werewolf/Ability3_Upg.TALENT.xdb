@@ -61,6 +61,16 @@
 		<UnitConstantsContainer>
 			<vars>
 				<Item href="/Items/Talents/Class/Werewolf/const_HasteAtkSpdAmount" />
+				<Item href="/Items/Talents/Class/Werewolf/Ability3_Upg.TALENT" id="257698A4-7323-47DF-909B-43B85AD81B3E">
+					<UnitConstant>
+						<name>A3u_Damage</name>
+						<var>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACgQQAAoEI=</compiledString>
+							<returnType>float</returnType>
+							<sString>damageScale(sIntellect, 20, 80)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

@@ -3,8 +3,8 @@
 	<BackLink DBID="/Items/Talents/Class/Werewolf/Ability1.TALENT" Count="1" />
 	<name>A1_AddRegen</name>
 	<var>
-		<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoAi00QixGLTRCLQmD/0F3DAAAAQGZmbkE=</compiledString>
+		<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoAi00QixGLTRCLQmD/0F3DAABAQAAAkEE=</compiledString>
 		<returnType>float</returnType>
-		<sString>abilityScale(sIntellect,2, 14.9) </sString>
+		<sString>abilityScale(sIntellect, 3, 18) </sString>
 	</var>
 </UnitConstant>

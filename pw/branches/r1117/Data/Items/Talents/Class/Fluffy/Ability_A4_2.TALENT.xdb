@@ -21,9 +21,9 @@
 	<aoeMaterial href="/Effects/UI/AOESelection/Circle.MTRL" />
 	<aoePassabilityCheckMode>0</aoePassabilityCheckMode>
 	<aoeSize>
-		<compiledString>FTcAAAAFAAAAPgAAAFQAAABgAAAAeQAAALcAAABCaWdGb3JtAEZsdWZmeV9BNF8ydQAAAABGbHVmZnlfQTRfMnUAAAAAQXJtb3JDdXRfUmFuZ2UAVYvsg+wQaAAAAACLRQiLEItNCIuCiAEAAP/Q3B3qAAAA3+D2xEF1e2gIAAAAi00IixGLTQiLgqgBAAD/0IXAdCpoGAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdB+LVQxSi0UIUGgoAAAAi00QixGLTRCLQlD/0Nld9OsF2e7ZXfTZRfTZXfDrBdnu2V3w2UXwi+VdwwAAAAAAAAAAAAAAAA==</compiledString>
+		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 		<returnType>float</returnType>
-		<sString>sender.vBigForm&gt;0 ? (tal("Fluffy_A4_2u") ? cArmorCut_Range : 0) : 0</sString>
+		<sString>0</sString>
 	</aoeSize>
 	<aoeType>Disk</aoeType>
 	<applicators>
@@ -126,7 +126,7 @@
 							</StatModApplicator>
 						</applicator>
 						<continueCondition>
-							<compiledString></compiledString>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 							<returnType>bool</returnType>
 							<sString>0</sString>
 						</continueCondition>
@@ -146,7 +146,7 @@
 					<Item>
 						<applicator href="/GameLogic/GeneralApplicators/Transformed.APLR" />
 						<continueCondition>
-							<compiledString></compiledString>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 							<returnType>bool</returnType>
 							<sString>0</sString>
 						</continueCondition>
@@ -157,7 +157,7 @@
 							<sString>-1.0</sString>
 						</delay>
 						<stopCondition>
-							<compiledString></compiledString>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 							<returnType>bool</returnType>
 							<sString>0</sString>
 						</stopCondition>
@@ -166,7 +166,7 @@
 					<Item>
 						<applicator href="/Items/Talents/Class/Fluffy/A0_BigFormProgramm.APLR" />
 						<continueCondition>
-							<compiledString></compiledString>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 							<returnType>bool</returnType>
 							<sString>0</sString>
 						</continueCondition>
@@ -177,7 +177,7 @@
 							<sString>-1.0</sString>
 						</delay>
 						<stopCondition>
-							<compiledString></compiledString>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 							<returnType>bool</returnType>
 							<sString>0</sString>
 						</stopCondition>
@@ -539,9 +539,9 @@
 	<type>Active</type>
 	<upgradeLevel>0</upgradeLevel>
 	<useRange>
-		<compiledString>FTcAAAAFAAAAPgAAAFQAAABgAAAAeQAAALcAAABCaWdGb3JtAEZsdWZmeV9BNF8ydQAAAABGbHVmZnlfQTRfMnUAAAAAQXJtb3JDdXRfUmFuZ2UAVYvsg+wQaAAAAACLRQiLEItNCIuCiAEAAP/Q3B3qAAAA3+D2xEF1e2gIAAAAi00IixGLTQiLgqgBAAD/0IXAdCpoGAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdB+LVQxSi0UIUGgoAAAAi00QixGLTRCLQlD/0Nld9OsF2e7ZXfTZRfTZXfDrBdnu2V3w2UXwi+VdwwAAAAAAAAAAAAAAAA==</compiledString>
+		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 		<returnType>float</returnType>
-		<sString>sender.vBigForm&gt;0 ? (tal("Fluffy_A4_2u") ? cArmorCut_Range : 0) : 0</sString>
+		<sString>0</sString>
 	</useRange>
 	<useRangeMaterial href="/Effects/UI/AOESelection/Circle.MTRL" />
 	<variativeMaxTalentStats />

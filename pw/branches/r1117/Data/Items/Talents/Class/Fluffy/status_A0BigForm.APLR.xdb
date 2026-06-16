@@ -336,6 +336,201 @@
 				<statModName></statModName>
 			</StatModApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/Fluffy/status_A0BigForm.APLR" id="E41D7C83-6FB5-4677-91E9-45C2C35991EC">
+			<StatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>A4 MoveSpeed +10%</caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>0.0f</sString>
+					</addValue>
+					<multValue>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzcyMPw==</compiledString>
+						<returnType>float</returnType>
+						<sString>1.1f</sString>
+					</multValue>
+					<stat>MoveSpeed</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString>FRYAAAACAAAAHQAAADYAAABGbHVmZnlfQTQAAABGbHVmZnlfQTQAVYvsg+wIaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgMAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wCKRfuL5V3D</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("Fluffy_A4")</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/Fluffy/status_A0BigForm.APLR" id="0D1720DE-36DF-4A7C-A98F-582BE6E80321">
+			<StatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>152</behaviorFlags>
+				<caption>A4 TimeControl -40%</caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQg==</compiledString>
+						<returnType>float</returnType>
+						<sString>40.0f</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>0.0f</sString>
+					</multValue>
+					<stat>Life</stat>
+					<topModifier>false</topModifier>
+					<variable>TimeControl</variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString>FRYAAAACAAAAHQAAADYAAABGbHVmZnlfQTQAAABGbHVmZnlfQTQAVYvsg+wIaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgMAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wCKRfuL5V3D</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("Fluffy_A4")</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/Fluffy/status_A0BigForm.APLR" id="EF77E719-5EA3-4E11-974A-B1D49191148C">
+			<TriggerApplicator>
+				<actionsCount>
+					<compiledString>FQAAAAAAAAAAVYvsM8Bdww==</compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</actionsCount>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>152</behaviorFlags>
+				<caption>A4 reduce new control lifetimes by 40%</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FRYAAAACAAAAHQAAADYAAABGbHVmZnlfQTQAAABGbHVmZnlfQTQAVYvsg+wIaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgMAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wCKRfuL5V3D</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("Fluffy_A4")</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<playAck>false</playAck>
+				<processor href="/Items/Talents/Class/Fluffy/status_A0BigForm.APLR" id="9E58E6BE-41BF-41A9-A778-3B453F6044EC">
+					<EventProcessorApplicatorApplied>
+						<applicatorsList href="/Heroes/DefaultStatus/List_AllControlStatusesWithoutSlow.APLS" />
+						<applicatorTypesList href="" />
+						<applyTarget>ApplicatorTarget</applyTarget>
+						<checkSender>0</checkSender>
+						<filter>1342177280</filter>
+						<mode>SetNewLifetime</mode>
+						<newLifetime>
+							<compiledString>FRUAAAAFAAAAHAAAAC8AAAA8AAAARgAAAFkAAABMaWZldGltZQAAAABMaWZldGltZQBVi+yD7AxoAAAAAItFEIsQi00Qi0JU/9DcHXUAAADf4PbERHoL3QV1AAAA3V346xtoDAAAAItNEIsRi00Qi0JU/9DcDW0AAADdXfjdRfjZXfTZRfSL5V3DAAAAQDMz4z8AAAAAAADwvw==</compiledString>
+							<returnType>float</returnType>
+							<sString>appl.vLifetime == -1.0f ? -1.0f : appl.vLifetime * 0.6f</sString>
+						</newLifetime>
+						<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
+						<spell href="" />
+					</EventProcessorApplicatorApplied>
+				</processor>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<useAbilityCooldown>false</useAbilityCooldown>
+				<useAbilityOwnerMana>false</useAbilityOwnerMana>
+			</TriggerApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/Fluffy/status_A0BigForm.APLR" id="C40D82BF-0102-4570-8D72-E33BD0B2F9EB">
+			<StatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>A4 reduce slow power by 40%</caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzczMPg==</compiledString>
+						<returnType>float</returnType>
+						<sString>0.4f</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Life</stat>
+					<topModifier>false</topModifier>
+					<variable>DecSlowPower</variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString>FRYAAAACAAAAHQAAADYAAABGbHVmZnlfQTQAAABGbHVmZnlfQTQAVYvsg+wIaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgMAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wCKRfuL5V3D</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("Fluffy_A4")</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
+		</Item>
 		<Item href="/Items/Talents/Class/Fluffy/status_A0BigForm.APLR" id="9E2AAF77-784A-4738-A7B7-D67B9799560C">
 			<StatModApplicator>
 				<applyTarget>AbilityOwner</applyTarget>

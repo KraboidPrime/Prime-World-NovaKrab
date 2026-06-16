@@ -55,6 +55,9 @@
 		<UnitConstantsContainer>
 			<vars>
 				<Item href="/Items/Talents/Class/Fluffy/const_A0_SUP_CDR" />
+				<Item href="/Items/Talents/Class/Fluffy/const_A0_ArmorCut_Duration" />
+				<Item href="/Items/Talents/Class/Fluffy/const_A0_ArmorCut_Amount" />
+				<Item href="/Items/Talents/Class/Fluffy/const_A0_WillCut_Amount" />
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

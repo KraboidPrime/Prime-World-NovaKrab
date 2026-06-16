@@ -131,9 +131,9 @@
 					<UnitConstant>
 						<name>SummonAddStats</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAC4QQAAKkM=</compiledString>
+							<compiledString>FQAAAAADAAAACQAAABMAAABBAAAAVYvsUWoBUdkFWwAAANkcJFHZBVcAAADZHCRqAItFCIsQi00Ii4IwAQAA/9BR2RwkagGLTRCLEYtNEItCYP/Q3A1PAAAA2V382UX8i+VdwwAAAAAAAPw/AAC4QQAAKkM=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(sStrength, 23, 170)</sString>
+							<sString>1.75f * damageScale(sStrength, 23, 170)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -196,6 +196,16 @@
 							<compiledString>FQ4AAAACAAAAGwAAAC4AAABTdW1tb25BZGRMaWZlAFWL7FGLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0twFPAAAANld/NlF/IvlXcMAAAAAAABpQA==</compiledString>
 							<returnType>float</returnType>
 							<sString>200+cSummonAddLife</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Mage/Ability4.TALENT" id="3C5F96B4-DF9F-41EA-A1D2-621CC59F95CF">
+					<UnitConstant>
+						<name>DemonShieldCapacity</name>
+						<var>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACWQwCAu0Q=</compiledString>
+							<returnType>float</returnType>
+							<sString>damageScale(sStrength, 300, 1500)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

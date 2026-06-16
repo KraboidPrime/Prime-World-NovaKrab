@@ -56,6 +56,7 @@
 					<Item href="/Items/Talents/Class/Werewolf/Ability3.TALENT" id="1AC54A91-BEB3-40BC-8C95-FE1A8DA4B880">
 						<Spell>
 							<applicators>
+								<Item href="/Items/Talents/Class/Werewolf/status_A3_Active.APLR" />
 								<Item href="/Heroes/DefaultStatus/_HASTE_status.APLR" />
 							</applicators>
 							<dispatch href="" />
@@ -64,6 +65,7 @@
 					<Item href="/Items/Talents/Class/Werewolf/Ability3.TALENT" id="D30B2338-8BCB-4809-842C-1A26DE0F65B6">
 						<Spell>
 							<applicators>
+								<Item href="/Items/Talents/Class/Werewolf/status_A3_Active.APLR" />
 								<Item href="/Heroes/DefaultStatus/_QUICKNESS_status.APLR" />
 							</applicators>
 							<dispatch href="" />
@@ -86,9 +88,9 @@
 		<Item href="/Items/Talents/Class/Werewolf/Ability3.TALENT" id="E76D5553-12A8-4477-AE5B-21A9D11DC71A">
 			<ConditionCastLimitation>
 				<condition>
-					<compiledString>FQ4AAAACAAAAEwAAACkAAABDYW5BY3RpdmF0ZUEzAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHUsAAADf4PbERHsJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAAAA==</compiledString>
+					<compiledString>FQ4AAAACAAAAFQAAACsAAABDYW5BY3RpdmF0ZUEzAFWL7IPsDGgAAAAAi0UIixCLTQiLgogBAAD/0NwdegAAAN/g9sREejaLTQiLEYtNCIuCvAAAAP/Qi00IixGLTQiLgrgAAADdXfj/0Nxd+N/g9sQFewnHRfQAAAAA6wfHRfQBAAAAikX0i+VdwwAAAAAAAAAA</compiledString>
 					<returnType>bool</returnType>
-					<sString>sender.vCanActivateA3 != 0</sString>
+					<sString>sender.vCanActivateA3 != 0 || sBaseIntellect &gt; sBaseStrength</sString>
 				</condition>
 				<uiEvent href="/UI/Events/ErrorMessages/CastError_NoValidTargets.UIEV" />
 			</ConditionCastLimitation>
@@ -230,9 +232,9 @@
 		<BasicMicroAI>
 			<castWhenIdle>false</castWhenIdle>
 			<condition>
-				<compiledString>FQ4AAAACAAAAEwAAACkAAABDYW5BY3RpdmF0ZUEzAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHUsAAADf4PbERHsJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAAAA==</compiledString>
+				<compiledString>FQ4AAAACAAAAFQAAACsAAABDYW5BY3RpdmF0ZUEzAFWL7IPsDGgAAAAAi0UIixCLTQiLgogBAAD/0NwdegAAAN/g9sREejaLTQiLEYtNCIuCvAAAAP/Qi00IixGLTQiLgrgAAADdXfj/0Nxd+N/g9sQFewnHRfQAAAAA6wfHRfQBAAAAikX0i+VdwwAAAAAAAAAA</compiledString>
 				<returnType>bool</returnType>
-				<sString>sender.vCanActivateA3 != 0</sString>
+				<sString>sender.vCanActivateA3 != 0 || sBaseIntellect &gt; sBaseStrength</sString>
 			</condition>
 		</BasicMicroAI>
 	</microAI>
@@ -330,9 +332,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FTMAAAAFAAAAQAAAAFgAAABrAAAAmwAAALQAAABGaW5kRGFtYWdlZEhlcm9lcwAAAHRhcmdldHNDb3VudAAAAABBM19MaWZlUGVyY2VudABVi+yD7BhqAYtFEFBoAAAAAItNCIsRi00Ii4KcAQAA/9CJRfxoFAAAAItN/IsRi038i0JU/9DcHeEAAADf4PbEQXRVi00IixGLTQiLAv/Qi00IixGLTQiLQgzdXfT/0ItNDFGLVQhSaCQAAACLRRCLEItNEItCUN1d7P/Q3E3s3A3ZAAAA3F303+D2xEF0CcdF6AAAAADrB8dF6AEAAACKReiL5V3DAAAAQOF6hD8AAAAAAAAAAA==</compiledString>
+					<compiledString>FTMAAAAFAAAAQAAAAFgAAABrAAAAnwAAALgAAABGaW5kRGFtYWdlZEhlcm9lcwAAAHRhcmdldHNDb3VudAAAAABBM19MaWZlUGVyY2VudABVi+yD7CBqAYtFEFBoAAAAAItNCIsRi00Ii4KcAQAA/9CJRfxoFAAAAItN/IsRi038i0JU/9DcHRIBAADf4PbEQQ+EggAAAItNCIsRi00IiwL/0ItNCIsRi00Ii0IM3V30/9CLTQxRi1UIUmgkAAAAi0UQixCLTRCLQlDdXez/0NxN7NwNCgEAANxd9N/g9sRBdDaLTQiLEYtNCIuCvAAAAP/Qi00IixGLTQiLgrgAAADdXeT/0Nxd5N/g9sQFewnHReAAAAAA6wfHReABAAAAikXgi+VdwwAAAEDheoQ/AAAAAAAAAAA=</compiledString>
 					<returnType>bool</returnType>
-					<sString>sender.applFindDamagedHeroes(UNIT)-&gt;GetVariable("targetsCount") &gt; 0 || (sLife &lt; sMaxLife * cA3_LifePercent * 0.01f)</sString>
+					<sString>sender.applFindDamagedHeroes(UNIT)-&gt;GetVariable("targetsCount") &gt; 0 || (sLife &lt; sMaxLife * cA3_LifePercent * 0.01f) || sBaseIntellect &gt; sBaseStrength</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<lifeTime>
@@ -376,9 +378,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FTMAAAAFAAAAQAAAAFgAAABrAAAAmwAAALQAAABGaW5kRGFtYWdlZEhlcm9lcwAAAHRhcmdldHNDb3VudAAAAABBM19MaWZlUGVyY2VudABVi+yD7BhqAYtFEFBoAAAAAItNCIsRi00Ii4KcAQAA/9CJRfxoFAAAAItN/IsRi038i0JU/9DcHeEAAADf4PbERHpVi00IixGLTQiLAv/Qi00IixGLTQiLQgzdXfT/0ItNDFGLVQhSaCQAAACLRRCLEItNEItCUN1d7P/Q3E3s3A3ZAAAA3F303+D2xEF6CcdF6AEAAADrB8dF6AAAAACKReiL5V3DAAAAQOF6hD8AAAAAAAAAAA==</compiledString>
+					<compiledString>FTMAAAAFAAAAQAAAAFgAAABrAAAAnwAAALgAAABGaW5kRGFtYWdlZEhlcm9lcwAAAHRhcmdldHNDb3VudAAAAABBM19MaWZlUGVyY2VudABVi+yD7CBqAYtFEFBoAAAAAItNCIsRi00Ii4KcAQAA/9CJRfxoFAAAAItN/IsRi038i0JU/9DcHRIBAADf4PbERA+KggAAAItNCIsRi00IiwL/0ItNCIsRi00Ii0IM3V30/9CLTQxRi1UIUmgkAAAAi0UQixCLTRCLQlDdXez/0NxN7NwNCgEAANxd9N/g9sRBejaLTQiLEYtNCIuCvAAAAP/Qi00IixGLTQiLgrgAAADdXeT/0Nxd5N/g9sQBdQnHReABAAAA6wfHReAAAAAAikXgi+VdwwAAAEDheoQ/AAAAAAAAAAA=</compiledString>
 					<returnType>bool</returnType>
-					<sString>sender.applFindDamagedHeroes(UNIT)-&gt;GetVariable("targetsCount") == 0 &amp;&amp; (sLife &gt;= sMaxLife * cA3_LifePercent * 0.01f)</sString>
+					<sString>sender.applFindDamagedHeroes(UNIT)-&gt;GetVariable("targetsCount") == 0 &amp;&amp; (sLife &gt;= sMaxLife * cA3_LifePercent * 0.01f) &amp;&amp; sBaseIntellect &lt;= sBaseStrength</sString>
 				</enabled>
 				<flag>1024</flag>
 				<formulaName></formulaName>

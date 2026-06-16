@@ -119,6 +119,138 @@
 			<StatusApplicator>
 				<applicators>
 					<Item href="/GameLogic/GeneralApplicators/Immune2Control.APLR" />
+					<Item href="/Items/Talents/Class/Ent/Ability_A2.TALENT" id="4A1C0C5F-4F4E-46B8-9D1F-3A6A64D9B63B">
+						<GhostMoveApplicator>
+							<applyTarget>ApplicatorTarget</applyTarget>
+							<behaviorFlags>1</behaviorFlags>
+							<caption>Гостмув для захода</caption>
+							<collisionFlags>5</collisionFlags>
+							<effect>
+								<Item href="/Effects/General/Ghost/_Prime.EFFT" />
+								<Item href="" />
+							</effect>
+							<enabled>
+								<compiledString>FRAAAAACAAAAFwAAADAAAABFbnRfQTJ1AEVudF9BMnUAVYvsg+wIaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgIAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wCKRfuL5V3D</compiledString>
+								<returnType>bool</returnType>
+								<sString>tal("Ent_A2u")</sString>
+							</enabled>
+							<formulaName></formulaName>
+							<lifeTime>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>-1.0</sString>
+							</lifeTime>
+							<LoggingEvent>-1</LoggingEvent>
+							<providerName></providerName>
+							<pushUnits>true</pushUnits>
+							<startCondition>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</startCondition>
+						</GhostMoveApplicator>
+					</Item>
+					<Item href="/Items/Talents/Class/Ent/Ability_A2.TALENT" id="C14E0BD7-7E7C-44BD-83EA-F12956A77C1E">
+						<SpellPeriodicallyApplicator>
+							<applyTarget>AbilityOwner</applyTarget>
+							<behaviorFlags>1</behaviorFlags>
+							<caption>Снос деревьев при заходе</caption>
+							<effect>
+								<Item href="" />
+								<Item href="" />
+							</effect>
+							<enabled>
+								<compiledString>FRAAAAACAAAAFwAAADAAAABFbnRfQTJ1AEVudF9BMnUAVYvsg+wIaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgIAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wCKRfuL5V3D</compiledString>
+								<returnType>bool</returnType>
+								<sString>tal("Ent_A2u")</sString>
+							</enabled>
+							<formulaName></formulaName>
+							<lifeTime>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>-1.0</sString>
+							</lifeTime>
+							<LoggingEvent>-1</LoggingEvent>
+							<period>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>0.0f</sString>
+							</period>
+							<providerName></providerName>
+							<scaleMode>ScaleIsCount</scaleMode>
+							<spell href="/Items/Talents/Class/Ent/Ability_A2.TALENT" id="5BF734E6-6D3F-4BFA-AB94-0D89B79E78D5">
+								<Spell>
+									<applicators>
+										<Item href="/Items/Talents/Class/Ent/Ability_A2.TALENT" id="7F2069B4-2D93-406F-8C58-814909B0D586">
+											<DropTreeApplicator>
+												<applyTarget>ApplicatorTarget</applyTarget>
+												<caption>Роняем деревья</caption>
+												<enabled>
+													<compiledString></compiledString>
+													<returnType>bool</returnType>
+													<sString>true</sString>
+												</enabled>
+												<formulaName></formulaName>
+												<LoggingEvent>-1</LoggingEvent>
+												<providerName></providerName>
+											</DropTreeApplicator>
+										</Item>
+									</applicators>
+									<dispatch href="/Items/Talents/Class/Ent/Ability_A2.TALENT" id="1BBE69AC-4E09-4D37-B3D4-B6308D89575D">
+										<DispatchImmediate>
+											<alwaysApply>false</alwaysApply>
+											<applyEffect>
+												<Item href="" />
+												<Item href="" />
+											</applyEffect>
+											<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+											<applyEffectOrientation>Default</applyEffectOrientation>
+											<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+											<dieAfterApply>true</dieAfterApply>
+											<dispatchEffect>
+												<Item href="" />
+												<Item href="" />
+											</dispatchEffect>
+											<flags>0</flags>
+											<instantApply>false</instantApply>
+										</DispatchImmediate>
+									</dispatch>
+								</Spell>
+							</spell>
+							<startCondition>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</startCondition>
+							<startOffset>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>0.0f</sString>
+							</startOffset>
+							<targetSelector href="/Items/Talents/Class/Ent/Ability_A2.TALENT" id="9EDDA9F7-698D-4899-A573-1B2166C9735C">
+								<CapsuleTargetSelector>
+									<cutoffFirstSegment>false</cutoffFirstSegment>
+									<flags>0</flags>
+									<mode>SendOnce</mode>
+									<range>
+										<compiledString></compiledString>
+										<returnType>float</returnType>
+										<sString>1.0f</sString>
+									</range>
+									<rangeFromOwner>
+										<compiledString></compiledString>
+										<returnType>float</returnType>
+										<sString>0.0f</sString>
+									</rangeFromOwner>
+									<segmentBegin>PreviousPosition</segmentBegin>
+									<segmentDirectionOffset>0</segmentDirectionOffset>
+									<segmentEnd>CurrentPosition</segmentEnd>
+									<segmentEndTargetSelector href="" />
+									<targetFilter>536871936</targetFilter>
+								</CapsuleTargetSelector>
+							</targetSelector>
+						</SpellPeriodicallyApplicator>
+					</Item>
 					<Item href="/Items/Talents/Class/Ent/Ability_A2.TALENT" id="08AC70BF-A6A6-420B-98CB-AA338AE0C714">
 						<StatModApplicator>
 							<applyTarget>ApplicatorTarget</applyTarget>
@@ -131,9 +263,9 @@
 								<Item href="" />
 							</effect>
 							<enabled>
-								<compiledString></compiledString>
+								<compiledString>FRAAAAACAAAAFwAAADAAAABFbnRfQTJ1AEVudF9BMnUAVYvsg+wIaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgIAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wCKRfuL5V3D</compiledString>
 								<returnType>bool</returnType>
-								<sString>true</sString>
+								<sString>tal("Ent_A2u")</sString>
 							</enabled>
 							<formulaName></formulaName>
 							<lifeTime>
@@ -215,6 +347,92 @@
 				<unstackableWith href="" />
 			</StatusApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/Ent/Ability_A2.TALENT" id="D41E065C-559D-4B1A-9B36-2D5F8E83B25A">
+			<StatusApplicator>
+				<applicators>
+					<Item href="/Items/Talents/Class/Ent/Ability_A2.TALENT" id="6A179120-7E78-468A-93D7-C9288CD9E310">
+						<AbsorbShieldApplicator>
+							<applyTarget>ApplicatorTarget</applyTarget>
+							<behaviorFlags>0</behaviorFlags>
+							<caption>хитовая подушка на заход</caption>
+							<damageToAbsorb>
+								<compiledString>FRIAAAABAAAAHgAAAEEyX1NoaWVsZENhcGFjaXR5AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+								<returnType>float</returnType>
+								<sString>cA2_ShieldCapacity</sString>
+							</damageToAbsorb>
+							<effect>
+								<Item href="" />
+								<Item href="" />
+							</effect>
+							<enabled>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</enabled>
+							<formulaName>AbsorbDamageEntA2</formulaName>
+							<lifeTime>
+								<compiledString>FQ8AAAABAAAAGwAAAEhhc3RlX0R1cmF0aW9uAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+								<returnType>float</returnType>
+								<sString>cHaste_Duration</sString>
+							</lifeTime>
+							<LoggingEvent>-1</LoggingEvent>
+							<providerName></providerName>
+							<startCondition>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</startCondition>
+						</AbsorbShieldApplicator>
+					</Item>
+				</applicators>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>144</behaviorFlags>
+				<caption>статус щита на заход</caption>
+				<customCounter>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</customCounter>
+				<customProgress>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</customProgress>
+				<description textref="/Items/Talents/Class/Ent/Ability_A2.TALENT_d41e065c559d4b1a9b362d5f8e83b25a_description.txt" />
+				<dispellPriority>Medium</dispellPriority>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<flags>0</flags>
+				<formulaName></formulaName>
+				<image href="/UI/Styles/Icons/Heroes/Ent/A2.ITEX" />
+				<lifeTime>
+					<compiledString>FQ8AAAABAAAAGwAAAEhhc3RlX0R1cmF0aW9uAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+					<returnType>float</returnType>
+					<sString>cHaste_Duration</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<name textref="/Items/Talents/Class/Ent/Ability_A2.TALENT_d41e065c559d4b1a9b362d5f8e83b25a_name.txt" />
+				<power>0</power>
+				<providerName></providerName>
+				<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+				<stackCount>0</stackCount>
+				<startCondition>
+					<compiledString>FRUAAAACAAAAIgAAADUAAABTZW5kZXJfTmF0aXZlVGVycmFpbgBVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcHVEAAADf4PbERHsGxkX/AesExkX/AIpF/4vlXcMAAAAAAAAAAA==</compiledString>
+					<returnType>bool</returnType>
+					<sString>cSender_NativeTerrain</sString>
+				</startCondition>
+				<statusPosition>0</statusPosition>
+				<stopBehaviour>StopByChild</stopBehaviour>
+				<unstackableWith href="" />
+			</StatusApplicator>
+		</Item>
 	</applicators>
 	<askId>2</askId>
 	<autoTargetSelector href="" />
@@ -258,6 +476,26 @@
 				</Item>
 				<Item href="/Items/Talents/Class/Ent/const_A2_Damage" />
 				<Item href="/Items/Talents/Class/Ent/const_A2_Stun_Duration" />
+				<Item href="/Items/Talents/Class/Ent/Ability_A2.TALENT" id="0570FC77-7DE7-4E68-85D0-B25A4C394D94">
+					<UnitConstant>
+						<name>A2_ShieldCapacity</name>
+						<var>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoAi00QixGLTRCLQmD/0F3DAACqQgAA/0M=</compiledString>
+							<returnType>float</returnType>
+							<sString>abilityScale(sIntellect, 85, 510)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Ent/Ability_A2.TALENT" id="90E48265-8F21-4FE0-B6F1-178643169A2D">
+					<UnitConstant>
+						<name>A2_ShieldCapacityCurrent_TT</name>
+						<var>
+							<compiledString>FTcAAAADAAAARAAAAGQAAAB8AAAAQWJzb3JiRGFtYWdlRW50QTIAAABBYnNvcmJEYW1hZ2VFbnRBMgAAAGRhbWFnZVRvQWJzb3JiAFWL7IPsCGoBi0UQUGgAAAAAi00MixGLTQyLgpwBAAD/0DtFEHQ1agGLTRBRaBQAAACLVQyLAotNDIuQnAEAAP/SiUX8aCgAAACLRfyLEItN/ItCVP/Q2V346wXZ7tld+NlF+IvlXcMAAAAA</compiledString>
+							<returnType>float</returnType>
+							<sString>receiver.applAbsorbDamageEntA2(UNIT) != pMisc ? receiver.applAbsorbDamageEntA2(UNIT)-&gt;GetVariable("damageToAbsorb") : 0</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 				<Item href="/Items/Talents/Class/Ent/Ability_A2.TALENT" id="31A8B93E-A743-4FC3-9092-17CB8D29BDDB">
 					<UnitConstant>
 						<name>A2Range</name>
