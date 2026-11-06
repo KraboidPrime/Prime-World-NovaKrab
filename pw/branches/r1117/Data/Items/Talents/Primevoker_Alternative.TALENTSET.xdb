@@ -198,7 +198,7 @@
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Class/Primevoker/Ability_A2_SUP.TALENT" />
+					<talent href="/Items/Talents/Class/Primevoker/Ability_A0_SUP.TALENT" />
 				</Item>
 			</talents>
 		</Item>

@@ -158,7 +158,7 @@
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level4/G339_IntDex_Slow.TALENT.xdb" />
+					<talent href="/Items/Talents/Level4/G555_PhantomDex.TALENT.xdb" />
 				</Item>
 			</talents>
 		</Item>
