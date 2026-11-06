@@ -158,7 +158,7 @@
 													<Item href="" />
 												</dispatchEffect>
 												<flags>0</flags>
-												<instantApply>true</instantApply>
+												<instantApply>false</instantApply>
 											</DispatchImmediate>
 										</dispatch>
 									</Spell>
@@ -266,7 +266,7 @@
 					</Item>
 				</applicators>
 				<applyTarget>ApplicatorTarget</applyTarget>
-				<behaviorFlags>152</behaviorFlags>
+				<behaviorFlags>155</behaviorFlags>
 				<caption>Программа таймер+взрыв</caption>
 				<effect>
 					<Item href="" />

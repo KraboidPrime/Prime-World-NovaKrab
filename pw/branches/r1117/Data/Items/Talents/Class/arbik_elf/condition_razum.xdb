@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ConditionFormula>
+	<BackLink DBID="/Items/Talents/Class/arbik_elf/Ability_A2.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/arbik_elf/Ability_A4_2.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/arbik_elf/Ability_A4_2u.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/arbik_elf/Ability_A0_SUP.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/arbik_elf/Ability_A4_3.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/arbik_elf/Ability_A4_3u.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/arbik_elf/Ability_A3.TALENT" Count="1" />
+	<condition>
+		<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgrwAAAD/0ItNCIsRi00Ii4K4AAAA3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+		<returnType>bool</returnType>
+		<sString>sBaseIntellect &gt;= sBaseStrength</sString>
+	</condition>
+	<name>arb_razum</name>
+</ConditionFormula>

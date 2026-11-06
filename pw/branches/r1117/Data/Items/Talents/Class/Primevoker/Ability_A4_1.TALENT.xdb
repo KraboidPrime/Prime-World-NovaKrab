@@ -4356,9 +4356,9 @@
 					<UnitConstant>
 						<name>LunaVoker</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACwQgAAJUQ=</compiledString>
+							<compiledString>FQAAAAADAAAACQAAABMAAABBAAAAVYvsUWoBUdkFWwAAANkcJFHZBVcAAADZHCRqAItFCIsQi00Ii4IwAQAA/9BR2RwkagGLTRCLEYtNEItCYP/Q3A1PAAAA2V382UX8i+Vdw5qZmZmZmfE/AACwQgAAJUQ=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(sStrength, 88, 660)</sString>
+							<sString>1.1*damageScale(sStrength, 88, 660)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -4366,9 +4366,9 @@
 					<UnitConstant>
 						<name>FreezeVoker</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAADwQgAAYUQ=</compiledString>
+							<compiledString>FQAAAAADAAAACQAAABMAAABBAAAAVYvsUWoBUdkFWwAAANkcJFHZBVcAAADZHCRqAItFCIsQi00Ii4IwAQAA/9BR2RwkagGLTRCLEYtNEItCYP/Q3A1PAAAA2V382UX8i+Vdw5qZmZmZmfE/AADwQgAAYUQ=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(sStrength, 120, 900)</sString>
+							<sString>1.1*damageScale(sStrength, 120, 900)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -4396,9 +4396,9 @@
 					<UnitConstant>
 						<name>MageVokerAtck</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAC4QQAAKkM=</compiledString>
+							<compiledString>FQAAAAADAAAACQAAABMAAABBAAAAVYvsUWoBUdkFWwAAANkcJFHZBVcAAADZHCRqAItFCIsQi00Ii4IwAQAA/9BR2RwkagGLTRCLEYtNEItCYP/Q3A1PAAAA2V382UX8i+Vdw5qZmZmZmfE/AAC4QQAAKkM=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(sStrength, 23, 170)</sString>
+							<sString>1.1*damageScale(sStrength, 23, 170)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -4406,9 +4406,9 @@
 					<UnitConstant>
 						<name>MageVokerDot</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBWMAAADZHCRR2QVfAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJItNCIsRi00Ii4I0AQAA/9BR2Rwk6B8AAACDxATZHCRqAYtNEIsRi00Qi0Jg/9BdwwAAIEEAAJBCVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
+							<compiledString>FQAAAAADAAAACQAAABMAAABgAAAAVYvsUWoBUdkFegAAANkcJFHZBXYAAADZHCRqAItFCIsQi00Ii4IwAQAA/9BR2Rwki00IixGLTQiLgjQBAAD/0FHZHCToNQAAAIPEBNkcJGoBi00QixGLTRCLQmD/0NwNbgAAANld/NlF/IvlXcOamZmZmZnxPwAAIEEAAJBCVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale( max(sIntellect, sStrength), 10, 72 )</sString>
+							<sString>1.1*damageScale( max(sIntellect, sStrength), 10, 72 )</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -4436,9 +4436,9 @@
 					<UnitConstant>
 						<name>KraskVoker</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAADwQgAAYUQ=</compiledString>
+							<compiledString>FQAAAAADAAAACQAAABMAAABBAAAAVYvsUWoBUdkFWwAAANkcJFHZBVcAAADZHCRqAItFCIsQi00Ii4IwAQAA/9BR2RwkagGLTRCLEYtNEItCYP/Q3A1PAAAA2V382UX8i+Vdw5qZmZmZmfE/AADwQgAAYUQ=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(sStrength, 120, 900)</sString>
+							<sString>1.1*damageScale(sStrength, 120, 900)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -4456,9 +4456,9 @@
 					<UnitConstant>
 						<name>HimVoker</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAADwQgAAYUQ=</compiledString>
+							<compiledString>FQAAAAADAAAACQAAABMAAABBAAAAVYvsUWoBUdkFWwAAANkcJFHZBVcAAADZHCRqAItFCIsQi00Ii4IwAQAA/9BR2RwkagGLTRCLEYtNEItCYP/Q3A1PAAAA2V382UX8i+Vdw5qZmZmZmfE/AADwQgAAYUQ=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(sStrength, 120, 900)</sString>
+							<sString>1.1*damageScale(sStrength, 120, 900)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -4492,6 +4492,16 @@
 						</var>
 					</UnitConstant>
 				</Item>
+				<Item href="/Items/Talents/Class/Primevoker/Ability_A4_1.TALENT" id="EB51F3CF-977B-476F-8946-ACA159FC1CC8">
+					<UnitConstant>
+						<name>DemonShieldCapacity</name>
+						<var>
+							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>0.0f</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
@@ -4500,9 +4510,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADIQg==</compiledString>
+		<compiledString>FSUAAAAEAAAALAAAAEUAAAB+AAAAiAAAAFByaW1ldm9rZXJfQTJTVVAAAAAAUHJpbWV2b2tlcl9BMlNVUABVi+yD7BBoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBQAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuJTfTbRfTcDaYAAADZ6N7h3A2WAAAA2V3w2UXwi+VdwwAAAAAAAFlAAAAAAAAA8D+amZmZmZm5Pw==</compiledString>
 		<returnType>float</returnType>
-		<sString>100.0f</sString>
+		<sString>100.0f*(1-0.1*tal("Primevoker_A2SUP"))</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>

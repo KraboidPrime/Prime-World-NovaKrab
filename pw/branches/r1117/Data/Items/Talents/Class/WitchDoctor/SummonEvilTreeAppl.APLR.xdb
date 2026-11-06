@@ -224,7 +224,7 @@
 					<Item href="/Items/Talents/Class/WitchDoctor/SummonEvilTreeAppl.APLR" id="770BEF31-23AF-4ED4-9B26-920B2EF18ADB">
 						<StatModApplicator>
 							<applyTarget>AbilityOwner</applyTarget>
-							<behaviorFlags>0</behaviorFlags>
+							<behaviorFlags>216</behaviorFlags>
 							<caption>WitchDoctor_EvilTreeCounter</caption>
 							<constraint>None</constraint>
 							<dontUpdate>true</dontUpdate>
@@ -270,7 +270,7 @@
 					</Item>
 				</applicators>
 				<applyTarget>ApplicatorTarget</applyTarget>
-				<behaviorFlags>128</behaviorFlags>
+				<behaviorFlags>152</behaviorFlags>
 				<caption>Тех. статус на героя для счётчика деревьев</caption>
 				<customCounter>
 					<compiledString></compiledString>
@@ -379,6 +379,100 @@
 				<talents />
 				<useListAs>ListAsRule</useListAs>
 			</FlagsApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/WitchDoctor/SummonEvilTreeAppl.APLR" id="3859BF6B-138C-4039-9DF2-7A900F92784C">
+			<StatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>152</behaviorFlags>
+				<caption></caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FRYAAAACAAAAHQAAADYAAABWZWR1bl9BNHUAAABWZWR1bl9BNHUAVYvsg+wIaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgMAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wCKRfuL5V3D</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("Vedun_A4u")</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQsAAAACAAAAEAAAACYAAABOZXdUcmVlUmVzAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcLTQAAADZXfzZRfyL5V3DAAAAAAAANEA=</compiledString>
+						<returnType>float</returnType>
+						<sString>20 - sender.vNewTreeRes</sString>
+					</addValue>
+					<multValue>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DZmZmPw==</compiledString>
+						<returnType>float</returnType>
+						<sString>0.9f</sString>
+					</multValue>
+					<stat>EnergyDamageDecrease</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/WitchDoctor/SummonEvilTreeAppl.APLR" id="D2D27E2C-8A35-4115-AC2E-E411EAEEFEC7">
+			<StatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>152</behaviorFlags>
+				<caption></caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FRYAAAACAAAAHQAAADYAAABWZWR1bl9BNHUAAABWZWR1bl9BNHUAVYvsg+wIaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgMAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wCKRfuL5V3D</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("Vedun_A4u")</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQsAAAACAAAAEAAAACYAAABOZXdUcmVlUmVzAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcLTQAAADZXfzZRfyL5V3DAAAAAAAANEA=</compiledString>
+						<returnType>float</returnType>
+						<sString>20 - sender.vNewTreeRes</sString>
+					</addValue>
+					<multValue>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DZmZmPw==</compiledString>
+						<returnType>float</returnType>
+						<sString>0.9f</sString>
+					</multValue>
+					<stat>MaterialDamageDecrease</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
 		</Item>
 	</applicators>
 	<applyTarget>AbilityOwner</applyTarget>

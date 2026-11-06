@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ProgramApplicator>
-	<BackLink DBID="/Items/Talents/Class/Reaper/Ability_A1.TALENT" Count="1" />
 	<applicators>
 		<Item>
 			<applicator href="/Items/Talents/Class/Reaper/A1_JumpAndDown.APLR" id="73304B27-5F4B-4AF1-87CC-3C1D0E8A8292">
@@ -107,7 +106,7 @@
 				</FlagsApplicator>
 			</applicator>
 			<continueCondition>
-				<compiledString></compiledString>
+				<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 				<returnType>bool</returnType>
 				<sString>0</sString>
 			</continueCondition>
@@ -118,7 +117,7 @@
 				<sString>-1.0</sString>
 			</delay>
 			<stopCondition>
-				<compiledString></compiledString>
+				<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 				<returnType>bool</returnType>
 				<sString>0</sString>
 			</stopCondition>

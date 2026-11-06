@@ -118,9 +118,9 @@
 							<LoggingEvent>-1</LoggingEvent>
 							<modifier>
 								<addValue>
-									<compiledString>FR8AAAABAAAAKwAAAEEzdV9BbGxEYW1hZ2VfRGVjcmVhc2VfUGVyY2VudABVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+									<compiledString>FSMAAAABAAAALwAAAEEzdV9TZWxmQWxsRGFtYWdlX0RlY3JlYXNlX1BlcmNlbnQAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
 									<returnType>float</returnType>
-									<sString>cA3u_AllDamage_Decrease_Percent</sString>
+									<sString>cA3u_SelfAllDamage_Decrease_Percent</sString>
 								</addValue>
 								<multValue>
 									<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DZmZmPw==</compiledString>
@@ -165,9 +165,9 @@
 							<LoggingEvent>-1</LoggingEvent>
 							<modifier>
 								<addValue>
-									<compiledString>FR8AAAABAAAAKwAAAEEzdV9BbGxEYW1hZ2VfRGVjcmVhc2VfUGVyY2VudABVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+									<compiledString>FSMAAAABAAAALwAAAEEzdV9TZWxmQWxsRGFtYWdlX0RlY3JlYXNlX1BlcmNlbnQAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
 									<returnType>float</returnType>
-									<sString>cA3u_AllDamage_Decrease_Percent</sString>
+									<sString>cA3u_SelfAllDamage_Decrease_Percent</sString>
 								</addValue>
 								<multValue>
 									<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DZmZmPw==</compiledString>
@@ -309,6 +309,7 @@
 				<Item href="/Items/Talents/Class/Warlord/const_A3_RetaliationDamage" />
 				<Item href="/Items/Talents/Class/Warlord/const_A3_Duration" />
 				<Item href="/Items/Talents/Class/Warlord/const_A3u_AllDamage_Decrease_Percent" />
+				<Item href="/Items/Talents/Class/Warlord/const_A3u_SelfAllDamage_Decrease_Percent" />
 				<Item href="/Items/Talents/Class/Warlord/Ability3.TALENT" id="9DF58B50-96F3-4060-AC36-32439DF291DB">
 					<UnitConstant>
 						<name>WarlordBuffStatA3</name>

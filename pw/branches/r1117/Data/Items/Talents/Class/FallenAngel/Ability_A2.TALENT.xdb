@@ -83,7 +83,7 @@
 														<Item>
 															<applicator href="/GameLogic/GeneralApplicators/IsolatedWDamage.APLR" />
 															<continueCondition>
-																<compiledString></compiledString>
+																<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 																<returnType>bool</returnType>
 																<sString>0</sString>
 															</continueCondition>
@@ -94,7 +94,7 @@
 																<sString>-1.0</sString>
 															</delay>
 															<stopCondition>
-																<compiledString></compiledString>
+																<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 																<returnType>bool</returnType>
 																<sString>0</sString>
 															</stopCondition>
@@ -103,7 +103,7 @@
 														<Item>
 															<applicator href="/GameLogic/GeneralApplicators/SetTossed.APLR" />
 															<continueCondition>
-																<compiledString></compiledString>
+																<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 																<returnType>bool</returnType>
 																<sString>0</sString>
 															</continueCondition>
@@ -114,7 +114,7 @@
 																<sString>-1.0</sString>
 															</delay>
 															<stopCondition>
-																<compiledString></compiledString>
+																<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 																<returnType>bool</returnType>
 																<sString>0</sString>
 															</stopCondition>
@@ -155,7 +155,7 @@
 																</FlagsApplicator>
 															</applicator>
 															<continueCondition>
-																<compiledString></compiledString>
+																<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 																<returnType>bool</returnType>
 																<sString>0</sString>
 															</continueCondition>
@@ -166,7 +166,7 @@
 																<sString>-1.0</sString>
 															</delay>
 															<stopCondition>
-																<compiledString></compiledString>
+																<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 																<returnType>bool</returnType>
 																<sString>0</sString>
 															</stopCondition>
@@ -284,7 +284,7 @@
 																</ThrowApplicator>
 															</applicator>
 															<continueCondition>
-																<compiledString></compiledString>
+																<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 																<returnType>bool</returnType>
 																<sString>0</sString>
 															</continueCondition>
@@ -295,7 +295,7 @@
 																<sString>-1.0</sString>
 															</delay>
 															<stopCondition>
-																<compiledString></compiledString>
+																<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 																<returnType>bool</returnType>
 																<sString>0</sString>
 															</stopCondition>
@@ -347,7 +347,7 @@
 																</FlagsApplicator>
 															</applicator>
 															<continueCondition>
-																<compiledString></compiledString>
+																<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 																<returnType>bool</returnType>
 																<sString>0</sString>
 															</continueCondition>
@@ -393,7 +393,7 @@
 												</ProgramApplicator>
 											</applicator>
 											<continueCondition>
-												<compiledString></compiledString>
+												<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 												<returnType>bool</returnType>
 												<sString>0</sString>
 											</continueCondition>
@@ -404,7 +404,7 @@
 												<sString>-1.0</sString>
 											</delay>
 											<stopCondition>
-												<compiledString></compiledString>
+												<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 												<returnType>bool</returnType>
 												<sString>0</sString>
 											</stopCondition>
@@ -413,7 +413,7 @@
 										<Item>
 											<applicator href="/GameLogic/GeneralApplicators/EndOfAbility.APLR" />
 											<continueCondition>
-												<compiledString></compiledString>
+												<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 												<returnType>bool</returnType>
 												<sString>0</sString>
 											</continueCondition>
@@ -424,7 +424,7 @@
 												<sString>-1.0</sString>
 											</delay>
 											<stopCondition>
-												<compiledString></compiledString>
+												<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 												<returnType>bool</returnType>
 												<sString>0</sString>
 											</stopCondition>

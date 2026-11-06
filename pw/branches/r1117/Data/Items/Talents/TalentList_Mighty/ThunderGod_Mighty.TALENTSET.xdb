@@ -88,7 +88,7 @@
 					<aIPriority>1</aIPriority>
 					<refineRate>1</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Class/ThunderGod/Ability4.TALENT" />
+					<talent href="/Items/Talents/Class/ThunderGod/Ability4_2.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
@@ -128,7 +128,7 @@
 					<aIPriority>1</aIPriority>
 					<refineRate>1</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Class/ThunderGod/Ability4Upg.TALENT" />
+					<talent href="/Items/Talents/Class/ThunderGod/Ability4_2u.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>

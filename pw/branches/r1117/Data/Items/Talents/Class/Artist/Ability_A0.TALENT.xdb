@@ -212,9 +212,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString></compiledString>
+		<compiledString>FRgAAAADAAAAHQAAADMAAAA9AAAAVG90YWxfQ29vbGRvd25SZWR1Y3Rpb24AVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwNWwAAANno3uHcPUsAAADZXfzZRfyL5V3DAAAAAAAAFEAAAAAAAADwPwAAAEDheoQ/</compiledString>
 		<returnType>float</returnType>
-		<sString>0.0f</sString>
+		<sString>5.0f/(1.0f - sender.vTotal_CooldownReduction * 0.01f)</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>
@@ -1045,7 +1045,7 @@
 					<returnType>bool</returnType>
 					<sString>true</sString>
 				</startCondition>
-				<useAbilityCooldown>false</useAbilityCooldown>
+				<useAbilityCooldown>true</useAbilityCooldown>
 				<useAbilityOwnerMana>false</useAbilityOwnerMana>
 			</TriggerApplicator>
 		</Item>

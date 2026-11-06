@@ -67,6 +67,16 @@
 					</UnitConstant>
 				</Item>
 				<Item href="/Items/Talents/Class/Naga/const_A4_2u_Evade_Mult" />
+				<Item href="/Items/Talents/Class/Naga/Ability4_2_Upg.TALENT" id="69B10B67-F12B-4B10-9517-3992BD17B3A4">
+					<UnitConstant>
+						<name>ForUi</name>
+						<var>
+							<compiledString>FQAAAAACAAAAGwAAACwAAABVi+xRi0UIixCLTQiLgjABAAD/0FHZHCRR2QVCAAAA2Rwk6B8AAACDxAjcDToAAADZXfzZRfyL5V3DAAAAAAAABEAAAEhCVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
+							<returnType>float</returnType>
+							<sString>2.5f*max(50, sStrength)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

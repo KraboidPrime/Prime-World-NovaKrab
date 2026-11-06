@@ -1119,9 +1119,9 @@
 					<UnitConstant>
 						<name>A4uDMG_Bonus</name>
 						<var>
-							<compiledString>FSgAAAAEAAAALwAAAEgAAACGAAAAmQAAAEthdGFuYV9BNHUAAEthdGFuYV9BNHUAAEE0X0RhbWFnZV9Ub3RhbABVi+yD7BRoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaAwAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXQli1UMUotFCFBoGAAAAItNEIsRi00Qi0JQ/9DcDbwAAADdXfDrBdnu3V3w3UXw2V3s2UXsi+VdwwAAAAAAAAAAmpmZmZmZuT8=</compiledString>
+							<compiledString>FSgAAAAEAAAALwAAAEgAAACGAAAAmQAAAEthdGFuYV9BNHUAAEthdGFuYV9BNHUAAEE0X0RhbWFnZV9Ub3RhbABVi+yD7BRoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaAwAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXQli1UMUotFCFBoGAAAAItNEIsRi00Qi0JQ/9DcDbwAAADdXfDrBdnu3V3w3UXw2V3s2UXsi+VdwwAAAAAAAAAAAAAAAAAA0D8=</compiledString>
 							<returnType>float</returnType>
-							<sString>tal("Katana_A4u") ? 0.1*cA4_Damage_Total : 0</sString>
+							<sString>tal("Katana_A4u") ? 0.25*cA4_Damage_Total : 0</sString>
 						</var>
 					</UnitConstant>
 				</Item>

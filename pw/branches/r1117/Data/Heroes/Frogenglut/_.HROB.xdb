@@ -1347,9 +1347,9 @@
 					<levelUpgrades />
 					<statId>LifeRegenerationAbsolute</statId>
 					<value>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DMzPTPw==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DMzNTQA==</compiledString>
 						<returnType>float</returnType>
-						<sString>1.65</sString>
+						<sString>3.3</sString>
 					</value>
 				</Item>
 				<Item>

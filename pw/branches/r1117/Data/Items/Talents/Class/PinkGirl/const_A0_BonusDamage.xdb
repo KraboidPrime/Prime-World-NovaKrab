@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <UnitConstant>
 	<BackLink DBID="/Items/Talents/Class/PinkGirl/Ability_A0_SUP.TALENT" Count="1" />
-	<BackLink DBID="/Heroes/Pinkgirl/_.HROB" Count="1" />
+	<BackLink DBID="/Heroes/PinkGirl/_.HROB" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/PinkGirl/Ability_A0.TALENT" Count="1" />
 	<name>A0_BonusDamage</name>
 	<var>

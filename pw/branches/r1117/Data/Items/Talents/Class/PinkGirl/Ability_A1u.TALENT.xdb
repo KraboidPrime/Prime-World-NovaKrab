@@ -55,7 +55,9 @@
 	<conflictingTalents />
 	<constants href="/Items/Talents/Class/PinkGirl/Ability_A1u.TALENT" id="5B14E7E2-D723-41A5-9084-5ABB20C0A171">
 		<UnitConstantsContainer>
-			<vars />
+			<vars>
+				<Item href="/Items/Talents/Class/PinkGirl/const_A1u_CritChance" />
+			</vars>
 		</UnitConstantsContainer>
 	</constants>
 	<consumptionBonus>

@@ -54,6 +54,16 @@
 		<UnitConstantsContainer>
 			<vars>
 				<Item href="/Items/Talents/Class/Naga/const_A3_BonusMagDefence" />
+				<Item href="/Items/Talents/Class/Naga/Ability_A3_SUP.TALENT" id="2C1F5E2D-86B7-4B6E-BF2A-D59A24D65016">
+					<UnitConstant>
+						<name>A3_Stam</name>
+						<var>
+							<compiledString>FQAAAAACAAAAFgAAABwAAABVi+xRi0UIixCLTQiLgrgAAAD/0NwNMgAAANwFKgAAANld/NlF/IvlXcMAAAAAAAAQQLgehetRuK4/</compiledString>
+							<returnType>float</returnType>
+							<sString>4+0.06*sBaseStrength</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

@@ -402,9 +402,9 @@
 					<UnitConstant>
 						<name>Stun_Duration</name>
 						<var>
-							<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+							<compiledString>FRQAAAACAAAAGQAAAC8AAABDcnVzYWRlcl9BNEV4QmVsaWVmAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHVEAAADf4PbEAXUJx0X8AgAAAOsHx0X8AQAAANtF/IvlXcMAAAAAAADwPw==</compiledString>
 							<returnType>float</returnType>
-							<sString>1</sString>
+							<sString>sender.vCrusader_A4ExBelief &gt;= 1 ? 2 : 1</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -422,9 +422,9 @@
 					<UnitConstant>
 						<name>Blind_StartCondition</name>
 						<var>
-							<compiledString>FRQAAAACAAAAGQAAAC8AAABDcnVzYWRlcl9BNEV4QmVsaWVmAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHVkAAADf4PbEAXURi00IO00MdAnHRfwBAAAA6wfHRfwAAAAA20X8i+VdwwAAAAAAAPA/</compiledString>
+							<compiledString>FRQAAAACAAAAGQAAAC8AAABDcnVzYWRlcl9BNEV4QmVsaWVmAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHV0AAADf4PbEAXUVi00IO00MdA0z0nQJx0X8AQAAAOsHx0X8AAAAANtF/IvlXcMAAAAAAADwPw==</compiledString>
 							<returnType>float</returnType>
-							<sString>sender.vCrusader_A4ExBelief &gt;= 1 &amp;&amp; pFirst != pSecond</sString>
+							<sString>sender.vCrusader_A4ExBelief &gt;= 1 &amp;&amp; pFirst != pSecond &amp;&amp; false</sString>
 						</var>
 					</UnitConstant>
 				</Item>

@@ -21850,7 +21850,7 @@
 														<minFilter>Linear</minFilter>
 														<mipFilter>Point</mipFilter>
 													</samplerState>
-													<texture href="/UI/Styles/Icons/Heroes/Gunner/Face.ITEX" />
+													<texture href="/UI/Styles/Icons/Heroes/Chicken/Baby_dragon.ITEX" />
 												</DiffuseMap>
 												<DisablePin>None</DisablePin>
 												<HighlightMap>
@@ -22110,7 +22110,7 @@
 														<minFilter>Linear</minFilter>
 														<mipFilter>Point</mipFilter>
 													</samplerState>
-													<texture href="/UI/Styles/Icons/Heroes/Gunner/Face.ITEX" />
+													<texture href="/UI/Styles/Icons/Heroes/Chicken/Baby_dragon.ITEX" />
 												</DiffuseMap>
 												<DisablePin>None</DisablePin>
 												<HighlightMap>
@@ -22353,7 +22353,7 @@
 														<minFilter>Linear</minFilter>
 														<mipFilter>Point</mipFilter>
 													</samplerState>
-													<texture href="/UI/Styles/Icons/Heroes/Gunner/Face.ITEX" />
+													<texture href="/UI/Styles/Icons/Heroes/Chicken/Baby_dragon.ITEX" />
 												</DiffuseMap>
 												<DisablePin>None</DisablePin>
 												<HighlightMap>
@@ -22630,7 +22630,7 @@
 														<minFilter>Linear</minFilter>
 														<mipFilter>Point</mipFilter>
 													</samplerState>
-													<texture href="/UI/Styles/Icons/Heroes/Gunner/Face.ITEX" />
+													<texture href="/UI/Styles/Icons/Heroes/Primevoker/Face.ITEX" />
 												</DiffuseMap>
 												<DisablePin>None</DisablePin>
 												<HighlightMap>
@@ -22890,7 +22890,7 @@
 														<minFilter>Linear</minFilter>
 														<mipFilter>Point</mipFilter>
 													</samplerState>
-													<texture href="/UI/Styles/Icons/Heroes/Gunner/Face.ITEX" />
+													<texture href="/UI/Styles/Icons/Heroes/Primevoker/Face.ITEX" />
 												</DiffuseMap>
 												<DisablePin>None</DisablePin>
 												<HighlightMap>
@@ -23133,7 +23133,7 @@
 														<minFilter>Linear</minFilter>
 														<mipFilter>Point</mipFilter>
 													</samplerState>
-													<texture href="/UI/Styles/Icons/Heroes/Gunner/Face.ITEX" />
+													<texture href="/UI/Styles/Icons/Heroes/Primevoker/Face.ITEX" />
 												</DiffuseMap>
 												<DisablePin>None</DisablePin>
 												<HighlightMap>
@@ -23410,7 +23410,7 @@
 														<minFilter>Linear</minFilter>
 														<mipFilter>Point</mipFilter>
 													</samplerState>
-													<texture href="/UI/Styles/Icons/Heroes/Gunner/Face.ITEX" />
+													<texture href="/UI/Styles/Icons/Heroes/Crusader/FaceB.ITEX" />
 												</DiffuseMap>
 												<DisablePin>None</DisablePin>
 												<HighlightMap>
@@ -23670,7 +23670,7 @@
 														<minFilter>Linear</minFilter>
 														<mipFilter>Point</mipFilter>
 													</samplerState>
-													<texture href="/UI/Styles/Icons/Heroes/Gunner/Face.ITEX" />
+													<texture href="/UI/Styles/Icons/Heroes/Crusader/FaceB.ITEX" />
 												</DiffuseMap>
 												<DisablePin>None</DisablePin>
 												<HighlightMap>
@@ -23913,7 +23913,7 @@
 														<minFilter>Linear</minFilter>
 														<mipFilter>Point</mipFilter>
 													</samplerState>
-													<texture href="/UI/Styles/Icons/Heroes/Gunner/Face.ITEX" />
+													<texture href="/UI/Styles/Icons/Heroes/Crusader/FaceB.ITEX" />
 												</DiffuseMap>
 												<DisablePin>None</DisablePin>
 												<HighlightMap>
@@ -24080,6 +24080,786 @@
 														<mipFilter>Point</mipFilter>
 													</samplerState>
 													<texture href="/UI/Screens/Lobby/Lobby_Main" id="5EB8ADA1-C20F-4A60-8A39-992CAAF1A8C9">
+														<UITexture>
+															<generatedFileName></generatedFileName>
+															<importOnlyShape>false</importOnlyShape>
+															<mipLevels>0</mipLevels>
+															<mipLevelUsage>AutoGenerate</mipLevelUsage>
+															<mipSharpenPasses></mipSharpenPasses>
+															<pixelFormat>RGBA</pixelFormat>
+															<shapeAlphaThreshold>0</shapeAlphaThreshold>
+															<shapeFileName>/UI/Screens/Lobby/hero_portrait_highlight.shp</shapeFileName>
+															<size>
+																<height>82</height>
+																<width>81</width>
+															</size>
+															<srcFileName crc="0">/UI/Screens/Lobby/hero_portrait_highlight.png</srcFileName>
+															<startMipLevel>0</startMipLevel>
+															<textureFileName>/UI/Screens/Lobby/hero_portrait_highlight.dds</textureFileName>
+															<textureType>Color</textureType>
+														</UITexture>
+													</texture>
+												</WaitForActMap>
+											</UIButtonMaterial>
+										</selectedMaterial>
+										<shapeType>FromShapeOrBackgroundStyle</shapeType>
+										<size>
+											<x>80</x>
+											<y>80</y>
+										</size>
+										<soundActivate>
+											<eventName></eventName>
+											<groupName></groupName>
+											<projectName></projectName>
+										</soundActivate>
+										<soundHide>
+											<eventName></eventName>
+											<groupName></groupName>
+											<projectName></projectName>
+										</soundHide>
+										<soundHilite>
+											<eventName></eventName>
+											<groupName></groupName>
+											<projectName></projectName>
+										</soundHilite>
+										<soundShow>
+											<eventName></eventName>
+											<groupName></groupName>
+											<projectName></projectName>
+										</soundShow>
+										<stretchText>false</stretchText>
+										<subclass>Lobby_HeroRadioBtn</subclass>
+										<subLayouts />
+										<textHAlign>Center</textHAlign>
+										<textMargins>
+											<x1>0</x1>
+											<x2>0</x2>
+											<y1>0</y1>
+											<y2>0</y2>
+										</textMargins>
+										<textVAlign>Center</textVAlign>
+										<tooltipText textref="" />
+										<transparent>false</transparent>
+										<vAlign>Top</vAlign>
+										<visible>true</visible>
+										<wordWrap>true</wordWrap>
+									</UIRadioButtonLayout>
+								</Item>
+								<Item href="/UI/Screens/Lobby/Lobby_Main" id="02253B89-78C7-4378-B0E5-A1EE10A62CEE">
+									<UIRadioButtonLayout>
+										<activationBind></activationBind>
+										<backgroundMaterial href="/UI/Screens/Lobby/Lobby_Main" id="11D200C2-9D08-4223-89C2-10CD9E2E90A4">
+											<UIButtonMaterial>
+												<BackgroundMap>
+													<samplerState>
+														<addressU>Clamp</addressU>
+														<addressV>Clamp</addressV>
+														<addressW>Clamp</addressW>
+														<magFilter>Linear</magFilter>
+														<minFilter>Linear</minFilter>
+														<mipFilter>Point</mipFilter>
+													</samplerState>
+													<texture href="/UI/Screens/Lobby/Lobby_Main" id="07B53356-FB2D-43C3-9A96-3BA7EFD2AFBC">
+														<UITexture>
+															<generatedFileName></generatedFileName>
+															<importOnlyShape>false</importOnlyShape>
+															<mipLevels>0</mipLevels>
+															<mipLevelUsage>AutoGenerate</mipLevelUsage>
+															<mipSharpenPasses></mipSharpenPasses>
+															<pixelFormat>RGBA</pixelFormat>
+															<shapeAlphaThreshold>0</shapeAlphaThreshold>
+															<shapeFileName>/UI/Screens/Lobby/hero_portrait_up.shp</shapeFileName>
+															<size>
+																<height>79</height>
+																<width>79</width>
+															</size>
+															<srcFileName crc="0">/UI/Screens/Lobby/hero_portrait_up.png</srcFileName>
+															<startMipLevel>0</startMipLevel>
+															<textureFileName>/UI/Screens/Lobby/hero_portrait_up.dds</textureFileName>
+															<textureType>Color</textureType>
+														</UITexture>
+													</texture>
+												</BackgroundMap>
+												<caption></caption>
+												<DiffuseMap>
+													<samplerState>
+														<addressU>Clamp</addressU>
+														<addressV>Clamp</addressV>
+														<addressW>Clamp</addressW>
+														<magFilter>Linear</magFilter>
+														<minFilter>Linear</minFilter>
+														<mipFilter>Point</mipFilter>
+													</samplerState>
+													<texture href="/UI/Styles/Icons/Heroes/arbik_elf/Face.ITEX" />
+												</DiffuseMap>
+												<DisablePin>None</DisablePin>
+												<HighlightMap>
+													<samplerState>
+														<addressU>Clamp</addressU>
+														<addressV>Clamp</addressV>
+														<addressW>Clamp</addressW>
+														<magFilter>Linear</magFilter>
+														<minFilter>Linear</minFilter>
+														<mipFilter>Point</mipFilter>
+													</samplerState>
+													<texture href="/UI/Screens/Lobby/Lobby_Main" id="5F600D16-D756-47B2-BE72-9E6ED0C4DDA1">
+														<UITexture>
+															<generatedFileName></generatedFileName>
+															<importOnlyShape>false</importOnlyShape>
+															<mipLevels>0</mipLevels>
+															<mipLevelUsage>AutoGenerate</mipLevelUsage>
+															<mipSharpenPasses></mipSharpenPasses>
+															<pixelFormat>RGBA</pixelFormat>
+															<shapeAlphaThreshold>0</shapeAlphaThreshold>
+															<shapeFileName>/UI/Screens/Lobby/hero_portrait_highlight.shp</shapeFileName>
+															<size>
+																<height>82</height>
+																<width>81</width>
+															</size>
+															<srcFileName crc="0">/UI/Screens/Lobby/hero_portrait_highlight.png</srcFileName>
+															<startMipLevel>0</startMipLevel>
+															<textureFileName>/UI/Screens/Lobby/hero_portrait_highlight.dds</textureFileName>
+															<textureType>Color</textureType>
+														</UITexture>
+													</texture>
+												</HighlightMap>
+												<HighlightPin>None</HighlightPin>
+												<horizontalDrawMode>Stretch</horizontalDrawMode>
+												<ignoreRenderState>false</ignoreRenderState>
+												<imageSize>
+													<x>52</x>
+													<y>52</y>
+												</imageSize>
+												<imageTileShift>
+													<x>0</x>
+													<y>0</y>
+												</imageTileShift>
+												<imageTileSize>
+													<x>52</x>
+													<y>52</y>
+												</imageTileSize>
+												<LackOfManaMap>
+													<samplerState>
+														<addressU>Clamp</addressU>
+														<addressV>Clamp</addressV>
+														<addressW>Clamp</addressW>
+														<magFilter>Linear</magFilter>
+														<minFilter>Linear</minFilter>
+														<mipFilter>Point</mipFilter>
+													</samplerState>
+													<texture href="/UI/Screens/Lobby/Lobby_Main" id="FDFF2FA2-78DE-4BB0-BAE2-2C64AA6D5FF8">
+														<UITexture>
+															<generatedFileName></generatedFileName>
+															<importOnlyShape>false</importOnlyShape>
+															<mipLevels>0</mipLevels>
+															<mipLevelUsage>AutoGenerate</mipLevelUsage>
+															<mipSharpenPasses></mipSharpenPasses>
+															<pixelFormat>RGBA</pixelFormat>
+															<shapeAlphaThreshold>0</shapeAlphaThreshold>
+															<shapeFileName>/UI/Screens/Lobby/button_action_LackOfMana.shp</shapeFileName>
+															<size>
+																<height>49</height>
+																<width>49</width>
+															</size>
+															<srcFileName crc="0">/UI/Screens/Lobby/button_action_LackOfMana.png</srcFileName>
+															<startMipLevel>0</startMipLevel>
+															<textureFileName>/UI/Screens/Lobby/button_action_LackOfMana.dds</textureFileName>
+															<textureType>Color</textureType>
+														</UITexture>
+													</texture>
+												</LackOfManaMap>
+												<LackOfManaPin>None</LackOfManaPin>
+												<PassivePin>None</PassivePin>
+												<PressedMap>
+													<samplerState>
+														<addressU>Clamp</addressU>
+														<addressV>Clamp</addressV>
+														<addressW>Clamp</addressW>
+														<magFilter>Linear</magFilter>
+														<minFilter>Linear</minFilter>
+														<mipFilter>Point</mipFilter>
+													</samplerState>
+													<texture href="/UI/Screens/Lobby/Lobby_Main" id="5B976D8A-2610-4BD0-99C7-260AB85CF422">
+														<UITexture>
+															<generatedFileName></generatedFileName>
+															<importOnlyShape>false</importOnlyShape>
+															<mipLevels>0</mipLevels>
+															<mipLevelUsage>AutoGenerate</mipLevelUsage>
+															<mipSharpenPasses></mipSharpenPasses>
+															<pixelFormat>RGBA</pixelFormat>
+															<shapeAlphaThreshold>0</shapeAlphaThreshold>
+															<shapeFileName>/UI/Screens/Lobby/hero_portrait_highlight.shp</shapeFileName>
+															<size>
+																<height>82</height>
+																<width>81</width>
+															</size>
+															<srcFileName crc="0">/UI/Screens/Lobby/hero_portrait_highlight.png</srcFileName>
+															<startMipLevel>0</startMipLevel>
+															<textureFileName>/UI/Screens/Lobby/hero_portrait_highlight.dds</textureFileName>
+															<textureType>Color</textureType>
+														</UITexture>
+													</texture>
+												</PressedMap>
+												<PressedPin>None</PressedPin>
+												<renderState>
+													<alphaTest>Off</alphaTest>
+													<alphaTestRef>127</alphaTestRef>
+													<blendMode>LerpByAlpha</blendMode>
+													<culling>Off</culling>
+												</renderState>
+												<ScreenMap>
+													<samplerState>
+														<addressU>Clamp</addressU>
+														<addressV>Clamp</addressV>
+														<addressW>Clamp</addressW>
+														<magFilter>Linear</magFilter>
+														<minFilter>Linear</minFilter>
+														<mipFilter>Point</mipFilter>
+													</samplerState>
+													<texture href="/UI/Screens/Lobby/Lobby_Main" id="47D63A37-9850-4CEC-9714-F059AB3D4CEA">
+														<UITexture>
+															<generatedFileName></generatedFileName>
+															<importOnlyShape>false</importOnlyShape>
+															<mipLevels>0</mipLevels>
+															<mipLevelUsage>AutoGenerate</mipLevelUsage>
+															<mipSharpenPasses></mipSharpenPasses>
+															<pixelFormat>RGBA</pixelFormat>
+															<shapeAlphaThreshold>0</shapeAlphaThreshold>
+															<shapeFileName>/UI/Screens/Lobby/button_action_Effect.shp</shapeFileName>
+															<size>
+																<height>49</height>
+																<width>49</width>
+															</size>
+															<srcFileName crc="0">/UI/Screens/Lobby/button_action_Effect.png</srcFileName>
+															<startMipLevel>0</startMipLevel>
+															<textureFileName>/UI/Screens/Lobby/button_action_Effect.dds</textureFileName>
+															<textureType>Color</textureType>
+														</UITexture>
+													</texture>
+												</ScreenMap>
+												<ScreenOpacity>1</ScreenOpacity>
+												<SubPriority>0</SubPriority>
+												<textureShift>
+													<x>0</x>
+													<y>0</y>
+												</textureShift>
+												<UseAutosize>Present</UseAutosize>
+												<UseDiffusePin>Present</UseDiffusePin>
+												<verticalDrawMode>Stretch</verticalDrawMode>
+												<WaitForActivationPin>None</WaitForActivationPin>
+												<WaitForActMap>
+													<samplerState>
+														<addressU>Clamp</addressU>
+														<addressV>Clamp</addressV>
+														<addressW>Clamp</addressW>
+														<magFilter>Linear</magFilter>
+														<minFilter>Linear</minFilter>
+														<mipFilter>Point</mipFilter>
+													</samplerState>
+													<texture href="/UI/Screens/Lobby/Lobby_Main" id="23B1C4A8-3E4C-4304-99A1-56B8AE261596">
+														<UITexture>
+															<generatedFileName></generatedFileName>
+															<importOnlyShape>false</importOnlyShape>
+															<mipLevels>0</mipLevels>
+															<mipLevelUsage>AutoGenerate</mipLevelUsage>
+															<mipSharpenPasses></mipSharpenPasses>
+															<pixelFormat>RGBA</pixelFormat>
+															<shapeAlphaThreshold>0</shapeAlphaThreshold>
+															<shapeFileName>/UI/Screens/Lobby/hero_portrait_highlight.shp</shapeFileName>
+															<size>
+																<height>82</height>
+																<width>81</width>
+															</size>
+															<srcFileName crc="0">/UI/Screens/Lobby/hero_portrait_highlight.png</srcFileName>
+															<startMipLevel>0</startMipLevel>
+															<textureFileName>/UI/Screens/Lobby/hero_portrait_highlight.dds</textureFileName>
+															<textureType>Color</textureType>
+														</UITexture>
+													</texture>
+												</WaitForActMap>
+											</UIButtonMaterial>
+										</backgroundMaterial>
+										<captionOpacity>1</captionOpacity>
+										<captionText textref="" />
+										<cursors>
+											<disabled>ui_disabled</disabled>
+											<dragable>ui_dragable</dragable>
+											<dragging>ui_dragging</dragging>
+											<focused>ui_focused</focused>
+											<normal>ui_normal</normal>
+											<pushable>ui_pushable</pushable>
+											<pushing>ui_pushing</pushing>
+										</cursors>
+										<cursorTransparent>false</cursorTransparent>
+										<defaultEventsCatch>
+											<leftDoubleClick>true</leftDoubleClick>
+											<leftMouseDown>true</leftMouseDown>
+											<leftMouseUp>true</leftMouseUp>
+											<mouseMove>true</mouseMove>
+											<rightDoubleClick>true</rightDoubleClick>
+											<rightMouseDown>true</rightMouseDown>
+											<rightMouseUp>true</rightMouseUp>
+										</defaultEventsCatch>
+										<disabledMaterial href="" />
+										<disabledSelectedMaterial href="" />
+										<draggable>false</draggable>
+										<enabled>true</enabled>
+										<flashedMaterial href="" />
+										<fontStyle></fontStyle>
+										<group>0</group>
+										<hAlign>Left</hAlign>
+										<highlightMaterial href="/UI/Screens/Lobby/Lobby_Main" id="111A155A-15CB-4D26-8E07-CAA519EF4040">
+											<UIButtonMaterial>
+												<BackgroundMap>
+													<samplerState>
+														<addressU>Clamp</addressU>
+														<addressV>Clamp</addressV>
+														<addressW>Clamp</addressW>
+														<magFilter>Linear</magFilter>
+														<minFilter>Linear</minFilter>
+														<mipFilter>Point</mipFilter>
+													</samplerState>
+													<texture href="/UI/Screens/Lobby/Lobby_Main" id="E36DF40E-DF9A-40B6-8CE8-E218575D7582">
+														<UITexture>
+															<generatedFileName></generatedFileName>
+															<importOnlyShape>false</importOnlyShape>
+															<mipLevels>0</mipLevels>
+															<mipLevelUsage>AutoGenerate</mipLevelUsage>
+															<mipSharpenPasses></mipSharpenPasses>
+															<pixelFormat>RGBA</pixelFormat>
+															<shapeAlphaThreshold>0</shapeAlphaThreshold>
+															<shapeFileName>/UI/Screens/Lobby/hero_portrait_up.shp</shapeFileName>
+															<size>
+																<height>79</height>
+																<width>79</width>
+															</size>
+															<srcFileName crc="0">/UI/Screens/Lobby/hero_portrait_up.png</srcFileName>
+															<startMipLevel>0</startMipLevel>
+															<textureFileName>/UI/Screens/Lobby/hero_portrait_up.dds</textureFileName>
+															<textureType>Color</textureType>
+														</UITexture>
+													</texture>
+												</BackgroundMap>
+												<caption></caption>
+												<DiffuseMap>
+													<samplerState>
+														<addressU>Clamp</addressU>
+														<addressV>Clamp</addressV>
+														<addressW>Clamp</addressW>
+														<magFilter>Linear</magFilter>
+														<minFilter>Linear</minFilter>
+														<mipFilter>Point</mipFilter>
+													</samplerState>
+													<texture href="/UI/Styles/Icons/Heroes/arbik_elf/Face.ITEX" />
+												</DiffuseMap>
+												<DisablePin>None</DisablePin>
+												<HighlightMap>
+													<samplerState>
+														<addressU>Clamp</addressU>
+														<addressV>Clamp</addressV>
+														<addressW>Clamp</addressW>
+														<magFilter>Linear</magFilter>
+														<minFilter>Linear</minFilter>
+														<mipFilter>Point</mipFilter>
+													</samplerState>
+													<texture href="/UI/Screens/Lobby/Lobby_Main" id="C64D81C1-60D6-44F0-9502-512C6D55B4F3">
+														<UITexture>
+															<generatedFileName></generatedFileName>
+															<importOnlyShape>false</importOnlyShape>
+															<mipLevels>0</mipLevels>
+															<mipLevelUsage>AutoGenerate</mipLevelUsage>
+															<mipSharpenPasses></mipSharpenPasses>
+															<pixelFormat>RGBA</pixelFormat>
+															<shapeAlphaThreshold>0</shapeAlphaThreshold>
+															<shapeFileName>/UI/Screens/Lobby/hero_portrait_highlight.shp</shapeFileName>
+															<size>
+																<height>82</height>
+																<width>81</width>
+															</size>
+															<srcFileName crc="0">/UI/Screens/Lobby/hero_portrait_highlight.png</srcFileName>
+															<startMipLevel>0</startMipLevel>
+															<textureFileName>/UI/Screens/Lobby/hero_portrait_highlight.dds</textureFileName>
+															<textureType>Color</textureType>
+														</UITexture>
+													</texture>
+												</HighlightMap>
+												<HighlightPin>Present</HighlightPin>
+												<horizontalDrawMode>Stretch</horizontalDrawMode>
+												<ignoreRenderState>false</ignoreRenderState>
+												<imageSize>
+													<x>120</x>
+													<y>120</y>
+												</imageSize>
+												<imageTileShift>
+													<x>0</x>
+													<y>0</y>
+												</imageTileShift>
+												<imageTileSize>
+													<x>120</x>
+													<y>120</y>
+												</imageTileSize>
+												<LackOfManaMap>
+													<samplerState>
+														<addressU>Clamp</addressU>
+														<addressV>Clamp</addressV>
+														<addressW>Clamp</addressW>
+														<magFilter>Linear</magFilter>
+														<minFilter>Linear</minFilter>
+														<mipFilter>Point</mipFilter>
+													</samplerState>
+													<texture href="/UI/Screens/Lobby/Lobby_Main" id="70562BA5-6A53-462E-BB27-DE9519F56841">
+														<UITexture>
+															<generatedFileName></generatedFileName>
+															<importOnlyShape>false</importOnlyShape>
+															<mipLevels>0</mipLevels>
+															<mipLevelUsage>AutoGenerate</mipLevelUsage>
+															<mipSharpenPasses></mipSharpenPasses>
+															<pixelFormat>RGBA</pixelFormat>
+															<shapeAlphaThreshold>0</shapeAlphaThreshold>
+															<shapeFileName>/UI/Screens/Lobby/button_action_LackOfMana.shp</shapeFileName>
+															<size>
+																<height>49</height>
+																<width>49</width>
+															</size>
+															<srcFileName crc="0">/UI/Screens/Lobby/button_action_LackOfMana.png</srcFileName>
+															<startMipLevel>0</startMipLevel>
+															<textureFileName>/UI/Screens/Lobby/button_action_LackOfMana.dds</textureFileName>
+															<textureType>Color</textureType>
+														</UITexture>
+													</texture>
+												</LackOfManaMap>
+												<LackOfManaPin>None</LackOfManaPin>
+												<PassivePin>None</PassivePin>
+												<PressedMap>
+													<samplerState>
+														<addressU>Clamp</addressU>
+														<addressV>Clamp</addressV>
+														<addressW>Clamp</addressW>
+														<magFilter>Linear</magFilter>
+														<minFilter>Linear</minFilter>
+														<mipFilter>Point</mipFilter>
+													</samplerState>
+													<texture href="/UI/Screens/Lobby/Lobby_Main" id="5A843507-E2B5-4AF5-9BCC-5FDAE6968EEF">
+														<UITexture>
+															<generatedFileName></generatedFileName>
+															<importOnlyShape>false</importOnlyShape>
+															<mipLevels>0</mipLevels>
+															<mipLevelUsage>AutoGenerate</mipLevelUsage>
+															<mipSharpenPasses></mipSharpenPasses>
+															<pixelFormat>RGBA</pixelFormat>
+															<shapeAlphaThreshold>0</shapeAlphaThreshold>
+															<shapeFileName>/UI/Screens/Lobby/hero_portrait_highlight.shp</shapeFileName>
+															<size>
+																<height>82</height>
+																<width>81</width>
+															</size>
+															<srcFileName crc="0">/UI/Screens/Lobby/hero_portrait_highlight.png</srcFileName>
+															<startMipLevel>0</startMipLevel>
+															<textureFileName>/UI/Screens/Lobby/hero_portrait_highlight.dds</textureFileName>
+															<textureType>Color</textureType>
+														</UITexture>
+													</texture>
+												</PressedMap>
+												<PressedPin>None</PressedPin>
+												<renderState>
+													<alphaTest>Off</alphaTest>
+													<alphaTestRef>127</alphaTestRef>
+													<blendMode>LerpByAlpha</blendMode>
+													<culling>Off</culling>
+												</renderState>
+												<ScreenMap>
+													<samplerState>
+														<addressU>Clamp</addressU>
+														<addressV>Clamp</addressV>
+														<addressW>Clamp</addressW>
+														<magFilter>Linear</magFilter>
+														<minFilter>Linear</minFilter>
+														<mipFilter>Point</mipFilter>
+													</samplerState>
+													<texture href="/UI/Screens/Lobby/Lobby_Main" id="50C166DE-9A23-4A77-A46C-7DEA6BD779A2">
+														<UITexture>
+															<generatedFileName></generatedFileName>
+															<importOnlyShape>false</importOnlyShape>
+															<mipLevels>0</mipLevels>
+															<mipLevelUsage>AutoGenerate</mipLevelUsage>
+															<mipSharpenPasses></mipSharpenPasses>
+															<pixelFormat>RGBA</pixelFormat>
+															<shapeAlphaThreshold>0</shapeAlphaThreshold>
+															<shapeFileName>/UI/Screens/Lobby/button_action_Effect.shp</shapeFileName>
+															<size>
+																<height>49</height>
+																<width>49</width>
+															</size>
+															<srcFileName crc="0">/UI/Screens/Lobby/button_action_Effect.png</srcFileName>
+															<startMipLevel>0</startMipLevel>
+															<textureFileName>/UI/Screens/Lobby/button_action_Effect.dds</textureFileName>
+															<textureType>Color</textureType>
+														</UITexture>
+													</texture>
+												</ScreenMap>
+												<ScreenOpacity>1</ScreenOpacity>
+												<SubPriority>0</SubPriority>
+												<textureShift>
+													<x>0</x>
+													<y>0</y>
+												</textureShift>
+												<UseAutosize>Present</UseAutosize>
+												<UseDiffusePin>Present</UseDiffusePin>
+												<verticalDrawMode>Stretch</verticalDrawMode>
+												<WaitForActivationPin>None</WaitForActivationPin>
+												<WaitForActMap>
+													<samplerState>
+														<addressU>Clamp</addressU>
+														<addressV>Clamp</addressV>
+														<addressW>Clamp</addressW>
+														<magFilter>Linear</magFilter>
+														<minFilter>Linear</minFilter>
+														<mipFilter>Point</mipFilter>
+													</samplerState>
+													<texture href="/UI/Screens/Lobby/Lobby_Main" id="4BF6B0FE-1825-46B4-9FB0-6726ACB55F19">
+														<UITexture>
+															<generatedFileName></generatedFileName>
+															<importOnlyShape>false</importOnlyShape>
+															<mipLevels>0</mipLevels>
+															<mipLevelUsage>AutoGenerate</mipLevelUsage>
+															<mipSharpenPasses></mipSharpenPasses>
+															<pixelFormat>RGBA</pixelFormat>
+															<shapeAlphaThreshold>0</shapeAlphaThreshold>
+															<shapeFileName>/UI/Screens/Lobby/hero_portrait_highlight.shp</shapeFileName>
+															<size>
+																<height>82</height>
+																<width>81</width>
+															</size>
+															<srcFileName crc="0">/UI/Screens/Lobby/hero_portrait_highlight.png</srcFileName>
+															<startMipLevel>0</startMipLevel>
+															<textureFileName>/UI/Screens/Lobby/hero_portrait_highlight.dds</textureFileName>
+															<textureType>Color</textureType>
+														</UITexture>
+													</texture>
+												</WaitForActMap>
+											</UIButtonMaterial>
+										</highlightMaterial>
+										<keepAspectRatio>DontCare</keepAspectRatio>
+										<location>
+											<x>1025</x>
+											<y>537</y>
+										</location>
+										<mouseActions>Left</mouseActions>
+										<name>arbik_elf</name>
+										<needCrop>false</needCrop>
+										<rawTextMode>false</rawTextMode>
+										<relatedLayouts />
+										<relatedTexts />
+										<scriptFile></scriptFile>
+										<selectedMaterial href="/UI/Screens/Lobby/Lobby_Main" id="D57F257A-858E-40E1-9047-AB0DE5A2D39D">
+											<UIButtonMaterial>
+												<BackgroundMap>
+													<samplerState>
+														<addressU>Clamp</addressU>
+														<addressV>Clamp</addressV>
+														<addressW>Clamp</addressW>
+														<magFilter>Linear</magFilter>
+														<minFilter>Linear</minFilter>
+														<mipFilter>Point</mipFilter>
+													</samplerState>
+													<texture href="/UI/Screens/Lobby/Lobby_Main" id="ED2A5630-EE0A-4861-BDA5-4564521C9035">
+														<UITexture>
+															<generatedFileName></generatedFileName>
+															<importOnlyShape>false</importOnlyShape>
+															<mipLevels>0</mipLevels>
+															<mipLevelUsage>AutoGenerate</mipLevelUsage>
+															<mipSharpenPasses></mipSharpenPasses>
+															<pixelFormat>RGBA</pixelFormat>
+															<shapeAlphaThreshold>0</shapeAlphaThreshold>
+															<shapeFileName>/UI/Screens/Lobby/hero_portrait_up.shp</shapeFileName>
+															<size>
+																<height>79</height>
+																<width>79</width>
+															</size>
+															<srcFileName crc="0">/UI/Screens/Lobby/hero_portrait_up.png</srcFileName>
+															<startMipLevel>0</startMipLevel>
+															<textureFileName>/UI/Screens/Lobby/hero_portrait_up.dds</textureFileName>
+															<textureType>Color</textureType>
+														</UITexture>
+													</texture>
+												</BackgroundMap>
+												<caption></caption>
+												<DiffuseMap>
+													<samplerState>
+														<addressU>Clamp</addressU>
+														<addressV>Clamp</addressV>
+														<addressW>Clamp</addressW>
+														<magFilter>Linear</magFilter>
+														<minFilter>Linear</minFilter>
+														<mipFilter>Point</mipFilter>
+													</samplerState>
+													<texture href="/UI/Styles/Icons/Heroes/arbik_elf/Face.ITEX" />
+												</DiffuseMap>
+												<DisablePin>None</DisablePin>
+												<HighlightMap>
+													<samplerState>
+														<addressU>Clamp</addressU>
+														<addressV>Clamp</addressV>
+														<addressW>Clamp</addressW>
+														<magFilter>Linear</magFilter>
+														<minFilter>Linear</minFilter>
+														<mipFilter>Point</mipFilter>
+													</samplerState>
+													<texture href="/UI/Screens/Lobby/Lobby_Main" id="92216B64-4B54-4E8A-B1AB-D62E38CAED5E">
+														<UITexture>
+															<generatedFileName></generatedFileName>
+															<importOnlyShape>false</importOnlyShape>
+															<mipLevels>0</mipLevels>
+															<mipLevelUsage>AutoGenerate</mipLevelUsage>
+															<mipSharpenPasses></mipSharpenPasses>
+															<pixelFormat>RGBA</pixelFormat>
+															<shapeAlphaThreshold>0</shapeAlphaThreshold>
+															<shapeFileName>/UI/Screens/Lobby/hero_portrait_highlight.shp</shapeFileName>
+															<size>
+																<height>82</height>
+																<width>81</width>
+															</size>
+															<srcFileName crc="0">/UI/Screens/Lobby/hero_portrait_highlight.png</srcFileName>
+															<startMipLevel>0</startMipLevel>
+															<textureFileName>/UI/Screens/Lobby/hero_portrait_highlight.dds</textureFileName>
+															<textureType>Color</textureType>
+														</UITexture>
+													</texture>
+												</HighlightMap>
+												<HighlightPin>None</HighlightPin>
+												<horizontalDrawMode>Stretch</horizontalDrawMode>
+												<ignoreRenderState>false</ignoreRenderState>
+												<imageSize>
+													<x>52</x>
+													<y>52</y>
+												</imageSize>
+												<imageTileShift>
+													<x>0</x>
+													<y>0</y>
+												</imageTileShift>
+												<imageTileSize>
+													<x>52</x>
+													<y>52</y>
+												</imageTileSize>
+												<LackOfManaMap>
+													<samplerState>
+														<addressU>Clamp</addressU>
+														<addressV>Clamp</addressV>
+														<addressW>Clamp</addressW>
+														<magFilter>Linear</magFilter>
+														<minFilter>Linear</minFilter>
+														<mipFilter>Point</mipFilter>
+													</samplerState>
+													<texture href="/UI/Screens/Lobby/Lobby_Main" id="D5E17BEC-5ED4-43AE-B52B-FE7B35A2AA56">
+														<UITexture>
+															<generatedFileName></generatedFileName>
+															<importOnlyShape>false</importOnlyShape>
+															<mipLevels>0</mipLevels>
+															<mipLevelUsage>AutoGenerate</mipLevelUsage>
+															<mipSharpenPasses></mipSharpenPasses>
+															<pixelFormat>RGBA</pixelFormat>
+															<shapeAlphaThreshold>0</shapeAlphaThreshold>
+															<shapeFileName>/UI/Screens/Lobby/button_action_LackOfMana.shp</shapeFileName>
+															<size>
+																<height>49</height>
+																<width>49</width>
+															</size>
+															<srcFileName crc="0">/UI/Screens/Lobby/button_action_LackOfMana.png</srcFileName>
+															<startMipLevel>0</startMipLevel>
+															<textureFileName>/UI/Screens/Lobby/button_action_LackOfMana.dds</textureFileName>
+															<textureType>Color</textureType>
+														</UITexture>
+													</texture>
+												</LackOfManaMap>
+												<LackOfManaPin>None</LackOfManaPin>
+												<PassivePin>None</PassivePin>
+												<PressedMap>
+													<samplerState>
+														<addressU>Clamp</addressU>
+														<addressV>Clamp</addressV>
+														<addressW>Clamp</addressW>
+														<magFilter>Linear</magFilter>
+														<minFilter>Linear</minFilter>
+														<mipFilter>Point</mipFilter>
+													</samplerState>
+													<texture href="/UI/Screens/Lobby/Lobby_Main" id="454B597A-8CEA-4649-B5BB-D6FFBEC8F5FB">
+														<UITexture>
+															<generatedFileName></generatedFileName>
+															<importOnlyShape>false</importOnlyShape>
+															<mipLevels>0</mipLevels>
+															<mipLevelUsage>AutoGenerate</mipLevelUsage>
+															<mipSharpenPasses></mipSharpenPasses>
+															<pixelFormat>RGBA</pixelFormat>
+															<shapeAlphaThreshold>0</shapeAlphaThreshold>
+															<shapeFileName>/UI/Screens/Lobby/hero_portrait_highlight.shp</shapeFileName>
+															<size>
+																<height>82</height>
+																<width>81</width>
+															</size>
+															<srcFileName crc="0">/UI/Screens/Lobby/hero_portrait_highlight.png</srcFileName>
+															<startMipLevel>0</startMipLevel>
+															<textureFileName>/UI/Screens/Lobby/hero_portrait_highlight.dds</textureFileName>
+															<textureType>Color</textureType>
+														</UITexture>
+													</texture>
+												</PressedMap>
+												<PressedPin>Present</PressedPin>
+												<renderState>
+													<alphaTest>Off</alphaTest>
+													<alphaTestRef>127</alphaTestRef>
+													<blendMode>LerpByAlpha</blendMode>
+													<culling>Off</culling>
+												</renderState>
+												<ScreenMap>
+													<samplerState>
+														<addressU>Clamp</addressU>
+														<addressV>Clamp</addressV>
+														<addressW>Clamp</addressW>
+														<magFilter>Linear</magFilter>
+														<minFilter>Linear</minFilter>
+														<mipFilter>Point</mipFilter>
+													</samplerState>
+													<texture href="/UI/Screens/Lobby/Lobby_Main" id="439F6EE0-E6E1-42C8-BC37-07AAB0FCE96B">
+														<UITexture>
+															<generatedFileName></generatedFileName>
+															<importOnlyShape>false</importOnlyShape>
+															<mipLevels>0</mipLevels>
+															<mipLevelUsage>AutoGenerate</mipLevelUsage>
+															<mipSharpenPasses></mipSharpenPasses>
+															<pixelFormat>RGBA</pixelFormat>
+															<shapeAlphaThreshold>0</shapeAlphaThreshold>
+															<shapeFileName>/UI/Screens/Lobby/button_action_Effect.shp</shapeFileName>
+															<size>
+																<height>49</height>
+																<width>49</width>
+															</size>
+															<srcFileName crc="0">/UI/Screens/Lobby/button_action_Effect.png</srcFileName>
+															<startMipLevel>0</startMipLevel>
+															<textureFileName>/UI/Screens/Lobby/button_action_Effect.dds</textureFileName>
+															<textureType>Color</textureType>
+														</UITexture>
+													</texture>
+												</ScreenMap>
+												<ScreenOpacity>1</ScreenOpacity>
+												<SubPriority>0</SubPriority>
+												<textureShift>
+													<x>0</x>
+													<y>0</y>
+												</textureShift>
+												<UseAutosize>Present</UseAutosize>
+												<UseDiffusePin>Present</UseDiffusePin>
+												<verticalDrawMode>Stretch</verticalDrawMode>
+												<WaitForActivationPin>None</WaitForActivationPin>
+												<WaitForActMap>
+													<samplerState>
+														<addressU>Clamp</addressU>
+														<addressV>Clamp</addressV>
+														<addressW>Clamp</addressW>
+														<magFilter>Linear</magFilter>
+														<minFilter>Linear</minFilter>
+														<mipFilter>Point</mipFilter>
+													</samplerState>
+													<texture href="/UI/Screens/Lobby/Lobby_Main" id="F0777844-D41F-49C3-BD8C-6286785C01BA">
 														<UITexture>
 															<generatedFileName></generatedFileName>
 															<importOnlyShape>false</importOnlyShape>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PointTargetSelector>
-	<BackLink DBID="/Items/Talents/Class/IronKnight/Ability_A4.TALENT" Count="5" />
+	<BackLink DBID="/Items/Talents/Class/IronKnight/Ability_A4.TALENT" Count="7" />
 	<checkMinRange>true</checkMinRange>
 	<mode>OffsetFromOwner</mode>
 	<offset>

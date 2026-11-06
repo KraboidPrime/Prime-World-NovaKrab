@@ -998,16 +998,16 @@
 					<calcIncrement>15.75</calcIncrement>
 					<calcValue>540</calcValue>
 					<increment>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
+						<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 						<returnType>float</returnType>
-						<sString>10</sString>
+						<sString>0</sString>
 					</increment>
 					<levelUpgrades />
 					<statId>Energy</statId>
 					<value>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAMAoRA==</compiledString>
+						<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 						<returnType>float</returnType>
-						<sString>675</sString>
+						<sString>0</sString>
 					</value>
 				</Item>
 				<Item>
@@ -1021,9 +1021,9 @@
 					<levelUpgrades />
 					<statId>Strength</statId>
 					<value>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABkQg==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABQQg==</compiledString>
 						<returnType>float</returnType>
-						<sString>57</sString>
+						<sString>52</sString>
 					</value>
 				</Item>
 				<Item>
@@ -1037,9 +1037,9 @@
 					<levelUpgrades />
 					<statId>Intellect</statId>
 					<value>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABcQg==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQg==</compiledString>
 						<returnType>float</returnType>
-						<sString>55</sString>
+						<sString>50</sString>
 					</value>
 				</Item>
 				<Item>
@@ -1208,5 +1208,21 @@
 	<summonedUnits />
 	<targetingParams href="/GameLogic/TargetingParams_HeroMelee.UNTP" />
 	<totalStatsBudget>5.15</totalStatsBudget>
-	<uniqueResource href="" />
+	<uniqueResource href="/Heroes/Brewer/_.HROB" id="925743F0-D420-46A4-AFDF-85F839631400">
+		<HeroResource>
+			<castleValueMaximum>4</castleValueMaximum>
+			<formulaNameMaximum>Pivo_MaxRage</formulaNameMaximum>
+			<formulaNameRegeneration>Pivo_RageReg</formulaNameRegeneration>
+			<formulaNameValue>Pivo_Rage</formulaNameValue>
+			<name textref="/Heroes/Brewer/_.HROB_925743f0d42046a4afdf85f839631400_name.txt" />
+			<overtipManaProgressMaterial href="/UI/Styles/Overtip/Orange2.MTRL" />
+			<tooltip textref="/Heroes/Brewer/_.HROB_925743f0d42046a4afdf85f839631400_tooltip.txt" />
+			<uiManaBarColor>
+				<A>255</A>
+				<B>11</B>
+				<G>69</G>
+				<R>244</R>
+			</uiManaBarColor>
+		</HeroResource>
+	</uniqueResource>
 </Hero>

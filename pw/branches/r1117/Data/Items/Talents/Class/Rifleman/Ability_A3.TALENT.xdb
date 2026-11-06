@@ -75,9 +75,9 @@
 										<targetSelector href="/Items/Talents/Class/Rifleman/Ability_A3.TALENT" id="E2195201-3E38-4311-B49B-FC147A5B3F4E">
 											<UnitPlaceCorrector>
 												<checkByRangeToRequester>true</checkByRangeToRequester>
-												<checkLineOfSight>true</checkLineOfSight>
+												<checkLineOfSight>false</checkLineOfSight>
 												<nativeTerrainOnly>false</nativeTerrainOnly>
-												<passabilityCheckMode>7</passabilityCheckMode>
+												<passabilityCheckMode>6</passabilityCheckMode>
 												<radius>7</radius>
 												<targetSelector href="/Items/Talents/Class/Rifleman/Ability_A3.TALENT" id="38ABDFD1-C102-4CFB-8345-BAA261E7CDB6">
 													<SelectApplicatorTarget>
@@ -140,9 +140,9 @@
 										<targetSelector href="/Items/Talents/Class/Rifleman/Ability_A3.TALENT" id="26DFBF27-6A86-48A4-A681-765056B7CB41">
 											<UnitPlaceCorrector>
 												<checkByRangeToRequester>true</checkByRangeToRequester>
-												<checkLineOfSight>true</checkLineOfSight>
+												<checkLineOfSight>false</checkLineOfSight>
 												<nativeTerrainOnly>false</nativeTerrainOnly>
-												<passabilityCheckMode>7</passabilityCheckMode>
+												<passabilityCheckMode>6</passabilityCheckMode>
 												<radius>12</radius>
 												<targetSelector href="/Items/Talents/Class/Rifleman/Ability_A3.TALENT" id="6C44A7C7-4EB5-4CF9-9607-38B23A6FD115">
 													<SelectApplicatorTarget>
@@ -191,7 +191,28 @@
 		<returnType>float</returnType>
 		<sString>0.0f</sString>
 	</castAllowRange>
-	<castLimitations />
+	<castLimitations>
+		<Item href="/Items/Talents/Class/Rifleman/Ability_A3.TALENT" id="9CF6495A-D51E-4D33-95C5-E4C97D051BC1">
+			<TargetCastLimitation>
+				<targetSelector href="/Items/Talents/Class/Rifleman/Ability_A3.TALENT" id="E8355A8A-F8F1-4344-85EA-A04531A15955">
+					<UnitPlaceCorrector>
+						<checkByRangeToRequester>false</checkByRangeToRequester>
+						<checkLineOfSight>false</checkLineOfSight>
+						<nativeTerrainOnly>false</nativeTerrainOnly>
+						<passabilityCheckMode>6</passabilityCheckMode>
+						<radius>0</radius>
+						<targetSelector href="/Items/Talents/Class/Rifleman/Ability_A3.TALENT" id="1544A7A8-E743-4CAD-994B-C68B7EDD2A59">
+							<ConvertTargetToLand>
+								<aggregateMode>First</aggregateMode>
+								<targetSelector href="" />
+							</ConvertTargetToLand>
+						</targetSelector>
+					</UnitPlaceCorrector>
+				</targetSelector>
+				<uiEvent href="/UI/Events/ErrorMessages/CastError_UnsuitablePlace.UIEV" />
+			</TargetCastLimitation>
+		</Item>
+	</castLimitations>
 	<commonDescription textref="/Items/Talents/Class/Rifleman/Ability_A3.TALENT_commonDescription.txt" />
 	<compiledDescriptionA textref="" />
 	<compiledDescriptionB textref="" />

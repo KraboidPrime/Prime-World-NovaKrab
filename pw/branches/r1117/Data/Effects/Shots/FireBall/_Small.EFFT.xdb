@@ -20,5 +20,8 @@
 		<state name="mage_S3">
 			<component href="/Effects/Shots/FireBall/_Small_S3TRS.PRXY" />
 		</state>
+		<state name="mage_S5">
+			<component href="/Effects/Shots/FireBall/_SmallTRSS5.PRXY" />
+		</state>
 	</__states>
 </BasicEffectStandalone>

@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CreepSkin>
+	<BackLink DBID="/Summons/Demon2/_.SUMMONED" Count="1" />
+	<deathParameters href="" />
+	<description textref="/Summons/Demon2/S3/_.CREEPSKIN_description.txt" />
+	<heroPersistentId>demonolog_S3</heroPersistentId>
+	<image href="/UI/Styles/Icons/Summons/Demon2/Face_S3.ITEX" />
+	<sceneObject href="/Summons/Demon2/S3/_.SOBJ" />
+</CreepSkin>

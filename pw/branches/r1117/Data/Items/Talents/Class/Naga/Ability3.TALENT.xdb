@@ -77,9 +77,9 @@
 					<UnitConstant>
 						<name>Evade_Chance</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQQ==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQQ==</compiledString>
 							<returnType>float</returnType>
-							<sString>15</sString>
+							<sString>20</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -104,6 +104,16 @@
 					</UnitConstant>
 				</Item>
 				<Item href="/Items/Talents/Class/Naga/const_A3_BonusMagDefence" />
+				<Item href="/Items/Talents/Class/Naga/Ability3.TALENT" id="5B0AB255-DD21-444D-AF16-7D6882382701">
+					<UnitConstant>
+						<name>A3_Stam</name>
+						<var>
+							<compiledString>FQAAAAACAAAAFgAAABwAAABVi+xRi0UIixCLTQiLgrgAAAD/0NwNMgAAANwFKgAAANld/NlF/IvlXcMAAAAAAAAQQLgehetRuK4/</compiledString>
+							<returnType>float</returnType>
+							<sString>4+0.06*sBaseStrength</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

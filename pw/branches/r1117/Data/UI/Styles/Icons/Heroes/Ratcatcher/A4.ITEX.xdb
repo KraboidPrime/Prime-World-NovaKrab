@@ -2,7 +2,6 @@
 <UITexture>
 	<BackLink DBID="/Items/Talents/Class/Ratcatcher/Ability4.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Ratcatcher/Ability4_Upg.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Ratcatcher/status_A4_Bewitched.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Ratcatcher/status_A4_Ratcatcher_slave.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Ratcatcher/status_A4_self_CharmingMelody.APLR" Count="1" />
 	<generatedFileName></generatedFileName>

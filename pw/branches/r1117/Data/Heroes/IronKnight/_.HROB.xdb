@@ -71,7 +71,7 @@
 				</Item>
 			</settings>
 			<sounds>
-				<Item href="/Heroes/IronKnight/_.HROB" id="EFC28C51-E899-4841-8944-A2BC4EB17233">
+				<Item href="/Heroes/Ironknight/_.HROB" id="EFC28C51-E899-4841-8944-A2BC4EB17233">
 					<DBSoundSceneComponent>
 						<attached />
 						<caption>sound</caption>
@@ -86,7 +86,7 @@
 						<timeInterval>0</timeInterval>
 					</DBSoundSceneComponent>
 				</Item>
-				<Item href="/Heroes/IronKnight/_.HROB" id="0711638B-9D65-4567-B3BD-D22EFA7CFA60">
+				<Item href="/Heroes/Ironknight/_.HROB" id="0711638B-9D65-4567-B3BD-D22EFA7CFA60">
 					<DBSoundSceneComponent>
 						<attached />
 						<caption>sound</caption>
@@ -101,7 +101,7 @@
 						<timeInterval>0</timeInterval>
 					</DBSoundSceneComponent>
 				</Item>
-				<Item href="/Heroes/IronKnight/_.HROB" id="C8633239-65DA-4A29-9CD4-051C958905A2">
+				<Item href="/Heroes/Ironknight/_.HROB" id="C8633239-65DA-4A29-9CD4-051C958905A2">
 					<DBSoundSceneComponent>
 						<attached />
 						<caption>sound</caption>
@@ -116,7 +116,7 @@
 						<timeInterval>0</timeInterval>
 					</DBSoundSceneComponent>
 				</Item>
-				<Item href="/Heroes/IronKnight/_.HROB" id="B0E7CDD6-6497-48D7-BD66-967BD2C08E5A">
+				<Item href="/Heroes/Ironknight/_.HROB" id="B0E7CDD6-6497-48D7-BD66-967BD2C08E5A">
 					<DBSoundSceneComponent>
 						<attached />
 						<caption>sound</caption>
@@ -131,7 +131,7 @@
 						<timeInterval>0</timeInterval>
 					</DBSoundSceneComponent>
 				</Item>
-				<Item href="/Heroes/IronKnight/_.HROB" id="398EE490-D3DE-4ABC-BD9B-9DE272E5C0E7">
+				<Item href="/Heroes/Ironknight/_.HROB" id="398EE490-D3DE-4ABC-BD9B-9DE272E5C0E7">
 					<DBSoundSceneComponent>
 						<attached />
 						<caption>sound</caption>
@@ -146,7 +146,7 @@
 						<timeInterval>0</timeInterval>
 					</DBSoundSceneComponent>
 				</Item>
-				<Item href="/Heroes/IronKnight/_.HROB" id="E4A1012E-CD18-42A9-879C-09AC3839574F">
+				<Item href="/Heroes/Ironknight/_.HROB" id="E4A1012E-CD18-42A9-879C-09AC3839574F">
 					<DBSoundSceneComponent>
 						<attached />
 						<caption>sound</caption>
@@ -161,7 +161,7 @@
 						<timeInterval>0</timeInterval>
 					</DBSoundSceneComponent>
 				</Item>
-				<Item href="/Heroes/IronKnight/_.HROB" id="6431EDB4-C2D0-4827-9582-EE27367BA1F6">
+				<Item href="/Heroes/Ironknight/_.HROB" id="6431EDB4-C2D0-4827-9582-EE27367BA1F6">
 					<DBSoundSceneComponent>
 						<attached />
 						<caption>sound</caption>
@@ -176,7 +176,7 @@
 						<timeInterval>0</timeInterval>
 					</DBSoundSceneComponent>
 				</Item>
-				<Item href="/Heroes/IronKnight/_.HROB" id="6AD540ED-E981-4DB2-9D42-B4360BDC3F86">
+				<Item href="/Heroes/Ironknight/_.HROB" id="6AD540ED-E981-4DB2-9D42-B4360BDC3F86">
 					<DBSoundSceneComponent>
 						<attached />
 						<caption>sound</caption>
@@ -191,7 +191,7 @@
 						<timeInterval>0</timeInterval>
 					</DBSoundSceneComponent>
 				</Item>
-				<Item href="/Heroes/IronKnight/_.HROB" id="34683B3C-86F5-49CD-BB7B-416AC7D062A9">
+				<Item href="/Heroes/Ironknight/_.HROB" id="34683B3C-86F5-49CD-BB7B-416AC7D062A9">
 					<DBSoundSceneComponent>
 						<attached />
 						<caption>sound</caption>
@@ -206,7 +206,7 @@
 						<timeInterval>0</timeInterval>
 					</DBSoundSceneComponent>
 				</Item>
-				<Item href="/Heroes/IronKnight/_.HROB" id="4450B2A9-39F7-4971-B045-401C1EEC5A29">
+				<Item href="/Heroes/Ironknight/_.HROB" id="4450B2A9-39F7-4971-B045-401C1EEC5A29">
 					<DBSoundSceneComponent>
 						<attached />
 						<caption>sound</caption>
@@ -303,7 +303,7 @@
 				</Item>
 			</settings>
 			<sounds>
-				<Item href="/Heroes/IronKnight/_.HROB" id="0C35CAAB-BAD3-43E0-9B77-BEF0FC8D7CEF">
+				<Item href="/Heroes/Ironknight/_.HROB" id="0C35CAAB-BAD3-43E0-9B77-BEF0FC8D7CEF">
 					<DBSoundSceneComponent>
 						<attached />
 						<caption>sound</caption>
@@ -318,7 +318,7 @@
 						<timeInterval>0</timeInterval>
 					</DBSoundSceneComponent>
 				</Item>
-				<Item href="/Heroes/IronKnight/_.HROB" id="A4C0325E-93FD-42A3-98F0-26506AEED2B6">
+				<Item href="/Heroes/Ironknight/_.HROB" id="A4C0325E-93FD-42A3-98F0-26506AEED2B6">
 					<DBSoundSceneComponent>
 						<attached />
 						<caption>sound</caption>
@@ -333,7 +333,7 @@
 						<timeInterval>0</timeInterval>
 					</DBSoundSceneComponent>
 				</Item>
-				<Item href="/Heroes/IronKnight/_.HROB" id="643A1A07-538F-41C2-9CF2-DCC954F65082">
+				<Item href="/Heroes/Ironknight/_.HROB" id="643A1A07-538F-41C2-9CF2-DCC954F65082">
 					<DBSoundSceneComponent>
 						<attached />
 						<caption>sound</caption>
@@ -348,7 +348,7 @@
 						<timeInterval>0</timeInterval>
 					</DBSoundSceneComponent>
 				</Item>
-				<Item href="/Heroes/IronKnight/_.HROB" id="3D2A7E33-9F5B-4B8D-9ECA-091070B6F5E7">
+				<Item href="/Heroes/Ironknight/_.HROB" id="3D2A7E33-9F5B-4B8D-9ECA-091070B6F5E7">
 					<DBSoundSceneComponent>
 						<attached />
 						<caption>sound</caption>
@@ -363,7 +363,7 @@
 						<timeInterval>0</timeInterval>
 					</DBSoundSceneComponent>
 				</Item>
-				<Item href="/Heroes/IronKnight/_.HROB" id="E3287C6A-DC5A-4941-9024-56AF7F7ABE88">
+				<Item href="/Heroes/Ironknight/_.HROB" id="E3287C6A-DC5A-4941-9024-56AF7F7ABE88">
 					<DBSoundSceneComponent>
 						<attached />
 						<caption>sound</caption>
@@ -378,7 +378,7 @@
 						<timeInterval>0</timeInterval>
 					</DBSoundSceneComponent>
 				</Item>
-				<Item href="/Heroes/IronKnight/_.HROB" id="B6F02B75-C3AB-4CA9-A301-4D204F18799F">
+				<Item href="/Heroes/Ironknight/_.HROB" id="B6F02B75-C3AB-4CA9-A301-4D204F18799F">
 					<DBSoundSceneComponent>
 						<attached />
 						<caption>sound</caption>
@@ -393,7 +393,7 @@
 						<timeInterval>0</timeInterval>
 					</DBSoundSceneComponent>
 				</Item>
-				<Item href="/Heroes/IronKnight/_.HROB" id="B51EFC0E-FD4F-4F1E-8779-59F85A01372A">
+				<Item href="/Heroes/Ironknight/_.HROB" id="B51EFC0E-FD4F-4F1E-8779-59F85A01372A">
 					<DBSoundSceneComponent>
 						<attached />
 						<caption>sound</caption>
@@ -408,7 +408,7 @@
 						<timeInterval>0</timeInterval>
 					</DBSoundSceneComponent>
 				</Item>
-				<Item href="/Heroes/IronKnight/_.HROB" id="FF90F9BD-859C-4133-B489-4A324E064F68">
+				<Item href="/Heroes/Ironknight/_.HROB" id="FF90F9BD-859C-4133-B489-4A324E064F68">
 					<DBSoundSceneComponent>
 						<attached />
 						<caption>sound</caption>
@@ -423,7 +423,7 @@
 						<timeInterval>0</timeInterval>
 					</DBSoundSceneComponent>
 				</Item>
-				<Item href="/Heroes/IronKnight/_.HROB" id="3546A668-0A9F-4AEE-BE1E-856C05B20AE8">
+				<Item href="/Heroes/Ironknight/_.HROB" id="3546A668-0A9F-4AEE-BE1E-856C05B20AE8">
 					<DBSoundSceneComponent>
 						<attached />
 						<caption>sound</caption>
@@ -438,7 +438,7 @@
 						<timeInterval>0</timeInterval>
 					</DBSoundSceneComponent>
 				</Item>
-				<Item href="/Heroes/IronKnight/_.HROB" id="6532EED4-DADD-4C3D-AC21-60A274F03415">
+				<Item href="/Heroes/Ironknight/_.HROB" id="6532EED4-DADD-4C3D-AC21-60A274F03415">
 					<DBSoundSceneComponent>
 						<attached />
 						<caption>sound</caption>
@@ -662,7 +662,7 @@
 			</sounds3d>
 		</Item>
 	</askListsSecondState>
-	<attackAbility href="/Heroes/IronKnight/_.HROB" id="FC68520E-750B-4BD0-8016-C4FF978D5669">
+	<attackAbility href="/Heroes/Ironknight/_.HROB" id="FC68520E-750B-4BD0-8016-C4FF978D5669">
 		<BaseAttack>
 			<activeCustomTrigger>true</activeCustomTrigger>
 			<allowChase>
@@ -682,7 +682,7 @@
 			</aoeSize>
 			<aoeType>None</aoeType>
 			<applicators>
-				<Item href="/Heroes/IronKnight/_.HROB" id="020C7F34-BC8A-4204-9D38-F3CC52ED1AB1">
+				<Item href="/Heroes/Ironknight/_.HROB" id="020C7F34-BC8A-4204-9D38-F3CC52ED1AB1">
 					<StatModApplicator>
 						<applyTarget>AbilityOwner</applyTarget>
 						<behaviorFlags>0</behaviorFlags>
@@ -729,7 +729,7 @@
 						<statModName></statModName>
 					</StatModApplicator>
 				</Item>
-				<Item href="/Heroes/IronKnight/_.HROB" id="067BD00E-8600-4743-A310-C56C4AB276FF">
+				<Item href="/Heroes/Ironknight/_.HROB" id="067BD00E-8600-4743-A310-C56C4AB276FF">
 					<SpellSwitchApplicator>
 						<activeSpellIndex>
 							<compiledString>FTEAAAADAAAAOAAAAFEAAACNAAAASXJvbktuaWdodF9BMQAAAElyb25LbmlnaHRfQTEAAABJcm9uS25pZ2h0X0ExX09OAFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdClqAYtVEFJoIAAAAItFCIsQi00Ii4KcAQAA/9A7RRB0CcdF9AEAAADrB8dF9AAAAACLRfSL5V3D</compiledString>
@@ -748,13 +748,13 @@
 						<LoggingEvent>-1</LoggingEvent>
 						<providerName></providerName>
 						<spells>
-							<Item href="/Heroes/IronKnight/_.HROB" id="EDC195AF-18A3-4337-A422-19867E9AE93C">
+							<Item href="/Heroes/Ironknight/_.HROB" id="EDC195AF-18A3-4337-A422-19867E9AE93C">
 								<Spell>
 									<applicators>
 										<Item href="/Heroes/IronKnight/HitBerserk.APLR" />
 										<Item href="/GameLogic/GeneralApplicators/BaseAttackDmg_Hero_material.APLR" />
 									</applicators>
-									<dispatch href="/Heroes/IronKnight/_.HROB" id="CF99E3A0-96C5-40DE-8FAB-E5993A4B41BD">
+									<dispatch href="/Heroes/Ironknight/_.HROB" id="CF99E3A0-96C5-40DE-8FAB-E5993A4B41BD">
 										<DispatchImmediate>
 											<alwaysApply>false</alwaysApply>
 											<applyEffect>
@@ -775,15 +775,15 @@
 									</dispatch>
 								</Spell>
 							</Item>
-							<Item href="/Heroes/IronKnight/_.HROB" id="069CD3D5-12E1-4AB5-95AE-5D82A37E372F">
+							<Item href="/Heroes/Ironknight/_.HROB" id="069CD3D5-12E1-4AB5-95AE-5D82A37E372F">
 								<Spell>
 									<applicators>
 										<Item href="/Heroes/IronKnight/HitBerserk.APLR" />
-										<Item href="/Heroes/IronKnight/_.HROB" id="7A098079-3281-46E8-ADB0-2C31DCB624F8">
+										<Item href="/Heroes/Ironknight/_.HROB" id="7A098079-3281-46E8-ADB0-2C31DCB624F8">
 											<VariableProxyApplicator>
 												<applicators>
 													<Item>
-														<applicator href="/Heroes/IronKnight/_.HROB" id="F28AAAC2-FB11-4355-98B2-D35A4C78788D">
+														<applicator href="/Heroes/Ironknight/_.HROB" id="F28AAAC2-FB11-4355-98B2-D35A4C78788D">
 															<DamageApplicator parent="/GameLogic/GeneralApplicators/BaseAttackDmg_Hero.APLR">
 																<uiEvent href="" />
 															</DamageApplicator>
@@ -794,7 +794,7 @@
 														</variableNames>
 													</Item>
 													<Item>
-														<applicator href="/Heroes/IronKnight/_.HROB" id="7649C2ED-A171-4B32-A9A6-6B045D42F5B7">
+														<applicator href="/Heroes/Ironknight/_.HROB" id="7649C2ED-A171-4B32-A9A6-6B045D42F5B7">
 															<DamageApplicator>
 																<applyTarget>ApplicatorTarget</applyTarget>
 																<cancelInvisibility>false</cancelInvisibility>
@@ -845,7 +845,7 @@
 										</Item>
 										<Item href="/Heroes/DefaultStatus/_STUN_Status.APLR" />
 									</applicators>
-									<dispatch href="/Heroes/IronKnight/_.HROB" id="0E5B32F1-2F5F-46D1-851C-800F6A5BBFD1">
+									<dispatch href="/Heroes/Ironknight/_.HROB" id="0E5B32F1-2F5F-46D1-851C-800F6A5BBFD1">
 										<DispatchLinearWithLink>
 											<aiming>Straight</aiming>
 											<alwaysApply>false</alwaysApply>
@@ -903,10 +903,10 @@
 			<compiledDescriptionA textref="" />
 			<compiledDescriptionB textref="" />
 			<conditionFormulas />
-			<constants href="/Heroes/IronKnight/_.HROB" id="4F47DFF0-0BDE-4FF1-A163-5D51DC988268">
+			<constants href="/Heroes/Ironknight/_.HROB" id="4F47DFF0-0BDE-4FF1-A163-5D51DC988268">
 				<UnitConstantsContainer>
 					<vars>
-						<Item href="/Heroes/IronKnight/_.HROB" id="4D987F9A-4D38-4AA6-B94A-B90391EE40EA">
+						<Item href="/Heroes/Ironknight/_.HROB" id="4D987F9A-4D38-4AA6-B94A-B90391EE40EA">
 							<UnitConstant>
 								<name>Stun_StartCondition</name>
 								<var>
@@ -916,7 +916,7 @@
 								</var>
 							</UnitConstant>
 						</Item>
-						<Item href="/Heroes/IronKnight/_.HROB" id="38B3AEEC-6603-4507-9636-109B54CCCE22">
+						<Item href="/Heroes/Ironknight/_.HROB" id="38B3AEEC-6603-4507-9636-109B54CCCE22">
 							<UnitConstant>
 								<name>Stun_Duration</name>
 								<var>
@@ -940,7 +940,7 @@
 				<sString>0.0f</sString>
 			</cooldownTimeSecondState>
 			<description textref="" />
-			<dispatch href="/Heroes/IronKnight/_.HROB" id="164C6CBB-68D8-4732-9158-55A9373C633D">
+			<dispatch href="/Heroes/Ironknight/_.HROB" id="164C6CBB-68D8-4732-9158-55A9373C633D">
 				<DispatchImmediate>
 					<alwaysApply>true</alwaysApply>
 					<applyEffect>
@@ -1016,8 +1016,8 @@
 	<heightObject>false</heightObject>
 	<heroImageA href="/UI/Styles/Icons/Heroes/IronKnight/Face.ITEX" />
 	<heroImageB href="/UI/Styles/Icons/Heroes/IronKnight/Face.ITEX" />
-	<heroNameA textref="/Heroes/IronKnight/_.HROB_heroNameA.txt" />
-	<heroNameB textref="/Heroes/IronKnight/_.HROB_heroNameB.txt" />
+	<heroNameA textref="/Heroes/Ironknight/_.HROB_heroNameA.txt" />
+	<heroNameB textref="/Heroes/Ironknight/_.HROB_heroNameB.txt" />
 	<heroRace>3</heroRace>
 	<heroSceneObjects>
 		<Item href="/Heroes/IronKnight/_.SOBJ" />
@@ -1091,8 +1091,8 @@
 		<heroAskSoundB>Heroes/Asks/iron_knight_iddle_1</heroAskSoundB>
 		<heroBiographyA textref="" />
 		<heroBiographyB textref="" />
-		<heroDescriptionA textref="/Heroes/IronKnight/_.HROB_lobbyData_heroDescriptionA.txt" />
-		<heroDescriptionB textref="/Heroes/IronKnight/_.HROB_lobbyData_heroDescriptionB.txt" />
+		<heroDescriptionA textref="/Heroes/Ironknight/_.HROB_lobbyData_heroDescriptionA.txt" />
+		<heroDescriptionB textref="/Heroes/Ironknight/_.HROB_lobbyData_heroDescriptionB.txt" />
 		<heroRenderA href="/UI/Styles/Icons/Heroes/IronKnight/Figure.ITEX" />
 		<heroRenderB href="/UI/Styles/Icons/Heroes/IronKnight/Figure.ITEX" />
 		<IsHeroHiredByDefaultFemale>false</IsHeroHiredByDefaultFemale>
@@ -1155,7 +1155,7 @@
 	</selectionAoe>
 	<size>2</size>
 	<sizeDynamic>-1</sizeDynamic>
-	<stats href="/Heroes/IronKnight/_.HROB" id="5C77FCDF-C18A-4244-B330-D749EA5FD68D">
+	<stats href="/Heroes/Ironknight/_.HROB" id="5C77FCDF-C18A-4244-B330-D749EA5FD68D">
 		<StatsContainer>
 			<stats>
 				<Item>
@@ -1169,9 +1169,9 @@
 					<levelUpgrades />
 					<statId>Life</statId>
 					<value>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABhRA==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAB6RA==</compiledString>
 						<returnType>float</returnType>
-						<sString>900</sString>
+						<sString>1000</sString>
 					</value>
 				</Item>
 				<Item>

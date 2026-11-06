@@ -1,0 +1,408 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StatusApplicator>
+	<BackLink DBID="/Items/Talents/Class/ThunderGod/Ability4_2.TALENT" Count="1" />
+	<applicators>
+		<Item href="/Heroes/DefaultStatus/_STUN_Status.APLR" />
+		<Item href="/Items/Talents/Class/ThunderGod/status_A4_2_Conductor.APLR" id="169DDA32-8E19-4B62-8973-E518C84C5608">
+			<TriggerApplicator>
+				<actionsCount>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</actionsCount>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>152</behaviorFlags>
+				<caption>Conductor upgrade outgoing damage reduction</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FR4AAAACAAAAJQAAAD4AAABUaHVuZGVyX0E0XzJ1AAAAVGh1bmRlcl9BNF8ydQBVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AIpF+4vlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("Thunder_A4_2u")</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<playAck>false</playAck>
+				<processor href="/Items/Talents/Class/ThunderGod/status_A4_2_Conductor.APLR" id="77A76244-421A-4DBB-826B-DAAC362203F0">
+					<EventProcessorOutgoingDamage>
+						<abilityFilter>
+							<abilitiesList />
+							<abilityCondition>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</abilityCondition>
+							<abilityCostMode>Any</abilityCostMode>
+							<exceptThis>false</exceptThis>
+							<flags>1610614015</flags>
+							<onlySingleTarget>false</onlySingleTarget>
+						</abilityFilter>
+						<applyTarget>ApplicatorTarget</applyTarget>
+						<damageTypeFilter>15</damageTypeFilter>
+						<modifiedDamage>
+							<compiledString>FRIAAAADAAAAGQAAADMAAABJAAAARGFtYWdlAABSZWR1Y2VEbWcAVYvsg+wMaAAAAACLRRCLEItNEItCVP/Qi00MUYtVCFJoCAAAAItFEIsQi00Qi0JQ3V34/9DcDWYAAADZ6N7h3E342V302UX0i+VdwwAAAAAAAPA/exSuR+F6hD8=</compiledString>
+							<returnType>float</returnType>
+							<sString>appl.vDamage * (1- 0.01*cReduceDmg)</sString>
+						</modifiedDamage>
+						<spell href="" />
+					</EventProcessorOutgoingDamage>
+				</processor>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<useAbilityCooldown>false</useAbilityCooldown>
+				<useAbilityOwnerMana>false</useAbilityOwnerMana>
+			</TriggerApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/ThunderGod/status_A4_2_Conductor.APLR" id="C4F1A81B-0BD1-4F59-8CC5-E47AE00C4C9C">
+			<TriggerApplicator>
+				<actionsCount>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</actionsCount>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>152</behaviorFlags>
+				<caption>Conductor duplicates incoming damage to nearby enemies</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<playAck>false</playAck>
+				<processor href="/Items/Talents/Class/ThunderGod/status_A4_2_Conductor.APLR" id="9F09DA40-0A90-43DC-9E15-DDF86E678501">
+					<EventProcessorDamageTransformer>
+						<abilityFilter>
+							<abilitiesList />
+							<abilityCondition>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</abilityCondition>
+							<abilityCostMode>Any</abilityCostMode>
+							<exceptThis>false</exceptThis>
+							<flags>1073743103</flags>
+							<onlySingleTarget>false</onlySingleTarget>
+						</abilityFilter>
+						<add>
+							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>0.0f</sString>
+						</add>
+						<applyTarget>ApplicatorSelectedTarget</applyTarget>
+						<checkSender>0</checkSender>
+						<damageTypeFilter>11</damageTypeFilter>
+						<flags>0</flags>
+						<matchTargetInverted>false</matchTargetInverted>
+						<mul>
+							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>1.0f</sString>
+						</mul>
+						<objectFilter>2040319</objectFilter>
+						<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
+						<spell href="/Items/Talents/Class/ThunderGod/status_A4_2_Conductor.APLR" id="0BF802BC-0360-4CB2-9D73-FA71664E4F4C">
+							<Spell>
+								<applicators>
+									<Item href="/Items/Talents/Class/ThunderGod/status_A4_2_Conductor.APLR" id="6F00588D-6C37-47D8-B937-C853DD91D74B">
+										<SpellApplicator>
+											<applyTarget>ApplicatorTarget</applyTarget>
+											<caption>Conductor lightning fanout</caption>
+											<enabled>
+												<compiledString>FRUAAAACAAAAHQAAADIAAABUYXJnZXQAAEFiaWxpdHlPd25lcgBVi+yD7AhWaAAAAACLRRCLEItNEItCTP/QiUX8aAgAAACLTRCLEYtNEItCTP/QiUX4i034ixGLTfiLgpgBAAD/0Ivwi038ixGLTfyLgpgBAAD/0DPJO8YPlMGKwV6L5V3D</compiledString>
+												<returnType>bool</returnType>
+												<sString>appl.oTarget.WOID == appl.oAbilityOwner.WOID</sString>
+											</enabled>
+											<formulaName></formulaName>
+											<LoggingEvent>-1</LoggingEvent>
+											<providerName></providerName>
+											<spell href="/Items/Talents/Class/ThunderGod/status_A4_2_Conductor.APLR" id="95A5644E-E3F8-4A36-8EBA-AF034B144D5B">
+												<Spell>
+													<applicators>
+														<Item href="/Items/Talents/Class/ThunderGod/status_A4_2_Conductor.APLR" id="97C8E8B6-A9BB-4355-AB4D-8A6BB7EC9083">
+															<DamageApplicator>
+																<applyTarget>ApplicatorTarget</applyTarget>
+																<cancelInvisibility>false</cancelInvisibility>
+																<caption>Duplicated conductor damage</caption>
+																<damage>
+																	<compiledString>FQoAAAABAAAAMQAAAHJhd0RhbWFnZQBVi+yD7AiLRRCLEItNEItCSP/QiUX8i038ixGLTfyLQkj/0IlF+GgAAAAAi034ixGLTfiLQlT/0IvlXcM=</compiledString>
+																	<returnType>float</returnType>
+																	<sString>appl.parent.parent.GetVariable("rawDamage")</sString>
+																</damage>
+																<damageMode>0</damageMode>
+																<damageType>Energy</damageType>
+																<enabled>
+																	<compiledString>FQ8AAAACAAAAFwAAAEwAAABUYXJnZXQAAFRhcmdldABVi+yD7BBWaAAAAACLRRCLEItNEItCTP/QiUX8i00QixGLTRCLQkj/0IlF+ItN+IsRi034i0JI/9CJRfRoCAAAAItN9IsRi030i0JM/9CJRfCLTfCLEYtN8IuCmAEAAP/Qi/CLTfyLEYtN/IuCmAEAAP/QM8k7xg+VwYrBXovlXcM=</compiledString>
+																	<returnType>bool</returnType>
+																	<sString>appl.oTarget.WOID != appl.parent.parent.oTarget.WOID</sString>
+																</enabled>
+																<formulaName></formulaName>
+																<LoggingEvent>-1</LoggingEvent>
+																<providerName></providerName>
+																<timeLimiter>-1</timeLimiter>
+																<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Energy.UIEV" />
+															</DamageApplicator>
+														</Item>
+													</applicators>
+													<dispatch href="/Items/Talents/Class/ThunderGod/status_A4_2_Conductor.APLR" id="B6AA7181-CF08-4CF4-9B20-DDBCA0E6A26A">
+														<DispatchImmediate>
+															<alwaysApply>false</alwaysApply>
+															<applyEffect>
+																<Item href="" />
+																<Item href="" />
+															</applyEffect>
+															<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+															<applyEffectOrientation>Default</applyEffectOrientation>
+															<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+															<dieAfterApply>true</dieAfterApply>
+															<dispatchEffect>
+																<Item href="" />
+																<Item href="" />
+															</dispatchEffect>
+															<flags>0</flags>
+															<instantApply>true</instantApply>
+														</DispatchImmediate>
+													</dispatch>
+												</Spell>
+											</spell>
+											<spellTarget>ApplicatorTarget</spellTarget>
+											<targetSelector href="/Items/Talents/Class/ThunderGod/status_A4_2_Conductor.APLR" id="CBBFF401-766C-471B-8ECB-833BDFD2C9D2">
+												<ConditionTargetSelector>
+													<condition>
+														<compiledString>FQUAAAABAAAADwAAAFdhcmQAVYvsagCLRRBQaAAAAACLTQyLEYtNDIuCnAEAAP/QM8k7RRAPlMGKwV3D</compiledString>
+														<returnType>bool</returnType>
+														<sString>receiver.applWard(GLOBAL) == pMisc</sString>
+													</condition>
+													<flags>0</flags>
+													<mode>Normal</mode>
+													<targetSelector href="/Items/Talents/Class/ThunderGod/status_A4_2_Conductor.APLR" id="620B34A2-8708-4EA5-8C3C-7086CEBD9CE5">
+														<AreaTargetSelector>
+															<absolutePosition>
+																<x>0</x>
+																<y>0</y>
+															</absolutePosition>
+															<flags>0</flags>
+															<mode>Normal</mode>
+															<range>
+																<compiledString>FQwAAAACAAAAGQAAACwAAABSYW5nZV9TaG9ydABVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcBToAAADZXfzZRfyL5V3DAAAAAAAAAEA=</compiledString>
+																<returnType>float</returnType>
+																<sString>cRange_Short + 2</sString>
+															</range>
+															<targetFilter>538771519</targetFilter>
+															<targetSelector href="/Items/Talents/Class/ThunderGod/status_A4_2_Conductor.APLR" id="4CAA3710-D6E0-4455-9E58-28B1409AA8DF">
+																<SelectApplicatorTarget>
+																	<applicatorIndex>0</applicatorIndex>
+																	<applicatorName></applicatorName>
+																	<namedApplicatorTarget>ApplicatorTarget</namedApplicatorTarget>
+																	<selectTarget>Hier1UpApplicatorTarget</selectTarget>
+																</SelectApplicatorTarget>
+															</targetSelector>
+														</AreaTargetSelector>
+													</targetSelector>
+												</ConditionTargetSelector>
+											</targetSelector>
+										</SpellApplicator>
+									</Item>
+								</applicators>
+								<dispatch href="/Items/Talents/Class/ThunderGod/status_A4_2_Conductor.APLR" id="70C7E7D3-34DC-4937-A334-F639A8B59970">
+									<DispatchImmediate>
+										<alwaysApply>false</alwaysApply>
+										<applyEffect>
+											<Item href="" />
+											<Item href="" />
+										</applyEffect>
+										<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+										<applyEffectOrientation>Default</applyEffectOrientation>
+										<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+										<dieAfterApply>true</dieAfterApply>
+										<dispatchEffect>
+											<Item href="" />
+											<Item href="" />
+										</dispatchEffect>
+										<flags>0</flags>
+										<instantApply>true</instantApply>
+									</DispatchImmediate>
+								</dispatch>
+							</Spell>
+						</spell>
+						<treatDelegatedByDelegator>true</treatDelegatedByDelegator>
+					</EventProcessorDamageTransformer>
+				</processor>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<useAbilityCooldown>false</useAbilityCooldown>
+				<useAbilityOwnerMana>false</useAbilityOwnerMana>
+			</TriggerApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/ThunderGod/status_A4_2_Conductor.APLR" id="62F22797-48CB-4D11-B65F-BD37884D4F7B">
+			<SpellPeriodicallyApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>ещё визуал</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<period>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAPw==</compiledString>
+					<returnType>float</returnType>
+					<sString>0.5f</sString>
+				</period>
+				<providerName></providerName>
+				<scaleMode>ScaleIsCount</scaleMode>
+				<spell href="/Items/Talents/Class/ThunderGod/status_A4_2_Conductor.APLR" id="5E89F8BD-C678-4B49-825D-6D884CD4456F">
+					<Spell>
+						<applicators />
+						<dispatch href="/Items/Talents/Class/ThunderGod/status_A4_2_Conductor.APLR" id="30BDAF17-F602-4BC3-91AB-360ADEF085C6">
+							<DispatchImmediate>
+								<alwaysApply>false</alwaysApply>
+								<applyEffect>
+									<Item href="/Effects/Shots/Lightning/_Hit2.EFFT" />
+									<Item href="" />
+								</applyEffect>
+								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+								<applyEffectOrientation>Default</applyEffectOrientation>
+								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+								<dieAfterApply>true</dieAfterApply>
+								<dispatchEffect>
+									<Item href="" />
+									<Item href="" />
+								</dispatchEffect>
+								<flags>0</flags>
+								<instantApply>true</instantApply>
+							</DispatchImmediate>
+						</dispatch>
+					</Spell>
+				</spell>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<startOffset>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpmZPg==</compiledString>
+					<returnType>float</returnType>
+					<sString>0.3f</sString>
+				</startOffset>
+				<targetSelector href="/Items/Talents/Class/ThunderGod/status_A4_2_Conductor.APLR" id="9B4ED307-2C89-4D80-8FF6-16B18DC8E790">
+					<ConditionTargetSelector>
+						<condition>
+							<compiledString>FQUAAAABAAAADwAAAFdhcmQAVYvsagCLRRBQaAAAAACLTQyLEYtNDIuCnAEAAP/QM8k7RRAPlMGKwV3D</compiledString>
+							<returnType>bool</returnType>
+							<sString>receiver.applWard(GLOBAL) == pMisc</sString>
+						</condition>
+						<flags>0</flags>
+						<mode>Normal</mode>
+						<targetSelector href="/Items/Talents/Class/ThunderGod/status_A4_2_Conductor.APLR" id="61803650-5F70-4ACC-BF1F-5D1103F9CBEA">
+							<AreaTargetSelector>
+								<absolutePosition>
+									<x>0</x>
+									<y>0</y>
+								</absolutePosition>
+								<flags>0</flags>
+								<mode>Normal</mode>
+								<range>
+									<compiledString>FQwAAAACAAAAGQAAACwAAABSYW5nZV9TaG9ydABVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcBToAAADZXfzZRfyL5V3DAAAAAAAAAEA=</compiledString>
+									<returnType>float</returnType>
+									<sString>cRange_Short + 2</sString>
+								</range>
+								<targetFilter>538771519</targetFilter>
+								<targetSelector href="/Items/Talents/Class/ThunderGod/status_A4_2_Conductor.APLR" id="61ED521F-E82A-4FE9-8A4E-13DF36705FB9">
+									<SelectApplicatorTarget>
+										<applicatorIndex>0</applicatorIndex>
+										<applicatorName></applicatorName>
+										<namedApplicatorTarget>ApplicatorTarget</namedApplicatorTarget>
+										<selectTarget>Hier1UpApplicatorTarget</selectTarget>
+									</SelectApplicatorTarget>
+								</targetSelector>
+							</AreaTargetSelector>
+						</targetSelector>
+					</ConditionTargetSelector>
+				</targetSelector>
+			</SpellPeriodicallyApplicator>
+		</Item>
+	</applicators>
+	<applyTarget>ApplicatorTarget</applyTarget>
+	<behaviorFlags>152</behaviorFlags>
+	<caption>Conductor</caption>
+	<customCounter>
+		<compiledString></compiledString>
+		<returnType>int</returnType>
+		<sString>0</sString>
+	</customCounter>
+	<customProgress>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>-1.0</sString>
+	</customProgress>
+	<description textref="/Items/Talents/Class/ThunderGod/status_A4_2_Conductor.APLR_description.txt" />
+	<dispellPriority>NonDispellable</dispellPriority>
+	<effect>
+		<Item href="/Effects/Shots/Whisp/_IdleAlly2.EFFT" />
+		<Item href="" />
+	</effect>
+	<enabled>
+		<compiledString></compiledString>
+		<returnType>bool</returnType>
+		<sString>true</sString>
+	</enabled>
+	<flags>0</flags>
+	<formulaName>Conductor</formulaName>
+	<image href="/UI/Styles/Icons/Heroes/ThunderGod/A4_2.ITEX" />
+	<lifeTime>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADgQA==</compiledString>
+		<returnType>float</returnType>
+		<sString>7</sString>
+	</lifeTime>
+	<LoggingEvent>-1</LoggingEvent>
+	<name textref="/Items/Talents/Class/ThunderGod/status_A4_2_Conductor.APLR_name.txt" />
+	<power>0</power>
+	<providerName></providerName>
+	<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+	<stackCount>0</stackCount>
+	<startCondition>
+		<compiledString></compiledString>
+		<returnType>bool</returnType>
+		<sString>true</sString>
+	</startCondition>
+	<statusPosition>0</statusPosition>
+	<stopBehaviour>StopByTime</stopBehaviour>
+	<unstackableWith href="" />
+</StatusApplicator>

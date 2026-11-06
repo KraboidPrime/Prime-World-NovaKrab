@@ -997,16 +997,16 @@
 					<calcIncrement>0.8</calcIncrement>
 					<calcValue>52.2</calcValue>
 					<increment>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DZmbmPg==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpkZPw==</compiledString>
 						<returnType>float</returnType>
-						<sString>0.45</sString>
+						<sString>0.6</sString>
 					</increment>
 					<levelUpgrades />
 					<statId>Strength</statId>
 					<value>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzcxQQg==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABYQg==</compiledString>
 						<returnType>float</returnType>
-						<sString>52.2</sString>
+						<sString>54</sString>
 					</value>
 				</Item>
 				<Item>
@@ -1100,9 +1100,9 @@
 					<levelUpgrades />
 					<statId>LifeRegenerationAbsolute</statId>
 					<value>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DMzPTPw==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DMzNTQA==</compiledString>
 						<returnType>float</returnType>
-						<sString>1.65</sString>
+						<sString>3.3</sString>
 					</value>
 				</Item>
 				<Item>

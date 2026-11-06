@@ -6,6 +6,7 @@
 	<BackLink DBID="/Items/Talents/TalentKits/Redset4_3_Fire/status_G557_Mark.APLR" Count="1" />
 	<BackLink DBID="/Summons/EvilTree/status_Frightened.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Werewolf/status_Fear_A4.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Crusader/Ability_A2.TALENT" Count="1" />
 	<generatedFileName></generatedFileName>
 	<importOnlyShape>false</importOnlyShape>
 	<mipLevels>0</mipLevels>

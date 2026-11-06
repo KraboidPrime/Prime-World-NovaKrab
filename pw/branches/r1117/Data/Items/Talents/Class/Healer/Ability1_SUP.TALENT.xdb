@@ -143,6 +143,53 @@
 				<useListAs>ListAsRule</useListAs>
 			</AbilityModApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/Healer/Ability1_SUP.TALENT" id="E4A0A71C-312A-43E9-8F81-ADE3D81C2EC1">
+			<StatModApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption></caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQAAAAABAAAAFgAAAFWL7FGLRQiLEItNCIuCgAAAAP/Q3A0kAAAA2V382UX8i+Vdw5qZmZmZmbk/</compiledString>
+						<returnType>float</returnType>
+						<sString>0.1*sBaseEnergy</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Energy</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
+		</Item>
 	</passiveApplicators>
 	<persistentId>Healer_A1_SUP</persistentId>
 	<prerequisiteTalents>

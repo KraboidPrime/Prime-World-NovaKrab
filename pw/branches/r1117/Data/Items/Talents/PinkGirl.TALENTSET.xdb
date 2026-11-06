@@ -88,7 +88,7 @@
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Class/PinkGirl/Ability_A4.TALENT" />
+					<talent href="/Items/Talents/Class/PinkGirl/Ability_A4_2.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
@@ -118,7 +118,7 @@
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level3/G458_StrOrInt.TALENT.xdb" />
+					<talent href="/Items/Talents/Level3/G766_MiniRefresher.TALENT.xdb" />
 				</Item>
 			</talents>
 		</Item>
@@ -128,7 +128,7 @@
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Class/PinkGirl/Ability_A4u.TALENT" />
+					<talent href="/Items/Talents/Class/PinkGirl/Ability_A4_2u.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
@@ -198,7 +198,7 @@
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level5/G731_Dex_AtSpd.TALENT.xdb" />
+					<talent href="/Items/Talents/Level5/G633_StrOrInt.TALENT.xdb" />
 				</Item>
 			</talents>
 		</Item>
@@ -238,7 +238,7 @@
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level6/G701_StrOrInt.TALENT.xdb" />
+					<talent href="/Items/Talents/Level6/G634_Str_Dex.TALENT.xdb" />
 				</Item>
 			</talents>
 		</Item>

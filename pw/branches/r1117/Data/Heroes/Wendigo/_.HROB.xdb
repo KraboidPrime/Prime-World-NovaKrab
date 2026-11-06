@@ -841,9 +841,9 @@
 					<levelUpgrades />
 					<statId>Life</statId>
 					<value>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAIBoRA==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAMCARA==</compiledString>
 						<returnType>float</returnType>
-						<sString>930</sString>
+						<sString>1030</sString>
 					</value>
 				</Item>
 				<Item>
@@ -866,9 +866,9 @@
 					<calcIncrement>0.9</calcIncrement>
 					<calcValue>60</calcValue>
 					<increment>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DMzMzPw==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DXI9CPw==</compiledString>
 						<returnType>float</returnType>
-						<sString>0.7</sString>
+						<sString>0.76</sString>
 					</increment>
 					<levelUpgrades />
 					<statId>Strength</statId>
@@ -882,9 +882,9 @@
 					<calcIncrement>0.8</calcIncrement>
 					<calcValue>57</calcValue>
 					<increment>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DMzMzPw==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DFK5HPw==</compiledString>
 						<returnType>float</returnType>
-						<sString>0.7</sString>
+						<sString>0.78</sString>
 					</increment>
 					<levelUpgrades />
 					<statId>Intellect</statId>

@@ -370,7 +370,7 @@
 				<constraint>None</constraint>
 				<dontUpdate>false</dontUpdate>
 				<effect>
-					<Item href="" />
+					<Item href="/Summons/Demon/FXUpgrade3.EFFT" />
 					<Item href="" />
 				</effect>
 				<enabled>

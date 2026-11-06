@@ -172,9 +172,9 @@
 																		<flag>0</flag>
 																		<formulaName></formulaName>
 																		<lifeTime>
-																			<compiledString></compiledString>
+																			<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
 																			<returnType>float</returnType>
-																			<sString>-1.0</sString>
+																			<sString>2</sString>
 																		</lifeTime>
 																		<LoggingEvent>-1</LoggingEvent>
 																		<providerName></providerName>
@@ -1155,10 +1155,10 @@
 	<placeSelector href="/Items/Talents/Class/Rifleman/Summon_Trap_SUP.APLR" id="255878CF-5497-44FD-B7BE-43A98E7B3847">
 		<UnitPlaceCorrector>
 			<checkByRangeToRequester>false</checkByRangeToRequester>
-			<checkLineOfSight>true</checkLineOfSight>
+			<checkLineOfSight>false</checkLineOfSight>
 			<nativeTerrainOnly>false</nativeTerrainOnly>
-			<passabilityCheckMode>7</passabilityCheckMode>
-			<radius>7</radius>
+			<passabilityCheckMode>6</passabilityCheckMode>
+			<radius>3</radius>
 			<targetSelector href="/Items/Talents/Class/Rifleman/Summon_Trap_SUP.APLR" id="280ACC4C-2C08-4F78-A4DF-D6B584B50421">
 				<SelectApplicatorTarget>
 					<applicatorIndex>0</applicatorIndex>

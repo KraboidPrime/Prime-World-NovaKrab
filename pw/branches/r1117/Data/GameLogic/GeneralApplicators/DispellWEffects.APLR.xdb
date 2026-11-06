@@ -30,6 +30,7 @@
 	<BackLink DBID="/Items/Talents/Class/Healer/Ability4_2.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Healer/A4_2AutoSpell.SPLL" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/FireFox/Ability3.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/TalentKits/Redset10_6_OpenHunt/program_PredatorSelf.SPLL" Count="1" />
 	<applicators>
 		<Item>
 			<applicator href="/GameLogic/GeneralApplicators/Dispell.APLR" />

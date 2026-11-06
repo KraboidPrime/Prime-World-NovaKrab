@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TalentKit>
+	<caption>Open Hunt</caption>
+	<kitCapacity>4</kitCapacity>
+	<name textref="/Items/Talents/TalentKits/Redset10_6_OpenHunt/Redset10_6_OpenHunt.TALKIT_name.txt" />
+	<special href="/Items/Talents/Level1/G1005_Predator.TALENT" />
+	<talents>
+		<Item href="/Items/Talents/Level1/G1005_Predator.TALENT" />
+		<Item href="/Items/Talents/Level2/G1006_PredatorFeast.TALENT" />
+		<Item href="/Items/Talents/Level3/G1007_CorneredBeast.TALENT" />
+		<Item href="/Items/Talents/Level4/G1008_Execution.TALENT" />
+	</talents>
+</TalentKit>

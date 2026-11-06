@@ -152,13 +152,13 @@
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level4/G782_StrInt.TALENT.xdb" />
+					<talent href="/Items/Talents/Level4/G466_CDR_StrOrInt.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level4/G688_AtSpd.TALENT.xdb" />
+					<talent href="/Items/Talents/Level4/G739_CDR_Health.TALENT" />
 				</Item>
 			</talents>
 		</Item>
@@ -168,7 +168,7 @@
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level5/G453_Dex_StaOrWill.TALENT.xdb" />
+					<talent href="/Items/Talents/Level5/G063_Life-Int-DispellAoE.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>
@@ -186,7 +186,7 @@
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Class/Artist/Ability_A2_SUP.TALENT" />
+					<talent href="/Items/Talents/Class/Artist/Ability_A0_SUP.TALENT" />
 				</Item>
 				<Item>
 					<aIPriority>0</aIPriority>

@@ -516,7 +516,8 @@
 									<spell href="/Items/Talents/Class/Fluffy/A0_BigFormProgramm.APLR" id="1A8124B4-17F2-4F63-88CD-184755B48FD8">
 										<Spell>
 											<applicators>
-												<Item href="/Items/Talents/Class/Fluffy/status_A1_SUP_DefDebuff.APLR" />
+												<Item href="/Heroes/DefaultStatus/_ARMORCUT_status.APLR" />
+												<Item href="/Heroes/DefaultStatus/_Vulnerability_status.APLR" />
 											</applicators>
 											<dispatch href="/Items/Talents/Class/Fluffy/A0_BigFormProgramm.APLR" id="661A8A3D-DF37-4F9F-9E0B-49F3E78B116C">
 												<DispatchImmediate>

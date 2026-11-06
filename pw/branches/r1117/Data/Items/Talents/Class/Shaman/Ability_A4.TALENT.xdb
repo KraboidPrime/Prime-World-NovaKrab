@@ -32,7 +32,7 @@
 					<Item>
 						<applicator href="" />
 						<continueCondition>
-							<compiledString></compiledString>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 							<returnType>bool</returnType>
 							<sString>0</sString>
 						</continueCondition>
@@ -43,7 +43,7 @@
 							<sString>0.6f</sString>
 						</delay>
 						<stopCondition>
-							<compiledString></compiledString>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 							<returnType>bool</returnType>
 							<sString>0</sString>
 						</stopCondition>
@@ -52,7 +52,7 @@
 					<Item>
 						<applicator href="/Items/Talents/Class/Shaman/A4Jump_spellapplicator.APLR" />
 						<continueCondition>
-							<compiledString></compiledString>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 							<returnType>bool</returnType>
 							<sString>0</sString>
 						</continueCondition>
@@ -63,7 +63,7 @@
 							<sString>-1.0</sString>
 						</delay>
 						<stopCondition>
-							<compiledString></compiledString>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 							<returnType>bool</returnType>
 							<sString>0</sString>
 						</stopCondition>
@@ -104,7 +104,7 @@
 							</FlagsApplicator>
 						</applicator>
 						<continueCondition>
-							<compiledString></compiledString>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 							<returnType>bool</returnType>
 							<sString>0</sString>
 						</continueCondition>
@@ -115,7 +115,7 @@
 							<sString>-1.0</sString>
 						</delay>
 						<stopCondition>
-							<compiledString></compiledString>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 							<returnType>bool</returnType>
 							<sString>0</sString>
 						</stopCondition>
@@ -124,7 +124,7 @@
 					<Item>
 						<applicator href="" />
 						<continueCondition>
-							<compiledString></compiledString>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 							<returnType>bool</returnType>
 							<sString>0</sString>
 						</continueCondition>
@@ -135,7 +135,7 @@
 							<sString>0.6f</sString>
 						</delay>
 						<stopCondition>
-							<compiledString></compiledString>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 							<returnType>bool</returnType>
 							<sString>0</sString>
 						</stopCondition>
@@ -144,7 +144,7 @@
 					<Item>
 						<applicator href="/Items/Talents/Class/Shaman/A4Jump_spellapplicator.APLR" />
 						<continueCondition>
-							<compiledString></compiledString>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 							<returnType>bool</returnType>
 							<sString>0</sString>
 						</continueCondition>
@@ -155,7 +155,7 @@
 							<sString>-1.0</sString>
 						</delay>
 						<stopCondition>
-							<compiledString></compiledString>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 							<returnType>bool</returnType>
 							<sString>0</sString>
 						</stopCondition>
@@ -196,7 +196,7 @@
 							</FlagsApplicator>
 						</applicator>
 						<continueCondition>
-							<compiledString></compiledString>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 							<returnType>bool</returnType>
 							<sString>0</sString>
 						</continueCondition>
@@ -207,7 +207,7 @@
 							<sString>-1.0</sString>
 						</delay>
 						<stopCondition>
-							<compiledString></compiledString>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 							<returnType>bool</returnType>
 							<sString>0</sString>
 						</stopCondition>
@@ -216,7 +216,7 @@
 					<Item>
 						<applicator href="" />
 						<continueCondition>
-							<compiledString></compiledString>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 							<returnType>bool</returnType>
 							<sString>0</sString>
 						</continueCondition>
@@ -227,7 +227,7 @@
 							<sString>0.6f</sString>
 						</delay>
 						<stopCondition>
-							<compiledString></compiledString>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 							<returnType>bool</returnType>
 							<sString>0</sString>
 						</stopCondition>
@@ -236,7 +236,7 @@
 					<Item>
 						<applicator href="/Items/Talents/Class/Shaman/A4Jump_spellapplicator.APLR" />
 						<continueCondition>
-							<compiledString></compiledString>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 							<returnType>bool</returnType>
 							<sString>0</sString>
 						</continueCondition>
@@ -247,7 +247,7 @@
 							<sString>-1.0</sString>
 						</delay>
 						<stopCondition>
-							<compiledString></compiledString>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 							<returnType>bool</returnType>
 							<sString>0</sString>
 						</stopCondition>
@@ -288,7 +288,7 @@
 							</FlagsApplicator>
 						</applicator>
 						<continueCondition>
-							<compiledString></compiledString>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 							<returnType>bool</returnType>
 							<sString>0</sString>
 						</continueCondition>
@@ -299,7 +299,7 @@
 							<sString>-1.0</sString>
 						</delay>
 						<stopCondition>
-							<compiledString></compiledString>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 							<returnType>bool</returnType>
 							<sString>0</sString>
 						</stopCondition>

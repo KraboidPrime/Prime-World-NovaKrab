@@ -436,6 +436,16 @@
 				<Item href="/Items/Talents/Class/Fluffy/const_A0_ArmorCut_Range" />
 				<Item href="/Items/Talents/Class/Fluffy/const_A0_WillCut_Duration" />
 				<Item href="/Items/Talents/Class/Fluffy/const_A0_WillCut_Amount" />
+				<Item href="/Items/Talents/Class/Fluffy/Ability_A4.TALENT" id="0F2647ED-5622-432D-A657-38C161E4979B">
+					<UnitConstant>
+						<name>Decrease_TimeControl</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQg==</compiledString>
+							<returnType>float</returnType>
+							<sString>40.0f</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

@@ -20,6 +20,7 @@
 	<BackLink DBID="/Items/Talents/Class/GhostLord/A0_WaitAndUnsummon.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/GhostLord/Ability_A0.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/FireFox/Ability3.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Level1/G1005_Predator.TALENT" Count="1" />
 	<signRecipients>ALL_PLAYERS</signRecipients>
 	<UISigns>
 		<Item href="/UI/Events/CommonEvents/EventEnergy.UIEV" id="57DBE8C0-79EF-41CB-9C83-9BC26CFA7FB6">

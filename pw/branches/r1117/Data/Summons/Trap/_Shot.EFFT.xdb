@@ -12,4 +12,9 @@
 	<parentType>General</parentType>
 	<visibilityLimited>false</visibilityLimited>
 	<visibleTime>0</visibleTime>
+	<__states>
+		<state name="demonolog_S3">
+			<component href="/Summons/Trap/S3/_Shot.PRXY" />
+		</state>
+	</__states>
 </BasicEffectStandalone>

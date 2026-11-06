@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DBSceneComponent>
+  <BackLink DBID="/Summons/Demon2/S3/FXUpgradeTRS.PRXY" Count="1" />
+  <attached>
+    <Item>
+      <attachFlags>15</attachFlags>
+      <component href="/Summons/Demon2/S3/FXUpgrade.PRXY" id="91EF7212-C761-4B18-BD63-85FB4E44E7AD">
+        <DBParticleSceneComponent>
+          <aabb>
+            <maxX>-666</maxX>
+            <maxY>-666</maxY>
+            <maxZ>-666</maxZ>
+            <minX>666</minX>
+            <minY>666</minY>
+            <minZ>666</minZ>
+          </aabb>
+          <attached />
+          <camoffset>0</camoffset>
+          <caption>FireIn_World</caption>
+          <compression>2</compression>
+          <deathFadeOutTime>0.5</deathFadeOutTime>
+          <fxFileName>/Summons/Demon2/S3/FXUpgradeFireIn_World.part</fxFileName>
+          <groupFlags>0</groupFlags>
+          <leaveParticlesWhereStarted>true</leaveParticlesWhereStarted>
+          <locatorList href="" />
+          <material href="/Summons/Demon2/S3/FXUpgrade.PRXY" id="6B9258E9-EF13-4D20-8513-B85A38EC0EAF">
+            <ParticleFXMaterial>
+              <caption>
+              </caption>
+              <DiffuseMap>
+                <Add>
+                  <A>0</A>
+                  <B>0</B>
+                  <G>0.4</G>
+                  <R>1</R>
+                </Add>
+                <Multiplier>
+                  <A>1</A>
+                  <B>0</B>
+                  <G>0</G>
+                  <R>0</R>
+                </Multiplier>
+                <samplerState>
+                  <addressU>Wrap</addressU>
+                  <addressV>Wrap</addressV>
+                  <addressW>Wrap</addressW>
+                  <magFilter>Linear</magFilter>
+                  <minFilter>Linear</minFilter>
+                  <mipFilter>Linear</mipFilter>
+                </samplerState>
+                <texture href="/GFX_Textures/Atlases/atlas_0.TXTR" />
+              </DiffuseMap>
+              <distortion>1</distortion>
+              <DistortionPinValue>None</DistortionPinValue>
+              <ignoreRenderState>false</ignoreRenderState>
+              <opacity>1</opacity>
+              <OpacityAndEmissiveModePinValue>Simple</OpacityAndEmissiveModePinValue>
+              <renderState>
+                <alphaTest>Off</alphaTest>
+                <alphaTestRef>127</alphaTestRef>
+                <blendMode>AddColorMulAlpha</blendMode>
+                <culling>On</culling>
+              </renderState>
+              <scale>0</scale>
+              <SubPriority>0</SubPriority>
+              <uvSpeed>
+                <x>0</x>
+                <y>0</y>
+              </uvSpeed>
+            </ParticleFXMaterial>
+          </material>
+          <mayaFileName>/Summons/Demon2/S3/FXUpgradeFireIn_World.mayaPart</mayaFileName>
+          <normaltextures />
+          <orient>None</orient>
+          <orientation>Default</orientation>
+          <pivot>
+            <x>0</x>
+            <y>0</y>
+          </pivot>
+          <selection>FireIn_World</selection>
+          <speculartextures />
+          <srcFileName crc="0">/Summons/Demon2/S3/FXUpgrade.mb</srcFileName>
+          <textures>
+            <Item crc="0">/PFX_Textures/FireBlue01.tga</Item>
+          </textures>
+          <uvPairs>
+            <Item>
+              <uvBottomRight>
+                <x>0.1445313</x>
+                <y>0.1142578</y>
+              </uvBottomRight>
+              <uvTopLeft>
+                <x>0.1289063</x>
+                <y>0.08300781</y>
+              </uvTopLeft>
+            </Item>
+          </uvPairs>
+        </DBParticleSceneComponent>
+      </component>
+      <events href="" />
+      <id>
+      </id>
+      <locatorName>
+      </locatorName>
+      <placement>
+        <pos>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
+        </pos>
+        <rot>
+          <w>1</w>
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
+        </rot>
+        <scale>
+          <x>1</x>
+          <y>1</y>
+          <z>1</z>
+        </scale>
+      </placement>
+      <timeController href="/Summons/Demon2/S3/FXUpgrade.PRXY" id="D5A0E758-F301-4DAD-843C-5B6E10BBB9AE">
+        <TimeController>
+          <cycleCount>0</cycleCount>
+          <cycleLength>3</cycleLength>
+          <fadein>0</fadein>
+          <fadeout>0</fadeout>
+          <firstCycleOffset>0</firstCycleOffset>
+          <firstCycleOffsetDelta>0</firstCycleOffsetDelta>
+          <speed>1</speed>
+          <startDelay>0</startDelay>
+        </TimeController>
+      </timeController>
+    </Item>
+  </attached>
+  <caption>
+  </caption>
+  <groupFlags>0</groupFlags>
+  <locatorList href="" />
+  <orientation>Default</orientation>
+</DBSceneComponent>

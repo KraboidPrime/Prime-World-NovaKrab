@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Spell>
 	<BackLink DBID="/Items/Talents/Class/Shadow/Ability_A1.TALENT" Count="3" />
+	<BackLink DBID="/Items/Talents/Class/arbik_elf/Ability_A4_2.TALENT" Count="1" />
 	<applicators />
 	<dispatch href="/Items/Talents/Class/Shadow/spell_A1_arrowSUP.SPLL" id="08891CF7-A16A-4632-8CC9-F4E55A3D334F">
 		<DispatchLinear>
@@ -64,6 +65,175 @@
 									<Item href="/Items/Talents/Class/Shadow/status_A1_MoreHatred.APLR" />
 									<Item href="/Heroes/DefaultStatus/_SLOW_MOVE_TOP.APLR" />
 									<Item href="/Heroes/DefaultStatus/_SLOW_MOVE.APLR" />
+									<Item href="/Items/Talents/Class/Shadow/spell_A1_arrowSUP.SPLL" id="A54FADC8-7E7F-4D78-95CB-FE98A2366564">
+										<SpellApplicator>
+											<applyTarget>ApplicatorTarget</applyTarget>
+											<caption>ярость и кд</caption>
+											<enabled>
+												<compiledString>FQAAAAAAAAAAVYvsi0UMixCLTQyLQlT/0F3D</compiledString>
+												<returnType>bool</returnType>
+												<sString>rIsHero</sString>
+											</enabled>
+											<formulaName></formulaName>
+											<LoggingEvent>-1</LoggingEvent>
+											<providerName></providerName>
+											<spell href="/Items/Talents/Class/Shadow/spell_A1_arrowSUP.SPLL" id="2A7B59A5-A47C-4DE7-81F1-C281B9F6DE71">
+												<Spell>
+													<applicators>
+														<Item href="/Items/Talents/Class/Shadow/spell_A1_arrowSUP.SPLL" id="D40FB2EC-3FA5-40D4-9A9F-B827395B60C9">
+															<PermanentStatModApplicator>
+																<applyTarget>AbilityOwner</applyTarget>
+																<caption></caption>
+																<customApplyType>None</customApplyType>
+																<enabled>
+																	<compiledString>FRIAAAACAAAAGQAAAC4AAABIYXRyZWQAAEhhdHJlZE1heABVi+yD7AxoAAAAAItFCIsQi00Ii4KIAQAA/9BoCAAAAItNCIsRi00Ii4KIAQAA3V34/9DcXfjf4PbEQXUNM8l0CcdF9AEAAADrB8dF9AAAAACKRfSL5V3D</compiledString>
+																	<returnType>bool</returnType>
+																	<sString>(sender.vHatred &lt; sender.vHatredMax) &amp;&amp; false</sString>
+																</enabled>
+																<formulaName></formulaName>
+																<LoggingEvent>-1</LoggingEvent>
+																<modifier>
+																	<addValue>
+																		<compiledString>FRMAAAACAAAAGgAAAC8AAABIYXRyZWRNYXgAAABIYXRyZWQAVYvsg+wMaAAAAACLRQiLEItNCIuCiAEAAP/QaAwAAACLTQiLEYtNCIuCiAEAAN1d+P/Q3G342V302UX0UdkcJFHZ6NkcJOgLAAAAg8QIi+VdwwAAgD9Vi+xR2UUI2UUM3tnf4PbEQXUI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
+																		<returnType>float</returnType>
+																		<sString>min(1, sender.vHatredMax - sender.vHatred)</sString>
+																	</addValue>
+																	<multValue>
+																		<compiledString></compiledString>
+																		<returnType>float</returnType>
+																		<sString>1.0f</sString>
+																	</multValue>
+																	<stat>Life</stat>
+																	<topModifier>false</topModifier>
+																	<variable>Hatred</variable>
+																</modifier>
+																<providerName></providerName>
+															</PermanentStatModApplicator>
+														</Item>
+														<Item href="/Items/Talents/Class/Shadow/spell_A1_arrowSUP.SPLL" id="3D2ED0B4-49A9-4373-96C2-B8D8891C43B9">
+															<RefreshCooldownApplicator>
+																<allowCdIncrease>false</allowCdIncrease>
+																<applyTarget>AbilityOwner</applyTarget>
+																<caption></caption>
+																<enabled>
+																	<compiledString></compiledString>
+																	<returnType>bool</returnType>
+																	<sString>true</sString>
+																</enabled>
+																<flags>128</flags>
+																<formulaName></formulaName>
+																<LoggingEvent>-1</LoggingEvent>
+																<providerName></providerName>
+																<reduceByPercent>false</reduceByPercent>
+																<reductionAmount>
+																	<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
+																	<returnType>float</returnType>
+																	<sString>3.0f</sString>
+																</reductionAmount>
+																<refreshThis>false</refreshThis>
+																<talents>
+																	<Item href="/Items/Talents/Class/Shadow/Ability_A3.TALENT" />
+																</talents>
+																<useListAs>ListAsRule</useListAs>
+															</RefreshCooldownApplicator>
+														</Item>
+													</applicators>
+													<dispatch href="/Items/Talents/Class/Shadow/spell_A1_arrowSUP.SPLL" id="5FF78354-D5E2-44E0-AAAC-4D24E980B454">
+														<DispatchImmediate>
+															<alwaysApply>false</alwaysApply>
+															<applyEffect>
+																<Item href="" />
+																<Item href="" />
+															</applyEffect>
+															<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+															<applyEffectOrientation>Default</applyEffectOrientation>
+															<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+															<dieAfterApply>true</dieAfterApply>
+															<dispatchEffect>
+																<Item href="" />
+																<Item href="" />
+															</dispatchEffect>
+															<flags>0</flags>
+															<instantApply>false</instantApply>
+														</DispatchImmediate>
+													</dispatch>
+												</Spell>
+											</spell>
+											<spellTarget>ApplicatorTarget</spellTarget>
+											<targetSelector href="" />
+										</SpellApplicator>
+									</Item>
+									<Item href="/Items/Talents/Class/Shadow/spell_A1_arrowSUP.SPLL" id="8BCE564C-3DB5-46E7-BBF4-6F8CDD00F479">
+										<SpellApplicator>
+											<applyTarget>ApplicatorTarget</applyTarget>
+											<caption>стак урона</caption>
+											<enabled>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</enabled>
+											<formulaName></formulaName>
+											<LoggingEvent>-1</LoggingEvent>
+											<providerName></providerName>
+											<spell href="/Items/Talents/Class/Shadow/spell_A1_arrowSUP.SPLL" id="8A1C2EE9-61D4-4225-A4E2-8BBE6DEB8BF5">
+												<Spell>
+													<applicators>
+														<Item href="/Items/Talents/Class/Shadow/spell_A1_arrowSUP.SPLL" id="8695AE91-1D3C-4819-B84C-D3B85EC4258C">
+															<PermanentStatModApplicator>
+																<applyTarget>AbilityOwner</applyTarget>
+																<caption></caption>
+																<customApplyType>None</customApplyType>
+																<enabled>
+																	<compiledString></compiledString>
+																	<returnType>bool</returnType>
+																	<sString>true</sString>
+																</enabled>
+																<formulaName></formulaName>
+																<LoggingEvent>-1</LoggingEvent>
+																<modifier>
+																	<addValue>
+																		<compiledString>FRYAAAAEAAAAIQAAACsAAAB3AAAArQAAAFNoYWRvd19BM19EYW1hZ2VUYWtlbgBVi+yD7BBqAVHZBdMAAADZHCRR2QXPAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJItNCIsRi00Ii4I0AQAA/9BR2Rwk6J4AAACDxATZHCRqAYtNEIsRi00Qi0Jg/9BoAAAAAItNCIsRi00Ii4KIAQAA3V34/9DcbfjZXfTZRfRR2Rwki00IixGLTQiLgrwAAAD/0NwNxwAAANld8NlF8FHZHCToFwAAAIPECIvlXcOamZmZmZnJPwAA80IAAGREVYvsUdlFCNlFDN7Z3+D2xEF1CNlFCNld/OsG2UUM2V382UX8i+Vdw1WL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
+																		<returnType>float</returnType>
+																		<sString>min(0.2*sBaseIntellect, damageScale(max(sIntellect,sStrength),121.5, 912) - sender.vShadow_A3_DamageTaken)</sString>
+																	</addValue>
+																	<multValue>
+																		<compiledString></compiledString>
+																		<returnType>float</returnType>
+																		<sString>1.0f</sString>
+																	</multValue>
+																	<stat>Life</stat>
+																	<topModifier>false</topModifier>
+																	<variable>Shadow_A3_DamageTaken</variable>
+																</modifier>
+																<providerName></providerName>
+															</PermanentStatModApplicator>
+														</Item>
+													</applicators>
+													<dispatch href="/Items/Talents/Class/Shadow/spell_A1_arrowSUP.SPLL" id="E4E04145-C34F-43F7-A120-34DF473C106C">
+														<DispatchImmediate>
+															<alwaysApply>false</alwaysApply>
+															<applyEffect>
+																<Item href="" />
+																<Item href="" />
+															</applyEffect>
+															<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+															<applyEffectOrientation>Default</applyEffectOrientation>
+															<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+															<dieAfterApply>true</dieAfterApply>
+															<dispatchEffect>
+																<Item href="" />
+																<Item href="" />
+															</dispatchEffect>
+															<flags>0</flags>
+															<instantApply>false</instantApply>
+														</DispatchImmediate>
+													</dispatch>
+												</Spell>
+											</spell>
+											<spellTarget>ApplicatorTarget</spellTarget>
+											<targetSelector href="" />
+										</SpellApplicator>
+									</Item>
 								</applicators>
 								<dispatch href="/Items/Talents/Class/Shadow/spell_A1_arrowSUP.SPLL" id="CA4A5706-CAF0-497B-A3E8-96099B045064">
 									<DispatchImmediate>
@@ -121,7 +291,7 @@
 					</SpellPeriodicallyApplicator>
 				</Item>
 			</persistentApplicators>
-			<speed>49</speed>
+			<speed>46</speed>
 			<suspendTime>0</suspendTime>
 			<toLocator></toLocator>
 		</DispatchLinear>

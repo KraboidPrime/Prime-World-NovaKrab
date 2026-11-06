@@ -4,6 +4,9 @@
 	<BackLink DBID="/Effects/Shots/HitsApplicators/Hunter.APLR" Count="1" />
 	<BackLink DBID="/Effects/Shots/HitsApplicators/Mowgli.APLR" Count="1" />
 	<BackLink DBID="/Effects/Shots/HitsApplicators/Range.APLR" Count="1" />
+	<BackLink DBID="/Heroes/arbik_elf/_.ATCK" Count="7" />
+	<BackLink DBID="/Effects/Shots/HitsApplicators/Bullet.APLR" Count="1" />
+	<BackLink DBID="/Effects/Shots/HitsApplicators/BulletA.APLR" Count="1" />
 	<attachFlags>0</attachFlags>
 	<attachType>RangeHit</attachType>
 	<component href="/Effects/Shots/Arrow/_BHitTRS.PRXY" />

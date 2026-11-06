@@ -4699,7 +4699,7 @@
 				</Item>
 				<Item>
 					<name>workTime4</name>
-					<virtPar>0.4444444</virtPar>
+					<virtPar>0.444444</virtPar>
 				</Item>
 			</markers>
 			<nextNode>idle</nextNode>
@@ -4982,7 +4982,7 @@
 			</simpleTransactions>
 			<speed>
 				<coeffs />
-				<value>1</value>
+				<value>2.5</value>
 			</speed>
 			<startPar>
 				<coeffs />

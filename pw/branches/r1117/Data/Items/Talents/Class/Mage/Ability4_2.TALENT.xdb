@@ -195,12 +195,13 @@
 												<LoggingEvent>-1</LoggingEvent>
 												<providerName></providerName>
 												<sceneObjectIndex>
-													<compiledString></compiledString>
+													<compiledString>FQgAAAABAAAADAAAAG1hZ2VfUzUAVYvsaAAAAACLRQiLEItNCIuC6AEAAP/QD7bAXcM=</compiledString>
 													<returnType>int</returnType>
-													<sString>0</sString>
+													<sString>sender.IsSkinUsed( "mage_S5" )</sString>
 												</sceneObjectIndex>
 												<sceneObjects>
 													<Item href="/Summons/Demon/_.SOBJ" />
+													<Item href="/Summons/Chicken/_Bmage2.SOBJ" />
 												</sceneObjects>
 												<startCondition>
 													<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>

@@ -65,6 +65,16 @@
 			<vars>
 				<Item href="/Items/Talents/Class/Ratcatcher/const_Hero_Mesmerize_Time" />
 				<Item href="/Items/Talents/Class/Ratcatcher/const_Hero_Mesmerize_Movement" />
+				<Item href="/Items/Talents/Class/Ratcatcher/Ability4_Upg.TALENT" id="2679AB09-70C7-40DB-8DDF-CDD547F7113F">
+					<UnitConstant>
+						<name>A4u_DMG</name>
+						<var>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAABYQgAAyEM=</compiledString>
+							<returnType>float</returnType>
+							<sString>damageScale(sIntellect, 54, 400)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

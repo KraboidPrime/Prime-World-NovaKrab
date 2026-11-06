@@ -434,15 +434,45 @@
 												<targetSelector href="" />
 											</SpellApplicator>
 										</Item>
+										<Item href="/Items/Talents/Class/Demonolog/Ability3.TALENT" id="E4F6FC93-937D-456F-B4D3-0C03478F9F30">
+											<PermanentStatModApplicator>
+												<applyTarget>ApplicatorTarget</applyTarget>
+												<caption></caption>
+												<customApplyType>None</customApplyType>
+												<enabled>
+													<compiledString>FQ0AAAABAAAAEQAAAGRlbW9ub2xvZ19TMwBVi+xoAAAAAItFCIsQi00Ii4LoAQAA/9Bdww==</compiledString>
+													<returnType>bool</returnType>
+													<sString>sender.IsSkinUsed( "demonolog_S3" )</sString>
+												</enabled>
+												<formulaName></formulaName>
+												<LoggingEvent>-1</LoggingEvent>
+												<modifier>
+													<addValue>
+														<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+														<returnType>float</returnType>
+														<sString>1.0f</sString>
+													</addValue>
+													<multValue>
+														<compiledString></compiledString>
+														<returnType>float</returnType>
+														<sString>1.0f</sString>
+													</multValue>
+													<stat>Life</stat>
+													<topModifier>false</topModifier>
+													<variable>YaHueyu</variable>
+												</modifier>
+												<providerName></providerName>
+											</PermanentStatModApplicator>
+										</Item>
 									</applicators>
 									<applyTarget>AbilityOwner</applyTarget>
 									<behaviour href="/Items/Talents/Class/Demonolog/Ability3.TALENT" id="F03D59D5-4C86-4D45-9254-DD6E86BBE60A">
 										<SummonBehaviourCommon>
 											<comment>common behaviour - demons</comment>
 											<lashRange>
-												<compiledString>FQAAAAAEAAAAFQAAAEUAAABLAAAAYQAAAFWL7IPsEItFDIsQi00Mi0IU/9DcHZIAAADf4PbEQXUGxkX/AesExkX/AFHZ6NkcJFHZ7tkcJA+2Tf9R6FoAAACDxAzcDYIAAADcBXoAAACLVQiLAotNCItQFN1d9P/S3CVyAAAA3EX02V3w2UXwi+VdwwAAAAAAACxAAAAAAAAAFEAAAAAAAAAcQAAAAAAAAIA/AAAAAAAAJEBVi+xRD7ZFCIXAdAjZRQzZXfzrBtlFENld/NlF/IvlXcM=</compiledString>
+												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQQ==</compiledString>
 												<returnType>float</returnType>
-												<sString>5 + 7 * s(rRange &gt; 10, 0, 1)+(sRange-14)</sString>
+												<sString>8</sString>
 											</lashRange>
 											<maxCount>
 												<compiledString>FQ0AAAABAAAAGQAAAEEwX01heERlbW9ucwBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0lHZHCToBQAAAIPEBF3DuAEAAAAPovfCAAAABHQH8w8sRCQEw+kAAAAAVYvsg+wM2UUI2X38D7dF/A0ADAAAiUX42W3421302W38i0X0i+Vdww==</compiledString>
@@ -454,7 +484,7 @@
 												<returnType>int</returnType>
 												<sString>0</sString>
 											</maxThisCount>
-											<responseRange>21</responseRange>
+											<responseRange>12</responseRange>
 											<responseTime>3</responseTime>
 											<summonType>Primary</summonType>
 											<targetingParams href="" />
@@ -498,12 +528,13 @@
 										</life>
 									</spawnStats>
 									<summonedUnitIndex>
-										<compiledString></compiledString>
+										<compiledString>FQ0AAAABAAAAEQAAAGRlbW9ub2xvZ19TMwBVi+xoAAAAAItFCIsQi00Ii4LoAQAA/9APtsBdww==</compiledString>
 										<returnType>int</returnType>
-										<sString>0</sString>
+										<sString>sender.IsSkinUsed( "demonolog_S3" )</sString>
 									</summonedUnitIndex>
 									<summonedUnits>
 										<Item href="/Summons/Demon2/_.SUMMONED" />
+										<Item href="/Summons/Demon2/_2.SUMMONED" />
 									</summonedUnits>
 									<summonedUnitsCount>
 										<compiledString></compiledString>

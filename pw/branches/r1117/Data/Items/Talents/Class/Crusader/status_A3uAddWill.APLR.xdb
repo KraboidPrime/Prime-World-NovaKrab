@@ -117,9 +117,9 @@
 		<Item href="" />
 	</effect>
 	<enabled>
-		<compiledString>FS8AAAAFAAAANgAAAE8AAACFAAAAmwAAALUAAABDcnVzYWRlcl9BM3UAAAAAQ3J1c2FkZXJfQTN1AAAAAFZhbXBSZXNTdGFydGVkAFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdEVoIAAAAItVCIsCi00Ii5CIAQAA/9LcHd8AAADf4PbERHoji0UQixCLTRCLQhz/0Nwd1wAAAN/g9sREewnHRfQBAAAA6wfHRfQAAAAAikX0i+VdwwAAAAAAAPA/AAAAAAAAAAA=</compiledString>
+		<compiledString>FVAAAAAHAAAAVwAAAHAAAACqAAAAwAAAANoAAADmAAAA/wAAAENydXNhZGVyX0EzdQAAAABDcnVzYWRlcl9BM3UAAAAAVmFtcFJlc1N0YXJ0ZWQAAENydXNhZGVyX0EzX1NVUABDcnVzYWRlcl9BM19TVVAAVYvsg+wUaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hckPhJQAAABoIAAAAItVCIsCi00Ii5CIAQAA/9LcHVMBAADf4PbERHpyi0UQixCLTRCLQhz/0NwdSwEAAN/g9sREek9oMAAAAItNCIsRi00Ii4KoAQAA/9CFwHQqaEAAAACLTQiLEYtNCIuCqAEAAP/QiUX0i030ixGLTfSLQgT/0IhF8+sExkXzAA+2TfOFyXQJx0XsAQAAAOsHx0XsAAAAAIpF7IvlXcMAAAAAAADwPwAAAAAAAAAA</compiledString>
 		<returnType>bool</returnType>
-		<sString>tal("Crusader_A3u") &amp;&amp; sender.vVampResStarted == 0 &amp;&amp; mPreparedness != 1.0f</sString>
+		<sString>tal("Crusader_A3u") &amp;&amp; sender.vVampResStarted == 0 &amp;&amp; (mPreparedness != 1.0f || tal("Crusader_A3_SUP"))</sString>
 	</enabled>
 	<flags>64</flags>
 	<formulaName></formulaName>

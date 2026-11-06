@@ -16,7 +16,7 @@
 		<Item href="/Items/Talents/Level4/status_G774_SeeInvis.APLR" id="731E2BF1-DC3D-4A89-918D-10E1EDDDD960">
 			<SpellPeriodicallyApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
-				<behaviorFlags>0</behaviorFlags>
+				<behaviorFlags>152</behaviorFlags>
 				<caption>Периодически наносим урон врагам</caption>
 				<effect>
 					<Item href="" />

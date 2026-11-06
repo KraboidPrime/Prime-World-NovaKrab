@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EnableDisableSCEvents>
+			<disableEvents />
+	<enableEvents>
+		<Item href="/Heroes/Demonolog/S3/Traces.EDEV" id="7889E665-5431-4203-A915-6E63F5FA5E85">
+			<AnimationSCEvent>
+				<animParam>0.5</animParam>
+				<name>idle1</name>
+				<probability>100</probability>
+				<type>NodeParam</type>
+			</AnimationSCEvent>
+		</Item>
+		<Item href="/Heroes/Demonolog/S3/Traces.EDEV" id="258616EB-0F1B-4BA0-8E81-93D4C09579CA">
+			<AnimationSCEvent>
+				<animParam>0.5</animParam>
+				<name>idle2</name>
+				<probability>100</probability>
+				<type>NodeParam</type>
+			</AnimationSCEvent>
+		</Item>
+		<Item href="/Heroes/Demonolog/S3/Traces.EDEV" id="8BB82AE8-04F6-407A-8067-EC2622B85EBD">
+			<AnimationSCEvent>
+				<animParam>0.5</animParam>
+				<name>idle3</name>
+				<probability>100</probability>
+				<type>NodeParam</type>
+			</AnimationSCEvent>
+		</Item>
+		<Item href="/Heroes/Demonolog/S3/Traces.EDEV" id="CB57F243-B9E4-4E97-B1C3-A76AF8EC3D86">
+			<AnimationSCEvent>
+				<animParam>0.45</animParam>
+				<name>move1</name>
+				<probability>100</probability>
+				<type>NodeParam</type>
+			</AnimationSCEvent>
+		</Item>
+		<Item href="/Heroes/Demonolog/S3/Traces.EDEV" id="19EA3636-876B-4D13-8365-6725C7678AD0">
+			<AnimationSCEvent>
+				<animParam>0.3</animParam>
+				<name>move2</name>
+				<probability>100</probability>
+				<type>NodeParam</type>
+			</AnimationSCEvent>
+		</Item>
+		<Item href="/Heroes/Demonolog/S3/Traces.EDEV" id="C5612A1F-7842-4CEC-A7A3-9DBF21CA9EE7">
+			<AnimationSCEvent>
+				<animParam>0.77</animParam>
+				<name>move2</name>
+				<probability>100</probability>
+				<type>NodeParam</type>
+			</AnimationSCEvent>
+		</Item>
+		<Item href="/Heroes/Demonolog/S3/Traces.EDEV" id="C9A1E013-06D7-4063-BD5F-D89D667694C2">
+			<AnimationSCEvent>
+				<animParam>0</animParam>
+				<name>doFire</name>
+				<probability>100</probability>
+				<type>Marker</type>
+			</AnimationSCEvent>
+		</Item>
+		<Item href="/Heroes/Demonolog/S3/Traces.EDEV" id="6D1CA514-FBB0-44BB-ACE3-6ADAC5D4CE90">
+			<AnimationSCEvent>
+				<animParam>0.4</animParam>
+				<name>death</name>
+				<probability>100</probability>
+				<type>NodeParam</type>
+			</AnimationSCEvent>
+		</Item>
+		<Item href="/Heroes/Demonolog/S3/Traces.EDEV" id="86A4F75E-4F3B-4ED3-9605-5C59D2D0073F">
+			<AnimationSCEvent>
+				<animParam>0</animParam>
+				<name>doCast1</name>
+				<probability>100</probability>
+				<type>Marker</type>
+			</AnimationSCEvent>
+		</Item>
+		<Item href="/Heroes/Demonolog/S3/Traces.EDEV" id="B2158796-46F0-4AA5-AD4B-1FD3652417DB">
+			<AnimationSCEvent>
+				<animParam>0</animParam>
+				<name>doCast2</name>
+				<probability>100</probability>
+				<type>Marker</type>
+			</AnimationSCEvent>
+		</Item>
+		<Item href="/Heroes/Demonolog/S3/Traces.EDEV" id="EC23DE61-D7F3-4CA9-A8C3-385923039CD1">
+			<AnimationSCEvent>
+				<animParam>0</animParam>
+				<name>doCast4</name>
+				<probability>100</probability>
+				<type>Marker</type>
+			</AnimationSCEvent>
+		</Item>
+		<Item href="/Heroes/Demonolog/S3/Traces.EDEV" id="A4556248-A061-4890-86EF-312C451EF028">
+			<AnimationSCEvent>
+				<animParam>0</animParam>
+				<name>blocked</name>
+				<probability>100</probability>
+				<type>NodeParam</type>
+			</AnimationSCEvent>
+		</Item>
+		<Item href="/Heroes/Demonolog/S3/Traces.EDEV" id="B7716F1F-72A6-457E-8BD2-3F1EE3C6D75C">
+			<AnimationSCEvent>
+				<animParam>0</animParam>
+				<name>stun</name>
+				<probability>100</probability>
+				<type>NodeParam</type>
+			</AnimationSCEvent>
+		</Item>
+		<Item href="/Heroes/Demonolog/S3/Traces.EDEV" id="EDE0BAB8-C3FD-4AFB-B4DA-9C639C41A586">
+			<AnimationSCEvent>
+				<animParam>0</animParam>
+				<name>happy</name>
+				<probability>100</probability>
+				<type>NodeParam</type>
+			</AnimationSCEvent>
+		</Item>
+	</enableEvents>
+	<order>EnableThenDisable</order>
+	<restartComponent>false</restartComponent>
+</EnableDisableSCEvents>

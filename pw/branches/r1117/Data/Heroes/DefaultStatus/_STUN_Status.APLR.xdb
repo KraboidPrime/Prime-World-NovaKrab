@@ -12,13 +12,12 @@
 	<BackLink DBID="/Creeps/Normals/Normal5/AttackAbility.ATCK" Count="1" />
 	<BackLink DBID="/Creeps/Normals/Normal6/HarpoonProgram.APLR" Count="1" />
 	<BackLink DBID="/Creeps/Normals/Normal7/PvE_Coop1.CREEP" Count="1" />
-	<BackLink DBID="/Heroes/BladeDancer/_.HROB" Count="1" />
+	<BackLink DBID="/Heroes/Bladedancer/_.HROB" Count="1" />
 	<BackLink DBID="/Heroes/Chronicle/spell_atk.APLR" Count="1" />
 	<BackLink DBID="/Heroes/DefaultStatus/List_AllControlAppl.APLS" Count="1" />
 	<BackLink DBID="/Heroes/DefaultStatus/List_AllControlStatusesWithoutSlow.APLS" Count="1" />
 	<BackLink DBID="/Heroes/Ent/AttackAbility.ATCK" Count="1" />
-	<BackLink DBID="/Heroes/IronKnight/_.HROB" Count="1" />
-	<BackLink DBID="/Heroes/Shaman/_.HROB" Count="1" />
+	<BackLink DBID="/Heroes/Ironknight/_.HROB" Count="1" />
 	<BackLink DBID="/Items/Consumables/Snowball.ARCT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Angel/Ability_A3.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Archeress/Ability_A4.TALENT" Count="1" />
@@ -101,6 +100,9 @@
 	<BackLink DBID="/Items/Talents/Level3/G552_PhantomBase.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level2/G470_Str_Int.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level5/G260_Str_Life.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/arbik_elf/Ability_A2.TALENT" Count="14" />
+	<BackLink DBID="/Items/Talents/Class/arbik_elf/arbik_A3_BombExpl.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/arbik_elf/angel_Summon_A3_Pick2.APLR" Count="1" />
 	<applicators>
 		<Item href="/Heroes/DefaultStatus/_STUN.APLR" />
 		<Item href="/Heroes/DefaultStatus/_STUN_Status.APLR" id="24D40B45-6F9C-41C0-AC2C-F5CC8C76A195">
@@ -139,7 +141,7 @@
 		<sString>-1.0</sString>
 	</customProgress>
 	<description textref="/Heroes/DefaultStatus/_STUN_Status.APLR_description.txt" />
-	<dispellPriority>Medium</dispellPriority>
+	<dispellPriority>High</dispellPriority>
 	<effect>
 		<Item href="" />
 		<Item href="" />

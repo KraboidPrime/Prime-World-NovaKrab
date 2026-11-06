@@ -17,5 +17,9 @@
 		<state name="archeress_S6">
 			<component href="/Effects/Shots/Arrow/_SquallTRS_S6.PRXY" />
 		</state>
+		<state name="shadow_S2">
+			<component href="/Effects/Shots/Arrow/_SpearShadow2TRS.PRXY" />
+			<fadeIn>0.15</fadeIn>
+		</state>
 	</__states>
 </BasicEffectStandalone>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<EffectList>
+	<BackLink DBID="/Items/Talents/Class/Reaper/status_A3_BattleRageAoE.APLR" Count="1" />
+	<deathType>Manual</deathType>
+	<effects>
+		<Item href="/Effects/Shots/MeleeHit/_DarkBlood.EFFT" />
+	</effects>
+	<enableCondition href="" />
+	<lifeTime>0</lifeTime>
+</EffectList>

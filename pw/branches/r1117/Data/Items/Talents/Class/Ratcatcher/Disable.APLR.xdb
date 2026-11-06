@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <FlagsApplicator>
-	<BackLink DBID="/Items/Talents/Class/Ratcatcher/status_A4_Bewitched.APLR" Count="1" />
 	<applyTarget>ApplicatorTarget</applyTarget>
 	<behaviorFlags>145</behaviorFlags>
 	<caption>Silence and Talent Disable</caption>

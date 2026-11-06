@@ -187,6 +187,16 @@
 				<Item href="/Items/Talents/Class/Fluffy/const_A4_A4_2_CDR" />
 				<Item href="/Items/Talents/Class/Fluffy/const_A4_A4_2_Rage_Reduce" />
 				<Item href="/Items/Talents/Class/Fluffy/const_A4_A4_2_Inc_Heal" />
+				<Item href="/Items/Talents/Class/Fluffy/Ability_A0.TALENT" id="6A9877FF-E704-408B-9584-7438CF361826">
+					<UnitConstant>
+						<name>Decrease_TimeControl</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQg==</compiledString>
+							<returnType>float</returnType>
+							<sString>40.0f</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

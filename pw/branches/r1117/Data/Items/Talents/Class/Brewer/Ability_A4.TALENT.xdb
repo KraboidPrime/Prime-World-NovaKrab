@@ -238,9 +238,9 @@
 					<UnitConstant>
 						<name>A4_Damage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACgQgAAFkQ=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAACwQgAAJUQ=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(sStrength,80,600)</sString>
+							<sString>damageScale(sStrength,88,660)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -263,9 +263,9 @@
 					<UnitConstant>
 						<name>A4_cd_land</name>
 						<var>
-							<compiledString>FRcAAAACAAAAUwAAAGwAAABCcmV3ZXJfQTR1AABCcmV3ZXJfQTR1AFWL7IPsDFaLRQiLEItNCItCTP/Qi/CLTQiLEYtNCIuCkAEAAP/QO/APlMEPttGF0nQJx0X8PAAAAOtYaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgMAAAAi00IixGLTQiLgqgBAAD/0IlF+ItN+IsRi034i0IE/9CIRffrBMZF9wAPtk3399kbyYPh7IPBPIlN/NtF/F6L5V3D</compiledString>
+							<compiledString>FRcAAAACAAAAUwAAAGwAAABCcmV3ZXJfQTR1AABCcmV3ZXJfQTR1AFWL7IPsDFaLRQiLEItNCItCTP/Qi/CLTQiLEYtNCIuCkAEAAP/QO/APlMEPttGF0nQJx0X8RgAAAOtYaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgMAAAAi00IixGLTQiLgqgBAAD/0IlF+ItN+IsRi034i0IE/9CIRffrBMZF9wAPtk3399kbyYPh7IPBRolN/NtF/F6L5V3D</compiledString>
 							<returnType>float</returnType>
-							<sString>nt( true, false) ?  60 : (tal("Brewer_A4u") ? 40 : 60)</sString>
+							<sString>nt( true, false) ?  70 : (tal("Brewer_A4u") ? 50 : 70)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -316,9 +316,9 @@
 	<isUltimateTalent>true</isUltimateTalent>
 	<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
 	<manaCost>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAB6Qw==</compiledString>
+		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 		<returnType>float</returnType>
-		<sString>250.0f</sString>
+		<sString>0.0f</sString>
 	</manaCost>
 	<marker>doCast4</marker>
 	<microAI href="/Items/Talents/Class/Brewer/Ability_A4.TALENT" id="B502D0BC-AC07-42C4-A789-7AC3BDF9686C">

@@ -5,7 +5,16 @@
 	<attachType>Backpack</attachType>
 	<component href="/Heroes/Gunner/fx_glow.PRXY" />
 	<deathType>Manual</deathType>
-	<enableCondition href="" />
+	<enableCondition href="/Heroes/Bomber/FX_Ability4.EFFT" id="8C6C5E21-3FAA-4016-A5D0-24C8153F203B">
+		<ConditionFormula>
+			<condition>
+				<compiledString>FQoAAAABAAAADgAAAGJvbWJlcl9TMQBVi+xoAAAAAItFCIsQi00Ii4LoAQAA/9APtsD32BvAg8ABXcM=</compiledString>
+				<returnType>bool</returnType>
+				<sString>!sender.IsSkinUsed( "bomber_S1" )</sString>
+			</condition>
+			<name></name>
+		</ConditionFormula>
+	</enableCondition>
 	<fadeIn>0.1</fadeIn>
 	<fadeOut>0.1</fadeOut>
 	<groupFlags>0</groupFlags>

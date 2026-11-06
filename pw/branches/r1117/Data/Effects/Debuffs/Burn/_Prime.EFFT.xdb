@@ -2,7 +2,6 @@
 <BasicEffectAttached>
 	<BackLink DBID="/Effects/Debuffs/Burn/_Prime.EFFT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Trickster/Ability1.TALENT" Count="2" />
-	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A0.TALENT" Count="2" />
 	<attachFlags>1</attachFlags>
 	<attachType>Body</attachType>
 	<component href="/Effects/Debuffs/Burn/_Prime.PRXY" />
@@ -15,6 +14,10 @@
 	<__states>
 		<state name="trickster_S1">
 			<component href="/Effects/Debuffs/Burn/_Prime_S1.PRXY" />
+		</state>
+			
+			<state name="trickster_S2">
+			<component href="/Heroes/Trickster/S2/Effects/Debuffs/Burn/_Prime.PRXY" />
 		</state>
 	</__states>
 </BasicEffectAttached>

@@ -24,6 +24,7 @@
 	<BackLink DBID="/Summons/Trap2/_.SUMMONED" Count="1" />
 	<BackLink DBID="/Summons/Trap2/_Rifleman_A3_SUP.SUMMONED" Count="1" />
 	<BackLink DBID="/Summons/Turret/_.SUMMONED" Count="1" />
+	<BackLink DBID="/Items/Consumables/status_Eye.APLR" Count="1" />
 	<applyTarget>ApplicatorTarget</applyTarget>
 	<behaviorFlags>0</behaviorFlags>
 	<caption>IgnorableTarget</caption>

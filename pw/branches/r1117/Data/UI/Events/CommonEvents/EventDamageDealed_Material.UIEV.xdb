@@ -326,6 +326,11 @@
 	<BackLink DBID="/Summons/Demon/Attack1.ATCK" Count="1" />
 	<BackLink DBID="/Items/Talents/Level2/G492_DMG.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Stalker/Ability_A4.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level1/G1005_Predator.TALENT" Count="1" />
+	<BackLink DBID="/Summons/Turret/_Emergency.SUMMONED" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Naga/status_A4_2_NewEnemy.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Marine/A2_Damages.APLR" Count="1" />
+	<BackLink DBID="/Heroes/arbik_elf/_.ATCK" Count="2" />
 	<signRecipients>EVENT_PARTICIPANTS</signRecipients>
 	<UISigns>
 		<Item href="/UI/Events/CommonEvents/EventDamageDealed_Material.UIEV" id="056252F1-C640-4D83-8686-0E833A2DD99E">

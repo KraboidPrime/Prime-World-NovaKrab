@@ -334,9 +334,9 @@
 																<sString>-1.0</sString>
 															</delay>
 															<stopCondition>
-																<compiledString>FR8AAAACAAEAJgAAAEMAAAAoAQAAQWJpbGl0eVRhcmdldAAAAEE0X01heEhpdFJhbmdlAFWL7IPsIGgAAAAAi0UQixCLTRCLQkz/0IlF7ItNDFGLVQhSaBAAAACLRRCLEItNEItCUP/QjU34UYtV7IsCi03si5CMAQAA3V3k/9JQjUXwUItNCIsRi00Ii4KMAQAA/9BQ6CQAAACDxAjcXeTf4PbEQXUJx0XgAQAAAOsHx0XgAAAAAIpF4IvlXcNVi+yD7BSLRQjZQASLTQzYYQTZXfTZRfRR2Rwki1UI2QKLRQzYINld8NlF8FHZHCSNTfjoVwAAANlF+NhN+NlF/NhN/N7B2V3s2UXsUdkcJOgHAAAAg8QEi+Vdw1WL7FHZRQjZHCToBQAAAIPEBF3DVYvsUdlFCIPsCN0cJOiw/v//g8QI2V382UX8i+Vdw1WL7FGJTfyLRfzZRQjZGItN/NlFDNlZBItF/IvlXcIIAA==</compiledString>
+																<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 																<returnType>bool</returnType>
-																<sString>d( sPos, appl.oAbilityTarget.Pos ) &gt; cA4_MaxHitRange</sString>
+																<sString>0</sString>
 															</stopCondition>
 															<stopEvents>0</stopEvents>
 														</Item>

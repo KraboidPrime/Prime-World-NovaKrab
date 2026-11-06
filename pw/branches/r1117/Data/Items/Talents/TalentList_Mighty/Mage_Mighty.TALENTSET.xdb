@@ -2,6 +2,7 @@
 <TalentsSet>
 	<BackLink DBID="/Heroes/Mage/_.HROB" Count="1" />
 	<BackLink DBID="/Heroes/Chicken/_.HROB" Count="1" />
+	<BackLink DBID="/Heroes/arbik_elf/_.HROB" Count="1" />
 	<levels>
 		<Item>
 			<talents>

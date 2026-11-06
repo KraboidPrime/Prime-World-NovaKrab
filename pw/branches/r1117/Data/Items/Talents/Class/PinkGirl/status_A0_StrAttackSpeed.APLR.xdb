@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StatusApplicator>
+	<BackLink DBID="/Heroes/Pinkgirl/_.HROB" Count="1" />
+	<applicators>
+		<Item href="/Items/Talents/Class/PinkGirl/status_A0_StrAttackSpeed.APLR" id="C6902458-E471-4395-A64F-219D6F0782C6">
+			<StatModApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>Заводная: увеличение количества атак в секунду</caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FRIAAAAFAAAAIQAAADQAAAA/AAAAWAAAAF4AAABBMF9TdHJBdHRhY2tTcGVlZABVi+yD7BCLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0twNnQAAANno3sFR2QWRAAAA2Rwki0UIixCLTQiLQhzdXfj/0NwNiQAAANwFgQAAANld9NlF9FHZHCToNAAAAIPECNxN+Nld8NlF8IvlXcMAAAAAKVzfPwAAAOCa5m0/AAAAQAAAAAAAAPA/AAAAQOF6hD9Vi+xR2UUI2UUM3tnf4PbEQXUI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
+						<returnType>float</returnType>
+						<sString>(1 + cA0_StrAttackSpeed * 0.01f) * min(sAttackSpeed * 0.00365f + 0.49f, 2)</sString>
+					</addValue>
+					<multValue>
+						<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+						<returnType>float</returnType>
+						<sString>0</sString>
+					</multValue>
+					<stat>Life</stat>
+					<topModifier>false</topModifier>
+					<variable>ExplicitAttacksPerSecond</variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
+		</Item>
+	</applicators>
+	<applyTarget>AbilityOwner</applyTarget>
+	<behaviorFlags>0</behaviorFlags>
+	<caption>Заводная: ускорение атаки</caption>
+	<customCounter>
+		<compiledString></compiledString>
+		<returnType>int</returnType>
+		<sString>0</sString>
+	</customCounter>
+	<customProgress>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>-1.0</sString>
+	</customProgress>
+	<description textref="/Items/Talents/Class/PinkGirl/status_A0_StrAttackSpeed.APLR_description.txt" />
+	<dispellPriority>Low</dispellPriority>
+	<effect>
+		<Item href="" />
+		<Item href="" />
+	</effect>
+	<enabled>
+		<compiledString></compiledString>
+		<returnType>bool</returnType>
+		<sString>true</sString>
+	</enabled>
+	<flags>0</flags>
+	<formulaName></formulaName>
+	<image href="/UI/Styles/Icons/Heroes/PinkGirl/A0.ITEX" />
+	<lifeTime>
+		<compiledString>FRMAAAABAAAAHwAAAEEwX1N0ckJ1ZmZEdXJhdGlvbgBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+		<returnType>float</returnType>
+		<sString>cA0_StrBuffDuration</sString>
+	</lifeTime>
+	<LoggingEvent>-1</LoggingEvent>
+	<name textref="/Items/Talents/Class/PinkGirl/status_A0_StrAttackSpeed.APLR_name.txt" />
+	<power>0</power>
+	<providerName></providerName>
+	<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+	<stackCount>0</stackCount>
+	<startCondition>
+		<compiledString>FTkAAAAEAAAASAAAAFsAAABnAAAAgAAAAFN0dW5fU3RhcnRDb25kaXRpb24AUGlua0dpcmxfQTBfU1VQMgAAAABQaW5rR2lybF9BMF9TVVAyAFWL7IPsDItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S3B3MAAAA3+D2xER7WGgUAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoKAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdAnHRfQBAAAA6wfHRfQAAAAAikX0i+VdwwAAAAAAAAAA</compiledString>
+		<returnType>bool</returnType>
+		<sString>cStun_StartCondition &amp;&amp; tal("PinkGirl_A0_SUP2")</sString>
+	</startCondition>
+	<statusPosition>0</statusPosition>
+	<stopBehaviour>StopByTime</stopBehaviour>
+	<unstackableWith href="" />
+</StatusApplicator>

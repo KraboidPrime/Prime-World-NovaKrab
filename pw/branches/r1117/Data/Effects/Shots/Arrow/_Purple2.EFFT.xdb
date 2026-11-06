@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BasicEffectStandalone>
 	<BackLink DBID="/Effects/Shots/Arrow/_Purple2.EFFT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/arbik_elf/Ability_A2.TALENT" Count="1" />
 	<component href="/Effects/Shots/Arrow/_Purple2TRS.PRXY" />
 	<deathType>Manual</deathType>
 	<enableCondition href="" />

@@ -306,9 +306,9 @@
 																							<applicator href="/Items/Talents/Class/Freeze/Ability_A1.TALENT" id="80358A0F-E6C0-4C2B-A34F-DF9DD551C103">
 																								<TriggerApplicator>
 																									<actionsCount>
-																										<compiledString></compiledString>
+																										<compiledString>FQAAAAAAAAAAVYvsuAEAAABdww==</compiledString>
 																										<returnType>int</returnType>
-																										<sString>0</sString>
+																										<sString>1</sString>
 																									</actionsCount>
 																									<applyTarget>AbilityOwner</applyTarget>
 																									<behaviorFlags>187</behaviorFlags>

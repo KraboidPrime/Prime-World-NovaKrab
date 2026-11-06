@@ -288,7 +288,7 @@
 										<Item>
 											<applicator href="/Items/Talents/Class/FallenAngel/status_A2u_StackCountCooldown.APLR" />
 											<continueCondition>
-												<compiledString></compiledString>
+												<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 												<returnType>bool</returnType>
 												<sString>0</sString>
 											</continueCondition>
@@ -299,7 +299,7 @@
 												<sString>-1.0</sString>
 											</delay>
 											<stopCondition>
-												<compiledString></compiledString>
+												<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 												<returnType>bool</returnType>
 												<sString>0</sString>
 											</stopCondition>
@@ -337,7 +337,7 @@
 												</PermanentStatModApplicator>
 											</applicator>
 											<continueCondition>
-												<compiledString></compiledString>
+												<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 												<returnType>bool</returnType>
 												<sString>0</sString>
 											</continueCondition>
@@ -348,7 +348,7 @@
 												<sString>-1.0</sString>
 											</delay>
 											<stopCondition>
-												<compiledString></compiledString>
+												<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 												<returnType>bool</returnType>
 												<sString>0</sString>
 											</stopCondition>

@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Spell>
+	<BackLink DBID="/Items/Talents/Level1/G1005_Predator.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Level3/G1007_CorneredBeast.TALENT" Count="1" />
+	<applicators>
+		<Item href="/Items/Talents/TalentKits/Redset10_6_OpenHunt/program_PredatorSelf.SPLL" id="1E3A22FA-E0DE-4229-8C4E-EC3A1EA77F5B">
+			<HealApplicator>
+				<amount>
+					<compiledString>FS8AAAACAAAAPgAAAFAAAABQcmVkYXRvckRhbWFnZVBlckNoYXJnZQBHMTAwNV9QcmVkYXRvckNoYXJnZXMyAFWL7IPsDItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SaBgAAACLRQiLEItNCIuCiAEAAN1d+P/Q3E342V302UX0i+Vdww==</compiledString>
+					<returnType>float</returnType>
+					<sString>cPredatorDamagePerCharge * sender.vG1005_PredatorCharges2</sString>
+				</amount>
+				<applyTarget>AbilityOwner</applyTarget>
+				<caption>Health</caption>
+				<enabled>
+					<compiledString>FRcAAAACAAAAHAAAADIAAABHMTAwNV9QcmVkYXRvckNoYXJnZXMyAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHVQAAADf4PbEQXUJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAAAA==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vG1005_PredatorCharges2 &gt; 0</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<healTarget>Health</healTarget>
+				<ignoreHealingMods>false</ignoreHealingMods>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<uiEvent href="/UI/Events/CommonEvents/EventHeal.UIEV" />
+			</HealApplicator>
+		</Item>
+		<Item href="/Items/Talents/TalentKits/Redset10_6_OpenHunt/program_PredatorSelf.SPLL" id="C8949765-BAB9-4B5B-AFBB-9F77D34BEF7C">
+			<SpellApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<caption></caption>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<spell href="/Items/Talents/TalentKits/Redset10_6_OpenHunt/program_PredatorSelf.SPLL" id="544A377D-7954-41A7-B3E6-73B479D3405E">
+					<Spell>
+						<applicators>
+							<Item href="/GameLogic/GeneralApplicators/DispellWEffects.APLR" />
+						</applicators>
+						<dispatch href="/Items/Talents/TalentKits/Redset10_6_OpenHunt/program_PredatorSelf.SPLL" id="F22C2295-B35A-4E92-8360-4A902AE4C8AC">
+							<DispatchImmediate>
+								<alwaysApply>false</alwaysApply>
+								<applyEffect>
+									<Item href="" />
+									<Item href="" />
+								</applyEffect>
+								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+								<applyEffectOrientation>Default</applyEffectOrientation>
+								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+								<dieAfterApply>true</dieAfterApply>
+								<dispatchEffect>
+									<Item href="" />
+									<Item href="" />
+								</dispatchEffect>
+								<flags>0</flags>
+								<instantApply>false</instantApply>
+							</DispatchImmediate>
+						</dispatch>
+					</Spell>
+				</spell>
+				<spellTarget>AbilityOwner</spellTarget>
+				<targetSelector href="" />
+			</SpellApplicator>
+		</Item>
+		<Item href="/Items/Talents/TalentKits/Redset10_6_OpenHunt/program_PredatorSelf.SPLL" id="9D330A00-7510-4DDD-97C8-53CC29A3577B">
+			<PermanentStatModApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<caption>Consume Predator charges</caption>
+				<customApplyType>None</customApplyType>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+						<returnType>float</returnType>
+						<sString>0.0f</sString>
+					</addValue>
+					<multValue>
+						<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+						<returnType>float</returnType>
+						<sString>0.0f</sString>
+					</multValue>
+					<stat>Life</stat>
+					<topModifier>false</topModifier>
+					<variable>G1005_PredatorCharges2</variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+	</applicators>
+	<dispatch href="/Items/Talents/TalentKits/Redset10_6_OpenHunt/program_PredatorSelf.SPLL" id="2D3E0E79-D7E5-4507-9E9B-77653C706520">
+		<DispatchImmediate>
+			<alwaysApply>false</alwaysApply>
+			<applyEffect>
+				<Item href="/Effects/Buffs/Regen/_.EFFT" />
+				<Item href="" />
+			</applyEffect>
+			<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+			<applyEffectOrientation>Default</applyEffectOrientation>
+			<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+			<dieAfterApply>true</dieAfterApply>
+			<dispatchEffect>
+				<Item href="" />
+				<Item href="" />
+			</dispatchEffect>
+			<flags>0</flags>
+			<instantApply>false</instantApply>
+		</DispatchImmediate>
+	</dispatch>
+</Spell>

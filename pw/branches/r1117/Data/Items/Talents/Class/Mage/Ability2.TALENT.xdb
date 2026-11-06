@@ -696,6 +696,7 @@
 																								</StatusApplicator>
 																							</Item>
 																							<Item href="/Items/Talents/Class/Mage/ReplaceSOBJ.APLR" />
+																							<Item href="/Items/Talents/Class/Mage/ReplaceSOBJpig.APLR" />
 																						</applicators>
 																						<applyTarget>ApplicatorTarget</applyTarget>
 																						<behaviorFlags>147</behaviorFlags>
@@ -742,9 +743,9 @@
 																							<Item href="" />
 																						</effect>
 																						<enabled>
-																							<compiledString></compiledString>
+																							<compiledString>FRwAAAAEAAAAIQAAADcAAABDAAAAWQAAAEltbXVuZTJDb250cm9sAABUcmFuc2Zvcm1lZABVi+xRaAAAAACLRQyLEItNDIuCiAEAAP/Q3B17AAAA3+D2xER6K2gQAAAAi00MixGLTQyLgogBAAD/0NwdewAAAN/g9sREegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAAA</compiledString>
 																							<returnType>bool</returnType>
-																							<sString>true</sString>
+																							<sString>receiver.vImmune2Control == 0 &amp;&amp; receiver.vTransformed == 0</sString>
 																						</enabled>
 																						<flags>0</flags>
 																						<formulaName></formulaName>
@@ -790,7 +791,7 @@
 																			</Item>
 																		</applicators>
 																		<applyTarget>ApplicatorTarget</applyTarget>
-																		<behaviorFlags>0</behaviorFlags>
+																		<behaviorFlags>144</behaviorFlags>
 																		<caption>аое хекс</caption>
 																		<effect>
 																			<Item href="" />
@@ -810,9 +811,9 @@
 																		<LoggingEvent>-1</LoggingEvent>
 																		<providerName></providerName>
 																		<startCondition>
-																			<compiledString></compiledString>
+																			<compiledString>FSgAAAAFAAAALQAAAEMAAABPAAAAZQAAAHcAAABJbW11bmUyQ29udHJvbAAAVHJhbnNmb3JtZWQAU3RhdHVzSGV4ZWQAVYvsUWgAAAAAi0UMixCLTQyLgogBAAD/0NwdpwAAAN/g9sREektoEAAAAItNDIsRi00Mi4KIAQAA/9DcHacAAADf4PbERHopagCLTRBRaBwAAACLVQyLAotNDIuQnAEAAP/SO0UQdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAAA</compiledString>
 																			<returnType>bool</returnType>
-																			<sString>true</sString>
+																			<sString>receiver.vImmune2Control == 0 &amp;&amp; receiver.vTransformed == 0 &amp;&amp; receiver.applStatusHexed(GLOBAL) == pMisc</sString>
 																		</startCondition>
 																	</ProgramApplicator>
 																</Item>
@@ -881,7 +882,7 @@
 																		<Item href="" />
 																	</dispatchEffect>
 																	<flags>0</flags>
-																	<instantApply>true</instantApply>
+																	<instantApply>false</instantApply>
 																</DispatchImmediate>
 															</dispatch>
 														</Spell>
@@ -900,7 +901,7 @@
 																<returnType>float</returnType>
 																<sString>(cRange_Melee+2)</sString>
 															</range>
-															<targetFilter>672137279</targetFilter>
+															<targetFilter>679739455</targetFilter>
 															<targetSelector href="/Items/Talents/Class/Mage/Ability2.TALENT" id="0EA5EEFF-5A39-4C01-9F07-A8F00384A94B">
 																<SelectApplicatorTarget>
 																	<applicatorIndex>0</applicatorIndex>
@@ -1390,9 +1391,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQQ==</compiledString>
+		<compiledString>FRgAAAACAAAAHwAAADgAAABNYWdlX0EyX1NVUABNYWdlX0EyX1NVUABVi+yD7AxoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaAwAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2Tfv32RvJg+H9g8EPiU3020X0i+Vdww==</compiledString>
 		<returnType>float</returnType>
-		<sString>15</sString>
+		<sString>tal("Mage_A2_SUP") ? 12 : 15</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>
@@ -1481,7 +1482,7 @@
 	<shortDescription textref="/Items/Talents/Class/Mage/Ability2.TALENT_shortDescription.txt" />
 	<talentRollGroups>63</talentRollGroups>
 	<talentStats />
-	<targetType>538705983</targetType>
+	<targetType>671350847</targetType>
 	<type>Channelling</type>
 	<upgradeLevel>0</upgradeLevel>
 	<useRange>

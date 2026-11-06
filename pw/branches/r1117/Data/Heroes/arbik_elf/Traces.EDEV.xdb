@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EnableDisableSCEvents>
+	<BackLink DBID="/Heroes/arbik_elf/_.SOBJ" Count="1" />
+	<disableEvents />
+	<enableEvents>
+		<Item href="/Heroes/arbik_elf/Traces.EDEV" id="0C8B1B7F-D5F4-4E2B-AC03-84412CD651D5">
+			<AnimationSCEvent>
+				<animParam>0.3</animParam>
+				<name>move1</name>
+				<probability>100</probability>
+				<type>NodeParam</type>
+			</AnimationSCEvent>
+		</Item>
+		<Item href="/Heroes/arbik_elf/Traces.EDEV" id="CB131A4B-E0F4-4CF7-A74D-1882FB7D7EF8">
+			<AnimationSCEvent>
+				<animParam>0.166</animParam>
+				<name>move2</name>
+				<probability>100</probability>
+				<type>NodeParam</type>
+			</AnimationSCEvent>
+		</Item>
+		<Item href="/Heroes/arbik_elf/Traces.EDEV" id="8416CC08-6B84-49C1-A850-41C9BC675E1D">
+			<AnimationSCEvent>
+				<animParam>0.5</animParam>
+				<name>move2</name>
+				<probability>100</probability>
+				<type>NodeParam</type>
+			</AnimationSCEvent>
+		</Item>
+		<Item href="/Heroes/arbik_elf/Traces.EDEV" id="8AE3B7C3-EF9E-4679-9707-D2D3C24907EB">
+			<AnimationSCEvent>
+				<animParam>0.833</animParam>
+				<name>move2</name>
+				<probability>100</probability>
+				<type>NodeParam</type>
+			</AnimationSCEvent>
+		</Item>
+		<Item href="/Heroes/arbik_elf/Traces.EDEV" id="BD220D43-8C7C-499C-9FFE-66D99E6E6D1B">
+			<AnimationSCEvent>
+				<animParam>0</animParam>
+				<name>idle1</name>
+				<probability>100</probability>
+				<type>NodeParam</type>
+			</AnimationSCEvent>
+		</Item>
+		<Item href="/Heroes/arbik_elf/Traces.EDEV" id="4F903306-B7FF-4B65-BA54-D6249FD52B72">
+			<AnimationSCEvent>
+				<animParam>0.1</animParam>
+				<name>idle2</name>
+				<probability>100</probability>
+				<type>NodeParam</type>
+			</AnimationSCEvent>
+		</Item>
+		<Item href="/Heroes/arbik_elf/Traces.EDEV" id="DD66783A-E410-45E7-B67D-7CA2B1FB8A1D">
+			<AnimationSCEvent>
+				<animParam>0.6</animParam>
+				<name>idle2</name>
+				<probability>100</probability>
+				<type>NodeParam</type>
+			</AnimationSCEvent>
+		</Item>
+		<Item href="/Heroes/arbik_elf/Traces.EDEV" id="06F362AB-9A38-4C40-9414-5670726D696A">
+			<AnimationSCEvent>
+				<animParam>0</animParam>
+				<name>idle3</name>
+				<probability>100</probability>
+				<type>NodeParam</type>
+			</AnimationSCEvent>
+		</Item>
+		<Item href="/Heroes/arbik_elf/Traces.EDEV" id="73925C48-DEE0-4082-9AD3-4425C63A1EB8">
+			<AnimationSCEvent>
+				<animParam>0.5</animParam>
+				<name>idle3</name>
+				<probability>100</probability>
+				<type>NodeParam</type>
+			</AnimationSCEvent>
+		</Item>
+		<Item href="/Heroes/arbik_elf/Traces.EDEV" id="69E2B558-6B7B-49DB-8399-907718844BA4">
+			<AnimationSCEvent>
+				<animParam>0</animParam>
+				<name>doFire</name>
+				<probability>100</probability>
+				<type>Marker</type>
+			</AnimationSCEvent>
+		</Item>
+		<Item href="/Heroes/arbik_elf/Traces.EDEV" id="5DB5D948-CDB5-45C6-914B-92A74D68AB3F">
+			<AnimationSCEvent>
+				<animParam>0</animParam>
+				<name>death</name>
+				<probability>100</probability>
+				<type>NodeParam</type>
+			</AnimationSCEvent>
+		</Item>
+		<Item href="/Heroes/arbik_elf/Traces.EDEV" id="BAFDCC32-8D9D-4658-BE25-64D8D2CFDBFB">
+			<AnimationSCEvent>
+				<animParam>0.2</animParam>
+				<name>ability1</name>
+				<probability>100</probability>
+				<type>NodeParam</type>
+			</AnimationSCEvent>
+		</Item>
+		<Item href="/Heroes/arbik_elf/Traces.EDEV" id="079497CD-96B5-4016-B3AE-0BF2DEE128A3">
+			<AnimationSCEvent>
+				<animParam>0</animParam>
+				<name>doCast2</name>
+				<probability>100</probability>
+				<type>Marker</type>
+			</AnimationSCEvent>
+		</Item>
+		<Item href="/Heroes/arbik_elf/Traces.EDEV" id="FB87B47C-45D8-4D53-A7D0-B928F55A83AB">
+			<AnimationSCEvent>
+				<animParam>0</animParam>
+				<name>blocked</name>
+				<probability>100</probability>
+				<type>NodeParam</type>
+			</AnimationSCEvent>
+		</Item>
+		<Item href="/Heroes/arbik_elf/Traces.EDEV" id="355ADC13-0FA6-46C1-B0D9-8E34D7C6E770">
+			<AnimationSCEvent>
+				<animParam>0.5</animParam>
+				<name>ability4</name>
+				<probability>100</probability>
+				<type>NodeParam</type>
+			</AnimationSCEvent>
+		</Item>
+		<Item href="/Heroes/arbik_elf/Traces.EDEV" id="2E3EBA8B-8A1F-4E48-B04B-94339DD1CDDB">
+			<AnimationSCEvent>
+				<animParam>0</animParam>
+				<name>channeling</name>
+				<probability>100</probability>
+				<type>NodeParam</type>
+			</AnimationSCEvent>
+		</Item>
+		<Item href="/Heroes/arbik_elf/Traces.EDEV" id="5BF5B9F4-4219-4507-BE6A-279CA66D270D">
+			<AnimationSCEvent>
+				<animParam>0</animParam>
+				<name>stun</name>
+				<probability>100</probability>
+				<type>NodeParam</type>
+			</AnimationSCEvent>
+		</Item>
+		<Item href="/Heroes/arbik_elf/Traces.EDEV" id="94763F2E-6A07-453B-8F6D-165F0E66B6EF">
+			<AnimationSCEvent>
+				<animParam>0</animParam>
+				<name>happy</name>
+				<probability>100</probability>
+				<type>NodeParam</type>
+			</AnimationSCEvent>
+		</Item>
+	</enableEvents>
+	<order>EnableThenDisable</order>
+	<restartComponent>true</restartComponent>
+</EnableDisableSCEvents>

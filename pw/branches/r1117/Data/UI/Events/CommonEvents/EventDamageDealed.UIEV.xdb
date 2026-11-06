@@ -54,6 +54,10 @@
 	<BackLink DBID="/Items/Talents/Level6/G124_Str_Energy.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level1/G129_Str.TALENT" Count="1" />
 	<BackLink DBID="/Items/Consumables/SUPPORT.ARCT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/arbik_elf/Ability_A4_2.TALENT" Count="8" />
+	<BackLink DBID="/Items/Talents/Class/arbik_elf/arbik_A3_BombExpl.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/arbik_elf/angel_Summon_A3_Pick2.APLR" Count="1" />
+	<BackLink DBID="/Heroes/arbik_elf/_.ATCK" Count="4" />
 	<signRecipients>EVENT_PARTICIPANTS</signRecipients>
 	<UISigns>
 		<Item href="/UI/Events/CommonEvents/EventDamageDealed.UIEV" id="00B3EB47-25ED-4F60-8A69-8807269EE6D0">

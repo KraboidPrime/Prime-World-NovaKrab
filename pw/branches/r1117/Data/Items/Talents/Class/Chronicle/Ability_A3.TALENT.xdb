@@ -201,7 +201,7 @@
 										<Item>
 											<applicator href="/Items/Talents/Class/Chronicle/status_A3_Timetravel.APLR" />
 											<continueCondition>
-												<compiledString></compiledString>
+												<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 												<returnType>bool</returnType>
 												<sString>0</sString>
 											</continueCondition>
@@ -212,7 +212,7 @@
 												<sString>0</sString>
 											</delay>
 											<stopCondition>
-												<compiledString></compiledString>
+												<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 												<returnType>bool</returnType>
 												<sString>0</sString>
 											</stopCondition>
@@ -221,7 +221,7 @@
 										<Item>
 											<applicator href="" />
 											<continueCondition>
-												<compiledString></compiledString>
+												<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 												<returnType>bool</returnType>
 												<sString>0</sString>
 											</continueCondition>
@@ -232,7 +232,7 @@
 												<sString>cA3_Delay - 0.1f</sString>
 											</delay>
 											<stopCondition>
-												<compiledString></compiledString>
+												<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 												<returnType>bool</returnType>
 												<sString>0</sString>
 											</stopCondition>
@@ -264,7 +264,7 @@
 												</TeleportApplicator>
 											</applicator>
 											<continueCondition>
-												<compiledString></compiledString>
+												<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 												<returnType>bool</returnType>
 												<sString>0</sString>
 											</continueCondition>
@@ -275,7 +275,7 @@
 												<sString>-1.0</sString>
 											</delay>
 											<stopCondition>
-												<compiledString></compiledString>
+												<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 												<returnType>bool</returnType>
 												<sString>0</sString>
 											</stopCondition>
@@ -353,13 +353,13 @@
 				</targetSelector>
 			</SpellApplicator>
 		</Item>
-		<Item href="/Items/Talents/Class/Chronicle/Ability_A3.TALENT" id="447A4052-FC07-49C3-9A73-FEA202BEE24A">
+		<Item href="/Items/Talents/Class/Chronicle/Ability_A3.TALENT" id="9C1E8D7A-49D7-4E75-A2D8-BD04097F40D1">
 			<ProgramApplicator>
 				<applicators>
 					<Item>
 						<applicator href="" />
 						<continueCondition>
-							<compiledString></compiledString>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 							<returnType>bool</returnType>
 							<sString>0</sString>
 						</continueCondition>
@@ -370,7 +370,101 @@
 							<sString>cA3_Delay</sString>
 						</delay>
 						<stopCondition>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+							<returnType>bool</returnType>
+							<sString>0</sString>
+						</stopCondition>
+						<stopEvents>0</stopEvents>
+					</Item>
+					<Item>
+						<applicator href="/Items/Talents/Class/Chronicle/Ability_A3.TALENT" id="5FEBD74F-2CF9-4A6C-94C2-4A67AD8106B5">
+							<DamageApplicator>
+								<applyTarget>ApplicatorTarget</applyTarget>
+								<cancelInvisibility>false</cancelInvisibility>
+								<caption>repeat remembered damage</caption>
+								<damage>
+									<compiledString>FSkAAAACAAAANQAAAEsAAABBM19EYW1hZ2VDYXAAAAAAQ2hyb25pY2xlX0EzX0RhbWFnZVRha2VuAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SUdkcJGgQAAAAi0UMixCLTQyLgogBAAD/0FHZHCToBQAAAIPECF3DVYvsUdlFCNlFDN7Z3+D2xEF1CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
+									<returnType>float</returnType>
+									<sString>min(receiver.vChronicle_A3_DamageTaken, cA3_DamageCap)</sString>
+								</damage>
+								<damageMode>0</damageMode>
+								<damageType>Energy</damageType>
+								<enabled>
+									<compiledString>FUsAAAAHAAAAewAAAJEAAACnAAAAwQAAANcAAADpAAAACQEAAENocm9uaWNsZV9BM19EYW1hZ2VUYWtlbgAAAABUaW1ldHJhdmVsAABJbW11bmUyQ29udHJvbAAAVGhyb3cAAABUaHJvd19KdW1wAFWL7FFWi0UIixCLTQiLgpABAAD/0Ivwi00MixGLTQyLgpABAAD/0DvwD4SxAAAAaAAAAACLTQyLEYtNDIuCiAEAAP/Q3B06AQAA3+D2xEEPhYsAAABqAItNEFFoHAAAAItVDIsCi00Mi5CcAQAA/9I7RRB0a2goAAAAi0UMixCLTQyLgogBAAD/0NwdOgEAAN/g9sREeklqAItNEFFoOAAAAItVDIsCi00Mi5CcAQAA/9I7RRB1KWoAi0UQUGhAAAAAi00MixGLTQyLgpwBAAD/0DtFEHUJx0X8AQAAAOsHx0X8AAAAAIpF/F6L5V3DAAAAAAAAAAA=</compiledString>
+									<returnType>bool</returnType>
+									<sString>sFctn != rFctn &amp;&amp; receiver.vChronicle_A3_DamageTaken &gt; 0 &amp;&amp; receiver.applTimetravel(GLOBAL) != pMisc &amp;&amp; receiver.vImmune2Control == 0 &amp;&amp; receiver.applThrow(GLOBAL) == pMisc &amp;&amp; receiver.applThrow_Jump(GLOBAL) == pMisc</sString>
+								</enabled>
+								<formulaName></formulaName>
+								<LoggingEvent>-1</LoggingEvent>
+								<providerName></providerName>
+								<timeLimiter>-1</timeLimiter>
+								<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Energy.UIEV" />
+							</DamageApplicator>
+						</applicator>
+						<continueCondition>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+							<returnType>bool</returnType>
+							<sString>0</sString>
+						</continueCondition>
+						<continueEvents>2</continueEvents>
+						<delay>
 							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>-1.0</sString>
+						</delay>
+						<stopCondition>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+							<returnType>bool</returnType>
+							<sString>0</sString>
+						</stopCondition>
+						<stopEvents>0</stopEvents>
+					</Item>
+				</applicators>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>152</behaviorFlags>
+				<caption>repeat remembered damage program</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+			</ProgramApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/Chronicle/Ability_A3.TALENT" id="447A4052-FC07-49C3-9A73-FEA202BEE24A">
+			<ProgramApplicator>
+				<applicators>
+					<Item>
+						<applicator href="" />
+						<continueCondition>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+							<returnType>bool</returnType>
+							<sString>0</sString>
+						</continueCondition>
+						<continueEvents>2</continueEvents>
+						<delay>
+							<compiledString>FQkAAAABAAAAFQAAAEEzX0RlbGF5AFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+							<returnType>float</returnType>
+							<sString>cA3_Delay</sString>
+						</delay>
+						<stopCondition>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 							<returnType>bool</returnType>
 							<sString>0</sString>
 						</stopCondition>
@@ -408,7 +502,7 @@
 							</PermanentStatModApplicator>
 						</applicator>
 						<continueCondition>
-							<compiledString></compiledString>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 							<returnType>bool</returnType>
 							<sString>0</sString>
 						</continueCondition>
@@ -419,7 +513,7 @@
 							<sString>-1.0</sString>
 						</delay>
 						<stopCondition>
-							<compiledString></compiledString>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 							<returnType>bool</returnType>
 							<sString>0</sString>
 						</stopCondition>
@@ -457,7 +551,7 @@
 							</PermanentStatModApplicator>
 						</applicator>
 						<continueCondition>
-							<compiledString></compiledString>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 							<returnType>bool</returnType>
 							<sString>0</sString>
 						</continueCondition>
@@ -468,7 +562,7 @@
 							<sString>-1.0</sString>
 						</delay>
 						<stopCondition>
-							<compiledString></compiledString>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 							<returnType>bool</returnType>
 							<sString>0</sString>
 						</stopCondition>
@@ -526,7 +620,7 @@
 																	</DamageApplicator>
 																</applicator>
 																<continueCondition>
-																	<compiledString></compiledString>
+																	<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 																	<returnType>bool</returnType>
 																	<sString>0</sString>
 																</continueCondition>
@@ -537,7 +631,7 @@
 																	<sString>-1.0</sString>
 																</delay>
 																<stopCondition>
-																	<compiledString></compiledString>
+																	<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 																	<returnType>bool</returnType>
 																	<sString>0</sString>
 																</stopCondition>
@@ -569,7 +663,7 @@
 																	</DamageApplicator>
 																</applicator>
 																<continueCondition>
-																	<compiledString></compiledString>
+																	<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 																	<returnType>bool</returnType>
 																	<sString>0</sString>
 																</continueCondition>
@@ -589,7 +683,7 @@
 															<Item>
 																<applicator href="" />
 																<continueCondition>
-																	<compiledString></compiledString>
+																	<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 																	<returnType>bool</returnType>
 																	<sString>0</sString>
 																</continueCondition>
@@ -600,7 +694,7 @@
 																	<sString>0.1</sString>
 																</delay>
 																<stopCondition>
-																	<compiledString></compiledString>
+																	<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 																	<returnType>bool</returnType>
 																	<sString>0</sString>
 																</stopCondition>
@@ -609,7 +703,7 @@
 															<Item>
 																<applicator href="/Heroes/DefaultStatus/_STUN_Status.APLR" />
 																<continueCondition>
-																	<compiledString></compiledString>
+																	<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 																	<returnType>bool</returnType>
 																	<sString>0</sString>
 																</continueCondition>
@@ -620,7 +714,7 @@
 																	<sString>-1.0</sString>
 																</delay>
 																<stopCondition>
-																	<compiledString></compiledString>
+																	<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 																	<returnType>bool</returnType>
 																	<sString>0</sString>
 																</stopCondition>
@@ -713,7 +807,7 @@
 							</SpellSwitchApplicator>
 						</applicator>
 						<continueCondition>
-							<compiledString></compiledString>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 							<returnType>bool</returnType>
 							<sString>0</sString>
 						</continueCondition>
@@ -724,7 +818,7 @@
 							<sString>-1.0</sString>
 						</delay>
 						<stopCondition>
-							<compiledString></compiledString>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 							<returnType>bool</returnType>
 							<sString>0</sString>
 						</stopCondition>
@@ -835,6 +929,16 @@
 							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
 							<returnType>float</returnType>
 							<sString>5</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Chronicle/Ability_A3.TALENT" id="8DB9456D-60D2-41E2-B725-28A50720866E">
+					<UnitConstant>
+						<name>A3_DamageCap</name>
+						<var>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoAi00QixGLTRCLQmD/0F3DAABEQgAAr0M=</compiledString>
+							<returnType>float</returnType>
+							<sString>abilityScale(sIntellect, 49, 350)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

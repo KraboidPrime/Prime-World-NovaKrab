@@ -923,6 +923,7 @@
 	<heroSkins>
 		<Item href="/Heroes/Demonolog/S1/_.HEROSKIN" />
 		<Item href="/Heroes/Demonolog/S2/_.HEROSKIN" />
+		<Item href="/Heroes/Demonolog/S3/_.HEROSKIN" />
 	</heroSkins>
 	<id>demonolog</id>
 	<image href="" />
@@ -1274,6 +1275,10 @@
 		</Item>
 		<Item>
 			<unitA href="/Summons/Trap/_.SUMMONED" />
+			<unitB href="" />
+		</Item>
+		<Item>
+			<unitA href="/Summons/Demon2/_2.SUMMONED" />
 			<unitB href="" />
 		</Item>
 	</summonedUnits>

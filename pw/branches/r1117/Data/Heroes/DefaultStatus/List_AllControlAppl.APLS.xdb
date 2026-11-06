@@ -7,7 +7,6 @@
 	<BackLink DBID="/Items/Talents/Level5/G063_Life-Int-DispellAoE.TALENT" Count="2" />
 	<applicatorLists />
 	<applicators>
-		<Item href="/Heroes/DefaultStatus/_BLIND_status.APLR" />
 		<Item href="/Heroes/DefaultStatus/_PANIC_status.APLR" />
 		<Item href="/Heroes/DefaultStatus/_ROOT_Status.APLR" />
 		<Item href="/Heroes/DefaultStatus/_SILENCE_Status.APLR" />
@@ -28,12 +27,20 @@
 		<Item href="/Items/Talents/Class/Alchemist/status_Slow_Alchemist_Glue.APLR" />
 		<Item href="/Heroes/DefaultStatus/_DISARM.APLR" />
 		<Item href="/Heroes/DefaultStatus/_TechSlow_status.APLR" />
-		<Item href="/Items/Talents/Class/SnowQueen/status_A0_FrozenHeart.APLR" />
 		<Item href="/Items/Talents/Class/Werewolf/program_A4_Transform.APLR" />
 		<Item href="/Items/Talents/Class/Mage/Hex.APLR" />
 		<Item href="/Items/Talents/Level5/program_G294HeroOff.APLR" />
 		<Item href="/Items/Talents/Level5/program_G661HeroOff_1.APLR" />
 		<Item href="/Items/Talents/Class/Shaman/A4_2_status.APLR" />
 		<Item href="/Items/Talents/Level5/G311_NEW_for_link_block.APLR" />
+		<Item href="/Heroes/DefaultStatus/_STUNsleep_Status.APLR" />
+		<Item href="/Items/Talents/Class/Fairy/A3_2_Fairy_Sleep.APLR" />
+		<Item href="/Items/Talents/Class/Naga/status_A4_2_NewEnemy.APLR" />
+		<Item href="/Items/Talents/Class/arbik_elf/Status_Culling.APLR" />
+		<Item href="/Heroes/DefaultStatus/_PANIC_DOCstatus.APLR" />
+		<Item href="/Items/Talents/Class/Banshee/status_A2.APLR" />
+		<Item href="/Items/Talents/Class/Vampire/status_A4_StunAndDPS.APLR" />
+		<Item href="/Items/Talents/Class/Marine/status_A4_2_stun.APLR" />
+		<Item href="/Items/Talents/Class/Invisible/status_A4_2_OnChain.APLR" />
 	</applicators>
 </ApplicatorsList>

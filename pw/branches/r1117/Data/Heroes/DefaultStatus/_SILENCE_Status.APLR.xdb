@@ -15,7 +15,7 @@
 	<BackLink DBID="/Items/Talents/Class/Fluffy/Ability_A2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/ThunderGod/Ability1.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/ThunderGod/Ability4.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/WraithKing/status_A4.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/WraithKing/status_A4.APLR" Count="3" />
 	<BackLink DBID="/Items/Talents/Class/Zealot/appl_A1A3_KatarProgram.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Level3/status_G547_CharmNet.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Level4/G044_Life-Silence.TALENT" Count="1" />
@@ -50,7 +50,7 @@
 		</Item>
 	</applicators>
 	<applyTarget>ApplicatorTarget</applyTarget>
-	<behaviorFlags>144</behaviorFlags>
+	<behaviorFlags>145</behaviorFlags>
 	<caption> -- Стандартный статус Silence (Silence_Duration)</caption>
 	<customCounter>
 		<compiledString></compiledString>
@@ -94,12 +94,5 @@
 	</startCondition>
 	<statusPosition>0</statusPosition>
 	<stopBehaviour>StopByTime</stopBehaviour>
-	<unstackableWith href="/Heroes/DefaultStatus/_SILENCE_Status.APLR" id="7BD0BE24-8220-44EF-92EF-112C21860434">
-		<ApplicatorsList>
-			<applicatorLists />
-			<applicators>
-				<Item href="/Items/Talents/Class/Faceless/status_A4_Horror.APLR" />
-			</applicators>
-		</ApplicatorsList>
-	</unstackableWith>
+	<unstackableWith href="" />
 </StatusApplicator>

@@ -60,6 +60,16 @@
 				<name>Reaper_StmOrWill</name>
 			</ConditionFormula>
 		</Item>
+		<Item href="/Items/Talents/Class/Reaper/Ability_A3.TALENT" id="AB41B15A-3D7D-426E-9AE5-8AFBFCEB15FC">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FR4AAAACAAAAJQAAAD4AAABSZWFwZXJfQTNfU1VQAAAAUmVhcGVyX0EzX1NVUABVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2Rfv32BvAg8ABi+Vdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("Reaper_A3_SUP") == false</sString>
+				</condition>
+				<name>Reaper_A3SUP</name>
+			</ConditionFormula>
+		</Item>
 	</conditionFormulas>
 	<conflictingTalents />
 	<constants href="/Items/Talents/Class/Reaper/Ability_A3.TALENT" id="E41949D5-4D5E-4DC8-8B60-B79D76F1A303">
@@ -128,6 +138,10 @@
 					</UnitConstant>
 				</Item>
 				<Item href="/Items/Talents/Class/Reaper/const_A3_MaxStacks" />
+				<Item href="/Items/Talents/Class/Reaper/const_A3_AoEDamagePerStack" />
+				<Item href="/Items/Talents/Class/Reaper/const_A3_AoEDamage" />
+				<Item href="/Items/Talents/Class/Reaper/const_A3_AoERange" />
+				<Item href="/Items/Talents/Class/Reaper/const_A3_AoEPeriod" />
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

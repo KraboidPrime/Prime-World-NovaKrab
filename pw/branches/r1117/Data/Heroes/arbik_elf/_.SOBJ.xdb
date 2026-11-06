@@ -1,0 +1,997 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DBSceneObject>
+	<BackLink DBID="/Heroes/arbik_elf/_.HROB" Count="2" />
+	<attached>
+		<Item>
+			<attachFlags>15</attachFlags>
+			<component href="/Heroes/arbik_elf/_.SOBJ" id="3B0C80C5-B986-415E-904F-DE0A4FE53BA1">
+				<DBAnimatedSceneComponent>
+					<aabb>
+						<maxX>1.2</maxX>
+						<maxY>1.2</maxY>
+						<maxZ>4</maxZ>
+						<minX>-1.2</minX>
+						<minY>-1.2</minY>
+						<minZ>0</minZ>
+					</aabb>
+					<additionalGraph href="" />
+					<animations>
+						<Item>
+							<animationFileName>/Heroes/arbik_elf/channeling.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/arbik_elf/channeling.mayaAnim</mayaFileName>
+							<name>channeling</name>
+							<srcFileName crc="0">/Heroes/arbik_elf/channeling.ma</srcFileName>
+						</Item>
+						<Item>
+							<animationFileName>/Heroes/arbik_elf/death.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/arbik_elf/death.mayaAnim</mayaFileName>
+							<name>death</name>
+							<srcFileName crc="0">/Heroes/arbik_elf/death.ma</srcFileName>
+						</Item>
+						<Item>
+							<animationFileName>/Heroes/arbik_elf/idle1.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/arbik_elf/idle1.mayaAnim</mayaFileName>
+							<name>idle1</name>
+							<srcFileName crc="0">/Heroes/arbik_elf/idle1.ma</srcFileName>
+						</Item>
+						<Item>
+							<animationFileName>/Heroes/arbik_elf/idle2.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/arbik_elf/idle2.mayaAnim</mayaFileName>
+							<name>idle2</name>
+							<srcFileName crc="0">/Heroes/arbik_elf/idle2.ma</srcFileName>
+						</Item>
+						<Item>
+							<animationFileName>/Heroes/arbik_elf/idle3.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/arbik_elf/idle3.mayaAnim</mayaFileName>
+							<name>idle3</name>
+							<srcFileName crc="0">/Heroes/arbik_elf/idle3.ma</srcFileName>
+						</Item>
+						<Item>
+							<animationFileName>/Heroes/arbik_elf/idle4.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/arbik_elf/idle4.mayaAnim</mayaFileName>
+							<name>idle4</name>
+							<srcFileName crc="0">/Heroes/arbik_elf/idle4.ma</srcFileName>
+						</Item>
+						<Item>
+							<animationFileName>/Heroes/arbik_elf/move1.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/arbik_elf/move1.mayaAnim</mayaFileName>
+							<name>move1</name>
+							<srcFileName crc="0">/Heroes/arbik_elf/move1.ma</srcFileName>
+						</Item>
+						<Item>
+							<animationFileName>/Heroes/arbik_elf/move2.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/arbik_elf/move2.mayaAnim</mayaFileName>
+							<name>move2</name>
+							<srcFileName crc="0">/Heroes/arbik_elf/move2.ma</srcFileName>
+						</Item>
+						<Item>
+							<animationFileName>/Heroes/arbik_elf/move3.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/arbik_elf/move3.mayaAnim</mayaFileName>
+							<name>move3</name>
+							<srcFileName crc="0">/Heroes/arbik_elf/move3.ma</srcFileName>
+						</Item>
+						<Item>
+							<animationFileName>/Heroes/arbik_elf/stun.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/arbik_elf/stun.mayaAnim</mayaFileName>
+							<name>stun</name>
+							<srcFileName crc="0">/Heroes/arbik_elf/stun.ma</srcFileName>
+						</Item>
+						<Item>
+							<animationFileName>/Heroes/arbik_elf/blocked.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/arbik_elf/blocked.mayaAnim</mayaFileName>
+							<name>blocked</name>
+							<srcFileName crc="0">/Heroes/arbik_elf/blocked.ma</srcFileName>
+						</Item>
+						<Item>
+							<animationFileName>/Heroes/arbik_elf/happy.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/arbik_elf/happy.mayaAnim</mayaFileName>
+							<name>happy</name>
+							<srcFileName crc="0">/Heroes/arbik_elf/happy.ma</srcFileName>
+						</Item>
+						<Item>
+							<animationFileName>/Heroes/arbik_elf/revive.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/arbik_elf/revive.mayaAnim</mayaFileName>
+							<name>revive</name>
+							<srcFileName crc="0">/Heroes/arbik_elf/revive.ma</srcFileName>
+						</Item>
+						<Item>
+							<animationFileName>/Heroes/arbik_elf/attack1.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/arbik_elf/attack1.mayaAnim</mayaFileName>
+							<name>attack1</name>
+							<srcFileName crc="0">/Heroes/arbik_elf/attack1.ma</srcFileName>
+						</Item>
+						<Item>
+							<animationFileName>/Heroes/arbik_elf/attack2.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/arbik_elf/attack2.mayaAnim</mayaFileName>
+							<name>attack2</name>
+							<srcFileName crc="0">/Heroes/arbik_elf/attack2.ma</srcFileName>
+						</Item>
+						<Item>
+							<animationFileName>/Heroes/arbik_elf/attack3.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/arbik_elf/attack3.mayaAnim</mayaFileName>
+							<name>attack3</name>
+							<srcFileName crc="0">/Heroes/arbik_elf/attack3.ma</srcFileName>
+						</Item>
+						<Item>
+							<animationFileName>/Heroes/arbik_elf/ability1.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/arbik_elf/ability1.mayaAnim</mayaFileName>
+							<name>ability1</name>
+							<srcFileName crc="0">/Heroes/arbik_elf/ability1.ma</srcFileName>
+						</Item>
+						<Item>
+							<animationFileName>/Heroes/arbik_elf/ability2.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/arbik_elf/ability2.mayaAnim</mayaFileName>
+							<name>ability2</name>
+							<srcFileName crc="0">/Heroes/arbik_elf/ability2.ma</srcFileName>
+						</Item>
+						<Item>
+							<animationFileName>/Heroes/arbik_elf/ability4.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/arbik_elf/ability4.mayaAnim</mayaFileName>
+							<name>ability4</name>
+							<srcFileName crc="0">/Heroes/arbik_elf/ability4.ma</srcFileName>
+						</Item>
+						<Item>
+							<animationFileName>/Heroes/arbik_elf/ability4.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/arbik_elf/ability4.mayaAnim</mayaFileName>
+							<name>ability4_1</name>
+							<srcFileName crc="0">/Heroes/arbik_elf/ability4.ma</srcFileName>
+						</Item>
+						<Item>
+							<animationFileName>/Heroes/arbik_elf/ability3.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/arbik_elf/ability3.mayaAnim</mayaFileName>
+							<name>ability3</name>
+							<srcFileName crc="0">/Heroes/arbik_elf/ability3.ma</srcFileName>
+						</Item>
+						<Item>
+							<animationFileName>/Heroes/arbik_elf/battleIdle.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/arbik_elf/battleIdle.mayaAnim</mayaFileName>
+							<name>battleIdle</name>
+							<srcFileName crc="0">/Heroes/arbik_elf/battleIdle.ma</srcFileName>
+						</Item>
+					</animations>
+					<animGraph href="/Heroes/arbik_elf/_.ANGR" />
+					<anims />
+					<attached>
+						<Item>
+							<attachFlags>3</attachFlags>
+							<component href="/Heroes/arbik_elf/Traces.TGSC" />
+							<events href="/Heroes/arbik_elf/Traces.EDEV" />
+							<id></id>
+							<locatorName></locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>19</attachFlags>
+							<component href="/Effects/General/Summon/_BlueTRS.PRXY" />
+							<events href="/Effects/General/Summon/_.EDEV" />
+							<id></id>
+							<locatorName>Ground</locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>19</attachFlags>
+							<component href="/Effects/General/Unsummon/_TRS.PRXY" />
+							<events href="/Effects/General/Unsummon/_.EDEV" />
+							<id></id>
+							<locatorName>Ground</locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>19</attachFlags>
+							<component href="/Effects/General/Revival/_TRS.PRXY" />
+							<events href="/Effects/General/Revival/_.EDEV" />
+							<id></id>
+							<locatorName>Ground</locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>15</attachFlags>
+							<component href="/Heroes/arbik_elf/FXAbility1.PRXY" />
+							<events href="/Heroes/arbik_elf/FXAbility1.EDEV" />
+							<id></id>
+							<locatorName>Attack</locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>15</attachFlags>
+							<component href="/Heroes/arbik_elf/_.SOBJ" id="6E45C967-EDEA-4DC5-8434-07C683672452">
+								<DBSoundSceneComponent>
+									<attached />
+									<caption>sound_attack1</caption>
+									<desc>
+										<eventName>Attack</eventName>
+										<groupName>Heroes/Arb</groupName>
+										<projectName>PF</projectName>
+									</desc>
+									<groupFlags>0</groupFlags>
+									<locatorList href="" />
+									<orientation>Default</orientation>
+									<timeInterval>0</timeInterval>
+								</DBSoundSceneComponent>
+							</component>
+							<events href="/Heroes/arbik_elf/_.SOBJ" id="91680F42-1B5C-4E8F-97B5-A2153159488B">
+								<EnableDisableSCEvents>
+									<disableEvents />
+									<enableEvents>
+										<Item href="/Heroes/arbik_elf/_.SOBJ" id="86533AB8-97FB-403C-92CF-4B371660EE80">
+											<AnimationSCEvent>
+												<animParam>0</animParam>
+												<name>attack1</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+									</enableEvents>
+									<order>EnableThenDisable</order>
+									<restartComponent>true</restartComponent>
+								</EnableDisableSCEvents>
+							</events>
+							<id></id>
+							<locatorName></locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>15</attachFlags>
+							<component href="/Heroes/arbik_elf/_.SOBJ" id="6E91CF0D-E9DE-4C52-82E2-AA955061E912">
+								<DBSoundSceneComponent>
+									<attached />
+									<caption>sound_attack2</caption>
+									<desc>
+										<eventName>Attack</eventName>
+										<groupName>Heroes/Arb</groupName>
+										<projectName>PF</projectName>
+									</desc>
+									<groupFlags>0</groupFlags>
+									<locatorList href="" />
+									<orientation>Default</orientation>
+									<timeInterval>0</timeInterval>
+								</DBSoundSceneComponent>
+							</component>
+							<events href="/Heroes/arbik_elf/_.SOBJ" id="E710A8C8-24F5-493A-9C59-3093ACBDF1D8">
+								<EnableDisableSCEvents>
+									<disableEvents />
+									<enableEvents>
+										<Item href="/Heroes/arbik_elf/_.SOBJ" id="C2AFBFE9-92DC-4F1E-A278-7C29DC36DDAE">
+											<AnimationSCEvent>
+												<animParam>0</animParam>
+												<name>attack2</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+									</enableEvents>
+									<order>EnableThenDisable</order>
+									<restartComponent>true</restartComponent>
+								</EnableDisableSCEvents>
+							</events>
+							<id></id>
+							<locatorName></locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>15</attachFlags>
+							<component href="/Heroes/arbik_elf/_.SOBJ" id="A0920893-05FE-4140-A51D-FF491C442E40">
+								<DBSoundSceneComponent>
+									<attached />
+									<caption>sound_attack3</caption>
+									<desc>
+										<eventName>Attack</eventName>
+										<groupName>Heroes/Arb</groupName>
+										<projectName>PF</projectName>
+									</desc>
+									<groupFlags>0</groupFlags>
+									<locatorList href="" />
+									<orientation>Default</orientation>
+									<timeInterval>0</timeInterval>
+								</DBSoundSceneComponent>
+							</component>
+							<events href="/Heroes/arbik_elf/_.SOBJ" id="E55E7C0D-A896-46CC-958F-B70959A54D5F">
+								<EnableDisableSCEvents>
+									<disableEvents />
+									<enableEvents>
+										<Item href="/Heroes/arbik_elf/_.SOBJ" id="E1A307B9-0369-45B5-9D27-164F4581571D">
+											<AnimationSCEvent>
+												<animParam>0</animParam>
+												<name>attack3</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+									</enableEvents>
+									<order>EnableThenDisable</order>
+									<restartComponent>true</restartComponent>
+								</EnableDisableSCEvents>
+							</events>
+							<id></id>
+							<locatorName></locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>15</attachFlags>
+							<component href="/Heroes/arbik_elf/_.SOBJ" id="FB5E8B60-5935-4C7A-B33A-2BB1C45F99FC">
+								<DBSoundSceneComponent>
+									<attached />
+									<caption>sound_ability1</caption>
+									<desc>
+										<eventName>AttackWhoosh</eventName>
+										<groupName>Heroes/Alchemy/Animation</groupName>
+										<projectName>PF</projectName>
+									</desc>
+									<groupFlags>0</groupFlags>
+									<locatorList href="" />
+									<orientation>Default</orientation>
+									<timeInterval>0</timeInterval>
+								</DBSoundSceneComponent>
+							</component>
+							<events href="/Heroes/arbik_elf/_.SOBJ" id="7B160515-5617-443F-9D27-608FF05E0AD4">
+								<EnableDisableSCEvents>
+									<disableEvents />
+									<enableEvents>
+										<Item href="/Heroes/arbik_elf/_.SOBJ" id="26C584FD-0552-4E5B-AC94-D343315D8372">
+											<AnimationSCEvent>
+												<animParam>0.05</animParam>
+												<name>ability1</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+									</enableEvents>
+									<order>EnableThenDisable</order>
+									<restartComponent>true</restartComponent>
+								</EnableDisableSCEvents>
+							</events>
+							<id></id>
+							<locatorName></locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>15</attachFlags>
+							<component href="/Heroes/arbik_elf/_.SOBJ" id="54A733DD-948E-4E4F-AAB4-D3D144C26972">
+								<DBSoundSceneComponent>
+									<attached />
+									<caption>sound_ability3</caption>
+									<desc>
+										<eventName>Abil3</eventName>
+										<groupName>Heroes/Arb</groupName>
+										<projectName>PF</projectName>
+									</desc>
+									<groupFlags>0</groupFlags>
+									<locatorList href="" />
+									<orientation>Default</orientation>
+									<timeInterval>0</timeInterval>
+								</DBSoundSceneComponent>
+							</component>
+							<events href="/Heroes/arbik_elf/_.SOBJ" id="34B3134C-8A58-48FD-B323-2E857074FD19">
+								<EnableDisableSCEvents>
+									<disableEvents />
+									<enableEvents>
+										<Item href="/Heroes/arbik_elf/_.SOBJ" id="00640481-F28E-4D18-982D-8823DAA37422">
+											<AnimationSCEvent>
+												<animParam>0</animParam>
+												<name>ability3</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+									</enableEvents>
+									<order>EnableThenDisable</order>
+									<restartComponent>true</restartComponent>
+								</EnableDisableSCEvents>
+							</events>
+							<id></id>
+							<locatorName></locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>15</attachFlags>
+							<component href="/Heroes/arbik_elf/_.SOBJ" id="D50E2346-DCAF-47B9-B09E-CB2C8FE8A321">
+								<DBSoundSceneComponent>
+									<attached />
+									<caption>sound_move1</caption>
+									<desc>
+										<eventName>Move</eventName>
+										<groupName>Heroes/SnowQueen/Animation</groupName>
+										<projectName>PF</projectName>
+									</desc>
+									<groupFlags>0</groupFlags>
+									<locatorList href="" />
+									<orientation>Default</orientation>
+									<timeInterval>0</timeInterval>
+								</DBSoundSceneComponent>
+							</component>
+							<events href="/Heroes/arbik_elf/_.SOBJ" id="712B936C-8073-4BE4-ACA9-B8D4A700598A">
+								<EnableDisableSCEvents>
+									<disableEvents />
+									<enableEvents>
+										<Item href="/Heroes/arbik_elf/_.SOBJ" id="A0DED834-8F70-461E-B505-9A7EF94E0AE0">
+											<AnimationSCEvent>
+												<animParam>0</animParam>
+												<name>move1</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+									</enableEvents>
+									<order>EnableThenDisable</order>
+									<restartComponent>true</restartComponent>
+								</EnableDisableSCEvents>
+							</events>
+							<id></id>
+							<locatorName></locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>15</attachFlags>
+							<component href="/Heroes/arbik_elf/_.SOBJ" id="48BE44CA-56B5-4AD0-9209-0D38005B1A26">
+								<DBSoundSceneComponent>
+									<attached />
+									<caption>sound_move1</caption>
+									<desc>
+										<eventName>Move</eventName>
+										<groupName>Heroes/SnowQueen/Animation</groupName>
+										<projectName>PF</projectName>
+									</desc>
+									<groupFlags>0</groupFlags>
+									<locatorList href="" />
+									<orientation>Default</orientation>
+									<timeInterval>0</timeInterval>
+								</DBSoundSceneComponent>
+							</component>
+							<events href="/Heroes/arbik_elf/_.SOBJ" id="28CC2CF4-F820-4672-B173-C8AC241FDE2F">
+								<EnableDisableSCEvents>
+									<disableEvents />
+									<enableEvents>
+										<Item href="/Heroes/arbik_elf/_.SOBJ" id="EE1745F6-13F8-49CA-8195-974C4F103AF9">
+											<AnimationSCEvent>
+												<animParam>0.5</animParam>
+												<name>move1</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+									</enableEvents>
+									<order>EnableThenDisable</order>
+									<restartComponent>true</restartComponent>
+								</EnableDisableSCEvents>
+							</events>
+							<id></id>
+							<locatorName></locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>15</attachFlags>
+							<component href="/Heroes/arbik_elf/_.SOBJ" id="227650E9-C38D-42CC-8B8F-C5A103FD353D">
+								<DBSoundSceneComponent>
+									<attached />
+									<caption>sound_ability2</caption>
+									<desc>
+										<eventName>Stalker_A2_Attack</eventName>
+										<groupName>Heroes/Stalker</groupName>
+										<projectName>PF</projectName>
+									</desc>
+									<groupFlags>0</groupFlags>
+									<locatorList href="" />
+									<orientation>Default</orientation>
+									<timeInterval>0</timeInterval>
+								</DBSoundSceneComponent>
+							</component>
+							<events href="/Heroes/arbik_elf/_.SOBJ" id="7F6A091F-248D-4C72-8A99-056DCCB79360">
+								<EnableDisableSCEvents>
+									<disableEvents />
+									<enableEvents>
+										<Item href="/Heroes/arbik_elf/_.SOBJ" id="FE611AA5-D445-4580-964D-C9D6A7D9D21C">
+											<AnimationSCEvent>
+												<animParam>0</animParam>
+												<name>ability2</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+									</enableEvents>
+									<order>EnableThenDisable</order>
+									<restartComponent>true</restartComponent>
+								</EnableDisableSCEvents>
+							</events>
+							<id></id>
+							<locatorName></locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>15</attachFlags>
+							<component href="/Heroes/arbik_elf/_.SOBJ" id="FEEEEE30-F3E8-4990-82B2-35D77C0DBD53">
+								<DBSoundSceneComponent>
+									<attached />
+									<caption>sound_move2</caption>
+									<desc>
+										<eventName>Move</eventName>
+										<groupName>Heroes/SnowQueen/Animation</groupName>
+										<projectName>PF</projectName>
+									</desc>
+									<groupFlags>0</groupFlags>
+									<locatorList href="" />
+									<orientation>Default</orientation>
+									<timeInterval>0</timeInterval>
+								</DBSoundSceneComponent>
+							</component>
+							<events href="/Heroes/arbik_elf/_.SOBJ" id="7F7AB4CE-5814-4CE3-8FF2-D4BFF220BB68">
+								<EnableDisableSCEvents>
+									<disableEvents />
+									<enableEvents>
+										<Item href="/Heroes/arbik_elf/_.SOBJ" id="5F80B5CA-3C55-452D-A963-8B909B717850">
+											<AnimationSCEvent>
+												<animParam>0</animParam>
+												<name>move2</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+									</enableEvents>
+									<order>EnableThenDisable</order>
+									<restartComponent>true</restartComponent>
+								</EnableDisableSCEvents>
+							</events>
+							<id></id>
+							<locatorName></locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>15</attachFlags>
+							<component href="/Heroes/arbik_elf/_.SOBJ" id="B975B969-C08F-434F-8BD4-21B560019A57">
+								<DBSoundSceneComponent>
+									<attached />
+									<caption>sound_move2</caption>
+									<desc>
+										<eventName>Move</eventName>
+										<groupName>Heroes/SnowQueen/Animation</groupName>
+										<projectName>PF</projectName>
+									</desc>
+									<groupFlags>0</groupFlags>
+									<locatorList href="" />
+									<orientation>Default</orientation>
+									<timeInterval>0</timeInterval>
+								</DBSoundSceneComponent>
+							</component>
+							<events href="/Heroes/arbik_elf/_.SOBJ" id="9F55452D-66A9-47BD-B313-FF9C2968C11B">
+								<EnableDisableSCEvents>
+									<disableEvents />
+									<enableEvents>
+										<Item href="/Heroes/arbik_elf/_.SOBJ" id="A35BE672-641F-4910-9254-B826C65E603E">
+											<AnimationSCEvent>
+												<animParam>0.5</animParam>
+												<name>move2</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+									</enableEvents>
+									<order>EnableThenDisable</order>
+									<restartComponent>true</restartComponent>
+								</EnableDisableSCEvents>
+							</events>
+							<id></id>
+							<locatorName></locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>15</attachFlags>
+							<component href="/Heroes/arbik_elf/hima_FXAbility3.PRXY" />
+							<events href="/Heroes/arbik_elf/_.SOBJ" id="42A53606-52C9-4808-8BD8-C6A5E7FB9103">
+								<EnableDisableSCEvents>
+									<disableEvents>
+										<Item href="/Heroes/arbik_elf/_.SOBJ" id="A9A612A4-4D47-4EE8-8DC6-BA156D992AF7">
+											<AnimationSCEvent>
+												<animParam>0</animParam>
+												<name>doCast4</name>
+												<probability>100</probability>
+												<type>Marker</type>
+											</AnimationSCEvent>
+										</Item>
+									</disableEvents>
+									<enableEvents>
+										<Item href="/Heroes/arbik_elf/_.SOBJ" id="EFAE4C66-7AF4-45C3-BEDD-62BBE6CB0C09">
+											<AnimationSCEvent>
+												<animParam>0</animParam>
+												<name>ability4</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+									</enableEvents>
+									<order>EnableThenDisable</order>
+									<restartComponent>true</restartComponent>
+								</EnableDisableSCEvents>
+							</events>
+							<id></id>
+							<locatorName>Attack</locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1.1</x>
+									<y>1.1</y>
+									<z>1.1</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+					</attached>
+					<caption></caption>
+					<faceFXAnims />
+					<groupFlags>4</groupFlags>
+					<keys />
+					<locatorList href="/Heroes/arbik_elf/_.LOLS" />
+					<mayaFileName>/Heroes/arbik_elf/_.mayaSkel</mayaFileName>
+					<orientation>Default</orientation>
+					<selection></selection>
+					<skeletonFileName>/Heroes/arbik_elf/_.skel</skeletonFileName>
+					<skinOn />
+					<skins>
+						<Item>
+							<events href="" />
+							<geometryFileName>/Heroes/arbik_elf/_.skin</geometryFileName>
+							<jointsCountPerVertex>4</jointsCountPerVertex>
+							<materialsReferences>
+								<Item href="/Heroes/arbik_elf/_.MTRL" />
+							</materialsReferences>
+							<mayaFileName>/Heroes/arbik_elf/_.mayaSkin</mayaFileName>
+							<selection></selection>
+							<skinPartName></skinPartName>
+							<srcFileName crc="0">/Heroes/arbik_elf/_.mb</srcFileName>
+							<uvSetCount>1</uvSetCount>
+						</Item>
+					</skins>
+					<splitBoneName></splitBoneName>
+					<srcFileName crc="0">/Heroes/arbik_elf/_.mb</srcFileName>
+				</DBAnimatedSceneComponent>
+			</component>
+			<events href="" />
+			<id></id>
+			<locatorName></locatorName>
+			<placement>
+				<pos>
+					<x>0</x>
+					<y>0</y>
+					<z>0</z>
+				</pos>
+				<rot>
+					<w>1</w>
+					<x>0</x>
+					<y>0</y>
+					<z>0</z>
+				</rot>
+				<scale>
+					<x>0.95</x>
+					<y>0.95</y>
+					<z>0.95</z>
+				</scale>
+			</placement>
+			<timeController href="" />
+		</Item>
+	</attached>
+	<collisionGeometry href="" />
+	<ignoreAttachesToNonDefaultLocators>false</ignoreAttachesToNonDefaultLocators>
+	<tracksList href="" />
+</DBSceneObject>

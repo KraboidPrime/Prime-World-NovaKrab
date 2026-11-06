@@ -5,6 +5,7 @@
 	<BackLink DBID="/Items/Talents/Class/Night/status_A4_2_ChangeToPanther.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Chronicle/status_A4_self.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Naga/status_A3u.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Fluffy/status_A0BigForm.APLR" Count="1" />
 	<attachFlags>1</attachFlags>
 	<attachType>Body</attachType>
 	<component href="/Effects/Buffs/Bless/_GoldPowerfulTRSRes.PRXY" />

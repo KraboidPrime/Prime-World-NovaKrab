@@ -86,6 +86,7 @@
 					<applicators>
 						<Item href="/Items/Talents/Class/Mage/status_A2_Hexed.APLR" />
 						<Item href="/Items/Talents/Class/Mage/ReplaceSOBJ.APLR" />
+						<Item href="/Items/Talents/Class/Mage/ReplaceSOBJpig.APLR" />
 					</applicators>
 					<applyTarget>ApplicatorTarget</applyTarget>
 					<behaviorFlags>147</behaviorFlags>
@@ -132,9 +133,9 @@
 						<Item href="" />
 					</effect>
 					<enabled>
-						<compiledString></compiledString>
+						<compiledString>FRwAAAAEAAAAIQAAADcAAABDAAAAWQAAAEltbXVuZTJDb250cm9sAABUcmFuc2Zvcm1lZABVi+xRaAAAAACLRQyLEItNDIuCiAEAAP/Q3B17AAAA3+D2xER6K2gQAAAAi00MixGLTQyLgogBAAD/0NwdewAAAN/g9sREegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAAA</compiledString>
 						<returnType>bool</returnType>
-						<sString>true</sString>
+						<sString>receiver.vImmune2Control == 0 &amp;&amp; receiver.vTransformed == 0</sString>
 					</enabled>
 					<flags>0</flags>
 					<formulaName></formulaName>
@@ -200,8 +201,8 @@
 	<LoggingEvent>-1</LoggingEvent>
 	<providerName></providerName>
 	<startCondition>
-		<compiledString></compiledString>
+		<compiledString>FSgAAAAFAAAALQAAAEMAAABPAAAAZQAAAHcAAABJbW11bmUyQ29udHJvbAAAVHJhbnNmb3JtZWQAU3RhdHVzSGV4ZWQAVYvsUWgAAAAAi0UMixCLTQyLgogBAAD/0NwdpwAAAN/g9sREektoEAAAAItNDIsRi00Mi4KIAQAA/9DcHacAAADf4PbERHopagCLTRBRaBwAAACLVQyLAotNDIuQnAEAAP/SO0UQdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAAA</compiledString>
 		<returnType>bool</returnType>
-		<sString>true</sString>
+		<sString>receiver.vImmune2Control == 0 &amp;&amp; receiver.vTransformed == 0 &amp;&amp; receiver.applStatusHexed(GLOBAL) == pMisc</sString>
 	</startCondition>
 </ProgramApplicator>

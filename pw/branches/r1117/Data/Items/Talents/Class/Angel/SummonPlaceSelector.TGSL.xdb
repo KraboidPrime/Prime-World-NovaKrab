@@ -2,10 +2,10 @@
 <UnitPlaceCorrector>
 	<BackLink DBID="/Items/Talents/Class/Angel/Ability_A2.TALENT" Count="1" />
 	<checkByRangeToRequester>false</checkByRangeToRequester>
-	<checkLineOfSight>true</checkLineOfSight>
+	<checkLineOfSight>false</checkLineOfSight>
 	<nativeTerrainOnly>false</nativeTerrainOnly>
-	<passabilityCheckMode>7</passabilityCheckMode>
-	<radius>7</radius>
+	<passabilityCheckMode>6</passabilityCheckMode>
+	<radius>3</radius>
 	<targetSelector href="/Items/Talents/Class/Angel/SummonPlaceSelector.TGSL" id="4A9E6CC6-F341-4541-AC05-C1507E080195">
 		<SelectApplicatorTarget>
 			<applicatorIndex>0</applicatorIndex>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BasicEffectAttached>
+	<BackLink DBID="/Items/Talents/Level5/G313_K_maxStrInt_LifeDrain.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/arbik_elf/Ability_A2.TALENT" Count="14" />
+	<attachFlags>1</attachFlags>
+	<attachType>Body</attachType>
+	<component href="/Effects/Debuffs/Boot/_Trail2.PRXY" />
+	<deathType>Manual</deathType>
+	<enableCondition href="" />
+	<fadeIn>0.2</fadeIn>
+	<fadeOut>0</fadeOut>
+	<groupFlags>0</groupFlags>
+	<lifeTime>0</lifeTime>
+</BasicEffectAttached>

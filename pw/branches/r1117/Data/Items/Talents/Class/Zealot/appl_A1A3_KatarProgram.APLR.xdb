@@ -364,9 +364,9 @@
 										<LoggingEvent>-1</LoggingEvent>
 										<modifier>
 											<addValue>
-												<compiledString>FQAAAAACAAAANgAAADwAAABVi+xRi0UIixCLTQiLgrgAAAD/0FHZHCSLTQiLEYtNCIuCvAAAAP/QUdkcJOgpAAAAg8QI3A1SAAAA3CVKAAAA2V382UX8i+Vdw5qZmZmZmdk/+n5qvHSTqD9Vi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
+												<compiledString>FQAAAAADAAAANgAAADwAAABCAAAAVYvsUYtFCIsQi00Ii4K4AAAA/9BR2Rwki00IixGLTQiLgrwAAAD/0FHZHCToNwAAAIPECNwNYAAAANwlWAAAANwNUAAAANld/NlF/IvlXcMAAAAAAAD4P5qZmZmZmdk/+n5qvHSTqD9Vi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
 												<returnType>float</returnType>
-												<sString>(0.048*max(sBaseIntellect, sBaseStrength)-0.4)</sString>
+												<sString>1.5*(0.048*max(sBaseIntellect, sBaseStrength)-0.4)</sString>
 											</addValue>
 											<multValue>
 												<compiledString></compiledString>
@@ -411,9 +411,9 @@
 										<LoggingEvent>-1</LoggingEvent>
 										<modifier>
 											<addValue>
-												<compiledString>FQAAAAACAAAANgAAADwAAABVi+xRi0UIixCLTQiLgrgAAAD/0FHZHCSLTQiLEYtNCIuCvAAAAP/QUdkcJOgpAAAAg8QI3A1SAAAA3CVKAAAA2V382UX8i+Vdw5qZmZmZmdk/+n5qvHSTqD9Vi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
+												<compiledString>FQAAAAADAAAANgAAADwAAABCAAAAVYvsUYtFCIsQi00Ii4K4AAAA/9BR2Rwki00IixGLTQiLgrwAAAD/0FHZHCToNwAAAIPECNwNYAAAANwlWAAAANwNUAAAANld/NlF/IvlXcMAAAAAAAD4P5qZmZmZmdk/+n5qvHSTqD9Vi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
 												<returnType>float</returnType>
-												<sString>(0.048*max(sBaseIntellect, sBaseStrength)-0.4)</sString>
+												<sString>1.5*(0.048*max(sBaseIntellect, sBaseStrength)-0.4)</sString>
 											</addValue>
 											<multValue>
 												<compiledString></compiledString>

@@ -191,6 +191,9 @@
 		<Item href="/Items/Talents/Class/Primevoker/Ability_A1.TALENT" />
 		<Item href="/Items/Talents/Class/Primevoker/Ability_A2.TALENT" />
 		<Item href="/Items/Talents/Class/Primevoker/Ability_A3.TALENT" />
+		<Item href="/Items/Talents/Class/arbik_elf/Ability_A1.TALENT" />
+		<Item href="/Items/Talents/Class/arbik_elf/Ability_A2.TALENT" />
+		<Item href="/Items/Talents/Class/arbik_elf/Ability_A3.TALENT" />
 	</talents>
 	<useListAs>ListAsRule</useListAs>
 </RefreshCooldownApplicator>

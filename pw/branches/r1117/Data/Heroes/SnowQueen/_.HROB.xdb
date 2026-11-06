@@ -706,6 +706,10 @@
 								</applicator>
 							</Item>
 							<Item skip="1" />
+							<Item>
+								<applicator href="/Items/Talents/Class/SnowQueen/New_mana_burn.APLR" />
+								<variableNames />
+							</Item>
 						</applicators>
 					</VariableProxyApplicator>
 				</Item>
@@ -1243,9 +1247,9 @@
 					<levelUpgrades />
 					<statId>MoveSpeed</statId>
 					<value>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQg==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABEQg==</compiledString>
 						<returnType>float</returnType>
-						<sString>48</sString>
+						<sString>49</sString>
 					</value>
 				</Item>
 				<Item>

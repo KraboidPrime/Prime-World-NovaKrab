@@ -50,7 +50,22 @@
 	<conflictingTalents>
 		<Item href="/Items/Talents/Class/Shadow/Ability_A0_SUP.TALENT" />
 	</conflictingTalents>
-	<constants href="" />
+	<constants href="/Items/Talents/Class/Shadow/Ability_A1_SUP.TALENT" id="11D344BD-EE09-4BBF-9C5D-0F9BEC167946">
+		<UnitConstantsContainer>
+			<vars>
+				<Item href="/Items/Talents/Class/Shadow/Ability_A1_SUP.TALENT" id="90BA5F92-4A94-4D27-8334-3475EC52881C">
+					<UnitConstant>
+						<name>AddDmg</name>
+						<var>
+							<compiledString>FQAAAAABAAAAFgAAAFWL7FGLRQiLEItNCIuCvAAAAP/Q3A0kAAAA2V382UX8i+Vdw5qZmZmZmck/</compiledString>
+							<returnType>float</returnType>
+							<sString>0.2*sBaseIntellect</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+			</vars>
+		</UnitConstantsContainer>
+	</constants>
 	<consumptionBonus>
 		<constant>0</constant>
 		<percent>0</percent>

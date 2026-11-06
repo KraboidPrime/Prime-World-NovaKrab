@@ -22,5 +22,8 @@
 		<state name="hunter_S3">
 			<component href="/Effects/Shots/Spear/_MagicSnowHit.PRXY" />
 		</state>
+		<state name="shadow_S2">
+			<component href="/Effects/Shots/Spear/_MagicHit2TRS.PRXY" />
+		</state>
 	</__states>
 </BasicEffectAttached>

@@ -2,6 +2,7 @@
 <StatusApplicator>
 	<BackLink DBID="/Items/Talents/Class/Shaman/Ability_A4_2.TALENT" Count="2" />
 	<BackLink DBID="/Heroes/DefaultStatus/List_AllControlAppl.APLS" Count="1" />
+	<BackLink DBID="/Heroes/DefaultStatus/List_AllControlStatusesWithoutSlow.APLS" Count="1" />
 	<applicators>
 		<Item href="/Items/Talents/Class/Shaman/A4_2_status.APLR" id="E77EAC68-1304-47AA-B7FD-03B788F62718">
 			<FlagsApplicator>

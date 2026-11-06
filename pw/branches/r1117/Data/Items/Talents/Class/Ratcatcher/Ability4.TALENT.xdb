@@ -364,6 +364,71 @@
 									<targetSelector href="" />
 								</SpellApplicator>
 							</Item>
+							<Item href="/Items/Talents/Class/Ratcatcher/Ability4.TALENT" id="4FB4DF8D-E9E2-4FF8-B4B7-575F2924EE2A">
+								<SpellApplicator>
+									<applyTarget>ApplicatorTarget</applyTarget>
+									<caption>-- Spell Selector (Enemy Heroes) - inside Status with 3 effects DMG</caption>
+									<enabled>
+										<compiledString>FTwAAAAGAAAAQwAAAFwAAACmAAAAvAAAAMgAAADeAAAAUmF0Y2F0Y2hlcl9BNF9VcGcAAABSYXRjYXRjaGVyX0E0X1VwZwAAAExpa2VIZXJvAAAAAElzQ2xvbmUAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgUAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0YYtVDIsCi00Mi1BU/9IPtsCFwHUiaCgAAACLTQyLEYtNDIuCiAEAAP/Q3B0IAQAA3+D2xER6K2g0AAAAi00MixGLTQyLgogBAAD/0NwdAAEAAN/g9sREegnHRfQBAAAA6wfHRfQAAAAAikX0i+VdwwAAAAAAAAAAAAAAAAAA8D8=</compiledString>
+										<returnType>bool</returnType>
+										<sString>tal("Ratcatcher_A4_Upg") &amp;&amp; ( rIsHero || receiver.vLikeHero == 1 ) &amp;&amp; receiver.vIsClone == 0</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<LoggingEvent>-1</LoggingEvent>
+									<providerName></providerName>
+									<spell href="/Items/Talents/Class/Ratcatcher/Ability4.TALENT" id="DC491BF8-99F3-4C6F-B8D0-7E501714B2A4">
+										<Spell>
+											<applicators>
+												<Item href="/Items/Talents/Class/Ratcatcher/Ability4.TALENT" id="2B755C5A-139F-4B22-B769-99617245BE74">
+													<DamageApplicator>
+														<applyTarget>ApplicatorTarget</applyTarget>
+														<cancelInvisibility>false</cancelInvisibility>
+														<caption></caption>
+														<damage>
+															<compiledString>FQgAAAABAAAAFAAAAEE0dV9ETUcAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+															<returnType>float</returnType>
+															<sString>cA4u_DMG</sString>
+														</damage>
+														<damageMode>0</damageMode>
+														<damageType>Energy</damageType>
+														<enabled>
+															<compiledString></compiledString>
+															<returnType>bool</returnType>
+															<sString>true</sString>
+														</enabled>
+														<formulaName></formulaName>
+														<LoggingEvent>-1</LoggingEvent>
+														<providerName></providerName>
+														<timeLimiter>-1</timeLimiter>
+														<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Energy.UIEV" />
+													</DamageApplicator>
+												</Item>
+											</applicators>
+											<dispatch href="/Items/Talents/Class/Ratcatcher/Ability4.TALENT" id="F39B9790-2EB6-4D67-988F-C215D15B6459">
+												<DispatchImmediate>
+													<alwaysApply>false</alwaysApply>
+													<applyEffect>
+														<Item href="" />
+														<Item href="" />
+													</applyEffect>
+													<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+													<applyEffectOrientation>Default</applyEffectOrientation>
+													<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+													<dieAfterApply>true</dieAfterApply>
+													<dispatchEffect>
+														<Item href="" />
+														<Item href="" />
+													</dispatchEffect>
+													<flags>0</flags>
+													<instantApply>false</instantApply>
+												</DispatchImmediate>
+											</dispatch>
+										</Spell>
+									</spell>
+									<spellTarget>ApplicatorTarget</spellTarget>
+									<targetSelector href="" />
+								</SpellApplicator>
+							</Item>
 						</applicators>
 						<dispatch href="/Items/Talents/Class/Ratcatcher/Ability4.TALENT" id="B65DA27F-73EB-4873-84DA-CBCCB0DDA452">
 							<DispatchImmediate>
@@ -544,6 +609,16 @@
 							<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
 							<returnType>float</returnType>
 							<sString>1</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Ratcatcher/Ability4.TALENT" id="7F8893A4-56AE-4A2F-9CF6-1B5B8C10E0AF">
+					<UnitConstant>
+						<name>A4u_DMG</name>
+						<var>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAABYQgAAyEM=</compiledString>
+							<returnType>float</returnType>
+							<sString>damageScale(sIntellect, 54, 400)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

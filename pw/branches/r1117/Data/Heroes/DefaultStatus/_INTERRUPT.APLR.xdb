@@ -25,6 +25,7 @@
 	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A4_1.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level4/G557_EnemyAoeDmg.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Rifleman/Ability_A1.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/arbik_elf/Ability_A2.TALENT" Count="7" />
 	<applyTarget>ApplicatorTarget</applyTarget>
 	<behaviorFlags>144</behaviorFlags>
 	<caption>-- Standart Interrupt</caption>

@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StatusApplicator>
+	<BackLink DBID="/Items/Talents/Class/arbik_elf/Ability_A4_2.TALENT" Count="4" />
+	<BackLink DBID="/Heroes/DefaultStatus/List_AllControlAppl.APLS" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/arbik_elf/Ability_A4_3.TALENT" Count="1" />
+	<applicators>
+		<Item href="/Heroes/DefaultStatus/SlowFX.APLR" />
+		<Item href="/Items/Talents/Class/arbik_elf/Status_Culling.APLR" id="CCD17CA2-4910-4B3D-8634-D7B6DF1D453B">
+			<StatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>152</behaviorFlags>
+				<caption>хитрый слоу</caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+						<returnType>float</returnType>
+						<sString>0</sString>
+					</addValue>
+					<multValue>
+						<compiledString>FRsAAAAFAAAAKgAAADIAAABIAAAAUgAAAFcAAABUaW1lQ29udHJvbABJbW11bmUyQ29udHJvbABVi+yD7AxR2ejZHCRR2QWyAAAA2RwkaAAAAACLRQyLEItNDIuCiAEAAP/Q3A2qAAAA2eje4dwNmgAAAGgMAAAAi00MixGLTQyLgogBAADdXfj/0Nno3uHcTfjZ6N7h2V302UX0UdkcJOhaAAAAg8QE2Rwk6CcAAACDxAiL5V3DAAAAQDMz4z8AAAAAAADwP3sUrkfheoQ/zczMPgAAgD9Vi+xR2UUI2UUM3tnf4PbEQXUI2UUI2V386wbZRQzZXfzZRfyL5V3DVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
+						<returnType>float</returnType>
+						<sString>clamp(1.0f - 0.6f*(1.0f - receiver.vTimeControl*0.01)*(1.0f - receiver.vImmune2Control), 0.4f, 1.0f)
+</sString>
+					</multValue>
+					<stat>MoveSpeed</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/arbik_elf/Status_Culling.APLR" id="DC31D338-038B-47AB-835E-AE20552B33A4">
+			<SpellPeriodicallyApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>153</behaviorFlags>
+				<caption>отложенный урон</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<period>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
+					<returnType>float</returnType>
+					<sString>10.0f</sString>
+				</period>
+				<providerName></providerName>
+				<scaleMode>ScaleIsCount</scaleMode>
+				<spell href="/Items/Talents/Class/arbik_elf/Status_Culling.APLR" id="55EFF416-BF6B-453C-8164-4C109FC00010">
+					<Spell>
+						<applicators>
+							<Item href="/Items/Talents/Class/arbik_elf/Status_Culling.APLR" id="DC382F5D-6AE5-452C-95FE-A86E44383FD4">
+								<FlagsApplicator>
+									<applyTarget>ApplicatorTarget</applyTarget>
+									<behaviorFlags>248</behaviorFlags>
+									<caption>визуал</caption>
+									<consumables />
+									<effect>
+										<Item href="/Effects/Debuffs/Arrow/_AimR.EFFT" />
+										<Item href="" />
+									</effect>
+									<enabled>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<flag>0</flag>
+									<formulaName></formulaName>
+									<lifeTime>
+										<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzczMPQ==</compiledString>
+										<returnType>float</returnType>
+										<sString>0.1</sString>
+									</lifeTime>
+									<LoggingEvent>-1</LoggingEvent>
+									<providerName></providerName>
+									<startCondition>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</startCondition>
+									<talents />
+									<useListAs>ListAsRule</useListAs>
+								</FlagsApplicator>
+							</Item>
+							<Item href="/Items/Talents/Class/arbik_elf/Status_Culling.APLR" id="049D8572-AE34-46E7-9BE9-1D8A4F5CFB44">
+								<SpellApplicator>
+									<applyTarget>ApplicatorTarget</applyTarget>
+									<caption>урон</caption>
+									<enabled>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<LoggingEvent>-1</LoggingEvent>
+									<providerName></providerName>
+									<spell href="/Items/Talents/Class/arbik_elf/Status_Culling.APLR" id="564B7689-6331-4CEA-B603-A2BAAD0C4A31">
+										<Spell>
+											<applicators>
+												<Item href="/Items/Talents/Class/arbik_elf/Status_Culling.APLR" id="BF2B5777-9A15-4822-B32C-8E12DDC5E032">
+													<DamageApplicator>
+														<applyTarget>ApplicatorTarget</applyTarget>
+														<cancelInvisibility>true</cancelInvisibility>
+														<caption>урон</caption>
+														<damage>
+															<compiledString>FQUAAAADAAAAFAAAACcAAACFAAAAUGVyYwBVi+yD7ByLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0twNngAAAItFDIsQi00Mi4JEAQAA3V34/9BR2Rwki00MixGLTQyLgkABAAD/0FHZHCToSwAAAIPECNxN+ItNDIsRi00MiwLdXfD/0ItNDIsRi00Mi0IM3V3o/9DcfejcLZYAAADcTfDZXeTZReSL5V3DAAAAAAAAAEAAAABA4XqEP1WL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
+															<returnType>float</returnType>
+															<sString>0.01f*cPerc*max(rStamina, rWill)*(2-rLife/rMaxLife)</sString>
+														</damage>
+														<damageMode>0</damageMode>
+														<damageType>Energy</damageType>
+														<enabled>
+															<compiledString></compiledString>
+															<returnType>bool</returnType>
+															<sString>true</sString>
+														</enabled>
+														<formulaName></formulaName>
+														<LoggingEvent>-1</LoggingEvent>
+														<providerName></providerName>
+														<timeLimiter>-1</timeLimiter>
+														<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Energy.UIEV" />
+													</DamageApplicator>
+												</Item>
+											</applicators>
+											<dispatch href="/Items/Talents/Class/arbik_elf/Status_Culling.APLR" id="4F12193F-0CEB-438E-9009-2CD6811327FA">
+												<DispatchByTime>
+													<alwaysApply>false</alwaysApply>
+													<applyEffect>
+														<Item href="/Heroes/arbik_elf/FXAA_Hit.EFFT" />
+														<Item href="" />
+													</applyEffect>
+													<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+													<applyEffectOrientation>Default</applyEffectOrientation>
+													<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+													<cancelOnSenderDeath>false</cancelOnSenderDeath>
+													<dieAfterApply>true</dieAfterApply>
+													<dispatchEffect>
+														<Item href="" />
+														<Item href="" />
+													</dispatchEffect>
+													<flags>1</flags>
+													<lifeTime>
+														<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAPw==</compiledString>
+														<returnType>float</returnType>
+														<sString>0.5f</sString>
+													</lifeTime>
+													<persistentApplicators />
+												</DispatchByTime>
+											</dispatch>
+										</Spell>
+									</spell>
+									<spellTarget>ApplicatorTarget</spellTarget>
+									<targetSelector href="" />
+								</SpellApplicator>
+							</Item>
+						</applicators>
+						<dispatch href="/Items/Talents/Class/arbik_elf/Status_Culling.APLR" id="ADD76F09-8119-46DF-93F3-79B413A97437">
+							<DispatchImmediate>
+								<alwaysApply>false</alwaysApply>
+								<applyEffect>
+									<Item href="" />
+									<Item href="" />
+								</applyEffect>
+								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+								<applyEffectOrientation>Default</applyEffectOrientation>
+								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+								<dieAfterApply>true</dieAfterApply>
+								<dispatchEffect>
+									<Item href="" />
+									<Item href="" />
+								</dispatchEffect>
+								<flags>0</flags>
+								<instantApply>false</instantApply>
+							</DispatchImmediate>
+						</dispatch>
+					</Spell>
+				</spell>
+				<startCondition>
+					<compiledString>FSAAAAACAAAAJwAAAEAAAABhcmJpa19lbGZfQTRfMnUAYXJiaWtfZWxmX0E0XzJ1AFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAikX7i+Vdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("arbik_elf_A4_2u")</sString>
+				</startCondition>
+				<startOffset>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
+					<returnType>float</returnType>
+					<sString>3.0f</sString>
+				</startOffset>
+				<targetSelector href="" />
+			</SpellPeriodicallyApplicator>
+		</Item>
+	</applicators>
+	<applyTarget>ApplicatorTarget</applyTarget>
+	<behaviorFlags>145</behaviorFlags>
+	<caption>замедло и отложенный урон</caption>
+	<customCounter>
+		<compiledString></compiledString>
+		<returnType>int</returnType>
+		<sString>0</sString>
+	</customCounter>
+	<customProgress>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>-1.0</sString>
+	</customProgress>
+	<description textref="/Items/Talents/Class/arbik_elf/Status_Culling.APLR_description.txt" />
+	<dispellPriority>High</dispellPriority>
+	<effect>
+		<Item href="" />
+		<Item href="" />
+	</effect>
+	<enabled>
+		<compiledString></compiledString>
+		<returnType>bool</returnType>
+		<sString>true</sString>
+	</enabled>
+	<flags>0</flags>
+	<formulaName>ArbCullingSlow</formulaName>
+	<image href="/UI/Styles/Icons/Heroes/arbik_elf/A4.ITEX" />
+	<lifeTime>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzcxMQA==</compiledString>
+		<returnType>float</returnType>
+		<sString>3.2f</sString>
+	</lifeTime>
+	<LoggingEvent>-1</LoggingEvent>
+	<name textref="/Items/Talents/Class/arbik_elf/Status_Culling.APLR_name.txt" />
+	<power>0</power>
+	<providerName></providerName>
+	<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+	<stackCount>0</stackCount>
+	<startCondition>
+		<compiledString></compiledString>
+		<returnType>bool</returnType>
+		<sString>true</sString>
+	</startCondition>
+	<statusPosition>0</statusPosition>
+	<stopBehaviour>StopByTime</stopBehaviour>
+	<unstackableWith href="" />
+</StatusApplicator>

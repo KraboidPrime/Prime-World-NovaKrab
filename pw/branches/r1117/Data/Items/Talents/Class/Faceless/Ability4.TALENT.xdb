@@ -51,34 +51,6 @@
 				</value>
 			</UIMessageApplicator>
 		</Item>
-		<Item href="/Items/Talents/Class/Faceless/Ability4.TALENT" id="D888C24C-A24C-447E-A6EB-5B3B09F1FE19">
-			<RefreshCooldownApplicator>
-				<allowCdIncrease>false</allowCdIncrease>
-				<applyTarget>AbilityOwner</applyTarget>
-				<caption>- refresh CD классовых абилок</caption>
-				<enabled>
-					<compiledString>FR4AAAACAAAAJQAAAD4AAABGYWNlbGVzc19BNHUxAAAARmFjZWxlc3NfQTR1MQBVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AIpF+4vlXcM=</compiledString>
-					<returnType>bool</returnType>
-					<sString>tal("Faceless_A4u1")</sString>
-				</enabled>
-				<flags>128</flags>
-				<formulaName></formulaName>
-				<LoggingEvent>-1</LoggingEvent>
-				<providerName></providerName>
-				<reduceByPercent>false</reduceByPercent>
-				<reductionAmount>
-					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAvw==</compiledString>
-					<returnType>float</returnType>
-					<sString>-1</sString>
-				</reductionAmount>
-				<refreshThis>false</refreshThis>
-				<talents>
-					<Item href="/Items/Talents/Class/Faceless/Ability1.TALENT" />
-					<Item href="/Items/Talents/Class/Faceless/Ability3.TALENT" />
-				</talents>
-				<useListAs>ListAsRule</useListAs>
-			</RefreshCooldownApplicator>
-		</Item>
 		<Item href="/Heroes/DefaultStatus/_STUN_Status.APLR" />
 		<Item href="/Items/Talents/Class/Faceless/Ability4.TALENT" id="7ADFE7B5-8CA5-4CD0-A6D5-23EC3BFA781C">
 			<MoveToApplicator>
@@ -498,7 +470,110 @@
 	<naftaCost>540</naftaCost>
 	<name textref="/Items/Talents/Class/Faceless/Ability4.TALENT_name.txt" />
 	<node>ability4</node>
-	<passiveApplicators />
+	<passiveApplicators>
+		<Item href="/Items/Talents/Class/Faceless/Ability4.TALENT" id="D6545200-CB61-4F15-B2DC-531146446EA3">
+			<TriggerApplicator>
+				<actionsCount>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</actionsCount>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption></caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FR4AAAACAAAAJQAAAD4AAABGYWNlbGVzc19BNHUxAAAARmFjZWxlc3NfQTR1MQBVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AIpF+4vlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("Faceless_A4u1")</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<playAck>false</playAck>
+				<processor href="/Items/Talents/Class/Faceless/Ability4.TALENT" id="89286E44-56C1-4725-B717-B6DA036D21DA">
+					<EventProcessorCondition>
+						<applyTarget>AbilityOwner</applyTarget>
+						<condition>
+							<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+							<returnType>bool</returnType>
+							<sString>true</sString>
+						</condition>
+						<events>8</events>
+						<onlyParent>true</onlyParent>
+						<spell href="/Items/Talents/Class/Faceless/Ability4.TALENT" id="3D01F6BC-23C7-49B7-AAAE-0BAEF116E528">
+							<Spell>
+								<applicators>
+									<Item href="/Items/Talents/Class/Faceless/Ability4.TALENT" id="990D6DA9-6867-42C6-8749-72148D27771C">
+										<RefreshCooldownApplicator>
+											<allowCdIncrease>false</allowCdIncrease>
+											<applyTarget>AbilityOwner</applyTarget>
+											<caption>- refresh CD классовых абилок</caption>
+											<enabled>
+												<compiledString>FR4AAAACAAAAJQAAAD4AAABGYWNlbGVzc19BNHUxAAAARmFjZWxlc3NfQTR1MQBVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AIpF+4vlXcM=</compiledString>
+												<returnType>bool</returnType>
+												<sString>tal("Faceless_A4u1")</sString>
+											</enabled>
+											<flags>128</flags>
+											<formulaName></formulaName>
+											<LoggingEvent>-1</LoggingEvent>
+											<providerName></providerName>
+											<reduceByPercent>false</reduceByPercent>
+											<reductionAmount>
+												<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAvw==</compiledString>
+												<returnType>float</returnType>
+												<sString>-1</sString>
+											</reductionAmount>
+											<refreshThis>false</refreshThis>
+											<talents>
+												<Item href="/Items/Talents/Class/Faceless/Ability1.TALENT" />
+												<Item href="/Items/Talents/Class/Faceless/Ability3.TALENT" />
+											</talents>
+											<useListAs>ListAsRule</useListAs>
+										</RefreshCooldownApplicator>
+									</Item>
+								</applicators>
+								<dispatch href="/Items/Talents/Class/Faceless/Ability4.TALENT" id="11AC8E39-D0CF-4E17-946F-F0816546C3E1">
+									<DispatchImmediate>
+										<alwaysApply>false</alwaysApply>
+										<applyEffect>
+											<Item href="" />
+											<Item href="" />
+										</applyEffect>
+										<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+										<applyEffectOrientation>Default</applyEffectOrientation>
+										<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+										<dieAfterApply>true</dieAfterApply>
+										<dispatchEffect>
+											<Item href="" />
+											<Item href="" />
+										</dispatchEffect>
+										<flags>0</flags>
+										<instantApply>false</instantApply>
+									</DispatchImmediate>
+								</dispatch>
+							</Spell>
+						</spell>
+					</EventProcessorCondition>
+				</processor>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<useAbilityCooldown>false</useAbilityCooldown>
+				<useAbilityOwnerMana>false</useAbilityOwnerMana>
+			</TriggerApplicator>
+		</Item>
+	</passiveApplicators>
 	<persistentId>Faceless_A4</persistentId>
 	<prerequisiteTalents />
 	<rarity>Class</rarity>

@@ -12,4 +12,10 @@
 	<parentType>General</parentType>
 	<visibilityLimited>false</visibilityLimited>
 	<visibleTime>0</visibleTime>
+	<__states>
+		<state name="bomber_S1">
+			<component href="/Effects/Shots/Lightning/_B2TRS.PRXY" />
+			<parentType>General</parentType>
+		</state>
+	</__states>
 </BasicEffectStandalone>

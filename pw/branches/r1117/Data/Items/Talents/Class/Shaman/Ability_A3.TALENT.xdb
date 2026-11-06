@@ -48,7 +48,7 @@
 													<Item>
 														<applicator href="" />
 														<continueCondition>
-															<compiledString></compiledString>
+															<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 															<returnType>bool</returnType>
 															<sString>0</sString>
 														</continueCondition>
@@ -59,7 +59,7 @@
 															<sString>2.0</sString>
 														</delay>
 														<stopCondition>
-															<compiledString></compiledString>
+															<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 															<returnType>bool</returnType>
 															<sString>0</sString>
 														</stopCondition>
@@ -165,7 +165,7 @@
 															</TriggerApplicator>
 														</applicator>
 														<continueCondition>
-															<compiledString></compiledString>
+															<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 															<returnType>bool</returnType>
 															<sString>0</sString>
 														</continueCondition>
@@ -176,7 +176,7 @@
 															<sString>-1.0</sString>
 														</delay>
 														<stopCondition>
-															<compiledString></compiledString>
+															<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 															<returnType>bool</returnType>
 															<sString>0</sString>
 														</stopCondition>
@@ -217,7 +217,7 @@
 															</FlagsApplicator>
 														</applicator>
 														<continueCondition>
-															<compiledString></compiledString>
+															<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 															<returnType>bool</returnType>
 															<sString>0</sString>
 														</continueCondition>
@@ -228,7 +228,7 @@
 															<sString>-1.0</sString>
 														</delay>
 														<stopCondition>
-															<compiledString></compiledString>
+															<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 															<returnType>bool</returnType>
 															<sString>0</sString>
 														</stopCondition>
@@ -390,7 +390,7 @@
 															</StatusApplicator>
 														</applicator>
 														<continueCondition>
-															<compiledString></compiledString>
+															<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 															<returnType>bool</returnType>
 															<sString>0</sString>
 														</continueCondition>
@@ -401,7 +401,7 @@
 															<sString>-1.0</sString>
 														</delay>
 														<stopCondition>
-															<compiledString></compiledString>
+															<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 															<returnType>bool</returnType>
 															<sString>0</sString>
 														</stopCondition>
@@ -442,7 +442,7 @@
 															</FlagsApplicator>
 														</applicator>
 														<continueCondition>
-															<compiledString></compiledString>
+															<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 															<returnType>bool</returnType>
 															<sString>0</sString>
 														</continueCondition>
@@ -453,7 +453,7 @@
 															<sString>-1.0</sString>
 														</delay>
 														<stopCondition>
-															<compiledString></compiledString>
+															<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 															<returnType>bool</returnType>
 															<sString>0</sString>
 														</stopCondition>
@@ -494,7 +494,7 @@
 															</FlagsApplicator>
 														</applicator>
 														<continueCondition>
-															<compiledString></compiledString>
+															<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 															<returnType>bool</returnType>
 															<sString>0</sString>
 														</continueCondition>
@@ -505,7 +505,7 @@
 															<sString>-1.0</sString>
 														</delay>
 														<stopCondition>
-															<compiledString></compiledString>
+															<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 															<returnType>bool</returnType>
 															<sString>0</sString>
 														</stopCondition>
@@ -514,7 +514,7 @@
 													<Item>
 														<applicator href="" />
 														<continueCondition>
-															<compiledString></compiledString>
+															<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 															<returnType>bool</returnType>
 															<sString>0</sString>
 														</continueCondition>
@@ -525,7 +525,7 @@
 															<sString>0.6</sString>
 														</delay>
 														<stopCondition>
-															<compiledString></compiledString>
+															<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 															<returnType>bool</returnType>
 															<sString>0</sString>
 														</stopCondition>
@@ -577,7 +577,7 @@
 															</FlagsApplicator>
 														</applicator>
 														<continueCondition>
-															<compiledString></compiledString>
+															<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 															<returnType>bool</returnType>
 															<sString>0</sString>
 														</continueCondition>
@@ -588,7 +588,7 @@
 															<sString>-1.0</sString>
 														</delay>
 														<stopCondition>
-															<compiledString></compiledString>
+															<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 															<returnType>bool</returnType>
 															<sString>0</sString>
 														</stopCondition>
@@ -597,7 +597,7 @@
 													<Item>
 														<applicator href="" />
 														<continueCondition>
-															<compiledString></compiledString>
+															<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 															<returnType>bool</returnType>
 															<sString>0</sString>
 														</continueCondition>
@@ -608,7 +608,7 @@
 															<sString>0.2</sString>
 														</delay>
 														<stopCondition>
-															<compiledString></compiledString>
+															<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 															<returnType>bool</returnType>
 															<sString>0</sString>
 														</stopCondition>
@@ -632,7 +632,7 @@
 															</KillApplicator>
 														</applicator>
 														<continueCondition>
-															<compiledString></compiledString>
+															<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 															<returnType>bool</returnType>
 															<sString>0</sString>
 														</continueCondition>
@@ -643,7 +643,7 @@
 															<sString>-1.0</sString>
 														</delay>
 														<stopCondition>
-															<compiledString></compiledString>
+															<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 															<returnType>bool</returnType>
 															<sString>0</sString>
 														</stopCondition>
@@ -799,7 +799,7 @@
 											<checkByRangeToRequester>false</checkByRangeToRequester>
 											<checkLineOfSight>false</checkLineOfSight>
 											<nativeTerrainOnly>false</nativeTerrainOnly>
-											<passabilityCheckMode>7</passabilityCheckMode>
+											<passabilityCheckMode>6</passabilityCheckMode>
 											<radius>3</radius>
 											<targetSelector href="/Items/Talents/Class/Shaman/Ability_A3.TALENT" id="92F52DE3-71A0-4617-BF16-9C0B91B6699C">
 												<SelectApplicatorTarget>
@@ -880,7 +880,7 @@
 						<checkByRangeToRequester>true</checkByRangeToRequester>
 						<checkLineOfSight>true</checkLineOfSight>
 						<nativeTerrainOnly>false</nativeTerrainOnly>
-						<passabilityCheckMode>7</passabilityCheckMode>
+						<passabilityCheckMode>6</passabilityCheckMode>
 						<radius>120</radius>
 						<targetSelector href="/Items/Talents/Class/Shaman/Ability_A3.TALENT" id="A99E54A5-FFD9-4064-B78D-683CAB70B149">
 							<SelectApplicatorTarget>
@@ -905,16 +905,16 @@
 		<sString>0.0f</sString>
 	</castAllowRange>
 	<castLimitations>
-		<Item href="/Items/Talents/Class/Shaman/Ability_A3.TALENT" id="3C65BE18-C329-4BCC-A644-8E61804964C4">
+		<Item href="/Items/Talents/Class/Shaman/Ability_A3.TALENT" id="847F22B7-51F7-44B8-A31A-55BAC438675B">
 			<TargetCastLimitation>
-				<targetSelector href="/Items/Talents/Class/Shaman/Ability_A3.TALENT" id="2D22747B-04B5-4C94-A9BA-EEFB9FD2469B">
+				<targetSelector href="/Items/Talents/Class/Shaman/Ability_A3.TALENT" id="5978BE39-3DB5-47CC-8279-BC061148EE92">
 					<UnitPlaceCorrector>
 						<checkByRangeToRequester>false</checkByRangeToRequester>
 						<checkLineOfSight>false</checkLineOfSight>
 						<nativeTerrainOnly>false</nativeTerrainOnly>
-						<passabilityCheckMode>0</passabilityCheckMode>
+						<passabilityCheckMode>6</passabilityCheckMode>
 						<radius>0</radius>
-						<targetSelector href="/Items/Talents/Class/Shaman/Ability_A3.TALENT" id="52C795E6-3684-4D94-A516-1CE6D0402686">
+						<targetSelector href="/Items/Talents/Class/Shaman/Ability_A3.TALENT" id="CDD3A2FA-10D8-4D37-9DDE-A6FDC1EAFC52">
 							<ConvertTargetToLand>
 								<aggregateMode>First</aggregateMode>
 								<targetSelector href="" />

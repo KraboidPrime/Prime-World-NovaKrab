@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SceneObjectChangeApplicator>
+	<BackLink DBID="/Items/Talents/Class/Mage/Hex.APLR" Count="3" />
+	<BackLink DBID="/Items/Talents/Class/Mage/Ability2.TALENT" Count="3" />
+	<applyTarget>ApplicatorTarget</applyTarget>
+	<behaviorFlags>177</behaviorFlags>
+	<caption>замена модели</caption>
+	<effect>
+		<Item href="/Effects/General/Puff/_.EFFT" />
+		<Item href="" />
+	</effect>
+	<enabled>
+		<compiledString>FRwAAAACAAAAJwAAAEcAAABTT0JKUmVwbGFjZXIAAAAAU3RhdHVzSGV4ZWQAVYvsUWoAi0UQUGgAAAAAi00MixGLTQyLgpwBAAD/0DtFEHUpagCLTRBRaBAAAACLVQyLAotNDIuQnAEAAP/SO0UQdAnHRfwBAAAA6wfHRfwAAAAAikX8i+Vdww==</compiledString>
+		<returnType>bool</returnType>
+		<sString>receiver.applSOBJReplacer(GLOBAL) == pMisc &amp;&amp; receiver.applStatusHexed(GLOBAL) != pMisc</sString>
+	</enabled>
+	<formulaName>SOBJReplacer</formulaName>
+	<lifeTime>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>-1.0</sString>
+	</lifeTime>
+	<LoggingEvent>-1</LoggingEvent>
+	<providerName></providerName>
+	<sceneObjectIndex>
+		<compiledString>FQAAAAAAAAAAVYvsM8Bdww==</compiledString>
+		<returnType>int</returnType>
+		<sString>0</sString>
+	</sceneObjectIndex>
+	<sceneObjects>
+		<Item href="/Pets/Pig/_mage.SOBJ" />
+	</sceneObjects>
+	<startCondition>
+		<compiledString>FQgAAAABAAAAJgAAAG1hZ2VfUzUAVYvsUWgAAAAIi0UMixCLTQyLQmj/0A+2yIXJdSVoAAAAAItVCIsCi00Ii5DoAQAA/9IPtsCFwHQJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcM=</compiledString>
+		<returnType>bool</returnType>
+		<sString>!rFlag(134217728) &amp;&amp; sender.IsSkinUsed( "mage_S5" )</sString>
+	</startCondition>
+</SceneObjectChangeApplicator>

@@ -21,6 +21,102 @@
 	<applicators>
 		<Item href="/Effects/Shots/HitsApplicators/Melee.APLR" />
 		<Item href="/GameLogic/GeneralApplicators/BaseAttackDmg_Hero_material.APLR" />
+		<Item href="/Summons/Demon/Attack.ATCK" id="9E48BF08-73DE-4D07-9EAD-4DE54F6F6369">
+			<DamageApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<cancelInvisibility>false</cancelInvisibility>
+				<caption></caption>
+				<damage>
+					<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+					<returnType>float</returnType>
+					<sString>1</sString>
+				</damage>
+				<damageMode>0</damageMode>
+				<damageType>Pure</damageType>
+				<enabled>
+					<compiledString>FQUAAAABAAAASAAAAFdhcmQAVYvsUYtFDIsQi00Mi0JQ/9CD+BF0T4tNDIsRi00Mi0JQ/9CD+AJ0PYtNDIsRi00Mi0JU/9APtsiFyXUgagCLVRBSaAAAAACLRQyLEItNDIuCnAEAAP/QO0UQdQnHRfwAAAAA6wfHRfwBAAAAikX8i+Vdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>rUnitKind == 17 || rUnitKind == 2 || (!rIsHero &amp;&amp; receiver.applWard(GLOBAL) != pMisc)</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<timeLimiter>-1</timeLimiter>
+				<uiEvent href="" />
+			</DamageApplicator>
+		</Item>
+		<Item href="/Summons/Demon/Attack.ATCK" id="06CACCA7-6FDF-46D1-B924-069B09FC2A0C">
+			<DamageApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<cancelInvisibility>false</cancelInvisibility>
+				<caption></caption>
+				<damage>
+					<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+					<returnType>float</returnType>
+					<sString>1</sString>
+				</damage>
+				<damageMode>0</damageMode>
+				<damageType>Pure</damageType>
+				<enabled>
+					<compiledString>FQUAAAABAAAASAAAAFdhcmQAVYvsUYtFDIsQi00Mi0JQ/9CD+BF0T4tNDIsRi00Mi0JQ/9CD+AJ0PYtNDIsRi00Mi0JU/9APtsiFyXUgagCLVRBSaAAAAACLRQyLEItNDIuCnAEAAP/QO0UQdQnHRfwAAAAA6wfHRfwBAAAAikX8i+Vdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>rUnitKind == 17 || rUnitKind == 2 || (!rIsHero &amp;&amp; receiver.applWard(GLOBAL) != pMisc)</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<timeLimiter>-1</timeLimiter>
+				<uiEvent href="" />
+			</DamageApplicator>
+		</Item>
+		<Item href="/Summons/Demon/Attack.ATCK" id="36ED71F6-667D-4B28-AF7F-7C6676586F0B">
+			<DamageApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<cancelInvisibility>false</cancelInvisibility>
+				<caption></caption>
+				<damage>
+					<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+					<returnType>float</returnType>
+					<sString>1</sString>
+				</damage>
+				<damageMode>0</damageMode>
+				<damageType>Pure</damageType>
+				<enabled>
+					<compiledString>FQUAAAABAAAASAAAAFdhcmQAVYvsUYtFDIsQi00Mi0JQ/9CD+BF0T4tNDIsRi00Mi0JQ/9CD+AJ0PYtNDIsRi00Mi0JU/9APtsiFyXUgagCLVRBSaAAAAACLRQyLEItNDIuCnAEAAP/QO0UQdQnHRfwAAAAA6wfHRfwBAAAAikX8i+Vdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>rUnitKind == 17 || rUnitKind == 2 || (!rIsHero &amp;&amp; receiver.applWard(GLOBAL) != pMisc)</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<timeLimiter>-1</timeLimiter>
+				<uiEvent href="" />
+			</DamageApplicator>
+		</Item>
+		<Item href="/Summons/Demon/Attack.ATCK" id="1A906A4B-8953-4E4E-BA68-B3C079EAE45E">
+			<DamageApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<cancelInvisibility>false</cancelInvisibility>
+				<caption></caption>
+				<damage>
+					<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+					<returnType>float</returnType>
+					<sString>1</sString>
+				</damage>
+				<damageMode>0</damageMode>
+				<damageType>Pure</damageType>
+				<enabled>
+					<compiledString>FQUAAAABAAAASAAAAFdhcmQAVYvsUYtFDIsQi00Mi0JQ/9CD+BF0T4tNDIsRi00Mi0JQ/9CD+AJ0PYtNDIsRi00Mi0JU/9APtsiFyXUgagCLVRBSaAAAAACLRQyLEItNDIuCnAEAAP/QO0UQdQnHRfwAAAAA6wfHRfwBAAAAikX8i+Vdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>rUnitKind == 17 || rUnitKind == 2 || (!rIsHero &amp;&amp; receiver.applWard(GLOBAL) != pMisc)</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<timeLimiter>-1</timeLimiter>
+				<uiEvent href="" />
+			</DamageApplicator>
+		</Item>
 	</applicators>
 	<autoTargetSelector href="" />
 	<caption></caption>

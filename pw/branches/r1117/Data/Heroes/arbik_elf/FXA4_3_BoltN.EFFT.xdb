@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BasicEffectStandalone>
+	<BackLink DBID="/Items/Talents/Class/arbik_elf/arbik_A4_3_SummonBombRain.APLR" Count="5" />
+	<BackLink DBID="/Items/Talents/Class/arbik_elf/Ability_A4_3.TALENT" Count="9" />
+	<component href="/Heroes/arbik_elf/FXA4_3_BoltN.PRXY" />
+	<deathType>Manual</deathType>
+	<enableCondition href="" />
+	<fadeIn>0</fadeIn>
+	<fadeOut>0</fadeOut>
+	<isVisibleUnderWarfog>false</isVisibleUnderWarfog>
+	<lifeTime>0</lifeTime>
+	<parentFlags>0</parentFlags>
+	<parentType>General</parentType>
+	<visibilityLimited>false</visibilityLimited>
+	<visibleTime>0</visibleTime>
+</BasicEffectStandalone>

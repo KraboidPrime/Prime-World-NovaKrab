@@ -26,6 +26,8 @@
 	<BackLink DBID="/Maps/Test/DesignArtTest/Buildings/_N.SHOP" Count="1" />
 	<BackLink DBID="/Test/Talents/TST_TeleportCost.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level6/G728_StrOrInt.TALENT" Count="1" />
+	<BackLink DBID="/Items/Consumables/_Teleport_to_friendly_building.APLR" Count="1" />
+	<BackLink DBID="/Items/Consumables/_Teleport_to_friendly_hero.APLR" Count="1" />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
 		<compiledString></compiledString>

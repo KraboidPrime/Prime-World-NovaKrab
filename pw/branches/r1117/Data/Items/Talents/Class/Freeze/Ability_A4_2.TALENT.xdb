@@ -4,7 +4,7 @@
 	<BackLink DBID="/Items/Talents/Freeze_Alternative.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Freeze/Ability_A3.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Freeze/Ability_A4.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Freeze/Ability_A4_2.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Freeze/Ability_A4_2.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Freeze/Ability_A4_2u.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Freeze/Ability_A4u.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Level2/G567_CasterBase.TALENT" Count="1" />
@@ -50,9 +50,9 @@
 								<flag>1024</flag>
 								<formulaName></formulaName>
 								<lifeTime>
-									<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+									<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzcxMPw==</compiledString>
 									<returnType>float</returnType>
-									<sString>1</sString>
+									<sString>0.8f</sString>
 								</lifeTime>
 								<LoggingEvent>-1</LoggingEvent>
 								<providerName></providerName>
@@ -1695,6 +1695,41 @@
 					<sString>true</sString>
 				</startCondition>
 			</ProgramApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/Freeze/Ability_A4_2.TALENT" id="CAE7D844-EB7E-46BA-88FC-05DAC1026D38">
+			<FlagsApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>152</behaviorFlags>
+				<caption>Запрет повторного использования таланта</caption>
+				<consumables />
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<flag>1024</flag>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzcxMPw==</compiledString>
+					<returnType>float</returnType>
+					<sString>0.8f</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<talents>
+					<Item href="/Items/Talents/Class/Freeze/Ability_A4_2.TALENT" />
+				</talents>
+				<useListAs>ListAsRule</useListAs>
+			</FlagsApplicator>
 		</Item>
 	</applicators>
 	<askId>4</askId>

@@ -9,6 +9,7 @@
 	<BackLink DBID="/Items/Talents/Level3/G328_AoERegEnergy.TALENT" Count="1" />
 	<BackLink DBID="/Maps/PvE/Series/Coop1/Heroes/ManaWyrm/Ability4.TALENT" Count="1" />
 	<BackLink DBID="/Summons/EvilTree/_.SUMMONED" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/SnowQueen/New_mana_burn.APLR" Count="1" />
 	<signRecipients>EVENT_PARTICIPANTS</signRecipients>
 	<UISigns>
 		<Item href="/UI/Events/CommonEvents/EventEnergyBurn.UIEV" id="C057CBC1-97C9-45E8-81D1-99094409A2DE">

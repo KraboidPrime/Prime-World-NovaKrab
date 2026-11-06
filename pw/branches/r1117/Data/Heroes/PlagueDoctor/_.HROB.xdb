@@ -1044,9 +1044,9 @@
 					<calcIncrement>25</calcIncrement>
 					<calcValue>705</calcValue>
 					<increment>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQQ==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAEQg==</compiledString>
 						<returnType>float</returnType>
-						<sString>30</sString>
+						<sString>33</sString>
 					</increment>
 					<levelUpgrades />
 					<statId>Life</statId>

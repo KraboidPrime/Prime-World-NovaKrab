@@ -8,6 +8,8 @@
 	<BackLink DBID="/Maps/Test/BalanseTest/Shops/_N.SHOP" Count="1" />
 	<BackLink DBID="/Items/Talents/Level2/G725_StrOrInt.TALENT" Count="1" />
 	<BackLink DBID="/Items/Consumables/KU-StickNew.ARCT" Count="1" />
+	<BackLink DBID="/Buildings/DefaultStats/Basic.CNSH" Count="1" />
+	<BackLink DBID="/Buildings/DefaultStats/Basic_Bots.CNSH" Count="1" />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
 		<compiledString></compiledString>

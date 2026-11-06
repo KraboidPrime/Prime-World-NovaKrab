@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UnitConstant>
+	<BackLink DBID="/Items/Talents/Class/Reaper/Ability_A3.TALENT" Count="1" />
+	<name>A3_AoEDamage</name>
+	<var>
+		<compiledString>FSQAAAACAAAAMwAAAE0AAABBM19Bb0VEYW1hZ2VQZXJTdGFjawAAAABMaWZlUGVyY2VudABVi+yD7AyLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0otFDFCLTQhRaBgAAACLVRCLAotNEItQUN1d+P/S3E342V302UX0i+Vdww==</compiledString>
+		<returnType>float</returnType>
+		<sString>cA3_AoEDamagePerStack * cLifePercent</sString>
+	</var>
+</UnitConstant>

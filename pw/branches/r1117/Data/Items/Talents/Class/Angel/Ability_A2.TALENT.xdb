@@ -306,7 +306,28 @@
 		<returnType>float</returnType>
 		<sString>0.0f</sString>
 	</castAllowRange>
-	<castLimitations />
+	<castLimitations>
+		<Item href="/Items/Talents/Class/Angel/Ability_A2.TALENT" id="31F40CBF-D025-42C7-9705-BE0D1A1FA869">
+			<TargetCastLimitation>
+				<targetSelector href="/Items/Talents/Class/Angel/Ability_A2.TALENT" id="404BDAF4-A82A-485F-AF6F-473147375D18">
+					<UnitPlaceCorrector>
+						<checkByRangeToRequester>false</checkByRangeToRequester>
+						<checkLineOfSight>false</checkLineOfSight>
+						<nativeTerrainOnly>false</nativeTerrainOnly>
+						<passabilityCheckMode>6</passabilityCheckMode>
+						<radius>0</radius>
+						<targetSelector href="/Items/Talents/Class/Angel/Ability_A2.TALENT" id="76124860-5AF7-477E-84AE-71646DFDC49F">
+							<ConvertTargetToLand>
+								<aggregateMode>First</aggregateMode>
+								<targetSelector href="" />
+							</ConvertTargetToLand>
+						</targetSelector>
+					</UnitPlaceCorrector>
+				</targetSelector>
+				<uiEvent href="/UI/Events/ErrorMessages/CastError_UnsuitablePlace.UIEV" />
+			</TargetCastLimitation>
+		</Item>
+	</castLimitations>
 	<commonDescription textref="/Items/Talents/Class/Angel/Ability_A2.TALENT_commonDescription.txt" />
 	<compiledDescriptionA textref="" />
 	<compiledDescriptionB textref="" />
@@ -799,7 +820,7 @@
 	<persistentId>Angel_A2</persistentId>
 	<prerequisiteTalents />
 	<rarity>Class</rarity>
-	<requireLineOfSight>true</requireLineOfSight>
+	<requireLineOfSight>false</requireLineOfSight>
 	<shortDescription textref="/Items/Talents/Class/Angel/Ability_A2.TALENT_shortDescription.txt" />
 	<talentRollGroups>63</talentRollGroups>
 	<talentStats />

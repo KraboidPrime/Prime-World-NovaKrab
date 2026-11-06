@@ -10,4 +10,9 @@
 	<fadeOut>0.5</fadeOut>
 	<groupFlags>0</groupFlags>
 	<lifeTime>0</lifeTime>
+	<__states>
+		<state name="trickster_S2">
+			<component href="/Heroes/Trickster/S2/Effects/Debuffs/Roots/_Prime_TRS.PRXY" />
+		</state>
+	</__states>
 </BasicEffectAttached>

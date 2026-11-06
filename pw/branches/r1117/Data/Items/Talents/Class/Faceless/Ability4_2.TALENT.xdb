@@ -128,16 +128,16 @@
 			<FlagsApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
 				<behaviorFlags>0</behaviorFlags>
-				<caption></caption>
+				<caption>фиолетовый нож</caption>
 				<consumables />
 				<effect>
 					<Item href="/Heroes/Faceless/FXDaggerA.EFFT" />
-					<Item href="/Heroes/Faceless/FXDaggerB.EFFT" />
+					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FRoAAAACAAAAHwAAADgAAABGYWNlbGVzc19BNABGYWNlbGVzc19BNHUxAFWL7FFoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHUiaAwAAACLTQiLEYtNCIuCqAEAAP/QhcB1CcdF/AEAAADrB8dF/AAAAACKRfyL5V3D</compiledString>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
 					<returnType>bool</returnType>
-					<sString>!sender.GetTalent( "Faceless_A4" ) &amp;&amp; !sender.GetTalent( "Faceless_A4u1" )</sString>
+					<sString>true</sString>
 				</enabled>
 				<flag>0</flag>
 				<formulaName></formulaName>
@@ -149,9 +149,9 @@
 				<LoggingEvent>-1</LoggingEvent>
 				<providerName></providerName>
 				<startCondition>
-					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+					<compiledString>FQ4AAAABAAAAEgAAAGZhY2VsZXNzX1MwX0IAVYvsaAAAAACLRQiLEItNCIuC6AEAAP/QD7bA99gbwIPAAV3D</compiledString>
 					<returnType>bool</returnType>
-					<sString>true</sString>
+					<sString>!sender.IsSkinUsed( "faceless_S0_B" )</sString>
 				</startCondition>
 				<talents />
 				<useListAs>ListAsRule</useListAs>
@@ -161,16 +161,16 @@
 			<FlagsApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
 				<behaviorFlags>0</behaviorFlags>
-				<caption></caption>
+				<caption>фиолетовый меч не мистерии</caption>
 				<consumables />
 				<effect>
 					<Item href="/Heroes/Faceless/FXSword_A.EFFT" />
-					<Item href="/Heroes/Faceless/FXSword_B.EFFT" />
+					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FSgAAAADAAAALQAAAEYAAABfAAAARmFjZWxlc3NfQTQARmFjZWxlc3NfQTR1MQAAAGZhY2VsZXNzX1MzAFWL7FFoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHU+aAwAAACLTQiLEYtNCIuCqAEAAP/QhcB1JWgcAAAAi00IixGLTQiLgugBAAD/0A+2yIXJdQnHRfwBAAAA6wfHRfwAAAAAikX8i+Vdww==</compiledString>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
 					<returnType>bool</returnType>
-					<sString>!sender.GetTalent( "Faceless_A4" ) &amp;&amp; !sender.GetTalent( "Faceless_A4u1" ) &amp;&amp; !sender.IsSkinUsed( "faceless_S3" )</sString>
+					<sString>true</sString>
 				</enabled>
 				<flag>0</flag>
 				<formulaName></formulaName>
@@ -182,9 +182,9 @@
 				<LoggingEvent>-1</LoggingEvent>
 				<providerName></providerName>
 				<startCondition>
-					<compiledString></compiledString>
+					<compiledString>FRwAAAACAAAAIQAAAD0AAABmYWNlbGVzc19TMF9CAAAAZmFjZWxlc3NfUzMAVYvsUWgAAAAAi0UIixCLTQiLgugBAAD/0A+2yIXJdSVoEAAAAItVCIsCi00Ii5DoAQAA/9IPtsCFwHUJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcM=</compiledString>
 					<returnType>bool</returnType>
-					<sString>true</sString>
+					<sString>!sender.IsSkinUsed( "faceless_S0_B" ) &amp;&amp; !sender.IsSkinUsed( "faceless_S3" )</sString>
 				</startCondition>
 				<talents />
 				<useListAs>ListAsRule</useListAs>
@@ -194,16 +194,16 @@
 			<FlagsApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
 				<behaviorFlags>0</behaviorFlags>
-				<caption></caption>
+				<caption>фиолетовый меч мистерии</caption>
 				<consumables />
 				<effect>
 					<Item href="/Heroes/Faceless/FXSword_A3.EFFT" />
-					<Item href="/Heroes/Faceless/FXSword_B3.EFFT" />
+					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FSgAAAADAAAALQAAAEYAAABfAAAARmFjZWxlc3NfQTQARmFjZWxlc3NfQTR1MQAAAGZhY2VsZXNzX1MzAFWL7FFoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHU+aAwAAACLTQiLEYtNCIuCqAEAAP/QhcB1JWgcAAAAi00IixGLTQiLgugBAAD/0A+2yIXJdAnHRfwBAAAA6wfHRfwAAAAAikX8i+Vdww==</compiledString>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
 					<returnType>bool</returnType>
-					<sString>!sender.GetTalent( "Faceless_A4" ) &amp;&amp; !sender.GetTalent( "Faceless_A4u1" ) &amp;&amp; sender.IsSkinUsed( "faceless_S3" )</sString>
+					<sString>true</sString>
 				</enabled>
 				<flag>0</flag>
 				<formulaName></formulaName>
@@ -215,9 +215,75 @@
 				<LoggingEvent>-1</LoggingEvent>
 				<providerName></providerName>
 				<startCondition>
-					<compiledString></compiledString>
+					<compiledString>FQwAAAABAAAAEAAAAGZhY2VsZXNzX1MzAFWL7GgAAAAAi0UIixCLTQiLgugBAAD/0F3D</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.IsSkinUsed( "faceless_S3" )</sString>
+				</startCondition>
+				<talents />
+				<useListAs>ListAsRule</useListAs>
+			</FlagsApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/Faceless/Ability4_2.TALENT" id="1C321CE4-E1FE-4FAA-9808-DDC64DAE71EA">
+			<FlagsApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>белый нож</caption>
+				<consumables />
+				<effect>
+					<Item href="/Heroes/Faceless/FXDaggerB.EFFT" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
 					<returnType>bool</returnType>
 					<sString>true</sString>
+				</enabled>
+				<flag>0</flag>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString>FQ4AAAABAAAAEgAAAGZhY2VsZXNzX1MwX0IAVYvsaAAAAACLRQiLEItNCIuC6AEAAP/QXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.IsSkinUsed( "faceless_S0_B" )</sString>
+				</startCondition>
+				<talents />
+				<useListAs>ListAsRule</useListAs>
+			</FlagsApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/Faceless/Ability4_2.TALENT" id="B4A4EFF7-8E11-4D60-B2D7-777F8484DBE4">
+			<FlagsApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>белый меч</caption>
+				<consumables />
+				<effect>
+					<Item href="/Heroes/Faceless/FXSword_B.EFFT" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<flag>0</flag>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString>FQ4AAAABAAAAEgAAAGZhY2VsZXNzX1MwX0IAVYvsaAAAAACLRQiLEItNCIuC6AEAAP/QXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.IsSkinUsed( "faceless_S0_B" )</sString>
 				</startCondition>
 				<talents />
 				<useListAs>ListAsRule</useListAs>

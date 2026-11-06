@@ -388,6 +388,36 @@
 				<targetSelector href="" />
 			</SpellApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/Demonolog/SummonDemons.APLR" id="D5B013B3-2079-4673-8CA3-6849FF970430">
+			<PermanentStatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption></caption>
+				<customApplyType>None</customApplyType>
+				<enabled>
+					<compiledString>FQ0AAAABAAAAEQAAAGRlbW9ub2xvZ19TMwBVi+xoAAAAAItFCIsQi00Ii4LoAQAA/9Bdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.IsSkinUsed( "demonolog_S3" )</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Life</stat>
+					<topModifier>false</topModifier>
+					<variable>YaHueyu</variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
 	</applicators>
 	<applyTarget>AbilityOwner</applyTarget>
 	<behaviour href="/Items/Talents/Class/Demonolog/SummonDemons.APLR" id="CD8D1B6D-4CEF-4B75-845D-9B5320D3BCBB">
@@ -444,12 +474,13 @@
 		</life>
 	</spawnStats>
 	<summonedUnitIndex>
-		<compiledString></compiledString>
+		<compiledString>FQ0AAAABAAAAEQAAAGRlbW9ub2xvZ19TMwBVi+xoAAAAAItFCIsQi00Ii4LoAQAA/9APtsBdww==</compiledString>
 		<returnType>int</returnType>
-		<sString>0</sString>
+		<sString>sender.IsSkinUsed( "demonolog_S3" )</sString>
 	</summonedUnitIndex>
 	<summonedUnits>
 		<Item href="/Summons/Demon2/_.SUMMONED" />
+		<Item href="/Summons/Demon2/_2.SUMMONED" />
 	</summonedUnits>
 	<summonedUnitsCount>
 		<compiledString>FQsAAAABAAAAFQAAAFNhdmVEZW1vbnMAVYvsUdno2RwkaAAAAACLRQiLEItNCIuCiAEAAP/QUdkcJOgUAAAAg8QE2Rwk6DEAAACDxARdwwAAgD9Vi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3DuAEAAAAPovfCAAAABHQH8w8sRCQEw+kAAAAAVYvsg+wM2UUI2X38D7dF/A0ADAAAiUX42W3421302W38i0X0i+Vdww==</compiledString>

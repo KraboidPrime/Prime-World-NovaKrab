@@ -92,6 +92,26 @@
 					</UnitConstant>
 				</Item>
 				<Item href="/Items/Talents/TalentKits/Vampiric3_StunProc/const_Stun_Duration" />
+				<Item href="/Items/Talents/Level4/G306_K_LifeDrain_AttackSpeed.TALENT" id="A19E195C-198E-4C31-A32C-0CE8F7A2BD51">
+					<UnitConstant>
+						<name>HealthIncrease</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQg==</compiledString>
+							<returnType>float</returnType>
+							<sString>40</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Level4/G306_K_LifeDrain_AttackSpeed.TALENT" id="FF5F85F5-E7D3-4B16-AC91-8A084936AEF1">
+					<UnitConstant>
+						<name>HealthGained</name>
+						<var>
+							<compiledString>FRUAAAABAAAAGQAAAFZhbXBpcmUzSGVhbHRoR2FpbmVkAFWL7GgAAAAAi0UIixCLTQiLgogBAAD/0F3D</compiledString>
+							<returnType>float</returnType>
+							<sString>sender.vVampire3HealthGained</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 				<Item href="/Items/Talents/Level4/G306_K_LifeDrain_AttackSpeed.TALENT" id="CDEF49CF-A24D-42D7-B054-4CE76CB5ACBE">
 					<UnitConstant>
 						<name>TECH_AbilityProc</name>
@@ -211,11 +231,11 @@
 					<Item href="/Items/Talents/Level4/G306_K_LifeDrain_AttackSpeed.TALENT" id="72611036-6D91-42E7-9DD4-CED9697E7D86">
 						<SpellApplicator>
 							<applyTarget>ApplicatorTarget</applyTarget>
-							<caption>Прок апликатор со стуном</caption>
+							<caption>Прок аппликатор с увеличением здоровья</caption>
 							<enabled>
-								<compiledString>FScAAAAEAAAANAAAAEcAAABTAAAAaQAAAFRFQ0hfQWJpbGl0eVByb2MAAAAAVmFtcGlyZTNTdHVuUHJvY0NEAFWL7FGLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0twdiwAAAN/g9sREeytoFAAAAItFCIsQi00Ii4KIAQAA/9DcHYsAAADf4PbERHoJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAAAA==</compiledString>
+								<compiledString>FTEAAAAGAAAAQQAAAFQAAACmAAAAvwAAAPUAAAAOAQAAVEVDSF9BYmlsaXR5UHJvYwAAAABHMjk1AAAAAEcyOTUAAAAARzMxNAAAAABHMzE0AFWL7IPsFFaLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0twdWwEAAN/g9sRED4vpAAAAi0UMixCLTQyLgpABAAD/0Ivwi00IixGLTQiLgpABAAD/0DvwD4S/AAAAi00MixGLTQyLQlT/0A+2yIXJD4SnAAAAaBQAAACLVQiLAotNCIuQqAEAAP/ShcB0KmgcAAAAi0UIixCLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0WGgkAAAAi1UIiwKLTQiLkKgBAAD/0oXAdCpoLAAAAItFCIsQi00Ii4KoAQAA/9CJRfSLTfSLEYtN9ItCBP/QiEXz6wTGRfMAD7ZN84XJdAnHRewBAAAA6wfHRewAAAAAikXsXovlXcMAAAAAAAAAAA==</compiledString>
 								<returnType>bool</returnType>
-								<sString>cTECH_AbilityProc &amp;&amp; sender.vVampire3StunProcCD == 0</sString>
+								<sString>cTECH_AbilityProc &amp;&amp; rFctn != sFctn &amp;&amp; rIsHero &amp;&amp; tal("G295") &amp;&amp; tal("G314")</sString>
 							</enabled>
 							<formulaName></formulaName>
 							<LoggingEvent>-1</LoggingEvent>
@@ -224,53 +244,65 @@
 								<Spell>
 									<applicators>
 										<Item href="/Items/Talents/Level4/G306_K_LifeDrain_AttackSpeed.TALENT" id="D4949C24-5111-4769-A23D-B15F23393F34">
-											<StatModApplicator>
+											<PermanentStatModApplicator>
 												<applyTarget>AbilityOwner</applyTarget>
-												<behaviorFlags>153</behaviorFlags>
-												<caption>Запоминаем, что стан прошел</caption>
-												<constraint>None</constraint>
-												<dontUpdate>false</dontUpdate>
-												<effect>
-													<Item href="" />
-													<Item href="" />
-												</effect>
+												<caption>Увеличиваем макс Здоровье</caption>
+												<customApplyType>None</customApplyType>
 												<enabled>
 													<compiledString></compiledString>
 													<returnType>bool</returnType>
 													<sString>true</sString>
 												</enabled>
 												<formulaName></formulaName>
-												<lifeTime>
-													<compiledString>FQ4AAAABAAAAGgAAAEczMDZfQ29vbGRvd24AVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
-													<returnType>float</returnType>
-													<sString>cG306_Cooldown</sString>
-												</lifeTime>
 												<LoggingEvent>-1</LoggingEvent>
 												<modifier>
 													<addValue>
-														<compiledString></compiledString>
+														<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQg==</compiledString>
 														<returnType>float</returnType>
-														<sString>1.0f</sString>
+														<sString>40</sString>
 													</addValue>
 													<multValue>
 														<compiledString></compiledString>
 														<returnType>float</returnType>
-														<sString>0.0f</sString>
+														<sString>1.0f</sString>
 													</multValue>
 													<stat>Life</stat>
 													<topModifier>false</topModifier>
-													<variable>Vampire3StunProcCD</variable>
+													<variable></variable>
 												</modifier>
 												<providerName></providerName>
-												<startCondition>
-													<compiledString>FTMAAAAHAAAAewAAAI8AAACiAAAArgAAAMQAAADYAAAA6wAAAFN0dW5fU3RhcnRDb25kaXRpb24ASW1tdW5lMkNvbnRyb2wAAFN0dW5fQ29uZGl0aW9uAFWL7IPsCItFDIsQi00Mi0JQ/9AzyYP4EQ+VwYlN/NtF/FHZHCRR2e7ZHCRqAYtVDIsCi00Mi1BY/9IPtsBQ6KMAAACDxAzcHQ0BAADf4PbERHt5i00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ/9DcHQ0BAADf4PbERHtSaBQAAACLTQyLEYtNDIuCiAEAAP/Q3B0NAQAA3+D2xER6MItNDFGLVQhSaCQAAACLRRCLEItNEItCUP/Q3B0NAQAA3+D2xER7CcdF+AEAAADrB8dF+AAAAACKRfiL5V3DAAAAAAAAAAAAAAAAVYvsUQ+2RQiFwHQI2UUM2V386wbZRRDZXfzZRfyL5V3D</compiledString>
-													<returnType>bool</returnType>
-													<sString>ut_bldg( false, rUnitKind != 17 ) &amp;&amp; cStun_StartCondition &amp;&amp; receiver.vImmune2Control == 0 &amp;&amp; cStun_Condition</sString>
-												</startCondition>
-												<statModName></statModName>
-											</StatModApplicator>
+											</PermanentStatModApplicator>
 										</Item>
-										<Item href="/Heroes/DefaultStatus/_STUN_Status.APLR" />
+										<Item href="/Items/Talents/Level4/G306_K_LifeDrain_AttackSpeed.TALENT" id="88A8F8BF-9BE5-420D-B4B6-70C651DC2C65">
+											<PermanentStatModApplicator>
+												<applyTarget>AbilityOwner</applyTarget>
+												<caption>Vampire3HealthGained</caption>
+												<customApplyType>None</customApplyType>
+												<enabled>
+													<compiledString></compiledString>
+													<returnType>bool</returnType>
+													<sString>true</sString>
+												</enabled>
+												<formulaName></formulaName>
+												<LoggingEvent>-1</LoggingEvent>
+												<modifier>
+													<addValue>
+														<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQg==</compiledString>
+														<returnType>float</returnType>
+														<sString>40</sString>
+													</addValue>
+													<multValue>
+														<compiledString></compiledString>
+														<returnType>float</returnType>
+														<sString>1.0f</sString>
+													</multValue>
+													<stat>Life</stat>
+													<topModifier>false</topModifier>
+													<variable>Vampire3HealthGained</variable>
+												</modifier>
+												<providerName></providerName>
+											</PermanentStatModApplicator>
+										</Item>
 									</applicators>
 									<dispatch href="/Items/Talents/Level4/G306_K_LifeDrain_AttackSpeed.TALENT" id="7999156A-54C1-4ED0-AF4B-8113292E7728">
 										<DispatchImmediate>
@@ -305,15 +337,15 @@
 				</applyCount>
 				<applyTarget>ApplicatorTarget</applyTarget>
 				<behaviorFlags>152</behaviorFlags>
-				<caption>вероятностный спелл на стан</caption>
+				<caption>вероятностный спелл на увеличение здоровья</caption>
 				<effect>
 					<Item href="" />
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FR0AAAAEAAAAOgAAAFMAAACJAAAAogAAAEcyOTUAAAAARzI5NQAAAABHMzE0AAAAAEczMTQAVYvsg+wUi0UMixCLTQyLQlD/0IP4EQ+EpwAAAGgAAAAAi00IixGLTQiLgqgBAAD/0IXAdCpoCAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdFhoEAAAAItVCIsCi00Ii5CoAQAA/9KFwHQqaBgAAACLRQiLEItNCIuCqAEAAP/QiUX0i030ixGLTfSLQgT/0IhF8+sExkXzAA+2TfOFyXQJx0XsAQAAAOsHx0XsAAAAAIpF7IvlXcM=</compiledString>
+					<compiledString>FR0AAAAEAAAAJAAAAD0AAABzAAAAjAAAAEcyOTUAAAAARzI5NQAAAABHMzE0AAAAAEczMTQAVYvsg+wUaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgIAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0WGgQAAAAi1UIiwKLTQiLkKgBAAD/0oXAdCpoGAAAAItFCIsQi00Ii4KoAQAA/9CJRfSLTfSLEYtN9ItCBP/QiEXz6wTGRfMAD7ZN84XJdAnHRewBAAAA6wfHRewAAAAAikXsi+Vdww==</compiledString>
 					<returnType>bool</returnType>
-					<sString>rUnitKind != 17 &amp;&amp; tal("G295") &amp;&amp; tal("G314") </sString>
+					<sString>tal("G295") &amp;&amp; tal("G314")</sString>
 				</enabled>
 				<flags>0</flags>
 				<formulaName></formulaName>

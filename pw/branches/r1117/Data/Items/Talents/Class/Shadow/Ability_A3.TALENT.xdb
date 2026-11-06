@@ -18,6 +18,7 @@
 	<BackLink DBID="/Maps/Tutorial/FlagsForbidAbility1.APLR" Count="1" />
 	<BackLink DBID="/Test/Talents/Shadow/Shadow.TALENTSET" Count="1" />
 	<BackLink DBID="/Items/Talents/Level1/G129_Str.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/Shadow/spell_A1_arrowSUP.SPLL" Count="1" />
 	<activationConditions />
 	<activeCustomTrigger>true</activeCustomTrigger>
 	<allowChase>
@@ -303,9 +304,9 @@
 					<UnitConstant>
 						<name>Damage</name>
 						<var>
-							<compiledString>FRYAAAABAAAAGgAAAFNoYWRvd19BM19EYW1hZ2VUYWtlbgBVi+xoAAAAAItFCIsQi00Ii4KIAQAA/9Bdww==</compiledString>
+							<compiledString>FSIAAAACAAAAJgAAAEcAAABTaGFkb3dfQTNfRGFtYWdlVGFrZW4AAABNYXhEYW1hZ2UAVYvsaAAAAACLRQiLEItNCIuCiAEAAP/QUdkcJItNDFGLVQhSaBgAAACLRRCLEItNEItCUP/QUdkcJOgaAAAAg8QE2RwkUdnu2Rwk6DEAAACDxAhdwwAAAABVi+xR2UUI2UUM3tnf4PbEQXUI2UUI2V386wbZRQzZXfzZRfyL5V3DVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
 							<returnType>float</returnType>
-							<sString>sender.vShadow_A3_DamageTaken</sString>
+							<sString>max(0, min(cMaxDamage, sender.vShadow_A3_DamageTaken))</sString>
 						</var>
 					</UnitConstant>
 				</Item>

@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Class/SnowQueen/Ability_A3u.TALENT" Count="1" />
 	<name>CoolDown</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACQQQ==</compiledString>
+		<compiledString>FR4AAAAEAAAAJQAAAD4AAAC0AAAAwQAAAFNub3dRdWVlbl9BM3UAAABTbm93UXVlZW5fQTN1AFWL7IPsHGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAi00IixGLTQiLgjABAAD/0ItNCIsRi00Ii4I0AQAA3V3w/9DcXfDf4PbEBXoJx0XsAQAAAOsHx0XsAAAAAA+2TfuJTejbRejcDd8AAADaTezZ6N7h3A3PAAAA2V3k2UXki+VdwwAAAAAAADJAAAAAAAAA8D+amZmZmZnJPw==</compiledString>
 		<returnType>float</returnType>
-		<sString>18</sString>
+		<sString>18*(1-0.2*tal("SnowQueen_A3u")*(sStrength &gt; sIntellect ? 1 : 0))</sString>
 	</var>
 </UnitConstant>

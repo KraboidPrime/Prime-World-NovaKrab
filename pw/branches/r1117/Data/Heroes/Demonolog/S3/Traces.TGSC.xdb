@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TraceGenSceneComponent>
+			<attached />
+	<caption>Traces</caption>
+	<defaultLocatorName>Ground</defaultLocatorName>
+	<defaultTraces href="/Effects/Environment/WaterTraces/TraceIdleB.TRAC" />
+	<groupFlags>0</groupFlags>
+	<locatorList href="/Heroes/Demonolog/S3/Traces.TGSC" id="814EDBDB-1A1A-4738-BB40-43FFBE34B4DC">
+		<LocatorList>
+			<locators />
+		</LocatorList>
+	</locatorList>
+	<orientation>Default</orientation>
+	<traceByAnim>
+		<Item>
+			<locatorName>Move</locatorName>
+			<nodeName>move1</nodeName>
+			<traces href="/Effects/Environment/WaterTraces/TraceMoveB.TRAC" />
+		</Item>
+		<Item>
+			<locatorName>Move</locatorName>
+			<nodeName>move2</nodeName>
+			<traces href="/Effects/Environment/WaterTraces/TraceMoveB.TRAC" />
+		</Item>
+		<Item>
+			<locatorName>AttackTrace</locatorName>
+			<nodeName>attack1</nodeName>
+			<traces href="/Effects/Environment/WaterTraces/TraceAttackB.TRAC" />
+		</Item>
+		<Item>
+			<locatorName>AttackTrace</locatorName>
+			<nodeName>attack2</nodeName>
+			<traces href="/Effects/Environment/WaterTraces/TraceAttackB.TRAC" />
+		</Item>
+		<Item>
+			<locatorName>AttackTrace</locatorName>
+			<nodeName>attack3</nodeName>
+			<traces href="/Effects/Environment/WaterTraces/TraceAttackB.TRAC" />
+		</Item>
+		<Item>
+			<locatorName>AttackTrace</locatorName>
+			<nodeName>attack4</nodeName>
+			<traces href="/Effects/Environment/WaterTraces/TraceAttackB.TRAC" />
+		</Item>
+		<Item>
+			<locatorName>AttackTrace</locatorName>
+			<nodeName>attack5</nodeName>
+			<traces href="/Effects/Environment/WaterTraces/TraceAttackB.TRAC" />
+		</Item>
+		<Item>
+			<locatorName>Death</locatorName>
+			<nodeName>death</nodeName>
+			<traces href="/Effects/Environment/WaterTraces/TraceDeathB.TRAC" />
+		</Item>
+		<Item>
+			<locatorName>Ability1</locatorName>
+			<nodeName>ability1</nodeName>
+			<traces href="/Effects/Environment/WaterTraces/TraceDeathB.TRAC" />
+		</Item>
+		<Item>
+			<locatorName>Ground</locatorName>
+			<nodeName>ability2</nodeName>
+			<traces href="/Effects/Environment/WaterTraces/TraceAttackB.TRAC" />
+		</Item>
+		<Item>
+			<locatorName>Ground</locatorName>
+			<nodeName>ability4</nodeName>
+			<traces href="/Effects/Environment/WaterTraces/TraceAttackB.TRAC" />
+		</Item>
+	</traceByAnim>
+</TraceGenSceneComponent>

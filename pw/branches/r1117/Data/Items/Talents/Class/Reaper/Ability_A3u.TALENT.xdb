@@ -55,8 +55,17 @@
 		<UnitConstantsContainer>
 			<vars>
 				<Item href="/Items/Talents/Class/Reaper/const_A3_LifePercentLost" />
-				<Item href="/Items/Talents/Class/Reaper/const_A3u_DamageReduct" />
 				<Item href="/Items/Talents/Class/Reaper/const_A3_MaxStacks" />
+				<Item href="/Items/Talents/Class/Reaper/Ability_A3u.TALENT" id="7B5DB4D8-925C-4527-89FF-80F0188BD238">
+					<UnitConstant>
+						<name>A3u_AddDef</name>
+						<var>
+							<compiledString>FQoAAAADAAAAFQAAAB8AAABUAAAATWF4U3RhY2tzAFWL7IPsDGoBUdkFeQAAANkcJFHZBXUAAADZHCRqAItFCIsQi00Ii4I0AQAA/9BR2RwkagCLTRCLEYtNEItCYP/Qi00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ3V34/9DcffjZXfTZRfSL5V3DAACAQAAA8EE=</compiledString>
+							<returnType>float</returnType>
+							<sString>abilityScale(sIntellect, 4, 30)  / cMaxStacks</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

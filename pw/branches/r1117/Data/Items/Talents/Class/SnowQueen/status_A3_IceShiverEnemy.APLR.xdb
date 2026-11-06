@@ -54,6 +54,10 @@
 											</applicator>
 										</Item>
 										<Item skip="1" />
+										<Item>
+											<applicator href="/Items/Talents/Class/SnowQueen/New_mana_burn.APLR" />
+											<variableNames />
+										</Item>
 									</applicators>
 								</VariableProxyApplicator>
 							</Item>

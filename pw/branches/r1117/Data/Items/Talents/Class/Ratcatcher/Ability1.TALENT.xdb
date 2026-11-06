@@ -313,9 +313,9 @@
 					<UnitConstant>
 						<name>A1_BaseDamage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAAwQQAApkI=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAAgQQAAnEI=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(sIntellect, 11, 83)</sString>
+							<sString>damageScale(sIntellect, 10, 78)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

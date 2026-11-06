@@ -69,9 +69,9 @@
 					<UnitConstant>
 						<name>Add_Strength</name>
 						<var>
-							<compiledString>FQAAAAACAAAAYAAAAGoAAABVi+yD7AyLRQiLEItNCIuCNAEAAP/Qi00IixGLTQiLgjABAADdXfj/0Nxd+N/g9sQFehWLTQiLEYtNCIuCNAEAAP/Q2V306xOLTQiLEYtNCIuCMAEAAP/Q2V30agBR2QWRAAAA2RwkUdkFjQAAANkcJGoAUdlF9NkcJGoAi00QixGLTRCLQmD/0IvlXcMzMxNAZmaKQQ==</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAFHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCvAAAAP/QUdkcJGoAi00QixGLTRCLQmD/0F3DMzMTQGZmikE=</compiledString>
 							<returnType>float</returnType>
-							<sString>abilityScale((sIntellect&gt;sStrength? sIntellect : sStrength), 2.3, 17.3, false)</sString>
+							<sString>abilityScale(sBaseIntellect, 2.3, 17.3, false)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

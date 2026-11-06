@@ -141,7 +141,17 @@
 	<description textref="/Items/Talents/Class/Bomber/status_A4_Self.APLR_description.txt" />
 	<dispellPriority>High</dispellPriority>
 	<effect>
-		<Item href="/Heroes/Bomber/FX_Ability4.EFFT" />
+		<Item href="/Items/Talents/Class/Bomber/status_A4_Self.APLR" id="E6BF9B25-E83C-4386-94FA-311516AFD9DD">
+			<EffectList>
+				<deathType>Manual</deathType>
+				<effects>
+					<Item href="/Heroes/Bomber/FX_Ability4.EFFT" />
+					<Item href="/Heroes/Bomber/S1/FX_Ability4.EFFT" />
+				</effects>
+				<enableCondition href="" />
+				<lifeTime>0</lifeTime>
+			</EffectList>
+		</Item>
 		<Item href="" />
 	</effect>
 	<enabled>

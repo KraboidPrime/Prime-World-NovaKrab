@@ -688,9 +688,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FT4AAAAHAAAARQAAAF4AAACMAAAApQAAAN4AAADyAAAA+gAAAEhlYWxlcl9BMl9TVVAAAABIZWFsZXJfQTJfU1VQAAAASGVhbGVyX0EzX1NVUAAAAEhlYWxlcl9BM19TVVAAVYvsg+wcaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wBoIAAAAItNCIsRi00Ii4KoAQAA/9CFwHQqaDAAAACLTQiLEYtNCIuCqAEAAP/QiUX0i030ixGLTfSLQgT/0IhF8+sExkXzAA+2TfuJTezbRezcDSABAADZ6N7BD7ZV84lV6NtF6NwNEAEAAN7B3A0IAQAA2V3k2UXki+VdwwAAAAAAgGZAmpmZmZmZyT8AAAAAAADwP5qZmZmZmdk/</compiledString>
+		<compiledString>FR4AAAAEAAAAJQAAAD4AAAB3AAAAgQAAAEhlYWxlcl9BNF9TVVAAAABIZWFsZXJfQTRfU1VQAFWL7IPsEGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4lN9NtF9NwNnwAAANno3uHcDY8AAADZXfDZRfCL5V3DAAAAAACAZkAAAAAAAADwPzMzMzMzM9M/</compiledString>
 		<returnType>float</returnType>
-		<sString>180*(1+0.4*tal("Healer_A2_SUP")+0.2*tal("Healer_A3_SUP"))</sString>
+		<sString>180*(1-0.3*tal("Healer_A4_SUP"))</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>
@@ -750,9 +750,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FQAAAAABAAAAEwAAAFWL7FGLRRCLEItNEItCHP/Q3B01AAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAA8D8=</compiledString>
+					<compiledString>FR0AAAAEAAAAMgAAAEwAAABYAAAAcQAAAEhlYWxlcl9BNF8ydQAAAABIZWFsZXJfQTRfMnUAVYvsg+wMi0UQixCLTRCLQhz/0NwdxQAAAN/g9sREe3KLTRCLEYtNEItCHP/Q3B29AAAA3+D2xAV6T2gAAAAAi00IixGLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdQnHRfQAAAAA6wfHRfQBAAAAikX0i+VdwwAAAEDheoQ/AAAAAAAA8D8=</compiledString>
 					<returnType>bool</returnType>
-					<sString>mPreparedness == 1.0f</sString>
+					<sString>mPreparedness == 1.0f || (mPreparedness &lt; 0.01f &amp;&amp; tal("Healer_A4_2u"))</sString>
 				</enabled>
 				<flag>262144</flag>
 				<formulaName></formulaName>

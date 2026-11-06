@@ -1,14 +1,65 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ChannellingApplicator>
-	<BackLink DBID="/Items/Talents/Class/Angel/Ability_A4.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Angel/Ability_A4.TALENT" Count="3" />
 	<applicatorsOnSelf />
 	<applyTarget>AbilityOwner</applyTarget>
 	<behaviorFlags>1</behaviorFlags>
 	<cancelOnDisable>true</cancelOnDisable>
 	<cancelOnInterrupt>true</cancelOnInterrupt>
-	<cancelSpell href="" />
+	<cancelSpell href="/Items/Talents/Class/Angel/A4_TeleportChanneling.APLR" id="B084D9BC-F3EC-4011-B795-2651DD752FFD">
+		<Spell>
+			<applicators>
+				<Item href="/Items/Talents/Class/Angel/A4_TeleportChanneling.APLR" id="5A6DA54C-BD30-4FED-B6D9-492776CB8E57">
+					<RefreshCooldownApplicator>
+						<allowCdIncrease>false</allowCdIncrease>
+						<applyTarget>AbilityOwner</applyTarget>
+						<caption></caption>
+						<enabled>
+							<compiledString>FRYAAAADAAAALQAAAEAAAABSAAAASW50ZXJydXB0ZWQASW50ZXJydXB0AFWL7IPsCItFEIsQi00Qi0JI/9CJRfxoAAAAAItN/IsRi038i0JU/9DcHYIAAADf4PbERHopagGLTRBRaAwAAACLVQiLAotNCIuQnAEAAP/SO0UQdQnHRfgBAAAA6wfHRfgAAAAAikX4i+VdwwAAAAAAAAAA</compiledString>
+							<returnType>bool</returnType>
+							<sString>appl.parent.vInterrupted == 0 &amp;&amp; sender.applInterrupt(UNIT) == pMisc</sString>
+						</enabled>
+						<flags>128</flags>
+						<formulaName></formulaName>
+						<LoggingEvent>-1</LoggingEvent>
+						<providerName></providerName>
+						<reduceByPercent>false</reduceByPercent>
+						<reductionAmount>
+							<compiledString>FQAAAAABAAAALAAAAFWL7IPsDItFEIsQi00Qi0I8/9CLTRCLEYtNEItCHN1d+P/Q2eje4dxN+NwlOgAAANld9NlF9IvlXcMAAAAAAAAkQAAAAAAAAPA/</compiledString>
+							<returnType>float</returnType>
+							<sString>mCooldown*(1 - mPreparedness) - 10</sString>
+						</reductionAmount>
+						<refreshThis>true</refreshThis>
+						<talents>
+							<Item href="/Items/Talents/Class/Angel/Ability_A4.TALENT" />
+						</talents>
+						<useListAs>ListAsRule</useListAs>
+					</RefreshCooldownApplicator>
+				</Item>
+			</applicators>
+			<dispatch href="/Items/Talents/Class/Angel/A4_TeleportChanneling.APLR" id="6DF622EF-6C31-4705-9601-B86272EFAD08">
+				<DispatchImmediate>
+					<alwaysApply>false</alwaysApply>
+					<applyEffect>
+						<Item href="" />
+						<Item href="" />
+					</applyEffect>
+					<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+					<applyEffectOrientation>Default</applyEffectOrientation>
+					<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+					<dieAfterApply>true</dieAfterApply>
+					<dispatchEffect>
+						<Item href="" />
+						<Item href="" />
+					</dispatchEffect>
+					<flags>0</flags>
+					<instantApply>false</instantApply>
+				</DispatchImmediate>
+			</dispatch>
+		</Spell>
+	</cancelSpell>
 	<caption>Ченнелим для телепорта</caption>
-	<channelingType>Creation</channelingType>
+	<channelingType>Streaming</channelingType>
 	<effect>
 		<Item href="/Items/Talents/Class/Angel/A4_TeleportChanneling.APLR" id="832A08CF-2566-43E5-A6AF-C5022315B052">
 			<PlayAnimationEffect>
@@ -837,6 +888,7 @@
 						</targetSelector>
 					</SpellApplicator>
 				</Item>
+				<Item href="/Items/Talents/TalentKits/Redset7_11_MiniRefresher/appl_G766_RefreshAndNotify.APLR" />
 			</applicators>
 			<dispatch href="/Items/Talents/Class/Angel/A4_TeleportChanneling.APLR" id="B812FA5F-530B-4B1F-8BD6-9B45973935F9">
 				<DispatchImmediate>

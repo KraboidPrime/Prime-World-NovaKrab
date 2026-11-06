@@ -82,9 +82,9 @@
 					<UnitConstant>
 						<name>DefenceAmount</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCuAAAAP/QUdkcJGoAi00QixGLTRCLQmD/0F3DAADgQAAAVEI=</compiledString>
+							<compiledString>FQsAAAADAAAAEgAAAC8AAAA5AAAAQm9udXNBMlN1cABVi+yD7AxoAAAAAItFCIsQi00Ii4KIAQAA/9DZ6N7BagFR2QV5AAAA2RwkUdkFdQAAANkcJGoAi00IixGLTQiLgrgAAADdXfj/0FHZHCRqAItNEIsRi00Qi0Jg/9DcTfjZXfTZRfSL5V3DAADgQAAAVEIAAAAAAADwPw==</compiledString>
 							<returnType>float</returnType>
-							<sString>abilityScale (sBaseStrength, 7, 53)</sString>
+							<sString>(1.0f+sender.vBonusA2Sup)*abilityScale (sBaseStrength, 7, 53)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

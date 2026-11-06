@@ -8,6 +8,7 @@
 	<BackLink DBID="/Items/Talents/Class/Chicken/Ability_A4_2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Consumables/SUPPORT.ARCT" Count="1" />
 	<BackLink DBID="/Items/Consumables/YaNeFarmlu.APLR" Count="2" />
+	<BackLink DBID="/Items/Talents/Level1/G1005_Predator.TALENT" Count="1" />
 	<signRecipients>PLAYER_ONLY</signRecipients>
 	<UISigns>
 		<Item href="/UI/Events/CommonEvents/EventLoseGold.UIEV" id="FD71162B-5628-4A03-B0F8-D7EFF1A7D2BE">

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SpellSwitchApplicator>
+	<BackLink DBID="/Heroes/Trickster/_.HROB" Count="1" />
+	<BackLink DBID="/Heroes/Trickster/S2/appl_bounce.APLR" Count="1" />
+			<activeSpellIndex>
+		<compiledString>FR0AAAABAAAAJwAAAFRyaWNrc3Rlcl9BdXRvQXR0YWNrX1dhc0NyaXQAVYvsagKLRRBQaAAAAACLTQiLEYtNCIuCnAEAAP/QM8k7RRAPlcGLwV3D</compiledString>
+		<returnType>int</returnType>
+		<sString>(sender.applTrickster_AutoAttack_WasCrit(ABILITY) != pMisc) ? 1 : 0 </sString>
+	</activeSpellIndex>
+	<applyTarget>ApplicatorTarget</applyTarget>
+	<caption>развешиваем стеки</caption>
+	<dontUseDispatches>true</dontUseDispatches>
+	<enabled>
+		<compiledString></compiledString>
+		<returnType>bool</returnType>
+		<sString>true</sString>
+	</enabled>
+	<formulaName></formulaName>
+	<LoggingEvent>-1</LoggingEvent>
+	<providerName></providerName>
+	<spells>
+		<Item href="/Heroes/Trickster/S2/spell_StacksSwitch.APLR" id="3996B944-E552-4506-A6E5-D9DF47558F63">
+			<Spell>
+				<applicators>
+					<Item href="/Items/Talents/Class/Trickster/status_A3_Stacks.APLR" />
+				</applicators>
+				<dispatch href="" />
+			</Spell>
+		</Item>
+		<Item href="/Heroes/Trickster/S2/spell_StacksSwitch.APLR" id="FAEF77A9-AE7B-47C4-A7DA-DE0495846FCC">
+			<Spell>
+				<applicators>
+					<Item href="/Items/Talents/Class/Trickster/status_A3_Stacks.APLR" />
+					<Item href="/Items/Talents/Class/Trickster/status_A3_Stacks.APLR" />
+				</applicators>
+				<dispatch href="" />
+			</Spell>
+		</Item>
+	</spells>
+</SpellSwitchApplicator>

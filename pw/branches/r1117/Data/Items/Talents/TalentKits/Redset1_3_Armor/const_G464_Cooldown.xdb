@@ -6,8 +6,8 @@
 	<BackLink DBID="/Items/Talents/Level5/G463_Life_StrOrInt.TALENT" Count="1" />
 	<name>G464_Cooldown</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzczMPg==</compiledString>
+		<compiledString>FRsAAAADAAAAKAAAAD4AAABWAAAAQWRkX0FybW9yX1JlZHNldDFfM0NvdW50ZXIAVYvsg+wIUdnu2RwkaAAAAACLRQiLEItNCIuCiAEAAP/Q3CVsAAAA2V382UX8UdkcJOgnAAAAg8QI3C1kAAAA2V342UX4i+VdwwAAAKCZmQlAAAAAAAAA8D8AAAAAVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
 		<returnType>float</returnType>
-		<sString>0.4f</sString>
+		<sString>3.2f - max(sender.vAdd_Armor_Redset1_3Counter - 1, 0)</sString>
 	</var>
 </UnitConstant>

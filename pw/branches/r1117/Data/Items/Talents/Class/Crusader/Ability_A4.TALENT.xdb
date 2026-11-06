@@ -607,9 +607,9 @@
 					<UnitConstant>
 						<name>A4_Damage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAADwQgAAYUQ=</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAAEQwCAd0Q=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(sIntellect, 120, 900)</sString>
+							<sString>damageScale(sIntellect, 132, 990)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -639,9 +639,9 @@
 					<UnitConstant>
 						<name>Blind_StartCondition</name>
 						<var>
-							<compiledString>FRQAAAACAAAAGQAAAC8AAABDcnVzYWRlcl9BNEV4QmVsaWVmAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHVEAAADf4PbEAXUJx0X8AQAAAOsHx0X8AAAAANtF/IvlXcMAAAAAAADwPw==</compiledString>
+							<compiledString>FRQAAAACAAAAGQAAAC8AAABDcnVzYWRlcl9BNEV4QmVsaWVmAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHVUAAADf4PbEAXUNM8l0CcdF/AEAAADrB8dF/AAAAADbRfyL5V3DAAAAAAAA8D8=</compiledString>
 							<returnType>float</returnType>
-							<sString>sender.vCrusader_A4ExBelief &gt;= 1</sString>
+							<sString>sender.vCrusader_A4ExBelief &gt;= 1 &amp;&amp; false</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -671,9 +671,9 @@
 					<UnitConstant>
 						<name>Stun_Duration</name>
 						<var>
-							<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+							<compiledString>FRQAAAACAAAAGQAAAC8AAABDcnVzYWRlcl9BNEV4QmVsaWVmAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHVEAAADf4PbEAXUJx0X8AgAAAOsHx0X8AQAAANtF/IvlXcMAAAAAAADwPw==</compiledString>
 							<returnType>float</returnType>
-							<sString>1</sString>
+							<sString>sender.vCrusader_A4ExBelief &gt;= 1 ? 2 : 1</sString>
 						</var>
 					</UnitConstant>
 				</Item>

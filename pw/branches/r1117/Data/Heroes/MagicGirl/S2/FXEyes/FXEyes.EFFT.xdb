@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BasicEffectAttached>
+	<BackLink DBID="/Heroes/MagicGirl/S2/FXEyes/FXEyes.EFFT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/MagicGirl/status_NightMode.APLR" Count="1" />
+	<attachFlags>3</attachFlags>
+	<attachType>Eyes</attachType>
+	<component href="/Heroes/MagicGirl/S2/FXEyes/FXEyesTRS.PRXY" />
+	<deathType>Manual</deathType>
+	<enableCondition href="/Heroes/MagicGirl/S2/FXEyes/FXEyes.EFFT" id="0FD17B88-2027-417E-A573-FF5D650ED12E">
+		<ConditionFormula>
+			<condition>
+				<compiledString>FQ0AAAABAAAAEQAAAG1hZ2ljZ2lybF9TMgBVi+xoAAAAAItFCIsQi00Ii4LoAQAA/9Bdww==</compiledString>
+				<returnType>bool</returnType>
+				<sString>sender.IsSkinUsed( "magicgirl_S2" )</sString>
+			</condition>
+			<name></name>
+		</ConditionFormula>
+	</enableCondition>
+	<fadeIn>0.3</fadeIn>
+	<fadeOut>0.3</fadeOut>
+	<groupFlags>0</groupFlags>
+	<lifeTime>0</lifeTime>
+</BasicEffectAttached>

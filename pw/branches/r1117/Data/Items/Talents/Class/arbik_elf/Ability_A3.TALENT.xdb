@@ -1,0 +1,866 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Talent>
+	<BackLink DBID="/Social.ROOT" Count="1" />
+	<BackLink DBID="/Items/Talents/Angel.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Angel/Ability_A5.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Angel/status_A5_DeathGhost.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Level2/G567_CasterBase.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/TalentKits/Redset6_2_CDR/appl_Redset6_2_RefreshCooldown.APLR" Count="2" />
+	<BackLink DBID="/Test/Talents/Angel/Duel_Int.TALENTSET" Count="1" />
+	<BackLink DBID="/Test/Talents/Angel/Elite_Int.TALENTSET" Count="1" />
+	<BackLink DBID="/Test/Talents/Angel/Elite_StrAsp.TALENTSET" Count="1" />
+	<BackLink DBID="/Test/Talents/Angel/Elite_StrDex.TALENTSET" Count="1" />
+	<BackLink DBID="/Test/Talents/Angel/Epic_Int.TALENTSET" Count="1" />
+	<BackLink DBID="/Test/Talents/Angel/Epic_Str.TALENTSET" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/arbik_elf/Ability_A3u.TALENT" Count="1" />
+	<activationConditions />
+	<activeCustomTrigger>true</activeCustomTrigger>
+	<allowChase>
+		<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+		<returnType>bool</returnType>
+		<sString>true</sString>
+	</allowChase>
+	<alternativeTargets />
+	<aoeDisplayOnMinimap>false</aoeDisplayOnMinimap>
+	<aoeHeight>0</aoeHeight>
+	<aoeMaterial href="/Effects/UI/AOESelection/Circle.MTRL" />
+	<aoePassabilityCheckMode>0</aoePassabilityCheckMode>
+	<aoeSize>
+		<compiledString>FSEAAAAFAAAAZQAAAHsAAACXAAAArQAAANEAAABBM19Bb0VTaXplAABBcmJTdGFjawAAAABBcmJTdGFjawBVi+yD7ByLRQiLEItNCIuCvAAAAP/Qi00IixGLTQiLgrgAAADdXfj/0Nxd+N/g9sQFegnHRfQBAAAA6wfHRfQAAAAAaAwAAACLTQiLEYtNCIuCiAEAAP/Q3B0HAQAA3+D2xEF1CcdF8AEAAADrB8dF8AAAAABoGAAAAItNCIsRi00Ii4KIAQAA/9DcHf8AAADf4PbEQXUJx0XsAQAAAOsHx0XsAAAAAItNDFGLVQhSaAAAAACLRRCLEItNEItCUP/Qi03si1XwjQRKD69F9IlF6NpF6Nld5NlF5IvlXcMAAAAAAAAjQAAAAAAAABJA</compiledString>
+		<returnType>float</returnType>
+		<sString>cA3_AoESize + (sBaseIntellect &gt; sBaseStrength)*((sender.vArbStack &gt; 4.5) + 2*(sender.vArbStack &gt; 9.5))</sString>
+	</aoeSize>
+	<aoeType>Disk</aoeType>
+	<applicators>
+		<Item href="/Items/Talents/Class/arbik_elf/Ability_A3.TALENT" id="2ABD530B-027E-4708-8712-DF8AA2047B07">
+			<ProgramApplicator>
+				<applicators>
+					<Item>
+						<applicator href="/Items/Talents/Class/arbik_elf/Ability_A3.TALENT" id="B75F2782-C0CB-4FA1-89C9-0606BA13533F">
+							<PermanentStatModApplicator>
+								<applyTarget>AbilityOwner</applyTarget>
+								<caption>заряды за силу</caption>
+								<customApplyType>None</customApplyType>
+								<enabled>
+									<compiledString>FQkAAAACAAAAEAAAACYAAABBcmJTdGFjawBVi+yD7AxoAAAAAItFCIsQi00Ii4KIAQAA/9DcHXUAAADf4PbEBXo2i00IixGLTQiLgrwAAAD/0ItNCIsRi00Ii4K4AAAA3V34/9DcXfjf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcMAAAAAAAAjQA==</compiledString>
+									<returnType>bool</returnType>
+									<sString>sender.vArbStack &lt; 9.5 &amp;&amp; sBaseIntellect &lt; sBaseStrength</sString>
+								</enabled>
+								<formulaName></formulaName>
+								<LoggingEvent>-1</LoggingEvent>
+								<modifier>
+									<addValue>
+										<compiledString>FRUAAAADAAAAJAAAADYAAABuAAAATWF4U3RhY2sAAAAAQXJiU3RhY2sAVYvsg+wMi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9JoDAAAAItFCIsQi00Ii4KIAQAA3V34/9DcbfjZXfTZRfRR2RwkUdnu2Rwk6EwAAACDxATZHCRR2QWBAAAA2Rwk6A8AAACDxAiL5V3DAAAAQAAAAABVi+xR2UUI2UUM3tnf4PbEQXUI2UUI2V386wbZRQzZXfzZRfyL5V3DVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
+										<returnType>float</returnType>
+										<sString>min(2.0f, max(0.0f,(cMaxStack - sender.vArbStack)))</sString>
+									</addValue>
+									<multValue>
+										<compiledString></compiledString>
+										<returnType>float</returnType>
+										<sString>1.0f</sString>
+									</multValue>
+									<stat>Life</stat>
+									<topModifier>false</topModifier>
+									<variable>ArbStack</variable>
+								</modifier>
+								<providerName></providerName>
+							</PermanentStatModApplicator>
+						</applicator>
+						<continueCondition>
+							<compiledString></compiledString>
+							<returnType>bool</returnType>
+							<sString>0</sString>
+						</continueCondition>
+						<continueEvents>2</continueEvents>
+						<delay>
+							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>-1.0</sString>
+						</delay>
+						<stopCondition>
+							<compiledString></compiledString>
+							<returnType>bool</returnType>
+							<sString>0</sString>
+						</stopCondition>
+						<stopEvents>0</stopEvents>
+					</Item>
+					<Item>
+						<applicator href="/Items/Talents/Class/arbik_elf/Ability_A3.TALENT" id="A5D0651A-FB3E-4F29-8CA7-C10235D8613C">
+							<PermanentStatModApplicator>
+								<applyTarget>AbilityOwner</applyTarget>
+								<caption>запоминаем стаки ноль</caption>
+								<customApplyType>None</customApplyType>
+								<enabled>
+									<compiledString>FQkAAAACAAAAPQAAAFMAAABBcmJTdGFjawBVi+yD7BSLRQiLEItNCIuCvAAAAP/Qi00IixGLTQiLgrgAAADdXfj/0Nxd+N/g9sRBeiJoAAAAAItNCIsRi00Ii4KIAQAA/9DcHaIAAADf4PbEBXs2i00IixGLTQiLgrwAAAD/0ItNCIsRi00Ii4K4AAAA3V3w/9DcXfDf4PbEQXQJx0XsAAAAAOsHx0XsAQAAAIpF7IvlXcMAAAAAAAASQA==</compiledString>
+									<returnType>bool</returnType>
+									<sString>(sBaseIntellect &gt;= sBaseStrength &amp;&amp; sender.vArbStack &lt; 4.5) || sBaseIntellect &lt; sBaseStrength</sString>
+								</enabled>
+								<formulaName></formulaName>
+								<LoggingEvent>-1</LoggingEvent>
+								<modifier>
+									<addValue>
+										<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+										<returnType>float</returnType>
+										<sString>0.0f</sString>
+									</addValue>
+									<multValue>
+										<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+										<returnType>float</returnType>
+										<sString>0.0f</sString>
+									</multValue>
+									<stat>Life</stat>
+									<topModifier>false</topModifier>
+									<variable>A33_Stack</variable>
+								</modifier>
+								<providerName></providerName>
+							</PermanentStatModApplicator>
+						</applicator>
+						<continueCondition>
+							<compiledString></compiledString>
+							<returnType>bool</returnType>
+							<sString>0</sString>
+						</continueCondition>
+						<continueEvents>2</continueEvents>
+						<delay>
+							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>-1.0</sString>
+						</delay>
+						<stopCondition>
+							<compiledString></compiledString>
+							<returnType>bool</returnType>
+							<sString>0</sString>
+						</stopCondition>
+						<stopEvents>0</stopEvents>
+					</Item>
+					<Item>
+						<applicator href="/Items/Talents/Class/arbik_elf/Ability_A3.TALENT" id="4F6B5166-281E-4D28-9C73-76AF4B0B9AF9">
+							<PermanentStatModApplicator>
+								<applyTarget>AbilityOwner</applyTarget>
+								<caption>запоминаем стаки один</caption>
+								<customApplyType>None</customApplyType>
+								<enabled>
+									<compiledString>FRUAAAAEAAAASQAAAF8AAABrAAAAgQAAAEFyYlN0YWNrAAAAAEFyYlN0YWNrAFWL7IPsDItFCIsQi00Ii4K8AAAA/9CLTQiLEYtNCIuCuAAAAN1d+P/Q3F343+D2xEF6TWgAAAAAi00IixGLTQiLgogBAAD/0NwdqwAAAN/g9sRBdStoDAAAAItNCIsRi00Ii4KIAQAA/9DcHaMAAADf4PbEBXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcMAAAAAAAAjQAAAAAAAABJA</compiledString>
+									<returnType>bool</returnType>
+									<sString>sBaseIntellect &gt;= sBaseStrength &amp;&amp; sender.vArbStack &gt; 4.5 &amp;&amp; sender.vArbStack &lt; 9.5</sString>
+								</enabled>
+								<formulaName></formulaName>
+								<LoggingEvent>-1</LoggingEvent>
+								<modifier>
+									<addValue>
+										<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+										<returnType>float</returnType>
+										<sString>1.0f</sString>
+									</addValue>
+									<multValue>
+										<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+										<returnType>float</returnType>
+										<sString>0.0f</sString>
+									</multValue>
+									<stat>Life</stat>
+									<topModifier>false</topModifier>
+									<variable>A33_Stack</variable>
+								</modifier>
+								<providerName></providerName>
+							</PermanentStatModApplicator>
+						</applicator>
+						<continueCondition>
+							<compiledString></compiledString>
+							<returnType>bool</returnType>
+							<sString>0</sString>
+						</continueCondition>
+						<continueEvents>2</continueEvents>
+						<delay>
+							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>-1.0</sString>
+						</delay>
+						<stopCondition>
+							<compiledString></compiledString>
+							<returnType>bool</returnType>
+							<sString>0</sString>
+						</stopCondition>
+						<stopEvents>0</stopEvents>
+					</Item>
+					<Item>
+						<applicator href="/Items/Talents/Class/arbik_elf/Ability_A3.TALENT" id="A9AE2F59-C805-43CD-B580-F4FB23333598">
+							<PermanentStatModApplicator>
+								<applyTarget>AbilityOwner</applyTarget>
+								<caption>запоминаем стаки два</caption>
+								<customApplyType>None</customApplyType>
+								<enabled>
+									<compiledString>FQkAAAACAAAAPQAAAFMAAABBcmJTdGFjawBVi+yD7AyLRQiLEItNCIuCvAAAAP/Qi00IixGLTQiLgrgAAADdXfj/0Nxd+N/g9sRBeitoAAAAAItNCIsRi00Ii4KIAQAA/9DcHXUAAADf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcMAAAAAAAAjQA==</compiledString>
+									<returnType>bool</returnType>
+									<sString>sBaseIntellect &gt;= sBaseStrength &amp;&amp; sender.vArbStack &gt; 9.5</sString>
+								</enabled>
+								<formulaName></formulaName>
+								<LoggingEvent>-1</LoggingEvent>
+								<modifier>
+									<addValue>
+										<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
+										<returnType>float</returnType>
+										<sString>2.0f</sString>
+									</addValue>
+									<multValue>
+										<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+										<returnType>float</returnType>
+										<sString>0.0f</sString>
+									</multValue>
+									<stat>Life</stat>
+									<topModifier>false</topModifier>
+									<variable>A33_Stack</variable>
+								</modifier>
+								<providerName></providerName>
+							</PermanentStatModApplicator>
+						</applicator>
+						<continueCondition>
+							<compiledString></compiledString>
+							<returnType>bool</returnType>
+							<sString>0</sString>
+						</continueCondition>
+						<continueEvents>2</continueEvents>
+						<delay>
+							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>-1.0</sString>
+						</delay>
+						<stopCondition>
+							<compiledString></compiledString>
+							<returnType>bool</returnType>
+							<sString>0</sString>
+						</stopCondition>
+						<stopEvents>0</stopEvents>
+					</Item>
+					<Item>
+						<applicator href="/Items/Talents/Class/arbik_elf/Ability_A3.TALENT" id="F6A6030E-36B3-41CE-9F20-117FE86C26D3">
+							<HealApplicator>
+								<amount>
+									<compiledString>FRIAAAADAAAAIQAAAEYAAABiAAAAUmVzdG9yZQBBMzNfU3RhY2sAVYvsg+wUi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9KLRQiLEItNCItCDN1d+P/Q3E34aAgAAACLTQiLEYtNCIuCiAEAAN1d8P/Q3E3w3A1wAAAA2V3s2UXsi+VdwwAAAKCZmak/</compiledString>
+									<returnType>float</returnType>
+									<sString>cRestore*sMaxLife*sender.vA33_Stack*0.05f</sString>
+								</amount>
+								<applyTarget>AbilityOwner</applyTarget>
+								<caption>отхил</caption>
+								<enabled>
+									<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgrwAAAD/0ItNCIsRi00Ii4K4AAAA3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+									<returnType>bool</returnType>
+									<sString>sBaseIntellect &gt;= sBaseStrength</sString>
+								</enabled>
+								<formulaName></formulaName>
+								<healTarget>Health</healTarget>
+								<ignoreHealingMods>false</ignoreHealingMods>
+								<LoggingEvent>-1</LoggingEvent>
+								<providerName></providerName>
+								<uiEvent href="/UI/Events/CommonEvents/EventHeal.UIEV" />
+							</HealApplicator>
+						</applicator>
+						<continueCondition>
+							<compiledString></compiledString>
+							<returnType>bool</returnType>
+							<sString>0</sString>
+						</continueCondition>
+						<continueEvents>2</continueEvents>
+						<delay>
+							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>-1.0</sString>
+						</delay>
+						<stopCondition>
+							<compiledString></compiledString>
+							<returnType>bool</returnType>
+							<sString>0</sString>
+						</stopCondition>
+						<stopEvents>0</stopEvents>
+					</Item>
+					<Item>
+						<applicator href="/Items/Talents/Class/arbik_elf/Ability_A3.TALENT" id="17893789-52C2-4650-AFA4-7F7D395338DF">
+							<PermanentStatModApplicator>
+								<applyTarget>AbilityOwner</applyTarget>
+								<caption>отбираем стаки</caption>
+								<customApplyType>None</customApplyType>
+								<enabled>
+									<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgrwAAAD/0ItNCIsRi00Ii4K4AAAA3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+									<returnType>bool</returnType>
+									<sString>sBaseIntellect &gt;= sBaseStrength</sString>
+								</enabled>
+								<formulaName></formulaName>
+								<LoggingEvent>-1</LoggingEvent>
+								<modifier>
+									<addValue>
+										<compiledString>FRYAAAADAAAAIwAAADgAAABRAAAAQXJiU3RhY2sAAAAAQTMzX1N0YWNrAFWL7IPsDFHZ7tkcJGgAAAAAi0UIixCLTQiLgogBAAD/0GgMAAAAi00IixGLTQiLgogBAADdXfj/0NwNbgAAANxt+Nld9NlF9FHZHCToEwAAAIPECIvlXcMAAAAAAAAUQAAAAABVi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
+										<returnType>float</returnType>
+										<sString>max(sender.vArbStack - 5.0f*sender.vA33_Stack, 0)</sString>
+									</addValue>
+									<multValue>
+										<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+										<returnType>float</returnType>
+										<sString>0.0f</sString>
+									</multValue>
+									<stat>Life</stat>
+									<topModifier>false</topModifier>
+									<variable>ArbStack</variable>
+								</modifier>
+								<providerName></providerName>
+							</PermanentStatModApplicator>
+						</applicator>
+						<continueCondition>
+							<compiledString></compiledString>
+							<returnType>bool</returnType>
+							<sString>0</sString>
+						</continueCondition>
+						<continueEvents>2</continueEvents>
+						<delay>
+							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>-1.0</sString>
+						</delay>
+						<stopCondition>
+							<compiledString></compiledString>
+							<returnType>bool</returnType>
+							<sString>0</sString>
+						</stopCondition>
+						<stopEvents>0</stopEvents>
+					</Item>
+					<Item>
+						<applicator href="/Items/Talents/Class/arbik_elf/Ability_A3.TALENT" id="B95578E0-6A5F-4FD4-9DFA-923E872EC839">
+							<FlagsApplicator>
+								<applyTarget>AbilityOwner</applyTarget>
+								<behaviorFlags>0</behaviorFlags>
+								<caption>Стрела от героя</caption>
+								<consumables />
+								<effect>
+									<Item href="/Effects/Debuffs/Arrow/_CastR.EFFT" />
+									<Item href="" />
+								</effect>
+								<enabled>
+									<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+									<returnType>bool</returnType>
+									<sString>true</sString>
+								</enabled>
+								<flag>0</flag>
+								<formulaName></formulaName>
+								<lifeTime>
+									<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpmZPw==</compiledString>
+									<returnType>float</returnType>
+									<sString>1.2f</sString>
+								</lifeTime>
+								<LoggingEvent>-1</LoggingEvent>
+								<providerName></providerName>
+								<startCondition>
+									<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+									<returnType>bool</returnType>
+									<sString>true</sString>
+								</startCondition>
+								<talents />
+								<useListAs>ListAsRule</useListAs>
+							</FlagsApplicator>
+						</applicator>
+						<continueCondition>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+							<returnType>bool</returnType>
+							<sString>0</sString>
+						</continueCondition>
+						<continueEvents>1</continueEvents>
+						<delay>
+							<compiledString>FQAAAAAAAAAAVYvs2ejZ4F3D</compiledString>
+							<returnType>float</returnType>
+							<sString>-1.0</sString>
+						</delay>
+						<stopCondition>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+							<returnType>bool</returnType>
+							<sString>0</sString>
+						</stopCondition>
+						<stopEvents>0</stopEvents>
+					</Item>
+					<Item>
+						<applicator href="/Items/Talents/Class/arbik_elf/Ability_A3.TALENT" id="A7127A93-17B4-4151-9B49-54A557D61EF4">
+							<SpellApplicator>
+								<applyTarget>ApplicatorTarget</applyTarget>
+								<caption>Эффект ожидания</caption>
+								<enabled>
+									<compiledString></compiledString>
+									<returnType>bool</returnType>
+									<sString>true</sString>
+								</enabled>
+								<formulaName></formulaName>
+								<LoggingEvent>-1</LoggingEvent>
+								<providerName></providerName>
+								<spell href="/Items/Talents/Class/arbik_elf/Ability_A3.TALENT" id="900FC08D-3515-4481-A3BA-A5DBCBA47004">
+									<Spell>
+										<applicators />
+										<dispatch href="/Items/Talents/Class/arbik_elf/Ability_A3.TALENT" id="D601A39B-067A-412B-AC05-20821F84E30C">
+											<DispatchByTime>
+												<alwaysApply>false</alwaysApply>
+												<applyEffect>
+													<Item href="" />
+													<Item href="" />
+												</applyEffect>
+												<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+												<applyEffectOrientation>Default</applyEffectOrientation>
+												<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+												<cancelOnSenderDeath>false</cancelOnSenderDeath>
+												<dieAfterApply>true</dieAfterApply>
+												<dispatchEffect>
+													<Item href="/Items/Talents/Class/arbik_elf/Ability_A3.TALENT" id="5342FD1D-1678-4328-97E1-EC8B84A3690D">
+														<EffectList>
+															<deathType>Manual</deathType>
+															<effects>
+																<Item href="/Summons/Spear/DecalEnemyBigR.EFFT" />
+																<Item href="/Effects/Debuffs/Arrow/_AimRB.EFFT" />
+															</effects>
+															<enableCondition href="" />
+															<lifeTime>0</lifeTime>
+														</EffectList>
+													</Item>
+													<Item href="" />
+												</dispatchEffect>
+												<flags>0</flags>
+												<lifeTime>
+													<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpmZPw==</compiledString>
+													<returnType>float</returnType>
+													<sString>1.2f</sString>
+												</lifeTime>
+												<persistentApplicators />
+											</DispatchByTime>
+										</dispatch>
+									</Spell>
+								</spell>
+								<spellTarget>ApplicatorTarget</spellTarget>
+								<targetSelector href="/Items/Talents/Class/arbik_elf/Ability_A3.TALENT" id="EE2EFEE3-53C2-4BED-A23F-A01F2029051A">
+									<SelectApplicatorTarget>
+										<applicatorIndex>0</applicatorIndex>
+										<applicatorName></applicatorName>
+										<namedApplicatorTarget>ApplicatorTarget</namedApplicatorTarget>
+										<selectTarget>AbilityTarget</selectTarget>
+									</SelectApplicatorTarget>
+								</targetSelector>
+							</SpellApplicator>
+						</applicator>
+						<continueCondition>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+							<returnType>bool</returnType>
+							<sString>0</sString>
+						</continueCondition>
+						<continueEvents>1</continueEvents>
+						<delay>
+							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>-1.0</sString>
+						</delay>
+						<stopCondition>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+							<returnType>bool</returnType>
+							<sString>0</sString>
+						</stopCondition>
+						<stopEvents>0</stopEvents>
+					</Item>
+					<Item>
+						<applicator href="/Items/Talents/Class/arbik_elf/Ability_A3.TALENT" id="2E5B701C-AD33-4C8E-B3DD-D2609002D66D">
+							<EyeApplicator>
+								<applyTarget>ApplicatorTarget</applyTarget>
+								<behaviorFlags>152</behaviorFlags>
+								<cancelObstacles>false</cancelObstacles>
+								<caption>Открываем область в месте каста</caption>
+								<effect>
+									<Item href="" />
+									<Item href="" />
+								</effect>
+								<enabled>
+									<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+									<returnType>bool</returnType>
+									<sString>true</sString>
+								</enabled>
+								<eyeTarget>Hier1UpApplicatorTarget</eyeTarget>
+								<flags>8</flags>
+								<formulaName></formulaName>
+								<lifeTime>
+									<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADAQA==</compiledString>
+									<returnType>float</returnType>
+									<sString>6.0f</sString>
+								</lifeTime>
+								<LoggingEvent>-1</LoggingEvent>
+								<providerName></providerName>
+								<startCondition>
+									<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+									<returnType>bool</returnType>
+									<sString>true</sString>
+								</startCondition>
+								<visRange>
+									<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQQ==</compiledString>
+									<returnType>float</returnType>
+									<sString>8</sString>
+								</visRange>
+							</EyeApplicator>
+						</applicator>
+						<continueCondition>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+							<returnType>bool</returnType>
+							<sString>0</sString>
+						</continueCondition>
+						<continueEvents>1</continueEvents>
+						<delay>
+							<compiledString>FQAAAAAAAAAAVYvs2ejZ4F3D</compiledString>
+							<returnType>float</returnType>
+							<sString>-1.0</sString>
+						</delay>
+						<stopCondition>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+							<returnType>bool</returnType>
+							<sString>0</sString>
+						</stopCondition>
+						<stopEvents>0</stopEvents>
+					</Item>
+					<Item>
+						<applicator href="" />
+						<continueCondition>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+							<returnType>bool</returnType>
+							<sString>0</sString>
+						</continueCondition>
+						<continueEvents>2</continueEvents>
+						<delay>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpmZPg==</compiledString>
+							<returnType>float</returnType>
+							<sString>0.3f</sString>
+						</delay>
+						<stopCondition>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+							<returnType>bool</returnType>
+							<sString>0</sString>
+						</stopCondition>
+						<stopEvents>0</stopEvents>
+					</Item>
+					<Item>
+						<applicator href="/Items/Talents/Class/arbik_elf/Ability_A3.TALENT" id="7DB59292-3288-4D34-9771-24995D789136">
+							<SpellSwitchApplicator>
+								<activeSpellIndex>
+									<compiledString>FQoAAAABAAAADgAAAEEzM19TdGFjawBVi+xoAAAAAItFCIsQi00Ii4KIAQAA/9BR2Rwk6AUAAACDxARdw7gBAAAAD6L3wgAAAAR0B/MPLEQkBMPpAAAAAFWL7IPsDNlFCNl9/A+3RfwNAAwAAIlF+Nlt+Ntd9Nlt/ItF9IvlXcM=</compiledString>
+									<returnType>int</returnType>
+									<sString>f2l(sender.vA33_Stack)</sString>
+								</activeSpellIndex>
+								<applyTarget>AbilityOwner</applyTarget>
+								<caption>Переключение бомб по зарядам</caption>
+								<dontUseDispatches>false</dontUseDispatches>
+								<enabled>
+									<compiledString></compiledString>
+									<returnType>bool</returnType>
+									<sString>true</sString>
+								</enabled>
+								<formulaName></formulaName>
+								<LoggingEvent>-1</LoggingEvent>
+								<providerName></providerName>
+								<spells>
+									<Item href="/Items/Talents/Class/arbik_elf/Ability_A3.TALENT" id="19709ADC-C0C0-4777-AAB1-23439121A0CE">
+										<Spell>
+											<applicators>
+												<Item href="/Items/Talents/Class/arbik_elf/angel_Summon_A3_Pick.APLR" />
+											</applicators>
+											<dispatch href="/Items/Talents/Class/arbik_elf/Ability_A3.TALENT" id="01B721AB-AA21-45FD-938F-933F413E2766">
+												<DispatchImmediate>
+													<alwaysApply>false</alwaysApply>
+													<applyEffect>
+														<Item href="" />
+														<Item href="" />
+													</applyEffect>
+													<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+													<applyEffectOrientation>Default</applyEffectOrientation>
+													<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+													<dieAfterApply>true</dieAfterApply>
+													<dispatchEffect>
+														<Item href="" />
+														<Item href="" />
+													</dispatchEffect>
+													<flags>0</flags>
+													<instantApply>false</instantApply>
+												</DispatchImmediate>
+											</dispatch>
+										</Spell>
+									</Item>
+									<Item href="/Items/Talents/Class/arbik_elf/Ability_A3.TALENT" id="6AAFF2FD-1874-4F3F-A9BD-150F12696575">
+										<Spell>
+											<applicators>
+												<Item href="/Items/Talents/Class/arbik_elf/angel_Summon_A3_Pick2.APLR" />
+											</applicators>
+											<dispatch href="/Items/Talents/Class/arbik_elf/Ability_A3.TALENT" id="2B508B6B-100C-47DA-B1FB-A30450DFC6DB">
+												<DispatchImmediate>
+													<alwaysApply>false</alwaysApply>
+													<applyEffect>
+														<Item href="" />
+														<Item href="" />
+													</applyEffect>
+													<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+													<applyEffectOrientation>Default</applyEffectOrientation>
+													<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+													<dieAfterApply>true</dieAfterApply>
+													<dispatchEffect>
+														<Item href="" />
+														<Item href="" />
+													</dispatchEffect>
+													<flags>0</flags>
+													<instantApply>false</instantApply>
+												</DispatchImmediate>
+											</dispatch>
+										</Spell>
+									</Item>
+									<Item href="/Items/Talents/Class/arbik_elf/Ability_A3.TALENT" id="1F9F734A-4F80-4A8F-93A1-CF325537FC90">
+										<Spell>
+											<applicators>
+												<Item href="/Items/Talents/Class/arbik_elf/angel_Summon_A3_Pick3.APLR" />
+											</applicators>
+											<dispatch href="/Items/Talents/Class/arbik_elf/Ability_A3.TALENT" id="8EFFC0B4-4351-4FF5-BA6B-ACA26C20B14E">
+												<DispatchImmediate>
+													<alwaysApply>false</alwaysApply>
+													<applyEffect>
+														<Item href="" />
+														<Item href="" />
+													</applyEffect>
+													<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+													<applyEffectOrientation>Default</applyEffectOrientation>
+													<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+													<dieAfterApply>true</dieAfterApply>
+													<dispatchEffect>
+														<Item href="" />
+														<Item href="" />
+													</dispatchEffect>
+													<flags>0</flags>
+													<instantApply>false</instantApply>
+												</DispatchImmediate>
+											</dispatch>
+										</Spell>
+									</Item>
+								</spells>
+							</SpellSwitchApplicator>
+						</applicator>
+						<continueCondition>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+							<returnType>bool</returnType>
+							<sString>0</sString>
+						</continueCondition>
+						<continueEvents>1</continueEvents>
+						<delay>
+							<compiledString>FQAAAAAAAAAAVYvs2ejZ4F3D</compiledString>
+							<returnType>float</returnType>
+							<sString>-1.0</sString>
+						</delay>
+						<stopCondition>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+							<returnType>bool</returnType>
+							<sString>0</sString>
+						</stopCondition>
+						<stopEvents>0</stopEvents>
+					</Item>
+				</applicators>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>152</behaviorFlags>
+				<caption>Программа бомбы</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString>FQAAAAAAAAAAVYvs2ejZ4F3D</compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+			</ProgramApplicator>
+		</Item>
+	</applicators>
+	<askId>3</askId>
+	<autoTargetSelector href="" />
+	<budget>-1</budget>
+	<caption>А3. Бомба с секретом</caption>
+	<castAllowRange>
+		<compiledString>FQAAAAAAAAAAVYvs2e5dww==</compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</castAllowRange>
+	<castLimitations />
+	<commonDescription textref="/Items/Talents/Class/arbik_elf/Ability_A3.TALENT_commonDescription.txt" />
+	<compiledDescriptionA textref="" />
+	<compiledDescriptionB textref="" />
+	<conditionFormulas>
+		<Item href="/Items/Talents/Class/arbik_elf/Ability_A3.TALENT" id="5C7D7BFB-C0E6-4B8C-AB2C-CCEF1A014026">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FT8AAAAEAAAARgAAAF8AAACVAAAArgAAAGFyYmlrX2VsZl9BNF8ydQBhcmJpa19lbGZfQTRfMnUAYXJiaWtfZWxmX0E0XzIAAGFyYmlrX2VsZl9BNF8yAFWL7IPsFGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdFhoIAAAAItVCIsCi00Ii5CoAQAA/9KFwHQqaDAAAACLRQiLEItNCIuCqAEAAP/QiUX0i030ixGLTfSLQgT/0IhF8+sExkXzAA+2TfOFyXQJx0XsAQAAAOsHx0XsAAAAAIpF7IvlXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("arbik_elf_A4_2u") &amp;&amp; tal("arbik_elf_A4_2")</sString>
+				</condition>
+				<name>BonusCrit</name>
+			</ConditionFormula>
+		</Item>
+		<Item href="/Items/Talents/Class/arbik_elf/condition_razum" />
+		<Item href="/Items/Talents/Class/arbik_elf/Ability_A3.TALENT" id="34A205CE-40C4-4A97-AEA6-B400DE05A883">
+			<ConditionFormula>
+				<condition>
+					<compiledString>FR4AAAACAAAAJQAAAD4AAABhcmJpa19lbGZfQTN1AAAAYXJiaWtfZWxmX0EzdQBVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2RfuD6AH32BvAg8ABi+Vdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("arbik_elf_A3u") == true</sString>
+				</condition>
+				<name>arbik_elf_A3u</name>
+			</ConditionFormula>
+		</Item>
+	</conditionFormulas>
+	<conflictingTalents />
+	<constants href="/Items/Talents/Class/arbik_elf/Ability_A3.TALENT" id="1D770AD7-EC0D-4836-B523-A857F7C013BC">
+		<UnitConstantsContainer>
+			<vars>
+				<Item href="/Items/Talents/Class/arbik_elf/Ability_A3.TALENT" id="62961BDF-97D5-4F46-994B-6FD1BD1E4F89">
+					<UnitConstant>
+						<name>A3_AoESize</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
+							<returnType>float</returnType>
+							<sString>5</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/arbik_elf/Ability_A3.TALENT" id="DC48639C-BC87-45A5-BB03-FA91A4C7EC4C">
+					<UnitConstant>
+						<name>A3_Damage</name>
+						<var>
+							<compiledString>FQAAAAADAAAACQAAABMAAABBAAAAVYvsUWoBUdkFWwAAANkcJFHZBVcAAADZHCRqAItFCIsQi00Ii4I0AQAA/9BR2RwkagGLTRCLEYtNEItCYP/Q3A1PAAAA2V382UX8i+VdwwAAAGBmZu4/AACgQgAAFkQ=</compiledString>
+							<returnType>float</returnType>
+							<sString>0.95f*damageScale (sIntellect, 80, 600)</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/arbik_elf/Ability_A3.TALENT" id="C64AD27B-00C3-4044-AC6D-AF0AE01D994C">
+					<UnitConstant>
+						<name>A3_DamageSec</name>
+						<var>
+							<compiledString>FQoAAAACAAAAFwAAACoAAABBM19EYW1hZ2UAVYvsUYtFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S3A04AAAA2V382UX8i+VdwwAAAIA9Ctc/</compiledString>
+							<returnType>float</returnType>
+							<sString>0.36f*cA3_Damage</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/arbik_elf/Ability_A3.TALENT" id="AD1C241B-CD6A-401C-A13C-5F6FD639798C">
+					<UnitConstant>
+						<name>A3_DamageThird</name>
+						<var>
+							<compiledString>FQoAAAACAAAAFwAAACoAAABBM19EYW1hZ2UAVYvsUYtFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S3A04AAAA2V382UX8i+VdwwAAAOBRuN4/</compiledString>
+							<returnType>float</returnType>
+							<sString>0.48f*cA3_Damage</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/arbik_elf/const_MaxStack" />
+				<Item href="/Items/Talents/Class/arbik_elf/const_restore" />
+				<Item href="/Items/Talents/Class/arbik_elf/Ability_A3.TALENT" id="4C84E97B-5376-45E9-83D1-FCDE860120DB">
+					<UnitConstant>
+						<name>Stun_Duration</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DMzMzPw==</compiledString>
+							<returnType>float</returnType>
+							<sString>0.7f</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/arbik_elf/Ability_A3.TALENT" id="A9D90A84-3957-4A2F-A6E0-D0009346C9C7">
+					<UnitConstant>
+						<name>Stun_StartCondition</name>
+						<var>
+							<compiledString>FR4AAAACAAAAJQAAAD4AAABhcmJpa19lbGZfQTN1AAAAYXJiaWtfZWxmX0EzdQBVi+yD7AxoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuJTfTbRfSL5V3D</compiledString>
+							<returnType>float</returnType>
+							<sString>tal("arbik_elf_A3u")</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+			</vars>
+		</UnitConstantsContainer>
+	</constants>
+	<consumptionBonus>
+		<constant>0</constant>
+		<percent>0</percent>
+	</consumptionBonus>
+	<cooldownTime>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADAQQ==</compiledString>
+		<returnType>float</returnType>
+		<sString>24</sString>
+	</cooldownTime>
+	<cooldownTimeSecondState>
+		<compiledString>FQAAAAAAAAAAVYvs2e5dww==</compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</cooldownTimeSecondState>
+	<description textref="/Items/Talents/Class/arbik_elf/Ability_A3.TALENT_description.txt" />
+	<devPoints>1</devPoints>
+	<dispatch href="/Items/Talents/Class/arbik_elf/Ability_A3.TALENT" id="6FD10314-6F70-4B9D-940A-6C075284C1BA">
+		<DispatchImmediate>
+			<alwaysApply>false</alwaysApply>
+			<applyEffect>
+				<Item href="" />
+				<Item href="" />
+			</applyEffect>
+			<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+			<applyEffectOrientation>Default</applyEffectOrientation>
+			<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+			<dieAfterApply>true</dieAfterApply>
+			<dispatchEffect>
+				<Item href="" />
+				<Item href="" />
+			</dispatchEffect>
+			<flags>0</flags>
+			<instantApply>false</instantApply>
+		</DispatchImmediate>
+	</dispatch>
+	<flags>7</flags>
+	<forceBonus>6</forceBonus>
+	<image href="/UI/Styles/Icons/Heroes/arbik_elf/A3.ITEX" />
+	<imageSecondState href="" />
+	<isGenderTalent>false</isGenderTalent>
+	<isTakenOnStart>false</isTakenOnStart>
+	<isUltimateTalent>false</isUltimateTalent>
+	<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
+	<manaCost>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAA0Qw==</compiledString>
+		<returnType>float</returnType>
+		<sString>180</sString>
+	</manaCost>
+	<marker>doCast3</marker>
+	<microAI href="" />
+	<minLevel>1</minLevel>
+	<minUseRangeCorrection>0</minUseRangeCorrection>
+	<naftaCost>390</naftaCost>
+	<name textref="/Items/Talents/Class/arbik_elf/Ability_A3.TALENT_name.txt" />
+	<node>ability3</node>
+	<passiveApplicators>
+		<Item href="/Items/Talents/TalentKits/Redset7_11_MiniRefresher/trigger_G766_RefreshAndNotify.APLR" />
+	</passiveApplicators>
+	<persistentId>arbik_elf_A3</persistentId>
+	<prerequisiteTalents />
+	<rarity>Class</rarity>
+	<requireLineOfSight>false</requireLineOfSight>
+	<shortDescription textref="/Items/Talents/Class/arbik_elf/Ability_A3.TALENT_shortDescription.txt" />
+	<talentRollGroups>63</talentRollGroups>
+	<talentStats />
+	<targetType>16777216</targetType>
+	<type>Active</type>
+	<upgradeLevel>0</upgradeLevel>
+	<useRange>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACYQQ==</compiledString>
+		<returnType>float</returnType>
+		<sString>19</sString>
+	</useRange>
+	<useRangeMaterial href="/Effects/UI/AOESelection/Radius.MTRL" />
+	<variativeMaxTalentStats />
+	<variativeMinTalentStats />
+	<vendorCost>0</vendorCost>
+	<warFogRemoveRadius>0</warFogRemoveRadius>
+	<warFogRemoveTime>0</warFogRemoveTime>
+</Talent>

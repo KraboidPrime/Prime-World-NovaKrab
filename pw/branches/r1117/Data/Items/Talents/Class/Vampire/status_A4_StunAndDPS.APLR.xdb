@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StatusApplicator parent="/Heroes/DefaultStatus/_STUN_Status.APLR">
 	<BackLink DBID="/Items/Talents/Class/Vampire/Ability_A4.TALENT" Count="1" />
+	<BackLink DBID="/Heroes/DefaultStatus/List_AllControlAppl.APLS" Count="1" />
 	<applicators>
 		<Item skip="1" />
 		<Item skip="1" />
@@ -198,11 +199,44 @@
 				<targetSelector href="" />
 			</SpellPeriodicallyApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/Vampire/status_A4_StunAndDPS.APLR" id="D2C9DF28-9952-4571-BD41-5043FAE336B1">
+			<FlagsApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>CastingnePuncher</caption>
+				<consumables />
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<flag>0</flag>
+				<formulaName>CastingnePuncher</formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<talents />
+				<useListAs>ListAsRule</useListAs>
+			</FlagsApplicator>
+		</Item>
 	</applicators>
 	<applyTarget>Hier2UpApplicatorTarget</applyTarget>
 	<caption>Не совсем стандартный статус "Оглушение" (Stun_Duration, Stun_Condition)</caption>
 	<description textref="/Items/Talents/Class/Vampire/status_A4_StunAndDPS.APLR_description.txt" />
-	<dispellPriority>NonDispellable</dispellPriority>
+	<dispellPriority>High</dispellPriority>
 	<effect>
 		<Item href="/Items/Talents/Class/Vampire/status_A4_StunAndDPS.APLR" id="52CD6D0E-BB66-4BC9-B076-21B076A92103">
 			<EffectList>

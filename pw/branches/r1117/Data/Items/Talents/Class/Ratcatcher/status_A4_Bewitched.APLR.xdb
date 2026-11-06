@@ -79,9 +79,9 @@
 	<formulaName></formulaName>
 	<image href="/UI/Styles/Icons/Heroes/Ratcatcher/A4.ITEX" />
 	<lifeTime>
-		<compiledString>FRQAAAABAAAAIwAAAEhlcm9fTWVzbWVyaXplX1RpbWUAVYvsg+wMi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9KLRRCLEItNEItCFN1d+P/Q3E342V302UX0i+Vdww==</compiledString>
+		<compiledString>FRQAAAABAAAAIAAAAEhlcm9fTWVzbWVyaXplX1RpbWUAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
 		<returnType>float</returnType>
-		<sString>cHero_Mesmerize_Time * mParentScale</sString>
+		<sString>cHero_Mesmerize_Time</sString>
 	</lifeTime>
 	<LoggingEvent>-1</LoggingEvent>
 	<name textref="/Items/Talents/Class/Ratcatcher/status_A4_Bewitched.APLR_name.txt" />

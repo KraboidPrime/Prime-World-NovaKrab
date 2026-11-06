@@ -112,9 +112,9 @@
 					<z>0</z>
 				</rot>
 				<scale>
-					<x>1</x>
-					<y>1</y>
-					<z>1</z>
+					<x>0.8</x>
+					<y>0.8</y>
+					<z>0.8</z>
 				</scale>
 			</placement>
 			<timeController href="/Effects/Debuffs/DoT/_LongEnemy.PRXY" id="61410775-42CA-44F6-9E2A-0A600A1E216D">
@@ -240,9 +240,9 @@
 					<z>0</z>
 				</rot>
 				<scale>
-					<x>1</x>
-					<y>1</y>
-					<z>1</z>
+					<x>0.8</x>
+					<y>0.8</y>
+					<z>0.8</z>
 				</scale>
 			</placement>
 			<timeController href="/Effects/Debuffs/DoT/_LongEnemy.PRXY" id="7F28AD6B-D030-4EC4-92BB-899FF3C579CF">
@@ -368,9 +368,9 @@
 					<z>0</z>
 				</rot>
 				<scale>
-					<x>1</x>
-					<y>1</y>
-					<z>1</z>
+					<x>0.8</x>
+					<y>0.8</y>
+					<z>0.8</z>
 				</scale>
 			</placement>
 			<timeController href="/Effects/Debuffs/DoT/_LongEnemy.PRXY" id="1E9F9CB9-BB27-4746-AA2A-17DE1840BA58">
@@ -472,8 +472,8 @@
 					<z>0</z>
 				</rot>
 				<scale>
-					<x>27.55213</x>
-					<y>27.55213</y>
+					<x>21.6</x>
+					<y>21.6</y>
 					<z>1</z>
 				</scale>
 			</placement>

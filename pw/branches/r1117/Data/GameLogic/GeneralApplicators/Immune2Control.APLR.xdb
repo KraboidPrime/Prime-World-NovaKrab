@@ -92,6 +92,8 @@
 	<BackLink DBID="/Summons/Shroom/Shroom.SUMMONED" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/WitchDoctor/Ability4_2.TALENT" Count="1" />
 	<BackLink DBID="/Summons/Ivy/Ivy.SUMMONED" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/arbik_elf/Ability_A4_2.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/arbik_elf/Ability_A4_3.TALENT" Count="5" />
 	<applyTarget>ApplicatorTarget</applyTarget>
 	<behaviorFlags>0</behaviorFlags>
 	<caption>записывалка Immune2Control</caption>

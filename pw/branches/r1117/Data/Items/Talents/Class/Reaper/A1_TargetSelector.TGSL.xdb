@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <FirstTargetSelector>
-	<BackLink DBID="/Items/Talents/Class/Reaper/Ability_A1.TALENT" Count="1" />
 	<nearestTarget>false</nearestTarget>
 	<targetSelector href="/Items/Talents/Class/Reaper/A1_TargetSelector.TGSL" id="F0001C83-532B-4FD5-AFF5-7409A296087E">
 		<SectorTargetSelector>

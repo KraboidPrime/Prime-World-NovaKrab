@@ -100,14 +100,14 @@
 															<Item href="/Items/Talents/Class/Primevoker/Ability_A0.TALENT" id="D7712E25-0CA1-4EE1-A243-2121ACF4FF2A">
 																<AuraApplicator>
 																	<applicators>
-																		<Item href="/Heroes/DefaultStatus/_SLOW_MOVE.APLR" />
+																		<Item href="/Heroes/DefaultStatus/_SLOW_MOVE_TOP.APLR" />
 																		<Item href="/Items/Talents/Class/Primevoker/Ability_A0.TALENT" id="D0A9A827-3A21-4E16-869B-B599ED8C4874">
 																			<StatusApplicator>
 																				<applicators>
 																					<Item href="/Items/Talents/Class/Primevoker/Ability_A0.TALENT" id="7C410682-0CD6-4DE0-8A78-A88272FD2ABB">
 																						<SpellPeriodicallyApplicator>
 																							<applyTarget>ApplicatorTarget</applyTarget>
-																							<behaviorFlags>24</behaviorFlags>
+																							<behaviorFlags>152</behaviorFlags>
 																							<caption></caption>
 																							<effect>
 																								<Item href="" />
@@ -197,7 +197,7 @@
 																					</Item>
 																				</applicators>
 																				<applyTarget>ApplicatorTarget</applyTarget>
-																				<behaviorFlags>24</behaviorFlags>
+																				<behaviorFlags>152</behaviorFlags>
 																				<caption>дот</caption>
 																				<customCounter>
 																					<compiledString></compiledString>
@@ -246,7 +246,7 @@
 																		</Item>
 																	</applicators>
 																	<applyTarget>ApplicatorTarget</applyTarget>
-																	<behaviorFlags>0</behaviorFlags>
+																	<behaviorFlags>152</behaviorFlags>
 																	<caption>Аура с замедлением</caption>
 																	<effect>
 																		<Item href="" />
@@ -377,16 +377,7 @@
 										<spell href="/Items/Talents/Class/Primevoker/Ability_A0.TALENT" id="2C07FF02-BAF7-47C4-BE20-3363259472D6">
 											<Spell>
 												<applicators>
-													<Item href="/Items/Talents/Class/Primevoker/Ability_A0.TALENT" id="769FA2E4-F4F3-421C-9F52-BA3CE1017127">
-														<StatusApplicator parent="/Heroes/DefaultStatus/_PANIC_status.APLR">
-															<effect>
-																<Item href="/Effects/Debuffs/Panic/_Green.EFFT" />
-																<Item skip="1" />
-															</effect>
-															<image href="/UI/Styles/Icons/Heroes/PlagueDoctor/A3.ITEX" />
-															<name textref="/Items/Talents/Class/Primevoker/Ability_A0.TALENT_769fa2e4f4f3421c9f52ba3ce1017127_name.txt" />
-														</StatusApplicator>
-													</Item>
+													<Item href="/Heroes/DefaultStatus/_PANIC_DOCstatus.APLR" />
 													<Item href="/Heroes/DefaultStatus/_Vulnerability_status.APLR" />
 													<Item href="/Heroes/DefaultStatus/_ARMORCUT_status.APLR" />
 												</applicators>
@@ -3079,15 +3070,15 @@
 					<UnitConstant>
 						<name>Silence_Duration</name>
 						<var>
-							<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpmZPw==</compiledString>
 							<returnType>float</returnType>
-							<sString>1.0f</sString>
+							<sString>1.2f</sString>
 						</var>
 					</UnitConstant>
 				</Item>
 				<Item href="/Items/Talents/Class/Primevoker/Ability_A0.TALENT" id="DBE5A209-F008-4659-B585-3C8DC4425DB4">
 					<UnitConstant>
-						<name>Slow_Duration</name>
+						<name>SlowTop_Duration</name>
 						<var>
 							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAvw==</compiledString>
 							<returnType>float</returnType>
@@ -3097,7 +3088,7 @@
 				</Item>
 				<Item href="/Items/Talents/Class/Primevoker/Ability_A0.TALENT" id="9B709C63-C4C7-46CC-928A-647B10004A59">
 					<UnitConstant>
-						<name>Dec_MoveSpeed</name>
+						<name>DecMoveSpeed_WithReduction</name>
 						<var>
 							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQg==</compiledString>
 							<returnType>float</returnType>
@@ -3199,9 +3190,9 @@
 					<UnitConstant>
 						<name>MasterStatConnected_Life</name>
 						<var>
-							<compiledString>FSUAAAAGAAAALAAAAEUAAAB/AAAAiQAAAN4AAADoAAAAUHJpbWV2b2tlcl9BMFNVUAAAAABQcmltZXZva2VyX0EwU1VQAFWL7IPsDGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoFAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdF9qAVHZBUkBAADZHCRR2QVFAQAA2RwkagCLVQiLAotNCIuQNAEAAP/SUdkcJItFCIsQi00Ii4IwAQAA/9BR2Rwk6I4AAACDxATZHCRqAYtNEIsRi00Qi0Jg/9DZXfTrXWoBUdkFQQEAANkcJFHZBT0BAADZHCRqAItNCIsRi00Ii4I0AQAA/9BR2Rwki00IixGLTQiLgjABAAD/0FHZHCToLwAAAIPEBNkcJGoBi00QixGLTRCLQmD/0Nld9NlF9IvlXcMAAE5DAKC7RAAAdkMAQOFEVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
+							<compiledString>FSUAAAAIAAAALAAAAEUAAAB/AAAAiQAAANYAAADkAAAA7gAAADsBAABQcmltZXZva2VyX0EwU1VQAAAAAFByaW1ldm9rZXJfQTBTVVAAVYvsg+wUaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgUAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0ZWoBUdkFYwEAANkcJFHZBV8BAADZHCRqAItVCIsCi00Ii5A0AQAA/9JR2Rwki0UIixCLTQiLgjABAAD/0FHZHCToqAAAAIPEBNkcJGoBi00QixGLTRCLQmD/0NwNVwEAAN1d8OtjagFR2QVTAQAA2RwkUdkFTwEAANkcJGoAi00IixGLTQiLgjQBAAD/0FHZHCSLTQiLEYtNCIuCMAEAAP/QUdkcJOhDAAAAg8QE2RwkagGLTRCLEYtNEItCYP/Q3A1XAQAA3V3w3UXw2V3s2UXsi+VdwwAATkMAoLtEmpmZmZmZ8T8AAHZDAEDhRFWL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
 							<returnType>float</returnType>
-							<sString>tal("Primevoker_A0SUP") ? damageScale( max( sStrength, sIntellect ), 246, 1802 ) : damageScale( max( sStrength, sIntellect ), 206, 1501 )</sString>
+							<sString>tal("Primevoker_A0SUP") ? 1.1*damageScale( max( sStrength, sIntellect ), 246, 1802 ) : 1.1*damageScale( max( sStrength, sIntellect ), 206, 1501 )</sString>
 						</var>
 					</UnitConstant>
 				</Item>

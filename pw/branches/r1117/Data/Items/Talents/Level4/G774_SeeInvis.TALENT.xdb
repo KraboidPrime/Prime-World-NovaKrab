@@ -232,6 +232,112 @@
 						</visRange>
 					</EyeApplicator>
 				</Item>
+				<Item href="/Items/Talents/Level4/G774_SeeInvis.TALENT" id="4D22476A-09F1-42EB-B4CA-1A8739B0FA56">
+					<SpellPeriodicallyApplicator>
+						<applyTarget>ApplicatorTarget</applyTarget>
+						<behaviorFlags>152</behaviorFlags>
+						<caption>костыльный фикс бага</caption>
+						<effect>
+							<Item href="" />
+							<Item href="" />
+						</effect>
+						<enabled>
+							<compiledString></compiledString>
+							<returnType>bool</returnType>
+							<sString>true</sString>
+						</enabled>
+						<formulaName></formulaName>
+						<lifeTime>
+							<compiledString>FRMAAAABAAAAHwAAAFRydWVTaWdodF9EdXJhdGlvbgBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+							<returnType>float</returnType>
+							<sString>cTrueSight_Duration</sString>
+						</lifeTime>
+						<LoggingEvent>-1</LoggingEvent>
+						<period>
+							<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+							<returnType>float</returnType>
+							<sString>1.0f</sString>
+						</period>
+						<providerName></providerName>
+						<scaleMode>ScaleIsCount</scaleMode>
+						<spell href="/Items/Talents/Level4/G774_SeeInvis.TALENT" id="A6556C47-B835-4B99-B04F-9DFD0E29ECC9">
+							<Spell>
+								<applicators>
+									<Item href="/Items/Talents/Level4/G774_SeeInvis.TALENT" id="2A2CBD8E-17E0-4DDB-BC54-FFBEB103E171">
+										<DamageApplicator>
+											<applyTarget>ApplicatorTarget</applyTarget>
+											<cancelInvisibility>false</cancelInvisibility>
+											<caption></caption>
+											<damage>
+												<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+												<returnType>float</returnType>
+												<sString>1</sString>
+											</damage>
+											<damageMode>4</damageMode>
+											<damageType>Pure</damageType>
+											<enabled>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</enabled>
+											<formulaName></formulaName>
+											<LoggingEvent>-1</LoggingEvent>
+											<providerName></providerName>
+											<timeLimiter>-1</timeLimiter>
+											<uiEvent href="" />
+										</DamageApplicator>
+									</Item>
+								</applicators>
+								<dispatch href="/Items/Talents/Level4/G774_SeeInvis.TALENT" id="94F21642-A6E4-42F8-8C8C-34D16C03EBD6">
+									<DispatchImmediate>
+										<alwaysApply>false</alwaysApply>
+										<applyEffect>
+											<Item href="" />
+											<Item href="" />
+										</applyEffect>
+										<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+										<applyEffectOrientation>Default</applyEffectOrientation>
+										<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+										<dieAfterApply>true</dieAfterApply>
+										<dispatchEffect>
+											<Item href="" />
+											<Item href="" />
+										</dispatchEffect>
+										<flags>0</flags>
+										<instantApply>false</instantApply>
+									</DispatchImmediate>
+								</dispatch>
+							</Spell>
+						</spell>
+						<startCondition>
+							<compiledString></compiledString>
+							<returnType>bool</returnType>
+							<sString>true</sString>
+						</startCondition>
+						<startOffset>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAPw==</compiledString>
+							<returnType>float</returnType>
+							<sString>0.5f</sString>
+						</startOffset>
+						<targetSelector href="/Items/Talents/Level4/G774_SeeInvis.TALENT" id="C0B84494-FADA-4AC9-BB63-E76CD56174A4">
+							<AreaTargetSelector>
+								<absolutePosition>
+									<x>0</x>
+									<y>0</y>
+								</absolutePosition>
+								<flags>0</flags>
+								<mode>Normal</mode>
+								<range>
+									<compiledString>FRAAAAABAAAAHAAAAFRydWVTaWdodF9SYW5nZQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+									<returnType>float</returnType>
+									<sString>cTrueSight_Range</sString>
+								</range>
+								<targetFilter>536870915</targetFilter>
+								<targetSelector href="" />
+							</AreaTargetSelector>
+						</targetSelector>
+					</SpellPeriodicallyApplicator>
+				</Item>
 			</persistentApplicators>
 		</DispatchByTime>
 	</dispatch>

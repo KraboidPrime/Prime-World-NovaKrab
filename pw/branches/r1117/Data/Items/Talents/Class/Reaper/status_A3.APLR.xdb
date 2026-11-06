@@ -61,9 +61,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FRcAAAACAAAAHgAAADcAAABSZWFwZXJfQTN1AABSZWFwZXJfQTN1AFWL7IPsFGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoDAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdDaLVQiLAotNCIuQyAAAAP/Si0UIixCLTQiLgswAAADdXfD/0Nxd8N/g9sQBdQnHRewBAAAA6wfHRewAAAAAikXsi+Vdww==</compiledString>
+					<compiledString>FRcAAAACAAAAHgAAADcAAABSZWFwZXJfQTN1AABSZWFwZXJfQTN1AFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoDAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAikX7i+Vdww==</compiledString>
 					<returnType>bool</returnType>
-					<sString>tal("Reaper_A3u") &amp;&amp; sBaseStamina &lt;= sBaseWill</sString>
+					<sString>tal("Reaper_A3u")</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<lifeTime>
@@ -108,9 +108,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FRcAAAACAAAAHgAAADcAAABSZWFwZXJfQTN1AABSZWFwZXJfQTN1AFWL7IPsFGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoDAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdDaLVQiLAotNCIuQyAAAAP/Si0UIixCLTQiLgswAAADdXfD/0Nxd8N/g9sQFegnHRewBAAAA6wfHRewAAAAAikXsi+Vdww==</compiledString>
+					<compiledString>FRcAAAACAAAAHgAAADcAAABSZWFwZXJfQTN1AABSZWFwZXJfQTN1AFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoDAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAikX7i+Vdww==</compiledString>
 					<returnType>bool</returnType>
-					<sString>tal("Reaper_A3u") &amp;&amp; sBaseStamina &gt; sBaseWill</sString>
+					<sString>tal("Reaper_A3u")</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<lifeTime>
@@ -143,6 +143,7 @@
 				<statModName></statModName>
 			</StatModApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/Reaper/status_A3_BattleRageAoE.APLR" />
 	</applicators>
 	<applyTarget>AbilityOwner</applyTarget>
 	<behaviorFlags>0</behaviorFlags>

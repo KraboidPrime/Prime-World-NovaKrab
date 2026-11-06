@@ -789,6 +789,136 @@
 																			<stopEvents>0</stopEvents>
 																		</Item>
 																		<Item>
+																			<applicator href="/Heroes/BladeDancer/_.HROB" id="BD41CA7B-66A1-402C-8618-558C0E5B388D">
+																				<SpellPeriodicallyApplicator>
+																					<applyTarget>ApplicatorTarget</applyTarget>
+																					<behaviorFlags>0</behaviorFlags>
+																					<caption>бьем всех, через кого летим</caption>
+																					<effect>
+																						<Item href="" />
+																						<Item href="" />
+																					</effect>
+																					<enabled>
+																						<compiledString></compiledString>
+																						<returnType>bool</returnType>
+																						<sString>true</sString>
+																					</enabled>
+																					<formulaName></formulaName>
+																					<lifeTime>
+																						<compiledString></compiledString>
+																						<returnType>float</returnType>
+																						<sString>-1.0</sString>
+																					</lifeTime>
+																					<LoggingEvent>-1</LoggingEvent>
+																					<period>
+																						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzczMPQ==</compiledString>
+																						<returnType>float</returnType>
+																						<sString>0.1f</sString>
+																					</period>
+																					<providerName></providerName>
+																					<scaleMode>ScaleIsTime</scaleMode>
+																					<spell href="/Heroes/BladeDancer/_.HROB" id="52348BD8-F847-4F78-A0DC-F5D1839B970A">
+																						<Spell>
+																							<applicators>
+																								<Item href="/Heroes/BladeDancer/_.HROB" id="6103895F-8B9C-4A52-B40D-30BA5CF8F92D">
+																									<DamageApplicator>
+																										<applyTarget>ApplicatorTarget</applyTarget>
+																										<cancelInvisibility>false</cancelInvisibility>
+																										<caption>урон по крипам</caption>
+																										<damage>
+																											<compiledString>FQoAAAACAAAAFwAAACoAAABBMV9EYW1hZ2UAVYvsUYtFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S3A04AAAA2V382UX8i+VdwwAAAAAAAOA/</compiledString>
+																											<returnType>float</returnType>
+																											<sString>0.5*cA1_Damage</sString>
+																										</damage>
+																										<damageMode>0</damageMode>
+																										<damageType>Material</damageType>
+																										<enabled>
+																											<compiledString></compiledString>
+																											<returnType>bool</returnType>
+																											<sString>true</sString>
+																										</enabled>
+																										<formulaName></formulaName>
+																										<LoggingEvent>-1</LoggingEvent>
+																										<providerName></providerName>
+																										<timeLimiter>-1</timeLimiter>
+																										<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Energy.UIEV" />
+																									</DamageApplicator>
+																								</Item>
+																							</applicators>
+																							<dispatch href="/Heroes/BladeDancer/_.HROB" id="9AB56685-3834-471B-BF35-9BA8466C2977">
+																								<DispatchImmediate>
+																									<alwaysApply>false</alwaysApply>
+																									<applyEffect>
+																										<Item href="" />
+																										<Item href="" />
+																									</applyEffect>
+																									<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																									<applyEffectOrientation>Default</applyEffectOrientation>
+																									<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																									<dieAfterApply>true</dieAfterApply>
+																									<dispatchEffect>
+																										<Item href="" />
+																										<Item href="" />
+																									</dispatchEffect>
+																									<flags>0</flags>
+																									<instantApply>false</instantApply>
+																								</DispatchImmediate>
+																							</dispatch>
+																						</Spell>
+																					</spell>
+																					<startCondition>
+																						<compiledString></compiledString>
+																						<returnType>bool</returnType>
+																						<sString>true</sString>
+																					</startCondition>
+																					<startOffset>
+																						<compiledString></compiledString>
+																						<returnType>float</returnType>
+																						<sString>0.0f</sString>
+																					</startOffset>
+																					<targetSelector href="/Heroes/BladeDancer/_.HROB" id="2FDD0223-3FF5-45A9-BF74-5EB5EFAF8373">
+																						<CapsuleTargetSelector>
+																							<cutoffFirstSegment>false</cutoffFirstSegment>
+																							<flags>0</flags>
+																							<mode>SendOnce</mode>
+																							<range>
+																								<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAQA==</compiledString>
+																								<returnType>float</returnType>
+																								<sString>4</sString>
+																							</range>
+																							<rangeFromOwner>
+																								<compiledString></compiledString>
+																								<returnType>float</returnType>
+																								<sString>0.0f</sString>
+																							</rangeFromOwner>
+																							<segmentBegin>PreviousPosition</segmentBegin>
+																							<segmentDirectionOffset>0</segmentDirectionOffset>
+																							<segmentEnd>CurrentPosition</segmentEnd>
+																							<segmentEndTargetSelector href="" />
+																							<targetFilter>671350840</targetFilter>
+																						</CapsuleTargetSelector>
+																					</targetSelector>
+																				</SpellPeriodicallyApplicator>
+																			</applicator>
+																			<continueCondition>
+																				<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+																				<returnType>bool</returnType>
+																				<sString>0</sString>
+																			</continueCondition>
+																			<continueEvents>1</continueEvents>
+																			<delay>
+																				<compiledString></compiledString>
+																				<returnType>float</returnType>
+																				<sString>-1.0</sString>
+																			</delay>
+																			<stopCondition>
+																				<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+																				<returnType>bool</returnType>
+																				<sString>0</sString>
+																			</stopCondition>
+																			<stopEvents>0</stopEvents>
+																		</Item>
+																		<Item>
 																			<applicator href="/GameLogic/GeneralApplicators/SetTossed.APLR" />
 																			<continueCondition>
 																				<compiledString></compiledString>
@@ -1873,9 +2003,9 @@
 					<calcIncrement>0.5</calcIncrement>
 					<calcValue>55</calcValue>
 					<increment>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DZmYmPw==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DZmZmPw==</compiledString>
 						<returnType>float</returnType>
-						<sString>0.65</sString>
+						<sString>0.9</sString>
 					</increment>
 					<levelUpgrades />
 					<statId>Strength</statId>

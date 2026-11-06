@@ -63,7 +63,7 @@
 		</Item>
 	</applicators>
 	<applyTarget>ApplicatorTarget</applyTarget>
-	<behaviorFlags>144</behaviorFlags>
+	<behaviorFlags>145</behaviorFlags>
 	<caption>- Стандарт.статус "Разоружение" (Disarm_Duration)</caption>
 	<customCounter>
 		<compiledString></compiledString>
@@ -76,15 +76,15 @@
 		<sString>-1.0</sString>
 	</customProgress>
 	<description textref="/Heroes/DefaultStatus/_DISARM.APLR_description.txt" />
-	<dispellPriority>High</dispellPriority>
+	<dispellPriority>Medium</dispellPriority>
 	<effect>
 		<Item href="/Effects/Debuffs/Disarm/_.EFFT" />
 		<Item href="" />
 	</effect>
 	<enabled>
-		<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+		<compiledString>FSEAAAAEAAAAJgAAADwAAABQAAAAYwAAAEltbXVuZTJDb250cm9sAABEaXNhcm1fQ29uZGl0aW9uAFWL7FFoAAAAAItFDIsQi00Mi4KIAQAA/9DcHYUAAADf4PbERHowi00MUYtVCFJoEAAAAItFEIsQi00Qi0JQ/9DcHYUAAADf4PbERHsJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAAAA==</compiledString>
 		<returnType>bool</returnType>
-		<sString>true</sString>
+		<sString>receiver.vImmune2Control == 0 &amp;&amp; cDisarm_Condition</sString>
 	</enabled>
 	<flags>0</flags>
 	<formulaName>StandartStatus_Disarm</formulaName>
@@ -101,9 +101,9 @@
 	<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
 	<stackCount>0</stackCount>
 	<startCondition>
-		<compiledString>FQ0AAAACAAAAEgAAACgAAABBbGxvd0NvbnRyb2wAVYvsUWgAAAAAi0UMixCLTQyLgogBAAD/0NwdSgAAAN/g9sREewnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAPA/</compiledString>
+		<compiledString>FRYAAAADAAAAXgAAAHIAAACFAAAARGlzYXJtX1N0YXJ0Q29uZGl0aW9uAFWL7IPsCItFDIsQi00Mi0JQ/9AzyYP4EQ+VwYlN/NtF/FHZHCRR2e7ZHCRqAYtVDIsCi00Mi1BY/9IPtsBQ6FoAAACDxAzcHacAAADf4PbERHswi00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ/9DcHacAAADf4PbERHsJx0X4AQAAAOsHx0X4AAAAAIpF+IvlXcMAAAAAAAAAAAAAAABVi+xRD7ZFCIXAdAjZRQzZXfzrBtlFENld/NlF/IvlXcM=</compiledString>
 		<returnType>bool</returnType>
-		<sString>receiver.vAllowControl != 1</sString>
+		<sString>ut_bldg( false, rUnitKind != 17 ) &amp;&amp; cDisarm_StartCondition</sString>
 	</startCondition>
 	<statusPosition>0</statusPosition>
 	<stopBehaviour>StopByTime</stopBehaviour>

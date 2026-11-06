@@ -1237,7 +1237,7 @@
 	<microAI href="" />
 	<minLevel>0</minLevel>
 	<minUseRangeCorrection>0</minUseRangeCorrection>
-	<naftaCost>-1</naftaCost>
+	<naftaCost>600</naftaCost>
 	<name textref="/Items/Talents/Level1/G129_Str.TALENT_name.txt" />
 	<node></node>
 	<passiveApplicators>
@@ -1314,9 +1314,9 @@
 				</lifeTime>
 				<LoggingEvent>-1</LoggingEvent>
 				<period>
-					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABQQQ==</compiledString>
 					<returnType>float</returnType>
-					<sString>10.0f</sString>
+					<sString>13.0f</sString>
 				</period>
 				<providerName></providerName>
 				<scaleMode>ScaleIsCount</scaleMode>
@@ -1381,9 +1381,9 @@
 					<sString>true</sString>
 				</startCondition>
 				<startOffset>
-					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABQQQ==</compiledString>
 					<returnType>float</returnType>
-					<sString>10.0f</sString>
+					<sString>13.0f</sString>
 				</startOffset>
 				<targetSelector href="" />
 			</SpellPeriodicallyApplicator>

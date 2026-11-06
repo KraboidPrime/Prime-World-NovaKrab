@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BasicEffectAttached>
+	<BackLink DBID="/Heroes/MagicGirl/S2/FXPortal.EFFT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/MagicGirl/status_NightMode.APLR" Count="1" />
+	<attachFlags>3</attachFlags>
+	<attachType>Weapon</attachType>
+	<component href="/Heroes/MagicGirl/S2/FXPortal.PRXY" />
+	<deathType>Manual</deathType>
+	<enableCondition href="" />
+	<fadeIn>0</fadeIn>
+	<fadeOut>0</fadeOut>
+	<groupFlags>0</groupFlags>
+	<lifeTime>0</lifeTime>
+	<__states>
+		<state name="magicgirl_S1">
+			<component href="/Heroes/MagicGirl/S2/FXPortal.PRXY" />
+		</state>
+	</__states>
+</BasicEffectAttached>

@@ -1018,9 +1018,9 @@
 					<levelUpgrades />
 					<statId>Strength</statId>
 					<value>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABoQg==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAB0Qg==</compiledString>
 						<returnType>float</returnType>
-						<sString>58</sString>
+						<sString>61</sString>
 					</value>
 				</Item>
 				<Item>

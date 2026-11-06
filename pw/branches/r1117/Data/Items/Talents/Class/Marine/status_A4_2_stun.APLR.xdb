@@ -2,6 +2,7 @@
 <StatusApplicator parent="/Heroes/DefaultStatus/_STUN_Status.APLR">
 	<BackLink DBID="/Items/Talents/Class/Marine/Ability_A4_2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Chronicle/Ability_A5.TALENT" Count="1" />
+	<BackLink DBID="/Heroes/DefaultStatus/List_AllControlAppl.APLS" Count="1" />
 	<applicators>
 		<Item href="/Items/Talents/Class/Marine/status_A4_2_stun.APLR" id="85B7C1EB-8692-4A9A-914F-5131EA62758C">
 			<FlagsApplicator parent="/Heroes/DefaultStatus/_STUN.APLR">
@@ -314,6 +315,6 @@
 	<applyTarget>Hier2UpApplicatorTarget</applyTarget>
 	<caption>Не совсем стандартный статус "Оглушение" (Stun_Duration, Stun_Condition)</caption>
 	<description textref="/Items/Talents/Class/Marine/status_A4_2_stun.APLR_description.txt" />
-	<dispellPriority>NonDispellable</dispellPriority>
+	<dispellPriority>High</dispellPriority>
 	<name textref="/Items/Talents/Class/Marine/status_A4_2_stun.APLR_name.txt" />
 </StatusApplicator>

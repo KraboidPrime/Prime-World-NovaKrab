@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UnitConstant>
+	<BackLink DBID="/GameLogic/AILogic.AILP" Count="1" />
+	<name>ServerStep</name>
+	<var>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzczMPQ==</compiledString>
+		<returnType>float</returnType>
+		<sString>0.1f</sString>
+	</var>
+</UnitConstant>

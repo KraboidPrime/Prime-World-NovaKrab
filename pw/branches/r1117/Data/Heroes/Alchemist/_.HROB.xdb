@@ -1007,9 +1007,9 @@
 					<levelUpgrades />
 					<statId>Intellect</statId>
 					<value>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABgQg==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABoQg==</compiledString>
 						<returnType>float</returnType>
-						<sString>56</sString>
+						<sString>58</sString>
 					</value>
 				</Item>
 				<Item>

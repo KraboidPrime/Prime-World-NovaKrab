@@ -163,7 +163,7 @@
 									<applyTarget>ApplicatorTarget</applyTarget>
 									<caption>Обрезаем день</caption>
 									<desiredState>Day</desiredState>
-									<desiredStateFraction>0.11</desiredStateFraction>
+									<desiredStateFraction>0.21</desiredStateFraction>
 									<enabled>
 										<compiledString>FQgAAAACAAAADQAAACMAAABIaXRyb3N0AFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHVwAAADf4PbEBXogi00QixGLTRCLgpAAAAD/0A+2yIXJdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAOA/</compiledString>
 										<returnType>bool</returnType>

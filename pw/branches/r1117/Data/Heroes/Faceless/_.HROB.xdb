@@ -1392,16 +1392,16 @@
 					<calcIncrement>22.5</calcIncrement>
 					<calcValue>680</calcValue>
 					<increment>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADYQQ==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADoQQ==</compiledString>
 						<returnType>float</returnType>
-						<sString>27</sString>
+						<sString>29</sString>
 					</increment>
 					<levelUpgrades />
 					<statId>Life</statId>
 					<value>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABMRA==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABSRA==</compiledString>
 						<returnType>float</returnType>
-						<sString>816</sString>
+						<sString>840</sString>
 					</value>
 				</Item>
 				<Item>

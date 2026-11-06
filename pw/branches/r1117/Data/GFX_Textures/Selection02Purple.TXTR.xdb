@@ -11,6 +11,7 @@
 	<BackLink DBID="/Heroes/Witch/FXAbility4Enemy_S3.PRXY" Count="1" />
 	<BackLink DBID="/Summons/Ball/_WK_Aura.PRXY" Count="1" />
 	<BackLink DBID="/Summons/Spear/_Purple.PRXY" Count="1" />
+	<BackLink DBID="/Heroes/arbik_elf/FXA4_3_Swords.PRXY" Count="1" />
 	<generatedFileName></generatedFileName>
 	<mipLevels>0</mipLevels>
 	<mipLevelUsage>AutoGenerate</mipLevelUsage>

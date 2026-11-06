@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BasicEffectStandalone>
 	<BackLink DBID="/Items/Talents/Class/Trickster/Ability1.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A0.TALENT" Count="1" />
 	<component href="/Effects/Debuffs/Explosion/_PrimeFireCircleEnemy.PRXY" />
 	<deathType>Manual</deathType>
 	<enableCondition href="" />
@@ -13,4 +12,9 @@
 	<parentType>General</parentType>
 	<visibilityLimited>false</visibilityLimited>
 	<visibleTime>0</visibleTime>
+	<__states>
+		<state name="trickster_S2">
+			<component href="/Heroes/Trickster/S2/Effects/Debuffs/Explosion/_PrimeFireCircle.PRXY" />
+		</state>
+	</__states>
 </BasicEffectStandalone>

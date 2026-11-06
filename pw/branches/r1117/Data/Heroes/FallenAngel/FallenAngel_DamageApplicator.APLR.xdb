@@ -1,15 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <VariableProxyApplicator>
-	<BackLink DBID="/Heroes/FallenAngel/_.HROB" Count="1" />
+	<BackLink DBID="/Heroes/Fallenangel/_.HROB" Count="1" />
 	<applicators>
 		<Item>
 			<applicator href="/Heroes/FallenAngel/FallenAngel_DamageApplicator.APLR" id="1A7CAB81-1EA6-4494-A6D0-8C3D33933C05">
 				<DamageApplicator parent="/GameLogic/GeneralApplicators/BaseAttackDmg_Hero.APLR">
 					<caption>Урон + А0 по герою</caption>
 					<damage>
-						<compiledString>FUgAAAAEAAAAVQAAAHcAAACZAAAAuwAAAEEwX0RhbWFnZVN0YXQAAABBMF9BZGRpdGlvbmFsRGFtYWdlAEEwX0RhbWFnZVN0YXQAAABBMF9BZGRpdGlvbmFsRGFtYWdlAFWL7IPsFGoBi0UQUGgAAAAAi00MixGLTQyLgpwBAAD/0DtFEHUfi00MUYtVCFJoEAAAAItFEIsQi00Qi0JQ/9DZXfzrBdnu2V38agGLTRBRaCQAAACLVQyLAotNDIuQnAEAAP/SO0UQdR+LRQxQi00IUWg0AAAAi1UQiwKLTRCLUFD/0tld+OsF2e7ZXfiLRQiLEItNCIuCBAEAAP/Q2EX82V302UX0UdkcJOhFAAAAg8QEUItNCIsRi00Ii4IAAQAA/9DYRfjZXfDZRfBR2Rwk6B8AAACDxARQi00QixGLTRCLQlz/0IlF7NtF7IvlXcMAAAAAuAEAAAAPovfCAAAABHQH8w8sRCQEw+kAAAAAVYvsg+wM2UUI2X38D7dF/A0ADAAAiUX42W3421302W38i0X0i+Vdww==</compiledString>
+						<compiledString>FVgAAAAIAAAAZQAAAH8AAACVAAAAqQAAAMsAAADlAAAA+wAAAA8BAABBMF9EYW1hZ2VTdGF0AAAASXNDbG9uZQBBMF9BZGRpdGlvbmFsRGFtYWdlAEEwX0RhbWFnZVN0YXQAAABJc0Nsb25lAEEwX0FkZGl0aW9uYWxEYW1hZ2UAVYvsg+wUagGLRRBQaAAAAACLTQyLEYtNDIuCnAEAAP/QO0UQdUFoEAAAAItNCIsRi00Ii4KIAQAA/9DcHZEBAADf4PbERHofi00MUYtVCFJoGAAAAItFEIsQi00Qi0JQ/9DZXfzrBdnu2V38agGLTRBRaCwAAACLVQyLAotNDIuQnAEAAP/SO0UQdUFoPAAAAItFCIsQi00Ii4KIAQAA/9DcHZEBAADf4PbERHofi00MUYtVCFJoRAAAAItFEIsQi00Qi0JQ/9DZXfjrBdnu2V34i00IixGLTQiLggQBAAD/0NhF/Nld9NlF9FHZHCToTQAAAIPEBFCLTQiLEYtNCIuCAAEAAP/Q2EX42V3w2UXwUdkcJOgnAAAAg8QEUItNEIsRi00Qi0Jc/9CJRezbReyL5V3DAAAAAAAAAAAAAAAAuAEAAAAPovfCAAAABHQH8w8sRCQEw+kAAAAAVYvsg+wM2UUI2X38D7dF/A0ADAAAiUX42W3421302W38i0X0i+Vdww==</compiledString>
 						<returnType>float</returnType>
-						<sString>random ( f2l(sDamageMin + (receiver.applA0_DamageStat(UNIT) == pMisc ? cA0_AdditionalDamage : 0) ), f2l(sDamageMax + (receiver.applA0_DamageStat(UNIT) == pMisc ? cA0_AdditionalDamage : 0)))</sString>
+						<sString>random ( f2l(sDamageMin + ((receiver.applA0_DamageStat(UNIT) == pMisc &amp;&amp; sender.vIsClone == 0) ? cA0_AdditionalDamage : 0) ), f2l(sDamageMax + ((receiver.applA0_DamageStat(UNIT) == pMisc &amp;&amp; sender.vIsClone == 0) ? cA0_AdditionalDamage : 0)))</sString>
 					</damage>
 					<enabled>
 						<compiledString>FQUAAAACAAAAMgAAAF4AAABXYXJkAFWL7FFR2ejZHCRR2e7ZHCRqAYtFDIsQi00Mi0JY/9APtshR6N0AAACDxAzcHfoAAADf4PbERA+LqwAAAItVDIsCi00Mi1BQ/9KD+BQPhJUAAABqAItFEFBoAAAAAItNDIsRi00Mi4KcAQAA/9A7RRB1dYtNDIsRi00Mi0JQ/9CD+AV0Y4tNDIsRi00Mi0JQ/9CD+BJ0UYtNDIsRi00Mi0JQ/9CD+BN0P4tNDIsRi00Mi0JQ/9CD+AN0LYtNDIsRi00Mi0JQ/9CD+AR0G4tNDIsRi00Mi0JQ/9CD+BF0CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAAAAAAAAACAP1WL7FEPtkUIhcB0CNlFDNld/OsG2UUQ2V382UX8i+Vdww==</compiledString>
@@ -26,14 +26,14 @@
 				<DamageApplicator parent="/GameLogic/GeneralApplicators/BaseAttackDmg_Hero.APLR">
 					<caption>Урон + А0 по чуди</caption>
 					<damage>
-						<compiledString>FT8AAAAEAAAATAAAAG4AAACQAAAAsgAAAEEwX0RhbWFnZVN0YXQAAABBMF9DcmVlcERhbWFnZQAAQTBfRGFtYWdlU3RhdAAAAEEwX0NyZWVwRGFtYWdlAFWL7IPsFGoBi0UQUGgAAAAAi00MixGLTQyLgpwBAAD/0DtFEHUfi00MUYtVCFJoEAAAAItFEIsQi00Qi0JQ/9DZXfzrBdnu2V38agGLTRBRaCAAAACLVQyLAotNDIuQnAEAAP/SO0UQdR+LRQxQi00IUWgwAAAAi1UQiwKLTRCLUFD/0tld+OsF2e7ZXfiLRQiLEItNCIuCBAEAAP/Q2EX82V302UX0UdkcJOhFAAAAg8QEUItNCIsRi00Ii4IAAQAA/9DYRfjZXfDZRfBR2Rwk6B8AAACDxARQi00QixGLTRCLQlz/0IlF7NtF7IvlXcMAAAAAuAEAAAAPovfCAAAABHQH8w8sRCQEw+kAAAAAVYvsg+wM2UUI2X38D7dF/A0ADAAAiUX42W3421302W38i0X0i+Vdww==</compiledString>
+						<compiledString>FU8AAAAIAAAAXAAAAHYAAACMAAAAoAAAAMIAAADcAAAA8gAAAAYBAABBMF9EYW1hZ2VTdGF0AAAASXNDbG9uZQBBMF9DcmVlcERhbWFnZQAAQTBfRGFtYWdlU3RhdAAAAElzQ2xvbmUAQTBfQ3JlZXBEYW1hZ2UAVYvsg+wUagGLRRBQaAAAAACLTQyLEYtNDIuCnAEAAP/QO0UQdUFoEAAAAItNCIsRi00Ii4KIAQAA/9DcHYgBAADf4PbERHofi00MUYtVCFJoGAAAAItFEIsQi00Qi0JQ/9DZXfzrBdnu2V38agGLTRBRaCgAAACLVQyLAotNDIuQnAEAAP/SO0UQdUFoOAAAAItFCIsQi00Ii4KIAQAA/9DcHYgBAADf4PbERHofi00MUYtVCFJoQAAAAItFEIsQi00Qi0JQ/9DZXfjrBdnu2V34i00IixGLTQiLggQBAAD/0NhF/Nld9NlF9FHZHCToTQAAAIPEBFCLTQiLEYtNCIuCAAEAAP/Q2EX42V3w2UXwUdkcJOgnAAAAg8QEUItNEIsRi00Qi0Jc/9CJRezbReyL5V3DAAAAAAAAAAAAAAAAuAEAAAAPovfCAAAABHQH8w8sRCQEw+kAAAAAVYvsg+wM2UUI2X38D7dF/A0ADAAAiUX42W3421302W38i0X0i+Vdww==</compiledString>
 						<returnType>float</returnType>
-						<sString>random ( f2l(sDamageMin + (receiver.applA0_DamageStat(UNIT) == pMisc ? cA0_CreepDamage : 0) ), f2l(sDamageMax + (receiver.applA0_DamageStat(UNIT) == pMisc ? cA0_CreepDamage : 0)))</sString>
+						<sString>random ( f2l(sDamageMin + ((receiver.applA0_DamageStat(UNIT) == pMisc &amp;&amp; sender.vIsClone == 0) ? cA0_CreepDamage : 0) ), f2l(sDamageMax + ((receiver.applA0_DamageStat(UNIT) == pMisc &amp;&amp; sender.vIsClone == 0) ? cA0_CreepDamage : 0)))</sString>
 					</damage>
 					<enabled>
 						<compiledString>FQAAAAAAAAAAVYvsUYtFDIsQi00Mi0JQ/9CD+AN0Y4tNDIsRi00Mi0JQ/9CD+AR0UYtNDIsRi00Mi0JQ/9CD+AV0P4tNDIsRi00Mi0JQ/9CD+BJ0LYtNDIsRi00Mi0JQ/9CD+BN0G4tNDIsRi00Mi0JQ/9CD+BR0CcdF/AAAAADrB8dF/AEAAACKRfyL5V3D</compiledString>
 						<returnType>bool</returnType>
-						<sString>(rUnitKind == 3 || rUnitKind == 4 || rUnitKind == 5 || rUnitKind == 18 || rUnitKind == 19 || rUnitKind == 20)</sString>
+						<sString>rUnitKind == 3 || rUnitKind == 4 || rUnitKind == 5 || rUnitKind == 18 || rUnitKind == 19 || rUnitKind == 20</sString>
 					</enabled>
 				</DamageApplicator>
 			</applicator>

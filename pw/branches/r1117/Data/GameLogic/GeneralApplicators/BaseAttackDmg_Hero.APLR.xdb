@@ -52,6 +52,8 @@
 	<BackLink DBID="/Summons/Wolf/PvE_Coop1.CREEP" Count="2" />
 	<BackLink DBID="/Heroes/Chicken/_.HROB" Count="2" />
 	<BackLink DBID="/Heroes/Primevoker/_.HROB" Count="1" />
+	<BackLink DBID="/Summons/Turret/_Emergency.SUMMONED" Count="2" />
+	<BackLink DBID="/Heroes/arbik_elf/_.ATCK" Count="2" />
 	<applyTarget>ApplicatorTarget</applyTarget>
 	<cancelInvisibility>false</cancelInvisibility>
 	<caption> -- Base Attack Damage (Hero)</caption>

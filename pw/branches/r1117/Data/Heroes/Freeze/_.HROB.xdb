@@ -710,7 +710,105 @@
 				</Item>
 				<Item href="/Heroes/Freeze/dmg_buff_a3u_apl.APLR" />
 				<Item href="/Heroes/Freeze/dmg_buff_a3u_apl.APLR" />
-				<Item href="/Heroes/Freeze/status_A3_Slow.APLR" />
+				<Item href="/Heroes/Freeze/_.HROB" id="20C86AFC-0F5B-4055-9CB6-1A86DF44D9EA">
+					<StatusApplicator>
+						<applicators>
+							<Item href="/Heroes/Freeze/_.HROB" id="006CD53A-6B93-4648-B0F6-11E435C2B93F">
+								<StatModApplicator>
+									<applyTarget>ApplicatorTarget</applyTarget>
+									<behaviorFlags>152</behaviorFlags>
+									<caption></caption>
+									<constraint>None</constraint>
+									<dontUpdate>false</dontUpdate>
+									<effect>
+										<Item href="" />
+										<Item href="" />
+									</effect>
+									<enabled>
+										<compiledString>FQ8AAAACAAAAFAAAACoAAABJbW11bmUyQ29udHJvbABVi+xRaAAAAACLRQyLEItNDIuCiAEAAP/Q3B1MAAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
+										<returnType>bool</returnType>
+										<sString>receiver.vImmune2Control == 0</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<lifeTime>
+										<compiledString></compiledString>
+										<returnType>float</returnType>
+										<sString>-1.0</sString>
+									</lifeTime>
+									<LoggingEvent>-1</LoggingEvent>
+									<modifier>
+										<addValue>
+											<compiledString></compiledString>
+											<returnType>float</returnType>
+											<sString>0.0f</sString>
+										</addValue>
+										<multValue>
+											<compiledString>FQsAAAACAAAAGAAAACsAAABBM3VGb3JTbG93AFWL7FGLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0twNRQAAANno3uHZXfzZRfyL5V3DAAAAAAAA8D97FK5H4XqEPw==</compiledString>
+											<returnType>float</returnType>
+											<sString>1.0f - 0.01*cA3uForSlow</sString>
+										</multValue>
+										<stat>MoveSpeed</stat>
+										<topModifier>false</topModifier>
+										<variable></variable>
+									</modifier>
+									<providerName></providerName>
+									<startCondition>
+										<compiledString></compiledString>
+										<returnType>bool</returnType>
+										<sString>true</sString>
+									</startCondition>
+									<statModName></statModName>
+								</StatModApplicator>
+							</Item>
+						</applicators>
+						<applyTarget>ApplicatorTarget</applyTarget>
+						<behaviorFlags>152</behaviorFlags>
+						<caption>замедло</caption>
+						<customCounter>
+							<compiledString></compiledString>
+							<returnType>int</returnType>
+							<sString>0</sString>
+						</customCounter>
+						<customProgress>
+							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>-1.0</sString>
+						</customProgress>
+						<description textref="" />
+						<dispellPriority>NonDispellable</dispellPriority>
+						<effect>
+							<Item href="" />
+							<Item href="" />
+						</effect>
+						<enabled>
+							<compiledString>FQ8AAAACAAAAFAAAACoAAABJbW11bmUyQ29udHJvbABVi+xRaAAAAACLRQyLEItNDIuCiAEAAP/Q3B1MAAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
+							<returnType>bool</returnType>
+							<sString>receiver.vImmune2Control == 0</sString>
+						</enabled>
+						<flags>0</flags>
+						<formulaName></formulaName>
+						<image href="" />
+						<lifeTime>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAQA==</compiledString>
+							<returnType>float</returnType>
+							<sString>4.0f</sString>
+						</lifeTime>
+						<LoggingEvent>-1</LoggingEvent>
+						<name textref="" />
+						<power>0</power>
+						<providerName></providerName>
+						<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+						<stackCount>0</stackCount>
+						<startCondition>
+							<compiledString>FR0AAAAEAAAAJAAAAD0AAACLAAAAzQAAAEZyZWV6ZV9BM3UAAEZyZWV6ZV9BM3UAAFdhcmQAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgMAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl0b4tVDIsCi00Mi1BQ/9KD+BF0XWoAi0UQUGgYAAAAi00MixGLTQyLgpwBAAD/0DtFEHU9Udno2RwkUdnu2RwkagGLTQyLEYtNDItCWP/QD7bIUeg3AAAAg8QM3B3vAAAA3+D2xER7CcdF9AEAAADrB8dF9AAAAACKRfSL5V3DAAAAAAAAAAAAAAAAAACAP1WL7FEPtkUIhcB0CNlFDNld/OsG2UUQ2V382UX8i+Vdww==</compiledString>
+							<returnType>bool</returnType>
+							<sString>tal("Freeze_A3u") &amp;&amp; rUnitKind != 17 &amp;&amp; receiver.applWard(GLOBAL) == pMisc &amp;&amp; ut_bldg(false, true)</sString>
+						</startCondition>
+						<statusPosition>0</statusPosition>
+						<stopBehaviour>StopByTime</stopBehaviour>
+						<unstackableWith href="" />
+					</StatusApplicator>
+				</Item>
 			</applicators>
 			<autoTargetSelector href="" />
 			<caption></caption>
@@ -735,6 +833,16 @@
 									<compiledString>FREAAAABAAAAFQAAAEEzdUZyZWV6ZWNvdW50ZXIAVYvsaAAAAACLRQyLEItNDIuCiAEAAP/QXcM=</compiledString>
 									<returnType>float</returnType>
 									<sString>receiver.vA3uFreezecounter</sString>
+								</var>
+							</UnitConstant>
+						</Item>
+						<Item href="/Heroes/Freeze/_.HROB" id="645D2010-C820-4567-A234-75748E01CA12">
+							<UnitConstant>
+								<name>A3uForSlow</name>
+								<var>
+									<compiledString>FRIAAAADAAAAHwAAADIAAABDAAAAQTN1RnJlZXplY291bnRlckMAVYvsUYtFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S3A1aAAAA2V382UX8UdkcJFHZBVYAAADZHCToEwAAAIPECIvlXcMAAPBBAAAAAAAAAEBVi+xR2UUI2UUM3tnf4PbEQXUI2UUI2V386wbZRQzZXfzZRfyL5V3D</compiledString>
+									<returnType>float</returnType>
+									<sString>min(30, 2*cA3uFreezecounterC)</sString>
 								</var>
 							</UnitConstant>
 						</Item>

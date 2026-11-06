@@ -313,9 +313,9 @@
 										</enabled>
 										<formulaName></formulaName>
 										<lifeTime>
-											<compiledString>FQUAAAABAAAAEQAAAFNURVAAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+											<compiledString>FRMAAAADAAAAIgAAADUAAABCAAAAU1RFUAAAAABTZXJ2ZXJTdGVwAFWL7IPsDItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S3A1jAAAAi0UMUItNCFFoCAAAAItVEIsCi00Qi1BQ3V34/9LcTfjZXfTZRfSL5V3DAAAAAAAAJEA=</compiledString>
 											<returnType>float</returnType>
-											<sString>cSTEP</sString>
+											<sString>10.0f*cSTEP*cServerStep</sString>
 										</lifeTime>
 										<LoggingEvent>-1</LoggingEvent>
 										<modifier>

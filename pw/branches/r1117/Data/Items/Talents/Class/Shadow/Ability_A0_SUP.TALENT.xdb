@@ -129,6 +129,161 @@
 				<providerName></providerName>
 			</PermanentStatModApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/Shadow/Ability_A0_SUP.TALENT" id="87FCF141-FD3D-450B-A07C-57CC7DC85931">
+			<StatModApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption></caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FQcAAAACAAAADAAAACIAAABIYXRyZWQAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdRAAAAN/g9sQFegnHRfwBAAAA6wfHRfwAAAAAikX8i+Vdw83MzMzMzOw/</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vHatred &lt; 0.9</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQQ==</compiledString>
+						<returnType>float</returnType>
+						<sString>20.0f</sString>
+					</addValue>
+					<multValue>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DZmZmPw==</compiledString>
+						<returnType>float</returnType>
+						<sString>0.9f</sString>
+					</multValue>
+					<stat>EnergyDamageDecrease</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/Shadow/Ability_A0_SUP.TALENT" id="99FF0DD6-887D-4FC8-A790-0B9E569F4F35">
+			<StatModApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption></caption>
+				<constraint>None</constraint>
+				<dontUpdate>false</dontUpdate>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FQcAAAACAAAADAAAACIAAABIYXRyZWQAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdRAAAAN/g9sQFegnHRfwBAAAA6wfHRfwAAAAAikX8i+Vdw83MzMzMzOw/</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vHatred &lt; 0.9</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQQ==</compiledString>
+						<returnType>float</returnType>
+						<sString>20.0f</sString>
+					</addValue>
+					<multValue>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DZmZmPw==</compiledString>
+						<returnType>float</returnType>
+						<sString>0.9f</sString>
+					</multValue>
+					<stat>MaterialDamageDecrease</stat>
+					<topModifier>false</topModifier>
+					<variable></variable>
+				</modifier>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statModName></statModName>
+			</StatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/Shadow/Ability_A0_SUP.TALENT" id="3099F19E-C8F7-49F7-9888-12546AEB1A7A">
+			<TriggerApplicator>
+				<actionsCount>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</actionsCount>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption></caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FQcAAAACAAAADAAAACIAAABIYXRyZWQAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdRAAAAN/g9sRBdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwzMzMzMzMw9A</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vHatred &gt; 3.9</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<playAck>false</playAck>
+				<processor href="/Items/Talents/Class/Shadow/Ability_A0_SUP.TALENT" id="337A3299-3C0C-4C77-B35D-DDD3FE525FC4">
+					<EventProcessorOutgoingDamage>
+						<abilityFilter>
+							<abilitiesList />
+							<abilityCondition>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</abilityCondition>
+							<abilityCostMode>Any</abilityCostMode>
+							<exceptThis>false</exceptThis>
+							<flags>536872191</flags>
+							<onlySingleTarget>false</onlySingleTarget>
+						</abilityFilter>
+						<applyTarget>ApplicatorTarget</applyTarget>
+						<damageTypeFilter>15</damageTypeFilter>
+						<modifiedDamage>
+							<compiledString>FQcAAAACAAAADAAAAB8AAABEYW1hZ2UAVYvsUWgAAAAAi0UQixCLTRCLQlT/0NwNLQAAANld/NlF/IvlXcMAAACgmZnxPw==</compiledString>
+							<returnType>float</returnType>
+							<sString>appl.vDamage * 1.1f</sString>
+						</modifiedDamage>
+						<spell href="" />
+					</EventProcessorOutgoingDamage>
+				</processor>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<useAbilityCooldown>false</useAbilityCooldown>
+				<useAbilityOwnerMana>false</useAbilityOwnerMana>
+			</TriggerApplicator>
+		</Item>
 	</passiveApplicators>
 	<persistentId>Shadow_A0_SUP</persistentId>
 	<prerequisiteTalents>

@@ -523,7 +523,7 @@
 																			<sString>-1.0</sString>
 																		</customProgress>
 																		<description textref="/Summons/Spear/_Mowgli.SUMMONED_5d559268548a494ab3338cb141b36455_description.txt" />
-																		<dispellPriority>NonDispellable</dispellPriority>
+																		<dispellPriority>High</dispellPriority>
 																		<effect>
 																			<Item href="/Summons/Spear/_Mowgli.SUMMONED" id="FC8701EC-F1A6-46CE-B7DC-AAB00B0CF5F9">
 																				<EffectList>

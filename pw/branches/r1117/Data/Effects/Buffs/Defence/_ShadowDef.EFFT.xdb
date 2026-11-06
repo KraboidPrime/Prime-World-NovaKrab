@@ -18,5 +18,8 @@
 		<state name="archeress_S7">
 			<component href="/Effects/Buffs/Defence/_Bow_S7.PRXY" />
 		</state>
+		<state name="shadow_S2">
+			<component href="/Effects/Buffs/Defence/_ShadowDef2TRS.PRXY" />
+		</state>
 	</__states>
 </BasicEffectAttached>

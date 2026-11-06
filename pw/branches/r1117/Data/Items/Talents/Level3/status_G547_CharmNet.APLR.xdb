@@ -47,7 +47,7 @@
 	<description textref="" />
 	<dispellPriority>NonDispellable</dispellPriority>
 	<effect>
-		<Item href="/Effects/Debuffs/Horn/_.EFFT" />
+		<Item href="" />
 		<Item href="" />
 	</effect>
 	<enabled>

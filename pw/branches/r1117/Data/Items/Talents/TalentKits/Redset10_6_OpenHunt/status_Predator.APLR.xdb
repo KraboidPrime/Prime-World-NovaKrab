@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StatusApplicator>
+	<applicators>
+		<Item href="/Items/Talents/TalentKits/Redset10_6_OpenHunt/status_Predator.APLR" id="31316A43-14E2-4879-A8B7-391EB209B5BE">
+			<TriggerApplicator>
+				<actionsCount>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</actionsCount>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>152</behaviorFlags>
+				<caption>Predator outgoing damage</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<playAck>false</playAck>
+				<processor href="/Items/Talents/TalentKits/Redset10_6_OpenHunt/status_Predator.APLR" id="4F944A95-C0C4-4864-A3F5-2B8DA07B2D55">
+					<EventProcessorOutgoingDamage>
+						<abilityFilter>
+							<abilitiesList />
+							<abilityCondition>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</abilityCondition>
+							<abilityCostMode>Any</abilityCostMode>
+							<exceptThis>false</exceptThis>
+							<flags>536872191</flags>
+							<onlySingleTarget>false</onlySingleTarget>
+						</abilityFilter>
+						<applyTarget>ApplicatorTarget</applyTarget>
+						<damageTypeFilter>15</damageTypeFilter>
+						<modifiedDamage>
+							<compiledString>FR4AAAADAAAAJQAAADcAAABQAAAARGFtYWdlAABHMTAwNV9QcmVkYXRvckNoYXJnZXMAVYvsg+wMaAAAAACLRRCLEItNEItCVP/QaAgAAACLTQiLEYtNCIuCiAEAAN1d+P/Q3A1tAAAA2ejewdxN+Nld9NlF9IvlXcMAAAAAAADwPwAAAEDheoQ/</compiledString>
+							<returnType>float</returnType>
+							<sString>appl.vDamage * (1.0f + 0.01f * sender.vG1005_PredatorCharges)</sString>
+						</modifiedDamage>
+						<spell href="" />
+					</EventProcessorOutgoingDamage>
+				</processor>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<useAbilityCooldown>false</useAbilityCooldown>
+				<useAbilityOwnerMana>false</useAbilityOwnerMana>
+			</TriggerApplicator>
+		</Item>
+	</applicators>
+	<applyTarget>AbilityOwner</applyTarget>
+	<behaviorFlags>216</behaviorFlags>
+	<caption>Predator charges status</caption>
+	<customCounter>
+		<compiledString>FRYAAAABAAAAGgAAAEcxMDA1X1ByZWRhdG9yQ2hhcmdlcwBVi+xoAAAAAItFCIsQi00Ii4KIAQAA/9BR2Rwk6AUAAACDxARdw7gBAAAAD6L3wgAAAAR0B/MPLEQkBMPpAAAAAFWL7IPsDNlFCNl9/A+3RfwNAAwAAIlF+Nlt+Ntd9Nlt/ItF9IvlXcM=</compiledString>
+		<returnType>int</returnType>
+		<sString>f2l(sender.vG1005_PredatorCharges)</sString>
+	</customCounter>
+	<customProgress>
+		<compiledString>FRYAAAACAAAAGwAAADEAAABHMTAwNV9QcmVkYXRvckNoYXJnZXMAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0Nw1PwAAANld/NlF/IvlXcMAAAAAAAAcQA==</compiledString>
+		<returnType>float</returnType>
+		<sString>sender.vG1005_PredatorCharges / 7.0f</sString>
+	</customProgress>
+	<description textref="/Items/Talents/TalentKits/Redset10_6_OpenHunt/status_Predator.APLR_description.txt" />
+	<dispellPriority>NonDispellable</dispellPriority>
+	<effect>
+		<Item href="" />
+		<Item href="" />
+	</effect>
+	<enabled>
+		<compiledString>FRYAAAACAAAAGwAAADEAAABHMTAwNV9QcmVkYXRvckNoYXJnZXMAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdUwAAAN/g9sRBdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAOA/</compiledString>
+		<returnType>bool</returnType>
+		<sString>sender.vG1005_PredatorCharges &gt; 0.5</sString>
+	</enabled>
+	<flags>2</flags>
+	<formulaName>G1005_Predator</formulaName>
+	<image href="/UI/Styles/Icons/Talents/_1005.ITEX" />
+	<lifeTime>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>-1.0</sString>
+	</lifeTime>
+	<LoggingEvent>-1</LoggingEvent>
+	<name textref="/Items/Talents/TalentKits/Redset10_6_OpenHunt/status_Predator.APLR_name.txt" />
+	<power>0</power>
+	<providerName></providerName>
+	<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+	<stackCount>0</stackCount>
+	<startCondition>
+		<compiledString></compiledString>
+		<returnType>bool</returnType>
+		<sString>true</sString>
+	</startCondition>
+	<statusPosition>-20</statusPosition>
+	<stopBehaviour>StopByTime</stopBehaviour>
+	<unstackableWith href="" />
+</StatusApplicator>

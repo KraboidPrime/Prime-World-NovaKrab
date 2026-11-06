@@ -28,5 +28,10 @@
 		<Item href="/Heroes/DefaultStatus/_DISARM.APLR" />
 		<Item href="/Items/Talents/Level5/status_G294HeroOff.APLR" />
 		<Item href="/Items/Talents/Class/Werewolf/status_A4_curse.APLR" />
+		<Item href="/Heroes/DefaultStatus/_STUNsleep_Status.APLR" />
+		<Item href="/Items/Talents/Class/Shaman/A4_2_status.APLR" />
+		<Item href="/Items/Talents/Class/Fairy/A3_2_Fairy_Sleep.APLR" />
+		<Item href="/Items/Talents/Class/Naga/status_A4_2_NewEnemy.APLR" />
+		<Item href="/Heroes/DefaultStatus/_PANIC_DOCstatus.APLR" />
 	</applicators>
 </ApplicatorsList>

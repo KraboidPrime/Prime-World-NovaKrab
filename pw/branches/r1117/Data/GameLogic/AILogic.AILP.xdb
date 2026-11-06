@@ -2977,6 +2977,27 @@
 						</var>
 					</UnitConstant>
 				</Item>
+				<Item href="/GameLogic/AILogic.AILP" id="A839858F-1B2A-4D9E-AE3C-AEABFEF65FD5">
+					<UnitConstant>
+						<name>Disarm_StartCondition</name>
+						<var>
+							<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+							<returnType>float</returnType>
+							<sString>true</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/GameLogic/AILogic.AILP" id="B7A25768-1277-4C69-BCE2-D295C4F87838">
+					<UnitConstant>
+						<name>Disarm_Condition</name>
+						<var>
+							<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+							<returnType>float</returnType>
+							<sString>true</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/GameLogic/Const_ServerStep" />
 			</vars>
 		</UnitConstantsContainer>
 	</globalConstants>

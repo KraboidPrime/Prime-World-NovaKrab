@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StatusApplicator>
 	<BackLink DBID="/Items/Talents/Class/Invisible/Inv_Ult_2_for_link.APLR" Count="2" />
+	<BackLink DBID="/Heroes/DefaultStatus/List_AllControlAppl.APLS" Count="1" />
 	<applicators>
 		<Item href="/Items/Talents/Class/Invisible/status_A4_2_OnChain.APLR" id="7F0F0153-1628-4478-95C2-71DF273853DD">
 			<FlagsApplicator>
@@ -83,7 +84,7 @@
 		<sString>-1.0</sString>
 	</customProgress>
 	<description textref="/Items/Talents/Class/Invisible/status_A4_2_OnChain.APLR_description.txt" />
-	<dispellPriority>Medium</dispellPriority>
+	<dispellPriority>High</dispellPriority>
 	<effect>
 		<Item href="/Items/Talents/Class/Invisible/status_A4_2_OnChain.APLR" id="4BE3FD61-B163-4349-8D62-9EE5EC31CCEC">
 			<EffectList>

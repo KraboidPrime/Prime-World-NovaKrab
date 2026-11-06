@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BasicEffectStandalone>
+	<BackLink DBID="/Heroes/arbik_elf/FXA4_3_Swords.EFFT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/WraithKing/Ability_A4_2.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/arbik_elf/Ability_A4_3.TALENT" Count="1" />
+	<component href="/Heroes/arbik_elf/FXA4_3_Swords2.PRXY" />
+	<deathType>Manual</deathType>
+	<enableCondition href="" />
+	<fadeIn>0.3</fadeIn>
+	<fadeOut>0.3</fadeOut>
+	<isVisibleUnderWarfog>false</isVisibleUnderWarfog>
+	<lifeTime>0</lifeTime>
+	<parentFlags>0</parentFlags>
+	<parentType>General</parentType>
+	<visibilityLimited>false</visibilityLimited>
+	<visibleTime>0</visibleTime>
+	<__states>
+		<state name="wraithking_S1">
+			<component href="/Heroes/arbik_elf/FXA4_3_Swords_S1.PRXY" />
+		</state>
+	</__states>
+</BasicEffectStandalone>

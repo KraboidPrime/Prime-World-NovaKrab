@@ -69,6 +69,7 @@
 	<BackLink DBID="/Heroes/Shaman/_.HROB" Count="1" />
 	<BackLink DBID="/Heroes/Chicken/_.HROB" Count="1" />
 	<BackLink DBID="/Heroes/Primevoker/_.HROB" Count="1" />
+	<BackLink DBID="/Heroes/arbik_elf/_.HROB" Count="1" />
 	<deathTime>5</deathTime>
 	<effect href="/Effects/General/Death/_.EFFT" />
 	<effectOffset>0</effectOffset>

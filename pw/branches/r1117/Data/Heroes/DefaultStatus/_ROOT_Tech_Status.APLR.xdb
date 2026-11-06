@@ -127,9 +127,9 @@
 								</dispatchEffect>
 								<flags>0</flags>
 								<lifeTime>
-									<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpmZPg==</compiledString>
+									<compiledString>FQsAAAACAAAAGAAAACsAAABTZXJ2ZXJTdGVwAFWL7FGLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0twNOQAAANld/NlF/IvlXcMAAAAAAAAIQA==</compiledString>
 									<returnType>float</returnType>
-									<sString>0.3f</sString>
+									<sString>3.0f*cServerStep</sString>
 								</lifeTime>
 								<persistentApplicators />
 							</DispatchByTime>

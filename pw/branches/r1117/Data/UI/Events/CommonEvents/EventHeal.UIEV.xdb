@@ -152,6 +152,13 @@
 	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A4_2.TALENT" Count="3" />
 	<BackLink DBID="/Items/Talents/Class/WraithKing/Ability_A1.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Angel/Summon_Well.APLR" Count="2" />
+	<BackLink DBID="/Items/Talents/Level1/G1005_Predator.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/Witcher/Ability_A2.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/arbik_elf/Ability_A2.TALENT" Count="5" />
+	<BackLink DBID="/Items/Talents/Class/arbik_elf/Ability_A4_2.TALENT" Count="4" />
+	<BackLink DBID="/Items/Talents/Class/arbik_elf/Ability_A4_3.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/arbik_elf/Ability_A3.TALENT" Count="1" />
+	<BackLink DBID="/Heroes/arbik_elf/_.ATCK" Count="1" />
 	<signRecipients>ALL_PLAYERS</signRecipients>
 	<UISigns>
 		<Item href="/UI/Events/CommonEvents/EventHeal.UIEV" id="878B438C-C615-4D95-A3F9-437FB33C2559">

@@ -268,6 +268,219 @@
 											<type>None</type>
 										</AuraApplicator>
 									</Item>
+									<Item href="/Items/Talents/Class/Shadow/Ability_A4.TALENT" id="E79B7A5B-8B4B-476A-AE24-FE32246E69D2">
+										<AuraApplicator>
+											<applicators>
+												<Item href="/Items/Talents/Class/Shadow/Ability_A4.TALENT" id="387C97CE-9E4D-4C23-8981-D6D88D7E3C88">
+													<StatusApplicator>
+														<applicators>
+															<Item href="/Items/Talents/Class/Shadow/Ability_A4.TALENT" id="90FF3408-27A8-40AB-A19E-137BA1802D2E">
+																<StatModApplicator>
+																	<applyTarget>ApplicatorTarget</applyTarget>
+																	<behaviorFlags>144</behaviorFlags>
+																	<caption></caption>
+																	<constraint>None</constraint>
+																	<dontUpdate>false</dontUpdate>
+																	<effect>
+																		<Item href="" />
+																		<Item href="" />
+																	</effect>
+																	<enabled>
+																		<compiledString></compiledString>
+																		<returnType>bool</returnType>
+																		<sString>true</sString>
+																	</enabled>
+																	<formulaName></formulaName>
+																	<lifeTime>
+																		<compiledString></compiledString>
+																		<returnType>float</returnType>
+																		<sString>-1.0</sString>
+																	</lifeTime>
+																	<LoggingEvent>-1</LoggingEvent>
+																	<modifier>
+																		<addValue>
+																			<compiledString>FQoAAAABAAAAFgAAAEJ1ZmZfU3RhdABVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+																			<returnType>float</returnType>
+																			<sString>cBuff_Stat</sString>
+																		</addValue>
+																		<multValue>
+																			<compiledString></compiledString>
+																			<returnType>float</returnType>
+																			<sString>1.0f</sString>
+																		</multValue>
+																		<stat>Stamina</stat>
+																		<topModifier>false</topModifier>
+																		<variable></variable>
+																	</modifier>
+																	<providerName></providerName>
+																	<startCondition>
+																		<compiledString></compiledString>
+																		<returnType>bool</returnType>
+																		<sString>true</sString>
+																	</startCondition>
+																	<statModName></statModName>
+																</StatModApplicator>
+															</Item>
+															<Item href="/Items/Talents/Class/Shadow/Ability_A4.TALENT" id="820A0206-5DAE-4A92-A53B-38BEFC9984B0">
+																<StatModApplicator>
+																	<applyTarget>ApplicatorTarget</applyTarget>
+																	<behaviorFlags>144</behaviorFlags>
+																	<caption></caption>
+																	<constraint>None</constraint>
+																	<dontUpdate>false</dontUpdate>
+																	<effect>
+																		<Item href="" />
+																		<Item href="" />
+																	</effect>
+																	<enabled>
+																		<compiledString></compiledString>
+																		<returnType>bool</returnType>
+																		<sString>true</sString>
+																	</enabled>
+																	<formulaName></formulaName>
+																	<lifeTime>
+																		<compiledString></compiledString>
+																		<returnType>float</returnType>
+																		<sString>-1.0</sString>
+																	</lifeTime>
+																	<LoggingEvent>-1</LoggingEvent>
+																	<modifier>
+																		<addValue>
+																			<compiledString>FQoAAAABAAAAFgAAAEJ1ZmZfU3RhdABVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+																			<returnType>float</returnType>
+																			<sString>cBuff_Stat</sString>
+																		</addValue>
+																		<multValue>
+																			<compiledString></compiledString>
+																			<returnType>float</returnType>
+																			<sString>1.0f</sString>
+																		</multValue>
+																		<stat>Will</stat>
+																		<topModifier>false</topModifier>
+																		<variable></variable>
+																	</modifier>
+																	<providerName></providerName>
+																	<startCondition>
+																		<compiledString></compiledString>
+																		<returnType>bool</returnType>
+																		<sString>true</sString>
+																	</startCondition>
+																	<statModName></statModName>
+																</StatModApplicator>
+															</Item>
+														</applicators>
+														<applyTarget>ApplicatorTarget</applyTarget>
+														<behaviorFlags>146</behaviorFlags>
+														<caption></caption>
+														<customCounter>
+															<compiledString></compiledString>
+															<returnType>int</returnType>
+															<sString>0</sString>
+														</customCounter>
+														<customProgress>
+															<compiledString></compiledString>
+															<returnType>float</returnType>
+															<sString>-1.0</sString>
+														</customProgress>
+														<description textref="/Items/Talents/Class/Shadow/Ability_A4.TALENT_387c97ce9e4d4c238981d6d88d7e3c88_description.txt" />
+														<dispellPriority>NonDispellable</dispellPriority>
+														<effect>
+															<Item href="" />
+															<Item href="" />
+														</effect>
+														<enabled>
+															<compiledString></compiledString>
+															<returnType>bool</returnType>
+															<sString>true</sString>
+														</enabled>
+														<flags>0</flags>
+														<formulaName></formulaName>
+														<image href="/UI/Styles/Icons/Heroes/Shadow/A4.ITEX" />
+														<lifeTime>
+															<compiledString></compiledString>
+															<returnType>float</returnType>
+															<sString>-1.0</sString>
+														</lifeTime>
+														<LoggingEvent>-1</LoggingEvent>
+														<name textref="/Items/Talents/Class/Shadow/Ability_A4.TALENT_387c97ce9e4d4c238981d6d88d7e3c88_name.txt" />
+														<power>0</power>
+														<providerName></providerName>
+														<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+														<stackCount>0</stackCount>
+														<startCondition>
+															<compiledString></compiledString>
+															<returnType>bool</returnType>
+															<sString>true</sString>
+														</startCondition>
+														<statusPosition>0</statusPosition>
+														<stopBehaviour>StopByTime</stopBehaviour>
+														<unstackableWith href="" />
+													</StatusApplicator>
+												</Item>
+											</applicators>
+											<applyTarget>ApplicatorTarget</applyTarget>
+											<behaviorFlags>153</behaviorFlags>
+											<caption>баф союзникам</caption>
+											<effect>
+												<Item href="" />
+												<Item href="" />
+											</effect>
+											<enabled>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</enabled>
+											<formulaName></formulaName>
+											<lifeTime>
+												<compiledString></compiledString>
+												<returnType>float</returnType>
+												<sString>-1.0</sString>
+											</lifeTime>
+											<LoggingEvent>-1</LoggingEvent>
+											<providerName></providerName>
+											<range>
+												<compiledString>FQoAAAABAAAAFgAAAEE0X1JhZGl1cwBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+												<returnType>float</returnType>
+												<sString>cA4_Radius</sString>
+											</range>
+											<startCondition>
+												<compiledString></compiledString>
+												<returnType>bool</returnType>
+												<sString>true</sString>
+											</startCondition>
+											<targets>0</targets>
+											<targetSelector href="/Items/Talents/Class/Shadow/Ability_A4.TALENT" id="296CD719-23D7-4F4F-AFBC-2525ACC90A88">
+												<AreaTargetSelector>
+													<absolutePosition>
+														<x>0</x>
+														<y>0</y>
+													</absolutePosition>
+													<flags>1</flags>
+													<mode>Normal</mode>
+													<range>
+														<compiledString>FQoAAAABAAAAFgAAAEE0X1JhZGl1cwBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+														<returnType>float</returnType>
+														<sString>cA4_Radius</sString>
+													</range>
+													<targetFilter>268435459</targetFilter>
+													<targetSelector href="/Items/Talents/Class/Shadow/Ability_A4.TALENT" id="89BCDBDC-2C5E-4A39-98DB-E09267558D81">
+														<ConvertTargetToLand>
+															<aggregateMode>First</aggregateMode>
+															<targetSelector href="/Items/Talents/Class/Shadow/Ability_A4.TALENT" id="CB75501C-6820-4222-91EF-C0E3D45B769C">
+																<SelectApplicatorTarget>
+																	<applicatorIndex>0</applicatorIndex>
+																	<applicatorName></applicatorName>
+																	<namedApplicatorTarget>ApplicatorTarget</namedApplicatorTarget>
+																	<selectTarget>CastPosition</selectTarget>
+																</SelectApplicatorTarget>
+															</targetSelector>
+														</ConvertTargetToLand>
+													</targetSelector>
+												</AreaTargetSelector>
+											</targetSelector>
+											<type>None</type>
+										</AuraApplicator>
+									</Item>
 								</persistentApplicators>
 							</DispatchByTime>
 						</dispatch>
@@ -435,6 +648,16 @@
 							<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
 							<returnType>float</returnType>
 							<sString>1</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Shadow/Ability_A4.TALENT" id="B44300CF-2EEA-451A-9F1B-31D950A693E5">
+					<UnitConstant>
+						<name>Buff_Stat</name>
+						<var>
+							<compiledString>FQkAAAACAAAAFgAAACkAAABEZWNfU3RhdABVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcDTcAAADZXfzZRfyL5V3DmpmZmZmZyT8=</compiledString>
+							<returnType>float</returnType>
+							<sString>0.2*cDec_Stat</sString>
 						</var>
 					</UnitConstant>
 				</Item>

@@ -13,6 +13,9 @@
 	<groupFlags>0</groupFlags>
 	<lifeTime>0</lifeTime>
 	<__states>
+		<state name="demonolog_S3">
+			<component href="/Summons/Trap/S3/_ApplyTRS.PRXY" />
+		</state>
 		<state name="gunner">
 			<component href="/Summons/Trap/_ApplyTRS_Gunner.PRXY" />
 		</state>

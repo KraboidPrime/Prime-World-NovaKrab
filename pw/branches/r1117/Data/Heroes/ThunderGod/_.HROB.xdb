@@ -80,7 +80,7 @@
 				</Item>
 			</settings>
 			<sounds>
-				<Item href="/Heroes/ThunderGod/_.HROB" id="89043310-EE04-4125-9BB6-3F5A298C851F">
+				<Item href="/Heroes/Thundergod/_.HROB" id="89043310-EE04-4125-9BB6-3F5A298C851F">
 					<DBSoundSceneComponent>
 						<attached />
 						<caption>sound</caption>
@@ -95,7 +95,7 @@
 						<timeInterval>0</timeInterval>
 					</DBSoundSceneComponent>
 				</Item>
-				<Item href="/Heroes/ThunderGod/_.HROB" id="9BC4B857-72CD-4CB8-BEB7-7CD8AA792601">
+				<Item href="/Heroes/Thundergod/_.HROB" id="9BC4B857-72CD-4CB8-BEB7-7CD8AA792601">
 					<DBSoundSceneComponent>
 						<attached />
 						<caption>sound</caption>
@@ -110,7 +110,7 @@
 						<timeInterval>0</timeInterval>
 					</DBSoundSceneComponent>
 				</Item>
-				<Item href="/Heroes/ThunderGod/_.HROB" id="CC79EE1A-FF80-4F34-A680-8360EA4A8F81">
+				<Item href="/Heroes/Thundergod/_.HROB" id="CC79EE1A-FF80-4F34-A680-8360EA4A8F81">
 					<DBSoundSceneComponent>
 						<attached />
 						<caption>sound</caption>
@@ -126,7 +126,7 @@
 					</DBSoundSceneComponent>
 				</Item>
 				<Item href="" />
-				<Item href="/Heroes/ThunderGod/_.HROB" id="BAE77F4E-8CB9-437D-8C0C-B4654165016A">
+				<Item href="/Heroes/Thundergod/_.HROB" id="BAE77F4E-8CB9-437D-8C0C-B4654165016A">
 					<DBSoundSceneComponent>
 						<attached />
 						<caption>sound</caption>
@@ -141,7 +141,7 @@
 						<timeInterval>0</timeInterval>
 					</DBSoundSceneComponent>
 				</Item>
-				<Item href="/Heroes/ThunderGod/_.HROB" id="4E3A74EC-FE1E-45D8-A767-67D43D80F1FA">
+				<Item href="/Heroes/Thundergod/_.HROB" id="4E3A74EC-FE1E-45D8-A767-67D43D80F1FA">
 					<DBSoundSceneComponent>
 						<attached />
 						<caption>sound</caption>
@@ -156,7 +156,7 @@
 						<timeInterval>0</timeInterval>
 					</DBSoundSceneComponent>
 				</Item>
-				<Item href="/Heroes/ThunderGod/_.HROB" id="4683D26B-FA5B-4DDD-B0A2-191F7288E50A">
+				<Item href="/Heroes/Thundergod/_.HROB" id="4683D26B-FA5B-4DDD-B0A2-191F7288E50A">
 					<DBSoundSceneComponent>
 						<attached />
 						<caption>sound</caption>
@@ -171,7 +171,7 @@
 						<timeInterval>0</timeInterval>
 					</DBSoundSceneComponent>
 				</Item>
-				<Item href="/Heroes/ThunderGod/_.HROB" id="566C4BF8-2B3F-4AC9-8BF8-29A925612074">
+				<Item href="/Heroes/Thundergod/_.HROB" id="566C4BF8-2B3F-4AC9-8BF8-29A925612074">
 					<DBSoundSceneComponent>
 						<attached />
 						<caption>sound</caption>
@@ -186,7 +186,7 @@
 						<timeInterval>0</timeInterval>
 					</DBSoundSceneComponent>
 				</Item>
-				<Item href="/Heroes/ThunderGod/_.HROB" id="62374D39-A58E-4091-8A90-265723B3EDB6">
+				<Item href="/Heroes/Thundergod/_.HROB" id="62374D39-A58E-4091-8A90-265723B3EDB6">
 					<DBSoundSceneComponent>
 						<attached />
 						<caption>sound</caption>
@@ -201,7 +201,7 @@
 						<timeInterval>0</timeInterval>
 					</DBSoundSceneComponent>
 				</Item>
-				<Item href="/Heroes/ThunderGod/_.HROB" id="0F08DF69-852B-455A-ACAD-F2A419FEB555">
+				<Item href="/Heroes/Thundergod/_.HROB" id="0F08DF69-852B-455A-ACAD-F2A419FEB555">
 					<DBSoundSceneComponent>
 						<attached />
 						<caption>sound</caption>
@@ -298,7 +298,7 @@
 				</Item>
 			</settings>
 			<sounds>
-				<Item href="/Heroes/ThunderGod/_.HROB" id="D19E7846-29BE-4F22-BD03-1132FCE148A5">
+				<Item href="/Heroes/Thundergod/_.HROB" id="D19E7846-29BE-4F22-BD03-1132FCE148A5">
 					<DBSoundSceneComponent>
 						<attached />
 						<caption>sound</caption>
@@ -313,7 +313,7 @@
 						<timeInterval>0</timeInterval>
 					</DBSoundSceneComponent>
 				</Item>
-				<Item href="/Heroes/ThunderGod/_.HROB" id="03E8EC19-4653-4D46-A7AB-AA23A24FF90B">
+				<Item href="/Heroes/Thundergod/_.HROB" id="03E8EC19-4653-4D46-A7AB-AA23A24FF90B">
 					<DBSoundSceneComponent>
 						<attached />
 						<caption>sound</caption>
@@ -328,7 +328,7 @@
 						<timeInterval>0</timeInterval>
 					</DBSoundSceneComponent>
 				</Item>
-				<Item href="/Heroes/ThunderGod/_.HROB" id="EF54E79F-5D82-4377-B536-617BFC176EF1">
+				<Item href="/Heroes/Thundergod/_.HROB" id="EF54E79F-5D82-4377-B536-617BFC176EF1">
 					<DBSoundSceneComponent>
 						<attached />
 						<caption>sound</caption>
@@ -344,7 +344,7 @@
 					</DBSoundSceneComponent>
 				</Item>
 				<Item href="" />
-				<Item href="/Heroes/ThunderGod/_.HROB" id="58904743-D47C-466D-94F7-EE8AB55766AB">
+				<Item href="/Heroes/Thundergod/_.HROB" id="58904743-D47C-466D-94F7-EE8AB55766AB">
 					<DBSoundSceneComponent>
 						<attached />
 						<caption>sound</caption>
@@ -359,7 +359,7 @@
 						<timeInterval>0</timeInterval>
 					</DBSoundSceneComponent>
 				</Item>
-				<Item href="/Heroes/ThunderGod/_.HROB" id="E154264A-2DCC-4C69-892E-65A94C7DC6AE">
+				<Item href="/Heroes/Thundergod/_.HROB" id="E154264A-2DCC-4C69-892E-65A94C7DC6AE">
 					<DBSoundSceneComponent>
 						<attached />
 						<caption>sound</caption>
@@ -374,7 +374,7 @@
 						<timeInterval>0</timeInterval>
 					</DBSoundSceneComponent>
 				</Item>
-				<Item href="/Heroes/ThunderGod/_.HROB" id="62FE8928-E570-43FF-8430-3CA1A1DD83AD">
+				<Item href="/Heroes/Thundergod/_.HROB" id="62FE8928-E570-43FF-8430-3CA1A1DD83AD">
 					<DBSoundSceneComponent>
 						<attached />
 						<caption>sound</caption>
@@ -389,7 +389,7 @@
 						<timeInterval>0</timeInterval>
 					</DBSoundSceneComponent>
 				</Item>
-				<Item href="/Heroes/ThunderGod/_.HROB" id="1AF3EDCA-EEEE-401E-821A-E6FEBCDEEA69">
+				<Item href="/Heroes/Thundergod/_.HROB" id="1AF3EDCA-EEEE-401E-821A-E6FEBCDEEA69">
 					<DBSoundSceneComponent>
 						<attached />
 						<caption>sound</caption>
@@ -404,7 +404,7 @@
 						<timeInterval>0</timeInterval>
 					</DBSoundSceneComponent>
 				</Item>
-				<Item href="/Heroes/ThunderGod/_.HROB" id="E59194E4-2373-4645-BCED-4706CC57617E">
+				<Item href="/Heroes/Thundergod/_.HROB" id="E59194E4-2373-4645-BCED-4706CC57617E">
 					<DBSoundSceneComponent>
 						<attached />
 						<caption>sound</caption>
@@ -419,7 +419,7 @@
 						<timeInterval>0</timeInterval>
 					</DBSoundSceneComponent>
 				</Item>
-				<Item href="/Heroes/ThunderGod/_.HROB" id="64DAF7E7-3236-4298-896F-CD863713A0D1">
+				<Item href="/Heroes/Thundergod/_.HROB" id="64DAF7E7-3236-4298-896F-CD863713A0D1">
 					<DBSoundSceneComponent>
 						<attached />
 						<caption>sound</caption>
@@ -643,7 +643,7 @@
 			</sounds3d>
 		</Item>
 	</askListsSecondState>
-	<attackAbility href="/Heroes/ThunderGod/_.HROB" id="76AC50B1-16A4-456C-B7FD-8A98EE23E367">
+	<attackAbility href="/Heroes/Thundergod/_.HROB" id="76AC50B1-16A4-456C-B7FD-8A98EE23E367">
 		<BaseAttack>
 			<activeCustomTrigger>true</activeCustomTrigger>
 			<allowChase>
@@ -677,10 +677,10 @@
 			<compiledDescriptionA textref="" />
 			<compiledDescriptionB textref="" />
 			<conditionFormulas />
-			<constants href="/Heroes/ThunderGod/_.HROB" id="C33B566C-A43F-4008-B2BE-A4CC9A1A500C">
+			<constants href="/Heroes/Thundergod/_.HROB" id="C33B566C-A43F-4008-B2BE-A4CC9A1A500C">
 				<UnitConstantsContainer>
 					<vars>
-						<Item href="/Heroes/ThunderGod/_.HROB" id="5E0BE488-7D20-41EB-802E-70ED0BB34623">
+						<Item href="/Heroes/Thundergod/_.HROB" id="5E0BE488-7D20-41EB-802E-70ED0BB34623">
 							<UnitConstant>
 								<name>AttckDamage</name>
 								<var>
@@ -690,7 +690,7 @@
 								</var>
 							</UnitConstant>
 						</Item>
-						<Item href="/Heroes/ThunderGod/_.HROB" id="3A19909D-B08C-4973-B40E-340AC2DEF5BB">
+						<Item href="/Heroes/Thundergod/_.HROB" id="3A19909D-B08C-4973-B40E-340AC2DEF5BB">
 							<UnitConstant>
 								<name>Num_Jump</name>
 								<var>
@@ -715,7 +715,7 @@
 				<sString>0.0f</sString>
 			</cooldownTimeSecondState>
 			<description textref="" />
-			<dispatch href="/Heroes/ThunderGod/_.HROB" id="943AC0E5-0638-41D4-A956-B51474F50D30">
+			<dispatch href="/Heroes/Thundergod/_.HROB" id="943AC0E5-0638-41D4-A956-B51474F50D30">
 				<DispatchImmediate>
 					<alwaysApply>true</alwaysApply>
 					<applyEffect>
@@ -791,8 +791,8 @@
 	<heightObject>false</heightObject>
 	<heroImageA href="/UI/Styles/Icons/Heroes/ThunderGod/FaceA.ITEX" />
 	<heroImageB href="/UI/Styles/Icons/Heroes/ThunderGod/FaceB.ITEX" />
-	<heroNameA textref="/Heroes/ThunderGod/_.HROB_heroNameA.txt" />
-	<heroNameB textref="/Heroes/ThunderGod/_.HROB_heroNameB.txt" />
+	<heroNameA textref="/Heroes/Thundergod/_.HROB_heroNameA.txt" />
+	<heroNameB textref="/Heroes/Thundergod/_.HROB_heroNameB.txt" />
 	<heroRace>3</heroRace>
 	<heroSceneObjects>
 		<Item href="/Heroes/ThunderGod/_A.SOBJ" />
@@ -872,10 +872,10 @@
 		<FameIncrement href="/Social/FameIncPerLevel" />
 		<heroAskSoundA>Heroes/Asks/thunder_a_iddle_1</heroAskSoundA>
 		<heroAskSoundB>Heroes/Asks/thunder_b_iddle_1</heroAskSoundB>
-		<heroBiographyA textref="/Heroes/ThunderGod/_.HROB_lobbyData_heroBiographyA.txt" />
-		<heroBiographyB textref="/Heroes/ThunderGod/_.HROB_lobbyData_heroBiographyB.txt" />
-		<heroDescriptionA textref="/Heroes/ThunderGod/_.HROB_lobbyData_heroDescriptionA.txt" />
-		<heroDescriptionB textref="/Heroes/ThunderGod/_.HROB_lobbyData_heroDescriptionB.txt" />
+		<heroBiographyA textref="/Heroes/Thundergod/_.HROB_lobbyData_heroBiographyA.txt" />
+		<heroBiographyB textref="/Heroes/Thundergod/_.HROB_lobbyData_heroBiographyB.txt" />
+		<heroDescriptionA textref="/Heroes/Thundergod/_.HROB_lobbyData_heroDescriptionA.txt" />
+		<heroDescriptionB textref="/Heroes/Thundergod/_.HROB_lobbyData_heroDescriptionB.txt" />
 		<heroRenderA href="/UI/Styles/Icons/Heroes/ThunderGod/FigureA.ITEX" />
 		<heroRenderB href="/UI/Styles/Icons/Heroes/ThunderGod/FigureB.ITEX" />
 		<IsHeroHiredByDefaultFemale>true</IsHeroHiredByDefaultFemale>
@@ -939,7 +939,7 @@
 	</selectionAoe>
 	<size>3</size>
 	<sizeDynamic>1.5</sizeDynamic>
-	<stats href="/Heroes/ThunderGod/_.HROB" id="AEDC2479-F9D8-472F-9718-0FE6F4CB6058">
+	<stats href="/Heroes/Thundergod/_.HROB" id="AEDC2479-F9D8-472F-9718-0FE6F4CB6058">
 		<StatsContainer>
 			<stats>
 				<Item>
@@ -1026,9 +1026,9 @@
 					<calcIncrement>0.1</calcIncrement>
 					<calcValue>49</calcValue>
 					<increment>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpmZPg==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3D7FG4Pg==</compiledString>
 						<returnType>float</returnType>
-						<sString>0.3</sString>
+						<sString>0.36</sString>
 					</increment>
 					<levelUpgrades />
 					<statId>AttackSpeed</statId>

@@ -27,9 +27,9 @@
 				<LoggingEvent>-1</LoggingEvent>
 				<modifier>
 					<addValue>
-						<compiledString>FQAAAAABAAAAKwAAAFWL7IPsDItFDIsQi00MiwL/0ItNDIsRi00Mi0IM3V34/9DcffjZ6N7h3A05AAAA2V302UX0i+VdwwAAAAAAAD5AAAAAAAAA8D8=</compiledString>
+						<compiledString>FQAAAAABAAAAKwAAAFWL7IPsDItFDIsQi00MiwL/0ItNDIsRi00Mi0IM3V34/9DcffjZ6N7h3A05AAAA2V302UX0i+VdwwAAAAAAAERAAAAAAAAA8D8=</compiledString>
 						<returnType>float</returnType>
-						<sString>30*(1-(rLife/rMaxLife))</sString>
+						<sString>40*(1-(rLife/rMaxLife))</sString>
 					</addValue>
 					<multValue>
 						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DZmZmPw==</compiledString>
@@ -74,9 +74,9 @@
 				<LoggingEvent>-1</LoggingEvent>
 				<modifier>
 					<addValue>
-						<compiledString>FQAAAAABAAAAKwAAAFWL7IPsDItFDIsQi00MiwL/0ItNDIsRi00Mi0IM3V34/9DcffjZ6N7h3A05AAAA2V302UX0i+VdwwAAAAAAAD5AAAAAAAAA8D8=</compiledString>
+						<compiledString>FQAAAAABAAAAKwAAAFWL7IPsDItFDIsQi00MiwL/0ItNDIsRi00Mi0IM3V34/9DcffjZ6N7h3A05AAAA2V302UX0i+VdwwAAAAAAAERAAAAAAAAA8D8=</compiledString>
 						<returnType>float</returnType>
-						<sString>30*(1-(rLife/rMaxLife))</sString>
+						<sString>40*(1-(rLife/rMaxLife))</sString>
 					</addValue>
 					<multValue>
 						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DZmZmPw==</compiledString>

@@ -68,6 +68,26 @@
 				</Item>
 				<Item href="/Items/Talents/TalentKits/Vampiric3_StunProc/const_Cooldown" />
 				<Item href="/Items/Talents/TalentKits/Vampiric3_StunProc/const_Stun_Duration" />
+				<Item href="/Items/Talents/Level5/G314_Aura_LifeDrain.TALENT" id="59A3E4B0-813C-4E74-A3F8-A35B9BB17DB1">
+					<UnitConstant>
+						<name>HealthIncrease</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQg==</compiledString>
+							<returnType>float</returnType>
+							<sString>40</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Level5/G314_Aura_LifeDrain.TALENT" id="63BF650F-288D-48B3-926B-4F97B82B312F">
+					<UnitConstant>
+						<name>HealthGained</name>
+						<var>
+							<compiledString>FRUAAAABAAAAGQAAAFZhbXBpcmUzSGVhbHRoR2FpbmVkAFWL7GgAAAAAi0UIixCLTQiLgogBAAD/0F3D</compiledString>
+							<returnType>float</returnType>
+							<sString>sender.vVampire3HealthGained</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 				<Item href="/Items/Talents/TalentKits/Vampiric3_StunProc/const_AbilityChance" />
 			</vars>
 		</UnitConstantsContainer>

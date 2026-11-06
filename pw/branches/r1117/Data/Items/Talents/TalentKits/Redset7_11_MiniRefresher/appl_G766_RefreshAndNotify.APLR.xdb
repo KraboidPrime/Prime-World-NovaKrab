@@ -15,7 +15,7 @@
 	<BackLink DBID="/Items/Talents/Class/Monster/Ability_A3.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/PinkGirl/Ability_A1.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/PinkGirl/Ability_A2.TALENT" Count="2" />
-	<BackLink DBID="/Items/Talents/Class/PlagueDoctor/Ability_A1.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/PlagueDoctor/Ability_A1.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Plane/A1_program.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Rockman/Ability1.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Shadow/Ability_A1.TALENT" Count="1" />
@@ -26,6 +26,8 @@
 	<BackLink DBID="/Items/Talents/Class/WraithKing/Ability_A1.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Zealot/Ability_A3.TALENT" Count="1" />
 	<BackLink DBID="/Maps/PvE/Series/Episode1/Talents/witcher/Ability1.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Angel/Ability_A4.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Angel/A4_TeleportChanneling.APLR" Count="1" />
 	<applyTarget>AbilityOwner</applyTarget>
 	<caption>Spell for G766 (custom use w/out trigger)</caption>
 	<enabled>

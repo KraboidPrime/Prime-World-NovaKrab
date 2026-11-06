@@ -105,7 +105,202 @@
 										<targetSelector href="" />
 									</SpellApplicator>
 								</Item>
-								<Item href="/Items/Talents/Class/Invisible/status_A2_Cover.APLR" />
+								<Item href="/Items/Talents/Class/Invisible/Ability_A2.TALENT" id="7D58FD70-E993-4E66-A38A-996CC06B52D4">
+									<StatusApplicator parent="/Items/Talents/Class/Invisible/status_A2_Cover.APLR">
+										<applicators>
+											<Item skip="1" />
+											<Item href="/Items/Talents/Class/Invisible/Ability_A2.TALENT" id="DD26FA12-8F8C-4853-9E68-EDECBB0CAEFF">
+												<StatModApplicator>
+													<applyTarget>ApplicatorTarget</applyTarget>
+													<behaviorFlags>144</behaviorFlags>
+													<caption>(A2u) +Str</caption>
+													<constraint>None</constraint>
+													<dontUpdate>false</dontUpdate>
+													<effect>
+														<Item href="" />
+														<Item href="" />
+													</effect>
+													<enabled>
+														<compiledString>FR8AAAACAAAAJgAAAD8AAABJbnZpc2libGVfQTJ1MgAASW52aXNpYmxlX0EydTIAVYvsg+wIaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wCKRfuL5V3D</compiledString>
+														<returnType>bool</returnType>
+														<sString>tal("Invisible_A2u2")</sString>
+													</enabled>
+													<formulaName></formulaName>
+													<lifeTime>
+														<compiledString></compiledString>
+														<returnType>float</returnType>
+														<sString>-1.0</sString>
+													</lifeTime>
+													<LoggingEvent>-1</LoggingEvent>
+													<modifier>
+														<addValue>
+															<compiledString>FQsAAAABAAAAFwAAAE90aGVyU3RhdHMAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+															<returnType>float</returnType>
+															<sString>cOtherStats</sString>
+														</addValue>
+														<multValue>
+															<compiledString></compiledString>
+															<returnType>float</returnType>
+															<sString>1.0f</sString>
+														</multValue>
+														<stat>Strength</stat>
+														<topModifier>false</topModifier>
+														<variable></variable>
+													</modifier>
+													<providerName></providerName>
+													<startCondition>
+														<compiledString></compiledString>
+														<returnType>bool</returnType>
+														<sString>true</sString>
+													</startCondition>
+													<statModName></statModName>
+												</StatModApplicator>
+											</Item>
+											<Item href="/Items/Talents/Class/Invisible/Ability_A2.TALENT" id="A3CC9707-E76A-4D92-A7E1-95433E614970">
+												<StatModApplicator>
+													<applyTarget>ApplicatorTarget</applyTarget>
+													<behaviorFlags>144</behaviorFlags>
+													<caption>(A2u) +Int</caption>
+													<constraint>None</constraint>
+													<dontUpdate>false</dontUpdate>
+													<effect>
+														<Item href="" />
+														<Item href="" />
+													</effect>
+													<enabled>
+														<compiledString>FR8AAAACAAAAJgAAAD8AAABJbnZpc2libGVfQTJ1MgAASW52aXNpYmxlX0EydTIAVYvsg+wIaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wCKRfuL5V3D</compiledString>
+														<returnType>bool</returnType>
+														<sString>tal("Invisible_A2u2")</sString>
+													</enabled>
+													<formulaName></formulaName>
+													<lifeTime>
+														<compiledString></compiledString>
+														<returnType>float</returnType>
+														<sString>-1.0</sString>
+													</lifeTime>
+													<LoggingEvent>-1</LoggingEvent>
+													<modifier>
+														<addValue>
+															<compiledString>FQsAAAABAAAAFwAAAE90aGVyU3RhdHMAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+															<returnType>float</returnType>
+															<sString>cOtherStats</sString>
+														</addValue>
+														<multValue>
+															<compiledString></compiledString>
+															<returnType>float</returnType>
+															<sString>1.0f</sString>
+														</multValue>
+														<stat>Intellect</stat>
+														<topModifier>false</topModifier>
+														<variable></variable>
+													</modifier>
+													<providerName></providerName>
+													<startCondition>
+														<compiledString></compiledString>
+														<returnType>bool</returnType>
+														<sString>true</sString>
+													</startCondition>
+													<statModName></statModName>
+												</StatModApplicator>
+											</Item>
+											<Item href="/Items/Talents/Class/Invisible/Ability_A2.TALENT" id="31027042-BE5E-41EA-BA8C-BE213A0BE73A">
+												<StatModApplicator>
+													<applyTarget>ApplicatorTarget</applyTarget>
+													<behaviorFlags>144</behaviorFlags>
+													<caption>(A2u) +Stamina</caption>
+													<constraint>None</constraint>
+													<dontUpdate>false</dontUpdate>
+													<effect>
+														<Item href="" />
+														<Item href="" />
+													</effect>
+													<enabled>
+														<compiledString>FR8AAAACAAAAJgAAAD8AAABJbnZpc2libGVfQTJ1MgAASW52aXNpYmxlX0EydTIAVYvsg+wIaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wCKRfuL5V3D</compiledString>
+														<returnType>bool</returnType>
+														<sString>tal("Invisible_A2u2")</sString>
+													</enabled>
+													<formulaName></formulaName>
+													<lifeTime>
+														<compiledString></compiledString>
+														<returnType>float</returnType>
+														<sString>-1.0</sString>
+													</lifeTime>
+													<LoggingEvent>-1</LoggingEvent>
+													<modifier>
+														<addValue>
+															<compiledString>FQsAAAABAAAAFwAAAE90aGVyU3RhdHMAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+															<returnType>float</returnType>
+															<sString>cOtherStats</sString>
+														</addValue>
+														<multValue>
+															<compiledString></compiledString>
+															<returnType>float</returnType>
+															<sString>1.0f</sString>
+														</multValue>
+														<stat>Stamina</stat>
+														<topModifier>false</topModifier>
+														<variable></variable>
+													</modifier>
+													<providerName></providerName>
+													<startCondition>
+														<compiledString></compiledString>
+														<returnType>bool</returnType>
+														<sString>true</sString>
+													</startCondition>
+													<statModName></statModName>
+												</StatModApplicator>
+											</Item>
+											<Item href="/Items/Talents/Class/Invisible/Ability_A2.TALENT" id="CCA23264-2E12-499D-A26A-76BC95C12A58">
+												<StatModApplicator>
+													<applyTarget>ApplicatorTarget</applyTarget>
+													<behaviorFlags>144</behaviorFlags>
+													<caption>(A2u) +Will</caption>
+													<constraint>None</constraint>
+													<dontUpdate>false</dontUpdate>
+													<effect>
+														<Item href="" />
+														<Item href="" />
+													</effect>
+													<enabled>
+														<compiledString>FR8AAAACAAAAJgAAAD8AAABJbnZpc2libGVfQTJ1MgAASW52aXNpYmxlX0EydTIAVYvsg+wIaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wCKRfuL5V3D</compiledString>
+														<returnType>bool</returnType>
+														<sString>tal("Invisible_A2u2")</sString>
+													</enabled>
+													<formulaName></formulaName>
+													<lifeTime>
+														<compiledString></compiledString>
+														<returnType>float</returnType>
+														<sString>-1.0</sString>
+													</lifeTime>
+													<LoggingEvent>-1</LoggingEvent>
+													<modifier>
+														<addValue>
+															<compiledString>FQsAAAABAAAAFwAAAE90aGVyU3RhdHMAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+															<returnType>float</returnType>
+															<sString>cOtherStats</sString>
+														</addValue>
+														<multValue>
+															<compiledString></compiledString>
+															<returnType>float</returnType>
+															<sString>1.0f</sString>
+														</multValue>
+														<stat>Will</stat>
+														<topModifier>false</topModifier>
+														<variable></variable>
+													</modifier>
+													<providerName></providerName>
+													<startCondition>
+														<compiledString></compiledString>
+														<returnType>bool</returnType>
+														<sString>true</sString>
+													</startCondition>
+													<statModName></statModName>
+												</StatModApplicator>
+											</Item>
+										</applicators>
+										<description textref="/Items/Talents/Class/Invisible/Ability_A2.TALENT_7d58fd70e9934e66a38a996cc06b52d4_description.txt" />
+									</StatusApplicator>
+								</Item>
 								<Item href="/Items/Talents/Class/Invisible/Ability_A2.TALENT" id="D1A0513F-B57A-48C0-8C68-4947E79DA012">
 									<SpellApplicator>
 										<applyTarget>AbilityOwner</applyTarget>
@@ -363,6 +558,16 @@
 						</var>
 					</UnitConstant>
 				</Item>
+				<Item href="/Items/Talents/Class/Invisible/Ability_A2.TALENT" id="DF61FBBC-017D-4995-A0F5-1BC9F2E85D3F">
+					<UnitConstant>
+						<name>OtherStats</name>
+						<var>
+							<compiledString>FQ0AAAACAAAAGgAAAC0AAABBMnVfQWRkU3RhdHMAVYvsUYtFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S3A07AAAA2V382UX8i+VdwwAAAAAAAOA/</compiledString>
+							<returnType>float</returnType>
+							<sString>0.5*cA2u_AddStats</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>
@@ -371,9 +576,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAQQ==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABgQQ==</compiledString>
 		<returnType>float</returnType>
-		<sString>16</sString>
+		<sString>14</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>

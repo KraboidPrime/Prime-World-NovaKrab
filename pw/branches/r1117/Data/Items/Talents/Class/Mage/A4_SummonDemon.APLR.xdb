@@ -395,12 +395,13 @@
 		</life>
 	</spawnStats>
 	<summonedUnitIndex>
-		<compiledString></compiledString>
+		<compiledString>FQgAAAABAAAADAAAAG1hZ2VfUzUAVYvsaAAAAACLRQiLEItNCIuC6AEAAP/QD7bAXcM=</compiledString>
 		<returnType>int</returnType>
-		<sString>0</sString>
+		<sString>sender.IsSkinUsed( "mage_S5" )</sString>
 	</summonedUnitIndex>
 	<summonedUnits>
 		<Item href="/Summons/Demon/_.SUMMONED" />
+		<Item href="/Summons/Demon/_mage.SUMMONED" />
 	</summonedUnits>
 	<summonedUnitsCount>
 		<compiledString></compiledString>

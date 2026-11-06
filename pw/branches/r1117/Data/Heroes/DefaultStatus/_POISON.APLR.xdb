@@ -231,7 +231,7 @@
 		<sString>-1.0</sString>
 	</customProgress>
 	<description textref="/Heroes/DefaultStatus/_POISON.APLR_description.txt" />
-	<dispellPriority>Medium</dispellPriority>
+	<dispellPriority>Low</dispellPriority>
 	<effect>
 		<Item href="/Effects/Debuffs/DoT/_Color.EFFT" />
 		<Item href="" />

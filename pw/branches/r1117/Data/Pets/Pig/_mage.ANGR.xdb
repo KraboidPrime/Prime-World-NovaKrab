@@ -1,0 +1,1131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AnimGraphCreator>
+	<BackLink DBID="/Pets/Pig/_.SOBJ" Count="1" />
+	<BackLink DBID="/Pets/Pig/_mage.SOBJ" Count="1" />
+	<defaultNode>idle</defaultNode>
+	<macroNodes>
+		<Item>
+			<markers />
+			<nextNode>idle</nextNode>
+			<nodeName>summon</nodeName>
+			<nodeType>Normal</nodeType>
+			<posX>278</posX>
+			<posY>28</posY>
+			<sequenceName>summon</sequenceName>
+			<simpleTransactions>
+				<Item>
+					<parameters>
+						<blending>PoseToAnim</blending>
+						<duration>0.1</duration>
+						<fromMax>
+							<coeffs />
+							<value>1</value>
+						</fromMax>
+						<fromMin>
+							<coeffs />
+							<value>0</value>
+						</fromMin>
+						<kind>Uniform</kind>
+						<markers />
+						<parA>
+							<coeffs />
+							<value>0</value>
+						</parA>
+						<parB>
+							<coeffs />
+							<value>0</value>
+						</parB>
+						<toParam>
+							<coeffs />
+							<value>0</value>
+						</toParam>
+					</parameters>
+					<probability>0</probability>
+					<targetNode>unsummon</targetNode>
+				</Item>
+				<Item>
+					<parameters>
+						<blending>PoseToAnim</blending>
+						<duration>0.1</duration>
+						<fromMax>
+							<coeffs />
+							<value>1</value>
+						</fromMax>
+						<fromMin>
+							<coeffs />
+							<value>1</value>
+						</fromMin>
+						<kind>Uniform</kind>
+						<markers />
+						<parA>
+							<coeffs />
+							<value>0</value>
+						</parA>
+						<parB>
+							<coeffs />
+							<value>0</value>
+						</parB>
+						<toParam>
+							<coeffs />
+							<value>0</value>
+						</toParam>
+					</parameters>
+					<probability>0</probability>
+					<targetNode>attack</targetNode>
+				</Item>
+				<Item>
+					<parameters>
+						<blending>PoseToAnim</blending>
+						<duration>0.1</duration>
+						<fromMax>
+							<coeffs />
+							<value>1</value>
+						</fromMax>
+						<fromMin>
+							<coeffs />
+							<value>0</value>
+						</fromMin>
+						<kind>Uniform</kind>
+						<markers />
+						<parA>
+							<coeffs />
+							<value>0</value>
+						</parA>
+						<parB>
+							<coeffs />
+							<value>0</value>
+						</parB>
+						<toParam>
+							<coeffs />
+							<value>0</value>
+						</toParam>
+					</parameters>
+					<probability>0</probability>
+					<targetNode>death</targetNode>
+				</Item>
+				<Item>
+					<parameters>
+						<blending>PoseToAnim</blending>
+						<duration>0.1</duration>
+						<fromMax>
+							<coeffs />
+							<value>1</value>
+						</fromMax>
+						<fromMin>
+							<coeffs />
+							<value>1</value>
+						</fromMin>
+						<kind>Uniform</kind>
+						<markers />
+						<parA>
+							<coeffs />
+							<value>0</value>
+						</parA>
+						<parB>
+							<coeffs />
+							<value>0</value>
+						</parB>
+						<toParam>
+							<coeffs />
+							<value>0</value>
+						</toParam>
+					</parameters>
+					<probability>0</probability>
+					<targetNode>idle</targetNode>
+				</Item>
+				<Item>
+					<parameters>
+						<blending>PoseToAnim</blending>
+						<duration>0.1</duration>
+						<fromMax>
+							<coeffs />
+							<value>1</value>
+						</fromMax>
+						<fromMin>
+							<coeffs />
+							<value>1</value>
+						</fromMin>
+						<kind>Uniform</kind>
+						<markers />
+						<parA>
+							<coeffs />
+							<value>0</value>
+						</parA>
+						<parB>
+							<coeffs />
+							<value>0</value>
+						</parB>
+						<toParam>
+							<coeffs />
+							<value>0</value>
+						</toParam>
+					</parameters>
+					<probability>0</probability>
+					<targetNode>move</targetNode>
+				</Item>
+			</simpleTransactions>
+			<speed>
+				<coeffs />
+				<value>1</value>
+			</speed>
+			<startPar>
+				<coeffs />
+				<value>0</value>
+			</startPar>
+			<stopPar>
+				<coeffs />
+				<value>1</value>
+			</stopPar>
+			<surfSpeedX>0</surfSpeedX>
+			<surfSpeedY>0</surfSpeedY>
+		</Item>
+		<Item>
+			<markers />
+			<nextNode>idle</nextNode>
+			<nodeName>blocked</nodeName>
+			<nodeType>Normal</nodeType>
+			<posX>467</posX>
+			<posY>29</posY>
+			<sequenceName>blocked</sequenceName>
+			<simpleTransactions>
+				<Item>
+					<parameters>
+						<blending>PoseToAnim</blending>
+						<duration>0.3</duration>
+						<fromMax>
+							<coeffs />
+							<value>1</value>
+						</fromMax>
+						<fromMin>
+							<coeffs />
+							<value>0.99</value>
+						</fromMin>
+						<kind>Uniform</kind>
+						<markers />
+						<parA>
+							<coeffs />
+							<value>0</value>
+						</parA>
+						<parB>
+							<coeffs />
+							<value>0</value>
+						</parB>
+						<toParam>
+							<coeffs />
+							<value>0</value>
+						</toParam>
+					</parameters>
+					<probability>0</probability>
+					<targetNode>attack</targetNode>
+				</Item>
+				<Item>
+					<parameters>
+						<blending>PoseToAnim</blending>
+						<duration>0.3</duration>
+						<fromMax>
+							<coeffs />
+							<value>1</value>
+						</fromMax>
+						<fromMin>
+							<coeffs />
+							<value>0.99</value>
+						</fromMin>
+						<kind>Uniform</kind>
+						<markers />
+						<parA>
+							<coeffs />
+							<value>0</value>
+						</parA>
+						<parB>
+							<coeffs />
+							<value>0</value>
+						</parB>
+						<toParam>
+							<coeffs />
+							<value>0</value>
+						</toParam>
+					</parameters>
+					<probability>0</probability>
+					<targetNode>idle</targetNode>
+				</Item>
+				<Item>
+					<parameters>
+						<blending>PoseToAnim</blending>
+						<duration>0.1</duration>
+						<fromMax>
+							<coeffs />
+							<value>1</value>
+						</fromMax>
+						<fromMin>
+							<coeffs />
+							<value>0.99</value>
+						</fromMin>
+						<kind>Uniform</kind>
+						<markers />
+						<parA>
+							<coeffs />
+							<value>0</value>
+						</parA>
+						<parB>
+							<coeffs />
+							<value>0</value>
+						</parB>
+						<toParam>
+							<coeffs />
+							<value>0</value>
+						</toParam>
+					</parameters>
+					<probability>0</probability>
+					<targetNode>move</targetNode>
+				</Item>
+			</simpleTransactions>
+			<speed>
+				<coeffs />
+				<value>1</value>
+			</speed>
+			<startPar>
+				<coeffs />
+				<value>0</value>
+			</startPar>
+			<stopPar>
+				<coeffs />
+				<value>1</value>
+			</stopPar>
+			<surfSpeedX>0</surfSpeedX>
+			<surfSpeedY>0</surfSpeedY>
+		</Item>
+		<Item>
+			<markers />
+			<nextNode>unsummoned</nextNode>
+			<nodeName>unsummon</nodeName>
+			<nodeType>Normal</nodeType>
+			<posX>285</posX>
+			<posY>322</posY>
+			<sequenceName>unsummon</sequenceName>
+			<simpleTransactions>
+				<Item>
+					<parameters>
+						<blending>PoseToAnim</blending>
+						<duration>0.1</duration>
+						<fromMax>
+							<coeffs />
+							<value>1</value>
+						</fromMax>
+						<fromMin>
+							<coeffs />
+							<value>1</value>
+						</fromMin>
+						<kind>Uniform</kind>
+						<markers />
+						<parA>
+							<coeffs />
+							<value>0</value>
+						</parA>
+						<parB>
+							<coeffs />
+							<value>0</value>
+						</parB>
+						<toParam>
+							<coeffs />
+							<value>0</value>
+						</toParam>
+					</parameters>
+					<probability>0</probability>
+					<targetNode>unsummoned</targetNode>
+				</Item>
+			</simpleTransactions>
+			<speed>
+				<coeffs />
+				<value>1</value>
+			</speed>
+			<startPar>
+				<coeffs />
+				<value>0</value>
+			</startPar>
+			<stopPar>
+				<coeffs />
+				<value>1</value>
+			</stopPar>
+			<surfSpeedX>0</surfSpeedX>
+			<surfSpeedY>0</surfSpeedY>
+		</Item>
+		<Item>
+			<markers />
+			<nextNode>unsummoned</nextNode>
+			<nodeName>unsummoned</nodeName>
+			<nodeType>Normal</nodeType>
+			<posX>289</posX>
+			<posY>431</posY>
+			<sequenceName>unsummon</sequenceName>
+			<simpleTransactions />
+			<speed>
+				<coeffs />
+				<value>1</value>
+			</speed>
+			<startPar>
+				<coeffs />
+				<value>1</value>
+			</startPar>
+			<stopPar>
+				<coeffs />
+				<value>1</value>
+			</stopPar>
+			<surfSpeedX>0</surfSpeedX>
+			<surfSpeedY>0</surfSpeedY>
+		</Item>
+		<Item>
+			<markers />
+			<nextNode>idle</nextNode>
+			<nodeName>happy</nodeName>
+			<nodeType>Normal</nodeType>
+			<posX>92</posX>
+			<posY>26</posY>
+			<sequenceName>happy</sequenceName>
+			<simpleTransactions>
+				<Item>
+					<parameters>
+						<blending>PoseToAnim</blending>
+						<duration>0.1</duration>
+						<fromMax>
+							<coeffs />
+							<value>1</value>
+						</fromMax>
+						<fromMin>
+							<coeffs />
+							<value>1</value>
+						</fromMin>
+						<kind>Uniform</kind>
+						<markers />
+						<parA>
+							<coeffs />
+							<value>0</value>
+						</parA>
+						<parB>
+							<coeffs />
+							<value>0</value>
+						</parB>
+						<toParam>
+							<coeffs />
+							<value>0</value>
+						</toParam>
+					</parameters>
+					<probability>0</probability>
+					<targetNode>attack</targetNode>
+				</Item>
+				<Item>
+					<parameters>
+						<blending>PoseToAnim</blending>
+						<duration>0.1</duration>
+						<fromMax>
+							<coeffs />
+							<value>1</value>
+						</fromMax>
+						<fromMin>
+							<coeffs />
+							<value>1</value>
+						</fromMin>
+						<kind>Uniform</kind>
+						<markers />
+						<parA>
+							<coeffs />
+							<value>0</value>
+						</parA>
+						<parB>
+							<coeffs />
+							<value>0</value>
+						</parB>
+						<toParam>
+							<coeffs />
+							<value>0</value>
+						</toParam>
+					</parameters>
+					<probability>0</probability>
+					<targetNode>idle</targetNode>
+				</Item>
+			</simpleTransactions>
+			<speed>
+				<coeffs />
+				<value>1</value>
+			</speed>
+			<startPar>
+				<coeffs />
+				<value>0</value>
+			</startPar>
+			<stopPar>
+				<coeffs />
+				<value>1</value>
+			</stopPar>
+			<surfSpeedX>0</surfSpeedX>
+			<surfSpeedY>0</surfSpeedY>
+		</Item>
+		<Item>
+			<markers>
+				<Item>
+					<name>doFire</name>
+					<virtPar>0.25</virtPar>
+				</Item>
+			</markers>
+			<nextNode>idle</nextNode>
+			<nodeName>attack</nodeName>
+			<nodeType>Normal</nodeType>
+			<posX>59</posX>
+			<posY>398</posY>
+			<sequenceName>blocked</sequenceName>
+			<simpleTransactions>
+				<Item>
+					<parameters>
+						<blending>PoseToAnim</blending>
+						<duration>0.3</duration>
+						<fromMax>
+							<coeffs />
+							<value>1</value>
+						</fromMax>
+						<fromMin>
+							<coeffs />
+							<value>0</value>
+						</fromMin>
+						<kind>Uniform</kind>
+						<markers />
+						<parA>
+							<coeffs />
+							<value>0</value>
+						</parA>
+						<parB>
+							<coeffs />
+							<value>0</value>
+						</parB>
+						<toParam>
+							<coeffs />
+							<value>0</value>
+						</toParam>
+					</parameters>
+					<probability>0</probability>
+					<targetNode>blocked</targetNode>
+				</Item>
+				<Item>
+					<parameters>
+						<blending>PoseToAnim</blending>
+						<duration>0.1</duration>
+						<fromMax>
+							<coeffs />
+							<value>1</value>
+						</fromMax>
+						<fromMin>
+							<coeffs />
+							<value>0</value>
+						</fromMin>
+						<kind>Uniform</kind>
+						<markers />
+						<parA>
+							<coeffs />
+							<value>0</value>
+						</parA>
+						<parB>
+							<coeffs />
+							<value>0</value>
+						</parB>
+						<toParam>
+							<coeffs />
+							<value>0</value>
+						</toParam>
+					</parameters>
+					<probability>0</probability>
+					<targetNode>unsummon</targetNode>
+				</Item>
+				<Item>
+					<parameters>
+						<blending>PoseToAnim</blending>
+						<duration>0.1</duration>
+						<fromMax>
+							<coeffs />
+							<value>1</value>
+						</fromMax>
+						<fromMin>
+							<coeffs />
+							<value>0</value>
+						</fromMin>
+						<kind>Uniform</kind>
+						<markers />
+						<parA>
+							<coeffs />
+							<value>0</value>
+						</parA>
+						<parB>
+							<coeffs />
+							<value>0</value>
+						</parB>
+						<toParam>
+							<coeffs />
+							<value>0</value>
+						</toParam>
+					</parameters>
+					<probability>0</probability>
+					<targetNode>happy</targetNode>
+				</Item>
+				<Item>
+					<parameters>
+						<blending>PoseToAnim</blending>
+						<duration>0.1</duration>
+						<fromMax>
+							<coeffs />
+							<value>1</value>
+						</fromMax>
+						<fromMin>
+							<coeffs />
+							<value>0</value>
+						</fromMin>
+						<kind>Uniform</kind>
+						<markers />
+						<parA>
+							<coeffs />
+							<value>0</value>
+						</parA>
+						<parB>
+							<coeffs />
+							<value>0</value>
+						</parB>
+						<toParam>
+							<coeffs />
+							<value>0</value>
+						</toParam>
+					</parameters>
+					<probability>0</probability>
+					<targetNode>death</targetNode>
+				</Item>
+				<Item>
+					<parameters>
+						<blending>PoseToAnim</blending>
+						<duration>0.1</duration>
+						<fromMax>
+							<coeffs />
+							<value>1</value>
+						</fromMax>
+						<fromMin>
+							<coeffs />
+							<value>0</value>
+						</fromMin>
+						<kind>Uniform</kind>
+						<markers />
+						<parA>
+							<coeffs />
+							<value>0</value>
+						</parA>
+						<parB>
+							<coeffs />
+							<value>0</value>
+						</parB>
+						<toParam>
+							<coeffs />
+							<value>0</value>
+						</toParam>
+					</parameters>
+					<probability>0</probability>
+					<targetNode>idle</targetNode>
+				</Item>
+				<Item>
+					<parameters>
+						<blending>PoseToAnim</blending>
+						<duration>0.1</duration>
+						<fromMax>
+							<coeffs />
+							<value>1</value>
+						</fromMax>
+						<fromMin>
+							<coeffs />
+							<value>0</value>
+						</fromMin>
+						<kind>Uniform</kind>
+						<markers />
+						<parA>
+							<coeffs />
+							<value>0</value>
+						</parA>
+						<parB>
+							<coeffs />
+							<value>0</value>
+						</parB>
+						<toParam>
+							<coeffs />
+							<value>0</value>
+						</toParam>
+					</parameters>
+					<probability>0</probability>
+					<targetNode>move</targetNode>
+				</Item>
+			</simpleTransactions>
+			<speed>
+				<coeffs />
+				<value>1</value>
+			</speed>
+			<startPar>
+				<coeffs />
+				<value>0</value>
+			</startPar>
+			<stopPar>
+				<coeffs />
+				<value>1</value>
+			</stopPar>
+			<surfSpeedX>0</surfSpeedX>
+			<surfSpeedY>0</surfSpeedY>
+		</Item>
+		<Item>
+			<markers />
+			<nextNode>dead</nextNode>
+			<nodeName>death</nodeName>
+			<nodeType>Normal</nodeType>
+			<posX>518</posX>
+			<posY>356</posY>
+			<sequenceName>unsummon</sequenceName>
+			<simpleTransactions>
+				<Item>
+					<parameters>
+						<blending>PoseToAnim</blending>
+						<duration>0.1</duration>
+						<fromMax>
+							<coeffs />
+							<value>1</value>
+						</fromMax>
+						<fromMin>
+							<coeffs />
+							<value>1</value>
+						</fromMin>
+						<kind>Uniform</kind>
+						<markers />
+						<parA>
+							<coeffs />
+							<value>0</value>
+						</parA>
+						<parB>
+							<coeffs />
+							<value>0</value>
+						</parB>
+						<toParam>
+							<coeffs />
+							<value>0</value>
+						</toParam>
+					</parameters>
+					<probability>0</probability>
+					<targetNode>dead</targetNode>
+				</Item>
+			</simpleTransactions>
+			<speed>
+				<coeffs />
+				<value>1</value>
+			</speed>
+			<startPar>
+				<coeffs />
+				<value>0</value>
+			</startPar>
+			<stopPar>
+				<coeffs />
+				<value>1</value>
+			</stopPar>
+			<surfSpeedX>0</surfSpeedX>
+			<surfSpeedY>0</surfSpeedY>
+		</Item>
+		<Item>
+			<markers />
+			<nextNode>dead</nextNode>
+			<nodeName>dead</nodeName>
+			<nodeType>Normal</nodeType>
+			<posX>539</posX>
+			<posY>458</posY>
+			<sequenceName>unsummon</sequenceName>
+			<simpleTransactions />
+			<speed>
+				<coeffs />
+				<value>1</value>
+			</speed>
+			<startPar>
+				<coeffs />
+				<value>1</value>
+			</startPar>
+			<stopPar>
+				<coeffs />
+				<value>1</value>
+			</stopPar>
+			<surfSpeedX>0</surfSpeedX>
+			<surfSpeedY>0</surfSpeedY>
+		</Item>
+		<Item>
+			<markers />
+			<nextNode>idle</nextNode>
+			<nodeName>idle</nodeName>
+			<nodeType>Normal</nodeType>
+			<posX>102</posX>
+			<posY>196</posY>
+			<sequenceName>idle1</sequenceName>
+			<simpleTransactions>
+				<Item>
+					<parameters>
+						<blending>PoseToAnim</blending>
+						<duration>0.3</duration>
+						<fromMax>
+							<coeffs />
+							<value>1</value>
+						</fromMax>
+						<fromMin>
+							<coeffs />
+							<value>0</value>
+						</fromMin>
+						<kind>Uniform</kind>
+						<markers />
+						<parA>
+							<coeffs />
+							<value>0</value>
+						</parA>
+						<parB>
+							<coeffs />
+							<value>0</value>
+						</parB>
+						<toParam>
+							<coeffs />
+							<value>0</value>
+						</toParam>
+					</parameters>
+					<probability>0</probability>
+					<targetNode>blocked</targetNode>
+				</Item>
+				<Item>
+					<parameters>
+						<blending>PoseToAnim</blending>
+						<duration>0.1</duration>
+						<fromMax>
+							<coeffs />
+							<value>1</value>
+						</fromMax>
+						<fromMin>
+							<coeffs />
+							<value>0</value>
+						</fromMin>
+						<kind>Uniform</kind>
+						<markers />
+						<parA>
+							<coeffs />
+							<value>0</value>
+						</parA>
+						<parB>
+							<coeffs />
+							<value>0</value>
+						</parB>
+						<toParam>
+							<coeffs />
+							<value>0</value>
+						</toParam>
+					</parameters>
+					<probability>0</probability>
+					<targetNode>unsummon</targetNode>
+				</Item>
+				<Item>
+					<parameters>
+						<blending>PoseToAnim</blending>
+						<duration>0.1</duration>
+						<fromMax>
+							<coeffs />
+							<value>1</value>
+						</fromMax>
+						<fromMin>
+							<coeffs />
+							<value>0</value>
+						</fromMin>
+						<kind>Uniform</kind>
+						<markers />
+						<parA>
+							<coeffs />
+							<value>0</value>
+						</parA>
+						<parB>
+							<coeffs />
+							<value>0</value>
+						</parB>
+						<toParam>
+							<coeffs />
+							<value>0</value>
+						</toParam>
+					</parameters>
+					<probability>0</probability>
+					<targetNode>happy</targetNode>
+				</Item>
+				<Item>
+					<parameters>
+						<blending>PoseToAnim</blending>
+						<duration>0.1</duration>
+						<fromMax>
+							<coeffs />
+							<value>1</value>
+						</fromMax>
+						<fromMin>
+							<coeffs />
+							<value>0</value>
+						</fromMin>
+						<kind>Uniform</kind>
+						<markers />
+						<parA>
+							<coeffs />
+							<value>0</value>
+						</parA>
+						<parB>
+							<coeffs />
+							<value>0</value>
+						</parB>
+						<toParam>
+							<coeffs />
+							<value>0</value>
+						</toParam>
+					</parameters>
+					<probability>0</probability>
+					<targetNode>attack</targetNode>
+				</Item>
+				<Item>
+					<parameters>
+						<blending>PoseToAnim</blending>
+						<duration>0.1</duration>
+						<fromMax>
+							<coeffs />
+							<value>1</value>
+						</fromMax>
+						<fromMin>
+							<coeffs />
+							<value>0</value>
+						</fromMin>
+						<kind>Uniform</kind>
+						<markers />
+						<parA>
+							<coeffs />
+							<value>0</value>
+						</parA>
+						<parB>
+							<coeffs />
+							<value>0</value>
+						</parB>
+						<toParam>
+							<coeffs />
+							<value>0</value>
+						</toParam>
+					</parameters>
+					<probability>0</probability>
+					<targetNode>death</targetNode>
+				</Item>
+				<Item>
+					<parameters>
+						<blending>PoseToAnim</blending>
+						<duration>0.1</duration>
+						<fromMax>
+							<coeffs />
+							<value>1</value>
+						</fromMax>
+						<fromMin>
+							<coeffs />
+							<value>0</value>
+						</fromMin>
+						<kind>Uniform</kind>
+						<markers />
+						<parA>
+							<coeffs />
+							<value>0</value>
+						</parA>
+						<parB>
+							<coeffs />
+							<value>0</value>
+						</parB>
+						<toParam>
+							<coeffs />
+							<value>0</value>
+						</toParam>
+					</parameters>
+					<probability>0</probability>
+					<targetNode>move</targetNode>
+				</Item>
+			</simpleTransactions>
+			<speed>
+				<coeffs />
+				<value>0.5</value>
+			</speed>
+			<startPar>
+				<coeffs />
+				<value>0</value>
+			</startPar>
+			<stopPar>
+				<coeffs />
+				<value>1</value>
+			</stopPar>
+			<surfSpeedX>0</surfSpeedX>
+			<surfSpeedY>0</surfSpeedY>
+		</Item>
+		<Item>
+			<markers />
+			<nextNode>move</nextNode>
+			<nodeName>move</nodeName>
+			<nodeType>Normal</nodeType>
+			<posX>471</posX>
+			<posY>190</posY>
+			<sequenceName>move1</sequenceName>
+			<simpleTransactions>
+				<Item>
+					<parameters>
+						<blending>PoseToAnim</blending>
+						<duration>0.3</duration>
+						<fromMax>
+							<coeffs />
+							<value>1</value>
+						</fromMax>
+						<fromMin>
+							<coeffs />
+							<value>0</value>
+						</fromMin>
+						<kind>Uniform</kind>
+						<markers />
+						<parA>
+							<coeffs />
+							<value>0</value>
+						</parA>
+						<parB>
+							<coeffs />
+							<value>0</value>
+						</parB>
+						<toParam>
+							<coeffs />
+							<value>0</value>
+						</toParam>
+					</parameters>
+					<probability>0</probability>
+					<targetNode>blocked</targetNode>
+				</Item>
+				<Item>
+					<parameters>
+						<blending>PoseToAnim</blending>
+						<duration>0.1</duration>
+						<fromMax>
+							<coeffs />
+							<value>1</value>
+						</fromMax>
+						<fromMin>
+							<coeffs />
+							<value>0</value>
+						</fromMin>
+						<kind>Uniform</kind>
+						<markers />
+						<parA>
+							<coeffs />
+							<value>0</value>
+						</parA>
+						<parB>
+							<coeffs />
+							<value>0</value>
+						</parB>
+						<toParam>
+							<coeffs />
+							<value>0</value>
+						</toParam>
+					</parameters>
+					<probability>0</probability>
+					<targetNode>unsummon</targetNode>
+				</Item>
+				<Item>
+					<parameters>
+						<blending>PoseToAnim</blending>
+						<duration>0.166</duration>
+						<fromMax>
+							<coeffs />
+							<value>1</value>
+						</fromMax>
+						<fromMin>
+							<coeffs />
+							<value>0</value>
+						</fromMin>
+						<kind>Uniform</kind>
+						<markers />
+						<parA>
+							<coeffs />
+							<value>0</value>
+						</parA>
+						<parB>
+							<coeffs />
+							<value>0</value>
+						</parB>
+						<toParam>
+							<coeffs />
+							<value>0</value>
+						</toParam>
+					</parameters>
+					<probability>0</probability>
+					<targetNode>attack</targetNode>
+				</Item>
+				<Item>
+					<parameters>
+						<blending>PoseToAnim</blending>
+						<duration>0.1</duration>
+						<fromMax>
+							<coeffs />
+							<value>1</value>
+						</fromMax>
+						<fromMin>
+							<coeffs />
+							<value>0</value>
+						</fromMin>
+						<kind>Uniform</kind>
+						<markers />
+						<parA>
+							<coeffs />
+							<value>0</value>
+						</parA>
+						<parB>
+							<coeffs />
+							<value>0</value>
+						</parB>
+						<toParam>
+							<coeffs />
+							<value>0</value>
+						</toParam>
+					</parameters>
+					<probability>0</probability>
+					<targetNode>death</targetNode>
+				</Item>
+				<Item>
+					<parameters>
+						<blending>PoseToAnim</blending>
+						<duration>0.166</duration>
+						<fromMax>
+							<coeffs />
+							<value>1</value>
+						</fromMax>
+						<fromMin>
+							<coeffs />
+							<value>0</value>
+						</fromMin>
+						<kind>Uniform</kind>
+						<markers />
+						<parA>
+							<coeffs />
+							<value>0</value>
+						</parA>
+						<parB>
+							<coeffs />
+							<value>0</value>
+						</parB>
+						<toParam>
+							<coeffs />
+							<value>0</value>
+						</toParam>
+					</parameters>
+					<probability>0</probability>
+					<targetNode>idle</targetNode>
+				</Item>
+			</simpleTransactions>
+			<speed>
+				<coeffs />
+				<value>1</value>
+			</speed>
+			<startPar>
+				<coeffs />
+				<value>0</value>
+			</startPar>
+			<stopPar>
+				<coeffs />
+				<value>0.999</value>
+			</stopPar>
+			<surfSpeedX>0</surfSpeedX>
+			<surfSpeedY>-6</surfSpeedY>
+		</Item>
+	</macroNodes>
+</AnimGraphCreator>

@@ -220,9 +220,9 @@
 																							<applicator href="/Items/Talents/Class/PinkGirl/Ability_A1.TALENT" id="26418064-BFC5-4DC4-B6DC-89A62C8DB2AA">
 																								<TriggerApplicator>
 																									<actionsCount>
-																										<compiledString></compiledString>
+																										<compiledString>FQAAAAAAAAAAVYvsuAEAAABdww==</compiledString>
 																										<returnType>int</returnType>
-																										<sString>0</sString>
+																										<sString>1</sString>
 																									</actionsCount>
 																									<applyTarget>AbilityOwner</applyTarget>
 																									<behaviorFlags>187</behaviorFlags>
@@ -232,15 +232,15 @@
 																										<Item href="" />
 																									</effect>
 																									<enabled>
-																										<compiledString></compiledString>
+																										<compiledString>FSAAAAAEAAAAJQAAADsAAABHAAAAXQAAAEc2MzNfQWN0aXZhdGVkAABBMV9QaW5rR2lybERhc2gAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdhwAAAN/g9sREeytoEAAAAItNCIsRi00Ii4KIAQAA/9DcHX8AAADf4PbEBXsJx0X8AAAAAOsHx0X8AQAAAIpF/IvlXcMAAAAAAAAIQAAAAAAAAAAA</compiledString>
 																										<returnType>bool</returnType>
-																										<sString>true</sString>
+																										<sString>sender.vG633_Activated == 0  || sender.vA1_PinkGirlDash &lt; 3</sString>
 																									</enabled>
 																									<formulaName></formulaName>
 																									<lifeTime>
 																										<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DMzMzPw==</compiledString>
 																										<returnType>float</returnType>
-																										<sString>0.7</sString>
+																										<sString>0.7f</sString>
 																									</lifeTime>
 																									<LoggingEvent>-1</LoggingEvent>
 																									<playAck>false</playAck>
@@ -288,7 +288,7 @@
 																						<Item>
 																							<applicator href="/Items/Talents/TalentKits/Redset7_11_MiniRefresher/appl_G766_RefreshAndNotify.APLR" />
 																							<continueCondition>
-																								<compiledString></compiledString>
+																								<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 																								<returnType>bool</returnType>
 																								<sString>0</sString>
 																							</continueCondition>
@@ -299,7 +299,7 @@
 																								<sString>-1.0</sString>
 																							</delay>
 																							<stopCondition>
-																								<compiledString></compiledString>
+																								<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 																								<returnType>bool</returnType>
 																								<sString>0</sString>
 																							</stopCondition>
@@ -592,7 +592,7 @@
 																</SpellPeriodicallyApplicator>
 															</applicator>
 															<continueCondition>
-																<compiledString></compiledString>
+																<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 																<returnType>bool</returnType>
 																<sString>0</sString>
 															</continueCondition>
@@ -603,7 +603,7 @@
 																<sString>-1.0</sString>
 															</delay>
 															<stopCondition>
-																<compiledString></compiledString>
+																<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 																<returnType>bool</returnType>
 																<sString>0</sString>
 															</stopCondition>
@@ -953,6 +953,7 @@
 						</var>
 					</UnitConstant>
 				</Item>
+				<Item href="/Items/Talents/Class/PinkGirl/const_A1u_CritChance" />
 				<Item href="/Items/Talents/Class/PinkGirl/Ability_A1.TALENT" id="C5DE2596-0A2D-47D9-849D-5422E46CCD6B">
 					<UnitConstant>
 						<name>DashCount</name>
@@ -1185,6 +1186,7 @@
 				<useAbilityOwnerMana>false</useAbilityOwnerMana>
 			</TriggerApplicator>
 		</Item>
+		<Item href="/Items/Talents/Class/PinkGirl/status_A1u_CritChance.APLR" />
 	</passiveApplicators>
 	<persistentId>PinkGirl_A1</persistentId>
 	<prerequisiteTalents />

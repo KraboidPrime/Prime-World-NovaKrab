@@ -1023,6 +1023,36 @@
 																		<providerName></providerName>
 																	</PermanentStatModApplicator>
 																</Item>
+																<Item href="/Items/Talents/Class/Primevoker/Ability_A4_2.TALENT" id="37E2C9EC-939A-4B5C-B40B-352CFDBA18D9">
+																	<PermanentStatModApplicator>
+																		<applyTarget>AbilityOwner</applyTarget>
+																		<caption></caption>
+																		<customApplyType>None</customApplyType>
+																		<enabled>
+																			<compiledString>FQkAAAACAAAADgAAACQAAABWb2tlckFjdABVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1GAAAA3+D2xEF1CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAIUA=</compiledString>
+																			<returnType>bool</returnType>
+																			<sString>sender.vVokerAct &gt; 8.5f</sString>
+																		</enabled>
+																		<formulaName></formulaName>
+																		<LoggingEvent>-1</LoggingEvent>
+																		<modifier>
+																			<addValue>
+																				<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAQA==</compiledString>
+																				<returnType>float</returnType>
+																				<sString>4.0f</sString>
+																			</addValue>
+																			<multValue>
+																				<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+																				<returnType>float</returnType>
+																				<sString>0.0f</sString>
+																			</multValue>
+																			<stat>Life</stat>
+																			<topModifier>true</topModifier>
+																			<variable>VokerAct</variable>
+																		</modifier>
+																		<providerName></providerName>
+																	</PermanentStatModApplicator>
+																</Item>
 															</applicators>
 															<dispatch href="/Items/Talents/Class/Primevoker/Ability_A4_2.TALENT" id="FB2FE6D0-22DC-4B83-B08E-AD5C991C9965">
 																<DispatchImmediate>
@@ -1456,9 +1486,9 @@
 															<abilityFilter>
 																<abilitiesList />
 																<abilityCondition>
-																	<compiledString>FSMAAAAEAAAAKAAAAD4AAABQAAAAcAAAAEltbXVuZTJDb250cm9sAABUaHJvdwAAAFRocm93X0p1bXAAVYvsUWgAAAAAi0UMixCLTQyLgogBAAD/0NwdoAAAAN/g9sREeklqAYtNEFFoEAAAAItVDIsCi00Mi5CcAQAA/9I7RRB1KWoBi0UQUGgYAAAAi00MixGLTQyLgpwBAAD/0DtFEHUJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAAAA==</compiledString>
+																	<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
 																	<returnType>bool</returnType>
-																	<sString>receiver.vImmune2Control == 0 &amp;&amp; receiver.applThrow(UNIT) == pMisc &amp;&amp; receiver.applThrow_Jump(UNIT) == pMisc</sString>
+																	<sString>true</sString>
 																</abilityCondition>
 																<abilityCostMode>Energy</abilityCostMode>
 																<exceptThis>false</exceptThis>
@@ -2273,9 +2303,9 @@
 					<UnitConstant>
 						<name>VokerLapa</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBWMAAADZHCRR2QVfAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJItNCIsRi00Ii4I0AQAA/9BR2Rwk6B8AAACDxATZHCRqAYtNEIsRi00Qi0Jg/9BdwwAAtEIAwChEVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
+							<compiledString>FQAAAAADAAAACQAAABMAAABgAAAAVYvsUWoBUdkFegAAANkcJFHZBXYAAADZHCRqAItFCIsQi00Ii4IwAQAA/9BR2Rwki00IixGLTQiLgjQBAAD/0FHZHCToNQAAAIPEBNkcJGoBi00QixGLTRCLQmD/0NwNbgAAANld/NlF/IvlXcPNzMzMzMz0PwAAtEIAwChEVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(max(sIntellect, sStrength), 90, 675)</sString>
+							<sString>1.3*damageScale(max(sIntellect, sStrength), 90, 675)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -2303,9 +2333,9 @@
 					<UnitConstant>
 						<name>VokerBoom</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBWMAAADZHCRR2QVfAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJItNCIsRi00Ii4I0AQAA/9BR2Rwk6B8AAACDxATZHCRqAYtNEIsRi00Qi0Jg/9BdwwAAKEMAIJ5EVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
+							<compiledString>FQAAAAADAAAACQAAABMAAABgAAAAVYvsUWoBUdkFegAAANkcJFHZBXYAAADZHCRqAItFCIsQi00Ii4IwAQAA/9BR2Rwki00IixGLTQiLgjQBAAD/0FHZHCToNQAAAIPEBNkcJGoBi00QixGLTRCLQmD/0NwNbgAAANld/NlF/IvlXcOamZmZmZnxPwAAKEMAIJ5EVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(max(sIntellect,sStrength),168,1265) </sString>
+							<sString>1.1*damageScale(max(sIntellect,sStrength),168,1265) </sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -2317,9 +2347,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQkAAAACAAAAFgAAACkAAABWb2NrZXJDRABVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcDTcAAADZXfzZRfyL5V3DAAAAAAAASUA=</compiledString>
+		<compiledString>FTEAAAAFAAAAOAAAAFEAAACHAAAAmgAAAKoAAABWb2NrZXJDRAAAAABQcmltZXZva2VyX0EyU1VQAAAAAFByaW1ldm9rZXJfQTJTVVAAVYvsg+wQaAwAAACLRQiLEItNCIuCqAEAAP/QhcB0KmggAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wCLTQxRi1UIUmgAAAAAi0UQixCLTRCLQlD/0NwNzgAAAA+2TfuJTfTbRfTcDcYAAADZ6N7h3snZXfDZRfCL5V3DAAAAAAAA8D+amZmZmZm5PwAAAAAAAElA</compiledString>
 		<returnType>float</returnType>
-		<sString>cVockerCD*50.0f</sString>
+		<sString>cVockerCD*50.0f*(1-0.1*tal("Primevoker_A2SUP"))</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>

@@ -138,7 +138,7 @@
 		<sString>-1.0</sString>
 	</customProgress>
 	<description textref="/Heroes/DefaultStatus/_FEAR_status.APLR_description.txt" />
-	<dispellPriority>Medium</dispellPriority>
+	<dispellPriority>Low</dispellPriority>
 	<effect>
 		<Item href="/Effects/Debuffs/Fear/_.EFFT" />
 		<Item href="" />

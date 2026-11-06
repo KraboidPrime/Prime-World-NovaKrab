@@ -387,6 +387,10 @@
 															<applicator href="/Items/Talents/Class/SnowQueen/status_A0_Tech.APLR" />
 															<variableNames />
 														</Item>
+														<Item>
+															<applicator href="/Items/Talents/Class/SnowQueen/New_mana_burn.APLR" />
+															<variableNames />
+														</Item>
 													</applicators>
 												</VariableProxyApplicator>
 											</Item>
@@ -709,9 +713,9 @@
 					<UnitConstant>
 						<name>A0_ManaBurn</name>
 						<var>
-							<compiledString>FUgAAAAFAAAATwAAAGgAAACeAAAAvgAAAOIAAABBMF9Tbm93UXVlZW4AAAAAQTBfU25vd1F1ZWVuAAAAAEEwX1Nub3dRdWVlbgAAAABNYW5hQnVybgAAAABBNF9NYW5hQnVybgBVi+yD7BRoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXQ3aCAAAACLVQiLAotNCIuQqAEAAP/SiUX0i0UMUItNCFFoMAAAAItV9IsCi030i1BQ/9LZXfDrBdnu2V3wi0UMUItNCFFoPAAAAItVEIsCi00Qi1BQ/9LYRfDZXezZReyL5V3DAAAAAA==</compiledString>
+							<compiledString>FQ8AAAACAAAAKwAAAEQAAABBMF9NYW5hQnVybl9UVABVi+yD7AyLRQyLEItNDItCEP/Qi00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ3V34/9DcTfjcDVIAAADZXfTZRfSL5V3DAAAAQOF6hD8=</compiledString>
 							<returnType>float</returnType>
-							<sString>talconst("A0_SnowQueen", "ManaBurn") + cA4_ManaBurn</sString>
+							<sString>rMaxEnergy * cA0_ManaBurn_TT * 0.01f</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -719,9 +723,9 @@
 					<UnitConstant>
 						<name>A0_StartCondition</name>
 						<var>
-							<compiledString>FQwAAAACAAAAEwAAACkAAABBNF9UZXJyQ2FzdABVi+yD7AhoAAAAAItFCIsQi00Ii4KIAQAA/9DcHUwAAADf4PbEQXUGxkX/AesExkX/AA+2Tf+JTfjbRfiL5V3DAAAAAAAAAAA=</compiledString>
+							<compiledString>FQAAAAAAAAAAVYvsUVaLRQiLEItNCItCTP/Qi/CLTQiLEYtNCIuCkAEAAP/QM8k78A+UwYlN/NtF/F6L5V3D</compiledString>
 							<returnType>float</returnType>
-							<sString>sender.vA4_TerrCast &gt; 0 ? true : false</sString>
+							<sString>sTerrainType == sFctn</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -736,6 +740,7 @@
 						</var>
 					</UnitConstant>
 				</Item>
+				<Item href="/Items/Talents/Class/SnowQueen/const_A0_ManaBurn_TT" />
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

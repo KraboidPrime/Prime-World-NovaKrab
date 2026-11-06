@@ -1,0 +1,871 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BaseAttack>
+	<BackLink DBID="/Heroes/arbik_elf/_.HROB" Count="1" />
+	<activeCustomTrigger>true</activeCustomTrigger>
+	<allowChase>
+		<compiledString></compiledString>
+		<returnType>bool</returnType>
+		<sString>true</sString>
+	</allowChase>
+	<alternativeTargets />
+	<aoeDisplayOnMinimap>false</aoeDisplayOnMinimap>
+	<aoeHeight>0</aoeHeight>
+	<aoeMaterial href="" />
+	<aoePassabilityCheckMode>0</aoePassabilityCheckMode>
+	<aoeSize>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</aoeSize>
+	<aoeType>None</aoeType>
+	<applicators>
+		<Item href="/Heroes/arbik_elf/_.ATCK" id="FABE1A99-BD5D-4548-942F-CDC969B5D8D5">
+			<SpellSwitchApplicator>
+				<activeSpellIndex>
+					<compiledString>FQAAAAAAAAAAVYvsg+wMi0UIixCLTQiLgrwAAAD/0ItNCIsRi00Ii4K4AAAA3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAItF9IvlXcM=</compiledString>
+					<returnType>int</returnType>
+					<sString>sBaseIntellect &gt;= sBaseStrength</sString>
+				</activeSpellIndex>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>выбираем тычку между силой и разумом</caption>
+				<dontUseDispatches>false</dontUseDispatches>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<spells>
+					<Item href="/Heroes/arbik_elf/_.ATCK" id="328D3F20-8946-4404-8C8B-BBC26DCA8742">
+						<Spell>
+							<applicators>
+								<Item href="/Heroes/arbik_elf/_.ATCK" id="DDFC80D2-F0F0-4C80-BC2D-3E13E6AAC09B">
+									<SpellSwitchApplicator>
+										<activeSpellIndex>
+											<compiledString>FREAAAAFAAAAGAAAAC4AAABmAAAAkgAAABEBAABBcmJTdGFjawAAAABXYXJkAFWL7IPsDGgAAAAAi0UIixCLTQiLgogBAAD/0NwdTgEAAN/g9sRBD4XrAAAAUdno2RwkUdnu2RwkagGLTQyLEYtNDItCWP/QD7bIUej1AAAAg8QM3B0+AQAA3+D2xEQPi7MAAACLVQyLAotNDItQUP/Sg/gRD4SdAAAAagCLRRBQaAwAAACLTQyLEYtNDIuCnAEAAP/QO0UQdX2LTQyLEYtNDItCUP/Qg/gFdDaLTQyLEYtNDItCUP/Qg/gSdCSLTQyLEYtNDItCUP/Qg/gDdBKLTQyLEYtNDItCUP/Qg/gEdSyLTQiLEYtNCIsC/9CLTQiLEYtNCItCDN1d+P/Q3A02AQAA3F343+D2xEF1CcdF9AEAAADrB8dF9AAAAACLRfSL5V3DrkfhehSu7z8AAAAAAAAAAAAAAAAAAIA/AAAAAAAA4D9Vi+xRD7ZFCIXAdAjZRQzZXfzrBtlFENld/NlF/IvlXcM=</compiledString>
+											<returnType>int</returnType>
+											<sString>sender.vArbStack &gt; 0.5 &amp;&amp; ut_bldg(false, true) &amp;&amp; rUnitKind != 17 &amp;&amp; receiver.applWard(GLOBAL) == pMisc &amp;&amp; (rUnitKind != 5 &amp;&amp; rUnitKind != 18 &amp;&amp; rUnitKind != 3 &amp;&amp; rUnitKind != 4 || sLife &lt; 0.99*sMaxLife)</sString>
+										</activeSpellIndex>
+										<applyTarget>ApplicatorTarget</applyTarget>
+										<caption>выбор между усиленной и обычной атакой</caption>
+										<dontUseDispatches>false</dontUseDispatches>
+										<enabled>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</enabled>
+										<formulaName></formulaName>
+										<LoggingEvent>-1</LoggingEvent>
+										<providerName></providerName>
+										<spells>
+											<Item href="/Heroes/arbik_elf/_.ATCK" id="0290CDE0-4209-4CDB-BCAE-0CEDC2B6C775">
+												<Spell>
+													<applicators>
+														<Item href="/Heroes/arbik_elf/_.ATCK" id="5C5F487A-8414-4090-93CE-2FC43464BDD3">
+															<SpellSwitchApplicator>
+																<activeSpellIndex>
+																	<compiledString>FRAAAAACAAAAFQAAACsAAABNZXRrb3N0VmFyaWFibGUAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdTQAAAN/g9sRBdQnHRfwBAAAA6wfHRfwAAAAAi0X8i+VdwwAAAAAAAOA/</compiledString>
+																	<returnType>int</returnType>
+																	<sString>sender.vMetkostVariable &gt; 0.5</sString>
+																</activeSpellIndex>
+																<applyTarget>ApplicatorTarget</applyTarget>
+																<caption>без стаков но с опцией не промахиваться сила</caption>
+																<dontUseDispatches>false</dontUseDispatches>
+																<enabled>
+																	<compiledString></compiledString>
+																	<returnType>bool</returnType>
+																	<sString>true</sString>
+																</enabled>
+																<formulaName></formulaName>
+																<LoggingEvent>-1</LoggingEvent>
+																<providerName></providerName>
+																<spells>
+																	<Item href="/Heroes/arbik_elf/_.ATCK" id="65AF0FED-A132-4345-A7C1-449DCD80EA23">
+																		<Spell>
+																			<applicators>
+																				<Item href="/Effects/Shots/HitsApplicators/BulletA.APLR" />
+																				<Item href="/GameLogic/GeneralApplicators/BaseAttackDmg_Hero_material.APLR" />
+																			</applicators>
+																			<dispatch href="/Heroes/arbik_elf/_.ATCK" id="4C1BF4A0-590C-44A5-BB41-9240D047104E">
+																				<DispatchLinear>
+																					<aiming>Straight</aiming>
+																					<alwaysApply>false</alwaysApply>
+																					<applyEffect>
+																						<Item href="" />
+																						<Item href="" />
+																					</applyEffect>
+																					<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																					<applyEffectOrientation>Default</applyEffectOrientation>
+																					<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																					<dieAfterApply>true</dieAfterApply>
+																					<dispatchEffect>
+																						<Item href="/Effects/Shots/Arrow/_AA.EFFT" />
+																						<Item href="" />
+																					</dispatchEffect>
+																					<flags>7</flags>
+																					<flyMode>Linear</flyMode>
+																					<fromLocator>Attack</fromLocator>
+																					<height>0</height>
+																					<killEffect>true</killEffect>
+																					<locatorOrient>true</locatorOrient>
+																					<maxDeviation>180</maxDeviation>
+																					<maxDistance>-1</maxDistance>
+																					<maxRise>0.5</maxRise>
+																					<minRise>0</minRise>
+																					<persistentApplicators />
+																					<speed>33</speed>
+																					<suspendTime>0</suspendTime>
+																					<toLocator>Body</toLocator>
+																				</DispatchLinear>
+																			</dispatch>
+																		</Spell>
+																	</Item>
+																	<Item href="/Heroes/arbik_elf/_.ATCK" id="D833D27F-2FB3-4CE3-83F4-0DDDE7C2A4C3">
+																		<Spell>
+																			<applicators>
+																				<Item href="/Effects/Shots/HitsApplicators/BulletA.APLR" />
+																				<Item href="/GameLogic/GeneralApplicators/BaseAttackDmg_Hero_material.APLR" />
+																			</applicators>
+																			<dispatch href="/Heroes/arbik_elf/_.ATCK" id="B921C1F8-9E3D-4EBF-A6FE-EFBB3D92D0CA">
+																				<DispatchLinear>
+																					<aiming>Pursue</aiming>
+																					<alwaysApply>false</alwaysApply>
+																					<applyEffect>
+																						<Item href="" />
+																						<Item href="" />
+																					</applyEffect>
+																					<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																					<applyEffectOrientation>Default</applyEffectOrientation>
+																					<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																					<dieAfterApply>true</dieAfterApply>
+																					<dispatchEffect>
+																						<Item href="/Effects/Shots/Arrow/_AA.EFFT" />
+																						<Item href="" />
+																					</dispatchEffect>
+																					<flags>5</flags>
+																					<flyMode>Linear</flyMode>
+																					<fromLocator>Attack</fromLocator>
+																					<height>0</height>
+																					<killEffect>true</killEffect>
+																					<locatorOrient>true</locatorOrient>
+																					<maxDeviation>180</maxDeviation>
+																					<maxDistance>-1</maxDistance>
+																					<maxRise>0.5</maxRise>
+																					<minRise>0</minRise>
+																					<persistentApplicators />
+																					<speed>33</speed>
+																					<suspendTime>0</suspendTime>
+																					<toLocator>Body</toLocator>
+																				</DispatchLinear>
+																			</dispatch>
+																		</Spell>
+																	</Item>
+																</spells>
+															</SpellSwitchApplicator>
+														</Item>
+													</applicators>
+													<dispatch href="/Heroes/arbik_elf/_.ATCK" id="16F8C02C-85E9-4F83-B667-95838B18E377">
+														<DispatchImmediate>
+															<alwaysApply>false</alwaysApply>
+															<applyEffect>
+																<Item href="" />
+																<Item href="" />
+															</applyEffect>
+															<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+															<applyEffectOrientation>Default</applyEffectOrientation>
+															<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+															<dieAfterApply>true</dieAfterApply>
+															<dispatchEffect>
+																<Item href="" />
+																<Item href="" />
+															</dispatchEffect>
+															<flags>0</flags>
+															<instantApply>false</instantApply>
+														</DispatchImmediate>
+													</dispatch>
+												</Spell>
+											</Item>
+											<Item href="/Heroes/arbik_elf/_.ATCK" id="A2CC204D-FCAB-4DED-B2F6-0A269D9DCF43">
+												<Spell>
+													<applicators>
+														<Item href="/Heroes/arbik_elf/_.ATCK" id="A3707F7F-B57E-4DE3-8377-4D4092C85280">
+															<PermanentStatModApplicator>
+																<applyTarget>AbilityOwner</applyTarget>
+																<caption>отнимаем стак</caption>
+																<customApplyType>None</customApplyType>
+																<enabled>
+																	<compiledString></compiledString>
+																	<returnType>bool</returnType>
+																	<sString>true</sString>
+																</enabled>
+																<formulaName></formulaName>
+																<LoggingEvent>-1</LoggingEvent>
+																<modifier>
+																	<addValue>
+																		<compiledString>FQkAAAACAAAAFAAAACoAAABBcmJTdGFjawBVi+xRUdnu2RwkaAAAAACLRQiLEItNCIuCiAEAAP/Q3CVEAAAA2V382UX8UdkcJOgTAAAAg8QIi+VdwwAAAAAAAPA/AAAAAFWL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
+																		<returnType>float</returnType>
+																		<sString>max(sender.vArbStack - 1, 0)</sString>
+																	</addValue>
+																	<multValue>
+																		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+																		<returnType>float</returnType>
+																		<sString>0.0f</sString>
+																	</multValue>
+																	<stat>Life</stat>
+																	<topModifier>false</topModifier>
+																	<variable>ArbStack</variable>
+																</modifier>
+																<providerName></providerName>
+															</PermanentStatModApplicator>
+														</Item>
+														<Item href="/Heroes/arbik_elf/_.ATCK" id="92A74A68-A2F8-49CD-8451-B235DE3BC39D">
+															<HealApplicator>
+																<amount>
+																	<compiledString>FQgAAAACAAAAFwAAAD0AAABSZXN0b3JlAFWL7IPsDItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/Si0UIixCLTQiLQgzdXfj/0NxN+NwNSwAAANld9NlF9IvlXcMAAABA4XqEPw==</compiledString>
+																	<returnType>float</returnType>
+																	<sString>cRestore*sMaxLife*0.01f</sString>
+																</amount>
+																<applyTarget>AbilityOwner</applyTarget>
+																<caption>отхил</caption>
+																<enabled>
+																	<compiledString></compiledString>
+																	<returnType>bool</returnType>
+																	<sString>true</sString>
+																</enabled>
+																<formulaName></formulaName>
+																<healTarget>Health</healTarget>
+																<ignoreHealingMods>false</ignoreHealingMods>
+																<LoggingEvent>-1</LoggingEvent>
+																<providerName></providerName>
+																<uiEvent href="/UI/Events/CommonEvents/EventHeal.UIEV" />
+															</HealApplicator>
+														</Item>
+														<Item href="/Heroes/arbik_elf/_.ATCK" id="91713EEA-9652-4CE7-8298-B6BF86AD5E81">
+															<SpellSwitchApplicator>
+																<activeSpellIndex>
+																	<compiledString>FSUAAAADAAAALAAAAEUAAACTAAAAYXJiaWtfZWxmX0EwX1NVUAAAAABhcmJpa19lbGZfQTBfU1VQAFWL7IPsEGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoFAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdC1qAmoBi1UQiwKLTRCLUFz/0olF9NtF9NwdtQAAAN/g9sRBdQnHRfABAAAA6wfHRfAAAAAAi0Xwi+VdwwAAAAAAAPg/</compiledString>
+																	<returnType>int</returnType>
+																	<sString>tal("arbik_elf_A0_SUP") &amp;&amp; random(1, 2) &gt; 1.5</sString>
+																</activeSpellIndex>
+																<applyTarget>ApplicatorTarget</applyTarget>
+																<caption>сработает ли в теории маг урон от апа в 5</caption>
+																<dontUseDispatches>false</dontUseDispatches>
+																<enabled>
+																	<compiledString></compiledString>
+																	<returnType>bool</returnType>
+																	<sString>true</sString>
+																</enabled>
+																<formulaName></formulaName>
+																<LoggingEvent>-1</LoggingEvent>
+																<providerName></providerName>
+																<spells>
+																	<Item href="/Heroes/arbik_elf/_.ATCK" id="CFF78494-E205-4C23-A2EC-66EBCF7EDEB0">
+																		<Spell>
+																			<applicators>
+																				<Item href="/Heroes/arbik_elf/_.ATCK" id="3273ECF1-8863-444D-A6D2-90B5B65002B2">
+																					<SpellSwitchApplicator>
+																						<activeSpellIndex>
+																							<compiledString>FRAAAAACAAAAFQAAACsAAABNZXRrb3N0VmFyaWFibGUAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdTQAAAN/g9sRBdQnHRfwBAAAA6wfHRfwAAAAAi0X8i+VdwwAAAAAAAOA/</compiledString>
+																							<returnType>int</returnType>
+																							<sString>sender.vMetkostVariable &gt; 0.5</sString>
+																						</activeSpellIndex>
+																						<applyTarget>ApplicatorTarget</applyTarget>
+																						<caption>всё ещё со стаком но с опцией не промахиваться сила</caption>
+																						<dontUseDispatches>false</dontUseDispatches>
+																						<enabled>
+																							<compiledString></compiledString>
+																							<returnType>bool</returnType>
+																							<sString>true</sString>
+																						</enabled>
+																						<formulaName></formulaName>
+																						<LoggingEvent>-1</LoggingEvent>
+																						<providerName></providerName>
+																						<spells>
+																							<Item href="/Heroes/arbik_elf/_.ATCK" id="0257B52F-77FA-4C35-8CE5-E6B2FDA1D882">
+																								<Spell>
+																									<applicators>
+																										<Item href="/Effects/Shots/HitsApplicators/BulletA.APLR" />
+																										<Item href="/Heroes/arbik_elf/_.ATCK" id="BD1CC8BA-5E55-47EE-82F3-8C0B4A8D17F0">
+																											<DamageApplicator parent="/GameLogic/GeneralApplicators/BaseAttackDmg_Hero_material.APLR">
+																												<damage>
+																													<compiledString>FQUAAAACAAAAiwAAAKQAAABQZXJjAFWL7IPsIItFCIsQi00Ii4IEAQAA/9BR2Rwk6CABAACDxARQi00IixGLTQiLggABAAD/0FHZHCToAwEAAIPEBFCLTRCLEYtNEItCXP/QiUX820X8Udno2RwkUdnu2RwkagGLTQyLEYtNDItCWN1d9P/QD7bIUeikAAAAg8QMi1UMUotFCFBoAAAAAItNEIsRi00Qi0JQ3V3s/9DcTezcDesAAACLTQyLEYtNDIuCRAEAAN1d5P/QUdkcJItNDIsRi00Mi4JAAQAA/9BR2Rwk6CMAAACDxAjcTeTcRfTZXeDZReCL5V3DexSuR+F6hD8AAAAAAACAP1WL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcNVi+xRD7ZFCIXAdAjZRQzZXfzrBtlFENld/NlF/IvlXcO4AQAAAA+i98IAAAAEdAfzDyxEJATD6QAAAABVi+yD7AzZRQjZffwPt0X8DQAMAACJRfjZbfjbXfTZbfyLRfSL5V3D</compiledString>
+																													<returnType>float</returnType>
+																													<sString>random ( f2l(sDamageMin), f2l(sDamageMax)) + ut_bldg(false, true)*cPerc*0.01*max(rStamina, rWill)</sString>
+																												</damage>
+																											</DamageApplicator>
+																										</Item>
+																										<Item href="/Heroes/arbik_elf/_.ATCK" id="DDF94B6D-D31B-49E2-BB4E-DF199895FAA7">
+																											<DamageApplicator>
+																												<applyTarget>ApplicatorTarget</applyTarget>
+																												<cancelInvisibility>false</cancelInvisibility>
+																												<caption>чистый урон</caption>
+																												<damage>
+																													<compiledString>FQAAAAACAAAATAAAAFIAAABVi+yD7AiLRQyLEItNDItCUP/Qg/gUdBuLTQyLEYtNDItCUP/Qg/gTdAnHRfwAAAAA6wfHRfwBAAAAi00MixGLTQyLQgz/0NtF/NwNagAAANwtYgAAAN7J2V342UX4i+VdwwAAAEDhepQ/AAAAQOF6hD8=</compiledString>
+																													<returnType>float</returnType>
+																													<sString>rMaxLife*(0.02f - 0.01f*(rUnitKind == 20 || rUnitKind == 19))</sString>
+																												</damage>
+																												<damageMode>0</damageMode>
+																												<damageType>Pure</damageType>
+																												<enabled>
+																													<compiledString>FS0AAAAEAAAAXAAAAIQAAACeAAAAtwAAAFdhcmQAAAAAYXJiaWtfZWxmX0EwX1NVUAAAAABhcmJpa19lbGZfQTBfU1VQAFWL7IPsDFHZ6NkcJFHZ7tkcJGoBi0UMixCLTQyLQlj/0A+2yFHovAAAAIPEDNwdAwEAAN/g9sRED4uKAAAAi1UMiwKLTQyLUFD/0oP4EXR4agCLRRBQaAAAAACLTQyLEYtNDIuCnAEAAP/QO0UQdVhoCAAAAItNCIsRi00Ii4KoAQAA/9CFwHQqaBwAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXQJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcMAAAAAAAAAAAAAAAAAAIA/VYvsUQ+2RQiFwHQI2UUM2V386wbZRRDZXfzZRfyL5V3D</compiledString>
+																													<returnType>bool</returnType>
+																													<sString>ut_bldg(false, true) &amp;&amp; rUnitKind != 17 &amp;&amp; receiver.applWard(GLOBAL) == pMisc &amp;&amp; tal("arbik_elf_A0_SUP")</sString>
+																												</enabled>
+																												<formulaName></formulaName>
+																												<LoggingEvent>-1</LoggingEvent>
+																												<providerName></providerName>
+																												<timeLimiter>-1</timeLimiter>
+																												<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed.UIEV" />
+																											</DamageApplicator>
+																										</Item>
+																									</applicators>
+																									<dispatch href="/Heroes/arbik_elf/_.ATCK" id="BD4E5F2B-3800-4DEA-8313-9A02118A6E6F">
+																										<DispatchLinear>
+																											<aiming>Straight</aiming>
+																											<alwaysApply>false</alwaysApply>
+																											<applyEffect>
+																												<Item href="" />
+																												<Item href="" />
+																											</applyEffect>
+																											<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																											<applyEffectOrientation>Default</applyEffectOrientation>
+																											<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																											<dieAfterApply>true</dieAfterApply>
+																											<dispatchEffect>
+																												<Item href="/Effects/Shots/Arrow/_AA.EFFT" />
+																												<Item href="" />
+																											</dispatchEffect>
+																											<flags>7</flags>
+																											<flyMode>Linear</flyMode>
+																											<fromLocator>Attack</fromLocator>
+																											<height>0</height>
+																											<killEffect>true</killEffect>
+																											<locatorOrient>true</locatorOrient>
+																											<maxDeviation>180</maxDeviation>
+																											<maxDistance>-1</maxDistance>
+																											<maxRise>0.5</maxRise>
+																											<minRise>0</minRise>
+																											<persistentApplicators />
+																											<speed>33</speed>
+																											<suspendTime>0</suspendTime>
+																											<toLocator>Body</toLocator>
+																										</DispatchLinear>
+																									</dispatch>
+																								</Spell>
+																							</Item>
+																							<Item href="/Heroes/arbik_elf/_.ATCK" id="512577F1-81D8-4E7F-90A5-8D17AA764FB5">
+																								<Spell>
+																									<applicators>
+																										<Item href="/Effects/Shots/HitsApplicators/BulletA.APLR" />
+																										<Item href="/Heroes/arbik_elf/_.ATCK" id="A339EDF1-B0C6-472E-AD8B-ADC33BB404EA">
+																											<DamageApplicator parent="/GameLogic/GeneralApplicators/BaseAttackDmg_Hero_material.APLR">
+																												<damage>
+																													<compiledString>FQUAAAACAAAAiwAAAKQAAABQZXJjAFWL7IPsIItFCIsQi00Ii4IEAQAA/9BR2Rwk6CABAACDxARQi00IixGLTQiLggABAAD/0FHZHCToAwEAAIPEBFCLTRCLEYtNEItCXP/QiUX820X8Udno2RwkUdnu2RwkagGLTQyLEYtNDItCWN1d9P/QD7bIUeikAAAAg8QMi1UMUotFCFBoAAAAAItNEIsRi00Qi0JQ3V3s/9DcTezcDesAAACLTQyLEYtNDIuCRAEAAN1d5P/QUdkcJItNDIsRi00Mi4JAAQAA/9BR2Rwk6CMAAACDxAjcTeTcRfTZXeDZReCL5V3DexSuR+F6hD8AAAAAAACAP1WL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcNVi+xRD7ZFCIXAdAjZRQzZXfzrBtlFENld/NlF/IvlXcO4AQAAAA+i98IAAAAEdAfzDyxEJATD6QAAAABVi+yD7AzZRQjZffwPt0X8DQAMAACJRfjZbfjbXfTZbfyLRfSL5V3D</compiledString>
+																													<returnType>float</returnType>
+																													<sString>random ( f2l(sDamageMin), f2l(sDamageMax)) + ut_bldg(false, true)*cPerc*0.01*max(rStamina, rWill)</sString>
+																												</damage>
+																											</DamageApplicator>
+																										</Item>
+																										<Item href="/Heroes/arbik_elf/_.ATCK" id="20DB60F4-8888-431F-8046-19476DC00F89">
+																											<DamageApplicator>
+																												<applyTarget>ApplicatorTarget</applyTarget>
+																												<cancelInvisibility>false</cancelInvisibility>
+																												<caption>чистый урон</caption>
+																												<damage>
+																													<compiledString>FQAAAAACAAAATAAAAFIAAABVi+yD7AiLRQyLEItNDItCUP/Qg/gUdBuLTQyLEYtNDItCUP/Qg/gTdAnHRfwAAAAA6wfHRfwBAAAAi00MixGLTQyLQgz/0NtF/NwNagAAANwtYgAAAN7J2V342UX4i+VdwwAAAEDhepQ/AAAAQOF6hD8=</compiledString>
+																													<returnType>float</returnType>
+																													<sString>rMaxLife*(0.02f - 0.01f*(rUnitKind == 20 || rUnitKind == 19))</sString>
+																												</damage>
+																												<damageMode>0</damageMode>
+																												<damageType>Pure</damageType>
+																												<enabled>
+																													<compiledString>FS0AAAAEAAAAXAAAAIQAAACeAAAAtwAAAFdhcmQAAAAAYXJiaWtfZWxmX0EwX1NVUAAAAABhcmJpa19lbGZfQTBfU1VQAFWL7IPsDFHZ6NkcJFHZ7tkcJGoBi0UMixCLTQyLQlj/0A+2yFHovAAAAIPEDNwdAwEAAN/g9sRED4uKAAAAi1UMiwKLTQyLUFD/0oP4EXR4agCLRRBQaAAAAACLTQyLEYtNDIuCnAEAAP/QO0UQdVhoCAAAAItNCIsRi00Ii4KoAQAA/9CFwHQqaBwAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXQJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcMAAAAAAAAAAAAAAAAAAIA/VYvsUQ+2RQiFwHQI2UUM2V386wbZRRDZXfzZRfyL5V3D</compiledString>
+																													<returnType>bool</returnType>
+																													<sString>ut_bldg(false, true) &amp;&amp; rUnitKind != 17 &amp;&amp; receiver.applWard(GLOBAL) == pMisc &amp;&amp; tal("arbik_elf_A0_SUP")</sString>
+																												</enabled>
+																												<formulaName></formulaName>
+																												<LoggingEvent>-1</LoggingEvent>
+																												<providerName></providerName>
+																												<timeLimiter>-1</timeLimiter>
+																												<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed.UIEV" />
+																											</DamageApplicator>
+																										</Item>
+																									</applicators>
+																									<dispatch href="/Heroes/arbik_elf/_.ATCK" id="53DC11B9-153E-4CDF-AAF4-9745A12944D2">
+																										<DispatchLinear>
+																											<aiming>Pursue</aiming>
+																											<alwaysApply>false</alwaysApply>
+																											<applyEffect>
+																												<Item href="" />
+																												<Item href="" />
+																											</applyEffect>
+																											<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																											<applyEffectOrientation>Default</applyEffectOrientation>
+																											<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																											<dieAfterApply>true</dieAfterApply>
+																											<dispatchEffect>
+																												<Item href="/Effects/Shots/Arrow/_AA.EFFT" />
+																												<Item href="" />
+																											</dispatchEffect>
+																											<flags>5</flags>
+																											<flyMode>Linear</flyMode>
+																											<fromLocator>Attack</fromLocator>
+																											<height>0</height>
+																											<killEffect>true</killEffect>
+																											<locatorOrient>true</locatorOrient>
+																											<maxDeviation>180</maxDeviation>
+																											<maxDistance>-1</maxDistance>
+																											<maxRise>0.5</maxRise>
+																											<minRise>0</minRise>
+																											<persistentApplicators />
+																											<speed>33</speed>
+																											<suspendTime>0</suspendTime>
+																											<toLocator>Body</toLocator>
+																										</DispatchLinear>
+																									</dispatch>
+																								</Spell>
+																							</Item>
+																						</spells>
+																					</SpellSwitchApplicator>
+																				</Item>
+																			</applicators>
+																			<dispatch href="/Heroes/arbik_elf/_.ATCK" id="A5EF2E17-54A6-476B-BF4C-FEADC3A43745">
+																				<DispatchImmediate>
+																					<alwaysApply>false</alwaysApply>
+																					<applyEffect>
+																						<Item href="" />
+																						<Item href="" />
+																					</applyEffect>
+																					<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																					<applyEffectOrientation>Default</applyEffectOrientation>
+																					<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																					<dieAfterApply>true</dieAfterApply>
+																					<dispatchEffect>
+																						<Item href="" />
+																						<Item href="" />
+																					</dispatchEffect>
+																					<flags>0</flags>
+																					<instantApply>false</instantApply>
+																				</DispatchImmediate>
+																			</dispatch>
+																		</Spell>
+																	</Item>
+																	<Item href="/Heroes/arbik_elf/_.ATCK" id="2A9D9B12-0E5A-48D7-AE20-34184EB5C65B">
+																		<Spell>
+																			<applicators>
+																				<Item href="/Heroes/arbik_elf/_.ATCK" id="81C7420E-BE9F-4C97-A1A4-F2F39382B509">
+																					<SpellSwitchApplicator>
+																						<activeSpellIndex>
+																							<compiledString>FRAAAAACAAAAFQAAACsAAABNZXRrb3N0VmFyaWFibGUAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdTQAAAN/g9sRBdQnHRfwBAAAA6wfHRfwAAAAAi0X8i+VdwwAAAAAAAOA/</compiledString>
+																							<returnType>int</returnType>
+																							<sString>sender.vMetkostVariable &gt; 0.5</sString>
+																						</activeSpellIndex>
+																						<applyTarget>ApplicatorTarget</applyTarget>
+																						<caption>всё ещё со стаком но с опцией не промахиваться сила</caption>
+																						<dontUseDispatches>false</dontUseDispatches>
+																						<enabled>
+																							<compiledString></compiledString>
+																							<returnType>bool</returnType>
+																							<sString>true</sString>
+																						</enabled>
+																						<formulaName></formulaName>
+																						<LoggingEvent>-1</LoggingEvent>
+																						<providerName></providerName>
+																						<spells>
+																							<Item href="/Heroes/arbik_elf/_.ATCK" id="9F9FA229-1A21-4529-ADA3-5DFFBEBDD665">
+																								<Spell>
+																									<applicators>
+																										<Item href="/Effects/Shots/HitsApplicators/BulletA.APLR" />
+																										<Item href="/Heroes/arbik_elf/_.ATCK" id="3EAB4189-E909-406A-84F0-A2659A993415">
+																											<DamageApplicator parent="/GameLogic/GeneralApplicators/BaseAttackDmg_Hero_material.APLR">
+																												<damage>
+																													<compiledString>FQUAAAACAAAAiwAAAKQAAABQZXJjAFWL7IPsIItFCIsQi00Ii4IEAQAA/9BR2Rwk6CABAACDxARQi00IixGLTQiLggABAAD/0FHZHCToAwEAAIPEBFCLTRCLEYtNEItCXP/QiUX820X8Udno2RwkUdnu2RwkagGLTQyLEYtNDItCWN1d9P/QD7bIUeikAAAAg8QMi1UMUotFCFBoAAAAAItNEIsRi00Qi0JQ3V3s/9DcTezcDesAAACLTQyLEYtNDIuCRAEAAN1d5P/QUdkcJItNDIsRi00Mi4JAAQAA/9BR2Rwk6CMAAACDxAjcTeTcRfTZXeDZReCL5V3DexSuR+F6hD8AAAAAAACAP1WL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcNVi+xRD7ZFCIXAdAjZRQzZXfzrBtlFENld/NlF/IvlXcO4AQAAAA+i98IAAAAEdAfzDyxEJATD6QAAAABVi+yD7AzZRQjZffwPt0X8DQAMAACJRfjZbfjbXfTZbfyLRfSL5V3D</compiledString>
+																													<returnType>float</returnType>
+																													<sString>random ( f2l(sDamageMin), f2l(sDamageMax)) + ut_bldg(false, true)*cPerc*0.01*max(rStamina, rWill)</sString>
+																												</damage>
+																												<enabled>
+																													<compiledString>FQAAAAAAAAAAVYvsg+wMi0UMixCLTQyLgkQBAAD/0ItNDIsRi00Mi4JAAQAA3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+																													<returnType>bool</returnType>
+																													<sString>rWill &gt;= rStamina</sString>
+																												</enabled>
+																											</DamageApplicator>
+																										</Item>
+																										<Item href="/Heroes/arbik_elf/_.ATCK" id="385369CF-F94D-4EB1-8126-1E01157078F0">
+																											<DamageApplicator parent="/GameLogic/GeneralApplicators/BaseAttackDmg_Hero_material.APLR">
+																												<damage>
+																													<compiledString>FQUAAAACAAAAiwAAAKQAAABQZXJjAFWL7IPsIItFCIsQi00Ii4IEAQAA/9BR2Rwk6CABAACDxARQi00IixGLTQiLggABAAD/0FHZHCToAwEAAIPEBFCLTRCLEYtNEItCXP/QiUX820X8Udno2RwkUdnu2RwkagGLTQyLEYtNDItCWN1d9P/QD7bIUeikAAAAg8QMi1UMUotFCFBoAAAAAItNEIsRi00Qi0JQ3V3s/9DcTezcDesAAACLTQyLEYtNDIuCRAEAAN1d5P/QUdkcJItNDIsRi00Mi4JAAQAA/9BR2Rwk6CMAAACDxAjcTeTcRfTZXeDZReCL5V3DexSuR+F6hD8AAAAAAACAP1WL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcNVi+xRD7ZFCIXAdAjZRQzZXfzrBtlFENld/NlF/IvlXcO4AQAAAA+i98IAAAAEdAfzDyxEJATD6QAAAABVi+yD7AzZRQjZffwPt0X8DQAMAACJRfjZbfjbXfTZbfyLRfSL5V3D</compiledString>
+																													<returnType>float</returnType>
+																													<sString>random ( f2l(sDamageMin), f2l(sDamageMax)) + ut_bldg(false, true)*cPerc*0.01*max(rStamina, rWill)</sString>
+																												</damage>
+																												<damageType>Energy</damageType>
+																												<enabled>
+																													<compiledString>FQAAAAAAAAAAVYvsg+wMi0UMixCLTQyLgkQBAAD/0ItNDIsRi00Mi4JAAQAA3V34/9DcXfjf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+																													<returnType>bool</returnType>
+																													<sString>rWill &lt; rStamina</sString>
+																												</enabled>
+																												<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Energy.UIEV" />
+																											</DamageApplicator>
+																										</Item>
+																										<Item href="/Heroes/arbik_elf/_.ATCK" id="AC37D6B2-757B-4ECD-9769-A90B2756734D">
+																											<DamageApplicator>
+																												<applyTarget>ApplicatorTarget</applyTarget>
+																												<cancelInvisibility>false</cancelInvisibility>
+																												<caption>чистый урон</caption>
+																												<damage>
+																													<compiledString>FQAAAAACAAAATAAAAFIAAABVi+yD7AiLRQyLEItNDItCUP/Qg/gUdBuLTQyLEYtNDItCUP/Qg/gTdAnHRfwAAAAA6wfHRfwBAAAAi00MixGLTQyLQgz/0NtF/NwNagAAANwtYgAAAN7J2V342UX4i+VdwwAAAEDhepQ/AAAAQOF6hD8=</compiledString>
+																													<returnType>float</returnType>
+																													<sString>rMaxLife*(0.02f - 0.01f*(rUnitKind == 20 || rUnitKind == 19))</sString>
+																												</damage>
+																												<damageMode>0</damageMode>
+																												<damageType>Pure</damageType>
+																												<enabled>
+																													<compiledString>FS0AAAAEAAAAXAAAAIQAAACeAAAAtwAAAFdhcmQAAAAAYXJiaWtfZWxmX0EwX1NVUAAAAABhcmJpa19lbGZfQTBfU1VQAFWL7IPsDFHZ6NkcJFHZ7tkcJGoBi0UMixCLTQyLQlj/0A+2yFHovAAAAIPEDNwdAwEAAN/g9sRED4uKAAAAi1UMiwKLTQyLUFD/0oP4EXR4agCLRRBQaAAAAACLTQyLEYtNDIuCnAEAAP/QO0UQdVhoCAAAAItNCIsRi00Ii4KoAQAA/9CFwHQqaBwAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXQJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcMAAAAAAAAAAAAAAAAAAIA/VYvsUQ+2RQiFwHQI2UUM2V386wbZRRDZXfzZRfyL5V3D</compiledString>
+																													<returnType>bool</returnType>
+																													<sString>ut_bldg(false, true) &amp;&amp; rUnitKind != 17 &amp;&amp; receiver.applWard(GLOBAL) == pMisc &amp;&amp; tal("arbik_elf_A0_SUP")</sString>
+																												</enabled>
+																												<formulaName></formulaName>
+																												<LoggingEvent>-1</LoggingEvent>
+																												<providerName></providerName>
+																												<timeLimiter>-1</timeLimiter>
+																												<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed.UIEV" />
+																											</DamageApplicator>
+																										</Item>
+																									</applicators>
+																									<dispatch href="/Heroes/arbik_elf/_.ATCK" id="1A5C8A3B-8CFB-4C10-99EF-E8937B81CD4C">
+																										<DispatchLinear>
+																											<aiming>Straight</aiming>
+																											<alwaysApply>false</alwaysApply>
+																											<applyEffect>
+																												<Item href="" />
+																												<Item href="" />
+																											</applyEffect>
+																											<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																											<applyEffectOrientation>Default</applyEffectOrientation>
+																											<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																											<dieAfterApply>true</dieAfterApply>
+																											<dispatchEffect>
+																												<Item href="/Effects/Shots/Arrow/_AA.EFFT" />
+																												<Item href="" />
+																											</dispatchEffect>
+																											<flags>7</flags>
+																											<flyMode>Linear</flyMode>
+																											<fromLocator>Attack</fromLocator>
+																											<height>0</height>
+																											<killEffect>true</killEffect>
+																											<locatorOrient>true</locatorOrient>
+																											<maxDeviation>180</maxDeviation>
+																											<maxDistance>-1</maxDistance>
+																											<maxRise>0.5</maxRise>
+																											<minRise>0</minRise>
+																											<persistentApplicators />
+																											<speed>33</speed>
+																											<suspendTime>0</suspendTime>
+																											<toLocator>Body</toLocator>
+																										</DispatchLinear>
+																									</dispatch>
+																								</Spell>
+																							</Item>
+																							<Item href="/Heroes/arbik_elf/_.ATCK" id="CDF174E8-1448-483E-9B04-A5AFA37B6474">
+																								<Spell>
+																									<applicators>
+																										<Item href="/Effects/Shots/HitsApplicators/BulletA.APLR" />
+																										<Item href="/Heroes/arbik_elf/_.ATCK" id="80A228D8-549B-4C77-A5DB-C46853C36B00">
+																											<DamageApplicator parent="/GameLogic/GeneralApplicators/BaseAttackDmg_Hero_material.APLR">
+																												<damage>
+																													<compiledString>FQUAAAACAAAAiwAAAKQAAABQZXJjAFWL7IPsIItFCIsQi00Ii4IEAQAA/9BR2Rwk6CABAACDxARQi00IixGLTQiLggABAAD/0FHZHCToAwEAAIPEBFCLTRCLEYtNEItCXP/QiUX820X8Udno2RwkUdnu2RwkagGLTQyLEYtNDItCWN1d9P/QD7bIUeikAAAAg8QMi1UMUotFCFBoAAAAAItNEIsRi00Qi0JQ3V3s/9DcTezcDesAAACLTQyLEYtNDIuCRAEAAN1d5P/QUdkcJItNDIsRi00Mi4JAAQAA/9BR2Rwk6CMAAACDxAjcTeTcRfTZXeDZReCL5V3DexSuR+F6hD8AAAAAAACAP1WL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcNVi+xRD7ZFCIXAdAjZRQzZXfzrBtlFENld/NlF/IvlXcO4AQAAAA+i98IAAAAEdAfzDyxEJATD6QAAAABVi+yD7AzZRQjZffwPt0X8DQAMAACJRfjZbfjbXfTZbfyLRfSL5V3D</compiledString>
+																													<returnType>float</returnType>
+																													<sString>random ( f2l(sDamageMin), f2l(sDamageMax)) + ut_bldg(false, true)*cPerc*0.01*max(rStamina, rWill)</sString>
+																												</damage>
+																												<enabled>
+																													<compiledString>FQAAAAAAAAAAVYvsg+wMi0UMixCLTQyLgkQBAAD/0ItNDIsRi00Mi4JAAQAA3V34/9DcXfjf4PbEQXoJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+																													<returnType>bool</returnType>
+																													<sString>rWill &gt;= rStamina</sString>
+																												</enabled>
+																											</DamageApplicator>
+																										</Item>
+																										<Item href="/Heroes/arbik_elf/_.ATCK" id="CA4D68A4-9CDD-4C9A-9174-12470ED46B23">
+																											<DamageApplicator parent="/GameLogic/GeneralApplicators/BaseAttackDmg_Hero_material.APLR">
+																												<damage>
+																													<compiledString>FQUAAAACAAAAiwAAAKQAAABQZXJjAFWL7IPsIItFCIsQi00Ii4IEAQAA/9BR2Rwk6CABAACDxARQi00IixGLTQiLggABAAD/0FHZHCToAwEAAIPEBFCLTRCLEYtNEItCXP/QiUX820X8Udno2RwkUdnu2RwkagGLTQyLEYtNDItCWN1d9P/QD7bIUeikAAAAg8QMi1UMUotFCFBoAAAAAItNEIsRi00Qi0JQ3V3s/9DcTezcDesAAACLTQyLEYtNDIuCRAEAAN1d5P/QUdkcJItNDIsRi00Mi4JAAQAA/9BR2Rwk6CMAAACDxAjcTeTcRfTZXeDZReCL5V3DexSuR+F6hD8AAAAAAACAP1WL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcNVi+xRD7ZFCIXAdAjZRQzZXfzrBtlFENld/NlF/IvlXcO4AQAAAA+i98IAAAAEdAfzDyxEJATD6QAAAABVi+yD7AzZRQjZffwPt0X8DQAMAACJRfjZbfjbXfTZbfyLRfSL5V3D</compiledString>
+																													<returnType>float</returnType>
+																													<sString>random ( f2l(sDamageMin), f2l(sDamageMax)) + ut_bldg(false, true)*cPerc*0.01*max(rStamina, rWill)</sString>
+																												</damage>
+																												<damageType>Energy</damageType>
+																												<enabled>
+																													<compiledString>FQAAAAAAAAAAVYvsg+wMi0UMixCLTQyLgkQBAAD/0ItNDIsRi00Mi4JAAQAA3V34/9DcXfjf4PbEQXUJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcM=</compiledString>
+																													<returnType>bool</returnType>
+																													<sString>rWill &lt; rStamina</sString>
+																												</enabled>
+																												<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Energy.UIEV" />
+																											</DamageApplicator>
+																										</Item>
+																										<Item href="/Heroes/arbik_elf/_.ATCK" id="CE09036F-50A6-4646-8844-48A02C6549A5">
+																											<DamageApplicator>
+																												<applyTarget>ApplicatorTarget</applyTarget>
+																												<cancelInvisibility>false</cancelInvisibility>
+																												<caption>чистый урон</caption>
+																												<damage>
+																													<compiledString>FQAAAAACAAAATAAAAFIAAABVi+yD7AiLRQyLEItNDItCUP/Qg/gUdBuLTQyLEYtNDItCUP/Qg/gTdAnHRfwAAAAA6wfHRfwBAAAAi00MixGLTQyLQgz/0NtF/NwNagAAANwtYgAAAN7J2V342UX4i+VdwwAAAEDhepQ/AAAAQOF6hD8=</compiledString>
+																													<returnType>float</returnType>
+																													<sString>rMaxLife*(0.02f - 0.01f*(rUnitKind == 20 || rUnitKind == 19))</sString>
+																												</damage>
+																												<damageMode>0</damageMode>
+																												<damageType>Pure</damageType>
+																												<enabled>
+																													<compiledString>FS0AAAAEAAAAXAAAAIQAAACeAAAAtwAAAFdhcmQAAAAAYXJiaWtfZWxmX0EwX1NVUAAAAABhcmJpa19lbGZfQTBfU1VQAFWL7IPsDFHZ6NkcJFHZ7tkcJGoBi0UMixCLTQyLQlj/0A+2yFHovAAAAIPEDNwdAwEAAN/g9sRED4uKAAAAi1UMiwKLTQyLUFD/0oP4EXR4agCLRRBQaAAAAACLTQyLEYtNDIuCnAEAAP/QO0UQdVhoCAAAAItNCIsRi00Ii4KoAQAA/9CFwHQqaBwAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXQJx0X0AQAAAOsHx0X0AAAAAIpF9IvlXcMAAAAAAAAAAAAAAAAAAIA/VYvsUQ+2RQiFwHQI2UUM2V386wbZRRDZXfzZRfyL5V3D</compiledString>
+																													<returnType>bool</returnType>
+																													<sString>ut_bldg(false, true) &amp;&amp; rUnitKind != 17 &amp;&amp; receiver.applWard(GLOBAL) == pMisc &amp;&amp; tal("arbik_elf_A0_SUP")</sString>
+																												</enabled>
+																												<formulaName></formulaName>
+																												<LoggingEvent>-1</LoggingEvent>
+																												<providerName></providerName>
+																												<timeLimiter>-1</timeLimiter>
+																												<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed.UIEV" />
+																											</DamageApplicator>
+																										</Item>
+																									</applicators>
+																									<dispatch href="/Heroes/arbik_elf/_.ATCK" id="3F052B41-1233-4C58-B62C-2A58000D65C7">
+																										<DispatchLinear>
+																											<aiming>Pursue</aiming>
+																											<alwaysApply>false</alwaysApply>
+																											<applyEffect>
+																												<Item href="" />
+																												<Item href="" />
+																											</applyEffect>
+																											<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																											<applyEffectOrientation>Default</applyEffectOrientation>
+																											<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																											<dieAfterApply>true</dieAfterApply>
+																											<dispatchEffect>
+																												<Item href="/Effects/Shots/Arrow/_AA.EFFT" />
+																												<Item href="" />
+																											</dispatchEffect>
+																											<flags>5</flags>
+																											<flyMode>Linear</flyMode>
+																											<fromLocator>Attack</fromLocator>
+																											<height>0</height>
+																											<killEffect>true</killEffect>
+																											<locatorOrient>true</locatorOrient>
+																											<maxDeviation>180</maxDeviation>
+																											<maxDistance>-1</maxDistance>
+																											<maxRise>0.5</maxRise>
+																											<minRise>0</minRise>
+																											<persistentApplicators />
+																											<speed>33</speed>
+																											<suspendTime>0</suspendTime>
+																											<toLocator>Body</toLocator>
+																										</DispatchLinear>
+																									</dispatch>
+																								</Spell>
+																							</Item>
+																						</spells>
+																					</SpellSwitchApplicator>
+																				</Item>
+																			</applicators>
+																			<dispatch href="/Heroes/arbik_elf/_.ATCK" id="1FB8CFEF-B841-46A6-8316-A3FCFA5A9FDD">
+																				<DispatchImmediate>
+																					<alwaysApply>false</alwaysApply>
+																					<applyEffect>
+																						<Item href="" />
+																						<Item href="" />
+																					</applyEffect>
+																					<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																					<applyEffectOrientation>Default</applyEffectOrientation>
+																					<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																					<dieAfterApply>true</dieAfterApply>
+																					<dispatchEffect>
+																						<Item href="" />
+																						<Item href="" />
+																					</dispatchEffect>
+																					<flags>0</flags>
+																					<instantApply>false</instantApply>
+																				</DispatchImmediate>
+																			</dispatch>
+																		</Spell>
+																	</Item>
+																</spells>
+															</SpellSwitchApplicator>
+														</Item>
+													</applicators>
+													<dispatch href="/Heroes/arbik_elf/_.ATCK" id="F13C325D-F3AC-48C0-98D6-F62836434B3C">
+														<DispatchImmediate>
+															<alwaysApply>false</alwaysApply>
+															<applyEffect>
+																<Item href="" />
+																<Item href="" />
+															</applyEffect>
+															<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+															<applyEffectOrientation>Default</applyEffectOrientation>
+															<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+															<dieAfterApply>true</dieAfterApply>
+															<dispatchEffect>
+																<Item href="" />
+																<Item href="" />
+															</dispatchEffect>
+															<flags>0</flags>
+															<instantApply>false</instantApply>
+														</DispatchImmediate>
+													</dispatch>
+												</Spell>
+											</Item>
+										</spells>
+									</SpellSwitchApplicator>
+								</Item>
+							</applicators>
+							<dispatch href="/Heroes/arbik_elf/_.ATCK" id="A76183B0-6E0F-4A37-8651-F87E7CF5C2BC">
+								<DispatchImmediate>
+									<alwaysApply>false</alwaysApply>
+									<applyEffect>
+										<Item href="" />
+										<Item href="" />
+									</applyEffect>
+									<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+									<applyEffectOrientation>Default</applyEffectOrientation>
+									<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+									<dieAfterApply>true</dieAfterApply>
+									<dispatchEffect>
+										<Item href="" />
+										<Item href="" />
+									</dispatchEffect>
+									<flags>0</flags>
+									<instantApply>false</instantApply>
+								</DispatchImmediate>
+							</dispatch>
+						</Spell>
+					</Item>
+					<Item href="/Heroes/arbik_elf/_.ATCK" id="7123DD05-FBD2-4CAF-B11A-22865006E96D">
+						<Spell>
+							<applicators>
+								<Item href="/Effects/Shots/HitsApplicators/BulletA.APLR" />
+								<Item href="/Heroes/arbik_elf/_.ATCK" id="3D2BEF9D-21F5-4C9D-8DBD-5FB399828072">
+									<DamageApplicator parent="/GameLogic/GeneralApplicators/BaseAttackDmg_Hero.APLR">
+										<caption>атака разумного</caption>
+										<damage>
+											<compiledString>FSUAAAAEAAAAUAAAAGkAAAARAQAANAEAAGFyYmlrX2VsZl9BMF9TVVAAAAAAYXJiaWtfZWxmX0EwX1NVUABVi+yD7CSLRQyLEItNDItCUP/Qg/gFdHuLTQyLEYtNDItCUP/Qg/gSdGloAAAAAItNCIsRi00Ii4KoAQAA/9CFwHQqaBQAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXQRi1UMiwKLTQyLUFD/0oXAdQnHRfQAAAAA6wfHRfQBAAAAi0UIixCLTQiLggQBAAD/0FHZHCTorwAAAIPEBFCLTQiLEYtNCIuCAAEAAP/QUdkcJOiSAAAAg8QEUItNEIsRi00Qi0Jc/9CJRfDbRfDbRfTcDVcBAACLTQiLEYtNCIuCNAEAANnJ3V3o3V3g/9BR2RwkUdkFUwEAANkcJOgfAAAAg8QI3E3g3EXo2V3c2UXci+VdwwAASEIAAAAAAADgP1WL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcO4AQAAAA+i98IAAAAEdAfzDyxEJATD6QAAAABVi+yD7AzZRQjZffwPt0X8DQAMAACJRfjZbfjbXfTZbfyLRfSL5V3D</compiledString>
+											<returnType>float</returnType>
+											<sString>random ( f2l(sDamageMin), f2l(sDamageMax)) + 0.5*(rUnitKind == 5 || rUnitKind == 18 || (tal("arbik_elf_A0_SUP") &amp;&amp; rUnitKind != 0))*max(50, sIntellect)</sString>
+										</damage>
+										<damageType>Material</damageType>
+										<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Material.UIEV" />
+									</DamageApplicator>
+								</Item>
+							</applicators>
+							<dispatch href="/Heroes/arbik_elf/_.ATCK" id="4DBA0666-875C-4903-B360-2A583515482F">
+								<DispatchLinear>
+									<aiming>Straight</aiming>
+									<alwaysApply>false</alwaysApply>
+									<applyEffect>
+										<Item href="" />
+										<Item href="" />
+									</applyEffect>
+									<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+									<applyEffectOrientation>Default</applyEffectOrientation>
+									<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+									<dieAfterApply>true</dieAfterApply>
+									<dispatchEffect>
+										<Item href="/Effects/Shots/Arrow/_AA.EFFT" />
+										<Item href="" />
+									</dispatchEffect>
+									<flags>7</flags>
+									<flyMode>Linear</flyMode>
+									<fromLocator>Attack</fromLocator>
+									<height>0</height>
+									<killEffect>true</killEffect>
+									<locatorOrient>true</locatorOrient>
+									<maxDeviation>180</maxDeviation>
+									<maxDistance>-1</maxDistance>
+									<maxRise>0.5</maxRise>
+									<minRise>0</minRise>
+									<persistentApplicators />
+									<speed>33</speed>
+									<suspendTime>0</suspendTime>
+									<toLocator>Body</toLocator>
+								</DispatchLinear>
+							</dispatch>
+						</Spell>
+					</Item>
+				</spells>
+			</SpellSwitchApplicator>
+		</Item>
+	</applicators>
+	<autoTargetSelector href="" />
+	<caption></caption>
+	<castAllowRange>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</castAllowRange>
+	<castLimitations />
+	<commonDescription textref="" />
+	<compiledDescriptionA textref="" />
+	<compiledDescriptionB textref="" />
+	<conditionFormulas />
+	<constants href="/Heroes/arbik_elf/_.ATCK" id="E57842E1-F0C5-455B-85AA-3ABD0E48CA00">
+		<UnitConstantsContainer>
+			<vars>
+				<Item href="/Items/Talents/Class/arbik_elf/const_restore" />
+				<Item href="/Items/Talents/Class/arbik_elf/const_Perc" />
+			</vars>
+		</UnitConstantsContainer>
+	</constants>
+	<cooldownTime>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</cooldownTime>
+	<cooldownTimeSecondState>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</cooldownTimeSecondState>
+	<description textref="" />
+	<dispatch href="/Heroes/arbik_elf/_.ATCK" id="EB15988F-7FB5-45BB-AAA6-DACCA835A331">
+		<DispatchImmediate>
+			<alwaysApply>false</alwaysApply>
+			<applyEffect>
+				<Item href="" />
+				<Item href="" />
+			</applyEffect>
+			<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+			<applyEffectOrientation>Default</applyEffectOrientation>
+			<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+			<dieAfterApply>true</dieAfterApply>
+			<dispatchEffect>
+				<Item href="" />
+				<Item href="" />
+			</dispatchEffect>
+			<flags>0</flags>
+			<instantApply>false</instantApply>
+		</DispatchImmediate>
+	</dispatch>
+	<flags>5</flags>
+	<image href="" />
+	<imageSecondState href="" />
+	<isMelee>false</isMelee>
+	<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
+	<manaCost>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</manaCost>
+	<marker></marker>
+	<microAI href="" />
+	<minUseRangeCorrection>0</minUseRangeCorrection>
+	<name textref="" />
+	<node></node>
+	<passiveApplicators />
+	<requireLineOfSight>false</requireLineOfSight>
+	<shortDescription textref="" />
+	<targetType>0</targetType>
+	<type>Simple</type>
+	<useRange>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</useRange>
+	<useRangeMaterial href="" />
+	<warFogRemoveRadius>0</warFogRemoveRadius>
+	<warFogRemoveTime>0</warFogRemoveTime>
+</BaseAttack>

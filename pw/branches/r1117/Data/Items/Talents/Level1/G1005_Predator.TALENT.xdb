@@ -1,0 +1,936 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Talent>
+	<activationConditions />
+	<activeCustomTrigger>true</activeCustomTrigger>
+	<allowChase>
+		<compiledString></compiledString>
+		<returnType>bool</returnType>
+		<sString>true</sString>
+	</allowChase>
+	<alternativeTargets />
+	<aoeDisplayOnMinimap>false</aoeDisplayOnMinimap>
+	<aoeHeight>0</aoeHeight>
+	<aoeMaterial href="" />
+	<aoePassabilityCheckMode>0</aoePassabilityCheckMode>
+	<aoeSize>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</aoeSize>
+	<aoeType>None</aoeType>
+	<applicators>
+		<Item href="/Items/Talents/Level1/G1005_Predator.TALENT" id="EDE20F85-74D8-4D1D-88C9-4A4AD5EC5DB3">
+			<SpellSwitchApplicator>
+				<activeSpellIndex>
+					<compiledString>FQAAAAAAAAAAVYvsVotFCIsQi00Ii4KQAQAA/9CL8ItNDIsRi00Mi4KQAQAA/9AzyTvwD5XBi8FeXcM=</compiledString>
+					<returnType>int</returnType>
+					<sString>(sFctn == rFctn) ? 0 : 1</sString>
+				</activeSpellIndex>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption></caption>
+				<dontUseDispatches>false</dontUseDispatches>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<spells>
+					<Item href="/Items/Talents/Level1/G1005_Predator.TALENT" id="5B8A203E-9A67-4156-9459-30FB0D58086C">
+						<Spell>
+							<applicators>
+								<Item href="/Items/Talents/Level1/G1005_Predator.TALENT" id="96FC2EAA-2606-40FF-B1AC-6F9CB2F4C529">
+									<HealApplicator>
+										<amount>
+											<compiledString>FS8AAAACAAAAPgAAAFAAAABQcmVkYXRvckRhbWFnZVBlckNoYXJnZQBHMTAwNV9QcmVkYXRvckNoYXJnZXMyAFWL7IPsDItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SaBgAAACLRQiLEItNCIuCiAEAAN1d+P/Q3E342V302UX0i+Vdww==</compiledString>
+											<returnType>float</returnType>
+											<sString>cPredatorDamagePerCharge * sender.vG1005_PredatorCharges2</sString>
+										</amount>
+										<applyTarget>ApplicatorTarget</applyTarget>
+										<caption>Health</caption>
+										<enabled>
+											<compiledString>FRcAAAACAAAAHAAAADIAAABHMTAwNV9QcmVkYXRvckNoYXJnZXMyAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHVQAAADf4PbEQXUJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAAAA==</compiledString>
+											<returnType>bool</returnType>
+											<sString>sender.vG1005_PredatorCharges2 &gt; 0</sString>
+										</enabled>
+										<formulaName></formulaName>
+										<healTarget>Health</healTarget>
+										<ignoreHealingMods>false</ignoreHealingMods>
+										<LoggingEvent>-1</LoggingEvent>
+										<providerName></providerName>
+										<uiEvent href="/UI/Events/CommonEvents/EventHeal.UIEV" />
+									</HealApplicator>
+								</Item>
+								<Item href="/Items/Talents/Level1/G1005_Predator.TALENT" id="4D0A9C44-E6A9-442F-A61A-874FFF93CDB9">
+									<PermanentStatModApplicator>
+										<applyTarget>AbilityOwner</applyTarget>
+										<caption>Consume Predator charges</caption>
+										<customApplyType>None</customApplyType>
+										<enabled>
+											<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</enabled>
+										<formulaName></formulaName>
+										<LoggingEvent>-1</LoggingEvent>
+										<modifier>
+											<addValue>
+												<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+												<returnType>float</returnType>
+												<sString>0.0f</sString>
+											</addValue>
+											<multValue>
+												<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+												<returnType>float</returnType>
+												<sString>0.0f</sString>
+											</multValue>
+											<stat>Life</stat>
+											<topModifier>false</topModifier>
+											<variable>G1005_PredatorCharges2</variable>
+										</modifier>
+										<providerName></providerName>
+									</PermanentStatModApplicator>
+								</Item>
+							</applicators>
+							<dispatch href="/Items/Talents/Level1/G1005_Predator.TALENT" id="4481D184-85B2-4E3B-8415-44A018854BBB">
+								<DispatchLinear>
+									<aiming>Pursue</aiming>
+									<alwaysApply>false</alwaysApply>
+									<applyEffect>
+										<Item href="/Effects/Buffs/Regen/_.EFFT" />
+										<Item href="" />
+									</applyEffect>
+									<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+									<applyEffectOrientation>Default</applyEffectOrientation>
+									<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+									<dieAfterApply>true</dieAfterApply>
+									<dispatchEffect>
+										<Item href="/Effects/Shots/Paint/_Green3.EFFT" />
+										<Item href="" />
+									</dispatchEffect>
+									<flags>0</flags>
+									<flyMode>Linear</flyMode>
+									<fromLocator>Body</fromLocator>
+									<height>0</height>
+									<killEffect>true</killEffect>
+									<locatorOrient>false</locatorOrient>
+									<maxDeviation>180</maxDeviation>
+									<maxDistance>-1</maxDistance>
+									<maxRise>0</maxRise>
+									<minRise>0</minRise>
+									<persistentApplicators />
+									<speed>22</speed>
+									<suspendTime>0</suspendTime>
+									<toLocator>Body</toLocator>
+								</DispatchLinear>
+							</dispatch>
+						</Spell>
+					</Item>
+					<Item href="/Items/Talents/Level1/G1005_Predator.TALENT" id="64EBAF10-3229-4515-9505-90530D15470C">
+						<Spell>
+							<applicators>
+								<Item href="/Items/Talents/Level1/G1005_Predator.TALENT" id="1C28E6BE-DFA4-46C7-8520-FB99E098AA05">
+									<DamageApplicator>
+										<applyTarget>ApplicatorTarget</applyTarget>
+										<cancelInvisibility>false</cancelInvisibility>
+										<caption>Predator damage</caption>
+										<damage>
+											<compiledString>FS4AAAACAAAAPQAAAE8AAABQcmVkYXRvckRhbWFnZVBlckNoYXJnZQBHMTAwNV9QcmVkYXRvckNoYXJnZXMAVYvsg+wMi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9JoGAAAAItFCIsQi00Ii4KIAQAA3V34/9DcTfjZXfTZRfSL5V3D</compiledString>
+											<returnType>float</returnType>
+											<sString>cPredatorDamagePerCharge * sender.vG1005_PredatorCharges</sString>
+										</damage>
+										<damageMode>0</damageMode>
+										<damageType>Material</damageType>
+										<enabled>
+											<compiledString>FRYAAAACAAAAGwAAADEAAABHMTAwNV9QcmVkYXRvckNoYXJnZXMAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdUwAAAN/g9sRBdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAAA</compiledString>
+											<returnType>bool</returnType>
+											<sString>sender.vG1005_PredatorCharges &gt; 0</sString>
+										</enabled>
+										<formulaName></formulaName>
+										<LoggingEvent>-1</LoggingEvent>
+										<providerName></providerName>
+										<timeLimiter>-1</timeLimiter>
+										<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Material.UIEV" />
+									</DamageApplicator>
+								</Item>
+								<Item href="/Items/Talents/Level1/G1005_Predator.TALENT" id="8E8EB5C4-6EE7-4447-96FF-2D4978941204">
+									<NaftaTransferApplicator>
+										<addition>
+											<compiledString></compiledString>
+											<returnType>float</returnType>
+											<sString>0.0f</sString>
+										</addition>
+										<amount>
+											<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQw==</compiledString>
+											<returnType>float</returnType>
+											<sString>200.0f</sString>
+										</amount>
+										<applyTarget>ApplicatorTarget</applyTarget>
+										<caption>Execution prime steal</caption>
+										<enabled>
+											<compiledString>FTIAAAAGAAAAOQAAAFIAAACkAAAAugAAAOMAAAD4AAAARzEwMDgAAABHMTAwOAAAAEcxMDA1X1ByZWRhdG9yQ2hhcmdlcwAAAENhbnREZWF0aABVi+yD7BRoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaAgAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyQ+EqAAAAItVDIsCi00Mi1BU/9IPtsCFwA+EkAAAAGgQAAAAi00IixGLTQiLgogBAAD/0NwdSQEAAN/g9sRBdW6LTQyLEYtNDIsC/9CLTQyLEYtNDItCDN1d8P/Q3A1BAQAA3F3w3+D2xEF1QmoAi00QUWgoAAAAi1UMiwKLTQyLkJwBAAD/0jtFEHUiaAAABACLRQyLEItNDItCaP/QD7bIhcl1CcdF7AEAAADrB8dF7AAAAACKReyL5V3DAAAAoJmZuT8AAAAAAAASQA==</compiledString>
+											<returnType>bool</returnType>
+											<sString>tal("G1008") &amp;&amp; rIsHero &amp;&amp; sender.vG1005_PredatorCharges &gt; 4.5 &amp;&amp; rLife &lt; rMaxLife * 0.10f &amp;&amp; receiver.applCantDeath(GLOBAL) == pMisc &amp;&amp; !rFlag(262144)</sString>
+										</enabled>
+										<formulaName></formulaName>
+										<LoggingEvent>-1</LoggingEvent>
+										<multiplier>
+											<compiledString></compiledString>
+											<returnType>float</returnType>
+											<sString>1.0f</sString>
+										</multiplier>
+										<naftaTransferTarget>AbilityOwner</naftaTransferTarget>
+										<providerName></providerName>
+										<uiEvent href="/UI/Events/CommonEvents/EventLoseGold.UIEV" />
+									</NaftaTransferApplicator>
+								</Item>
+								<Item href="/Items/Talents/Level1/G1005_Predator.TALENT" id="7455AC5C-3775-40D3-9371-291727F9B541">
+									<DamageApplicator>
+										<applyTarget>ApplicatorTarget</applyTarget>
+										<cancelInvisibility>false</cancelInvisibility>
+										<caption>Predator kill</caption>
+										<damage>
+											<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAFBDRw==</compiledString>
+											<returnType>float</returnType>
+											<sString>50000</sString>
+										</damage>
+										<damageMode>0</damageMode>
+										<damageType>Pure</damageType>
+										<enabled>
+											<compiledString>FSYAAAAFAAAALQAAAEYAAACQAAAApgAAAM8AAABHMTAwOAAAAEcxMDA4AAAARzEwMDVfUHJlZGF0b3JDaGFyZ2VzAFWL7IPsFGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoCAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdGuLVQyLAotNDItQVP/SD7bAhcB0V2gQAAAAi00IixGLTQiLgogBAAD/0Nwd/AAAAN/g9sRBdTWLTQyLEYtNDIsC/9CLTQyLEYtNDItCDN1d8P/Q3A30AAAA3F3w3+D2xEF1CcdF7AEAAADrB8dF7AAAAACKReyL5V3DAAAAoJmZuT8AAAAAAAASQA==</compiledString>
+											<returnType>bool</returnType>
+											<sString>tal("G1008") &amp;&amp; rIsHero &amp;&amp; sender.vG1005_PredatorCharges &gt; 4.5 &amp;&amp; rLife &lt; rMaxLife * 0.10f</sString>
+										</enabled>
+										<formulaName></formulaName>
+										<LoggingEvent>-1</LoggingEvent>
+										<providerName></providerName>
+										<timeLimiter>-1</timeLimiter>
+										<uiEvent href="" />
+									</DamageApplicator>
+								</Item>
+								<Item href="/Items/Talents/Level1/G1005_Predator.TALENT" id="7F8EF101-D483-415E-BE17-B5EA611E17D1">
+									<PermanentStatModApplicator>
+										<applyTarget>AbilityOwner</applyTarget>
+										<caption>Consume Predator charges</caption>
+										<customApplyType>None</customApplyType>
+										<enabled>
+											<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</enabled>
+										<formulaName></formulaName>
+										<LoggingEvent>-1</LoggingEvent>
+										<modifier>
+											<addValue>
+												<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+												<returnType>float</returnType>
+												<sString>0.0f</sString>
+											</addValue>
+											<multValue>
+												<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+												<returnType>float</returnType>
+												<sString>0.0f</sString>
+											</multValue>
+											<stat>Life</stat>
+											<topModifier>false</topModifier>
+											<variable>G1005_PredatorCharges</variable>
+										</modifier>
+										<providerName></providerName>
+									</PermanentStatModApplicator>
+								</Item>
+							</applicators>
+							<dispatch href="/Items/Talents/Level1/G1005_Predator.TALENT" id="F6247558-891F-45B4-B81E-CA8FCC224788">
+								<DispatchLinear>
+									<aiming>Straight</aiming>
+									<alwaysApply>false</alwaysApply>
+									<applyEffect>
+										<Item href="/Effects/Shots/Paint/_Hit_Green2.EFFT" />
+										<Item href="" />
+									</applyEffect>
+									<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+									<applyEffectOrientation>Default</applyEffectOrientation>
+									<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+									<dieAfterApply>true</dieAfterApply>
+									<dispatchEffect>
+										<Item href="/Effects/Shots/Paint/_Green2.EFFT" />
+										<Item href="" />
+									</dispatchEffect>
+									<flags>0</flags>
+									<flyMode>Linear</flyMode>
+									<fromLocator>Body</fromLocator>
+									<height>0</height>
+									<killEffect>true</killEffect>
+									<locatorOrient>false</locatorOrient>
+									<maxDeviation>180</maxDeviation>
+									<maxDistance>-1</maxDistance>
+									<maxRise>0</maxRise>
+									<minRise>0</minRise>
+									<persistentApplicators />
+									<speed>22</speed>
+									<suspendTime>0</suspendTime>
+									<toLocator>Body</toLocator>
+								</DispatchLinear>
+							</dispatch>
+						</Spell>
+					</Item>
+				</spells>
+			</SpellSwitchApplicator>
+		</Item>
+	</applicators>
+	<askId>0</askId>
+	<autoTargetSelector href="" />
+	<budget>-1</budget>
+	<caption>G1005: Хищник</caption>
+	<castAllowRange>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</castAllowRange>
+	<castLimitations>
+		<Item href="/Items/Talents/Level1/G1005_Predator.TALENT" id="93BF57C7-A63A-45F3-8766-DB99FDD18980">
+			<ConditionCastLimitation>
+				<condition>
+					<compiledString>FS4AAAAEAAAAWgAAAHAAAACiAAAAuAAAAEcxMDA1X1ByZWRhdG9yQ2hhcmdlczIAAEcxMDA1X1ByZWRhdG9yQ2hhcmdlcwBVi+xRVotFCIsQi00Ii4KQAQAA/9CL8ItNDIsRi00Mi4KQAQAA/9A78HUiaAAAAACLTQiLEYtNCIuCiAEAAP/Q3B3bAAAA3+D2xEF0UYtNCIsRi00Ii4KQAQAA/9CL8ItNDIsRi00Mi4KQAQAA/9A78HQiaBgAAACLTQiLEYtNCIuCiAEAAP/Q3B3bAAAA3+D2xEF0CcdF/AAAAADrB8dF/AEAAACKRfxei+VdwwAAAAAAAOA/</compiledString>
+					<returnType>bool</returnType>
+					<sString>(sFctn == rFctn &amp;&amp; sender.vG1005_PredatorCharges2 &gt; 0.5) || (sFctn != rFctn &amp;&amp; sender.vG1005_PredatorCharges &gt; 0.5)</sString>
+				</condition>
+				<uiEvent href="/Items/Talents/Level1/G1005_Predator.TALENT" id="F9BBADF7-48D9-4678-89E1-1C34638596EB">
+					<UIEvent>
+						<signRecipients>PLAYER_ONLY</signRecipients>
+						<UISigns>
+							<Item href="/Items/Talents/Level1/G1005_Predator.TALENT" id="237B8F2B-DA61-4267-8655-C1A24FC575BD">
+								<UISignMessageToStatusLine>
+									<messages>
+										<Item textref="/Items/Talents/Level1/G1005_Predator.TALENT_237b8f2bda6142678655c1a24fc575bd_messages_0.txt" />
+										<Item textref="" />
+										<Item textref="" />
+									</messages>
+									<signRecipients>USE_FROM_PARENT</signRecipients>
+								</UISignMessageToStatusLine>
+							</Item>
+						</UISigns>
+					</UIEvent>
+				</uiEvent>
+			</ConditionCastLimitation>
+		</Item>
+	</castLimitations>
+	<commonDescription textref="/Items/Talents/Level1/G1005_Predator.TALENT_commonDescription.txt" />
+	<compiledDescriptionA textref="" />
+	<compiledDescriptionB textref="" />
+	<conditionFormulas />
+	<conflictingTalents />
+	<constants href="/Items/Talents/Level1/G1005_Predator.TALENT" id="8CF5674A-B49E-40B3-9F52-9DD201F915E5">
+		<UnitConstantsContainer>
+			<vars>
+				<Item href="/Items/Talents/Level1/G1005_Predator.TALENT" id="9B2149A0-A70C-44F8-87D3-26B9C1A87B83">
+					<UnitConstant>
+						<name>PredatorDamagePerCharge</name>
+						<var>
+							<compiledString>FS4AAAAIAAAANQAAAE4AAAB8AAAAlQAAAMMAAADcAAAAIQEAACcBAABHMTAwNgAAAEcxMDA2AAAARzEwMDcAAABHMTAwNwAAAEcxMDA4AAAARzEwMDgAVYvsg+wgaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgIAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wBoEAAAAItNCIsRi00Ii4KoAQAA/9CFwHQqaBgAAACLTQiLEYtNCIuCqAEAAP/QiUX0i030ixGLTfSLQgT/0IhF8+sExkXzAGggAAAAi00IixGLTQiLgqgBAAD/0IXAdCpoKAAAAItNCIsRi00Ii4KoAQAA/9CJReyLTeyLEYtN7ItCBP/QiEXr6wTGResAD7ZN+w+2VfMDyg+2ResDyIlN5NtF5NwNPQEAANwFNQEAANld4NlF4IvlXcMAAAAAAABEQAAAAAAAACRA</compiledString>
+							<returnType>float</returnType>
+							<sString>40.0f + 10.0f * (tal("G1006") + tal("G1007") + tal("G1008"))</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Level1/G1005_Predator.TALENT" id="67D9C87D-2BFA-463C-A173-F00E49F4D837">
+					<UnitConstant>
+						<name>PredatorCharges</name>
+						<var>
+							<compiledString>FRYAAAABAAAAGgAAAEcxMDA1X1ByZWRhdG9yQ2hhcmdlcwBVi+xoAAAAAItFCIsQi00Ii4KIAQAA/9Bdww==</compiledString>
+							<returnType>float</returnType>
+							<sString>sender.vG1005_PredatorCharges</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Level1/G1005_Predator.TALENT" id="F0941082-1BCF-458E-A15F-C91B566A1311">
+					<UnitConstant>
+						<name>PredatorCharges2</name>
+						<var>
+							<compiledString>FRcAAAABAAAAGwAAAEcxMDA1X1ByZWRhdG9yQ2hhcmdlczIAVYvsaAAAAACLRQiLEItNCIuCiAEAAP/QXcM=</compiledString>
+							<returnType>float</returnType>
+							<sString>sender.vG1005_PredatorCharges2</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+			</vars>
+		</UnitConstantsContainer>
+	</constants>
+	<consumptionBonus>
+		<constant>0</constant>
+		<percent>0</percent>
+	</consumptionBonus>
+	<cooldownTime>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQg==</compiledString>
+		<returnType>float</returnType>
+		<sString>80.0f</sString>
+	</cooldownTime>
+	<cooldownTimeSecondState>
+		<compiledString></compiledString>
+		<returnType>float</returnType>
+		<sString>0.0f</sString>
+	</cooldownTimeSecondState>
+	<description textref="/Items/Talents/Level1/G1005_Predator.TALENT_description.txt" />
+	<devPoints>1</devPoints>
+	<dispatch href="/Items/Talents/Level1/G1005_Predator.TALENT" id="D1E7A997-42B4-4A44-A1C2-3C4B7F1F6B9D">
+		<DispatchImmediate>
+			<alwaysApply>false</alwaysApply>
+			<applyEffect>
+				<Item href="" />
+				<Item href="" />
+			</applyEffect>
+			<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+			<applyEffectOrientation>Default</applyEffectOrientation>
+			<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+			<dieAfterApply>true</dieAfterApply>
+			<dispatchEffect>
+				<Item href="" />
+				<Item href="" />
+			</dispatchEffect>
+			<flags>0</flags>
+			<instantApply>false</instantApply>
+		</DispatchImmediate>
+	</dispatch>
+	<flags>32771</flags>
+	<forceBonus>0</forceBonus>
+	<image href="/UI/Styles/Icons/Talents/_1005.ITEX" />
+	<imageSecondState href="" />
+	<isGenderTalent>false</isGenderTalent>
+	<isTakenOnStart>false</isTakenOnStart>
+	<isUltimateTalent>false</isUltimateTalent>
+	<isUnitFreeAfterCast>true</isUnitFreeAfterCast>
+	<manaCost>
+		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+		<returnType>float</returnType>
+		<sString>0</sString>
+	</manaCost>
+	<marker></marker>
+	<microAI href="" />
+	<minLevel>0</minLevel>
+	<minUseRangeCorrection>0</minUseRangeCorrection>
+	<naftaCost>350</naftaCost>
+	<name textref="/Items/Talents/Level1/G1005_Predator.TALENT_name.txt" />
+	<node></node>
+	<passiveApplicators>
+		<Item href="/Items/Talents/TalentKits/Redset10_6_OpenHunt/status_Predator.APLR" />
+		<Item href="/Items/Talents/Level1/G1005_Predator.TALENT" id="F6303FB2-187F-42AE-BB8F-FA3D9E086C87">
+			<StatusApplicator>
+				<applicators>
+					<Item href="/Items/Talents/Level1/G1005_Predator.TALENT" id="2F778FB9-91A5-42BA-9BA5-8119F813EB2E">
+						<TriggerApplicator>
+							<actionsCount>
+								<compiledString></compiledString>
+								<returnType>int</returnType>
+								<sString>0</sString>
+							</actionsCount>
+							<applyTarget>ApplicatorTarget</applyTarget>
+							<behaviorFlags>152</behaviorFlags>
+							<caption>Predator incoming damage</caption>
+							<effect>
+								<Item href="" />
+								<Item href="" />
+							</effect>
+							<enabled>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</enabled>
+							<formulaName></formulaName>
+							<lifeTime>
+								<compiledString></compiledString>
+								<returnType>float</returnType>
+								<sString>-1.0</sString>
+							</lifeTime>
+							<LoggingEvent>-1</LoggingEvent>
+							<playAck>false</playAck>
+							<processor href="/Items/Talents/Level1/G1005_Predator.TALENT" id="158DC018-FCE5-44E3-9091-692901FB58FB">
+								<EventProcessorDamageTransformer>
+									<abilityFilter>
+										<abilitiesList />
+										<abilityCondition>
+											<compiledString></compiledString>
+											<returnType>bool</returnType>
+											<sString>true</sString>
+										</abilityCondition>
+										<abilityCostMode>Any</abilityCostMode>
+										<exceptThis>false</exceptThis>
+										<flags>1610614015</flags>
+										<onlySingleTarget>false</onlySingleTarget>
+									</abilityFilter>
+									<add>
+										<compiledString></compiledString>
+										<returnType>float</returnType>
+										<sString>0.0f</sString>
+									</add>
+									<applyTarget>ApplicatorTarget</applyTarget>
+									<checkSender>0</checkSender>
+									<damageTypeFilter>15</damageTypeFilter>
+									<flags>0</flags>
+									<matchTargetInverted>false</matchTargetInverted>
+									<mul>
+										<compiledString>FRcAAAACAAAAHAAAADIAAABHMTAwNV9QcmVkYXRvckNoYXJnZXMyAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcDUwAAADZ6N7h2V382UX8i+VdwwAAAAAAAPA/AAAAQOF6hD8=</compiledString>
+										<returnType>float</returnType>
+										<sString>1.0f - 0.01f * sender.vG1005_PredatorCharges2</sString>
+									</mul>
+									<objectFilter>2040319</objectFilter>
+									<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
+									<spell href="" />
+									<treatDelegatedByDelegator>false</treatDelegatedByDelegator>
+								</EventProcessorDamageTransformer>
+							</processor>
+							<providerName></providerName>
+							<startCondition>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</startCondition>
+							<useAbilityCooldown>false</useAbilityCooldown>
+							<useAbilityOwnerMana>false</useAbilityOwnerMana>
+						</TriggerApplicator>
+					</Item>
+				</applicators>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>Def charges status</caption>
+				<customCounter>
+					<compiledString>FRcAAAABAAAAGwAAAEcxMDA1X1ByZWRhdG9yQ2hhcmdlczIAVYvsaAAAAACLRQiLEItNCIuCiAEAAP/QUdkcJOgFAAAAg8QEXcO4AQAAAA+i98IAAAAEdAfzDyxEJATD6QAAAABVi+yD7AzZRQjZffwPt0X8DQAMAACJRfjZbfjbXfTZbfyLRfSL5V3D</compiledString>
+					<returnType>int</returnType>
+					<sString>f2l(sender.vG1005_PredatorCharges2)</sString>
+				</customCounter>
+				<customProgress>
+					<compiledString>FRcAAAACAAAAHAAAADIAAABHMTAwNV9QcmVkYXRvckNoYXJnZXMyAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcNUAAAADZXfzZRfyL5V3DAAAAAAAAHEA=</compiledString>
+					<returnType>float</returnType>
+					<sString>sender.vG1005_PredatorCharges2 / 7.0f</sString>
+				</customProgress>
+				<description textref="/Items/Talents/Level1/G1005_Predator.TALENT_f6303fb2187f42aebb8ffa3d9e086c87_description.txt" />
+				<dispellPriority>NonDispellable</dispellPriority>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FRcAAAACAAAAHAAAADIAAABHMTAwNV9QcmVkYXRvckNoYXJnZXMyAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHVQAAADf4PbEQXUJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAADgPw==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vG1005_PredatorCharges2 &gt; 0.5</sString>
+				</enabled>
+				<flags>64</flags>
+				<formulaName></formulaName>
+				<image href="/UI/Styles/Icons/Talents/_1005.ITEX" />
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<name textref="/Items/Talents/Level1/G1005_Predator.TALENT_f6303fb2187f42aebb8ffa3d9e086c87_name.txt" />
+				<power>0</power>
+				<providerName></providerName>
+				<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+				<stackCount>0</stackCount>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statusPosition>-21</statusPosition>
+				<stopBehaviour>StopByTime</stopBehaviour>
+				<unstackableWith href="" />
+			</StatusApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level1/G1005_Predator.TALENT" id="B21F6427-8A04-44B5-9C23-4486F474E4B7">
+			<EyeApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<cancelObstacles>true</cancelObstacles>
+				<caption>Predator obstacle vision</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FS8AAAAEAAAANAAAAEoAAABWAAAAbAAAAEcxMDA1X1ByZWRhdG9yQ2hhcmdlcwAAAEcxMDA1X1ByZWRhdG9yQ2hhcmdlczIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdjgAAAN/g9sRBdCtoGAAAAItNCIsRi00Ii4KIAQAA/9DcHY4AAADf4PbEQXQJx0X8AAAAAOsHx0X8AQAAAIpF/IvlXcMAAAAAAAAaQA==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vG1005_PredatorCharges &gt; 6.5 || sender.vG1005_PredatorCharges2 &gt; 6.5</sString>
+				</enabled>
+				<eyeTarget>ApplicatorTarget</eyeTarget>
+				<flags>8</flags>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<visRange>
+					<compiledString>FQAAAAAAAAAAVYvsi0UIixCLTQiLgrQAAAD/0F3D</compiledString>
+					<returnType>float</returnType>
+					<sString>sBaseVisibilityRange</sString>
+				</visRange>
+			</EyeApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level1/G1005_Predator.TALENT" id="C797FD38-DD55-4D5F-9674-5FA37427EABB">
+			<FlagsApplicator parent="/GameLogic/GeneralApplicators/ForbidTalentByCondition.APLR">
+				<applyTarget>AbilityOwner</applyTarget>
+				<caption>Predator forbid active without charges</caption>
+				<enabled>
+					<compiledString>FS8AAAAEAAAANAAAAEoAAABWAAAAbAAAAEcxMDA1X1ByZWRhdG9yQ2hhcmdlcwAAAEcxMDA1X1ByZWRhdG9yQ2hhcmdlczIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdjgAAAN/g9sQFeitoGAAAAItNCIsRi00Ii4KIAQAA/9DcHY4AAADf4PbEBXoJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAADgPw==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vG1005_PredatorCharges &lt; 0.5 &amp;&amp; sender.vG1005_PredatorCharges2 &lt; 0.5</sString>
+				</enabled>
+				<talents>
+					<Item href="/Items/Talents/Level1/G1005_Predator.TALENT" />
+				</talents>
+			</FlagsApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level1/G1005_Predator.TALENT" id="0D1C94DE-7788-4F81-A6F5-8D9B27047020">
+			<SpellPeriodicallyApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>152</behaviorFlags>
+				<caption>Predator charge tick</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<period>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
+					<returnType>float</returnType>
+					<sString>5.0f</sString>
+				</period>
+				<providerName></providerName>
+				<scaleMode>ScaleIsCount</scaleMode>
+				<spell href="/Items/Talents/Level1/G1005_Predator.TALENT" id="7F24BC19-087C-42AB-8D9A-4F43E06C9866">
+					<Spell>
+						<applicators>
+							<Item href="/Items/Talents/Level1/G1005_Predator.TALENT" id="EF8FA4F7-A7CB-477F-81B4-C1B4C86AF44C">
+								<PermanentStatModApplicator>
+									<applyTarget>AbilityOwner</applyTarget>
+									<caption>Gain Predator charge</caption>
+									<customApplyType>None</customApplyType>
+									<enabled>
+										<compiledString>FS4AAAAEAAAAOwAAAE4AAABrAAAAgQAAAFNlbmRlcl9OYXRpdmVUZXJyYWluAAAAAEcxMDA1X1ByZWRhdG9yQ2hhcmdlcwBVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcHasAAADf4PbERHo8i0UIixCLTQiLQkz/0IXAdCtoGAAAAItNCIsRi00Ii4KIAQAA/9DcHaMAAADf4PbEBXoJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAaQAAAAAAAAAAA</compiledString>
+										<returnType>bool</returnType>
+										<sString>!cSender_NativeTerrain &amp;&amp; sTerrainType != TERR_N &amp;&amp; sender.vG1005_PredatorCharges &lt; 6.5</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<LoggingEvent>-1</LoggingEvent>
+									<modifier>
+										<addValue>
+											<compiledString></compiledString>
+											<returnType>float</returnType>
+											<sString>1.0f</sString>
+										</addValue>
+										<multValue>
+											<compiledString></compiledString>
+											<returnType>float</returnType>
+											<sString>1.0f</sString>
+										</multValue>
+										<stat>Life</stat>
+										<topModifier>false</topModifier>
+										<variable>G1005_PredatorCharges</variable>
+									</modifier>
+									<providerName></providerName>
+								</PermanentStatModApplicator>
+							</Item>
+							<Item href="/Items/Talents/Level1/G1005_Predator.TALENT" id="15E71F40-E96E-43C1-A34D-21B7C14E8C46">
+								<PermanentStatModApplicator>
+									<applyTarget>AbilityOwner</applyTarget>
+									<caption>Lose Predator charge</caption>
+									<customApplyType>None</customApplyType>
+									<enabled>
+										<compiledString>FS4AAAAEAAAAOwAAAE4AAABaAAAAcAAAAFNlbmRlcl9OYXRpdmVUZXJyYWluAAAAAEcxMDA1X1ByZWRhdG9yQ2hhcmdlcwBVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcHZoAAADf4PbERHsraBgAAACLRQiLEItNCIuCiAEAAP/Q3B2SAAAA3+D2xEF1CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAA4D8AAAAAAAAAAA==</compiledString>
+										<returnType>bool</returnType>
+										<sString>cSender_NativeTerrain &amp;&amp; sender.vG1005_PredatorCharges &gt; 0.5</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<LoggingEvent>-1</LoggingEvent>
+									<modifier>
+										<addValue>
+											<compiledString></compiledString>
+											<returnType>float</returnType>
+											<sString>-1.0f</sString>
+										</addValue>
+										<multValue>
+											<compiledString></compiledString>
+											<returnType>float</returnType>
+											<sString>1.0f</sString>
+										</multValue>
+										<stat>Life</stat>
+										<topModifier>false</topModifier>
+										<variable>G1005_PredatorCharges</variable>
+									</modifier>
+									<providerName></providerName>
+								</PermanentStatModApplicator>
+							</Item>
+							<Item href="/Items/Talents/Level1/G1005_Predator.TALENT" id="580790CE-A36D-4920-AFF8-95FD70326D4D">
+								<PermanentStatModApplicator>
+									<applyTarget>AbilityOwner</applyTarget>
+									<caption>Lose Def charge</caption>
+									<customApplyType>None</customApplyType>
+									<enabled>
+										<compiledString>FS8AAAAEAAAAPAAAAE8AAABsAAAAggAAAFNlbmRlcl9OYXRpdmVUZXJyYWluAAAAAEcxMDA1X1ByZWRhdG9yQ2hhcmdlczIAVYvsUYtFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S3B2sAAAA3+D2xER6PItFCIsQi00Ii0JM/9CFwHQraBgAAACLTQiLEYtNCIuCiAEAAP/Q3B2kAAAA3+D2xEF1CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAA4D8AAAAAAAAAAA==</compiledString>
+										<returnType>bool</returnType>
+										<sString>!cSender_NativeTerrain &amp;&amp; sTerrainType != TERR_N &amp;&amp; sender.vG1005_PredatorCharges2 &gt; 0.5</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<LoggingEvent>-1</LoggingEvent>
+									<modifier>
+										<addValue>
+											<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAvw==</compiledString>
+											<returnType>float</returnType>
+											<sString>-1.0f</sString>
+										</addValue>
+										<multValue>
+											<compiledString></compiledString>
+											<returnType>float</returnType>
+											<sString>1.0f</sString>
+										</multValue>
+										<stat>Life</stat>
+										<topModifier>false</topModifier>
+										<variable>G1005_PredatorCharges2</variable>
+									</modifier>
+									<providerName></providerName>
+								</PermanentStatModApplicator>
+							</Item>
+							<Item href="/Items/Talents/Level1/G1005_Predator.TALENT" id="9B90B616-E266-4D6C-9737-D454FF084EB3">
+								<PermanentStatModApplicator>
+									<applyTarget>AbilityOwner</applyTarget>
+									<caption>Gain Def charge</caption>
+									<customApplyType>None</customApplyType>
+									<enabled>
+										<compiledString>FS8AAAAEAAAAPAAAAE8AAABbAAAAcQAAAFNlbmRlcl9OYXRpdmVUZXJyYWluAAAAAEcxMDA1X1ByZWRhdG9yQ2hhcmdlczIAVYvsUYtFDFCLTQhRaAAAAACLVRCLAotNEItQUP/S3B2bAAAA3+D2xER7K2gYAAAAi0UIixCLTQiLgogBAAD/0NwdkwAAAN/g9sQFegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAABpAAAAAAAAAAAA=</compiledString>
+										<returnType>bool</returnType>
+										<sString>cSender_NativeTerrain &amp;&amp; sender.vG1005_PredatorCharges2 &lt; 6.5</sString>
+									</enabled>
+									<formulaName></formulaName>
+									<LoggingEvent>-1</LoggingEvent>
+									<modifier>
+										<addValue>
+											<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+											<returnType>float</returnType>
+											<sString>1.0f</sString>
+										</addValue>
+										<multValue>
+											<compiledString></compiledString>
+											<returnType>float</returnType>
+											<sString>1.0f</sString>
+										</multValue>
+										<stat>Life</stat>
+										<topModifier>false</topModifier>
+										<variable>G1005_PredatorCharges2</variable>
+									</modifier>
+									<providerName></providerName>
+								</PermanentStatModApplicator>
+							</Item>
+						</applicators>
+						<dispatch href="/Items/Talents/Level1/G1005_Predator.TALENT" id="5D1E994B-83E4-4978-A8BD-19E0D6049F0E">
+							<DispatchImmediate>
+								<alwaysApply>false</alwaysApply>
+								<applyEffect>
+									<Item href="" />
+									<Item href="" />
+								</applyEffect>
+								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+								<applyEffectOrientation>Default</applyEffectOrientation>
+								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+								<dieAfterApply>true</dieAfterApply>
+								<dispatchEffect>
+									<Item href="" />
+									<Item href="" />
+								</dispatchEffect>
+								<flags>0</flags>
+								<instantApply>false</instantApply>
+							</DispatchImmediate>
+						</dispatch>
+					</Spell>
+				</spell>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<startOffset>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
+					<returnType>float</returnType>
+					<sString>5.0f</sString>
+				</startOffset>
+				<targetSelector href="" />
+			</SpellPeriodicallyApplicator>
+		</Item>
+		<Item href="/Items/Talents/Level1/G1005_Predator.TALENT" id="175AA147-8838-4534-9DCE-A1BED50286CC">
+			<TriggerApplicator>
+				<actionsCount>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</actionsCount>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>152</behaviorFlags>
+				<caption>потеря за добивание</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAWRA==</compiledString>
+					<returnType>float</returnType>
+					<sString>600</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<playAck>false</playAck>
+				<processor href="/Items/Talents/Level1/G1005_Predator.TALENT" id="C34E76E5-C3FD-4C16-A74B-1FFE8307E93D">
+					<EventProcessorUnitDieNearMe>
+						<applyTarget>ApplicatorTarget</applyTarget>
+						<checkSender>0</checkSender>
+						<killerFlags>9</killerFlags>
+						<range>
+							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>0.0f</sString>
+						</range>
+						<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
+						<spell href="/Items/Talents/Level1/G1005_Predator.TALENT" id="695E1250-BAFD-4513-A0BE-2038C605B4CB">
+							<Spell>
+								<applicators>
+									<Item href="/Items/Talents/Level1/G1005_Predator.TALENT" id="287458F1-6279-4E99-898A-15F8F35B0682">
+										<PermanentStatModApplicator>
+											<applyTarget>AbilityOwner</applyTarget>
+											<caption>Lose Def charge</caption>
+											<customApplyType>None</customApplyType>
+											<enabled>
+												<compiledString>FRcAAAACAAAAHAAAADIAAABHMTAwNV9QcmVkYXRvckNoYXJnZXMyAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHVQAAADf4PbEQXUJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAADgPw==</compiledString>
+												<returnType>bool</returnType>
+												<sString>sender.vG1005_PredatorCharges2 &gt; 0.5</sString>
+											</enabled>
+											<formulaName></formulaName>
+											<LoggingEvent>-1</LoggingEvent>
+											<modifier>
+												<addValue>
+													<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAvw==</compiledString>
+													<returnType>float</returnType>
+													<sString>-1.0f</sString>
+												</addValue>
+												<multValue>
+													<compiledString></compiledString>
+													<returnType>float</returnType>
+													<sString>1.0f</sString>
+												</multValue>
+												<stat>Life</stat>
+												<topModifier>false</topModifier>
+												<variable>G1005_PredatorCharges2</variable>
+											</modifier>
+											<providerName></providerName>
+										</PermanentStatModApplicator>
+									</Item>
+									<Item href="/Items/Talents/Level1/G1005_Predator.TALENT" id="E7FD3FDA-D810-4B14-BB96-A01ECB518EFE">
+										<PermanentStatModApplicator>
+											<applyTarget>AbilityOwner</applyTarget>
+											<caption>Lose Predator charge</caption>
+											<customApplyType>None</customApplyType>
+											<enabled>
+												<compiledString>FRYAAAACAAAAGwAAADEAAABHMTAwNV9QcmVkYXRvckNoYXJnZXMAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdUwAAAN/g9sRBdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAOA/</compiledString>
+												<returnType>bool</returnType>
+												<sString>sender.vG1005_PredatorCharges &gt; 0.5</sString>
+											</enabled>
+											<formulaName></formulaName>
+											<LoggingEvent>-1</LoggingEvent>
+											<modifier>
+												<addValue>
+													<compiledString></compiledString>
+													<returnType>float</returnType>
+													<sString>-1.0f</sString>
+												</addValue>
+												<multValue>
+													<compiledString></compiledString>
+													<returnType>float</returnType>
+													<sString>1.0f</sString>
+												</multValue>
+												<stat>Life</stat>
+												<topModifier>false</topModifier>
+												<variable>G1005_PredatorCharges</variable>
+											</modifier>
+											<providerName></providerName>
+										</PermanentStatModApplicator>
+									</Item>
+								</applicators>
+								<dispatch href="/Items/Talents/Level1/G1005_Predator.TALENT" id="FF3D6512-0D51-4DC6-97A8-952BEFA514F5">
+									<DispatchImmediate>
+										<alwaysApply>false</alwaysApply>
+										<applyEffect>
+											<Item href="" />
+											<Item href="" />
+										</applyEffect>
+										<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+										<applyEffectOrientation>Default</applyEffectOrientation>
+										<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+										<dieAfterApply>true</dieAfterApply>
+										<dispatchEffect>
+											<Item href="" />
+											<Item href="" />
+										</dispatchEffect>
+										<flags>0</flags>
+										<instantApply>false</instantApply>
+									</DispatchImmediate>
+								</dispatch>
+							</Spell>
+						</spell>
+						<targets>536870936</targets>
+					</EventProcessorUnitDieNearMe>
+				</processor>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<useAbilityCooldown>false</useAbilityCooldown>
+				<useAbilityOwnerMana>false</useAbilityOwnerMana>
+			</TriggerApplicator>
+		</Item>
+	</passiveApplicators>
+	<persistentId>G1005</persistentId>
+	<prerequisiteTalents />
+	<rarity>outstanding</rarity>
+	<requireLineOfSight>false</requireLineOfSight>
+	<shortDescription textref="/Items/Talents/Level1/G1005_Predator.TALENT_shortDescription.txt" />
+	<talentRollGroups>16</talentRollGroups>
+	<talentStats />
+	<targetType>2013265923</targetType>
+	<type>Active</type>
+	<upgradeLevel>0</upgradeLevel>
+	<useRange>
+		<compiledString>FQ0AAAABAAAAGQAAAFJhbmdlX01lZGl1bQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+		<returnType>float</returnType>
+		<sString>cRange_Medium</sString>
+	</useRange>
+	<useRangeMaterial href="/Effects/UI/AOESelection/Radius.MTRL" />
+	<variativeMaxTalentStats />
+	<variativeMinTalentStats />
+	<vendorCost>-1</vendorCost>
+	<warFogRemoveRadius>0</warFogRemoveRadius>
+	<warFogRemoveTime>0</warFogRemoveTime>
+</Talent>

@@ -26,7 +26,7 @@
 	<askId>0</askId>
 	<autoTargetSelector href="" />
 	<budget>-1</budget>
-	<caption>A0_SUP. Странные механизмы</caption>
+	<caption>A0_SUP. Последний протокол</caption>
 	<castAllowRange>
 		<compiledString></compiledString>
 		<returnType>float</returnType>
@@ -51,7 +51,72 @@
 	<conflictingTalents>
 		<Item href="/Items/Talents/Class/Inventor/Ability_A4_2_SUP.TALENT" />
 	</conflictingTalents>
-	<constants href="" />
+	<constants href="/Items/Talents/Class/Inventor/Ability_A0_SUP.TALENT" id="6762B9D7-4009-4A18-802F-225406199D6D">
+		<UnitConstantsContainer>
+			<vars>
+				<Item href="/Items/Talents/Class/Inventor/Ability_A0_SUP.TALENT" id="C7AC0A64-62D9-4B71-BDF7-BB6411430799">
+					<UnitConstant>
+						<name>A0_SUP_EmergencyTurretDamage</name>
+						<var>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAAAgQgAAZkM=</compiledString>
+							<returnType>float</returnType>
+							<sString>damageScale( sStrength, 40, 230 )</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Inventor/Ability_A0_SUP.TALENT" id="33F93546-E6E6-4BCC-9A28-CA69FD2F603E">
+					<UnitConstant>
+						<name>MasterStatConnected_Power</name>
+						<var>
+							<compiledString>FQAAAAADAAAACQAAABMAAABBAAAAVYvsUWoBUdkFWwAAANkcJFHZBVcAAADZHCRqAItFCIsQi00Ii4IwAQAA/9BR2RwkagGLTRCLEYtNEItCYP/Q3CVPAAAA2V382UX8i+VdwwAAAAAAAPA/AAAgQgAAZkM=</compiledString>
+							<returnType>float</returnType>
+							<sString>damageScale( sStrength, 40, 230 ) - 1</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Inventor/Ability_A0_SUP.TALENT" id="E7FE0A07-350E-4A32-9184-E42A7785B643">
+					<UnitConstant>
+						<name>MasterStatConnected_Life</name>
+						<var>
+							<compiledString>FQAAAAABAAAAEwAAAFWL7FGLRQiLEItNCItCDP/Q3CUhAAAA2V382UX8i+VdwwAAAAAAAFlA</compiledString>
+							<returnType>float</returnType>
+							<sString>sMaxLife - 100</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Inventor/Ability_A0_SUP.TALENT" id="99B20D1E-1ABE-4285-8182-E0B6032408F7">
+					<UnitConstant>
+						<name>MasterStatConnected_Dexterity</name>
+						<var>
+							<compiledString>FQAAAAAAAAAAVYvsi0UIixCLTQiLgjgBAAD/0F3D</compiledString>
+							<returnType>float</returnType>
+							<sString>sDexterity</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Inventor/Ability_A0_SUP.TALENT" id="C33D9F32-033F-4DF3-B419-8F18B8F673A2">
+					<UnitConstant>
+						<name>MasterStatConnected_AttackSpeed</name>
+						<var>
+							<compiledString>FQAAAAAAAAAAVYvsi0UIixCLTQiLQhz/0F3D</compiledString>
+							<returnType>float</returnType>
+							<sString>sAttackSpeed</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Inventor/Ability_A0_SUP.TALENT" id="A5FE5633-33A6-4F72-877A-F217299B24FD">
+					<UnitConstant>
+						<name>SummonPrimeForKill</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
+							<returnType>float</returnType>
+							<sString>10.0f</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+			</vars>
+		</UnitConstantsContainer>
+	</constants>
 	<consumptionBonus>
 		<constant>0</constant>
 		<percent>0</percent>
@@ -69,7 +134,7 @@
 	<description textref="/Items/Talents/Class/Inventor/Ability_A0_SUP.TALENT_description.txt" />
 	<devPoints>1</devPoints>
 	<dispatch href="" />
-	<flags>1</flags>
+	<flags>5</flags>
 	<forceBonus>0</forceBonus>
 	<image href="/UI/Styles/Icons/Heroes/Inventor/A0_SUP.ITEX" />
 	<imageSecondState href="" />
@@ -89,7 +154,84 @@
 	<naftaCost>800</naftaCost>
 	<name textref="/Items/Talents/Class/Inventor/Ability_A0_SUP.TALENT_name.txt" />
 	<node></node>
-	<passiveApplicators />
+	<passiveApplicators>
+		<Item href="/Items/Talents/Class/Inventor/Ability_A0_SUP.TALENT" id="A4D29A68-7629-47E3-B031-6D907D5C6A70">
+			<TriggerApplicator>
+				<actionsCount>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</actionsCount>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>Триггер на смерть: аварийные турели</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<playAck>false</playAck>
+				<processor href="/Items/Talents/Class/Inventor/Ability_A0_SUP.TALENT" id="9A961B67-AB35-4F99-9C32-D6518C422901">
+					<EventProcessorOnDeath>
+						<applyTarget>AbilityOwner</applyTarget>
+						<castSpellDelay>
+							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>0.0f</sString>
+						</castSpellDelay>
+						<checkSender>0</checkSender>
+						<objectFilter>2040319</objectFilter>
+						<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
+						<spell href="/Items/Talents/Class/Inventor/Ability_A0_SUP.TALENT" id="F814FE31-E549-43F7-A4CC-E973E6F66243">
+							<Spell>
+								<applicators>
+									<Item href="/Items/Talents/Class/Inventor/A0_SUP_EmergencyTurretSummon.APLR" />
+								</applicators>
+								<dispatch href="/Items/Talents/Class/Inventor/Ability_A0_SUP.TALENT" id="094F768C-CDB1-4B8A-A0B8-16C8742A19D4">
+									<DispatchImmediate>
+										<alwaysApply>false</alwaysApply>
+										<applyEffect>
+											<Item href="" />
+											<Item href="" />
+										</applyEffect>
+										<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+										<applyEffectOrientation>Default</applyEffectOrientation>
+										<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+										<dieAfterApply>true</dieAfterApply>
+										<dispatchEffect>
+											<Item href="" />
+											<Item href="" />
+										</dispatchEffect>
+										<flags>0</flags>
+										<instantApply>true</instantApply>
+									</DispatchImmediate>
+								</dispatch>
+							</Spell>
+						</spell>
+					</EventProcessorOnDeath>
+				</processor>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<useAbilityCooldown>false</useAbilityCooldown>
+				<useAbilityOwnerMana>false</useAbilityOwnerMana>
+			</TriggerApplicator>
+		</Item>
+	</passiveApplicators>
 	<persistentId>Inventor_A0_SUP</persistentId>
 	<prerequisiteTalents>
 		<Item href="/Items/Talents/Class/Inventor/Ability_A0.TALENT" />

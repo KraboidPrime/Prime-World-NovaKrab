@@ -537,9 +537,9 @@
 																<providerName></providerName>
 																<reduceByPercent>false</reduceByPercent>
 																<reductionAmount>
-																	<compiledString>FRAAAAABAAAAHQAAAFNUQVNJU19JTlRFUlZBTABVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LZ4NzA2V382UX8i+Vdww==</compiledString>
+																	<compiledString>FRsAAAADAAAAKgAAAD8AAABMAAAAU1RBU0lTX0lOVEVSVkFMAFNlcnZlclN0ZXAAVYvsg+wMi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LZ4NwNbQAAAItFDFCLTQhRaBAAAACLVRCLAotNEItQUN1d+P/S3E342V302UX0i+VdwwAAAAAAADRA</compiledString>
 																	<returnType>float</returnType>
-																	<sString>-cSTASIS_INTERVAL*2 ;//т.к. мы должен компенсировать интервал и время за интервал</sString>
+																	<sString>-cSTASIS_INTERVAL*20*cServerStep ;//т.к. мы должен компенсировать интервал и время за интервал</sString>
 																</reductionAmount>
 																<refreshThis>false</refreshThis>
 																<talents />

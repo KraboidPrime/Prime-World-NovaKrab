@@ -112,9 +112,9 @@
 					<z>0</z>
 				</rot>
 				<scale>
-					<x>1</x>
-					<y>1</y>
-					<z>1</z>
+					<x>0.8</x>
+					<y>0.8</y>
+					<z>0.8</z>
 				</scale>
 			</placement>
 			<timeController href="/Effects/Debuffs/DoT/_LongAlly.PRXY" id="F69ED5D9-83BD-42B2-BF82-F96A8A8114C2">
@@ -240,9 +240,9 @@
 					<z>0</z>
 				</rot>
 				<scale>
-					<x>1</x>
-					<y>1</y>
-					<z>1</z>
+					<x>0.8</x>
+					<y>0.8</y>
+					<z>0.8</z>
 				</scale>
 			</placement>
 			<timeController href="/Effects/Debuffs/DoT/_LongAlly.PRXY" id="1BE6D341-1B93-495B-9112-46BE0F255C16">
@@ -368,9 +368,9 @@
 					<z>0</z>
 				</rot>
 				<scale>
-					<x>1</x>
-					<y>1</y>
-					<z>1</z>
+					<x>0.8</x>
+					<y>0.8</y>
+					<z>0.8</z>
 				</scale>
 			</placement>
 			<timeController href="/Effects/Debuffs/DoT/_LongAlly.PRXY" id="EC18EDB4-CE58-4C45-8965-8D276EFEF39F">
@@ -472,8 +472,8 @@
 					<z>0</z>
 				</rot>
 				<scale>
-					<x>27.55213</x>
-					<y>27.55213</y>
+					<x>21.6</x>
+					<y>21.6</y>
 					<z>1</z>
 				</scale>
 			</placement>

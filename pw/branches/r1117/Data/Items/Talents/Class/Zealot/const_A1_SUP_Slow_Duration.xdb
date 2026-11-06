@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Class/Zealot/Ability_A3.TALENT" Count="1" />
 	<name>Slow_Duration</name>
 	<var>
-		<compiledString>FREAAAABAAAAHQAAAFNpbGVuY2VfRHVyYXRpb24AVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
 		<returnType>float</returnType>
-		<sString>cSilence_Duration</sString>
+		<sString>3</sString>
 	</var>
 </UnitConstant>

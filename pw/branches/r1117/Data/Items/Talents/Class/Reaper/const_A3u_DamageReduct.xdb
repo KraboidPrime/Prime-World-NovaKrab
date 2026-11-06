@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Class/Reaper/Ability_A3u.TALENT" Count="1" />
 	<name>A3u_AddDef</name>
 	<var>
-		<compiledString>FQoAAAADAAAAFQAAAB8AAABUAAAATWF4U3RhY2tzAFWL7IPsDGoBUdkFeQAAANkcJFHZBXUAAADZHCRqAItFCIsQi00Ii4I0AQAA/9BR2RwkagCLTRCLEYtNEItCYP/Qi00MUYtVCFJoAAAAAItFEIsQi00Qi0JQ3V34/9DcffjZXfTZRfSL5V3DAAAAQQAAcEI=</compiledString>
+		<compiledString>FSoAAAAGAAAAMQAAAEoAAAB8AAAAhgAAAMEAAAAKAQAAUmVhcGVyX0EzX1NVUAAAAFJlYXBlcl9BM19TVVAAAABNYXhTdGFja3MAVYvsg+woaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgQAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wBqAVHZBTcBAADZHCRR2QUzAQAA2RwkagCLTQiLEYtNCIuCNAEAAP/QUdkcJGoAi00QixGLTRCLQmD/0A+2TfuJTfTbRfRqAVHZBS8BAADZHCRR2ejZHCRqAItVCIsCi00Ii5AwAQAA2cndXezdXeT/0lHZHCRqAItFEIsQi00Qi0Jg/9DcTeTcReyLTQxRi1UIUmggAAAAi0UQixCLTRCLQlDdXdz/0Nx93Nld2NlF2IvlXcMAAIA/AAAQQQAAgEAAAPBB</compiledString>
 		<returnType>float</returnType>
-		<sString>abilityScale (sIntellect, 8, 60) / cMaxStacks</sString>
+		<sString>(abilityScale(sIntellect, 4, 30) + tal("Reaper_A3_SUP")*abilityScale(sStrength, 1, 9))  / cMaxStacks</sString>
 	</var>
 </UnitConstant>

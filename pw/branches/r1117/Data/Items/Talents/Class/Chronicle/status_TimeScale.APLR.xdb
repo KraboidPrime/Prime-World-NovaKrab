@@ -12,7 +12,7 @@
 				</enabled>
 				<formulaName></formulaName>
 				<LoggingEvent>-1</LoggingEvent>
-				<message textref="/Items/Talents/Class/Chronicle/status_TimeScale.APLR_c67db367cb8743bcb86d3ceb5a65cd06_message.txt" />
+				<message textref="" />
 				<providerName></providerName>
 				<uiEvent href="/Items/Talents/Class/Chronicle/status_TimeScale.APLR" id="0ECEBB97-214F-4B88-A01E-6C4199C6512D">
 					<UIEvent>

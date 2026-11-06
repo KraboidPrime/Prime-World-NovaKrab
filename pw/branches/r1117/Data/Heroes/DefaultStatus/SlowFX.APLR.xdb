@@ -5,10 +5,9 @@
 	<BackLink DBID="/Creeps/Normals/Normal8/PvE_Coop1.CREEP" Count="1" />
 	<BackLink DBID="/Creeps/Normals/Normal9/PoisonAura.APLR" Count="1" />
 	<BackLink DBID="/Heroes/DefaultStatus/_SLOW_ALL_status.APLR" Count="1" />
-	<BackLink DBID="/Heroes/DefaultStatus/_SLOW_MOVE.APLR" Count="1" />
 	<BackLink DBID="/Heroes/DefaultStatus/_SLOW_MOVE_TOP.APLR" Count="1" />
 	<BackLink DBID="/Heroes/Ent/AttackAbility.ATCK" Count="1" />
-	<BackLink DBID="/Heroes/ManaWyrm/_.HROB" Count="1" />
+	<BackLink DBID="/Heroes/Manawyrm/_.HROB" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Alchemist/status_Alchemist_Glue.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Alchemist/status_Alchemist_Slow.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Alchemist/status_Slow_Alchemist_A1.APLR" Count="1" />
@@ -19,6 +18,8 @@
 	<BackLink DBID="/Items/Talents/Class/Katana/Ability_A4.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Rockman/Ability2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentKits/RedSet2_4_Blow/G487_WaitStatus.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/arbik_elf/Status_Culling.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/arbik_elf/Ability_A4_3.TALENT" Count="2" />
 	<applicators />
 	<applyTarget>ApplicatorTarget</applyTarget>
 	<behaviorFlags>152</behaviorFlags>

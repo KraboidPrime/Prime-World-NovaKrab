@@ -57,9 +57,9 @@
 					<UnitConstant>
 						<name>A3_BonusShieldCapacity</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQw==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQg==</compiledString>
 							<returnType>float</returnType>
-							<sString>200.0f</sString>
+							<sString>120.0f</sString>
 						</var>
 					</UnitConstant>
 				</Item>

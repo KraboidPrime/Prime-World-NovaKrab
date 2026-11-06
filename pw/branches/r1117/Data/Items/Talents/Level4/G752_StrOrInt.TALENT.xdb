@@ -155,6 +155,26 @@
 						</var>
 					</UnitConstant>
 				</Item>
+				<Item href="/Items/Talents/Level4/G752_StrOrInt.TALENT" id="413E8493-F766-4E79-BDEC-B9E18CE4B8DA">
+					<UnitConstant>
+						<name>Silence_StartCondition</name>
+						<var>
+							<compiledString>FQgAAAABAAAAEwAAAFI3XzlfQ0QAVYvsUWoAi0UQUGgAAAAAi00IixGLTQiLgpwBAAD/0DPJO0UQD5TBiU3820X8i+Vdww==</compiledString>
+							<returnType>float</returnType>
+							<sString>sender.applR7_9_CD(GLOBAL) == pMisc</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Level4/G752_StrOrInt.TALENT" id="81D59C38-0119-4C16-9598-DB7E0664ABA3">
+					<UnitConstant>
+						<name>Disarm_StartCondition</name>
+						<var>
+							<compiledString>FQgAAAABAAAAEwAAAFI3XzlfQ0QAVYvsUWoAi0UQUGgAAAAAi00IixGLTQiLgpwBAAD/0DPJO0UQD5TBiU3820X8i+Vdww==</compiledString>
+							<returnType>float</returnType>
+							<sString>sender.applR7_9_CD(GLOBAL) == pMisc</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

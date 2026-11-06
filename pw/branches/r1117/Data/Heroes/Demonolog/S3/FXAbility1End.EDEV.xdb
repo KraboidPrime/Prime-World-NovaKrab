@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EnableDisableSCEvents>
+				<disableEvents />
+	<enableEvents>
+		<Item href="/Heroes/Demonolog/S3/FXAbility1End.EDEV" id="5910F9F5-2FEC-4283-A96C-8240261E5C86">
+			<AnimationSCEvent>
+				<animParam>0.4</animParam>
+				<name>ability1</name>
+				<probability>100</probability>
+				<type>NodeParam</type>
+			</AnimationSCEvent>
+		</Item>
+	</enableEvents>
+	<order>EnableThenDisable</order>
+	<restartComponent>true</restartComponent>
+</EnableDisableSCEvents>

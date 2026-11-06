@@ -70,6 +70,7 @@
 				<Item href="/Items/Talents/Class/Warlord/const_A3_RetaliationDamage" />
 				<Item href="/Items/Talents/Class/Warlord/const_A3_Duration" />
 				<Item href="/Items/Talents/Class/Warlord/const_A3u_AllDamage_Decrease_Percent" />
+				<Item href="/Items/Talents/Class/Warlord/const_A3u_SelfAllDamage_Decrease_Percent" />
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

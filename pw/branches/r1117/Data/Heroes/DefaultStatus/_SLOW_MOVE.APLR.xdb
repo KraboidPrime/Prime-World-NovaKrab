@@ -5,7 +5,7 @@
 	<BackLink DBID="/Creeps/Minions/Minion1/PvE_R4.CREEP" Count="1" />
 	<BackLink DBID="/Creeps/Normals/Normal7/CTF_S11.CREEP" Count="1" />
 	<BackLink DBID="/Creeps/Normals/Normal9/PoisonAura.APLR" Count="1" />
-	<BackLink DBID="/Heroes/BladeDancer/_.HROB" Count="1" />
+	<BackLink DBID="/Heroes/Bladedancer/_.HROB" Count="1" />
 	<BackLink DBID="/Heroes/DefaultStatus/List_AllControlAppl.APLS" Count="1" />
 	<BackLink DBID="/Heroes/DefaultStatus/List_SlowUnstacked.APLS" Count="1" />
 	<BackLink DBID="/Heroes/Ent/AttackAbility.ATCK" Count="1" />
@@ -19,7 +19,6 @@
 	<BackLink DBID="/Items/Talents/Class/Chronicle/Ability_A4_2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Crusader/A1_A_Spell.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Crusader/A1_B_Spell.APLR" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Crusader/Ability_A2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Dryad/Ability_A4_2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Ent/Ability_A3.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Faceless/A1u1Slow.APLR" Count="1" />
@@ -96,11 +95,11 @@
 	<BackLink DBID="/Items/Talents/Class/Chicken/Ability_A0.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Chicken/Ability_A4_1.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A4_1.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A0.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Naga/status_A4_2_Enemy.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset4_3_Fire/status_G557_Mark.APLR" Count="2" />
 	<BackLink DBID="/Items/Talents/TalentKits/Redset4_3_Fire/G557_FireDmg.SPLL" Count="1" />
 	<BackLink DBID="/Items/Talents/Level2/G021_Life-Str-Int.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Warlord/Ability4.TALENT" Count="1" />
 	<applicators>
 		<Item href="/Heroes/DefaultStatus/_SLOW_MOVE.APLR" id="BD7263A6-11FD-4EAA-A701-C57196049889">
 			<StatModApplicator>
@@ -186,7 +185,7 @@
 		<sString>-1.0</sString>
 	</customProgress>
 	<description textref="/Heroes/DefaultStatus/_SLOW_MOVE.APLR_description.txt" />
-	<dispellPriority>Medium</dispellPriority>
+	<dispellPriority>Low</dispellPriority>
 	<effect>
 		<Item href="" />
 		<Item href="" />

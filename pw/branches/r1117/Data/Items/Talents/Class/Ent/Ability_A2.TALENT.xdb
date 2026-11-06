@@ -126,7 +126,7 @@
 							<caption>Гостмув для захода</caption>
 							<collisionFlags>5</collisionFlags>
 							<effect>
-								<Item href="/Effects/General/Ghost/_Prime.EFFT" />
+								<Item href="" />
 								<Item href="" />
 							</effect>
 							<enabled>
@@ -480,9 +480,9 @@
 					<UnitConstant>
 						<name>A2_ShieldCapacity</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJGoAi00QixGLTRCLQmD/0F3DAACqQgAA/0M=</compiledString>
+							<compiledString>FQAAAAACAAAAGwAAACwAAABVi+xRi0UIixCLTQiLgjQBAAD/0FHZHCRR2QVCAAAA2Rwk6B8AAACDxAjcDToAAADZXfzZRfyL5V3DMzMzMzMz+z8AAEhCVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
 							<returnType>float</returnType>
-							<sString>abilityScale(sIntellect, 85, 510)</sString>
+							<sString>1.7*max(50, sIntellect)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

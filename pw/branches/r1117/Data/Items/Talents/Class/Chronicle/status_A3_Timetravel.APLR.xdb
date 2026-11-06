@@ -1,6 +1,163 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StatusApplicator>
-	<applicators />
+	<applicators>
+		<Item href="/Items/Talents/Class/Chronicle/status_A3_Timetravel.APLR" id="25E50C03-7656-4D99-8DA0-769388B36463">
+			<PermanentStatModApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>reset repeated damage</caption>
+				<customApplyType>None</customApplyType>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvsVotFCIsQi00Ii4KQAQAA/9CL8ItNDIsRi00Mi4KQAQAA/9AzyTvwD5XBisFeXcM=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sFctn != rFctn</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>0.0f</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>0.0f</sString>
+					</multValue>
+					<stat>Life</stat>
+					<topModifier>false</topModifier>
+					<variable>Chronicle_A3_DamageTaken</variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/Chronicle/status_A3_Timetravel.APLR" id="62F4C022-BFB5-4511-85DF-7D49276037BB">
+			<TriggerApplicator>
+				<actionsCount>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</actionsCount>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>0</behaviorFlags>
+				<caption>remember incoming damage</caption>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<playAck>false</playAck>
+				<processor href="/Items/Talents/Class/Chronicle/status_A3_Timetravel.APLR" id="82EE6043-9378-4B63-9500-00E31435FF85">
+					<EventProcessorDamageTransformer>
+						<abilityFilter>
+							<abilitiesList />
+							<abilityCondition>
+								<compiledString></compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</abilityCondition>
+							<abilityCostMode>Any</abilityCostMode>
+							<exceptThis>false</exceptThis>
+							<flags>1073743103</flags>
+							<onlySingleTarget>false</onlySingleTarget>
+						</abilityFilter>
+						<add>
+							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>0.0f</sString>
+						</add>
+						<applyTarget>ApplicatorTarget</applyTarget>
+						<checkSender>0</checkSender>
+						<damageTypeFilter>31</damageTypeFilter>
+						<flags>0</flags>
+						<matchTargetInverted>false</matchTargetInverted>
+						<mul>
+							<compiledString></compiledString>
+							<returnType>float</returnType>
+							<sString>1.0f</sString>
+						</mul>
+						<objectFilter>2040319</objectFilter>
+						<senderMatchTarget>ApplicatorTarget</senderMatchTarget>
+						<spell href="/Items/Talents/Class/Chronicle/status_A3_Timetravel.APLR" id="23859A2A-176C-4148-8800-D7E0E31EB663">
+							<Spell>
+								<applicators>
+									<Item href="/Items/Talents/Class/Chronicle/status_A3_Timetravel.APLR" id="D75B8818-39E9-479A-A62D-C89989951BF6">
+										<PermanentStatModApplicator>
+											<applyTarget>ApplicatorTarget</applyTarget>
+											<caption>add repeated damage</caption>
+											<customApplyType>None</customApplyType>
+											<enabled>
+												<compiledString>FSkAAAACAAAAVwAAAHQAAABDaHJvbmljbGVfQTNfRGFtYWdlVGFrZW4AAAAAQTNfRGFtYWdlQ2FwAFWL7IPsDFaLRQiLEItNCIuCkAEAAP/Qi/CLTQyLEYtNDIuCkAEAAP/QO/B0RWgAAAAAi00MixGLTQyLgogBAAD/0ItNDFGLVQhSaBwAAACLRRCLEItNEItCUN1d+P/Q3F343+D2xEF1CcdF9AEAAADrB8dF9AAAAACKRfRei+Vdww==</compiledString>
+												<returnType>bool</returnType>
+												<sString>sFctn != rFctn &amp;&amp; receiver.vChronicle_A3_DamageTaken &lt; cA3_DamageCap</sString>
+											</enabled>
+											<formulaName></formulaName>
+											<LoggingEvent>-1</LoggingEvent>
+											<modifier>
+												<addValue>
+													<compiledString>FTYAAAADAAAATQAAAGoAAACMAAAAQTNfRGFtYWdlQ2FwAAAAAENocm9uaWNsZV9BM19EYW1hZ2VUYWtlbgAAAAByYXdEYW1hZ2UAVYvsg+wQi0UQixCLTRCLQkj/0IlF/GgQAAAAi00MixGLTQyLgogBAAD/0ItNDFGLVQhSaAAAAACLRRCLEItNEItCUN1d9P/Q3GX02V3w2UXwUdkcJGgsAAAAi038ixGLTfyLQlT/0FHZHCToHAAAAIPEBNkcJFHZ7tkcJOgzAAAAg8QIi+VdwwAAAABVi+xR2UUI2UUM3tnf4PbEQXUI2UUI2V386wbZRQzZXfzZRfyL5V3DVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
+													<returnType>float</returnType>
+													<sString>max(0.0f, min(appl.parent.GetVariable("rawDamage"), cA3_DamageCap - receiver.vChronicle_A3_DamageTaken))</sString>
+												</addValue>
+												<multValue>
+													<compiledString></compiledString>
+													<returnType>float</returnType>
+													<sString>1.0f</sString>
+												</multValue>
+												<stat>Life</stat>
+												<topModifier>false</topModifier>
+												<variable>Chronicle_A3_DamageTaken</variable>
+											</modifier>
+											<providerName></providerName>
+										</PermanentStatModApplicator>
+									</Item>
+								</applicators>
+								<dispatch href="/Items/Talents/Class/Chronicle/status_A3_Timetravel.APLR" id="908895B7-32C1-4C65-B7D4-B66326D03746">
+									<DispatchImmediate>
+										<alwaysApply>false</alwaysApply>
+										<applyEffect>
+											<Item href="" />
+											<Item href="" />
+										</applyEffect>
+										<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+										<applyEffectOrientation>Default</applyEffectOrientation>
+										<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+										<dieAfterApply>true</dieAfterApply>
+										<dispatchEffect>
+											<Item href="" />
+											<Item href="" />
+										</dispatchEffect>
+										<flags>0</flags>
+										<instantApply>true</instantApply>
+									</DispatchImmediate>
+								</dispatch>
+							</Spell>
+						</spell>
+						<treatDelegatedByDelegator>false</treatDelegatedByDelegator>
+					</EventProcessorDamageTransformer>
+				</processor>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<useAbilityCooldown>false</useAbilityCooldown>
+				<useAbilityOwnerMana>false</useAbilityOwnerMana>
+			</TriggerApplicator>
+		</Item>
+	</applicators>
 	<applyTarget>ApplicatorTarget</applyTarget>
 	<behaviorFlags>152</behaviorFlags>
 	<caption>time travel status</caption>

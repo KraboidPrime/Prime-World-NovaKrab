@@ -15,7 +15,7 @@
 						<compiledString></compiledString>
 					</enabled>
 					<formulaName>Damage2</formulaName>
-					<uiEvent href="" />
+					<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Material.UIEV" />
 				</DamageApplicator>
 			</applicator>
 			<variableNames>
@@ -38,11 +38,11 @@
 			<applicator href="/Items/Talents/Class/Marine/A2_Damages.APLR" id="0CF51467-9AE5-4440-BF51-78B87D73BA55">
 				<UIMessageApplicator>
 					<applyTarget>ApplicatorTarget</applyTarget>
-					<caption>flyoff</caption>
+					<caption>mistaken flyoff</caption>
 					<enabled>
-						<compiledString></compiledString>
+						<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 						<returnType>bool</returnType>
-						<sString>true</sString>
+						<sString>false</sString>
 					</enabled>
 					<formulaName></formulaName>
 					<LoggingEvent>-1</LoggingEvent>

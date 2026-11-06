@@ -1705,9 +1705,9 @@
 													<LoggingEvent>-1</LoggingEvent>
 													<modifier>
 														<addValue>
-															<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+															<compiledString>FQsAAAACAAAAGAAAACsAAABTZXJ2ZXJTdGVwAFWL7FGLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0twNOQAAANld/NlF/IvlXcMAAAAAAAAkQA==</compiledString>
 															<returnType>float</returnType>
-															<sString>1.0f</sString>
+															<sString>10*cServerStep</sString>
 														</addValue>
 														<multValue>
 															<compiledString></compiledString>

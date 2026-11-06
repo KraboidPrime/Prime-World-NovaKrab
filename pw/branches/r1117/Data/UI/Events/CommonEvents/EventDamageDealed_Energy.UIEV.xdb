@@ -168,7 +168,6 @@
 	<BackLink DBID="/Items/Talents/Class/Ratcatcher/A1Damage.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Ratcatcher/Ability2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Reaper/A1_JumpAndDown.APLR" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Reaper/Ability_A1.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Reaper/Ability_A4_2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Rifleman/Ability_A2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Rifleman/Ability_A4.TALENT" Count="1" />
@@ -288,6 +287,17 @@
 	<BackLink DBID="/Items/Talents/Class/Healer/Ability1.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Healer/A4PeriodSpell.APLR" Count="1" />
 	<BackLink DBID="/Buildings/DefaultStats/DefaultMainAttack.ATCK" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Ratcatcher/Ability4.TALENT" Count="1" />
+	<BackLink DBID="/Heroes/Bladedancer/_.HROB" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Naga/status_A4_2_NewEnemy.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/arbik_elf/Ability_A2.TALENT" Count="10" />
+	<BackLink DBID="/Items/Talents/Class/arbik_elf/Ability_A4_2.TALENT" Count="5" />
+	<BackLink DBID="/Items/Talents/Class/arbik_elf/Ability_A4_3.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/arbik_elf/arbik_A3_BombExpl.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/arbik_elf/angel_Summon_A3_Pick2.APLR" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/arbik_elf/angel_Summon_A3_Pick3.APLR" Count="3" />
+	<BackLink DBID="/Heroes/arbik_elf/_.ATCK" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/arbik_elf/Status_Culling.APLR" Count="1" />
 	<signRecipients>EVENT_PARTICIPANTS</signRecipients>
 	<UISigns>
 		<Item href="/UI/Events/CommonEvents/EventDamageDealed_Energy.UIEV" id="FCDDC7F1-12E2-4611-8C2F-927182843C56">

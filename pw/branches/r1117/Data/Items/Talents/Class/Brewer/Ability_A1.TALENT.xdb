@@ -347,9 +347,9 @@
 																							<applicator href="/Items/Talents/Class/Brewer/Ability_A1.TALENT" id="5FB244B7-D582-493F-A7EA-BA63DE9C34FE">
 																								<TriggerApplicator>
 																									<actionsCount>
-																										<compiledString></compiledString>
+																										<compiledString>FQAAAAAAAAAAVYvsuAEAAABdww==</compiledString>
 																										<returnType>int</returnType>
-																										<sString>0</sString>
+																										<sString>1</sString>
 																									</actionsCount>
 																									<applyTarget>AbilityOwner</applyTarget>
 																									<behaviorFlags>187</behaviorFlags>
@@ -1302,9 +1302,9 @@
 	<isUltimateTalent>false</isUltimateTalent>
 	<isUnitFreeAfterCast>false</isUnitFreeAfterCast>
 	<manaCost>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQg==</compiledString>
+		<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 		<returnType>float</returnType>
-		<sString>50.0f</sString>
+		<sString>0.0f</sString>
 	</manaCost>
 	<marker></marker>
 	<microAI href="/Items/Talents/Class/Brewer/Ability_A1.TALENT" id="B5BAD76D-8AA2-4115-9541-689A05FE0E23">

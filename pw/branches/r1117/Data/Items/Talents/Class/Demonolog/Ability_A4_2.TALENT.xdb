@@ -1755,6 +1755,46 @@
 					</UnitConstant>
 				</Item>
 				<Item href="/Items/Talents/Class/Demonolog/const_A0_SUP_IncMaxDemons" />
+				<Item href="/Items/Talents/Class/Demonolog/Ability_A4_2.TALENT" id="AE02E1B4-8DF8-43A0-BCD3-0DE583C79B28">
+					<UnitConstant>
+						<name>VISIBLE_Duration</name>
+						<var>
+							<compiledString>FQ4AAAABAAAAGgAAAFJvb3RfRHVyYXRpb24AVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+							<returnType>float</returnType>
+							<sString>cRoot_Duration</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Demonolog/Ability_A4_2.TALENT" id="758EC5F6-58CA-4E9F-9261-E6136E909DD1">
+					<UnitConstant>
+						<name>VISIBLE_StartCondition</name>
+						<var>
+							<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+							<returnType>float</returnType>
+							<sString>true</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Demonolog/Ability_A4_2.TALENT" id="03356F6C-4C05-4346-AA57-ECD011428EDC">
+					<UnitConstant>
+						<name>VISIBLE_EnableCondition</name>
+						<var>
+							<compiledString>FRYAAAABAAAAIQAAAENhcHR1cmVkRGVtb25vbG9nUm9vdABVi+xRagKLRRBQaAAAAACLTQyLEYtNDIuCnAEAAP/QM8k7RRAPlcGJTfzbRfyL5V3D</compiledString>
+							<returnType>float</returnType>
+							<sString>receiver.applCapturedDemonologRoot(ABILITY) != pMisc</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Demonolog/Ability_A4_2.TALENT" id="6A9BFABA-BFE7-4D5F-B446-D7B7AA74516D">
+					<UnitConstant>
+						<name>VISIBLE_EyeRange</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
+							<returnType>float</returnType>
+							<sString>10</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

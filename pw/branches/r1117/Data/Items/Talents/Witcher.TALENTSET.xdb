@@ -118,7 +118,7 @@
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level3/G575_EnergyReg_MoveSpeed.TALENT.xdb" />
+					<talent href="/Items/Talents/Class/Witcher/Ability_A2u.TALENT" />
 				</Item>
 			</talents>
 		</Item>

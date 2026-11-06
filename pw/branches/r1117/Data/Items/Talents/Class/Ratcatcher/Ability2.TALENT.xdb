@@ -1262,9 +1262,9 @@
 					<UnitConstant>
 						<name>A2_Damage</name>
 						<var>
-							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBWMAAADZHCRR2QVfAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJItNCIsRi00Ii4IwAQAA/9BR2Rwk6B8AAACDxATZHCRqAYtNEIsRi00Qi0Jg/9BdwwAAmkIAwA9EVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
+							<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBWMAAADZHCRR2QVfAAAA2RwkagCLRQiLEItNCIuCNAEAAP/QUdkcJItNCIsRi00Ii4IwAQAA/9BR2Rwk6B8AAACDxATZHCRqAYtNEIsRi00Qi0Jg/9BdwwAAqkIAQB5EVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(max(sStrength, sIntellect),  77, 575)</sString>
+							<sString>damageScale(max(sStrength, sIntellect),  85, 633)</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -1273,9 +1273,9 @@
 					<UnitConstant>
 						<name>A4_2_ForCreepDamage</name>
 						<var>
-							<compiledString>FQAAAAACAAAAMQAAADsAAABVi+yD7AiLRQiLEItNCIuCfAEAAP/QiUX8i00IixGLTQiLgnwBAAD/0IlF+GoBUdkFjgAAANkcJFHZBYoAAADZHCRqAItN/IsRi038i4I0AQAA/9BR2Rwki034ixGLTfiLgjABAAD/0FHZHCToIQAAAIPEBNkcJGoBi00QixGLTRCLQmD/0IvlXcMAAMBAAAAoQlWL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
+							<compiledString>FQAAAAACAAAAMQAAADsAAABVi+yD7AiLRQiLEItNCIuCfAEAAP/QiUX8i00IixGLTQiLgnwBAAD/0IlF+GoBUdkFjgAAANkcJFHZBYoAAADZHCRqAItN/IsRi038i4I0AQAA/9BR2Rwki034ixGLTfiLgjABAAD/0FHZHCToIQAAAIPEBNkcJGoBi00QixGLTRCLQmD/0IvlXcMAAMBAAAAcQlWL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
 							<returnType>float</returnType>
-							<sString>damageScale(max(sender.master.Strength, sender.master.Intellect), 6, 42)</sString>
+							<sString>damageScale(max(sender.master.Strength, sender.master.Intellect), 6, 39)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

@@ -136,9 +136,9 @@
 		<Item href="/Items/Talents/Level5/G633_StrOrInt.TALENT" id="C791A6AA-1BDD-4C41-8709-C5DC378CBDA4">
 			<ConditionFormula>
 				<condition>
-					<compiledString>FRkAAAACAAAAHgAAADQAAABSZWRzZXQ2XzJfVG9vbHRpcENvdW50ZXIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdVgAAAN/g9sQFegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAhA</compiledString>
+					<compiledString>FRkAAAACAAAAHgAAADQAAABSZWRzZXQ2XzJfVG9vbHRpcENvdW50ZXIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdVgAAAN/g9sQFegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAABA</compiledString>
 					<returnType>bool</returnType>
-					<sString>sender.vRedset6_2_TooltipCounter &lt; 3</sString>
+					<sString>sender.vRedset6_2_TooltipCounter &lt; 2</sString>
 				</condition>
 				<name>InForma</name>
 			</ConditionFormula>
@@ -169,9 +169,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQw==</compiledString>
+		<compiledString>FRkAAAACAAAAHgAAADQAAABSZWRzZXQ2XzJfVG9vbHRpcENvdW50ZXIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdVgAAAN/g9sQBdQnHRfzIAAAA6wfHRfwsAQAA20X8i+VdwwAAAAAAAAhA</compiledString>
 		<returnType>float</returnType>
-		<sString>240</sString>
+		<sString>(sender.vRedset6_2_TooltipCounter &gt;= 3) ? 200 : 300</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>
@@ -317,16 +317,16 @@
 			<FlagsApplicator>
 				<applyTarget>AbilityOwner</applyTarget>
 				<behaviorFlags>0</behaviorFlags>
-				<caption>Запрет использовать талант, если нет 3</caption>
+				<caption>Запрет использовать талант, если нет 2</caption>
 				<consumables />
 				<effect>
 					<Item href="" />
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FRkAAAACAAAAHgAAADQAAABSZWRzZXQ2XzJfVG9vbHRpcENvdW50ZXIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdVgAAAN/g9sQFegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAhA</compiledString>
+					<compiledString>FRkAAAACAAAAHgAAADQAAABSZWRzZXQ2XzJfVG9vbHRpcENvdW50ZXIAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdVgAAAN/g9sQFegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAABA</compiledString>
 					<returnType>bool</returnType>
-					<sString>sender.vRedset6_2_TooltipCounter &lt; 3</sString>
+					<sString>sender.vRedset6_2_TooltipCounter &lt; 2</sString>
 				</enabled>
 				<flag>1024</flag>
 				<formulaName></formulaName>

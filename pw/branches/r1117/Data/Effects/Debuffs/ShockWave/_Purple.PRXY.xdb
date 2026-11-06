@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DBSceneComponent>
-	<BackLink DBID="/Effects/Debuffs/ShockWave/_Purple.EFFT" Count="1" />
+	<BackLink DBID="/Effects/Debuffs/ShockWave/_Purple.EFFT" Count="2" />
 	<BackLink DBID="/Effects/Debuffs/ShockWave/_Purple_Short.PRXY" Count="1" />
 	<BackLink DBID="/Effects/Debuffs/ShockWave/_PurpleMedium.PRXY" Count="1" />
 	<attached>
@@ -1277,7 +1277,7 @@
 								<w>0.9996444</w>
 								<x>0</x>
 								<y>0</y>
-								<z>0.02666626</z>
+								<z>0.02666627</z>
 							</Value>
 						</Item>
 						<Item>
@@ -1403,7 +1403,7 @@
 								<w>0.998906</w>
 								<x>0</x>
 								<y>0</y>
-								<z>0.04676237</z>
+								<z>0.04676238</z>
 							</Value>
 						</Item>
 						<Item>

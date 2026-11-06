@@ -18,5 +18,10 @@
 		<state name="demonolog_S1">
 			<component href="/Effects/Shots/PoleAxe/Blade_S1TRS.PRXY" />
 		</state>
+		<state name="demonolog_S3">
+			<component href="/Effects/Shots/FireBall/_DTRS.PRXY" />
+			<fadeIn>0.1</fadeIn>
+			<parentType>General</parentType>
+		</state>
 	</__states>
 </BasicEffectStandalone>

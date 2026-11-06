@@ -54,7 +54,7 @@
 				<enabled>
 					<compiledString>FSAAAAACAAAAJwAAAEAAAABJbnZlbnRvcl9BMF9TVVAASW52ZW50b3JfQTBfU1VQAFWL7IPsFGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdDaLVQiLAotNCIuQuAAAAP/Si0UIixCLTQiLgrwAAADdXfD/0Nxd8N/g9sQFegnHRewBAAAA6wfHRewAAAAAikXsi+Vdww==</compiledString>
 					<returnType>bool</returnType>
-					<sString>tal("Inventor_A0_SUP") &amp;&amp; sBaseStrength &gt; sBaseIntellect</sString>
+					<sString>false</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<lifeTime>

@@ -31,6 +31,7 @@
 	<BackLink DBID="/MiniGames/Minigame02/Effects/Brighten/_.PRXY" Count="1" />
 	<BackLink DBID="/Summons/Soul/FXIdle.PRXY" Count="1" />
 	<BackLink DBID="/Effects/Shots/Rocket/_Bomber.PRXY" Count="1" />
+	<BackLink DBID="/Effects/Shots/Rocket/_Bomber2.PRXY" Count="1" />
 	<generatedFileName></generatedFileName>
 	<mipLevels>0</mipLevels>
 	<mipLevelUsage>AutoGenerate</mipLevelUsage>

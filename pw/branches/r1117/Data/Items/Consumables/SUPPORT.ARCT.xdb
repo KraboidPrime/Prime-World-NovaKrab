@@ -15,7 +15,7 @@
 	<BackLink DBID="/Items/Talents/Level1/G722_RegEnergy.TALENT" Count="1" />
 	<BackLink DBID="/Items/Consumables/AADISABLE.ARCT" Count="1" />
 	<BackLink DBID="/Buildings/DefaultStats/Basic_Bots.CNSH" Count="2" />
-	<BackLink DBID="/Items/Consumables/SUPPORT.ARCT" Count="5" />
+	<BackLink DBID="/Items/Consumables/SUPPORT.ARCT" Count="6" />
 	<BackLink DBID="/Items/Consumables/EyeOfSeeing.ARCT" Count="3" />
 	<BackLink DBID="/Maps/Multiplayer/MOBA/Mains/_A.MBLD" Count="3" />
 	<BackLink DBID="/Maps/Multiplayer/MOBA/Mains/_B.MBLD" Count="3" />
@@ -224,9 +224,9 @@
 					<UnitConstant>
 						<name>PrimeZumaSingle</name>
 						<var>
-							<compiledString>FQ4AAAACAAAAEwAAACkAAABUaW1lckRvcFByaW1lAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcLU0AAADZXfzZRfxR2RwkUdnu2Rwk6BMAAACDxAiL5V3DAAAAAAAAAAAAAFlAVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
+							<compiledString>FQ4AAAACAAAAEwAAACkAAABUaW1lckRvcFByaW1lAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcLU0AAADZXfzZRfxR2RwkUdnu2Rwk6BMAAACDxAiL5V3DAAAAAAAAAAAAgFZAVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
 							<returnType>float</returnType>
-							<sString>max(0, (100-sender.vTimerDopPrime))</sString>
+							<sString>max(0, (90-sender.vTimerDopPrime))</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -1296,9 +1296,9 @@
 				<flag>512</flag>
 				<formulaName></formulaName>
 				<lifeTime>
-					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQQ==</compiledString>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQQ==</compiledString>
 					<returnType>float</returnType>
-					<sString>10</sString>
+					<sString>15</sString>
 				</lifeTime>
 				<LoggingEvent>-1</LoggingEvent>
 				<providerName></providerName>
@@ -1580,6 +1580,41 @@
 				<targetAbility>BaseAttack</targetAbility>
 				<useListAs>ListAsRule</useListAs>
 			</AbilityUpgradeApplicator>
+		</Item>
+		<Item href="/Items/Consumables/SUPPORT.ARCT" id="4FF34607-F07F-4183-84AE-290332C8A674">
+			<FlagsApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<behaviorFlags>216</behaviorFlags>
+				<caption>ещё страховка от случайной отмены</caption>
+				<consumables>
+					<Item href="/Items/Consumables/SUPPORT.ARCT" />
+				</consumables>
+				<effect>
+					<Item href="" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString>FRwAAAAEAAAAIQAAADcAAABDAAAAWQAAAE1vbmV5TmV3VGltZQAAAABMb3ZrYXlhSWRlYQBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B2DAAAA3+D2xER6K2gQAAAAi00IixGLTQiLgogBAAD/0NwdewAAAN/g9sRBdQnHRfwAAAAA6wfHRfwBAAAAikX8i+VdwwAAAAAAABJAAAAAAAAAAAA=</compiledString>
+					<returnType>bool</returnType>
+					<sString>!(sender.vMoneyNewTime == 0.0f &amp;&amp; sender.vLovkayaIdea &gt; 4.5)</sString>
+				</enabled>
+				<flag>512</flag>
+				<formulaName></formulaName>
+				<lifeTime>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAvw==</compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<talents />
+				<useListAs>ListAsRule</useListAs>
+			</FlagsApplicator>
 		</Item>
 	</passiveApplicators>
 	<persistentId></persistentId>

@@ -91,6 +91,10 @@
 						</applicator>
 					</Item>
 					<Item skip="1" />
+					<Item>
+						<applicator href="/Items/Talents/Class/SnowQueen/New_mana_burn.APLR" />
+						<variableNames />
+					</Item>
 				</applicators>
 				<enabled>
 					<compiledString></compiledString>
@@ -252,9 +256,9 @@
 					<UnitConstant>
 						<name>A0_ManaBurn</name>
 						<var>
-							<compiledString>FUgAAAAFAAAATwAAAGgAAACeAAAAvgAAAOIAAABBMF9Tbm93UXVlZW4AAAAAQTBfU25vd1F1ZWVuAAAAAEEwX1Nub3dRdWVlbgAAAABNYW5hQnVybgAAAABBNF9NYW5hQnVybgBVi+yD7BRoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXQ3aCAAAACLVQiLAotNCIuQqAEAAP/SiUX0i0UMUItNCFFoMAAAAItV9IsCi030i1BQ/9LZXfDrBdnu2V3wi0UMUItNCFFoPAAAAItVEIsCi00Qi1BQ/9LYRfDZXezZReyL5V3DAAAAAA==</compiledString>
+							<compiledString>FRwAAAADAAAAOAAAAFEAAABeAAAAQTBfTWFuYUJ1cm5fVFQAAEE0X01hbmFCdXJuAFWL7IPsFItFDIsQi00Mi0IQ/9CLTQxRi1UIUmgAAAAAi0UQixCLTRCLQlDdXfj/0NxN+NwNfwAAAItNDFGLVQhSaBAAAACLRRCLEItNEItCUN1d8P/Q3EXw2V3s2UXsi+VdwwAAAEDheoQ/</compiledString>
 							<returnType>float</returnType>
-							<sString>talconst("A0_SnowQueen", "ManaBurn") + cA4_ManaBurn</sString>
+							<sString>rMaxEnergy * cA0_ManaBurn_TT * 0.01f + cA4_ManaBurn</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -278,6 +282,7 @@
 						</var>
 					</UnitConstant>
 				</Item>
+				<Item href="/Items/Talents/Class/SnowQueen/const_A0_ManaBurn_TT" />
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

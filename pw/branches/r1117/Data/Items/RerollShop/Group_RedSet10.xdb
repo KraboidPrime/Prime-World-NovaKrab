@@ -42,5 +42,11 @@
 			<minPoints>0</minPoints>
 			<slot href="/Items/RerollShop/TalentsList_Rar6_Set10_kit5" />
 		</Item>
+		<Item>
+			<currencies>0</currencies>
+			<maxPoints>0</maxPoints>
+			<minPoints>0</minPoints>
+			<slot href="/Items/RerollShop/TalentsList_Rar6_Set10_kit6" />
+		</Item>
 	</slots>
 </RerollShopGroup>

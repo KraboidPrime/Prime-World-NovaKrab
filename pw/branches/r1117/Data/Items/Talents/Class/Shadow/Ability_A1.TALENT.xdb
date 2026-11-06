@@ -303,9 +303,52 @@
 											<LoggingEvent>-1</LoggingEvent>
 											<providerName></providerName>
 											<startCondition>
-												<compiledString></compiledString>
+												<compiledString>FR4AAAACAAAAJQAAAD4AAABTaGFkb3dfQTFfU1VQAAAAU2hhZG93X0ExX1NVUABVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2Rfv32BvAg8ABi+Vdww==</compiledString>
 												<returnType>bool</returnType>
-												<sString>true</sString>
+												<sString>!tal("Shadow_A1_SUP")</sString>
+											</startCondition>
+											<talents />
+											<useListAs>ListAsRule</useListAs>
+										</FlagsApplicator>
+									</Item>
+									<Item href="/Items/Talents/Class/Shadow/Ability_A1.TALENT" id="5EB87574-4D33-481F-B4A0-58E60CF09F5D">
+										<FlagsApplicator>
+											<applyTarget>AbilityOwner</applyTarget>
+											<behaviorFlags>1</behaviorFlags>
+											<caption>fx2</caption>
+											<consumables />
+											<effect>
+												<Item href="/Items/Talents/Class/Shadow/Ability_A1.TALENT" id="927ADCB1-1319-415A-9979-BC7EF5E8F5B8">
+													<EffectSwitcher>
+														<deathType>Manual</deathType>
+														<effectOnInvisible href="" />
+														<effectOnVisible href="/Effects/Buffs/Beam/_Corridor1.EFFT" />
+														<enableCondition href="" />
+														<isVisibleUnderWarfog>false</isVisibleUnderWarfog>
+														<lifeTime>0</lifeTime>
+														<logic>FactionVisibility</logic>
+													</EffectSwitcher>
+												</Item>
+												<Item href="" />
+											</effect>
+											<enabled>
+												<compiledString>FRAAAAABAAAAGgAAAEExQ2hhbm5lbGluZ09mZgBVi+xqAYtFEFBoAAAAAItNCIsRi00Ii4KcAQAA/9AzyTtFEA+UwYrBXcM=</compiledString>
+												<returnType>bool</returnType>
+												<sString>sender.applA1ChannelingOff(UNIT) == pMisc</sString>
+											</enabled>
+											<flag>0</flag>
+											<formulaName></formulaName>
+											<lifeTime>
+												<compiledString></compiledString>
+												<returnType>float</returnType>
+												<sString>-1.0</sString>
+											</lifeTime>
+											<LoggingEvent>-1</LoggingEvent>
+											<providerName></providerName>
+											<startCondition>
+												<compiledString>FR4AAAACAAAAJQAAAD4AAABTaGFkb3dfQTFfU1VQAAAAU2hhZG93X0ExX1NVUABVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AIpF+4vlXcM=</compiledString>
+												<returnType>bool</returnType>
+												<sString>tal("Shadow_A1_SUP")</sString>
 											</startCondition>
 											<talents />
 											<useListAs>ListAsRule</useListAs>
@@ -790,9 +833,9 @@
 					<UnitConstant>
 						<name>A1_RangeMax</name>
 						<var>
-							<compiledString>FQ0AAAABAAAAGQAAAFJhbmdlX0V4TG9uZwBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+							<compiledString>FS0AAAAFAAAANAAAAE0AAACGAAAAjAAAAJkAAABTaGFkb3dfQTFfU1VQAAAAU2hhZG93X0ExX1NVUAAAAFJhbmdlX0V4TG9uZwBVi+yD7BhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuJTfTbRfTcDcIAAADcBboAAACLVQxSi0UIUGggAAAAi00QixGLTRCLQlDdXez/0NxN7Nld6NlF6IvlXcMAAAAAAADwPzMzMzMzM9M/</compiledString>
 							<returnType>float</returnType>
-							<sString>cRange_ExLong</sString>
+							<sString>(0.3*tal("Shadow_A1_SUP") + 1)*cRange_ExLong</sString>
 						</var>
 					</UnitConstant>
 				</Item>
@@ -914,7 +957,7 @@
 			<instantApply>true</instantApply>
 		</DispatchImmediate>
 	</dispatch>
-	<flags>2113</flags>
+	<flags>2117</flags>
 	<forceBonus>6</forceBonus>
 	<image href="/UI/Styles/Icons/Heroes/Shadow/A1.ITEX" />
 	<imageSecondState href="" />

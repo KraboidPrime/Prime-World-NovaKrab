@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DamageApplicator>
+	<BackLink DBID="/Items/Talents/Class/SnowQueen/Ability_A1.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/SnowQueen/A2A3_Spell.SPLL" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/SnowQueen/status_A3_IceShiverEnemy.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/SnowQueen/Ability_A4.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/SnowQueen/Ability_A4_2.TALENT" Count="2" />
+	<BackLink DBID="/Heroes/SnowQueen/_.HROB" Count="1" />
+	<applyTarget>ApplicatorTarget</applyTarget>
+	<cancelInvisibility>false</cancelInvisibility>
+	<caption>выжечь ману</caption>
+	<damage>
+		<compiledString>FQwAAAABAAAAGAAAAEEwX01hbmFCdXJuAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+		<returnType>float</returnType>
+		<sString>cA0_ManaBurn</sString>
+	</damage>
+	<damageMode>4</damageMode>
+	<damageType>Mana</damageType>
+	<enabled>
+		<compiledString>FVEAAAAIAAAAYAAAAHMAAADEAAAA5AAAAPcAAAADAQAAHAEAAFgBAABBMF9TdGFydENvbmRpdGlvbgAAAGRhbWFnZURlYWxlZAAAAABTbm93UXVlZW5fQTJfU1VQAAAAAFNub3dRdWVlbl9BMl9TVVAAAAAAV2FyZABVi+yD7BSLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0twdjAEAAN/g9sRED4v4AAAAi0UMixCLTQyLQlD/0DPJg/gRD5XBiU3820X8UdkcJFHZ7tkcJGoBi1UMiwKLTQyLUFj/0g+2wFDo1QAAAIPEDNwdjAEAAN/g9sRED4unAAAAi00QixGLTRCLQkj/0IlF+GgUAAAAi034ixGLTfiLQlT/0NwdjAEAAN/g9sRBdE9oJAAAAItNCIsRi00Ii4KoAQAA/9CFwHQqaDgAAACLTQiLEYtNCIuCqAEAAP/QiUX0i030ixGLTfSLQgT/0IhF8+sExkXzAA+2TfOFyXQpagCLVRBSaEwAAACLRQyLEItNDIuCnAEAAP/QO0UQdQnHRewBAAAA6wfHRewAAAAAikXsi+VdwwAAAAAAAAAAAAAAAFWL7FEPtkUIhcB0CNlFDNld/OsG2UUQ2V382UX8i+Vdww==</compiledString>
+		<returnType>bool</returnType>
+		<sString>cA0_StartCondition &amp;&amp; ut_bldg( false, rUnitKind != 17 ) &amp;&amp; ($ParentApplVariable("damageDealed") &gt; 0.0 || tal("SnowQueen_A2_SUP")) &amp;&amp; receiver.applWard(GLOBAL) == pMisc</sString>
+	</enabled>
+	<formulaName></formulaName>
+	<LoggingEvent>-1</LoggingEvent>
+	<providerName></providerName>
+	<timeLimiter>-1</timeLimiter>
+	<uiEvent href="/UI/Events/CommonEvents/EventEnergyBurn.UIEV" />
+</DamageApplicator>

@@ -5,7 +5,7 @@
 		<Item href="/Items/Talents/Class/Shadow/status_A4.APLR" id="77BFCD42-9FD6-4FA0-81EE-9361864ACD0C">
 			<StatModApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
-				<behaviorFlags>0</behaviorFlags>
+				<behaviorFlags>144</behaviorFlags>
 				<caption>TT_StrOrInt</caption>
 				<constraint>None</constraint>
 				<dontUpdate>false</dontUpdate>
@@ -52,7 +52,7 @@
 		<Item href="/Items/Talents/Class/Shadow/status_A4.APLR" id="14C7B778-FCAA-435F-9472-37AF19F3CD08">
 			<StatModApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
-				<behaviorFlags>0</behaviorFlags>
+				<behaviorFlags>144</behaviorFlags>
 				<caption>Dec Str</caption>
 				<constraint>None</constraint>
 				<dontUpdate>false</dontUpdate>
@@ -99,7 +99,7 @@
 		<Item href="/Items/Talents/Class/Shadow/status_A4.APLR" id="62A64BAF-03FA-4238-8471-D753049369B2">
 			<StatModApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
-				<behaviorFlags>0</behaviorFlags>
+				<behaviorFlags>144</behaviorFlags>
 				<caption>Dec Int</caption>
 				<constraint>None</constraint>
 				<dontUpdate>false</dontUpdate>
@@ -145,7 +145,7 @@
 		</Item>
 	</applicators>
 	<applyTarget>ApplicatorTarget</applyTarget>
-	<behaviorFlags>2</behaviorFlags>
+	<behaviorFlags>146</behaviorFlags>
 	<caption>Dec_stats</caption>
 	<customCounter>
 		<compiledString></compiledString>

@@ -14,4 +14,9 @@
 	<fadeOut>0</fadeOut>
 	<groupFlags>0</groupFlags>
 	<lifeTime>0</lifeTime>
+	<__states>
+		<state name="bomber_S1">
+			<component href="/Effects/Shots/FireBall/_FireFoxHitTRS2.PRXY" />
+		</state>
+	</__states>
 </BasicEffectAttached>

@@ -818,6 +818,7 @@
 		<Item href="/Heroes/Mage/S2/_.HEROSKIN" />
 		<Item href="/Heroes/Mage/S3/_.HEROSKIN" />
 		<Item href="/Heroes/Mage/S4/_.HEROSKIN" />
+		<Item href="/Heroes/Mage/S5/_.HEROSKIN" />
 	</heroSkins>
 	<id>mage</id>
 	<image href="" />
@@ -994,9 +995,9 @@
 					<levelUpgrades />
 					<statId>Strength</statId>
 					<value>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABgQg==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABsQg==</compiledString>
 						<returnType>float</returnType>
-						<sString>56</sString>
+						<sString>59</sString>
 					</value>
 				</Item>
 				<Item>

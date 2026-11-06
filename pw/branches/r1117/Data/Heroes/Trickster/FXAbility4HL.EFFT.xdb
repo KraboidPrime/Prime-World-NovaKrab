@@ -15,5 +15,8 @@
 		<state name="trickster_S1">
 			<component href="/Heroes/Trickster/S1/FXAbility4_PrimeTRS.PRXY" />
 		</state>
+		<state name="trickster_S2">
+			<component href="/Heroes/Trickster/S2/FXAbility4_PrimeTRS.PRXY" />
+		</state>
 	</__states>
 </BasicEffectAttached>

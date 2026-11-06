@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BasicEffectAttached>
+	<BackLink DBID="/Heroes/arbik_elf/FXAA_Hit.EFFT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/arbik_elf/Ability_A2.TALENT" Count="9" />
+	<BackLink DBID="/Items/Talents/Class/arbik_elf/Ability_A4_2.TALENT" Count="4" />
+	<BackLink DBID="/Items/Talents/Class/arbik_elf/Ability_A4_3.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/arbik_elf/arbik_A3_BombExpl.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/arbik_elf/angel_Summon_A3_Pick2.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/arbik_elf/angel_Summon_A3_Pick3.APLR" Count="1" />
+	<BackLink DBID="/Heroes/arbik_elf/_.ATCK" Count="7" />
+	<BackLink DBID="/Effects/Shots/HitsApplicators/Bullet.APLR" Count="1" />
+	<BackLink DBID="/Effects/Shots/HitsApplicators/BulletA.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/arbik_elf/Status_Culling.APLR" Count="1" />
+	<attachFlags>0</attachFlags>
+	<attachType>Body</attachType>
+	<component href="/Effects/Shots/Arrow/_A2HitTRS_S66.PRXY" />
+	<deathType>Anim</deathType>
+	<enableCondition href="" />
+	<fadeIn>0</fadeIn>
+	<fadeOut>0</fadeOut>
+	<groupFlags>0</groupFlags>
+	<lifeTime>0</lifeTime>
+</BasicEffectAttached>

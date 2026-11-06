@@ -1,0 +1,427 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DBSceneComponent>
+	<BackLink DBID="/Effects/Shots/FireBall/_TRS.PRXY" Count="1" />
+	<BackLink DBID="/Summons/Demon2/S3/_.SOBJ" Count="1" />
+	<attached>
+		<Item>
+			<attachFlags>15</attachFlags>
+			<component href="/Effects/Shots/FireBall/_D.PRXY" id="D05C5FED-69E3-40AE-8F7D-C49F7EB89EA3">
+				<DBParticleSceneComponent>
+					<aabb>
+						<maxX>-666</maxX>
+						<maxY>-666</maxY>
+						<maxZ>-666</maxZ>
+						<minX>666</minX>
+						<minY>666</minY>
+						<minZ>666</minZ>
+					</aabb>
+					<attached />
+					<camoffset>2</camoffset>
+					<caption>Glow1</caption>
+					<compression>2.5</compression>
+					<deathFadeOutTime>0.5</deathFadeOutTime>
+					<fxFileName>/Effects/Shots/FireBall/_Glow1.part</fxFileName>
+					<groupFlags>0</groupFlags>
+					<leaveParticlesWhereStarted>false</leaveParticlesWhereStarted>
+					<locatorList href="/Effects/Shots/FireBall/_D.PRXY" id="C4F7A027-8C68-4A22-9939-CDD4D591C5AA">
+						<LocatorList>
+							<locators />
+						</LocatorList>
+					</locatorList>
+					<material href="/Effects/Shots/FireBall/_D.PRXY" id="318F6322-BF76-4954-ADF0-46C32840D83E">
+						<ParticleFXMaterial>
+							<caption></caption>
+							<DiffuseMap>
+								<Add>
+									<A>0</A>
+									<B>0</B>
+									<G>0</G>
+									<R>0</R>
+								</Add>
+								<Multiplier>
+									<A>0.5</A>
+									<B>0.3529412</B>
+									<G>0.427451</G>
+									<R>0.854902</R>
+								</Multiplier>
+								<samplerState>
+									<addressU>Wrap</addressU>
+									<addressV>Wrap</addressV>
+									<addressW>Wrap</addressW>
+									<magFilter>Linear</magFilter>
+									<minFilter>Linear</minFilter>
+									<mipFilter>Linear</mipFilter>
+								</samplerState>
+								<texture href="/GFX_Textures/Atlases/atlas_0.TXTR" />
+							</DiffuseMap>
+							<distortion>1</distortion>
+							<DistortionPinValue>None</DistortionPinValue>
+							<ignoreRenderState>false</ignoreRenderState>
+							<opacity>1</opacity>
+							<OpacityAndEmissiveModePinValue>Simple</OpacityAndEmissiveModePinValue>
+							<renderState>
+								<alphaTest>Off</alphaTest>
+								<alphaTestRef>127</alphaTestRef>
+								<blendMode>AddColorMulAlpha</blendMode>
+								<culling>Off</culling>
+							</renderState>
+							<scale>0</scale>
+							<SubPriority>0</SubPriority>
+							<uvSpeed>
+								<x>0</x>
+								<y>0</y>
+							</uvSpeed>
+						</ParticleFXMaterial>
+					</material>
+					<mayaFileName>/Effects/Shots/FireBall/_Glow1.mayaPart</mayaFileName>
+					<normaltextures />
+					<orient>None</orient>
+					<orientation>Default</orientation>
+					<pivot>
+						<x>0</x>
+						<y>0</y>
+					</pivot>
+					<selection>Glow1</selection>
+					<speculartextures />
+					<srcFileName crc="0">/Effects/Shots/FireBall/_.mb</srcFileName>
+					<textures>
+						<Item crc="0">/PFX_Textures/Glow05.tga</Item>
+					</textures>
+					<uvPairs>
+						<Item>
+							<uvBottomRight>
+								<x>0.3862305</x>
+								<y>0.1777344</y>
+							</uvBottomRight>
+							<uvTopLeft>
+								<x>0.3706055</x>
+								<y>0.1464844</y>
+							</uvTopLeft>
+						</Item>
+					</uvPairs>
+				</DBParticleSceneComponent>
+			</component>
+			<events href="" />
+			<id></id>
+			<locatorName></locatorName>
+			<placement>
+				<pos>
+					<x>0</x>
+					<y>0</y>
+					<z>0</z>
+				</pos>
+				<rot>
+					<w>1</w>
+					<x>0</x>
+					<y>0</y>
+					<z>0</z>
+				</rot>
+				<scale>
+					<x>1.2</x>
+					<y>1.2</y>
+					<z>1.2</z>
+				</scale>
+			</placement>
+			<timeController href="/Effects/Shots/FireBall/_D.PRXY" id="614149A8-C387-4145-B0DD-697E022ED93A">
+				<TimeController>
+					<cycleCount>0</cycleCount>
+					<cycleLength>1.8</cycleLength>
+					<fadein>0</fadein>
+					<fadeout>0</fadeout>
+					<firstCycleOffset>1</firstCycleOffset>
+					<firstCycleOffsetDelta>0</firstCycleOffsetDelta>
+					<speed>1</speed>
+					<startDelay>0</startDelay>
+				</TimeController>
+			</timeController>
+		</Item>
+		<Item>
+			<attachFlags>15</attachFlags>
+			<component href="/Effects/Shots/FireBall/_D.PRXY" id="B3F74F7D-CB56-46BC-91BB-7068FEFFE37E">
+				<DBStaticSceneComponent>
+					<aabb>
+						<maxX>0.4537962</maxX>
+						<maxY>0.4537775</maxY>
+						<maxZ>0.4537775</maxZ>
+						<minX>-0.4537962</minX>
+						<minY>-0.4537775</minY>
+						<minZ>-0.4537775</minZ>
+					</aabb>
+					<attached />
+					<caption>SphereCenter</caption>
+					<geometryFileName>/Effects/Shots/FireBall/_SphereCenter.stat</geometryFileName>
+					<groupFlags>0</groupFlags>
+					<locatorList href="/Effects/Shots/FireBall/_D.PRXY" id="4A2A05CD-F556-49F2-A065-696B6EF4D113">
+						<LocatorList>
+							<locators />
+						</LocatorList>
+					</locatorList>
+					<materialsReferences>
+						<Item href="/Effects/Shots/FireBall/_D.PRXY" id="02F6C167-6935-4881-B121-B9C594559776">
+							<BasicMaterial>
+								<caption>lambert7</caption>
+								<diffuseColor>
+									<A>1</A>
+									<B>0.0627451</B>
+									<G>0.205098</G>
+									<R>0.3503922</R>
+								</diffuseColor>
+								<DiffuseMap>
+									<samplerState>
+										<addressU>Wrap</addressU>
+										<addressV>Wrap</addressV>
+										<addressW>Wrap</addressW>
+										<magFilter>Linear</magFilter>
+										<minFilter>Linear</minFilter>
+										<mipFilter>Linear</mipFilter>
+									</samplerState>
+									<texture href="/GFX_Textures/Glow01Yellow.TXTR" />
+								</DiffuseMap>
+								<emissive>2</emissive>
+								<EmissivePinValue>EmissiveOff</EmissivePinValue>
+								<ignoreRenderState>false</ignoreRenderState>
+								<lightingIntencity>1</lightingIntencity>
+								<LightingPinValue>LightingSH</LightingPinValue>
+								<NormalMap>
+									<samplerState>
+										<addressU>Wrap</addressU>
+										<addressV>Wrap</addressV>
+										<addressW>Wrap</addressW>
+										<magFilter>Linear</magFilter>
+										<minFilter>Linear</minFilter>
+										<mipFilter>Linear</mipFilter>
+									</samplerState>
+									<texture href="" />
+								</NormalMap>
+								<outputAdd>
+									<A>0</A>
+									<B>0</B>
+									<G>0</G>
+									<R>0</R>
+								</outputAdd>
+								<outputMul>
+									<A>1</A>
+									<B>1</B>
+									<G>1</G>
+									<R>1</R>
+								</outputMul>
+								<ReflectionMap>
+									<samplerState>
+										<addressU>Wrap</addressU>
+										<addressV>Wrap</addressV>
+										<addressW>Wrap</addressW>
+										<magFilter>Linear</magFilter>
+										<minFilter>Linear</minFilter>
+										<mipFilter>Linear</mipFilter>
+									</samplerState>
+									<texture href="" />
+								</ReflectionMap>
+								<reflectivity>1</reflectivity>
+								<ReflectivityPinValue>ReflectivityOff</ReflectivityPinValue>
+								<renderFlags>3</renderFlags>
+								<renderState>
+									<alphaTest>On</alphaTest>
+									<alphaTestRef>127</alphaTestRef>
+									<blendMode>AddColorMulAlpha</blendMode>
+									<culling>Off</culling>
+								</renderState>
+								<SpecularMap>
+									<Add>
+										<A>0</A>
+										<B>0</B>
+										<G>0</G>
+										<R>0</R>
+									</Add>
+									<Multiplier>
+										<A>1</A>
+										<B>1</B>
+										<G>1</G>
+										<R>1</R>
+									</Multiplier>
+									<samplerState>
+										<addressU>Wrap</addressU>
+										<addressV>Wrap</addressV>
+										<addressW>Wrap</addressW>
+										<magFilter>Linear</magFilter>
+										<minFilter>Linear</minFilter>
+										<mipFilter>Linear</mipFilter>
+									</samplerState>
+									<texture href="" />
+								</SpecularMap>
+								<specularPower>0</specularPower>
+								<SubPriority>0</SubPriority>
+							</BasicMaterial>
+						</Item>
+					</materialsReferences>
+					<mayaFileName>/Effects/Shots/FireBall/_SphereCenter.mayaStat</mayaFileName>
+					<orientation>Default</orientation>
+					<selection>SphereCenter</selection>
+					<srcFileName crc="0">/Effects/Shots/FireBall/_.mb</srcFileName>
+					<uvSetCount>1</uvSetCount>
+				</DBStaticSceneComponent>
+			</component>
+			<events href="" />
+			<id></id>
+			<locatorName></locatorName>
+			<placement>
+				<pos>
+					<x>0</x>
+					<y>0</y>
+					<z>0</z>
+				</pos>
+				<rot>
+					<w>1</w>
+					<x>0</x>
+					<y>0</y>
+					<z>0</z>
+				</rot>
+				<scale>
+					<x>1</x>
+					<y>1</y>
+					<z>1</z>
+				</scale>
+			</placement>
+			<timeController href="" />
+		</Item>
+		<Item>
+			<attachFlags>15</attachFlags>
+			<component href="/Effects/Shots/FireBall/_D.PRXY" id="C049D7EF-FC83-4C49-8F16-F3B3B0E2B3A6">
+				<DBParticleSceneComponent>
+					<aabb>
+						<maxX>-666</maxX>
+						<maxY>-666</maxY>
+						<maxZ>-666</maxZ>
+						<minX>666</minX>
+						<minY>666</minY>
+						<minZ>666</minZ>
+					</aabb>
+					<attached />
+					<camoffset>2</camoffset>
+					<caption>Rays1</caption>
+					<compression>2.5</compression>
+					<deathFadeOutTime>0.5</deathFadeOutTime>
+					<fxFileName>/Effects/Shots/FireBall/_Rays1.part</fxFileName>
+					<groupFlags>0</groupFlags>
+					<leaveParticlesWhereStarted>false</leaveParticlesWhereStarted>
+					<locatorList href="/Effects/Shots/FireBall/_D.PRXY" id="7F7E7B06-44B4-481C-A98D-E8CE711DEC35">
+						<LocatorList>
+							<locators />
+						</LocatorList>
+					</locatorList>
+					<material href="/Effects/Shots/FireBall/_D.PRXY" id="247710C3-9790-4B85-97C2-710EAA3FC309">
+						<ParticleFXMaterial>
+							<caption></caption>
+							<DiffuseMap>
+								<Add>
+									<A>0</A>
+									<B>0</B>
+									<G>0</G>
+									<R>0</R>
+								</Add>
+								<Multiplier>
+									<A>1</A>
+									<B>1</B>
+									<G>1</G>
+									<R>1</R>
+								</Multiplier>
+								<samplerState>
+									<addressU>Wrap</addressU>
+									<addressV>Wrap</addressV>
+									<addressW>Wrap</addressW>
+									<magFilter>Linear</magFilter>
+									<minFilter>Linear</minFilter>
+									<mipFilter>Linear</mipFilter>
+								</samplerState>
+								<texture href="/GFX_Textures/Atlases/atlas_0.TXTR" />
+							</DiffuseMap>
+							<distortion>1</distortion>
+							<DistortionPinValue>None</DistortionPinValue>
+							<ignoreRenderState>false</ignoreRenderState>
+							<opacity>1</opacity>
+							<OpacityAndEmissiveModePinValue>Simple</OpacityAndEmissiveModePinValue>
+							<renderState>
+								<alphaTest>Off</alphaTest>
+								<alphaTestRef>127</alphaTestRef>
+								<blendMode>AddColorMulAlpha</blendMode>
+								<culling>On</culling>
+							</renderState>
+							<scale>0</scale>
+							<SubPriority>0</SubPriority>
+							<uvSpeed>
+								<x>0</x>
+								<y>0</y>
+							</uvSpeed>
+						</ParticleFXMaterial>
+					</material>
+					<mayaFileName>/Effects/Shots/FireBall/_Rays1.mayaPart</mayaFileName>
+					<normaltextures />
+					<orient>None</orient>
+					<orientation>Default</orientation>
+					<pivot>
+						<x>0</x>
+						<y>0</y>
+					</pivot>
+					<selection>Rays1</selection>
+					<speculartextures />
+					<srcFileName crc="0">/Effects/Shots/FireBall/_.mb</srcFileName>
+					<textures>
+						<Item crc="0">/PFX_Textures/Rays07Gold.tga</Item>
+					</textures>
+					<uvPairs>
+						<Item>
+							<uvBottomRight>
+								<x>0.253418</x>
+								<y>0.4951172</y>
+							</uvBottomRight>
+							<uvTopLeft>
+								<x>0.222168</x>
+								<y>0.4326172</y>
+							</uvTopLeft>
+						</Item>
+					</uvPairs>
+				</DBParticleSceneComponent>
+			</component>
+			<events href="" />
+			<id></id>
+			<locatorName></locatorName>
+			<placement>
+				<pos>
+					<x>0</x>
+					<y>0</y>
+					<z>0</z>
+				</pos>
+				<rot>
+					<w>1</w>
+					<x>0</x>
+					<y>0</y>
+					<z>0</z>
+				</rot>
+				<scale>
+					<x>0.5</x>
+					<y>0.5</y>
+					<z>0.5</z>
+				</scale>
+			</placement>
+			<timeController href="/Effects/Shots/FireBall/_D.PRXY" id="9E63E45E-055A-4F28-A77E-739C96B1BD98">
+				<TimeController>
+					<cycleCount>0</cycleCount>
+					<cycleLength>1.2</cycleLength>
+					<fadein>0</fadein>
+					<fadeout>0</fadeout>
+					<firstCycleOffset>1</firstCycleOffset>
+					<firstCycleOffsetDelta>0</firstCycleOffsetDelta>
+					<speed>1</speed>
+					<startDelay>0</startDelay>
+				</TimeController>
+			</timeController>
+		</Item>
+	</attached>
+	<caption></caption>
+	<groupFlags>0</groupFlags>
+	<locatorList href="/Effects/Shots/FireBall/_D.PRXY" id="C35BABBC-DF61-49EE-A73B-4ADB760F7DE2">
+		<LocatorList>
+			<locators />
+		</LocatorList>
+	</locatorList>
+	<orientation>Default</orientation>
+</DBSceneComponent>

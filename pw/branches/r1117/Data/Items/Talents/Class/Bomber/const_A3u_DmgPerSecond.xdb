@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Class/Bomber/Ability_A3.TALENT" Count="1" />
 	<name>A3u_DmgPerSecond</name>
 	<var>
-		<compiledString>FQAAAAACAAAACAAAABIAAABVi+xqAVHZBUQAAADZHCRR2QVAAAAA2RwkagCLRQiLEItNCIuCMAEAAP/QUdkcJGoBi00QixGLTRCLQmD/0F3DAADwQQAAYUM=</compiledString>
+		<compiledString>FR4AAAAEAAAAJQAAAD4AAAB9AAAAhwAAAEJvbWJlcl9BM19TVVAAAABCb21iZXJfQTNfU1VQAFWL7IPsGGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4PBAYlN9NtF9GoBUdkFxwAAANkcJFHZBcMAAADZHCRqAItVCIsCi00Ii5AwAQAA3V3s/9JR2RwkagGLRRCLEItNEItCYP/Q3E3s2V3o2UXoi+VdwwAA8EEAAGFD</compiledString>
 		<returnType>float</returnType>
-		<sString>damageScale( sStrength, 30, 225)</sString>
+		<sString>(1+tal("Bomber_A3_SUP"))*damageScale( sStrength, 30, 225)</sString>
 	</var>
 </UnitConstant>

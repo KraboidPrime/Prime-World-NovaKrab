@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ChangeMaterialEffect>
-	<BackLink DBID="/Heroes/MagicGirl/FXAbility3TXT.EFFT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/MagicGirl/status_NightMode.APLR" Count="1" />
 	<deathType>Manual</deathType>
 	<enableCondition href="" />
@@ -14,6 +13,11 @@
 		<state name="magicgirl_S1">
 			<materials>
 				<Item href="/Heroes/MagicGirl/S1/FXAbility3TXT.MTRL" />
+			</materials>
+		</state>
+		<state name="magicgirl_S2">
+			<materials>
+				<Item href="/Heroes/MagicGirl/S2/FXAbility3TXT.MTRL" />
 			</materials>
 		</state>
 	</__states>

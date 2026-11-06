@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EnableDisableSCEvents>
+				<disableEvents />
+	<enableEvents>
+		<Item href="/Heroes/Demonolog/S3/FXAttack.EDEV" id="652FBBBC-3213-4B7D-896F-3E9BF1183355">
+			<AnimationSCEvent>
+				<animParam>0</animParam>
+				<name>doFire</name>
+				<probability>100</probability>
+				<type>Marker</type>
+			</AnimationSCEvent>
+		</Item>
+	</enableEvents>
+	<order>EnableThenDisable</order>
+	<restartComponent>true</restartComponent>
+</EnableDisableSCEvents>

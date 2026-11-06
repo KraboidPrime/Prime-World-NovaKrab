@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Spell>
+	<applicators>
+		<Item href="/Items/Talents/TalentKits/Redset10_6_OpenHunt/program_Predator.SPLL" id="704E950A-1274-44D0-8A8A-AF3C7FB66239">
+			<HealApplicator>
+				<amount>
+					<compiledString>FS8AAAACAAAAPgAAAFAAAABQcmVkYXRvckRhbWFnZVBlckNoYXJnZQBHMTAwNV9QcmVkYXRvckNoYXJnZXMyAFWL7IPsDItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SaBgAAACLRQiLEItNCIuCiAEAAN1d+P/Q3E342V302UX0i+Vdww==</compiledString>
+					<returnType>float</returnType>
+					<sString>cPredatorDamagePerCharge * sender.vG1005_PredatorCharges2</sString>
+				</amount>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>Health</caption>
+				<enabled>
+					<compiledString>FRcAAAACAAAAQwAAAFkAAABHMTAwNV9QcmVkYXRvckNoYXJnZXMyAFWL7FFWi0UIixCLTQiLgpABAAD/0Ivwi00MixGLTQyLgpABAAD/0DvwdStoAAAAAItNCIsRi00Ii4KIAQAA/9DcHXwAAADf4PbEQXUJx0X8AQAAAOsHx0X8AAAAAIpF/F6L5V3DAAAAAAAAAAA=</compiledString>
+					<returnType>bool</returnType>
+					<sString>sFctn == rFctn &amp;&amp; sender.vG1005_PredatorCharges2 &gt; 0</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<healTarget>Health</healTarget>
+				<ignoreHealingMods>false</ignoreHealingMods>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<uiEvent href="/UI/Events/CommonEvents/EventHeal.UIEV" />
+			</HealApplicator>
+		</Item>
+		<Item href="/Items/Talents/TalentKits/Redset10_6_OpenHunt/program_Predator.SPLL" id="101A1F65-55CF-4401-8186-A9328EC13221">
+			<DamageApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<cancelInvisibility>false</cancelInvisibility>
+				<caption>Predator damage</caption>
+				<damage>
+					<compiledString>FS4AAAACAAAAPQAAAE8AAABQcmVkYXRvckRhbWFnZVBlckNoYXJnZQBHMTAwNV9QcmVkYXRvckNoYXJnZXMAVYvsg+wMi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9JoGAAAAItFCIsQi00Ii4KIAQAA3V34/9DcTfjZXfTZRfSL5V3D</compiledString>
+					<returnType>float</returnType>
+					<sString>cPredatorDamagePerCharge * sender.vG1005_PredatorCharges</sString>
+				</damage>
+				<damageMode>0</damageMode>
+				<damageType>Material</damageType>
+				<enabled>
+					<compiledString>FRYAAAACAAAAQgAAAFgAAABHMTAwNV9QcmVkYXRvckNoYXJnZXMAVYvsUVaLRQiLEItNCIuCkAEAAP/Qi/CLTQyLEYtNDIuCkAEAAP/QO/B0K2gAAAAAi00IixGLTQiLgogBAAD/0NwdewAAAN/g9sRBdQnHRfwBAAAA6wfHRfwAAAAAikX8XovlXcMAAAAAAAAAAA==</compiledString>
+					<returnType>bool</returnType>
+					<sString>sFctn != rFctn &amp;&amp; sender.vG1005_PredatorCharges &gt; 0</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<timeLimiter>-1</timeLimiter>
+				<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Material.UIEV" />
+			</DamageApplicator>
+		</Item>
+		<Item href="/Items/Talents/TalentKits/Redset10_6_OpenHunt/program_Predator.SPLL" id="E8E080EC-DF11-4875-A1CD-C3B2AB9AB888">
+			<NaftaTransferApplicator>
+				<addition>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>0.0f</sString>
+				</addition>
+				<amount>
+					<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQw==</compiledString>
+					<returnType>float</returnType>
+					<sString>200.0f</sString>
+				</amount>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>Execution prime steal</caption>
+				<enabled>
+					<compiledString>FTIAAAAGAAAAOgAAAFMAAADPAAAA5QAAAA4BAAAjAQAARzEwMDgAAABHMTAwOAAAAEcxMDA1X1ByZWRhdG9yQ2hhcmdlcwAAAENhbnREZWF0aABVi+yD7BRWaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgIAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hckPhNIAAACLVQiLAotNCIuQkAEAAP/Si/CLRQyLEItNDIuCkAEAAP/QO/APhKgAAACLTQyLEYtNDItCVP/QD7bIhckPhJAAAABoEAAAAItVCIsCi00Ii5CIAQAA/9LcHXUBAADf4PbEAXVui0UMixCLTQyLAv/Qi00MixGLTQyLQgzdXfD/0NwNbQEAANxd8N/g9sRBdUJqAItNEFFoKAAAAItVDIsCi00Mi5CcAQAA/9I7RRB1ImgAAAQAi0UMixCLTQyLQmj/0A+2yIXJdQnHRewBAAAA6wfHRewAAAAAikXsXovlXcMAAACgmZm5PwAAAAAAABJA</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("G1008") &amp;&amp; sFctn != rFctn &amp;&amp; rIsHero &amp;&amp; sender.vG1005_PredatorCharges &gt;= 4.5 &amp;&amp; rLife &lt; rMaxLife * 0.10f &amp;&amp; receiver.applCantDeath(GLOBAL) == pMisc &amp;&amp; !rFlag(262144)</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<multiplier>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>1.0f</sString>
+				</multiplier>
+				<naftaTransferTarget>AbilityOwner</naftaTransferTarget>
+				<providerName></providerName>
+				<uiEvent href="/UI/Events/CommonEvents/EventLoseGold.UIEV" />
+			</NaftaTransferApplicator>
+		</Item>
+		<Item href="/Items/Talents/TalentKits/Redset10_6_OpenHunt/program_Predator.SPLL" id="65658F0F-FE9A-4585-8722-A80C9BCA746B">
+			<KillApplicator>
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<caption>Execution kill</caption>
+				<dontGiveRewards>false</dontGiveRewards>
+				<enabled>
+					<compiledString>FTIAAAAGAAAAOgAAAFMAAADPAAAA5QAAAA4BAAAjAQAARzEwMDgAAABHMTAwOAAAAEcxMDA1X1ByZWRhdG9yQ2hhcmdlcwAAAENhbnREZWF0aABVi+yD7BRWaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgIAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hckPhNIAAACLVQiLAotNCIuQkAEAAP/Si/CLRQyLEItNDIuCkAEAAP/QO/APhKgAAACLTQyLEYtNDItCVP/QD7bIhckPhJAAAABoEAAAAItVCIsCi00Ii5CIAQAA/9LcHXUBAADf4PbEAXVui0UMixCLTQyLAv/Qi00MixGLTQyLQgzdXfD/0NwNbQEAANxd8N/g9sRBdUJqAItNEFFoKAAAAItVDIsCi00Mi5CcAQAA/9I7RRB1ImgAAAQAi0UMixCLTQyLQmj/0A+2yIXJdQnHRewBAAAA6wfHRewAAAAAikXsXovlXcMAAACgmZm5PwAAAAAAABRA</compiledString>
+					<returnType>bool</returnType>
+					<sString>tal("G1008") &amp;&amp; sFctn != rFctn &amp;&amp; rIsHero &amp;&amp; sender.vG1005_PredatorCharges &gt;= 5.0f &amp;&amp; rLife &lt; rMaxLife * 0.10f &amp;&amp; receiver.applCantDeath(GLOBAL) == pMisc &amp;&amp; !rFlag(262144)</sString>
+				</enabled>
+				<flag>None</flag>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+			</KillApplicator>
+		</Item>
+		<Item href="/Items/Talents/TalentKits/Redset10_6_OpenHunt/program_Predator.SPLL" id="567E326B-EF8F-4BF3-9D74-A4158D2B259D">
+			<PermanentStatModApplicator>
+				<applyTarget>AbilityOwner</applyTarget>
+				<caption>Consume Predator charges</caption>
+				<customApplyType>None</customApplyType>
+				<enabled>
+					<compiledString>FRYAAAACAAAAGwAAADEAAABHMTAwNV9QcmVkYXRvckNoYXJnZXMAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdUwAAAN/g9sRBdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAAA</compiledString>
+					<returnType>bool</returnType>
+					<sString>sender.vG1005_PredatorCharges &gt; 0</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<modifier>
+					<addValue>
+						<compiledString>FRYAAAABAAAAGgAAAEcxMDA1X1ByZWRhdG9yQ2hhcmdlcwBVi+xoAAAAAItFCIsQi00Ii4KIAQAA/9DZ4F3D</compiledString>
+						<returnType>float</returnType>
+						<sString>-sender.vG1005_PredatorCharges</sString>
+					</addValue>
+					<multValue>
+						<compiledString></compiledString>
+						<returnType>float</returnType>
+						<sString>1.0f</sString>
+					</multValue>
+					<stat>Life</stat>
+					<topModifier>false</topModifier>
+					<variable>G1005_PredatorCharges</variable>
+				</modifier>
+				<providerName></providerName>
+			</PermanentStatModApplicator>
+		</Item>
+	</applicators>
+	<dispatch href="/Items/Talents/TalentKits/Redset10_6_OpenHunt/program_Predator.SPLL" id="CBE4D5C1-08E4-43D0-9F30-79BB883FA9ED">
+		<DispatchImmediate>
+			<alwaysApply>false</alwaysApply>
+			<applyEffect>
+				<Item href="" />
+				<Item href="" />
+			</applyEffect>
+			<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+			<applyEffectOrientation>Default</applyEffectOrientation>
+			<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+			<dieAfterApply>true</dieAfterApply>
+			<dispatchEffect>
+				<Item href="" />
+				<Item href="" />
+			</dispatchEffect>
+			<flags>0</flags>
+			<instantApply>false</instantApply>
+		</DispatchImmediate>
+	</dispatch>
+</Spell>

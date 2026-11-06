@@ -110,9 +110,9 @@
 				<applyTarget>AbilityOwner</applyTarget>
 				<caption>А0 спелл ослепления</caption>
 				<enabled>
-					<compiledString>FRQAAAACAAAAGQAAAC8AAABDcnVzYWRlcl9BM0V4QmVsaWVmAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHVEAAADf4PbEQXUJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAAAAAA==</compiledString>
+					<compiledString>FTQAAAAEAAAAOwAAAFEAAABdAAAAdgAAAENydXNhZGVyX0EzRXhCZWxpZWYAQ3J1c2FkZXJfQTNfU1VQAENydXNhZGVyX0EzX1NVUABVi+yD7AxoAAAAAItFCIsQi00Ii4KIAQAA/9DcHcIAAADf4PbEQXRYaBQAAACLTQiLEYtNCIuCqAEAAP/QhcB0KmgkAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl1CcdF9AAAAADrB8dF9AEAAACKRfSL5V3DAAAAAAAAAAA=</compiledString>
 					<returnType>bool</returnType>
-					<sString>sender.vCrusader_A3ExBelief &gt; 0</sString>
+					<sString>sender.vCrusader_A3ExBelief &gt; 0 || tal("Crusader_A3_SUP")</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<LoggingEvent>-1</LoggingEvent>
@@ -174,9 +174,9 @@
 					<Item href="" />
 				</effect>
 				<enabled>
-					<compiledString>FRQAAAACAAAAGQAAAC8AAABDcnVzYWRlcl9BM0V4QmVsaWVmAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHVEAAADf4PbEAXUJx0X8AQAAAOsHx0X8AAAAAIpF/IvlXcMAAAAAAADwPw==</compiledString>
+					<compiledString>FTQAAAAEAAAAOwAAAFEAAABdAAAAdgAAAENydXNhZGVyX0EzRXhCZWxpZWYAQ3J1c2FkZXJfQTNfU1VQAENydXNhZGVyX0EzX1NVUABVi+yD7AxoAAAAAItFCIsQi00Ii4KIAQAA/9DcHcIAAADf4PbEAXRYaBQAAACLTQiLEYtNCIuCqAEAAP/QhcB0KmgkAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk37hcl1CcdF9AAAAADrB8dF9AEAAACKRfSL5V3DAAAAAAAA8D8=</compiledString>
 					<returnType>bool</returnType>
-					<sString>sender.vCrusader_A3ExBelief &gt;= 1</sString>
+					<sString>sender.vCrusader_A3ExBelief &gt;= 1 || tal("Crusader_A3_SUP")</sString>
 				</enabled>
 				<flag>0</flag>
 				<formulaName></formulaName>

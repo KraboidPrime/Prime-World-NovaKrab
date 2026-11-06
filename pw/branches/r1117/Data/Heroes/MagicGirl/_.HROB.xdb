@@ -703,6 +703,7 @@
 	</heroSceneObjects>
 	<heroSkins>
 		<Item href="/Heroes/MagicGirl/S1/_.HEROSKIN" />
+		<Item href="/Heroes/MagicGirl/S2/_.HEROSKIN" />
 	</heroSkins>
 	<id>magicgirl</id>
 	<image href="" />

@@ -61,6 +61,9 @@
 				<Item href="/Items/Talents/Class/PinkGirl/const_A0_Damage" />
 				<Item href="/Items/Talents/Class/PinkGirl/const_A0_BonusDamage" />
 				<Item href="/Items/Talents/Class/PinkGirl/const_A0_Evasion" />
+				<Item href="/Items/Talents/Class/PinkGirl/const_A0_StrStaminaDecrease" />
+				<Item href="/Items/Talents/Class/PinkGirl/const_A0_StrBuffDuration" />
+				<Item href="/Items/Talents/Class/PinkGirl/const_A0_StrAttackSpeed" />
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

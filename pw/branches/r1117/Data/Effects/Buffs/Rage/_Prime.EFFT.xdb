@@ -16,5 +16,9 @@
 		<state name="trickster_S1">
 			<component href="/Effects/Buffs/Rage/_Dark.PRXY" />
 		</state>
+			
+			<state name="trickster_S2">
+			<component href="/Heroes/Trickster/S2/Effects/Buffs/Rage/_Prime.PRXY" />
+		</state>
 	</__states>
 </BasicEffectAttached>

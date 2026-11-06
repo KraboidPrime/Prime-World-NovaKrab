@@ -5,7 +5,6 @@
 	<BackLink DBID="/Items/Talents/Class/Trickster/Ability2.TALENT" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Trickster/status_A0.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Zealot/Ability_A3.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Reaper/Ability_A1.TALENT" Count="1" />
 	<blendMode>AddColor</blendMode>
 	<colorAdd>
 		<A>1</A>
@@ -55,6 +54,21 @@
 				<B>0</B>
 				<G>0.1</G>
 				<R>0.85</R>
+			</colorMul>
+		</state>
+		<state name="trickster_S2">
+			<blendMode>LerpByAlpha</blendMode>
+			<colorAdd>
+				<A>0</A>
+				<B>0.2941177</B>
+				<G>0.003921569</G>
+				<R>0.1411765</R>
+			</colorAdd>
+			<colorMul>
+				<A>0.9</A>
+				<B>0.9882353</B>
+				<G>0.1137255</G>
+				<R>0.4196078</R>
 			</colorMul>
 		</state>
 	</__states>

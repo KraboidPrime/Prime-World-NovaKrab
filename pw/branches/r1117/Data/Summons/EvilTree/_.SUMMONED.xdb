@@ -1798,6 +1798,8 @@
 	</creepSkins>
 	<deathParameters href="/Summons/EvilTree/_.SUMMONED" id="58727B28-F786-4206-A270-226CB21F20A7">
 		<UnitDeathParameters parent="/GameLogic/Summon.UNDP">
+			<deathTime>2</deathTime>
+			<observeOffset>5</observeOffset>
 			<unsummonTime>1</unsummonTime>
 		</UnitDeathParameters>
 	</deathParameters>

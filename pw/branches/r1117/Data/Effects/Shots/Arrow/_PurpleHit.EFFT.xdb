@@ -17,4 +17,9 @@
 	<parentType>General</parentType>
 	<visibilityLimited>false</visibilityLimited>
 	<visibleTime>0</visibleTime>
+	<__states>
+		<state name="shadow_S2">
+			<component href="/Effects/Shots/Arrow/_PurpleHit2.PRXY" />
+		</state>
+	</__states>
 </BasicEffectStandalone>

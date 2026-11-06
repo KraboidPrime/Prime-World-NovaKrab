@@ -1259,9 +1259,9 @@
 												<sString>0.0</sString>
 											</lashRange>
 											<maxCount>
-												<compiledString>FQAAAAAAAAAAVYvsuAUAAABdww==</compiledString>
+												<compiledString>FQAAAAAAAAAAVYvsuAgAAABdww==</compiledString>
 												<returnType>int</returnType>
-												<sString>5</sString>
+												<sString>8</sString>
 											</maxCount>
 											<maxThisCount>
 												<compiledString></compiledString>
@@ -1295,7 +1295,7 @@
 											<checkByRangeToRequester>false</checkByRangeToRequester>
 											<checkLineOfSight>false</checkLineOfSight>
 											<nativeTerrainOnly>false</nativeTerrainOnly>
-											<passabilityCheckMode>7</passabilityCheckMode>
+											<passabilityCheckMode>6</passabilityCheckMode>
 											<radius>3</radius>
 											<targetSelector href="/Items/Talents/Class/Wendigo/Ability3.TALENT" id="660C4728-FCD7-4793-A1AB-CE08A561F747">
 												<SelectApplicatorTarget>
@@ -1382,7 +1382,7 @@
 						<checkByRangeToRequester>true</checkByRangeToRequester>
 						<checkLineOfSight>true</checkLineOfSight>
 						<nativeTerrainOnly>false</nativeTerrainOnly>
-						<passabilityCheckMode>7</passabilityCheckMode>
+						<passabilityCheckMode>6</passabilityCheckMode>
 						<radius>15</radius>
 						<targetSelector href="/Items/Talents/Class/Wendigo/Ability3.TALENT" id="31C3790B-23AC-4B5A-8AEE-E77F7F878EB5">
 							<SelectApplicatorTarget>
@@ -1407,16 +1407,16 @@
 		<sString>0.0f</sString>
 	</castAllowRange>
 	<castLimitations>
-		<Item href="/Items/Talents/Class/Wendigo/Ability3.TALENT" id="8246BFEE-2CFC-4783-9A2A-104F96292D88">
+		<Item href="/Items/Talents/Class/Wendigo/Ability3.TALENT" id="029E21E7-81C0-4B98-93A1-1AFFB8FD5C11">
 			<TargetCastLimitation>
-				<targetSelector href="/Items/Talents/Class/Wendigo/Ability3.TALENT" id="52B029FB-4C88-4F19-981C-62FAF04FF769">
+				<targetSelector href="/Items/Talents/Class/Wendigo/Ability3.TALENT" id="FEC763A9-32D4-49F2-95BD-9B1F66ACA0D4">
 					<UnitPlaceCorrector>
 						<checkByRangeToRequester>false</checkByRangeToRequester>
 						<checkLineOfSight>false</checkLineOfSight>
 						<nativeTerrainOnly>false</nativeTerrainOnly>
-						<passabilityCheckMode>0</passabilityCheckMode>
+						<passabilityCheckMode>6</passabilityCheckMode>
 						<radius>0</radius>
-						<targetSelector href="/Items/Talents/Class/Wendigo/Ability3.TALENT" id="EF02F373-E144-4F8F-9AA9-3CC77029B58D">
+						<targetSelector href="/Items/Talents/Class/Wendigo/Ability3.TALENT" id="C23DB61E-07DE-4D7E-8BBA-0A955BD2F3B4">
 							<ConvertTargetToLand>
 								<aggregateMode>First</aggregateMode>
 								<targetSelector href="" />

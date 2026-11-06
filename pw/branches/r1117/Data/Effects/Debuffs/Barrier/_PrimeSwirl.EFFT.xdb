@@ -2,7 +2,6 @@
 <BasicEffectStandalone>
 	<BackLink DBID="/Effects/Debuffs/Barrier/_PrimeSwirl.EFFT" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Trickster/Ability1.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A0.TALENT" Count="1" />
 	<component href="/Effects/Debuffs/Barrier/_PrimeSwirlTRS.PRXY" />
 	<deathType>Manual</deathType>
 	<enableCondition href="" />
@@ -25,6 +24,10 @@
 		</state>
 		<state name="trickster_S1">
 			<component href="/Effects/Debuffs/Barrier/_PrimeSwirl_S1.PRXY" />
+		</state>
+			
+			<state name="trickster_S2">
+			<component href="/Heroes/Trickster/S2/Effects/Debuffs/Barrier/_PrimeSwirlTRS.PRXY" />
 		</state>
 	</__states>
 </BasicEffectStandalone>

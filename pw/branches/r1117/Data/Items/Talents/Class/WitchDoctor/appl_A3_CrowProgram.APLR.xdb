@@ -81,9 +81,9 @@
 	</enabled>
 	<formulaName></formulaName>
 	<lifeTime>
-		<compiledString>FQwAAAABAAAAGAAAAEEzX0R1cmF0aW9uAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+		<compiledString>FQwAAAACAAAAGQAAACwAAABBM19EdXJhdGlvbgBVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcBToAAADZXfzZRfyL5V3DAAAAoJmZuT8=</compiledString>
 		<returnType>float</returnType>
-		<sString>cA3_Duration</sString>
+		<sString>cA3_Duration + 0.1f</sString>
 	</lifeTime>
 	<LoggingEvent>-1</LoggingEvent>
 	<providerName></providerName>

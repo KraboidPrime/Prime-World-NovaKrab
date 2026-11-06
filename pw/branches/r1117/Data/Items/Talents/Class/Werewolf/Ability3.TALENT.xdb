@@ -169,9 +169,9 @@
 					<UnitConstant>
 						<name>Haste_MoveAmount</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACMQg==</compiledString>
+							<compiledString>FR0AAAACAAAAJAAAAD0AAABXZXJld29sZl9BM3UAAAAAV2VyZXdvbGZfQTN1AFWL7IPsGGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAi00IixGLTQiLgjABAAD/0ItNCIsRi00Ii4I0AQAA3V3w/9DcXfDf4PbEBXoJx0XsAQAAAOsHx0XsAAAAAA+2TftryRQPr03sg8EyiU3o20Xoi+Vdww==</compiledString>
 							<returnType>float</returnType>
-							<sString>70</sString>
+							<sString>50 +20*tal("Werewolf_A3u")*(sStrength &gt; sIntellect ? 1 :0)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

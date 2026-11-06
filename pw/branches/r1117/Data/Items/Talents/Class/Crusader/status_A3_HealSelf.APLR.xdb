@@ -157,53 +157,6 @@
 				<targetSelector href="" />
 			</SpellPeriodicallyApplicator>
 		</Item>
-		<Item href="/Items/Talents/Class/Crusader/status_A3_HealSelf.APLR" id="6B6925CD-3C37-462C-B54E-A844438127CB">
-			<StatModApplicator>
-				<applyTarget>AbilityOwner</applyTarget>
-				<behaviorFlags>216</behaviorFlags>
-				<caption>Add Will</caption>
-				<constraint>None</constraint>
-				<dontUpdate>false</dontUpdate>
-				<effect>
-					<Item href="" />
-					<Item href="" />
-				</effect>
-				<enabled>
-					<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
-					<returnType>bool</returnType>
-					<sString>false</sString>
-				</enabled>
-				<formulaName></formulaName>
-				<lifeTime>
-					<compiledString></compiledString>
-					<returnType>float</returnType>
-					<sString>-1.0</sString>
-				</lifeTime>
-				<LoggingEvent>-1</LoggingEvent>
-				<modifier>
-					<addValue>
-						<compiledString>FQwAAAABAAAAGAAAAEEzdV9BZGRXaWxsAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
-						<returnType>float</returnType>
-						<sString>cA3u_AddWill</sString>
-					</addValue>
-					<multValue>
-						<compiledString></compiledString>
-						<returnType>float</returnType>
-						<sString>1.0f</sString>
-					</multValue>
-					<stat>Will</stat>
-					<topModifier>false</topModifier>
-					<variable></variable>
-				</modifier>
-				<providerName></providerName>
-				<startCondition>
-					<compiledString>FR0AAAACAAAAJAAAAD0AAABDcnVzYWRlcl9BM3UAAAAAQ3J1c2FkZXJfQTN1AFWL7IPsCGgAAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoEAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAikX7i+Vdww==</compiledString>
-					<returnType>bool</returnType>
-					<sString>tal("Crusader_A3u")</sString>
-				</startCondition>
-				<statModName>Add_Will</statModName>
-			</StatModApplicator>
-		</Item>
 	</applicators>
 	<applyTarget>AbilityOwner</applyTarget>
 	<behaviorFlags>145</behaviorFlags>

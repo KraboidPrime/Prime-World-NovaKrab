@@ -93,7 +93,7 @@
 								</abilityCondition>
 								<abilityCostMode>Any</abilityCostMode>
 								<exceptThis>false</exceptThis>
-								<flags>1073741953</flags>
+								<flags>1073743103</flags>
 								<onlySingleTarget>false</onlySingleTarget>
 							</abilityFilter>
 							<add>
@@ -119,9 +119,9 @@
 					</processor>
 					<providerName></providerName>
 					<startCondition>
-						<compiledString>FRsAAAACAAAAIAAAADYAAABBZGRfQXJtb3JfUmVkc2V0MV8zQ291bnRlcgBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1YAAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAEEA=</compiledString>
+						<compiledString>FRsAAAACAAAAIAAAADYAAABBZGRfQXJtb3JfUmVkc2V0MV8zQ291bnRlcgBVi+xRaAAAAACLRQiLEItNCIuCiAEAAP/Q3B1YAAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAA8D8=</compiledString>
 						<returnType>bool</returnType>
-						<sString>sender.vAdd_Armor_Redset1_3Counter == 4</sString>
+						<sString>sender.vAdd_Armor_Redset1_3Counter == 1</sString>
 					</startCondition>
 					<useAbilityCooldown>true</useAbilityCooldown>
 					<useAbilityOwnerMana>false</useAbilityOwnerMana>

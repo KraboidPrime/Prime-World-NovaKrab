@@ -106,9 +106,9 @@
 		<percent>0</percent>
 	</consumptionBonus>
 	<cooldownTime>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQQ==</compiledString>
+		<compiledString>FSUAAAACAAAALAAAAEUAAABJbnZpc2libGVfQTFfU1VQAAAAAEludmlzaWJsZV9BMV9TVVAAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgUAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk3799kbyYPh/oPBCIlN9NtF9IvlXcM=</compiledString>
 		<returnType>float</returnType>
-		<sString>8</sString>
+		<sString>tal("Invisible_A1_SUP") ? 6 : 8</sString>
 	</cooldownTime>
 	<cooldownTimeSecondState>
 		<compiledString></compiledString>

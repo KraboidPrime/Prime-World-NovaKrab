@@ -15,4 +15,9 @@
 	<parentType>Body</parentType>
 	<visibilityLimited>false</visibilityLimited>
 	<visibleTime>0</visibleTime>
+	<__states>
+		<state name="mage_S5">
+			<component href="/Effects/General/Puff/_mageTRS2.PRXY" />
+		</state>
+	</__states>
 </BasicEffectStandalone>

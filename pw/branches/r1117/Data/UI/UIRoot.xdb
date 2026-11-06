@@ -1849,6 +1849,10 @@
 			<material href="/UI/Styles/Icons/Atributes/TTSet18_red.MTRL" />
 			<name>TTRedSet12_big</name>
 		</Item>
+		<Item>
+			<material href="/UI/Styles/Icons/Atributes/TTSet19_red.MTRL" />
+			<name>TTRedSet13_big</name>
+		</Item>
 	</styleAliases>
 	<substitutes>
 		<Item>

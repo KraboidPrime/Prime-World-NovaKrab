@@ -63,7 +63,31 @@
 				<targetSelector href="/Items/Talents/Class/IronKnight/Ability_A4.TALENT" id="A9D9E4C8-9A5C-4E3E-BD35-526DC3FFA471">
 					<PointTargetSelector parent="/Items/Talents/Class/IronKnight/A4_chain_targetSelector.TGSL">
 						<offset>
-							<x>-4</x>
+							<x>-2.5</x>
+							<y>7</y>
+						</offset>
+					</PointTargetSelector>
+				</targetSelector>
+			</SpellApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/IronKnight/Ability_A4.TALENT" id="A8F1345B-655B-4F3D-9192-8A69F3B97B4A">
+			<SpellApplicator>
+				<applyTarget>CastMasterPosition</applyTarget>
+				<caption>Отправляем промежуточную цепь вправо от курсора</caption>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<spell href="/Items/Talents/Class/IronKnight/A4_ChainSpell.SPLL" />
+				<spellTarget>ApplicatorTarget</spellTarget>
+				<targetSelector href="/Items/Talents/Class/IronKnight/Ability_A4.TALENT" id="A37F133D-5342-4750-8970-1A0B8F423B6E">
+					<PointTargetSelector parent="/Items/Talents/Class/IronKnight/A4_chain_targetSelector.TGSL">
+						<offset>
+							<x>-5.9</x>
 							<y>7</y>
 						</offset>
 					</PointTargetSelector>
@@ -87,7 +111,31 @@
 				<targetSelector href="/Items/Talents/Class/IronKnight/Ability_A4.TALENT" id="CBF2D512-D702-45CB-B6F3-7B1C448E2F10">
 					<PointTargetSelector parent="/Items/Talents/Class/IronKnight/A4_chain_targetSelector.TGSL">
 						<offset>
-							<x>4</x>
+							<x>2.5</x>
+							<y>7</y>
+						</offset>
+					</PointTargetSelector>
+				</targetSelector>
+			</SpellApplicator>
+		</Item>
+		<Item href="/Items/Talents/Class/IronKnight/Ability_A4.TALENT" id="4DE2763E-37F0-4DF9-A60B-66ACFBD51B20">
+			<SpellApplicator>
+				<applyTarget>CastMasterPosition</applyTarget>
+				<caption>Отправляем промежуточную цепь влево от курсора</caption>
+				<enabled>
+					<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<formulaName></formulaName>
+				<LoggingEvent>-1</LoggingEvent>
+				<providerName></providerName>
+				<spell href="/Items/Talents/Class/IronKnight/A4_ChainSpell.SPLL" />
+				<spellTarget>ApplicatorTarget</spellTarget>
+				<targetSelector href="/Items/Talents/Class/IronKnight/Ability_A4.TALENT" id="6812F986-0984-4F63-B06F-23B7E1D7171B">
+					<PointTargetSelector parent="/Items/Talents/Class/IronKnight/A4_chain_targetSelector.TGSL">
+						<offset>
+							<x>5.9</x>
 							<y>7</y>
 						</offset>
 					</PointTargetSelector>
@@ -179,9 +227,9 @@
 					<UnitConstant>
 						<name>A4_UseRange</name>
 						<var>
-							<compiledString>FQsAAAACAAAAGAAAACsAAABSYW5nZV9Mb25nAFWL7FGLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0twFOQAAANld/NlF/IvlXcMAAAAAAADwPw==</compiledString>
+							<compiledString>FQsAAAACAAAAGAAAACsAAABSYW5nZV9Mb25nAFWL7FGLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0twFOQAAANld/NlF/IvlXcMAAAAAAAAAQA==</compiledString>
 							<returnType>float</returnType>
-							<sString>cRange_Long + 1</sString>
+							<sString>cRange_Long + 2</sString>
 						</var>
 					</UnitConstant>
 				</Item>

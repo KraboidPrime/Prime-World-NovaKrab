@@ -164,9 +164,9 @@
 																		<applicator href="/Items/Talents/Class/SnowQueen/Ability_A1.TALENT" id="088209AA-3634-403F-9556-4196D8B46E35">
 																			<DamageApplicator parent="/GameLogic/GeneralApplicators/CommonDamage.APLR">
 																				<damage>
-																					<compiledString>FTwAAAAEAAAAQwAAAFwAAACaAAAAvgAAAEExX0RhbWFnZQAAAFNub3dRdWVlbl9BMXUAAABTbm93UXVlZW5fQTF1AAAAQTF1X0JvbnVzRGFtYWdlAFWL7IPsEGgMAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoHAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdB+LVQxSi0UIUGgsAAAAi00QixGLTRCLQlD/0Nld9OsF2e7ZXfSLTQxRi1UIUmgAAAAAi0UQixCLTRCLQlD/0NhF9Nld8NlF8IvlXcMAAAAA</compiledString>
+																					<compiledString>FUQAAAAFAAAASwAAAGQAAACiAAAAxgAAAOAAAABBMV9EYW1hZ2UAAABBZGRNREcAAFNub3dRdWVlbl9BMXUAAABTbm93UXVlZW5fQTF1AAAAQTF1X0JvbnVzRGFtYWdlAFWL7IPsGGgUAAAAi0UIixCLTQiLgqgBAAD/0IXAdCpoJAAAAItNCIsRi00Ii4KoAQAA/9CJRfyLTfyLEYtN/ItCBP/QiEX76wTGRfsAD7ZN+4XJdB+LVQxSi0UIUGg0AAAAi00QixGLTRCLQlD/0Nld9OsF2e7ZXfSLTQxRi1UIUmgAAAAAi0UQixCLTRCLQlD/0ItNDFGLVQhSaAwAAACLRRCLEItNEItCUN1d7P/Q3EXs2EX02V3o2UXoi+VdwwAAAAA=</compiledString>
 																					<returnType>float</returnType>
-																					<sString>cA1_Damage + (tal("SnowQueen_A1u") ? cA1u_BonusDamage : 0)</sString>
+																					<sString>cA1_Damage + cAddMDG + (tal("SnowQueen_A1u") ? cA1u_BonusDamage : 0)</sString>
 																				</damage>
 																				<damageType>Energy</damageType>
 																				<enabled>
@@ -177,6 +177,10 @@
 																		</applicator>
 																	</Item>
 																	<Item skip="1" />
+																	<Item>
+																		<applicator href="/Items/Talents/Class/SnowQueen/New_mana_burn.APLR" />
+																		<variableNames />
+																	</Item>
 																</applicators>
 															</VariableProxyApplicator>
 														</Item>
@@ -316,6 +320,18 @@
 															</applicator>
 														</Item>
 														<Item skip="1" />
+														<Item>
+															<applicator href="/Items/Talents/Class/SnowQueen/status_A0_Tech.APLR" />
+															<variableNames />
+														</Item>
+														<Item>
+															<applicator href="/Items/Talents/Class/SnowQueen/status_A0_Tech.APLR" />
+															<variableNames />
+														</Item>
+														<Item>
+															<applicator href="/Items/Talents/Class/SnowQueen/New_mana_burn.APLR" />
+															<variableNames />
+														</Item>
 													</applicators>
 												</VariableProxyApplicator>
 											</Item>
@@ -819,6 +835,16 @@
 							<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
 							<returnType>float</returnType>
 							<sString>1.0f</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/SnowQueen/Ability_A1.TALENT" id="330BCCBC-A9E3-407E-B135-2364BAC1C8D5">
+					<UnitConstant>
+						<name>AddMDG</name>
+						<var>
+							<compiledString>FR4AAAAFAAAAJQAAAD4AAABwAAAAegAAAMcAAABTbm93UXVlZW5fQTF1AAAAU25vd1F1ZWVuX0ExdQBVi+yD7BxoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AGoBUdkFCwEAANkcJFHZBQcBAADZHCRqAItNCIsRi00Ii4IwAQAA/9BR2Rwki00IixGLTQiLgjQBAAD/0FHZHCToXwAAAIPEBNkcJGoBi00QixGLTRCLQmD/0NwN/wAAAA+2TfuJTfTaTfSLVQyLAotNDItQUN1d7P/S99gbwIPAAYlF6NtF6NxN7Nld5NlF5IvlXcMAAAAAAADgPwAAAEEAAHxCVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
+							<returnType>float</returnType>
+							<sString>0.5f*damageScale( max(sIntellect, sStrength), 8, 63 )*tal("SnowQueen_A1u")*(rUnitKind == 0)</sString>
 						</var>
 					</UnitConstant>
 				</Item>

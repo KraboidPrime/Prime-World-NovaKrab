@@ -623,6 +623,10 @@
 					<Item href="/Items/Talents/Class/PinkGirl/Ability_A4_2.TALENT" />
 					<Item href="/Items/Talents/Class/Alchemist/Ability_A4_2.TALENT" />
 					<Item href="/Items/Talents/Class/Stalker/Ability_A4.TALENT" />
+					<Item href="/Items/Talents/Class/arbik_elf/Ability_A2.TALENT" />
+					<Item href="/Items/Talents/Class/arbik_elf/Ability_A3.TALENT" />
+					<Item href="/Items/Talents/Class/arbik_elf/Ability_A4_2.TALENT" />
+					<Item href="/Items/Talents/Class/arbik_elf/Ability_A4_3.TALENT" />
 				</talents>
 				<targetAbility>TalentFromList</targetAbility>
 				<useListAs>ListAsRule</useListAs>

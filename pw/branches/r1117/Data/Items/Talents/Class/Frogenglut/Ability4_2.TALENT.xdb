@@ -1133,42 +1133,7 @@
 		<sString>100</sString>
 	</manaCost>
 	<marker></marker>
-	<microAI href="/Items/Talents/Class/Frogenglut/Ability4_2.TALENT" id="B7D95897-8EB1-40DC-8E15-4BF7E6571102">
-		<TargetSelectorMicroAI>
-			<castWhenIdle>false</castWhenIdle>
-			<condition>
-				<compiledString></compiledString>
-				<returnType>bool</returnType>
-				<sString>true</sString>
-			</condition>
-			<targetSelector href="/Items/Talents/Class/Frogenglut/Ability4_2.TALENT" id="CEF83FC3-2E17-42BD-B25F-30C5FE7ECDCD">
-				<ConvertTargetToLand>
-					<aggregateMode>First</aggregateMode>
-					<targetSelector href="/Items/Talents/Class/Frogenglut/Ability4_2.TALENT" id="80855F8C-9FD5-4EC7-B7B1-13C82A56CF0B">
-						<NearestTargetSelector>
-							<targetSelector href="/Items/Talents/Class/Frogenglut/Ability4_2.TALENT" id="680E8C07-57C9-411C-A73E-E94C8B655DB8">
-								<AreaTargetSelector>
-									<absolutePosition>
-										<x>0</x>
-										<y>0</y>
-									</absolutePosition>
-									<flags>0</flags>
-									<mode>Normal</mode>
-									<range>
-										<compiledString>FQsAAAABAAAAFwAAAFJhbmdlX0xvbmcAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
-										<returnType>float</returnType>
-										<sString>cRange_Long</sString>
-									</range>
-									<targetFilter>679477251</targetFilter>
-									<targetSelector href="" />
-								</AreaTargetSelector>
-							</targetSelector>
-						</NearestTargetSelector>
-					</targetSelector>
-				</ConvertTargetToLand>
-			</targetSelector>
-		</TargetSelectorMicroAI>
-	</microAI>
+	<microAI href="" />
 	<minLevel>2</minLevel>
 	<minUseRangeCorrection>0</minUseRangeCorrection>
 	<naftaCost>540</naftaCost>

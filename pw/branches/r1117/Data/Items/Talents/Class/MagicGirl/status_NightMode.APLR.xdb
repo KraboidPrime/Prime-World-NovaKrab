@@ -26,6 +26,8 @@
 								</Item>
 								<Item href="/Heroes/MagicGirl/FXAbility3TXT.EFFT" />
 								<Item href="/Heroes/MagicGirl/FXHair.EFFT" />
+								<Item href="/Heroes/MagicGirl/S2/FXEyes/FXEyes.EFFT" />
+								<Item href="/Heroes/MagicGirl/FXHair2.EFFT" />
 							</effects>
 							<enableCondition href="" />
 							<lifeTime>0</lifeTime>

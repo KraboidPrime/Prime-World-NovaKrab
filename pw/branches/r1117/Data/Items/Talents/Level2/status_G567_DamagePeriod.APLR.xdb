@@ -237,7 +237,7 @@
 		<sString>-1.0</sString>
 	</customProgress>
 	<description textref="/Items/Talents/Level2/status_G567_DamagePeriod.APLR_description.txt" />
-	<dispellPriority>Medium</dispellPriority>
+	<dispellPriority>Low</dispellPriority>
 	<effect>
 		<Item href="" />
 		<Item href="" />

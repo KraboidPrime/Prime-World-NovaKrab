@@ -1006,9 +1006,9 @@
 					<calcIncrement>24</calcIncrement>
 					<calcValue>695</calcValue>
 					<increment>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADAQQ==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACwQQ==</compiledString>
 						<returnType>float</returnType>
-						<sString>24</sString>
+						<sString>22</sString>
 					</increment>
 					<levelUpgrades />
 					<statId>Energy</statId>

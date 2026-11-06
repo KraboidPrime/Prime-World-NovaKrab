@@ -115,7 +115,7 @@
 		<sString>-1.0</sString>
 	</customProgress>
 	<description textref="/Items/Talents/Class/WitchDoctor/status_A3_CrowEye.APLR_description.txt" />
-	<dispellPriority>High</dispellPriority>
+	<dispellPriority>Medium</dispellPriority>
 	<effect>
 		<Item href="" />
 		<Item href="" />
@@ -129,9 +129,9 @@
 	<formulaName>CrowEye</formulaName>
 	<image href="/UI/Styles/Icons/Heroes/WitchDoctor/A3.ITEX" />
 	<lifeTime>
-		<compiledString>FQwAAAABAAAAGAAAAEEzX0R1cmF0aW9uAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+		<compiledString>FQwAAAACAAAAGQAAACwAAABBM19EdXJhdGlvbgBVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcBToAAADZXfzZRfyL5V3DAAAAoJmZuT8=</compiledString>
 		<returnType>float</returnType>
-		<sString>cA3_Duration</sString>
+		<sString>cA3_Duration + 0.1f</sString>
 	</lifeTime>
 	<LoggingEvent>-1</LoggingEvent>
 	<name textref="/Items/Talents/Class/WitchDoctor/status_A3_CrowEye.APLR_name.txt" />

@@ -78,7 +78,7 @@
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level2/G584_AttackSpeed.TALENT.xdb" />
+					<talent href="/Items/Talents/Level5/G647_SpdOrDex_Life.TALENT.xdb" />
 				</Item>
 			</talents>
 		</Item>
@@ -118,7 +118,7 @@
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level3/G458_StrOrInt.TALENT.xdb" />
+					<talent href="/Items/Talents/Level3/G547_SilenceDamageBase.TALENT" />
 				</Item>
 			</talents>
 		</Item>
@@ -158,7 +158,7 @@
 					<aIPriority>0</aIPriority>
 					<refineRate>5</refineRate>
 					<status>normal</status>
-					<talent href="/Items/Talents/Level4/G649_BlindStrOrInt.TALENT.xdb" />
+					<talent href="/Items/Talents/Level4/G774_SeeInvis.TALENT.xdb" />
 				</Item>
 			</talents>
 		</Item>

@@ -3,6 +3,7 @@
 	<BackLink DBID="/Effects/Shots/Arrow/A4_2Hunter.PRXY" Count="1" />
 	<BackLink DBID="/Effects/Shots/Arrow/A4_2Hunter_S1.PRXY" Count="1" />
 	<BackLink DBID="/Effects/Shots/Arrow/A4_2Hunter_S3.PRXY" Count="1" />
+	<BackLink DBID="/Effects/Shots/Arrow/_AreaFX11.PRXY" Count="1" />
 	<attached />
 	<caption>BigTrail</caption>
 	<colorFirst>

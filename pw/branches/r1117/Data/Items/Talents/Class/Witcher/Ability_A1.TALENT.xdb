@@ -265,7 +265,7 @@
 																									<lifeTime>
 																										<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DMzMzPw==</compiledString>
 																										<returnType>float</returnType>
-																										<sString>0.7</sString>
+																										<sString>0.7f</sString>
 																									</lifeTime>
 																									<LoggingEvent>-1</LoggingEvent>
 																									<playAck>false</playAck>
@@ -1339,9 +1339,9 @@
 					<UnitConstant>
 						<name>A1_ManaCost</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQg==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABIQg==</compiledString>
 							<returnType>float</returnType>
-							<sString>60</sString>
+							<sString>50</sString>
 						</var>
 					</UnitConstant>
 				</Item>

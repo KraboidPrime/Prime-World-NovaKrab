@@ -54,9 +54,9 @@
 					<UnitConstant>
 						<name>BaseAttack_TT</name>
 						<var>
-							<compiledString>FQAAAAACAAAAFgAAABwAAABVi+xRi0UIixCLTQiLgrwAAAD/0NwNMgAAANwFKgAAANld/NlF/IvlXcMAAAAAAAAgQHsUrkfheqQ/</compiledString>
+							<compiledString>FQAAAAACAAAAFgAAABwAAABVi+xRi0UIixCLTQiLgrwAAAD/0NwNMgAAANwFKgAAANld/NlF/IvlXcMAAAAAAAAqQHsUrkfheqQ/</compiledString>
 							<returnType>float</returnType>
-							<sString>0.04*sBaseIntellect + 8</sString>
+							<sString>0.04*sBaseIntellect + 13</sString>
 						</var>
 					</UnitConstant>
 				</Item>

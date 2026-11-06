@@ -4,8 +4,8 @@
 	<BackLink DBID="/Items/Talents/Level4/G529_Life.TALENT" Count="1" />
 	<name>G529_CD_Reduction</name>
 	<var>
-		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAAQA==</compiledString>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADAPw==</compiledString>
 		<returnType>float</returnType>
-		<sString>2</sString>
+		<sString>1.5f</sString>
 	</var>
 </UnitConstant>

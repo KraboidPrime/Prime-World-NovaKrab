@@ -730,14 +730,14 @@
 																								<flags>0</flags>
 																								<mode>SendOnce</mode>
 																								<range>
-																									<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+																									<compiledString>FQYAAAACAAAAEwAAACYAAABXaWR0aABVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcDTQAAADZXfzZRfyL5V3DAAAAAAAA4D8=</compiledString>
 																									<returnType>float</returnType>
-																									<sString>1.0f</sString>
+																									<sString>cWidth*0.5f</sString>
 																								</range>
 																								<rangeFromOwner>
-																									<compiledString>FQYAAAABAAAAEgAAAFJhbmdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+																									<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 																									<returnType>float</returnType>
-																									<sString>cRange</sString>
+																									<sString>0</sString>
 																								</rangeFromOwner>
 																								<segmentBegin>PreviousPosition</segmentBegin>
 																								<segmentDirectionOffset>0</segmentDirectionOffset>
@@ -1027,14 +1027,14 @@
 																								<flags>0</flags>
 																								<mode>SendOnce</mode>
 																								<range>
-																									<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+																									<compiledString>FQYAAAACAAAAEwAAACYAAABXaWR0aABVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcDTQAAADZXfzZRfyL5V3DAAAAAAAA4D8=</compiledString>
 																									<returnType>float</returnType>
-																									<sString>1.0f</sString>
+																									<sString>cWidth*0.5f</sString>
 																								</range>
 																								<rangeFromOwner>
-																									<compiledString>FQYAAAABAAAAEgAAAFJhbmdlAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+																									<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
 																									<returnType>float</returnType>
-																									<sString>cRange</sString>
+																									<sString>0</sString>
 																								</rangeFromOwner>
 																								<segmentBegin>PreviousPosition</segmentBegin>
 																								<segmentDirectionOffset>0</segmentDirectionOffset>

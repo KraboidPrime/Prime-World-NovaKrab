@@ -353,9 +353,121 @@
 																				<stopEvents>0</stopEvents>
 																			</Item>
 																			<Item>
-																				<applicator href="/Heroes/DefaultStatus/_SLOW_MOVE.APLR" />
+																				<applicator href="/Items/Talents/Class/Crusader/Ability_A2.TALENT" id="B69C8F74-7A92-43CE-A244-9C1AA8B82748">
+																					<StatusApplicator>
+																						<applicators>
+																							<Item href="/Items/Talents/Class/Crusader/Ability_A2.TALENT" id="2FCD1A9D-2D1E-425A-8ED5-C7F4C5E73EF7">
+																								<TriggerApplicator>
+																									<actionsCount>
+																										<compiledString></compiledString>
+																										<returnType>int</returnType>
+																										<sString>0</sString>
+																									</actionsCount>
+																									<applyTarget>ApplicatorTarget</applyTarget>
+																									<behaviorFlags>144</behaviorFlags>
+																									<caption>Меняем исходящий урон</caption>
+																									<effect>
+																										<Item href="" />
+																										<Item href="" />
+																									</effect>
+																									<enabled>
+																										<compiledString></compiledString>
+																										<returnType>bool</returnType>
+																										<sString>true</sString>
+																									</enabled>
+																									<formulaName></formulaName>
+																									<lifeTime>
+																										<compiledString></compiledString>
+																										<returnType>float</returnType>
+																										<sString>-1.0</sString>
+																									</lifeTime>
+																									<LoggingEvent>-1</LoggingEvent>
+																									<playAck>false</playAck>
+																									<processor href="/Items/Talents/Class/Crusader/Ability_A2.TALENT" id="B1220E4E-DB16-40F8-8627-5A33D974B4C4">
+																										<EventProcessorOutgoingDamage>
+																											<abilityFilter>
+																												<abilitiesList />
+																												<abilityCondition>
+																													<compiledString></compiledString>
+																													<returnType>bool</returnType>
+																													<sString>true</sString>
+																												</abilityCondition>
+																												<abilityCostMode>Any</abilityCostMode>
+																												<exceptThis>false</exceptThis>
+																												<flags>1610613888</flags>
+																												<onlySingleTarget>false</onlySingleTarget>
+																											</abilityFilter>
+																											<applyTarget>ApplicatorTarget</applyTarget>
+																											<damageTypeFilter>15</damageTypeFilter>
+																											<modifiedDamage>
+																												<compiledString>FRsAAAAEAAAAIgAAADwAAABeAAAAcQAAAERhbWFnZQAAVWdBbW91bnQAAAAARGFtYWdlAFWL7IPsEGgAAAAAi0UQixCLTRCLQlT/0ItNDFGLVQhSaAgAAACLRRCLEItNEItCUN1d+P/Q3G342V302UX0UdkcJGgUAAAAi00QixGLTRCLQlT/0NwNiwAAANld8NlF8FHZHCToDwAAAIPECIvlXcMAAAAAAADgP1WL7FHZRQjZRQze2d/g9sQFegjZRQjZXfzrBtlFDNld/NlF/IvlXcM=</compiledString>
+																												<returnType>float</returnType>
+																												<sString>max(0.5*appl.vDamage, appl.vDamage - cUgAmount)</sString>
+																											</modifiedDamage>
+																											<spell href="" />
+																										</EventProcessorOutgoingDamage>
+																									</processor>
+																									<providerName></providerName>
+																									<startCondition>
+																										<compiledString></compiledString>
+																										<returnType>bool</returnType>
+																										<sString>true</sString>
+																									</startCondition>
+																									<useAbilityCooldown>false</useAbilityCooldown>
+																									<useAbilityOwnerMana>false</useAbilityOwnerMana>
+																								</TriggerApplicator>
+																							</Item>
+																						</applicators>
+																						<applyTarget>ApplicatorTarget</applyTarget>
+																						<behaviorFlags>144</behaviorFlags>
+																						<caption>угнетение</caption>
+																						<customCounter>
+																							<compiledString></compiledString>
+																							<returnType>int</returnType>
+																							<sString>0</sString>
+																						</customCounter>
+																						<customProgress>
+																							<compiledString></compiledString>
+																							<returnType>float</returnType>
+																							<sString>-1.0</sString>
+																						</customProgress>
+																						<description textref="/Items/Talents/Class/Crusader/Ability_A2.TALENT_b69c8f747a9243cea2449c1aa8b82748_description.txt" />
+																						<dispellPriority>Low</dispellPriority>
+																						<effect>
+																							<Item href="/Effects/Debuffs/Fear/_.EFFT" />
+																							<Item href="" />
+																						</effect>
+																						<enabled>
+																							<compiledString></compiledString>
+																							<returnType>bool</returnType>
+																							<sString>true</sString>
+																						</enabled>
+																						<flags>0</flags>
+																						<formulaName></formulaName>
+																						<image href="/UI/Styles/Icons/Statuses/Standard/Fear.ITEX" />
+																						<lifeTime>
+																							<compiledString>FQwAAAABAAAAGAAAAFVnX0R1cmF0aW9uAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
+																							<returnType>float</returnType>
+																							<sString>cUg_Duration</sString>
+																						</lifeTime>
+																						<LoggingEvent>-1</LoggingEvent>
+																						<name textref="/Items/Talents/Class/Crusader/Ability_A2.TALENT_b69c8f747a9243cea2449c1aa8b82748_name.txt" />
+																						<power>0</power>
+																						<providerName></providerName>
+																						<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+																						<stackCount>0</stackCount>
+																						<startCondition>
+																							<compiledString>FRIAAAACAAAAHwAAADIAAABVZ19TdGFydENvbmRpdGlvbgBVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcHWUAAADf4PbERHsai0UMixCLTQyLQlD/0IXAdQnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAAA</compiledString>
+																							<returnType>bool</returnType>
+																							<sString>cUg_StartCondition &amp;&amp; rUnitKind == 0</sString>
+																						</startCondition>
+																						<statusPosition>0</statusPosition>
+																						<stopBehaviour>StopByTime</stopBehaviour>
+																						<unstackableWith href="" />
+																					</StatusApplicator>
+																				</applicator>
 																				<continueCondition>
-																					<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+																					<compiledString></compiledString>
 																					<returnType>bool</returnType>
 																					<sString>0</sString>
 																				</continueCondition>
@@ -366,7 +478,7 @@
 																					<sString>-1.0</sString>
 																				</delay>
 																				<stopCondition>
-																					<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
+																					<compiledString></compiledString>
 																					<returnType>bool</returnType>
 																					<sString>0</sString>
 																				</stopCondition>
@@ -1085,27 +1197,27 @@
 				</Item>
 				<Item href="/Items/Talents/Class/Crusader/Ability_A2.TALENT" id="0448F16C-62BE-4282-A0E4-2B21D694BFCE">
 					<UnitConstant>
-						<name>Slow_Duration</name>
+						<name>Ug_Duration</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACgQA==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADAQA==</compiledString>
 							<returnType>float</returnType>
-							<sString>5</sString>
+							<sString>6</sString>
 						</var>
 					</UnitConstant>
 				</Item>
 				<Item href="/Items/Talents/Class/Crusader/Ability_A2.TALENT" id="E79F82F9-3335-406D-A0DF-DABF5F54EDAA">
 					<UnitConstant>
-						<name>Dec_MoveSpeed</name>
+						<name>UgAmount</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAAAgQg==</compiledString>
+							<compiledString>FQAAAAADAAAAGwAAACwAAAAyAAAAVYvsUYtFCIsQi00Ii4IwAQAA/9BR2RwkUdkFUAAAANkcJOgtAAAAg8QI3A1IAAAA3CVAAAAA2V382UX8i+VdwwAAAAAAAD5AmpmZmZmZ8T8AAEhCVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
 							<returnType>float</returnType>
-							<sString>40</sString>
+							<sString>1.1*max(50, sStrength) - 30</sString>
 						</var>
 					</UnitConstant>
 				</Item>
 				<Item href="/Items/Talents/Class/Crusader/Ability_A2.TALENT" id="F2A59629-71F8-468D-81FD-FFA16095F717">
 					<UnitConstant>
-						<name>Slow_StartCondition</name>
+						<name>Ug_StartCondition</name>
 						<var>
 							<compiledString>FRQAAAACAAAAGQAAAC8AAABDcnVzYWRlcl9BMkV4QmVsaWVmAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHVEAAADf4PbEQXUJx0X8AQAAAOsHx0X8AAAAANtF/IvlXcMAAAAAAAAAAA==</compiledString>
 							<returnType>float</returnType>

@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SpellApplicator>
+	<BackLink DBID="/Items/Talents/Class/arbik_elf/angel_Summon_A3_Pick.APLR" Count="3" />
+	<BackLink DBID="/Items/Talents/Class/arbik_elf/angel_Summon_A3_Pick3.APLR" Count="1" />
+	<applyTarget>ApplicatorTarget</applyTarget>
+	<caption>Взрыв</caption>
+	<enabled>
+		<compiledString></compiledString>
+		<returnType>bool</returnType>
+		<sString>true</sString>
+	</enabled>
+	<formulaName></formulaName>
+	<LoggingEvent>-1</LoggingEvent>
+	<providerName></providerName>
+	<spell href="/Items/Talents/Class/arbik_elf/arbik_A3_BombExpl.APLR" id="9F83C5DB-81F2-4042-820E-4396D31F950A">
+		<Spell>
+			<applicators>
+				<Item href="/Heroes/DefaultStatus/_STUN_Status.APLR" />
+				<Item href="/Items/Talents/Class/arbik_elf/arbik_A3_BombExpl.APLR" id="10EFD2B6-9BBF-4D44-A47F-61125B57BA5D">
+					<DamageApplicator>
+						<applyTarget>ApplicatorTarget</applyTarget>
+						<cancelInvisibility>false</cancelInvisibility>
+						<caption>урон</caption>
+						<damage>
+							<compiledString>FQoAAAABAAAAFgAAAEEzX0RhbWFnZQBVi+yLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0l3D</compiledString>
+							<returnType>float</returnType>
+							<sString>cA3_Damage</sString>
+						</damage>
+						<damageMode>4</damageMode>
+						<damageType>Energy</damageType>
+						<enabled>
+							<compiledString></compiledString>
+							<returnType>bool</returnType>
+							<sString>true</sString>
+						</enabled>
+						<formulaName></formulaName>
+						<LoggingEvent>-1</LoggingEvent>
+						<providerName></providerName>
+						<timeLimiter>-1</timeLimiter>
+						<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed_Energy.UIEV" />
+					</DamageApplicator>
+				</Item>
+				<Item href="/Items/Talents/Class/arbik_elf/arbik_A3_BombExpl.APLR" id="69B5000A-DC7D-47CF-A1C3-B49CB976502B">
+					<DamageApplicator>
+						<applyTarget>ApplicatorTarget</applyTarget>
+						<cancelInvisibility>false</cancelInvisibility>
+						<caption>урон чистый</caption>
+						<damage>
+							<compiledString>FQAAAAACAAAATAAAAFIAAABVi+yD7AiLRQyLEItNDItCUP/Qg/gUdBuLTQyLEYtNDItCUP/Qg/gTdAnHRfwAAAAA6wfHRfwBAAAAi00MixGLTQyLQgz/0NtF/NwNagAAANwtYgAAAN7J2V342UX4i+VdwwAAAKCZmbk/AAAAoJmZqT8=</compiledString>
+							<returnType>float</returnType>
+							<sString>rMaxLife*(0.1f - 0.05f*(rUnitKind == 20 || rUnitKind == 19 ))</sString>
+						</damage>
+						<damageMode>4</damageMode>
+						<damageType>Pure</damageType>
+						<enabled>
+							<compiledString>FR4AAAACAAAAJQAAAD4AAABhcmJpa19lbGZfQTN1AAAAYXJiaWtfZWxmX0EzdQBVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AIpF+4vlXcM=</compiledString>
+							<returnType>bool</returnType>
+							<sString>tal("arbik_elf_A3u")</sString>
+						</enabled>
+						<formulaName></formulaName>
+						<LoggingEvent>-1</LoggingEvent>
+						<providerName></providerName>
+						<timeLimiter>-1</timeLimiter>
+						<uiEvent href="/UI/Events/CommonEvents/EventDamageDealed.UIEV" />
+					</DamageApplicator>
+				</Item>
+				<Item href="/Items/Talents/Class/arbik_elf/Status_metkost.APLR" />
+			</applicators>
+			<dispatch href="/Items/Talents/Class/arbik_elf/arbik_A3_BombExpl.APLR" id="E0F3A040-7620-41FC-B8CD-C105BBB48E9E">
+				<DispatchImmediate>
+					<alwaysApply>true</alwaysApply>
+					<applyEffect>
+						<Item href="/Heroes/arbik_elf/FXAA_Hit.EFFT" />
+						<Item href="" />
+					</applyEffect>
+					<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+					<applyEffectOrientation>Default</applyEffectOrientation>
+					<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+					<dieAfterApply>true</dieAfterApply>
+					<dispatchEffect>
+						<Item href="" />
+						<Item href="" />
+					</dispatchEffect>
+					<flags>1</flags>
+					<instantApply>false</instantApply>
+				</DispatchImmediate>
+			</dispatch>
+		</Spell>
+	</spell>
+	<spellTarget>ApplicatorTarget</spellTarget>
+	<targetSelector href="/Items/Talents/Class/arbik_elf/arbik_A3_BombExpl.APLR" id="F337BDC8-1ED0-46DE-B59A-0B12107A8A48">
+		<ConditionTargetSelector>
+			<condition>
+				<compiledString>FRAAAAACAAAAFQAAACsAAABJZ25vcmFibGVUYXJnZXQAVYvsUWgAAAAAi0UMixCLTQyLgogBAAD/0NwdTQAAAN/g9sREegnHRfwBAAAA6wfHRfwAAAAAikX8i+VdwwAAAAAAAAAA</compiledString>
+				<returnType>bool</returnType>
+				<sString>receiver.vIgnorableTarget == 0</sString>
+			</condition>
+			<flags>0</flags>
+			<mode>Normal</mode>
+			<targetSelector href="/Items/Talents/Class/arbik_elf/arbik_A3_BombExpl.APLR" id="A98977DD-5418-46AC-99F2-D567D84B8530">
+				<AreaTargetSelector>
+					<absolutePosition>
+						<x>0</x>
+						<y>0</y>
+					</absolutePosition>
+					<flags>0</flags>
+					<mode>Normal</mode>
+					<range>
+						<compiledString>FQsAAAABAAAAFwAAAEEzX0FvRVNpemUAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
+						<returnType>float</returnType>
+						<sString>cA3_AoESize</sString>
+					</range>
+					<targetFilter>538771519</targetFilter>
+					<targetSelector href="" />
+				</AreaTargetSelector>
+			</targetSelector>
+		</ConditionTargetSelector>
+	</targetSelector>
+</SpellApplicator>

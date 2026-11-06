@@ -209,7 +209,105 @@
 																	</dispatch>
 																</Spell>
 															</startSpell>
-															<stopSpell href="" />
+															<stopSpell href="/Items/Talents/Class/MagicGirl/spell_A1_blackhole.SPLL" id="C9809248-F707-4B70-9A50-C95EE7FA7DAB">
+																<Spell>
+																	<applicators>
+																		<Item href="/Items/Talents/Class/MagicGirl/spell_A1_blackhole.SPLL" id="F7C5B74B-004B-4780-ABE9-7D8C9AE3190F">
+																			<SpellApplicator>
+																				<applyTarget>ApplicatorTarget</applyTarget>
+																				<caption>фикс агра</caption>
+																				<enabled>
+																					<compiledString>FQYAAAACAAAACwAAACEAAABJc1BldABVi+xRaAAAAACLRQyLEItNDIuCiAEAAP/Q3B1nAAAA3+D2xER6LYtNDIsRi00Mi0JQ/9CD+AN0EotNDIsRi00Mi0JQ/9CD+AR1CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
+																					<returnType>bool</returnType>
+																					<sString>receiver.vIsPet == 0 &amp;&amp; (rUnitKind == 3 || rUnitKind == 4)</sString>
+																				</enabled>
+																				<formulaName></formulaName>
+																				<LoggingEvent>-1</LoggingEvent>
+																				<providerName></providerName>
+																				<spell href="/Items/Talents/Class/MagicGirl/spell_A1_blackhole.SPLL" id="86BA5388-9EA2-4329-806E-9C3B077CECEA">
+																					<Spell>
+																						<applicators>
+																							<Item href="/Items/Talents/Class/MagicGirl/spell_A1_blackhole.SPLL" id="B3B1919C-FFB7-40F1-8717-4F0D809A9BDF">
+																								<CreepBehaviourChangeApplicator>
+																									<applicators />
+																									<applyTarget>ApplicatorTarget</applyTarget>
+																									<behaviorFlags>0</behaviorFlags>
+																									<behaviour href="" />
+																									<behaviourChangeFlags>32</behaviourChangeFlags>
+																									<caption></caption>
+																									<effect>
+																										<Item href="" />
+																										<Item href="" />
+																									</effect>
+																									<enabled>
+																										<compiledString>FQYAAAACAAAACwAAACEAAABJc1BldABVi+xRaAAAAACLRQyLEItNDIuCiAEAAP/Q3B1nAAAA3+D2xER6LYtNDIsRi00Mi0JQ/9CD+AN0EotNDIsRi00Mi0JQ/9CD+AR1CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
+																										<returnType>bool</returnType>
+																										<sString>receiver.vIsPet == 0 &amp;&amp; (rUnitKind == 3 || rUnitKind == 4)</sString>
+																									</enabled>
+																									<formulaName></formulaName>
+																									<lifeTime>
+																										<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzcxMPg==</compiledString>
+																										<returnType>float</returnType>
+																										<sString>0.2f</sString>
+																									</lifeTime>
+																									<LoggingEvent>-1</LoggingEvent>
+																									<providerName></providerName>
+																									<startCondition>
+																										<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+																										<returnType>bool</returnType>
+																										<sString>true</sString>
+																									</startCondition>
+																									<summonGroupName></summonGroupName>
+																								</CreepBehaviourChangeApplicator>
+																							</Item>
+																						</applicators>
+																						<dispatch href="/Items/Talents/Class/MagicGirl/spell_A1_blackhole.SPLL" id="5FD69FB4-6567-4D50-8E88-C1875CE14229">
+																							<DispatchImmediate>
+																								<alwaysApply>false</alwaysApply>
+																								<applyEffect>
+																									<Item href="" />
+																									<Item href="" />
+																								</applyEffect>
+																								<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																								<applyEffectOrientation>Default</applyEffectOrientation>
+																								<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																								<dieAfterApply>true</dieAfterApply>
+																								<dispatchEffect>
+																									<Item href="" />
+																									<Item href="" />
+																								</dispatchEffect>
+																								<flags>0</flags>
+																								<instantApply>false</instantApply>
+																							</DispatchImmediate>
+																						</dispatch>
+																					</Spell>
+																				</spell>
+																				<spellTarget>ApplicatorTarget</spellTarget>
+																				<targetSelector href="" />
+																			</SpellApplicator>
+																		</Item>
+																	</applicators>
+																	<dispatch href="/Items/Talents/Class/MagicGirl/spell_A1_blackhole.SPLL" id="A829E73B-ACAE-49E1-B2E6-85CDC3844669">
+																		<DispatchImmediate>
+																			<alwaysApply>false</alwaysApply>
+																			<applyEffect>
+																				<Item href="" />
+																				<Item href="" />
+																			</applyEffect>
+																			<applyEffectIgnoreVisibility>false</applyEffectIgnoreVisibility>
+																			<applyEffectOrientation>Default</applyEffectOrientation>
+																			<applyEffectRandomAnglePoints>0</applyEffectRandomAnglePoints>
+																			<dieAfterApply>true</dieAfterApply>
+																			<dispatchEffect>
+																				<Item href="" />
+																				<Item href="" />
+																			</dispatchEffect>
+																			<flags>0</flags>
+																			<instantApply>false</instantApply>
+																		</DispatchImmediate>
+																	</dispatch>
+																</Spell>
+															</stopSpell>
 															<surfaceSpeedFromAG>false</surfaceSpeedFromAG>
 															<takeOffTime>0</takeOffTime>
 															<targetSelector href="/Items/Talents/Class/MagicGirl/spell_A1_blackhole.SPLL" id="6E23C33B-2A4B-4B19-8C39-C588A939530B">

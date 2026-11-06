@@ -7,7 +7,7 @@
 					<Item>
 						<applicator href="/Items/Talents/Class/PinkGirl/status_A2_PickUpBall.APLR" />
 						<continueCondition>
-							<compiledString></compiledString>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 							<returnType>bool</returnType>
 							<sString>0</sString>
 						</continueCondition>
@@ -18,7 +18,7 @@
 							<sString>-1.0</sString>
 						</delay>
 						<stopCondition>
-							<compiledString></compiledString>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 							<returnType>bool</returnType>
 							<sString>0</sString>
 						</stopCondition>
@@ -194,7 +194,7 @@
 							</StatusApplicator>
 						</applicator>
 						<continueCondition>
-							<compiledString></compiledString>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 							<returnType>bool</returnType>
 							<sString>0</sString>
 						</continueCondition>
@@ -205,7 +205,7 @@
 							<sString>-1.0</sString>
 						</delay>
 						<stopCondition>
-							<compiledString></compiledString>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 							<returnType>bool</returnType>
 							<sString>0</sString>
 						</stopCondition>
@@ -229,7 +229,7 @@
 							</KillApplicator>
 						</applicator>
 						<continueCondition>
-							<compiledString></compiledString>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 							<returnType>bool</returnType>
 							<sString>0</sString>
 						</continueCondition>
@@ -240,7 +240,7 @@
 							<sString>-1.0</sString>
 						</delay>
 						<stopCondition>
-							<compiledString></compiledString>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 							<returnType>bool</returnType>
 							<sString>0</sString>
 						</stopCondition>

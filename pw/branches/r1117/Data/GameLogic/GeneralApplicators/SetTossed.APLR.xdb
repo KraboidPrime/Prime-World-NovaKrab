@@ -2,7 +2,7 @@
 <StatModApplicator>
 	<BackLink DBID="/Creeps/Champions/Champion1/Ablt_JumpAndStun.ABLT" Count="1" />
 	<BackLink DBID="/Creeps/Normals/Normal6/HarpoonProgram.APLR" Count="1" />
-	<BackLink DBID="/Heroes/BladeDancer/_.HROB" Count="1" />
+	<BackLink DBID="/Heroes/Bladedancer/_.HROB" Count="1" />
 	<BackLink DBID="/Heroes/Wendigo/AttackAbility.ATCK" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Angel/A4_TeleportChanneling.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Banshee/Ability_A3.TALENT" Count="1" />
@@ -32,7 +32,6 @@
 	<BackLink DBID="/Items/Talents/Class/Plane/Ability_A3.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Plane/spell_A3.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Reaper/A1_JumpAndDown.APLR" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Reaper/Ability_A1.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Rockman/Ability4.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Stalker/Ability_A1.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Unicorn/Ability4_2.TALENT" Count="1" />
@@ -49,6 +48,7 @@
 	<BackLink DBID="/Summons/EvilTree/_.SUMMONED" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Chicken/Ability_A2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A4_1.TALENT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/arbik_elf/Ability_A2.TALENT" Count="7" />
 	<applyTarget>ApplicatorTarget</applyTarget>
 	<behaviorFlags>1</behaviorFlags>
 	<caption>Unit is thrown (Tossed)</caption>

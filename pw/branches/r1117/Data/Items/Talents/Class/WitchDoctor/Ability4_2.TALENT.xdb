@@ -987,7 +987,7 @@
 											<checkByRangeToRequester>false</checkByRangeToRequester>
 											<checkLineOfSight>false</checkLineOfSight>
 											<nativeTerrainOnly>false</nativeTerrainOnly>
-											<passabilityCheckMode>7</passabilityCheckMode>
+											<passabilityCheckMode>6</passabilityCheckMode>
 											<radius>3</radius>
 											<targetSelector href="/Items/Talents/Class/WitchDoctor/Ability4_2.TALENT" id="1590F63A-C09C-4FAD-A3E6-2BC430F6173C">
 												<SelectApplicatorTarget>
@@ -1077,16 +1077,16 @@
 		<sString>0.0f</sString>
 	</castAllowRange>
 	<castLimitations>
-		<Item href="/Items/Talents/Class/WitchDoctor/Ability4_2.TALENT" id="D1EDE0F1-5B2A-4D6E-ADA5-CA7DAF84753A">
+		<Item href="/Items/Talents/Class/WitchDoctor/Ability4_2.TALENT" id="7E1376D3-74E7-4A56-935C-EA45C3E4A8DF">
 			<TargetCastLimitation>
-				<targetSelector href="/Items/Talents/Class/WitchDoctor/Ability4_2.TALENT" id="ABE58A8F-7E6F-4967-AF1E-22ADF9049BA2">
+				<targetSelector href="/Items/Talents/Class/WitchDoctor/Ability4_2.TALENT" id="E67C8742-D83A-49B8-B83F-21234F99314C">
 					<UnitPlaceCorrector>
 						<checkByRangeToRequester>false</checkByRangeToRequester>
 						<checkLineOfSight>false</checkLineOfSight>
 						<nativeTerrainOnly>false</nativeTerrainOnly>
-						<passabilityCheckMode>0</passabilityCheckMode>
+						<passabilityCheckMode>6</passabilityCheckMode>
 						<radius>0</radius>
-						<targetSelector href="/Items/Talents/Class/WitchDoctor/Ability4_2.TALENT" id="C389AAF0-A90A-488F-8D41-598B3642A814">
+						<targetSelector href="/Items/Talents/Class/WitchDoctor/Ability4_2.TALENT" id="4EF0BE4F-B23D-49E5-939A-E980D67E7160">
 							<ConvertTargetToLand>
 								<aggregateMode>First</aggregateMode>
 								<targetSelector href="" />
@@ -1758,7 +1758,7 @@
 	<persistentId>Vedun_A4_2</persistentId>
 	<prerequisiteTalents />
 	<rarity>Class</rarity>
-	<requireLineOfSight>true</requireLineOfSight>
+	<requireLineOfSight>false</requireLineOfSight>
 	<shortDescription textref="/Items/Talents/Class/WitchDoctor/Ability4_2.TALENT_shortDescription.txt" />
 	<talentRollGroups>63</talentRollGroups>
 	<talentStats />

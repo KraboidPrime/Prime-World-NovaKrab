@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BasicEffectAttached>
+	<BackLink DBID="/Heroes/Trickster/S2/FXAbility4R.EFFT" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Trickster/status_A4.APLR" Count="1" />
+	<attachFlags>0</attachFlags>
+	<attachType>RightHand</attachType>
+	<component href="/Heroes/Trickster/S2/Effects/Debuffs/Burn/_PrimeHandsTRS_S1.PRXY" />
+	<deathType>Manual</deathType>
+	<enableCondition href="" />
+	<fadeIn>0.5</fadeIn>
+	<fadeOut>1.5</fadeOut>
+	<groupFlags>0</groupFlags>
+	<lifeTime>0</lifeTime>
+</BasicEffectAttached>

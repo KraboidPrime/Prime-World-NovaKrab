@@ -802,7 +802,7 @@
 					</dispatchEffect>
 					<flags>7</flags>
 					<flyMode>Linear</flyMode>
-					<fromLocator>Attack</fromLocator>
+					<fromLocator>Gun</fromLocator>
 					<height>0</height>
 					<killEffect>true</killEffect>
 					<locatorOrient>false</locatorOrient>
@@ -880,7 +880,9 @@
 		<Item href="/Heroes/Bomber/_.SOBJ" />
 		<Item href="/Heroes/Bomber/_.SOBJ" />
 	</heroSceneObjects>
-	<heroSkins />
+	<heroSkins>
+		<Item href="/Heroes/Bomber/S1/_.HEROSKIN" />
+	</heroSkins>
 	<id>bomber</id>
 	<image href="" />
 	<interaction href="" />

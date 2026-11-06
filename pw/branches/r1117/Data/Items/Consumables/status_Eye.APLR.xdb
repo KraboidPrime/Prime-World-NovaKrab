@@ -116,6 +116,7 @@
 		</Item>
 		<Item href="/GameLogic/GeneralApplicators/Immune2Control.APLR" />
 		<Item href="/GameLogic/GeneralApplicators/Uncontrollable.APLR" />
+		<Item href="/GameLogic/GeneralApplicators/IgnoreTarget.APLR" />
 	</applicators>
 	<applyTarget>ApplicatorTarget</applyTarget>
 	<behaviorFlags>144</behaviorFlags>

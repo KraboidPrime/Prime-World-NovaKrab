@@ -169,6 +169,8 @@
 					<Item href="/Items/Talents/Class/Primevoker/Ability_A4_2.TALENT" />
 					<Item href="/Items/Talents/Class/Naga/Ability4_2.TALENT" />
 					<Item href="/Items/Talents/Class/Ratcatcher/Ability4_2_Upg.TALENT" />
+					<Item href="/Items/Talents/Class/arbik_elf/Ability_A4_2.TALENT" />
+					<Item href="/Items/Talents/Class/arbik_elf/Ability_A4_3.TALENT" />
 				</talents>
 				<targetAbilities>128</targetAbilities>
 				<useListAs>ListAsRule</useListAs>

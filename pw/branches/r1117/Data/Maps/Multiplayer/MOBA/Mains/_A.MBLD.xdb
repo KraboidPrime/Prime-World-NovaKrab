@@ -470,9 +470,9 @@
 														<LoggingEvent>-1</LoggingEvent>
 														<modifier>
 															<addValue>
-																<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzczMPQ==</compiledString>
+																<compiledString>FQsAAAABAAAAFwAAAFNlcnZlclN0ZXAAVYvsi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9Jdww==</compiledString>
 																<returnType>float</returnType>
-																<sString>0.1f</sString>
+																<sString>cServerStep</sString>
 															</addValue>
 															<multValue>
 																<compiledString></compiledString>
@@ -997,9 +997,9 @@
 																			</enabled>
 																			<formulaName></formulaName>
 																			<lifeTime>
-																				<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACbQw==</compiledString>
+																				<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADXQw==</compiledString>
 																				<returnType>float</returnType>
-																				<sString>310</sString>
+																				<sString>430</sString>
 																			</lifeTime>
 																			<LoggingEvent>-1</LoggingEvent>
 																			<period>
@@ -1084,9 +1084,9 @@
 																				<sString>true</sString>
 																			</startCondition>
 																			<startOffset>
-																				<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACTQw==</compiledString>
+																				<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADPQw==</compiledString>
 																				<returnType>float</returnType>
-																				<sString>294.0f</sString>
+																				<sString>414.0f</sString>
 																			</startOffset>
 																			<targetSelector href="" />
 																		</SpellPeriodicallyApplicator>

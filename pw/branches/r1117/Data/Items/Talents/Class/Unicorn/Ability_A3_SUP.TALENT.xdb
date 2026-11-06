@@ -132,9 +132,9 @@
 				<behaviorFlags>216</behaviorFlags>
 				<caption></caption>
 				<customCounter>
-					<compiledString></compiledString>
+					<compiledString>FQkAAAACAAEAGAAAACsAAABQAAAARE1HX0JVRkYAVYvsg+wMi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcDYoAAADZ6N7Bi0UIixCLTQiLgjABAADdXfj/0NxN+IPsCN0cJOig////g8QI2V302UX0UdkcJFHZ6NkcJOgmAAAAg8QE2Rwk6EMAAACDxASL5V3DAACAPwAAAAAAAPA/exSuR+F6hD9Vi+xR2UUI2UUM3tnf4PbEBXoI2UUI2V386wbZRQzZXfzZRfyL5V3DuAEAAAAPovfCAAAABHQH8w8sRCQEw+kAAAAAVYvsg+wM2UUI2X38D7dF/A0ADAAAiUX42W3421302W38i0X0i+Vdww==</compiledString>
 					<returnType>int</returnType>
-					<sString>0</sString>
+					<sString>f2l(max(1,floor((1+0.01*cDMG_BUFF)*sStrength)))</sString>
 				</customCounter>
 				<customProgress>
 					<compiledString></compiledString>

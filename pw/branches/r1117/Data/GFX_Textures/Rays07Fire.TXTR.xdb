@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Texture>
 	<BackLink DBID="/Buildings/B/Misc01/FX.PRXY" Count="2" />
-	<BackLink DBID="/Effects/Buffs/ColdCharged/_Copper.PRXY" Count="1" />
 	<BackLink DBID="/Effects/Buffs/ColdCharged/_Gold.PRXY" Count="1" />
 	<BackLink DBID="/Effects/Buffs/Fairies/_AreaGold.PRXY" Count="1" />
 	<BackLink DBID="/Effects/Buffs/Increase/_DamageCycle.PRXY" Count="1" />

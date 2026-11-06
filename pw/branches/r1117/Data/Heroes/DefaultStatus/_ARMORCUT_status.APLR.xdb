@@ -6,7 +6,7 @@
 	<BackLink DBID="/Items/Talents/Class/Crusader/A4_DamageAndDebuff.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Crusader/Ability_A4_2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Fairy/Ability_A3_2.TALENT" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/Fluffy/A0_BigFormProgramm.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/Fluffy/A0_BigFormProgramm.APLR" Count="2" />
 	<BackLink DBID="/Items/Talents/Class/Fluffy/status_A3Self.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Frogenglut/Ability1.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Gunner/Ability_A3.TALENT" Count="1" />
@@ -29,6 +29,7 @@
 	<BackLink DBID="/Items/Talents/TalentKits/Redset7_10_Buthcer/appl_Execution.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Chicken/Ability_A2.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Primevoker/Ability_A0.TALENT" Count="1" />
+	<BackLink DBID="/Heroes/PinkGirl/_.HROB" Count="1" />
 	<applicators>
 		<Item href="/Heroes/DefaultStatus/_ARMORCUT_status.APLR" id="C89F28A7-8619-4690-B11D-0C1D8A0DAE6B">
 			<StatModApplicator>
@@ -113,7 +114,7 @@
 		<sString>-1.0</sString>
 	</customProgress>
 	<description textref="/Heroes/DefaultStatus/_ARMORCUT_status.APLR_description.txt" />
-	<dispellPriority>Medium</dispellPriority>
+	<dispellPriority>Low</dispellPriority>
 	<effect>
 		<Item href="/Effects/Debuffs/Decrease/_Defence.EFFT" />
 		<Item href="" />

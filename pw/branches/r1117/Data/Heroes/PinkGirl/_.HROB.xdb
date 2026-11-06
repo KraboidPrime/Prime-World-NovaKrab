@@ -71,7 +71,7 @@
 				</Item>
 			</settings>
 			<sounds>
-				<Item href="/Heroes/PinkGirl/_.HROB" id="66F4D07D-EFAF-4B1B-8FBE-1A3A599E7F79">
+				<Item href="/Heroes/Pinkgirl/_.HROB" id="66F4D07D-EFAF-4B1B-8FBE-1A3A599E7F79">
 					<DBSoundSceneComponent>
 						<attached />
 						<caption>sound</caption>
@@ -86,7 +86,7 @@
 						<timeInterval>0</timeInterval>
 					</DBSoundSceneComponent>
 				</Item>
-				<Item href="/Heroes/PinkGirl/_.HROB" id="81A84B89-4D07-49C6-A2F2-7B92FCE0EE52">
+				<Item href="/Heroes/Pinkgirl/_.HROB" id="81A84B89-4D07-49C6-A2F2-7B92FCE0EE52">
 					<DBSoundSceneComponent>
 						<attached />
 						<caption>sound</caption>
@@ -101,7 +101,7 @@
 						<timeInterval>0</timeInterval>
 					</DBSoundSceneComponent>
 				</Item>
-				<Item href="/Heroes/PinkGirl/_.HROB" id="95E3B25C-7A0E-410B-AB63-3BF73040DB06">
+				<Item href="/Heroes/Pinkgirl/_.HROB" id="95E3B25C-7A0E-410B-AB63-3BF73040DB06">
 					<DBSoundSceneComponent>
 						<attached />
 						<caption>sound</caption>
@@ -116,7 +116,7 @@
 						<timeInterval>0</timeInterval>
 					</DBSoundSceneComponent>
 				</Item>
-				<Item href="/Heroes/PinkGirl/_.HROB" id="6DCE8060-4795-4545-94F5-7D58F535D494">
+				<Item href="/Heroes/Pinkgirl/_.HROB" id="6DCE8060-4795-4545-94F5-7D58F535D494">
 					<DBSoundSceneComponent>
 						<attached />
 						<caption>sound</caption>
@@ -131,7 +131,7 @@
 						<timeInterval>0</timeInterval>
 					</DBSoundSceneComponent>
 				</Item>
-				<Item href="/Heroes/PinkGirl/_.HROB" id="E60A12C1-DE6C-4BFB-9DF0-C1ADFE0EB8FF">
+				<Item href="/Heroes/Pinkgirl/_.HROB" id="E60A12C1-DE6C-4BFB-9DF0-C1ADFE0EB8FF">
 					<DBSoundSceneComponent>
 						<attached />
 						<caption>sound</caption>
@@ -146,7 +146,7 @@
 						<timeInterval>0</timeInterval>
 					</DBSoundSceneComponent>
 				</Item>
-				<Item href="/Heroes/PinkGirl/_.HROB" id="CFB22DB5-F0DF-4C98-A920-55BEA19AE467">
+				<Item href="/Heroes/Pinkgirl/_.HROB" id="CFB22DB5-F0DF-4C98-A920-55BEA19AE467">
 					<DBSoundSceneComponent>
 						<attached />
 						<caption>sound</caption>
@@ -161,7 +161,7 @@
 						<timeInterval>0</timeInterval>
 					</DBSoundSceneComponent>
 				</Item>
-				<Item href="/Heroes/PinkGirl/_.HROB" id="749C50A3-11BA-4E71-B97B-B90802184862">
+				<Item href="/Heroes/Pinkgirl/_.HROB" id="749C50A3-11BA-4E71-B97B-B90802184862">
 					<DBSoundSceneComponent>
 						<attached />
 						<caption>sound</caption>
@@ -176,7 +176,7 @@
 						<timeInterval>0</timeInterval>
 					</DBSoundSceneComponent>
 				</Item>
-				<Item href="/Heroes/PinkGirl/_.HROB" id="5EA4F3B0-12F2-4C58-8A54-F82CD18E4283">
+				<Item href="/Heroes/Pinkgirl/_.HROB" id="5EA4F3B0-12F2-4C58-8A54-F82CD18E4283">
 					<DBSoundSceneComponent>
 						<attached />
 						<caption>sound</caption>
@@ -191,7 +191,7 @@
 						<timeInterval>0</timeInterval>
 					</DBSoundSceneComponent>
 				</Item>
-				<Item href="/Heroes/PinkGirl/_.HROB" id="4C4ED89A-83E1-40DD-BB21-860103530282">
+				<Item href="/Heroes/Pinkgirl/_.HROB" id="4C4ED89A-83E1-40DD-BB21-860103530282">
 					<DBSoundSceneComponent>
 						<attached />
 						<caption>sound</caption>
@@ -206,7 +206,7 @@
 						<timeInterval>0</timeInterval>
 					</DBSoundSceneComponent>
 				</Item>
-				<Item href="/Heroes/PinkGirl/_.HROB" id="5B9E8633-35B4-4486-8F14-4101C1F75E67">
+				<Item href="/Heroes/Pinkgirl/_.HROB" id="5B9E8633-35B4-4486-8F14-4101C1F75E67">
 					<DBSoundSceneComponent>
 						<attached />
 						<caption>sound</caption>
@@ -303,7 +303,7 @@
 				</Item>
 			</settings>
 			<sounds>
-				<Item href="/Heroes/PinkGirl/_.HROB" id="561A3209-FF09-44ED-9E03-C688CB177DB6">
+				<Item href="/Heroes/Pinkgirl/_.HROB" id="561A3209-FF09-44ED-9E03-C688CB177DB6">
 					<DBSoundSceneComponent>
 						<attached />
 						<caption>sound</caption>
@@ -318,7 +318,7 @@
 						<timeInterval>0</timeInterval>
 					</DBSoundSceneComponent>
 				</Item>
-				<Item href="/Heroes/PinkGirl/_.HROB" id="C977C981-EBEB-489E-85F2-D623FF687E14">
+				<Item href="/Heroes/Pinkgirl/_.HROB" id="C977C981-EBEB-489E-85F2-D623FF687E14">
 					<DBSoundSceneComponent>
 						<attached />
 						<caption>sound</caption>
@@ -333,7 +333,7 @@
 						<timeInterval>0</timeInterval>
 					</DBSoundSceneComponent>
 				</Item>
-				<Item href="/Heroes/PinkGirl/_.HROB" id="7A35817F-4F8A-4096-A342-E7728E3DB65D">
+				<Item href="/Heroes/Pinkgirl/_.HROB" id="7A35817F-4F8A-4096-A342-E7728E3DB65D">
 					<DBSoundSceneComponent>
 						<attached />
 						<caption>sound</caption>
@@ -348,7 +348,7 @@
 						<timeInterval>0</timeInterval>
 					</DBSoundSceneComponent>
 				</Item>
-				<Item href="/Heroes/PinkGirl/_.HROB" id="C5C4F7D5-4A65-45E5-A0E7-542E09825358">
+				<Item href="/Heroes/Pinkgirl/_.HROB" id="C5C4F7D5-4A65-45E5-A0E7-542E09825358">
 					<DBSoundSceneComponent>
 						<attached />
 						<caption>sound</caption>
@@ -363,7 +363,7 @@
 						<timeInterval>0</timeInterval>
 					</DBSoundSceneComponent>
 				</Item>
-				<Item href="/Heroes/PinkGirl/_.HROB" id="BA3E66A4-BD51-436D-A4E3-43936AAB3E01">
+				<Item href="/Heroes/Pinkgirl/_.HROB" id="BA3E66A4-BD51-436D-A4E3-43936AAB3E01">
 					<DBSoundSceneComponent>
 						<attached />
 						<caption>sound</caption>
@@ -378,7 +378,7 @@
 						<timeInterval>0</timeInterval>
 					</DBSoundSceneComponent>
 				</Item>
-				<Item href="/Heroes/PinkGirl/_.HROB" id="808A9F31-1811-4C41-BF2C-238B79421DAB">
+				<Item href="/Heroes/Pinkgirl/_.HROB" id="808A9F31-1811-4C41-BF2C-238B79421DAB">
 					<DBSoundSceneComponent>
 						<attached />
 						<caption>sound</caption>
@@ -393,7 +393,7 @@
 						<timeInterval>0</timeInterval>
 					</DBSoundSceneComponent>
 				</Item>
-				<Item href="/Heroes/PinkGirl/_.HROB" id="71ED1F3C-FDA5-4494-B852-00DECDD4C405">
+				<Item href="/Heroes/Pinkgirl/_.HROB" id="71ED1F3C-FDA5-4494-B852-00DECDD4C405">
 					<DBSoundSceneComponent>
 						<attached />
 						<caption>sound</caption>
@@ -408,7 +408,7 @@
 						<timeInterval>0</timeInterval>
 					</DBSoundSceneComponent>
 				</Item>
-				<Item href="/Heroes/PinkGirl/_.HROB" id="7899B1D7-279D-48DC-90F5-9FDF80E0C434">
+				<Item href="/Heroes/Pinkgirl/_.HROB" id="7899B1D7-279D-48DC-90F5-9FDF80E0C434">
 					<DBSoundSceneComponent>
 						<attached />
 						<caption>sound</caption>
@@ -423,7 +423,7 @@
 						<timeInterval>0</timeInterval>
 					</DBSoundSceneComponent>
 				</Item>
-				<Item href="/Heroes/PinkGirl/_.HROB" id="59E46E3B-FE89-46E8-A863-62057A5E240E">
+				<Item href="/Heroes/Pinkgirl/_.HROB" id="59E46E3B-FE89-46E8-A863-62057A5E240E">
 					<DBSoundSceneComponent>
 						<attached />
 						<caption>sound</caption>
@@ -438,7 +438,7 @@
 						<timeInterval>0</timeInterval>
 					</DBSoundSceneComponent>
 				</Item>
-				<Item href="/Heroes/PinkGirl/_.HROB" id="91BB96A7-921F-468B-9B5D-17822B89EA8A">
+				<Item href="/Heroes/Pinkgirl/_.HROB" id="91BB96A7-921F-468B-9B5D-17822B89EA8A">
 					<DBSoundSceneComponent>
 						<attached />
 						<caption>sound</caption>
@@ -662,7 +662,7 @@
 			</sounds3d>
 		</Item>
 	</askListsSecondState>
-	<attackAbility href="/Heroes/PinkGirl/_.HROB" id="A9D55797-C28E-4C42-9E8E-802AAA975007">
+	<attackAbility href="/Heroes/Pinkgirl/_.HROB" id="A9D55797-C28E-4C42-9E8E-802AAA975007">
 		<BaseAttack>
 			<activeCustomTrigger>true</activeCustomTrigger>
 			<allowChase>
@@ -683,7 +683,7 @@
 			<aoeType>None</aoeType>
 			<applicators>
 				<Item href="/Effects/Shots/HitsApplicators/MeleeHero.APLR" />
-				<Item href="/Heroes/PinkGirl/_.HROB" id="9B6F8D2B-2019-4550-A43B-87674DB80580">
+				<Item href="/Heroes/Pinkgirl/_.HROB" id="9B6F8D2B-2019-4550-A43B-87674DB80580">
 					<VariableProxyApplicator>
 						<applicators>
 							<Item>
@@ -694,7 +694,7 @@
 								</variableNames>
 							</Item>
 							<Item>
-								<applicator href="/Heroes/PinkGirl/_.HROB" id="51C6E9CF-ED75-442F-9007-02819E39D437">
+								<applicator href="/Heroes/Pinkgirl/_.HROB" id="51C6E9CF-ED75-442F-9007-02819E39D437">
 									<DamageApplicator parent="/GameLogic/GeneralApplicators/CommonDamage.APLR">
 										<caption>A0 урон</caption>
 										<damage>
@@ -717,7 +717,7 @@
 								</variableNames>
 							</Item>
 							<Item>
-								<applicator href="/Heroes/PinkGirl/_.HROB" id="B825107D-F626-42D4-8B3D-81358D811659">
+								<applicator href="/Heroes/Pinkgirl/_.HROB" id="B825107D-F626-42D4-8B3D-81358D811659">
 									<DamageApplicator>
 										<applyTarget>ApplicatorTarget</applyTarget>
 										<cancelInvisibility>false</cancelInvisibility>
@@ -749,39 +749,6 @@
 								<applicator href="/Heroes/DefaultStatus/_STUNsleep_Status.APLR" />
 								<variableNames />
 							</Item>
-							<Item>
-								<applicator href="/Heroes/PinkGirl/_.HROB" id="A0D0256F-02E8-4826-9F1F-41A09AD6CC48">
-									<PermanentStatModApplicator>
-										<applyTarget>AbilityOwner</applyTarget>
-										<caption>set PinkGirlStopA0</caption>
-										<customApplyType>None</customApplyType>
-										<enabled>
-											<compiledString></compiledString>
-											<returnType>bool</returnType>
-											<sString>true</sString>
-										</enabled>
-										<formulaName></formulaName>
-										<LoggingEvent>-1</LoggingEvent>
-										<modifier>
-											<addValue>
-												<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
-												<returnType>float</returnType>
-												<sString>0.0f</sString>
-											</addValue>
-											<multValue>
-												<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
-												<returnType>float</returnType>
-												<sString>0.0f</sString>
-											</multValue>
-											<stat>Life</stat>
-											<topModifier>false</topModifier>
-											<variable>PinkGirlStopA0</variable>
-										</modifier>
-										<providerName></providerName>
-									</PermanentStatModApplicator>
-								</applicator>
-								<variableNames />
-							</Item>
 						</applicators>
 						<applyTarget>ApplicatorTarget</applyTarget>
 						<caption>урон + A0</caption>
@@ -794,6 +761,38 @@
 						<LoggingEvent>-1</LoggingEvent>
 						<providerName></providerName>
 					</VariableProxyApplicator>
+				</Item>
+				<Item href="/Items/Talents/Class/PinkGirl/status_A0_StrAttackSpeed.APLR" />
+				<Item href="/Heroes/DefaultStatus/_ARMORCUT_status.APLR" />
+				<Item href="/Heroes/Pinkgirl/_.HROB" id="A0D0256F-02E8-4826-9F1F-41A09AD6CC48">
+					<PermanentStatModApplicator>
+						<applyTarget>AbilityOwner</applyTarget>
+						<caption>set PinkGirlStopA0</caption>
+						<customApplyType>None</customApplyType>
+						<enabled>
+							<compiledString></compiledString>
+							<returnType>bool</returnType>
+							<sString>true</sString>
+						</enabled>
+						<formulaName></formulaName>
+						<LoggingEvent>-1</LoggingEvent>
+						<modifier>
+							<addValue>
+								<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+								<returnType>float</returnType>
+								<sString>0.0f</sString>
+							</addValue>
+							<multValue>
+								<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+								<returnType>float</returnType>
+								<sString>0.0f</sString>
+							</multValue>
+							<stat>Life</stat>
+							<topModifier>false</topModifier>
+							<variable>PinkGirlStopA0</variable>
+						</modifier>
+						<providerName></providerName>
+					</PermanentStatModApplicator>
 				</Item>
 			</applicators>
 			<autoTargetSelector href="" />
@@ -808,12 +807,12 @@
 			<compiledDescriptionA textref="" />
 			<compiledDescriptionB textref="" />
 			<conditionFormulas />
-			<constants href="/Heroes/PinkGirl/_.HROB" id="444FFBE3-61A8-425C-BC01-EBB9A39102CD">
+			<constants href="/Heroes/Pinkgirl/_.HROB" id="444FFBE3-61A8-425C-BC01-EBB9A39102CD">
 				<UnitConstantsContainer>
 					<vars>
 						<Item href="/Items/Talents/Class/PinkGirl/const_A0_StunDuration" />
 						<Item href="/Items/Talents/Class/PinkGirl/const_A0_Damage" />
-						<Item href="/Heroes/PinkGirl/_.HROB" id="D02D348B-CA98-44AC-853D-2FF044666A87">
+						<Item href="/Heroes/Pinkgirl/_.HROB" id="D02D348B-CA98-44AC-853D-2FF044666A87">
 							<UnitConstant>
 								<name>Stun_StartCondition</name>
 								<var>
@@ -824,6 +823,38 @@
 							</UnitConstant>
 						</Item>
 						<Item href="/Items/Talents/Class/PinkGirl/const_A0_BonusDamage" />
+						<Item href="/Items/Talents/Class/PinkGirl/const_A0_StrBuffDuration" />
+						<Item href="/Items/Talents/Class/PinkGirl/const_A0_StrAttackSpeed" />
+						<Item href="/Heroes/Pinkgirl/_.HROB" id="A38FB256-8121-4705-9844-242CC6D77323">
+							<UnitConstant>
+								<name>ArmorCut_Duration</name>
+								<var>
+									<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
+									<returnType>float</returnType>
+									<sString>3.0f</sString>
+								</var>
+							</UnitConstant>
+						</Item>
+						<Item href="/Heroes/Pinkgirl/_.HROB" id="4A157F4A-37BC-4D4C-9B79-F2C1640815D6">
+							<UnitConstant>
+								<name>ArmorCut_StartCondition</name>
+								<var>
+									<compiledString>FRQAAAADAAAAQQAAAFUAAABoAAAAU3R1bl9TdGFydENvbmRpdGlvbgBVi+xRUdno2RwkUdnu2RwkagGLRQyLEItNDItCWP/QD7bIUeheAAAAg8QM3B2KAAAA3+D2xER7MItVDFKLRQhQaAAAAACLTRCLEYtNEItCUP/Q3B2KAAAA3+D2xER7CcdF/AEAAADrB8dF/AAAAADbRfyL5V3DAAAAAAAAAAAAAAAAAACAP1WL7FEPtkUIhcB0CNlFDNld/OsG2UUQ2V382UX8i+Vdww==</compiledString>
+									<returnType>float</returnType>
+									<sString>ut_bldg(false, true) &amp;&amp; cStun_StartCondition</sString>
+								</var>
+							</UnitConstant>
+						</Item>
+						<Item href="/Heroes/Pinkgirl/_.HROB" id="1C50B77B-8413-4D54-9EFE-B6B2510C3D3C">
+							<UnitConstant>
+								<name>ArmorCut_Amount</name>
+								<var>
+									<compiledString>FQAAAAADAAAAGwAAACwAAAAyAAAAVYvsUYtFCIsQi00Ii4IwAQAA/9BR2RwkUdkFUAAAANkcJOgtAAAAg8QI3A1IAAAA3AVAAAAA2V382UX8i+VdwwAAAAAAABBAuB6F61G4vj8AAEhCVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
+									<returnType>float</returnType>
+									<sString>0.12*max(50, sStrength) + 4</sString>
+								</var>
+							</UnitConstant>
+						</Item>
 					</vars>
 				</UnitConstantsContainer>
 			</constants>
@@ -838,7 +869,7 @@
 				<sString>0.0f</sString>
 			</cooldownTimeSecondState>
 			<description textref="" />
-			<dispatch href="/Heroes/PinkGirl/_.HROB" id="F05C449F-642F-4E30-BC0A-E95B030AD0E7">
+			<dispatch href="/Heroes/Pinkgirl/_.HROB" id="F05C449F-642F-4E30-BC0A-E95B030AD0E7">
 				<DispatchImmediate>
 					<alwaysApply>false</alwaysApply>
 					<applyEffect>
@@ -914,8 +945,8 @@
 	<heightObject>false</heightObject>
 	<heroImageA href="/UI/Styles/Icons/Heroes/PinkGirl/Face.ITEX" />
 	<heroImageB href="/UI/Styles/Icons/Heroes/PinkGirl/Face.ITEX" />
-	<heroNameA textref="/Heroes/PinkGirl/_.HROB_heroNameA.txt" />
-	<heroNameB textref="/Heroes/PinkGirl/_.HROB_heroNameB.txt" />
+	<heroNameA textref="/Heroes/Pinkgirl/_.HROB_heroNameA.txt" />
+	<heroNameB textref="/Heroes/Pinkgirl/_.HROB_heroNameB.txt" />
 	<heroRace>3</heroRace>
 	<heroSceneObjects>
 		<Item href="/Heroes/PinkGirl/_.SOBJ" />
@@ -988,8 +1019,8 @@
 		<heroAskSoundB>Heroes/Asks/Pinkgirl_iddle_1</heroAskSoundB>
 		<heroBiographyA textref="" />
 		<heroBiographyB textref="" />
-		<heroDescriptionA textref="/Heroes/PinkGirl/_.HROB_lobbyData_heroDescriptionA.txt" />
-		<heroDescriptionB textref="/Heroes/PinkGirl/_.HROB_lobbyData_heroDescriptionB.txt" />
+		<heroDescriptionA textref="/Heroes/Pinkgirl/_.HROB_lobbyData_heroDescriptionA.txt" />
+		<heroDescriptionB textref="/Heroes/Pinkgirl/_.HROB_lobbyData_heroDescriptionB.txt" />
 		<heroRenderA href="/UI/Styles/Icons/Heroes/PinkGirl/Figure.ITEX" />
 		<heroRenderB href="/UI/Styles/Icons/Heroes/PinkGirl/Figure.ITEX" />
 		<IsHeroHiredByDefaultFemale>false</IsHeroHiredByDefaultFemale>
@@ -1053,7 +1084,7 @@
 	</selectionAoe>
 	<size>3</size>
 	<sizeDynamic>1.5</sizeDynamic>
-	<stats href="/Heroes/PinkGirl/_.HROB" id="87A4AEF3-2F4D-4CE7-9477-F88D29A4E34D">
+	<stats href="/Heroes/Pinkgirl/_.HROB" id="87A4AEF3-2F4D-4CE7-9477-F88D29A4E34D">
 		<StatsContainer>
 			<stats>
 				<Item>
@@ -1268,7 +1299,7 @@
 		</StatsContainer>
 	</stats>
 	<summonedUnits />
-	<targetingParams href="/Heroes/PinkGirl/_.HROB" id="B2B983AF-A2AD-4A75-A028-7603793E4A9D">
+	<targetingParams href="/Heroes/Pinkgirl/_.HROB" id="B2B983AF-A2AD-4A75-A028-7603793E4A9D">
 		<UnitTargetingParameters parent="/GameLogic/TargetingParams_HeroMelee.UNTP">
 			<unitTargetWeight>
 				<Item>11</Item>

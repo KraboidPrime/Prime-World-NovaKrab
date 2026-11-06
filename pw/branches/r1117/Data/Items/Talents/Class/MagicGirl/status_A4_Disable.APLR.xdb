@@ -435,9 +435,9 @@
 									<providerName></providerName>
 									<reduceByPercent>false</reduceByPercent>
 									<reductionAmount>
-										<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzcxMvg==</compiledString>
+										<compiledString>FQsAAAACAAAAGAAAACsAAABTZXJ2ZXJTdGVwAFWL7FGLRQxQi00IUWgAAAAAi1UQiwKLTRCLUFD/0twNOQAAANld/NlF/IvlXcMAAAAAAAAAwA==</compiledString>
 										<returnType>float</returnType>
-										<sString>-0.2f ;//т.к. мы должен компенсировать интервал и время за интервал</sString>
+										<sString>-2*cServerStep ;//т.к. мы должен компенсировать интервал и время за интервал</sString>
 									</reductionAmount>
 									<refreshThis>false</refreshThis>
 									<talents />

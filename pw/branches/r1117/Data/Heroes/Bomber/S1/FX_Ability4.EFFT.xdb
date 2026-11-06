@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BasicEffectAttached>
+	<BackLink DBID="/Items/Talents/Class/Bomber/status_A4_Self.APLR" Count="2" />
+	<attachFlags>15</attachFlags>
+	<attachType>Backpack</attachType>
+	<component href="/Heroes/Bomber/Effengine/Ult/UltTRS.PRXY" />
+	<deathType>Manual</deathType>
+	<enableCondition href="/Heroes/Bomber/S1/FX_Ability4.EFFT" id="366991B0-5652-4DA5-96C1-705C5E992AB1">
+		<ConditionFormula>
+			<condition>
+				<compiledString>FQoAAAABAAAADgAAAGJvbWJlcl9TMQBVi+xoAAAAAItFCIsQi00Ii4LoAQAA/9Bdww==</compiledString>
+				<returnType>bool</returnType>
+				<sString>sender.IsSkinUsed( "bomber_S1" )</sString>
+			</condition>
+			<name></name>
+		</ConditionFormula>
+	</enableCondition>
+	<fadeIn>0.1</fadeIn>
+	<fadeOut>0.1</fadeOut>
+	<groupFlags>0</groupFlags>
+	<lifeTime>0</lifeTime>
+</BasicEffectAttached>

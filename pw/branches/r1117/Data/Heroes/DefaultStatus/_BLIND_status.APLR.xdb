@@ -211,7 +211,7 @@
 		<sString>-1.0</sString>
 	</customProgress>
 	<description textref="/Heroes/DefaultStatus/_BLIND_status.APLR_description.txt" />
-	<dispellPriority>High</dispellPriority>
+	<dispellPriority>Low</dispellPriority>
 	<effect>
 		<Item href="/Effects/Debuffs/Blind/_.EFFT" />
 		<Item href="" />

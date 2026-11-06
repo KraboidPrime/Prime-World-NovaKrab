@@ -88,9 +88,9 @@
 					<UnitConstant>
 						<name>A0_CooldownTime</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADwQQ==</compiledString>
+							<compiledString>FSUAAAACAAAALAAAAEUAAABJbnZpc2libGVfQTJfU1VQAAAAAEludmlzaWJsZV9BMl9TVVAAVYvsg+wMaAAAAACLRQiLEItNCIuCqAEAAP/QhcB0KmgUAAAAi00IixGLTQiLgqgBAAD/0IlF/ItN/IsRi038i0IE/9CIRfvrBMZF+wAPtk3799kbyYPh8YPBHolN9NtF9IvlXcM=</compiledString>
 							<returnType>float</returnType>
-							<sString>30</sString>
+							<sString>tal("Invisible_A2_SUP") ? 15 : 30</sString>
 						</var>
 					</UnitConstant>
 				</Item>

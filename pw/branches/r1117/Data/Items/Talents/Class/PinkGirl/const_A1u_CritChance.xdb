@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UnitConstant>
+	<name>A1u_CritChance</name>
+	<var>
+		<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABwQQ==</compiledString>
+		<returnType>float</returnType>
+		<sString>15</sString>
+	</var>
+</UnitConstant>

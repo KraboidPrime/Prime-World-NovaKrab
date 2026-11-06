@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UnitConstant>
+	<BackLink DBID="/Items/Talents/Class/arbik_elf/Ability_A0.TALENT" Count="1" />
+	<name>Stack</name>
+	<var>
+		<compiledString>FQkAAAABAAAADQAAAEFyYlN0YWNrAFWL7GgAAAAAi0UIixCLTQiLgogBAAD/0F3D</compiledString>
+		<returnType>float</returnType>
+		<sString>sender.vArbStack</sString>
+	</var>
+</UnitConstant>

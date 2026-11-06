@@ -1,38 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <StatusApplicator>
 	<BackLink DBID="/Heroes/SnowQueen/_.HROB" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/SnowQueen/A2A3_Spell.SPLL" Count="1" />
-	<BackLink DBID="/Items/Talents/Class/SnowQueen/Ability_A1.TALENT" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/SnowQueen/A2A3_Spell.SPLL" Count="2" />
+	<BackLink DBID="/Items/Talents/Class/SnowQueen/Ability_A1.TALENT" Count="7" />
 	<BackLink DBID="/Items/Talents/Class/SnowQueen/Ability_A4.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/SnowQueen/Ability_A4_2.TALENT" Count="12" />
 	<BackLink DBID="/Items/Talents/Class/SnowQueen/damageWithA0.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/SnowQueen/status_A3_IceShiverAlly.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/SnowQueen/status_A3_IceShiverEnemy.APLR" Count="1" />
 	<applicators>
-		<Item href="/Items/Talents/Class/SnowQueen/status_A0_Tech.APLR" id="38782A04-D89E-41CB-B97F-51EDD2CF7058">
-			<DamageApplicator>
-				<applyTarget>ApplicatorTarget</applyTarget>
-				<cancelInvisibility>false</cancelInvisibility>
-				<caption>выжечь ману</caption>
-				<damage>
-					<compiledString>FQwAAAABAAAAGAAAAEEwX01hbmFCdXJuAFWL7ItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/SXcM=</compiledString>
-					<returnType>float</returnType>
-					<sString>cA0_ManaBurn</sString>
-				</damage>
-				<damageMode>4</damageMode>
-				<damageType>Mana</damageType>
-				<enabled>
-					<compiledString>FRIAAAACAAAAHwAAADIAAABBMF9TdGFydENvbmRpdGlvbgBVi+xRi0UMUItNCFFoAAAAAItVEIsCi00Qi1BQ/9LcHU4AAADf4PbERHsGxkX/AesExkX/AIpF/4vlXcMAAAAAAAAAAA==</compiledString>
-					<returnType>bool</returnType>
-					<sString>cA0_StartCondition</sString>
-				</enabled>
-				<formulaName></formulaName>
-				<LoggingEvent>-1</LoggingEvent>
-				<providerName></providerName>
-				<timeLimiter>-1</timeLimiter>
-				<uiEvent href="/UI/Events/CommonEvents/EventEnergyBurn.UIEV" />
-			</DamageApplicator>
-		</Item>
 		<Item href="/Items/Talents/Class/SnowQueen/status_A0_FrozenHeart.APLR" />
 		<Item href="/Items/Talents/Class/SnowQueen/status_A0_Tech.APLR" id="66261126-82C6-402C-8C86-CEE4D3519940">
 			<StatusApplicator>
@@ -125,9 +101,9 @@
 	<stackableAcrossUnits>FullyStackable</stackableAcrossUnits>
 	<stackCount>11</stackCount>
 	<startCondition>
-		<compiledString>FQ0AAAADAAAAVQAAAHEAAACEAAAAZGFtYWdlRGVhbGVkAFWL7IPsDItFDIsQi00Mi0JQ/9AzyYP4EQ+VwYlN/NtF/FHZHCRR2e7ZHCRqAYtVDIsCi00Mi1BY/9IPtsBQ6GIAAACDxAzcHaYAAADf4PbERHs4i00QixGLTRCLQkj/0IlF+GgAAAAAi034ixGLTfiLQlT/0NwdpgAAAN/g9sRBdQnHRfQBAAAA6wfHRfQAAAAAikX0i+VdwwAAAAAAAAAAAAAAAFWL7FEPtkUIhcB0CNlFDNld/OsG2UUQ2V382UX8i+Vdww==</compiledString>
+		<compiledString>FT0AAAAGAAAAhQAAAKUAAAC4AAAAxAAAAN0AAAAZAQAAZGFtYWdlRGVhbGVkAAAAAFNub3dRdWVlbl9BMl9TVVAAAAAAU25vd1F1ZWVuX0EyX1NVUAAAAABXYXJkAFWL7IPsFItFDIsQi00Mi0JQ/9AzyYP4EQ+VwYlN/NtF/FHZHCRR2e7ZHCRqAYtVDIsCi00Mi1BY/9IPtsBQ6NUAAACDxAzcHUkBAADf4PbERA+LpwAAAItNEIsRi00Qi0JI/9CJRfhoAAAAAItN+IsRi034i0JU/9DcHUkBAADf4PbEQXRPaBAAAACLTQiLEYtNCIuCqAEAAP/QhcB0KmgkAAAAi00IixGLTQiLgqgBAAD/0IlF9ItN9IsRi030i0IE/9CIRfPrBMZF8wAPtk3zhcl0KWoAi1UQUmg4AAAAi0UMixCLTQyLgpwBAAD/0DtFEHUJx0XsAQAAAOsHx0XsAAAAAIpF7IvlXcMAAAAAAAAAAAAAAABVi+xRD7ZFCIXAdAjZRQzZXfzrBtlFENld/NlF/IvlXcM=</compiledString>
 		<returnType>bool</returnType>
-		<sString>ut_bldg( false, rUnitKind != 17 ) &amp;&amp; $ParentApplVariable("damageDealed") &gt; 0.0</sString>
+		<sString>ut_bldg( false, rUnitKind != 17 ) &amp;&amp; ($ParentApplVariable("damageDealed") &gt; 0.0 || tal("SnowQueen_A2_SUP")) &amp;&amp; receiver.applWard(GLOBAL) == pMisc</sString>
 	</startCondition>
 	<statusPosition>0</statusPosition>
 	<stopBehaviour>StopByTime</stopBehaviour>

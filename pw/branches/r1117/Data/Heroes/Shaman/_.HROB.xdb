@@ -684,7 +684,8 @@
 			<applicators>
 				<Item href="/Effects/Shots/HitsApplicators/MeleeHero.APLR" />
 				<Item href="/GameLogic/GeneralApplicators/BaseAttackDmg_Hero_material.APLR" />
-				<Item href="/Heroes/DefaultStatus/_STUN_Status.APLR" />
+				<Item href="/Heroes/DefaultStatus/_STUNsleep_Status.APLR" />
+				<Item href="/Heroes/DefaultStatus/_ARMORCUT_status.APLR" />
 				<Item href="/Heroes/Shaman/_.HROB" id="193D97DA-E1C3-4DD8-9125-63C288DC4D15">
 					<PermanentStatModApplicator>
 						<applyTarget>AbilityOwner</applyTarget>
@@ -753,7 +754,7 @@
 									</FlagsApplicator>
 								</applicator>
 								<continueCondition>
-									<compiledString></compiledString>
+									<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 									<returnType>bool</returnType>
 									<sString>0</sString>
 								</continueCondition>
@@ -764,7 +765,7 @@
 									<sString>-1.0</sString>
 								</delay>
 								<stopCondition>
-									<compiledString></compiledString>
+									<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 									<returnType>bool</returnType>
 									<sString>0</sString>
 								</stopCondition>
@@ -773,7 +774,7 @@
 							<Item>
 								<applicator href="/Effects/Shots/HitsApplicators/MeleeHero.APLR" />
 								<continueCondition>
-									<compiledString></compiledString>
+									<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 									<returnType>bool</returnType>
 									<sString>0</sString>
 								</continueCondition>
@@ -784,7 +785,7 @@
 									<sString>-1.0</sString>
 								</delay>
 								<stopCondition>
-									<compiledString></compiledString>
+									<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 									<returnType>bool</returnType>
 									<sString>0</sString>
 								</stopCondition>
@@ -793,7 +794,7 @@
 							<Item>
 								<applicator href="/GameLogic/GeneralApplicators/BaseAttackDmg_Hero_material.APLR" />
 								<continueCondition>
-									<compiledString></compiledString>
+									<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 									<returnType>bool</returnType>
 									<sString>0</sString>
 								</continueCondition>
@@ -804,7 +805,7 @@
 									<sString>-1.0</sString>
 								</delay>
 								<stopCondition>
-									<compiledString></compiledString>
+									<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 									<returnType>bool</returnType>
 									<sString>0</sString>
 								</stopCondition>
@@ -860,13 +861,53 @@
 						<Item href="/Items/Talents/Class/Katana/const_A0_SUP_Burn_Duration" />
 						<Item href="/Items/Talents/Class/Katana/const_A0_SUP_Burn_TTDPS" />
 						<Item href="/Items/Talents/Class/Shaman/const_A2_SUP_Stun_Duration" />
+						<Item href="/Heroes/Shaman/_.HROB" id="C36E16B9-11B8-4DA0-AE2B-A0551D8A562B">
+							<UnitConstant>
+								<name>ArmorCut_Amount</name>
+								<var>
+									<compiledString>FQAAAAADAAAAGwAAACwAAAAyAAAAVYvsUYtFCIsQi00Ii4IwAQAA/9BR2RwkUdkFUAAAANkcJOgtAAAAg8QI3A1IAAAA3AVAAAAA2V382UX8i+VdwwAAAAAAABBAuB6F61G4vj8AAEhCVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
+									<returnType>float</returnType>
+									<sString>0.12*max(50, sStrength) + 4</sString>
+								</var>
+							</UnitConstant>
+						</Item>
+						<Item href="/Heroes/Shaman/_.HROB" id="E0C60C88-A020-4EB9-B161-777882465882">
+							<UnitConstant>
+								<name>ArmorCut_Duration</name>
+								<var>
+									<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
+									<returnType>float</returnType>
+									<sString>3.0f</sString>
+								</var>
+							</UnitConstant>
+						</Item>
+						<Item href="/Heroes/Shaman/_.HROB" id="CA724A74-FF70-4C4D-9CF6-CF86F469BB1D">
+							<UnitConstant>
+								<name>ArmorCut_StartCondition</name>
+								<var>
+									<compiledString>FTIAAAAGAAAAOQAAAE8AAACHAAAArwAAAMkAAADiAAAAQWJpbGl0eTIAAAAAV2FyZAAAAABTaGFtYW5fQTJfU1VQAAAAU2hhbWFuX0EyX1NVUABVi+yD7AxoAAAAAItFCIsQi00Ii4KIAQAA/9DcHT4BAADf4PbERA+KwgAAAFHZ6NkcJFHZ7tkcJGoBi00MixGLTQyLQlj/0A+2yFHoxAAAAIPEDNwdLgEAAN/g9sRED4uKAAAAi1UMiwKLTQyLUFD/0oP4EXR4agCLRRBQaAwAAACLTQyLEYtNDIuCnAEAAP/QO0UQdVhoFAAAAItNCIsRi00Ii4KoAQAA/9CFwHQqaCQAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AA+2TfuFyXQJx0X0AQAAAOsHx0X0AAAAANtF9IvlXcMAAAAAAAAAAAAAAAAAAIA/AAAAAAAA8D9Vi+xRD7ZFCIXAdAjZRQzZXfzrBtlFENld/NlF/IvlXcM=</compiledString>
+									<returnType>float</returnType>
+									<sString>sender.vAbility2 == 1 &amp;&amp; ut_bldg(false, true) &amp;&amp; rUnitKind != 17 &amp;&amp; receiver.applWard(GLOBAL) == pMisc &amp;&amp; tal("Shaman_A2_SUP")</sString>
+								</var>
+							</UnitConstant>
+						</Item>
+						<Item href="/Heroes/Shaman/_.HROB" id="3C37C2D5-A247-40C0-836E-411B2E4B7B70">
+							<UnitConstant>
+								<name>ArmorCut_Condition</name>
+								<var>
+									<compiledString>FQAAAAAAAAAAVYvs2ehdwwAAgD8=</compiledString>
+									<returnType>float</returnType>
+									<sString>true</sString>
+								</var>
+							</UnitConstant>
+						</Item>
 						<Item href="/Heroes/Shaman/_.HROB" id="75BBA4E8-AD90-4F7D-B2AA-F1F6A6BDBF95">
 							<UnitConstant>
 								<name>Stun_StartCondition</name>
 								<var>
-									<compiledString>FQ4AAAACAAAAEwAAACkAAABTaGFtYW5fQTJfU1VQAFWL7FFoAAAAAItFCIsQi00Ii4KIAQAA/9DcHUsAAADf4PbERHoJx0X8AQAAAOsHx0X8AAAAANtF/IvlXcMAAAAAAADwPw==</compiledString>
+									<compiledString>FREAAAAEAAAAFgAAACwAAABgAAAAhAAAAEFiaWxpdHkyAAAAAFdhcmQAVYvsUWgAAAAAi0UIixCLTQiLgogBAAD/0NwdxAAAAN/g9sREem9R2ejZHCRR2e7ZHCRqAYtNDIsRi00Mi0JY/9APtshR6HEAAACDxAzcHbQAAADf4PbERHs7i1UMiwKLTQyLUFD/0oP4EXQpagCLRRBQaAwAAACLTQyLEYtNDIuCnAEAAP/QO0UQdQnHRfwBAAAA6wfHRfwAAAAA20X8i+VdwwAAAAAAAAAAAAAAAAAAgD8AAAAAAADwP1WL7FEPtkUIhcB0CNlFDNld/OsG2UUQ2V382UX8i+Vdww==</compiledString>
 									<returnType>float</returnType>
-									<sString>sender.vShaman_A2_SUP == 1</sString>
+									<sString>sender.vAbility2 == 1 &amp;&amp; ut_bldg(false, true) &amp;&amp; rUnitKind != 17 &amp;&amp; receiver.applWard(GLOBAL) == pMisc</sString>
 								</var>
 							</UnitConstant>
 						</Item>
@@ -1136,9 +1177,9 @@
 					<calcIncrement>0.7</calcIncrement>
 					<calcValue>59</calcValue>
 					<increment>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpkZPw==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DcT0KPw==</compiledString>
 						<returnType>float</returnType>
-						<sString>0.6</sString>
+						<sString>0.54</sString>
 					</increment>
 					<levelUpgrades />
 					<statId>Strength</statId>
@@ -1152,9 +1193,9 @@
 					<calcIncrement>0.7</calcIncrement>
 					<calcValue>59</calcValue>
 					<increment>
-						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpkZPw==</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DcT0KPw==</compiledString>
 						<returnType>float</returnType>
-						<sString>0.6</sString>
+						<sString>0.54</sString>
 					</increment>
 					<levelUpgrades />
 					<statId>Intellect</statId>
@@ -1239,9 +1280,9 @@
 					<levelUpgrades />
 					<statId>LifeRegenerationAbsolute</statId>
 					<value>
-						<compiledString>FQAAAAAAAAAAVYvs2e5dwwAAAAA=</compiledString>
+						<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DMzNTQA==</compiledString>
 						<returnType>float</returnType>
-						<sString>0</sString>
+						<sString>3.3</sString>
 					</value>
 				</Item>
 				<Item>

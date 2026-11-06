@@ -752,9 +752,9 @@
 					<UnitConstant>
 						<name>A4_TotalDmg</name>
 						<var>
-							<compiledString>FTEAAAADAAAAQAAAAFoAAABvAAAAQTRfQmFzZURhbWFnZQAAAEE0X1N0YWNrRGFtYWdlAABSYWdlQ3VycmVudFN0dWNrAFWL7IPsFItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/Si0UMUItNCFFoEAAAAItVEIsCi00Qi1BQ3V34/9JoIAAAAItFCIsQi00Ii4KIAQAA3V3w/9DcTfDcRfjZXezZReyL5V3D</compiledString>
+							<compiledString>FR8AAAADAAAALgAAAEgAAABeAAAAQTRfQmFzZURhbWFnZQAAAEE0X1N0YWNrRGFtYWdlAFWL7IPsDItFDFCLTQhRaAAAAACLVRCLAotNEItQUP/Si0UMUItNCFFoEAAAAItVEIsCi00Qi1BQ3V34/9LcDW8AAADcRfjZXfTZRfSL5V3DAAAAAAAAJEA=</compiledString>
 							<returnType>float</returnType>
-							<sString>cA4_BaseDamage+cA4_StackDamage*sender.vRageCurrentStuck</sString>
+							<sString>cA4_BaseDamage+cA4_StackDamage*10</sString>
 						</var>
 					</UnitConstant>
 				</Item>

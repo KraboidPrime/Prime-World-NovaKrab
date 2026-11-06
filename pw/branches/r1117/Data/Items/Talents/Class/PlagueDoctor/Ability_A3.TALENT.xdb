@@ -74,16 +74,7 @@
 					<Spell>
 						<applicators>
 							<Item href="/Items/Talents/Class/PlagueDoctor/PlagueDoctorDot.APLR" />
-							<Item href="/Items/Talents/Class/PlagueDoctor/Ability_A3.TALENT" id="DBD51DE0-1F77-4FE6-9AEA-93CC36920D3C">
-								<StatusApplicator parent="/Heroes/DefaultStatus/_PANIC_status.APLR">
-									<effect>
-										<Item href="/Effects/Debuffs/Panic/_Green.EFFT" />
-										<Item skip="1" />
-									</effect>
-									<image href="/UI/Styles/Icons/Heroes/PlagueDoctor/A3.ITEX" />
-									<name textref="/Items/Talents/Class/PlagueDoctor/Ability_A3.TALENT_dbd51de01f774fe69aea93cc36920d3c_name.txt" />
-								</StatusApplicator>
-							</Item>
+							<Item href="/Heroes/DefaultStatus/_PANIC_DOCstatus.APLR" />
 						</applicators>
 						<dispatch href="/Items/Talents/Class/PlagueDoctor/Ability_A3.TALENT" id="467FAB2B-C321-4B2A-A529-A1E97CB59F7B">
 							<DispatchImmediate>
@@ -159,9 +150,9 @@
 					<UnitConstant>
 						<name>Panic_Duration</name>
 						<var>
-							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAADAPw==</compiledString>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DmpmZPw==</compiledString>
 							<returnType>float</returnType>
-							<sString>1.5f</sString>
+							<sString>1.2f</sString>
 						</var>
 					</UnitConstant>
 				</Item>

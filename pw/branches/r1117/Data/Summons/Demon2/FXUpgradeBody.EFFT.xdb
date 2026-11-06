@@ -15,5 +15,8 @@
 		<state name="demonolog_S1">
 			<component href="/Summons/Demon2/FXUpgradeBody.PRXY" />
 		</state>
+		<state name="demonolog_S3">
+			<component href="/Summons/Demon2/S3/FXUpgradeBody.PRXY" />
+		</state>
 	</__states>
 </BasicEffectAttached>

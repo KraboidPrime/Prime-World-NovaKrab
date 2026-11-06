@@ -26,9 +26,10 @@
 	<BackLink DBID="/Items/Talents/Class/MagicGirl/status_A3_FlyMode.APLR" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Gunner/Ability_A4.TALENT" Count="1" />
 	<BackLink DBID="/Items/Talents/Class/Brewer/status_Honey_I2C_FX.APLR" Count="1" />
+	<BackLink DBID="/Items/Talents/Class/arbik_elf/Ability_A4_3.TALENT" Count="1" />
 	<attachFlags>1</attachFlags>
 	<attachType>Ground</attachType>
-	<component href="/Effects/Buffs/ColdCharged/_GoldTRS1.PRXY" />
+	<component href="/Effects/Buffs/ColdCharged/_CoperTRS.PRXY" />
 	<deathType>Manual</deathType>
 	<enableCondition href="" />
 	<fadeIn>0.5</fadeIn>

@@ -72,7 +72,29 @@
 		<Item href="/Items/Talents/Class/WraithKing/status_A4.APLR" id="DD6E4212-6310-42BF-913D-F49DE288F1F7">
 			<AuraApplicator>
 				<applicators>
-					<Item href="/Heroes/DefaultStatus/_SILENCE_Status.APLR" />
+					<Item href="/Items/Talents/Class/WraithKing/status_A4.APLR" id="D202F803-707D-4386-8EED-2B3358422602">
+						<StatusApplicator parent="/Heroes/DefaultStatus/_SILENCE_Status.APLR">
+							<behaviorFlags>144</behaviorFlags>
+							<dispellPriority>NonDispellable</dispellPriority>
+							<enabled>
+								<compiledString>FQ8AAAACAAAAFAAAACoAAABJbW11bmUyQ29udHJvbABVi+xRaAAAAACLRQyLEItNDIuCiAEAAP/Q3B1MAAAA3+D2xER6CcdF/AEAAADrB8dF/AAAAACKRfyL5V3DAAAAAAAAAAA=</compiledString>
+								<returnType>bool</returnType>
+								<sString>receiver.vImmune2Control == 0</sString>
+							</enabled>
+							<formulaName>StatusSilenceVlad</formulaName>
+							<image href="/UI/Styles/Icons/Heroes/WraithKing/A4.ITEX" />
+							<lifeTime>
+								<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAACAvw==</compiledString>
+								<returnType>float</returnType>
+								<sString>-1</sString>
+							</lifeTime>
+							<startCondition>
+								<compiledString>FQAAAAAAAAAAVYvssAFdww==</compiledString>
+								<returnType>bool</returnType>
+								<sString>true</sString>
+							</startCondition>
+						</StatusApplicator>
+					</Item>
 				</applicators>
 				<applyTarget>ApplicatorTarget</applyTarget>
 				<behaviorFlags>0</behaviorFlags>

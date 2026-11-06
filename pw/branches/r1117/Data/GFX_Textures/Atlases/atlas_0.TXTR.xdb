@@ -1813,6 +1813,9 @@
 	<BackLink DBID="/Effects/Debuffs/Burn/_TrailBomber.PRXY" Count="2" />
 	<BackLink DBID="/Effects/Debuffs/Dome/_UpAlly1.PRXY" Count="2" />
 	<BackLink DBID="/Effects/Buffs/Bless/_GoldPowerfulRes.PRXY" Count="1" />
+	<BackLink DBID="/Heroes/Trickster/S2/Effects/Environment/Fire/_PrimeWall.PRXY" Count="1" />
+	<BackLink DBID="/Effects/Shots/Arrow/_AA.PRXY" Count="1" />
+	<BackLink DBID="/Effects/Debuffs/Stun/_S.PRXY" Count="1" />
 	<generatedFileName>atlas_0</generatedFileName>
 	<mipLevels>0</mipLevels>
 	<mipLevelUsage>NoMips</mipLevelUsage>

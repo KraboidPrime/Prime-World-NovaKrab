@@ -844,5 +844,21 @@
 	<summonedUnits />
 	<targetingParams href="/GameLogic/TargetingParams_HeroMelee.UNTP" />
 	<totalStatsBudget>5.15</totalStatsBudget>
-	<uniqueResource href="" />
+	<uniqueResource href="/Heroes/Crusader/_B.HROB" id="7ADD5839-6F77-433C-BF2A-3ED5B0E59E11">
+		<HeroResource>
+			<castleValueMaximum>3</castleValueMaximum>
+			<formulaNameMaximum>Hach_MaxRage</formulaNameMaximum>
+			<formulaNameRegeneration>Hach_RageReg</formulaNameRegeneration>
+			<formulaNameValue>Hach_Rage</formulaNameValue>
+			<name textref="/Heroes/Crusader/_B.HROB_7add58396f77433cbf2a3ed5b0e59e11_name.txt" />
+			<overtipManaProgressMaterial href="/UI/Styles/Overtip/Blue2.MTRL" />
+			<tooltip textref="/Heroes/Crusader/_B.HROB_7add58396f77433cbf2a3ed5b0e59e11_tooltip.txt" />
+			<uiManaBarColor>
+				<A>255</A>
+				<B>128</B>
+				<G>128</G>
+				<R>64</R>
+			</uiManaBarColor>
+		</HeroResource>
+	</uniqueResource>
 </Hero>

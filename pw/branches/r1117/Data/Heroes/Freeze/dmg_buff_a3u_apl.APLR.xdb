@@ -5,7 +5,7 @@
 		<Item href="/Heroes/Freeze/dmg_buff_a3u_apl.APLR" id="6F72ED96-68FA-44E3-B423-E9DAD1C0FB5F">
 			<StatModApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
-				<behaviorFlags>0</behaviorFlags>
+				<behaviorFlags>152</behaviorFlags>
 				<caption></caption>
 				<constraint>None</constraint>
 				<dontUpdate>false</dontUpdate>
@@ -52,7 +52,7 @@
 		<Item href="/Heroes/Freeze/dmg_buff_a3u_apl.APLR" id="D0E9E369-2BC9-43C9-BC5B-61591C06A246">
 			<StatModApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
-				<behaviorFlags>0</behaviorFlags>
+				<behaviorFlags>152</behaviorFlags>
 				<caption></caption>
 				<constraint>None</constraint>
 				<dontUpdate>false</dontUpdate>
@@ -99,7 +99,7 @@
 		<Item href="/Heroes/Freeze/dmg_buff_a3u_apl.APLR" id="DF1B515A-E733-44C1-8680-2D67FC93661C">
 			<StatModApplicator>
 				<applyTarget>ApplicatorTarget</applyTarget>
-				<behaviorFlags>0</behaviorFlags>
+				<behaviorFlags>152</behaviorFlags>
 				<caption></caption>
 				<constraint>None</constraint>
 				<dontUpdate>false</dontUpdate>
@@ -143,9 +143,60 @@
 				<statModName></statModName>
 			</StatModApplicator>
 		</Item>
+		<Item href="/Heroes/Freeze/dmg_buff_a3u_apl.APLR" id="EA61A65C-0656-4521-A067-EE0D1CE493D9">
+			<StatusApplicator>
+				<applicators />
+				<applyTarget>ApplicatorTarget</applyTarget>
+				<behaviorFlags>152</behaviorFlags>
+				<caption></caption>
+				<customCounter>
+					<compiledString></compiledString>
+					<returnType>int</returnType>
+					<sString>0</sString>
+				</customCounter>
+				<customProgress>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</customProgress>
+				<description textref="" />
+				<dispellPriority>NonDispellable</dispellPriority>
+				<effect>
+					<Item href="/Effects/Debuffs/Slow/_Blue.EFFT" />
+					<Item href="" />
+				</effect>
+				<enabled>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</enabled>
+				<flags>0</flags>
+				<formulaName></formulaName>
+				<image href="" />
+				<lifeTime>
+					<compiledString></compiledString>
+					<returnType>float</returnType>
+					<sString>-1.0</sString>
+				</lifeTime>
+				<LoggingEvent>-1</LoggingEvent>
+				<name textref="" />
+				<power>0</power>
+				<providerName></providerName>
+				<stackableAcrossUnits>Unstackable</stackableAcrossUnits>
+				<stackCount>0</stackCount>
+				<startCondition>
+					<compiledString></compiledString>
+					<returnType>bool</returnType>
+					<sString>true</sString>
+				</startCondition>
+				<statusPosition>0</statusPosition>
+				<stopBehaviour>StopByTime</stopBehaviour>
+				<unstackableWith href="" />
+			</StatusApplicator>
+		</Item>
 	</applicators>
 	<applyTarget>ApplicatorTarget</applyTarget>
-	<behaviorFlags>0</behaviorFlags>
+	<behaviorFlags>155</behaviorFlags>
 	<caption>дебаф на врага с усиленных атак</caption>
 	<customCounter>
 		<compiledString></compiledString>

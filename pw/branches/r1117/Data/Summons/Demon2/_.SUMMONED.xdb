@@ -25,6 +25,15 @@
 	</collision>
 	<creepSkins>
 		<Item href="/Summons/Demon2/S1/_.CREEPSKIN" />
+		<Item href="/Summons/Demon2/_.SUMMONED" id="FCC48C60-F852-4C04-A8C1-FECA405EBEF0">
+			<CreepSkin>
+				<deathParameters href="" />
+				<description textref="/Summons/Demon2/_.SUMMONED_fcc48c60f8524c04a8c1feca405ebef0_description.txt" />
+				<heroPersistentId>demonolog_S3</heroPersistentId>
+				<image href="/UI/Styles/Icons/Summons/Demon2/Face_S3.ITEX" />
+				<sceneObject href="/Summons/Demon2/S3/_.SOBJ" />
+			</CreepSkin>
+		</Item>
 	</creepSkins>
 	<deathParameters href="/GameLogic/Summon.UNDP" />
 	<description textref="/Summons/Demon2/_.SUMMONED_description.txt" />

@@ -76,7 +76,7 @@
 							</FlagsApplicator>
 						</applicator>
 						<continueCondition>
-							<compiledString></compiledString>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 							<returnType>bool</returnType>
 							<sString>0</sString>
 						</continueCondition>
@@ -87,7 +87,7 @@
 							<sString>-1.0</sString>
 						</delay>
 						<stopCondition>
-							<compiledString></compiledString>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 							<returnType>bool</returnType>
 							<sString>0</sString>
 						</stopCondition>
@@ -139,7 +139,7 @@
 							</FlagsApplicator>
 						</applicator>
 						<continueCondition>
-							<compiledString></compiledString>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 							<returnType>bool</returnType>
 							<sString>0</sString>
 						</continueCondition>
@@ -150,7 +150,7 @@
 							<sString>-1.0</sString>
 						</delay>
 						<stopCondition>
-							<compiledString></compiledString>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 							<returnType>bool</returnType>
 							<sString>0</sString>
 						</stopCondition>
@@ -358,7 +358,7 @@
 							</SpellApplicator>
 						</applicator>
 						<continueCondition>
-							<compiledString></compiledString>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 							<returnType>bool</returnType>
 							<sString>0</sString>
 						</continueCondition>
@@ -369,7 +369,7 @@
 							<sString>-1.0</sString>
 						</delay>
 						<stopCondition>
-							<compiledString></compiledString>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 							<returnType>bool</returnType>
 							<sString>0</sString>
 						</stopCondition>
@@ -378,7 +378,7 @@
 					<Item>
 						<applicator href="" />
 						<continueCondition>
-							<compiledString></compiledString>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 							<returnType>bool</returnType>
 							<sString>0</sString>
 						</continueCondition>
@@ -389,7 +389,7 @@
 							<sString>sender.vA4_Chronicle == 0? cA1_TotalDuration : cA1_TotalDuration*0.75</sString>
 						</delay>
 						<stopCondition>
-							<compiledString></compiledString>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 							<returnType>bool</returnType>
 							<sString>0</sString>
 						</stopCondition>
@@ -641,7 +641,7 @@
 							</SpellApplicator>
 						</applicator>
 						<continueCondition>
-							<compiledString></compiledString>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 							<returnType>bool</returnType>
 							<sString>0</sString>
 						</continueCondition>
@@ -652,7 +652,7 @@
 							<sString>0</sString>
 						</delay>
 						<stopCondition>
-							<compiledString></compiledString>
+							<compiledString>FQAAAAAAAAAAVYvsMsBdww==</compiledString>
 							<returnType>bool</returnType>
 							<sString>0</sString>
 						</stopCondition>

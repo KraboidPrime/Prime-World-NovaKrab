@@ -260,7 +260,7 @@
 				<enabled>
 					<compiledString>FR4AAAACAAAAJQAAAD4AAABTaGFtYW5fQTJfU1VQAAAAU2hhbWFuX0EyX1NVUABVi+yD7AhoAAAAAItFCIsQi00Ii4KoAQAA/9CFwHQqaBAAAACLTQiLEYtNCIuCqAEAAP/QiUX8i038ixGLTfyLQgT/0IhF++sExkX7AIpF+4vlXcM=</compiledString>
 					<returnType>bool</returnType>
-					<sString>tal("Shaman_A2_SUP")</sString>
+					<sString>false</sString>
 				</enabled>
 				<formulaName></formulaName>
 				<LoggingEvent>-1</LoggingEvent>
@@ -355,6 +355,26 @@
 				</Item>
 				<Item href="/Items/Talents/Class/Shaman/const_A2_SUP_DamageCapacity" />
 				<Item href="/Items/Talents/Class/Shaman/const_A2_SUP_Stun_Duration" />
+				<Item href="/Items/Talents/Class/Shaman/Ability_A2.TALENT" id="F06C9C21-988B-4F00-B7C3-5C525FD43383">
+					<UnitConstant>
+						<name>ArmorCut_Amount</name>
+						<var>
+							<compiledString>FQAAAAADAAAAGwAAACwAAAAyAAAAVYvsUYtFCIsQi00Ii4IwAQAA/9BR2RwkUdkFUAAAANkcJOgtAAAAg8QI3A1IAAAA3AVAAAAA2V382UX8i+VdwwAAAAAAABBAuB6F61G4vj8AAEhCVYvsUdlFCNlFDN7Z3+D2xAV6CNlFCNld/OsG2UUM2V382UX8i+Vdww==</compiledString>
+							<returnType>float</returnType>
+							<sString>0.12*max(50, sStrength) + 4</sString>
+						</var>
+					</UnitConstant>
+				</Item>
+				<Item href="/Items/Talents/Class/Shaman/Ability_A2.TALENT" id="80CD56ED-50A9-4435-A42E-28533997EF78">
+					<UnitConstant>
+						<name>ArmorCut_Duration</name>
+						<var>
+							<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DAABAQA==</compiledString>
+							<returnType>float</returnType>
+							<sString>3.0f</sString>
+						</var>
+					</UnitConstant>
+				</Item>
 			</vars>
 		</UnitConstantsContainer>
 	</constants>

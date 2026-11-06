@@ -1,0 +1,1845 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DBSceneObject>
+	<BackLink DBID="/Heroes/Trickster/S2/_.HEROSKIN" Count="1" />
+		<attached>
+		<Item>
+			<attachFlags>15</attachFlags>
+			<component href="/Heroes/Trickster/S2/_.SOBJ" id="0BC70965-98B7-410C-A60F-3E29BFD20563">
+				<DBAnimatedSceneComponent>
+					<aabb>
+						<maxX>1.5</maxX>
+						<maxY>2</maxY>
+						<maxZ>5</maxZ>
+						<minX>-2.5</minX>
+						<minY>-2</minY>
+						<minZ>3</minZ>
+					</aabb>
+					<additionalGraph href="" />
+					<animations>
+						<Item>
+							<animationFileName>/Heroes/Trickster/S2/attack1.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/Trickster/S2/attack1.mayaAnim</mayaFileName>
+							<name>attack1</name>
+							<srcFileName crc="0">/Heroes/Trickster/S2/attack1.ma</srcFileName>
+						</Item>
+						<Item>
+							<animationFileName>/Heroes/Trickster/S2/attack2.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/Trickster/S2/attack2.mayaAnim</mayaFileName>
+							<name>attack2</name>
+							<srcFileName crc="0">/Heroes/Trickster/S2/attack2.ma</srcFileName>
+						</Item>
+						<Item>
+							<animationFileName>/Heroes/Trickster/S2/attack3.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/Trickster/S2/attack3.mayaAnim</mayaFileName>
+							<name>attack3</name>
+							<srcFileName crc="0">/Heroes/Trickster/S2/attack3.ma</srcFileName>
+						</Item>
+						<Item>
+							<animationFileName>/Heroes/Trickster/S2/attack4.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/Trickster/S2/attack4.mayaAnim</mayaFileName>
+							<name>attack4</name>
+							<srcFileName crc="0">/Heroes/Trickster/S2/attack4.ma</srcFileName>
+						</Item>
+						<Item>
+							<animationFileName>/Heroes/Trickster/S2/battleidle.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/Trickster/S2/battleidle.mayaAnim</mayaFileName>
+							<name>battleidle</name>
+							<srcFileName crc="0">/Heroes/Trickster/S2/battleidle.ma</srcFileName>
+						</Item>
+						<Item>
+							<animationFileName>/Heroes/Trickster/S2/blocked.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/Trickster/S2/blocked.mayaAnim</mayaFileName>
+							<name>blocked</name>
+							<srcFileName crc="0">/Heroes/Trickster/S2/blocked.ma</srcFileName>
+						</Item>
+						<Item>
+							<animationFileName>/Heroes/Trickster/S2/channeling.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/Trickster/S2/channeling.mayaAnim</mayaFileName>
+							<name>channeling</name>
+							<srcFileName crc="0">/Heroes/Trickster/S2/channeling.ma</srcFileName>
+						</Item>
+						<Item>
+							<animationFileName>/Heroes/Trickster/S2/idle1.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/Trickster/S2/idle1.mayaAnim</mayaFileName>
+							<name>idle1</name>
+							<srcFileName crc="0">/Heroes/Trickster/S2/idle1.ma</srcFileName>
+						</Item>
+						<Item>
+							<animationFileName>/Heroes/Trickster/S2/idle2.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/Trickster/S2/idle2.mayaAnim</mayaFileName>
+							<name>idle2</name>
+							<srcFileName crc="0">/Heroes/Trickster/S2/idle2.ma</srcFileName>
+						</Item>
+						<Item>
+							<animationFileName>/Heroes/Trickster/S2/move1.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/Trickster/S2/move1.mayaAnim</mayaFileName>
+							<name>move1</name>
+							<srcFileName crc="0">/Heroes/Trickster/S2/move1.ma</srcFileName>
+						</Item>
+						<Item>
+							<animationFileName>/Heroes/Trickster/S2/move2.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/Trickster/S2/move2.mayaAnim</mayaFileName>
+							<name>move2</name>
+							<srcFileName crc="0">/Heroes/Trickster/S2/move2.ma</srcFileName>
+						</Item>
+						<Item>
+							<animationFileName>/Heroes/Trickster/S2/stun.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/Trickster/S2/stun.mayaAnim</mayaFileName>
+							<name>stun</name>
+							<srcFileName crc="0">/Heroes/Trickster/S2/stun.ma</srcFileName>
+						</Item>
+						<Item>
+							<animationFileName>/Heroes/Trickster/S2/death.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/Trickster/S2/death.mayaAnim</mayaFileName>
+							<name>death</name>
+							<srcFileName crc="0">/Heroes/Trickster/S2/death.ma</srcFileName>
+						</Item>
+						<Item>
+							<animationFileName>/Heroes/Trickster/S2/revive.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/Trickster/S2/revive.mayaAnim</mayaFileName>
+							<name>revive</name>
+							<srcFileName crc="0">/Heroes/Trickster/S2/revive.ma</srcFileName>
+						</Item>
+						<Item>
+							<animationFileName>/Heroes/Trickster/S2/revive.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/Trickster/S2/revive.mayaAnim</mayaFileName>
+							<name>summon</name>
+							<srcFileName crc="0">/Heroes/Trickster/S2/revive.ma</srcFileName>
+						</Item>
+						<Item>
+							<animationFileName>/Heroes/Trickster/S2/death.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/Trickster/S2/death.mayaAnim</mayaFileName>
+							<name>unsummon</name>
+							<srcFileName crc="0">/Heroes/Trickster/S2/death.ma</srcFileName>
+						</Item>
+						<Item>
+							<animationFileName>/Heroes/Trickster/S2/happy.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/Trickster/S2/happy.mayaAnim</mayaFileName>
+							<name>happy</name>
+							<srcFileName crc="0">/Heroes/Trickster/S2/happy.ma</srcFileName>
+						</Item>
+						<Item>
+							<animationFileName>/Heroes/Trickster/S2/ability1.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/Trickster/S2/ability1.mayaAnim</mayaFileName>
+							<name>ability1</name>
+							<srcFileName crc="0">/Heroes/Trickster/S2/ability1.ma</srcFileName>
+						</Item>
+						<Item>
+							<animationFileName>/Heroes/Trickster/S2/ability4.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/Trickster/S2/ability4.mayaAnim</mayaFileName>
+							<name>ability4</name>
+							<srcFileName crc="0">/Heroes/Trickster/S2/ability4.ma</srcFileName>
+						</Item>
+						<Item>
+							<animationFileName>/Heroes/Trickster/S2/ability4_2.anim</animationFileName>
+							<animkeys />
+							<compression>0</compression>
+							<mayaFileName>/Heroes/Trickster/S2/ability4_2.mayaAnim</mayaFileName>
+							<name>ability4_2</name>
+							<srcFileName crc="0">/Heroes/Trickster/S2/ability4_2.ma</srcFileName>
+						</Item>
+					</animations>
+					<animGraph href="/Heroes/Trickster/S2/_.ANGR" />
+					<anims />
+					<attached>
+						<Item>
+							<attachFlags>3</attachFlags>
+							<component href="/Heroes/Rockman/Traces.TGSC" />
+							<events href="/Heroes/Rockman/Traces.EDEV" />
+							<id></id>
+							<locatorName></locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>19</attachFlags>
+							<component href="/Heroes/Trickster/S2/Effects/General/Revival/_TRS.PRXY" />
+							<events href="/Heroes/Trickster/S2/Effects/General/Revival/_.EDEV" />
+							<id></id>
+							<locatorName></locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1.2</x>
+									<y>1.2</y>
+									<z>1.2</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>19</attachFlags>
+							<component href="/Heroes/Trickster/S2/Effects/General/Summon/_BlueTRS.PRXY" />
+							<events href="/Heroes/Trickster/S2/Effects/General/Summon/_.EDEV" />
+							<id></id>
+							<locatorName>Ground</locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>19</attachFlags>
+							<component href="/Heroes/Trickster/S2/Effects/General/Unsummon/_TRS.PRXY" />
+							<events href="/Heroes/Trickster/S2/Effects/General/Unsummon/_.EDEV" />
+							<id></id>
+							<locatorName>Ground</locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>15</attachFlags>
+							<component href="/Heroes/Trickster/S2/_.SOBJ" id="22496ED7-3E5B-471A-BC10-679C90DC911E">
+								<DBSoundSceneComponent>
+									<attached />
+									<caption>sound_move</caption>
+									<desc>
+										<eventName>Move</eventName>
+										<groupName>Heroes/Rockman/Animation</groupName>
+										<projectName>PF</projectName>
+									</desc>
+									<groupFlags>0</groupFlags>
+									<locatorList href="/Heroes/Trickster/S2/_.SOBJ" id="684B5C0E-36A5-445F-8EAA-8CADBA620D78">
+										<LocatorList>
+											<locators />
+										</LocatorList>
+									</locatorList>
+									<orientation>Default</orientation>
+									<timeInterval>0</timeInterval>
+								</DBSoundSceneComponent>
+							</component>
+							<events href="/Heroes/Trickster/S2/_.SOBJ" id="3B68D1E0-9FD3-4BE8-9198-6DC66CE0C395">
+								<EnableDisableSCEvents>
+									<disableEvents />
+									<enableEvents>
+										<Item href="/Heroes/Trickster/S2/_.SOBJ" id="3BAAB587-62BD-4944-8AB3-CDCF12AF53D7">
+											<AnimationSCEvent>
+												<animParam>0</animParam>
+												<name>move1</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+									</enableEvents>
+									<order>EnableThenDisable</order>
+									<restartComponent>true</restartComponent>
+								</EnableDisableSCEvents>
+							</events>
+							<id></id>
+							<locatorName></locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>15</attachFlags>
+							<component href="/Heroes/Trickster/S2/_.SOBJ" id="2EE0F390-C460-4B09-9BF1-1E7CF5606648">
+								<DBSoundSceneComponent>
+									<attached />
+									<caption>sound_move</caption>
+									<desc>
+										<eventName>Move</eventName>
+										<groupName>Heroes/Rockman/Animation</groupName>
+										<projectName>PF</projectName>
+									</desc>
+									<groupFlags>0</groupFlags>
+									<locatorList href="/Heroes/Trickster/S2/_.SOBJ" id="3DD215F3-C795-4E1B-9807-9F628B8D03C7">
+										<LocatorList>
+											<locators />
+										</LocatorList>
+									</locatorList>
+									<orientation>Default</orientation>
+									<timeInterval>0</timeInterval>
+								</DBSoundSceneComponent>
+							</component>
+							<events href="/Heroes/Trickster/S2/_.SOBJ" id="EC9C9426-87AF-4C2C-A1CB-6FEBDF3F3D28">
+								<EnableDisableSCEvents>
+									<disableEvents />
+									<enableEvents>
+										<Item href="/Heroes/Trickster/S2/_.SOBJ" id="3FB221FE-C06C-4BB8-8E2D-E736B5A2990A">
+											<AnimationSCEvent>
+												<animParam>0.25</animParam>
+												<name>move1</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+									</enableEvents>
+									<order>EnableThenDisable</order>
+									<restartComponent>true</restartComponent>
+								</EnableDisableSCEvents>
+							</events>
+							<id></id>
+							<locatorName></locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>15</attachFlags>
+							<component href="/Heroes/Trickster/S2/_.SOBJ" id="7D3466ED-847C-448D-85AB-D0C39136938A">
+								<DBSoundSceneComponent>
+									<attached />
+									<caption>sound_move2</caption>
+									<desc>
+										<eventName>Move</eventName>
+										<groupName>Heroes/Rockman/Animation</groupName>
+										<projectName>PF</projectName>
+									</desc>
+									<groupFlags>0</groupFlags>
+									<locatorList href="/Heroes/Trickster/S2/_.SOBJ" id="C4B6C144-EDBC-45FF-B07C-B4075F481FDF">
+										<LocatorList>
+											<locators />
+										</LocatorList>
+									</locatorList>
+									<orientation>Default</orientation>
+									<timeInterval>0</timeInterval>
+								</DBSoundSceneComponent>
+							</component>
+							<events href="/Heroes/Trickster/S2/_.SOBJ" id="C5D4FAC0-8375-4E29-9D9E-1B815EB49DEC">
+								<EnableDisableSCEvents>
+									<disableEvents />
+									<enableEvents>
+										<Item href="/Heroes/Trickster/S2/_.SOBJ" id="C263A3F5-089F-4EE3-816A-EB85A5AD5E2E">
+											<AnimationSCEvent>
+												<animParam>0</animParam>
+												<name>move2</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+									</enableEvents>
+									<order>EnableThenDisable</order>
+									<restartComponent>true</restartComponent>
+								</EnableDisableSCEvents>
+							</events>
+							<id></id>
+							<locatorName></locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>15</attachFlags>
+							<component href="/Heroes/Trickster/S2/_.SOBJ" id="4522C18F-C9B3-41F6-8520-5AF525DFFB57">
+								<DBSoundSceneComponent>
+									<attached />
+									<caption>sound_move2</caption>
+									<desc>
+										<eventName>Move</eventName>
+										<groupName>Heroes/Rockman/Animation</groupName>
+										<projectName>PF</projectName>
+									</desc>
+									<groupFlags>0</groupFlags>
+									<locatorList href="/Heroes/Trickster/S2/_.SOBJ" id="EF345E3F-8B6F-443C-9096-1EAF8EE9420E">
+										<LocatorList>
+											<locators />
+										</LocatorList>
+									</locatorList>
+									<orientation>Default</orientation>
+									<timeInterval>0</timeInterval>
+								</DBSoundSceneComponent>
+							</component>
+							<events href="/Heroes/Trickster/S2/_.SOBJ" id="35AA74B0-B808-4406-827E-850E5F4C8CA4">
+								<EnableDisableSCEvents>
+									<disableEvents />
+									<enableEvents>
+										<Item href="/Heroes/Trickster/S2/_.SOBJ" id="48CA66E2-7D8F-470A-BCC4-BD7EE9FA862A">
+											<AnimationSCEvent>
+												<animParam>0.1</animParam>
+												<name>move2</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+									</enableEvents>
+									<order>EnableThenDisable</order>
+									<restartComponent>true</restartComponent>
+								</EnableDisableSCEvents>
+							</events>
+							<id></id>
+							<locatorName></locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>15</attachFlags>
+							<component href="/Heroes/Trickster/S2/Effects/Shots/Bullet/Trickster_sound.SNSC" />
+							<events href="/Heroes/Trickster/S2/_.SOBJ" id="CD577920-D0ED-4D59-8A8F-82D44A664B97">
+								<EnableDisableSCEvents>
+									<disableEvents />
+									<enableEvents>
+										<Item href="/Heroes/Trickster/S2/_.SOBJ" id="60D885CC-E325-4248-A661-D0996CFD2B30">
+											<AnimationSCEvent>
+												<animParam>0</animParam>
+												<name>attack1</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+									</enableEvents>
+									<order>EnableThenDisable</order>
+									<restartComponent>true</restartComponent>
+								</EnableDisableSCEvents>
+							</events>
+							<id></id>
+							<locatorName></locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>15</attachFlags>
+							<component href="/Heroes/Trickster/S2/Effects/Shots/Bullet/Trickster_sound.SNSC" />
+							<events href="/Heroes/Trickster/S2/_.SOBJ" id="A23F233D-5225-4FCF-BD5B-62D6DDA4D7C2">
+								<EnableDisableSCEvents>
+									<disableEvents />
+									<enableEvents>
+										<Item href="/Heroes/Trickster/S2/_.SOBJ" id="E9B29318-2727-44CC-97C4-C443D2F2BD0C">
+											<AnimationSCEvent>
+												<animParam>0</animParam>
+												<name>attack2</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+									</enableEvents>
+									<order>EnableThenDisable</order>
+									<restartComponent>true</restartComponent>
+								</EnableDisableSCEvents>
+							</events>
+							<id></id>
+							<locatorName></locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>15</attachFlags>
+							<component href="/Heroes/Trickster/S2/Effects/Shots/Bullet/Trickster_sound.SNSC" />
+							<events href="/Heroes/Trickster/S2/_.SOBJ" id="3A994020-D153-4DE9-94AD-B2FFF548286D">
+								<EnableDisableSCEvents>
+									<disableEvents />
+									<enableEvents>
+										<Item href="/Heroes/Trickster/S2/_.SOBJ" id="686EE366-62BB-470D-B0FB-16CF3C70FAA2">
+											<AnimationSCEvent>
+												<animParam>0</animParam>
+												<name>attack3</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+									</enableEvents>
+									<order>EnableThenDisable</order>
+									<restartComponent>true</restartComponent>
+								</EnableDisableSCEvents>
+							</events>
+							<id></id>
+							<locatorName></locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>15</attachFlags>
+							<component href="/Heroes/Trickster/S2/Effects/Shots/Bullet/Trickster_sound.SNSC" />
+							<events href="/Heroes/Trickster/S2/_.SOBJ" id="F70797C5-188D-4275-8265-FA9E3C2A2EDC">
+								<EnableDisableSCEvents>
+									<disableEvents />
+									<enableEvents>
+										<Item href="/Heroes/Trickster/S2/_.SOBJ" id="50DFF0A1-9772-4ABA-8741-9B8C74774735">
+											<AnimationSCEvent>
+												<animParam>0</animParam>
+												<name>attack4</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+									</enableEvents>
+									<order>EnableThenDisable</order>
+									<restartComponent>true</restartComponent>
+								</EnableDisableSCEvents>
+							</events>
+							<id></id>
+							<locatorName></locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>15</attachFlags>
+							<component href="/Heroes/Trickster/S2/_.SOBJ" id="C41C47D2-03E4-48E0-856F-9398FE8F00A2">
+								<DBSoundSceneComponent>
+									<attached />
+									<caption>sound_move1</caption>
+									<desc>
+										<eventName>Move</eventName>
+										<groupName>Heroes/Rockman/Animation</groupName>
+										<projectName>PF</projectName>
+									</desc>
+									<groupFlags>0</groupFlags>
+									<locatorList href="" />
+									<orientation>Default</orientation>
+									<timeInterval>0</timeInterval>
+								</DBSoundSceneComponent>
+							</component>
+							<events href="/Heroes/Trickster/S2/_.SOBJ" id="6D5FBBD6-9CE1-4650-9B91-CCC13F07CF82">
+								<EnableDisableSCEvents>
+									<disableEvents />
+									<enableEvents>
+										<Item href="/Heroes/Trickster/S2/_.SOBJ" id="0D385C48-3B6D-464F-BB9A-BDB1E2136EE6">
+											<AnimationSCEvent>
+												<animParam>0.52</animParam>
+												<name>move1</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+									</enableEvents>
+									<order>EnableThenDisable</order>
+									<restartComponent>true</restartComponent>
+								</EnableDisableSCEvents>
+							</events>
+							<id></id>
+							<locatorName></locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>15</attachFlags>
+							<component href="/Heroes/Trickster/S2/_.SOBJ" id="A0975AF5-D70B-438F-8734-44361160B303">
+								<DBSoundSceneComponent>
+									<attached />
+									<caption>sound_move1</caption>
+									<desc>
+										<eventName>Move</eventName>
+										<groupName>Heroes/Rockman/Animation</groupName>
+										<projectName>PF</projectName>
+									</desc>
+									<groupFlags>0</groupFlags>
+									<locatorList href="" />
+									<orientation>Default</orientation>
+									<timeInterval>0</timeInterval>
+								</DBSoundSceneComponent>
+							</component>
+							<events href="/Heroes/Trickster/S2/_.SOBJ" id="68765D9A-E461-4CF7-88A1-700E6C58A257">
+								<EnableDisableSCEvents>
+									<disableEvents />
+									<enableEvents>
+										<Item href="/Heroes/Trickster/S2/_.SOBJ" id="71C55023-A850-4913-BEB2-F31DED6F54E8">
+											<AnimationSCEvent>
+												<animParam>0.75</animParam>
+												<name>move1</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+									</enableEvents>
+									<order>EnableThenDisable</order>
+									<restartComponent>true</restartComponent>
+								</EnableDisableSCEvents>
+							</events>
+							<id></id>
+							<locatorName></locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>15</attachFlags>
+							<component href="/Heroes/Trickster/S2/_.SOBJ" id="E60BA41A-6C68-4F29-8DA7-CFD631300387">
+								<DBSoundSceneComponent>
+									<attached />
+									<caption>sound_move2</caption>
+									<desc>
+										<eventName>Move</eventName>
+										<groupName>Heroes/Rockman/Animation</groupName>
+										<projectName>PF</projectName>
+									</desc>
+									<groupFlags>0</groupFlags>
+									<locatorList href="" />
+									<orientation>Default</orientation>
+									<timeInterval>0</timeInterval>
+								</DBSoundSceneComponent>
+							</component>
+							<events href="/Heroes/Trickster/S2/_.SOBJ" id="22234BFF-893D-4A3A-9205-439CD34D44A7">
+								<EnableDisableSCEvents>
+									<disableEvents />
+									<enableEvents>
+										<Item href="/Heroes/Trickster/S2/_.SOBJ" id="F481364E-5011-4807-8E33-FC2FF81BAAD8">
+											<AnimationSCEvent>
+												<animParam>0.17</animParam>
+												<name>move2</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+									</enableEvents>
+									<order>EnableThenDisable</order>
+									<restartComponent>true</restartComponent>
+								</EnableDisableSCEvents>
+							</events>
+							<id></id>
+							<locatorName></locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>15</attachFlags>
+							<component href="/Heroes/Trickster/S2/_.SOBJ" id="4BDDE03A-EBC1-46B3-9EF9-266205F47AA9">
+								<DBSoundSceneComponent>
+									<attached />
+									<caption>sound_move2</caption>
+									<desc>
+										<eventName>Move</eventName>
+										<groupName>Heroes/Rockman/Animation</groupName>
+										<projectName>PF</projectName>
+									</desc>
+									<groupFlags>0</groupFlags>
+									<locatorList href="" />
+									<orientation>Default</orientation>
+									<timeInterval>0</timeInterval>
+								</DBSoundSceneComponent>
+							</component>
+							<events href="/Heroes/Trickster/S2/_.SOBJ" id="55D6519E-871F-41E4-B0D1-888DFE2C8F17">
+								<EnableDisableSCEvents>
+									<disableEvents />
+									<enableEvents>
+										<Item href="/Heroes/Trickster/S2/_.SOBJ" id="5C985FA8-D1DF-4B28-AB2D-25DC7E982AAE">
+											<AnimationSCEvent>
+												<animParam>0.25</animParam>
+												<name>move2</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+									</enableEvents>
+									<order>EnableThenDisable</order>
+									<restartComponent>true</restartComponent>
+								</EnableDisableSCEvents>
+							</events>
+							<id></id>
+							<locatorName></locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>15</attachFlags>
+							<component href="/Heroes/Trickster/S2/_.SOBJ" id="F7CA43D6-0074-483D-950A-A91D49B4ADEA">
+								<DBSoundSceneComponent>
+									<attached />
+									<caption>sound_move2</caption>
+									<desc>
+										<eventName>Move</eventName>
+										<groupName>Heroes/Rockman/Animation</groupName>
+										<projectName>PF</projectName>
+									</desc>
+									<groupFlags>0</groupFlags>
+									<locatorList href="" />
+									<orientation>Default</orientation>
+									<timeInterval>0</timeInterval>
+								</DBSoundSceneComponent>
+							</component>
+							<events href="/Heroes/Trickster/S2/_.SOBJ" id="21B146A1-3994-4D4F-82AF-A0D41C93625D">
+								<EnableDisableSCEvents>
+									<disableEvents />
+									<enableEvents>
+										<Item href="/Heroes/Trickster/S2/_.SOBJ" id="537B09A2-054C-4575-A88E-6B50BFCAD65C">
+											<AnimationSCEvent>
+												<animParam>0.33</animParam>
+												<name>move2</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+									</enableEvents>
+									<order>EnableThenDisable</order>
+									<restartComponent>true</restartComponent>
+								</EnableDisableSCEvents>
+							</events>
+							<id></id>
+							<locatorName></locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>15</attachFlags>
+							<component href="/Heroes/Trickster/S2/_.SOBJ" id="6D3A8CE2-AD34-45FF-9094-52836D54821C">
+								<DBSoundSceneComponent>
+									<attached />
+									<caption>sound_move2</caption>
+									<desc>
+										<eventName>Move</eventName>
+										<groupName>Heroes/Rockman/Animation</groupName>
+										<projectName>PF</projectName>
+									</desc>
+									<groupFlags>0</groupFlags>
+									<locatorList href="" />
+									<orientation>Default</orientation>
+									<timeInterval>0</timeInterval>
+								</DBSoundSceneComponent>
+							</component>
+							<events href="/Heroes/Trickster/S2/_.SOBJ" id="799BDEFE-3992-4833-9371-F3CC043B5646">
+								<EnableDisableSCEvents>
+									<disableEvents />
+									<enableEvents>
+										<Item href="/Heroes/Trickster/S2/_.SOBJ" id="95B8AEFE-EBD8-4C68-9F9F-20241D1E1648">
+											<AnimationSCEvent>
+												<animParam>0.41</animParam>
+												<name>move2</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+									</enableEvents>
+									<order>EnableThenDisable</order>
+									<restartComponent>true</restartComponent>
+								</EnableDisableSCEvents>
+							</events>
+							<id></id>
+							<locatorName></locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>15</attachFlags>
+							<component href="/Heroes/Trickster/S2/_.SOBJ" id="440369DB-CA34-487D-987C-768A47EF4FE9">
+								<DBSoundSceneComponent>
+									<attached />
+									<caption>sound_move2</caption>
+									<desc>
+										<eventName>Move</eventName>
+										<groupName>Heroes/Rockman/Animation</groupName>
+										<projectName>PF</projectName>
+									</desc>
+									<groupFlags>0</groupFlags>
+									<locatorList href="" />
+									<orientation>Default</orientation>
+									<timeInterval>0</timeInterval>
+								</DBSoundSceneComponent>
+							</component>
+							<events href="/Heroes/Trickster/S2/_.SOBJ" id="02209F12-EE44-4716-8F02-E0326964EB66">
+								<EnableDisableSCEvents>
+									<disableEvents />
+									<enableEvents>
+										<Item href="/Heroes/Trickster/S2/_.SOBJ" id="A6976452-1494-4792-8A48-6114B3A11E06">
+											<AnimationSCEvent>
+												<animParam>0.5</animParam>
+												<name>move2</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+									</enableEvents>
+									<order>EnableThenDisable</order>
+									<restartComponent>true</restartComponent>
+								</EnableDisableSCEvents>
+							</events>
+							<id></id>
+							<locatorName></locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>15</attachFlags>
+							<component href="/Heroes/Trickster/S2/_.SOBJ" id="FD456F77-BCA2-4E29-BC50-9421D5D86C8C">
+								<DBSoundSceneComponent>
+									<attached />
+									<caption>sound_move2</caption>
+									<desc>
+										<eventName>Move</eventName>
+										<groupName>Heroes/Rockman/Animation</groupName>
+										<projectName>PF</projectName>
+									</desc>
+									<groupFlags>0</groupFlags>
+									<locatorList href="" />
+									<orientation>Default</orientation>
+									<timeInterval>0</timeInterval>
+								</DBSoundSceneComponent>
+							</component>
+							<events href="/Heroes/Trickster/S2/_.SOBJ" id="6D75C1EB-E1CF-4F10-86C7-B9880E63575B">
+								<EnableDisableSCEvents>
+									<disableEvents />
+									<enableEvents>
+										<Item href="/Heroes/Trickster/S2/_.SOBJ" id="DEDBFF9B-B215-4947-B9FF-0FA0AFB410F5">
+											<AnimationSCEvent>
+												<animParam>0.58</animParam>
+												<name>move2</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+									</enableEvents>
+									<order>EnableThenDisable</order>
+									<restartComponent>true</restartComponent>
+								</EnableDisableSCEvents>
+							</events>
+							<id></id>
+							<locatorName></locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>15</attachFlags>
+							<component href="/Heroes/Trickster/S2/_.SOBJ" id="CE208176-EE67-4DFF-9C0C-A36A7A262D91">
+								<DBSoundSceneComponent>
+									<attached />
+									<caption>sound_move2</caption>
+									<desc>
+										<eventName>Move</eventName>
+										<groupName>Heroes/Rockman/Animation</groupName>
+										<projectName>PF</projectName>
+									</desc>
+									<groupFlags>0</groupFlags>
+									<locatorList href="" />
+									<orientation>Default</orientation>
+									<timeInterval>0</timeInterval>
+								</DBSoundSceneComponent>
+							</component>
+							<events href="/Heroes/Trickster/S2/_.SOBJ" id="496ECB07-64CE-44F8-9CA7-9F3ABBC173DF">
+								<EnableDisableSCEvents>
+									<disableEvents />
+									<enableEvents>
+										<Item href="/Heroes/Trickster/S2/_.SOBJ" id="5BC46617-22B7-4B19-93C1-09861ADD2F82">
+											<AnimationSCEvent>
+												<animParam>0.66</animParam>
+												<name>move2</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+									</enableEvents>
+									<order>EnableThenDisable</order>
+									<restartComponent>true</restartComponent>
+								</EnableDisableSCEvents>
+							</events>
+							<id></id>
+							<locatorName></locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>15</attachFlags>
+							<component href="/Heroes/Trickster/S2/_.SOBJ" id="D411AFD7-A526-4A8F-821B-3B223032C282">
+								<DBSoundSceneComponent>
+									<attached />
+									<caption>sound_move2</caption>
+									<desc>
+										<eventName>Move</eventName>
+										<groupName>Heroes/Rockman/Animation</groupName>
+										<projectName>PF</projectName>
+									</desc>
+									<groupFlags>0</groupFlags>
+									<locatorList href="" />
+									<orientation>Default</orientation>
+									<timeInterval>0</timeInterval>
+								</DBSoundSceneComponent>
+							</component>
+							<events href="/Heroes/Trickster/S2/_.SOBJ" id="9D8E1483-0B9D-427F-ADC5-A1D8C3339A83">
+								<EnableDisableSCEvents>
+									<disableEvents />
+									<enableEvents>
+										<Item href="/Heroes/Trickster/S2/_.SOBJ" id="98B1FC03-40FE-49A8-A2C3-B6241FBB60A7">
+											<AnimationSCEvent>
+												<animParam>0.75</animParam>
+												<name>move2</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+									</enableEvents>
+									<order>EnableThenDisable</order>
+									<restartComponent>true</restartComponent>
+								</EnableDisableSCEvents>
+							</events>
+							<id></id>
+							<locatorName></locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>15</attachFlags>
+							<component href="/Heroes/Trickster/S2/_.SOBJ" id="07CA2A57-337B-47DB-95D0-2E112B914919">
+								<DBSoundSceneComponent>
+									<attached />
+									<caption>sound_move2</caption>
+									<desc>
+										<eventName>Move</eventName>
+										<groupName>Heroes/Rockman/Animation</groupName>
+										<projectName>PF</projectName>
+									</desc>
+									<groupFlags>0</groupFlags>
+									<locatorList href="" />
+									<orientation>Default</orientation>
+									<timeInterval>0</timeInterval>
+								</DBSoundSceneComponent>
+							</component>
+							<events href="/Heroes/Trickster/S2/_.SOBJ" id="3C3BD8CE-45A9-4539-98B7-F8325394ECDE">
+								<EnableDisableSCEvents>
+									<disableEvents />
+									<enableEvents>
+										<Item href="/Heroes/Trickster/S2/_.SOBJ" id="617DA4F5-C9EE-4D92-9B92-22265AD0BF37">
+											<AnimationSCEvent>
+												<animParam>0.83</animParam>
+												<name>move2</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+									</enableEvents>
+									<order>EnableThenDisable</order>
+									<restartComponent>true</restartComponent>
+								</EnableDisableSCEvents>
+							</events>
+							<id></id>
+							<locatorName></locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>15</attachFlags>
+							<component href="/Heroes/Trickster/S2/_.SOBJ" id="A6D5803F-097D-44FC-B983-E43F8129C006">
+								<DBSoundSceneComponent>
+									<attached />
+									<caption>sound_move2</caption>
+									<desc>
+										<eventName>Move</eventName>
+										<groupName>Heroes/Rockman/Animation</groupName>
+										<projectName>PF</projectName>
+									</desc>
+									<groupFlags>0</groupFlags>
+									<locatorList href="" />
+									<orientation>Default</orientation>
+									<timeInterval>0</timeInterval>
+								</DBSoundSceneComponent>
+							</component>
+							<events href="/Heroes/Trickster/S2/_.SOBJ" id="3CFD949E-4F67-40C6-A9F8-065794CFE448">
+								<EnableDisableSCEvents>
+									<disableEvents />
+									<enableEvents>
+										<Item href="/Heroes/Trickster/S2/_.SOBJ" id="BEC4E50B-F9DC-4BB4-B16C-D583AAC4A88F">
+											<AnimationSCEvent>
+												<animParam>0.9</animParam>
+												<name>move2</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+									</enableEvents>
+									<order>EnableThenDisable</order>
+									<restartComponent>true</restartComponent>
+								</EnableDisableSCEvents>
+							</events>
+							<id></id>
+							<locatorName></locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>15</attachFlags>
+							<component href="/Heroes/Trickster/S2/Effects/Debuffs/Burn/_PrimeHands.PRXY" />
+							<events href="/Heroes/Trickster/S2/_.SOBJ" id="76AB0D3A-8480-4725-926E-890237DCF0E9">
+								<EnableDisableSCEvents>
+									<disableEvents>
+										<Item href="/Heroes/Trickster/S2/_.SOBJ" id="4A499EBE-6643-4767-9FB6-93D5ACC340D3">
+											<AnimationSCEvent>
+												<animParam>0.5</animParam>
+												<name>attack1</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+										<Item href="/Heroes/Trickster/S2/_.SOBJ" id="F4A1A254-8E3A-4113-A517-8E3BDE0E759F">
+											<AnimationSCEvent>
+												<animParam>0.5</animParam>
+												<name>attack2</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+										<Item href="/Heroes/Trickster/S2/_.SOBJ" id="99A97D00-7373-4166-B9C5-A871A1D0510D">
+											<AnimationSCEvent>
+												<animParam>0.5</animParam>
+												<name>attack3</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+										<Item href="/Heroes/Trickster/S2/_.SOBJ" id="20E3A13E-2308-4E93-B11E-AFAD1FE8C68F">
+											<AnimationSCEvent>
+												<animParam>0.5</animParam>
+												<name>attack4</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+										<Item href="/Heroes/Trickster/S2/_.SOBJ" id="B685F911-9B1E-4DDC-872E-76F381DD14FA">
+											<AnimationSCEvent>
+												<animParam>0</animParam>
+												<name>ability4</name>
+												<probability>100</probability>
+												<type>NodeLeave</type>
+											</AnimationSCEvent>
+										</Item>
+										<Item href="/Heroes/Trickster/S2/_.SOBJ" id="256096ED-5536-44DF-AE60-457CDAAAFD8C">
+											<AnimationSCEvent>
+												<animParam>0</animParam>
+												<name>ability4_2</name>
+												<probability>100</probability>
+												<type>NodeLeave</type>
+											</AnimationSCEvent>
+										</Item>
+										<Item href="/Heroes/Trickster/S2/_.SOBJ" id="20720176-7AEA-4D29-943F-0CC26EBDA38E">
+											<AnimationSCEvent>
+												<animParam>0.5</animParam>
+												<name>attack1</name>
+												<probability>100</probability>
+												<type>NodeLeave</type>
+											</AnimationSCEvent>
+										</Item>
+										<Item href="/Heroes/Trickster/S2/_.SOBJ" id="A59BC90B-0232-4D9B-94B9-43EDA5BCC5E9">
+											<AnimationSCEvent>
+												<animParam>0.5</animParam>
+												<name>attack2</name>
+												<probability>100</probability>
+												<type>NodeLeave</type>
+											</AnimationSCEvent>
+										</Item>
+										<Item href="/Heroes/Trickster/S2/_.SOBJ" id="F4EF16BC-DA3E-45CE-B557-6650078C0044">
+											<AnimationSCEvent>
+												<animParam>0</animParam>
+												<name>attack3</name>
+												<probability>100</probability>
+												<type>NodeLeave</type>
+											</AnimationSCEvent>
+										</Item>
+										<Item href="/Heroes/Trickster/S2/_.SOBJ" id="B85E01A5-88E3-46B7-8FC6-8DC7411FEC2C">
+											<AnimationSCEvent>
+												<animParam>0</animParam>
+												<name>attack4</name>
+												<probability>100</probability>
+												<type>NodeLeave</type>
+											</AnimationSCEvent>
+										</Item>
+									</disableEvents>
+									<enableEvents>
+										<Item href="/Heroes/Trickster/S2/_.SOBJ" id="77A11669-D1CA-4CAB-A197-BBACB9D05360">
+											<AnimationSCEvent>
+												<animParam>0</animParam>
+												<name>attack1</name>
+												<probability>100</probability>
+												<type>NodeEnter</type>
+											</AnimationSCEvent>
+										</Item>
+										<Item href="/Heroes/Trickster/S2/_.SOBJ" id="F09DC743-CE16-423A-A3A6-5B40D68E4FEE">
+											<AnimationSCEvent>
+												<animParam>0</animParam>
+												<name>attack2</name>
+												<probability>100</probability>
+												<type>NodeEnter</type>
+											</AnimationSCEvent>
+										</Item>
+										<Item href="/Heroes/Trickster/S2/_.SOBJ" id="DC95940A-969A-4C94-8293-2ADB0BCE2A2A">
+											<AnimationSCEvent>
+												<animParam>0</animParam>
+												<name>attack3</name>
+												<probability>100</probability>
+												<type>NodeEnter</type>
+											</AnimationSCEvent>
+										</Item>
+										<Item href="/Heroes/Trickster/S2/_.SOBJ" id="3B3E8D54-BE53-44B8-A985-E62882F3AD90">
+											<AnimationSCEvent>
+												<animParam>0</animParam>
+												<name>attack4</name>
+												<probability>100</probability>
+												<type>NodeEnter</type>
+											</AnimationSCEvent>
+										</Item>
+										<Item href="/Heroes/Trickster/S2/_.SOBJ" id="CE879FFE-62D0-4A88-AAF2-3338F7F93062">
+											<AnimationSCEvent>
+												<animParam>0.08</animParam>
+												<name>ability4</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+										<Item href="/Heroes/Trickster/S2/_.SOBJ" id="D855E627-6211-4A40-991A-0AD273F146E7">
+											<AnimationSCEvent>
+												<animParam>0</animParam>
+												<name>ability4_2</name>
+												<probability>100</probability>
+												<type>NodeEnter</type>
+											</AnimationSCEvent>
+										</Item>
+									</enableEvents>
+									<order>EnableThenDisable</order>
+									<restartComponent>true</restartComponent>
+								</EnableDisableSCEvents>
+							</events>
+							<id></id>
+							<locatorName>Attack</locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0.2</y>
+									<z>-0.1</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>0.4</x>
+									<y>0.4</y>
+									<z>0.4</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>15</attachFlags>
+							<component href="/Heroes/Trickster/S2/Effects/Debuffs/Burn/_PrimeHands.PRXY" />
+							<events href="/Heroes/Trickster/S2/_.SOBJ" id="91FAC3FF-57C1-473F-9A48-85B542F2B884">
+								<EnableDisableSCEvents>
+									<disableEvents>
+										<Item href="/Heroes/Trickster/S2/_.SOBJ" id="5E96B544-6D88-447C-8812-6F1FD08CB0ED">
+											<AnimationSCEvent>
+												<animParam>0.5</animParam>
+												<name>attack3</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+										<Item href="/Heroes/Trickster/S2/_.SOBJ" id="566A60F9-E868-4EF5-9A8B-E4DF34838247">
+											<AnimationSCEvent>
+												<animParam>0.5</animParam>
+												<name>attack3</name>
+												<probability>100</probability>
+												<type>NodeLeave</type>
+											</AnimationSCEvent>
+										</Item>
+										<Item href="/Heroes/Trickster/S2/_.SOBJ" id="F1533357-55B0-4F87-A414-FFD2A2A2F6A7">
+											<AnimationSCEvent>
+												<animParam>0</animParam>
+												<name>ability4</name>
+												<probability>100</probability>
+												<type>NodeLeave</type>
+											</AnimationSCEvent>
+										</Item>
+										<Item href="/Heroes/Trickster/S2/_.SOBJ" id="28B84279-913F-41FD-BC83-514651A3183E">
+											<AnimationSCEvent>
+												<animParam>0</animParam>
+												<name>ability4_2</name>
+												<probability>100</probability>
+												<type>NodeLeave</type>
+											</AnimationSCEvent>
+										</Item>
+									</disableEvents>
+									<enableEvents>
+										<Item href="/Heroes/Trickster/S2/_.SOBJ" id="A39010B1-9C13-4E03-A5B8-A0149CA45876">
+											<AnimationSCEvent>
+												<animParam>0</animParam>
+												<name>attack3</name>
+												<probability>100</probability>
+												<type>NodeEnter</type>
+											</AnimationSCEvent>
+										</Item>
+										<Item href="/Heroes/Trickster/S2/_.SOBJ" id="F03DBEC3-8684-4A95-9E81-05AF095F2870">
+											<AnimationSCEvent>
+												<animParam>0.08</animParam>
+												<name>ability4</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+										<Item href="/Heroes/Trickster/S2/_.SOBJ" id="92E2807D-F2B1-4F84-BE8F-255BCAF94F37">
+											<AnimationSCEvent>
+												<animParam>0</animParam>
+												<name>ability4_2</name>
+												<probability>100</probability>
+												<type>NodeEnter</type>
+											</AnimationSCEvent>
+										</Item>
+									</enableEvents>
+									<order>EnableThenDisable</order>
+									<restartComponent>true</restartComponent>
+								</EnableDisableSCEvents>
+							</events>
+							<id></id>
+							<locatorName>RightHand</locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0.2</y>
+									<z>-0.1</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>0.4</x>
+									<y>0.4</y>
+									<z>0.4</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>15</attachFlags>
+							<component href="/Heroes/Trickster/S2/FXAbility4_Prime.PRXY" />
+							<events href="/Heroes/Trickster/S2/_.SOBJ" id="70164EC2-8AD6-4983-A1DD-29EAA63D6B95">
+								<EnableDisableSCEvents>
+									<disableEvents>
+										<Item href="/Heroes/Trickster/S2/_.SOBJ" id="08F4DA14-2990-485B-A271-8771AFF37351">
+											<AnimationSCEvent>
+												<animParam>0</animParam>
+												<name>ability4</name>
+												<probability>100</probability>
+												<type>NodeLeave</type>
+											</AnimationSCEvent>
+										</Item>
+									</disableEvents>
+									<enableEvents>
+										<Item href="/Heroes/Trickster/S2/_.SOBJ" id="8D163C87-8B52-4F89-B4D3-2082BBAD9402">
+											<AnimationSCEvent>
+												<animParam>0.08</animParam>
+												<name>ability4</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+									</enableEvents>
+									<order>EnableThenDisable</order>
+									<restartComponent>true</restartComponent>
+								</EnableDisableSCEvents>
+							</events>
+							<id></id>
+							<locatorName>HornL</locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>0.5</x>
+									<y>0.5</y>
+									<z>0.5</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>15</attachFlags>
+							<component href="/Heroes/Trickster/S2/FXAbility4_Prime.PRXY" />
+							<events href="/Heroes/Trickster/S2/_.SOBJ" id="F92627E8-5868-4FEB-AEC9-5547F71B5852">
+								<EnableDisableSCEvents>
+									<disableEvents>
+										<Item href="/Heroes/Trickster/S2/_.SOBJ" id="4676599F-816F-402B-B8D6-01004F729D27">
+											<AnimationSCEvent>
+												<animParam>0</animParam>
+												<name>ability4</name>
+												<probability>100</probability>
+												<type>NodeLeave</type>
+											</AnimationSCEvent>
+										</Item>
+									</disableEvents>
+									<enableEvents>
+										<Item href="/Heroes/Trickster/S2/_.SOBJ" id="30E9EC6B-BDE8-4C73-BF76-BCD60BFB9E10">
+											<AnimationSCEvent>
+												<animParam>0.08</animParam>
+												<name>ability4</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+									</enableEvents>
+									<order>EnableThenDisable</order>
+									<restartComponent>true</restartComponent>
+								</EnableDisableSCEvents>
+							</events>
+							<id></id>
+							<locatorName>HornR</locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>0.5</x>
+									<y>0.5</y>
+									<z>0.5</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+						<Item>
+							<attachFlags>15</attachFlags>
+							<component href="/Heroes/Trickster/S2/_.SOBJ" id="BF31AF79-6533-4C63-A01B-FB7FEACBCD55">
+								<DBSoundSceneComponent>
+									<attached />
+									<caption>sound</caption>
+									<desc>
+										<eventName>FireballBall</eventName>
+										<groupName>Heroes/Magic_Girl/Animations</groupName>
+										<projectName>PF</projectName>
+									</desc>
+									<groupFlags>0</groupFlags>
+									<locatorList href="" />
+									<orientation>Default</orientation>
+									<timeInterval>0</timeInterval>
+								</DBSoundSceneComponent>
+							</component>
+							<events href="/Heroes/Trickster/S2/_.SOBJ" id="2F18E6AE-31B6-4217-8EDF-D405174D556C">
+								<EnableDisableSCEvents>
+									<disableEvents>
+										<Item href="/Heroes/Trickster/S2/_.SOBJ" id="50703C2F-43EC-4FA3-BF93-6B7812F98E2C">
+											<AnimationSCEvent>
+												<animParam>0</animParam>
+												<name>ability4</name>
+												<probability>100</probability>
+												<type>NodeLeave</type>
+											</AnimationSCEvent>
+										</Item>
+									</disableEvents>
+									<enableEvents>
+										<Item href="/Heroes/Trickster/S2/_.SOBJ" id="7FEABD77-EB75-491C-ACE4-E76CFBC08ED6">
+											<AnimationSCEvent>
+												<animParam>0.08</animParam>
+												<name>ability4</name>
+												<probability>100</probability>
+												<type>NodeParam</type>
+											</AnimationSCEvent>
+										</Item>
+									</enableEvents>
+									<order>EnableThenDisable</order>
+									<restartComponent>true</restartComponent>
+								</EnableDisableSCEvents>
+							</events>
+							<id></id>
+							<locatorName></locatorName>
+							<placement>
+								<pos>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</pos>
+								<rot>
+									<w>1</w>
+									<x>0</x>
+									<y>0</y>
+									<z>0</z>
+								</rot>
+								<scale>
+									<x>1</x>
+									<y>1</y>
+									<z>1</z>
+								</scale>
+							</placement>
+							<timeController href="" />
+						</Item>
+					</attached>
+					<caption>Triskter</caption>
+					<faceFXAnims />
+					<groupFlags>4</groupFlags>
+					<keys />
+					<locatorList href="/Heroes/Trickster/S2/_.LOLS" />
+					<mayaFileName>/Heroes/Trickster/S2/_root.mayaSkel</mayaFileName>
+					<orientation>Default</orientation>
+					<selection>root</selection>
+					<skeletonFileName>/Heroes/Trickster/S2/_root.skel</skeletonFileName>
+					<skinOn />
+					<skins>
+						<Item>
+							<events href="" />
+							<geometryFileName>/Heroes/Trickster/S2/_Triskter.skin</geometryFileName>
+							<jointsCountPerVertex>4</jointsCountPerVertex>
+							<materialsReferences>
+								<Item href="/Heroes/Trickster/S2/_.MTRL" />
+							</materialsReferences>
+							<mayaFileName>/Heroes/Trickster/S2/_Triskter.mayaSkin</mayaFileName>
+							<selection>Triskter</selection>
+							<skinPartName>Triskter</skinPartName>
+							<srcFileName crc="0">/Heroes/Trickster/S2/_.mb</srcFileName>
+							<uvSetCount>1</uvSetCount>
+						</Item>
+					</skins>
+					<splitBoneName></splitBoneName>
+					<srcFileName crc="0">/Heroes/Trickster/S2/_.mb</srcFileName>
+				</DBAnimatedSceneComponent>
+			</component>
+			<events href="" />
+			<id></id>
+			<locatorName></locatorName>
+			<placement>
+				<pos>
+					<x>0</x>
+					<y>0</y>
+					<z>0</z>
+				</pos>
+				<rot>
+					<w>1</w>
+					<x>0</x>
+					<y>0</y>
+					<z>0</z>
+				</rot>
+				<scale>
+					<x>0.8</x>
+					<y>0.8</y>
+					<z>0.8</z>
+				</scale>
+			</placement>
+			<timeController href="" />
+		</Item>
+	</attached>
+	<collisionGeometry href="" />
+	<ignoreAttachesToNonDefaultLocators>false</ignoreAttachesToNonDefaultLocators>
+	<tracksList href="" />
+</DBSceneObject>

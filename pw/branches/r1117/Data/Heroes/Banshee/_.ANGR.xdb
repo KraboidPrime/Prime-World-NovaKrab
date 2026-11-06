@@ -2,7 +2,6 @@
 <AnimGraphCreator>
 	<BackLink DBID="/Heroes/Banshee/_.SOBJ" Count="1" />
 	<BackLink DBID="/Heroes/Banshee/S1/_.SOBJ" Count="1" />
-	<BackLink DBID="/Heroes/Banshee/S3/_.SOBJ" Count="1" />
 	<defaultNode>idle</defaultNode>
 	<macroNodes>
 		<Item>
@@ -4230,24 +4229,115 @@
 		</Item>
 		<Item>
 			<markers />
-			<nextNode>unsummoned</nextNode>
+			<nextNode>idle</nextNode>
 			<nodeName>unsummoned</nodeName>
 			<nodeType>Normal</nodeType>
-			<posX>-251</posX>
-			<posY>408</posY>
+			<posX>-253</posX>
+			<posY>431</posY>
 			<sequenceName>happy</sequenceName>
-			<simpleTransactions />
+			<simpleTransactions>
+				<Item>
+					<parameters>
+						<blending>PoseToAnim</blending>
+						<duration>0.1</duration>
+						<fromMax>
+							<coeffs />
+							<value>1</value>
+						</fromMax>
+						<fromMin>
+							<coeffs />
+							<value>0</value>
+						</fromMin>
+						<kind>Uniform</kind>
+						<markers />
+						<parA>
+							<coeffs />
+							<value>0</value>
+						</parA>
+						<parB>
+							<coeffs />
+							<value>0</value>
+						</parB>
+						<toParam>
+							<coeffs />
+							<value>0</value>
+						</toParam>
+					</parameters>
+					<probability>0</probability>
+					<targetNode>idle</targetNode>
+				</Item>
+				<Item>
+					<parameters>
+						<blending>PoseToAnim</blending>
+						<duration>0.1</duration>
+						<fromMax>
+							<coeffs />
+							<value>1</value>
+						</fromMax>
+						<fromMin>
+							<coeffs />
+							<value>0</value>
+						</fromMin>
+						<kind>Uniform</kind>
+						<markers />
+						<parA>
+							<coeffs />
+							<value>0</value>
+						</parA>
+						<parB>
+							<coeffs />
+							<value>0</value>
+						</parB>
+						<toParam>
+							<coeffs />
+							<value>0</value>
+						</toParam>
+					</parameters>
+					<probability>0</probability>
+					<targetNode>attack</targetNode>
+				</Item>
+				<Item>
+					<parameters>
+						<blending>PoseToAnim</blending>
+						<duration>0.1</duration>
+						<fromMax>
+							<coeffs />
+							<value>1</value>
+						</fromMax>
+						<fromMin>
+							<coeffs />
+							<value>0</value>
+						</fromMin>
+						<kind>Uniform</kind>
+						<markers />
+						<parA>
+							<coeffs />
+							<value>0</value>
+						</parA>
+						<parB>
+							<coeffs />
+							<value>0</value>
+						</parB>
+						<toParam>
+							<coeffs />
+							<value>0</value>
+						</toParam>
+					</parameters>
+					<probability>0</probability>
+					<targetNode>move</targetNode>
+				</Item>
+			</simpleTransactions>
 			<speed>
 				<coeffs />
 				<value>1</value>
 			</speed>
 			<startPar>
 				<coeffs />
-				<value>0.3333333</value>
+				<value>0.3335</value>
 			</startPar>
 			<stopPar>
 				<coeffs />
-				<value>0.3333333</value>
+				<value>0.3335</value>
 			</stopPar>
 			<surfSpeedX>0</surfSpeedX>
 			<surfSpeedY>0</surfSpeedY>

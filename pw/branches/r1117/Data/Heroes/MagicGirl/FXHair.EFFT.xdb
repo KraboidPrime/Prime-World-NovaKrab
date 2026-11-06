@@ -6,7 +6,16 @@
 	<attachType>Head</attachType>
 	<component href="/Heroes/MagicGirl/FXHair.PRXY" />
 	<deathType>Manual</deathType>
-	<enableCondition href="" />
+	<enableCondition href="/Heroes/MagicGirl/FXHair.EFFT" id="C9BB490C-48AB-4816-BCDB-AB1431E3F874">
+		<ConditionFormula>
+			<condition>
+				<compiledString>FQ0AAAABAAAAEQAAAG1hZ2ljZ2lybF9TMgBVi+xoAAAAAItFCIsQi00Ii4LoAQAA/9APtsD32BvAg8ABXcM=</compiledString>
+				<returnType>bool</returnType>
+				<sString>!sender.IsSkinUsed( "magicgirl_S2" )</sString>
+			</condition>
+			<name></name>
+		</ConditionFormula>
+	</enableCondition>
 	<fadeIn>0</fadeIn>
 	<fadeOut>0</fadeOut>
 	<groupFlags>0</groupFlags>

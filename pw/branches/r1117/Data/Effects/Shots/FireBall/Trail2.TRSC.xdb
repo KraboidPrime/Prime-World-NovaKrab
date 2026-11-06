@@ -5,13 +5,13 @@
 	<attached />
 	<caption>Trail2</caption>
 	<colorFirst>
-		<A>1</A>
+		<A>0.7</A>
 		<B>0</B>
 		<G>1</G>
 		<R>1</R>
 	</colorFirst>
 	<colorLast>
-		<A>1</A>
+		<A>0.7</A>
 		<B>0.02745098</B>
 		<G>0.05098039</G>
 		<R>0.8862745</R>

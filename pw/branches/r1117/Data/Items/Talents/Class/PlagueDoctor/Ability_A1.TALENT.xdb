@@ -220,7 +220,7 @@
 								<lifeTime>
 									<compiledString>FQAAAAABAAAABQAAAFWL7NkFCwAAAF3DzcxMPg==</compiledString>
 									<returnType>float</returnType>
-									<sString>0.2</sString>
+									<sString>0.2f</sString>
 								</lifeTime>
 								<LoggingEvent>-1</LoggingEvent>
 								<playAck>false</playAck>
@@ -252,7 +252,7 @@
 							<returnType>bool</returnType>
 							<sString>0</sString>
 						</continueCondition>
-						<continueEvents>1</continueEvents>
+						<continueEvents>2</continueEvents>
 						<delay>
 							<compiledString></compiledString>
 							<returnType>float</returnType>
